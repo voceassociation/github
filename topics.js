@@ -249,9 +249,9 @@ source:"VOCE Research comprende lavori formali sulla technoference parentale e s
 };
 
 const COMMON={
-en:{themes:"Themes",publications:"Publications",committee:"Committee",about:"About",linkedin:"LinkedIn",research:"Research pathway",controls:"Control framework"},
-fr:{themes:"Thèmes",publications:"Publications",committee:"Comité",about:"À propos",linkedin:"LinkedIn",research:"Parcours de recherche",controls:"Cadre de contrôle"},
-it:{themes:"Temi",publications:"Pubblicazioni",committee:"Comitato",about:"Chi siamo",linkedin:"LinkedIn",research:"Percorso di ricerca",controls:"Quadro di controllo"}
+en:{themes:"Themes",publications:"Publications",committee:"Committee",about:"About",linkedin:"LinkedIn",research:"Research",controls:"Control framework",standards:"Governance & Standards",contact:"Contact",institution:"Institution",work:"Work",ai:"AI Governance",sovereignty:"Sovereignty"},
+fr:{themes:"Thèmes",publications:"Publications",committee:"Comité",about:"À propos",linkedin:"LinkedIn",research:"Research",controls:"Cadre de contrôle",standards:"Gouvernance & standards",contact:"Contact",institution:"Institution",work:"Travail",ai:"Gouvernance de l’IA",sovereignty:"Souveraineté"},
+it:{themes:"Temi",publications:"Pubblicazioni",committee:"Comitato",about:"Chi siamo",linkedin:"LinkedIn",research:"Research",controls:"Quadro di controllo",standards:"Governance & standard",contact:"Contatti",institution:"Istituzione",work:"Lavoro",ai:"Governance dell’IA",sovereignty:"Sovranità"}
 };
 
 function mark(){
@@ -286,6 +286,17 @@ function renderTopic(l){
  document.querySelector("#philo-title").textContent=d.philoTitle;
  document.querySelector("#philo").textContent=d.philo;
  document.querySelector("#back").textContent=d.back;
+ if(document.querySelector("#f-inst")){
+   document.querySelector("#f-inst").textContent=c.institution;
+   document.querySelector("#f-work").textContent=c.work;
+   document.querySelector("#f-about").textContent=c.about;
+   document.querySelector("#f-standards").textContent=c.standards;
+   document.querySelector("#f-contact").textContent=c.contact;
+   document.querySelector("#f-research").textContent=c.research;
+   document.querySelector("#f-ai").textContent=c.ai;
+   document.querySelector("#f-pubs").textContent=c.publications;
+   document.querySelector("#f-sovereignty").textContent=c.sovereignty;
+ }
 }
 document.addEventListener("DOMContentLoaded",()=>{
  document.querySelectorAll("[data-lang]").forEach(b=>b.addEventListener("click",()=>setLang(b.dataset.lang)));
