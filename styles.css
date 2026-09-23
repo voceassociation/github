@@ -96,7 +96,6 @@ footer{padding:54px 0 30px;border-top:1px solid var(--line)}
 .footer-right{text-align:right;font-size:.77rem;color:var(--muted)}
 .footer-right div+div{margin-top:5px}
 .footer-right a{border-bottom:1px solid var(--line)}
-.preview{position:fixed;right:12px;bottom:12px;padding:6px 8px;border:1px solid var(--line);background:rgba(251,250,246,.95);font-size:.56rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 @media(max-width:1020px){
   .menu a:not(.keep){display:none}
   .hero-grid,.section-grid,.topic-layout,.controcanto-grid{grid-template-columns:1fr}
