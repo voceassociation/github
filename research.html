@@ -8,25 +8,26 @@
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to content</a>
 <header>
   <div class="wrap nav">
     <a class="voce-mark" href="/" aria-label="VOCE"><span></span></a>
-    <nav class="menu">
-      <a href="/research.html" data-nav-research>Research</a>
-      <a href="/standards.html" data-nav-standards>Standards</a>
-      <a href="/publications.html" data-nav-publications>Publications</a>
-      <a class="keep" href="/about.html" data-nav-about>About</a>
-      <span class="lang"><button data-lang="en">EN</button><button data-lang="fr">FR</button><button data-lang="it">IT</button></span>
+    <nav class="menu" aria-label="Primary navigation">
+      <a href="/research" data-nav-research>Research</a>
+      <a href="/standards" data-nav-standards>Standards</a>
+      <a href="/publications" data-nav-publications>Publications</a>
+      <a class="keep" href="/about" data-nav-about>About</a>
+      <span class="lang" role="group" aria-label="Language"><button data-lang="en">EN</button><button data-lang="fr">FR</button><button data-lang="it">IT</button></span>
     </nav>
   </div>
 </header>
-<main>
+<main id="main-content">
 <section class="topic-hero">
   <div class="wrap">
-    <div class="topic-kicker" id="page-kicker"></div>
-    <h1 class="topic-title" id="page-title"></h1>
-    <p class="topic-deck" id="page-deck"></p>
-    <div class="topic-meta" id="page-meta"></div>
+    <div class="topic-kicker" id="page-kicker">VOCE Research</div>
+    <h1 class="topic-title" id="page-title">Research that moves from mechanism to human consequence.</h1>
+    <p class="topic-deck" id="page-deck">VOCE distinguishes formal research, applied research and editorial intelligence while allowing them to inform one another.</p>
+    <div class="topic-meta" id="page-meta"><span>Digital environments</span><span>AI &amp; work</span><span>Health</span><span>Culture</span><span>Human behaviour</span></div>
     
   </div>
 </section>
@@ -34,21 +35,21 @@
   <div class="wrap topic-layout">
     <aside class="topic-nav">
       <div class="topic-nav-label">VOCE</div>
-      <a id="side-about" href="/about.html">About</a>
-      <a id="side-research" href="/research.html">Research</a>
-      <a id="side-standards" href="/standards.html">Governance & Standards</a>
-      <a id="side-publications" href="/publications.html">Publications</a>
-      <a id="side-contact" href="/contact.html">Contact</a>
+      <a id="side-about" href="/about">About</a>
+      <a id="side-research" href="/research">Research</a>
+      <a id="side-standards" href="/standards">Governance & Standards</a>
+      <a id="side-publications" href="/publications">Publications</a>
+      <a id="side-contact" href="/contact">Contact</a>
     </aside>
-    <div class="longform" id="sections"></div>
+    <div class="longform" id="sections"><section class="chapter"><div class="chapter-no">01</div><h2>Formal research</h2><p>Formal research outputs use stable authorship, references, versioning and persistent identifiers where appropriate. Current work includes parental technoference and early language development, and the relationship between continuous digital stimulation and inner thinking.</p><p>The purpose is not volume. It is to create a small body of work whose method and claims can be inspected.</p></section><section class="chapter"><div class="chapter-no">02</div><h2>Applied research</h2><p>Applied research follows mechanisms into operating environments. In AI governance, that means moving beyond model benchmarks to permissions, agents, RAG, tools, security, observability, FinOps and human accountability. In work, it means examining how agents change task architecture, productivity, apprenticeship and expertise.</p><p>In health and human behaviour, it means connecting biomarkers, diagnostics, attention, memory, relationships, platform design and lived experience without confusing public analysis with clinical care.</p></section><section class="chapter"><div class="chapter-no">03</div><h2>Editorial intelligence</h2><p>VOCE’s editorial work is a research interface. It translates recent studies, technical systems, infrastructures and institutional changes into compact analysis without turning them into simplified news.</p><p>The recurring editorial test is: “I knew the subject, but not this.” The value lies in exposing a mechanism or detail that changes the reader’s mental model.</p></section><section class="chapter"><div class="chapter-no">04</div><h2>COURS VOCE®</h2><p>COURS VOCE® is the explanatory layer. A course isolates one mechanism, defines the architecture, names the relevant metrics or controls, and shows how the subject connects to a wider system.</p><p>The format is deliberately compact. It is designed to be useful to readers who need more than a headline but less than a full academic paper.</p></section><section class="chapter"><div class="chapter-no">05</div><h2>Research geography</h2><p>VOCE’s research is informed by different operating ecosystems. Europe provides dense regulatory and institutional contexts. Dubai provides a Gulf perspective shaped by infrastructure and rapid adoption. Hangzhou, Shanghai and Hong Kong expose different Chinese technology, commercial, industrial and financial systems.</p><p>Comparison is used to test assumptions, not to manufacture superficial internationalism.</p></section><section class="chapter"><div class="chapter-no">06</div><h2>Research agenda</h2><p>The current agenda spans AI governance, sovereignty and orchestration, light workforce, technoference, cognition, attention, memory, health and medicine, education, culture, heritage, infrastructure and the changing relationship between people and machines.</p><p>These are not independent verticals. VOCE treats them as interacting layers of one contemporary system.</p></section></div>
   </div>
 </section>
 <section class="section">
   <div class="wrap section-grid">
     <div class="eyebrow">VOCE</div>
     <div>
-      <h2 class="display" id="links-title"></h2>
-      <div class="link-rows" id="links"></div>
+      <h2 class="display" id="links-title">Explore the research</h2>
+      <div class="link-rows" id="links"><a class="link-row" href="/governance"><div class="label">Continue</div><div><h3>AI Governance</h3><p>Agents, RAG, permissions, orchestration, security and accountability.</p></div><div class="go">Open</div></a><a class="link-row" href="/sovereignty"><div class="label">Continue</div><div><h3>Sovereignty</h3><p>Open models, cognitive supply chains and strategic switching capacity.</p></div><div class="go">Open</div></a><a class="link-row" href="/light-workforce"><div class="label">Continue</div><div><h3>Light workforce</h3><p>Automation, productivity, apprenticeship and expertise.</p></div><div class="go">Open</div></a><a class="link-row" href="/technoference"><div class="label">Continue</div><div><h3>Technoference</h3><p>Attention, language, memory, relationships and digital interruption.</p></div><div class="go">Open</div></a></div>
     </div>
   </div>
 </section>
@@ -59,13 +60,13 @@
       <a class="voce-mark" href="/" aria-label="VOCE"><span></span></a>
       <div class="footer-right">
         <div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div>
-        <div><a href="https://fr.linkedin.com/in/voce-association-0030763b6" target="_blank" rel="noopener">LinkedIn</a> · contact@voce.life · © 2026 VOCE Association</div>
+        <div><a href="https://fr.linkedin.com/in/voce-association-0030763b6" target="_blank" rel="noopener">LinkedIn</a> · <a href="mailto:contact@voce.life">contact@voce.life</a> · © 2026 VOCE Association</div>
       </div>
     </div>
     <div class="footer-nav">
-      <div><h4 id="f-inst">Institution</h4><a id="f-about" href="/about.html">About</a><a id="f-standards" href="/standards.html">Governance & Standards</a><a id="f-contact" href="/contact.html">Contact</a></div>
-      <div><h4 id="f-work">Work</h4><a id="f-research" href="/research.html">Research</a><a id="f-ai" href="/governance.html">AI Governance</a><a id="f-pubs" href="/publications.html">Publications</a></div>
-      <div><h4>VOCE</h4><a href="/sovereignty.html">Sovereignty</a><a href="/light-workforce.html">Light workforce</a><a href="/technoference.html">Technoference</a></div>
+      <div><h4 id="f-inst">Institution</h4><a id="f-about" href="/about">About</a><a id="f-standards" href="/standards">Governance & Standards</a><a id="f-contact" href="/contact">Contact</a></div>
+      <div><h4 id="f-work">Work</h4><a id="f-research" href="/research">Research</a><a id="f-ai" href="/governance">AI Governance</a><a id="f-pubs" href="/publications">Publications</a></div>
+      <div><h4>VOCE</h4><a href="/sovereignty">Sovereignty</a><a href="/light-workforce">Light workforce</a><a href="/technoference">Technoference</a></div>
     </div>
   </div>
 </footer>
