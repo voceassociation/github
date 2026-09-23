@@ -1,3 +1,0 @@
-VOCE preview deployment trigger
-trigger after production branch switch
-force latest VOCE rebuild after design regression
