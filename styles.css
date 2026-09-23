@@ -159,3 +159,11 @@ footer{padding:54px 0 30px;border-top:1px solid var(--line)}
   font-family:var(--sans);
   font-weight:600;
 }
+
+.skip-link{position:fixed;left:18px;top:14px;z-index:9999;padding:10px 14px;background:var(--forest);color:var(--paper);font-family:var(--sans);font-size:.78rem;font-weight:600;letter-spacing:.04em;transform:translateY(-160%);transition:transform .18s ease}
+.skip-link:focus{transform:translateY(0)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--forest);outline-offset:4px;border-radius:2px}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}
+}
