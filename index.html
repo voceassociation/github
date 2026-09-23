@@ -3,211 +3,286 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>VOCE — Preview</title>
-<meta name="description" content="VOCE examines the systems reshaping human life: intelligence, technology, health, culture and behaviour.">
-<meta name="theme-color" content="#f2efe7">
+<title>VOCE — Research, Culture, Intelligence</title>
+<meta name="description" content="VOCE is an independent French non-profit exploring artificial intelligence, human behaviour, technology, health and culture.">
+<meta name="theme-color" content="#fbfaf6">
 <style>
 :root{
-  --ivory:#f2efe7;--paper:#f6f3ec;--green:#214238;--green2:#31584d;
-  --ink:#171c19;--muted:#70766f;--line:rgba(33,66,56,.22);
-  --max:1320px;--serif:"Iowan Old Style","Baskerville","Times New Roman",serif;
-  --sans:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif
+  --bg:#fbfaf6;
+  --ink:#171a18;
+  --green:#153f34;
+  --muted:#6f736f;
+  --line:#d9d8d1;
+  --max:1280px;
+  --serif:"Iowan Old Style","Baskerville","Times New Roman",serif;
+  --sans:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth;background:var(--ivory)}
-body{margin:0;background:var(--ivory);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
-body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:999;opacity:.14;background-image:radial-gradient(rgba(33,66,56,.18) .35px,transparent .35px);background-size:6px 6px;mix-blend-mode:multiply}
+html{scroll-behavior:smooth;background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.62;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
-.container{width:min(calc(100% - 48px),var(--max));margin:0 auto}
-.kicker{font-size:.69rem;letter-spacing:.19em;text-transform:uppercase;color:var(--green);font-weight:700}
-header{position:sticky;top:0;z-index:100;background:rgba(242,239,231,.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(33,66,56,.12)}
-.nav{height:86px;display:flex;align-items:center;justify-content:space-between;gap:28px}
-.brand{font-family:var(--serif);font-size:2rem;letter-spacing:.12em;color:var(--green);line-height:1}
-.links{display:flex;align-items:center;gap:24px;font-size:.74rem;letter-spacing:.085em;text-transform:uppercase}
-.links a{position:relative;padding:10px 0}
-.links a:after{content:"";position:absolute;left:0;right:100%;bottom:4px;height:1px;background:var(--green);transition:right .25s ease}
-.links a:hover:after{right:0}
-.lang{display:flex;gap:8px;margin-left:8px;padding-left:18px;border-left:1px solid var(--line)}
-.lang button{border:0;background:none;padding:5px 2px;font:inherit;font-size:.68rem;letter-spacing:.08em;color:var(--muted);cursor:pointer}
+.wrap{width:min(calc(100% - 54px),var(--max));margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(251,250,246,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+.wordmark{display:flex;align-items:center;gap:.02em;font-family:var(--serif);font-size:2.15rem;letter-spacing:.055em;color:var(--green);line-height:1}
+.sound-o{position:relative;width:.83em;height:.83em;border:1.8px solid currentColor;border-radius:50%;display:inline-block;margin:.02em .04em 0 .02em}
+.sound-o i{position:absolute;display:block;height:1.4px;background:currentColor;transform-origin:left center;left:33%;top:50%;border-radius:2px}
+.sound-o i:nth-child(1){width:24%;transform:translateY(-.26em) rotate(-43deg)}
+.sound-o i:nth-child(2){width:31%;transform:translateY(-.03em) rotate(0deg)}
+.sound-o i:nth-child(3){width:24%;transform:translateY(.20em) rotate(37deg)}
+.menu{display:flex;align-items:center;gap:25px;font-size:.72rem;text-transform:uppercase;letter-spacing:.11em}
+.menu a{padding:10px 0}
+.menu a:hover{color:var(--green)}
+.lang{display:flex;gap:8px;margin-left:6px;padding-left:18px;border-left:1px solid var(--line)}
+.lang button{border:0;background:none;color:var(--muted);font:inherit;font-size:.67rem;letter-spacing:.08em;cursor:pointer;padding:4px 0}
 .lang button.active{color:var(--green);font-weight:700}
-.hero{padding:82px 0 64px;min-height:74vh;display:grid;align-items:end}
-.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:72px;align-items:end}
-.hero h1{font-family:var(--serif);font-weight:400;letter-spacing:-.045em;line-height:.91;font-size:clamp(5rem,14vw,12.5rem);margin:0;color:var(--green);white-space:nowrap}
-.hero-side{padding-bottom:17px}
-.tagline{font-family:var(--serif);font-size:clamp(1.6rem,3vw,2.8rem);line-height:1.06;margin:0 0 30px}
-.hero-side p{max-width:520px;font-size:1.03rem;color:#39433f;margin:0}
-.hero-meta{margin-top:56px;display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:17px;font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
-.section{padding:112px 0;border-top:1px solid var(--line)}
-.section-head{display:grid;grid-template-columns:.65fr 1.35fr;gap:60px;margin-bottom:64px}
-.section-head h2,.feature h2{font-family:var(--serif);font-weight:400;letter-spacing:-.04em;line-height:.96;margin:0;color:var(--green)}
-.section-head h2{font-size:clamp(2.4rem,5vw,5.4rem)}
-.section-head p{max-width:680px;margin:8px 0 0;color:#3f4844;font-size:1.05rem}
-.fields{display:grid;grid-template-columns:repeat(2,1fr);border-top:1px solid var(--line)}
-.field{padding:30px 24px 36px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:52px 1fr;gap:16px;min-height:155px}
-.field:nth-child(odd){border-right:1px solid var(--line);padding-right:40px}
-.field:nth-child(even){padding-left:40px}
-.field-num{font-family:var(--serif);color:var(--muted)}
-.field h3{font-family:var(--serif);font-size:1.75rem;font-weight:400;line-height:1.1;margin:0 0 12px;color:var(--green)}
-.field p{margin:0;color:#535c58;font-size:.92rem;max-width:480px}
-.feature{display:grid;grid-template-columns:1.05fr .95fr;gap:74px;align-items:start}
-.feature h2{font-size:clamp(3.1rem,7vw,7rem)}
-.feature-copy p{font-size:1.08rem;color:#39423e;max-width:600px;margin:12px 0 30px}
-.text-link{display:inline-flex;align-items:center;gap:18px;font-size:.72rem;text-transform:uppercase;letter-spacing:.15em;font-weight:700;color:var(--green)}
-.text-link:after{content:"→";font-size:1rem}
-.publications{border-top:1px solid var(--line)}
-.publication{display:grid;grid-template-columns:140px 1fr 100px;gap:36px;padding:30px 0;border-bottom:1px solid var(--line)}
-.publication .type{font-size:.67rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
-.publication h3{font-family:var(--serif);font-size:2rem;line-height:1.05;font-weight:400;margin:0 0 12px;color:var(--green)}
-.publication p{margin:0;color:#58605c;font-size:.9rem;max-width:680px}
-.publication .year{text-align:right;font-family:var(--serif);color:var(--muted)}
-.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
-.card{background:var(--ivory);padding:38px;min-height:280px}
-.card h3{font-family:var(--serif);font-size:2rem;line-height:1.05;font-weight:400;color:var(--green);margin:0 0 18px}
-.card p{margin:0;color:#535c58;font-size:.92rem}
-.institutional{display:grid;grid-template-columns:1fr 1fr;background:var(--green);color:var(--ivory)}
-.institutional-visual{min-height:620px;background:var(--paper);display:flex;align-items:center;justify-content:center;padding:8vw}
-.paper-card{width:min(520px,90%);aspect-ratio:1/1;background:#f8f5ee;border:1px solid rgba(33,66,56,.08);box-shadow:0 28px 80px rgba(15,35,28,.12);display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-1deg)}
-.paper-card .v{font-family:var(--serif);font-size:clamp(4rem,8vw,7.5rem);letter-spacing:.06em;color:var(--green);line-height:.8}
-.paper-card .n{margin-top:24px;font-size:.62rem;letter-spacing:.27em;text-transform:uppercase;color:var(--green)}
-.paper-card .a{margin-top:5px;font-size:.54rem;letter-spacing:.34em;text-transform:uppercase;color:var(--green)}
-.institutional-copy{display:flex;flex-direction:column;justify-content:center;padding:9vw 8vw}
-.institutional-copy .kicker{color:#d5d8cd}
-.institutional-copy h2{font-family:var(--serif);font-size:clamp(3rem,5vw,5.5rem);font-weight:400;line-height:.96;letter-spacing:-.04em;margin:18px 0 30px}
-.institutional-copy p{color:#d9ddd6;max-width:560px}
-footer{border-top:1px solid var(--line);padding:70px 0 34px}
-.footer-grid{display:grid;grid-template-columns:1.1fr .7fr .7fr;gap:60px}
-.footer-brand{font-family:var(--serif);font-size:3.6rem;letter-spacing:.08em;color:var(--green);line-height:1}
-.footer-col h4{font-size:.67rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 18px}
-.footer-col div{font-size:.88rem;margin:8px 0;color:#39433f}
-.footer-bottom{display:flex;justify-content:space-between;gap:20px;margin-top:62px;padding-top:20px;border-top:1px solid var(--line);font-size:.7rem;color:var(--muted)}
-.notice{position:fixed;right:20px;bottom:20px;background:var(--green);color:var(--ivory);padding:10px 14px;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;z-index:120}
-@media(max-width:1020px){.links a:not(.keep),.links .sep{display:none}.hero-grid,.section-head,.feature,.institutional{grid-template-columns:1fr}.hero{min-height:auto;padding-top:54px}.hero h1{font-size:clamp(4.7rem,21vw,10rem)}.fields{grid-template-columns:1fr}.field:nth-child(odd){border-right:0;padding-right:0}.field:nth-child(even){padding-left:0}.grid3{grid-template-columns:1fr}.institutional-visual{min-height:480px}}
-@media(max-width:680px){.container{width:min(calc(100% - 30px),var(--max))}.nav{height:74px}.brand{font-size:1.65rem}.links{gap:10px}.hero{padding:48px 0 44px}.hero-grid{gap:42px}.hero h1{font-size:clamp(4.4rem,23vw,7rem)}.hero-meta{flex-direction:column;gap:16px}.section{padding:78px 0}.section-head{margin-bottom:42px}.field{grid-template-columns:38px 1fr;padding:24px 0 28px!important}.publication{grid-template-columns:1fr;gap:12px}.publication .year{display:none}.institutional-copy{padding:64px 28px}.footer-grid{grid-template-columns:1fr;gap:38px}.footer-bottom{flex-direction:column}.notice{font-size:.58rem;right:10px;bottom:10px}}
+.hero{padding:110px 0 90px}
+.hero-title{font-family:var(--serif);font-size:clamp(5.5rem,15vw,13rem);font-weight:400;line-height:.82;letter-spacing:-.055em;color:var(--green);margin:0;display:flex;align-items:center}
+.hero-title .sound-o{width:.82em;height:.82em;border-width:3px;margin-left:.015em;margin-right:.035em}
+.hero-title .sound-o i{height:2px}
+.hero-bottom{display:grid;grid-template-columns:1.15fr .85fr;gap:80px;margin-top:75px;padding-top:24px;border-top:1px solid var(--line)}
+.tag{font-family:var(--serif);font-size:clamp(2rem,3.5vw,3.8rem);line-height:1.02;letter-spacing:-.03em;margin:0;max-width:680px}
+.intro{font-size:1.05rem;color:#383d3a;max-width:560px;margin:5px 0 0}
+.meta{margin-top:40px;color:var(--muted);font-size:.71rem;letter-spacing:.13em;text-transform:uppercase;display:flex;gap:28px}
+.section{padding:105px 0;border-top:1px solid var(--line)}
+.section-grid{display:grid;grid-template-columns:290px 1fr;gap:80px}
+.eyebrow{font-size:.68rem;text-transform:uppercase;letter-spacing:.17em;color:var(--green);font-weight:700;padding-top:8px}
+.big{font-family:var(--serif);font-size:clamp(2.8rem,5.5vw,5.8rem);font-weight:400;line-height:.97;letter-spacing:-.04em;color:var(--green);margin:0 0 45px}
+.topic{display:grid;grid-template-columns:150px 1fr;gap:36px;padding:28px 0;border-top:1px solid var(--line)}
+.topic:last-child{border-bottom:1px solid var(--line)}
+.topic-index{font-family:var(--serif);font-size:1.1rem;color:var(--muted)}
+.topic h3{font-family:var(--serif);font-size:2.15rem;line-height:1.06;font-weight:400;color:var(--green);margin:0 0 12px}
+.topic p{margin:0;max-width:760px;color:#444946}
+.topic small{display:block;margin-top:13px;color:var(--muted);font-size:.77rem;letter-spacing:.02em}
+.pub{padding:29px 0;border-top:1px solid var(--line);display:grid;grid-template-columns:170px 1fr 110px;gap:30px}
+.pub:last-child{border-bottom:1px solid var(--line)}
+.pub-type{font-size:.67rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.pub h3{font-family:var(--serif);font-size:2rem;line-height:1.08;font-weight:400;color:var(--green);margin:0 0 10px}
+.pub p{margin:0;color:#555b57;max-width:700px;font-size:.92rem}
+.doi{margin-top:12px;display:inline-block;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--green);border-bottom:1px solid var(--green)}
+.pub-year{text-align:right;color:var(--muted);font-family:var(--serif)}
+.methods{display:grid;grid-template-columns:repeat(2,1fr);column-gap:70px;border-top:1px solid var(--line)}
+.method{padding:27px 0;border-bottom:1px solid var(--line)}
+.method h4{font-family:var(--serif);font-size:1.55rem;font-weight:400;color:var(--green);margin:0 0 8px}
+.method p{margin:0;color:#4b514d;font-size:.92rem}
+.manifesto{padding:120px 0 130px;border-top:1px solid var(--line)}
+.manifesto-inner{max-width:920px;margin-left:auto}
+.manifesto blockquote{font-family:var(--serif);font-size:clamp(2.8rem,5.7vw,6.2rem);line-height:.98;letter-spacing:-.045em;color:var(--green);margin:0}
+.manifesto p{margin:35px 0 0;max-width:620px;color:#464b48}
+footer{border-top:1px solid var(--line);padding:55px 0 30px}
+.footer{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end}
+.footer .wordmark{font-size:2.7rem}
+.footer-right{text-align:right;font-size:.78rem;color:var(--muted)}
+.footer-right div+div{margin-top:5px}
+.preview{position:fixed;right:14px;bottom:14px;font-size:.6rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);background:rgba(251,250,246,.95);padding:7px 9px;border:1px solid var(--line)}
+@media(max-width:950px){
+ .menu a:not(.keep){display:none}
+ .hero-bottom,.section-grid{grid-template-columns:1fr}
+ .section-grid{gap:38px}
+ .hero-bottom{gap:36px}
+ .methods{grid-template-columns:1fr}
+}
+@media(max-width:680px){
+ .wrap{width:min(calc(100% - 30px),var(--max))}
+ .nav{height:70px}
+ .wordmark{font-size:1.75rem}
+ .hero{padding:72px 0 60px}
+ .hero-title{font-size:clamp(4.9rem,25vw,7.5rem)}
+ .hero-title .sound-o{border-width:2px}
+ .hero-bottom{margin-top:52px}
+ .meta{flex-direction:column;gap:7px}
+ .section{padding:76px 0}
+ .topic{grid-template-columns:42px 1fr;gap:14px}
+ .topic h3{font-size:1.75rem}
+ .pub{grid-template-columns:1fr;gap:11px}
+ .pub-year{display:none}
+ .manifesto{padding:80px 0 90px}
+ .footer{grid-template-columns:1fr}
+ .footer-right{text-align:left}
+}
 </style>
 </head>
 <body>
 <header>
-  <div class="container nav">
-    <a class="brand" href="#top">VOCE</a>
-    <nav class="links">
-      <a href="#fields" data-t="nav_research">Research</a>
-      <a href="#ai" data-t="nav_ai">AI Governance</a>
-      <a href="#human" data-t="nav_human">Human Sciences</a>
-      <a href="#pubs" data-t="nav_pubs">Publications</a>
-      <a class="keep" href="#about" data-t="nav_about">About</a>
-      <span class="lang">
-        <button data-lang="en" class="active">EN</button>
-        <button data-lang="fr">FR</button>
-        <button data-lang="it">IT</button>
-      </span>
+  <div class="wrap nav">
+    <a class="wordmark" href="#top" aria-label="VOCE">
+      <span>V</span><span class="sound-o" aria-hidden="true"><i></i><i></i><i></i></span><span>CE</span>
+    </a>
+    <nav class="menu">
+      <a href="#themes" data-t="navThemes">Themes</a>
+      <a href="#publications" data-t="navPublications">Publications</a>
+      <a href="#method" data-t="navMethod">Method</a>
+      <a class="keep" href="#about" data-t="navAbout">About</a>
+      <span class="lang"><button data-lang="en" class="active">EN</button><button data-lang="fr">FR</button><button data-lang="it">IT</button></span>
     </nav>
   </div>
 </header>
 
 <main id="top">
 <section class="hero">
-<div class="container">
-  <div class="hero-grid">
-    <h1>VOCE</h1>
-    <div class="hero-side">
-      <div class="kicker" data-t="motto">No one left unheard</div>
-      <p class="tagline" data-t="tagline">Research. Culture. Intelligence.</p>
-      <p data-t="hero">VOCE examines the systems reshaping human life: intelligence, technology, health, culture and behaviour.</p>
+  <div class="wrap">
+    <h1 class="hero-title" aria-label="VOCE"><span>V</span><span class="sound-o" aria-hidden="true"><i></i><i></i><i></i></span><span>CE</span></h1>
+    <div class="hero-bottom">
+      <div>
+        <p class="tag" data-t="tagline">Research. Culture. Intelligence.</p>
+        <div class="meta"><span>Paris · France</span><span data-t="status">Independent French non-profit association</span></div>
+      </div>
+      <p class="intro" data-t="intro">VOCE studies the systems that are changing human life before their consequences become obvious: artificial intelligence, work, attention, knowledge, health and culture.</p>
     </div>
   </div>
-  <div class="hero-meta"><span>Paris · France</span><span data-t="nonprofit">Independent non-profit association</span></div>
-</div>
 </section>
 
-<section class="section" id="fields">
-<div class="container">
-  <div class="section-head">
-    <div><div class="kicker" data-t="fields_k">Fields of inquiry</div></div>
-    <div><h2 data-t="fields_h">Where contemporary systems meet human life.</h2><p data-t="fields_p">VOCE works across disciplines because the transformations that matter rarely stay inside one field.</p></div>
+<section class="section" id="themes">
+  <div class="wrap section-grid">
+    <div class="eyebrow" data-t="themesEyebrow">Current research lines</div>
+    <div>
+      <h2 class="big" data-t="themesTitle">Four questions running through VOCE.</h2>
+
+      <article class="topic">
+        <div class="topic-index">01</div>
+        <div>
+          <h3 data-t="govTitle">AI governance</h3>
+          <p data-t="govText">VOCE examines the full operating architecture of AI: data, models, agents, tools, permissions, RAG, APIs, identity, observability and human responsibility. The central issue is no longer only what a model can generate, but what an AI system may access, decide, execute, retain and revoke once it becomes part of an institution.</p>
+          <small data-t="govSmall">Topics developed in VOCE courses: agents, RAG, API/IAM/MCP, model routing, AI FinOps, security, procurement, regulation and human oversight.</small>
+        </div>
+      </article>
+
+      <article class="topic">
+        <div class="topic-index">02</div>
+        <div>
+          <h3 data-t="openTitle">Open AI, sovereignty &amp; orchestration</h3>
+          <p data-t="openText">Open models and multi-model stacks make the nationality of the model different from the nationality of the service. A European platform may orchestrate American, European or Chinese models through APIs. VOCE follows the governance consequences: data sovereignty, control planes, model choice, portability, dependency and the ability to change or revoke components without rebuilding the whole system.</p>
+          <small data-t="openSmall">The question is not whether a model is “open” in isolation, but who controls the architecture in which it operates.</small>
+        </div>
+      </article>
+
+      <article class="topic">
+        <div class="topic-index">03</div>
+        <div>
+          <h3>Light workforce</h3>
+          <p data-t="lwText">VOCE uses “light workforce” to describe organisations whose economic scale grows faster than their permanent payroll. AI agents, software automation and robotics absorb tasks once distributed across large teams, while humans concentrate on judgment, exceptions, maintenance, control and responsibility. The gain in productivity creates another risk: if entry-level tasks disappear, the organisation can also erase the apprenticeship through which future experts were formed.</p>
+          <small data-t="lwSmall">The subject spans offices, banks, healthcare software, factories, logistics and autonomous digital workforces.</small>
+        </div>
+      </article>
+
+      <article class="topic">
+        <div class="topic-index">04</div>
+        <div>
+          <h3 data-t="techTitle">Technoference</h3>
+          <p data-t="techText">Technoference describes the interruptions introduced by connected devices into attention, relationships and internal thought. VOCE studies it from early childhood to adult cognition: parent-child interaction, language development, fragmented attention, cognitive offloading, social validation, screenshots used as external memory, and the gradual transfer of remembering, choosing and anticipating to digital systems.</p>
+          <small data-t="techSmall">The recurring question is simple: what happens to human attention when interruption becomes the default environment?</small>
+        </div>
+      </article>
+    </div>
   </div>
-  <div class="fields">
-    <article class="field"><div class="field-num">01</div><div><h3>Artificial Intelligence &amp; Governance</h3><p>Model and system risk, institutional responsibility, human oversight and the transition from models to operational software.</p></div></article>
-    <article class="field"><div class="field-num">02</div><div><h3>Neuroscience &amp; Psychology</h3><p>Attention, memory, perception, emotion, decision-making and the architectures of human behaviour.</p></div></article>
-    <article class="field"><div class="field-num">03</div><div><h3>Health &amp; Medicine</h3><p>Clinical science, prevention, diagnostics, biomarkers and the changing relationship between evidence and care.</p></div></article>
-    <article class="field"><div class="field-num">04</div><div><h3>Digital Environments &amp; Human Behaviour</h3><p>How platforms, interfaces and continuous connectivity alter cognition, relationships and everyday experience.</p></div></article>
-    <article class="field"><div class="field-num">05</div><div><h3>Culture, Heritage &amp; Design</h3><p>Objects, places, institutions and aesthetic systems that reveal how societies remember, build and transmit.</p></div></article>
-    <article class="field"><div class="field-num">06</div><div><h3>Education &amp; Society</h3><p>Learning, childhood, institutions and the social conditions through which knowledge is formed and shared.</p></div></article>
-    <article class="field"><div class="field-num">07</div><div><h3>Technology, Infrastructure &amp; Work</h3><p>AI agents, logistics, ports, networks and the changing division of labour between people and machines.</p></div></article>
-  </div>
-</div>
 </section>
 
-<section class="section" id="ai">
-<div class="container"><div class="feature">
-  <h2>AI Governance Institute</h2>
-  <div class="feature-copy"><div class="kicker" data-t="program">Program</div><p data-t="ai_p">A VOCE program examining how artificial intelligence moves from model capability to operational systems, and what institutions must govern when software begins to reason, act and coordinate work.</p><span class="text-link" data-t="explore_ai">Explore AI Governance</span></div>
-</div></div>
+<section class="section" id="publications">
+  <div class="wrap section-grid">
+    <div class="eyebrow" data-t="pubEyebrow">VOCE Research</div>
+    <div>
+      <h2 class="big" data-t="pubTitle">Formal research outputs.</h2>
+      <article class="pub">
+        <div class="pub-type">Conceptual framework</div>
+        <div>
+          <h3>When digital stimulation disrupts inner thinking</h3>
+          <p data-t="pub1">A conceptual framework exploring how continuous digital input affects reflection, internal dialogue and sustained thought.</p>
+          <a class="doi" href="https://doi.org/10.5281/zenodo.19189281" target="_blank" rel="noopener">DOI 10.5281/zenodo.19189281</a>
+        </div>
+        <div class="pub-year">2026</div>
+      </article>
+      <article class="pub">
+        <div class="pub-type">Integrative review</div>
+        <div>
+          <h3>How parental technoference affects early language development</h3>
+          <p data-t="pub2">An integrative review examining digital distraction, parent-child interaction and early language acquisition.</p>
+          <a class="doi" href="https://doi.org/10.5281/zenodo.19114381" target="_blank" rel="noopener">DOI 10.5281/zenodo.19114381</a>
+        </div>
+        <div class="pub-year">2026</div>
+      </article>
+    </div>
+  </div>
 </section>
 
-<section class="section" id="pubs">
-<div class="container">
-  <div class="section-head">
-    <div><div class="kicker" data-t="selected">Selected publications</div></div>
-    <div><h2 data-t="pub_h">Research outputs with persistent identifiers.</h2><p data-t="pub_p">Formal VOCE Research outputs are separated from daily editorial intelligence and clearly identified by title, format and DOI.</p></div>
+<section class="section" id="method">
+  <div class="wrap section-grid">
+    <div class="eyebrow" data-t="methodEyebrow">Method</div>
+    <div>
+      <h2 class="big" data-t="methodTitle">Research before posture.</h2>
+      <div class="methods">
+        <div class="method"><h4 data-t="m1t">Recent evidence</h4><p data-t="m1p">Priority to current studies, technical documentation, cohorts, regulations, infrastructure and primary sources.</p></div>
+        <div class="method"><h4 data-t="m2t">Mechanisms</h4><p data-t="m2p">Explain how a system works, not only what happened: architecture, protocol, incentives, constraints and human consequences.</p></div>
+        <div class="method"><h4 data-t="m3t">Limits</h4><p data-t="m3p">Separate correlation from causality, documented facts from interpretation, and formal research from editorial analysis.</p></div>
+        <div class="method"><h4 data-t="m4t">Human effects</h4><p data-t="m4p">Technology is studied together with attention, expertise, decision-making, institutions, work and culture.</p></div>
+      </div>
+    </div>
   </div>
-  <div class="publications">
-    <article class="publication"><div class="type">Conceptual framework</div><div><h3>When digital stimulation disrupts inner thinking</h3><p>A conceptual framework exploring how continuous digital input affects reflection, internal dialogue and sustained thought.</p><p style="margin-top:14px"><a class="text-link" href="https://doi.org/10.5281/zenodo.19189281" target="_blank" rel="noopener">View DOI</a></p></div><div class="year">2026</div></article>
-    <article class="publication"><div class="type">Integrative review</div><div><h3>How parental technoference affects early language development</h3><p>An integrative review examining digital distraction, parent-child interaction and early language acquisition.</p><p style="margin-top:14px"><a class="text-link" href="https://doi.org/10.5281/zenodo.19114381" target="_blank" rel="noopener">View DOI</a></p></div><div class="year">2026</div></article>
-  </div>
-</div>
 </section>
 
-<section class="section" id="human">
-<div class="container">
-  <div class="section-head">
-    <div><div class="kicker" data-t="editorial">Editorial intelligence</div></div>
-    <div><h2 data-t="wide_h">A wider lens on the present.</h2><p data-t="wide_p">VOCE follows the signals that connect science, technology, medicine, culture and society.</p></div>
-  </div>
-  <div class="grid3">
-    <article class="card"><h3>AI systems &amp; institutions</h3><p>Governance, infrastructure, agents, responsibility and the reshaping of professional work.</p></article>
-    <article class="card"><h3>Human sciences</h3><p>Neuroscience, psychology, health, attention, relationships and digital environments.</p></article>
-    <article class="card"><h3>Culture &amp; ingenuity</h3><p>Heritage, engineering, design, logistics and the material systems through which societies endure.</p></article>
-  </div>
-</div>
-</section>
-
-<section class="institutional" id="about">
-  <div class="institutional-visual">
-    <div class="paper-card"><div class="v">VOCE</div><div class="n">No one left unheard</div><div class="a">Association</div></div>
-  </div>
-  <div class="institutional-copy">
-    <div class="kicker">VOCE Association</div>
-    <h2 data-t="about_h">No one left unheard.</h2>
-    <p data-t="about_p">VOCE is an independent French non-profit based in Paris. It brings research, scientific and cultural mediation, public education and editorial intelligence into one institution.</p>
+<section class="manifesto" id="about">
+  <div class="wrap">
+    <div class="manifesto-inner">
+      <blockquote data-t="quote">No one left unheard.</blockquote>
+      <p data-t="aboutText">VOCE is an independent French non-profit association based in Paris. It develops research, scientific and cultural mediation, public education and editorial work on contemporary transformations affecting human life.</p>
+    </div>
   </div>
 </section>
 </main>
 
 <footer>
-<div class="container">
-  <div class="footer-grid">
-    <div><div class="footer-brand">VOCE</div><div style="font-family:var(--serif);font-size:1.2rem;margin-top:18px" data-t="tagline">Research. Culture. Intelligence.</div></div>
-    <div class="footer-col"><h4 data-t="institution">Institution</h4><div data-t="nav_about">About</div><div>Governance &amp; Standards</div><div>Contact</div></div>
-    <div class="footer-col"><h4 data-t="work">Work</h4><div data-t="nav_research">Research</div><div>AI Governance</div><div data-t="nav_pubs">Publications</div></div>
+  <div class="wrap footer">
+    <div class="wordmark" aria-label="VOCE"><span>V</span><span class="sound-o" aria-hidden="true"><i></i><i></i><i></i></span><span>CE</span></div>
+    <div class="footer-right"><div>94 rue Montmartre · 75002 Paris · France</div><div>contact@voce.life · © 2026 VOCE Association</div></div>
   </div>
-  <div class="footer-bottom"><span>© 2026 VOCE Association</span><span>94 rue Montmartre · 75002 Paris · France</span></div>
-</div>
 </footer>
-<div class="notice">Preview · voce-site-v2</div>
+<div class="preview">VOCE V2 Preview</div>
 
 <script>
-const copy={
-en:{nav_research:"Research",nav_ai:"AI Governance",nav_human:"Human Sciences",nav_pubs:"Publications",nav_about:"About",motto:"No one left unheard",tagline:"Research. Culture. Intelligence.",hero:"VOCE examines the systems reshaping human life: intelligence, technology, health, culture and behaviour.",nonprofit:"Independent non-profit association",fields_k:"Fields of inquiry",fields_h:"Where contemporary systems meet human life.",fields_p:"VOCE works across disciplines because the transformations that matter rarely stay inside one field.",program:"Program",ai_p:"A VOCE program examining how artificial intelligence moves from model capability to operational systems, and what institutions must govern when software begins to reason, act and coordinate work.",explore_ai:"Explore AI Governance",selected:"Selected publications",pub_h:"Research outputs with persistent identifiers.",pub_p:"Formal VOCE Research outputs are separated from daily editorial intelligence and clearly identified by title, format and DOI.",editorial:"Editorial intelligence",wide_h:"A wider lens on the present.",wide_p:"VOCE follows the signals that connect science, technology, medicine, culture and society.",about_h:"No one left unheard.",about_p:"VOCE is an independent French non-profit based in Paris. It brings research, scientific and cultural mediation, public education and editorial intelligence into one institution.",institution:"Institution",work:"Work"},
-fr:{nav_research:"Recherche",nav_ai:"Gouvernance IA",nav_human:"Sciences humaines",nav_pubs:"Publications",nav_about:"À propos",motto:"Aucune voix laissée de côté",tagline:"Recherche. Culture. Intelligence.",hero:"VOCE examine les systèmes qui transforment la vie humaine : intelligence, technologie, santé, culture et comportements.",nonprofit:"Association indépendante à but non lucratif",fields_k:"Champs de recherche",fields_h:"Là où les systèmes contemporains rencontrent la vie humaine.",fields_p:"VOCE travaille entre les disciplines parce que les transformations décisives restent rarement enfermées dans un seul domaine.",program:"Programme",ai_p:"Un programme VOCE consacré au passage de l'intelligence artificielle du modèle au système opérationnel, et à ce que les institutions doivent gouverner lorsque le logiciel commence à raisonner, agir et coordonner le travail.",explore_ai:"Explorer la gouvernance de l’IA",selected:"Publications sélectionnées",pub_h:"Des travaux de recherche dotés d’identifiants persistants.",pub_p:"Les travaux formels de VOCE Research sont distingués de l’intelligence éditoriale quotidienne et identifiés par titre, format et DOI.",editorial:"Intelligence éditoriale",wide_h:"Un regard plus large sur le présent.",wide_p:"VOCE suit les signaux qui relient science, technologie, médecine, culture et société.",about_h:"Aucune voix laissée de côté.",about_p:"VOCE est une association française indépendante basée à Paris. Elle réunit recherche, médiation scientifique et culturelle, éducation du public et intelligence éditoriale au sein d’une même institution.",institution:"Institution",work:"Travaux"},
-it:{nav_research:"Ricerca",nav_ai:"Governance IA",nav_human:"Scienze umane",nav_pubs:"Pubblicazioni",nav_about:"Chi siamo",motto:"Nessuna voce lasciata inascoltata",tagline:"Ricerca. Cultura. Intelligenza.",hero:"VOCE analizza i sistemi che stanno trasformando la vita umana: intelligenza, tecnologia, salute, cultura e comportamento.",nonprofit:"Associazione indipendente senza scopo di lucro",fields_k:"Campi di ricerca",fields_h:"Dove i sistemi contemporanei incontrano la vita umana.",fields_p:"VOCE lavora tra le discipline perché le trasformazioni decisive raramente restano confinate in un solo campo.",program:"Programma",ai_p:"Un programma VOCE dedicato al passaggio dell’intelligenza artificiale dal modello ai sistemi operativi e a ciò che le istituzioni devono governare quando il software inizia a ragionare, agire e coordinare il lavoro.",explore_ai:"Esplora la governance dell’IA",selected:"Pubblicazioni selezionate",pub_h:"Risultati di ricerca con identificatori persistenti.",pub_p:"I risultati formali di VOCE Research sono distinti dall’intelligence editoriale quotidiana e identificati per titolo, formato e DOI.",editorial:"Intelligence editoriale",wide_h:"Uno sguardo più ampio sul presente.",wide_p:"VOCE segue i segnali che collegano scienza, tecnologia, medicina, cultura e società.",about_h:"Nessuna voce lasciata inascoltata.",about_p:"VOCE è un’associazione francese indipendente con sede a Parigi. Riunisce ricerca, mediazione scientifica e culturale, educazione pubblica e intelligence editoriale in un’unica istituzione.",institution:"Istituzione",work:"Lavoro"}
-};
+const t={
+en:{
+navThemes:"Themes",navPublications:"Publications",navMethod:"Method",navAbout:"About",
+tagline:"Research. Culture. Intelligence.",status:"Independent French non-profit association",
+intro:"VOCE studies the systems that are changing human life before their consequences become obvious: artificial intelligence, work, attention, knowledge, health and culture.",
+themesEyebrow:"Current research lines",themesTitle:"Four questions running through VOCE.",
+govTitle:"AI governance",govText:"VOCE examines the full operating architecture of AI: data, models, agents, tools, permissions, RAG, APIs, identity, observability and human responsibility. The central issue is no longer only what a model can generate, but what an AI system may access, decide, execute, retain and revoke once it becomes part of an institution.",govSmall:"Topics developed in VOCE courses: agents, RAG, API/IAM/MCP, model routing, AI FinOps, security, procurement, regulation and human oversight.",
+openTitle:"Open AI, sovereignty & orchestration",openText:"Open models and multi-model stacks make the nationality of the model different from the nationality of the service. A European platform may orchestrate American, European or Chinese models through APIs. VOCE follows the governance consequences: data sovereignty, control planes, model choice, portability, dependency and the ability to change or revoke components without rebuilding the whole system.",openSmall:"The question is not whether a model is “open” in isolation, but who controls the architecture in which it operates.",
+lwText:"VOCE uses “light workforce” to describe organisations whose economic scale grows faster than their permanent payroll. AI agents, software automation and robotics absorb tasks once distributed across large teams, while humans concentrate on judgment, exceptions, maintenance, control and responsibility. The gain in productivity creates another risk: if entry-level tasks disappear, the organisation can also erase the apprenticeship through which future experts were formed.",lwSmall:"The subject spans offices, banks, healthcare software, factories, logistics and autonomous digital workforces.",
+techTitle:"Technoference",techText:"Technoference describes the interruptions introduced by connected devices into attention, relationships and internal thought. VOCE studies it from early childhood to adult cognition: parent-child interaction, language development, fragmented attention, cognitive offloading, social validation, screenshots used as external memory, and the gradual transfer of remembering, choosing and anticipating to digital systems.",techSmall:"The recurring question is simple: what happens to human attention when interruption becomes the default environment?",
+pubEyebrow:"VOCE Research",pubTitle:"Formal research outputs.",pub1:"A conceptual framework exploring how continuous digital input affects reflection, internal dialogue and sustained thought.",pub2:"An integrative review examining digital distraction, parent-child interaction and early language acquisition.",
+methodEyebrow:"Method",methodTitle:"Research before posture.",m1t:"Recent evidence",m1p:"Priority to current studies, technical documentation, cohorts, regulations, infrastructure and primary sources.",m2t:"Mechanisms",m2p:"Explain how a system works, not only what happened: architecture, protocol, incentives, constraints and human consequences.",m3t:"Limits",m3p:"Separate correlation from causality, documented facts from interpretation, and formal research from editorial analysis.",m4t:"Human effects",m4p:"Technology is studied together with attention, expertise, decision-making, institutions, work and culture.",quote:"No one left unheard.",aboutText:"VOCE is an independent French non-profit association based in Paris. It develops research, scientific and cultural mediation, public education and editorial work on contemporary transformations affecting human life."
+},
+fr:{
+navThemes:"Thèmes",navPublications:"Publications",navMethod:"Méthode",navAbout:"À propos",
+tagline:"Recherche. Culture. Intelligence.",status:"Association française indépendante à but non lucratif",
+intro:"VOCE étudie les systèmes qui transforment la vie humaine avant que leurs conséquences deviennent évidentes : intelligence artificielle, travail, attention, connaissance, santé et culture.",
+themesEyebrow:"Axes actuels",themesTitle:"Quatre questions traversent VOCE.",
+govTitle:"Gouvernance de l’IA",govText:"VOCE étudie l’architecture opérationnelle complète de l’IA : données, modèles, agents, outils, permissions, RAG, API, identité, observabilité et responsabilité humaine. La question n’est plus seulement ce qu’un modèle peut générer, mais ce qu’un système d’IA peut consulter, décider, exécuter, conserver ou révoquer lorsqu’il entre dans une institution.",govSmall:"Sujets développés dans les COURS VOCE® : agents, RAG, API/IAM/MCP, routage de modèles, AI FinOps, sécurité, achats, réglementation et supervision humaine.",
+openTitle:"IA ouverte, souveraineté & orchestration",openText:"Les modèles ouverts et les architectures multi-modèles dissocient la nationalité du modèle de celle du service. Une plateforme européenne peut orchestrer par API des modèles européens, américains ou chinois. VOCE suit les conséquences de gouvernance : souveraineté des données, plans de contrôle, choix du modèle, portabilité, dépendance et capacité à changer ou révoquer un composant sans reconstruire tout le système.",openSmall:"La question n’est pas seulement de savoir si un modèle est « ouvert », mais qui contrôle l’architecture dans laquelle il fonctionne.",
+lwText:"VOCE appelle « light workforce » une organisation dont l’échelle économique augmente plus vite que sa masse salariale permanente. Agents IA, automatisation logicielle et robotique absorbent des tâches autrefois réparties entre de grandes équipes ; les humains se concentrent sur le jugement, les exceptions, la maintenance, le contrôle et la responsabilité. Le gain de productivité crée aussi un risque : si les tâches juniors disparaissent, l’organisation peut supprimer l’apprentissage qui fabriquait ses futurs experts.",lwSmall:"Le sujet traverse bureaux, banques, logiciels de santé, usines, logistique et nouvelles populations d’agents autonomes.",
+techTitle:"Technoference",techText:"La technoference désigne les interruptions introduites par les appareils connectés dans l’attention, les relations et la pensée intérieure. VOCE l’étudie de la petite enfance à l’adulte : interaction parent-enfant, développement du langage, attention fragmentée, délégation cognitive, validation sociale, captures d’écran utilisées comme mémoire externe et transfert progressif du souvenir, du choix ou de l’anticipation vers les systèmes numériques.",techSmall:"La question récurrente : que devient l’attention humaine lorsque l’interruption devient l’environnement par défaut ?",
+pubEyebrow:"VOCE Research",pubTitle:"Travaux de recherche formels.",pub1:"Un cadre conceptuel sur la manière dont le flux numérique continu affecte la réflexion, le dialogue intérieur et la pensée soutenue.",pub2:"Une revue intégrative sur la distraction numérique, l’interaction parent-enfant et l’acquisition précoce du langage.",
+methodEyebrow:"Méthode",methodTitle:"La recherche avant la posture.",m1t:"Données récentes",m1p:"Priorité aux études récentes, documentations techniques, cohortes, réglementations, infrastructures et sources primaires.",m2t:"Mécanismes",m2p:"Expliquer comment un système fonctionne : architecture, protocole, incitations, contraintes et conséquences humaines.",m3t:"Limites",m3p:"Séparer corrélation et causalité, faits documentés et interprétation, recherche formelle et analyse éditoriale.",m4t:"Effets humains",m4p:"La technologie est étudiée avec l’attention, l’expertise, la décision, les institutions, le travail et la culture.",quote:"No one left unheard.",aboutText:"VOCE est une association française indépendante basée à Paris. Elle développe recherche, médiation scientifique et culturelle, éducation du public et travail éditorial sur les transformations contemporaines qui affectent la vie humaine."
+},
+it:{
+navThemes:"Temi",navPublications:"Pubblicazioni",navMethod:"Metodo",navAbout:"Chi siamo",
+tagline:"Ricerca. Cultura. Intelligenza.",status:"Associazione francese indipendente senza scopo di lucro",
+intro:"VOCE studia i sistemi che trasformano la vita umana prima che le loro conseguenze diventino evidenti: intelligenza artificiale, lavoro, attenzione, conoscenza, salute e cultura.",
+themesEyebrow:"Linee di ricerca",themesTitle:"Quattro domande attraversano VOCE.",
+govTitle:"Governance dell’IA",govText:"VOCE studia l’architettura operativa completa dell’IA: dati, modelli, agenti, strumenti, permessi, RAG, API, identità, osservabilità e responsabilità umana. La questione non è più soltanto ciò che un modello può generare, ma ciò che un sistema di IA può consultare, decidere, eseguire, conservare o revocare quando entra in un’istituzione.",govSmall:"Temi sviluppati nei CORSI VOCE®: agenti, RAG, API/IAM/MCP, model routing, AI FinOps, sicurezza, procurement, regolazione e supervisione umana.",
+openTitle:"IA aperta, sovranità & orchestrazione",openText:"I modelli aperti e le architetture multi-modello separano la nazionalità del modello da quella del servizio. Una piattaforma europea può orchestrare via API modelli europei, americani o cinesi. VOCE segue le conseguenze di governance: sovranità dei dati, piani di controllo, scelta del modello, portabilità, dipendenza e capacità di cambiare o revocare un componente senza ricostruire l’intero sistema.",openSmall:"La questione non è soltanto se un modello sia « aperto », ma chi controlla l’architettura in cui opera.",
+lwText:"VOCE definisce « light workforce » un’organizzazione la cui scala economica cresce più rapidamente della forza lavoro permanente. Agenti IA, automazione software e robotica assorbono attività prima distribuite tra grandi team; gli esseri umani si concentrano su giudizio, eccezioni, manutenzione, controllo e responsabilità. Il guadagno di produttività crea anche un rischio: se scompaiono i compiti junior, può scomparire anche l’apprendimento che formava gli esperti futuri.",lwSmall:"Il tema attraversa uffici, banche, software sanitari, fabbriche, logistica e nuove popolazioni di agenti autonomi.",
+techTitle:"Technoference",techText:"La technoference indica le interruzioni introdotte dai dispositivi connessi nell’attenzione, nelle relazioni e nel pensiero interiore. VOCE la studia dalla prima infanzia all’età adulta: interazione genitore-figlio, sviluppo del linguaggio, attenzione frammentata, delega cognitiva, validazione sociale, screenshot usati come memoria esterna e trasferimento progressivo del ricordare, scegliere e anticipare ai sistemi digitali.",techSmall:"La domanda ricorrente: che cosa accade all’attenzione umana quando l’interruzione diventa l’ambiente predefinito?",
+pubEyebrow:"VOCE Research",pubTitle:"Risultati formali di ricerca.",pub1:"Un quadro concettuale su come il flusso digitale continuo influenzi riflessione, dialogo interiore e pensiero sostenuto.",pub2:"Una revisione integrativa sulla distrazione digitale, l’interazione genitore-figlio e l’acquisizione precoce del linguaggio.",
+methodEyebrow:"Metodo",methodTitle:"La ricerca prima della postura.",m1t:"Evidenze recenti",m1p:"Priorità a studi recenti, documentazione tecnica, coorti, regolamentazioni, infrastrutture e fonti primarie.",m2t:"Meccanismi",m2p:"Spiegare come funziona un sistema: architettura, protocollo, incentivi, vincoli e conseguenze umane.",m3t:"Limiti",m3p:"Separare correlazione e causalità, fatti documentati e interpretazione, ricerca formale e analisi editoriale.",m4t:"Effetti umani",m4p:"La tecnologia viene studiata insieme ad attenzione, competenza, decisione, istituzioni, lavoro e cultura.",quote:"No one left unheard.",aboutText:"VOCE è un’associazione francese indipendente con sede a Parigi. Sviluppa ricerca, mediazione scientifica e culturale, educazione pubblica e lavoro editoriale sulle trasformazioni contemporanee che influenzano la vita umana."
+}};
 function setLang(l){
  document.documentElement.lang=l;
- document.querySelectorAll("[data-t]").forEach(el=>{const k=el.dataset.t;if(copy[l][k])el.textContent=copy[l][k]});
+ document.querySelectorAll("[data-t]").forEach(el=>{const k=el.dataset.t;if(t[l][k])el.textContent=t[l][k]});
  document.querySelectorAll("[data-lang]").forEach(b=>b.classList.toggle("active",b.dataset.lang===l));
  localStorage.setItem("voce-lang",l);
 }
 document.querySelectorAll("[data-lang]").forEach(b=>b.addEventListener("click",()=>setLang(b.dataset.lang)));
 setLang(localStorage.getItem("voce-lang")||"en");
 </script>
-</body></html>
+</body>
+</html>
