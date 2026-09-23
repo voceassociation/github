@@ -25,11 +25,12 @@ a{color:inherit;text-decoration:none}
 header{position:sticky;top:0;z-index:20;background:rgba(251,250,246,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:30px}
 .wordmark{display:flex;align-items:center;gap:.02em;font-family:var(--serif);font-size:2.15rem;letter-spacing:.055em;color:var(--green);line-height:1}
-.sound-o{position:relative;width:.83em;height:.83em;border:1.8px solid currentColor;border-radius:50%;display:inline-block;margin:.02em .04em 0 .02em}
-.sound-o i{position:absolute;display:block;height:1.4px;background:currentColor;transform-origin:left center;left:33%;top:50%;border-radius:2px}
-.sound-o i:nth-child(1){width:24%;transform:translateY(-.26em) rotate(-43deg)}
-.sound-o i:nth-child(2){width:31%;transform:translateY(-.03em) rotate(0deg)}
-.sound-o i:nth-child(3){width:24%;transform:translateY(.20em) rotate(37deg)}
+.sound-o{position:relative;width:.78em;height:1em;display:inline-block;margin:0 .02em;font-family:inherit;font-weight:inherit;line-height:1}
+.sound-o:before{content:"O";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:inherit;font-size:1em;font-weight:inherit;line-height:1;color:currentColor}
+.sound-o i{position:absolute;display:block;height:1.35px;background:currentColor;transform-origin:left center;left:17%;top:50%;border-radius:2px;z-index:2}
+.sound-o i:nth-child(1){width:22%;transform:translateY(-.24em) rotate(-38deg)}
+.sound-o i:nth-child(2){width:27%;transform:translateY(-.02em) rotate(0deg)}
+.sound-o i:nth-child(3){width:22%;transform:translateY(.19em) rotate(34deg)}
 .menu{display:flex;align-items:center;gap:25px;font-size:.72rem;text-transform:uppercase;letter-spacing:.11em}
 .menu a{padding:10px 0}
 .menu a:hover{color:var(--green)}
@@ -38,8 +39,8 @@ header{position:sticky;top:0;z-index:20;background:rgba(251,250,246,.96);backdro
 .lang button.active{color:var(--green);font-weight:700}
 .hero{padding:110px 0 90px}
 .hero-title{font-family:var(--serif);font-size:clamp(5.5rem,15vw,13rem);font-weight:400;line-height:.82;letter-spacing:-.055em;color:var(--green);margin:0;display:flex;align-items:center}
-.hero-title .sound-o{width:.82em;height:.82em;border-width:3px;margin-left:.015em;margin-right:.035em}
-.hero-title .sound-o i{height:2px}
+.hero-title .sound-o{width:.78em;height:1em;margin-left:.005em;margin-right:.015em}
+.hero-title .sound-o i{height:2px;left:16%}
 .hero-bottom{display:grid;grid-template-columns:1.15fr .85fr;gap:80px;margin-top:75px;padding-top:24px;border-top:1px solid var(--line)}
 .tag{font-family:var(--serif);font-size:clamp(2rem,3.5vw,3.8rem);line-height:1.02;letter-spacing:-.03em;margin:0;max-width:680px}
 .intro{font-size:1.05rem;color:#383d3a;max-width:560px;margin:5px 0 0}
@@ -65,6 +66,12 @@ header{position:sticky;top:0;z-index:20;background:rgba(251,250,246,.96);backdro
 .method{padding:27px 0;border-bottom:1px solid var(--line)}
 .method h4{font-family:var(--serif);font-size:1.55rem;font-weight:400;color:var(--green);margin:0 0 8px}
 .method p{margin:0;color:#4b514d;font-size:.92rem}
+.expertise-intro{font-size:1.08rem;color:#3f4541;max-width:790px;margin:0 0 38px}
+.expertise-row{display:grid;grid-template-columns:170px 1fr;gap:34px;padding:23px 0;border-top:1px solid var(--line)}
+.expertise-row:last-child{border-bottom:1px solid var(--line)}
+.expertise-label{font-size:.67rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);padding-top:5px}
+.expertise-value{font-family:var(--serif);font-size:1.75rem;line-height:1.15;color:var(--green)}
+.expertise-note{margin-top:28px;max-width:760px;color:#4b514d;font-size:.92rem}
 .manifesto{padding:120px 0 130px;border-top:1px solid var(--line)}
 .manifesto-inner{max-width:920px;margin-left:auto}
 .manifesto blockquote{font-family:var(--serif);font-size:clamp(2.8rem,5.7vw,6.2rem);line-height:.98;letter-spacing:-.045em;color:var(--green);margin:0}
@@ -88,7 +95,7 @@ footer{border-top:1px solid var(--line);padding:55px 0 30px}
  .wordmark{font-size:1.75rem}
  .hero{padding:72px 0 60px}
  .hero-title{font-size:clamp(4.9rem,25vw,7.5rem)}
- .hero-title .sound-o{border-width:2px}
+ .hero-title .sound-o i{height:1.5px}
  .hero-bottom{margin-top:52px}
  .meta{flex-direction:column;gap:7px}
  .section{padding:76px 0}
@@ -112,6 +119,7 @@ footer{border-top:1px solid var(--line);padding:55px 0 30px}
       <a href="#themes" data-t="navThemes">Themes</a>
       <a href="#publications" data-t="navPublications">Publications</a>
       <a href="#method" data-t="navMethod">Method</a>
+      <a href="#committee" data-t="navCommittee">Committee</a>
       <a class="keep" href="#about" data-t="navAbout">About</a>
       <span class="lang"><button data-lang="en" class="active">EN</button><button data-lang="fr">FR</button><button data-lang="it">IT</button></span>
     </nav>
@@ -125,7 +133,7 @@ footer{border-top:1px solid var(--line);padding:55px 0 30px}
     <div class="hero-bottom">
       <div>
         <p class="tag" data-t="tagline">Research. Culture. Intelligence.</p>
-        <div class="meta"><span>Paris · France</span><span data-t="status">Independent French non-profit association</span></div>
+        <div class="meta"><span>Paris · London · Dubai · China</span><span data-t="status">Independent French non-profit association</span></div>
       </div>
       <p class="intro" data-t="intro">VOCE studies the systems that are changing human life before their consequences become obvious: artificial intelligence, work, attention, knowledge, health and culture.</p>
     </div>
@@ -219,11 +227,35 @@ footer{border-top:1px solid var(--line);padding:55px 0 30px}
   </div>
 </section>
 
+
+<section class="section" id="committee">
+  <div class="wrap section-grid">
+    <div class="eyebrow" data-t="committeeEyebrow">Scientific committee</div>
+    <div>
+      <h2 class="big" data-t="committeeTitle">Expertise close to the systems it studies.</h2>
+      <p class="expertise-intro" data-t="committeeIntro">VOCE draws on a scientific committee and expert network whose members work inside the ecosystems being analysed. The approach is deliberately transnational and interdisciplinary: technology and artificial intelligence are read alongside psychiatry, culture, art, philanthropy and institutional practice.</p>
+      <div class="expertise-row">
+        <div class="expertise-label" data-t="geoLabel">Geographies</div>
+        <div class="expertise-value">Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div>
+      </div>
+      <div class="expertise-row">
+        <div class="expertise-label" data-t="discLabel">Disciplines</div>
+        <div class="expertise-value" data-t="discValue">Artificial intelligence · Digital ecosystems · Psychiatry · Arts &amp; culture · Foundations &amp; institutions</div>
+      </div>
+      <div class="expertise-row">
+        <div class="expertise-label" data-t="stanceLabel">Position</div>
+        <div class="expertise-value" data-t="stanceValue">Observe from within the ecosystems, compare across regions, and separate evidence from posture.</div>
+      </div>
+      <p class="expertise-note" data-t="committeeNote">This geography matters. Paris and London bring institutional, financial and cultural depth; Dubai connects fast-moving Gulf ecosystems; Hangzhou, Shanghai and Hong Kong place VOCE close to Chinese technology, commerce and innovation environments. VOCE uses these vantage points to compare systems rather than treat one market as the default model for the world.</p>
+    </div>
+  </div>
+</section>
+
 <section class="manifesto" id="about">
   <div class="wrap">
     <div class="manifesto-inner">
       <blockquote data-t="quote">No one left unheard.</blockquote>
-      <p data-t="aboutText">VOCE is an independent French non-profit association based in Paris. It develops research, scientific and cultural mediation, public education and editorial work on contemporary transformations affecting human life.</p>
+      <p data-t="aboutText">VOCE is an independent French non-profit association based in Paris and connected to expert ecosystems in London, Dubai and China. It develops research, scientific and cultural mediation, public education and editorial work on contemporary transformations affecting human life.</p>
     </div>
   </div>
 </section>
@@ -240,7 +272,7 @@ footer{border-top:1px solid var(--line);padding:55px 0 30px}
 <script>
 const t={
 en:{
-navThemes:"Themes",navPublications:"Publications",navMethod:"Method",navAbout:"About",
+navThemes:"Themes",navPublications:"Publications",navMethod:"Method",navCommittee:"Committee",navAbout:"About",
 tagline:"Research. Culture. Intelligence.",status:"Independent French non-profit association",
 intro:"VOCE studies the systems that are changing human life before their consequences become obvious: artificial intelligence, work, attention, knowledge, health and culture.",
 themesEyebrow:"Current research lines",themesTitle:"Four questions running through VOCE.",
@@ -249,10 +281,10 @@ openTitle:"Open AI, sovereignty & orchestration",openText:"Open models and multi
 lwText:"VOCE uses “light workforce” to describe organisations whose economic scale grows faster than their permanent payroll. AI agents, software automation and robotics absorb tasks once distributed across large teams, while humans concentrate on judgment, exceptions, maintenance, control and responsibility. The gain in productivity creates another risk: if entry-level tasks disappear, the organisation can also erase the apprenticeship through which future experts were formed.",lwSmall:"The subject spans offices, banks, healthcare software, factories, logistics and autonomous digital workforces.",
 techTitle:"Technoference",techText:"Technoference describes the interruptions introduced by connected devices into attention, relationships and internal thought. VOCE studies it from early childhood to adult cognition: parent-child interaction, language development, fragmented attention, cognitive offloading, social validation, screenshots used as external memory, and the gradual transfer of remembering, choosing and anticipating to digital systems.",techSmall:"The recurring question is simple: what happens to human attention when interruption becomes the default environment?",
 pubEyebrow:"VOCE Research",pubTitle:"Formal research outputs.",pub1:"A conceptual framework exploring how continuous digital input affects reflection, internal dialogue and sustained thought.",pub2:"An integrative review examining digital distraction, parent-child interaction and early language acquisition.",
-methodEyebrow:"Method",methodTitle:"Research before posture.",m1t:"Recent evidence",m1p:"Priority to current studies, technical documentation, cohorts, regulations, infrastructure and primary sources.",m2t:"Mechanisms",m2p:"Explain how a system works, not only what happened: architecture, protocol, incentives, constraints and human consequences.",m3t:"Limits",m3p:"Separate correlation from causality, documented facts from interpretation, and formal research from editorial analysis.",m4t:"Human effects",m4p:"Technology is studied together with attention, expertise, decision-making, institutions, work and culture.",quote:"No one left unheard.",aboutText:"VOCE is an independent French non-profit association based in Paris. It develops research, scientific and cultural mediation, public education and editorial work on contemporary transformations affecting human life."
+methodEyebrow:"Method",methodTitle:"Research before posture.",m1t:"Recent evidence",m1p:"Priority to current studies, technical documentation, cohorts, regulations, infrastructure and primary sources.",m2t:"Mechanisms",m2p:"Explain how a system works, not only what happened: architecture, protocol, incentives, constraints and human consequences.",m3t:"Limits",m3p:"Separate correlation from causality, documented facts from interpretation, and formal research from editorial analysis.",m4t:"Human effects",m4p:"Technology is studied together with attention, expertise, decision-making, institutions, work and culture.",committeeEyebrow:"Scientific committee",committeeTitle:"Expertise close to the systems it studies.",committeeIntro:"VOCE draws on a scientific committee and expert network whose members work inside the ecosystems being analysed. The approach is deliberately transnational and interdisciplinary: technology and artificial intelligence are read alongside psychiatry, culture, art, philanthropy and institutional practice.",geoLabel:"Geographies",discLabel:"Disciplines",discValue:"Artificial intelligence · Digital ecosystems · Psychiatry · Arts & culture · Foundations & institutions",stanceLabel:"Position",stanceValue:"Observe from within the ecosystems, compare across regions, and separate evidence from posture.",committeeNote:"This geography matters. Paris and London bring institutional, financial and cultural depth; Dubai connects fast-moving Gulf ecosystems; Hangzhou, Shanghai and Hong Kong place VOCE close to Chinese technology, commerce and innovation environments. VOCE uses these vantage points to compare systems rather than treat one market as the default model for the world.",quote:"No one left unheard.",aboutText:"VOCE is an independent French non-profit association based in Paris and connected to expert ecosystems in London, Dubai and China. It develops research, scientific and cultural mediation, public education and editorial work on contemporary transformations affecting human life."
 },
 fr:{
-navThemes:"Thèmes",navPublications:"Publications",navMethod:"Méthode",navAbout:"À propos",
+navThemes:"Thèmes",navPublications:"Publications",navMethod:"Méthode",navCommittee:"Comité",navAbout:"À propos",
 tagline:"Recherche. Culture. Intelligence.",status:"Association française indépendante à but non lucratif",
 intro:"VOCE étudie les systèmes qui transforment la vie humaine avant que leurs conséquences deviennent évidentes : intelligence artificielle, travail, attention, connaissance, santé et culture.",
 themesEyebrow:"Axes actuels",themesTitle:"Quatre questions traversent VOCE.",
@@ -261,10 +293,10 @@ openTitle:"IA ouverte, souveraineté & orchestration",openText:"Les modèles ouv
 lwText:"VOCE appelle « light workforce » une organisation dont l’échelle économique augmente plus vite que sa masse salariale permanente. Agents IA, automatisation logicielle et robotique absorbent des tâches autrefois réparties entre de grandes équipes ; les humains se concentrent sur le jugement, les exceptions, la maintenance, le contrôle et la responsabilité. Le gain de productivité crée aussi un risque : si les tâches juniors disparaissent, l’organisation peut supprimer l’apprentissage qui fabriquait ses futurs experts.",lwSmall:"Le sujet traverse bureaux, banques, logiciels de santé, usines, logistique et nouvelles populations d’agents autonomes.",
 techTitle:"Technoference",techText:"La technoference désigne les interruptions introduites par les appareils connectés dans l’attention, les relations et la pensée intérieure. VOCE l’étudie de la petite enfance à l’adulte : interaction parent-enfant, développement du langage, attention fragmentée, délégation cognitive, validation sociale, captures d’écran utilisées comme mémoire externe et transfert progressif du souvenir, du choix ou de l’anticipation vers les systèmes numériques.",techSmall:"La question récurrente : que devient l’attention humaine lorsque l’interruption devient l’environnement par défaut ?",
 pubEyebrow:"VOCE Research",pubTitle:"Travaux de recherche formels.",pub1:"Un cadre conceptuel sur la manière dont le flux numérique continu affecte la réflexion, le dialogue intérieur et la pensée soutenue.",pub2:"Une revue intégrative sur la distraction numérique, l’interaction parent-enfant et l’acquisition précoce du langage.",
-methodEyebrow:"Méthode",methodTitle:"La recherche avant la posture.",m1t:"Données récentes",m1p:"Priorité aux études récentes, documentations techniques, cohortes, réglementations, infrastructures et sources primaires.",m2t:"Mécanismes",m2p:"Expliquer comment un système fonctionne : architecture, protocole, incitations, contraintes et conséquences humaines.",m3t:"Limites",m3p:"Séparer corrélation et causalité, faits documentés et interprétation, recherche formelle et analyse éditoriale.",m4t:"Effets humains",m4p:"La technologie est étudiée avec l’attention, l’expertise, la décision, les institutions, le travail et la culture.",quote:"No one left unheard.",aboutText:"VOCE est une association française indépendante basée à Paris. Elle développe recherche, médiation scientifique et culturelle, éducation du public et travail éditorial sur les transformations contemporaines qui affectent la vie humaine."
+methodEyebrow:"Méthode",methodTitle:"La recherche avant la posture.",m1t:"Données récentes",m1p:"Priorité aux études récentes, documentations techniques, cohortes, réglementations, infrastructures et sources primaires.",m2t:"Mécanismes",m2p:"Expliquer comment un système fonctionne : architecture, protocole, incitations, contraintes et conséquences humaines.",m3t:"Limites",m3p:"Séparer corrélation et causalité, faits documentés et interprétation, recherche formelle et analyse éditoriale.",m4t:"Effets humains",m4p:"La technologie est étudiée avec l’attention, l’expertise, la décision, les institutions, le travail et la culture.",committeeEyebrow:"Comité scientifique",committeeTitle:"Une expertise au contact des systèmes étudiés.",committeeIntro:"VOCE s’appuie sur un comité scientifique et un réseau d’experts dont les membres travaillent au sein même des écosystèmes analysés. L’approche est volontairement transnationale et interdisciplinaire : technologie et intelligence artificielle sont lues avec la psychiatrie, la culture, l’art, la philanthropie et la pratique institutionnelle.",geoLabel:"Géographies",discLabel:"Disciplines",discValue:"Intelligence artificielle · Écosystèmes numériques · Psychiatrie · Arts & culture · Fondations & institutions",stanceLabel:"Position",stanceValue:"Observer depuis les écosystèmes, comparer les régions et séparer les faits de la posture.",committeeNote:"Cette géographie compte. Paris et Londres apportent une profondeur institutionnelle, financière et culturelle ; Dubaï relie VOCE aux écosystèmes en accélération du Golfe ; Hangzhou, Shanghai et Hong Kong placent VOCE au contact des environnements chinois de technologie, commerce et innovation. Ces points d’observation servent à comparer les systèmes plutôt qu’à prendre un seul marché pour modèle du monde.",quote:"No one left unheard.",aboutText:"VOCE est une association française indépendante basée à Paris et reliée à des écosystèmes d’expertise à Londres, Dubaï et en Chine. Elle développe recherche, médiation scientifique et culturelle, éducation du public et travail éditorial sur les transformations contemporaines qui affectent la vie humaine."
 },
 it:{
-navThemes:"Temi",navPublications:"Pubblicazioni",navMethod:"Metodo",navAbout:"Chi siamo",
+navThemes:"Temi",navPublications:"Pubblicazioni",navMethod:"Metodo",navCommittee:"Comitato",navAbout:"Chi siamo",
 tagline:"Ricerca. Cultura. Intelligenza.",status:"Associazione francese indipendente senza scopo di lucro",
 intro:"VOCE studia i sistemi che trasformano la vita umana prima che le loro conseguenze diventino evidenti: intelligenza artificiale, lavoro, attenzione, conoscenza, salute e cultura.",
 themesEyebrow:"Linee di ricerca",themesTitle:"Quattro domande attraversano VOCE.",
@@ -273,7 +305,7 @@ openTitle:"IA aperta, sovranità & orchestrazione",openText:"I modelli aperti e 
 lwText:"VOCE definisce « light workforce » un’organizzazione la cui scala economica cresce più rapidamente della forza lavoro permanente. Agenti IA, automazione software e robotica assorbono attività prima distribuite tra grandi team; gli esseri umani si concentrano su giudizio, eccezioni, manutenzione, controllo e responsabilità. Il guadagno di produttività crea anche un rischio: se scompaiono i compiti junior, può scomparire anche l’apprendimento che formava gli esperti futuri.",lwSmall:"Il tema attraversa uffici, banche, software sanitari, fabbriche, logistica e nuove popolazioni di agenti autonomi.",
 techTitle:"Technoference",techText:"La technoference indica le interruzioni introdotte dai dispositivi connessi nell’attenzione, nelle relazioni e nel pensiero interiore. VOCE la studia dalla prima infanzia all’età adulta: interazione genitore-figlio, sviluppo del linguaggio, attenzione frammentata, delega cognitiva, validazione sociale, screenshot usati come memoria esterna e trasferimento progressivo del ricordare, scegliere e anticipare ai sistemi digitali.",techSmall:"La domanda ricorrente: che cosa accade all’attenzione umana quando l’interruzione diventa l’ambiente predefinito?",
 pubEyebrow:"VOCE Research",pubTitle:"Risultati formali di ricerca.",pub1:"Un quadro concettuale su come il flusso digitale continuo influenzi riflessione, dialogo interiore e pensiero sostenuto.",pub2:"Una revisione integrativa sulla distrazione digitale, l’interazione genitore-figlio e l’acquisizione precoce del linguaggio.",
-methodEyebrow:"Metodo",methodTitle:"La ricerca prima della postura.",m1t:"Evidenze recenti",m1p:"Priorità a studi recenti, documentazione tecnica, coorti, regolamentazioni, infrastrutture e fonti primarie.",m2t:"Meccanismi",m2p:"Spiegare come funziona un sistema: architettura, protocollo, incentivi, vincoli e conseguenze umane.",m3t:"Limiti",m3p:"Separare correlazione e causalità, fatti documentati e interpretazione, ricerca formale e analisi editoriale.",m4t:"Effetti umani",m4p:"La tecnologia viene studiata insieme ad attenzione, competenza, decisione, istituzioni, lavoro e cultura.",quote:"No one left unheard.",aboutText:"VOCE è un’associazione francese indipendente con sede a Parigi. Sviluppa ricerca, mediazione scientifica e culturale, educazione pubblica e lavoro editoriale sulle trasformazioni contemporanee che influenzano la vita umana."
+methodEyebrow:"Metodo",methodTitle:"La ricerca prima della postura.",m1t:"Evidenze recenti",m1p:"Priorità a studi recenti, documentazione tecnica, coorti, regolamentazioni, infrastrutture e fonti primarie.",m2t:"Meccanismi",m2p:"Spiegare come funziona un sistema: architettura, protocollo, incentivi, vincoli e conseguenze umane.",m3t:"Limiti",m3p:"Separare correlazione e causalità, fatti documentati e interpretazione, ricerca formale e analisi editoriale.",m4t:"Effetti umani",m4p:"La tecnologia viene studiata insieme ad attenzione, competenza, decisione, istituzioni, lavoro e cultura.",committeeEyebrow:"Comitato scientifico",committeeTitle:"Un’expertise vicina ai sistemi che studia.",committeeIntro:"VOCE si appoggia a un comitato scientifico e a una rete di esperti i cui membri lavorano all’interno degli ecosistemi analizzati. L’approccio è volutamente transnazionale e interdisciplinare: tecnologia e intelligenza artificiale sono lette insieme a psichiatria, cultura, arte, filantropia e pratica istituzionale.",geoLabel:"Geografie",discLabel:"Discipline",discValue:"Intelligenza artificiale · Ecosistemi digitali · Psichiatria · Arte & cultura · Fondazioni & istituzioni",stanceLabel:"Posizione",stanceValue:"Osservare dall’interno degli ecosistemi, confrontare le regioni e separare i fatti dalla postura.",committeeNote:"Questa geografia conta. Parigi e Londra portano profondità istituzionale, finanziaria e culturale; Dubai collega VOCE agli ecosistemi in rapida accelerazione del Golfo; Hangzhou, Shanghai e Hong Kong collocano VOCE vicino agli ambienti cinesi di tecnologia, commercio e innovazione. Questi punti di osservazione servono a confrontare i sistemi senza assumere un solo mercato come modello del mondo.",quote:"No one left unheard.",aboutText:"VOCE è un’associazione francese indipendente con sede a Parigi e collegata a ecosistemi di expertise a Londra, Dubai e in Cina. Sviluppa ricerca, mediazione scientifica e culturale, educazione pubblica e lavoro editoriale sulle trasformazioni contemporanee che influenzano la vita umana."
 }};
 function setLang(l){
  document.documentElement.lang=l;
