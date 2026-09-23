@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap');
 :root{
   --paper:#fbfaf6;
   --ink:#171917;
@@ -6,8 +7,8 @@
   --line:#d9d8d1;
   --soft:#f4f2eb;
   --max:1320px;
-  --serif:Didot,"Bodoni 72","Bodoni MT","Iowan Old Style","Times New Roman",serif;
-  --sans:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+  --serif:"Cormorant Garamond","Iowan Old Style","Baskerville","Times New Roman",serif;
+  --sans:"Inter",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;background:var(--paper)}
@@ -16,7 +17,8 @@ a{color:inherit;text-decoration:none}
 .wrap{width:min(calc(100% - 56px),var(--max));margin:0 auto}
 header{position:sticky;top:0;z-index:50;background:rgba(251,250,246,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
 .nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:28px}
-.voce-mark{display:inline-block;width:148px;height:47px;background:url("/voce-wordmark.svg") left center/contain no-repeat;line-height:0}
+.voce-mark{display:inline-block;width:auto;height:auto;background:none;font-family:var(--serif);font-size:2.35rem;font-weight:500;letter-spacing:.055em;line-height:.9;color:var(--forest);font-kerning:normal}
+.voce-mark:before{content:"VOCE"}
 .voce-mark>*{display:none}
 .menu{display:flex;align-items:center;gap:24px;font-size:.69rem;text-transform:uppercase;letter-spacing:.12em}
 .menu a{padding:8px 0;border-bottom:1px solid transparent}
@@ -25,7 +27,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(251,250,246,.96);backdro
 .lang button{border:0;background:none;color:var(--muted);font:inherit;font-size:.66rem;letter-spacing:.08em;cursor:pointer;padding:4px 0}
 .lang button.active{color:var(--forest);font-weight:700}
 .hero{padding:112px 0 92px}
-.hero .voce-mark{width:min(72vw,880px);height:auto;aspect-ratio:705/221;background-size:contain}
+.hero .voce-mark{width:auto;height:auto;aspect-ratio:auto;background:none;font-size:clamp(6.7rem,17vw,14.2rem);font-weight:500;letter-spacing:-.012em;line-height:.78}
 .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:90px;margin-top:78px;padding-top:24px;border-top:1px solid var(--line)}
 .hero h1,.display{font-family:var(--serif);font-weight:400;color:var(--forest);letter-spacing:-.04em;line-height:.95;margin:0}
 .hero h1{font-size:clamp(2.6rem,4.6vw,5rem)}
@@ -90,7 +92,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(251,250,246,.96);backdro
 .back:before{content:"←  "}
 footer{padding:54px 0 30px;border-top:1px solid var(--line)}
 .footer{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end}
-.footer .voce-mark{width:190px;height:60px}
+.footer .voce-mark{width:auto;height:auto;font-size:3.15rem}
 .footer-right{text-align:right;font-size:.77rem;color:var(--muted)}
 .footer-right div+div{margin-top:5px}
 .footer-right a{border-bottom:1px solid var(--line)}
@@ -104,9 +106,9 @@ footer{padding:54px 0 30px;border-top:1px solid var(--line)}
 @media(max-width:720px){
   .wrap{width:min(calc(100% - 30px),var(--max))}
   .nav{height:70px}
-  .voce-mark{width:116px;height:37px}
+  .voce-mark{width:auto;height:auto;font-size:1.9rem}
   .hero{padding:72px 0 58px}
-  .hero .voce-mark{width:min(88vw,620px);height:auto}
+  .hero .voce-mark{width:auto;height:auto;font-size:clamp(5.2rem,25vw,8.3rem)}
   .hero-grid{margin-top:52px}
   .section{padding:76px 0}
   .pathway{grid-template-columns:36px 1fr;gap:14px}
@@ -124,8 +126,8 @@ footer{padding:54px 0 30px;border-top:1px solid var(--line)}
 .footer-nav h4{margin:0 0 14px;font-size:.65rem;text-transform:uppercase;letter-spacing:.16em;color:var(--muted)}
 .footer-nav a{display:block;width:max-content;max-width:100%;margin:7px 0;font-size:.85rem;color:#3f4541}
 .footer-nav a:hover{color:var(--forest)}
-.paper-signature{width:min(620px,88%);margin:60px auto 20px;padding:88px 72px 72px;background:#fffefb;box-shadow:0 26px 70px rgba(28,42,36,.08);transform:rotate(-1.15deg);border:1px solid rgba(15,61,50,.06)}
-.paper-signature .voce-mark{width:100%;height:auto;aspect-ratio:705/221;background-size:contain}
+.paper-signature{width:min(620px,88%);margin:60px auto 20px;padding:88px 72px 72px;background:#fffefb;box-shadow:0 22px 60px rgba(28,42,36,.07);transform:none;border:1px solid rgba(15,61,50,.06)}
+.paper-signature .voce-mark{display:block;width:auto;height:auto;aspect-ratio:auto;background:none;text-align:center;font-size:6.2rem;line-height:.85;letter-spacing:.035em}
 .paper-signature .motto{text-align:center;margin-top:24px;font-size:.64rem;text-transform:uppercase;letter-spacing:.28em;color:var(--forest)}
 .paper-signature .assoc{text-align:center;margin-top:8px;font-size:.58rem;text-transform:uppercase;letter-spacing:.33em;color:var(--forest)}
 .longform{max-width:900px}
