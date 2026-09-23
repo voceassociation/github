@@ -8,25 +8,26 @@
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to content</a>
 <header>
   <div class="wrap nav">
     <a class="voce-mark" href="/" aria-label="VOCE"><span></span></a>
-    <nav class="menu">
-      <a href="/research.html" data-nav-research>Research</a>
-      <a href="/standards.html" data-nav-standards>Standards</a>
-      <a href="/publications.html" data-nav-publications>Publications</a>
-      <a class="keep" href="/about.html" data-nav-about>About</a>
-      <span class="lang"><button data-lang="en">EN</button><button data-lang="fr">FR</button><button data-lang="it">IT</button></span>
+    <nav class="menu" aria-label="Primary navigation">
+      <a href="/research" data-nav-research>Research</a>
+      <a href="/standards" data-nav-standards>Standards</a>
+      <a href="/publications" data-nav-publications>Publications</a>
+      <a class="keep" href="/about" data-nav-about>About</a>
+      <span class="lang" role="group" aria-label="Language"><button data-lang="en">EN</button><button data-lang="fr">FR</button><button data-lang="it">IT</button></span>
     </nav>
   </div>
 </header>
-<main>
+<main id="main-content">
 <section class="topic-hero">
   <div class="wrap">
-    <div class="topic-kicker" id="page-kicker"></div>
-    <h1 class="topic-title" id="page-title"></h1>
-    <p class="topic-deck" id="page-deck"></p>
-    <div class="topic-meta" id="page-meta"></div>
+    <div class="topic-kicker" id="page-kicker">Publications</div>
+    <h1 class="topic-title" id="page-title">A corpus designed to remain inspectable.</h1>
+    <p class="topic-deck" id="page-deck">VOCE separates formal research outputs from editorial analysis while giving both a clear place in the institution.</p>
+    <div class="topic-meta" id="page-meta"><span>DOI</span><span>Research</span><span>Courses</span><span>Editorial series</span></div>
     
   </div>
 </section>
@@ -34,21 +35,21 @@
   <div class="wrap topic-layout">
     <aside class="topic-nav">
       <div class="topic-nav-label">VOCE</div>
-      <a id="side-about" href="/about.html">About</a>
-      <a id="side-research" href="/research.html">Research</a>
-      <a id="side-standards" href="/standards.html">Governance & Standards</a>
-      <a id="side-publications" href="/publications.html">Publications</a>
-      <a id="side-contact" href="/contact.html">Contact</a>
+      <a id="side-about" href="/about">About</a>
+      <a id="side-research" href="/research">Research</a>
+      <a id="side-standards" href="/standards">Governance & Standards</a>
+      <a id="side-publications" href="/publications">Publications</a>
+      <a id="side-contact" href="/contact">Contact</a>
     </aside>
-    <div class="longform" id="sections"></div>
+    <div class="longform" id="sections"><section class="chapter"><div class="chapter-no">01</div><h2>Formal research outputs</h2><p class="signal">VOCE Research publishes work with stable references and persistent identifiers where appropriate. Two current outputs are listed below.</p><p>When digital stimulation disrupts inner thinking · DOI 10.5281/zenodo.19189281</p><p>How parental technoference affects early language development · DOI 10.5281/zenodo.19114381</p></section><section class="chapter"><div class="chapter-no">02</div><h2>Editorial corpus</h2><p>VOCE’s editorial corpus spans artificial intelligence, health, neuroscience, psychology, technology, infrastructure, culture, logistics, medicine, education and human behaviour. These texts are not presented as peer-reviewed papers unless they are formal research outputs.</p><p>Their function is interpretive: identify an overlooked mechanism, explain why it matters and preserve the chain back to the source.</p></section><section class="chapter"><div class="chapter-no">03</div><h2>COURS VOCE®</h2><p>The course format converts a difficult subject into an expert explanatory unit: mechanism, architecture, vocabulary, controls, metrics and implications.</p><p>Topics increasingly include AI systems, governance, agents, RAG, model routing, sovereignty, infrastructure, workforce transformation and the cognitive effects of digital environments.</p></section><section class="chapter"><div class="chapter-no">04</div><h2>Versions and archive</h2><p>VOCE is building a canonical institutional archive so that research outputs, courses and major editorial texts can be located by subject, date, source and version.</p><p>The website is intended to become that source of record rather than leaving the institution dependent on social platforms.</p></section></div>
   </div>
 </section>
 <section class="section">
   <div class="wrap section-grid">
     <div class="eyebrow">VOCE</div>
     <div>
-      <h2 class="display" id="links-title"></h2>
-      <div class="link-rows" id="links"></div>
+      <h2 class="display" id="links-title">Direct access</h2>
+      <div class="link-rows" id="links"><a class="link-row" href="https://doi.org/10.5281/zenodo.19189281" target="_blank" rel="noopener"><div class="label">Continue</div><div><h3>Digital stimulation &amp; inner thinking</h3><p>Open DOI record.</p></div><div class="go">Open</div></a><a class="link-row" href="https://doi.org/10.5281/zenodo.19114381" target="_blank" rel="noopener"><div class="label">Continue</div><div><h3>Parental technoference &amp; language</h3><p>Open DOI record.</p></div><div class="go">Open</div></a><a class="link-row" href="/research"><div class="label">Continue</div><div><h3>VOCE Research</h3><p>Research architecture and current agenda.</p></div><div class="go">Open</div></a><a class="link-row" href="https://fr.linkedin.com/in/voce-association-0030763b6" target="_blank" rel="noopener"><div class="label">Continue</div><div><h3>LinkedIn</h3><p>Current public editorial stream.</p></div><div class="go">Open</div></a></div>
     </div>
   </div>
 </section>
@@ -59,13 +60,13 @@
       <a class="voce-mark" href="/" aria-label="VOCE"><span></span></a>
       <div class="footer-right">
         <div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div>
-        <div><a href="https://fr.linkedin.com/in/voce-association-0030763b6" target="_blank" rel="noopener">LinkedIn</a> · contact@voce.life · © 2026 VOCE Association</div>
+        <div><a href="https://fr.linkedin.com/in/voce-association-0030763b6" target="_blank" rel="noopener">LinkedIn</a> · <a href="mailto:contact@voce.life">contact@voce.life</a> · © 2026 VOCE Association</div>
       </div>
     </div>
     <div class="footer-nav">
-      <div><h4 id="f-inst">Institution</h4><a id="f-about" href="/about.html">About</a><a id="f-standards" href="/standards.html">Governance & Standards</a><a id="f-contact" href="/contact.html">Contact</a></div>
-      <div><h4 id="f-work">Work</h4><a id="f-research" href="/research.html">Research</a><a id="f-ai" href="/governance.html">AI Governance</a><a id="f-pubs" href="/publications.html">Publications</a></div>
-      <div><h4>VOCE</h4><a href="/sovereignty.html">Sovereignty</a><a href="/light-workforce.html">Light workforce</a><a href="/technoference.html">Technoference</a></div>
+      <div><h4 id="f-inst">Institution</h4><a id="f-about" href="/about">About</a><a id="f-standards" href="/standards">Governance & Standards</a><a id="f-contact" href="/contact">Contact</a></div>
+      <div><h4 id="f-work">Work</h4><a id="f-research" href="/research">Research</a><a id="f-ai" href="/governance">AI Governance</a><a id="f-pubs" href="/publications">Publications</a></div>
+      <div><h4>VOCE</h4><a href="/sovereignty">Sovereignty</a><a href="/light-workforce">Light workforce</a><a href="/technoference">Technoference</a></div>
     </div>
   </div>
 </footer>
