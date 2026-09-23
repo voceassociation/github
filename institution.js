@@ -161,9 +161,9 @@ it:{kicker:"Contatti",title:"Ricerca, istituzioni, cultura.",deck:"VOCE accoglie
 }
 };
 const COMMON={
-en:{navThemes:"Themes",navResearch:"Research",navStandards:"Standards",navPublications:"Publications",navAbout:"About",links:"Continue",institution:"Institution",work:"Work",contact:"Contact",home:"Home",linkedin:"LinkedIn"},
-fr:{navThemes:"Thèmes",navResearch:"Research",navStandards:"Standards",navPublications:"Publications",navAbout:"À propos",links:"Poursuivre",institution:"Institution",work:"Travail",contact:"Contact",home:"Accueil",linkedin:"LinkedIn"},
-it:{navThemes:"Temi",navResearch:"Research",navStandards:"Standard",navPublications:"Pubblicazioni",navAbout:"Chi siamo",links:"Continua",institution:"Istituzione",work:"Lavoro",contact:"Contatti",home:"Home",linkedin:"LinkedIn"}
+en:{navThemes:"Themes",navResearch:"Research",navStandards:"Standards",navPublications:"Publications",navAbout:"About",links:"Continue",institution:"Institution",work:"Work",contact:"Contact",home:"Home",linkedin:"LinkedIn",sideAbout:"About",sideResearch:"Research",sideStandards:"Governance & Standards",sidePublications:"Publications",sideContact:"Contact"},
+fr:{navThemes:"Thèmes",navResearch:"Recherche",navStandards:"Normes",navPublications:"Publications",navAbout:"À propos",links:"Poursuivre",institution:"Institution",work:"Travaux",contact:"Contact",home:"Accueil",linkedin:"LinkedIn",sideAbout:"À propos",sideResearch:"Recherche",sideStandards:"Gouvernance & standards",sidePublications:"Publications",sideContact:"Contact"},
+it:{navThemes:"Temi",navResearch:"Ricerca",navStandards:"Standard",navPublications:"Pubblicazioni",navAbout:"Chi siamo",links:"Continua",institution:"Istituzione",work:"Lavoro",contact:"Contatti",home:"Home",linkedin:"LinkedIn",sideAbout:"Chi siamo",sideResearch:"Ricerca",sideStandards:"Governance & standard",sidePublications:"Pubblicazioni",sideContact:"Contatti"}
 };
 function currentLang(){return localStorage.getItem("voce-lang")||"en"}
 function renderInstitution(l){
@@ -192,6 +192,11 @@ function renderInstitution(l){
  document.querySelector("#f-research").textContent=c.navResearch;
  document.querySelector("#f-ai").textContent=l==="fr"?"Gouvernance de l’IA":l==="it"?"Governance dell’IA":"AI Governance";
  document.querySelector("#f-pubs").textContent=c.navPublications;
+ document.querySelector("#side-about").textContent=c.sideAbout;
+ document.querySelector("#side-research").textContent=c.sideResearch;
+ document.querySelector("#side-standards").textContent=c.sideStandards;
+ document.querySelector("#side-publications").textContent=c.sidePublications;
+ document.querySelector("#side-contact").textContent=c.sideContact;
 }
 function setLang(l){localStorage.setItem("voce-lang",l);renderInstitution(l)}
 document.addEventListener("DOMContentLoaded",()=>{
