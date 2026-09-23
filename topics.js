@@ -249,9 +249,9 @@ source:"VOCE Research comprende lavori formali sulla technoference parentale e s
 };
 
 const COMMON={
-en:{themes:"Themes",publications:"Publications",committee:"Committee",about:"About",linkedin:"LinkedIn",research:"Research",controls:"Control framework",standards:"Governance & Standards",contact:"Contact",institution:"Institution",work:"Work",ai:"AI Governance",sovereignty:"Sovereignty"},
-fr:{themes:"Thèmes",publications:"Publications",committee:"Comité",about:"À propos",linkedin:"LinkedIn",research:"Research",controls:"Cadre de contrôle",standards:"Gouvernance & standards",contact:"Contact",institution:"Institution",work:"Travail",ai:"Gouvernance de l’IA",sovereignty:"Souveraineté"},
-it:{themes:"Temi",publications:"Pubblicazioni",committee:"Comitato",about:"Chi siamo",linkedin:"LinkedIn",research:"Research",controls:"Quadro di controllo",standards:"Governance & standard",contact:"Contatti",institution:"Istituzione",work:"Lavoro",ai:"Governance dell’IA",sovereignty:"Sovranità"}
+en:{themes:"Themes",publications:"Publications",committee:"Committee",about:"About",linkedin:"LinkedIn",research:"Research",controls:"Control framework",standards:"Governance & Standards",contact:"Contact",institution:"Institution",work:"Work",ai:"AI Governance",sovereignty:"Sovereignty",legal:"Legal",privacy:"Privacy"},
+fr:{themes:"Thèmes",publications:"Publications",committee:"Comité",about:"À propos",linkedin:"LinkedIn",research:"Research",controls:"Cadre de contrôle",standards:"Gouvernance & standards",contact:"Contact",institution:"Institution",work:"Travail",ai:"Gouvernance de l’IA",sovereignty:"Souveraineté",legal:"Mentions légales",privacy:"Confidentialité"},
+it:{themes:"Temi",publications:"Pubblicazioni",committee:"Comitato",about:"Chi siamo",linkedin:"LinkedIn",research:"Research",controls:"Quadro di controllo",standards:"Governance & standard",contact:"Contatti",institution:"Istituzione",work:"Lavoro",ai:"Governance dell’IA",sovereignty:"Sovranità",legal:"Note legali",privacy:"Privacy"}
 };
 
 function mark(){
@@ -296,6 +296,8 @@ function renderTopic(l){
    document.querySelector("#f-ai").textContent=c.ai;
    document.querySelector("#f-pubs").textContent=c.publications;
    document.querySelector("#f-sovereignty").textContent=c.sovereignty;
+   if(document.querySelector("#f-legal")) document.querySelector("#f-legal").textContent=c.legal;
+   if(document.querySelector("#f-privacy")) document.querySelector("#f-privacy").textContent=c.privacy;
  }
 }
 document.addEventListener("DOMContentLoaded",()=>{
