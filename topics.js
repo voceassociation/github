@@ -267,7 +267,7 @@ function renderTopic(l){
  const c=COMMON[l]||COMMON.en;
  document.documentElement.lang=l;
  document.title=d.title+" — VOCE";
- document.querySelectorAll("[data-lang]").forEach(b=>b.classList.toggle("active",b.dataset.lang===l));
+ document.querySelectorAll("[data-lang]").forEach(b=>{b.classList.toggle("active",b.dataset.lang===l);b.setAttribute("aria-pressed",b.dataset.lang===l?"true":"false")});
  document.querySelectorAll(".voce-mark").forEach(el=>el.innerHTML=mark());
  document.querySelector("[data-nav-themes]").textContent=c.themes;
  document.querySelector("[data-nav-publications]").textContent=c.publications;
