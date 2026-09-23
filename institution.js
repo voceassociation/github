@@ -171,7 +171,7 @@ function renderInstitution(l){
  const c=COMMON[l]||COMMON.en;
  document.documentElement.lang=l;
  document.title=p.title+" — VOCE";
- document.querySelectorAll("[data-lang]").forEach(b=>b.classList.toggle("active",b.dataset.lang===l));
+ document.querySelectorAll("[data-lang]").forEach(b=>{b.classList.toggle("active",b.dataset.lang===l);b.setAttribute("aria-pressed",b.dataset.lang===l?"true":"false")});
  document.querySelector("[data-nav-research]").textContent=c.navResearch;
  document.querySelector("[data-nav-standards]").textContent=c.navStandards;
  document.querySelector("[data-nav-publications]").textContent=c.navPublications;
