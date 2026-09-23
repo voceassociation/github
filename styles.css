@@ -12,7 +12,7 @@
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;background:var(--paper)}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.67;-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15.5px;font-weight:400;line-height:1.62;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-kerning:normal}
 a{color:inherit;text-decoration:none}
 .wrap{width:min(calc(100% - 56px),var(--max));margin:0 auto}
 header{position:sticky;top:0;z-index:50;background:rgba(251,250,246,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
@@ -20,52 +20,52 @@ header{position:sticky;top:0;z-index:50;background:rgba(251,250,246,.96);backdro
 .voce-mark{display:inline-block;width:auto;height:auto;background:none;font-family:var(--serif);font-size:2.35rem;font-weight:500;letter-spacing:.055em;line-height:.9;color:var(--forest);font-kerning:normal}
 .voce-mark:before{content:"VOCE"}
 .voce-mark>*{display:none}
-.menu{display:flex;align-items:center;gap:24px;font-size:.69rem;text-transform:uppercase;letter-spacing:.12em}
+.menu{display:flex;align-items:center;gap:24px;font-size:.68rem;font-weight:500;text-transform:uppercase;letter-spacing:.105em}
 .menu a{padding:8px 0;border-bottom:1px solid transparent}
 .menu a:hover,.menu a.active{border-bottom-color:var(--forest)}
 .lang{display:flex;gap:8px;margin-left:7px;padding-left:18px;border-left:1px solid var(--line)}
 .lang button{border:0;background:none;color:var(--muted);font:inherit;font-size:.66rem;letter-spacing:.08em;cursor:pointer;padding:4px 0}
-.lang button.active{color:var(--forest);font-weight:700}
+.lang button.active{color:var(--forest);font-weight:600}
 .hero{padding:112px 0 92px}
 .hero .voce-mark{width:auto;height:auto;aspect-ratio:auto;background:none;font-size:clamp(6.7rem,17vw,14.2rem);font-weight:500;letter-spacing:-.012em;line-height:.78}
 .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:90px;margin-top:78px;padding-top:24px;border-top:1px solid var(--line)}
-.hero h1,.display{font-family:var(--serif);font-weight:400;color:var(--forest);letter-spacing:-.04em;line-height:.95;margin:0}
-.hero h1{font-size:clamp(2.6rem,4.6vw,5rem)}
-.hero-copy{font-size:1.07rem;color:#3c423e;max-width:620px;margin:4px 0 0}
+.hero h1,.display{font-family:var(--serif);font-weight:400;color:var(--forest);letter-spacing:-.022em;line-height:.96;margin:0}
+.hero h1{font-size:clamp(2.55rem,4.35vw,4.75rem)}
+.hero-copy{font-size:1rem;line-height:1.68;color:#414743;max-width:570px;margin:4px 0 0}
 .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:36px;font-size:.68rem;text-transform:uppercase;letter-spacing:.14em;color:var(--muted)}
 .section{padding:108px 0;border-top:1px solid var(--line)}
 .section-grid{display:grid;grid-template-columns:260px 1fr;gap:90px}
-.eyebrow{padding-top:9px;font-size:.67rem;font-weight:700;text-transform:uppercase;letter-spacing:.17em;color:var(--forest)}
-.display{font-size:clamp(2.8rem,5.4vw,5.9rem);margin-bottom:42px}
-.lead{font-family:var(--serif);font-size:clamp(1.55rem,2.4vw,2.35rem);line-height:1.18;color:#232724;max-width:920px;margin:0 0 44px}
+.eyebrow{padding-top:9px;font-size:.66rem;font-weight:600;text-transform:uppercase;letter-spacing:.155em;color:var(--forest)}
+.display{font-size:clamp(2.75rem,5vw,5.45rem);margin-bottom:40px}
+.lead{font-family:var(--serif);font-size:clamp(1.5rem,2.25vw,2.18rem);font-weight:400;line-height:1.24;letter-spacing:-.008em;color:#252a27;max-width:900px;margin:0 0 42px}
 .pathway{display:grid;grid-template-columns:64px minmax(0,1fr) 120px;gap:28px;align-items:start;padding:30px 0;border-top:1px solid var(--line)}
 .pathway:last-child{border-bottom:1px solid var(--line)}
 .num{font-family:var(--serif);font-size:1.1rem;color:var(--muted);padding-top:4px}
-.pathway h3{font-family:var(--serif);font-size:clamp(1.9rem,3vw,2.8rem);font-weight:400;line-height:1.04;color:var(--forest);margin:0 0 12px}
+.pathway h3{font-family:var(--serif);font-size:clamp(1.85rem,2.8vw,2.62rem);font-weight:400;line-height:1.08;letter-spacing:-.012em;color:var(--forest);margin:0 0 11px}
 .pathway p{margin:0;max-width:760px;color:#484e4a}
 .explore{justify-self:end;white-space:nowrap;font-size:.67rem;font-weight:700;text-transform:uppercase;letter-spacing:.13em;color:var(--forest);padding-top:9px}
 .explore:after{content:"  →"}
 .rule-list{border-top:1px solid var(--line)}
 .rule{display:grid;grid-template-columns:190px 1fr;gap:34px;padding:23px 0;border-bottom:1px solid var(--line)}
 .rule .label{font-size:.67rem;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);padding-top:4px}
-.rule .value{font-family:var(--serif);font-size:1.7rem;line-height:1.17;color:var(--forest)}
+.rule .value{font-family:var(--serif);font-size:1.62rem;line-height:1.22;letter-spacing:-.008em;color:var(--forest)}
 .text{max-width:860px;color:#424844}
 .text p{margin:0 0 20px}
 .quote{padding:75px 0;border-top:1px solid var(--line)}
 .quote-inner{max-width:910px;margin-left:auto}
-.quote blockquote{font-family:var(--serif);font-size:clamp(2.3rem,4.6vw,5rem);line-height:1.02;letter-spacing:-.035em;color:var(--forest);margin:0}
+.quote blockquote{font-family:var(--serif);font-size:clamp(2.25rem,4.35vw,4.75rem);font-weight:400;line-height:1.06;letter-spacing:-.018em;color:var(--forest);margin:0}
 .quote cite{display:block;margin-top:24px;font-style:normal;color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.13em}
 .pub{display:grid;grid-template-columns:150px minmax(0,1fr) 80px;gap:32px;padding:28px 0;border-top:1px solid var(--line)}
 .pub:last-child{border-bottom:1px solid var(--line)}
 .pub .type{font-size:.66rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
-.pub h3{font-family:var(--serif);font-size:1.95rem;font-weight:400;line-height:1.08;color:var(--forest);margin:0 0 9px}
+.pub h3{font-family:var(--serif);font-size:1.88rem;font-weight:400;line-height:1.12;letter-spacing:-.01em;color:var(--forest);margin:0 0 9px}
 .pub p{margin:0;color:#515752;max-width:760px;font-size:.91rem}
 .pub .year{text-align:right;color:var(--muted);font-family:var(--serif)}
 .doi{display:inline-block;margin-top:11px;border-bottom:1px solid var(--forest);color:var(--forest);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase}
 .topic-hero{padding:104px 0 76px}
 .topic-kicker{font-size:.67rem;font-weight:700;text-transform:uppercase;letter-spacing:.17em;color:var(--forest);margin-bottom:28px}
-.topic-title{font-family:var(--serif);font-size:clamp(3.6rem,7.8vw,8.5rem);font-weight:400;letter-spacing:-.055em;line-height:.9;color:var(--forest);max-width:1140px;margin:0}
-.topic-deck{font-family:var(--serif);font-size:clamp(1.55rem,2.5vw,2.55rem);line-height:1.16;max-width:920px;margin:42px 0 0;color:#252a27}
+.topic-title{font-family:var(--serif);font-size:clamp(3.45rem,7.25vw,7.9rem);font-weight:400;letter-spacing:-.026em;line-height:.94;color:var(--forest);max-width:1140px;margin:0}
+.topic-deck{font-family:var(--serif);font-size:clamp(1.5rem,2.3vw,2.28rem);font-weight:400;line-height:1.24;letter-spacing:-.008em;max-width:900px;margin:40px 0 0;color:#252a27}
 .topic-meta{margin-top:52px;padding-top:18px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:14px 32px;color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.13em}
 .topic-body{padding:92px 0;border-top:1px solid var(--line)}
 .topic-layout{display:grid;grid-template-columns:240px minmax(0,1fr);gap:92px}
@@ -76,9 +76,9 @@ header{position:sticky;top:0;z-index:50;background:rgba(251,250,246,.96);backdro
 .chapter{padding-bottom:70px;margin-bottom:70px;border-bottom:1px solid var(--line)}
 .chapter:last-child{margin-bottom:0}
 .chapter .chapter-no{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.16em;color:var(--forest);margin-bottom:16px}
-.chapter h2{font-family:var(--serif);font-size:clamp(2.2rem,4vw,4.15rem);font-weight:400;letter-spacing:-.035em;line-height:1;color:var(--forest);margin:0 0 28px}
+.chapter h2{font-family:var(--serif);font-size:clamp(2.15rem,3.75vw,3.85rem);font-weight:400;letter-spacing:-.018em;line-height:1.04;color:var(--forest);margin:0 0 27px}
 .chapter p{max-width:850px;margin:0 0 20px;color:#404641}
-.chapter .signal{font-family:var(--serif);font-size:1.45rem;line-height:1.25;color:#262b28;margin:28px 0;max-width:800px}
+.chapter .signal{font-family:var(--serif);font-size:1.38rem;font-weight:400;line-height:1.3;letter-spacing:-.006em;color:#262b28;margin:28px 0;max-width:800px}
 .checks{margin-top:28px;border-top:1px solid var(--line)}
 .check{display:grid;grid-template-columns:54px 1fr;gap:20px;padding:17px 0;border-bottom:1px solid var(--line)}
 .check b{font-family:var(--serif);font-weight:400;color:var(--forest)}
@@ -86,7 +86,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(251,250,246,.96);backdro
 .controcanto{padding:68px 0;border-top:1px solid var(--line)}
 .controcanto-grid{display:grid;grid-template-columns:260px 1fr;gap:90px}
 .controcanto-copy{max-width:850px}
-.controcanto-copy h2{font-family:var(--serif);font-size:clamp(2.4rem,4.8vw,5rem);font-weight:400;line-height:.98;letter-spacing:-.035em;color:var(--forest);margin:0 0 24px}
+.controcanto-copy h2{font-family:var(--serif);font-size:clamp(2.35rem,4.45vw,4.7rem);font-weight:400;line-height:1.03;letter-spacing:-.02em;color:var(--forest);margin:0 0 24px}
 .controcanto-copy p{margin:0 0 18px;color:#434943}
 .back{display:inline-block;margin-top:26px;font-size:.67rem;font-weight:700;text-transform:uppercase;letter-spacing:.13em;color:var(--forest)}
 .back:before{content:"←  "}
@@ -131,14 +131,14 @@ footer{padding:54px 0 30px;border-top:1px solid var(--line)}
 .paper-signature .motto{text-align:center;margin-top:24px;font-size:.64rem;text-transform:uppercase;letter-spacing:.28em;color:var(--forest)}
 .paper-signature .assoc{text-align:center;margin-top:8px;font-size:.58rem;text-transform:uppercase;letter-spacing:.33em;color:var(--forest)}
 .longform{max-width:900px}
-.longform h2{font-family:var(--serif);font-size:clamp(2.2rem,4vw,4.15rem);font-weight:400;letter-spacing:-.035em;line-height:1;color:var(--forest);margin:0 0 26px}
-.longform h3{font-family:var(--serif);font-size:1.65rem;font-weight:400;color:var(--forest);margin:34px 0 12px}
+.longform h2{font-family:var(--serif);font-size:clamp(2.15rem,3.75vw,3.85rem);font-weight:400;letter-spacing:-.018em;line-height:1.04;color:var(--forest);margin:0 0 26px}
+.longform h3{font-family:var(--serif);font-size:1.58rem;font-weight:400;line-height:1.18;letter-spacing:-.008em;color:var(--forest);margin:34px 0 12px}
 .longform p{margin:0 0 20px;color:#404641}
-.longform .signal{font-family:var(--serif);font-size:1.5rem;line-height:1.28;color:#252a27;margin:30px 0}
+.longform .signal{font-family:var(--serif);font-size:1.4rem;font-weight:400;line-height:1.32;letter-spacing:-.006em;color:#252a27;margin:30px 0}
 .link-rows{border-top:1px solid var(--line);margin-top:34px}
 .link-row{display:grid;grid-template-columns:190px 1fr 110px;gap:30px;padding:22px 0;border-bottom:1px solid var(--line);align-items:start}
 .link-row .label{font-size:.65rem;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);padding-top:4px}
-.link-row h3{font-family:var(--serif);font-size:1.65rem;font-weight:400;color:var(--forest);margin:0 0 7px}
+.link-row h3{font-family:var(--serif);font-size:1.58rem;font-weight:400;line-height:1.18;letter-spacing:-.008em;color:var(--forest);margin:0 0 7px}
 .link-row p{margin:0;color:#4a504b;font-size:.92rem}
 .link-row .go{justify-self:end;font-size:.65rem;text-transform:uppercase;letter-spacing:.13em;color:var(--forest);padding-top:6px}
 .link-row .go:after{content:" →"}
@@ -147,4 +147,16 @@ footer{padding:54px 0 30px;border-top:1px solid var(--line)}
   .paper-signature{padding:52px 28px 46px;width:94%}
   .link-row{grid-template-columns:1fr;gap:8px}
   .link-row .go{justify-self:start}
+}
+.hero-copy,.pathway p,.text p,.chapter p,.controcanto-copy p,.longform p,.link-row p,.pub p,.check span{
+  font-family:var(--sans);
+  font-weight:400;
+}
+.pathway p,.text p,.chapter p,.controcanto-copy p,.longform p,.check span{
+  font-size:.98rem;
+  line-height:1.7;
+}
+.explore,.back,.doi,.topic-kicker,.chapter .chapter-no,.rule .label,.pub .type,.link-row .label,.link-row .go,.meta,.topic-meta,.quote cite,.footer-nav h4{
+  font-family:var(--sans);
+  font-weight:600;
 }
