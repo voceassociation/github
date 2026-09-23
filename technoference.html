@@ -8,19 +8,20 @@
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to content</a>
 <header>
   <div class="wrap nav">
     <a class="voce-mark" href="/" aria-label="VOCE"></a>
-    <nav class="menu">
+    <nav class="menu" aria-label="Primary navigation">
       <a href="/#themes" data-nav-themes>Themes</a>
       <a href="/publications" data-nav-publications>Publications</a>
       <a href="/about" data-nav-committee>Committee</a>
       <a class="keep" href="/about" data-nav-about>About</a>
-      <span class="lang"><button data-lang="en">EN</button><button data-lang="fr">FR</button><button data-lang="it">IT</button></span>
+      <span class="lang" role="group" aria-label="Language"><button data-lang="en">EN</button><button data-lang="fr">FR</button><button data-lang="it">IT</button></span>
     </nav>
   </div>
 </header>
-<main>
+<main id="main-content">
 <section class="topic-hero">
   <div class="wrap">
     <div class="topic-kicker" id="topic-kicker">VOCE Research · Digital environments &amp; human behaviour</div>
@@ -55,7 +56,7 @@
       <a class="voce-mark" href="/" aria-label="VOCE"><span></span></a>
       <div class="footer-right">
         <div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div>
-        <div><a href="https://fr.linkedin.com/in/voce-association-0030763b6" target="_blank" rel="noopener">LinkedIn</a> · contact@voce.life · © 2026 VOCE Association</div>
+        <div><a href="https://fr.linkedin.com/in/voce-association-0030763b6" target="_blank" rel="noopener">LinkedIn</a> · <a href="mailto:contact@voce.life">contact@voce.life</a> · © 2026 VOCE Association</div>
       </div>
     </div>
     <div class="footer-nav">
