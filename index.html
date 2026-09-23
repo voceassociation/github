@@ -158,7 +158,7 @@
   <div class="wrap">
     <div class="footer">
       <a class="voce-mark" href="#top" aria-label="VOCE"><span></span></a>
-      <div class="footer-right"><div>94 rue Montmartre · 75002 Paris · France</div><div><a href="https://fr.linkedin.com/in/voce-association-0030763b6" target="_blank" rel="noopener">LinkedIn</a> · <a href="mailto:contact@voce.life">contact@voce.life</a></div><div><a href="/legal">Legal</a> · <a href="/privacy">Privacy</a> · © 2026 VOCE Association</div></div>
+      <div class="footer-right"><div>94 rue Montmartre · 75002 Paris · France</div><div><a href="https://fr.linkedin.com/in/voce-association-0030763b6" target="_blank" rel="noopener">LinkedIn</a> · <a href="mailto:contact@voce.life">contact@voce.life</a></div><div><a href="/legal" data-t="footerLegal">Legal</a> · <a href="/privacy" data-t="footerPrivacy">Privacy</a> · © 2026 VOCE Association</div></div>
     </div>
     <div class="footer-nav">
       <div><h4 data-t="footerInstitution">Institution</h4><a href="/about" data-t="navAbout">About</a><a href="/standards" data-t="footerStandards">Governance & Standards</a><a href="/contact" data-t="footerContact">Contact</a></div>
@@ -170,7 +170,7 @@
 <script>
 const C={
 en:{
-navThemes:"Themes",navResearch:"Research",navStandards:"Standards",navPublications:"Publications",navAbout:"About",footerInstitution:"Institution",footerStandards:"Governance & Standards",footerContact:"Contact",footerWork:"Work",footerAI:"AI Governance",footerSovereignty:"Sovereignty",
+navThemes:"Themes",navResearch:"Research",navStandards:"Standards",navPublications:"Publications",navAbout:"About",footerInstitution:"Institution",footerStandards:"Governance & Standards",footerContact:"Contact",footerWork:"Work",footerAI:"AI Governance",footerSovereignty:"Sovereignty",footerLegal:"Legal",footerPrivacy:"Privacy",
 tagline:"Research. Culture. Intelligence.",status:"Independent French non-profit association",
 intro:"VOCE analyses the systems reshaping human life before their consequences become obvious. Artificial intelligence, work, attention, health, knowledge and culture are read together rather than as separate disciplines.",
 themesEyebrow:"Research pathways",themesTitle:"Four systems changing the conditions of human action.",themesLead:"VOCE does not catalogue trends. Each pathway follows an operating mechanism from technical architecture to institutional responsibility and human consequence.",
@@ -190,7 +190,7 @@ committeeEyebrow:"Scientific committee",committeeTitle:"Expertise inside the eco
 aboutEyebrow:"About VOCE",aboutTitle:"A research and cultural house for contemporary systems.",aboutText:"VOCE is an independent French non-profit association based in Paris and connected to expert ecosystems in London, Dubai and China. It develops research, scientific and cultural mediation, public education and editorial intelligence.",operaText:"Opera gives VOCE part of its method. Several voices can occupy the same scene without becoming the same voice. Scientific evidence, technical architecture, clinical experience, institutional practice and culture are allowed to remain distinct before they are interpreted together."
 },
 fr:{
-navThemes:"Thèmes",navResearch:"Recherche",navStandards:"Normes",navPublications:"Publications",navAbout:"À propos",footerInstitution:"Institution",footerStandards:"Gouvernance & standards",footerContact:"Contact",footerWork:"Travaux",footerAI:"Gouvernance de l’IA",footerSovereignty:"Souveraineté",
+navThemes:"Thèmes",navResearch:"Recherche",navStandards:"Normes",navPublications:"Publications",navAbout:"À propos",footerInstitution:"Institution",footerStandards:"Gouvernance & standards",footerContact:"Contact",footerWork:"Travaux",footerAI:"Gouvernance de l’IA",footerSovereignty:"Souveraineté",footerLegal:"Mentions légales",footerPrivacy:"Confidentialité",
 tagline:"Recherche. Culture. Intelligence.",status:"Association française indépendante à but non lucratif",
 intro:"VOCE analyse les systèmes qui transforment la vie humaine avant que leurs conséquences deviennent évidentes. Intelligence artificielle, travail, attention, santé, connaissance et culture sont lus ensemble plutôt que comme des disciplines séparées.",
 themesEyebrow:"Parcours de recherche",themesTitle:"Quatre systèmes qui modifient les conditions de l’action humaine.",themesLead:"VOCE ne catalogue pas les tendances. Chaque parcours suit un mécanisme opérationnel depuis l’architecture technique jusqu’à la responsabilité institutionnelle et aux conséquences humaines.",
@@ -210,7 +210,7 @@ committeeEyebrow:"Comité scientifique",committeeTitle:"Une expertise située da
 aboutEyebrow:"À propos de VOCE",aboutTitle:"Une maison de recherche et de culture pour les systèmes contemporains.",aboutText:"VOCE est une association française indépendante basée à Paris et reliée à des écosystèmes d’expertise à Londres, Dubaï et en Chine. Elle développe recherche, médiation scientifique et culturelle, éducation du public et intelligence éditoriale.",operaText:"L’opéra fournit à VOCE une partie de sa méthode. Plusieurs voix peuvent occuper la même scène sans devenir une même voix. Preuve scientifique, architecture technique, expérience clinique, pratique institutionnelle et culture restent distinctes avant d’être interprétées ensemble."
 },
 it:{
-navThemes:"Temi",navResearch:"Ricerca",navStandards:"Standard",navPublications:"Pubblicazioni",navAbout:"Chi siamo",footerInstitution:"Istituzione",footerStandards:"Governance & standard",footerContact:"Contatti",footerWork:"Lavoro",footerAI:"Governance dell’IA",footerSovereignty:"Sovranità",
+navThemes:"Temi",navResearch:"Ricerca",navStandards:"Standard",navPublications:"Pubblicazioni",navAbout:"Chi siamo",footerInstitution:"Istituzione",footerStandards:"Governance & standard",footerContact:"Contatti",footerWork:"Lavoro",footerAI:"Governance dell’IA",footerSovereignty:"Sovranità",footerLegal:"Note legali",footerPrivacy:"Privacy",
 tagline:"Ricerca. Cultura. Intelligenza.",status:"Associazione francese indipendente senza scopo di lucro",
 intro:"VOCE analizza i sistemi che trasformano la vita umana prima che le loro conseguenze diventino evidenti. Intelligenza artificiale, lavoro, attenzione, salute, conoscenza e cultura vengono letti insieme invece che come discipline separate.",
 themesEyebrow:"Percorsi di ricerca",themesTitle:"Quattro sistemi che modificano le condizioni dell’azione umana.",themesLead:"VOCE non cataloga tendenze. Ogni percorso segue un meccanismo operativo dall’architettura tecnica alla responsabilità istituzionale e alle conseguenze umane.",
@@ -232,7 +232,7 @@ aboutEyebrow:"Chi è VOCE",aboutTitle:"Una casa di ricerca e cultura per i siste
 function setLang(l){
  document.documentElement.lang=l;
  document.querySelectorAll("[data-t]").forEach(el=>{const k=el.dataset.t;if(C[l]&&C[l][k])el.textContent=C[l][k]});
- document.querySelectorAll("[data-lang]").forEach(b=>b.classList.toggle("active",b.dataset.lang===l));
+ document.querySelectorAll("[data-lang]").forEach(b=>{b.classList.toggle("active",b.dataset.lang===l);b.setAttribute("aria-pressed",b.dataset.lang===l?"true":"false")});
  localStorage.setItem("voce-lang",l);
 }
 document.querySelectorAll("[data-lang]").forEach(b=>b.addEventListener("click",()=>setLang(b.dataset.lang)));
