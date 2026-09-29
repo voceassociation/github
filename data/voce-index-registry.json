@@ -13,17 +13,70 @@
     "complete": false
   },
   "checked_days": {
-    "2026-09-29": {"verified_publications": 0, "source": "Metricool", "status": "checked"},
-    "2026-09-28": {"verified_publications": 0, "source": "Metricool", "status": "checked"},
-    "2026-09-27": {"verified_publications": 0, "source": "Metricool", "status": "checked"},
-    "2026-09-26": {"verified_publications": 0, "source": "Metricool", "status": "checked"}
+    "2026-09-29": {
+      "verified_publications": 0,
+      "source": "Metricool",
+      "status": "checked"
+    },
+    "2026-09-28": {
+      "verified_publications": 0,
+      "source": "Metricool",
+      "status": "checked"
+    },
+    "2026-09-27": {
+      "verified_publications": 0,
+      "source": "Metricool",
+      "status": "checked"
+    },
+    "2026-09-26": {
+      "verified_publications": 0,
+      "source": "Metricool",
+      "status": "checked"
+    }
   },
   "archived_days": {
     "2026-09-25": {
       "count": 17,
       "source": "linkedin",
       "page": "/archive/2026-09-25",
-      "post_ids": ["urn:li:ugcPost:7509084439671664640","urn:li:ugcPost:7509099525530185728","urn:li:ugcPost:7509114623720239104","urn:li:ugcPost:7509129723457966081","urn:li:ugcPost:7509144829097021440","urn:li:ugcPost:7509159940901576704","urn:li:ugcPost:7509175050638483459","urn:li:ugcPost:7509190131568844802","urn:li:ugcPost:7509205249140711424","urn:li:ugcPost:7509220332025577473","urn:li:ugcPost:7509235489053265920","urn:li:ugcPost:7509250531236909056","urn:li:ugcPost:7509265662813401090","urn:li:ugcPost:7509280733245652992","urn:li:ugcPost:7509295840625094656","urn:li:ugcPost:7509310943722414081","urn:li:ugcPost:7509326026242555904"]
+      "post_ids": [
+        "urn:li:ugcPost:7509084439671664640",
+        "urn:li:ugcPost:7509099525530185728",
+        "urn:li:ugcPost:7509114623720239104",
+        "urn:li:ugcPost:7509129723457966081",
+        "urn:li:ugcPost:7509144829097021440",
+        "urn:li:ugcPost:7509159940901576704",
+        "urn:li:ugcPost:7509175050638483459",
+        "urn:li:ugcPost:7509190131568844802",
+        "urn:li:ugcPost:7509205249140711424",
+        "urn:li:ugcPost:7509220332025577473",
+        "urn:li:ugcPost:7509235489053265920",
+        "urn:li:ugcPost:7509250531236909056",
+        "urn:li:ugcPost:7509265662813401090",
+        "urn:li:ugcPost:7509280733245652992",
+        "urn:li:ugcPost:7509295840625094656",
+        "urn:li:ugcPost:7509310943722414081",
+        "urn:li:ugcPost:7509326026242555904"
+      ]
     }
+  },
+  "pipeline": {
+    "editorial_gate": "Adobe Express",
+    "adobe_required": true,
+    "publication_verification": "Metricool",
+    "canonical_public_source": "https://voce.life/archive",
+    "sovereign_backup": {
+      "provider": "Cloudflare R2",
+      "bucket": "voce-sovereign-corpus",
+      "public": false,
+      "browser_profile_id": "prof_236917ff0f01402f",
+      "sync_policy": "on corpus change",
+      "last_verified_sync": null
+    }
+  },
+  "adobe_provenance_policy": {
+    "rule": "Every VOCE publication originates in Adobe Express before publication.",
+    "archive_inclusion": "Require an Adobe Express provenance match or mark provenance_pending until deterministically matched; never treat social media as the editorial source.",
+    "social_role": "Metricool/social platforms confirm publication and provide the final published text when Adobe creative contains only title/visual."
   }
 }
