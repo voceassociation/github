@@ -23,16 +23,20 @@ jobs:
           INDEXNOW_KEY: 609ed2cfb745919a5e1948a1bdce3b66
           SITE_HOST: voce.life
           SITE_ORIGIN: https://voce.life
+          EVENT_NAME: ${{ github.event_name }}
         run: |
           python3 <<'PY'
           import json
           import os
           import subprocess
           import urllib.request
+          import urllib.error
+          import xml.etree.ElementTree as ET
 
           origin = os.environ["SITE_ORIGIN"].rstrip("/")
           host = os.environ["SITE_HOST"]
           key = os.environ["INDEXNOW_KEY"]
+          event_name = os.environ["EVENT_NAME"]
 
           event_before = "${{ github.event.before }}"
           current = "${{ github.sha }}"
@@ -45,22 +49,34 @@ jobs:
           changed = subprocess.check_output(cmd, text=True).splitlines()
 
           urls = []
-          for path in changed:
-              if not path.endswith(".html"):
-                  continue
-              if path == "404.html":
-                  continue
-              if path == "index.html":
-                  url = origin + "/"
-              elif path.endswith("/index.html"):
-                  url = origin + "/" + path[:-10].strip("/") + "/"
-              else:
-                  url = origin + "/" + path[:-5]
-              urls.append(url)
+
+          # One-time bootstrap when this workflow is introduced/changed, and
+          # a deliberate full resubmission when manually dispatched.
+          if event_name == "workflow_dispatch" or ".github/workflows/indexnow.yml" in changed:
+              tree = ET.parse("sitemap.xml")
+              ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+              urls.extend(
+                  loc.text.strip()
+                  for loc in tree.findall(".//sm:loc", ns)
+                  if loc.text and loc.text.strip().startswith(origin)
+              )
+          else:
+              for page_path in changed:
+                  if not page_path.endswith(".html"):
+                      continue
+                  if page_path == "404.html":
+                      continue
+                  if page_path == "index.html":
+                      url = origin + "/"
+                  elif page_path.endswith("/index.html"):
+                      url = origin + "/" + page_path[:-10].strip("/") + "/"
+                  else:
+                      url = origin + "/" + page_path[:-5]
+                  urls.append(url)
 
           urls = sorted(set(urls))
           if not urls:
-              print("No indexable HTML URL changed; nothing to submit.")
+              print("No indexable URL changed; nothing to submit.")
               raise SystemExit(0)
 
           payload = {
