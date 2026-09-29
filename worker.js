@@ -237,7 +237,49 @@ async function syncCorpus(env) {
   }
 
   const results = [];
+  const publicCorpus = canonicalizeCorpus(corpus, routes);
+
   for (const path of paths) {
+    if (path === "data/corpus.json") {
+      const bytes = new TextEncoder().encode(JSON.stringify(publicCorpus, null, 2) + "\n");
+      results.push(await storeBytesIfChanged(
+        env,
+        path,
+        bytes,
+        "application/json; charset=utf-8",
+        "https://voce.life/data/corpus.json",
+        timestamp
+      ));
+      continue;
+    }
+
+    if (path === "data/corpus.ndjson") {
+      const body = (publicCorpus.items || []).map(item => JSON.stringify(item)).join("\n") + "\n";
+      const bytes = new TextEncoder().encode(body);
+      results.push(await storeBytesIfChanged(
+        env,
+        path,
+        bytes,
+        "application/x-ndjson; charset=utf-8",
+        "https://voce.life/data/corpus.ndjson",
+        timestamp
+      ));
+      continue;
+    }
+
+    if (path === "feed.xml") {
+      const bytes = new TextEncoder().encode(await transformedFeed(env, routes));
+      results.push(await storeBytesIfChanged(
+        env,
+        path,
+        bytes,
+        "application/rss+xml; charset=utf-8",
+        "https://voce.life/feed.xml",
+        timestamp
+      ));
+      continue;
+    }
+
     results.push(await storeAssetIfChanged(env, path, timestamp));
   }
 
