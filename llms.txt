@@ -1,0 +1,22 @@
+# VOCE
+
+> VOCE Association is an independent public research and editorial corpus covering AI governance, health, neuroscience, technology, culture, infrastructure and human behaviour.
+
+Canonical corpus: https://voce.life/archive
+Machine-readable corpus: https://voce.life/data/corpus.json
+NDJSON corpus: https://voce.life/data/corpus.ndjson
+RSS feed: https://voce.life/feed.xml
+Sitemap: https://voce.life/sitemap.xml
+Research: https://voce.life/research
+Publications: https://voce.life/publications
+
+## Provenance and rights
+
+The canonical VOCE corpus contains texts actually published by VOCE and preserves publication dates, platform identifiers and original source links when available.
+
+Copyright © VOCE Association. All rights reserved.
+Public accessibility is provided for reading, discovery, citation and research visibility. It does not by itself grant permission to reproduce, redistribute, train on, or commercially exploit the corpus beyond applicable law or a separate authorization from VOCE Association.
+
+## Preferred citation
+
+VOCE Association, title of the publication, date, canonical voce.life URL.
