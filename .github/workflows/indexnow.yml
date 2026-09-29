@@ -1,0 +1,91 @@
+name: Notify IndexNow
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Submit changed pages to IndexNow
+        env:
+          INDEXNOW_KEY: 609ed2cfb745919a5e1948a1bdce3b66
+          SITE_HOST: voce.life
+          SITE_ORIGIN: https://voce.life
+        run: |
+          python3 <<'PY'
+          import json
+          import os
+          import subprocess
+          import urllib.request
+
+          origin = os.environ["SITE_ORIGIN"].rstrip("/")
+          host = os.environ["SITE_HOST"]
+          key = os.environ["INDEXNOW_KEY"]
+
+          event_before = "${{ github.event.before }}"
+          current = "${{ github.sha }}"
+
+          if event_before and event_before != "0000000000000000000000000000000000000000":
+              cmd = ["git", "diff", "--name-only", event_before, current]
+          else:
+              cmd = ["git", "show", "--pretty=", "--name-only", current]
+
+          changed = subprocess.check_output(cmd, text=True).splitlines()
+
+          urls = []
+          for path in changed:
+              if not path.endswith(".html"):
+                  continue
+              if path == "404.html":
+                  continue
+              if path == "index.html":
+                  url = origin + "/"
+              elif path.endswith("/index.html"):
+                  url = origin + "/" + path[:-10].strip("/") + "/"
+              else:
+                  url = origin + "/" + path[:-5]
+              urls.append(url)
+
+          urls = sorted(set(urls))
+          if not urls:
+              print("No indexable HTML URL changed; nothing to submit.")
+              raise SystemExit(0)
+
+          payload = {
+              "host": host,
+              "key": key,
+              "keyLocation": f"{origin}/{key}.txt",
+              "urlList": urls,
+          }
+
+          data = json.dumps(payload).encode("utf-8")
+          req = urllib.request.Request(
+              "https://api.indexnow.org/indexnow",
+              data=data,
+              headers={"Content-Type": "application/json; charset=utf-8"},
+              method="POST",
+          )
+
+          try:
+              with urllib.request.urlopen(req, timeout=30) as response:
+                  print(f"IndexNow status: {response.status}")
+                  print("Submitted URLs:")
+                  for url in urls:
+                      print(url)
+          except urllib.error.HTTPError as exc:
+              print(f"IndexNow HTTP error: {exc.code}")
+              print(exc.read().decode("utf-8", errors="replace"))
+              raise
+          PY
