@@ -171,7 +171,7 @@ function renderArticle(item, route, routes) {
 <p class="signal">Publié le ${escapeHtml(formatDate(item.date_published))} à ${escapeHtml(formatTime(item.date_published))} · <a href="${escapeHtml(item.source_url || "")}" target="_blank" rel="noopener">Publication originale</a></p>
 ${body}
 </article>
-<section class="chapter"><div class="chapter-no">Corpus</div><h2>Continuer</h2><p>${navigation}</p><p class="signal">Ce texte appartient au corpus didactique VOCE. <a href="/legal">Droits et conditions d’accès</a>.</p></section>
+<section class="chapter"><div class="chapter-no">VOCE Academy</div><h2>Continuer</h2><p>${navigation}</p><p class="signal">Ce texte appartient au corpus pédagogique et éditorial de VOCE Association. Lecture, découverte et citation sont publiques; les droits sur le texte et le corpus restent détenus par VOCE Association, sauf mention contraire. <a href="/CORPUS_RIGHTS.txt">Droits du corpus</a>.</p></section>
 </div></div></section>
 </main>
 <footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/publications">Publications</a> · <a href="/archive">Archive</a> · © 2026 VOCE Association</div></div></div></div></footer>
@@ -319,6 +319,10 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     const pathname = url.pathname.length > 1 ? url.pathname.replace(/\/+$/, "") : url.pathname;
+
+    if (pathname === "/academy") {
+      return Response.redirect("https://voce.life/archive", 308);
+    }
 
     if (pathname === "/.well-known/voce-corpus-backup") {
       const manifest = await env.VOCE_CORPUS.get("manifest.json");
