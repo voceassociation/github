@@ -175,3 +175,26 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--forest);outline-off
 .technical-references a{display:flex;justify-content:space-between;gap:22px;padding:17px 0;border-bottom:1px solid var(--line);color:#343a36;text-decoration:none;font-size:.92rem}
 .technical-references a:hover{color:var(--forest)}
 .technical-references span{color:var(--muted)}
+
+
+.academy-agent{margin-top:34px;padding:30px;border:1px solid var(--line);background:rgba(255,255,255,.36)}
+.academy-agent label,.academy-agent-label{display:block;margin-bottom:12px;font-size:.66rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--forest)}
+.academy-agent-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px}
+.academy-agent input{width:100%;min-height:50px;border:1px solid var(--line);background:#fffefb;color:var(--ink);font:inherit;padding:0 16px;outline:none}
+.academy-agent input:focus{border-color:var(--forest)}
+.academy-agent button{min-height:50px;border:1px solid var(--forest);background:var(--forest);color:var(--paper);padding:0 22px;font:600 .7rem var(--sans);text-transform:uppercase;letter-spacing:.12em;cursor:pointer}
+.academy-agent button:disabled{opacity:.55;cursor:default}
+.academy-agent-note,.academy-agent-status{margin:12px 0 0!important;font-size:.82rem!important;color:var(--muted)!important}
+.academy-agent-output{margin-top:26px}
+.academy-agent-answer{font-family:var(--serif);font-size:1.2rem;line-height:1.45;color:#252a27}
+.academy-agent-answer p{font:inherit!important;color:inherit!important;margin:0 0 16px!important}
+.academy-agent-sources{margin-top:28px;border-top:1px solid var(--line);padding-top:20px}
+.academy-agent-sources a{display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:start;padding:13px 0;border-bottom:1px solid var(--line)}
+.academy-agent-sources a span,.academy-agent-sources a small{font-size:.68rem;color:var(--muted);letter-spacing:.04em}
+.academy-agent-sources a strong{font-family:var(--serif);font-size:1.08rem;font-weight:400;color:var(--forest);line-height:1.2}
+@media(max-width:720px){
+  .academy-agent{padding:22px}
+  .academy-agent-row{grid-template-columns:1fr}
+  .academy-agent-sources a{grid-template-columns:28px 1fr}
+  .academy-agent-sources a small{grid-column:2}
+}
