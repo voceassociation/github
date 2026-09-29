@@ -1,11 +1,25 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "github",
-  "compatibility_date": "2026-09-23",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-29",
   "assets": {
     "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": false,
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
+  },
+  "r2_buckets": [
+    {
+      "binding": "VOCE_CORPUS",
+      "bucket_name": "voce-sovereign-corpus"
+    }
+  ],
+  "triggers": {
+    "crons": [
+      "*/30 * * * *"
+    ]
   },
   "previews": {}
 }
