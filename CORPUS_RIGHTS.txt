@@ -1,0 +1,8 @@
+VOCE PUBLIC RESEARCH & EDITORIAL CORPUS
+
+Copyright © 2025-2026 VOCE Association. All rights reserved.
+
+The corpus is made publicly accessible on voce.life for reading, discovery, citation and research visibility. Public availability does not constitute a transfer of ownership or a general license to reproduce, redistribute, create derivative datasets, train machine-learning models on, or commercially exploit the corpus, except as permitted by applicable law or separately authorized in writing by VOCE Association.
+
+Canonical source: https://voce.life/archive
+Contact: contact@voce.life
