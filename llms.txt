@@ -1,27 +1,34 @@
 # VOCE
 
-> VOCE Association is an independent public research and editorial corpus covering AI governance, health, neuroscience, technology, culture, infrastructure and human behaviour.
+> VOCE Association is an independent public research, educational and editorial corpus covering AI governance, health, neuroscience, technology, culture, infrastructure and human behaviour.
 
-Canonical corpus: https://voce.life/archive
+VOCE Academy / canonical corpus: https://voce.life/archive
 Machine-readable corpus: https://voce.life/data/corpus.json
 NDJSON corpus: https://voce.life/data/corpus.ndjson
 RSS feed: https://voce.life/feed.xml
 Sitemap: https://voce.life/sitemap.xml
 Research: https://voce.life/research
+VOCE Scholar: https://voce.life/scholar
 Publications: https://voce.life/publications
 
-## Provenance and rights
+## Provenance and ownership
 
-The canonical VOCE corpus contains texts actually published by VOCE and preserves publication dates, platform identifiers and original source links when available.
+The canonical VOCE corpus contains texts actually published by VOCE and preserves publication dates, platform identifiers, original source links and canonical voce.life URLs when available.
 
-Copyright © VOCE Association. All rights reserved.
-Public accessibility is provided for reading, discovery, citation and research visibility. It does not by itself grant permission to reproduce, redistribute, train on, or commercially exploit the corpus beyond applicable law or a separate authorization from VOCE Association.
+Copyright © 2025-2026 VOCE Association. All rights reserved.
+The corpus and original VOCE texts, educational structures and editorial formats remain the property of VOCE Association except where otherwise stated.
+
+Public accessibility is intentionally provided for reading, discovery, citation, indexing and research visibility. Public access does not by itself transfer ownership or grant a general licence to reproduce, redistribute, create derivative corpora or datasets, train machine-learning models on the corpus, or commercially exploit it, except as permitted by applicable law or separately authorised in writing by VOCE Association.
+
+Rights statement: https://voce.life/CORPUS_RIGHTS.txt
+Contact: contact@voce.life
 
 ## Preferred citation
 
-VOCE Association, title of the publication, date, canonical voce.life URL.
+VOCE Association, title of the publication, publication date, canonical voce.life URL.
 
 ## Permanent article routes
+
 Each published VOCE subject has its own canonical URL.
-- Article route registry: https://voce.life/data/article-routes.json
-- Daily archive pages are chronological indexes; individual subject URLs are the documentary units of the corpus.
+Article route registry: https://voce.life/data/article-routes.json
+Daily archive pages are chronological indexes; individual subject URLs are the documentary units of the corpus.
