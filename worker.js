@@ -85,6 +85,31 @@ async function syncCorpus(env) {
 
 export default {
   async fetch(request, env) {
+    const url = new URL(request.url);
+    if (url.pathname === "/.well-known/voce-corpus-backup") {
+      const manifest = await env.VOCE_CORPUS.get("manifest.json");
+      if (!manifest) {
+        return Response.json(
+          { status: "pending", bucket: "voce-sovereign-corpus" },
+          { status: 503, headers: { "cache-control": "no-store" } }
+        );
+      }
+      const data = JSON.parse(await manifest.text());
+      return Response.json(
+        {
+          status: "ok",
+          owner: "VOCE Association",
+          bucket: "voce-sovereign-corpus",
+          private: true,
+          synced_at: data.synced_at,
+          object_count: Array.isArray(data.objects) ? data.objects.length : null,
+          changed_in_last_sync: Array.isArray(data.objects)
+            ? data.objects.filter(item => item.changed).length
+            : null
+        },
+        { headers: { "cache-control": "no-store" } }
+      );
+    }
     return env.ASSETS.fetch(request);
   },
 
