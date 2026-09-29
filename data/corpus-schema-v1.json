@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://voce.life/data/corpus-schema-v1.json",
+  "title": "VOCE Public Research & Editorial Corpus",
+  "type": "object",
+  "required": [
+    "name",
+    "owner",
+    "public_access",
+    "rights",
+    "item_count",
+    "items"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "canonical_home": {
+      "type": "string",
+      "format": "uri"
+    },
+    "public_access": {
+      "type": "boolean"
+    },
+    "rights": {
+      "type": "string"
+    },
+    "provenance": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "item_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "date_published",
+          "title",
+          "canonical_url",
+          "text"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "platform": {
+            "type": "string"
+          },
+          "platform_id": {
+            "type": "string"
+          },
+          "date_published": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "canonical_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "source_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "language": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
