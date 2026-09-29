@@ -1,5 +1,5 @@
 {
-  "schema": "https://voce.life/corpus-schema/1",
+  "schema": "https://voce.life/data/corpus-schema-v1.json",
   "name": "VOCE Public Research & Editorial Corpus",
   "owner": "VOCE Association",
   "canonical_home": "https://voce.life/archive",
