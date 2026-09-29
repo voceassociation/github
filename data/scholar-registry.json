@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "launch_date": "2026-10-02",
+  "collection": "VOCE Scholar",
+  "scope": "Formal scholarly outputs only. Daily editorial corpus remains in VOCE Archive unless converted into a formal research output.",
+  "records": [
+    {
+      "slug": "introspective-technoference",
+      "title": "Introspective Technoference: A Conceptual Framework for Internal Cognitive Disruption in Digitally Saturated Environments",
+      "type": "Preprint",
+      "creator": "Cano, Giovanni",
+      "institution": "VOCE Association",
+      "issued": "2026-03-23",
+      "doi": "10.5281/zenodo.19189281",
+      "zenodo": "https://zenodo.org/records/19189281",
+      "canonical": "https://voce.life/scholar/introspective-technoference",
+      "status": "ready"
+    },
+    {
+      "slug": "parental-technoference-language",
+      "title": "Parental Technoference and Early Language Development: An Integrative Review and Theoretical Framework",
+      "type": "Report",
+      "creator": "VOCE Association",
+      "institution": "VOCE Association",
+      "issued": "2026-03-19",
+      "doi": "10.5281/zenodo.19114381",
+      "zenodo": "https://zenodo.org/records/19114381",
+      "canonical": "https://voce.life/scholar/parental-technoference-language",
+      "status": "ready",
+      "note": "Zenodo creator metadata is VOCE Association; the repository's recommended reference names Giovanni Cano."
+    }
+  ]
+}
