@@ -4,6 +4,7 @@ const CORE_FILES = [
   "data/corpus.ndjson",
   "data/corpus-schema-v1.json",
   "data/voce-index-registry.json",
+  "data/article-routes.json",
   "feed.xml",
   "llms.txt",
   "CORPUS_RIGHTS.txt",
@@ -12,6 +13,44 @@ const CORE_FILES = [
 
 function hex(buffer) {
   return [...new Uint8Array(buffer)].map(b => b.toString(16).padStart(2, "0")).join("");
+}
+
+function escapeHtml(value = "") {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function firstLine(text = "") {
+  return text.split(/\n+/).map(s => s.trim()).find(Boolean) || "Publication VOCE";
+}
+
+function excerpt(text = "", title = "") {
+  let parts = text.split(/\n{2,}/).map(s => s.trim()).filter(Boolean);
+  if (parts[0] === title) parts = parts.slice(1);
+  const value = (parts[0] || title).replace(/\s+/g, " ");
+  return value.length > 210 ? value.slice(0, 207).trim() + "…" : value;
+}
+
+function formatDate(iso) {
+  return new Intl.DateTimeFormat("fr-FR", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "Europe/Podgorica"
+  }).format(new Date(iso));
+}
+
+function formatTime(iso) {
+  return new Intl.DateTimeFormat("fr-FR", {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+    timeZone: "Europe/Podgorica"
+  }).format(new Date(iso));
 }
 
 async function getAsset(env, path) {
@@ -23,40 +62,174 @@ async function getAsset(env, path) {
   };
 }
 
-async function storeIfChanged(env, path, timestamp) {
-  const { bytes, contentType } = await getAsset(env, path);
-  const sha256 = hex(await crypto.subtle.digest("SHA-256", bytes));
-  const existing = await env.VOCE_CORPUS.head(path);
+async function getAssetText(env, path) {
+  const asset = await getAsset(env, path);
+  return new TextDecoder().decode(asset.bytes);
+}
 
-  if (existing?.customMetadata?.sha256 === sha256) {
-    return { path, changed: false, sha256 };
-  }
+async function loadRoutes(env) {
+  return JSON.parse(await getAssetText(env, "data/article-routes.json"));
+}
 
-  const metadata = {
-    sha256,
-    source: `https://voce.life/${path}`,
-    synced_at: timestamp
+async function loadCorpus(env) {
+  return JSON.parse(await getAssetText(env, "data/corpus.json"));
+}
+
+function canonicalizeCorpus(corpus, routes) {
+  const routeById = new Map((routes.items || []).map(route => [route.id, route]));
+  return {
+    ...corpus,
+    items: (corpus.items || []).map(item => {
+      const route = routeById.get(item.id);
+      return route
+        ? { ...item, canonical_url: `https://voce.life${route.path}` }
+        : item;
+    })
+  };
+}
+
+function renderArticle(item, route, routes) {
+  const title = firstLine(item.text);
+  const description = excerpt(item.text, title);
+  const canonical = `https://voce.life${route.path}`;
+  let paragraphs = String(item.text || "").split(/\n{2,}/).map(s => s.trim()).filter(Boolean);
+  if (paragraphs[0] === title) paragraphs = paragraphs.slice(1);
+
+  const body = paragraphs
+    .map(p => `<p>${escapeHtml(p).replace(/\n/g, "<br>")}</p>`)
+    .join("\n");
+
+  const routeItems = routes.items || [];
+  const index = routeItems.findIndex(r => r.id === route.id);
+  const previous = index > 0 ? routeItems[index - 1] : null;
+  const next = index >= 0 && index < routeItems.length - 1 ? routeItems[index + 1] : null;
+  const corpusById = new Map((routes._corpusItems || []).map(entry => [entry.id, entry]));
+
+  const previousItem = previous ? corpusById.get(previous.id) : null;
+  const nextItem = next ? corpusById.get(next.id) : null;
+  const navigation = [
+    previous && previousItem
+      ? `<a href="${previous.path}">← ${escapeHtml(firstLine(previousItem.text))}</a>`
+      : "",
+    next && nextItem
+      ? `<a href="${next.path}">${escapeHtml(firstLine(nextItem.text))} →</a>`
+      : ""
+  ].filter(Boolean).join("<br>");
+
+  const ld = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: title,
+    datePublished: item.date_published,
+    dateModified: item.date_published,
+    author: { "@type": "Organization", name: "VOCE Association", url: "https://voce.life/" },
+    publisher: { "@type": "Organization", name: "VOCE Association", url: "https://voce.life/" },
+    copyrightHolder: { "@type": "Organization", name: "VOCE Association" },
+    copyrightNotice: "Copyright © VOCE Association. All rights reserved.",
+    mainEntityOfPage: canonical,
+    url: canonical,
+    sameAs: item.source_url,
+    inLanguage: item.language || "fr",
+    articleBody: item.text,
+    isPartOf: { "@type": "CollectionPage", "@id": `https://voce.life/archive/${route.date}` }
   };
 
-  await env.VOCE_CORPUS.put(path, bytes, {
+  return `<!doctype html>
+<html lang="${escapeHtml(item.language || "fr")}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${escapeHtml(title)} — VOCE</title>
+<meta name="description" content="${escapeHtml(description)}">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="${canonical}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="VOCE">
+<meta property="og:title" content="${escapeHtml(title)}">
+<meta property="og:description" content="${escapeHtml(description)}">
+<meta property="og:url" content="${canonical}">
+<meta property="article:published_time" content="${escapeHtml(item.date_published)}">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, "\\u003c")}</script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Aller au contenu</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="Navigation principale"><a href="/research">Research</a><a href="/standards">Standards</a><a href="/publications">Publications</a><a class="keep" href="/about">About</a></nav></div></header>
+<main id="main-content">
+<section class="topic-hero"><div class="wrap">
+<div class="topic-kicker">Corpus VOCE · ${escapeHtml(formatDate(item.date_published))}</div>
+<h1 class="topic-title">${escapeHtml(title)}</h1>
+<p class="topic-deck">${escapeHtml(description)}</p>
+<div class="topic-meta"><span>VOCE Association</span><span>${escapeHtml(formatTime(item.date_published))}</span><span>Archive canonique</span></div>
+</div></section>
+<section class="topic-body"><div class="wrap topic-layout">
+<aside class="topic-nav"><div class="topic-nav-label">Corpus</div><a href="/archive/${route.date}">${escapeHtml(formatDate(item.date_published))}</a><a href="/archive">Toutes les archives</a><a href="/publications">Publications</a></aside>
+<div class="longform">
+<article class="chapter" data-publication-id="${escapeHtml(item.platform_id || item.id)}">
+<div class="chapter-no">VOCE</div>
+<p class="signal">Publié le ${escapeHtml(formatDate(item.date_published))} à ${escapeHtml(formatTime(item.date_published))} · <a href="${escapeHtml(item.source_url || "")}" target="_blank" rel="noopener">Publication originale</a></p>
+${body}
+</article>
+<section class="chapter"><div class="chapter-no">Corpus</div><h2>Continuer</h2><p>${navigation}</p><p class="signal">Ce texte appartient au corpus didactique VOCE. <a href="/legal">Droits et conditions d’accès</a>.</p></section>
+</div></div></section>
+</main>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/publications">Publications</a> · <a href="/archive">Archive</a> · © 2026 VOCE Association</div></div></div></div></footer>
+</body>
+</html>`;
+}
+
+async function transformedFeed(env, routes) {
+  let feed = await getAssetText(env, "feed.xml");
+  for (const route of routes.items || []) {
+    const oldUrl = `https://voce.life/archive/${route.date}#post-${route.post_id}`;
+    const newUrl = `https://voce.life${route.path}`;
+    feed = feed.split(oldUrl).join(newUrl);
+  }
+  return feed;
+}
+
+async function storeBytesIfChanged(env, key, bytes, contentType, source, timestamp) {
+  const sha256 = hex(await crypto.subtle.digest("SHA-256", bytes));
+  const existing = await env.VOCE_CORPUS.head(key);
+
+  if (existing?.customMetadata?.sha256 === sha256) {
+    return { path: key, changed: false, sha256 };
+  }
+
+  const metadata = { sha256, source, synced_at: timestamp };
+  await env.VOCE_CORPUS.put(key, bytes, {
     httpMetadata: { contentType },
     customMetadata: metadata
   });
 
   const versionStamp = timestamp.replace(/[:.]/g, "-");
-  await env.VOCE_CORPUS.put(`versions/${versionStamp}/${path}`, bytes, {
+  await env.VOCE_CORPUS.put(`versions/${versionStamp}/${key}`, bytes, {
     httpMetadata: { contentType },
     customMetadata: metadata
   });
 
-  return { path, changed: true, sha256 };
+  return { path: key, changed: true, sha256 };
+}
+
+async function storeAssetIfChanged(env, path, timestamp) {
+  const { bytes, contentType } = await getAsset(env, path);
+  return storeBytesIfChanged(
+    env,
+    path,
+    bytes,
+    contentType,
+    `https://voce.life/${path}`,
+    timestamp
+  );
 }
 
 async function syncCorpus(env) {
   const timestamp = new Date().toISOString();
-  const registryAsset = await getAsset(env, "data/voce-index-registry.json");
-  const registryText = new TextDecoder().decode(registryAsset.bytes);
-  const registry = JSON.parse(registryText);
+  const registry = JSON.parse(await getAssetText(env, "data/voce-index-registry.json"));
+  const routes = await loadRoutes(env);
+  const corpus = await loadCorpus(env);
+  routes._corpusItems = corpus.items || [];
 
   const paths = new Set(CORE_FILES);
   for (const date of Object.keys(registry.archived_days || {})) {
@@ -65,7 +238,23 @@ async function syncCorpus(env) {
 
   const results = [];
   for (const path of paths) {
-    results.push(await storeIfChanged(env, path, timestamp));
+    results.push(await storeAssetIfChanged(env, path, timestamp));
+  }
+
+  for (const route of routes.items || []) {
+    const item = (corpus.items || []).find(entry => entry.id === route.id);
+    if (!item) continue;
+    const html = renderArticle(item, route, routes);
+    const bytes = new TextEncoder().encode(html);
+    const key = route.path.replace(/^\/+/, "") + ".html";
+    results.push(await storeBytesIfChanged(
+      env,
+      key,
+      bytes,
+      "text/html; charset=utf-8",
+      `https://voce.life${route.path}`,
+      timestamp
+    ));
   }
 
   const manifest = {
@@ -74,6 +263,7 @@ async function syncCorpus(env) {
     bucket: "voce-sovereign-corpus",
     synced_at: timestamp,
     source: "https://voce.life",
+    article_routes: (routes.items || []).length,
     objects: results
   };
 
@@ -86,7 +276,9 @@ async function syncCorpus(env) {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    if (url.pathname === "/.well-known/voce-corpus-backup") {
+    const pathname = url.pathname.length > 1 ? url.pathname.replace(/\/+$/, "") : url.pathname;
+
+    if (pathname === "/.well-known/voce-corpus-backup") {
       const manifest = await env.VOCE_CORPUS.get("manifest.json");
       if (!manifest) {
         return Response.json(
@@ -102,6 +294,7 @@ export default {
           bucket: "voce-sovereign-corpus",
           private: true,
           synced_at: data.synced_at,
+          article_routes: data.article_routes || 0,
           object_count: Array.isArray(data.objects) ? data.objects.length : null,
           changed_in_last_sync: Array.isArray(data.objects)
             ? data.objects.filter(item => item.changed).length
@@ -110,6 +303,53 @@ export default {
         { headers: { "cache-control": "no-store" } }
       );
     }
+
+    const routes = await loadRoutes(env);
+    const corpus = await loadCorpus(env);
+    routes._corpusItems = corpus.items || [];
+
+    const articleRoute = (routes.items || []).find(route => route.path === pathname);
+    if (articleRoute) {
+      const item = (corpus.items || []).find(entry => entry.id === articleRoute.id);
+      if (!item) return new Response("Not found", { status: 404 });
+      return new Response(renderArticle(item, articleRoute, routes), {
+        headers: {
+          "content-type": "text/html; charset=utf-8",
+          "cache-control": "public, max-age=300"
+        }
+      });
+    }
+
+    if (pathname === "/data/corpus.json") {
+      const publicCorpus = canonicalizeCorpus(corpus, routes);
+      return new Response(JSON.stringify(publicCorpus, null, 2) + "\n", {
+        headers: {
+          "content-type": "application/json; charset=utf-8",
+          "cache-control": "public, max-age=300"
+        }
+      });
+    }
+
+    if (pathname === "/data/corpus.ndjson") {
+      const publicCorpus = canonicalizeCorpus(corpus, routes);
+      const body = (publicCorpus.items || []).map(item => JSON.stringify(item)).join("\n") + "\n";
+      return new Response(body, {
+        headers: {
+          "content-type": "application/x-ndjson; charset=utf-8",
+          "cache-control": "public, max-age=300"
+        }
+      });
+    }
+
+    if (pathname === "/feed.xml") {
+      return new Response(await transformedFeed(env, routes), {
+        headers: {
+          "content-type": "application/rss+xml; charset=utf-8",
+          "cache-control": "public, max-age=300"
+        }
+      });
+    }
+
     return env.ASSETS.fetch(request);
   },
 
