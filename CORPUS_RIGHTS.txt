@@ -1,8 +1,22 @@
-VOCE PUBLIC RESEARCH & EDITORIAL CORPUS
+VOCE PUBLIC RESEARCH, EDUCATIONAL & EDITORIAL CORPUS
+VOCE ACADEMY
 
 Copyright © 2025-2026 VOCE Association. All rights reserved.
 
-The corpus is made publicly accessible on voce.life for reading, discovery, citation and research visibility. Public availability does not constitute a transfer of ownership or a general license to reproduce, redistribute, create derivative datasets, train machine-learning models on, or commercially exploit the corpus, except as permitted by applicable law or separately authorized in writing by VOCE Association.
+OWNERSHIP
+The VOCE corpus, original texts, editorial structures, educational formats and original research or pedagogical material remain the property of VOCE Association except where otherwise stated.
 
-Canonical source: https://voce.life/archive
-Contact: contact@voce.life
+PUBLIC ACCESS
+VOCE deliberately makes the corpus publicly accessible on voce.life for reading, discovery, indexing, citation and research visibility. Machine-readable access through JSON, NDJSON, RSS and related discovery files is also provided.
+
+NO TRANSFER OF RIGHTS
+Public availability, indexing or machine-readable access does not constitute a transfer of ownership or a general licence to reproduce, redistribute, republish, create derivative corpora or datasets, train machine-learning models on the corpus, or commercially exploit VOCE material, except as permitted by applicable law or separately authorised in writing by VOCE Association.
+
+CANONICAL SOURCE
+https://voce.life/archive
+
+PREFERRED CITATION
+VOCE Association, title of the publication, publication date, canonical voce.life URL.
+
+CONTACT
+contact@voce.life
