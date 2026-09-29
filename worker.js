@@ -195,6 +195,38 @@ function canonicalizeCorpus(corpus, routes) {
   };
 }
 
+async function loadHistoryDay(env, date) {
+  try {
+    return JSON.parse(await getAssetText(env, `data/history/${date}.json`));
+  } catch {
+    return null;
+  }
+}
+
+function renderHistoryDay(day) {
+  const items = day.items || [];
+  const date = day.date;
+  const pretty = items[0]?.date_published ? formatDate(items[0].date_published) : date;
+  const rows = items.map(item =>
+    `<article class="chapter"><div class="chapter-no">${escapeHtml(formatTime(item.date_published))}</div><h2><a href="/archive/${date.replaceAll("-","/")}/${escapeHtml(item.slug)}">${escapeHtml(item.title)}</a></h2><p class="signal">Publication VOCE conservée dans le corpus propriétaire.</p><p><a href="/archive/${date.replaceAll("-","/")}/${escapeHtml(item.slug)}">Lire ce document →</a></p></article>`
+  ).join("\n");
+  return `<!doctype html>
+<html lang="fr"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VOCE Academy · ${escapeHtml(pretty)}</title>
+<meta name="description" content="${items.length} publications VOCE conservées le ${escapeHtml(pretty)}.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://voce.life/archive/${date}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css">
+</head><body>
+<a class="skip-link" href="#main-content">Aller au contenu</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu"><a href="/research">Research</a><a href="/archive" class="active">Academy</a><a href="/scholar">Scholar</a><a href="/publications">Publications</a><a class="keep" href="/about">About</a></nav></div></header>
+<main id="main-content"><section class="topic-hero"><div class="wrap"><div class="topic-kicker">VOCE Academy · Archives</div><h1 class="topic-title">${items.length} publications conservées.</h1><p class="topic-deck">${escapeHtml(pretty)} · textes intégraux, provenance originale et URL VOCE permanentes.</p><div class="topic-meta"><span>VOCE Association</span><span>Corpus propriétaire</span><span>Accès public</span></div></div></section>
+<section class="topic-body"><div class="wrap topic-layout"><aside class="topic-nav"><div class="topic-nav-label">VOCE Academy</div><a href="/archive">Academy</a><a href="/CORPUS_RIGHTS.txt">Droits du corpus</a></aside><div class="longform">${rows}</div></div></section></main>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Copyright © 2025-2026 VOCE Association. All rights reserved.</div></div></div></div></footer>
+</body></html>`;
+}
+
 function renderArticle(item, route, routes) {
   const title = firstLine(item.text);
   const description = excerpt(item.text, title);
@@ -496,6 +528,46 @@ export default {
           "cache-control": "public, max-age=300"
         }
       });
+    }
+
+    const historicalArticleMatch = pathname.match(/^\/archive\/(\d{4})\/(\d{2})\/(\d{2})\/([^/]+)$/);
+    if (historicalArticleMatch) {
+      const date = `${historicalArticleMatch[1]}-${historicalArticleMatch[2]}-${historicalArticleMatch[3]}`;
+      const historyDay = await loadHistoryDay(env, date);
+      if (historyDay) {
+        const slug = historicalArticleMatch[4];
+        const item = (historyDay.items || []).find(entry => entry.slug === slug);
+        if (item) {
+          const dayRoutes = {
+            items: (historyDay.items || []).map(entry => ({
+              id: entry.id,
+              date,
+              path: `/archive/${date.replaceAll("-","/")}/${entry.slug}`
+            })),
+            _corpusItems: historyDay.items || []
+          };
+          const route = dayRoutes.items.find(entry => entry.id === item.id);
+          return new Response(renderArticle(item, route, dayRoutes), {
+            headers: {
+              "content-type": "text/html; charset=utf-8",
+              "cache-control": "public, max-age=300"
+            }
+          });
+        }
+      }
+    }
+
+    const historicalDayMatch = pathname.match(/^\/archive\/(\d{4}-\d{2}-\d{2})$/);
+    if (historicalDayMatch) {
+      const historyDay = await loadHistoryDay(env, historicalDayMatch[1]);
+      if (historyDay) {
+        return new Response(renderHistoryDay(historyDay), {
+          headers: {
+            "content-type": "text/html; charset=utf-8",
+            "cache-control": "public, max-age=300"
+          }
+        });
+      }
     }
 
     if (pathname === "/data/corpus.json") {
