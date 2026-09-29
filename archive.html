@@ -29,9 +29,11 @@
 </div></section>
 
 <section class="topic-body"><div class="wrap topic-layout">
-<aside class="topic-nav"><div class="topic-nav-label">VOCE Academy</div><a href="#ai">IA & gouvernance</a><a href="#health">Santé & neurosciences</a><a href="#cognition">Cognition & éducation</a><a href="#culture">Culture & civilisations</a><a href="#rights">Accès & propriété</a><a href="/scholar">VOCE Scholar</a></aside>
+<aside class="topic-nav"><div class="topic-nav-label">VOCE Academy</div><a href="#guide">VOCE Guide</a><a href="#ai">IA & gouvernance</a><a href="#health">Santé & neurosciences</a><a href="#cognition">Cognition & éducation</a><a href="#culture">Culture & civilisations</a><a href="#rights">Accès & propriété</a><a href="/scholar">VOCE Scholar</a></aside>
 <div class="longform">
 <section class="chapter"><div class="chapter-no">Academy</div><h2>Un corpus, pas un fil.</h2><p class="signal">Chaque sujet devient une unité documentaire autonome: une adresse permanente, un texte intégral, une date, une provenance et une place dans une architecture de connaissances.</p><p>VOCE Academy transforme progressivement les publications éditoriales en bibliothèque pédagogique. La chronologie reste disponible, mais elle cesse d’être la structure principale. Un lecteur peut entrer par un mécanisme d’IA, une maladie, une question de cognition ou un objet culturel, puis circuler dans le corpus sans dépendre d’un réseau social.</p></section>
+
+<section class="chapter" id="guide"><div class="chapter-no">VOCE Guide</div><h2>Demander au corpus.</h2><p class="signal">Décrivez un sujet, une étude, une technologie ou une question. VOCE Guide cherche dans les publications de l’Academy et renvoie directement vers les documents qui soutiennent sa réponse.</p><form class="academy-agent" data-academy-agent-form><label for="academy-query">Que cherchez-vous?</label><div class="academy-agent-row"><input id="academy-query" data-academy-agent-input type="search" maxlength="500" autocomplete="off" placeholder="Ex. Que dit VOCE sur mémoire, IA et effort cognitif?"><button type="submit" data-academy-agent-submit>Chercher</button></div><p class="academy-agent-note">Réponses fondées sur le corpus VOCE. Si le corpus ne contient pas l’information, l’agent doit le dire.</p></form><div class="academy-agent-output" data-academy-agent-output aria-live="polite"></div></section>
 
 <section class="chapter" id="ai"><div class="chapter-no">01</div><h2>IA, systèmes & gouvernance</h2>
 <div class="link-rows">
@@ -72,5 +74,6 @@
 </div></div></section>
 </main>
 <footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/archive">VOCE Academy</a> · <a href="/scholar">VOCE Scholar</a> · <a href="/publications">Publications</a></div><div>Copyright © 2025-2026 VOCE Association. All rights reserved.</div></div></div></div></footer>
+<script src="/academy-agent.js" defer></script>
 </body>
 </html>
