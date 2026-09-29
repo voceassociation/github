@@ -221,7 +221,7 @@ function renderHistoryDay(day) {
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css">
 </head><body>
 <a class="skip-link" href="#main-content">Aller au contenu</a>
-<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu"><a href="/research">Research</a><a href="/archive" class="active">Academy</a><a href="/scholar">Scholar</a><a href="/publications">Publications</a><a class="keep" href="/about">About</a></nav></div></header>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu"><a href="/research">Research</a><a href="/archive" class="active">Academy</a><a href="/publications">Publications</a><a class="keep" href="/about">About</a></nav></div></header>
 <main id="main-content"><section class="topic-hero"><div class="wrap"><div class="topic-kicker">VOCE Academy · Archives</div><h1 class="topic-title">${items.length} publications conservées.</h1><p class="topic-deck">${escapeHtml(pretty)} · textes intégraux, provenance originale et URL VOCE permanentes.</p><div class="topic-meta"><span>VOCE Association</span><span>Corpus propriétaire</span><span>Accès public</span></div></div></section>
 <section class="topic-body"><div class="wrap topic-layout"><aside class="topic-nav"><div class="topic-nav-label">VOCE Academy</div><a href="/archive">Academy</a><a href="/CORPUS_RIGHTS.txt">Droits du corpus</a></aside><div class="longform">${rows}</div></div></section></main>
 <footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Copyright © 2025-2026 VOCE Association. All rights reserved.</div></div></div></div></footer>
@@ -459,6 +459,17 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     const pathname = url.pathname.length > 1 ? url.pathname.replace(/\/+$/, "") : url.pathname;
+
+    const legacyScholarRedirects = {
+      "/scholar": "/archive#research",
+      "/scholar/introspective-technoference": "/research/introspective-technoference",
+      "/scholar/parental-technoference-language-development": "/research/parental-technoference-language-development",
+      "/scholar/parental-technoference-language": "/research/parental-technoference-language-development"
+    };
+    if (legacyScholarRedirects[pathname]) {
+      return Response.redirect("https://voce.life" + legacyScholarRedirects[pathname], 308);
+    }
+
 
     if (pathname === "/academy") {
       return Response.redirect("https://voce.life/archive", 308);
