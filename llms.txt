@@ -8,6 +8,7 @@ NDJSON corpus: https://voce.life/data/corpus.ndjson
 RSS feed: https://voce.life/feed.xml
 Sitemap: https://voce.life/sitemap.xml
 Research: https://voce.life/research
+VOCE Art: https://voce.life/art
 VOCE Scholar: https://voce.life/scholar
 Publications: https://voce.life/publications
 
