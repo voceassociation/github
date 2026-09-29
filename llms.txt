@@ -20,3 +20,8 @@ Public accessibility is provided for reading, discovery, citation and research v
 ## Preferred citation
 
 VOCE Association, title of the publication, date, canonical voce.life URL.
+
+## Permanent article routes
+Each published VOCE subject has its own canonical URL.
+- Article route registry: https://voce.life/data/article-routes.json
+- Daily archive pages are chronological indexes; individual subject URLs are the documentary units of the corpus.
