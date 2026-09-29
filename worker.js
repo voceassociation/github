@@ -165,7 +165,7 @@ Ne donne aucun lien dans le texte: les liens seront affichés séparément.`;
       ],
       max_tokens: 700,
       chat_template_kwargs: { enable_thinking: false }
-    }, { rejectIfBusy: true });
+    });
 
     const answer = result?.response || result?.result?.response || result?.text;
     return {
