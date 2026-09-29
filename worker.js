@@ -1,5 +1,6 @@
 const CORE_FILES = [
   "archive.html",
+  "art.html",
   "data/corpus.json",
   "data/corpus.ndjson",
   "data/corpus-schema-v1.json",
@@ -462,6 +463,16 @@ export default {
     if (pathname === "/academy") {
       return Response.redirect("https://voce.life/archive", 308);
     }
+
+    if (pathname === "/art/vault" || pathname.startsWith("/art/vault/")) {
+      const response = await env.ASSETS.fetch(request);
+      const headers = new Headers(response.headers);
+      headers.set("x-robots-tag", "noindex, nofollow, noarchive, nosnippet, noimageindex");
+      headers.set("cache-control", "private, no-store");
+      headers.set("referrer-policy", "no-referrer");
+      return new Response(response.body, { status: response.status, headers });
+    }
+
 
     if (pathname === "/api/academy-agent") {
       if (request.method !== "POST") {
