@@ -99,19 +99,24 @@ function rankCorpus(question, corpus, routes, limit = 6) {
   const routeById = new Map((routes.items || []).map(route => [route.id, route]));
   const phrase = normalizeSearchText(question);
   const tokens = searchTokens(question);
+  const requiredMatches = tokens.length <= 2 ? tokens.length : Math.max(1, Math.ceil(tokens.length * 0.5));
   const scored = (corpus.items || []).map(item => {
     const route = routeById.get(item.id);
     const title = firstLine(item.text);
     const titleNorm = normalizeSearchText(title);
     const textNorm = normalizeSearchText(item.text || "");
     let score = 0;
-    if (phrase.length > 5 && titleNorm.includes(phrase)) score += 30;
-    if (phrase.length > 5 && textNorm.includes(phrase)) score += 12;
+    let matchedTokens = 0;
+    if (phrase.length > 5 && titleNorm.includes(phrase)) score += 40;
+    if (phrase.length > 5 && textNorm.includes(phrase)) score += 18;
     for (const token of tokens) {
-      if (titleNorm.includes(token)) score += 5;
+      const inTitle = titleNorm.includes(token);
       const occurrences = textNorm.split(token).length - 1;
-      score += Math.min(occurrences, 5);
+      if (inTitle || occurrences > 0) matchedTokens += 1;
+      if (inTitle) score += 7;
+      score += Math.min(occurrences, 6);
     }
+    if (tokens.length && matchedTokens < requiredMatches) score = 0;
     return {
       item,
       route,
@@ -125,11 +130,25 @@ function rankCorpus(question, corpus, routes, limit = 6) {
   return scored.slice(0, limit);
 }
 
-async function answerFromAcademy(question, env, corpus, routes) {
+async function answerFromAcademy(question, env, corpus, routes, lang = "en") {
+  const l = String(lang || "en").toLowerCase();
+  const msg = l.startsWith("fr") ? {
+    none:"Je n’ai pas trouvé de document suffisamment pertinent dans le corpus VOCE pour répondre à cette question.",
+    unavailable:"La synthèse intelligente est momentanément indisponible. Voici les documents VOCE les plus pertinents pour votre recherche.",
+    generic:"Voici les documents VOCE les plus pertinents pour cette recherche."
+  } : l.startsWith("it") ? {
+    none:"Non ho trovato un documento sufficientemente pertinente nel corpus VOCE per rispondere a questa domanda.",
+    unavailable:"La sintesi intelligente è temporaneamente indisponibile. Ecco i documenti VOCE più pertinenti per la ricerca.",
+    generic:"Ecco i documenti VOCE più pertinenti per questa ricerca."
+  } : {
+    none:"I could not find a sufficiently relevant document in the VOCE corpus to answer this question.",
+    unavailable:"Intelligent synthesis is temporarily unavailable. Here are the most relevant VOCE documents for this search.",
+    generic:"Here are the most relevant VOCE documents for this search."
+  };
   const matches = rankCorpus(question, corpus, routes, 6);
   if (!matches.length) {
     return {
-      answer: "Je n’ai pas trouvé de document suffisamment pertinent dans le corpus VOCE pour répondre à cette question.",
+      answer: msg.none,
       sources: []
     };
   }
@@ -147,7 +166,7 @@ async function answerFromAcademy(question, env, corpus, routes) {
 
   if (!env.AI) {
     return {
-      answer: "Voici les documents VOCE les plus proches de votre recherche. La synthèse intelligente est momentanément indisponible.",
+      answer: msg.unavailable,
       sources
     };
   }
@@ -166,22 +185,22 @@ Ne donne aucun lien dans le texte: les liens seront affichés séparément.`;
     const result = await env.AI.run("@cf/google/gemma-4-26b-a4b-it", {
       messages: [
         { role: "system", content: system },
-        { role: "user", content: `Question: ${question}\n\nCorpus VOCE:\n${context}` }
+        { role: "user", content: `LANG: ${l}\nQuestion: ${question}\n\nCorpus VOCE:\n${context}` }
       ],
       max_tokens: 700,
       chat_template_kwargs: { enable_thinking: false }
     });
 
-    const answer = result?.response || result?.result?.response || result?.text;
+    const answer = result?.response || result?.result?.response || (typeof result?.result === "string" ? result.result : null) || result?.text || result?.choices?.[0]?.message?.content || result?.choices?.[0]?.text;
     return {
       answer: typeof answer === "string" && answer.trim()
         ? answer.trim()
-        : "Voici les documents VOCE les plus pertinents pour cette recherche.",
+        : msg.generic,
       sources
     };
   } catch (error) {
     return {
-      answer: "La synthèse intelligente est momentanément indisponible. Voici néanmoins les documents VOCE les plus pertinents pour votre recherche.",
+      answer: msg.unavailable,
       sources
     };
   }
@@ -556,12 +575,13 @@ export default {
         return Response.json({ error: "Invalid JSON" }, { status: 400 });
       }
       const q = String(payload?.q || "").trim();
+      const lang = String(payload?.lang || "en").slice(0,5);
       if (!q || q.length > 500) {
         return Response.json({ error: "Question invalide" }, { status: 400 });
       }
       const routes = await loadRoutes(env);
       const corpus = await loadCorpus(env);
-      const result = await answerFromAcademy(q, env, corpus, routes);
+      const result = await answerFromAcademy(q, env, corpus, routes, lang);
       return Response.json(result, {
         headers: {
           "cache-control": "no-store",
