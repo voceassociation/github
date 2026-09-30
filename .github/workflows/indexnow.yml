@@ -1,5 +1,7 @@
 name: Notify IndexNow
 
+# Ownership key verified live at https://voce.life/609ed2cfb745919a5e1948a1bdce3b66.txt
+
 on:
   push:
     branches:
