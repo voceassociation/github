@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-09-30T14:38:30.760035+00:00",
+  "updated_at": "2026-09-30T17:31:00Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -871,11 +871,12 @@
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
   "resume": [
-    "Verify or deploy Cloudflare main commit; new canonical article currently returns 404.",
     "Obtain authenticated LinkedIn history for dates with no connector rows.",
     "Compare connector text against LinkedIn originals and review conflicts without overwriting.",
     "Verify Adobe provenance with exact publication/asset evidence.",
-    "Recheck September 29–30 for connector lag."
+    "Recheck September 29–30 for connector lag.",
+    "Confirm IndexNow full bootstrap result after live key verification.",
+    "Monitor resumable R2 backup until all 1428 routes report backup_complete=true."
   ],
   "text_conflict_classification": {
     "outer_whitespace_only": 305,
@@ -886,12 +887,40 @@
     "merged_into": "main",
     "pull_request": 3,
     "merge_commit": "cb66dce1c40f07282b275482f801e8a350dc5f0a",
-    "indexnow_check": "failed_403_key_verification_requires_recheck",
-    "live_deployment": "sample_article_verified_publicly",
+    "indexnow_check": "full_bootstrap_retriggered_pending_result",
+    "live_deployment": "1428_article_pages_and_sample_verified_publicly",
     "linkedin_browser_session": "signed_out_metricool_connector_connected",
     "static_pages_generated": 1428,
     "academy_catalogue": "existing_curated_selection_plus_guide_no_bulk_listing",
     "verified_article": "https://voce.life/archive/2026/09/29/pendant-des-annees-une-nouvelle-signature-de-securite-imposait-un-cout-a-7510564205050241025",
-    "rss_items": 1428
+    "rss_items": 1428,
+    "indexnow_key": "verified_live",
+    "indexnow_retry_commit": "20bc25cb6cca1cce7e44a350be21b3ea1fffc49e",
+    "r2_backup": {
+      "status": "syncing",
+      "manifest_synced_at": "2026-09-30T15:00:48.996Z",
+      "manifest_article_routes": 17,
+      "current_article_routes": 1428,
+      "issue": "Previous monolithic sync exceeded practical per-invocation R2 work after corpus expansion.",
+      "remediation": "Resumable 150-route batches with persistent cursor deployed.",
+      "remediation_commit": "5f303ffb9dbdb8a58a5fabfcc3049d5663142037",
+      "next_check": "Wait for scheduled batch; healthy only when recent synced_at and backup_complete=true."
+    },
+    "research_registry": {
+      "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
+      "corrected_at": "2026-09-30T17:07:49Z",
+      "old_scholar_urls_replaced": true,
+      "canonical_targets": [
+        "https://voce.life/research/introspective-technoference",
+        "https://voce.life/research/parental-technoference-language-development"
+      ]
+    },
+    "facebook": {
+      "verified_page_id": "61581153121750",
+      "metricool_page_id_mismatch": "802476986277786",
+      "recovered_reel_id": "1065268476121681",
+      "full_text_saved": true,
+      "ingestion_status": "pending exact publication timestamp and cross-platform duplicate reconciliation"
+    }
   }
 }
