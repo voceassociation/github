@@ -1,0 +1,234 @@
+{
+  "schema": 1,
+  "observed_at": "2026-09-30T19:05:56Z",
+  "scope": "Adobe Creative Cloud assets sorted by modification time descending",
+  "publication_status": "not_verified",
+  "note": "Modification alone is not publication evidence. Generic names and variants were not ingested.",
+  "assets": [
+    {
+      "urn": "urn:aaid:sc:EU:7ecd17e7-c06f-502c-a273-c8b89bd7f715",
+      "name": "Sans titre - 12 décembre 2025 à 17.42.03 (11).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-09-03T14:32:02.591Z",
+      "modified_timestamp": "2026-09-30T14:14:36.837Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:0cdc73d4-49f0-56ca-a3c6-84df3a41f600",
+      "name": "Untitled - 11 décembre 2025 à 18.29.09 (2) (107).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-09-03T14:14:15.119Z",
+      "modified_timestamp": "2026-09-30T14:01:52.905Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:6de32001-ef09-5470-8fb0-d46e6e4650af",
+      "name": "Sans titre - 12 décembre 2025 à 17.42.03 (10).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-09-03T14:04:55.227Z",
+      "modified_timestamp": "2026-09-30T13:46:18.003Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:cfbc80e3-e2b0-5dda-87d9-a8a604565cb2",
+      "name": "Untitled - 11 décembre 2025 à 18.29.09 (26).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-09-04T14:42:21.913Z",
+      "modified_timestamp": "2026-09-30T13:32:48.985Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:f62ce644-15fe-51ef-9206-a39547643f79",
+      "name": "Untitled - 11 décembre 2025 à 18.29.09 (2) (108).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-09-04T14:51:42.253Z",
+      "modified_timestamp": "2026-09-30T13:19:46.905Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:ea9d4a22-a84c-5026-ae78-7c9f386dc9c6",
+      "name": "Untitled - 11 décembre 2025 à 18.29.09 (15).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-08-09T14:33:52.513Z",
+      "modified_timestamp": "2026-09-30T13:06:28.157Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:83039b84-c909-58b4-bd2b-7e866f7c5ad9",
+      "name": "Untitled - 11 décembre 2025 à 18.29.09 (28).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-09-21T09:40:03.202Z",
+      "modified_timestamp": "2026-09-30T12:50:59.002Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:3575cf20-a350-5de5-af42-385a613ba115",
+      "name": "Untitled - 11 décembre 2025 à 18.29.09 (2) (110).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-09-20T08:24:35.399Z",
+      "modified_timestamp": "2026-09-30T12:41:56.531Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:c190e7e7-fc59-5d8f-b00b-133891e2c87b",
+      "name": "Untitled - 11 décembre 2025 à 18.29.09 (2) (111).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-09-20T12:21:45.523Z",
+      "modified_timestamp": "2026-09-30T12:27:30.391Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:6779bb04-c82a-5a56-b96e-6b638a2958ec",
+      "name": "Sans titre - 12 décembre 2025 à 17.42.03 (5).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-09-03T09:07:56.387Z",
+      "modified_timestamp": "2026-09-30T10:55:02.86Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:9069d6be-dbce-5005-8cf8-1f65b1c415e1",
+      "name": "Untitled - 11 décembre 2025 à 18.29.09 (3).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-05-09T21:49:09.187Z",
+      "modified_timestamp": "2026-09-30T10:43:34.531Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:c711c111-33c8-57d7-be00-4be098347729",
+      "name": "Untitled - 09 décembre 2025 à 20.26.50 (4).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-06-18T16:07:33.479Z",
+      "modified_timestamp": "2026-09-30T10:24:28.382Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:f510d893-7c92-4699-8a54-9e1bd53e7a52",
+      "name": "Sans titre - 12 décembre 2025 à 17.28.05.express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2025-12-12T16:28:16.822Z",
+      "modified_timestamp": "2026-09-30T10:15:26.93Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:c4449019-a2ae-5fa4-9b7f-111c33804ad4",
+      "name": "Untitled - 11 décembre 2025 à 18.29.09 (2) (69).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-08-06T16:04:35.689Z",
+      "modified_timestamp": "2026-09-30T09:58:56.072Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:d8179323-397a-555b-ba02-5756e7e82910",
+      "name": "Sans titre - 12 décembre 2025 à 17.42.03 (2).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-08-10T15:48:19.789Z",
+      "modified_timestamp": "2026-09-30T09:48:52.109Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:545b8bbf-6b60-56f7-afb6-b6987a668836",
+      "name": "Untitled - 11 décembre 2025 à 18.29.09 (2) (95).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-08-20T09:45:24.108Z",
+      "modified_timestamp": "2026-09-30T09:41:58.547Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:761d1433-6a71-5b4f-8600-546fa2f43d78",
+      "name": "Untitled - 11 décembre 2025 à 18.29.09 (22).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-08-20T10:03:33.346Z",
+      "modified_timestamp": "2026-09-30T09:27:42.173Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:a1187d20-f415-4ac7-8b8b-83bca5c21382",
+      "name": "Sans titre - 15 décembre 2025 à 16.08.56.express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2025-12-15T15:09:02.300Z",
+      "modified_timestamp": "2026-09-30T09:15:19.951Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:8e6d15fb-6b3e-4cba-90e4-467682483241",
+      "name": "Untitled - 11 décembre 2025 à 18.29.09.express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2025-12-11T17:29:16.989Z",
+      "modified_timestamp": "2026-09-30T09:03:35.947Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:912ad392-36d7-56af-98a3-8d46ca3d8b76",
+      "name": "Untitled - 11 décembre 2025 à 18.29.09 (2) (99).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-08-28T16:06:25.488Z",
+      "modified_timestamp": "2026-09-30T08:52:18.521Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:a4e081b9-cc0e-4cf5-87a7-9a525d07583e",
+      "name": "Sans titre - 21 juillet 2026 à 19.07.21.express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-07-21T17:07:30.287Z",
+      "modified_timestamp": "2026-09-29T14:10:42.212Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:14da7b22-034c-4f71-a857-30a8569c35f1",
+      "name": "Untitled - 30 June 2026 at 16.25.16.express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-06-30T14:26:07.070Z",
+      "modified_timestamp": "2026-09-29T14:08:40.789Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:cad61628-c3b7-4618-aeff-dc966e8266e9",
+      "name": "Sans titre - 21 juillet 2026 à 19.10.56.express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-07-21T17:11:05.591Z",
+      "modified_timestamp": "2026-09-29T14:06:27.828Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:30bfd3f0-7fbd-5e62-abf1-ba5a0f239b9d",
+      "name": "Untitled - 11 décembre 2025 à 18.29.09 (2) (83).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-08-10T15:28:18.872Z",
+      "modified_timestamp": "2026-09-29T14:03:20.896Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    },
+    {
+      "urn": "urn:aaid:sc:EU:ef0bd5c0-0b37-5e62-bed4-c8a4440c152d",
+      "name": "Untitled - 11 décembre 2025 à 18.29.09 (2) (47).express",
+      "media_type": "application/vnd.adobe.hz.express+dcx",
+      "create_timestamp": "2026-07-29T15:04:37.924Z",
+      "modified_timestamp": "2026-09-29T13:47:11.296Z",
+      "source_type": "acp",
+      "status": "unverified_adobe_candidate"
+    }
+  ]
+}
