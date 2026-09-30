@@ -1,10 +1,13 @@
 {
-  "schema": 1,
-  "checked_at": "2026-09-30",
+  "schema": 2,
+  "checked_at": "2026-09-30T17:07:49Z",
   "brand_id": "7090850",
   "brand_label": "VOCE Association",
-  "connected_page_id": "802476986277786",
-  "identity_status": "Exact Facebook page name not independently verified; exclude VOCE Balkans.",
+  "verified_page_id": "61581153121750",
+  "verified_page_url": "https://www.facebook.com/people/VOCE-Association/61581153121750/",
+  "identity_status": "Verified from the user-supplied profile redirect and public page metadata. Exclude VOCE Balkans.",
+  "metricool_connected_page_id": "802476986277786",
+  "connector_identity_status": "Mismatch with verified VOCE public page; empty Metricool scans are not proof of absence and must not be treated as this page's history.",
   "scan_results": {
     "march_june_posts": {
       "content": [
@@ -43,6 +46,20 @@
       "isError": false
     }
   },
-  "status": "All connector responses empty; not proof of absence; no Facebook text ingested.",
-  "next_action": "Verify VOCE Facebook page identity and use accessible full published texts."
+  "recovered_publications": [
+    {
+      "reel_id": "1065268476121681",
+      "source_url": "https://www.facebook.com/61581153121750/videos/le-28-septembre-2026-elizabeth-al-jbouri-sheri-madigan-et-leurs-coll%C3%A8gues-publie/1065268476121681/",
+      "raw_response": "backfill/raw/facebook-61581153121750-reel-1065268476121681.json",
+      "full_text_recovered": true,
+      "publication_timestamp_verified": false,
+      "corpus_status": "pending exact publication date and LinkedIn duplicate/provenance reconciliation"
+    }
+  ],
+  "status": "Verified Facebook source established; one complete reel text preserved; historical signed-out feed remains incomplete.",
+  "next_actions": [
+    "Do not rescan Metricool page 802476986277786 as if it were verified page 61581153121750.",
+    "Recover the exact publication timestamp before assigning a canonical archive date.",
+    "Match against LinkedIn originals; enrich provenance for duplicates and preserve materially different variants."
+  ]
 }
