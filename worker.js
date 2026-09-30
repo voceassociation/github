@@ -254,7 +254,16 @@ function renderHistoryDay(day) {
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css">
 </head><body>
 <a class="skip-link" href="#main-content">Aller au contenu</a>
-<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu"><a href="/#themes">Themes</a><a href="/research">Research</a><a href="/archive" class="active">Academy</a><a href="/standards">Standards</a><a href="/publications">Publications</a><a class="keep" href="/art">Art</a><a class="keep" href="/about">About</a></nav></div></header>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="Primary navigation">
+      <a href="/#themes">Themes</a>
+      <a href="/research">Research</a>
+      <a href="/archive">Academy</a>
+      <a href="/standards">Standards</a>
+      <a href="/publications">Publications</a>
+      <a class="keep" href="/art">Art</a>
+      <a class="keep" href="/about">About</a>
+      <span class="lang" role="group" aria-label="Language"><button data-lang="en">EN</button><button data-lang="fr">FR</button><button data-lang="it">IT</button></span>
+    </nav></div></header>
 <main id="main-content"><section class="topic-hero"><div class="wrap"><div class="topic-kicker">VOCE Academy · Archives</div><h1 class="topic-title">${items.length} publications conservées.</h1><p class="topic-deck">${escapeHtml(pretty)} · textes intégraux, provenance originale et URL VOCE permanentes.</p><div class="topic-meta"><span>VOCE Association</span><span>Corpus propriétaire</span><span>Accès public</span></div></div></section>
 <section class="topic-body"><div class="wrap topic-layout"><aside class="topic-nav"><div class="topic-nav-label">VOCE Academy</div><a href="/archive">Academy</a><a href="/CORPUS_RIGHTS.txt">Droits du corpus</a></aside><div class="longform">${rows}</div></div></section></main>
 <footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Copyright © 2025-2026 VOCE Association. All rights reserved.</div></div></div></div></footer>
@@ -328,7 +337,16 @@ function renderArticle(item, route, routes) {
 </head>
 <body>
 <a class="skip-link" href="#main-content">Aller au contenu</a>
-<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="Navigation principale"><a href="/#themes">Themes</a><a href="/research">Research</a><a href="/archive">Academy</a><a href="/standards">Standards</a><a href="/publications">Publications</a><a class="keep" href="/art">Art</a><a class="keep" href="/about">About</a></nav></div></header>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="Primary navigation">
+      <a href="/#themes">Themes</a>
+      <a href="/research">Research</a>
+      <a href="/archive">Academy</a>
+      <a href="/standards">Standards</a>
+      <a href="/publications">Publications</a>
+      <a class="keep" href="/art">Art</a>
+      <a class="keep" href="/about">About</a>
+      <span class="lang" role="group" aria-label="Language"><button data-lang="en">EN</button><button data-lang="fr">FR</button><button data-lang="it">IT</button></span>
+    </nav></div></header>
 <main id="main-content">
 <section class="topic-hero"><div class="wrap">
 <div class="topic-kicker">Corpus VOCE · ${escapeHtml(formatDate(item.date_published))}</div>
