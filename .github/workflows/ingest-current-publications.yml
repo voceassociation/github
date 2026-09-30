@@ -1,0 +1,58 @@
+name: Ingest verified VOCE publications
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "backfill/raw/????-??-??.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: voce-current-publication-ingest
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Reconcile verified source packets
+        run: python3 backfill/reconcile.py
+
+      - name: Publish permanent corpus routes
+        run: python3 backfill/publish_current.py
+
+      - name: Validate corpus consistency
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path(".")
+          corpus=json.loads((root/"data/corpus.json").read_text())
+          routes=json.loads((root/"data/article-routes.json").read_text())
+          assert corpus["item_count"] == len(corpus["items"])
+          assert len(routes["items"]) == corpus["item_count"]
+          assert sum(1 for _ in (root/"data/corpus.ndjson").open()) == corpus["item_count"]
+          assert (root/"archive/2026-09-30.html").exists()
+          ids={x["id"] for x in corpus["items"]}
+          assert len(ids) == corpus["item_count"]
+          print({"corpus_items": corpus["item_count"], "routes": len(routes["items"])})
+          PY
+
+      - name: Commit generated corpus state
+        run: |
+          if git diff --quiet; then
+            echo "No corpus changes."
+            exit 0
+          fi
+          git config user.name "VOCE Corpus Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add archive.html archive data backfill/checkpoint.json backfill/conflicts.json backfill/publications.json feed.xml llms.txt sitemap.xml
+          git commit -m "Publish verified VOCE LinkedIn texts for 2026-09-30"
+          git push
