@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-09-30T18:16:00Z",
+  "updated_at": "2026-09-30T19:05:56Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -906,7 +906,18 @@
       "remediation_commit": "5f303ffb9dbdb8a58a5fabfcc3049d5663142037",
       "next_check": "Confirm deployment, then verify cursor and synced_at advance after the next scheduled event.",
       "second_remediation": "Unified queue capped at 40 total objects per scheduled run.",
-      "second_remediation_commit": "339bfc15199956c0f3307202297a95631ead3df9"
+      "second_remediation_commit": "339bfc15199956c0f3307202297a95631ead3df9",
+      "last_checked_at": "2026-09-30T19:05:56Z",
+      "latest_health": {
+        "status": "syncing",
+        "synced_at": "2026-09-30T15:00:48.996Z",
+        "backup_cursor": 0,
+        "backup_complete": false,
+        "total_objects_target": null,
+        "objects_synced": 0
+      },
+      "diagnosis": "Schema 3 health code is live, but the scheduled handler has not written a new manifest after deployment. The cron trigger is declared as */30 * * * * in wrangler.jsonc; Cloudflare scheduled-event registration or runtime failure must be inspected.",
+      "next_action": "Inspect Cloudflare Worker Cron Trigger registration and scheduled invocation logs; no further blind code changes."
     },
     "research_registry": {
       "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
@@ -915,7 +926,9 @@
       "canonical_targets": [
         "https://voce.life/research/introspective-technoference",
         "https://voce.life/research/parental-technoference-language-development"
-      ]
+      ],
+      "last_verified_at": "2026-09-30T19:05:56Z",
+      "status": "Canonical research targets and authoritative DOI metadata remain consistent."
     },
     "facebook": {
       "verified_page_id": "61581153121750",
@@ -935,6 +948,14 @@
       "root_key_url": "https://voce.life/609ed2cfb745919a5e1948a1bdce3b66.txt",
       "root_key_publicly_readable": true,
       "likely_next_action": "Inspect Cloudflare security/bot rules for the key URL; IndexNow verification crawler may be blocked before or at the Worker."
+    },
+    "adobe_recent_scan": {
+      "observed_at": "2026-09-30T19:05:56Z",
+      "raw_file": "backfill/raw/adobe-assets-2026-09-30T1905Z.json",
+      "assets_recorded": 25,
+      "latest_modified_at": "2026-09-30T14:14:36.837Z",
+      "verified_publications": 0,
+      "disposition": "No ingestion: generic Adobe names and modification timestamps are not publication proof."
     }
   }
 }
