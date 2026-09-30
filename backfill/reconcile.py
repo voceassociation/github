@@ -36,7 +36,7 @@ new_count = 0
 for path in sorted((WORK/'raw').glob('*.json')):
     # Only dated Metricool packets belong to this reconciliation pass.
     # Adobe/Facebook evidence files share the raw directory but use other schemas.
-    if not re.fullmatch(r'\\d{4}-\\d{2}-\\d{2}\\.json', path.name):
+    if not re.fullmatch(r'\d{4}-\d{2}-\d{2}\.json', path.name):
         continue
     packet = read(path)
     if 'response' not in packet or 'date' not in packet:
