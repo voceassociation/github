@@ -422,17 +422,56 @@ async function syncCorpus(env) {
   const corpus = await loadCorpus(env);
   routes._corpusItems = corpus.items || [];
 
-  const pathTasks = [
-    ...CORE_FILES,
-    ...Object.keys(registry.archived_days || {}).map(date => `archive/${date}.html`)
-  ].map(path => ({ kind: "path", path }));
+  // The sovereign backup is the canonical source corpus, not the rendered HTML cache.
+  // Always protect the complete source snapshot first so a large backfill cannot leave
+  // R2 reporting an obsolete route count while derived article pages catch up.
+  const publicCorpus = canonicalizeCorpus(corpus, routes);
+  const sourceResults = [];
 
-  const articleTasks = (routes.items || []).map(route => ({
-    kind: "article",
-    route
-  }));
-  const tasks = [...pathTasks, ...articleTasks];
-  const totalTasks = tasks.length;
+  const corpusJson = new TextEncoder().encode(JSON.stringify(publicCorpus, null, 2) + "\n");
+  sourceResults.push(await storeBytesIfChanged(
+    env, "data/corpus.json", corpusJson, "application/json; charset=utf-8",
+    "https://voce.life/data/corpus.json", timestamp
+  ));
+
+  const corpusNdjson = new TextEncoder().encode(
+    (publicCorpus.items || []).map(item => JSON.stringify(item)).join("\n") + "\n"
+  );
+  sourceResults.push(await storeBytesIfChanged(
+    env, "data/corpus.ndjson", corpusNdjson, "application/x-ndjson; charset=utf-8",
+    "https://voce.life/data/corpus.ndjson", timestamp
+  ));
+
+  for (const path of [
+    "data/article-routes.json",
+    "data/voce-index-registry.json",
+    "data/corpus-schema-v1.json",
+    "CORPUS_RIGHTS.txt",
+    "sitemap.xml",
+    "archive.html",
+    "art.html",
+    "llms.txt"
+  ]) {
+    sourceResults.push(await storeAssetIfChanged(env, path, timestamp));
+  }
+
+  const feedBytes = new TextEncoder().encode(await transformedFeed(env, routes));
+  sourceResults.push(await storeBytesIfChanged(
+    env, "feed.xml", feedBytes, "application/rss+xml; charset=utf-8",
+    "https://voce.life/feed.xml", timestamp
+  ));
+
+  // Rendered pages are reproducible from the canonical corpus and routes. They are
+  // mirrored incrementally as a second resilience layer, but they no longer block
+  // the sovereign source backup from being complete.
+  const derivedTasks = [
+    ...Object.keys(registry.archived_days || {}).map(date => ({
+      kind: "path",
+      path: `archive/${date}.html`
+    })),
+    ...(routes.items || []).map(route => ({ kind: "article", route }))
+  ];
+  const totalDerived = derivedTasks.length;
 
   let previousManifest = null;
   const previousManifestObject = await env.VOCE_CORPUS.get("manifest.json");
@@ -444,31 +483,34 @@ async function syncCorpus(env) {
     }
   }
 
-  let backupCursor = Number(previousManifest?.backup_cursor || 0);
-  if (!Number.isInteger(backupCursor) || backupCursor < 0 || backupCursor >= totalTasks) {
-    backupCursor = 0;
+  let derivedCursor = Number(
+    previousManifest?.derived_cursor ??
+    previousManifest?.backup_cursor ??
+    0
+  );
+  if (!Number.isInteger(derivedCursor) || derivedCursor < 0 || derivedCursor >= Math.max(totalDerived, 1)) {
+    derivedCursor = 0;
   }
 
-  const taskBatch = tasks.slice(backupCursor, backupCursor + BACKUP_BATCH_SIZE);
-  const nextBackupCursor =
-    backupCursor + taskBatch.length >= totalTasks
+  const derivedBatch = derivedTasks.slice(derivedCursor, derivedCursor + BACKUP_BATCH_SIZE);
+  const nextDerivedCursor =
+    totalDerived === 0 || derivedCursor + derivedBatch.length >= totalDerived
       ? 0
-      : backupCursor + taskBatch.length;
-  const completedCycle = totalTasks === 0 || nextBackupCursor === 0;
+      : derivedCursor + derivedBatch.length;
+  const completedDerivedCycle = totalDerived === 0 || nextDerivedCursor === 0;
 
-  const results = [];
-  const publicCorpus = canonicalizeCorpus(corpus, routes);
+  const derivedResults = [];
   const corpusById = new Map((corpus.items || []).map(item => [item.id, item]));
 
-  for (const task of taskBatch) {
+  for (const task of derivedBatch) {
     if (task.kind === "article") {
       const route = task.route;
       const item = corpusById.get(route.id);
       if (!item) continue;
       const html = renderArticle(item, route, routes);
       const bytes = new TextEncoder().encode(html);
-      const key = route.path.replace(/^\/+/, "") + ".html";
-      results.push(await storeBytesIfChanged(
+      const key = route.path.replace(/^\\/+/, "") + ".html";
+      derivedResults.push(await storeBytesIfChanged(
         env,
         key,
         bytes,
@@ -479,86 +521,63 @@ async function syncCorpus(env) {
       continue;
     }
 
-    const path = task.path;
-    if (path === "data/corpus.json") {
-      const bytes = new TextEncoder().encode(JSON.stringify(publicCorpus, null, 2) + "\n");
-      results.push(await storeBytesIfChanged(
-        env,
-        path,
-        bytes,
-        "application/json; charset=utf-8",
-        "https://voce.life/data/corpus.json",
-        timestamp
-      ));
-      continue;
-    }
-
-    if (path === "data/corpus.ndjson") {
-      const body = (publicCorpus.items || []).map(item => JSON.stringify(item)).join("\n") + "\n";
-      const bytes = new TextEncoder().encode(body);
-      results.push(await storeBytesIfChanged(
-        env,
-        path,
-        bytes,
-        "application/x-ndjson; charset=utf-8",
-        "https://voce.life/data/corpus.ndjson",
-        timestamp
-      ));
-      continue;
-    }
-
-    if (path === "feed.xml") {
-      const bytes = new TextEncoder().encode(await transformedFeed(env, routes));
-      results.push(await storeBytesIfChanged(
-        env,
-        path,
-        bytes,
-        "application/rss+xml; charset=utf-8",
-        "https://voce.life/feed.xml",
-        timestamp
-      ));
-      continue;
-    }
-
-    results.push(await storeAssetIfChanged(env, path, timestamp));
+    derivedResults.push(await storeAssetIfChanged(env, task.path, timestamp));
   }
 
-  const routeCount = articleTasks.length;
-  const previousCoverageIsCurrent =
-    previousManifest?.backup_complete === true &&
+  const routeCount = (routes.items || []).length;
+  const corpusCount = (corpus.items || []).length;
+  const sourceSnapshotComplete =
+    routeCount === corpusCount &&
+    sourceResults.length >= 10;
+
+  const previousDerivedCoverageCurrent =
+    previousManifest?.derived_backup_complete === true &&
     Number(previousManifest?.article_routes || 0) === routeCount &&
-    Number(previousManifest?.total_objects_target || 0) === totalTasks;
-  const backupComplete = previousCoverageIsCurrent || completedCycle;
-  const objectsSynced = backupComplete
-    ? totalTasks
-    : Math.min(backupCursor + taskBatch.length, totalTasks);
-  const articleRoutesSynced = backupComplete
+    Number(previousManifest?.total_derived_objects || 0) === totalDerived;
+
+  const derivedBackupComplete = previousDerivedCoverageCurrent || completedDerivedCycle;
+  const derivedObjectsSynced = derivedBackupComplete
+    ? totalDerived
+    : Math.min(derivedCursor + derivedBatch.length, totalDerived);
+
+  const archivedDayCount = Object.keys(registry.archived_days || {}).length;
+  const derivedArticlePagesSynced = derivedBackupComplete
     ? routeCount
-    : Math.max(0, Math.min(objectsSynced - pathTasks.length, routeCount));
+    : Math.max(0, Math.min(derivedObjectsSynced - archivedDayCount, routeCount));
 
   const manifest = {
-    schema: 3,
+    schema: 4,
     owner: "VOCE Association",
     bucket: "voce-sovereign-corpus",
     synced_at: timestamp,
     source: "https://voce.life",
     article_routes: routeCount,
-    article_routes_synced: articleRoutesSynced,
-    backup_cursor: nextBackupCursor,
+    corpus_items: corpusCount,
+    source_snapshot_complete: sourceSnapshotComplete,
+    backup_complete: sourceSnapshotComplete,
+    last_complete_sync_at: sourceSnapshotComplete ? timestamp : previousManifest?.last_complete_sync_at || null,
+
+    // Compatibility fields retained for the existing status endpoint.
+    article_routes_synced: routeCount,
+    backup_cursor: nextDerivedCursor,
     backup_batch_size: BACKUP_BATCH_SIZE,
-    backup_complete: backupComplete,
-    last_complete_sync_at: completedCycle
-      ? timestamp
-      : previousManifest?.last_complete_sync_at || null,
-    total_objects_target: totalTasks,
-    objects_synced: objectsSynced,
-    objects_touched_in_last_sync: results.length,
-    changed_in_last_sync: results.filter(item => item.changed).length
+    total_objects_target: sourceResults.length + totalDerived,
+    objects_synced: sourceResults.length + derivedObjectsSynced,
+
+    // Explicit second-layer state: reproducible rendered pages.
+    derived_backup_complete: derivedBackupComplete,
+    derived_cursor: nextDerivedCursor,
+    total_derived_objects: totalDerived,
+    derived_objects_synced: derivedObjectsSynced,
+    derived_article_pages_synced: derivedArticlePagesSynced,
+    source_objects_touched_in_last_sync: sourceResults.length,
+    derived_objects_touched_in_last_sync: derivedResults.length,
+    changed_in_last_sync: [...sourceResults, ...derivedResults].filter(item => item.changed).length
   };
 
   await env.VOCE_CORPUS.put("manifest.json", JSON.stringify(manifest, null, 2) + "\n", {
     httpMetadata: { contentType: "application/json; charset=utf-8" },
-    customMetadata: { synced_at: timestamp }
+    customMetadata: { synced_at: timestamp, schema: "4" }
   });
 }
 
@@ -636,14 +655,22 @@ export default {
           private: true,
           synced_at: data.synced_at,
           article_routes: data.article_routes || 0,
+          corpus_items: data.corpus_items || data.article_routes || 0,
           article_routes_synced: data.article_routes_synced || 0,
+          source_snapshot_complete: data.source_snapshot_complete === true,
           backup_cursor: data.backup_cursor || 0,
           backup_batch_size: data.backup_batch_size || null,
           backup_complete: backupComplete,
           last_complete_sync_at: data.last_complete_sync_at || null,
           total_objects_target: data.total_objects_target || null,
           objects_synced: data.objects_synced || 0,
-          objects_touched_in_last_sync: data.objects_touched_in_last_sync ?? null,
+          derived_backup_complete: data.derived_backup_complete === true,
+          derived_cursor: data.derived_cursor ?? data.backup_cursor ?? 0,
+          total_derived_objects: data.total_derived_objects ?? null,
+          derived_objects_synced: data.derived_objects_synced ?? null,
+          derived_article_pages_synced: data.derived_article_pages_synced ?? null,
+          source_objects_touched_in_last_sync: data.source_objects_touched_in_last_sync ?? null,
+          derived_objects_touched_in_last_sync: data.derived_objects_touched_in_last_sync ?? null,
           changed_in_last_sync: data.changed_in_last_sync ?? (
             Array.isArray(data.objects)
               ? data.objects.filter(item => item.changed).length
