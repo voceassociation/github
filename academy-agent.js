@@ -49,7 +49,7 @@
       const response = await fetch("/api/academy-agent", {
         method:"POST",
         headers:{"content-type":"application/json"},
-        body:JSON.stringify({q})
+        body:JSON.stringify({q,lang:(document.documentElement.lang||localStorage.getItem("voce-lang")||"en")})
       });
       const data = await response.json();
       if (!response.ok) throw new Error(data.error || "Erreur de recherche");
