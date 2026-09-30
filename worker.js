@@ -589,7 +589,6 @@ export default {
           synced_at: data.synced_at,
           article_routes: data.article_routes || 0,
           article_routes_synced: data.article_routes_synced || 0,
-          article_routes_synced: data.article_routes_synced || 0,
           backup_cursor: data.backup_cursor || 0,
           backup_batch_size: data.backup_batch_size || null,
           backup_complete: backupComplete,
