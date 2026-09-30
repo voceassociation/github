@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "checked_at": "2026-09-30T17:07:49Z",
+  "source_platform": "facebook",
+  "verified_page": {
+    "id": "61581153121750",
+    "name": "VOCE Association",
+    "url": "https://www.facebook.com/people/VOCE-Association/61581153121750/",
+    "canonical_url": "https://www.facebook.com/p/VOCE-Association-61581153121750/",
+    "title": "VOCE Association | Paris ",
+    "public_description": "VOCE Association, Paris. 162 followers · 7 talking about this. VOCE - Académie des réalités invisibles. \nIA, cognition, santé, psychologie, culture & patrimoine. \nRecherche appliquée, Opéras VOCE,...",
+    "identity_evidence": [
+      "VOCE Association",
+      "Paris",
+      "voce.life",
+      "instagram.com/voceassociation"
+    ],
+    "excluded_page": "VOCE Balkans"
+  },
+  "publication": {
+    "reel_id": "1065268476121681",
+    "requested_url": "https://www.facebook.com/reel/1065268476121681",
+    "canonical_url": "https://www.facebook.com/61581153121750/videos/le-28-septembre-2026-elizabeth-al-jbouri-sheri-madigan-et-leurs-coll%C3%A8gues-publie/1065268476121681/",
+    "exact_text": "Le 28 septembre 2026, Elizabeth Al-Jbouri, Sheri Madigan et leurs collègues publient dans JAMA Pediatrics une étude d'une dimension inhabituelle.\n\nIls ne suivent pas 300 enfants.\n\nIls réanalysent 23 méta-analyses représentant 2 817 252 enfants dans 64 pays.\n\nL'exposition aux écrans est associée à de moins bonnes performances globales scolaires et langagières, ainsi qu'à davantage de difficultés émotionnelles et comportementales. Mais plusieurs résultats dérangent le récit habituel.\n\nAucune association significative n'apparaît avec les fonctions exécutives. Ni avec les résultats en mathématiques, sciences ou lecture. Et l'intensité des associations varie selon le type d'écran et l'âge.\n\n\"Le temps d'écran\" n'est donc pas une substance mesurable comme le plomb dans le sang.\n\nUn enfant qui dessine avec un stylet, parle à sa grand-mère en visioconférence et regarde seul cinquante vidéos courtes peut accumuler trois fois trente minutes. Son système nerveux n'a pourtant pas vécu trois expériences équivalentes.\n\nDeux chercheurs français, Fabien Bitu à l'Université de Rouen Normandie et Margaux Molina à l'Université de Caen Normandie, viennent justement de consacrer une revue 2026 à cette distinction. Ils proposent d'examiner les écrans selon le degré d'engagement cognitif et physique qu'ils permettent.\n\nLa couche invisible est sensorielle.\n\nUn écran concentre énormément d'information visuelle et auditive dans quelques millimètres d'épaisseur. Mais il ne possède ni poids à déplacer, ni profondeur réelle à parcourir avec le corps, ni texture à explorer. Une étude longitudinale de deux ans menée chez 117 enfants d'âge préscolaire avait déjà associé davantage de médias numériques à de moins bonnes performances haptiques et de motricité fine, tout en observant une meilleure discrimination visuelle des formes.\n\nLa France a durci sa doctrine. Depuis 2025, les écrans sont interdits avant 3 ans dans les lieux d'accueil de la petite enfance. Le carnet de santé interroge désormais leur usage dès 3 mois. C'est une évolution importante.\n\nMais notre obsession collective pour la durée conserve une faiblesse: elle mesure ce qui entre dans l'emploi du temps, beaucoup moins précisément ce qui en sort.\n\nToucher. Manipuler. Courir. Converser. Regarder quelqu'un répondre.\n\nLa prochaine fois que vous verrez \"30 minutes d'écran\" dans l'agenda d'un enfant, la donnée intéressante sera peut-être ailleurs.\n\nQue faisait son cerveau pendant ces trente minutes?\n\nEt surtout, qu'aurait fait son corps à leur place?\n\nULTRA® \n\nLe biais caché derrière \"une heure d'écran\"\n\nPour un neuropsychologue, deux expositions de même durée peuvent imposer des architectures attentionnelles presque opposées.\n\nLa variable niche est la \"contingence\": la capacité de l'environnement à changer en réponse à l'action de l'enfant. Lors d'une conversation réelle, le délai, le regard, l'intonation et les gestes de l'adulte varient continuellement avec ses réactions. Une visioconférence conserve une partie de cette contingence. Une vidéo préenregistrée presque aucune.\n\nS'y ajoute le \"coût d'opportunité sensorimoteur\". Trente minutes immobile ne sont pas seulement trente minutes de stimulation numérique. Chez le petit enfant, elles peuvent remplacer des centaines d'ajustements posturaux, prises d'objets, mouvements oculaires liés à une profondeur réelle et boucles main-œil.\n\nLa revue française de 2026 suggère précisément de sortir d'une taxonomie fondée sur l'objet \"écran\" pour distinguer engagement passif, actif et interactif.\n\nPour les parents, la question la plus informative devient donc moins \"combien de minutes?\" que \"quelle boucle cerveau-corps cette activité entraîne-t-elle, et laquelle remplace-t-elle?\"\n\nDeux tablettes identiques peuvent occuper trente minutes.\n\nElles ne fabriquent pas nécessairement les mêmes trente minutes d'enfance.\n\nORFEO\n\nL'enfance ne se mesure pas seulement en temps occupé, mais en expériences perdues.\n\nSources\n\nJAMA Pediatrics, 28 septembre 2026.\nPsychologie Française, 2026.\nPediatric Research, 2025.\nMinistère français de la Santé, 2025-2026.\n\n#enfance #écrans #développement #neurosciences #France #pédiatrie #science #VOCEASSOCIATION | VOCE Association",
+    "page_name": "VOCE Association",
+    "robots": "noindex,noimageindex",
+    "publication_timestamp": null,
+    "timestamp_status": "not exposed by signed-out public response; do not infer from article body",
+    "media_downloaded": false
+  },
+  "reconciliation": {
+    "status": "full_text_recovered_pending_date_and_cross_platform_match",
+    "rule": "Prefer identical LinkedIn original as canonical; enrich provenance instead of creating a duplicate. Preserve materially different Facebook text separately.",
+    "connector_page_id_mismatch": "Metricool is connected to 802476986277786; verified public VOCE page is 61581153121750."
+  }
+}
