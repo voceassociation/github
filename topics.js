@@ -249,9 +249,9 @@ source:"VOCE Research comprende lavori formali sulla technoference parentale e s
 };
 
 const COMMON={
-en:{themes:"Themes",publications:"Publications",committee:"Committee",about:"About",linkedin:"LinkedIn",research:"Research",controls:"Control framework",standards:"Governance & Standards",contact:"Contact",institution:"Institution",work:"Work",ai:"AI Governance",sovereignty:"Sovereignty",legal:"Legal",privacy:"Privacy"},
-fr:{themes:"Thèmes",publications:"Publications",committee:"Comité",about:"À propos",linkedin:"LinkedIn",research:"Research",controls:"Cadre de contrôle",standards:"Gouvernance & standards",contact:"Contact",institution:"Institution",work:"Travail",ai:"Gouvernance de l’IA",sovereignty:"Souveraineté",legal:"Mentions légales",privacy:"Confidentialité"},
-it:{themes:"Temi",publications:"Pubblicazioni",committee:"Comitato",about:"Chi siamo",linkedin:"LinkedIn",research:"Research",controls:"Quadro di controllo",standards:"Governance & standard",contact:"Contatti",institution:"Istituzione",work:"Lavoro",ai:"Governance dell’IA",sovereignty:"Sovranità",legal:"Note legali",privacy:"Privacy"}
+en:{themes:"Themes",publications:"Publications",committee:"Committee",about:"About",academy:"Academy",art:"Art",linkedin:"LinkedIn",research:"Research",controls:"Control framework",standards:"Standards",contact:"Contact",institution:"Institution",work:"Work",ai:"AI Governance",sovereignty:"Sovereignty",legal:"Legal",privacy:"Privacy"},
+fr:{themes:"Thèmes",publications:"Publications",committee:"Comité",about:"À propos",academy:"Academy",art:"Art",linkedin:"LinkedIn",research:"Recherche",controls:"Cadre de contrôle",standards:"Normes",contact:"Contact",institution:"Institution",work:"Travail",ai:"Gouvernance de l’IA",sovereignty:"Souveraineté",legal:"Mentions légales",privacy:"Confidentialité"},
+it:{themes:"Temi",publications:"Pubblicazioni",committee:"Comitato",about:"Chi siamo",academy:"Academy",art:"Art",linkedin:"LinkedIn",research:"Ricerca",controls:"Quadro di controllo",standards:"Standard",contact:"Contatti",institution:"Istituzione",work:"Lavoro",ai:"Governance dell’IA",sovereignty:"Sovranità",legal:"Note legali",privacy:"Privacy"}
 };
 
 function mark(){
@@ -269,10 +269,14 @@ function renderTopic(l){
  document.title=d.title+" — VOCE";
  document.querySelectorAll("[data-lang]").forEach(b=>{b.classList.toggle("active",b.dataset.lang===l);b.setAttribute("aria-pressed",b.dataset.lang===l?"true":"false")});
  document.querySelectorAll(".voce-mark").forEach(el=>el.innerHTML=mark());
- document.querySelector("[data-nav-themes]").textContent=c.themes;
- document.querySelector("[data-nav-publications]").textContent=c.publications;
- document.querySelector("[data-nav-committee]").textContent=c.committee;
- document.querySelector("[data-nav-about]").textContent=c.about;
+ if(document.querySelector("[data-nav-themes]")) document.querySelector("[data-nav-themes]").textContent=c.themes;
+ if(document.querySelector("[data-nav-research]")) document.querySelector("[data-nav-research]").textContent=c.research;
+ if(document.querySelector("[data-nav-academy]")) document.querySelector("[data-nav-academy]").textContent=c.academy;
+ if(document.querySelector("[data-nav-standards]")) document.querySelector("[data-nav-standards]").textContent=c.standards;
+ if(document.querySelector("[data-nav-publications]")) document.querySelector("[data-nav-publications]").textContent=c.publications;
+ if(document.querySelector("[data-nav-art]")) document.querySelector("[data-nav-art]").textContent=c.art;
+ if(document.querySelector("[data-nav-committee]")) document.querySelector("[data-nav-committee]").textContent=c.committee;
+ if(document.querySelector("[data-nav-about]")) document.querySelector("[data-nav-about]").textContent=c.about;
  document.querySelector("#topic-kicker").textContent=d.kicker;
  document.querySelector("#topic-title").textContent=d.title;
  document.querySelector("#topic-deck").textContent=d.deck;
