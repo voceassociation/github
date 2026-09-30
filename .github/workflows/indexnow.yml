@@ -84,7 +84,6 @@ jobs:
           payload = {
               "host": host,
               "key": key,
-              "keyLocation": f"{origin}/{key}.txt",
               "urlList": urls,
           }
 
