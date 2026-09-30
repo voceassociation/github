@@ -34,7 +34,14 @@ route_by_id = {x['id']:x for x in routes['items']}
 records, conflicts, scan, seen = [], [], {}, {}
 new_count = 0
 for path in sorted((WORK/'raw').glob('*.json')):
-    packet = read(path); response = packet['response']; day = packet['date']
+    # Only dated Metricool packets belong to this reconciliation pass.
+    # Adobe/Facebook evidence files share the raw directory but use other schemas.
+    if not re.fullmatch(r'\\d{4}-\\d{2}-\\d{2}\\.json', path.name):
+        continue
+    packet = read(path)
+    if 'response' not in packet or 'date' not in packet:
+        continue
+    response = packet['response']; day = packet['date']
     if response.get('isError'):
         scan[day] = {'status':'retry_required'}; continue
     rows = json.loads(response['content'][0]['text'])['rows']
@@ -96,6 +103,7 @@ registry['backfill']['status'] = 'partial_connector_history_requires_linkedin_ve
 write(ROOT/'data/voce-index-registry.json',registry)
 write(WORK/'publications.json',{'source':'Metricool LinkedIn','items':records})
 write(WORK/'conflicts.json',{'items':conflicts})
+previous_checkpoint = read(WORK/'checkpoint.json') if (WORK/'checkpoint.json').exists() else {}
 checkpoint = {'schema':1,'updated_at':corpus['generated_at'],'complete':False,'window':{'from':'2026-03-01','through':'2026-09-30'},
               'daily_scans':scan,'retrieved_unique_publications':len(records),'newly_archived':new_count,
               'academy_corpus_items':len(corpus['items']),'text_conflicts':len(conflicts),
@@ -104,6 +112,8 @@ checkpoint = {'schema':1,'updated_at':corpus['generated_at'],'complete':False,'w
                         'Compare connector text against LinkedIn originals and review conflicts without overwriting.',
                         'Verify Adobe provenance with exact publication/asset evidence.',
                         'Recheck September 29–30 for connector lag.']}
+if previous_checkpoint.get('integration'):
+    checkpoint['integration'] = previous_checkpoint['integration']
 write(WORK/'checkpoint.json',checkpoint)
 
 # Extend discoverability using existing XML conventions; never replace existing canonical URLs.
