@@ -1,0 +1,2676 @@
+{
+  "items": [
+    {
+      "id": "linkedin:7476741297828040704",
+      "reason": "existing_text_differs",
+      "existing_sha256": "2829090b4b07888e2cb37cf6d57061ed8bbf0ab9849eff4e5893d2a2860ebda4",
+      "retrieved_sha256": "02c170142947df02c5a2f36541fd7357faace7f26a9a467b075e869953dcc507",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7476711103343931392",
+      "reason": "existing_text_differs",
+      "existing_sha256": "da649774c2c9091371f2475b4989f3b0de59247c1e657a79c632d7afcf1b4bcd",
+      "retrieved_sha256": "bfafa2ef147d0b7a508e3f751aa816f3dee9cac22484649e489967198cd8439e",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477103679381155841",
+      "reason": "existing_text_differs",
+      "existing_sha256": "34cddb94eabe786cd8689eacbf24c10d8b9e9a9699d999ce5ca120b5396c112b",
+      "retrieved_sha256": "1a490a8e196ae57e369dfd7eab0ad2cad1dd9642aacf3093838fbeb53e800032",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477073490072961025",
+      "reason": "existing_text_differs",
+      "existing_sha256": "85f581501bb85f0fe6e18cfa21b7ce1e984c9867394f1254fa05255822a618d8",
+      "retrieved_sha256": "083b4d7217d874e2ecc5f1b20975d02178d565d31b08c1da1c192032faf2f9aa",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477028243439804416",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ee1c42e031dfd9322bafaee51505ef41de63477f7aac9d4b0a70dc636fef63a9",
+      "retrieved_sha256": "2fd34c40ccf9da8082efb4d401ca4c14cb98fc9565ef2bfd86b3fa8ad8f6a5bb",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7476982907157319680",
+      "reason": "existing_text_differs",
+      "existing_sha256": "7e48f841908455662c26df5c3035e03026a66e0ec485b6bf79dd6458338aa858",
+      "retrieved_sha256": "4bbeb5595cab9c8137adcfb8ba4a973c7aaa759aea3340e66201c85d2333cc5c",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7476952711083667456",
+      "reason": "existing_text_differs",
+      "existing_sha256": "7dc67a277d9f98c9c3fdb1038558dd67883992792dc2aa298c33c657084349ea",
+      "retrieved_sha256": "accffe25e7b7cace975d956f80cb40fc6478db2065ce5bb1e8146133a0eea7f3",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7476937601657024512",
+      "reason": "existing_text_differs",
+      "existing_sha256": "d4dec9a01d8a308c092795d12a2106206dcf9148baab854d4a75fda6766b6cab",
+      "retrieved_sha256": "13ff73a9f74746739b90cc9fdaea9f7cc2c0150180910cc76f2c5873206e979b",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7476922503471276032",
+      "reason": "existing_text_differs",
+      "existing_sha256": "9a149bc1e3cf969578a8e066be6dcd7f968a652e4bca3f898f275a7d7845263a",
+      "retrieved_sha256": "e7f074451e7d7db2ec40fe4e9835bf0e3b2fd857bb1c8c57cc481435d078f7c8",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7476877194343030784",
+      "reason": "existing_text_differs",
+      "existing_sha256": "bc23818ee5cd498c03607ac1526ea0b4471ad171c97da9a52b25e4ca76f6d843",
+      "retrieved_sha256": "722fec2a37858045b8e23ae72061312c4c4c909234e8803b92d6acdbcb120275",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7476862091707121665",
+      "reason": "existing_text_differs",
+      "existing_sha256": "73a1ed36ccc7243ffd31f13a6c6b8f494b37bb85169343dec61459550402495c",
+      "retrieved_sha256": "2cc40ce2ae1672178c9fc05ad58de47f723ca5cd06f72b777a8ca162c42ed935",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7476847000760549376",
+      "reason": "existing_text_differs",
+      "existing_sha256": "5f1878b9880ab8176fd6bc1a8e8c289ddebe72846e4fcd1971426c4b43ba2eee",
+      "retrieved_sha256": "ffee4b1451af5a5ca34cc828c282d08f3ab39cad923506df74db55d6c248c191",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477466075257896960",
+      "reason": "existing_text_differs",
+      "existing_sha256": "3260f37739fa471ac8cb8bc41f885b3632e47e7c799366bba2ecc6ec0c7ba7f2",
+      "retrieved_sha256": "e3241f419f74a4195f6a1ed1e7cb8be199c9c598c39f739b9d43ca3643d5c688",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477435888365453312",
+      "reason": "existing_text_differs",
+      "existing_sha256": "aa36057aad761ad3cf3309c95d1fa38f8f5a1e0de912fce38bacfd6af7cce272",
+      "retrieved_sha256": "e621e2311924dfef4b0969b0ac21c095cd1afa39350a3114e86c8db6f3835ab3",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477390601068597250",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ae9edd8760b786129f392a975594a6cae06fdd88e089e59eee92632e321454b9",
+      "retrieved_sha256": "871d02b75b84e0fcb4927a38e77a9591d0a869d5ba949de33d9632eb8ab31884",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477345295891308545",
+      "reason": "existing_text_differs",
+      "existing_sha256": "17968a277a744b0413f5889f9e76272e507d56bda98ff7042a83cf88bf51bb33",
+      "retrieved_sha256": "75b12f911e61b5aa8e91b160ec98b0efb45bf1a0aa6c060fb3ae91dd6b811192",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477315114208112640",
+      "reason": "existing_text_differs",
+      "existing_sha256": "3053392d0f4957e92ededcf46e270d792ca4c873d40a67040c9476cb227a0b22",
+      "retrieved_sha256": "4dccd935197e26a3fe92a9b0186a16e0bea52c58621d79c433a1d3fcdad2c1a8",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477299995445063680",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ada55a579b1c5271cc72213abd1ae734a0727c0b3b2a038d62df94ae9dfda272",
+      "retrieved_sha256": "2e3706058af8020dbeb6e0461e408009c52d281375d8b1c839165bc25437abe5",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477284900652519426",
+      "reason": "existing_text_differs",
+      "existing_sha256": "e858dbdb7e258f99f2e0a485c72606a1bf77481341aad60a1e27e2811dd90bf8",
+      "retrieved_sha256": "54ab204ed3d0ae8a145c5705540dad7a5633d72858eaf3588bfcba23e0e604e6",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477239616262197248",
+      "reason": "existing_text_differs",
+      "existing_sha256": "640ff9a2f576943b34af3edbf45ebd96e66e28e4920e66cba6bed897b42af1e9",
+      "retrieved_sha256": "a6061bc5a84b615fd7ddee41588e45972d1136400a1a4f607c1da59c291e6f52",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477224492470087680",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ccf29b13ebca8eaaf4184a25b470a20aac3f2040e0780e2cd2ea5ac961a94dc5",
+      "retrieved_sha256": "1ae28c9882f048f05962ed0acfa6414a0c8303613b3b3e5d7722a4b052ff25f7",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477209402710806528",
+      "reason": "existing_text_differs",
+      "existing_sha256": "568f8e6e8163f0dae76a94d5fe8d3340a3128025b4c31ce5aa4b13533cdd2158",
+      "retrieved_sha256": "eca74242158a229417ad34ae42aeadd0bd5c57564c0ac72990f113ca497ff3ce",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477828462003593216",
+      "reason": "existing_text_differs",
+      "existing_sha256": "575355452341985b2d5059f3b354587e6b77b72b6d289695245960881e326e75",
+      "retrieved_sha256": "c34f479d58f396116630357d823e26bb487db76156b705823446a511282bc4c1",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477798271046983681",
+      "reason": "existing_text_differs",
+      "existing_sha256": "2b2b6780ca416dbe5efc338264a9268d5ea908fb8ecab57f2443cd234981ffe7",
+      "retrieved_sha256": "11c2f4c36aefae420bbb21c4375868fc79fe8a7552c3c441ae45d3370ca81cff",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477752991106916352",
+      "reason": "existing_text_differs",
+      "existing_sha256": "949d5745e99199f9e98cfa0ebd966e2712042f3595025c07276b4bb7944f82e5",
+      "retrieved_sha256": "5dc6a36d46fe3d7bd48c293eeebf4363af8354434d33337decb03959b77f1da6",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477707704346705922",
+      "reason": "existing_text_differs",
+      "existing_sha256": "74dfc043cfb1b6e5283ba35db28846f4c82dff875183013a0ed8c2a092b1dbba",
+      "retrieved_sha256": "da1831dd3fe88cbbae06f184d315735f1811783dafa368f3cc4b991cf25a0a97",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477677497283960833",
+      "reason": "existing_text_differs",
+      "existing_sha256": "b02281d85262f21fb9a7d8913144f0ed229c6271a7b50953a8a240aaa260a681",
+      "retrieved_sha256": "2ca475e61f1b2a0592d905325ad5d742c0886fe362e59df7402fb5d452b94182",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477662386087292928",
+      "reason": "existing_text_differs",
+      "existing_sha256": "2c9a2b4607f7d59ea03b0289a2b514d1a17373efc2a4bab1518f06a043c564b1",
+      "retrieved_sha256": "7763d7640e1b538932d6d04375d22646937323a189e84d79652c413b29d2feb8",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477647302673965056",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ab4f03f2ef9d4616d8f214415b3b48db0c1eee667898842c9cac67d81e6816e5",
+      "retrieved_sha256": "393d617ec2b2c20834f770ea9a69571f3aeeb99ea70aa4dbec13e16d45f35e01",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477602008473006080",
+      "reason": "existing_text_differs",
+      "existing_sha256": "0a16e0059e5365bc2ad9b0d8d8920f58b5bb104f6d2ecdb18ef44d48bdbce8a2",
+      "retrieved_sha256": "c5fc2d3a816cfc718136ddb328a90b12e29d6b2be659c1f95affe437eaa1ebdc",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477586882026012672",
+      "reason": "existing_text_differs",
+      "existing_sha256": "e365993b1e9865b0f3ccabb4f53e9b8802871fc559042b0dc5ab4236fd01e68f",
+      "retrieved_sha256": "cc6ab0eff864804a7c3c64f8e722e44909f638773abb04ccbc67101f63191d05",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477571776789798912",
+      "reason": "existing_text_differs",
+      "existing_sha256": "73d70e615b83b0509699a5d972ee2c3c4a220e488ba4c9b9857f7389cea727b5",
+      "retrieved_sha256": "5530d38883384dd38ba49b6ad41e99c7ec5742c2d7b628b5f25f5b67f8ac4c5d",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478190862192185346",
+      "reason": "existing_text_differs",
+      "existing_sha256": "60be3be068f468ffde0f16c5ba41fde3c90e6bf757d92a973971d775e21d9ec5",
+      "retrieved_sha256": "ff62a8de8520914ffdebcae30a0e045087077107362940bae1f25855e7630156",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478160729896882176",
+      "reason": "existing_text_differs",
+      "existing_sha256": "4b2c0401e310cc5b8c86da0f93cad2283b5839b4187a32d37d5a08a367ab7e6b",
+      "retrieved_sha256": "92be591a7ac60b792adc4ef36fda9e94ea697ff9a2de99f8d01d092a891fa0b8",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478115416096092162",
+      "reason": "existing_text_differs",
+      "existing_sha256": "5bf1448721307a2722e9688cc7801d788e7af952334c677b8e84736f305efb13",
+      "retrieved_sha256": "50ecfc2fb90fdfe29685d36e50dc70ee4b10f7a62533eb021b42b97da5227e15",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478070100248596480",
+      "reason": "existing_text_differs",
+      "existing_sha256": "cfa86d66f925be7945ddd05521eac31fd6e132ba6f08797727c10da32a4d37ac",
+      "retrieved_sha256": "44d19c3190378100c44455871fa4640bcc4f10a1044c9932835983ef614e75b5",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478039898390929408",
+      "reason": "existing_text_differs",
+      "existing_sha256": "d70ce8f108e298d1adb7d43c3b12b5d9fbf06516accfd2ec7c7d65882aee869f",
+      "retrieved_sha256": "cf8cdbfa23a1c40488fb4827fe052cadb3536132edbd4decebce9ad62ec91852",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478024781230084097",
+      "reason": "existing_text_differs",
+      "existing_sha256": "3c7e5a726dbc020d889319cabfea7e3b2525602430ea9433bcbabfe9d4f0dc1e",
+      "retrieved_sha256": "9a9a4f9f2e075f494cc7823e4bf90a4d97334cd013de2025acb1a5c87cfd9049",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478009688052350977",
+      "reason": "existing_text_differs",
+      "existing_sha256": "4a7872e2c99b6492fdf08d59b317e2424150c02bb8cf81321b91a6b1c0515943",
+      "retrieved_sha256": "13ddfadc13ff769999a6f07bc923d8dd04b4f7dc30b8e40b8dcd0f87936be7c9",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477964370254401537",
+      "reason": "existing_text_differs",
+      "existing_sha256": "7e7df9c5bde0496a8588dc905d69f9a98abe55b442743211089cce243c4ad78d",
+      "retrieved_sha256": "bde56a82bcf1230e5928cb7a56cbac64c9e3aed0a9292a18163b4763889ab7f3",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7477949275826724864",
+      "reason": "existing_text_differs",
+      "existing_sha256": "57d07be156a66b61469cd93b0ec536762b5069910267d20ccbe88f11b57605e4",
+      "retrieved_sha256": "1e8eb149796d6f47c8a59ebfb3d00b0c5df6e2293b1d6a783af7bb37477736fb",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7477934174973132800",
+      "reason": "existing_text_differs",
+      "existing_sha256": "4f345e096127b904cbf482cf3b1e13c82b74c6585027d32343bcb6a37720f849",
+      "retrieved_sha256": "0c3959e096aa197e4f57ec5ff9d966a77a0b12a17fc4e7ffc44fbfeeb0e7cdd7",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478553247264305152",
+      "reason": "existing_text_differs",
+      "existing_sha256": "0ce33644beda784ab354376d8d66efab04a6b77e3901bcdda1b460c204104c23",
+      "retrieved_sha256": "439337b6c848f81e867d88e9ea568d0c6c0efa3aa6f385a6c3626be4314a1d28",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478523049575784448",
+      "reason": "existing_text_differs",
+      "existing_sha256": "9dd7ef1b2e968eaf5c04021113e21b4ca99a806a1b552983dcfd99ab122e77e1",
+      "retrieved_sha256": "437af006ce34c1474e5226776c843e57c8c5b5adc3782798cb3492a84168f2d1",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478477784558858241",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ad55ec4b3f5d90ae9bf4d7ee6915a4cfde620947963ef50f70c3f12761961f45",
+      "retrieved_sha256": "bc3ff8bfd6579fa901c03e27ddcc17d81007d50ed62b0cd5d57cce87b3f27892",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478432459509018624",
+      "reason": "existing_text_differs",
+      "existing_sha256": "c34e0c1c0db5e5668802866e89e201cfd7f5828622609d8f6c9ca3e687cb1bfe",
+      "retrieved_sha256": "10ea199f2c98bf2afbced729f765a69e6a2745532523e5b4483112894d7ec6d5",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478402257382948864",
+      "reason": "existing_text_differs",
+      "existing_sha256": "fc792258e06c0443ea12284ad82f8c0fc7a8d9675f5c593ced06a38ac588fc84",
+      "retrieved_sha256": "9a6b120af3486de5da3a21c322e2ff7d7102d602ccd08bfe76245fb5c8149a27",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478387191182958592",
+      "reason": "existing_text_differs",
+      "existing_sha256": "936d2abd7fb2f52d2c08c0fce6a55231d2984ddc0c32c4f9d08d975762d271cb",
+      "retrieved_sha256": "ad7fc88d550523134bb0761fd9e0d85aee534c42ad312cdf4389d3f949b6e531",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478372122780831746",
+      "reason": "existing_text_differs",
+      "existing_sha256": "1156568999fdcf0dd884a916838c49cec375ac4e34fb02943e699f072e7f4bed",
+      "retrieved_sha256": "4a854afb881f68e7f0a2eb964b97b04a8b43b40b760f0e16b7bc0aeb51ee58f0",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478341892624072704",
+      "reason": "existing_text_differs",
+      "existing_sha256": "7b008d8703d133b546c672ce8f02577a4cb92cd1de371af23023548aed00e8f5",
+      "retrieved_sha256": "8b9eec9273417c282aacffb9881757c5c2acc94eac23ad6c1d93ad982cc7d0f5",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478326756215717888",
+      "reason": "existing_text_differs",
+      "existing_sha256": "a50d6a888f58ae999d9015c437bd2b8c72eb0fc06f0981a29a179a39b849a1c1",
+      "retrieved_sha256": "96e70b038449deada89c1b68a1898c138f478f85194da2c4f3cb1d881a34e67a",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7478311650975068175",
+      "reason": "existing_text_differs",
+      "existing_sha256": "1b324b9af1da1e56b9f9c5fcb66b05c472458574c97a993ade3f531471ea0c20",
+      "retrieved_sha256": "4c4bd89d326d5445ccc697d8a851419260e4acaa6f61438fd767c14cdb7f837c",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478296553502347264",
+      "reason": "existing_text_differs",
+      "existing_sha256": "10cd55c93ec96e03b0d7724fcfd531d346050e068629b335b94b2e1e516ab620",
+      "retrieved_sha256": "8c253e439a010f547e449db9286dbe5895323caeec6e0cafbf52449be0690fc7",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478915631170555904",
+      "reason": "existing_text_differs",
+      "existing_sha256": "74100f11c17204b5bb87f278c25d1d28569116a74bc98952a1ac346d74d54d95",
+      "retrieved_sha256": "defbc3a836a4d21fa6b810f4ff7a5a8d6fb85d9f8e58876d6c3d39090dd296b9",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478885468806488064",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ed0f92cde0f090f070007d7cc6d0995907c4e6d03447d4d70ca030c3e9117e71",
+      "retrieved_sha256": "03ac1cc535b0aa8bf7d39405fea692606ca370f8aafb015ba554a7d59f5ed166",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478840129931997185",
+      "reason": "existing_text_differs",
+      "existing_sha256": "649f64cef08f87be16c9dfb0ddd81936afb24ead2bd2da3eed3100cc545b8c15",
+      "retrieved_sha256": "50280583234fe1c222c1a7cb41cf52b3d53b08b1c22536b298fcd1c7062929e6",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478794851837358080",
+      "reason": "existing_text_differs",
+      "existing_sha256": "63e86edbe7c6b57a957a3a2eee1c38fb629a3e0438f4bff4f6df8431e74a7ac4",
+      "retrieved_sha256": "c0055ad85efeae71e1f51ea5433d2714309d4b5eea7ed673c9ab4bbe131196e5",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478764660717080578",
+      "reason": "existing_text_differs",
+      "existing_sha256": "53e6899e4dd5ec8e87f2ddeb74cce54128fb4d4aca74f889a215fb165ec9d9b9",
+      "retrieved_sha256": "b90f1e17a31740f9f3d8a1623b68b4b5617150d43051c45a5f17b84744813a4b",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478749572434071552",
+      "reason": "existing_text_differs",
+      "existing_sha256": "c09ae088dbbe59f16b21f766353f3a2797e1e3e5e9975a4746640fe4eb78374c",
+      "retrieved_sha256": "893a17d992c349a997d71e160da88eb5832b1eba7d4fe548b6af846dc66ce67a",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478734475271720961",
+      "reason": "existing_text_differs",
+      "existing_sha256": "b3c7cea98aff97dc1f8947489ef60073526599a51da0be1a5cdffdeb12c53b1d",
+      "retrieved_sha256": "da2f499de6c41938947692ec29a7a316b3aabe1d8340451f119c8b5f7499ef14",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478704266912899072",
+      "reason": "existing_text_differs",
+      "existing_sha256": "3bbbc28903ee2afda594cf69f1e30498a7f5199a2b1d1d61bdef7fb96b5ff1fb",
+      "retrieved_sha256": "e7e99bcdb9caee0bab5f864f98933f678515e938b8cacc4c98d68cdffa5c94e6",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478689178877214720",
+      "reason": "existing_text_differs",
+      "existing_sha256": "eaf385649741c468b913e0b910264a7880ac6fa22f1a7567395a9601fa28d3b1",
+      "retrieved_sha256": "ab4d9f6ce5750e90a3c469654e47c4c78773b0b68bda48b5bde32871abaae6ed",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478674060625936384",
+      "reason": "existing_text_differs",
+      "existing_sha256": "99f8a7e48c72f699bc0b9b2f90c0913179f016241d712f6ba543c73ac8fab67b",
+      "retrieved_sha256": "49d29d93366a75be7c735a0ec02961f372cfb3bb49955f613c4b8e2927890aa5",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7478658946598244352",
+      "reason": "existing_text_differs",
+      "existing_sha256": "7b45061699c123708048f005e8fe8c6e2ac5c92fb16b68ffb8e9d3b368cf2d89",
+      "retrieved_sha256": "6331388e5d0cb0ce36abd0010de38acf8d092831490d4ff01ca42993d83f186e",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479278047653888000",
+      "reason": "existing_text_differs",
+      "existing_sha256": "e7b6ea538de0b99be90df07319f5e2941073815f9f383fd0aa5518fb0a8bd98f",
+      "retrieved_sha256": "c866d6924164011be49de164f5c74410a998462dd23ecb1c8f8e8c86303b1c78",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479247808634531840",
+      "reason": "existing_text_differs",
+      "existing_sha256": "5428c1ac62585b228dd0423541bf5ba96925d10f1f11705ac6c882037b3b6aac",
+      "retrieved_sha256": "2aa5e163b561dbf60aac0351c95ac0ef20a2691d2a71efdb18f16cca92107704",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479202551679234048",
+      "reason": "existing_text_differs",
+      "existing_sha256": "936a94feffda05795b67bb67a53ae211425352a283243b81515f2dee700551d6",
+      "retrieved_sha256": "f71e486d7bcb13cea2c00e31fd61a9f0a6840e9be317d14043b2db4624d8ea48",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479157245939847168",
+      "reason": "existing_text_differs",
+      "existing_sha256": "7ad793116c6feb2f281a2e47fae8de7a3e5eba5ac7e0af79cce4ac230829d7d1",
+      "retrieved_sha256": "45b1d02724acda2fb1f8422ac0ec4dacdc4f52510b7fb2ea9969bde394afc65b",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479127058036633600",
+      "reason": "existing_text_differs",
+      "existing_sha256": "59cd010177e5f227f3038891036c03480b9b45ac8d932a6a2bee2447d2669934",
+      "retrieved_sha256": "b8e8cfcb78e07bb7da61af224447a84996c034d4dc9c0d26c8925d4ff4325ea6",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479111928766771200",
+      "reason": "existing_text_differs",
+      "existing_sha256": "b8219fc2c879879aa774f5c292340e695f182a23302ed4976927a98105a01ef6",
+      "retrieved_sha256": "bd308fb5f0d40998fffb278ef3e5720afa9617b669140687d05b435d16d24f78",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479096841331204097",
+      "reason": "existing_text_differs",
+      "existing_sha256": "18634d715cceecf8229a904c4e71a5eb2a334ec774cba0f01f31eb63995e64ea",
+      "retrieved_sha256": "a33ddf642871df7daa78edf72c525d5c3876be07f8a93a37628e478835e31fab",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479066635916627968",
+      "reason": "existing_text_differs",
+      "existing_sha256": "3423f03d2add9bcef23ca0697536123005637e69cfa4dafc7be1934084ba941b",
+      "retrieved_sha256": "cfe1a40fdf49082d741979448a05f859b650f913a620ddb5cbffcb09e5a761e9",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7479051527903584256",
+      "reason": "existing_text_differs",
+      "existing_sha256": "be7be203e54f79b771131333038ffa756a5e65d3f9a583007d1db36be82d2014",
+      "retrieved_sha256": "d4ca9d3d7d1611951da4eb7a4a01b5896b1da6a37f40fe2f2ca7dbec9a3b5af0",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479036417680060416",
+      "reason": "existing_text_differs",
+      "existing_sha256": "bf9e4ca47053ec6dccc457e8e5338a18cdac6acd920dc0f7c2b79c53f48d08f6",
+      "retrieved_sha256": "f38376bef50a5ce3d05e5ef61017107cb02aa236687117b4c0b6680a464a6362",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479021356949434368",
+      "reason": "existing_text_differs",
+      "existing_sha256": "4e9f65d2934a5532e9953f32968cb893f29cba707d78accb2699ee2ed09a596d",
+      "retrieved_sha256": "13562f5f263dfe5d6de0cf09e854c0fafce452f0805a84634639790a20315c66",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479640425100709889",
+      "reason": "existing_text_differs",
+      "existing_sha256": "cc44ba984c72eff3976b7ef90a6800dbdf4de03d2cb4e2f496d03b0c0698195f",
+      "retrieved_sha256": "bea522dc2e2a1821f8190083952f4bbec8532b342e77338c9fad8daad62bd424",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479610218578939904",
+      "reason": "existing_text_differs",
+      "existing_sha256": "457f62c917d8179ba966f59a236a68677245228ded8a3503a7ee1fdc0bb7641d",
+      "retrieved_sha256": "69767340a4a155795819dcfb1136c6105c60395973a4542831aee8296abdc0a9",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479580026083028992",
+      "reason": "existing_text_differs",
+      "existing_sha256": "5edeb35e5d3665ffb02f268aa5846960995ce80c907a851d4c923b60cb126b6d",
+      "retrieved_sha256": "151c8bc4c45bd39451bdc64c4b1710d559bdb4c87e1d77219b7082073e6e444a",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479564925003223041",
+      "reason": "existing_text_differs",
+      "existing_sha256": "86d61b6b7118031af0c47205e65e3075af9db2f2431cdb16d933288e7f77fc28",
+      "retrieved_sha256": "597de0fc0a78eedecc7079e16c8d894da0d5c9d87d0146947582ac66e3180625",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479519642890461185",
+      "reason": "existing_text_differs",
+      "existing_sha256": "5e31d77f22ed51e9c4db2158bd081b96ca5a1f1b695e3c791ad50da1d0175444",
+      "retrieved_sha256": "88c6d46d8eb9b3f31bc376732eb3e2e80558714926223ec80948ae19f71cf4ac",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479489415531237376",
+      "reason": "existing_text_differs",
+      "existing_sha256": "bcdf43a379dc6b9c85515540efc5bf0363d18649c52155812ee2e76b1ebebb67",
+      "retrieved_sha256": "f9af2d99581d830174c8fd33876c8e18e5bfab36b5b44d8d5897023135bc8267",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479474344524509188",
+      "reason": "existing_text_differs",
+      "existing_sha256": "73818ca7548a32e16f6e142e37d3137d870a71231cccd1c5c629ed550f4ac4d3",
+      "retrieved_sha256": "0c622ff0798e6ebc7e1f7b87be67e821cfac688abab05d3f1f0255ac6d2e212f",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479459234582192128",
+      "reason": "existing_text_differs",
+      "existing_sha256": "b47922e6dabb492c29499701111722b13c63c10c4e2d6d397eb5149bc8b1ddbe",
+      "retrieved_sha256": "17d6ebbd38848bd97be6b5ad21eab1deddd8cbcb56ff96c14664d76d619c3004",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479429014240096256",
+      "reason": "existing_text_differs",
+      "existing_sha256": "d7a71ba01fafb688ebdcd63665752836fc5e24298c3905deab68c4f70a89c9df",
+      "retrieved_sha256": "cf780657dd16920f3608d72df99ec631ad4f92a3a8932063a762ef1b063ea64e",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479413902250967040",
+      "reason": "existing_text_differs",
+      "existing_sha256": "e652fa80bb2b3de5676d680d7f47d2866a59cbbadcbc30afeb1545b1b9f17407",
+      "retrieved_sha256": "73f7b82073e1a051e97e9dd61d5d7730b7bf5b1891e0b2b6e1945dd022496a0d",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479398824965283841",
+      "reason": "existing_text_differs",
+      "existing_sha256": "da06ecb011eb9bf13a424e74a734b16c63dd273102e236677965c1c6e6afd942",
+      "retrieved_sha256": "24a1337c1dede53aef0da2819af36afbf2458ce01d69df948ff5d003bfe1c603",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479383707456475136",
+      "reason": "existing_text_differs",
+      "existing_sha256": "debd8c9c60717c6ea862de21482db174421304311ef201a44b1fe85dbdedc1c4",
+      "retrieved_sha256": "5988b9d0d198d6385c11da04c271dc8cc83e34e5d1943da785267f8302d47765",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480002794649858048",
+      "reason": "existing_text_differs",
+      "existing_sha256": "a2ffecebcbcb7e222a4df301d5eeff7725f8b4345a685f0a6ab082cb618e0bff",
+      "retrieved_sha256": "a60e23c84d77068b54cc116bae5cb75df563ea20d13ee8975e4c1caef2eb1ce9",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479972598299377664",
+      "reason": "existing_text_differs",
+      "existing_sha256": "9052650c99c970ed0dc08e1d0179cdb99f332fe029c0bf476df3d70d7db53f1a",
+      "retrieved_sha256": "161616600e2a9e05b308ef81187865dccbbc85b9dc27b3fcbf84df56e25b6b16",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479942425843531776",
+      "reason": "existing_text_differs",
+      "existing_sha256": "434c66d67ee0b3fad0c381cbd66b72c3843240367f07108339cea7a1ca4db2c4",
+      "retrieved_sha256": "378c22a22567a8f479baa17e51be7456f7b7f250dd38dfce00f7f482e398d75c",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479927350806269952",
+      "reason": "existing_text_differs",
+      "existing_sha256": "754ecb67fbc68a86c888fce957dcf38c3380f06596c26a0257e91dab2da1764c",
+      "retrieved_sha256": "8238255d4072d9e472fea99becce61ed0a9aa3f76dc1ac7761a4e907798ba304",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479882039597400064",
+      "reason": "existing_text_differs",
+      "existing_sha256": "0aea1736f9a795fb61820e7b5791951f57e483a38b37b65a35f948e457d6a82c",
+      "retrieved_sha256": "1e9acb0ccdb7046677dc126a8c400f8bda4d14cf97dc6f22425b93c3e1704e90",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479851816457932800",
+      "reason": "existing_text_differs",
+      "existing_sha256": "e15b473aa6f0c0d7abe412c5d593b5f2ce69d481278fae12f0670d7f1b08099c",
+      "retrieved_sha256": "540a575dd9683f6aca5f4b3d5653a2c695c16c1b9eb48413a5abd19a960b1baa",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479836730079223808",
+      "reason": "existing_text_differs",
+      "existing_sha256": "6b5bd1ec78979501033c72f647a206a34bd6b012a34c64d0a9537beccbe2f8bd",
+      "retrieved_sha256": "7b403df8e50635417fb7e85c4081cdf1eef7ee61b13666d68eb28b11eb89890c",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479821616760324100",
+      "reason": "existing_text_differs",
+      "existing_sha256": "287d53b984ea045af0c309be9fb3733510a99ce4b8a251739ded59838060c2dc",
+      "retrieved_sha256": "3ea2c4ca453dc4a780b702ff1aa6e3b72bc7faee81b5505750f93fd61949b681",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479776326493736961",
+      "reason": "existing_text_differs",
+      "existing_sha256": "dc00bd360f85f353134cc452b97a13733f3c350a5981d646d4aa9d2f69ea198b",
+      "retrieved_sha256": "7ac6dfad77dab712e16881786c593d4473bf7931b38bf076d63f393e3e485371",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479761200260526080",
+      "reason": "existing_text_differs",
+      "existing_sha256": "8e4f4391cf1d5d51def9a391ada7d28935f0cb62b95c7ae1bb07a9d44c3c9c50",
+      "retrieved_sha256": "63eb3fda0e5159671ce00d68135c9228faf2e9ce7d316737addca7d64924a5ab",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7479746094638276608",
+      "reason": "existing_text_differs",
+      "existing_sha256": "c5f51f7739a5119eefd556be1861c06217e50cb321b3baccd41d144dbd3bf5a1",
+      "retrieved_sha256": "7a08156045ed97e8daebdf265ba5ea076005025a0e36edf799e8f1363a51661c",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480365200748052480",
+      "reason": "existing_text_differs",
+      "existing_sha256": "be5df5d9b943509a922e1817b5921301d7581ba048e0cc6730635eb4456cba04",
+      "retrieved_sha256": "77ab4767878dcb8771181b8b31f1dbccc9daf05eef6baafd52ab60847d213d8c",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480335008247836672",
+      "reason": "existing_text_differs",
+      "existing_sha256": "a9e7594d0adc1ca27a503eefb47e67fb364e78810cd2174bb6ecad2d3231917b",
+      "retrieved_sha256": "a7f82f6017ecae96dfd887d97d254f8e34c7926485134eec278fe255bbe7ef14",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480304812367093761",
+      "reason": "existing_text_differs",
+      "existing_sha256": "749f6372405b48f888f795c830264d93cfae5dcd46fe7f5d29e6b925cff2c247",
+      "retrieved_sha256": "02523ac98f559e2ae654fa231cfe280f02c7a82d3aa9f1a52f62f60fd534fcd8",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480289702332411904",
+      "reason": "existing_text_differs",
+      "existing_sha256": "beb391266e45f94cba65ca15893324e594b8a066d07576625fb3840a0c83086f",
+      "retrieved_sha256": "27387c8af1c94f8b35b1cc57babd4c936ea782c50a0cc5b378c31bfa785e1909",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480274629886947328",
+      "reason": "existing_text_differs",
+      "existing_sha256": "3332c19fd078fad8acd627b7047ea61b5e2b74a6ff149fa632dc24c51550a73e",
+      "retrieved_sha256": "b21778a1295c61c156e84b08345315f4693a6fbb3f97e19b08fe4fe0d54fc516",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480244417019326464",
+      "reason": "existing_text_differs",
+      "existing_sha256": "eb929e946e57c2ad1daa308a0c731fef37b52dadaaab2e33c2ad952e6caf4634",
+      "retrieved_sha256": "cd5e9f036dc9ccfc64e1fd37420197f7273efbadca1c6b67be7f1fd21b3d7759",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480214220802928641",
+      "reason": "existing_text_differs",
+      "existing_sha256": "fbc1fd74a5a969c8b36d7771a590eaa5593dd50bab15f3604c0759eae101ce54",
+      "retrieved_sha256": "e57020d1d444d01f56c1d83f76b30a08475f50344936635ba58dec08bcf2b4cd",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480199088492396545",
+      "reason": "existing_text_differs",
+      "existing_sha256": "a8132635c57916529ecee0feefed5b63b9a6f106bc8d06846685ab4752106302",
+      "retrieved_sha256": "bebc0002d51db26b0a9f8bb25a827dd81b99a24a24ecf84939f66fdd198c1b5b",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7480184007922626561",
+      "reason": "existing_text_differs",
+      "existing_sha256": "abf393bdbfb4dfd0b5a84a9a02f5f0e02666ed158d82ee739fc8edfbc214c08b",
+      "retrieved_sha256": "d7673aac86f779e8418a39c5ec355cb6402303de7e78eb96c74fab0604e21fab",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480153817821552640",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ddc45e6a4192712b83347d03eed8d1d676534ce2247146c03c495e284a1584ed",
+      "retrieved_sha256": "211b85500f049cde1ef7413aab6e09cefdfd3d2f35f96a1aa4665867ddcf71cf",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480138729538428930",
+      "reason": "existing_text_differs",
+      "existing_sha256": "e52d3622c7276d6bc73d681fc94e434da8f1ed54690c85a5c3adfb02b69f472d",
+      "retrieved_sha256": "84e178363720f4b71b7f1566c94cdc2c61f042a851708d73dc4b5f835206b37c",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480123614961434624",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ff322141df8e62a2465b6547030027467dbf0f2cefaf414e416fac6f86488d7a",
+      "retrieved_sha256": "6134c0c56a06b3f0cc4dcc18ac6af23190a0a2dbb5fd25d2766fa5d8189050a8",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480108487960768512",
+      "reason": "existing_text_differs",
+      "existing_sha256": "5ba59e4d8953de65b834bbbe54a2cf7d0559047cc1e7fb02ee686c30c2f825c7",
+      "retrieved_sha256": "1f775f74af03a80a043ed7a9143ae4e5dd7ee4be92e177cd1e50ecb820f24de1",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480727585769893888",
+      "reason": "existing_text_differs",
+      "existing_sha256": "37b7269a06813f5fedc2204462aeff68c2e170497aa396a4eb4e0b509bf97cbd",
+      "retrieved_sha256": "e29b0adb730f4da5863cf302bc566e686e7c9daf7eb81754f81e602d900a6734",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480697415109419008",
+      "reason": "existing_text_differs",
+      "existing_sha256": "a1dd2f7ea7b94f7251c8bc5782453099a52dbcac6670541f90395bc5b785b341",
+      "retrieved_sha256": "1bf13705e3024935977b98925b8a4178273569060630bfef1d62d0cefc8703e7",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480667201289723904",
+      "reason": "existing_text_differs",
+      "existing_sha256": "a14dc9c6835566c7777985c9e94c43563056364d7e3b98b849a78037fddca480",
+      "retrieved_sha256": "4fecbd46855514bea0ab138d8acb3ebc8a51b9cd0e020cad7e4a9714b57a97e2",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480652090172956673",
+      "reason": "existing_text_differs",
+      "existing_sha256": "106e897446ce31e60a8fbed893f4c35c091e0908a89023b6c775316d9d1523ce",
+      "retrieved_sha256": "3cd7bf88979f95ae920dc5ba5bcd2026169cf927c8d95824d48a243f3fdfe734",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480606837378220032",
+      "reason": "existing_text_differs",
+      "existing_sha256": "b8c5b21cf3a15b2aab380908206dadb9159e353d2d71702512b50389cdb0a872",
+      "retrieved_sha256": "4e57b0bd9c31c902417b37a69ba2b117a92eecbe1c49d830cf1af949bdd651ba",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480576595515142144",
+      "reason": "existing_text_differs",
+      "existing_sha256": "d6f156c06b6f88b0cb092dad97f4d062a2cc6c398e84fb7c39835e5536485f24",
+      "retrieved_sha256": "31f97aefbdb6ebad7f5e6ab2b97352bc041e644fde44f4ec30d71e30e1b6c16b",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480561502039744512",
+      "reason": "existing_text_differs",
+      "existing_sha256": "94bf3e0ca0d106e2f8d0f32f862bc4f4ebfef5fac2c89377754ee7cd69aaeed9",
+      "retrieved_sha256": "6c1b78a0b8f3e9883fef9569d8318c83f605af1a114a1fe7e00f0769a64de01e",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7480546371595522049",
+      "reason": "existing_text_differs",
+      "existing_sha256": "da54a44da4cb0ddc212bd9687aea883c73ba7a247c19e956a82c7ea52b24196c",
+      "retrieved_sha256": "eb6a76bc6071730339773564daa1f28130443f9bac63211eb565408a5c6a404c",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480501090464137217",
+      "reason": "existing_text_differs",
+      "existing_sha256": "8fbf9d604553e233acc1a84ee4a712375039b41cf45d0623c2a60c1a6dba7c66",
+      "retrieved_sha256": "2124e0234dcbc37f6a25403d87cf50577bb782fb42a2f6aba34207fd2ef6e779",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480485997303136256",
+      "reason": "existing_text_differs",
+      "existing_sha256": "df5e1a1de7412a3a765df7537e8c8fc49508160e1a9d57b0056ff26501f0815b",
+      "retrieved_sha256": "e281803a9a903a0e5195eef6a7efa3e5ba637d3f5376a55458fb14bb64ac5f91",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480470885863378944",
+      "reason": "existing_text_differs",
+      "existing_sha256": "080f9711e74d52bc4f57d03116ae6dd1f86b6b4c4a9f91a794267897a1b0f60f",
+      "retrieved_sha256": "53362addeb8cab69e1264b4d433a4920b6087cdbf1de3ed05d7badd6e7d7c405",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7481089954773725184",
+      "reason": "existing_text_differs",
+      "existing_sha256": "494bf41f32b49c90226db3714d7c5e55ae345290bd56f706f92e166a970b1b01",
+      "retrieved_sha256": "1ff0b57f26deeeaecd64ad81541ecc34bb7d340030211ac5311ffccc8ea90feb",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481029592078598144",
+      "reason": "existing_text_differs",
+      "existing_sha256": "2d6530fec3e203880d498414ea767e7bc72c1d027dc809d6d9dc86e1c050d2e6",
+      "retrieved_sha256": "c90b11f7d1a28becdd4716126f1ef9f92664e8b6c089e74a0bd17c1c2357f9d5",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481014505200754688",
+      "reason": "existing_text_differs",
+      "existing_sha256": "9598d20def6e23caa7a6d2371aa16442b86fbe536f6b1e5e82d1e4e87fab90cf",
+      "retrieved_sha256": "d880a260c2e63beb6120457034aa27a5100e06941b51a4dd32c5f47096a5eac9",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480969219942309888",
+      "reason": "existing_text_differs",
+      "existing_sha256": "abcf09d241c9a76a96d674df15ad695067613daa078b69f595645449b4a026a1",
+      "retrieved_sha256": "a044edd6cd75b5b5364832287639e4776061ca631e29cd0b00b59c680ae21a5c",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480939034823831552",
+      "reason": "existing_text_differs",
+      "existing_sha256": "b1cc8ca4810e97437ba69f6c5992f3c34d17de48c9fd110c275a57c25cc10567",
+      "retrieved_sha256": "342ca2bbf4cf271fef167664083dafa421b3ed1c0b82fb077ea7d6090b36dea4",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480923900009390080",
+      "reason": "existing_text_differs",
+      "existing_sha256": "8b206e4d6bfd80b195d02109a576705bd471a7fe3a3e761a1ce8d1f8870fa0c8",
+      "retrieved_sha256": "d08cafb448e04d02c273c12d487fb46b6ac692bf0aaa051365458222447195c6",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480908779484647424",
+      "reason": "existing_text_differs",
+      "existing_sha256": "facc1412097de65cd87c4d6d58291a888eba8eee8b5bcb20406c74168ba4adda",
+      "retrieved_sha256": "4983c3447ed00a9bc3287f7faae9115c39e717c7869b1e5d5c58406a083c3390",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480878596312702976",
+      "reason": "existing_text_differs",
+      "existing_sha256": "88051002ef4a1b425f6a1ab586fc55e9107f19239caf3a17f57e847255668015",
+      "retrieved_sha256": "157aaf5e0687bac54d321550e26132f386d369cc10437999b4d131d3c105a360",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7480863477234872320",
+      "reason": "existing_text_differs",
+      "existing_sha256": "d61466098d30200cec1c13fc4ef1f74218acedbb27ac5b7abc7aa6d5ae0c045d",
+      "retrieved_sha256": "d96ea42341ff5bf352e955df825b12b8b39c17a5c143b5be00764a3fa995d839",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7480848366122299392",
+      "reason": "existing_text_differs",
+      "existing_sha256": "af97116e43a34f2ed97fbe8782c672edbeb1a72373312042935a6cd29c5b1582",
+      "retrieved_sha256": "ae9e8713b382391fb0fec2a749d261ddc7601a595360682251fbf2b660a5e432",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7480833260890234880",
+      "reason": "existing_text_differs",
+      "existing_sha256": "5dfe4e3152c6379087c370f65ae16515d625918ecf53a21f9947a9eaac3f8046",
+      "retrieved_sha256": "cb41fc1f7090d72b9fcffdb11aab2229087fe5dd02d492a3d410dfe352ae2dca",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7481452360846852096",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ce7a1cd8d131067cf0078eaddbb804d0f0b14e83027d427129aa9c79ebec16ca",
+      "retrieved_sha256": "ec624e551d41ea844b9bbd8235f4058e3c6f0c1902175bce32a32840b6acb2a9",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481422156514578432",
+      "reason": "existing_text_differs",
+      "existing_sha256": "f56191779c3e3687636ffda764232b1d072a46283a705759ac1f36636afe9426",
+      "retrieved_sha256": "5528624c1e453e375156c46fa095a9ba77cead297c7e6287b7d4291b265b0693",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481392011774758912",
+      "reason": "existing_text_differs",
+      "existing_sha256": "f9ca162d5d6d96ddddb2cdd6085557f743349692f6a67e39cec6c5d8de76a45f",
+      "retrieved_sha256": "2c477ae1a01bbe89e4240862d85125eacc8d6e6ffd580c9ee4cadaac888c13b8",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481376873306984449",
+      "reason": "existing_text_differs",
+      "existing_sha256": "89383d93bec91c153a634626d27d955db7a23eaeb95c85425d8d08c1b74b2c34",
+      "retrieved_sha256": "14e874326994e8fca5efb397c84b91f478d01f803554c37a62d7a51ef504d13d",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481331570012966912",
+      "reason": "existing_text_differs",
+      "existing_sha256": "b48af5ea9df318d44b57c9b420cc6db7a9fa3c74f8a1628f5274ead5d8d28a18",
+      "retrieved_sha256": "78e881adfb0c6670cf15a8724164d56f63ff3884be4e1e80c1d3dffb655f51fe",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481301378112507904",
+      "reason": "existing_text_differs",
+      "existing_sha256": "eeccb3ce4dd038818435191fd2cda1b11d9f37cfb7c21105af533e88e941e6de",
+      "retrieved_sha256": "ed3112a50d7297dcd8c46dad7f9f2c590444d8fc7a8b4a1473b104fdb85cdaa1",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481286284016230400",
+      "reason": "existing_text_differs",
+      "existing_sha256": "52378a3a56533362619d2ac5dbc1857b8c3eee655e162c2253e20cc6f7e6680a",
+      "retrieved_sha256": "ffd2e083ced396d5c1ae19b0f45a0853cede755a9ef1187a2ee029a289d8f48e",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481271176518995968",
+      "reason": "existing_text_differs",
+      "existing_sha256": "401a60a204f7908723825267e6574b1a7c81c6acb76c670cd8c47351819427fe",
+      "retrieved_sha256": "21f7c98bd8f2d77bca79ed7a39fea2985a45d8ae9f56232febfd8f0ec21a66eb",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481240973579169792",
+      "reason": "existing_text_differs",
+      "existing_sha256": "09b7e2875000fc1a70fdd034f532ab8391ec9709cc1c4385b40d4eae479ead71",
+      "retrieved_sha256": "2d29bb74908cda67d72a70f481851f4417e7ea95b6abea9f70717af22f3657ec",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7481225865884930048",
+      "reason": "existing_text_differs",
+      "existing_sha256": "471a7ab5f42a0ae1aaabe13de9eff510b30827b76156caa904c3807996760698",
+      "retrieved_sha256": "4fb6ea332dc802ef83a2311e8795466dbad4cda79054a83d2d7813c5c37145c9",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481210771541045248",
+      "reason": "existing_text_differs",
+      "existing_sha256": "4d17fa77f35e7d7003eb7070689fa412b115b6627dc6a0679170ec9a92c3fb75",
+      "retrieved_sha256": "5a6459da7b7a138b1e8e18d5c6c6bd7f3b3d3d42cb2b483fa4d1f1bd5d3db7fc",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481195663393902592",
+      "reason": "existing_text_differs",
+      "existing_sha256": "c893f4b457ef104ac807b268b53e5e8563e952214d1cc6f7cbc6cdd6da50b252",
+      "retrieved_sha256": "1ab56ae143881b43896c27d66afc724cbd1471c74b96ec630f7b27ed7db75d16",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481814738381778944",
+      "reason": "existing_text_differs",
+      "existing_sha256": "03f650c6acd320ac16009bdf72c26a063e255fd5488e07b7c31cee877cf48743",
+      "retrieved_sha256": "dfdc6f8fafb4962ed46eb600c5e949dea7d52df9acac82cc4e58f75e7f9701c0",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481784527561048064",
+      "reason": "existing_text_differs",
+      "existing_sha256": "9da98cc7ce6f816ead0418d988208da5a7275b5cc50304bc8001369a59ea9d4a",
+      "retrieved_sha256": "0447c5f8503f20f96d1463bf454edb815f9a74942815e43febdd9a5609001e97",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481754392069640192",
+      "reason": "existing_text_differs",
+      "existing_sha256": "f917ed9dde21a16f521f24b40d91d1f4fb18c4c237bd91f12bfc314d5c8da0c9",
+      "retrieved_sha256": "f8d937791d08ea0c4579810e7041d5764250db55b5790be71cefcf0af1269103",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481739259675176960",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ba8a774e42a860e3d167d16b29eded91084c508d96737c6a73f9145a1df5093d",
+      "retrieved_sha256": "63bb50e7d65f997c41668ba94634ec668717194dacec6d17705fec60626ef8da",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481693941969522688",
+      "reason": "existing_text_differs",
+      "existing_sha256": "79a495369d6fe429d5fcd0404aaeba40e0bab2004f7cc598658b21e24cb28ead",
+      "retrieved_sha256": "7c4ab4ac79ddf859a96bd447b27f2a05cf4d1d2a6abbe941c0e5e5ebe66ef564",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481663753118371841",
+      "reason": "existing_text_differs",
+      "existing_sha256": "e28ff56b364b84ad93439ee0ffd9692bae7c0a24ee72e7860d7491f57dc0700d",
+      "retrieved_sha256": "957570a243996d80ff2872a50ffb85b83fc9d4d9bb75ef8f4a8ba16bf3e5fa98",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481648649366712321",
+      "reason": "existing_text_differs",
+      "existing_sha256": "778b5174e349a68c25d8d5c05af7a7f0f0b909bc9ae31508b9c654b26280c49b",
+      "retrieved_sha256": "a2f6ff53646227ee6e0fb94b1e5a76f4e60656f43ba40299cb87b8b48730cb62",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481633545740951552",
+      "reason": "existing_text_differs",
+      "existing_sha256": "5e199e0f4f972080e4a3eb5565616487d383c39a1962d67c08ffa57b669756f4",
+      "retrieved_sha256": "8f5a066b295c4b52eec8c61030ac682a1512400b328bef8d41ed31788242275d",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481603347553329152",
+      "reason": "existing_text_differs",
+      "existing_sha256": "1d481f3c847cf5f43cab89e1b3078a59e6dfa86df93453077ca989cdc022e375",
+      "retrieved_sha256": "ac3390e5aa8bd0e39eabea225257bce5d8be2f43f73b5afaf92e557864fe1ba7",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481588260247371776",
+      "reason": "existing_text_differs",
+      "existing_sha256": "5cf44fe37596c21c4a200e6ddfb92c9f6a8f949d8174fc5490dff9565f67013f",
+      "retrieved_sha256": "75275de2fca81d3375da5086d144ccfcc41fc7fc6d58ae208e15df95c087a0fc",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481573130914705408",
+      "reason": "existing_text_differs",
+      "existing_sha256": "73ad4ead20b1b1afbf7bbf920b3ab2e4dd98c50a99e470ccba5d78dcf1b78e29",
+      "retrieved_sha256": "4234db69c25266895e59b29c1aff5831e824fff2c36575aa2cfa63b21a0b15cf",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481558044011704321",
+      "reason": "existing_text_differs",
+      "existing_sha256": "b0a06cfa299d11415b3c653a61bd64c1856af21cb4abbff4c031a53a13f295ae",
+      "retrieved_sha256": "930df985b5e2b2c59723880e1867f5ce6f0863f7edaaf65a8f236bb7ed5d29c0",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7482177144903643136",
+      "reason": "existing_text_differs",
+      "existing_sha256": "7cc2f8e481617a08962dcb12d4cb4069d0269fd192cd3131338b9cd364bb0eba",
+      "retrieved_sha256": "f080415aeb2fd1231c4dd0fa7cae4829375cd4267ee80a8805bf62e80f43ec73",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482146917775290388",
+      "reason": "existing_text_differs",
+      "existing_sha256": "dbf23f99a73a269e0e7c3a725a2c775e5cc0dda9ad6756db9c5c6d79e548803f",
+      "retrieved_sha256": "3bb5df23b28d94b7af7513bb5ae71406a9db423f617628a4de3afb4a251085de",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482116739909124096",
+      "reason": "existing_text_differs",
+      "existing_sha256": "826dd492bf07a525a5584b4ba4321c6a70b0927b7c7bdbf84db1172ce0f31e2e",
+      "retrieved_sha256": "273b69f682dab5761d65b3923333b8da31849151e57bba55e8d5d475251424ad",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482101648648081409",
+      "reason": "existing_text_differs",
+      "existing_sha256": "d4e839b171af1bb21cfe06271c4d5a25aa380d6ae8036b9982988f257e6dbdb1",
+      "retrieved_sha256": "452d30115e61502692fbac3e6c4d3b5dbcea9f803d0df837f10db9449663146a",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482056331294617600",
+      "reason": "existing_text_differs",
+      "existing_sha256": "838b172a15f1e31dc8e9930d0ea9de3bd3968049402e78c6228ad3e689f6b253",
+      "retrieved_sha256": "80f0b8a7b531d8348fd079e4800cd72d08dd6716382c1d39741e2bc561b90b41",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482041275525926912",
+      "reason": "existing_text_differs",
+      "existing_sha256": "bbf9592c89fcd21fbab39dcae6d05e538ab0456893906a7f83ef8a1a93233b0a",
+      "retrieved_sha256": "78df96299f8d9a47ed6319dfa324816cd2840248d0360e29a2ad452ab6920b32",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482026163285188608",
+      "reason": "existing_text_differs",
+      "existing_sha256": "addb7b19f3d3daa2f9c7e9f5bd71b2f74a36333ce9015ba37ec4da65aace592e",
+      "retrieved_sha256": "17dee05a2b5e22deea075a580a23cca7af13436d9cb000d87a08406279263ef2",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482011019251286017",
+      "reason": "existing_text_differs",
+      "existing_sha256": "d4775bb2232d9ebe585e7e17d0dbcf44180eeb2dee233b169caae783263384d6",
+      "retrieved_sha256": "64a72864cd633e5c811bee838a3d7c1e2d48b9745680e57b6a97cd8e08c0c947",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481995958592036864",
+      "reason": "existing_text_differs",
+      "existing_sha256": "8b2b3c3b226a58c3263f79c27c3a54044b30faa45904d9bae988f6df9b37fcb9",
+      "retrieved_sha256": "6fee2846eba84e66d1947ae1a2c332ddc00209c3de1e483e8b2ccbc51ebe5009",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481980837601710080",
+      "reason": "existing_text_differs",
+      "existing_sha256": "1081ec575c03d5581c48f595921e8d3cdc00eae5aaff173a96d3c9784bdc05ad",
+      "retrieved_sha256": "6fa5bedd88870e8bb86cf91aefc66172c97abb728260f4bf13abb6a064c98103",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481965728653324288",
+      "reason": "existing_text_differs",
+      "existing_sha256": "69f8d02e7959a5f15d832fc562559a3b9cf43b4b9ff4f3ac2cf88f7b04e3c5fd",
+      "retrieved_sha256": "ef7b154860fdc804b10f388e0d2bad3817c83144f04ba128d26d12cf05f07da5",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481950626151800832",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ccff580d8107679cccb81add31c762f5453e8cdd8cd5113ceb94bf1fb644ad14",
+      "retrieved_sha256": "543b526a22f7af3d4cbbf19f7394fb83ddb5b670f43ca627e170a99a493bb271",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7481935544730664960",
+      "reason": "existing_text_differs",
+      "existing_sha256": "e4cb82d1b0fe64815e0a91b18d75095c37fe0b9ac6f4c909b77d5f30a63a876e",
+      "retrieved_sha256": "0f52c4920d2e33c4dea930a985507996f52b189c6611c6297bd0822a65e7577c",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7481920427414466560",
+      "reason": "existing_text_differs",
+      "existing_sha256": "0ac84fa61d52557e18af217dc253153f42ec55d658d9a90baec047f39349633a",
+      "retrieved_sha256": "826192219922cdc503be898f69497e930c1c3e8d0c96b8b26b339b33ed1ce9d5",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482539514624815105",
+      "reason": "existing_text_differs",
+      "existing_sha256": "5ca4a3deec1b0c540253443aba6dd113eb580c17cb74335729e212ef2e618e27",
+      "retrieved_sha256": "0efe2e3df3741228486f80eaf63b405f154e45775b984a333cdb2d103aec9cd3",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482509321994473473",
+      "reason": "existing_text_differs",
+      "existing_sha256": "c3c418f174a9154735bf2cd99427c923a95e455997d13f717b8f4a9cf7a20ad7",
+      "retrieved_sha256": "240a3967b1088c9495505743a832bcaf1844152c39e4a9d6c8a840b5d496e6b1",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482479133902450688",
+      "reason": "existing_text_differs",
+      "existing_sha256": "7ef9ef986a3ba047f8bd6bd64106be9c3e605f246240f64ac8986d2eb30e974a",
+      "retrieved_sha256": "139c74d6aa11a39b725f2c700a953b5f20bfd3400592e78d541b535f63672f95",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482464042318630913",
+      "reason": "existing_text_differs",
+      "existing_sha256": "57c49f25fb0659713ec6e93fe931d11bdeffb9e90e10ff1679d4140d3cf3d9f3",
+      "retrieved_sha256": "a64e20beff50633cfae6dd690a8450280699fb5094287acba745eef54c8ea0e1",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482418739968360448",
+      "reason": "existing_text_differs",
+      "existing_sha256": "9112c604a408066e469d1296f15d13f19c10a1585a306a4571945cd16220d204",
+      "retrieved_sha256": "8c0db21aac9e0f24d1df16ae7e17bee4cb38d3f0fcc38d5305f7c82b3b65e2a5",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482403627672895488",
+      "reason": "existing_text_differs",
+      "existing_sha256": "a326b73644bf0690c06e6148828c4f57bd1120257c38b7791b249a8e4fa18811",
+      "retrieved_sha256": "2b14ea4da71b4b94d0f83165a0739144960bca841957f86dce1f1613c9b9d3d7",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482388536860753920",
+      "reason": "existing_text_differs",
+      "existing_sha256": "94e93b4feeec72930b2db6b5b84359845bc5e8fde0371bf289dbbbff9353f542",
+      "retrieved_sha256": "c2d24e0485071649a97fb974b907b9050e4ef6b45a2a2369899e9c0448195740",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482373483046449152",
+      "reason": "existing_text_differs",
+      "existing_sha256": "b0147cc5b6fbdbca3c74080bfdbf19efb92e7094171b97080bbae2f747e1c39f",
+      "retrieved_sha256": "088696994229f6d21fd147efcfd5ffbc8b85b4b68c209e5c589ae4eec33eec40",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482358348089208832",
+      "reason": "existing_text_differs",
+      "existing_sha256": "f96e1af663c34db385ae9e7ce0a0a72cef479ea76c0586a53ac756398a174512",
+      "retrieved_sha256": "d169bc1388d8d5c0a6c47afee16a912d8d0b6d05c96c4d60c8a93d2b82c7c70b",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7482328162723401738",
+      "reason": "existing_text_differs",
+      "existing_sha256": "1ca40f8b237a3718519a54cce5b58ae14726d82c78242112e7b73298ebb50f08",
+      "retrieved_sha256": "76b9a4b85584ee845c8fdb54e3bc76c041804fa177fc02200fda0ad5f0582977",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482313068958539776",
+      "reason": "existing_text_differs",
+      "existing_sha256": "3c996ff40c98f51b343f3c74407e1f95957bc0b622c58649bc2a002f947c2579",
+      "retrieved_sha256": "16d79dfecbc6cfb1ec49be8637dc3c44bb2eeb846981d58ee34be485c75692f0",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7482297936484286465",
+      "reason": "existing_text_differs",
+      "existing_sha256": "828846b029432e3da94efef73c8628f7b61d35b20deef7c4b6060d9e2a48df50",
+      "retrieved_sha256": "43455d3e796f329a000c014a18ca469e704c3767d8b741a913c865fbefd7a0ef",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482901897062903808",
+      "reason": "existing_text_differs",
+      "existing_sha256": "6e8d2b81587cd2cb697f5f16f8bb2f69c38b2935327ce8fd73d05a261bdb56fd",
+      "retrieved_sha256": "b8453f2e15e7acd88f914e35d56ee940659ad24ac52a06a30bda880ec14b38cc",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482871710804008960",
+      "reason": "existing_text_differs",
+      "existing_sha256": "da50e3cae9bb67ec9ec4b265ad71e2f3bc6f6a2d5b5e3b67f80d2d2aff9dc414",
+      "retrieved_sha256": "b2a83d4f9fbc8fe151258546537a8972322378e1d59598304ff2f1476e5d1a05",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482841543435923456",
+      "reason": "existing_text_differs",
+      "existing_sha256": "dacab28e39c522a4128411d0612994544436e236d9cbd4172a9953383aa27aa0",
+      "retrieved_sha256": "8235d105916620ddb3a8ec2643e7a1e5b5c50b12dfe211b20419479a766b0575",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482826462698340352",
+      "reason": "existing_text_differs",
+      "existing_sha256": "3613367babf4a42064798509b2dae544bd52cbed4a05a9fdc1412357655fea5c",
+      "retrieved_sha256": "43c9a91405083134b1d4bf2a15596edff86afc62b583b6537ea1c59c26ca6b7d",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482781146339057664",
+      "reason": "existing_text_differs",
+      "existing_sha256": "9e39a58565659f6bf62f5f273a61fe08ad34a715351ed0a8640007d7d15437eb",
+      "retrieved_sha256": "a6e649b697f1ec01920267c1eaa910f18865bc144bc00d22ebaf350b7d336e1a",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482750933353918464",
+      "reason": "existing_text_differs",
+      "existing_sha256": "4412b37184b4e9f2473e1def4de6445f9fbd49b7896ab3be765cb6dc3ae578ea",
+      "retrieved_sha256": "c78d78c622007f4515760a682c5b7bdad6659f76f47a4ce610e157fbcacd5403",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482735823168184320",
+      "reason": "existing_text_differs",
+      "existing_sha256": "de58afc2f43384374e83b9aae96ffb9d2683ccd247a8111a0ef605e09379793e",
+      "retrieved_sha256": "8cf6f93405c23bca4b6b426c28e59620c5275aff2d049836df6a7904dd86fb06",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7482720727364767744",
+      "reason": "existing_text_differs",
+      "existing_sha256": "e5ec60421a2d66979a329e4740e26b99dd2da87edd861a41eeb7caf9159fb970",
+      "retrieved_sha256": "79dbb15a9f41db40d3e4f13d5d6b6bd6fc3f7391d289c9d199677386e0fdddf7",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482690510466297856",
+      "reason": "existing_text_differs",
+      "existing_sha256": "53cb4ded01d46431de8e0f1ccd4e036f9d63a9bf132a340fc30522b71778efd7",
+      "retrieved_sha256": "f340b25bc203e5086443c75d75476ac7f633b7d73bd384549934d605b8a2bd17",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482675412557299712",
+      "reason": "existing_text_differs",
+      "existing_sha256": "4dc3d4239ab4ee09901bdafda12403c470d282ccd74382118e48d7a69c6793f3",
+      "retrieved_sha256": "c93a18092072d8f8a35592bb347d778eb9d3b992b04832b6a4bb12e4c2f2ebbe",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482660323091685376",
+      "reason": "existing_text_differs",
+      "existing_sha256": "a92ce02e01e848529e307c9eef00c85c63a3d93c70ee0ae5e91d6fdf2b7589aa",
+      "retrieved_sha256": "8e2dd2f31ac14e32a71a1cd7c98f302438f2601e3918285b0752d2bc7836050b",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7482645204353867777",
+      "reason": "existing_text_differs",
+      "existing_sha256": "00f007c68bda53581eaed80b8e4e2961361354da1a88397adb19566d0ac025e3",
+      "retrieved_sha256": "c4634f8ae57ed283f5c4946f80589a329c987969f7da9f49e4bfce43556aa605",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483264305765883905",
+      "reason": "existing_text_differs",
+      "existing_sha256": "d61f0a6b6a2823c0d97a8cca433798b6ef79f7c75c277a9df323894c518a3615",
+      "retrieved_sha256": "a2f9557bcc55c0eb8852ccd95fdba0e6abdb921135a0ae4444f9926bc67587e0",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483234104776404992",
+      "reason": "existing_text_differs",
+      "existing_sha256": "26756ca4844bc4ace6137c0163697d52df494ce81d9dd67a04859f1e3e670d6b",
+      "retrieved_sha256": "8c37d647456abf74cfba30d603470f10d2414200cf705984f6e0a0f8958655c9",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483203929875501056",
+      "reason": "existing_text_differs",
+      "existing_sha256": "720358bb87f37d1265e68f1e93659864c555cc5c6a246158c4a7f6a2a19eb2f4",
+      "retrieved_sha256": "b617e74b92a12844ccbaa9214839118fce735d0e0cece14a43436847c4736a67",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483188836286541825",
+      "reason": "existing_text_differs",
+      "existing_sha256": "fd2926e47d080c2859636ca72546173c948ad6a97e7b693a80d2953968de1c88",
+      "retrieved_sha256": "8c7758bff46aec7b8264f587ccf61841e54472d252260785f5e1c3add28fbdc7",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483158628632408067",
+      "reason": "existing_text_differs",
+      "existing_sha256": "6398ced31048b0185ba8e303fc1514bda6e766f34bbb1abb5ff0075225547101",
+      "retrieved_sha256": "776787986149109f376bd64f8ea628b18a4849b94b9c1ac33e70bee172a26d57",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7483143516370673664",
+      "reason": "existing_text_differs",
+      "existing_sha256": "15e218977d3709d10986ef14fd4be00f1d997a817b51d83b127bfca11c97a78f",
+      "retrieved_sha256": "05dcc283eccc9a3af9982a021749fe0428286655939f7c6e4ce01be41f89211b",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483113305050447873",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ea77193b5f206afe2486debb602b48613d4572afaf9893f057699bc94c3cef1a",
+      "retrieved_sha256": "32ab348faaadc875d91a98b07a0f53b63f449471f4a60e765859727d72571cd9",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483098188091105280",
+      "reason": "existing_text_differs",
+      "existing_sha256": "4a9f1cf0aca13cd7797bd4aff50fc3703601242924f53c3b166b3ebb721d18e1",
+      "retrieved_sha256": "7d0609b4c1390a066eb149cd1ca162e62305212bddaaf31a18b0574d30a31fbf",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483083130766245888",
+      "reason": "existing_text_differs",
+      "existing_sha256": "4f996182d4c736349517358a9fc1d484507d368e03d6dccbdc7c506abe7662c2",
+      "retrieved_sha256": "417cb8ca257dfe061d04a004375ffc75ac604b09deb78d87fc4ea140307a0e83",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483068019989049344",
+      "reason": "existing_text_differs",
+      "existing_sha256": "e9094e39f1499b2816c49b956e8c694021b4cf6d62456e863b8f0fd533af89f7",
+      "retrieved_sha256": "a5bcdb91b20e3cc2830b5759483a127b004676ab2295e90bbc2e1a3a15e5a1a3",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483052925292953600",
+      "reason": "existing_text_differs",
+      "existing_sha256": "28cc8e48403ad112cae83b07c76c4a42ff4f847d4a497024651ca494e07c8068",
+      "retrieved_sha256": "37dd5db439894995ba9d67fcab9eaa9c86778f39ba9553f210ceb8de090bae36",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483037810120241152",
+      "reason": "existing_text_differs",
+      "existing_sha256": "7751dc939f0c76a8f9b1cfd15dec345fa65ba4de6ae8b4e240c0bc31788637c3",
+      "retrieved_sha256": "48d3c62dd818e8846eeb6e96b9ba34914a4823574fc8c21e6f9947c986085332",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483022691688484864",
+      "reason": "existing_text_differs",
+      "existing_sha256": "54bb5264d8a07239b044ee980af5e8ad0e904178d6d4e5ad4bcafd48ef842138",
+      "retrieved_sha256": "5d7f6262ecebfee6cd8faf7895028bb1dd733295c87c633027f942e7e4d2b1e2",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483007580508921856",
+      "reason": "existing_text_differs",
+      "existing_sha256": "7304af2db75773a2a8af70c419adf88b1ff898104b6577465f0c59092adc6c8b",
+      "retrieved_sha256": "7ad2d7453047161de6cc291fe57cc728c2977dd219eed3065eca6e54c9b41382",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483626693941960706",
+      "reason": "existing_text_differs",
+      "existing_sha256": "454721af73609309c1575fd4f00bac9c1f5974e4ff63576f72c84e88550f43e3",
+      "retrieved_sha256": "5db6156a9bf6b4939642db357d5edfda2bd07a18e396248ad4a473bde24b8166",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483596482999320577",
+      "reason": "existing_text_differs",
+      "existing_sha256": "49ebb709c982291173294bc4182a4a2b120b9cad447ee43bc146f08ecdcc539d",
+      "retrieved_sha256": "e47fc1b4108aafc8279ee4e449a6899d3a64ee6232d2e1efa4a22a663f02cc82",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483566295129608193",
+      "reason": "existing_text_differs",
+      "existing_sha256": "6582dbdb8384f24be005bb9aac6250caac50cdc1f1c2b952bdc28462e33a0e71",
+      "retrieved_sha256": "4ca4f4fc50bc7e030f9df65e74409d1e943000b0a42547044d5bd4db4bca4772",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483551233325228033",
+      "reason": "existing_text_differs",
+      "existing_sha256": "68252017195be6b99866f22eeac52db6903c2a13abc452cabd3e310c6f1b0288",
+      "retrieved_sha256": "27ad1a9ca27cb5a373ae3c2c2e3867310a9bb2344c0a6a18c277585747b22b1f",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483505920828805121",
+      "reason": "existing_text_differs",
+      "existing_sha256": "397113d270d28da346dfed14691f9ddb5e91bc2896a8a6a6957b7f6ce205ecad",
+      "retrieved_sha256": "9902058693d2f6237352919724fe8441bc74b520a225f6c699207d1e01453a2e",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483475720523059200",
+      "reason": "existing_text_differs",
+      "existing_sha256": "9328adf4177a45fcaaf704004b0a3f2cd9f19495545c8d5809165301a93c0cb2",
+      "retrieved_sha256": "4885bba6d20fe0192d4e831db078aa97e7111e6e329bdd836ab564cff78288d0",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483460617492787200",
+      "reason": "existing_text_differs",
+      "existing_sha256": "bfbf9b7e4dcd07d8d06b1633e3f9e060b622452e4534c37a35659c21058ab16b",
+      "retrieved_sha256": "811743a7d1e47cb30cbbdf9b8a2d7edb199c457526b664ccc69610d23b414d8b",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483445543462047747",
+      "reason": "existing_text_differs",
+      "existing_sha256": "694b3ee9f7abeec75760b445cb591e583325cd48dd5854092522cf2d32bcbf15",
+      "retrieved_sha256": "001bdb1224c404a9c9df3c154cfaa0ad9bf8d29862d10081a07c124ad60b379e",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483445494619398144",
+      "reason": "existing_text_differs",
+      "existing_sha256": "f8233bdc10ec5b30411afd754918a46a907857a080f36b9aff3cf0d0134bc569",
+      "retrieved_sha256": "57533ca15ed436c7e93ac8015606e44c662453b02c8a56bcf7e5cdcc37fec068",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483430396005789697",
+      "reason": "existing_text_differs",
+      "existing_sha256": "97a81a05135314c1bb133e04f7e8cae93ee2dd4a4898deb4a224b84cf0e26e51",
+      "retrieved_sha256": "cc5b937469a1cb943513d17a5a902c91d1661e80f800b27d53500ad5212e1d34",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483415308070965249",
+      "reason": "existing_text_differs",
+      "existing_sha256": "f607fb20b4dbf853cb6d887c7c206948c440baca82527c993aa0deb6ef87837b",
+      "retrieved_sha256": "dcb0437ee6b2072e36e547e31de70fd4e2f16286b0c9ecd2b7e06d2760d81853",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483400232542826496",
+      "reason": "existing_text_differs",
+      "existing_sha256": "bf98922135a84258326457f3e96a3e7420879ff887e3eaea228ab2c0bc0a13ed",
+      "retrieved_sha256": "4bd88a7867c05779a1677f3b41d33c47426001dd7d8c7bd8a0532ff96c956e30",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7483385092241932288",
+      "reason": "existing_text_differs",
+      "existing_sha256": "429bf382f8126c1dd80afcdaab896c779942463f29d44c4735f5a5183b91a719",
+      "retrieved_sha256": "92ba0302e919d1af74d26a67fbc6f43291c92d4a476dadf9855c5ac22a567303",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483370002906243072",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ed2123229586fb12ba4b5382190ae26f0ef7d26e90fe7fd64b54105e5f1d518e",
+      "retrieved_sha256": "2495217b83ab6b0fbed90b82ad19618ff72c031b019465d65e10e60832a1f841",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483369993963798528",
+      "reason": "existing_text_differs",
+      "existing_sha256": "b91ad76662ef4784e2c8cc0bb6284c97af1c528ddc99f7dd0fb992b4dd0d9c4a",
+      "retrieved_sha256": "0fcaff0120d8ed5a0d286eb22ef9f4fd1cd4f70340aba355064512dded87a130",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483989057837015041",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ea790c67765d154ae21b653d69e9bc4e7307e24ad00f1e54938f15195d8572e5",
+      "retrieved_sha256": "957590dfa5e1d10ccf434c1a92d9fab726d3d718a947c3bbd4f41420ac8124b6",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483973964021628928",
+      "reason": "existing_text_differs",
+      "existing_sha256": "3ad6a938939d785f64b96e0ad1506f14f8a37733dba0736931194ba4a094949e",
+      "retrieved_sha256": "d8be0fd690ba3eabcdf962e31db617c9b47366d15ac2c773632ffe38d3d4c9e9",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483958902498402304",
+      "reason": "existing_text_differs",
+      "existing_sha256": "3c6c80fbe5280e471e123be02e8d295fd28031dfadfc80a2ba83bd0ad64a9b93",
+      "retrieved_sha256": "02f843fdbc0c6438d901f64d264386d2ccf186fadfbda3de7f40a5ad284c6bae",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483928702163210240",
+      "reason": "existing_text_differs",
+      "existing_sha256": "e75fb9c11942f73694f7b8e3b3c031ccc28a72bebcc852fd9dee7faf44a253a1",
+      "retrieved_sha256": "0005ba9b398eb8d0534673833371c1c03ea31d542ff03d9e5d5cf0505817d735",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483913646339719168",
+      "reason": "existing_text_differs",
+      "existing_sha256": "431935d6e1572ff9e29305dfb113976f264dc559d1f1a2eb1dff47901708ac39",
+      "retrieved_sha256": "7b2b729c190b120e0ee5a4057a78c7b46502ec78fa3dcefe9d8d53d7d0781109",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483868318437814276",
+      "reason": "existing_text_differs",
+      "existing_sha256": "e65225dbe87be728beb7f90dc2623e6d38c443c7b9ea857ac825f1098c0f4fae",
+      "retrieved_sha256": "7dc82d90d02aeeccedbfe14297749b58e2d62f997c0aab579a209b666a8afe1f",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483838101161766913",
+      "reason": "existing_text_differs",
+      "existing_sha256": "003f2a2e31b0cfabbabc21c8beeb6023a1d6adcf00cc9a506e2fa7f81edc9182",
+      "retrieved_sha256": "2fecb30c57efbe1aa8dcfa3ef5a82c8582ab7e534771c6843f3ae5bd7d4ed5a3",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483823016817385473",
+      "reason": "existing_text_differs",
+      "existing_sha256": "083d87c30c0d3571a56e19ee833c9b6d753bf2bd94356f1b8a8a726e3db7f5b6",
+      "retrieved_sha256": "ccc11afcf3dc3878ff02a50cb715a249be2df4d43cfca9197dd1c2ed38d674a6",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483807897794289665",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ecf8eebabb3c9fbd66daf988c4b20c00001433de4e8cd04ab9e9c18fa055e3f9",
+      "retrieved_sha256": "9344ea55bf9c9204cdf2380b494271190d9dbd74664488a028924e7ecd31caca",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483792805388210176",
+      "reason": "existing_text_differs",
+      "existing_sha256": "5217a462b14e41b90432cc6d5c8630928c5711855317f434bd318aa163cc7477",
+      "retrieved_sha256": "df3d799a7ec5fced109a4d078abdd7f984b34e6faad378dcd4d01eca2b18fb62",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483777707940507648",
+      "reason": "existing_text_differs",
+      "existing_sha256": "0170caaa2902132eccae3087214225f91a6a1c1fbf67ba06bde471c5ba29e3e6",
+      "retrieved_sha256": "49d53c92a69992277aae832b238d1c75af6857d65bd0aba1092c0eba1ef68c3f",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483762580898021378",
+      "reason": "existing_text_differs",
+      "existing_sha256": "6cee6bf70b3cf1e270147b543b5a5ba2f05b5a7980d0af24e1b3252a366ffd0c",
+      "retrieved_sha256": "5b1a711557cdf0ec3a5da0c6d0244806dfe49ff5d165ecb5e65a7cfdf7b406a3",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483747508226236416",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ec63981098986af3800aeba2ec1255532f037149dbc4ed22f471326d6bbbace4",
+      "retrieved_sha256": "69cc84e021d2d8e0c3c4df6301f00a98ae0ae94e7c826c273589d59361bdd7d7",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7483732377391857664",
+      "reason": "existing_text_differs",
+      "existing_sha256": "c79bd224992f4e7ac50f46b00b9fe17ed8a6ddc693a94d7061581eb156d36996",
+      "retrieved_sha256": "c523e5650a1f39b3ccb550a9409fe37c7898b23e2d3c4827a518325702fc8bf1",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7484351443718680576",
+      "reason": "existing_text_differs",
+      "existing_sha256": "beb7657e9c91a5860095b6ef32ae5ac5eab826fc42630719b654def59b1f929d",
+      "retrieved_sha256": "ef6a0f9bc835830b83dab7caf7809e28658c5dd722ed4274602de2298913fbf2",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484336345474109440",
+      "reason": "existing_text_differs",
+      "existing_sha256": "41581ca7b4a8c33f995d47067ee4ad0d733aa1d23aae4842aa9d22c62ad16f15",
+      "retrieved_sha256": "e4000f9fcee79b505f61bd73225b71c0260ccca5119e35d5b8a30b532fa819af",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484321254125047808",
+      "reason": "existing_text_differs",
+      "existing_sha256": "3a4fbbc5df56a88719ef2fe2425d52533c15b5f4ecc956c53c4fc1c48bf5fe58",
+      "retrieved_sha256": "fd22fa67df8afbcbdb0cda8bc8089402ab298738fc01d965ed9e3a29ee49e97c",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484291062132453376",
+      "reason": "existing_text_differs",
+      "existing_sha256": "16b98c1e965268bac971685409f3e2fe6e44108d9b8855daeac82ec4c12bebef",
+      "retrieved_sha256": "f71f44f75dc818dc86a292c3b4a90eee3fb32248c0e133eafc08575e7d925bb4",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484275993613029376",
+      "reason": "existing_text_differs",
+      "existing_sha256": "4b25108764f9f7091367bd39422f8145ed7db2730420f49a340f1c846f3c9dbc",
+      "retrieved_sha256": "783b32fef82951dbb505a0449883f249240e9edd9c870030f060e35577c1a04b",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484260875613270016",
+      "reason": "existing_text_differs",
+      "existing_sha256": "d23141a0a6c32a9cb829bf04dbcc3b499a8c7ff54c5820fbe87fd9876f1cf06d",
+      "retrieved_sha256": "1da272c33fde67ceecfe3a81747eed0930d8328b05fb24ed094ca046bd1625f0",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7484245772184657921",
+      "reason": "existing_text_differs",
+      "existing_sha256": "9149899dc910801825c75af31dc2888a141de0489fd135184fe97f52a0db715b",
+      "retrieved_sha256": "196f3c2e57ccef49332a1ad592c7eb925c5d51716d1b8370bdce2625724ee083",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484230681783525376",
+      "reason": "existing_text_differs",
+      "existing_sha256": "3e6648b89c9bdf30755c0b546c20fa36d13b65d1991de560c9787b36a68d2680",
+      "retrieved_sha256": "50ba83303ce81ef7b8de36e7d7d9f5b029cca2cb3d5e5a0bff88afa851e45b24",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484200461156200448",
+      "reason": "existing_text_differs",
+      "existing_sha256": "af9e65711f9d9e4e00c7e5d2738c138f909d608e37c4d22757ce0328de7d1fb1",
+      "retrieved_sha256": "b2edbf657dd03d591b2c61c38c6a3946949a9fc83865905633444790c5f51765",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484185372944637952",
+      "reason": "existing_text_differs",
+      "existing_sha256": "b8ed018e499312f75a9731ba969af6a1e943adf78a320345c711161152a2210f",
+      "retrieved_sha256": "c27c1842cd79ca15bbba66846003f239ce2c083057646cd10337ff2d3f2ea54a",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484170282388140032",
+      "reason": "existing_text_differs",
+      "existing_sha256": "da6b6a53750619e0e5679dc2019482dcb37024d54300f88bf02239951e2e2157",
+      "retrieved_sha256": "72d4e04170fd51715a95c2f9e4e4cdceb5eb20f3fe78804befabf89ef1c04976",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484155219791036417",
+      "reason": "existing_text_differs",
+      "existing_sha256": "3ec3ac232777d75b1b0b35819d98b9a0bdabb6da950e9a135744cda5d14c1ac2",
+      "retrieved_sha256": "960b136e8914fe1115fd9fe7464f65a79045f85b6ae51d04667c0896e4452513",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484140061140328450",
+      "reason": "existing_text_differs",
+      "existing_sha256": "1aec571abdd33847f7f231f1c5d0f3f52b1c18f1972fa7647d9035d3d1d43907",
+      "retrieved_sha256": "f914e6299698095750585251cefd9e7966164b6408f0617b8a5fd4df402aa276",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484124955924803584",
+      "reason": "existing_text_differs",
+      "existing_sha256": "9d930a91ba44bd3f5d07aba2c36577e834d634f21a8d14689f9e792b7f002c38",
+      "retrieved_sha256": "fcca07df01f0754e743e9e4753d62df286f97a73a3247d15a405c27d7f2e0a4e",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484109869218889728",
+      "reason": "existing_text_differs",
+      "existing_sha256": "9ab24381b3be5f0e11c0b21eb9083f22e1be1b38c91359ad9608a4053d9cd288",
+      "retrieved_sha256": "d18111cb519ab255147ab905331320d76fec6d031c143e52a9a883112880b41e",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7484094758743822336",
+      "reason": "existing_text_differs",
+      "existing_sha256": "fba4efddb8641a251af9c2ad592c631be0fa579b0467c9078fa98a298019195f",
+      "retrieved_sha256": "4cc4b99c0e542b8616f18a6a06ede026e260d5e4f64e66095feacd5ac7bd010e",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484713832444002304",
+      "reason": "existing_text_differs",
+      "existing_sha256": "841255d85e6871d38eb147b15e2b2dd981c176d8eac7996928fa9f29c4fcddf6",
+      "retrieved_sha256": "a2855190e15e7231952e372b13c83f2fa2c720a6433fb57e0f3c834db6b62893",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484683649863483393",
+      "reason": "existing_text_differs",
+      "existing_sha256": "64cf9d9018857e3ad3aacdb3a344aff3b0038de7aef0a53289adfedca74e0ae7",
+      "retrieved_sha256": "d8c818d777883fbc5000b4bcd20170d96549f8666d9fdd8ecd90f9455db79a0e",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484653449675063297",
+      "reason": "existing_text_differs",
+      "existing_sha256": "e6daf0f6a3b8bab2afb6789d50a4fef72277bd67b5bf384b03e4ae4646e79903",
+      "retrieved_sha256": "38ef76d41101663a832db5819cf3848679affaef6ba12cc8be1bb5dc92367135",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484638362449043456",
+      "reason": "existing_text_differs",
+      "existing_sha256": "c84a8717dbd2f5af7b40a8dda6ff1709d51b511d237cd7b3ce6f1c2590a0da75",
+      "retrieved_sha256": "bb1df5c3488e06aeaa12f9f666dda6f824f446e0c639e3929b9375fd424c9ce0",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484623263986491392",
+      "reason": "existing_text_differs",
+      "existing_sha256": "dce7fb84bbb73df7f221e08bf8b986511bd4d7351aec35f8ada65bdd0ae5ff2b",
+      "retrieved_sha256": "fff331a43edaa8bce5aa8512ab9798031c46088b34f994fbeefad50171434d4d",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484608153435738112",
+      "reason": "existing_text_differs",
+      "existing_sha256": "3ea22bea83de67a438421e2a25960f4ba83cc04899de67c0ce61b07c73f67ca0",
+      "retrieved_sha256": "71146dffe7e421cfa47b745efa5025a6b2b560c793b95eac0f01bc38e0b1e05c",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484593043740893184",
+      "reason": "existing_text_differs",
+      "existing_sha256": "844db4f698c206a7ab42c49d29f2ee3976917a5a3a7db91878f7557a409510af",
+      "retrieved_sha256": "c3802a94ff432912ad863401aa3901a9ec2a827927b51fcb163c21dbad936fdf",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484562848468217856",
+      "reason": "existing_text_differs",
+      "existing_sha256": "a66a5e985daf9d17896230cf9bac1a26d122a5935223a1925bc296ed3280ff2d",
+      "retrieved_sha256": "09cb2a2ad53cf113ab275dc9429120d7a8689e5b6341176fd4bdfd8a8ddd08ee",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484547749053501440",
+      "reason": "existing_text_differs",
+      "existing_sha256": "a6cb08caf41648233e715ec87cb89d997e300c59908d346de9fb79cd58d231c4",
+      "retrieved_sha256": "15a0d263df2d1405bc6589ae6efe98392b99460fa12b23821993bc1ae14aaf25",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484532669771485185",
+      "reason": "existing_text_differs",
+      "existing_sha256": "6b05f0f94fa062ac5b51ebb91de45d3bbe90fd5367da71863ffc22605732cd3e",
+      "retrieved_sha256": "626ed5ecbc7ce1473e6189c663d6e0ec36bdc0634465e46b157ee34cf2745664",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484517548022112256",
+      "reason": "existing_text_differs",
+      "existing_sha256": "40d1360a33c4ffa680a5d14be05bc800b6451313a084fe58ba4c8858dc570a89",
+      "retrieved_sha256": "a38f281d10df35a4ad8c815ea138860038d21b8b6426a40383d144aecefca498",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484487334156042240",
+      "reason": "existing_text_differs",
+      "existing_sha256": "9441ff14222e62fd36e774808c6b3fbf91f37eb2f8cea7f277397e2d99e06915",
+      "retrieved_sha256": "e08d51a5b6a8e4d75c49652ac793e27b1391344d92853bc68d37d2d5a05d2e69",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484472239287955456",
+      "reason": "existing_text_differs",
+      "existing_sha256": "62814cd356a802e11007f69c6b2fbfec77a757f3025b724848a261ccd7a316b5",
+      "retrieved_sha256": "47bb5077f2340ce032732ae6930912b1a7b0871aabd89d4d72a3946cb35176e0",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484457138900148224",
+      "reason": "existing_text_differs",
+      "existing_sha256": "f33f667eff3d14d6fbfd35b15112ef1b51a7b363d8fa8e5512c1359b93a9f2da",
+      "retrieved_sha256": "4f0fd1e26206fc45cb181c57af53a551686d6668631292ad413f0b4947a41eff",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485076238114435072",
+      "reason": "existing_text_differs",
+      "existing_sha256": "6cb47eebdfae68da1dc37fd33896e19416d5eab0498b49208a309b106fc1bb9a",
+      "retrieved_sha256": "af4038494b64ede983db4e1f54baeb414b5b19a265b7f622f24da85949fbb6ae",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485061112636350464",
+      "reason": "existing_text_differs",
+      "existing_sha256": "c076a52e3a42732dc050cb2b0f13706ffb64949aa84417b52d3a23440bcb1622",
+      "retrieved_sha256": "8e4620dfe875976cbf332e0b6c614238d0004f6ca20cfc5da6e98ea28804aac6",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485046043156508672",
+      "reason": "existing_text_differs",
+      "existing_sha256": "49ca2f72fc8666c735689b473e0e08f24d2e4cbe9e0b2574ee248772692dd1f3",
+      "retrieved_sha256": "2975ab54205d656ac0a1a57d4615a6a4ff419c5fde50886f47d3a4a13ab902f3",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485015883329777665",
+      "reason": "existing_text_differs",
+      "existing_sha256": "d5cbc6aedcba1ea25bb5d0ebe859e6fffe7f7f7021020eb603d8726d1c44425b",
+      "retrieved_sha256": "246383e8972df87c3f805be0cbdd14ba03645455fe73410d46bce2644212e7a2",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485000785936916480",
+      "reason": "existing_text_differs",
+      "existing_sha256": "22116ac47e2e810ab34c6631405ef06c06edcda9e3261303d69843f3f837e1fb",
+      "retrieved_sha256": "3c6408d70fc02a904cc0276766d8a7b5c4f561d25dcc694cc6684f99cde7ee34",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484985669568831488",
+      "reason": "existing_text_differs",
+      "existing_sha256": "0fed4faff5ad3c35f13ab568f6c2fb39f5cfc3edd2ce3c828f845d03c1f9168e",
+      "retrieved_sha256": "842a96f72b871457c58e57d7e12a21f8e728a3d8b4cb55206b5c16cda21663db",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484970566345621504",
+      "reason": "existing_text_differs",
+      "existing_sha256": "db2d460c8a6135d53f7b36a1e036685b983cb6cbb60aa994fbbcad65ae3841a2",
+      "retrieved_sha256": "8aa8a4cdf3a255c1ce57beed191c56dea337542187ee92f6924d743d29baa2cc",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484955470978539522",
+      "reason": "existing_text_differs",
+      "existing_sha256": "76a9dda07cd806ed233c7adcd42e8a4cc1fe0d0a51e009a9a89c135125a92eff",
+      "retrieved_sha256": "51bbc22470b01bf083555b3c3b028153365e8989e7c86c007bbfbf2fdeb31e52",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484925266419560448",
+      "reason": "existing_text_differs",
+      "existing_sha256": "6c6d30c1652f9607b3981fff212b2d35b7bc6c306f3761e1e089f15d056e1f59",
+      "retrieved_sha256": "4a4ecb6ba2ec4deccb6b6a42c97da9ce270123a1800387d4366740400b6cfd4e",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484910157550882816",
+      "reason": "existing_text_differs",
+      "existing_sha256": "8255da5e6674b1ebf61f18b8ef191be714d1d437cae2f345e3a63d7f943880de",
+      "retrieved_sha256": "d30f0879b03e2bdbfcaf0dea1f918742f667b2c84e387d52931698534c6f5a9a",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484895048208293888",
+      "reason": "existing_text_differs",
+      "existing_sha256": "e3e80c5e84ab59ffa4ea735a1ca9124b6705f561f569a2072376c758ad45d1a0",
+      "retrieved_sha256": "a216e35ef40855a7deb9d0952581601fdbe5d45d4a894955524f9630b5453eb8",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484879965000302594",
+      "reason": "existing_text_differs",
+      "existing_sha256": "87f984219bcc1b3704f959f2cf569b916804b4f8fcbdd1288397c5d95352de11",
+      "retrieved_sha256": "584d1f53ff20dcbc65556d9700779773fe0ae1002a633ba9f7a1427fa855a8bd",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484864838507212800",
+      "reason": "existing_text_differs",
+      "existing_sha256": "1be1ab90c0b0f7d154d69838feab01b2389458de74e5b73b95c9502a45f1f319",
+      "retrieved_sha256": "f599433237944d5663c8e95e956a50f39d63a03f8775b6a9d0942387da68c969",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484849751440424960",
+      "reason": "existing_text_differs",
+      "existing_sha256": "22f3cfac065d9c187a30eba6a1b1c5f3d06bcd77435dcfb1f427ab35b9f224ff",
+      "retrieved_sha256": "08a1b9359eabd2336c818dd6c63ffee6b76ab9b8888c6e4deb09e99da1e8e4c1",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484834646459969536",
+      "reason": "existing_text_differs",
+      "existing_sha256": "1b15800dd022bfebc9f1a1a7e689815fb073046c58c0e3a720c78699c44899ce",
+      "retrieved_sha256": "da0928767dddcc1b3181c5b1c3d6eca7fa234b06f0409de0f323fc9ba4124828",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7484819523905302529",
+      "reason": "existing_text_differs",
+      "existing_sha256": "9133f2c647ae898c6917c97d59998d95a4378a4a1feb5ae046cc2269ba03b9c8",
+      "retrieved_sha256": "d232b3c52993efaa08db1ef46ada5d3e6fd6ff8f7164776a4da2f81eb5ff7d98",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485438635597627393",
+      "reason": "existing_text_differs",
+      "existing_sha256": "d67f01576d61031999bcbf22c2b9e3f4e962fe9ac3ba2c65e4de1ab2e3653787",
+      "retrieved_sha256": "8fbcb9c440634369f739326f712db696e2c1ed6f02316d90b94113d6aa6bd863",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485423528754851840",
+      "reason": "existing_text_differs",
+      "existing_sha256": "d65b21a0f9fffcce5f9e666be2121fd9a646d2988180d8252b0690cf5bcb0ef1",
+      "retrieved_sha256": "05d74db686c25d19bce441c7c6d8de559281c69ad969ed5435cb2166f4639a7d",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485408449728684032",
+      "reason": "existing_text_differs",
+      "existing_sha256": "adc6ad5bfdaccc1d346afc43c5d80f2f73f50b27a0325d1320af1cf1c373ad68",
+      "retrieved_sha256": "82143bd8fb456efa661c27875f3ea8cfdb08614adafc73370d1d9b52f4da1ada",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485378285980389376",
+      "reason": "existing_text_differs",
+      "existing_sha256": "67a995b412c8b6526ccb1ab7689aac748b5c4070c309b1ad227019c5f1f67f78",
+      "retrieved_sha256": "1facea3772bd1cb91f40cf1e6065a83e3672712753b97c089c99b798c4bb9820",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485363171848003584",
+      "reason": "existing_text_differs",
+      "existing_sha256": "0c075b61c2b7f0daafce9ad27dfeb7b01e62e8213231e81b41778f4f9a37a39f",
+      "retrieved_sha256": "19424a317356e85f5846ac1dbe870f38ef74cef5d6f1a4fa6366b70e024bcbdc",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485348046927454208",
+      "reason": "existing_text_differs",
+      "existing_sha256": "5e7067b9fdca0089b16716d10ade28889a10f35d4b07c07123e74844a1fb1d74",
+      "retrieved_sha256": "45517e335f66cbbe10a52a4ad13c4a1516a1548ed758254862c68a2aee26453f",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7485332976084627458",
+      "reason": "existing_text_differs",
+      "existing_sha256": "ee931259a41455f618b4f24d40bd7fd05f085e87975748cdfb53f29c8465e82b",
+      "retrieved_sha256": "f0843669e6507f013f3d767361ccaec35f1201e7eea1f9884b6f596536ae23a1",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485317851382370304",
+      "reason": "existing_text_differs",
+      "existing_sha256": "3e7ed426768a9dc03e279a3963fba8e6762e1c55e6197875407aea94ff026cc8",
+      "retrieved_sha256": "09f58e906c977973f8d8a583c34d8d28ada205da3d8e85ce4ea9de4ad12950cb",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485302738013102080",
+      "reason": "existing_text_differs",
+      "existing_sha256": "c7d6d00fdc1de8337d8e4fa081c5cce7670509cf2a00c4ea18aefaa157969fcc",
+      "retrieved_sha256": "21e7fc291e7d41da00093802687c86d9f4d0b581edecc6b0f9ec1bab0c0eb74c",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7485287641488363520",
+      "reason": "existing_text_differs",
+      "existing_sha256": "a41c8d3890e2faf46d86fff20020c078be21ace7774eb6b72f449124be4967ae",
+      "retrieved_sha256": "9eb032f2501376dd238b7a1b4f1c5a1283433817758ed71064a8d5f1d1919036",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485272542916689921",
+      "reason": "existing_text_differs",
+      "existing_sha256": "a0a6ad1c8357f2d5bcd3c563835124d51be2cffa2aebb16272b35571a21b7ed4",
+      "retrieved_sha256": "b42fd52c3820c92007c95e52c7733bbe278097f23cd23ea36e3bf3c549713d49",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7485257447134388224",
+      "reason": "existing_text_differs",
+      "existing_sha256": "4c2edbe7783ac8fc6afa82c32c4d0ce780b911873e3e676309954470df57e238",
+      "retrieved_sha256": "dea314e34fee7fa2f993d0c54a2ebac558b5750e3bc50709b97195cc3be630a3",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485242386797768704",
+      "reason": "existing_text_differs",
+      "existing_sha256": "04354c6cfbf33964f5b3529718faeca9da3ab185d4a46b7b75d45d1689f6b964",
+      "retrieved_sha256": "01b403fe3b14a165acd623fac44f1379e344bf6099bea92d17e4c60bdf4dba23",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485227299517308928",
+      "reason": "existing_text_differs",
+      "existing_sha256": "c0fa2aa0ded091bec233529e9047f338dbf0e876049a755c62a9209d8dd89216",
+      "retrieved_sha256": "2b2e4b3a9189d8eb0dc01df33afc4e6c4a9c584f1de97501ff4e0f9f66f48206",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485212131567583232",
+      "reason": "existing_text_differs",
+      "existing_sha256": "7148a7e30c12678b2383ed1a909384c5edbf4828c54f68d407c2587be812913d",
+      "retrieved_sha256": "f5aa7520c6c094841376b2961dc772793454fba61a6b99bc1d517fc1ce581c20",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485181912999890944",
+      "reason": "existing_text_differs",
+      "existing_sha256": "2cd11b053a02f9e732d65e563cb2bdcfdadc2a5d2d74b48014bc8af5acd382f6",
+      "retrieved_sha256": "1f76f78176d16475a1380b1f9dbf27fe8257d49bcf6d041973b6341cec1ce5d9",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485574530099359744",
+      "reason": "existing_text_differs",
+      "existing_sha256": "6ce70c99caf3b0878a70214ec07d154fa9abd85ddc94c80ce70a9e391a72d5ee",
+      "retrieved_sha256": "b0aaea13a3501ce19ecc004825f68c39eb9de65dd00b7ab7feb539298c393a7d",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7485544297736626177",
+      "reason": "existing_text_differs",
+      "existing_sha256": "a5c845707f273b51819016efb05377af9bddc317cba547f5b77c0b52e9f5ddb4",
+      "retrieved_sha256": "72d605e7fedbd271712af991848d78d30c2caa19d2def745490bdd213bd82aae",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486525792374468608",
+      "reason": "existing_text_differs",
+      "existing_sha256": "6e53b004c26dfdb91af46d23f89564347807c7f68cd8109938888ff486502c3f",
+      "retrieved_sha256": "be61a48e7635f43bce38f2c103b460d432b9c12c8de7f885e59bc0480405e2bb",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486510683631595520",
+      "reason": "existing_text_differs",
+      "existing_sha256": "c7a24e2428d82f6c1b652a98cdfdc0bb8002b638c1ddaad1578e0053fc9fdd3d",
+      "retrieved_sha256": "c6bb58f8dbbbb508a1e29a562d4f37eb3176235f3c034646f91dfeea27302769",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486495592114954240",
+      "reason": "existing_text_differs",
+      "existing_sha256": "849487ff338d8a8383935b244c2189afba9f3cba9eb520327b4818e33dbd33cc",
+      "retrieved_sha256": "bdd887eea81cc5241787ad541304470eb1cf0c87ec11915dfb1860111aeeeaba",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486495585215119360",
+      "reason": "existing_text_differs",
+      "existing_sha256": "b457de6ac8604ff5262f22945a80383102a7ccbda006e7b7e2411cc968da96d3",
+      "retrieved_sha256": "13fb8f2a07bde5008a0f79c06920202ae5fb09c944810636377d2fd9e836732d",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486465416308035584",
+      "reason": "existing_text_differs",
+      "existing_sha256": "a2d40f384a343fb9cef8d0c2379c3c45c7e0be602eccfea55af56cc614292863",
+      "retrieved_sha256": "b28bf188f931c754d6851e03c5c167b9eb1f77008cc6e885571783c9962e2f2e",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486450316943577088",
+      "reason": "existing_text_differs",
+      "existing_sha256": "325ec58ee1b461522d9c292b5a9dda64488d512f6337c9122074b9b6aeee7bff",
+      "retrieved_sha256": "58770ca89a8d2601696910d4f845e221fdb0d684cca39be3ac00da52a3d9caf1",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486420114985103360",
+      "reason": "existing_text_differs",
+      "existing_sha256": "6dee6d7fc798b1b137a93f70ca51f64785b07d85d05e538dc11809e3a747f176",
+      "retrieved_sha256": "f87c3bcb746595efb53a5d96627c34b4731eb336014942951521cf993ff72c6d",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486405002694000640",
+      "reason": "existing_text_differs",
+      "existing_sha256": "de5c7002972875505e549ce4fad76f0ae56c848400dca5a39df258381b10f5cb",
+      "retrieved_sha256": "b040aee87c48f5cbe8718b08d163f738713089d717ac94719920f07d9055f3e5",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7486389900410335232",
+      "reason": "existing_text_differs",
+      "existing_sha256": "c702fc3871e9827305d23a91bdd9e4904ac209b7ccf7a5c2fa4d796765a13496",
+      "retrieved_sha256": "721b5c203e08cf356951897fe5a3816aa72d93b102cff0585617f03e1612ef8f",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486374802853810177",
+      "reason": "existing_text_differs",
+      "existing_sha256": "17f0326198aa439133cc6e1ccc620095a493e3b5b53e0e2813d602b60560c9d5",
+      "retrieved_sha256": "16bac9ce2acd30859649db540f9b57e90ae29edcea226743044897cd12e897ca",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486359707830427648",
+      "reason": "existing_text_differs",
+      "existing_sha256": "3df639ef4412660bd02d68deb40e4933a30bb2c900a359d845a2bf1666172610",
+      "retrieved_sha256": "577d9ff95efd99ec3ab7cb42a0dd78acdf3c9e8f2f26b026bb4f98aeff89252b",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486344605282582529",
+      "reason": "existing_text_differs",
+      "existing_sha256": "338d6074b12a31077c73d6b57eaa6a7cc88734fd99f57e9346542f808d74b5e5",
+      "retrieved_sha256": "f7098e1521b3831400e3bdbb44da581d0000ba97db2ae971ee6297ac0d9dddbb",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486329521206632449",
+      "reason": "existing_text_differs",
+      "existing_sha256": "94ae4b07114caf1a1caa41fcc540099d0e525c0538bb603182e5dfe052fe2ade",
+      "retrieved_sha256": "85aeafb50b3ac0686eb3b327750aa9af3a3d65b2dbe063aa8847e34fd28bc72a",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486888175190319106",
+      "reason": "existing_text_differs",
+      "existing_sha256": "b9e1a71fdd24db2875f8ae23aea5d5d00f737f85d4cf8ccc012556010b30e905",
+      "retrieved_sha256": "d516abfded3d91a006aaad29636d59a51074117142feb61673cad7dceb5771c0",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486873060545949697",
+      "reason": "existing_text_differs",
+      "existing_sha256": "0c33c0b0f17649b81807728d8fa1c2425cc6a149f224a2ba036508528fab16e7",
+      "retrieved_sha256": "01ead74f6b58f5ac8f0073037c66b1c512ab5638a0b7bfe06c2023426ef5c2ea",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486827796003115008",
+      "reason": "existing_text_differs",
+      "existing_sha256": "446045c14803274bfd6ab6f4e61abf5ec558738f5f992dada0ce02c4b922edd6",
+      "retrieved_sha256": "0e8968fb1bdf02ce27482e1a8397008ae484ca6d4ac5a93e429623be899e7f1d",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486812689797775360",
+      "reason": "existing_text_differs",
+      "existing_sha256": "a1d55be6ae18d5b98e1261ae4702782ff1c78d988f67a5e682c1f562bc486843",
+      "retrieved_sha256": "5e731c6d349c8e092c4142c19864b72334fed5cfbdd22504147b9a1444f63cfc",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486797578638966784",
+      "reason": "existing_text_differs",
+      "existing_sha256": "4cffdfc36868899be601afa28b46ea02a1b74ff4fdffc0614e966f0c6296ed41",
+      "retrieved_sha256": "e6529ed829f4087b88e48af447f1eaf7b5f139acf3329c9537a66820977f0aa8",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486782486522511361",
+      "reason": "existing_text_differs",
+      "existing_sha256": "81f2ece079237a2a73e2d2d1ad4b65303169ec6329b271daab1a9fc12ab90d0d",
+      "retrieved_sha256": "5b7bc6218b06dd1b7be9d9eaac6bb8ce053ce7675a937e73296acb2d68316c98",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486767401611730944",
+      "reason": "existing_text_differs",
+      "existing_sha256": "40fb805c1f1251991bb8f28aa3ceb81a242d2d1a97012330be642d499d11430b",
+      "retrieved_sha256": "91ad7e5b4804b24eca43eebd69213c680e5919f7159102acbbf4f171dca2eef5",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7486752283079286784",
+      "reason": "existing_text_differs",
+      "existing_sha256": "d95036367cbf5541d5bc3d010dda662e6652d1ca39810b239774df01cc650d18",
+      "retrieved_sha256": "aaa4472a90585e169e46ea066dab25df0cd44bdd0d4a1a9b695dd4000ba95a6e",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486737202366906368",
+      "reason": "existing_text_differs",
+      "existing_sha256": "66315a7794c0e5da123ccbc84b3b2d56dd49224c510409d4f20aa0785e907ecb",
+      "retrieved_sha256": "e54b8013d3c403509b54c397b06fd289166fc139dcee5c2e867e41c9d08a90f0",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486722081103970304",
+      "reason": "existing_text_differs",
+      "existing_sha256": "31436a90530868235bf3a5ca331b05548a317259a72c8e200c4cefc667dcbcdb",
+      "retrieved_sha256": "ccccd01d63a421401afa182e52c9a552f4e98eeffe3f7f7e0530f840bae705a1",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7486706985179004928",
+      "reason": "existing_text_differs",
+      "existing_sha256": "446363cd416047080156382de5ad2049b0cf8fd82f2e6a627e87a8c37b3f4c96",
+      "retrieved_sha256": "220cad9c9468e59e04ef520fdcfca7bdb35d1c3d6b82c32a1fdbd41a1ca19036",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486691895189000192",
+      "reason": "existing_text_differs",
+      "existing_sha256": "48a6b67c5f4316274165df7ac57b1fde8612ff3fdb0a494725a06d5a85604eb0",
+      "retrieved_sha256": "bac54c45009428a2c6f530cdf632d2fabc4e62ad23b9df42b1ac2d126d39675a",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486676779907153920",
+      "reason": "existing_text_differs",
+      "existing_sha256": "27e1aa53d5485b36f8c229ebb09fef53d4b1b4a13f437123a93f5d4bdb58d915",
+      "retrieved_sha256": "aea8bece356230fa7494ef72fb34bb991d129a33ea0ee36a3170ef2c084b5c3e",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486661674012385281",
+      "reason": "existing_text_differs",
+      "existing_sha256": "586f3ca547211ea521bc4ea0c2c0f2747f79fb4903794435758386f55b2ed909",
+      "retrieved_sha256": "5472e968d9cb5e7d76e1c76e0171e23498dbfc2ea629a9c45d847f19f445a1ad",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486646560634736641",
+      "reason": "existing_text_differs",
+      "existing_sha256": "a9104d2b55c7639a47a69605229d1623f169b0ac243990b4d421e574420acf0f",
+      "retrieved_sha256": "af0703210d1e210e654b5d95324e457f1a8a39fb5cdd2e544d5b1306d0d80c00",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7486631457612865536",
+      "reason": "existing_text_differs",
+      "existing_sha256": "b564192ca3d9789776665e8b474841bef9576b0a32f3da2b81d08e17deb26d83",
+      "retrieved_sha256": "eb80e6fede7286142bd52b053a7a79f16b485bfd6fcd5d445ea1e0de4fd083bb",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "outer_whitespace_only"
+    },
+    {
+      "id": "linkedin:7509310943722414081",
+      "reason": "existing_text_differs",
+      "existing_sha256": "2df54a5316ce58cf39eca4ba873ea2659e4c924804af75b1e362a110bced45b4",
+      "retrieved_sha256": "599ab78a34234ea0920b893b0dce377e89b11e3e5987b78607b0ba9469b88273",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7509250531236909056",
+      "reason": "existing_text_differs",
+      "existing_sha256": "68e8f96da33a1d1e837393c6adbb5136b8500e5306bc4117196e2b0e68ed7628",
+      "retrieved_sha256": "2b5995b2f7f6a8bc2ad97f50dd4ed9964b81a1eb00430f5980780bcd4b84cc4c",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    },
+    {
+      "id": "linkedin:7509144829097021440",
+      "reason": "existing_text_differs",
+      "existing_sha256": "b64b8f2e7b6b15b81bde55c3d63fdf6095941c686c4df6b461ed491987d6406d",
+      "retrieved_sha256": "cfa1da777181a3d93d7a1f2cf9d5d666c1a135169bf34cce9e00de1042991a9a",
+      "resolution": "existing_text_preserved_pending_review",
+      "classification": "content_or_serialization_difference"
+    }
+  ]
+}

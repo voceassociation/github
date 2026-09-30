@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-25",
+  "retrieved_at": "2026-09-30T14:34:06.554Z",
+  "source": "Metricool LinkedIn posts",
+  "brand_id": "7090850",
+  "metrics": [
+    "LIPO02",
+    "LIPO04",
+    "LIPO06",
+    "LIPO08"
+  ],
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"rows\":[]}"
+      }
+    ],
+    "isError": false
+  }
+}
+
