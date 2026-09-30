@@ -37,4 +37,4 @@ Daily archive pages are chronological indexes; individual subject URLs are the d
 
 ## Corpus coverage
 
-1,428 archived LinkedIn texts are available at permanent individual HTML URLs and through the JSON/NDJSON corpus. The visible Academy titles are illustrative selections. Full historical completeness from March 2026 is still pending verification.
+1,443 archived LinkedIn texts are available at permanent individual HTML URLs and through the JSON/NDJSON corpus. The visible Academy titles are illustrative selections. Full historical completeness from March 2026 is still pending verification.

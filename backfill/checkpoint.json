@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-09-30T19:05:56Z",
+  "updated_at": "2026-09-30T20:23:10.700368+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -860,13 +860,13 @@
       "rows": 3
     },
     "2026-09-30": {
-      "status": "no_rows_not_proof_of_absence",
-      "rows": 0
+      "status": "rows_returned",
+      "rows": 15
     }
   },
-  "retrieved_unique_publications": 1428,
-  "newly_archived": 1070,
-  "academy_corpus_items": 1428,
+  "retrieved_unique_publications": 1443,
+  "newly_archived": 15,
+  "academy_corpus_items": 1443,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
@@ -874,15 +874,8 @@
     "Obtain authenticated LinkedIn history for dates with no connector rows.",
     "Compare connector text against LinkedIn originals and review conflicts without overwriting.",
     "Verify Adobe provenance with exact publication/asset evidence.",
-    "Recheck September 29–30 for connector lag.",
-    "Confirm IndexNow full bootstrap result after live key verification.",
-    "Monitor resumable R2 backup until all 1428 routes report backup_complete=true."
+    "Recheck September 29–30 for connector lag."
   ],
-  "text_conflict_classification": {
-    "outer_whitespace_only": 305,
-    "other": 29
-  },
-  "scope": "text_and_metadata_only_no_video_download",
   "integration": {
     "merged_into": "main",
     "pull_request": 3,
@@ -956,6 +949,16 @@
       "latest_modified_at": "2026-09-30T14:14:36.837Z",
       "verified_publications": 0,
       "disposition": "No ingestion: generic Adobe names and modification timestamps are not publication proof."
+    },
+    "current_publication_ingest": {
+      "date": "2026-09-30",
+      "verified_source": "Metricool LinkedIn connector, brand 7090850",
+      "items_added": 15,
+      "corpus_items_after": 1443,
+      "classification": "A editorial/archive",
+      "static_pages_created": 15,
+      "daily_archive": "archive/2026-09-30.html",
+      "completed_at": "2026-09-30T20:23:11.217179+00:00"
     }
   }
 }
