@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-09-30T17:31:00Z",
+  "updated_at": "2026-09-30T18:16:00Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -887,7 +887,7 @@
     "merged_into": "main",
     "pull_request": 3,
     "merge_commit": "cb66dce1c40f07282b275482f801e8a350dc5f0a",
-    "indexnow_check": "full_bootstrap_retriggered_pending_result",
+    "indexnow_check": "failed_403_key_verification_even_with_live_root_key",
     "live_deployment": "1428_article_pages_and_sample_verified_publicly",
     "linkedin_browser_session": "signed_out_metricool_connector_connected",
     "static_pages_generated": 1428,
@@ -895,16 +895,18 @@
     "verified_article": "https://voce.life/archive/2026/09/29/pendant-des-annees-une-nouvelle-signature-de-securite-imposait-un-cout-a-7510564205050241025",
     "rss_items": 1428,
     "indexnow_key": "verified_live",
-    "indexnow_retry_commit": "20bc25cb6cca1cce7e44a350be21b3ea1fffc49e",
+    "indexnow_retry_commit": "fab67c8f0bb0a1c3614798a189cd1771b5bdaaa3",
     "r2_backup": {
-      "status": "syncing",
+      "status": "syncing_stale_manifest",
       "manifest_synced_at": "2026-09-30T15:00:48.996Z",
       "manifest_article_routes": 17,
       "current_article_routes": 1428,
       "issue": "Previous monolithic sync exceeded practical per-invocation R2 work after corpus expansion.",
       "remediation": "Resumable 150-route batches with persistent cursor deployed.",
       "remediation_commit": "5f303ffb9dbdb8a58a5fabfcc3049d5663142037",
-      "next_check": "Wait for scheduled batch; healthy only when recent synced_at and backup_complete=true."
+      "next_check": "Confirm deployment, then verify cursor and synced_at advance after the next scheduled event.",
+      "second_remediation": "Unified queue capped at 40 total objects per scheduled run.",
+      "second_remediation_commit": "339bfc15199956c0f3307202297a95631ead3df9"
     },
     "research_registry": {
       "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
@@ -921,6 +923,18 @@
       "recovered_reel_id": "1065268476121681",
       "full_text_saved": true,
       "ingestion_status": "pending exact publication timestamp and cross-platform duplicate reconciliation"
+    },
+    "indexnow_workflow_run": "https://github.com/voceassociation/github/actions/runs/36757260898",
+    "indexnow_error": {
+      "errorCode": "UserForbiddedToAccessSite",
+      "message": "User is unauthorized to access the site. Please verify the site using the key and try again",
+      "tested_endpoints": [
+        "https://api.indexnow.org/indexnow",
+        "https://www.bing.com/indexnow"
+      ],
+      "root_key_url": "https://voce.life/609ed2cfb745919a5e1948a1bdce3b66.txt",
+      "root_key_publicly_readable": true,
+      "likely_next_action": "Inspect Cloudflare security/bot rules for the key URL; IndexNow verification crawler may be blocked before or at the Worker."
     }
   }
 }
