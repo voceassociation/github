@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>À 10 h, une procédure interne est retirée parce qu&#39;elle n&#39;est plus valide. À 10 h 03, un collaborateur interroge l&#39;assistant IA. La réponse cite pourtant l&#39;ancienne procédure. — VOCE</title>
+<meta name="description" content="Le modèle n&#39;a rien inventé. Il a retrouvé exactement ce qu&#39;on lui avait donné à retrouver.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://voce.life/archive/2026/09/24/a-10-h-une-procedure-interne-est-retiree-parce-qu-elle-n-est-plus-valide-7508752242653503488">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="VOCE">
+<meta property="og:title" content="À 10 h, une procédure interne est retirée parce qu&#39;elle n&#39;est plus valide. À 10 h 03, un collaborateur interroge l&#39;assistant IA. La réponse cite pourtant l&#39;ancienne procédure.">
+<meta property="og:description" content="Le modèle n&#39;a rien inventé. Il a retrouvé exactement ce qu&#39;on lui avait donné à retrouver.">
+<meta property="og:url" content="https://voce.life/archive/2026/09/24/a-10-h-une-procedure-interne-est-retiree-parce-qu-elle-n-est-plus-valide-7508752242653503488">
+<meta property="article:published_time" content="2026-09-24T07:00:51+02:00">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"À 10 h, une procédure interne est retirée parce qu'elle n'est plus valide. À 10 h 03, un collaborateur interroge l'assistant IA. La réponse cite pourtant l'ancienne procédure.","datePublished":"2026-09-24T07:00:51+02:00","dateModified":"2026-09-24T07:00:51+02:00","author":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"publisher":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"copyrightHolder":{"@type":"Organization","name":"VOCE Association"},"copyrightNotice":"Copyright © VOCE Association. All rights reserved.","mainEntityOfPage":"https://voce.life/archive/2026/09/24/a-10-h-une-procedure-interne-est-retiree-parce-qu-elle-n-est-plus-valide-7508752242653503488","url":"https://voce.life/archive/2026/09/24/a-10-h-une-procedure-interne-est-retiree-parce-qu-elle-n-est-plus-valide-7508752242653503488","sameAs":"https://www.linkedin.com/feed/update/urn:li:ugcPost:7508752242653503488","inLanguage":"fr","articleBody":"À 10 h, une procédure interne est retirée parce qu'elle n'est plus valide. À 10 h 03, un collaborateur interroge l'assistant IA. La réponse cite pourtant l'ancienne procédure.\n\nLe modèle n'a rien inventé. Il a retrouvé exactement ce qu'on lui avait donné à retrouver.\n\nLa documentation Azure AI Search montre pourquoi ce cas est possible. Avec un indexeur Azure SQL, la synchronisation n'est pas temps réel: une table peut être réindexée au maximum toutes les cinq minutes. Pour aller plus vite, Microsoft recommande de pousser directement les lignes mises à jour vers l'index.\n\nLa suppression est plus délicate encore.\n\nAvec le suivi dit \"high water mark\", fondé sur une colonne de version ou d'horodatage, Azure AI Search repère les ajouts et modifications. Mais si une ligne est supprimée physiquement, l'indexeur ne peut pas déduire de son absence qu'il faut également supprimer le document déjà présent dans l'index.\n\nIl faut donc prévoir la révocation. Microsoft documente notamment le \"soft delete\": la ligne reste temporairement dans la source avec un marqueur tel que \"IsDeleted=true\", que l'indexeur utilise pour retirer le document correspondant. Le suivi intégré des changements SQL peut, lui, détecter les suppressions sous certaines conditions.\n\nCe détail d'architecture change la nature du risque.\n\nUn RAG peut restituer fidèlement une procédure RH abrogée, un tarif retiré, une clause remplacée ou une autorisation révoquée. La réponse peut être parfaitement fondée sur sa source et néanmoins obsolète au moment où elle est utilisée.\n\nLa fiabilité ne dépend donc pas seulement de la provenance. Elle dépend aussi de l'état de validité de la source au moment précis de la réponse.\n\nULTRA®\n\nUn système documentaire stocke des contenus. Un système de connaissance gouverné doit également savoir quand ils cessent d'être utilisables.\n\nPour un RAG d'entreprise, la fraîcheur devient alors une propriété mesurable: date de dernière synchronisation, délai maximal de propagation d'une modification, mécanisme de suppression, contrôle qu'un contenu révoqué n'est plus récupérable.\n\nC'est ici que la gouvernance rejoint l'architecture. Une source officielle ne suffit pas si l'index conserve une version devenue caduque.\n\nUne réponse fiable doit permettre de savoir d'où vient l'information, quand elle a été synchronisée et combien de temps le système met à retirer ce que l'organisation vient de révoquer.\n\nLa capacité d'oubli devient ainsi une propriété de sécurité.\n\nSARASTRO\n\nUne mémoire institutionnelle n'est fiable que si elle sait aussi effacer ce qui n'a plus autorité.\n\nSources\n\nMicrosoft Learn, Azure AI Search, Azure SQL Indexer, mise à jour août 2026.\n\n#VOCEASSOCIATION #AIGovernance #RAG #AzureAI #KnowledgeGovernance #GenAI","isPartOf":{"@type":"CollectionPage","@id":"https://voce.life/archive/2026-09-24"}}</script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Aller au contenu</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="Navigation principale"><a href="/research">Research</a><a href="/standards">Standards</a><a href="/publications">Publications</a><a class="keep" href="/about">About</a></nav></div></header>
+<main id="main-content">
+<section class="topic-hero"><div class="wrap">
+<div class="topic-kicker">Corpus VOCE · 24 septembre 2026</div>
+<h1 class="topic-title">À 10 h, une procédure interne est retirée parce qu&#39;elle n&#39;est plus valide. À 10 h 03, un collaborateur interroge l&#39;assistant IA. La réponse cite pourtant l&#39;ancienne procédure.</h1>
+<p class="topic-deck">Le modèle n&#39;a rien inventé. Il a retrouvé exactement ce qu&#39;on lui avait donné à retrouver.</p>
+<div class="topic-meta"><span>VOCE Association</span><span>07:00</span><span>Archive canonique</span></div>
+</div></section>
+<section class="topic-body"><div class="wrap topic-layout">
+<aside class="topic-nav"><div class="topic-nav-label">Corpus</div><a href="/archive/2026-09-24">24 septembre 2026</a><a href="/archive">Toutes les archives</a><a href="/publications">Publications</a></aside>
+<div class="longform">
+<article class="chapter" data-publication-id="urn:li:ugcPost:7508752242653503488">
+<div class="chapter-no">VOCE</div>
+<p class="signal">Publié le 24 septembre 2026 à 07:00 · <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7508752242653503488" target="_blank" rel="noopener">Publication originale</a></p>
+<p>Le modèle n&#39;a rien inventé. Il a retrouvé exactement ce qu&#39;on lui avait donné à retrouver.</p>
+<p>La documentation Azure AI Search montre pourquoi ce cas est possible. Avec un indexeur Azure SQL, la synchronisation n&#39;est pas temps réel: une table peut être réindexée au maximum toutes les cinq minutes. Pour aller plus vite, Microsoft recommande de pousser directement les lignes mises à jour vers l&#39;index.</p>
+<p>La suppression est plus délicate encore.</p>
+<p>Avec le suivi dit &quot;high water mark&quot;, fondé sur une colonne de version ou d&#39;horodatage, Azure AI Search repère les ajouts et modifications. Mais si une ligne est supprimée physiquement, l&#39;indexeur ne peut pas déduire de son absence qu&#39;il faut également supprimer le document déjà présent dans l&#39;index.</p>
+<p>Il faut donc prévoir la révocation. Microsoft documente notamment le &quot;soft delete&quot;: la ligne reste temporairement dans la source avec un marqueur tel que &quot;IsDeleted=true&quot;, que l&#39;indexeur utilise pour retirer le document correspondant. Le suivi intégré des changements SQL peut, lui, détecter les suppressions sous certaines conditions.</p>
+<p>Ce détail d&#39;architecture change la nature du risque.</p>
+<p>Un RAG peut restituer fidèlement une procédure RH abrogée, un tarif retiré, une clause remplacée ou une autorisation révoquée. La réponse peut être parfaitement fondée sur sa source et néanmoins obsolète au moment où elle est utilisée.</p>
+<p>La fiabilité ne dépend donc pas seulement de la provenance. Elle dépend aussi de l&#39;état de validité de la source au moment précis de la réponse.</p>
+<p>ULTRA®</p>
+<p>Un système documentaire stocke des contenus. Un système de connaissance gouverné doit également savoir quand ils cessent d&#39;être utilisables.</p>
+<p>Pour un RAG d&#39;entreprise, la fraîcheur devient alors une propriété mesurable: date de dernière synchronisation, délai maximal de propagation d&#39;une modification, mécanisme de suppression, contrôle qu&#39;un contenu révoqué n&#39;est plus récupérable.</p>
+<p>C&#39;est ici que la gouvernance rejoint l&#39;architecture. Une source officielle ne suffit pas si l&#39;index conserve une version devenue caduque.</p>
+<p>Une réponse fiable doit permettre de savoir d&#39;où vient l&#39;information, quand elle a été synchronisée et combien de temps le système met à retirer ce que l&#39;organisation vient de révoquer.</p>
+<p>La capacité d&#39;oubli devient ainsi une propriété de sécurité.</p>
+<p>SARASTRO</p>
+<p>Une mémoire institutionnelle n&#39;est fiable que si elle sait aussi effacer ce qui n&#39;a plus autorité.</p>
+<p>Sources</p>
+<p>Microsoft Learn, Azure AI Search, Azure SQL Indexer, mise à jour août 2026.</p>
+<p>#VOCEASSOCIATION #AIGovernance #RAG #AzureAI #KnowledgeGovernance #GenAI</p>
+</article>
+<section class="chapter"><div class="chapter-no">VOCE Academy</div><h2>Continuer</h2><p><a href="/archive/2026/09/24/le-chirurgien-a-retire-la-tumeur-et-le-scanner-ne-montre-aucune-metastas-7508767383663140865">← Le chirurgien a retiré la tumeur et le scanner ne montre aucune métastase. Pourtant, quelques semaines plus tard, le sang peut encore contenir des fragments d&#39;ADN provenant du cancer.</a><br><a href="/archive/2026/09/24/unit-42-continuous-frontier-ai-defense-le-pentest-vient-de-perdre-sa-dat-7508737128139366401">Unit 42 Continuous Frontier AI Defense: le pentest vient de perdre sa date de fin →</a></p><p class="signal">Ce texte appartient au corpus pédagogique et éditorial de VOCE Association. Lecture, découverte et citation sont publiques; les droits sur le texte et le corpus restent détenus par VOCE Association, sauf mention contraire. <a href="/CORPUS_RIGHTS.txt">Droits du corpus</a>.</p></section>
+</div></div></section>
+</main>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/publications">Publications</a> · <a href="/archive">Archive</a> · © 2026 VOCE Association</div></div></div></div></footer>
+</body>
+</html>

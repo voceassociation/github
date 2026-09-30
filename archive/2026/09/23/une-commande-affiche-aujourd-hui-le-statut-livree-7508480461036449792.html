@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Une commande affiche aujourd&#39;hui le statut &quot;livrée&quot;. — VOCE</title>
+<meta name="description" content="Cette information paraît suffisante.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://voce.life/archive/2026/09/23/une-commande-affiche-aujourd-hui-le-statut-livree-7508480461036449792">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="VOCE">
+<meta property="og:title" content="Une commande affiche aujourd&#39;hui le statut &quot;livrée&quot;.">
+<meta property="og:description" content="Cette information paraît suffisante.">
+<meta property="og:url" content="https://voce.life/archive/2026/09/23/une-commande-affiche-aujourd-hui-le-statut-livree-7508480461036449792">
+<meta property="article:published_time" content="2026-09-23T13:00:49+02:00">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Une commande affiche aujourd'hui le statut \"livrée\".","datePublished":"2026-09-23T13:00:49+02:00","dateModified":"2026-09-23T13:00:49+02:00","author":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"publisher":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"copyrightHolder":{"@type":"Organization","name":"VOCE Association"},"copyrightNotice":"Copyright © VOCE Association. All rights reserved.","mainEntityOfPage":"https://voce.life/archive/2026/09/23/une-commande-affiche-aujourd-hui-le-statut-livree-7508480461036449792","url":"https://voce.life/archive/2026/09/23/une-commande-affiche-aujourd-hui-le-statut-livree-7508480461036449792","sameAs":"https://www.linkedin.com/feed/update/urn:li:ugcPost:7508480461036449792","inLanguage":"fr","articleBody":"Une commande affiche aujourd'hui le statut \"livrée\".\n\nCette information paraît suffisante.\n\nElle efface pourtant presque toute son histoire.\n\nLa commande a été créée à 9h12. Le paiement a été accepté. Le stock réservé. Un entrepôt l'a préparée. Le transporteur l'a prise en charge. Une première livraison a échoué. La seconde a réussi.\n\nUne base traditionnelle peut conserver l'état actuel.\n\nUne architecture événementielle conserve également les événements qui ont conduit à cet état.\n\nChaque événement décrit quelque chose qui s'est produit: \"paiement accepté\", \"colis expédié\", \"client remboursé\".\n\nDes systèmes comme Apache Kafka organisent ces événements dans des journaux appelés topics.\n\nIls sont eux-mêmes divisés en partitions.\n\nÀ l'intérieur d'une partition, chaque événement reçoit une position, appelée offset. Un consommateur peut lire jusqu'à l'offset 18.742, s'arrêter puis reprendre ensuite à 18.743.\n\nPlusieurs applications peuvent ainsi observer le même flux indépendamment.\n\nLa comptabilité consomme l'événement de paiement. La logistique réagit à la réservation du stock. Un système de fraude analyse la transaction. Un agent d'IA peut recevoir l'événement et décider s'il doit intervenir.\n\nL'émetteur n'a pas besoin de connaître tous ces consommateurs.\n\nCette séparation produit une propriété importante: ajouter demain un nouveau système ne nécessite pas forcément de modifier celui qui a créé l'événement.\n\nEt puisque les événements restent conservés pendant une durée définie, un nouveau consommateur peut parfois rejouer le passé.\n\nUne application déployée aujourd'hui peut donc reconstruire ce qui s'est produit hier.\n\nL'entreprise ne possède plus uniquement des tables décrivant son état présent.\n\nElle possède progressivement une chronologie exploitable de son activité.\n\nULTRA®\n\nUne partition Kafka ne garantit l'ordre qu'à l'intérieur de cette partition.\n\nCe détail décide de l'architecture.\n\nSi tous les événements d'une même commande utilisent son identifiant comme clé, ils sont dirigés vers la même partition et conservent leur ordre relatif. Mais augmenter le nombre de partitions modifie la distribution et peut compliquer cette propriété.\n\nAutre piège: un consommateur peut traiter un événement puis tomber avant d'enregistrer son nouvel offset. Au redémarrage, il peut recevoir le même événement une seconde fois.\n\nL'événement \"envoyer un courriel\" crée alors deux courriels. \"Débiter le compte\" peut devenir beaucoup plus grave.\n\nConseil: concevoir les consommateurs comme idempotents et donner aux événements un identifiant stable permettant de reconnaître un traitement déjà effectué.\n\nDans une architecture événementielle, \"au moins une fois\" signifie qu'un système robuste doit considérer la répétition comme un comportement normal, pas comme une anomalie.","isPartOf":{"@type":"CollectionPage","@id":"https://voce.life/archive/2026-09-23"}}</script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Aller au contenu</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="Navigation principale"><a href="/research">Research</a><a href="/standards">Standards</a><a href="/publications">Publications</a><a class="keep" href="/about">About</a></nav></div></header>
+<main id="main-content">
+<section class="topic-hero"><div class="wrap">
+<div class="topic-kicker">Corpus VOCE · 23 septembre 2026</div>
+<h1 class="topic-title">Une commande affiche aujourd&#39;hui le statut &quot;livrée&quot;.</h1>
+<p class="topic-deck">Cette information paraît suffisante.</p>
+<div class="topic-meta"><span>VOCE Association</span><span>13:00</span><span>Archive canonique</span></div>
+</div></section>
+<section class="topic-body"><div class="wrap topic-layout">
+<aside class="topic-nav"><div class="topic-nav-label">Corpus</div><a href="/archive/2026-09-23">23 septembre 2026</a><a href="/archive">Toutes les archives</a><a href="/publications">Publications</a></aside>
+<div class="longform">
+<article class="chapter" data-publication-id="urn:li:ugcPost:7508480461036449792">
+<div class="chapter-no">VOCE</div>
+<p class="signal">Publié le 23 septembre 2026 à 13:00 · <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7508480461036449792" target="_blank" rel="noopener">Publication originale</a></p>
+<p>Cette information paraît suffisante.</p>
+<p>Elle efface pourtant presque toute son histoire.</p>
+<p>La commande a été créée à 9h12. Le paiement a été accepté. Le stock réservé. Un entrepôt l&#39;a préparée. Le transporteur l&#39;a prise en charge. Une première livraison a échoué. La seconde a réussi.</p>
+<p>Une base traditionnelle peut conserver l&#39;état actuel.</p>
+<p>Une architecture événementielle conserve également les événements qui ont conduit à cet état.</p>
+<p>Chaque événement décrit quelque chose qui s&#39;est produit: &quot;paiement accepté&quot;, &quot;colis expédié&quot;, &quot;client remboursé&quot;.</p>
+<p>Des systèmes comme Apache Kafka organisent ces événements dans des journaux appelés topics.</p>
+<p>Ils sont eux-mêmes divisés en partitions.</p>
+<p>À l&#39;intérieur d&#39;une partition, chaque événement reçoit une position, appelée offset. Un consommateur peut lire jusqu&#39;à l&#39;offset 18.742, s&#39;arrêter puis reprendre ensuite à 18.743.</p>
+<p>Plusieurs applications peuvent ainsi observer le même flux indépendamment.</p>
+<p>La comptabilité consomme l&#39;événement de paiement. La logistique réagit à la réservation du stock. Un système de fraude analyse la transaction. Un agent d&#39;IA peut recevoir l&#39;événement et décider s&#39;il doit intervenir.</p>
+<p>L&#39;émetteur n&#39;a pas besoin de connaître tous ces consommateurs.</p>
+<p>Cette séparation produit une propriété importante: ajouter demain un nouveau système ne nécessite pas forcément de modifier celui qui a créé l&#39;événement.</p>
+<p>Et puisque les événements restent conservés pendant une durée définie, un nouveau consommateur peut parfois rejouer le passé.</p>
+<p>Une application déployée aujourd&#39;hui peut donc reconstruire ce qui s&#39;est produit hier.</p>
+<p>L&#39;entreprise ne possède plus uniquement des tables décrivant son état présent.</p>
+<p>Elle possède progressivement une chronologie exploitable de son activité.</p>
+<p>ULTRA®</p>
+<p>Une partition Kafka ne garantit l&#39;ordre qu&#39;à l&#39;intérieur de cette partition.</p>
+<p>Ce détail décide de l&#39;architecture.</p>
+<p>Si tous les événements d&#39;une même commande utilisent son identifiant comme clé, ils sont dirigés vers la même partition et conservent leur ordre relatif. Mais augmenter le nombre de partitions modifie la distribution et peut compliquer cette propriété.</p>
+<p>Autre piège: un consommateur peut traiter un événement puis tomber avant d&#39;enregistrer son nouvel offset. Au redémarrage, il peut recevoir le même événement une seconde fois.</p>
+<p>L&#39;événement &quot;envoyer un courriel&quot; crée alors deux courriels. &quot;Débiter le compte&quot; peut devenir beaucoup plus grave.</p>
+<p>Conseil: concevoir les consommateurs comme idempotents et donner aux événements un identifiant stable permettant de reconnaître un traitement déjà effectué.</p>
+<p>Dans une architecture événementielle, &quot;au moins une fois&quot; signifie qu&#39;un système robuste doit considérer la répétition comme un comportement normal, pas comme une anomalie.</p>
+</article>
+<section class="chapter"><div class="chapter-no">VOCE Academy</div><h2>Continuer</h2><p><a href="/archive/2026/09/23/los-angeles-2026-7508495558475595776">← Los Angeles, 2026.</a><br><a href="/archive/2026/09/23/apres-une-humiliation-une-rupture-ou-une-periode-de-stress-le-probleme-n-7508465358383546368">Après une humiliation, une rupture ou une période de stress, le problème n&#39;est pas seulement le souvenir. →</a></p><p class="signal">Ce texte appartient au corpus pédagogique et éditorial de VOCE Association. Lecture, découverte et citation sont publiques; les droits sur le texte et le corpus restent détenus par VOCE Association, sauf mention contraire. <a href="/CORPUS_RIGHTS.txt">Droits du corpus</a>.</p></section>
+</div></div></section>
+</main>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/publications">Publications</a> · <a href="/archive">Archive</a> · © 2026 VOCE Association</div></div></div></div></footer>
+</body>
+</html>

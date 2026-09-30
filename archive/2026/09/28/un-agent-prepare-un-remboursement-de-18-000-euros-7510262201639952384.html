@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Un agent prépare un remboursement de 18.000 euros. — VOCE</title>
+<meta name="description" content="Il possède l&#39;identité nécessaire pour appeler l&#39;API financière.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://voce.life/archive/2026/09/28/un-agent-prepare-un-remboursement-de-18-000-euros-7510262201639952384">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="VOCE">
+<meta property="og:title" content="Un agent prépare un remboursement de 18.000 euros.">
+<meta property="og:description" content="Il possède l&#39;identité nécessaire pour appeler l&#39;API financière.">
+<meta property="og:url" content="https://voce.life/archive/2026/09/28/un-agent-prepare-un-remboursement-de-18-000-euros-7510262201639952384">
+<meta property="article:published_time" content="2026-09-28T11:00:51+02:00">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Un agent prépare un remboursement de 18.000 euros.","datePublished":"2026-09-28T11:00:51+02:00","dateModified":"2026-09-28T11:00:51+02:00","author":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"publisher":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"copyrightHolder":{"@type":"Organization","name":"VOCE Association"},"copyrightNotice":"Copyright © VOCE Association. All rights reserved.","mainEntityOfPage":"https://voce.life/archive/2026/09/28/un-agent-prepare-un-remboursement-de-18-000-euros-7510262201639952384","url":"https://voce.life/archive/2026/09/28/un-agent-prepare-un-remboursement-de-18-000-euros-7510262201639952384","sameAs":"https://www.linkedin.com/feed/update/urn:li:ugcPost:7510262201639952384","inLanguage":"fr","articleBody":"Un agent prépare un remboursement de 18.000 euros.\n\nIl possède l'identité nécessaire pour appeler l'API financière.\n\nMais identité et autorisation sont deux problèmes différents.\n\nL'entreprise peut accepter les remboursements jusqu'à 5.000 euros, exiger une validation humaine au-delà, interdire certains comptes et appliquer une règle différente lorsqu'une anomalie de fraude existe.\n\nCes décisions pourraient être dispersées dans le code de plusieurs applications.\n\nUne autre architecture les extrait.\n\nOpen Policy Agent, ou OPA, est un moteur open source capable de recevoir des données sur une situation puis d'évaluer une politique pour produire une décision.\n\nL'application reste chargée d'appliquer cette décision.\n\nCette séparation crée deux composants distincts: le point de décision de politique et le point d'application.\n\nLe premier détermine ce qui est autorisé. Le second bloque ou exécute l'action.\n\nOPA peut être placé à proximité des applications afin d'éviter qu'une décision d'autorisation dépende systématiquement d'un service central distant.\n\nLes politiques et les données nécessaires à leur évaluation peuvent être distribuées sous forme de \"bundles\". Une nouvelle règle peut ainsi être propagée sans redéployer chaque application qui l'utilise.\n\nCes bundles peuvent être signés cryptographiquement. Une instance OPA configurée pour vérifier leur signature refuse d'activer un bundle dont l'authenticité n'est pas validée.\n\nLa gouvernance acquiert alors des propriétés habituellement associées au logiciel: version, distribution, test, signature et déploiement.\n\nUn autre mécanisme devient possible.\n\nOPA peut produire un identifiant unique pour chaque décision et enregistrer la version du bundle utilisée, l'entrée reçue et le résultat retourné.\n\nAprès un incident, l'entreprise peut donc rechercher davantage que \"qui avait accès?\".\n\nElle peut retrouver quelle version de quelle politique a autorisé une action précise.\n\nULTRA®\n\nUn journal de décisions peut lui-même devenir une fuite de données.\n\nPour expliquer pourquoi une opération a été autorisée, OPA peut enregistrer l'entrée utilisée par la politique. Cette entrée peut contenir identité, ressource, attributs métier ou autres informations sensibles.\n\nOPA permet donc d'effacer ou masquer certains champs avant l'expédition des journaux.\n\nMais une difficulté plus profonde apparaît dans un système distribué.\n\nDeux instances peuvent momentanément exécuter deux révisions différentes d'une politique pendant sa propagation.\n\nLa décision possède alors une dimension temporelle: \"autorisé\" ne suffit plus. Il faut savoir selon quelle révision.\n\nConseil: conserver ensemble décision_id, trace_id et révision du bundle. OPA sait relier ses décisions aux traces OpenTelemetry.\n\nUne politique sans provenance permet de connaître la règle actuelle.\n\nElle ne permet pas nécessairement de reconstruire la règle réellement appliquée au moment de l'incident.","isPartOf":{"@type":"CollectionPage","@id":"https://voce.life/archive/2026-09-28"}}</script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Aller au contenu</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="Navigation principale"><a href="/research">Research</a><a href="/standards">Standards</a><a href="/publications">Publications</a><a class="keep" href="/about">About</a></nav></div></header>
+<main id="main-content">
+<section class="topic-hero"><div class="wrap">
+<div class="topic-kicker">Corpus VOCE · 28 septembre 2026</div>
+<h1 class="topic-title">Un agent prépare un remboursement de 18.000 euros.</h1>
+<p class="topic-deck">Il possède l&#39;identité nécessaire pour appeler l&#39;API financière.</p>
+<div class="topic-meta"><span>VOCE Association</span><span>11:00</span><span>Archive canonique</span></div>
+</div></section>
+<section class="topic-body"><div class="wrap topic-layout">
+<aside class="topic-nav"><div class="topic-nav-label">Corpus</div><a href="/archive/2026-09-28">28 septembre 2026</a><a href="/archive">Toutes les archives</a><a href="/publications">Publications</a></aside>
+<div class="longform">
+<article class="chapter" data-publication-id="urn:li:ugcPost:7510262201639952384">
+<div class="chapter-no">VOCE</div>
+<p class="signal">Publié le 28 septembre 2026 à 11:00 · <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7510262201639952384" target="_blank" rel="noopener">Publication originale</a></p>
+<p>Il possède l&#39;identité nécessaire pour appeler l&#39;API financière.</p>
+<p>Mais identité et autorisation sont deux problèmes différents.</p>
+<p>L&#39;entreprise peut accepter les remboursements jusqu&#39;à 5.000 euros, exiger une validation humaine au-delà, interdire certains comptes et appliquer une règle différente lorsqu&#39;une anomalie de fraude existe.</p>
+<p>Ces décisions pourraient être dispersées dans le code de plusieurs applications.</p>
+<p>Une autre architecture les extrait.</p>
+<p>Open Policy Agent, ou OPA, est un moteur open source capable de recevoir des données sur une situation puis d&#39;évaluer une politique pour produire une décision.</p>
+<p>L&#39;application reste chargée d&#39;appliquer cette décision.</p>
+<p>Cette séparation crée deux composants distincts: le point de décision de politique et le point d&#39;application.</p>
+<p>Le premier détermine ce qui est autorisé. Le second bloque ou exécute l&#39;action.</p>
+<p>OPA peut être placé à proximité des applications afin d&#39;éviter qu&#39;une décision d&#39;autorisation dépende systématiquement d&#39;un service central distant.</p>
+<p>Les politiques et les données nécessaires à leur évaluation peuvent être distribuées sous forme de &quot;bundles&quot;. Une nouvelle règle peut ainsi être propagée sans redéployer chaque application qui l&#39;utilise.</p>
+<p>Ces bundles peuvent être signés cryptographiquement. Une instance OPA configurée pour vérifier leur signature refuse d&#39;activer un bundle dont l&#39;authenticité n&#39;est pas validée.</p>
+<p>La gouvernance acquiert alors des propriétés habituellement associées au logiciel: version, distribution, test, signature et déploiement.</p>
+<p>Un autre mécanisme devient possible.</p>
+<p>OPA peut produire un identifiant unique pour chaque décision et enregistrer la version du bundle utilisée, l&#39;entrée reçue et le résultat retourné.</p>
+<p>Après un incident, l&#39;entreprise peut donc rechercher davantage que &quot;qui avait accès?&quot;.</p>
+<p>Elle peut retrouver quelle version de quelle politique a autorisé une action précise.</p>
+<p>ULTRA®</p>
+<p>Un journal de décisions peut lui-même devenir une fuite de données.</p>
+<p>Pour expliquer pourquoi une opération a été autorisée, OPA peut enregistrer l&#39;entrée utilisée par la politique. Cette entrée peut contenir identité, ressource, attributs métier ou autres informations sensibles.</p>
+<p>OPA permet donc d&#39;effacer ou masquer certains champs avant l&#39;expédition des journaux.</p>
+<p>Mais une difficulté plus profonde apparaît dans un système distribué.</p>
+<p>Deux instances peuvent momentanément exécuter deux révisions différentes d&#39;une politique pendant sa propagation.</p>
+<p>La décision possède alors une dimension temporelle: &quot;autorisé&quot; ne suffit plus. Il faut savoir selon quelle révision.</p>
+<p>Conseil: conserver ensemble décision_id, trace_id et révision du bundle. OPA sait relier ses décisions aux traces OpenTelemetry.</p>
+<p>Une politique sans provenance permet de connaître la règle actuelle.</p>
+<p>Elle ne permet pas nécessairement de reconstruire la règle réellement appliquée au moment de l&#39;incident.</p>
+</article>
+<section class="chapter"><div class="chapter-no">VOCE Academy</div><h2>Continuer</h2><p><a href="/archive/2026/09/28/chez-certains-patients-atteints-de-parkinson-l-enzyme-lrrk2-est-anormale-7510277304011595776">← Chez certains patients atteints de Parkinson, l&#39;enzyme LRRK2 est anormalement active.</a><br><a href="/archive/2026/09/28/a-l-hopital-universitaire-de-tohoku-vingt-personnes-de-50-a-75-ans-recoi-7510247105974960130">À l&#39;hôpital universitaire de Tohoku, vingt personnes de 50 à 75 ans reçoivent pendant seize semaines un médicament inhabituel. →</a></p><p class="signal">Ce texte appartient au corpus pédagogique et éditorial de VOCE Association. Lecture, découverte et citation sont publiques; les droits sur le texte et le corpus restent détenus par VOCE Association, sauf mention contraire. <a href="/CORPUS_RIGHTS.txt">Droits du corpus</a>.</p></section>
+</div></div></section>
+</main>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/publications">Publications</a> · <a href="/archive">Archive</a> · © 2026 VOCE Association</div></div></div></div></footer>
+</body>
+</html>

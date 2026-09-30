@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Un agent prépare l&#39;arrivée d&#39;un salarié. — VOCE</title>
+<meta name="description" content="Il crée son dossier, commande son ordinateur puis attend trois jours l&#39;autorisation du responsable avant d&#39;ouvrir ses accès.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://voce.life/archive/2026/09/24/un-agent-prepare-l-arrivee-d-un-salarie-7508842880556380160">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="VOCE">
+<meta property="og:title" content="Un agent prépare l&#39;arrivée d&#39;un salarié.">
+<meta property="og:description" content="Il crée son dossier, commande son ordinateur puis attend trois jours l&#39;autorisation du responsable avant d&#39;ouvrir ses accès.">
+<meta property="og:url" content="https://voce.life/archive/2026/09/24/un-agent-prepare-l-arrivee-d-un-salarie-7508842880556380160">
+<meta property="article:published_time" content="2026-09-24T13:00:59+02:00">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Un agent prépare l'arrivée d'un salarié.","datePublished":"2026-09-24T13:00:59+02:00","dateModified":"2026-09-24T13:00:59+02:00","author":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"publisher":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"copyrightHolder":{"@type":"Organization","name":"VOCE Association"},"copyrightNotice":"Copyright © VOCE Association. All rights reserved.","mainEntityOfPage":"https://voce.life/archive/2026/09/24/un-agent-prepare-l-arrivee-d-un-salarie-7508842880556380160","url":"https://voce.life/archive/2026/09/24/un-agent-prepare-l-arrivee-d-un-salarie-7508842880556380160","sameAs":"https://www.linkedin.com/feed/update/urn:li:ugcPost:7508842880556380160","inLanguage":"fr","articleBody":"Un agent prépare l'arrivée d'un salarié.\n\nIl crée son dossier, commande son ordinateur puis attend trois jours l'autorisation du responsable avant d'ouvrir ses accès.\n\nAu deuxième jour, le serveur qui exécutait le processus tombe.\n\nQue reste-t-il?\n\nDans une application classique, il faut enregistrer explicitement l'état: étapes terminées, données reçues, attente en cours, erreurs et opérations à reprendre.\n\nL'exécution durable propose une autre architecture.\n\nTemporal, projet open source spécialisé dans ce mécanisme, conserve une histoire ordonnée des événements produits par le processus.\n\nLorsqu'un worker disparaît, un autre peut récupérer cette histoire et rejouer le code afin de reconstruire son état.\n\nLes opérations externes, appelées \"Activities\", ne sont pas simplement rejouées.\n\nSi l'historique indique qu'une activité a déjà été exécutée et terminée, son résultat enregistré est réutilisé.\n\nLe programme retrouve ainsi son état sans restaurer la mémoire vive de l'ancienne machine.\n\nCette propriété impose une contrainte inhabituelle: le code du workflow doit être déterministe.\n\nAvec le même historique, il doit produire la même séquence de commandes.\n\nLire directement l'heure du système, générer un nombre réellement aléatoire ou appeler une API depuis cette partie du code pourrait produire un résultat différent pendant le rejeu.\n\nTemporal fournit donc des primitives compatibles avec ce mécanisme et déplace les interactions non déterministes vers les Activities.\n\nUn processus peut alors attendre une minute, trois jours ou plusieurs mois sans qu'un serveur reste bloqué pendant toute cette période.\n\nL'état logique du travail survit à l'ordinateur qui l'avait commencé.\n\nPour des agents destinés à conduire des processus longs, cette propriété devient essentielle: leur mémoire opérationnelle ne peut dépendre de la durée de vie d'un processus informatique.\n\nULTRA®\n\nL'exécution durable crée un problème surprenant lors d'une mise à jour logicielle.\n\nUn workflow commencé lundi peut être encore actif lorsque son code est modifié vendredi.\n\nAu prochain rejeu, la nouvelle version doit produire des commandes compatibles avec l'histoire créée par l'ancienne.\n\nAjouter, supprimer ou déplacer certaines opérations peut sinon provoquer une erreur de non-déterminisme.\n\nTemporal propose donc des mécanismes de versionnement et permet de tester une nouvelle définition en rejouant d'anciens historiques avant son déploiement.\n\nLe passé devient littéralement un test de compatibilité du nouveau code.\n\nAutre détail: une Activity peut être relancée après un timeout ou un crash. Une opération externe doit donc rester idempotente lorsqu'elle possède des effets irréversibles.\n\nConseil: donner aux paiements, commandes ou créations de comptes une clé d'idempotence stable.\n\nUne exécution peut être durable tout en produisant deux paiements si son effet externe ne l'est pas.","isPartOf":{"@type":"CollectionPage","@id":"https://voce.life/archive/2026-09-24"}}</script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Aller au contenu</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="Navigation principale"><a href="/research">Research</a><a href="/standards">Standards</a><a href="/publications">Publications</a><a class="keep" href="/about">About</a></nav></div></header>
+<main id="main-content">
+<section class="topic-hero"><div class="wrap">
+<div class="topic-kicker">Corpus VOCE · 24 septembre 2026</div>
+<h1 class="topic-title">Un agent prépare l&#39;arrivée d&#39;un salarié.</h1>
+<p class="topic-deck">Il crée son dossier, commande son ordinateur puis attend trois jours l&#39;autorisation du responsable avant d&#39;ouvrir ses accès.</p>
+<div class="topic-meta"><span>VOCE Association</span><span>13:00</span><span>Archive canonique</span></div>
+</div></section>
+<section class="topic-body"><div class="wrap topic-layout">
+<aside class="topic-nav"><div class="topic-nav-label">Corpus</div><a href="/archive/2026-09-24">24 septembre 2026</a><a href="/archive">Toutes les archives</a><a href="/publications">Publications</a></aside>
+<div class="longform">
+<article class="chapter" data-publication-id="urn:li:ugcPost:7508842880556380160">
+<div class="chapter-no">VOCE</div>
+<p class="signal">Publié le 24 septembre 2026 à 13:00 · <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7508842880556380160" target="_blank" rel="noopener">Publication originale</a></p>
+<p>Il crée son dossier, commande son ordinateur puis attend trois jours l&#39;autorisation du responsable avant d&#39;ouvrir ses accès.</p>
+<p>Au deuxième jour, le serveur qui exécutait le processus tombe.</p>
+<p>Que reste-t-il?</p>
+<p>Dans une application classique, il faut enregistrer explicitement l&#39;état: étapes terminées, données reçues, attente en cours, erreurs et opérations à reprendre.</p>
+<p>L&#39;exécution durable propose une autre architecture.</p>
+<p>Temporal, projet open source spécialisé dans ce mécanisme, conserve une histoire ordonnée des événements produits par le processus.</p>
+<p>Lorsqu&#39;un worker disparaît, un autre peut récupérer cette histoire et rejouer le code afin de reconstruire son état.</p>
+<p>Les opérations externes, appelées &quot;Activities&quot;, ne sont pas simplement rejouées.</p>
+<p>Si l&#39;historique indique qu&#39;une activité a déjà été exécutée et terminée, son résultat enregistré est réutilisé.</p>
+<p>Le programme retrouve ainsi son état sans restaurer la mémoire vive de l&#39;ancienne machine.</p>
+<p>Cette propriété impose une contrainte inhabituelle: le code du workflow doit être déterministe.</p>
+<p>Avec le même historique, il doit produire la même séquence de commandes.</p>
+<p>Lire directement l&#39;heure du système, générer un nombre réellement aléatoire ou appeler une API depuis cette partie du code pourrait produire un résultat différent pendant le rejeu.</p>
+<p>Temporal fournit donc des primitives compatibles avec ce mécanisme et déplace les interactions non déterministes vers les Activities.</p>
+<p>Un processus peut alors attendre une minute, trois jours ou plusieurs mois sans qu&#39;un serveur reste bloqué pendant toute cette période.</p>
+<p>L&#39;état logique du travail survit à l&#39;ordinateur qui l&#39;avait commencé.</p>
+<p>Pour des agents destinés à conduire des processus longs, cette propriété devient essentielle: leur mémoire opérationnelle ne peut dépendre de la durée de vie d&#39;un processus informatique.</p>
+<p>ULTRA®</p>
+<p>L&#39;exécution durable crée un problème surprenant lors d&#39;une mise à jour logicielle.</p>
+<p>Un workflow commencé lundi peut être encore actif lorsque son code est modifié vendredi.</p>
+<p>Au prochain rejeu, la nouvelle version doit produire des commandes compatibles avec l&#39;histoire créée par l&#39;ancienne.</p>
+<p>Ajouter, supprimer ou déplacer certaines opérations peut sinon provoquer une erreur de non-déterminisme.</p>
+<p>Temporal propose donc des mécanismes de versionnement et permet de tester une nouvelle définition en rejouant d&#39;anciens historiques avant son déploiement.</p>
+<p>Le passé devient littéralement un test de compatibilité du nouveau code.</p>
+<p>Autre détail: une Activity peut être relancée après un timeout ou un crash. Une opération externe doit donc rester idempotente lorsqu&#39;elle possède des effets irréversibles.</p>
+<p>Conseil: donner aux paiements, commandes ou créations de comptes une clé d&#39;idempotence stable.</p>
+<p>Une exécution peut être durable tout en produisant deux paiements si son effet externe ne l&#39;est pas.</p>
+</article>
+<section class="chapter"><div class="chapter-no">VOCE Academy</div><h2>Continuer</h2><p><a href="/archive/2026/09/24/munich-30-aout-2026-7508857953563844608">← Munich, 30 août 2026.</a><br><a href="/archive/2026/09/24/la-menopause-n-est-pas-seulement-une-transition-reproductive-7508827779367411713">La ménopause n&#39;est pas seulement une transition reproductive. →</a></p><p class="signal">Ce texte appartient au corpus pédagogique et éditorial de VOCE Association. Lecture, découverte et citation sont publiques; les droits sur le texte et le corpus restent détenus par VOCE Association, sauf mention contraire. <a href="/CORPUS_RIGHTS.txt">Droits du corpus</a>.</p></section>
+</div></div></section>
+</main>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/publications">Publications</a> · <a href="/archive">Archive</a> · © 2026 VOCE Association</div></div></div></div></footer>
+</body>
+</html>

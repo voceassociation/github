@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Une caméra industrielle observe une chaîne de production. — VOCE</title>
+<meta name="description" content="Elle doit repérer une pièce défectueuse en quelques millisecondes.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://voce.life/archive/2026/09/18/une-camera-industrielle-observe-une-chaine-de-production-7506668528930983936">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="VOCE">
+<meta property="og:title" content="Une caméra industrielle observe une chaîne de production.">
+<meta property="og:description" content="Elle doit repérer une pièce défectueuse en quelques millisecondes.">
+<meta property="og:url" content="https://voce.life/archive/2026/09/18/une-camera-industrielle-observe-une-chaine-de-production-7506668528930983936">
+<meta property="article:published_time" content="2026-09-18T13:00:52+02:00">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Une caméra industrielle observe une chaîne de production.","datePublished":"2026-09-18T13:00:52+02:00","dateModified":"2026-09-18T13:00:52+02:00","author":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"publisher":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"copyrightHolder":{"@type":"Organization","name":"VOCE Association"},"copyrightNotice":"Copyright © VOCE Association. All rights reserved.","mainEntityOfPage":"https://voce.life/archive/2026/09/18/une-camera-industrielle-observe-une-chaine-de-production-7506668528930983936","url":"https://voce.life/archive/2026/09/18/une-camera-industrielle-observe-une-chaine-de-production-7506668528930983936","sameAs":"https://www.linkedin.com/feed/update/urn:li:ugcPost:7506668528930983936","inLanguage":"fr","articleBody":"Une caméra industrielle observe une chaîne de production.\n\nElle doit repérer une pièce défectueuse en quelques millisecondes.\n\nChaque image pourrait partir vers un centre de données, y être analysée puis revenir sous forme de décision.\n\nMais la connexion peut tomber. Les images peuvent être sensibles. Et quelques millisecondes deviennent parfois trop longues pour arrêter une machine.\n\nUne autre architecture déplace le calcul jusqu'à l'endroit où naît la donnée.\n\nC'est l'Edge AI, ou intelligence artificielle en périphérie.\n\nLe modèle fonctionne dans une caméra, une voiture, un téléphone, une machine ou un serveur local. Les données n'ont plus forcément besoin de traverser Internet. La latence diminue et certaines fonctions continuent sans réseau.\n\nCette proximité impose une contrainte physique.\n\nUn centre de données dispose d'accélérateurs puissants, de mémoire et d'énergie. Un appareil embarqué travaille parfois avec quelques watts.\n\nIl faut faire entrer le modèle dans cette enveloppe.\n\nLa quantification réduit la précision numérique de ses paramètres: des poids sur 16 bits peuvent passer à 8 ou 4 bits. L'élagage supprime des composantes peu utiles. La distillation entraîne un modèle compact à reproduire le comportement d'un plus grand.\n\nMais la taille du fichier ne révèle pas la mémoire nécessaire à son fonctionnement.\n\nPendant l'inférence, la machine charge les poids et conserve des résultats intermédiaires, les activations. Dans un transformeur, elle maintient aussi un cache KV contenant les clés et valeurs déjà calculées pour les tokens du contexte.\n\nPlus la conversation s'allonge, plus ce cache grossit.\n\nUn modèle peut donc tenir en mémoire au démarrage puis atteindre sa limite pendant son utilisation.\n\nL'Edge AI révèle une dimension rarement visible de l'intelligence artificielle: sa performance dépend aussi de la bande passante et de l'énergie nécessaire pour déplacer les données.\n\nULTRA®\n\nSur une puce périphérique, ajouter de la puissance de calcul peut ne presque rien changer.\n\nLe \"roofline model\" permet de comprendre pourquoi. Il relie débit de calcul, bande passante mémoire et intensité arithmétique. Lorsqu'une opération attend ses données depuis la mémoire, davantage de TOPS ne suppriment pas le goulot d'étranglement.\n\nLa quantification INT8 ou INT4 agit donc deux fois: elle réduit l'espace occupé par les poids et les octets à transporter.\n\nExecuTorch, projet open source de l'écosystème PyTorch, permet d'observer cette mécanique: export du graphe, quantification, délégation d'opérations à un NPU ou GPU, repli d'autres sur le CPU, puis exécution locale.\n\nConseil: avant de compresser un modèle, profiler séparément calcul et trafic mémoire.\n\nPour un transformeur, mesurer poids, activations, espaces de travail et cache KV. La taille affichée du modèle ne représente que l'une de ces consommations.\n\nUn modèle de 4 Go n'est donc pas nécessairement un modèle capable de fonctionner dans 4 Go.","isPartOf":{"@type":"CollectionPage","@id":"https://voce.life/archive/2026-09-18"}}</script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Aller au contenu</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="Navigation principale"><a href="/research">Research</a><a href="/standards">Standards</a><a href="/publications">Publications</a><a class="keep" href="/about">About</a></nav></div></header>
+<main id="main-content">
+<section class="topic-hero"><div class="wrap">
+<div class="topic-kicker">Corpus VOCE · 18 septembre 2026</div>
+<h1 class="topic-title">Une caméra industrielle observe une chaîne de production.</h1>
+<p class="topic-deck">Elle doit repérer une pièce défectueuse en quelques millisecondes.</p>
+<div class="topic-meta"><span>VOCE Association</span><span>13:00</span><span>Archive canonique</span></div>
+</div></section>
+<section class="topic-body"><div class="wrap topic-layout">
+<aside class="topic-nav"><div class="topic-nav-label">Corpus</div><a href="/archive/2026-09-18">18 septembre 2026</a><a href="/archive">Toutes les archives</a><a href="/publications">Publications</a></aside>
+<div class="longform">
+<article class="chapter" data-publication-id="urn:li:ugcPost:7506668528930983936">
+<div class="chapter-no">VOCE</div>
+<p class="signal">Publié le 18 septembre 2026 à 13:00 · <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7506668528930983936" target="_blank" rel="noopener">Publication originale</a></p>
+<p>Elle doit repérer une pièce défectueuse en quelques millisecondes.</p>
+<p>Chaque image pourrait partir vers un centre de données, y être analysée puis revenir sous forme de décision.</p>
+<p>Mais la connexion peut tomber. Les images peuvent être sensibles. Et quelques millisecondes deviennent parfois trop longues pour arrêter une machine.</p>
+<p>Une autre architecture déplace le calcul jusqu&#39;à l&#39;endroit où naît la donnée.</p>
+<p>C&#39;est l&#39;Edge AI, ou intelligence artificielle en périphérie.</p>
+<p>Le modèle fonctionne dans une caméra, une voiture, un téléphone, une machine ou un serveur local. Les données n&#39;ont plus forcément besoin de traverser Internet. La latence diminue et certaines fonctions continuent sans réseau.</p>
+<p>Cette proximité impose une contrainte physique.</p>
+<p>Un centre de données dispose d&#39;accélérateurs puissants, de mémoire et d&#39;énergie. Un appareil embarqué travaille parfois avec quelques watts.</p>
+<p>Il faut faire entrer le modèle dans cette enveloppe.</p>
+<p>La quantification réduit la précision numérique de ses paramètres: des poids sur 16 bits peuvent passer à 8 ou 4 bits. L&#39;élagage supprime des composantes peu utiles. La distillation entraîne un modèle compact à reproduire le comportement d&#39;un plus grand.</p>
+<p>Mais la taille du fichier ne révèle pas la mémoire nécessaire à son fonctionnement.</p>
+<p>Pendant l&#39;inférence, la machine charge les poids et conserve des résultats intermédiaires, les activations. Dans un transformeur, elle maintient aussi un cache KV contenant les clés et valeurs déjà calculées pour les tokens du contexte.</p>
+<p>Plus la conversation s&#39;allonge, plus ce cache grossit.</p>
+<p>Un modèle peut donc tenir en mémoire au démarrage puis atteindre sa limite pendant son utilisation.</p>
+<p>L&#39;Edge AI révèle une dimension rarement visible de l&#39;intelligence artificielle: sa performance dépend aussi de la bande passante et de l&#39;énergie nécessaire pour déplacer les données.</p>
+<p>ULTRA®</p>
+<p>Sur une puce périphérique, ajouter de la puissance de calcul peut ne presque rien changer.</p>
+<p>Le &quot;roofline model&quot; permet de comprendre pourquoi. Il relie débit de calcul, bande passante mémoire et intensité arithmétique. Lorsqu&#39;une opération attend ses données depuis la mémoire, davantage de TOPS ne suppriment pas le goulot d&#39;étranglement.</p>
+<p>La quantification INT8 ou INT4 agit donc deux fois: elle réduit l&#39;espace occupé par les poids et les octets à transporter.</p>
+<p>ExecuTorch, projet open source de l&#39;écosystème PyTorch, permet d&#39;observer cette mécanique: export du graphe, quantification, délégation d&#39;opérations à un NPU ou GPU, repli d&#39;autres sur le CPU, puis exécution locale.</p>
+<p>Conseil: avant de compresser un modèle, profiler séparément calcul et trafic mémoire.</p>
+<p>Pour un transformeur, mesurer poids, activations, espaces de travail et cache KV. La taille affichée du modèle ne représente que l&#39;une de ces consommations.</p>
+<p>Un modèle de 4 Go n&#39;est donc pas nécessairement un modèle capable de fonctionner dans 4 Go.</p>
+</article>
+<section class="chapter"><div class="chapter-no">VOCE Academy</div><h2>Continuer</h2><p><a href="/archive/2026/09/18/italie-2070-2100-7506683633504714752">← Italie, 2070-2100.</a><br><a href="/archive/2026/09/18/stanford-californie-septembre-2026-7506653426894807040">Stanford, Californie, septembre 2026. →</a></p><p class="signal">Ce texte appartient au corpus pédagogique et éditorial de VOCE Association. Lecture, découverte et citation sont publiques; les droits sur le texte et le corpus restent détenus par VOCE Association, sauf mention contraire. <a href="/CORPUS_RIGHTS.txt">Droits du corpus</a>.</p></section>
+</div></div></section>
+</main>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/publications">Publications</a> · <a href="/archive">Archive</a> · © 2026 VOCE Association</div></div></div></div></footer>
+</body>
+</html>

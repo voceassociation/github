@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Un agent met douze secondes à répondre. — VOCE</title>
+<meta name="description" content="Le modèle est-il lent?">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://voce.life/archive/2026/09/22/un-agent-met-douze-secondes-a-repondre-7508118069802799104">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="VOCE">
+<meta property="og:title" content="Un agent met douze secondes à répondre.">
+<meta property="og:description" content="Le modèle est-il lent?">
+<meta property="og:url" content="https://voce.life/archive/2026/09/22/un-agent-met-douze-secondes-a-repondre-7508118069802799104">
+<meta property="article:published_time" content="2026-09-22T13:00:49+02:00">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Un agent met douze secondes à répondre.","datePublished":"2026-09-22T13:00:49+02:00","dateModified":"2026-09-22T13:00:49+02:00","author":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"publisher":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"copyrightHolder":{"@type":"Organization","name":"VOCE Association"},"copyrightNotice":"Copyright © VOCE Association. All rights reserved.","mainEntityOfPage":"https://voce.life/archive/2026/09/22/un-agent-met-douze-secondes-a-repondre-7508118069802799104","url":"https://voce.life/archive/2026/09/22/un-agent-met-douze-secondes-a-repondre-7508118069802799104","sameAs":"https://www.linkedin.com/feed/update/urn:li:ugcPost:7508118069802799104","inLanguage":"fr","articleBody":"Un agent met douze secondes à répondre.\n\nLe modèle est-il lent?\n\nPeut-être pas.\n\nLa requête a pu passer par un moteur de recherche, récupérer six documents, appeler un modèle, déclencher un outil, attendre une API, recevoir une erreur, recommencer puis appeler une seconde fois le modèle.\n\nL'utilisateur ne voit qu'une réponse et douze secondes.\n\nL'ingénieur doit voir le trajet.\n\nC'est le rôle de l'observabilité distribuée.\n\nLorsqu'une requête entre dans un système, elle reçoit un identifiant de trace. Chaque opération importante crée ensuite un \"span\", un segment horodaté représentant une partie du travail.\n\nLa trace peut ainsi montrer 80 millisecondes dans la recherche documentaire, 1,7 seconde dans le premier appel au modèle, 6 secondes dans une API externe puis un nouvel appel après échec.\n\nLe temps total cesse d'être une boîte noire.\n\nOpenTelemetry fournit un standard open source permettant de produire et transporter traces, métriques et journaux entre systèmes.\n\nEn 2026, ses conventions sémantiques couvrent également l'IA générative.\n\nUne opération peut enregistrer le modèle appelé, le nombre de tokens d'entrée et de sortie et les appels d'outils. Le contenu des prompts, réponses ou résultats peut aussi être capturé lorsqu'on l'active explicitement.\n\nCette dernière possibilité introduit immédiatement une difficulté.\n\nLa meilleure trace pour diagnostiquer un incident peut également contenir le contrat confidentiel, le dossier médical ou le message privé qui l'a provoqué.\n\nObserver davantage peut donc créer davantage de données sensibles à protéger.\n\nÀ mesure que les agents enchaînent modèles, outils et API, leur résultat final raconte de moins en moins ce qui s'est réellement passé.\n\nUne trace conserve cette histoire opérationnelle.\n\nULTRA®\n\nUne trace complète peut devenir trop chère avant même que l'application le soit.\n\nÀ plusieurs millions de requêtes, conserver chaque span, événement et contenu produit un second système de données.\n\nL'échantillonnage en tête décide de conserver une trace dès son départ. Il est économique, mais ignore encore si elle finira en erreur ou prendra 40 secondes.\n\nL'échantillonnage en queue attend de connaître son résultat. Il peut conserver 100% des erreurs et des latences extrêmes tout en supprimant une grande partie du trafic banal.\n\nCette différence devient précieuse pour les agents: l'anomalie intéressante peut n'apparaître qu'au dernier appel d'une chaîne de vingt opérations.\n\nOpenTelemetry prévoit aussi que les attributs coûteux, volumineux ou sensibles puissent être optionnels.\n\nConseil: séparer métadonnées diagnostiques et contenu métier. Une excellente observabilité ne consiste pas à tout enregistrer.\n\nLe système le plus facile à déboguer peut sinon devenir celui qui a copié le plus de secrets.","isPartOf":{"@type":"CollectionPage","@id":"https://voce.life/archive/2026-09-22"}}</script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Aller au contenu</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="Navigation principale"><a href="/research">Research</a><a href="/standards">Standards</a><a href="/publications">Publications</a><a class="keep" href="/about">About</a></nav></div></header>
+<main id="main-content">
+<section class="topic-hero"><div class="wrap">
+<div class="topic-kicker">Corpus VOCE · 22 septembre 2026</div>
+<h1 class="topic-title">Un agent met douze secondes à répondre.</h1>
+<p class="topic-deck">Le modèle est-il lent?</p>
+<div class="topic-meta"><span>VOCE Association</span><span>13:00</span><span>Archive canonique</span></div>
+</div></section>
+<section class="topic-body"><div class="wrap topic-layout">
+<aside class="topic-nav"><div class="topic-nav-label">Corpus</div><a href="/archive/2026-09-22">22 septembre 2026</a><a href="/archive">Toutes les archives</a><a href="/publications">Publications</a></aside>
+<div class="longform">
+<article class="chapter" data-publication-id="urn:li:ugcPost:7508118069802799104">
+<div class="chapter-no">VOCE</div>
+<p class="signal">Publié le 22 septembre 2026 à 13:00 · <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7508118069802799104" target="_blank" rel="noopener">Publication originale</a></p>
+<p>Le modèle est-il lent?</p>
+<p>Peut-être pas.</p>
+<p>La requête a pu passer par un moteur de recherche, récupérer six documents, appeler un modèle, déclencher un outil, attendre une API, recevoir une erreur, recommencer puis appeler une seconde fois le modèle.</p>
+<p>L&#39;utilisateur ne voit qu&#39;une réponse et douze secondes.</p>
+<p>L&#39;ingénieur doit voir le trajet.</p>
+<p>C&#39;est le rôle de l&#39;observabilité distribuée.</p>
+<p>Lorsqu&#39;une requête entre dans un système, elle reçoit un identifiant de trace. Chaque opération importante crée ensuite un &quot;span&quot;, un segment horodaté représentant une partie du travail.</p>
+<p>La trace peut ainsi montrer 80 millisecondes dans la recherche documentaire, 1,7 seconde dans le premier appel au modèle, 6 secondes dans une API externe puis un nouvel appel après échec.</p>
+<p>Le temps total cesse d&#39;être une boîte noire.</p>
+<p>OpenTelemetry fournit un standard open source permettant de produire et transporter traces, métriques et journaux entre systèmes.</p>
+<p>En 2026, ses conventions sémantiques couvrent également l&#39;IA générative.</p>
+<p>Une opération peut enregistrer le modèle appelé, le nombre de tokens d&#39;entrée et de sortie et les appels d&#39;outils. Le contenu des prompts, réponses ou résultats peut aussi être capturé lorsqu&#39;on l&#39;active explicitement.</p>
+<p>Cette dernière possibilité introduit immédiatement une difficulté.</p>
+<p>La meilleure trace pour diagnostiquer un incident peut également contenir le contrat confidentiel, le dossier médical ou le message privé qui l&#39;a provoqué.</p>
+<p>Observer davantage peut donc créer davantage de données sensibles à protéger.</p>
+<p>À mesure que les agents enchaînent modèles, outils et API, leur résultat final raconte de moins en moins ce qui s&#39;est réellement passé.</p>
+<p>Une trace conserve cette histoire opérationnelle.</p>
+<p>ULTRA®</p>
+<p>Une trace complète peut devenir trop chère avant même que l&#39;application le soit.</p>
+<p>À plusieurs millions de requêtes, conserver chaque span, événement et contenu produit un second système de données.</p>
+<p>L&#39;échantillonnage en tête décide de conserver une trace dès son départ. Il est économique, mais ignore encore si elle finira en erreur ou prendra 40 secondes.</p>
+<p>L&#39;échantillonnage en queue attend de connaître son résultat. Il peut conserver 100% des erreurs et des latences extrêmes tout en supprimant une grande partie du trafic banal.</p>
+<p>Cette différence devient précieuse pour les agents: l&#39;anomalie intéressante peut n&#39;apparaître qu&#39;au dernier appel d&#39;une chaîne de vingt opérations.</p>
+<p>OpenTelemetry prévoit aussi que les attributs coûteux, volumineux ou sensibles puissent être optionnels.</p>
+<p>Conseil: séparer métadonnées diagnostiques et contenu métier. Une excellente observabilité ne consiste pas à tout enregistrer.</p>
+<p>Le système le plus facile à déboguer peut sinon devenir celui qui a copié le plus de secrets.</p>
+</article>
+<section class="chapter"><div class="chapter-no">VOCE Academy</div><h2>Continuer</h2><p><a href="/archive/2026/09/22/il-nexiste-pas-quelque-part-dans-un-modele-de-langage-un-tiroir-portant-7508178480036028417">← Il n’existe pas, quelque part dans un modèle de langage, un tiroir portant l’étiquette &quot;Paris&quot;.</a><br><a href="/archive/2026/09/22/la-quete-de-jeunesse-eternelle-commence-peut-etre-par-apprendre-a-reconn-7508102958220242944">La quête de jeunesse éternelle commence peut-être par apprendre à reconnaître les cellules qui vieillissent →</a></p><p class="signal">Ce texte appartient au corpus pédagogique et éditorial de VOCE Association. Lecture, découverte et citation sont publiques; les droits sur le texte et le corpus restent détenus par VOCE Association, sauf mention contraire. <a href="/CORPUS_RIGHTS.txt">Droits du corpus</a>.</p></section>
+</div></div></section>
+</main>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/publications">Publications</a> · <a href="/archive">Archive</a> · © 2026 VOCE Association</div></div></div></div></footer>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cent utilisateurs interrogent un modèle presque simultanément. — VOCE</title>
+<meta name="description" content="Le serveur pourrait traiter chaque requête dès son arrivée.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://voce.life/archive/2026/09/24/cent-utilisateurs-interrogent-un-modele-presque-simultanement-7508812641323151375">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="VOCE">
+<meta property="og:title" content="Cent utilisateurs interrogent un modèle presque simultanément.">
+<meta property="og:description" content="Le serveur pourrait traiter chaque requête dès son arrivée.">
+<meta property="og:url" content="https://voce.life/archive/2026/09/24/cent-utilisateurs-interrogent-un-modele-presque-simultanement-7508812641323151375">
+<meta property="article:published_time" content="2026-09-24T11:00:50+02:00">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Cent utilisateurs interrogent un modèle presque simultanément.","datePublished":"2026-09-24T11:00:50+02:00","dateModified":"2026-09-24T11:00:50+02:00","author":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"publisher":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"copyrightHolder":{"@type":"Organization","name":"VOCE Association"},"copyrightNotice":"Copyright © VOCE Association. All rights reserved.","mainEntityOfPage":"https://voce.life/archive/2026/09/24/cent-utilisateurs-interrogent-un-modele-presque-simultanement-7508812641323151375","url":"https://voce.life/archive/2026/09/24/cent-utilisateurs-interrogent-un-modele-presque-simultanement-7508812641323151375","sameAs":"https://www.linkedin.com/feed/update/urn:li:ugcPost:7508812641323151375","inLanguage":"fr","articleBody":"Cent utilisateurs interrogent un modèle presque simultanément.\n\nLe serveur pourrait traiter chaque requête dès son arrivée.\n\nC'est intuitif.\n\nCe n'est pas toujours efficace.\n\nLes GPU sont conçus pour effectuer énormément d'opérations en parallèle. Une petite requête peut n'utiliser qu'une fraction de cette capacité.\n\nUn serveur d'inférence peut donc attendre brièvement que plusieurs requêtes arrivent, les regrouper en un lot puis les présenter ensemble au GPU.\n\nC'est le traitement par lots dynamique, ou \"dynamic batching\".\n\nNVIDIA Triton Inference Server permet par exemple de définir des tailles de lots préférées et le temps maximal pendant lequel une requête peut attendre dans la file afin que d'autres la rejoignent.\n\nQuelques centaines de microsecondes ou quelques millisecondes d'attente peuvent alors augmenter fortement le nombre de requêtes traitées par seconde.\n\nMais l'optimisation possède une limite.\n\nPlus le serveur attend pour remplir ses lots, plus il augmente la latence de chaque utilisateur.\n\nLe réglage dépend donc du service.\n\nUne analyse nocturne de milliers d'images peut privilégier le débit. Une interaction vocale en temps réel ne possède pas le même budget d'attente.\n\nLes requêtes n'ont pas non plus nécessairement la même taille.\n\nAvec les modèles de langage, certaines contiennent quelques dizaines de tokens, d'autres plusieurs milliers. Les regrouper naïvement peut obliger le calcul à s'aligner sur des séquences beaucoup plus longues.\n\nLes moteurs modernes utilisent donc des ordonnanceurs plus fins pour exploiter le GPU sans attendre qu'un lot entier soit terminé avant d'introduire de nouveaux travaux.\n\nLa vitesse ressentie par un utilisateur et l'efficacité globale de l'infrastructure deviennent ainsi deux mesures différentes.\n\nDans un centre de données IA, quelques millisecondes volontairement perdues peuvent permettre de récupérer beaucoup plus de calcul.\n\nULTRA®\n\nLe débit maximal ne correspond pas nécessairement au coût minimal par requête.\n\nUn GPU faiblement rempli consomme mémoire et énergie sans exploiter toutes ses unités de calcul. Augmenter le lot amortit une partie de ces coûts fixes.\n\nMais une requête longue peut retenir des ressources dont plusieurs courtes auraient besoin.\n\nLes moteurs de LLM utilisent donc le \"continuous batching\": l'ordonnanceur peut insérer de nouvelles séquences lorsqu'une autre se termine, sans attendre la fin d'un lot figé.\n\nLa mémoire KV devient alors une ressource d'ordonnancement autant que de stockage.\n\nConseil: mesurer simultanément requêtes par seconde, tokens par seconde, temps jusqu'au premier token et latence p95/p99. Optimiser seulement la moyenne peut masquer les utilisateurs sacrifiés par les files d'attente.\n\nNVIDIA Triton permet d'expérimenter le traitement par lots dynamique et ses délais de file.\n\nLa file d'attente n'est donc pas toujours le signe d'un serveur saturé. Elle peut être créée volontairement pour mieux remplir le GPU.","isPartOf":{"@type":"CollectionPage","@id":"https://voce.life/archive/2026-09-24"}}</script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Aller au contenu</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="Navigation principale"><a href="/research">Research</a><a href="/standards">Standards</a><a href="/publications">Publications</a><a class="keep" href="/about">About</a></nav></div></header>
+<main id="main-content">
+<section class="topic-hero"><div class="wrap">
+<div class="topic-kicker">Corpus VOCE · 24 septembre 2026</div>
+<h1 class="topic-title">Cent utilisateurs interrogent un modèle presque simultanément.</h1>
+<p class="topic-deck">Le serveur pourrait traiter chaque requête dès son arrivée.</p>
+<div class="topic-meta"><span>VOCE Association</span><span>11:00</span><span>Archive canonique</span></div>
+</div></section>
+<section class="topic-body"><div class="wrap topic-layout">
+<aside class="topic-nav"><div class="topic-nav-label">Corpus</div><a href="/archive/2026-09-24">24 septembre 2026</a><a href="/archive">Toutes les archives</a><a href="/publications">Publications</a></aside>
+<div class="longform">
+<article class="chapter" data-publication-id="urn:li:ugcPost:7508812641323151375">
+<div class="chapter-no">VOCE</div>
+<p class="signal">Publié le 24 septembre 2026 à 11:00 · <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7508812641323151375" target="_blank" rel="noopener">Publication originale</a></p>
+<p>Le serveur pourrait traiter chaque requête dès son arrivée.</p>
+<p>C&#39;est intuitif.</p>
+<p>Ce n&#39;est pas toujours efficace.</p>
+<p>Les GPU sont conçus pour effectuer énormément d&#39;opérations en parallèle. Une petite requête peut n&#39;utiliser qu&#39;une fraction de cette capacité.</p>
+<p>Un serveur d&#39;inférence peut donc attendre brièvement que plusieurs requêtes arrivent, les regrouper en un lot puis les présenter ensemble au GPU.</p>
+<p>C&#39;est le traitement par lots dynamique, ou &quot;dynamic batching&quot;.</p>
+<p>NVIDIA Triton Inference Server permet par exemple de définir des tailles de lots préférées et le temps maximal pendant lequel une requête peut attendre dans la file afin que d&#39;autres la rejoignent.</p>
+<p>Quelques centaines de microsecondes ou quelques millisecondes d&#39;attente peuvent alors augmenter fortement le nombre de requêtes traitées par seconde.</p>
+<p>Mais l&#39;optimisation possède une limite.</p>
+<p>Plus le serveur attend pour remplir ses lots, plus il augmente la latence de chaque utilisateur.</p>
+<p>Le réglage dépend donc du service.</p>
+<p>Une analyse nocturne de milliers d&#39;images peut privilégier le débit. Une interaction vocale en temps réel ne possède pas le même budget d&#39;attente.</p>
+<p>Les requêtes n&#39;ont pas non plus nécessairement la même taille.</p>
+<p>Avec les modèles de langage, certaines contiennent quelques dizaines de tokens, d&#39;autres plusieurs milliers. Les regrouper naïvement peut obliger le calcul à s&#39;aligner sur des séquences beaucoup plus longues.</p>
+<p>Les moteurs modernes utilisent donc des ordonnanceurs plus fins pour exploiter le GPU sans attendre qu&#39;un lot entier soit terminé avant d&#39;introduire de nouveaux travaux.</p>
+<p>La vitesse ressentie par un utilisateur et l&#39;efficacité globale de l&#39;infrastructure deviennent ainsi deux mesures différentes.</p>
+<p>Dans un centre de données IA, quelques millisecondes volontairement perdues peuvent permettre de récupérer beaucoup plus de calcul.</p>
+<p>ULTRA®</p>
+<p>Le débit maximal ne correspond pas nécessairement au coût minimal par requête.</p>
+<p>Un GPU faiblement rempli consomme mémoire et énergie sans exploiter toutes ses unités de calcul. Augmenter le lot amortit une partie de ces coûts fixes.</p>
+<p>Mais une requête longue peut retenir des ressources dont plusieurs courtes auraient besoin.</p>
+<p>Les moteurs de LLM utilisent donc le &quot;continuous batching&quot;: l&#39;ordonnanceur peut insérer de nouvelles séquences lorsqu&#39;une autre se termine, sans attendre la fin d&#39;un lot figé.</p>
+<p>La mémoire KV devient alors une ressource d&#39;ordonnancement autant que de stockage.</p>
+<p>Conseil: mesurer simultanément requêtes par seconde, tokens par seconde, temps jusqu&#39;au premier token et latence p95/p99. Optimiser seulement la moyenne peut masquer les utilisateurs sacrifiés par les files d&#39;attente.</p>
+<p>NVIDIA Triton permet d&#39;expérimenter le traitement par lots dynamique et ses délais de file.</p>
+<p>La file d&#39;attente n&#39;est donc pas toujours le signe d&#39;un serveur saturé. Elle peut être créée volontairement pour mieux remplir le GPU.</p>
+</article>
+<section class="chapter"><div class="chapter-no">VOCE Academy</div><h2>Continuer</h2><p><a href="/archive/2026/09/24/la-menopause-n-est-pas-seulement-une-transition-reproductive-7508827779367411713">← La ménopause n&#39;est pas seulement une transition reproductive.</a><br><a href="/archive/2026/09/24/xi-an-7508797543347159040">Xi&#39;an. →</a></p><p class="signal">Ce texte appartient au corpus pédagogique et éditorial de VOCE Association. Lecture, découverte et citation sont publiques; les droits sur le texte et le corpus restent détenus par VOCE Association, sauf mention contraire. <a href="/CORPUS_RIGHTS.txt">Droits du corpus</a>.</p></section>
+</div></div></section>
+</main>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/publications">Publications</a> · <a href="/archive">Archive</a> · © 2026 VOCE Association</div></div></div></div></footer>
+</body>
+</html>

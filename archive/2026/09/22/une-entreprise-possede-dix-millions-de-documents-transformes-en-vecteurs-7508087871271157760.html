@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Une entreprise possède dix millions de documents transformés en vecteurs. — VOCE</title>
+<meta name="description" content="Une question arrive.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://voce.life/archive/2026/09/22/une-entreprise-possede-dix-millions-de-documents-transformes-en-vecteurs-7508087871271157760">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="VOCE">
+<meta property="og:title" content="Une entreprise possède dix millions de documents transformés en vecteurs.">
+<meta property="og:description" content="Une question arrive.">
+<meta property="og:url" content="https://voce.life/archive/2026/09/22/une-entreprise-possede-dix-millions-de-documents-transformes-en-vecteurs-7508087871271157760">
+<meta property="article:published_time" content="2026-09-22T11:00:50+02:00">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Une entreprise possède dix millions de documents transformés en vecteurs.","datePublished":"2026-09-22T11:00:50+02:00","dateModified":"2026-09-22T11:00:50+02:00","author":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"publisher":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"copyrightHolder":{"@type":"Organization","name":"VOCE Association"},"copyrightNotice":"Copyright © VOCE Association. All rights reserved.","mainEntityOfPage":"https://voce.life/archive/2026/09/22/une-entreprise-possede-dix-millions-de-documents-transformes-en-vecteurs-7508087871271157760","url":"https://voce.life/archive/2026/09/22/une-entreprise-possede-dix-millions-de-documents-transformes-en-vecteurs-7508087871271157760","sameAs":"https://www.linkedin.com/feed/update/urn:li:ugcPost:7508087871271157760","inLanguage":"fr","articleBody":"Une entreprise possède dix millions de documents transformés en vecteurs.\n\nUne question arrive.\n\nPour trouver les passages les plus proches, le système pourrait comparer le vecteur de la question aux dix millions de vecteurs.\n\nLe résultat serait précis.\n\nMais effectuer cette recherche exhaustive à chaque requête devient coûteux.\n\nLes bases vectorielles utilisent donc des index de recherche approximative.\n\nL'un des plus répandus s'appelle HNSW, pour \"Hierarchical Navigable Small World\".\n\nIl transforme les vecteurs en graphe.\n\nChaque point possède des voisins. Au-dessus apparaissent des couches plus clairsemées contenant des connexions permettant de parcourir rapidement de grandes distances.\n\nLa recherche commence dans ces couches supérieures, effectue de grands sauts vers une région prometteuse puis descend vers des couches plus denses pour affiner le résultat.\n\nElle ne visite donc pas nécessairement tous les candidats.\n\nCette propriété explique un détail important: accélérer la recherche peut diminuer le rappel, c'est-à-dire la proportion des véritables voisins les plus proches effectivement retrouvés.\n\nLe compromis devient plus subtil lorsqu'un filtre intervient.\n\nChercher les documents sémantiquement proches ne suffit pas si l'utilisateur ne peut consulter que ceux de son département, d'une période donnée ou d'un niveau de confidentialité précis.\n\nSelon l'architecture, le moteur peut parcourir des voisins très pertinents puis découvrir qu'une partie d'entre eux ne satisfait pas le filtre.\n\npgvector permet alors d'étendre progressivement le parcours de l'index jusqu'à obtenir suffisamment de résultats admissibles.\n\nQdrant utilise une variante de HNSW permettant d'intégrer les contraintes de filtrage pendant le parcours.\n\nUne recherche vectorielle n'est donc pas simplement \"trouver ce qui ressemble le plus\".\n\nEn production, elle arbitre entre proximité, vitesse, mémoire, filtres et probabilité de retrouver les bons documents.\n\nULTRA®\n\nHNSW possède un réglage particulièrement révélateur: \"ef_search\".\n\nIl contrôle approximativement la taille de la liste de candidats explorée pendant une recherche. L'augmenter améliore généralement le rappel, mais augmente aussi latence et travail effectué.\n\npgvector montre un piège plus rare. Avec un filtre sélectionnant 10% des données et un \"ef_search\" de 40, environ quatre résultats seulement peuvent en moyenne survivre au filtrage. Ses scans itératifs peuvent poursuivre automatiquement l'exploration du graphe.\n\nConseil: mesurer recall\\@k sur plusieurs centaines de requêtes réelles avec leurs vrais filtres, pas seulement sur une recherche vectorielle sans contraintes.\n\nDeux utilisateurs interrogeant les mêmes vecteurs avec des permissions différentes peuvent ainsi obtenir des performances de récupération différentes.\n\nL'autorisation peut modifier non seulement ce qu'un utilisateur a le droit de voir, mais la qualité même de ce que le moteur parvient à retrouver.","isPartOf":{"@type":"CollectionPage","@id":"https://voce.life/archive/2026-09-22"}}</script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Aller au contenu</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="Navigation principale"><a href="/research">Research</a><a href="/standards">Standards</a><a href="/publications">Publications</a><a class="keep" href="/about">About</a></nav></div></header>
+<main id="main-content">
+<section class="topic-hero"><div class="wrap">
+<div class="topic-kicker">Corpus VOCE · 22 septembre 2026</div>
+<h1 class="topic-title">Une entreprise possède dix millions de documents transformés en vecteurs.</h1>
+<p class="topic-deck">Une question arrive.</p>
+<div class="topic-meta"><span>VOCE Association</span><span>11:00</span><span>Archive canonique</span></div>
+</div></section>
+<section class="topic-body"><div class="wrap topic-layout">
+<aside class="topic-nav"><div class="topic-nav-label">Corpus</div><a href="/archive/2026-09-22">22 septembre 2026</a><a href="/archive">Toutes les archives</a><a href="/publications">Publications</a></aside>
+<div class="longform">
+<article class="chapter" data-publication-id="urn:li:ugcPost:7508087871271157760">
+<div class="chapter-no">VOCE</div>
+<p class="signal">Publié le 22 septembre 2026 à 11:00 · <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7508087871271157760" target="_blank" rel="noopener">Publication originale</a></p>
+<p>Une question arrive.</p>
+<p>Pour trouver les passages les plus proches, le système pourrait comparer le vecteur de la question aux dix millions de vecteurs.</p>
+<p>Le résultat serait précis.</p>
+<p>Mais effectuer cette recherche exhaustive à chaque requête devient coûteux.</p>
+<p>Les bases vectorielles utilisent donc des index de recherche approximative.</p>
+<p>L&#39;un des plus répandus s&#39;appelle HNSW, pour &quot;Hierarchical Navigable Small World&quot;.</p>
+<p>Il transforme les vecteurs en graphe.</p>
+<p>Chaque point possède des voisins. Au-dessus apparaissent des couches plus clairsemées contenant des connexions permettant de parcourir rapidement de grandes distances.</p>
+<p>La recherche commence dans ces couches supérieures, effectue de grands sauts vers une région prometteuse puis descend vers des couches plus denses pour affiner le résultat.</p>
+<p>Elle ne visite donc pas nécessairement tous les candidats.</p>
+<p>Cette propriété explique un détail important: accélérer la recherche peut diminuer le rappel, c&#39;est-à-dire la proportion des véritables voisins les plus proches effectivement retrouvés.</p>
+<p>Le compromis devient plus subtil lorsqu&#39;un filtre intervient.</p>
+<p>Chercher les documents sémantiquement proches ne suffit pas si l&#39;utilisateur ne peut consulter que ceux de son département, d&#39;une période donnée ou d&#39;un niveau de confidentialité précis.</p>
+<p>Selon l&#39;architecture, le moteur peut parcourir des voisins très pertinents puis découvrir qu&#39;une partie d&#39;entre eux ne satisfait pas le filtre.</p>
+<p>pgvector permet alors d&#39;étendre progressivement le parcours de l&#39;index jusqu&#39;à obtenir suffisamment de résultats admissibles.</p>
+<p>Qdrant utilise une variante de HNSW permettant d&#39;intégrer les contraintes de filtrage pendant le parcours.</p>
+<p>Une recherche vectorielle n&#39;est donc pas simplement &quot;trouver ce qui ressemble le plus&quot;.</p>
+<p>En production, elle arbitre entre proximité, vitesse, mémoire, filtres et probabilité de retrouver les bons documents.</p>
+<p>ULTRA®</p>
+<p>HNSW possède un réglage particulièrement révélateur: &quot;ef_search&quot;.</p>
+<p>Il contrôle approximativement la taille de la liste de candidats explorée pendant une recherche. L&#39;augmenter améliore généralement le rappel, mais augmente aussi latence et travail effectué.</p>
+<p>pgvector montre un piège plus rare. Avec un filtre sélectionnant 10% des données et un &quot;ef_search&quot; de 40, environ quatre résultats seulement peuvent en moyenne survivre au filtrage. Ses scans itératifs peuvent poursuivre automatiquement l&#39;exploration du graphe.</p>
+<p>Conseil: mesurer recall\@k sur plusieurs centaines de requêtes réelles avec leurs vrais filtres, pas seulement sur une recherche vectorielle sans contraintes.</p>
+<p>Deux utilisateurs interrogeant les mêmes vecteurs avec des permissions différentes peuvent ainsi obtenir des performances de récupération différentes.</p>
+<p>L&#39;autorisation peut modifier non seulement ce qu&#39;un utilisateur a le droit de voir, mais la qualité même de ce que le moteur parvient à retrouver.</p>
+</article>
+<section class="chapter"><div class="chapter-no">VOCE Academy</div><h2>Continuer</h2><p><a href="/archive/2026/09/22/la-quete-de-jeunesse-eternelle-commence-peut-etre-par-apprendre-a-reconn-7508102958220242944">← La quête de jeunesse éternelle commence peut-être par apprendre à reconnaître les cellules qui vieillissent</a><br><a href="/archive/2026/09/22/shanghai-2026-7508072774280728578">Shanghai, 2026. →</a></p><p class="signal">Ce texte appartient au corpus pédagogique et éditorial de VOCE Association. Lecture, découverte et citation sont publiques; les droits sur le texte et le corpus restent détenus par VOCE Association, sauf mention contraire. <a href="/CORPUS_RIGHTS.txt">Droits du corpus</a>.</p></section>
+</div></div></section>
+</main>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/publications">Publications</a> · <a href="/archive">Archive</a> · © 2026 VOCE Association</div></div></div></div></footer>
+</body>
+</html>

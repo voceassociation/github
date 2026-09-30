@@ -887,7 +887,9 @@
     "pull_request": 3,
     "merge_commit": "cb66dce1c40f07282b275482f801e8a350dc5f0a",
     "indexnow_check": "success",
-    "live_deployment": "not_confirmed_new_article_returned_404",
-    "linkedin_browser_session": "signed_out_metricool_connector_connected"
+    "live_deployment": "pending_verification",
+    "linkedin_browser_session": "signed_out_metricool_connector_connected",
+    "static_pages_generated": 1428,
+    "academy_catalogue": "existing_curated_selection_plus_guide_no_bulk_listing"
   }
 }
