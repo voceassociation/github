@@ -34,3 +34,7 @@ VOCE Association, title of the publication, publication date, canonical voce.lif
 Each published VOCE subject has its own canonical URL.
 Article route registry: https://voce.life/data/article-routes.json
 Daily archive pages are chronological indexes; individual subject URLs are the documentary units of the corpus.
+
+## Corpus coverage
+
+1,428 archived LinkedIn texts are available at permanent individual HTML URLs and through the JSON/NDJSON corpus. The visible Academy titles are illustrative selections. Full historical completeness from March 2026 is still pending verification.

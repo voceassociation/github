@@ -886,10 +886,12 @@
     "merged_into": "main",
     "pull_request": 3,
     "merge_commit": "cb66dce1c40f07282b275482f801e8a350dc5f0a",
-    "indexnow_check": "success",
-    "live_deployment": "pending_verification",
+    "indexnow_check": "failed_403_key_verification_requires_recheck",
+    "live_deployment": "sample_article_verified_publicly",
     "linkedin_browser_session": "signed_out_metricool_connector_connected",
     "static_pages_generated": 1428,
-    "academy_catalogue": "existing_curated_selection_plus_guide_no_bulk_listing"
+    "academy_catalogue": "existing_curated_selection_plus_guide_no_bulk_listing",
+    "verified_article": "https://voce.life/archive/2026/09/29/pendant-des-annees-une-nouvelle-signature-de-securite-imposait-un-cout-a-7510564205050241025",
+    "rss_items": 1428
   }
 }
