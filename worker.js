@@ -14,7 +14,7 @@ const CORE_FILES = [
 
 // Keep scheduled R2 work below per-invocation operation limits.
 // Progress is persisted in manifest.json and resumes on the next cron run.
-const BACKUP_ARTICLE_BATCH_SIZE = 150;
+const BACKUP_BATCH_SIZE = 40;
 
 function hex(buffer) {
   return [...new Uint8Array(buffer)].map(b => b.toString(16).padStart(2, "0")).join("");
@@ -375,10 +375,17 @@ async function syncCorpus(env) {
   const corpus = await loadCorpus(env);
   routes._corpusItems = corpus.items || [];
 
-  const paths = new Set(CORE_FILES);
-  for (const date of Object.keys(registry.archived_days || {})) {
-    paths.add(`archive/${date}.html`);
-  }
+  const pathTasks = [
+    ...CORE_FILES,
+    ...Object.keys(registry.archived_days || {}).map(date => `archive/${date}.html`)
+  ].map(path => ({ kind: "path", path }));
+
+  const articleTasks = (routes.items || []).map(route => ({
+    kind: "article",
+    route
+  }));
+  const tasks = [...pathTasks, ...articleTasks];
+  const totalTasks = tasks.length;
 
   let previousManifest = null;
   const previousManifestObject = await env.VOCE_CORPUS.get("manifest.json");
@@ -390,27 +397,42 @@ async function syncCorpus(env) {
     }
   }
 
-  const allRoutes = routes.items || [];
-  const totalRoutes = allRoutes.length;
-  let articleCursor = Number(previousManifest?.article_cursor || 0);
-  if (!Number.isInteger(articleCursor) || articleCursor < 0 || articleCursor >= totalRoutes) {
-    articleCursor = 0;
+  let backupCursor = Number(previousManifest?.backup_cursor || 0);
+  if (!Number.isInteger(backupCursor) || backupCursor < 0 || backupCursor >= totalTasks) {
+    backupCursor = 0;
   }
 
-  const articleBatch = allRoutes.slice(
-    articleCursor,
-    articleCursor + BACKUP_ARTICLE_BATCH_SIZE
-  );
-  const nextArticleCursor =
-    articleCursor + articleBatch.length >= totalRoutes
+  const taskBatch = tasks.slice(backupCursor, backupCursor + BACKUP_BATCH_SIZE);
+  const nextBackupCursor =
+    backupCursor + taskBatch.length >= totalTasks
       ? 0
-      : articleCursor + articleBatch.length;
-  const completedCycle = totalRoutes === 0 || nextArticleCursor === 0;
+      : backupCursor + taskBatch.length;
+  const completedCycle = totalTasks === 0 || nextBackupCursor === 0;
 
   const results = [];
   const publicCorpus = canonicalizeCorpus(corpus, routes);
+  const corpusById = new Map((corpus.items || []).map(item => [item.id, item]));
 
-  for (const path of paths) {
+  for (const task of taskBatch) {
+    if (task.kind === "article") {
+      const route = task.route;
+      const item = corpusById.get(route.id);
+      if (!item) continue;
+      const html = renderArticle(item, route, routes);
+      const bytes = new TextEncoder().encode(html);
+      const key = route.path.replace(/^\/+/, "") + ".html";
+      results.push(await storeBytesIfChanged(
+        env,
+        key,
+        bytes,
+        "text/html; charset=utf-8",
+        `https://voce.life${route.path}`,
+        timestamp
+      ));
+      continue;
+    }
+
+    const path = task.path;
     if (path === "data/corpus.json") {
       const bytes = new TextEncoder().encode(JSON.stringify(publicCorpus, null, 2) + "\n");
       results.push(await storeBytesIfChanged(
@@ -454,46 +476,35 @@ async function syncCorpus(env) {
     results.push(await storeAssetIfChanged(env, path, timestamp));
   }
 
-  const corpusById = new Map((corpus.items || []).map(item => [item.id, item]));
-  for (const route of articleBatch) {
-    const item = corpusById.get(route.id);
-    if (!item) continue;
-    const html = renderArticle(item, route, routes);
-    const bytes = new TextEncoder().encode(html);
-    const key = route.path.replace(/^\/+/, "") + ".html";
-    results.push(await storeBytesIfChanged(
-      env,
-      key,
-      bytes,
-      "text/html; charset=utf-8",
-      `https://voce.life${route.path}`,
-      timestamp
-    ));
-  }
-
+  const routeCount = articleTasks.length;
   const previousCoverageIsCurrent =
     previousManifest?.backup_complete === true &&
-    Number(previousManifest?.article_routes || 0) === totalRoutes;
+    Number(previousManifest?.article_routes || 0) === routeCount &&
+    Number(previousManifest?.total_objects_target || 0) === totalTasks;
   const backupComplete = previousCoverageIsCurrent || completedCycle;
+  const objectsSynced = backupComplete
+    ? totalTasks
+    : Math.min(backupCursor + taskBatch.length, totalTasks);
   const articleRoutesSynced = backupComplete
-    ? totalRoutes
-    : Math.min(articleCursor + articleBatch.length, totalRoutes);
+    ? routeCount
+    : Math.max(0, Math.min(objectsSynced - pathTasks.length, routeCount));
 
   const manifest = {
-    schema: 2,
+    schema: 3,
     owner: "VOCE Association",
     bucket: "voce-sovereign-corpus",
     synced_at: timestamp,
     source: "https://voce.life",
-    article_routes: totalRoutes,
+    article_routes: routeCount,
     article_routes_synced: articleRoutesSynced,
-    article_cursor: nextArticleCursor,
-    article_batch_size: BACKUP_ARTICLE_BATCH_SIZE,
+    backup_cursor: nextBackupCursor,
+    backup_batch_size: BACKUP_BATCH_SIZE,
     backup_complete: backupComplete,
     last_complete_sync_at: completedCycle
       ? timestamp
       : previousManifest?.last_complete_sync_at || null,
-    object_count: paths.size + articleRoutesSynced,
+    total_objects_target: totalTasks,
+    objects_synced: objectsSynced,
     objects_touched_in_last_sync: results.length,
     changed_in_last_sync: results.filter(item => item.changed).length
   };
@@ -578,13 +589,13 @@ export default {
           synced_at: data.synced_at,
           article_routes: data.article_routes || 0,
           article_routes_synced: data.article_routes_synced || 0,
-          article_cursor: data.article_cursor || 0,
-          article_batch_size: data.article_batch_size || null,
+          article_routes_synced: data.article_routes_synced || 0,
+          backup_cursor: data.backup_cursor || 0,
+          backup_batch_size: data.backup_batch_size || null,
           backup_complete: backupComplete,
           last_complete_sync_at: data.last_complete_sync_at || null,
-          object_count: data.object_count ?? (
-            Array.isArray(data.objects) ? data.objects.length : null
-          ),
+          total_objects_target: data.total_objects_target || null,
+          objects_synced: data.objects_synced || 0,
           objects_touched_in_last_sync: data.objects_touched_in_last_sync ?? null,
           changed_in_last_sync: data.changed_in_last_sync ?? (
             Array.isArray(data.objects)
