@@ -20,7 +20,7 @@ function hex(buffer) {
   return [...new Uint8Array(buffer)].map(b => b.toString(16).padStart(2, "0")).join("");
 }
 
-const VOCE_PRIVACY_DEFAULT_SCRIPT = `<script>(function(){function reject(){var b=document.getElementById("cf_consent-buttons__reject-all");if(b){b.click();return true}return false}if(!reject()){var o=new MutationObserver(function(){if(reject())o.disconnect()});o.observe(document.documentElement,{childList:true,subtree:true});setTimeout(function(){o.disconnect()},8000)}})();<\/script>`;
+const VOCE_PRIVACY_DEFAULT_SCRIPT = `<script>(function(){function deny(){try{if(window.zaraz&&zaraz.consent&&zaraz.consent.APIReady){zaraz.consent.setAll(false);zaraz.consent.modal=false;return true}}catch(e){}return false}function fallback(){var b=document.getElementById("cf_consent-buttons__reject-all");if(b){b.click();return true}var d=document.querySelector("dialog.cf_modal");if(d&&d.open){try{d.close()}catch(e){}return true}return false}if(!deny()){document.addEventListener("zarazConsentAPIReady",function(){deny();fallback()},{once:true})}var o=new MutationObserver(function(){if(deny()||fallback()){o.disconnect()}});o.observe(document.documentElement,{childList:true,subtree:true});setTimeout(function(){deny();fallback();o.disconnect()},30000)})();<\/script>`;
 
 function injectPrivacyDefault(response) {
   const type = response.headers.get("content-type") || "";
