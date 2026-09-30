@@ -20,6 +20,16 @@ function hex(buffer) {
   return [...new Uint8Array(buffer)].map(b => b.toString(16).padStart(2, "0")).join("");
 }
 
+const VOCE_PRIVACY_DEFAULT_SCRIPT = `<script>(function(){function reject(){var b=document.getElementById("cf_consent-buttons__reject-all");if(b){b.click();return true}return false}if(!reject()){var o=new MutationObserver(function(){if(reject())o.disconnect()});o.observe(document.documentElement,{childList:true,subtree:true});setTimeout(function(){o.disconnect()},8000)}})();<\/script>`;
+
+function injectPrivacyDefault(response) {
+  const type = response.headers.get("content-type") || "";
+  if (!type.includes("text/html")) return response;
+  return new HTMLRewriter()
+    .on("head", { element(element) { element.append(VOCE_PRIVACY_DEFAULT_SCRIPT, { html: true }); } })
+    .transform(response);
+}
+
 function escapeHtml(value = "") {
   return String(value)
     .replace(/&/g, "&amp;")
@@ -560,7 +570,7 @@ export default {
       headers.set("x-robots-tag", "noindex, nofollow, noarchive, nosnippet, noimageindex");
       headers.set("cache-control", "private, no-store");
       headers.set("referrer-policy", "no-referrer");
-      return new Response(response.body, { status: response.status, headers });
+      return injectPrivacyDefault(new Response(response.body, { status: response.status, headers }));
     }
 
 
@@ -634,12 +644,12 @@ export default {
     if (articleRoute) {
       const item = (corpus.items || []).find(entry => entry.id === articleRoute.id);
       if (!item) return new Response("Not found", { status: 404 });
-      return new Response(renderArticle(item, articleRoute, routes), {
+      return injectPrivacyDefault(new Response(renderArticle(item, articleRoute, routes), {
         headers: {
           "content-type": "text/html; charset=utf-8",
           "cache-control": "public, max-age=300"
         }
-      });
+      }));
     }
 
     const historicalArticleMatch = pathname.match(/^\/archive\/(\d{4})\/(\d{2})\/(\d{2})\/([^/]+)$/);
@@ -659,12 +669,12 @@ export default {
             _corpusItems: historyDay.items || []
           };
           const route = dayRoutes.items.find(entry => entry.id === item.id);
-          return new Response(renderArticle(item, route, dayRoutes), {
+          return injectPrivacyDefault(new Response(renderArticle(item, route, dayRoutes), {
             headers: {
               "content-type": "text/html; charset=utf-8",
               "cache-control": "public, max-age=300"
             }
-          });
+          }));
         }
       }
     }
@@ -673,12 +683,12 @@ export default {
     if (historicalDayMatch) {
       const historyDay = await loadHistoryDay(env, historicalDayMatch[1]);
       if (historyDay) {
-        return new Response(renderHistoryDay(historyDay), {
+        return injectPrivacyDefault(new Response(renderHistoryDay(historyDay), {
           headers: {
             "content-type": "text/html; charset=utf-8",
             "cache-control": "public, max-age=300"
           }
-        });
+        }));
       }
     }
 
@@ -712,7 +722,8 @@ export default {
       });
     }
 
-    return env.ASSETS.fetch(request);
+    const assetResponse = await env.ASSETS.fetch(request);
+    return injectPrivacyDefault(assetResponse);
   },
 
   async scheduled(controller, env, ctx) {
