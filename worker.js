@@ -12,6 +12,10 @@ const CORE_FILES = [
   "sitemap.xml"
 ];
 
+// Keep scheduled R2 work below per-invocation operation limits.
+// Progress is persisted in manifest.json and resumes on the next cron run.
+const BACKUP_ARTICLE_BATCH_SIZE = 150;
+
 function hex(buffer) {
   return [...new Uint8Array(buffer)].map(b => b.toString(16).padStart(2, "0")).join("");
 }
@@ -376,6 +380,33 @@ async function syncCorpus(env) {
     paths.add(`archive/${date}.html`);
   }
 
+  let previousManifest = null;
+  const previousManifestObject = await env.VOCE_CORPUS.get("manifest.json");
+  if (previousManifestObject) {
+    try {
+      previousManifest = JSON.parse(await previousManifestObject.text());
+    } catch {
+      previousManifest = null;
+    }
+  }
+
+  const allRoutes = routes.items || [];
+  const totalRoutes = allRoutes.length;
+  let articleCursor = Number(previousManifest?.article_cursor || 0);
+  if (!Number.isInteger(articleCursor) || articleCursor < 0 || articleCursor >= totalRoutes) {
+    articleCursor = 0;
+  }
+
+  const articleBatch = allRoutes.slice(
+    articleCursor,
+    articleCursor + BACKUP_ARTICLE_BATCH_SIZE
+  );
+  const nextArticleCursor =
+    articleCursor + articleBatch.length >= totalRoutes
+      ? 0
+      : articleCursor + articleBatch.length;
+  const completedCycle = totalRoutes === 0 || nextArticleCursor === 0;
+
   const results = [];
   const publicCorpus = canonicalizeCorpus(corpus, routes);
 
@@ -423,8 +454,9 @@ async function syncCorpus(env) {
     results.push(await storeAssetIfChanged(env, path, timestamp));
   }
 
-  for (const route of routes.items || []) {
-    const item = (corpus.items || []).find(entry => entry.id === route.id);
+  const corpusById = new Map((corpus.items || []).map(item => [item.id, item]));
+  for (const route of articleBatch) {
+    const item = corpusById.get(route.id);
     if (!item) continue;
     const html = renderArticle(item, route, routes);
     const bytes = new TextEncoder().encode(html);
@@ -439,14 +471,31 @@ async function syncCorpus(env) {
     ));
   }
 
+  const previousCoverageIsCurrent =
+    previousManifest?.backup_complete === true &&
+    Number(previousManifest?.article_routes || 0) === totalRoutes;
+  const backupComplete = previousCoverageIsCurrent || completedCycle;
+  const articleRoutesSynced = backupComplete
+    ? totalRoutes
+    : Math.min(articleCursor + articleBatch.length, totalRoutes);
+
   const manifest = {
-    schema: 1,
+    schema: 2,
     owner: "VOCE Association",
     bucket: "voce-sovereign-corpus",
     synced_at: timestamp,
     source: "https://voce.life",
-    article_routes: (routes.items || []).length,
-    objects: results
+    article_routes: totalRoutes,
+    article_routes_synced: articleRoutesSynced,
+    article_cursor: nextArticleCursor,
+    article_batch_size: BACKUP_ARTICLE_BATCH_SIZE,
+    backup_complete: backupComplete,
+    last_complete_sync_at: completedCycle
+      ? timestamp
+      : previousManifest?.last_complete_sync_at || null,
+    object_count: paths.size + articleRoutesSynced,
+    objects_touched_in_last_sync: results.length,
+    changed_in_last_sync: results.filter(item => item.changed).length
   };
 
   await env.VOCE_CORPUS.put("manifest.json", JSON.stringify(manifest, null, 2) + "\n", {
@@ -519,18 +568,29 @@ export default {
         );
       }
       const data = JSON.parse(await manifest.text());
+      const backupComplete = data.backup_complete === true;
       return Response.json(
         {
-          status: "ok",
+          status: backupComplete ? "ok" : "syncing",
           owner: "VOCE Association",
           bucket: "voce-sovereign-corpus",
           private: true,
           synced_at: data.synced_at,
           article_routes: data.article_routes || 0,
-          object_count: Array.isArray(data.objects) ? data.objects.length : null,
-          changed_in_last_sync: Array.isArray(data.objects)
-            ? data.objects.filter(item => item.changed).length
-            : null
+          article_routes_synced: data.article_routes_synced || 0,
+          article_cursor: data.article_cursor || 0,
+          article_batch_size: data.article_batch_size || null,
+          backup_complete: backupComplete,
+          last_complete_sync_at: data.last_complete_sync_at || null,
+          object_count: data.object_count ?? (
+            Array.isArray(data.objects) ? data.objects.length : null
+          ),
+          objects_touched_in_last_sync: data.objects_touched_in_last_sync ?? null,
+          changed_in_last_sync: data.changed_in_last_sync ?? (
+            Array.isArray(data.objects)
+              ? data.objects.filter(item => item.changed).length
+              : null
+          )
         },
         { headers: { "cache-control": "no-store" } }
       );
