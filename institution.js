@@ -161,9 +161,9 @@ it:{kicker:"Contatti",title:"Ricerca, istituzioni, cultura.",deck:"VOCE accoglie
 }
 };
 const COMMON={
-en:{navThemes:"Themes",navResearch:"Research",navStandards:"Standards",navPublications:"Publications",navAbout:"About",links:"Continue",institution:"Institution",work:"Work",contact:"Contact",home:"Home",linkedin:"LinkedIn",sideAbout:"About",sideResearch:"Research",sideStandards:"Governance & Standards",sidePublications:"Publications",sideContact:"Contact",legal:"Legal",privacy:"Privacy"},
-fr:{navThemes:"Thèmes",navResearch:"Recherche",navStandards:"Normes",navPublications:"Publications",navAbout:"À propos",links:"Poursuivre",institution:"Institution",work:"Travaux",contact:"Contact",home:"Accueil",linkedin:"LinkedIn",sideAbout:"À propos",sideResearch:"Recherche",sideStandards:"Gouvernance & standards",sidePublications:"Publications",sideContact:"Contact",legal:"Mentions légales",privacy:"Confidentialité"},
-it:{navThemes:"Temi",navResearch:"Ricerca",navStandards:"Standard",navPublications:"Pubblicazioni",navAbout:"Chi siamo",links:"Continua",institution:"Istituzione",work:"Lavoro",contact:"Contatti",home:"Home",linkedin:"LinkedIn",sideAbout:"Chi siamo",sideResearch:"Ricerca",sideStandards:"Governance & standard",sidePublications:"Pubblicazioni",sideContact:"Contatti",legal:"Note legali",privacy:"Privacy"}
+en:{navThemes:"Themes",navResearch:"Research",navAcademy:"Academy",navStandards:"Standards",navPublications:"Publications",navArt:"Art",navAbout:"About",links:"Continue",institution:"Institution",work:"Work",contact:"Contact",home:"Home",linkedin:"LinkedIn",sideAbout:"About",sideResearch:"Research",sideStandards:"Governance & Standards",sidePublications:"Publications",sideContact:"Contact",legal:"Legal",privacy:"Privacy"},
+fr:{navThemes:"Thèmes",navResearch:"Recherche",navAcademy:"Academy",navStandards:"Normes",navPublications:"Publications",navArt:"Art",navAbout:"À propos",links:"Poursuivre",institution:"Institution",work:"Travaux",contact:"Contact",home:"Accueil",linkedin:"LinkedIn",sideAbout:"À propos",sideResearch:"Recherche",sideStandards:"Gouvernance & standards",sidePublications:"Publications",sideContact:"Contact",legal:"Mentions légales",privacy:"Confidentialité"},
+it:{navThemes:"Temi",navResearch:"Ricerca",navAcademy:"Academy",navStandards:"Standard",navPublications:"Pubblicazioni",navArt:"Art",navAbout:"Chi siamo",links:"Continua",institution:"Istituzione",work:"Lavoro",contact:"Contatti",home:"Home",linkedin:"LinkedIn",sideAbout:"Chi siamo",sideResearch:"Ricerca",sideStandards:"Governance & standard",sidePublications:"Pubblicazioni",sideContact:"Contatti",legal:"Note legali",privacy:"Privacy"}
 };
 function currentLang(){return localStorage.getItem("voce-lang")||"en"}
 function renderInstitution(l){
@@ -172,10 +172,13 @@ function renderInstitution(l){
  document.documentElement.lang=l;
  document.title=p.title+" — VOCE";
  document.querySelectorAll("[data-lang]").forEach(b=>{b.classList.toggle("active",b.dataset.lang===l);b.setAttribute("aria-pressed",b.dataset.lang===l?"true":"false")});
- document.querySelector("[data-nav-research]").textContent=c.navResearch;
- document.querySelector("[data-nav-standards]").textContent=c.navStandards;
- document.querySelector("[data-nav-publications]").textContent=c.navPublications;
- document.querySelector("[data-nav-about]").textContent=c.navAbout;
+ if(document.querySelector("[data-nav-themes]")) document.querySelector("[data-nav-themes]").textContent=c.navThemes;
+ if(document.querySelector("[data-nav-research]")) document.querySelector("[data-nav-research]").textContent=c.navResearch;
+ if(document.querySelector("[data-nav-academy]")) document.querySelector("[data-nav-academy]").textContent=c.navAcademy;
+ if(document.querySelector("[data-nav-standards]")) document.querySelector("[data-nav-standards]").textContent=c.navStandards;
+ if(document.querySelector("[data-nav-publications]")) document.querySelector("[data-nav-publications]").textContent=c.navPublications;
+ if(document.querySelector("[data-nav-art]")) document.querySelector("[data-nav-art]").textContent=c.navArt;
+ if(document.querySelector("[data-nav-about]")) document.querySelector("[data-nav-about]").textContent=c.navAbout;
  document.querySelector("#page-kicker").textContent=p.kicker;
  document.querySelector("#page-title").textContent=p.title;
  document.querySelector("#page-deck").textContent=p.deck;
