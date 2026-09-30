@@ -871,6 +871,7 @@
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
   "resume": [
+    "Verify or deploy Cloudflare main commit; new canonical article currently returns 404.",
     "Obtain authenticated LinkedIn history for dates with no connector rows.",
     "Compare connector text against LinkedIn originals and review conflicts without overwriting.",
     "Verify Adobe provenance with exact publication/asset evidence.",
@@ -880,5 +881,13 @@
     "outer_whitespace_only": 305,
     "other": 29
   },
-  "scope": "text_and_metadata_only_no_video_download"
+  "scope": "text_and_metadata_only_no_video_download",
+  "integration": {
+    "merged_into": "main",
+    "pull_request": 3,
+    "merge_commit": "cb66dce1c40f07282b275482f801e8a350dc5f0a",
+    "indexnow_check": "success",
+    "live_deployment": "not_confirmed_new_article_returned_404",
+    "linkedin_browser_session": "signed_out_metricool_connector_connected"
+  }
 }
