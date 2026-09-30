@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "checked_at": "2026-09-30",
+  "brand_id": "7090850",
+  "brand_label": "VOCE Association",
+  "connected_page_id": "802476986277786",
+  "identity_status": "Exact Facebook page name not independently verified; exclude VOCE Balkans.",
+  "scan_results": {
+    "march_june_posts": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"rows\":[]}"
+        }
+      ],
+      "isError": false
+    },
+    "march_june_reels": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"rows\":[]}"
+        }
+      ],
+      "isError": false
+    },
+    "july_september_posts": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"rows\":[]}"
+        }
+      ],
+      "isError": false
+    },
+    "july_september_reels": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"rows\":[]}"
+        }
+      ],
+      "isError": false
+    }
+  },
+  "status": "All connector responses empty; not proof of absence; no Facebook text ingested.",
+  "next_action": "Verify VOCE Facebook page identity and use accessible full published texts."
+}

@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "policy": "Relevant verified new publications renew illustrative selections; original archived text and URLs stay unchanged; no exhaustive catalogue.",
+  "automation_id": "6abb72f5e1108191961956e6e3738fea",
+  "updates": [
+    {
+      "date": "2026-09-30",
+      "page": "/archive",
+      "section": "ai",
+      "slot": "Security",
+      "previous_url": "/archive/2026/09/25/kubernetes-secrets-base64-kms",
+      "new_url": "/archive/2026/09/29/pendant-des-annees-une-nouvelle-signature-de-securite-imposait-un-cout-a-7510564205050241025",
+      "id": "linkedin:7510564205050241025",
+      "reason": "Latest recovered publication directly fits agent security and governance."
+    }
+  ]
+}
