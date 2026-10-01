@@ -290,3 +290,9 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--forest);outline-off
   .atlas-node--tier-1 .atlas-node-label{font-size:14px}
   .atlas-node-label--minor{display:none}
 }
+
+.atlas-concept-link{font-size:.61rem;font-weight:600;text-transform:uppercase;letter-spacing:.11em;color:var(--forest);margin-left:auto}
+.atlas-relations-page{border-top:1px solid var(--line)}
+.atlas-relation-card--page{padding:24px 0}
+.atlas-relation-card--page .atlas-relation-target{display:inline-block;width:auto;text-decoration:none}
+@media(max-width:760px){.atlas-concept-link{width:100%;margin-left:0}}
