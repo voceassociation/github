@@ -3,6 +3,9 @@ const CORE_FILES = [
   "atlas.html",
   "fr/atlas.html",
   "it/atlas.html",
+  "applied.html",
+  "fr/applied.html",
+  "it/applied.html",
   "atlas.js",
   "data/atlas.json",
   "art.html",
@@ -539,6 +542,7 @@ function renderHistoryDay(day) {
       <a href="/research">Research</a>
       <a href="/archive">Academy</a>
       <a href="/atlas">Atlas</a>
+      <a href="/applied">Applied</a>
       <a href="/standards">Standards</a>
       <a href="/publications">Publications</a>
       <a class="keep" href="/art">Art</a>
@@ -627,6 +631,7 @@ function renderArticle(item, route, routes) {
       <a href="/research">Research</a>
       <a href="/archive">Academy</a>
       <a href="/atlas">Atlas</a>
+      <a href="/applied">Applied</a>
       <a href="/standards">Standards</a>
       <a href="/publications">Publications</a>
       <a class="keep" href="/art">Art</a>
