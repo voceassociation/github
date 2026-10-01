@@ -240,7 +240,7 @@ function atlasRootPath(locale = "en") {
 function renderAtlasConcept(atlas, node, locale = "en") {
   const l = atlasLocale(locale);
   const ui = l === "fr" ? {
-    skip:"Aller au contenu", themes:"Thèmes", research:"Recherche", standards:"Standards", about:"À propos",
+    skip:"Aller au contenu", nav:"Navigation principale", themes:"Thèmes", research:"Recherche", standards:"Standards", publications:"Publications", about:"À propos", copyright:"Copyright © 2025-2026 VOCE Association. Tous droits réservés.",
     source:"Source", read:"Lire dans VOCE →", relations:"Relations", relationTitle:"Où ce concept se relie.",
     relationSignal:"Chaque ligne ci-dessous est conservée uniquement lorsqu’une publication VOCE ou un travail de recherche formel soutient la relation.",
     method:"Méthode", methodTitle:"Une relation doit mériter sa ligne.",
@@ -249,7 +249,7 @@ function renderAtlasConcept(atlas, node, locale = "en") {
     documented:"relations documentées", sources:"sources VOCE", source:"source VOCE", permanent:"URL permanente du concept",
     language:"Langue"
   } : l === "it" ? {
-    skip:"Vai al contenuto", themes:"Temi", research:"Ricerca", standards:"Standard", about:"Chi siamo",
+    skip:"Vai al contenuto", nav:"Navigazione principale", themes:"Temi", research:"Ricerca", standards:"Standard", publications:"Pubblicazioni", about:"Chi siamo", copyright:"Copyright © 2025-2026 VOCE Association. Tutti i diritti riservati.",
     source:"Fonte", read:"Leggi in VOCE →", relations:"Relazioni", relationTitle:"Dove si collega questo concetto.",
     relationSignal:"Ogni linea qui sotto viene mantenuta solo quando una pubblicazione VOCE o un lavoro di ricerca formale sostiene la relazione.",
     method:"Metodo", methodTitle:"Una relazione deve meritare la sua linea.",
@@ -258,7 +258,7 @@ function renderAtlasConcept(atlas, node, locale = "en") {
     documented:"relazioni documentate", sources:"fonti VOCE", source:"fonte VOCE", permanent:"URL permanente del concetto",
     language:"Lingua"
   } : {
-    skip:"Skip to content", themes:"Themes", research:"Research", standards:"Standards", about:"About",
+    skip:"Skip to content", nav:"Primary navigation", themes:"Themes", research:"Research", standards:"Standards", publications:"Publications", about:"About", copyright:"Copyright © 2025-2026 VOCE Association. All rights reserved.",
     source:"Source", read:"Read in VOCE →", relations:"Relations", relationTitle:"Where this concept connects.",
     relationSignal:"Each line below is retained only when a VOCE publication or formal research record supports the relationship.",
     method:"Method", methodTitle:"A relation must earn its line.",
@@ -338,8 +338,8 @@ function renderAtlasConcept(atlas, node, locale = "en") {
 </head>
 <body class="atlas-page">
 <a class="skip-link" href="#main-content">${ui.skip}</a>
-<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="Primary navigation">
-<a href="/#themes">${ui.themes}</a><a href="/research">${ui.research}</a><a href="/archive">Academy</a><a href="${root}" class="active">Atlas</a><a href="/standards">${ui.standards}</a><a href="/publications">Publications</a><a class="keep" href="/art">Art</a><a class="keep" href="/about">${ui.about}</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="${ui.nav}">
+<a href="/#themes">${ui.themes}</a><a href="/research">${ui.research}</a><a href="/archive">Academy</a><a href="${root}" class="active">Atlas</a><a href="/standards">${ui.standards}</a><a href="/publications">${ui.publications}</a><a class="keep" href="/art">Art</a><a class="keep" href="/about">${ui.about}</a>
 <span class="lang" role="group" aria-label="${ui.language}"><a href="/atlas/${escapeHtml(node.id)}"${l==="en"?' class="active" aria-current="page"':""}>EN</a><a href="/fr/atlas/${escapeHtml(node.id)}"${l==="fr"?' class="active" aria-current="page"':""}>FR</a><a href="/it/atlas/${escapeHtml(node.id)}"${l==="it"?' class="active" aria-current="page"':""}>IT</a></span>
 </nav></div></header>
 <main id="main-content">
@@ -356,7 +356,7 @@ function renderAtlasConcept(atlas, node, locale = "en") {
 <section class="chapter"><div class="chapter-no">${ui.method}</div><h2>${ui.methodTitle}</h2><p>${ui.methodText}</p><p><a href="${root}#${escapeHtml(node.id)}">${ui.returnMap}</a></p></section>
 </div></div></section>
 </main>
-<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/archive">VOCE Academy</a> · <a href="${root}">VOCE Atlas</a> · <a href="/research">${ui.research}</a></div><div>Copyright © 2025-2026 VOCE Association. All rights reserved.</div></div></div></div></footer>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/archive">VOCE Academy</a> · <a href="${root}">VOCE Atlas</a> · <a href="/research">${ui.research}</a></div><div>${ui.copyright}</div></div></div></div></footer>
 </body>
 </html>`;
 }
