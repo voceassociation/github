@@ -97,14 +97,20 @@ footer{padding:54px 0 30px;border-top:1px solid var(--line)}
 .footer-right div+div{margin-top:5px}
 .footer-right a{border-bottom:1px solid var(--line)}
 @media(max-width:1020px){
-  .menu a:not(.keep){display:none}
+  .menu{gap:16px;font-size:.64rem}
   .hero-grid,.section-grid,.topic-layout,.controcanto-grid{grid-template-columns:1fr}
   .hero-grid,.section-grid,.topic-layout,.controcanto-grid{gap:40px}
   .topic-nav{position:static;display:none}
 }
 @media(max-width:720px){
   .wrap{width:min(calc(100% - 30px),var(--max))}
-  .nav{height:70px}
+  header{position:sticky}
+  .nav{height:auto;min-height:70px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding:14px 0 10px}
+  .nav>.voce-mark{flex:0 0 auto}
+  .menu{width:100%;display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:7px 16px;font-size:.61rem;line-height:1.15}
+  .menu a,.menu a.keep{display:inline-block!important;padding:4px 0}
+  .lang{margin-left:0;padding-left:12px;gap:7px}
+  .lang button,.lang a{font-size:.6rem}
   .voce-mark{width:auto;height:auto;font-size:1.9rem}
   .hero{padding:72px 0 58px}
   .hero .voce-mark{width:auto;height:auto;font-size:clamp(5.2rem,25vw,8.3rem)}
