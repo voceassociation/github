@@ -213,7 +213,7 @@
     const relations = data.edges.filter(e => e.source === id || e.target === id);
     panelTitle.textContent = node.label;
     panelSummary.textContent = node.summary;
-    panelMeta.innerHTML = `<span>${escapeHTML(domainLabel(node.domain))}</span><span>${relations.length} relation${relations.length === 1 ? "" : "s"}</span>`;
+    panelMeta.innerHTML = `<span>${escapeHTML(domainLabel(node.domain))}</span><span>${relations.length} relation${relations.length === 1 ? "" : "s"}</span><a class="atlas-concept-link" href="/atlas/${encodeURIComponent(node.id)}">Permanent page →</a>`;
 
     if (!relations.length) {
       relationsEl.innerHTML = '<p class="atlas-empty">No documented relation in this curated edition.</p>';
