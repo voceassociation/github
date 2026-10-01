@@ -13,27 +13,51 @@
   "domains": [
     {
       "id": "ai",
-      "label": "AI & governance"
+      "label": "AI & governance",
+      "i18n": {
+        "fr": "IA & gouvernance",
+        "it": "IA & governance"
+      }
     },
     {
       "id": "work",
-      "label": "Work"
+      "label": "Work",
+      "i18n": {
+        "fr": "Travail",
+        "it": "Lavoro"
+      }
     },
     {
       "id": "cognition",
-      "label": "Cognition"
+      "label": "Cognition",
+      "i18n": {
+        "fr": "Cognition",
+        "it": "Cognizione"
+      }
     },
     {
       "id": "health",
-      "label": "Health & neuroscience"
+      "label": "Health & neuroscience",
+      "i18n": {
+        "fr": "Santé & neurosciences",
+        "it": "Salute & neuroscienze"
+      }
     },
     {
       "id": "culture",
-      "label": "Culture & civilisation"
+      "label": "Culture & civilisation",
+      "i18n": {
+        "fr": "Culture & civilisations",
+        "it": "Cultura & civiltà"
+      }
     },
     {
       "id": "cross",
-      "label": "Human systems"
+      "label": "Human systems",
+      "i18n": {
+        "fr": "Systèmes humains",
+        "it": "Sistemi umani"
+      }
     }
   ],
   "nodes": [
@@ -42,441 +66,1071 @@
       "label": "Human systems",
       "domain": "cross",
       "tier": 0,
-      "summary": "The conditions through which technologies, institutions, bodies and cultures shape human action."
+      "summary": "The conditions through which technologies, institutions, bodies and cultures shape human action.",
+      "i18n": {
+        "fr": {
+          "label": "Systèmes humains",
+          "summary": "Les conditions par lesquelles technologies, institutions, corps et cultures façonnent l'action humaine."
+        },
+        "it": {
+          "label": "Sistemi umani",
+          "summary": "Le condizioni attraverso cui tecnologie, istituzioni, corpi e culture plasmano l'azione umana."
+        }
+      }
     },
     {
       "id": "ai-systems",
       "label": "AI systems",
       "domain": "ai",
       "tier": 1,
-      "summary": "The architecture surrounding a model: retrieval, identity, permissions, tools, monitoring and execution."
+      "summary": "The architecture surrounding a model: retrieval, identity, permissions, tools, monitoring and execution.",
+      "i18n": {
+        "fr": {
+          "label": "Systèmes d'IA",
+          "summary": "L'architecture qui entoure un modèle: recherche documentaire, identité, permissions, outils, supervision et exécution."
+        },
+        "it": {
+          "label": "Sistemi di IA",
+          "summary": "L'architettura che circonda un modello: retrieval, identità, permessi, strumenti, monitoraggio ed esecuzione."
+        }
+      }
     },
     {
       "id": "model",
       "label": "Model",
       "domain": "ai",
       "tier": 2,
-      "summary": "The component that receives tokens and generates outputs; only one layer of a larger AI system."
+      "summary": "The component that receives tokens and generates outputs; only one layer of a larger AI system.",
+      "i18n": {
+        "fr": {
+          "label": "Modèle",
+          "summary": "Le composant qui reçoit des tokens et produit des sorties; une couche seulement d'un système d'IA plus vaste."
+        },
+        "it": {
+          "label": "Modello",
+          "summary": "Il componente che riceve token e genera output; solo uno strato di un sistema di IA più ampio."
+        }
+      }
     },
     {
       "id": "rag",
       "label": "RAG",
       "domain": "ai",
       "tier": 2,
-      "summary": "Retrieval-augmented generation, where external documents are selected and inserted into model context."
+      "summary": "Retrieval-augmented generation, where external documents are selected and inserted into model context.",
+      "i18n": {
+        "fr": {
+          "label": "RAG",
+          "summary": "Génération augmentée par recherche, où des documents externes sont sélectionnés puis ajoutés au contexte du modèle."
+        },
+        "it": {
+          "label": "RAG",
+          "summary": "Generazione aumentata dal retrieval, in cui documenti esterni vengono selezionati e inseriti nel contesto del modello."
+        }
+      }
     },
     {
       "id": "agents",
       "label": "AI agents",
       "domain": "ai",
       "tier": 2,
-      "summary": "Software that can reason over context and invoke tools or workflows."
+      "summary": "Software that can reason over context and invoke tools or workflows.",
+      "i18n": {
+        "fr": {
+          "label": "Agents IA",
+          "summary": "Des logiciels capables de raisonner sur un contexte et d'appeler des outils ou des workflows."
+        },
+        "it": {
+          "label": "Agenti IA",
+          "summary": "Software capaci di ragionare su un contesto e invocare strumenti o workflow."
+        }
+      }
     },
     {
       "id": "mcp",
       "label": "MCP",
       "domain": "ai",
       "tier": 2,
-      "summary": "A protocol layer exposing tools and data to AI agents."
+      "summary": "A protocol layer exposing tools and data to AI agents.",
+      "i18n": {
+        "fr": {
+          "label": "MCP",
+          "summary": "Une couche protocolaire qui expose outils et données aux agents IA."
+        },
+        "it": {
+          "label": "MCP",
+          "summary": "Un livello protocollare che espone strumenti e dati agli agenti IA."
+        }
+      }
     },
     {
       "id": "saas",
       "label": "SaaS",
       "domain": "ai",
       "tier": 3,
-      "summary": "Operational software whose value increasingly resides in data, permissions and execution rather than interface alone."
+      "summary": "Operational software whose value increasingly resides in data, permissions and execution rather than interface alone.",
+      "i18n": {
+        "fr": {
+          "label": "SaaS",
+          "summary": "Des logiciels opérationnels dont la valeur se déplace vers les données, les droits et l'exécution plutôt que vers l'interface seule."
+        },
+        "it": {
+          "label": "SaaS",
+          "summary": "Software operativi il cui valore si sposta verso dati, permessi ed esecuzione più che verso la sola interfaccia."
+        }
+      }
     },
     {
       "id": "permissions",
       "label": "Permissions",
       "domain": "ai",
       "tier": 2,
-      "summary": "Rules defining what a user, workload or agent may read, change or execute."
+      "summary": "Rules defining what a user, workload or agent may read, change or execute.",
+      "i18n": {
+        "fr": {
+          "label": "Permissions",
+          "summary": "Les règles qui définissent ce qu'un utilisateur, une charge de travail ou un agent peut lire, modifier ou exécuter."
+        },
+        "it": {
+          "label": "Permessi",
+          "summary": "Le regole che definiscono ciò che un utente, un workload o un agente può leggere, modificare o eseguire."
+        }
+      }
     },
     {
       "id": "identity",
       "label": "Workload identity",
       "domain": "ai",
       "tier": 2,
-      "summary": "Cryptographically verifiable identity attached to software workloads rather than locations."
+      "summary": "Cryptographically verifiable identity attached to software workloads rather than locations.",
+      "i18n": {
+        "fr": {
+          "label": "Identité des workloads",
+          "summary": "Une identité cryptographiquement vérifiable attachée au logiciel plutôt qu'à son emplacement."
+        },
+        "it": {
+          "label": "Identità dei workload",
+          "summary": "Un'identità verificabile crittograficamente associata al software invece che alla sua posizione."
+        }
+      }
     },
     {
       "id": "spiffe",
       "label": "SPIFFE",
       "domain": "ai",
       "tier": 3,
-      "summary": "A standard for issuing verifiable identities to workloads."
+      "summary": "A standard for issuing verifiable identities to workloads.",
+      "i18n": {
+        "fr": {
+          "label": "SPIFFE",
+          "summary": "Un standard pour attribuer des identités vérifiables aux workloads."
+        },
+        "it": {
+          "label": "SPIFFE",
+          "summary": "Uno standard per assegnare identità verificabili ai workload."
+        }
+      }
     },
     {
       "id": "mtls",
       "label": "mTLS",
       "domain": "ai",
       "tier": 3,
-      "summary": "Mutual TLS used to authenticate both sides of a software connection."
+      "summary": "Mutual TLS used to authenticate both sides of a software connection.",
+      "i18n": {
+        "fr": {
+          "label": "mTLS",
+          "summary": "TLS mutuel utilisé pour authentifier les deux parties d'une connexion logicielle."
+        },
+        "it": {
+          "label": "mTLS",
+          "summary": "TLS reciproco utilizzato per autenticare entrambe le parti di una connessione software."
+        }
+      }
     },
     {
       "id": "secrets",
       "label": "Secrets",
       "domain": "ai",
       "tier": 2,
-      "summary": "Credentials and sensitive values whose protection depends on encryption, storage and access control."
+      "summary": "Credentials and sensitive values whose protection depends on encryption, storage and access control.",
+      "i18n": {
+        "fr": {
+          "label": "Secrets",
+          "summary": "Identifiants et valeurs sensibles dont la protection dépend du chiffrement, du stockage et du contrôle d'accès."
+        },
+        "it": {
+          "label": "Segreti",
+          "summary": "Credenziali e valori sensibili la cui protezione dipende da cifratura, archiviazione e controllo degli accessi."
+        }
+      }
     },
     {
       "id": "kms",
       "label": "KMS",
       "domain": "ai",
       "tier": 3,
-      "summary": "Key management used to protect encryption keys and data at rest."
+      "summary": "Key management used to protect encryption keys and data at rest.",
+      "i18n": {
+        "fr": {
+          "label": "KMS",
+          "summary": "Gestion de clés utilisée pour protéger les clés de chiffrement et les données au repos."
+        },
+        "it": {
+          "label": "KMS",
+          "summary": "Gestione delle chiavi usata per proteggere le chiavi di cifratura e i dati a riposo."
+        }
+      }
     },
     {
       "id": "governance",
       "label": "AI governance",
       "domain": "ai",
       "tier": 1,
-      "summary": "Institutional rules, responsibilities and controls governing AI use."
+      "summary": "Institutional rules, responsibilities and controls governing AI use.",
+      "i18n": {
+        "fr": {
+          "label": "Gouvernance de l'IA",
+          "summary": "Les règles, responsabilités et contrôles institutionnels qui encadrent l'usage de l'IA."
+        },
+        "it": {
+          "label": "Governance dell'IA",
+          "summary": "Regole, responsabilità e controlli istituzionali che governano l'uso dell'IA."
+        }
+      }
     },
     {
       "id": "iso42001",
       "label": "ISO/IEC 42001",
       "domain": "ai",
       "tier": 2,
-      "summary": "A management-system standard for organizational AI governance."
+      "summary": "A management-system standard for organizational AI governance.",
+      "i18n": {
+        "fr": {
+          "label": "ISO/IEC 42001",
+          "summary": "Un standard de système de management pour la gouvernance organisationnelle de l'IA."
+        },
+        "it": {
+          "label": "ISO/IEC 42001",
+          "summary": "Uno standard di sistema di gestione per la governance organizzativa dell'IA."
+        }
+      }
     },
     {
       "id": "testing",
       "label": "System testing",
       "domain": "ai",
       "tier": 2,
-      "summary": "Evidence about how an AI system behaves for a specific version, context and use."
+      "summary": "Evidence about how an AI system behaves for a specific version, context and use.",
+      "i18n": {
+        "fr": {
+          "label": "Tests système",
+          "summary": "Des preuves sur le comportement d'un système d'IA pour une version, un contexte et un usage donnés."
+        },
+        "it": {
+          "label": "Test di sistema",
+          "summary": "Evidenze sul comportamento di un sistema di IA per una determinata versione, contesto e uso."
+        }
+      }
     },
     {
       "id": "conformity",
       "label": "Conformity assessment",
       "domain": "ai",
       "tier": 3,
-      "summary": "Structured evaluation of whether defined requirements are met."
+      "summary": "Structured evaluation of whether defined requirements are met.",
+      "i18n": {
+        "fr": {
+          "label": "Évaluation de conformité",
+          "summary": "Une évaluation structurée visant à déterminer si des exigences définies sont satisfaites."
+        },
+        "it": {
+          "label": "Valutazione di conformità",
+          "summary": "Una valutazione strutturata per determinare se requisiti definiti siano soddisfatti."
+        }
+      }
     },
     {
       "id": "procurement",
       "label": "AI procurement",
       "domain": "ai",
       "tier": 2,
-      "summary": "Supplier evaluation requiring clarity on certification scope, system testing and intended use."
+      "summary": "Supplier evaluation requiring clarity on certification scope, system testing and intended use.",
+      "i18n": {
+        "fr": {
+          "label": "Achats IA",
+          "summary": "L'évaluation des fournisseurs exigeant de clarifier le périmètre des certifications, les tests système et l'usage prévu."
+        },
+        "it": {
+          "label": "Procurement IA",
+          "summary": "La valutazione dei fornitori che richiede chiarezza su perimetro delle certificazioni, test di sistema e uso previsto."
+        }
+      }
     },
     {
       "id": "light-workforce",
       "label": "Light workforce",
       "domain": "work",
       "tier": 1,
-      "summary": "Work redesigned around human judgment while agents handle portions of execution and software navigation."
+      "summary": "Work redesigned around human judgment while agents handle portions of execution and software navigation.",
+      "i18n": {
+        "fr": {
+          "label": "Light workforce",
+          "summary": "Un travail reconfiguré autour du jugement humain tandis que les agents prennent en charge une partie de l'exécution et de la navigation logicielle."
+        },
+        "it": {
+          "label": "Light workforce",
+          "summary": "Lavoro ridisegnato attorno al giudizio umano mentre gli agenti assorbono parte dell'esecuzione e della navigazione software."
+        }
+      }
     },
     {
       "id": "cognition",
       "label": "Cognition",
       "domain": "cognition",
       "tier": 1,
-      "summary": "Attention, memory, effort and internal thought as operating conditions of human judgment."
+      "summary": "Attention, memory, effort and internal thought as operating conditions of human judgment.",
+      "i18n": {
+        "fr": {
+          "label": "Cognition",
+          "summary": "Attention, mémoire, effort et pensée interne comme conditions opératoires du jugement humain."
+        },
+        "it": {
+          "label": "Cognizione",
+          "summary": "Attenzione, memoria, sforzo e pensiero interno come condizioni operative del giudizio umano."
+        }
+      }
     },
     {
       "id": "memory",
       "label": "Memory",
       "domain": "cognition",
       "tier": 2,
-      "summary": "A system that organizes experience rather than preserving it as an untouched archive."
+      "summary": "A system that organizes experience rather than preserving it as an untouched archive.",
+      "i18n": {
+        "fr": {
+          "label": "Mémoire",
+          "summary": "Un système qui organise l'expérience plutôt qu'une archive qui la conserve intacte."
+        },
+        "it": {
+          "label": "Memoria",
+          "summary": "Un sistema che organizza l'esperienza invece di conservarla come un archivio intatto."
+        }
+      }
     },
     {
       "id": "episodic-memory",
       "label": "Episodic memory",
       "domain": "cognition",
       "tier": 3,
-      "summary": "Memory for events, their sequence and contextual organization."
+      "summary": "Memory for events, their sequence and contextual organization.",
+      "i18n": {
+        "fr": {
+          "label": "Mémoire épisodique",
+          "summary": "La mémoire des événements, de leur séquence et de leur organisation contextuelle."
+        },
+        "it": {
+          "label": "Memoria episodica",
+          "summary": "La memoria degli eventi, della loro sequenza e della loro organizzazione contestuale."
+        }
+      }
     },
     {
       "id": "event-boundaries",
       "label": "Event boundaries",
       "domain": "cognition",
       "tier": 3,
-      "summary": "Context changes that can segment a continuous experience into distinct remembered events."
+      "summary": "Context changes that can segment a continuous experience into distinct remembered events.",
+      "i18n": {
+        "fr": {
+          "label": "Frontières d'événements",
+          "summary": "Des changements de contexte capables de segmenter une expérience continue en événements distincts en mémoire."
+        },
+        "it": {
+          "label": "Confini degli eventi",
+          "summary": "Cambiamenti di contesto capaci di segmentare un'esperienza continua in eventi distinti nella memoria."
+        }
+      }
     },
     {
       "id": "interruption",
       "label": "Interruption",
       "domain": "cognition",
       "tier": 3,
-      "summary": "A disruption capable of fragmenting attention or the organization of an episode."
+      "summary": "A disruption capable of fragmenting attention or the organization of an episode.",
+      "i18n": {
+        "fr": {
+          "label": "Interruption",
+          "summary": "Une rupture capable de fragmenter l'attention ou l'organisation d'un épisode."
+        },
+        "it": {
+          "label": "Interruzione",
+          "summary": "Una discontinuità capace di frammentare l'attenzione o l'organizzazione di un episodio."
+        }
+      }
     },
     {
       "id": "effort",
       "label": "Cognitive effort",
       "domain": "cognition",
       "tier": 2,
-      "summary": "Mental resources invested in a task, shaped by recent performance and perceived attainability."
+      "summary": "Mental resources invested in a task, shaped by recent performance and perceived attainability.",
+      "i18n": {
+        "fr": {
+          "label": "Effort cognitif",
+          "summary": "Les ressources mentales investies dans une tâche, modulées par les performances récentes et la possibilité perçue de réussir."
+        },
+        "it": {
+          "label": "Sforzo cognitivo",
+          "summary": "Le risorse mentali investite in un compito, modulate dalle prestazioni recenti e dalla possibilità percepita di riuscire."
+        }
+      }
     },
     {
       "id": "learning",
       "label": "Learning",
       "domain": "cognition",
       "tier": 2,
-      "summary": "Knowledge construction that may depend on searching, trying, reformulating and tolerating productive resistance."
+      "summary": "Knowledge construction that may depend on searching, trying, reformulating and tolerating productive resistance.",
+      "i18n": {
+        "fr": {
+          "label": "Apprentissage",
+          "summary": "Une construction de connaissances qui peut dépendre de la recherche, de l'essai, de la reformulation et d'une résistance productive."
+        },
+        "it": {
+          "label": "Apprendimento",
+          "summary": "Una costruzione della conoscenza che può dipendere da ricerca, tentativi, riformulazione e resistenza produttiva."
+        }
+      }
     },
     {
       "id": "ai-assistance",
       "label": "AI assistance",
       "domain": "cognition",
       "tier": 3,
-      "summary": "Automation that can remove operations from a learning process before they become cognitively productive."
+      "summary": "Automation that can remove operations from a learning process before they become cognitively productive.",
+      "i18n": {
+        "fr": {
+          "label": "Assistance IA",
+          "summary": "Une automatisation qui peut retirer des opérations d'un processus d'apprentissage avant qu'elles deviennent cognitivement productives."
+        },
+        "it": {
+          "label": "Assistenza IA",
+          "summary": "Un'automazione che può rimuovere operazioni da un processo di apprendimento prima che diventino cognitivamente produttive."
+        }
+      }
     },
     {
       "id": "ownership",
       "label": "Psychological ownership",
       "domain": "cognition",
       "tier": 3,
-      "summary": "Attachment and value that can increase when a person participates in creating something."
+      "summary": "Attachment and value that can increase when a person participates in creating something.",
+      "i18n": {
+        "fr": {
+          "label": "Appropriation psychologique",
+          "summary": "L'attachement et la valeur qui peuvent augmenter lorsqu'une personne participe à la création de quelque chose."
+        },
+        "it": {
+          "label": "Proprietà psicologica",
+          "summary": "L'attaccamento e il valore che possono aumentare quando una persona partecipa alla creazione di qualcosa."
+        }
+      }
     },
     {
       "id": "attention",
       "label": "Attention",
       "domain": "cognition",
       "tier": 2,
-      "summary": "A limited resource vulnerable to fragmentation in digitally saturated environments."
+      "summary": "A limited resource vulnerable to fragmentation in digitally saturated environments.",
+      "i18n": {
+        "fr": {
+          "label": "Attention",
+          "summary": "Une ressource limitée, vulnérable à la fragmentation dans les environnements numériques saturés."
+        },
+        "it": {
+          "label": "Attenzione",
+          "summary": "Una risorsa limitata, vulnerabile alla frammentazione negli ambienti digitali saturi."
+        }
+      }
     },
     {
       "id": "internal-dialogue",
       "label": "Internal dialogue",
       "domain": "cognition",
       "tier": 3,
-      "summary": "Internally generated thought that requires continuity and space from external stimulation."
+      "summary": "Internally generated thought that requires continuity and space from external stimulation.",
+      "i18n": {
+        "fr": {
+          "label": "Dialogue intérieur",
+          "summary": "Une pensée générée de l'intérieur qui exige continuité et espace à l'écart de la stimulation externe."
+        },
+        "it": {
+          "label": "Dialogo interiore",
+          "summary": "Pensiero generato internamente che richiede continuità e spazio dalla stimolazione esterna."
+        }
+      }
     },
     {
       "id": "introspective-technoference",
       "label": "Introspective technoference",
       "domain": "cognition",
       "tier": 2,
-      "summary": "Disruption of reflection and internally generated cognition by continuous digital stimulation."
+      "summary": "Disruption of reflection and internally generated cognition by continuous digital stimulation.",
+      "i18n": {
+        "fr": {
+          "label": "Technoférence introspective",
+          "summary": "La perturbation de la réflexion et de la cognition interne par une stimulation numérique continue."
+        },
+        "it": {
+          "label": "Tecnoferenza introspettiva",
+          "summary": "La perturbazione della riflessione e della cognizione interna causata da stimolazione digitale continua."
+        }
+      }
     },
     {
       "id": "parental-technoference",
       "label": "Parental technoference",
       "domain": "cognition",
       "tier": 2,
-      "summary": "Digital-device interruptions affecting parent-child interaction."
+      "summary": "Digital-device interruptions affecting parent-child interaction.",
+      "i18n": {
+        "fr": {
+          "label": "Technoférence parentale",
+          "summary": "Les interruptions liées aux appareils numériques qui affectent l'interaction parent-enfant."
+        },
+        "it": {
+          "label": "Tecnoferenza parentale",
+          "summary": "Le interruzioni legate ai dispositivi digitali che influenzano l'interazione genitore-figlio."
+        }
+      }
     },
     {
       "id": "joint-attention",
       "label": "Joint attention",
       "domain": "cognition",
       "tier": 3,
-      "summary": "Shared attention between caregiver and child, central to interaction and early learning."
+      "summary": "Shared attention between caregiver and child, central to interaction and early learning.",
+      "i18n": {
+        "fr": {
+          "label": "Attention conjointe",
+          "summary": "L'attention partagée entre adulte et enfant, centrale pour l'interaction et les premiers apprentissages."
+        },
+        "it": {
+          "label": "Attenzione congiunta",
+          "summary": "L'attenzione condivisa tra adulto e bambino, centrale per l'interazione e i primi apprendimenti."
+        }
+      }
     },
     {
       "id": "language-development",
       "label": "Early language",
       "domain": "cognition",
       "tier": 3,
-      "summary": "Language development supported by interaction, verbal exchange and shared attention."
+      "summary": "Language development supported by interaction, verbal exchange and shared attention.",
+      "i18n": {
+        "fr": {
+          "label": "Langage précoce",
+          "summary": "Le développement du langage soutenu par l'interaction, les échanges verbaux et l'attention partagée."
+        },
+        "it": {
+          "label": "Linguaggio precoce",
+          "summary": "Lo sviluppo del linguaggio sostenuto da interazione, scambi verbali e attenzione condivisa."
+        }
+      }
     },
     {
       "id": "health",
       "label": "Health",
       "domain": "health",
       "tier": 1,
-      "summary": "Biological systems understood through mechanisms, biomarkers, trajectories and response to intervention."
+      "summary": "Biological systems understood through mechanisms, biomarkers, trajectories and response to intervention.",
+      "i18n": {
+        "fr": {
+          "label": "Santé",
+          "summary": "Les systèmes biologiques compris par leurs mécanismes, biomarqueurs, trajectoires et réponses aux interventions."
+        },
+        "it": {
+          "label": "Salute",
+          "summary": "Sistemi biologici compresi attraverso meccanismi, biomarcatori, traiettorie e risposta agli interventi."
+        }
+      }
     },
     {
       "id": "her2",
       "label": "HER2",
       "domain": "health",
       "tier": 2,
-      "summary": "A molecular target whose expression can matter across anatomically different cancers."
+      "summary": "A molecular target whose expression can matter across anatomically different cancers.",
+      "i18n": {
+        "fr": {
+          "label": "HER2",
+          "summary": "Une cible moléculaire dont l'expression peut compter dans des cancers anatomiquement différents."
+        },
+        "it": {
+          "label": "HER2",
+          "summary": "Un bersaglio molecolare la cui espressione può essere rilevante in tumori anatomicamente differenti."
+        }
+      }
     },
     {
       "id": "biliary-cancer",
       "label": "Biliary tract cancer",
       "domain": "health",
       "tier": 3,
-      "summary": "A cancer category in which a HER2-positive subgroup may define a distinct therapeutic vulnerability."
+      "summary": "A cancer category in which a HER2-positive subgroup may define a distinct therapeutic vulnerability.",
+      "i18n": {
+        "fr": {
+          "label": "Cancer des voies biliaires",
+          "summary": "Une catégorie de cancer dans laquelle un sous-groupe HER2 positif peut définir une vulnérabilité thérapeutique distincte."
+        },
+        "it": {
+          "label": "Tumore delle vie biliari",
+          "summary": "Una categoria tumorale in cui un sottogruppo HER2 positivo può definire una vulnerabilità terapeutica distinta."
+        }
+      }
     },
     {
       "id": "precision-oncology",
       "label": "Precision oncology",
       "domain": "health",
       "tier": 2,
-      "summary": "Treatment strategy increasingly defined by molecular features in addition to organ of origin."
+      "summary": "Treatment strategy increasingly defined by molecular features in addition to organ of origin.",
+      "i18n": {
+        "fr": {
+          "label": "Oncologie de précision",
+          "summary": "Une stratégie thérapeutique de plus en plus définie par les caractéristiques moléculaires en plus de l'organe d'origine."
+        },
+        "it": {
+          "label": "Oncologia di precisione",
+          "summary": "Una strategia terapeutica sempre più definita dalle caratteristiche molecolari oltre che dall'organo di origine."
+        }
+      }
     },
     {
       "id": "alzheimer-pathology",
       "label": "Alzheimer pathology",
       "domain": "health",
       "tier": 2,
-      "summary": "Pathological burden measured through biomarkers including amyloid- and tau-related signals."
+      "summary": "Pathological burden measured through biomarkers including amyloid- and tau-related signals.",
+      "i18n": {
+        "fr": {
+          "label": "Pathologie d'Alzheimer",
+          "summary": "La charge pathologique mesurée par des biomarqueurs liés notamment à l'amyloïde et à tau."
+        },
+        "it": {
+          "label": "Patologia di Alzheimer",
+          "summary": "Il carico patologico misurato attraverso biomarcatori legati, tra l'altro, ad amiloide e tau."
+        }
+      }
     },
     {
       "id": "cognitive-resilience",
       "label": "Cognitive resilience",
       "domain": "health",
       "tier": 2,
-      "summary": "Observed cognition performing better than expected given pathology, age and sex."
+      "summary": "Observed cognition performing better than expected given pathology, age and sex.",
+      "i18n": {
+        "fr": {
+          "label": "Résilience cognitive",
+          "summary": "Des performances cognitives observées meilleures que prévu compte tenu de la pathologie, de l'âge et du sexe."
+        },
+        "it": {
+          "label": "Resilienza cognitiva",
+          "summary": "Prestazioni cognitive osservate migliori del previsto rispetto a patologia, età e sesso."
+        }
+      }
     },
     {
       "id": "cortical-ageing",
       "label": "Cortical ageing",
       "domain": "health",
       "tier": 2,
-      "summary": "Age-related cellular and transcriptional change in the cortex."
+      "summary": "Age-related cellular and transcriptional change in the cortex.",
+      "i18n": {
+        "fr": {
+          "label": "Vieillissement cortical",
+          "summary": "Les changements cellulaires et transcriptionnels du cortex liés à l'âge."
+        },
+        "it": {
+          "label": "Invecchiamento corticale",
+          "summary": "I cambiamenti cellulari e trascrizionali della corteccia legati all'età."
+        }
+      }
     },
     {
       "id": "glia",
       "label": "Glial cells",
       "domain": "health",
       "tier": 3,
-      "summary": "Microglia, astrocytes and oligodendrocytes whose age-related programs can change markedly."
+      "summary": "Microglia, astrocytes and oligodendrocytes whose age-related programs can change markedly.",
+      "i18n": {
+        "fr": {
+          "label": "Cellules gliales",
+          "summary": "Microglie, astrocytes et oligodendrocytes dont les programmes liés à l'âge peuvent fortement évoluer."
+        },
+        "it": {
+          "label": "Cellule gliali",
+          "summary": "Microglia, astrociti e oligodendrociti i cui programmi legati all'età possono cambiare in modo marcato."
+        }
+      }
     },
     {
       "id": "circadian",
       "label": "Cellular rhythms",
       "domain": "health",
       "tier": 3,
-      "summary": "Twenty-four-hour transcriptional rhythms that change across age and cell populations."
+      "summary": "Twenty-four-hour transcriptional rhythms that change across age and cell populations.",
+      "i18n": {
+        "fr": {
+          "label": "Rythmes cellulaires",
+          "summary": "Des rythmes transcriptionnels de 24 heures qui évoluent avec l'âge et selon les populations cellulaires."
+        },
+        "it": {
+          "label": "Ritmi cellulari",
+          "summary": "Ritmi trascrizionali di 24 ore che cambiano con l'età e tra le diverse popolazioni cellulari."
+        }
+      }
     },
     {
       "id": "prematurity",
       "label": "Prematurity",
       "domain": "health",
       "tier": 2,
-      "summary": "Early birth in which sensory environment and brain maturation differ from the expected in-utero trajectory."
+      "summary": "Early birth in which sensory environment and brain maturation differ from the expected in-utero trajectory.",
+      "i18n": {
+        "fr": {
+          "label": "Prématurité",
+          "summary": "Une naissance précoce où l'environnement sensoriel et la maturation cérébrale diffèrent de la trajectoire attendue in utero."
+        },
+        "it": {
+          "label": "Prematurità",
+          "summary": "Una nascita precoce in cui ambiente sensoriale e maturazione cerebrale differiscono dalla traiettoria attesa in utero."
+        }
+      }
     },
     {
       "id": "music",
       "label": "Structured music",
       "domain": "health",
       "tier": 3,
-      "summary": "A predictable acoustic intervention studied in neonatal intensive care."
+      "summary": "A predictable acoustic intervention studied in neonatal intensive care.",
+      "i18n": {
+        "fr": {
+          "label": "Musique structurée",
+          "summary": "Une intervention acoustique prévisible étudiée en soins intensifs néonatals."
+        },
+        "it": {
+          "label": "Musica strutturata",
+          "summary": "Un intervento acustico prevedibile studiato in terapia intensiva neonatale."
+        }
+      }
     },
     {
       "id": "corpus-callosum",
       "label": "Corpus callosum",
       "domain": "health",
       "tier": 3,
-      "summary": "The major white-matter tract connecting the cerebral hemispheres."
+      "summary": "The major white-matter tract connecting the cerebral hemispheres.",
+      "i18n": {
+        "fr": {
+          "label": "Corps calleux",
+          "summary": "La principale voie de substance blanche reliant les deux hémisphères cérébraux."
+        },
+        "it": {
+          "label": "Corpo calloso",
+          "summary": "Il principale fascio di sostanza bianca che collega i due emisferi cerebrali."
+        }
+      }
     },
     {
       "id": "wound-healing",
       "label": "Wound healing",
       "domain": "health",
       "tier": 2,
-      "summary": "Tissue repair involving extracellular matrix, angiogenesis, fibroblasts and growth factors."
+      "summary": "Tissue repair involving extracellular matrix, angiogenesis, fibroblasts and growth factors.",
+      "i18n": {
+        "fr": {
+          "label": "Cicatrisation",
+          "summary": "La réparation tissulaire impliquant matrice extracellulaire, angiogenèse, fibroblastes et facteurs de croissance."
+        },
+        "it": {
+          "label": "Cicatrizzazione",
+          "summary": "La riparazione tissutale che coinvolge matrice extracellulare, angiogenesi, fibroblasti e fattori di crescita."
+        }
+      }
     },
     {
       "id": "shea",
       "label": "Shea triterpenes",
       "domain": "health",
       "tier": 3,
-      "summary": "Lupeol, α-amyrin and β-amyrin studied as testable components of an ethnomedical practice."
+      "summary": "Lupeol, α-amyrin and β-amyrin studied as testable components of an ethnomedical practice.",
+      "i18n": {
+        "fr": {
+          "label": "Triterpènes du karité",
+          "summary": "Lupeol, α-amyrine et β-amyrine étudiés comme composants testables d'une pratique ethnomédicale."
+        },
+        "it": {
+          "label": "Triterpeni del karité",
+          "summary": "Lupeolo, α-amirina e β-amirina studiati come componenti testabili di una pratica etnomedica."
+        }
+      }
     },
     {
       "id": "culture",
       "label": "Culture",
       "domain": "culture",
       "tier": 1,
-      "summary": "The systems through which societies encode value, memory, heritage and historical narratives."
+      "summary": "The systems through which societies encode value, memory, heritage and historical narratives.",
+      "i18n": {
+        "fr": {
+          "label": "Culture",
+          "summary": "Les systèmes par lesquels les sociétés encodent valeur, mémoire, patrimoine et récits historiques."
+        },
+        "it": {
+          "label": "Cultura",
+          "summary": "I sistemi attraverso cui le società codificano valore, memoria, patrimonio e narrazioni storiche."
+        }
+      }
     },
     {
       "id": "luxury",
       "label": "Luxury perception",
       "domain": "culture",
       "tier": 2,
-      "summary": "Perceived status shaped by visual codes, craftsmanship cues and exclusivity."
+      "summary": "Perceived status shaped by visual codes, craftsmanship cues and exclusivity.",
+      "i18n": {
+        "fr": {
+          "label": "Perception du luxe",
+          "summary": "Le statut perçu façonné par les codes visuels, les signes de savoir-faire et l'exclusivité."
+        },
+        "it": {
+          "label": "Percezione del lusso",
+          "summary": "Lo status percepito plasmato da codici visivi, segnali di maestria ed esclusività."
+        }
+      }
     },
     {
       "id": "visual-complexity",
       "label": "Visual complexity",
       "domain": "culture",
       "tier": 3,
-      "summary": "Chromatic and contour complexity that can alter perceived status in non-linear ways."
+      "summary": "Chromatic and contour complexity that can alter perceived status in non-linear ways.",
+      "i18n": {
+        "fr": {
+          "label": "Complexité visuelle",
+          "summary": "La complexité chromatique et des contours qui peut modifier le statut perçu de manière non linéaire."
+        },
+        "it": {
+          "label": "Complessità visiva",
+          "summary": "La complessità cromatica e dei contorni che può modificare lo status percepito in modo non lineare."
+        }
+      }
     },
     {
       "id": "minimalism",
       "label": "Minimalism",
       "domain": "culture",
       "tier": 3,
-      "summary": "A visual strategy associated with empty space and luxury, but not its only viable code."
+      "summary": "A visual strategy associated with empty space and luxury, but not its only viable code.",
+      "i18n": {
+        "fr": {
+          "label": "Minimalisme",
+          "summary": "Une stratégie visuelle associée à l'espace vide et au luxe, sans en constituer le seul code possible."
+        },
+        "it": {
+          "label": "Minimalismo",
+          "summary": "Una strategia visiva associata allo spazio vuoto e al lusso, senza esserne l'unico codice possibile."
+        }
+      }
     },
     {
       "id": "industrial-archaeology",
       "label": "Industrial archaeology",
       "domain": "culture",
       "tier": 2,
-      "summary": "Material traces revealing large-scale production systems hidden by simplified historical narratives."
+      "summary": "Material traces revealing large-scale production systems hidden by simplified historical narratives.",
+      "i18n": {
+        "fr": {
+          "label": "Archéologie industrielle",
+          "summary": "Les traces matérielles qui révèlent des systèmes de production à grande échelle masqués par des récits historiques simplifiés."
+        },
+        "it": {
+          "label": "Archeologia industriale",
+          "summary": "Tracce materiali che rivelano sistemi produttivi su larga scala nascosti da narrazioni storiche semplificate."
+        }
+      }
     },
     {
       "id": "celtic-salt",
       "label": "Celtic salt industry",
       "domain": "culture",
       "tier": 3,
-      "summary": "Proto-industrial salt production in the Seille valley with standardized output and environmental effects."
+      "summary": "Proto-industrial salt production in the Seille valley with standardized output and environmental effects.",
+      "i18n": {
+        "fr": {
+          "label": "Industrie celtique du sel",
+          "summary": "Une production proto-industrielle dans la vallée de la Seille, avec standardisation et effets environnementaux."
+        },
+        "it": {
+          "label": "Industria celtica del sale",
+          "summary": "Una produzione proto-industriale nella valle della Seille, con standardizzazione ed effetti ambientali."
+        }
+      }
     },
     {
       "id": "national-narrative",
       "label": "National narrative",
       "domain": "culture",
       "tier": 3,
-      "summary": "Selective cultural memory that can privilege simplified ancestral images over technical complexity."
+      "summary": "Selective cultural memory that can privilege simplified ancestral images over technical complexity.",
+      "i18n": {
+        "fr": {
+          "label": "Récit national",
+          "summary": "Une mémoire culturelle sélective qui peut privilégier des images ancestrales simplifiées au détriment de la complexité technique."
+        },
+        "it": {
+          "label": "Narrazione nazionale",
+          "summary": "Una memoria culturale selettiva che può privilegiare immagini ancestrali semplificate a scapito della complessità tecnica."
+        }
+      }
     },
     {
       "id": "heritage",
       "label": "Heritage",
       "domain": "culture",
       "tier": 2,
-      "summary": "Material remains whose visible form can be misassigned to the wrong historical period."
+      "summary": "Material remains whose visible form can be misassigned to the wrong historical period.",
+      "i18n": {
+        "fr": {
+          "label": "Patrimoine",
+          "summary": "Des vestiges matériels dont la forme visible peut être attribuée au mauvais moment historique."
+        },
+        "it": {
+          "label": "Patrimonio",
+          "summary": "Resti materiali la cui forma visibile può essere attribuita al periodo storico sbagliato."
+        }
+      }
     },
     {
       "id": "mont-treadwheel",
       "label": "Mont-Saint-Michel treadwheel",
       "domain": "culture",
       "tier": 3,
-      "summary": "A six-metre prison-era lifting machine installed in 1818 and often read as medieval."
+      "summary": "A six-metre prison-era lifting machine installed in 1818 and often read as medieval.",
+      "i18n": {
+        "fr": {
+          "label": "Roue du Mont-Saint-Michel",
+          "summary": "Une machine de levage carcérale de six mètres installée en 1818 et souvent interprétée comme médiévale."
+        },
+        "it": {
+          "label": "Ruota del Mont-Saint-Michel",
+          "summary": "Una macchina di sollevamento carceraria di sei metri installata nel 1818 e spesso letta come medievale."
+        }
+      }
     },
     {
       "id": "kentridge",
       "label": "William Kentridge",
       "domain": "culture",
       "tier": 2,
-      "summary": "An artistic practice where drawing, erasure and residual trace make memory materially visible."
+      "summary": "An artistic practice where drawing, erasure and residual trace make memory materially visible.",
+      "i18n": {
+        "fr": {
+          "label": "William Kentridge",
+          "summary": "Une pratique artistique où dessin, effacement et trace résiduelle rendent la mémoire matériellement visible."
+        },
+        "it": {
+          "label": "William Kentridge",
+          "summary": "Una pratica artistica in cui disegno, cancellazione e traccia residua rendono la memoria materialmente visibile."
+        }
+      }
     },
     {
       "id": "erasure",
       "label": "Erasure & trace",
       "domain": "culture",
       "tier": 3,
-      "summary": "A process in which removal leaves physical evidence of previous states."
+      "summary": "A process in which removal leaves physical evidence of previous states.",
+      "i18n": {
+        "fr": {
+          "label": "Effacement & trace",
+          "summary": "Un processus où la suppression laisse une preuve matérielle des états précédents."
+        },
+        "it": {
+          "label": "Cancellazione & traccia",
+          "summary": "Un processo in cui la rimozione lascia una prova materiale degli stati precedenti."
+        }
+      }
     },
     {
       "id": "reconsolidation",
       "label": "Memory reconsolidation",
       "domain": "cognition",
       "tier": 3,
-      "summary": "The possibility that reactivated memories can become modifiable before restabilization."
+      "summary": "The possibility that reactivated memories can become modifiable before restabilization.",
+      "i18n": {
+        "fr": {
+          "label": "Reconsolidation de la mémoire",
+          "summary": "La possibilité qu'un souvenir réactivé devienne modifiable avant de se restabiliser."
+        },
+        "it": {
+          "label": "Riconsolidamento della memoria",
+          "summary": "La possibilità che un ricordo riattivato diventi modificabile prima di stabilizzarsi nuovamente."
+        }
+      }
     },
     {
       "id": "vernacular-architecture",
       "label": "Vernacular architecture",
       "domain": "culture",
       "tier": 2,
-      "summary": "Long-developed building knowledge adapting form, orientation, materials and water to climate."
+      "summary": "Long-developed building knowledge adapting form, orientation, materials and water to climate.",
+      "i18n": {
+        "fr": {
+          "label": "Architecture vernaculaire",
+          "summary": "Des savoirs bâtis de longue durée adaptant forme, orientation, matériaux et eau au climat."
+        },
+        "it": {
+          "label": "Architettura vernacolare",
+          "summary": "Saperi costruttivi di lunga durata che adattano forma, orientamento, materiali e acqua al clima."
+        }
+      }
     },
     {
       "id": "climate-design",
       "label": "Climate-responsive design",
       "domain": "culture",
       "tier": 3,
-      "summary": "Architectural decisions shaped by sun, wind, water, thermal mass and local conditions."
+      "summary": "Architectural decisions shaped by sun, wind, water, thermal mass and local conditions.",
+      "i18n": {
+        "fr": {
+          "label": "Conception climatique",
+          "summary": "Des choix architecturaux guidés par le soleil, le vent, l'eau, l'inertie thermique et les conditions locales."
+        },
+        "it": {
+          "label": "Progettazione climatica",
+          "summary": "Scelte architettoniche guidate da sole, vento, acqua, massa termica e condizioni locali."
+        }
+      }
     },
     {
       "id": "availability-heuristic",
       "label": "Availability heuristic",
       "domain": "cognition",
       "tier": 3,
-      "summary": "The tendency for easily recalled examples to weigh disproportionately in judgment."
+      "summary": "The tendency for easily recalled examples to weigh disproportionately in judgment.",
+      "i18n": {
+        "fr": {
+          "label": "Heuristique de disponibilité",
+          "summary": "La tendance à donner un poids disproportionné aux exemples qui viennent facilement à l'esprit."
+        },
+        "it": {
+          "label": "Euristica della disponibilità",
+          "summary": "La tendenza ad attribuire un peso sproporzionato agli esempi che vengono facilmente in mente."
+        }
+      }
     }
   ],
   "edges": [
@@ -490,7 +1144,11 @@
           "title": "A model is not an AI system",
           "url": "/archive/2026/09/25/modele-systeme-architecture-ia"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "l'architecture technique conditionne l'action",
+        "it": "l'architettura tecnica condiziona l'azione"
+      }
     },
     {
       "source": "human-systems",
@@ -502,7 +1160,11 @@
           "title": "Introspective Technoference",
           "url": "/research/introspective-technoference"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "les systèmes reconfigurent le jugement",
+        "it": "i sistemi rimodellano il giudizio"
+      }
     },
     {
       "source": "human-systems",
@@ -514,7 +1176,11 @@
           "title": "PsychAD: prefrontal cortex across the lifespan",
           "url": "/archive/2026/09/25/psychad-cortex-prefrontal-vieillissement"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "les systèmes modifient les trajectoires biologiques",
+        "it": "i sistemi modificano le traiettorie biologiche"
+      }
     },
     {
       "source": "human-systems",
@@ -526,7 +1192,11 @@
           "title": "Celtic salt production at Marsal",
           "url": "/archive/2026/09/25/celtes-sel-marsal-industrie"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "les systèmes façonnent la mémoire collective",
+        "it": "i sistemi plasmano la memoria collettiva"
+      }
     },
     {
       "source": "ai-systems",
@@ -538,7 +1208,11 @@
           "title": "A model is not an AI system",
           "url": "/archive/2026/09/25/modele-systeme-architecture-ia"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "contient",
+        "it": "contiene"
+      }
     },
     {
       "source": "ai-systems",
@@ -550,7 +1224,11 @@
           "title": "A model is not an AI system",
           "url": "/archive/2026/09/25/modele-systeme-architecture-ia"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut inclure",
+        "it": "può includere"
+      }
     },
     {
       "source": "ai-systems",
@@ -562,7 +1240,11 @@
           "title": "A model is not an AI system",
           "url": "/archive/2026/09/25/modele-systeme-architecture-ia"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut orchestrer",
+        "it": "può orchestrare"
+      }
     },
     {
       "source": "rag",
@@ -574,7 +1256,11 @@
           "title": "A model is not an AI system",
           "url": "/archive/2026/09/25/modele-systeme-architecture-ia"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "fournit le contexte récupéré à",
+        "it": "fornisce il contesto recuperato a"
+      }
     },
     {
       "source": "rag",
@@ -586,7 +1272,11 @@
           "title": "A model is not an AI system",
           "url": "/archive/2026/09/25/modele-systeme-architecture-ia"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "exige une évaluation de bout en bout",
+        "it": "richiede una valutazione end-to-end"
+      }
     },
     {
       "source": "agents",
@@ -598,7 +1288,11 @@
           "title": "Positive Group: MCP, agents and SaaS execution",
           "url": "/archive/2026/09/25/positive-group-mcp-marketing-saas"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut appeler des outils via",
+        "it": "può invocare strumenti tramite"
+      }
     },
     {
       "source": "mcp",
@@ -610,7 +1304,11 @@
           "title": "Positive Group: MCP, agents and SaaS execution",
           "url": "/archive/2026/09/25/positive-group-mcp-marketing-saas"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "expose les fonctions de",
+        "it": "espone le funzioni di"
+      }
     },
     {
       "source": "agents",
@@ -622,7 +1320,11 @@
           "title": "Positive Group: MCP, agents and SaaS execution",
           "url": "/archive/2026/09/25/positive-group-mcp-marketing-saas"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "restent limités par",
+        "it": "restano vincolati da"
+      }
     },
     {
       "source": "agents",
@@ -634,7 +1336,11 @@
           "title": "SPIFFE: verifiable identity for AI agents",
           "url": "/archive/2026/09/25/spiffe-identite-agents-ia"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "exigent une identité vérifiable",
+        "it": "richiedono un'identità verificabile"
+      }
     },
     {
       "source": "identity",
@@ -646,7 +1352,11 @@
           "title": "SPIFFE: verifiable identity for AI agents",
           "url": "/archive/2026/09/25/spiffe-identite-agents-ia"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut être mise en œuvre avec",
+        "it": "può essere implementata con"
+      }
     },
     {
       "source": "spiffe",
@@ -658,7 +1368,11 @@
           "title": "SPIFFE: verifiable identity for AI agents",
           "url": "/archive/2026/09/25/spiffe-identite-agents-ia"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "permet des connexions authentifiées via",
+        "it": "supporta connessioni autenticate tramite"
+      }
     },
     {
       "source": "identity",
@@ -670,7 +1384,11 @@
           "title": "SPIFFE: verifiable identity for AI agents",
           "url": "/archive/2026/09/25/spiffe-identite-agents-ia"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "ne remplace pas",
+        "it": "non sostituisce"
+      }
     },
     {
       "source": "secrets",
@@ -682,7 +1400,11 @@
           "title": "Kubernetes Secrets: Base64, KMS and access control",
           "url": "/archive/2026/09/25/kubernetes-secrets-base64-kms"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peuvent être protégés au repos par",
+        "it": "possono essere protetti a riposo da"
+      }
     },
     {
       "source": "secrets",
@@ -694,7 +1416,11 @@
           "title": "Kubernetes Secrets: Base64, KMS and access control",
           "url": "/archive/2026/09/25/kubernetes-secrets-base64-kms"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "restent exposés via",
+        "it": "restano esposti tramite"
+      }
     },
     {
       "source": "governance",
@@ -706,7 +1432,11 @@
           "title": "ISO/IEC 42001: management, testing and conformity",
           "url": "/archive/2026/09/25/iso-42001-certification-ia"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut être structurée par",
+        "it": "può essere strutturata da"
+      }
     },
     {
       "source": "iso42001",
@@ -718,7 +1448,11 @@
           "title": "ISO/IEC 42001: management, testing and conformity",
           "url": "/archive/2026/09/25/iso-42001-certification-ia"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "ne prouve pas à elle seule",
+        "it": "non dimostra da sola"
+      }
     },
     {
       "source": "testing",
@@ -730,7 +1464,11 @@
           "title": "ISO/IEC 42001: management, testing and conformity",
           "url": "/archive/2026/09/25/iso-42001-certification-ia"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "fournit des preuves pour",
+        "it": "fornisce evidenze per"
+      }
     },
     {
       "source": "governance",
@@ -742,7 +1480,11 @@
           "title": "ISO/IEC 42001: management, testing and conformity",
           "url": "/archive/2026/09/25/iso-42001-certification-ia"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "change les questions dans",
+        "it": "cambia le domande nel"
+      }
     },
     {
       "source": "procurement",
@@ -754,7 +1496,11 @@
           "title": "ISO/IEC 42001: management, testing and conformity",
           "url": "/archive/2026/09/25/iso-42001-certification-ia"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "doit examiner le périmètre de",
+        "it": "deve esaminare il perimetro di"
+      }
     },
     {
       "source": "agents",
@@ -766,7 +1512,11 @@
           "title": "Positive Group: MCP, agents and SaaS execution",
           "url": "/archive/2026/09/25/positive-group-mcp-marketing-saas"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "réduisent le travail de navigation dans",
+        "it": "riducono il lavoro di navigazione nella"
+      }
     },
     {
       "source": "saas",
@@ -778,7 +1528,11 @@
           "title": "Positive Group: MCP, agents and SaaS execution",
           "url": "/archive/2026/09/25/positive-group-mcp-marketing-saas"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "déplace la valeur vers les données et l'exécution dans",
+        "it": "sposta il valore verso dati ed esecuzione nella"
+      }
     },
     {
       "source": "ai-systems",
@@ -790,7 +1544,11 @@
           "title": "A model is not an AI system",
           "url": "/archive/2026/09/25/modele-systeme-architecture-ia"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "doivent être gouvernés au-delà du choix du modèle",
+        "it": "devono essere governati oltre la scelta del modello"
+      }
     },
     {
       "source": "cognition",
@@ -802,7 +1560,11 @@
           "title": "Doorways, event boundaries and episodic memory",
           "url": "/archive/2026/09/25/portes-frontieres-memoire-episodique"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "inclut",
+        "it": "include"
+      }
     },
     {
       "source": "memory",
@@ -814,7 +1576,11 @@
           "title": "Doorways, event boundaries and episodic memory",
           "url": "/archive/2026/09/25/portes-frontieres-memoire-episodique"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "inclut",
+        "it": "include"
+      }
     },
     {
       "source": "episodic-memory",
@@ -826,7 +1592,11 @@
           "title": "Doorways, event boundaries and episodic memory",
           "url": "/archive/2026/09/25/portes-frontieres-memoire-episodique"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "est réorganisée par",
+        "it": "è riorganizzata da"
+      }
     },
     {
       "source": "event-boundaries",
@@ -838,7 +1608,11 @@
           "title": "Doorways, event boundaries and episodic memory",
           "url": "/archive/2026/09/25/portes-frontieres-memoire-episodique"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peuvent être créées cognitivement par",
+        "it": "possono essere create cognitivamente da"
+      }
     },
     {
       "source": "interruption",
@@ -850,7 +1624,11 @@
           "title": "Doorways, event boundaries and episodic memory",
           "url": "/archive/2026/09/25/portes-frontieres-memoire-episodique"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut fragmenter",
+        "it": "può frammentare"
+      }
     },
     {
       "source": "cognition",
@@ -862,7 +1640,11 @@
           "title": "Effort, the IKEA effect and AI in education",
           "url": "/archive/2026/09/25/effort-effet-ikea-ia-education"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "mobilise",
+        "it": "mobilita"
+      }
     },
     {
       "source": "effort",
@@ -874,7 +1656,11 @@
           "title": "Effort, the IKEA effect and AI in education",
           "url": "/archive/2026/09/25/effort-effet-ikea-ia-education"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut contribuer à",
+        "it": "può contribuire a"
+      }
     },
     {
       "source": "ai-assistance",
@@ -886,7 +1672,11 @@
           "title": "Effort, the IKEA effect and AI in education",
           "url": "/archive/2026/09/25/effort-effet-ikea-ia-education"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut réduire",
+        "it": "può rimuovere"
+      }
     },
     {
       "source": "ai-assistance",
@@ -898,7 +1688,11 @@
           "title": "Effort, the IKEA effect and AI in education",
           "url": "/archive/2026/09/25/effort-effet-ikea-ia-education"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut modifier la construction de",
+        "it": "può modificare la costruzione di"
+      }
     },
     {
       "source": "effort",
@@ -910,7 +1704,11 @@
           "title": "Effort, the IKEA effect and AI in education",
           "url": "/archive/2026/09/25/effort-effet-ikea-ia-education"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut accroître",
+        "it": "può aumentare"
+      }
     },
     {
       "source": "attention",
@@ -922,7 +1720,11 @@
           "title": "Introspective Technoference",
           "url": "/research/introspective-technoference"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "est fragmentée dans",
+        "it": "è frammentata nella"
+      }
     },
     {
       "source": "introspective-technoference",
@@ -934,7 +1736,11 @@
           "title": "Introspective Technoference",
           "url": "/research/introspective-technoference"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "perturbe",
+        "it": "interrompe"
+      }
     },
     {
       "source": "introspective-technoference",
@@ -946,7 +1752,11 @@
           "title": "Introspective Technoference",
           "url": "/research/introspective-technoference"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut modifier les conditions de",
+        "it": "può modificare le condizioni per"
+      }
     },
     {
       "source": "parental-technoference",
@@ -958,7 +1768,11 @@
           "title": "Parental Technoference and Early Language Development",
           "url": "/research/parental-technoference-language-development"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut perturber",
+        "it": "può interrompere"
+      }
     },
     {
       "source": "joint-attention",
@@ -970,7 +1784,11 @@
           "title": "Parental Technoference and Early Language Development",
           "url": "/research/parental-technoference-language-development"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "soutient",
+        "it": "sostiene"
+      }
     },
     {
       "source": "parental-technoference",
@@ -982,7 +1800,11 @@
           "title": "Parental Technoference and Early Language Development",
           "url": "/research/parental-technoference-language-development"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "est associée à une interaction modifiée soutenant",
+        "it": "è associata a un'interazione alterata che sostiene"
+      }
     },
     {
       "source": "attention",
@@ -994,7 +1816,11 @@
           "title": "Parental Technoference and Early Language Development",
           "url": "/research/parental-technoference-language-development"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "est détournée dans",
+        "it": "viene distolta nella"
+      }
     },
     {
       "source": "health",
@@ -1006,7 +1832,11 @@
           "title": "HERBOT: HER2 and biliary tract cancer",
           "url": "/archive/2026/09/25/herbot-her2-cancer-voies-biliaires"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "utilise des marqueurs moléculaires tels que",
+        "it": "utilizza marcatori molecolari come"
+      }
     },
     {
       "source": "her2",
@@ -1018,7 +1848,11 @@
           "title": "HERBOT: HER2 and biliary tract cancer",
           "url": "/archive/2026/09/25/herbot-her2-cancer-voies-biliaires"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "définit un sous-groupe ciblable dans",
+        "it": "definisce un sottogruppo targettabile nel"
+      }
     },
     {
       "source": "her2",
@@ -1030,7 +1864,11 @@
           "title": "HERBOT: HER2 and biliary tract cancer",
           "url": "/archive/2026/09/25/herbot-her2-cancer-voies-biliaires"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "soutient",
+        "it": "sostiene"
+      }
     },
     {
       "source": "biliary-cancer",
@@ -1042,7 +1880,11 @@
           "title": "HERBOT: HER2 and biliary tract cancer",
           "url": "/archive/2026/09/25/herbot-her2-cancer-voies-biliaires"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut être reclassé par",
+        "it": "può essere riclassificato da"
+      }
     },
     {
       "source": "health",
@@ -1054,7 +1896,11 @@
           "title": "Alzheimer pathology and cognitive resilience",
           "url": "/archive/2026/09/25/alzheimer-resilience-cognitive"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "suit",
+        "it": "monitora"
+      }
     },
     {
       "source": "alzheimer-pathology",
@@ -1066,7 +1912,11 @@
           "title": "Alzheimer pathology and cognitive resilience",
           "url": "/archive/2026/09/25/alzheimer-resilience-cognitive"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "ne détermine pas entièrement",
+        "it": "non determina completamente"
+      }
     },
     {
       "source": "cognitive-resilience",
@@ -1078,7 +1928,11 @@
           "title": "Alzheimer pathology and cognitive resilience",
           "url": "/archive/2026/09/25/alzheimer-resilience-cognitive"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "décrit une performance préservée impliquant",
+        "it": "descrive una prestazione preservata che coinvolge"
+      }
     },
     {
       "source": "health",
@@ -1090,7 +1944,11 @@
           "title": "PsychAD: prefrontal cortex across the lifespan",
           "url": "/archive/2026/09/25/psychad-cortex-prefrontal-vieillissement"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "cartographie",
+        "it": "mappa"
+      }
     },
     {
       "source": "cortical-ageing",
@@ -1102,7 +1960,11 @@
           "title": "PsychAD: prefrontal cortex across the lifespan",
           "url": "/archive/2026/09/25/psychad-cortex-prefrontal-vieillissement"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "montre de forts changements dans",
+        "it": "mostra forti cambiamenti nelle"
+      }
     },
     {
       "source": "cortical-ageing",
@@ -1114,7 +1976,11 @@
           "title": "PsychAD: prefrontal cortex across the lifespan",
           "url": "/archive/2026/09/25/psychad-cortex-prefrontal-vieillissement"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "modifie",
+        "it": "modifica"
+      }
     },
     {
       "source": "prematurity",
@@ -1126,7 +1992,11 @@
           "title": "Prematurity, Brahms and corpus callosum growth",
           "url": "/archive/2026/09/25/prematures-musique-brahms-corps-calleux"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "a été étudiée avec",
+        "it": "è stata studiata con"
+      }
     },
     {
       "source": "music",
@@ -1138,7 +2008,11 @@
           "title": "Prematurity, Brahms and corpus callosum growth",
           "url": "/archive/2026/09/25/prematures-musique-brahms-corps-calleux"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "est associée à une croissance plus rapide du",
+        "it": "è associata a una crescita più rapida del"
+      }
     },
     {
       "source": "prematurity",
@@ -1150,7 +2024,11 @@
           "title": "Prematurity, Brahms and corpus callosum growth",
           "url": "/archive/2026/09/25/prematures-musique-brahms-corps-calleux"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "implique la maturation du",
+        "it": "coinvolge la maturazione del"
+      }
     },
     {
       "source": "wound-healing",
@@ -1162,7 +2040,11 @@
           "title": "Shea triterpenes and chronic wound repair",
           "url": "/archive/2026/09/25/karite-triterpenes-cicatrisation"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "a été étudiée expérimentalement avec",
+        "it": "è stata studiata sperimentalmente usando"
+      }
     },
     {
       "source": "shea",
@@ -1174,7 +2056,11 @@
           "title": "Shea triterpenes and chronic wound repair",
           "url": "/archive/2026/09/25/karite-triterpenes-cicatrisation"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "montre des signaux biologiques et tissulaires pertinents pour",
+        "it": "mostra segnali biologici e tissutali rilevanti per"
+      }
     },
     {
       "source": "culture",
@@ -1186,7 +2072,11 @@
           "title": "Luxury, minimalism and visual complexity",
           "url": "/archive/2026/09/25/luxe-minimalisme-complexite-visuelle"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "encode la valeur à travers",
+        "it": "codifica il valore attraverso"
+      }
     },
     {
       "source": "luxury",
@@ -1198,7 +2088,11 @@
           "title": "Luxury, minimalism and visual complexity",
           "url": "/archive/2026/09/25/luxe-minimalisme-complexite-visuelle"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "est façonnée par",
+        "it": "è plasmata da"
+      }
     },
     {
       "source": "luxury",
@@ -1210,7 +2104,11 @@
           "title": "Luxury, minimalism and visual complexity",
           "url": "/archive/2026/09/25/luxe-minimalisme-complexite-visuelle"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut être signalée par",
+        "it": "può essere segnalata da"
+      }
     },
     {
       "source": "minimalism",
@@ -1222,7 +2120,11 @@
           "title": "Luxury, minimalism and visual complexity",
           "url": "/archive/2026/09/25/luxe-minimalisme-complexite-visuelle"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "n'est qu'une région de",
+        "it": "è solo una regione di"
+      }
     },
     {
       "source": "culture",
@@ -1234,7 +2136,11 @@
           "title": "Celtic salt production at Marsal",
           "url": "/archive/2026/09/25/celtes-sel-marsal-industrie"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "retrouve des systèmes techniques cachés via",
+        "it": "recupera sistemi tecnici nascosti attraverso"
+      }
     },
     {
       "source": "industrial-archaeology",
@@ -1246,7 +2152,11 @@
           "title": "Celtic salt production at Marsal",
           "url": "/archive/2026/09/25/celtes-sel-marsal-industrie"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "révèle",
+        "it": "rivela"
+      }
     },
     {
       "source": "celtic-salt",
@@ -1258,7 +2168,11 @@
           "title": "Celtic salt production at Marsal",
           "url": "/archive/2026/09/25/celtes-sel-marsal-industrie"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "complexifie",
+        "it": "complica"
+      }
     },
     {
       "source": "culture",
@@ -1270,7 +2184,11 @@
           "title": "Mont-Saint-Michel: the 1818 prison treadwheel",
           "url": "/archive/2026/09/25/mont-saint-michel-roue-prison-1818"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "organise",
+        "it": "organizza"
+      }
     },
     {
       "source": "heritage",
@@ -1282,7 +2200,11 @@
           "title": "Mont-Saint-Michel: the 1818 prison treadwheel",
           "url": "/archive/2026/09/25/mont-saint-michel-roue-prison-1818"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut mal dater",
+        "it": "può datare erroneamente"
+      }
     },
     {
       "source": "mont-treadwheel",
@@ -1294,7 +2216,11 @@
           "title": "Mont-Saint-Michel: the 1818 prison treadwheel",
           "url": "/archive/2026/09/25/mont-saint-michel-roue-prison-1818"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "contredit une vision simplifiée de",
+        "it": "contraddice una visione semplificata di"
+      }
     },
     {
       "source": "culture",
@@ -1306,7 +2232,11 @@
           "title": "William Kentridge: erasure, trace and memory",
           "url": "/archive/2026/09/25/william-kentridge-effacement-memoire"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "utilise la pratique artistique pour examiner",
+        "it": "usa la pratica artistica per esaminare"
+      }
     },
     {
       "source": "kentridge",
@@ -1318,7 +2248,11 @@
           "title": "William Kentridge: erasure, trace and memory",
           "url": "/archive/2026/09/25/william-kentridge-effacement-memoire"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "travaille par",
+        "it": "opera attraverso"
+      }
     },
     {
       "source": "erasure",
@@ -1330,7 +2264,11 @@
           "title": "William Kentridge: erasure, trace and memory",
           "url": "/archive/2026/09/25/william-kentridge-effacement-memoire"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "matérialise les traces de",
+        "it": "materializza le tracce di"
+      }
     },
     {
       "source": "memory",
@@ -1342,7 +2280,11 @@
           "title": "William Kentridge: erasure, trace and memory",
           "url": "/archive/2026/09/25/william-kentridge-effacement-memoire"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut impliquer",
+        "it": "può coinvolgere"
+      }
     },
     {
       "source": "culture",
@@ -1354,7 +2296,11 @@
           "title": "OPÉRA VOCE: short memory builds badly",
           "url": "/archive/2026/09/25/opera-voce-memoria-corta-architettura"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "contient un savoir accumulé dans",
+        "it": "contiene conoscenza accumulata nella"
+      }
     },
     {
       "source": "vernacular-architecture",
@@ -1366,7 +2312,11 @@
           "title": "OPÉRA VOCE: short memory builds badly",
           "url": "/archive/2026/09/25/opera-voce-memoria-corta-architettura"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "met en œuvre",
+        "it": "implementa"
+      }
     },
     {
       "source": "availability-heuristic",
@@ -1378,7 +2328,11 @@
           "title": "OPÉRA VOCE: short memory builds badly",
           "url": "/archive/2026/09/25/opera-voce-memoria-corta-architettura"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut privilégier les figures mémorables dans",
+        "it": "può privilegiare figure memorabili nella"
+      }
     },
     {
       "source": "availability-heuristic",
@@ -1390,7 +2344,20 @@
           "title": "OPÉRA VOCE: short memory builds badly",
           "url": "/archive/2026/09/25/opera-voce-memoria-corta-architettura"
         }
-      ]
+      ],
+      "i18n": {
+        "fr": "peut simplifier la lecture de",
+        "it": "può semplificare la lettura di"
+      }
     }
-  ]
+  ],
+  "languages": [
+    "en",
+    "fr",
+    "it"
+  ],
+  "description_i18n": {
+    "fr": "Carte de connaissances fondée sur les preuves reliant systèmes, mécanismes et conséquences humaines dans le corpus VOCE.",
+    "it": "Mappa della conoscenza basata sulle evidenze che collega sistemi, meccanismi e conseguenze umane nel corpus VOCE."
+  }
 }
