@@ -412,6 +412,8 @@ function renderArticle(item, route, routes) {
 <meta property="og:title" content="${escapeHtml(metaTitle)}">
 <meta property="og:description" content="${escapeHtml(metaDescription)}">
 <meta property="og:url" content="${canonical}">
+<meta name="twitter:title" content="${escapeHtml(metaTitle)}">
+<meta name="twitter:description" content="${escapeHtml(metaDescription)}">
 <meta property="article:published_time" content="${escapeHtml(item.date_published)}">
 <link rel="stylesheet" href="/styles.css">
 <script type="application/ld+json">${JSON.stringify(ld).replace(/</g, "\\u003c")}</script>
