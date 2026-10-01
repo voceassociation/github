@@ -3,6 +3,8 @@
 > VOCE Association is an independent public research, educational and editorial corpus covering AI governance, health, neuroscience, technology, culture, infrastructure and human behaviour.
 
 VOCE Academy / canonical corpus: https://voce.life/archive
+VOCE Atlas: https://voce.life/atlas
+VOCE Atlas machine-readable graph: https://voce.life/data/atlas.json
 Machine-readable corpus: https://voce.life/data/corpus.json
 NDJSON corpus: https://voce.life/data/corpus.ndjson
 RSS feed: https://voce.life/feed.xml
