@@ -63,6 +63,63 @@ function excerpt(text = "", title = "") {
   return value.length > 210 ? value.slice(0, 207).trim() + "…" : value;
 }
 
+function cleanMetaText(value = "") {
+  return String(value)
+    .replace(/\{hashtag\|\\?#\|([^}]+)\}/g, "#$1")
+    .replace(/#[^\s#]+/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function truncateAtWord(value = "", max = 60) {
+  const text = cleanMetaText(value);
+  if (text.length <= max) return text;
+  const slice = text.slice(0, max + 1);
+  const cut = slice.lastIndexOf(" ");
+  const base = (cut >= Math.max(24, max - 18) ? slice.slice(0, cut) : text.slice(0, max)).trim();
+  return base.replace(/[,:;\-–—]+$/g, "").trim() + "…";
+}
+
+function seoTitle(text = "", title = "") {
+  const source = cleanMetaText(title || firstLine(text));
+  if (source.length <= 58) return source;
+
+  const punctuation = [". ", "? ", "! ", ": ", "; ", " — ", " – "];
+  let best = "";
+  for (const mark of punctuation) {
+    const i = source.indexOf(mark);
+    if (i >= 28 && i <= 58) {
+      const candidate = source.slice(0, i + (mark.trim().length === 1 ? 1 : 0)).trim();
+      if (!best || candidate.length > best.length) best = candidate;
+    }
+  }
+  return best || truncateAtWord(source, 58);
+}
+
+function seoDescription(text = "", title = "") {
+  const rawParts = String(text || "").split(/\n{2,}/).map(s => s.trim()).filter(Boolean);
+  const parts = rawParts.filter((p, index) => {
+    if (index === 0 && cleanMetaText(p) === cleanMetaText(title)) return false;
+    if (/^(ULTRA®|ULTRA|Sources?|Source|Références?|References?)\s*$/i.test(p)) return false;
+    if (/^#/.test(p)) return false;
+    if (p.length < 35 && /^[A-ZÀ-ÖØ-Þ0-9\s'’.-]+$/.test(p)) return false;
+    return true;
+  });
+
+  let value = cleanMetaText(parts.slice(0, 4).join(" "));
+  if (value.length < 105) {
+    value = cleanMetaText([seoTitle(text, title), value].filter(Boolean).join(". "));
+  }
+  if (!value) value = seoTitle(text, title);
+
+  if (value.length <= 155) return value;
+  const head = value.slice(0, 156);
+  const endings = [head.lastIndexOf(". "), head.lastIndexOf("? "), head.lastIndexOf("! ")];
+  const sentenceEnd = Math.max(...endings);
+  if (sentenceEnd >= 118) return head.slice(0, sentenceEnd + 1).trim();
+  return truncateAtWord(value, 152);
+}
+
 function formatDate(iso) {
   return new Intl.DateTimeFormat("fr-FR", {
     day: "numeric",
@@ -261,10 +318,19 @@ function renderHistoryDay(day) {
 <html lang="fr"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>VOCE Academy · ${escapeHtml(pretty)}</title>
-<meta name="description" content="${items.length} publications VOCE conservées le ${escapeHtml(pretty)}.">
+<meta name="description" content="${items.length} publications VOCE conservées le ${escapeHtml(pretty)} dans le corpus public et propriétaire de VOCE Association.">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <link rel="canonical" href="https://voce.life/archive/${date}">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="VOCE">
+<meta property="og:title" content="VOCE Academy · ${escapeHtml(pretty)}">
+<meta property="og:description" content="${items.length} publications VOCE conservées le ${escapeHtml(pretty)} dans le corpus public et propriétaire de VOCE Association.">
+<meta property="og:url" content="https://voce.life/archive/${date}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="VOCE Academy · ${escapeHtml(pretty)}">
+<meta name="twitter:description" content="${items.length} publications VOCE conservées le ${escapeHtml(pretty)} dans le corpus public et propriétaire de VOCE Association.">
+<link rel="stylesheet" href="/styles.css">
 </head><body>
 <a class="skip-link" href="#main-content">Aller au contenu</a>
 <header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="Primary navigation">
@@ -286,6 +352,8 @@ function renderHistoryDay(day) {
 function renderArticle(item, route, routes) {
   const title = firstLine(item.text);
   const description = excerpt(item.text, title);
+  const metaTitle = seoTitle(item.text, title);
+  const metaDescription = seoDescription(item.text, title);
   const canonical = `https://voce.life${route.path}`;
   let paragraphs = String(item.text || "").split(/\n{2,}/).map(s => s.trim()).filter(Boolean);
   if (paragraphs[0] === title) paragraphs = paragraphs.slice(1);
@@ -314,7 +382,7 @@ function renderArticle(item, route, routes) {
   const ld = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: title,
+    headline: metaTitle,
     datePublished: item.date_published,
     dateModified: item.date_published,
     author: { "@type": "Organization", name: "VOCE Association", url: "https://voce.life/" },
@@ -334,15 +402,15 @@ function renderArticle(item, route, routes) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${escapeHtml(title)} — VOCE</title>
-<meta name="description" content="${escapeHtml(description)}">
+<title>${escapeHtml(metaTitle)} — VOCE</title>
+<meta name="description" content="${escapeHtml(metaDescription)}">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <link rel="canonical" href="${canonical}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="VOCE">
-<meta property="og:title" content="${escapeHtml(title)}">
-<meta property="og:description" content="${escapeHtml(description)}">
+<meta property="og:title" content="${escapeHtml(metaTitle)}">
+<meta property="og:description" content="${escapeHtml(metaDescription)}">
 <meta property="og:url" content="${canonical}">
 <meta property="article:published_time" content="${escapeHtml(item.date_published)}">
 <link rel="stylesheet" href="/styles.css">
