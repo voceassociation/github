@@ -196,6 +196,95 @@ async function loadCorpus(env) {
   return JSON.parse(await getAssetText(env, "data/corpus.json"));
 }
 
+async function loadAtlas(env) {
+  return JSON.parse(await getAssetText(env, "data/atlas.json"));
+}
+
+function atlasDomainLabel(atlas, id) {
+  return (atlas.domains || []).find(domain => domain.id === id)?.label || id;
+}
+
+function renderAtlasConcept(atlas, node) {
+  const canonical = `https://voce.life/atlas/${node.id}`;
+  const relations = (atlas.edges || []).filter(edge => edge.source === node.id || edge.target === node.id);
+  const nodeById = new Map((atlas.nodes || []).map(item => [item.id, item]));
+  const evidenceUrls = new Set();
+  for (const edge of relations) for (const evidence of edge.evidence || []) if (evidence?.url) evidenceUrls.add(evidence.url);
+
+  const relationRows = relations.map(edge => {
+    const source = nodeById.get(edge.source);
+    const target = nodeById.get(edge.target);
+    const other = edge.source === node.id ? target : source;
+    const evidence = (edge.evidence || []).map(item =>
+      `<a class="atlas-evidence-link" href="${escapeHtml(item.url)}"><span>Source</span><strong>${escapeHtml(item.title)}</strong><i>Read in VOCE →</i></a>`
+    ).join("");
+    return `<article class="atlas-relation-card atlas-relation-card--page">
+      <a class="atlas-relation-target" href="/atlas/${escapeHtml(other?.id || "")}">
+        <span>${escapeHtml(atlasDomainLabel(atlas, other?.domain || ""))}</span>
+        <strong>${escapeHtml(other?.label || "")}</strong>
+      </a>
+      <p>${escapeHtml(source?.label || edge.source)} ${escapeHtml(edge.label)} ${escapeHtml(target?.label || edge.target)}.</p>
+      <div class="atlas-evidence">${evidence}</div>
+    </article>`;
+  }).join("\n");
+
+  const ld = {
+    "@context":"https://schema.org",
+    "@type":"DefinedTerm",
+    name:node.label,
+    description:node.summary,
+    url:canonical,
+    inDefinedTermSet:{
+      "@type":"DefinedTermSet",
+      name:"VOCE Atlas",
+      url:"https://voce.life/atlas"
+    }
+  };
+
+  return `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${escapeHtml(node.label)} — VOCE Atlas</title>
+<meta name="description" content="${escapeHtml(node.summary)}">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="${canonical}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="VOCE">
+<meta property="og:title" content="${escapeHtml(node.label)} — VOCE Atlas">
+<meta property="og:description" content="${escapeHtml(node.summary)}">
+<meta property="og:url" content="${canonical}">
+<meta name="twitter:title" content="${escapeHtml(node.label)} — VOCE Atlas">
+<meta name="twitter:description" content="${escapeHtml(node.summary)}">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">${JSON.stringify(ld).replace(/</g,"\\u003c")}</script>
+</head>
+<body class="atlas-page">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="Primary navigation">
+<a href="/#themes">Themes</a><a href="/research">Research</a><a href="/archive">Academy</a><a href="/atlas" class="active">Atlas</a><a href="/standards">Standards</a><a href="/publications">Publications</a><a class="keep" href="/art">Art</a><a class="keep" href="/about">About</a>
+</nav></div></header>
+<main id="main-content">
+<section class="topic-hero"><div class="wrap">
+<div class="topic-kicker">VOCE Atlas · ${escapeHtml(atlasDomainLabel(atlas,node.domain))}</div>
+<h1 class="topic-title">${escapeHtml(node.label)}</h1>
+<p class="topic-deck">${escapeHtml(node.summary)}</p>
+<div class="topic-meta"><span>${relations.length} documented relations</span><span>${evidenceUrls.size} VOCE source${evidenceUrls.size === 1 ? "" : "s"}</span><span>Permanent concept URL</span></div>
+</div></section>
+<section class="topic-body"><div class="wrap topic-layout">
+<aside class="topic-nav"><div class="topic-nav-label">VOCE Atlas</div><a href="/atlas#${escapeHtml(node.id)}">Open in interactive map</a><a href="/archive">VOCE Academy</a><a href="/data/atlas.json">Atlas JSON</a><a href="/CORPUS_RIGHTS.txt">Corpus rights</a></aside>
+<div class="longform">
+<section class="chapter"><div class="chapter-no">Relations</div><h2>Where this concept connects.</h2><p class="signal">Each line below is retained only when a VOCE publication or formal research record supports the relationship.</p><div class="atlas-relations-page">${relationRows}</div></section>
+<section class="chapter"><div class="chapter-no">Method</div><h2>A relation must earn its line.</h2><p>VOCE Atlas is a curated knowledge graph. Co-occurrence alone does not create a published relationship. The source attached to each connection remains part of the record.</p><p><a href="/atlas#${escapeHtml(node.id)}">Return to the interactive Atlas →</a></p></section>
+</div></div></section>
+</main>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/archive">VOCE Academy</a> · <a href="/atlas">VOCE Atlas</a> · <a href="/research">Research</a></div><div>Copyright © 2025-2026 VOCE Association. All rights reserved.</div></div></div></div></footer>
+</body>
+</html>`;
+}
+
 function normalizeSearchText(value = "") {
   return String(value)
     .normalize("NFD")
@@ -731,6 +820,19 @@ export default {
       return injectPrivacyDefault(new Response(response.body, { status: response.status, headers }));
     }
 
+
+    const atlasConceptMatch = pathname.match(/^\/atlas\/([a-z0-9-]+)$/);
+    if (atlasConceptMatch) {
+      const atlas = await loadAtlas(env);
+      const node = (atlas.nodes || []).find(item => item.id === atlasConceptMatch[1]);
+      if (!node) return new Response("Not found", { status: 404 });
+      return injectPrivacyDefault(new Response(renderAtlasConcept(atlas, node), {
+        headers: {
+          "content-type": "text/html; charset=utf-8",
+          "cache-control": "public, max-age=300"
+        }
+      }));
+    }
 
     if (pathname === "/api/academy-agent") {
       if (request.method !== "POST") {
