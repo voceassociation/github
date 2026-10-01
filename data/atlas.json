@@ -1,0 +1,1396 @@
+{
+  "schema": 1,
+  "name": "VOCE Atlas",
+  "description": "Evidence-grounded knowledge map connecting systems, mechanisms and human consequences across the VOCE corpus.",
+  "owner": "VOCE Association",
+  "canonical": "https://voce.life/atlas",
+  "generated_at": "2026-10-01",
+  "methodology": {
+    "principle": "Every displayed relationship must be traceable to at least one VOCE publication or formal research record.",
+    "scope": "Curated V1. The Atlas is intentionally selective rather than an automatic visualization of the full corpus.",
+    "relation_status": "documented"
+  },
+  "domains": [
+    {
+      "id": "ai",
+      "label": "AI & governance"
+    },
+    {
+      "id": "work",
+      "label": "Work"
+    },
+    {
+      "id": "cognition",
+      "label": "Cognition"
+    },
+    {
+      "id": "health",
+      "label": "Health & neuroscience"
+    },
+    {
+      "id": "culture",
+      "label": "Culture & civilisation"
+    },
+    {
+      "id": "cross",
+      "label": "Human systems"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "human-systems",
+      "label": "Human systems",
+      "domain": "cross",
+      "tier": 0,
+      "summary": "The conditions through which technologies, institutions, bodies and cultures shape human action."
+    },
+    {
+      "id": "ai-systems",
+      "label": "AI systems",
+      "domain": "ai",
+      "tier": 1,
+      "summary": "The architecture surrounding a model: retrieval, identity, permissions, tools, monitoring and execution."
+    },
+    {
+      "id": "model",
+      "label": "Model",
+      "domain": "ai",
+      "tier": 2,
+      "summary": "The component that receives tokens and generates outputs; only one layer of a larger AI system."
+    },
+    {
+      "id": "rag",
+      "label": "RAG",
+      "domain": "ai",
+      "tier": 2,
+      "summary": "Retrieval-augmented generation, where external documents are selected and inserted into model context."
+    },
+    {
+      "id": "agents",
+      "label": "AI agents",
+      "domain": "ai",
+      "tier": 2,
+      "summary": "Software that can reason over context and invoke tools or workflows."
+    },
+    {
+      "id": "mcp",
+      "label": "MCP",
+      "domain": "ai",
+      "tier": 2,
+      "summary": "A protocol layer exposing tools and data to AI agents."
+    },
+    {
+      "id": "saas",
+      "label": "SaaS",
+      "domain": "ai",
+      "tier": 3,
+      "summary": "Operational software whose value increasingly resides in data, permissions and execution rather than interface alone."
+    },
+    {
+      "id": "permissions",
+      "label": "Permissions",
+      "domain": "ai",
+      "tier": 2,
+      "summary": "Rules defining what a user, workload or agent may read, change or execute."
+    },
+    {
+      "id": "identity",
+      "label": "Workload identity",
+      "domain": "ai",
+      "tier": 2,
+      "summary": "Cryptographically verifiable identity attached to software workloads rather than locations."
+    },
+    {
+      "id": "spiffe",
+      "label": "SPIFFE",
+      "domain": "ai",
+      "tier": 3,
+      "summary": "A standard for issuing verifiable identities to workloads."
+    },
+    {
+      "id": "mtls",
+      "label": "mTLS",
+      "domain": "ai",
+      "tier": 3,
+      "summary": "Mutual TLS used to authenticate both sides of a software connection."
+    },
+    {
+      "id": "secrets",
+      "label": "Secrets",
+      "domain": "ai",
+      "tier": 2,
+      "summary": "Credentials and sensitive values whose protection depends on encryption, storage and access control."
+    },
+    {
+      "id": "kms",
+      "label": "KMS",
+      "domain": "ai",
+      "tier": 3,
+      "summary": "Key management used to protect encryption keys and data at rest."
+    },
+    {
+      "id": "governance",
+      "label": "AI governance",
+      "domain": "ai",
+      "tier": 1,
+      "summary": "Institutional rules, responsibilities and controls governing AI use."
+    },
+    {
+      "id": "iso42001",
+      "label": "ISO/IEC 42001",
+      "domain": "ai",
+      "tier": 2,
+      "summary": "A management-system standard for organizational AI governance."
+    },
+    {
+      "id": "testing",
+      "label": "System testing",
+      "domain": "ai",
+      "tier": 2,
+      "summary": "Evidence about how an AI system behaves for a specific version, context and use."
+    },
+    {
+      "id": "conformity",
+      "label": "Conformity assessment",
+      "domain": "ai",
+      "tier": 3,
+      "summary": "Structured evaluation of whether defined requirements are met."
+    },
+    {
+      "id": "procurement",
+      "label": "AI procurement",
+      "domain": "ai",
+      "tier": 2,
+      "summary": "Supplier evaluation requiring clarity on certification scope, system testing and intended use."
+    },
+    {
+      "id": "light-workforce",
+      "label": "Light workforce",
+      "domain": "work",
+      "tier": 1,
+      "summary": "Work redesigned around human judgment while agents handle portions of execution and software navigation."
+    },
+    {
+      "id": "cognition",
+      "label": "Cognition",
+      "domain": "cognition",
+      "tier": 1,
+      "summary": "Attention, memory, effort and internal thought as operating conditions of human judgment."
+    },
+    {
+      "id": "memory",
+      "label": "Memory",
+      "domain": "cognition",
+      "tier": 2,
+      "summary": "A system that organizes experience rather than preserving it as an untouched archive."
+    },
+    {
+      "id": "episodic-memory",
+      "label": "Episodic memory",
+      "domain": "cognition",
+      "tier": 3,
+      "summary": "Memory for events, their sequence and contextual organization."
+    },
+    {
+      "id": "event-boundaries",
+      "label": "Event boundaries",
+      "domain": "cognition",
+      "tier": 3,
+      "summary": "Context changes that can segment a continuous experience into distinct remembered events."
+    },
+    {
+      "id": "interruption",
+      "label": "Interruption",
+      "domain": "cognition",
+      "tier": 3,
+      "summary": "A disruption capable of fragmenting attention or the organization of an episode."
+    },
+    {
+      "id": "effort",
+      "label": "Cognitive effort",
+      "domain": "cognition",
+      "tier": 2,
+      "summary": "Mental resources invested in a task, shaped by recent performance and perceived attainability."
+    },
+    {
+      "id": "learning",
+      "label": "Learning",
+      "domain": "cognition",
+      "tier": 2,
+      "summary": "Knowledge construction that may depend on searching, trying, reformulating and tolerating productive resistance."
+    },
+    {
+      "id": "ai-assistance",
+      "label": "AI assistance",
+      "domain": "cognition",
+      "tier": 3,
+      "summary": "Automation that can remove operations from a learning process before they become cognitively productive."
+    },
+    {
+      "id": "ownership",
+      "label": "Psychological ownership",
+      "domain": "cognition",
+      "tier": 3,
+      "summary": "Attachment and value that can increase when a person participates in creating something."
+    },
+    {
+      "id": "attention",
+      "label": "Attention",
+      "domain": "cognition",
+      "tier": 2,
+      "summary": "A limited resource vulnerable to fragmentation in digitally saturated environments."
+    },
+    {
+      "id": "internal-dialogue",
+      "label": "Internal dialogue",
+      "domain": "cognition",
+      "tier": 3,
+      "summary": "Internally generated thought that requires continuity and space from external stimulation."
+    },
+    {
+      "id": "introspective-technoference",
+      "label": "Introspective technoference",
+      "domain": "cognition",
+      "tier": 2,
+      "summary": "Disruption of reflection and internally generated cognition by continuous digital stimulation."
+    },
+    {
+      "id": "parental-technoference",
+      "label": "Parental technoference",
+      "domain": "cognition",
+      "tier": 2,
+      "summary": "Digital-device interruptions affecting parent-child interaction."
+    },
+    {
+      "id": "joint-attention",
+      "label": "Joint attention",
+      "domain": "cognition",
+      "tier": 3,
+      "summary": "Shared attention between caregiver and child, central to interaction and early learning."
+    },
+    {
+      "id": "language-development",
+      "label": "Early language",
+      "domain": "cognition",
+      "tier": 3,
+      "summary": "Language development supported by interaction, verbal exchange and shared attention."
+    },
+    {
+      "id": "health",
+      "label": "Health",
+      "domain": "health",
+      "tier": 1,
+      "summary": "Biological systems understood through mechanisms, biomarkers, trajectories and response to intervention."
+    },
+    {
+      "id": "her2",
+      "label": "HER2",
+      "domain": "health",
+      "tier": 2,
+      "summary": "A molecular target whose expression can matter across anatomically different cancers."
+    },
+    {
+      "id": "biliary-cancer",
+      "label": "Biliary tract cancer",
+      "domain": "health",
+      "tier": 3,
+      "summary": "A cancer category in which a HER2-positive subgroup may define a distinct therapeutic vulnerability."
+    },
+    {
+      "id": "precision-oncology",
+      "label": "Precision oncology",
+      "domain": "health",
+      "tier": 2,
+      "summary": "Treatment strategy increasingly defined by molecular features in addition to organ of origin."
+    },
+    {
+      "id": "alzheimer-pathology",
+      "label": "Alzheimer pathology",
+      "domain": "health",
+      "tier": 2,
+      "summary": "Pathological burden measured through biomarkers including amyloid- and tau-related signals."
+    },
+    {
+      "id": "cognitive-resilience",
+      "label": "Cognitive resilience",
+      "domain": "health",
+      "tier": 2,
+      "summary": "Observed cognition performing better than expected given pathology, age and sex."
+    },
+    {
+      "id": "cortical-ageing",
+      "label": "Cortical ageing",
+      "domain": "health",
+      "tier": 2,
+      "summary": "Age-related cellular and transcriptional change in the cortex."
+    },
+    {
+      "id": "glia",
+      "label": "Glial cells",
+      "domain": "health",
+      "tier": 3,
+      "summary": "Microglia, astrocytes and oligodendrocytes whose age-related programs can change markedly."
+    },
+    {
+      "id": "circadian",
+      "label": "Cellular rhythms",
+      "domain": "health",
+      "tier": 3,
+      "summary": "Twenty-four-hour transcriptional rhythms that change across age and cell populations."
+    },
+    {
+      "id": "prematurity",
+      "label": "Prematurity",
+      "domain": "health",
+      "tier": 2,
+      "summary": "Early birth in which sensory environment and brain maturation differ from the expected in-utero trajectory."
+    },
+    {
+      "id": "music",
+      "label": "Structured music",
+      "domain": "health",
+      "tier": 3,
+      "summary": "A predictable acoustic intervention studied in neonatal intensive care."
+    },
+    {
+      "id": "corpus-callosum",
+      "label": "Corpus callosum",
+      "domain": "health",
+      "tier": 3,
+      "summary": "The major white-matter tract connecting the cerebral hemispheres."
+    },
+    {
+      "id": "wound-healing",
+      "label": "Wound healing",
+      "domain": "health",
+      "tier": 2,
+      "summary": "Tissue repair involving extracellular matrix, angiogenesis, fibroblasts and growth factors."
+    },
+    {
+      "id": "shea",
+      "label": "Shea triterpenes",
+      "domain": "health",
+      "tier": 3,
+      "summary": "Lupeol, α-amyrin and β-amyrin studied as testable components of an ethnomedical practice."
+    },
+    {
+      "id": "culture",
+      "label": "Culture",
+      "domain": "culture",
+      "tier": 1,
+      "summary": "The systems through which societies encode value, memory, heritage and historical narratives."
+    },
+    {
+      "id": "luxury",
+      "label": "Luxury perception",
+      "domain": "culture",
+      "tier": 2,
+      "summary": "Perceived status shaped by visual codes, craftsmanship cues and exclusivity."
+    },
+    {
+      "id": "visual-complexity",
+      "label": "Visual complexity",
+      "domain": "culture",
+      "tier": 3,
+      "summary": "Chromatic and contour complexity that can alter perceived status in non-linear ways."
+    },
+    {
+      "id": "minimalism",
+      "label": "Minimalism",
+      "domain": "culture",
+      "tier": 3,
+      "summary": "A visual strategy associated with empty space and luxury, but not its only viable code."
+    },
+    {
+      "id": "industrial-archaeology",
+      "label": "Industrial archaeology",
+      "domain": "culture",
+      "tier": 2,
+      "summary": "Material traces revealing large-scale production systems hidden by simplified historical narratives."
+    },
+    {
+      "id": "celtic-salt",
+      "label": "Celtic salt industry",
+      "domain": "culture",
+      "tier": 3,
+      "summary": "Proto-industrial salt production in the Seille valley with standardized output and environmental effects."
+    },
+    {
+      "id": "national-narrative",
+      "label": "National narrative",
+      "domain": "culture",
+      "tier": 3,
+      "summary": "Selective cultural memory that can privilege simplified ancestral images over technical complexity."
+    },
+    {
+      "id": "heritage",
+      "label": "Heritage",
+      "domain": "culture",
+      "tier": 2,
+      "summary": "Material remains whose visible form can be misassigned to the wrong historical period."
+    },
+    {
+      "id": "mont-treadwheel",
+      "label": "Mont-Saint-Michel treadwheel",
+      "domain": "culture",
+      "tier": 3,
+      "summary": "A six-metre prison-era lifting machine installed in 1818 and often read as medieval."
+    },
+    {
+      "id": "kentridge",
+      "label": "William Kentridge",
+      "domain": "culture",
+      "tier": 2,
+      "summary": "An artistic practice where drawing, erasure and residual trace make memory materially visible."
+    },
+    {
+      "id": "erasure",
+      "label": "Erasure & trace",
+      "domain": "culture",
+      "tier": 3,
+      "summary": "A process in which removal leaves physical evidence of previous states."
+    },
+    {
+      "id": "reconsolidation",
+      "label": "Memory reconsolidation",
+      "domain": "cognition",
+      "tier": 3,
+      "summary": "The possibility that reactivated memories can become modifiable before restabilization."
+    },
+    {
+      "id": "vernacular-architecture",
+      "label": "Vernacular architecture",
+      "domain": "culture",
+      "tier": 2,
+      "summary": "Long-developed building knowledge adapting form, orientation, materials and water to climate."
+    },
+    {
+      "id": "climate-design",
+      "label": "Climate-responsive design",
+      "domain": "culture",
+      "tier": 3,
+      "summary": "Architectural decisions shaped by sun, wind, water, thermal mass and local conditions."
+    },
+    {
+      "id": "availability-heuristic",
+      "label": "Availability heuristic",
+      "domain": "cognition",
+      "tier": 3,
+      "summary": "The tendency for easily recalled examples to weigh disproportionately in judgment."
+    }
+  ],
+  "edges": [
+    {
+      "source": "human-systems",
+      "target": "ai-systems",
+      "label": "technical architecture conditions action",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "A model is not an AI system",
+          "url": "/archive/2026/09/25/modele-systeme-architecture-ia"
+        }
+      ]
+    },
+    {
+      "source": "human-systems",
+      "target": "cognition",
+      "label": "systems reshape judgment",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Introspective Technoference",
+          "url": "/research/introspective-technoference"
+        }
+      ]
+    },
+    {
+      "source": "human-systems",
+      "target": "health",
+      "label": "systems alter biological trajectories",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "PsychAD: prefrontal cortex across the lifespan",
+          "url": "/archive/2026/09/25/psychad-cortex-prefrontal-vieillissement"
+        }
+      ]
+    },
+    {
+      "source": "human-systems",
+      "target": "culture",
+      "label": "systems shape collective memory",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Celtic salt production at Marsal",
+          "url": "/archive/2026/09/25/celtes-sel-marsal-industrie"
+        }
+      ]
+    },
+    {
+      "source": "ai-systems",
+      "target": "model",
+      "label": "contains",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "A model is not an AI system",
+          "url": "/archive/2026/09/25/modele-systeme-architecture-ia"
+        }
+      ]
+    },
+    {
+      "source": "ai-systems",
+      "target": "rag",
+      "label": "can include",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "A model is not an AI system",
+          "url": "/archive/2026/09/25/modele-systeme-architecture-ia"
+        }
+      ]
+    },
+    {
+      "source": "ai-systems",
+      "target": "agents",
+      "label": "can orchestrate",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "A model is not an AI system",
+          "url": "/archive/2026/09/25/modele-systeme-architecture-ia"
+        }
+      ]
+    },
+    {
+      "source": "rag",
+      "target": "model",
+      "label": "supplies retrieved context to",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "A model is not an AI system",
+          "url": "/archive/2026/09/25/modele-systeme-architecture-ia"
+        }
+      ]
+    },
+    {
+      "source": "rag",
+      "target": "testing",
+      "label": "requires end-to-end evaluation",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "A model is not an AI system",
+          "url": "/archive/2026/09/25/modele-systeme-architecture-ia"
+        }
+      ]
+    },
+    {
+      "source": "agents",
+      "target": "mcp",
+      "label": "can invoke tools through",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Positive Group: MCP, agents and SaaS execution",
+          "url": "/archive/2026/09/25/positive-group-mcp-marketing-saas"
+        }
+      ]
+    },
+    {
+      "source": "mcp",
+      "target": "saas",
+      "label": "exposes functions from",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Positive Group: MCP, agents and SaaS execution",
+          "url": "/archive/2026/09/25/positive-group-mcp-marketing-saas"
+        }
+      ]
+    },
+    {
+      "source": "agents",
+      "target": "permissions",
+      "label": "remain bounded by",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Positive Group: MCP, agents and SaaS execution",
+          "url": "/archive/2026/09/25/positive-group-mcp-marketing-saas"
+        }
+      ]
+    },
+    {
+      "source": "agents",
+      "target": "identity",
+      "label": "require verifiable",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "SPIFFE: verifiable identity for AI agents",
+          "url": "/archive/2026/09/25/spiffe-identite-agents-ia"
+        }
+      ]
+    },
+    {
+      "source": "identity",
+      "target": "spiffe",
+      "label": "can be implemented with",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "SPIFFE: verifiable identity for AI agents",
+          "url": "/archive/2026/09/25/spiffe-identite-agents-ia"
+        }
+      ]
+    },
+    {
+      "source": "spiffe",
+      "target": "mtls",
+      "label": "supports authenticated connections via",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "SPIFFE: verifiable identity for AI agents",
+          "url": "/archive/2026/09/25/spiffe-identite-agents-ia"
+        }
+      ]
+    },
+    {
+      "source": "identity",
+      "target": "permissions",
+      "label": "does not replace",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "SPIFFE: verifiable identity for AI agents",
+          "url": "/archive/2026/09/25/spiffe-identite-agents-ia"
+        }
+      ]
+    },
+    {
+      "source": "secrets",
+      "target": "kms",
+      "label": "can be protected at rest by",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Kubernetes Secrets: Base64, KMS and access control",
+          "url": "/archive/2026/09/25/kubernetes-secrets-base64-kms"
+        }
+      ]
+    },
+    {
+      "source": "secrets",
+      "target": "permissions",
+      "label": "remain exposed through",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Kubernetes Secrets: Base64, KMS and access control",
+          "url": "/archive/2026/09/25/kubernetes-secrets-base64-kms"
+        }
+      ]
+    },
+    {
+      "source": "governance",
+      "target": "iso42001",
+      "label": "can be structured by",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "ISO/IEC 42001: management, testing and conformity",
+          "url": "/archive/2026/09/25/iso-42001-certification-ia"
+        }
+      ]
+    },
+    {
+      "source": "iso42001",
+      "target": "testing",
+      "label": "does not by itself prove",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "ISO/IEC 42001: management, testing and conformity",
+          "url": "/archive/2026/09/25/iso-42001-certification-ia"
+        }
+      ]
+    },
+    {
+      "source": "testing",
+      "target": "conformity",
+      "label": "provides evidence for",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "ISO/IEC 42001: management, testing and conformity",
+          "url": "/archive/2026/09/25/iso-42001-certification-ia"
+        }
+      ]
+    },
+    {
+      "source": "governance",
+      "target": "procurement",
+      "label": "changes questions in",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "ISO/IEC 42001: management, testing and conformity",
+          "url": "/archive/2026/09/25/iso-42001-certification-ia"
+        }
+      ]
+    },
+    {
+      "source": "procurement",
+      "target": "conformity",
+      "label": "must inspect scope of",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "ISO/IEC 42001: management, testing and conformity",
+          "url": "/archive/2026/09/25/iso-42001-certification-ia"
+        }
+      ]
+    },
+    {
+      "source": "agents",
+      "target": "light-workforce",
+      "label": "reduce navigation work in",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Positive Group: MCP, agents and SaaS execution",
+          "url": "/archive/2026/09/25/positive-group-mcp-marketing-saas"
+        }
+      ]
+    },
+    {
+      "source": "saas",
+      "target": "light-workforce",
+      "label": "shifts value toward data and execution in",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Positive Group: MCP, agents and SaaS execution",
+          "url": "/archive/2026/09/25/positive-group-mcp-marketing-saas"
+        }
+      ]
+    },
+    {
+      "source": "ai-systems",
+      "target": "governance",
+      "label": "must be governed beyond model choice",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "A model is not an AI system",
+          "url": "/archive/2026/09/25/modele-systeme-architecture-ia"
+        }
+      ]
+    },
+    {
+      "source": "cognition",
+      "target": "memory",
+      "label": "includes",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Doorways, event boundaries and episodic memory",
+          "url": "/archive/2026/09/25/portes-frontieres-memoire-episodique"
+        }
+      ]
+    },
+    {
+      "source": "memory",
+      "target": "episodic-memory",
+      "label": "includes",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Doorways, event boundaries and episodic memory",
+          "url": "/archive/2026/09/25/portes-frontieres-memoire-episodique"
+        }
+      ]
+    },
+    {
+      "source": "episodic-memory",
+      "target": "event-boundaries",
+      "label": "is reorganized by",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Doorways, event boundaries and episodic memory",
+          "url": "/archive/2026/09/25/portes-frontieres-memoire-episodique"
+        }
+      ]
+    },
+    {
+      "source": "event-boundaries",
+      "target": "interruption",
+      "label": "can be created cognitively by",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Doorways, event boundaries and episodic memory",
+          "url": "/archive/2026/09/25/portes-frontieres-memoire-episodique"
+        }
+      ]
+    },
+    {
+      "source": "interruption",
+      "target": "memory",
+      "label": "can fragment",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Doorways, event boundaries and episodic memory",
+          "url": "/archive/2026/09/25/portes-frontieres-memoire-episodique"
+        }
+      ]
+    },
+    {
+      "source": "cognition",
+      "target": "effort",
+      "label": "allocates",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Effort, the IKEA effect and AI in education",
+          "url": "/archive/2026/09/25/effort-effet-ikea-ia-education"
+        }
+      ]
+    },
+    {
+      "source": "effort",
+      "target": "learning",
+      "label": "can contribute to",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Effort, the IKEA effect and AI in education",
+          "url": "/archive/2026/09/25/effort-effet-ikea-ia-education"
+        }
+      ]
+    },
+    {
+      "source": "ai-assistance",
+      "target": "effort",
+      "label": "can remove",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Effort, the IKEA effect and AI in education",
+          "url": "/archive/2026/09/25/effort-effet-ikea-ia-education"
+        }
+      ]
+    },
+    {
+      "source": "ai-assistance",
+      "target": "learning",
+      "label": "can change the construction of",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Effort, the IKEA effect and AI in education",
+          "url": "/archive/2026/09/25/effort-effet-ikea-ia-education"
+        }
+      ]
+    },
+    {
+      "source": "effort",
+      "target": "ownership",
+      "label": "can increase",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Effort, the IKEA effect and AI in education",
+          "url": "/archive/2026/09/25/effort-effet-ikea-ia-education"
+        }
+      ]
+    },
+    {
+      "source": "attention",
+      "target": "introspective-technoference",
+      "label": "is fragmented in",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Introspective Technoference",
+          "url": "/research/introspective-technoference"
+        }
+      ]
+    },
+    {
+      "source": "introspective-technoference",
+      "target": "internal-dialogue",
+      "label": "disrupts",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Introspective Technoference",
+          "url": "/research/introspective-technoference"
+        }
+      ]
+    },
+    {
+      "source": "introspective-technoference",
+      "target": "memory",
+      "label": "can alter conditions for",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Introspective Technoference",
+          "url": "/research/introspective-technoference"
+        }
+      ]
+    },
+    {
+      "source": "parental-technoference",
+      "target": "joint-attention",
+      "label": "can disrupt",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Parental Technoference and Early Language Development",
+          "url": "/research/parental-technoference-language-development"
+        }
+      ]
+    },
+    {
+      "source": "joint-attention",
+      "target": "language-development",
+      "label": "supports",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Parental Technoference and Early Language Development",
+          "url": "/research/parental-technoference-language-development"
+        }
+      ]
+    },
+    {
+      "source": "parental-technoference",
+      "target": "language-development",
+      "label": "is associated with altered interaction supporting",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Parental Technoference and Early Language Development",
+          "url": "/research/parental-technoference-language-development"
+        }
+      ]
+    },
+    {
+      "source": "attention",
+      "target": "parental-technoference",
+      "label": "is diverted in",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Parental Technoference and Early Language Development",
+          "url": "/research/parental-technoference-language-development"
+        }
+      ]
+    },
+    {
+      "source": "health",
+      "target": "her2",
+      "label": "uses molecular markers such as",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "HERBOT: HER2 and biliary tract cancer",
+          "url": "/archive/2026/09/25/herbot-her2-cancer-voies-biliaires"
+        }
+      ]
+    },
+    {
+      "source": "her2",
+      "target": "biliary-cancer",
+      "label": "defines a targetable subgroup within",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "HERBOT: HER2 and biliary tract cancer",
+          "url": "/archive/2026/09/25/herbot-her2-cancer-voies-biliaires"
+        }
+      ]
+    },
+    {
+      "source": "her2",
+      "target": "precision-oncology",
+      "label": "supports",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "HERBOT: HER2 and biliary tract cancer",
+          "url": "/archive/2026/09/25/herbot-her2-cancer-voies-biliaires"
+        }
+      ]
+    },
+    {
+      "source": "biliary-cancer",
+      "target": "precision-oncology",
+      "label": "can be reclassified by",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "HERBOT: HER2 and biliary tract cancer",
+          "url": "/archive/2026/09/25/herbot-her2-cancer-voies-biliaires"
+        }
+      ]
+    },
+    {
+      "source": "health",
+      "target": "alzheimer-pathology",
+      "label": "tracks",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Alzheimer pathology and cognitive resilience",
+          "url": "/archive/2026/09/25/alzheimer-resilience-cognitive"
+        }
+      ]
+    },
+    {
+      "source": "alzheimer-pathology",
+      "target": "cognitive-resilience",
+      "label": "does not fully determine",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Alzheimer pathology and cognitive resilience",
+          "url": "/archive/2026/09/25/alzheimer-resilience-cognitive"
+        }
+      ]
+    },
+    {
+      "source": "cognitive-resilience",
+      "target": "memory",
+      "label": "describes preserved performance involving",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Alzheimer pathology and cognitive resilience",
+          "url": "/archive/2026/09/25/alzheimer-resilience-cognitive"
+        }
+      ]
+    },
+    {
+      "source": "health",
+      "target": "cortical-ageing",
+      "label": "maps",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "PsychAD: prefrontal cortex across the lifespan",
+          "url": "/archive/2026/09/25/psychad-cortex-prefrontal-vieillissement"
+        }
+      ]
+    },
+    {
+      "source": "cortical-ageing",
+      "target": "glia",
+      "label": "shows strong change in",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "PsychAD: prefrontal cortex across the lifespan",
+          "url": "/archive/2026/09/25/psychad-cortex-prefrontal-vieillissement"
+        }
+      ]
+    },
+    {
+      "source": "cortical-ageing",
+      "target": "circadian",
+      "label": "alters",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "PsychAD: prefrontal cortex across the lifespan",
+          "url": "/archive/2026/09/25/psychad-cortex-prefrontal-vieillissement"
+        }
+      ]
+    },
+    {
+      "source": "prematurity",
+      "target": "music",
+      "label": "has been studied with",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Prematurity, Brahms and corpus callosum growth",
+          "url": "/archive/2026/09/25/prematures-musique-brahms-corps-calleux"
+        }
+      ]
+    },
+    {
+      "source": "music",
+      "target": "corpus-callosum",
+      "label": "is associated with faster growth of",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Prematurity, Brahms and corpus callosum growth",
+          "url": "/archive/2026/09/25/prematures-musique-brahms-corps-calleux"
+        }
+      ]
+    },
+    {
+      "source": "prematurity",
+      "target": "corpus-callosum",
+      "label": "involves maturation of",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Prematurity, Brahms and corpus callosum growth",
+          "url": "/archive/2026/09/25/prematures-musique-brahms-corps-calleux"
+        }
+      ]
+    },
+    {
+      "source": "wound-healing",
+      "target": "shea",
+      "label": "has been experimentally probed using",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Shea triterpenes and chronic wound repair",
+          "url": "/archive/2026/09/25/karite-triterpenes-cicatrisation"
+        }
+      ]
+    },
+    {
+      "source": "shea",
+      "target": "wound-healing",
+      "label": "shows biomarker and tissue signals relevant to",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Shea triterpenes and chronic wound repair",
+          "url": "/archive/2026/09/25/karite-triterpenes-cicatrisation"
+        }
+      ]
+    },
+    {
+      "source": "culture",
+      "target": "luxury",
+      "label": "encodes value through",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Luxury, minimalism and visual complexity",
+          "url": "/archive/2026/09/25/luxe-minimalisme-complexite-visuelle"
+        }
+      ]
+    },
+    {
+      "source": "luxury",
+      "target": "visual-complexity",
+      "label": "is shaped by",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Luxury, minimalism and visual complexity",
+          "url": "/archive/2026/09/25/luxe-minimalisme-complexite-visuelle"
+        }
+      ]
+    },
+    {
+      "source": "luxury",
+      "target": "minimalism",
+      "label": "can be signalled by",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Luxury, minimalism and visual complexity",
+          "url": "/archive/2026/09/25/luxe-minimalisme-complexite-visuelle"
+        }
+      ]
+    },
+    {
+      "source": "minimalism",
+      "target": "visual-complexity",
+      "label": "is only one region of",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Luxury, minimalism and visual complexity",
+          "url": "/archive/2026/09/25/luxe-minimalisme-complexite-visuelle"
+        }
+      ]
+    },
+    {
+      "source": "culture",
+      "target": "industrial-archaeology",
+      "label": "recovers hidden technical systems through",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Celtic salt production at Marsal",
+          "url": "/archive/2026/09/25/celtes-sel-marsal-industrie"
+        }
+      ]
+    },
+    {
+      "source": "industrial-archaeology",
+      "target": "celtic-salt",
+      "label": "reveals",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Celtic salt production at Marsal",
+          "url": "/archive/2026/09/25/celtes-sel-marsal-industrie"
+        }
+      ]
+    },
+    {
+      "source": "celtic-salt",
+      "target": "national-narrative",
+      "label": "complicates",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Celtic salt production at Marsal",
+          "url": "/archive/2026/09/25/celtes-sel-marsal-industrie"
+        }
+      ]
+    },
+    {
+      "source": "culture",
+      "target": "heritage",
+      "label": "organizes",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Mont-Saint-Michel: the 1818 prison treadwheel",
+          "url": "/archive/2026/09/25/mont-saint-michel-roue-prison-1818"
+        }
+      ]
+    },
+    {
+      "source": "heritage",
+      "target": "mont-treadwheel",
+      "label": "can misdate",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Mont-Saint-Michel: the 1818 prison treadwheel",
+          "url": "/archive/2026/09/25/mont-saint-michel-roue-prison-1818"
+        }
+      ]
+    },
+    {
+      "source": "mont-treadwheel",
+      "target": "national-narrative",
+      "label": "contradicts simplified",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "Mont-Saint-Michel: the 1818 prison treadwheel",
+          "url": "/archive/2026/09/25/mont-saint-michel-roue-prison-1818"
+        }
+      ]
+    },
+    {
+      "source": "culture",
+      "target": "kentridge",
+      "label": "uses artistic practice to examine",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "William Kentridge: erasure, trace and memory",
+          "url": "/archive/2026/09/25/william-kentridge-effacement-memoire"
+        }
+      ]
+    },
+    {
+      "source": "kentridge",
+      "target": "erasure",
+      "label": "works through",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "William Kentridge: erasure, trace and memory",
+          "url": "/archive/2026/09/25/william-kentridge-effacement-memoire"
+        }
+      ]
+    },
+    {
+      "source": "erasure",
+      "target": "memory",
+      "label": "materializes traces of",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "William Kentridge: erasure, trace and memory",
+          "url": "/archive/2026/09/25/william-kentridge-effacement-memoire"
+        }
+      ]
+    },
+    {
+      "source": "memory",
+      "target": "reconsolidation",
+      "label": "can involve",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "William Kentridge: erasure, trace and memory",
+          "url": "/archive/2026/09/25/william-kentridge-effacement-memoire"
+        }
+      ]
+    },
+    {
+      "source": "culture",
+      "target": "vernacular-architecture",
+      "label": "contains accumulated knowledge in",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "OPÉRA VOCE: short memory builds badly",
+          "url": "/archive/2026/09/25/opera-voce-memoria-corta-architettura"
+        }
+      ]
+    },
+    {
+      "source": "vernacular-architecture",
+      "target": "climate-design",
+      "label": "implements",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "OPÉRA VOCE: short memory builds badly",
+          "url": "/archive/2026/09/25/opera-voce-memoria-corta-architettura"
+        }
+      ]
+    },
+    {
+      "source": "availability-heuristic",
+      "target": "national-narrative",
+      "label": "can privilege memorable figures in",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "OPÉRA VOCE: short memory builds badly",
+          "url": "/archive/2026/09/25/opera-voce-memoria-corta-architettura"
+        }
+      ]
+    },
+    {
+      "source": "availability-heuristic",
+      "target": "heritage",
+      "label": "can simplify readings of",
+      "kind": "documented",
+      "evidence": [
+        {
+          "title": "OPÉRA VOCE: short memory builds badly",
+          "url": "/archive/2026/09/25/opera-voce-memoria-corta-architettura"
+        }
+      ]
+    }
+  ]
+}
