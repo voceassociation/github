@@ -21,6 +21,8 @@
   };
 
   const domainOrder = ["ai","work","cognition","health","culture","cross"];
+  const mobileDomainHub = { ai:"ai-systems", work:"light-workforce", cognition:"cognition", health:"health", culture:"culture" };
+  const mobileQuery = window.matchMedia("(max-width: 760px)");
   let data = null;
   let selectedId = "human-systems";
   let activeDomain = null;
@@ -85,6 +87,12 @@
       b.dataset.domain = d.id;
       b.textContent = d.label;
       b.addEventListener("click", () => {
+        if (mobileQuery.matches) {
+          const hub = mobileDomainHub[d.id];
+          if (hub) selectNode(hub);
+          searchResults.hidden = true;
+          return;
+        }
         activeDomain = activeDomain === d.id ? null : d.id;
         updateVisualState();
       });
@@ -294,6 +302,11 @@
     search.value = "";
     activeDomain = null;
     selectNode("human-systems");
+  });
+
+  mobileQuery.addEventListener?.("change", () => {
+    activeDomain = null;
+    updateVisualState();
   });
 
   fetch("/data/atlas.json", {headers:{"accept":"application/json"}})
