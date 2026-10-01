@@ -104,13 +104,13 @@ footer{padding:54px 0 30px;border-top:1px solid var(--line)}
 }
 @media(max-width:720px){
   .wrap{width:min(calc(100% - 30px),var(--max))}
-  header{position:sticky}
-  .nav{height:auto;min-height:70px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding:14px 0 10px}
+  header{position:relative;top:auto;backdrop-filter:none}
+  .nav{height:auto;min-height:70px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;padding:13px 0 9px}
   .nav>.voce-mark{flex:0 0 auto}
-  .menu{width:100%;display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:7px 16px;font-size:.61rem;line-height:1.15}
+  .menu{width:100%;display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:5px 13px;font-size:.59rem;line-height:1.15}
   .menu a,.menu a.keep{display:inline-block!important;padding:4px 0}
-  .lang{margin-left:0;padding-left:12px;gap:7px}
-  .lang button,.lang a{font-size:.6rem}
+  .lang{margin-left:0;padding-left:10px;gap:6px}
+  .lang button,.lang a{font-size:.59rem}
   .voce-mark{width:auto;height:auto;font-size:1.9rem}
   .hero{padding:72px 0 58px}
   .hero .voce-mark{width:auto;height:auto;font-size:clamp(5.2rem,25vw,8.3rem)}
