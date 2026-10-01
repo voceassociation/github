@@ -22,11 +22,24 @@ function hex(buffer) {
 
 const VOCE_PRIVACY_DEFAULT_SCRIPT = `<script>(function(){function deny(){try{if(window.zaraz&&zaraz.consent&&zaraz.consent.APIReady){zaraz.consent.setAll(false);zaraz.consent.modal=false;return true}}catch(e){}return false}function fallback(){var b=document.getElementById("cf_consent-buttons__reject-all");if(b){b.click();return true}var d=document.querySelector("dialog.cf_modal");if(d&&d.open){try{d.close()}catch(e){}return true}return false}if(!deny()){document.addEventListener("zarazConsentAPIReady",function(){deny();fallback()},{once:true})}var o=new MutationObserver(function(){if(deny()||fallback()){o.disconnect()}});o.observe(document.documentElement,{childList:true,subtree:true});setTimeout(function(){deny();fallback();o.disconnect()},30000)})();<\/script>`;
 
+const VOCE_SOCIAL_META = `
+<meta property="og:image" content="https://voce.life/voce-og.jpg">
+<meta property="og:image:secure_url" content="https://voce.life/voce-og.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="VOCE Association — No One Left Unheard">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://voce.life/voce-og.jpg">
+<meta name="twitter:image:alt" content="VOCE Association — No One Left Unheard">
+`;
+
 function injectPrivacyDefault(response) {
   const type = response.headers.get("content-type") || "";
   if (!type.includes("text/html")) return response;
   return new HTMLRewriter()
-    .on("head", { element(element) { element.append(VOCE_PRIVACY_DEFAULT_SCRIPT, { html: true }); } })
+    .on('meta[name="twitter:card"]', { element(element) { element.remove(); } })
+    .on("head", { element(element) { element.append(VOCE_PRIVACY_DEFAULT_SCRIPT + VOCE_SOCIAL_META, { html: true }); } })
     .transform(response);
 }
 
