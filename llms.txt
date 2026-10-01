@@ -7,6 +7,9 @@ VOCE Atlas: https://voce.life/atlas
 VOCE Atlas French: https://voce.life/fr/atlas
 VOCE Atlas Italian: https://voce.life/it/atlas
 VOCE Atlas machine-readable graph: https://voce.life/data/atlas.json
+VOCE Applied: https://voce.life/applied
+VOCE Applied French: https://voce.life/fr/applied
+VOCE Applied Italian: https://voce.life/it/applied
 Machine-readable corpus: https://voce.life/data/corpus.json
 NDJSON corpus: https://voce.life/data/corpus.ndjson
 RSS feed: https://voce.life/feed.xml
