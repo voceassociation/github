@@ -509,7 +509,7 @@ async function syncCorpus(env) {
       if (!item) continue;
       const html = renderArticle(item, route, routes);
       const bytes = new TextEncoder().encode(html);
-      const key = route.path.replace(/^\\/+/, "") + ".html";
+      const key = route.path.replace(/^\/+/, "") + ".html";
       derivedResults.push(await storeBytesIfChanged(
         env,
         key,
