@@ -37,9 +37,42 @@ const VOCE_SOCIAL_META = `
 function injectPrivacyDefault(response) {
   const type = response.headers.get("content-type") || "";
   if (!type.includes("text/html")) return response;
+
+  let ogTitle = "";
+  let ogDescription = "";
+  let hasTwitterTitle = false;
+  let hasTwitterDescription = false;
+
   return new HTMLRewriter()
-    .on('meta[name="twitter:card"]', { element(element) { element.remove(); } })
-    .on("head", { element(element) { element.append(VOCE_PRIVACY_DEFAULT_SCRIPT + VOCE_SOCIAL_META, { html: true }); } })
+    .on('meta[property="og:title"]', {
+      element(element) { ogTitle = element.getAttribute("content") || ""; }
+    })
+    .on('meta[property="og:description"]', {
+      element(element) { ogDescription = element.getAttribute("content") || ""; }
+    })
+    .on('meta[name="twitter:title"]', {
+      element() { hasTwitterTitle = true; }
+    })
+    .on('meta[name="twitter:description"]', {
+      element() { hasTwitterDescription = true; }
+    })
+    .on('meta[name="twitter:card"]', {
+      element(element) { element.remove(); }
+    })
+    .on("head", {
+      element(element) {
+        element.onEndTag(endTag => {
+          let pageSpecific = "";
+          if (!hasTwitterTitle && ogTitle) {
+            pageSpecific += `\n<meta name="twitter:title" content="${escapeHtml(ogTitle)}">`;
+          }
+          if (!hasTwitterDescription && ogDescription) {
+            pageSpecific += `\n<meta name="twitter:description" content="${escapeHtml(ogDescription)}">`;
+          }
+          endTag.before(VOCE_PRIVACY_DEFAULT_SCRIPT + VOCE_SOCIAL_META + pageSpecific, { html: true });
+        });
+      }
+    })
     .transform(response);
 }
 
