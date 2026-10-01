@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VOCE Atlas — Cartographie des connaissances</title>
+<meta name="description" content="Explorez les relations entre IA, cognition, santé, culture et systèmes humains dans le corpus VOCE fondé sur les preuves.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://voce.life/fr/atlas">
+<link rel="alternate" hreflang="en" href="https://voce.life/atlas">
+<link rel="alternate" hreflang="fr" href="https://voce.life/fr/atlas">
+<link rel="alternate" hreflang="it" href="https://voce.life/it/atlas">
+<link rel="alternate" hreflang="x-default" href="https://voce.life/atlas">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="VOCE">
+<meta property="og:title" content="VOCE Atlas — Cartographie des connaissances">
+<meta property="og:description" content="Une cartographie fondée sur les preuves des relations au sein du corpus VOCE. Chaque connexion renvoie à une source.">
+<meta property="og:url" content="https://voce.life/fr/atlas">
+<meta name="twitter:title" content="VOCE Atlas — Cartographie des connaissances">
+<meta name="twitter:description" content="Une cartographie fondée sur les preuves des relations au sein du corpus VOCE. Chaque connexion renvoie à une source.">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"VOCE Atlas","url":"https://voce.life/fr/atlas","description":"Carte de connaissances fondée sur les preuves reliant systèmes, mécanismes et conséquences humaines dans le corpus VOCE.","publisher":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"isPartOf":{"@type":"WebSite","name":"VOCE","url":"https://voce.life/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"VOCE Atlas knowledge graph","url":"https://voce.life/data/atlas.json","creator":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"license":"https://voce.life/CORPUS_RIGHTS.txt","isAccessibleForFree":true,"description":"Curated concept and relationship data supporting the VOCE Atlas interface."}</script>
+</head>
+<body class="atlas-page">
+<a class="skip-link" href="#main-content">Aller au contenu</a>
+<header><div class="wrap nav">
+<a class="voce-mark" href="/" aria-label="VOCE"><span></span></a>
+<nav class="menu" aria-label="Primary navigation">
+<a href="/#themes">Thèmes</a>
+<a href="/research">Recherche</a>
+<a href="/archive">Academy</a>
+<a href="/fr/atlas" class="active">Atlas</a>
+<a href="/standards">Standards</a>
+<a href="/publications">Publications</a>
+<a class="keep" href="/art">Art</a>
+<a class="keep" href="/about">À propos</a>
+<span class="lang" role="group" aria-label="Langue"><a href="/atlas">EN</a><a href="/fr/atlas" class="active" aria-current="page">FR</a><a href="/it/atlas">IT</a></span>
+</nav>
+</div></header>
+
+<main id="main-content">
+<section class="topic-hero atlas-hero"><div class="wrap">
+<div class="topic-kicker">VOCE Atlas · Architecture des connaissances</div>
+<h1 class="topic-title">La connaissance devient utile lorsque ses connexions restent visibles.</h1>
+<p class="topic-deck">VOCE Atlas cartographie les relations documentées entre intelligence artificielle, cognition, santé, culture et systèmes humains. Chaque ligne renvoie à une source VOCE.</p>
+<div class="topic-meta">
+<span id="atlas-node-count">63 concepts</span>
+<span id="atlas-edge-count">76 relations documentées</span>
+<span>Relié aux preuves</span>
+<span>Corpus public</span>
+</div>
+</div></section>
+
+<section class="atlas-shell-section"><div class="wrap">
+<div class="atlas-intro-grid">
+<div>
+<div class="eyebrow">L’Atlas</div>
+<h2 class="atlas-section-title">Pas un index. Une carte des mécanismes.</h2>
+</div>
+<div class="atlas-intro-copy">
+<p>Un article appartient à plusieurs catégories. Un texte sur les agents IA peut aussi parler d’identité, de permissions et de travail. Une étude sur une porte peut aussi concerner la segmentation des événements, l’interruption et la mémoire.</p>
+<p>Atlas conserve ces croisements. Sélectionnez un concept pour révéler ses relations documentées et les publications VOCE qui les soutiennent.</p>
+</div>
+</div>
+
+<div class="atlas-controls" aria-label="Atlas controls">
+<div class="atlas-search-wrap">
+<label for="atlas-search">Trouver un concept</label>
+<input id="atlas-search" type="search" autocomplete="off" placeholder="Mémoire, HER2, MCP, patrimoine…">
+<div id="atlas-search-results" class="atlas-search-results" hidden></div>
+</div>
+<div class="atlas-domains" id="atlas-domains" aria-label="Territoires de connaissance"></div>
+<button class="atlas-reset" id="atlas-reset" type="button">Réinitialiser</button>
+</div>
+
+<div class="atlas-stage">
+<div class="atlas-map-wrap">
+<div class="atlas-map-kicker">Carte des connaissances · V1 éditoriale</div>
+<svg id="atlas-map" class="atlas-map" viewBox="0 0 1200 760" role="img" aria-labelledby="atlas-map-title atlas-map-desc">
+<title id="atlas-map-title">Carte des connaissances VOCE Atlas</title>
+<desc id="atlas-map-desc">Carte interactive des concepts et des relations fondées sur les preuves dans le corpus VOCE.</desc>
+</svg>
+<div class="atlas-map-note">Sélectionnez un nœud. Les concepts reliés restent visibles; le reste s’efface.</div>
+</div>
+
+<aside class="atlas-panel" id="atlas-panel" aria-live="polite">
+<div class="atlas-panel-kicker">Concept sélectionné</div>
+<h2 id="atlas-panel-title">Systèmes humains</h2>
+<p id="atlas-panel-summary">Les conditions par lesquelles technologies, institutions, corps et cultures façonnent l’action humaine.</p>
+<div class="atlas-panel-meta" id="atlas-panel-meta"></div>
+<div class="atlas-relations" id="atlas-relations"></div>
+</aside>
+</div>
+</div></section>
+
+<section class="section atlas-method"><div class="wrap section-grid">
+<div class="eyebrow">Méthode</div>
+<div>
+<h2 class="display">Une relation doit mériter sa ligne.</h2>
+<p class="lead">Le premier Atlas est volontairement sélectif. Il ne trace pas une connexion parce que deux mots apparaissent dans le même corpus. Toute relation affichée doit être soutenue par une publication VOCE ou un travail de recherche formel.</p>
+<div class="rule-list">
+<div class="rule"><div class="label">Source</div><div class="value">Chaque relation renvoie à une preuve dans VOCE Academy ou VOCE Research.</div></div>
+<div class="rule"><div class="label">Périmètre</div><div class="value">La carte commence par un noyau éditorial plutôt que par une visualisation automatique de toute l’archive.</div></div>
+<div class="rule"><div class="label">Croissance</div><div class="value">De nouveaux concepts peuvent être proposés automatiquement, mais leur publication dans Atlas reste liée aux preuves.</div></div>
+<div class="rule"><div class="label">Lisible par machine</div><div class="value"><a href="/data/atlas.json">L’Atlas graph is publicly inspectable as JSON.</a></div></div>
+</div>
+</div>
+</div></section>
+
+<section class="quote atlas-quote"><div class="wrap"><div class="quote-inner">
+<blockquote>Un sujet. Plusieurs systèmes. Un chemin traçable jusqu’à la preuve.</blockquote>
+<cite>VOCE Atlas · 2026</cite>
+</div></div></section>
+</main>
+
+<footer><div class="wrap"><div class="footer">
+<a class="voce-mark" href="/" aria-label="VOCE"><span></span></a>
+<div class="footer-right">
+<div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div>
+<div><a href="/archive">VOCE Academy</a> · <a href="/fr/atlas">VOCE Atlas</a> · <a href="/research">Recherche</a></div>
+<div>Copyright © 2025-2026 VOCE Association. All rights reserved.</div>
+</div>
+</div></div></footer>
+<script src="/atlas.js" defer></script>
+</body>
+</html>
