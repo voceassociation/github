@@ -18,6 +18,69 @@
   <url><loc>https://voce.life/privacy</loc></url>
   <url><loc>https://voce.life/art</loc><lastmod>2026-09-29</lastmod></url>
   <url><loc>https://voce.life/atlas</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/human-systems</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/ai-systems</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/model</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/rag</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/agents</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/mcp</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/saas</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/permissions</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/identity</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/spiffe</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/mtls</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/secrets</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/kms</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/governance</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/iso42001</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/testing</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/conformity</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/procurement</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/light-workforce</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/cognition</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/memory</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/episodic-memory</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/event-boundaries</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/interruption</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/effort</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/learning</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/ai-assistance</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/ownership</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/attention</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/internal-dialogue</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/introspective-technoference</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/parental-technoference</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/joint-attention</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/language-development</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/health</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/her2</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/biliary-cancer</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/precision-oncology</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/alzheimer-pathology</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/cognitive-resilience</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/cortical-ageing</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/glia</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/circadian</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/prematurity</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/music</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/corpus-callosum</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/wound-healing</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/shea</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/culture</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/luxury</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/visual-complexity</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/minimalism</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/industrial-archaeology</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/celtic-salt</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/national-narrative</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/heritage</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/mont-treadwheel</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/kentridge</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/erasure</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/reconsolidation</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/vernacular-architecture</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/climate-design</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://voce.life/atlas/availability-heuristic</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://voce.life/archive</loc><lastmod>2026-09-29</lastmod></url>
   <url><loc>https://voce.life/archive/2026-09-25</loc><lastmod>2026-09-25</lastmod></url>
   <url><loc>https://voce.life/archive/2026/09/25/opera-voce-memoria-corta-architettura</loc><lastmod>2026-09-25</lastmod></url>
