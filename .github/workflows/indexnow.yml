@@ -1,6 +1,6 @@
 name: Notify IndexNow
 
-# Ownership key verified live at https://voce.life/609ed2cfb745919a5e1948a1bdce3b66.txt
+# Ownership key verified live at https://voce.life/c86f946ba27001564086ad51d808e308.txt
 
 on:
   push:
@@ -22,7 +22,7 @@ jobs:
 
       - name: Submit changed pages to IndexNow
         env:
-          INDEXNOW_KEY: 609ed2cfb745919a5e1948a1bdce3b66
+          INDEXNOW_KEY: c86f946ba27001564086ad51d808e308
           SITE_HOST: voce.life
           SITE_ORIGIN: https://voce.life
           EVENT_NAME: ${{ github.event_name }}
