@@ -116,7 +116,8 @@
   });
 
   document.querySelectorAll("[data-guide-query]").forEach(button => {
-    button.addEventListener("click", () => {
+    button.addEventListener("click", (event) => {
+      if (button.tagName === "A") event.preventDefault();
       const l = lang().slice(0,2);
       const query = button.getAttribute("data-guide-query-" + l) || button.getAttribute("data-guide-query-en") || button.getAttribute("data-guide-query") || "";
       ask(query);
