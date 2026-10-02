@@ -380,15 +380,40 @@ function normalizeSearchText(value = "") {
 }
 
 function searchTokens(value = "") {
-  const stop = new Set(["avec","dans","pour","que","qui","quoi","sur","une","des","les","est","sont","aux","par","pas","plus","voce","academy","article","articles","document","documents","dit","sujet","comment","quel","quelle","quels","quelles","the","and","for","what","how","about"]);
-  return normalizeSearchText(value).split(" ").filter(token => token.length > 2 && !stop.has(token));
+  const stop = new Set(["avec","dans","pour","que","qui","quoi","sur","une","des","les","est","sont","aux","par","pas","plus","voce","academy","article","articles","document","documents","dit","sujet","comment","quel","quelle","quels","quelles","the","and","for","what","how","about","does","say","show","mostrami","montre","moi"]);
+  const shortTechnical = new Set(["ai","ia","rag","mcp","iam","llm","api"]);
+  return normalizeSearchText(value).split(" ").filter(token => (token.length > 2 || shortTechnical.has(token)) && !stop.has(token));
+}
+
+function tokenVariants(token) {
+  const groups = {
+    governance:["governance","gouvernance","governance"],
+    gouvernance:["governance","gouvernance"],
+    evaluation:["evaluation","evaluation","eval"],
+    eval:["evaluation","eval"],
+    security:["security","securite","cybersecurite","sicurezza"],
+    securite:["security","securite","cybersecurite","sicurezza"],
+    agent:["agent","agents","agentic","agentique"],
+    agents:["agent","agents","agentic","agentique"],
+    technoference:["technoference","technoference"],
+    cognition:["cognition","cognitive","cognitif","cognitiva"],
+    art:["art","arte","artiste","artist","oeuvre","works"],
+    archive:["archive","archives","corpus"],
+    archives:["archive","archives","corpus"],
+    course:["course","courses","cours"],
+    courses:["course","courses","cours"]
+  };
+  return groups[token] || [token];
 }
 
 function rankCorpus(question, corpus, routes, limit = 6) {
   const routeById = new Map((routes.items || []).map(route => [route.id, route]));
   const phrase = normalizeSearchText(question);
   const tokens = searchTokens(question);
-  const requiredMatches = tokens.length <= 2 ? tokens.length : Math.max(1, Math.ceil(tokens.length * 0.5));
+  const requiredMatches = tokens.length <= 3
+    ? Math.min(1, tokens.length)
+    : Math.max(1, Math.ceil(tokens.length * 0.35));
+
   const scored = (corpus.items || []).map(item => {
     const route = routeById.get(item.id);
     const title = firstLine(item.text);
@@ -396,16 +421,30 @@ function rankCorpus(question, corpus, routes, limit = 6) {
     const textNorm = normalizeSearchText(item.text || "");
     let score = 0;
     let matchedTokens = 0;
-    if (phrase.length > 5 && titleNorm.includes(phrase)) score += 40;
-    if (phrase.length > 5 && textNorm.includes(phrase)) score += 18;
+
+    if (phrase.length > 5 && titleNorm.includes(phrase)) score += 45;
+    if (phrase.length > 5 && textNorm.includes(phrase)) score += 20;
+
     for (const token of tokens) {
-      const inTitle = titleNorm.includes(token);
-      const occurrences = textNorm.split(token).length - 1;
-      if (inTitle || occurrences > 0) matchedTokens += 1;
-      if (inTitle) score += 7;
-      score += Math.min(occurrences, 6);
+      const variants = tokenVariants(token);
+      let tokenMatched = false;
+      let tokenScore = 0;
+
+      for (const variant of variants) {
+        const inTitle = titleNorm.includes(variant);
+        const occurrences = textNorm.split(variant).length - 1;
+        if (inTitle || occurrences > 0) tokenMatched = true;
+        if (inTitle) tokenScore = Math.max(tokenScore, 10);
+        tokenScore += Math.min(occurrences, 7);
+      }
+
+      if (tokenMatched) matchedTokens += 1;
+      score += tokenScore;
     }
+
+    if (matchedTokens > 1) score += matchedTokens * 4;
     if (tokens.length && matchedTokens < requiredMatches) score = 0;
+
     return {
       item,
       route,
