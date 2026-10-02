@@ -31,6 +31,9 @@ for p in sorted((ROOT/'data/history').glob('*.json')):
             raise ValueError('Conflicting existing records: ' + item['id'])
         existing.setdefault(item['id'], item)
 route_by_id = {x['id']:x for x in routes['items']}
+text_owner = {}
+for item in existing.values():
+    text_owner.setdefault(digest(item['text']), item)
 records, conflicts, scan, seen = [], [], {}, {}
 new_count = 0
 for path in sorted((WORK/'raw').glob('*.json')):
@@ -69,13 +72,28 @@ for path in sorted((WORK/'raw').glob('*.json')):
                 conflicts.append({'id':key,'reason':'existing_text_differs','existing_sha256':digest(existing[key]['text']),
                                   'retrieved_sha256':digest(text),'resolution':'existing_text_preserved_pending_review'})
             continue
+        text_key = digest(text)
+        canonical = text_owner.get(text_key)
+        if canonical:
+            publication = {'platform':'linkedin','platform_id':urn,'date_published':local.isoformat(),'source_url':url}
+            alternates = canonical.setdefault('alternate_publications', [])
+            if not any(x.get('platform_id') == urn for x in alternates):
+                alternates.append(publication)
+            title = next((s for s in text.splitlines() if s.strip()), 'Publication VOCE')
+            redirect_slug = slug(title, ident)
+            redirect_path = '/archive/' + local_day.replace('-','/') + '/' + redirect_slug
+            canonical_path = canonical['canonical_url'].removeprefix('https://voce.life')
+            route_by_id['redirect:' + key] = {'id':'redirect:' + key,'post_id':ident,'date':local_day,
+                'path':redirect_path,'redirect_to':canonical_path,'canonical_id':canonical['id']}
+            record['duplicate_of'] = canonical['id']
+            continue
         title = next((s for s in text.splitlines() if s.strip()), 'Publication VOCE')
         item_slug = slug(title, ident)
         canonical_path = '/archive/' + local_day.replace('-','/') + '/' + item_slug
         item = {'id':key,'platform':'linkedin','platform_id':urn,'date_published':local.isoformat(),
                 'title':title,'slug':item_slug,'canonical_url':'https://voce.life'+canonical_path,
                 'source_url':url,'language':'fr','text':text,'adobe_provenance':{'status':'pending'}}
-        existing[key] = item; new_count += 1
+        existing[key] = item; text_owner[text_key] = item; new_count += 1
         target = histories.setdefault(local_day,{'schema':1,'owner':'VOCE Association','source':'Metricool / LinkedIn','date':local_day,'item_count':0,'items':[]})
         target['items'].append(item)
 
@@ -122,6 +140,8 @@ ns='http://www.sitemaps.org/schemas/sitemap/0.9'; ET.register_namespace('',ns)
 sitemap_path=ROOT/'sitemap.xml'; tree=ET.parse(sitemap_path); root=tree.getroot()
 locations={x.text for x in root.findall('{'+ns+'}url/{'+ns+'}loc')}
 for route in routes['items']:
+    if route.get('redirect_to'):
+        continue
     url='https://voce.life'+route['path']
     if url not in locations:
         node=ET.SubElement(root,'{'+ns+'}url'); ET.SubElement(node,'{'+ns+'}loc').text=url
