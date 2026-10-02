@@ -852,7 +852,7 @@ async function syncCorpus(env) {
       kind: "path",
       path: `archive/${date}.html`
     })),
-    ...(routes.items || []).map(route => ({ kind: "article", route }))
+    ...(routes.items || []).filter(route => !route.redirect_to).map(route => ({ kind: "article", route }))
   ];
   const totalDerived = derivedTasks.length;
 
@@ -907,7 +907,7 @@ async function syncCorpus(env) {
     derivedResults.push(await storeAssetIfChanged(env, task.path, timestamp));
   }
 
-  const routeCount = (routes.items || []).length;
+  const routeCount = (routes.items || []).filter(route => !route.redirect_to).length;
   const corpusCount = (corpus.items || []).length;
   const sourceSnapshotComplete =
     routeCount === corpusCount &&
@@ -1088,6 +1088,9 @@ export default {
 
     const articleRoute = (routes.items || []).find(route => route.path === pathname);
     if (articleRoute) {
+      if (articleRoute.redirect_to) {
+        return Response.redirect(`https://voce.life${articleRoute.redirect_to}`, 308);
+      }
       const item = (corpus.items || []).find(entry => entry.id === articleRoute.id);
       if (!item) return new Response("Not found", { status: 404 });
       return injectPrivacyDefault(new Response(renderArticle(item, articleRoute, routes), {
