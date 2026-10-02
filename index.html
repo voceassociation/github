@@ -53,6 +53,33 @@
   </div>
 </section>
 
+<section class="guide-home" id="guide">
+  <div class="wrap guide-home-grid">
+    <div class="guide-home-intro">
+      <div class="eyebrow">VOCE Guide</div>
+      <h2 class="display" data-t="guideTitle">Navigate the VOCE corpus.</h2>
+      <p class="lead" data-t="guideLead">Ask a question or enter through one of VOCE’s principal pathways. The Guide answers from the corpus, cites the documents it used and directs you to the relevant VOCE destination.</p>
+      <div class="guide-pathways" aria-label="VOCE Guide pathways">
+        <a href="/art" class="guide-pathway" data-guide-query data-guide-query-en="Show me VOCE Art, provenance and cultural access." data-guide-query-fr="Montre-moi VOCE Art, la provenance et les accès culturels." data-guide-query-it="Mostrami VOCE Art, la provenienza e gli accessi culturali."><span>01</span><strong>Art</strong><small data-t="guideArt">Works, provenance and cultural access.</small></a>
+        <a href="/archive" class="guide-pathway" data-guide-query data-guide-query-en="Show me VOCE Academy courses, corpus and archives." data-guide-query-fr="Montre-moi les cours, le corpus et les archives de VOCE Academy." data-guide-query-it="Mostrami i corsi, il corpus e gli archivi di VOCE Academy."><span>02</span><strong>Academy</strong><small data-t="guideAcademy">Courses, corpus and archives.</small></a>
+        <a href="/governance" class="guide-pathway" data-guide-query data-guide-query-en="Show me VOCE work on AI governance, agents, RAG, MCP, IAM and evaluation." data-guide-query-fr="Montre-moi les travaux VOCE sur la gouvernance de l’IA, les agents, RAG, MCP, IAM et l’évaluation." data-guide-query-it="Mostrami i lavori VOCE sulla governance dell’IA, agenti, RAG, MCP, IAM e valutazione."><span>03</span><strong data-t="guideGovernance">AI Governance</strong><small data-t="guideGovernanceDesc">Agents, RAG, MCP, IAM, evaluation and accountability.</small></a>
+        <a href="/technoference" class="guide-pathway" data-guide-query data-guide-query-en="Show me VOCE work on technoference, attention and cognitive disruption." data-guide-query-fr="Montre-moi les travaux VOCE sur la technoference, l’attention et la perturbation cognitive." data-guide-query-it="Mostrami i lavori VOCE sulla technoference, l’attenzione e la perturbazione cognitiva."><span>04</span><strong>Technoference</strong><small data-t="guideTechno">Attention, cognition and digital environments.</small></a>
+      </div>
+    </div>
+    <div class="guide-home-agent">
+      <form class="academy-agent guide-agent" data-academy-agent-form>
+        <label for="home-guide-query" data-t="guideLabel">Ask VOCE</label>
+        <div class="academy-agent-row">
+          <input id="home-guide-query" data-academy-agent-input type="search" maxlength="500" autocomplete="off" placeholder="What are you looking for?">
+          <button type="submit" data-academy-agent-submit data-t="guideButton">Ask VOCE</button>
+        </div>
+        <p class="academy-agent-note" data-t="guideNote">Answers are grounded in the VOCE corpus and linked to the documents that support them.</p>
+      </form>
+      <div class="academy-agent-output" data-academy-agent-output aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
 <section class="section" id="themes">
   <div class="wrap section-grid">
     <div class="eyebrow" data-t="themesEyebrow">Research pathways</div>
@@ -187,6 +214,7 @@ const C={
 en:{
 navThemes:"Themes",navResearch:"Research",navStandards:"Standards",navPublications:"Publications",navAbout:"About",footerInstitution:"Institution",footerStandards:"Governance & Standards",footerContact:"Contact",footerWork:"Work",footerAI:"AI Governance",footerSovereignty:"Sovereignty",footerLegal:"Legal",footerPrivacy:"Privacy",
 tagline:"Research. Culture. Intelligence.",status:"Independent French non-profit association",
+guideTitle:"Navigate the VOCE corpus.",guideLead:"Ask a question or enter through one of VOCE’s principal pathways. The Guide answers from the corpus, cites the documents it used and directs you to the relevant VOCE destination.",guideArt:"Works, provenance and cultural access.",guideAcademy:"Courses, corpus and archives.",guideGovernance:"AI Governance",guideGovernanceDesc:"Agents, RAG, MCP, IAM, evaluation and accountability.",guideTechno:"Attention, cognition and digital environments.",guideLabel:"Ask VOCE",guideButton:"Ask VOCE",guideNote:"Answers are grounded in the VOCE corpus and linked to the documents that support them.",guidePlaceholder:"What are you looking for?",
 intro:"VOCE analyses the systems reshaping human life before their consequences become obvious. Artificial intelligence, work, attention, health, knowledge and culture are read together rather than as separate disciplines.",
 themesEyebrow:"Research pathways",themesTitle:"Four systems changing the conditions of human action.",themesLead:"VOCE does not catalogue trends. Each pathway follows an operating mechanism from technical architecture to institutional responsibility and human consequence.",
 gTitle:"AI governance",gText:"From model capability to institutional authority: agents, RAG, API/IAM/MCP, tool permissions, routing, observability, AI FinOps, security, procurement and human oversight.",
@@ -207,6 +235,7 @@ aboutEyebrow:"About VOCE",aboutTitle:"A research and cultural house for contempo
 fr:{
 navThemes:"Thèmes",navResearch:"Recherche",navStandards:"Normes",navPublications:"Publications",navAbout:"À propos",footerInstitution:"Institution",footerStandards:"Gouvernance & standards",footerContact:"Contact",footerWork:"Travaux",footerAI:"Gouvernance de l’IA",footerSovereignty:"Souveraineté",footerLegal:"Mentions légales",footerPrivacy:"Confidentialité",
 tagline:"Recherche. Culture. Intelligence.",status:"Association française indépendante à but non lucratif",
+guideTitle:"Naviguez dans le corpus VOCE.",guideLead:"Posez une question ou entrez par l’un des grands parcours VOCE. Le Guide répond à partir du corpus, cite les documents utilisés et vous dirige vers la destination VOCE pertinente.",guideArt:"Œuvres, provenance et accès culturel.",guideAcademy:"Cours, corpus et archives.",guideGovernance:"Gouvernance de l’IA",guideGovernanceDesc:"Agents, RAG, MCP, IAM, évaluation et responsabilité.",guideTechno:"Attention, cognition et environnements numériques.",guideLabel:"Interroger VOCE",guideButton:"Interroger",guideNote:"Les réponses sont ancrées dans le corpus VOCE et reliées aux documents qui les soutiennent.",guidePlaceholder:"Que recherchez-vous ?",
 intro:"VOCE analyse les systèmes qui transforment la vie humaine avant que leurs conséquences deviennent évidentes. Intelligence artificielle, travail, attention, santé, connaissance et culture sont lus ensemble plutôt que comme des disciplines séparées.",
 themesEyebrow:"Parcours de recherche",themesTitle:"Quatre systèmes qui modifient les conditions de l’action humaine.",themesLead:"VOCE ne catalogue pas les tendances. Chaque parcours suit un mécanisme opérationnel depuis l’architecture technique jusqu’à la responsabilité institutionnelle et aux conséquences humaines.",
 gTitle:"Gouvernance de l’IA",gText:"De la capacité du modèle à l’autorité institutionnelle: agents, RAG, API/IAM/MCP, permissions d’outils, routage, observabilité, AI FinOps, sécurité, achats et supervision humaine.",
@@ -227,6 +256,7 @@ aboutEyebrow:"À propos de VOCE",aboutTitle:"Une maison de recherche et de cultu
 it:{
 navThemes:"Temi",navResearch:"Ricerca",navStandards:"Standard",navPublications:"Pubblicazioni",navAbout:"Chi siamo",footerInstitution:"Istituzione",footerStandards:"Governance & standard",footerContact:"Contatti",footerWork:"Lavoro",footerAI:"Governance dell’IA",footerSovereignty:"Sovranità",footerLegal:"Note legali",footerPrivacy:"Privacy",
 tagline:"Ricerca. Cultura. Intelligenza.",status:"Associazione francese indipendente senza scopo di lucro",
+guideTitle:"Naviga nel corpus VOCE.",guideLead:"Fai una domanda o entra attraverso uno dei principali percorsi VOCE. La Guida risponde dal corpus, cita i documenti utilizzati e ti indirizza verso la destinazione VOCE pertinente.",guideArt:"Opere, provenienza e accesso culturale.",guideAcademy:"Corsi, corpus e archivi.",guideGovernance:"Governance dell’IA",guideGovernanceDesc:"Agenti, RAG, MCP, IAM, valutazione e responsabilità.",guideTechno:"Attenzione, cognizione e ambienti digitali.",guideLabel:"Interroga VOCE",guideButton:"Interroga",guideNote:"Le risposte sono fondate sul corpus VOCE e collegate ai documenti che le sostengono.",guidePlaceholder:"Che cosa stai cercando?",
 intro:"VOCE analizza i sistemi che trasformano la vita umana prima che le loro conseguenze diventino evidenti. Intelligenza artificiale, lavoro, attenzione, salute, conoscenza e cultura vengono letti insieme invece che come discipline separate.",
 themesEyebrow:"Percorsi di ricerca",themesTitle:"Quattro sistemi che modificano le condizioni dell’azione umana.",themesLead:"VOCE non cataloga tendenze. Ogni percorso segue un meccanismo operativo dall’architettura tecnica alla responsabilità istituzionale e alle conseguenze umane.",
 gTitle:"Governance dell’IA",gText:"Dalla capacità del modello all’autorità istituzionale: agenti, RAG, API/IAM/MCP, permessi degli strumenti, routing, osservabilità, AI FinOps, sicurezza, procurement e supervisione umana.",
@@ -248,10 +278,12 @@ function setLang(l){
  document.documentElement.lang=l;
  document.querySelectorAll("[data-t]").forEach(el=>{const k=el.dataset.t;if(C[l]&&C[l][k])el.textContent=C[l][k]});
  document.querySelectorAll("[data-lang]").forEach(b=>{b.classList.toggle("active",b.dataset.lang===l);b.setAttribute("aria-pressed",b.dataset.lang===l?"true":"false")});
+ const guideInput=document.querySelector("[data-academy-agent-input]"); if(guideInput&&C[l]?.guidePlaceholder) guideInput.placeholder=C[l].guidePlaceholder;
  localStorage.setItem("voce-lang",l);
 }
 document.querySelectorAll("[data-lang]").forEach(b=>b.addEventListener("click",()=>setLang(b.dataset.lang)));
 setLang(localStorage.getItem("voce-lang")||"en");
 </script>
+<script src="/academy-agent.js" defer></script>
 </body>
 </html>
