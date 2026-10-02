@@ -60,3 +60,56 @@ jobs:
           git add archive.html archive data backfill/checkpoint.json backfill/conflicts.json backfill/publications.json feed.xml llms.txt sitemap.xml
           git commit -m "Publish verified current VOCE LinkedIn texts"
           git push
+
+      - name: Submit published article URLs to IndexNow
+        env:
+          INDEXNOW_KEY: 609ed2cfb745919a5e1948a1bdce3b66
+        run: |
+          python3 - <<'PY'
+          import json
+          import pathlib
+          import urllib.request
+          import urllib.error
+
+          root = pathlib.Path(".")
+          routes = json.loads((root / "data/article-routes.json").read_text())
+          raw_days = sorted(
+              p.stem for p in (root / "backfill/raw").glob("*.json")
+              if len(p.stem) == 10
+          )
+          days = set(raw_days[-4:])
+          urls = sorted({
+              "https://voce.life" + route["path"]
+              for route in routes["items"]
+              if route.get("date") in days and not route.get("redirect_to")
+          })
+          urls.extend(
+              f"https://voce.life/archive/{day}"
+              for day in sorted(days)
+              if (root / "data/history" / f"{day}.json").exists()
+          )
+          if not urls:
+              print("No current article URLs to submit.")
+              raise SystemExit(0)
+          key = "609ed2cfb745919a5e1948a1bdce3b66"
+          payload = {
+              "host": "voce.life",
+              "key": key,
+              "keyLocation": f"https://voce.life/{key}.txt",
+              "urlList": sorted(set(urls)),
+          }
+          request = urllib.request.Request(
+              "https://www.bing.com/indexnow",
+              data=json.dumps(payload).encode("utf-8"),
+              headers={"Content-Type": "application/json; charset=utf-8"},
+              method="POST",
+          )
+          try:
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  print(f"IndexNow status: {response.status}")
+                  print(f"Submitted URL count: {len(payload['urlList'])}")
+          except urllib.error.HTTPError as exc:
+              print(f"IndexNow HTTP error: {exc.code}")
+              print(exc.read().decode("utf-8", errors="replace"))
+              raise
+          PY
