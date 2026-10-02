@@ -414,6 +414,48 @@ function rankCorpus(question, corpus, routes, limit = 6) {
   return scored.slice(0, limit);
 }
 
+function guideDestinations(question, lang = "en") {
+  const q = normalizeSearchText(question);
+  const l = String(lang || "en").toLowerCase();
+  const labels = l.startsWith("fr") ? {
+    art:["VOCE Art","Art, provenance, dossiers et accès culturel."],
+    academy:["VOCE Academy","Cours, corpus, archives, sources et publications."],
+    governance:["Gouvernance de l’IA","Agents, RAG, MCP, IAM, évaluations, sécurité et responsabilité."],
+    techno:["Technoference","Attention, cognition, interactions humaines et environnements numériques."]
+  } : l.startsWith("it") ? {
+    art:["VOCE Art","Arte, provenienza, dossier e accesso culturale."],
+    academy:["VOCE Academy","Corsi, corpus, archivi, fonti e pubblicazioni."],
+    governance:["Governance dell’IA","Agenti, RAG, MCP, IAM, valutazioni, sicurezza e responsabilità."],
+    techno:["Technoference","Attenzione, cognizione, interazioni umane e ambienti digitali."]
+  } : {
+    art:["VOCE Art","Art, provenance, dossiers and cultural access."],
+    academy:["VOCE Academy","Courses, corpus, archives, sources and publications."],
+    governance:["AI Governance","Agents, RAG, MCP, IAM, evaluation, security and accountability."],
+    techno:["Technoference","Attention, cognition, human interaction and digital environments."]
+  };
+
+  const defs = [
+    {id:"art",url:"/art",keys:["art","oeuvre","oeuvres","artwork","provenance","collection","artist","artiste","arte"]},
+    {id:"academy",url:"/archive",keys:["academy","cours","course","courses","corpus","archive","archives","publication","publications"]},
+    {id:"governance",url:"/governance",keys:["governance","gouvernance","ai governance","ia","agent","agents","rag","mcp","iam","security","securite","evaluation","eval"]},
+    {id:"techno",url:"/technoference",keys:["technoference","attention","cognition","cognitive","parent","child","enfant","smartphone","digital","numerique"]}
+  ];
+
+  const ranked = defs.map(d => ({
+    ...d,
+    score:d.keys.reduce((n,k)=>n+(q.includes(normalizeSearchText(k))?1:0),0)
+  })).sort((a,b)=>b.score-a.score);
+
+  const selected = ranked.filter(d=>d.score>0).slice(0,2);
+  if (!selected.length) selected.push(defs[1]);
+
+  return selected.map(d => ({
+    title: labels[d.id][0],
+    description: labels[d.id][1],
+    url: d.url
+  }));
+}
+
 async function answerFromAcademy(question, env, corpus, routes, lang = "en") {
   const l = String(lang || "en").toLowerCase();
   const msg = l.startsWith("fr") ? {
@@ -433,7 +475,8 @@ async function answerFromAcademy(question, env, corpus, routes, lang = "en") {
   if (!matches.length) {
     return {
       answer: msg.none,
-      sources: []
+      sources: [],
+      destinations: guideDestinations(question, lang)
     };
   }
 
@@ -451,7 +494,8 @@ async function answerFromAcademy(question, env, corpus, routes, lang = "en") {
   if (!env.AI) {
     return {
       answer: msg.unavailable,
-      sources
+      sources,
+      destinations: guideDestinations(question, lang)
     };
   }
 
@@ -480,12 +524,14 @@ Ne donne aucun lien dans le texte: les liens seront affichés séparément.`;
       answer: typeof answer === "string" && answer.trim()
         ? answer.trim()
         : msg.generic,
-      sources
+      sources,
+      destinations: guideDestinations(question, lang)
     };
   } catch (error) {
     return {
       answer: msg.unavailable,
-      sources
+      sources,
+      destinations: guideDestinations(question, lang)
     };
   }
 }
