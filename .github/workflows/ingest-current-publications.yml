@@ -37,12 +37,16 @@ jobs:
           corpus=json.loads((root/"data/corpus.json").read_text())
           routes=json.loads((root/"data/article-routes.json").read_text())
           assert corpus["item_count"] == len(corpus["items"])
-          assert len(routes["items"]) == corpus["item_count"]
+          canonical_routes=[x for x in routes["items"] if not x.get("redirect_to")]
+          assert len(canonical_routes) == corpus["item_count"]
           assert sum(1 for _ in (root/"data/corpus.ndjson").open()) == corpus["item_count"]
-          assert (root/"archive/2026-09-30.html").exists()
+          raw_days=sorted(p.stem for p in (root/"backfill/raw").glob("*.json") if len(p.stem)==10)
+          for day in raw_days[-4:]:
+              history=root/"data/history"/f"{day}.json"
+              if history.exists(): assert (root/"archive"/f"{day}.html").exists()
           ids={x["id"] for x in corpus["items"]}
           assert len(ids) == corpus["item_count"]
-          print({"corpus_items": corpus["item_count"], "routes": len(routes["items"])})
+          print({"corpus_items": corpus["item_count"], "canonical_routes": len(canonical_routes), "redirects": len(routes["items"])-len(canonical_routes)})
           PY
 
       - name: Commit generated corpus state
@@ -54,5 +58,5 @@ jobs:
           git config user.name "VOCE Corpus Automation"
           git config user.email "actions@users.noreply.github.com"
           git add archive.html archive data backfill/checkpoint.json backfill/conflicts.json backfill/publications.json feed.xml llms.txt sitemap.xml
-          git commit -m "Publish verified VOCE LinkedIn texts for 2026-09-30"
+          git commit -m "Publish verified current VOCE LinkedIn texts"
           git push
