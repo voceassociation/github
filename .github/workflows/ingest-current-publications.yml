@@ -63,7 +63,7 @@ jobs:
 
       - name: Submit published article URLs to IndexNow
         env:
-          INDEXNOW_KEY: 609ed2cfb745919a5e1948a1bdce3b66
+          INDEXNOW_KEY: c86f946ba27001564086ad51d808e308
         run: |
           python3 - <<'PY'
           import json
@@ -91,7 +91,7 @@ jobs:
           if not urls:
               print("No current article URLs to submit.")
               raise SystemExit(0)
-          key = "609ed2cfb745919a5e1948a1bdce3b66"
+          key = "c86f946ba27001564086ad51d808e308"
           payload = {
               "host": "voce.life",
               "key": key,
