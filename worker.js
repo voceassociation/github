@@ -382,7 +382,9 @@ function normalizeSearchText(value = "") {
 function searchTokens(value = "") {
   const stop = new Set(["avec","dans","pour","que","qui","quoi","sur","une","des","les","est","sont","aux","par","pas","plus","voce","academy","article","articles","document","documents","dit","sujet","comment","quel","quelle","quels","quelles","the","and","for","what","how","about","does","say","show","mostrami","montre","moi"]);
   const shortTechnical = new Set(["ai","ia","rag","mcp","iam","llm","api"]);
-  return normalizeSearchText(value).split(" ").filter(token => (token.length > 2 || shortTechnical.has(token)) && !stop.has(token));
+  let tokens = normalizeSearchText(value).split(" ").filter(token => (token.length > 2 || shortTechnical.has(token)) && !stop.has(token));
+  if (tokens.length > 1) tokens = tokens.filter(token => token !== "ai" && token !== "ia");
+  return [...new Set(tokens)];
 }
 
 function tokenVariants(token) {
@@ -410,9 +412,9 @@ function rankCorpus(question, corpus, routes, limit = 6) {
   const routeById = new Map((routes.items || []).map(route => [route.id, route]));
   const phrase = normalizeSearchText(question);
   const tokens = searchTokens(question);
-  const requiredMatches = tokens.length <= 3
-    ? Math.min(1, tokens.length)
-    : Math.max(1, Math.ceil(tokens.length * 0.35));
+  const requiredMatches = tokens.length <= 2
+    ? tokens.length
+    : Math.max(2, Math.ceil(tokens.length * 0.45));
 
   const scored = (corpus.items || []).map(item => {
     const route = routeById.get(item.id);
