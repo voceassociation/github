@@ -877,6 +877,10 @@ export default {
     const url = new URL(request.url);
     const pathname = url.pathname.length > 1 ? url.pathname.replace(/\/+$/, "") : url.pathname;
 
+    if (pathname === "/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307538911862784" || pathname === "/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307538911862784.html") {
+      return Response.redirect("https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744", 308);
+    }
+
     const legacyScholarRedirects = {
       "/scholar": "/archive#research",
       "/scholar/introspective-technoference": "/research/introspective-technoference",

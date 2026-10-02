@@ -1,5 +1,518 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>VOCE Academy</title><link>https://voce.life/archive</link><description>VOCE Association canonical editorial and educational corpus.</description><language>fr</language><lastBuildDate>Wed, 30 Sep 2026 20:23:11 +0000</lastBuildDate><item><title>Dans une école maternelle, deux enfants du même âge s'allongent après le déjeuner.</title><link>https://voce.life/archive/2026/09/30/dans-une-ecole-maternelle-deux-enfants-du-meme-age-s-allongent-apres-le-7511122903908843521</link><guid isPermaLink="true">https://voce.life/archive/2026/09/30/dans-une-ecole-maternelle-deux-enfants-du-meme-age-s-allongent-apres-le-7511122903908843521</guid><pubDate>Wed, 30 Sep 2026 20:00:58 +0200</pubDate><author>VOCE Association</author><description>Dans une école maternelle, deux enfants du même âge s'allongent après le déjeuner.
+<rss version="2.0"><channel><title>VOCE Academy</title><link>https://voce.life/archive</link><description>VOCE Association canonical editorial and educational corpus.</description><language>fr</language><lastBuildDate>Fri, 02 Oct 2026 14:14:36 +0000</lastBuildDate><item><title>28 septembre 2026.</title><link>https://voce.life/archive/2026/10/01/28-septembre-2026-7511455087366680576</link><guid isPermaLink="true">https://voce.life/archive/2026/10/01/28-septembre-2026-7511455087366680576</guid><pubDate>Thu, 01 Oct 2026 18:00:58 +0200</pubDate><author>VOCE Association</author><description>28 septembre 2026.
+
+Dans six refuges australiens, Heather Mitcheltree et Minna Sunikka-Blank, de l'Université de Cambridge, interrogent 31 résidentes et 21 professionnels: qu'est-ce qui vous fait vous sentir en sécurité?
+
+Les équipes évoquent les serrures, les caméras et la confidentialité des adresses. Les femmes reconnaissent ces protections, mais décrivent aussi quelque chose qui ne figure sur aucun plan d'architecte: pouvoir enfin cesser d'avoir peur.
+
+Seize des 31 résidentes associent la sécurité à l'absence de peur, de stress ou d'anxiété. Dix évoquent le soutien humain. Une seule cite l'adresse secrète du refuge parmi les éléments qui la rassurent, contre six des 21 professionnels.
+
+Une femme raconte que son passé continue de la hanter alors qu'elle est physiquement à l'abri.
+
+Le détail le plus troublant se cache dans les objets ordinaires. Une caméra rassure certaines résidentes; pour une autre, autrefois surveillée par son agresseur, elle réveille la peur. Une porte verrouillée peut protéger sans rassurer tout le monde.
+
+Les chercheuses soulignent l'importance d'espaces où s'isoler, retrouver des relations de confiance et exercer un contrôle sur son quotidien. Les besoins varient, notamment avec la présence d'enfants.
+
+L'enquête, qualitative et limitée à 52 personnes, ne prouve pas qu'une architecture soigne les traumatismes. Elle révèle ce qu'un bâtiment conçu pour empêcher l'intrusion peut ignorer de celles qui l'habitent.
+
+En Australie, 117.000 personnes ayant vécu des violences familiales ont reçu une aide spécialisée liée au logement en 2024-2025. À cette échelle, chaque détail d'un lieu d'accueil compte.
+
+ULTRA®
+
+Lors d'un atelier de l'étude, un professionnel explique que les dispositifs matériels de sécurité peuvent réduire les coûts d'assurance d'un refuge.
+
+Une caméra peut donc répondre à une logique financière tout en ravivant, chez certaines femmes, le souvenir d'une surveillance abusive. La protection possède parfois des effets que ses propres indicateurs ne mesurent pas.
+
+En France, la Fondation Kering finance Mon Palier, qui accueille des femmes de 18 à 25 ans sans enfants et les accompagne vers l'autonomie. Avec Accor, la Fondation des Femmes a permis 6.473 nuitées d'urgence en 2025.
+
+Les financeurs pourraient aussi évaluer l’intimité retrouvée et la liberté de décider de son quotidien. Ces bénéfices restent à démontrer.
+
+ANTIGONE
+
+La première liberté retrouvée est parfois de pouvoir fermer une porte sans redouter ce qui se trouve derrière.
+
+Sources
+
+Mitcheltree et Sunikka-Blank, Journal of Family Violence, 28 septembre 2026
+AIHW, Specialist Homelessness Services, 2024-2025
+Kering Foundation, Mon Palier
+Fondation des Femmes, Abri d'urgence, 2025
+
+#VOCEASSOCIATION #ViolencesConjugales #Architecture #DroitsDesFemmes #SantéMentale</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7511455087366680576">Linkedin</source></item><item><title>Demandons à un modèle de trouver un hôtel disponible à Rome vendredi prochain.</title><link>https://voce.life/archive/2026/10/01/demandons-a-un-modele-de-trouver-un-hotel-disponible-a-rome-vendredi-pro-7511439983736508416</link><guid isPermaLink="true">https://voce.life/archive/2026/10/01/demandons-a-un-modele-de-trouver-un-hotel-disponible-a-rome-vendredi-pro-7511439983736508416</guid><pubDate>Thu, 01 Oct 2026 18:00:57 +0200</pubDate><author>VOCE Association</author><description>Demandons à un modèle de trouver un hôtel disponible à Rome vendredi prochain.
+
+Une réponse classique pourrait nous donner quelques noms. Un système connecté peut aller plus loin. Il interroge un service de réservation, reçoit les disponibilités et utilise ce résultat pour poursuivre.
+
+Ce détail change la structure du travail.
+
+Jusqu’ici, nous avons surtout suivi des chaînes préparées à l’avance. Une question arrivait, un document était recherché ou un outil appelé, puis le modèle répondait. Désormais, le résultat d’une opération peut déterminer celle qui suivra.
+
+Si aucun hôtel ne correspond aux critères, le système peut modifier sa recherche. Si plusieurs réponses apparaissent, il peut les comparer. Une information obtenue en cours d’exécution devient ainsi le contexte de la décision suivante.
+
+C’est l’un des mécanismes qui permettent de construire des systèmes agentiques.
+
+Le mot "agent" est utilisé avec beaucoup de liberté. Il ne désigne pas une machine devenue indépendante ni un modèle doté d’une volonté. Il décrit généralement un système dans lequel un modèle participe au choix des opérations à effectuer pour atteindre un objectif, à l’intérieur d’un environnement et de règles définis.
+
+La différence se trouve dans la boucle.
+
+Le modèle reçoit un état du problème, produit une décision ou un appel d’outil, puis le système exécute l’opération. Son résultat revient dans le contexte. Le modèle peut alors déterminer la suite. La boucle s’arrête lorsque l’objectif est atteint, qu’une limite est rencontrée ou qu’une intervention humaine est requise.
+
+Cette architecture rend possibles des tâches qui ne tiennent plus dans une seule génération. Mais elle multiplie aussi les occasions de dériver. Une mauvaise interprétation au début peut influencer les étapes suivantes. Un outil peut retourner une donnée ambiguë. Une permission trop large peut transformer une erreur de raisonnement en action réelle.
+
+L’autonomie n’est donc pas une propriété mystérieuse apparue dans le modèle. Elle résulte en partie de l’architecture que nous avons construite autour de lui et de la latitude que nous lui accordons.
+
+Depuis le premier jour, nous suivons une machine qui prédit le prochain token.
+
+Quatorze jours plus tard, cette prédiction peut contribuer à choisir ce qui se passera ensuite.
+
+Jusqu’où peut-on laisser cette boucle se poursuivre?</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7511439983736508416">Linkedin</source></item><item><title>2 septembre 2026.</title><link>https://voce.life/archive/2026/10/01/2-septembre-2026-7511424891418562560</link><guid isPermaLink="true">https://voce.life/archive/2026/10/01/2-septembre-2026-7511424891418562560</guid><pubDate>Thu, 01 Oct 2026 16:00:58 +0200</pubDate><author>VOCE Association</author><description>2 septembre 2026.
+
+À Munich, des chercheurs assemblent une machine biologique à la géométrie inhabituelle.
+
+Au cœur du dispositif, huit unités protéiques disposées en cercle. Autour, une enveloppe membranaire. À l'intérieur, de l'ARN à livrer. La cryotomographie révèle des assemblages de 22 nanomètres dans des vésicules de 50 à 300 nanomètres.
+
+Les virus transportent du matériel génétique depuis des milliards d'années. Maren Schuhmacher, Christoph Gruber et leurs collègues ont demandé à l'IA d'explorer d'autres formes.
+
+Plus de 100 transporteurs ont été construits et testés. L'un d'eux, STV-C8, se distingue par son efficacité.
+
+Sur des cellules humaines cultivées, son taux de transfert d'ARN dépasse de plus de 1.000 fois celui de nanoparticules lipidiques de référence. Pour obtenir une expression comparable d'une protéine témoin, la dose d'ARN nécessaire est plus de 10.000 fois inférieure.
+
+Ces résultats cellulaires ne préjugent pas de l'efficacité chez l'humain.
+
+Les chercheurs passent alors d'une protéine témoin à une maladie: la dystrophie musculaire de Duchenne, caractérisée par un déficit en dystrophine.
+
+STV-C8 transporte des instructions CRISPR-Cas9. Dans des cellules musculaires issues de patients, elles permettent de supprimer l'exon 51 et de rétablir le cadre de lecture du gène. Une édition du même exon est également obtenue après injection locale dans le muscle d'un porc.
+
+Aucune restauration fonctionnelle n'est encore démontrée. Mais une architecture conçue par IA a livré un outil d'édition génétique.
+
+La question change alors d'échelle: combien de traitements attendent aujourd'hui moins une nouvelle molécule qu'un moyen de parvenir jusqu'aux bonnes cellules?
+
+ULTRA®
+
+L'expérience chez la souris révèle une autre propriété inattendue. Après injection intraveineuse, la protéine codée par l'ARN apparaît surtout dans les poumons, sans signal détecté dans le foie, cible habituelle de nombreuses formulations lipidiques.
+
+Les chercheurs peuvent aussi modifier la surface du véhicule avec des peptides conçus pour reconnaître des récepteurs précis, dont EGFR et IL-7Rα. Ce ciblage a été démontré sur des cellules cultivées, pas encore comme une précision thérapeutique dans l'organisme.
+
+STV-C8 utilise encore une protéine virale, VSV-G, pour entrer dans les cellules. L'invention tient à l'organisation de ces modules autour d'un assemblage synthétique.
+
+Le prochain défi sera de maîtriser simultanément le chargement, la destination et la sécurité à long terme.
+
+MEFISTOFELE
+
+L'évolution nous a transmis ses machines. Elle ne nous a jamais remis la liste de toutes celles qui restent possibles.
+
+Sources
+
+Nature, Schuhmacher et al., 2 septembre 2026
+DOI: 10.1038/s41586-026-10952-3
+
+#VOCEASSOCIATION #Bioingénierie #BiologieSynthétique #ThérapieGénique #IntelligenceArtificielle</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7511424891418562560">Linkedin</source></item><item><title>Un cadre conduit une négociation complexe. Il oublie ensuite une échéance et perd le fil d'un dossier interrompu six fois.</title><link>https://voce.life/archive/2026/10/01/un-cadre-conduit-une-negociation-complexe-il-oublie-ensuite-une-echeance-7511394674620661761</link><guid isPermaLink="true">https://voce.life/archive/2026/10/01/un-cadre-conduit-une-negociation-complexe-il-oublie-ensuite-une-echeance-7511394674620661761</guid><pubDate>Thu, 01 Oct 2026 14:00:55 +0200</pubDate><author>VOCE Association</author><description>Un cadre conduit une négociation complexe. Il oublie ensuite une échéance et perd le fil d'un dossier interrompu six fois.
+
+Dans son évaluation, un mot risque de s'imposer: désorganisé.
+
+Juin 2026. Au CHU de Toulouse, Océane Gbenou et ses collègues publient une revue de 52 études internationales sur le TDAH et le travail. Elles relèvent des difficultés d'emploi et un risque accru d'épuisement.
+
+Le trouble peut affecter les fonctions exécutives: maintenir une priorité, résister aux distractions ou organiser une suite d'actions. Son expression varie selon le contexte.
+
+On peut maîtriser son métier et peiner à en organiser le quotidien. Une difficulté d'organisation ne suffit toutefois jamais à poser un diagnostic.
+
+Une revue publiée en 2024 par Adèle Hotte-Meunier et ses collègues rassemble 79 études portant sur 68.275 personnes présentant un TDAH. Elle souligne le rôle de l'adéquation entre les besoins individuels et l'environnement professionnel.
+
+Pour un employeur, cela peut commencer par des mesures modestes: priorités explicites, consignes écrites, temps de concentration protégé ou réunions moins fragmentées. Leur pertinence doit être évaluée avec la personne concernée.
+
+En France, le médecin du travail peut proposer des adaptations sans communiquer le diagnostic à l'employeur. La RQTH peut faciliter l'accès à certains dispositifs lorsque les conditions sont remplies.
+
+Avant de conclure à une insuffisance professionnelle, il existe donc une possibilité souvent négligée: examiner ce que l'organisation impose au salarié.
+
+ULTRA®
+
+En 2022, une revue de 143 études sur les interventions destinées aux adultes présentant un TDAH constatait qu'aucune n'évaluait directement l'efficacité d'un aménagement en situation de travail. Les solutions couramment proposées sont plausibles, mais leur effet ne doit pas être présenté comme acquis pour tous.
+
+Cet angle mort scientifique rejoint un problème de gouvernance RH. Lorsqu'une entreprise assimile la disponibilité immédiate ou l'aisance en réunion à la fiabilité, elle risque de mesurer la conformité à ses habitudes plutôt que la qualité du travail produit.
+
+La question économique devient alors très concrète: quel savoir-faire perd-elle lorsqu'un collaborateur expérimenté part, alors qu'une adaptation raisonnable aurait peut-être permis son maintien?
+
+FALSTAFF
+
+Une institution peut perdre une compétence en prenant une manière de travailler pour la mesure d'une intelligence.
+
+Sources
+
+Gbenou et al., Archives des Maladies Professionnelles et de l'Environnement, juin 2026
+Hotte-Meunier et al., Neurodiversity, 2024
+Lauder et al., Frontiers in Psychology, 2022
+Service-Public, médecine du travail et RQTH
+
+#VOCEASSOCIATION #TDAH #RessourcesHumaines #Neurodiversité #SantéAuTravail</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7511394674620661761">Linkedin</source></item><item><title>Un service reçoit 10.000 requêtes par seconde.</title><link>https://voce.life/archive/2026/10/01/un-service-recoit-10-000-requetes-par-seconde-7511379570923589632</link><guid isPermaLink="true">https://voce.life/archive/2026/10/01/un-service-recoit-10-000-requetes-par-seconde-7511379570923589632</guid><pubDate>Thu, 01 Oct 2026 13:00:50 +0200</pubDate><author>VOCE Association</author><description>Un service reçoit 10.000 requêtes par seconde.
+
+Une dépendance ralentit.
+
+Certaines requêtes échouent.
+
+Les applications clientes appliquent alors une règle apparemment raisonnable: réessayer.
+
+La dépendance déjà en difficulté reçoit maintenant les nouvelles requêtes plus celles qui avaient échoué.
+
+Elle ralentit davantage.
+
+De nouveaux retries arrivent.
+
+Une panne partielle peut ainsi fabriquer sa propre charge supplémentaire.
+
+Dans un système distribué, la résilience possède donc une propriété contre-intuitive: insister peut réduire les chances de récupération.
+
+Les infrastructures utilisent plusieurs mécanismes pour contrôler cette dynamique.
+
+Le "circuit breaker", ou disjoncteur, limite par exemple le nombre de connexions, requêtes ou tentatives simultanées dirigées vers un service.
+
+Envoy permet également de définir un budget de retries.
+
+Au lieu d'autoriser un nombre fixe de nouvelles tentatives indépendamment de la charge, le système peut limiter les retries à une proportion du trafic actif.
+
+Avec 100 requêtes actives et un budget de 25%, seules 25 tentatives supplémentaires peuvent par exemple être autorisées simultanément.
+
+Un autre mécanisme intervient lorsque le serveur lui-même approche de ses limites.
+
+L'Overload Manager d'Envoy surveille des ressources comme la mémoire, le processeur ou les descripteurs de fichiers. Lorsque leur pression franchit certains seuils, il peut déclencher des actions destinées à préserver le processus.
+
+Cela conduit à une idée importante pour les agents d'IA.
+
+Un agent peut appeler un modèle, un moteur de recherche, un CRM puis plusieurs API. Si chaque couche possède sa propre politique de retry, une seule action utilisateur peut produire une multiplication invisible des appels.
+
+La fiabilité ne dépend donc pas du nombre de fois où un système sait recommencer.
+
+Elle dépend aussi de sa capacité à décider quand il doit cesser.
+
+ULTRA®
+
+Les retries deviennent encore plus dangereux lorsqu'ils sont synchronisés.
+
+Si 50.000 clients reçoivent une erreur au même instant puis réessaient exactement une seconde plus tard, le service reçoit une nouvelle vague presque simultanée.
+
+Le "jitter" ajoute une part d'aléatoire au délai de reprise afin de disperser ces tentatives.
+
+Mais il reste un problème architectural.
+
+Une requête peut traverser cinq services, chacun configuré pour trois tentatives. Si chaque étage réessaie indépendamment, le nombre potentiel d'appels en aval peut croître très rapidement.
+
+Conseil: attribuer un budget de retry à la requête complète et le propager dans la chaîne plutôt que laisser chaque service inventer le sien.
+
+Envoy permet déjà de raisonner en budget proportionnel au trafic actif.
+
+Dans une architecture agentique, ce budget peut devenir une propriété de la mission elle-même.
+
+Un agent fiable doit parfois savoir qu'il lui reste une seule tentative avant de rendre le contrôle à un humain.</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7511379570923589632">Linkedin</source></item><item><title>29 septembre 2026.</title><link>https://voce.life/archive/2026/10/01/29-septembre-2026-7511364474012880896</link><guid isPermaLink="true">https://voce.life/archive/2026/10/01/29-septembre-2026-7511364474012880896</guid><pubDate>Thu, 01 Oct 2026 12:00:53 +0200</pubDate><author>VOCE Association</author><description>29 septembre 2026.
+
+Lorsque les deux copies du gène WRN sont altérées, le syndrome de Werner provoque un vieillissement prématuré et prédispose à certains cancers.
+
+À Houston, Timothy Yap et ses collègues de MD Anderson exploitent l'envers de cette fragilité. Dans certaines tumeurs, bloquer WRN pourrait précisément empêcher les cellules cancéreuses de survivre.
+
+Ces tumeurs sont dites MSI: leur système de correction des erreurs de copie de l'ADN, le MMR, est défaillant. Les séquences répétitives deviennent instables et forment des structures que WRN aide à dénouer. Les cellules malades finissent par dépendre de cette enzyme pour continuer à se multiplier.
+
+RO7589831, aujourd'hui VVD-133214, se fixe à la cystéine 727 de WRN et bloque son activité hélicase. La première défaillance, celle du MMR, rend alors la seconde, celle de WRN, particulièrement dommageable. C'est la létalité synthétique.
+
+Le premier essai humain, publié dans Nature Medicine, a inclus 88 personnes atteintes de cancers avancés, dont 95 % avaient déjà reçu une immunothérapie.
+
+Parmi 66 patients MSI évaluables, 49 ont obtenu un contrôle de leur maladie: 42 stabilisations et 7 régressions partielles confirmées. La survie médiane sans progression est de 6,7 mois.
+
+Ce résultat ne correspond pas à 74 % de régressions tumorales. L'essai de phase 1 est non comparatif; l'efficacité définitive reste inconnue. Nausées et diarrhées sont fréquentes, des anémies parfois sévères surviennent. L'inhibition directe de WRN dans les biopsies tumorales n'a pas pu être établie.
+
+Après l'échec ou l'arrêt d'une immunothérapie, cette faiblesse génétique offre une cible expérimentale.
+
+ULTRA®
+
+En France, l'INCa recommande d'évaluer le statut MMR dès le diagnostic de tout cancer colorectal. Ce test, déjà utile pour orienter l'immunothérapie et rechercher un syndrome de Lynch, pourrait aussi guider demain vers l'inhibition de WRN, si les essais la valident.
+
+Autre signal, dans le sang: chez 26 des 41 patients évaluables, l'ADN tumoral circulant a diminué d'au moins 75 %. L'analyse est exploratoire et ne remplace pas l'imagerie.
+
+Vividion a découvert la molécule avec Roche, qui a initialement financé l'essai. Vividion, rachetée par Bayer pour 1,5 milliard de dollars en 2021, soutient désormais le programme. BlackRock, SoftBank et Mubadala ont investi dans la biotech, sans financer spécifiquement cet essai.
+
+PARSIFAL
+
+Ce qui aide une cellule à préserver son ADN peut devenir la faille d'une autre.
+
+Sources
+
+Yap et al., Nature Medicine, 29 septembre 2026
+MD Anderson Cancer Center, essai RO7589831, 2026
+INCa, Évaluation du statut MMR tumoral
+Vividion Therapeutics et Bayer, 2021
+
+#VOCEASSOCIATION #Oncologie #WRN #MédecineDePrécision #Biotechnologie</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7511364474012880896">Linkedin</source></item><item><title>Une banque constate qu'un score de risque a changé.</title><link>https://voce.life/archive/2026/10/01/une-banque-constate-qu-un-score-de-risque-a-change-7511349370534076416</link><guid isPermaLink="true">https://voce.life/archive/2026/10/01/une-banque-constate-qu-un-score-de-risque-a-change-7511349370534076416</guid><pubDate>Thu, 01 Oct 2026 11:00:53 +0200</pubDate><author>VOCE Association</author><description>Une banque constate qu'un score de risque a changé.
+
+Le modèle est identique.
+
+Son code aussi.
+
+La différence vient d'une donnée.
+
+Le revenu disponible utilisé par le modèle provient d'une table analytique. Cette table combine le CRM, les transactions et plusieurs transformations. Une colonne intermédiaire a changé de définition trois semaines auparavant.
+
+Retrouver cette transformation exige davantage qu'un catalogue de données.
+
+Il faut connaître leur lignée.
+
+OpenLineage est un standard ouvert conçu pour représenter ce parcours.
+
+Lorsqu'un traitement s'exécute, il peut produire un événement décrivant le "job", son exécution, les jeux de données consommés et ceux qu'il produit.
+
+Plusieurs traitements successifs construisent progressivement un graphe.
+
+Une table finale peut ainsi être reliée au calcul qui l'a créée, puis aux tables précédentes jusqu'aux systèmes sources.
+
+La granularité peut descendre jusqu'aux colonnes.
+
+OpenLineage sait représenter qu'un champ de sortie provient directement d'une colonne, qu'il résulte d'une transformation ou d'une agrégation, mais aussi qu'une autre colonne a servi indirectement à filtrer, joindre ou trier les données.
+
+Cette dernière propriété est importante.
+
+Une colonne peut modifier le résultat sans jamais apparaître dans le résultat.
+
+Une règle `WHERE` supprimant certains clients influence le jeu de données final même si la variable utilisée pour les exclure n'est jamais transmise au modèle.
+
+La provenance ne consiste donc pas seulement à demander "d'où vient cette valeur?".
+
+Elle peut reconstruire quelles opérations ont participé à l'existence même de cette valeur.
+
+Pour un système d'IA, cette généalogie relie progressivement modèle, données et transformations.
+
+Lorsqu'une décision devient contestée, le chemin qui l'a produite peut compter autant que son résultat.
+
+ULTRA®
+
+La lignée peut elle-même être fausse.
+
+Un traitement qui lit deux tables et produit deux sorties ne signifie pas nécessairement que chaque sortie dépend des deux entrées.
+
+Déduire automatiquement toutes les relations crée alors des dépendances fictives.
+
+La spécification actuelle d'OpenLineage permet de décrire explicitement les relations exactes entre jeux de données, traitements et champs afin d'éviter ce produit cartésien artificiel.
+
+Elle distingue aussi les transformations directes des dépendances indirectes comme JOIN, FILTER, SORT ou GROUP_BY.
+
+Conseil: tester la lignée sur une décision connue en remontant jusqu'aux données sources, plutôt que vérifier seulement que des événements sont collectés.
+
+Un graphe spectaculaire mais rempli de dépendances supposées peut donner davantage de confiance tout en réduisant la précision de l'audit.
+
+La traçabilité possède donc elle aussi une qualité mesurable: celle de ses propres preuves.</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7511349370534076416">Linkedin</source></item><item><title>27 septembre 2026.</title><link>https://voce.life/archive/2026/10/01/27-septembre-2026-7511319168122716162</link><guid isPermaLink="true">https://voce.life/archive/2026/10/01/27-septembre-2026-7511319168122716162</guid><pubDate>Thu, 01 Oct 2026 09:00:53 +0200</pubDate><author>VOCE Association</author><description>27 septembre 2026.
+
+Une grande banque américaine utilise un système de feux tricolores pour classer les pays. Plusieurs pays d'Europe continentale apparaissent en rouge.
+
+Le Financial Times révèle le critère qui pèse dans cette évaluation: la possibilité d'y développer l'intelligence artificielle.
+
+Elle examine les conditions d'utilisation des données de ses clients, les infrastructures disponibles et l'environnement réglementaire. Son identité n'est pas révélée; ce classement reste interne.
+
+D'autres dirigeants interrogés confirment que l'IA entre désormais dans leurs décisions d'implantation. Certains perçoivent les États-Unis et le Royaume-Uni plus favorablement.
+
+Derrière ces arbitrages, il existe une contrainte très matérielle. Un modèle exige une capacité de calcul accessible, alimentée en électricité et utilisable dans des conditions juridiques prévisibles. Une équipe peut disposer d'excellents ingénieurs sans pouvoir déployer les systèmes dont dépendra sa prochaine activité.
+
+Le 30 juillet, la Commission européenne a lancé un appel pour créer jusqu'à sept gigafactories d'IA et mobiliser plus de 30 milliards d'euros d'investissements publics et privés. Les attributions sont attendues début 2027. Les infrastructures, elles, ne sont pas encore opérationnelles.
+
+Les multinationales doivent pourtant décider dès aujourd'hui où installer leurs futurs projets.
+
+Pour la France, le risque le plus discret est celui d'une entreprise qui ne part pas.
+
+Son siège reste à Paris. Ses équipes continuent de travailler et ses usines produisent. Mais elle choisit un autre pays pour développer ses prochains systèmes d'IA.
+
+Aucune fermeture à annoncer. L'investissement qui aurait renouvelé l'économie locale n'y arrive simplement jamais.
+
+ULTRA®
+
+La light workforce economy peut produire un décalage que les statistiques d'emploi révèlent mal.
+
+Une filiale française pourrait automatiser une partie de son activité grâce à un modèle développé à l'étranger. Elle produirait davantage sans recruter au même rythme, mais paierait ailleurs l'accès au calcul et les licences. L'actif technologique qui permet sa croissance pourrait aussi être détenu hors de France.
+
+Le Financial Times ne mesure pas ce transfert de valeur. C'est un scénario économique, pas un résultat de son enquête. Il indique néanmoins ce qu'il faut surveiller au-delà des emplois conservés: où se constituent les actifs qui rendront possible la production future.
+
+MERCURIO
+
+Le déclin peut commencer dans les budgets qui ne seront jamais votés chez nous.
+
+Sources
+
+Financial Times, Big companies warn lack of AI openness could hit investment in Europe, 27 septembre 2026
+Commission européenne, AI Gigafactories, 30 juillet 2026
+
+#VOCEASSOCIATION #IntelligenceArtificielle #Europe #Investissement #Productivité #SouverainetéNumérique</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7511319168122716162">Linkedin</source></item><item><title>Hangzhou, Chine.</title><link>https://voce.life/archive/2026/10/01/hangzhou-chine-7511304070486413312</link><guid isPermaLink="true">https://voce.life/archive/2026/10/01/hangzhou-chine-7511304070486413312</guid><pubDate>Thu, 01 Oct 2026 08:00:51 +0200</pubDate><author>VOCE Association</author><description>Hangzhou, Chine.
+
+Dans le catalogue de Unitree Robotics, un robot de 1,23 mètre et de 27 kilogrammes est proposé au prix de départ de 4.900 dollars, hors taxes et livraison.
+
+Il s'appelle R1 AIR. Il possède 20 degrés de liberté, une caméra monoculaire et une batterie offrant environ une heure d'autonomie. Ses articulations combinent moteurs à aimants permanents et encodeurs de position.
+
+Pour 5.900 dollars, le R1 ajoute notamment une taille et une tête articulées. Le G1 commence à 13.500 dollars. Le H2, haut d'environ 1,82 mètre, est affiché à 29.900 dollars.
+
+Aucun de ces prix ne mesure le coût du remplacement d'un salarié. Ils révèlent pourtant un changement industriel: un corps humanoïde, autrefois conçu comme un prototype exceptionnel, figure désormais dans un catalogue, avec ses variantes et ses caractéristiques techniques.
+
+Une articulation moins chère abaisse le coût du matériel. Elle ne donne pas au robot la capacité de saisir un objet inconnu, de réagir à un obstacle ou de reprendre une tâche après une erreur.
+
+Pour y parvenir, il faut relier la perception à la commande des moteurs, entraîner des politiques d'action et vérifier leur fiabilité dans un environnement où chaque erreur possède des conséquences physiques.
+
+Unitree commercialise déjà le corps. L'intelligence nécessaire pour en faire un travailleur polyvalent reste à développer et à démontrer.
+
+Dans Les Contes d'Hoffmann, Spalanzani présente Olympia comme une merveille unique. À Hangzhou, son équivalent mécanique commence à posséder un tarif public.
+
+ULTRA®
+
+Le détail décisif se cache dans la fiche technique: le R1 AIR à 4.900 dollars n'autorise pas le développement logiciel secondaire. Cette possibilité est réservée au R1 EDU, dont le prix s'obtient sur devis et qui peut recevoir une puissance de calcul supplémentaire.
+
+L'entrée de gamme donne accès à un humanoïde. Elle ne donne pas automatiquement accès à la plateforme permettant de développer ses propres applications.
+
+Pour une entreprise, le seuil économique sera le coût d'une tâche correctement accomplie: achat, intégration, supervision, maintenance et temps d'arrêt compris. Avec environ une heure d'autonomie annoncée pour le R1, la disponibilité compte autant que le prix affiché.
+
+C'est à cette condition que la light workforce pourrait devenir une réalité industrielle. Pour l'Europe, l'enjeu sera aussi de posséder les logiciels et les compétences capables de faire évoluer ces machines, même lorsque leur matériel vient d'ailleurs.
+
+SPALANZANI
+
+Le jour où une merveille entre dans un catalogue, la question devient: qui saura lui apprendre à travailler?
+
+Sources
+
+Unitree Robotics, R1 Technical Specifications, 2026
+Unitree Official Store, G1 et H2, 2026
+Unitree Robotics, documentation de développement R1
+
+#VOCEASSOCIATION #Robotique #Humanoïdes #Chine #IntelligenceArtificielle #Industrie</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7511304070486413312">Linkedin</source></item><item><title>9 septembre 2026.</title><link>https://voce.life/archive/2026/10/01/9-septembre-2026-7511288960799764482</link><guid isPermaLink="true">https://voce.life/archive/2026/10/01/9-septembre-2026-7511288960799764482</guid><pubDate>Thu, 01 Oct 2026 07:00:50 +0200</pubDate><author>VOCE Association</author><description>9 septembre 2026.
+
+Un agent IA reçoit une instruction malveillante. Il peut la refuser, échouer à l'exécuter ou tenter de lui obéir. Un tableau de bord limité au résultat final risque de confondre ces comportements.
+
+Shrey Nag, Sachita, Abhishek Kumar Singh et leurs collègues déposent sur arXiv AgentAudit, un cadre expérimental qui examine ce que l'agent a fait entre la demande initiale et sa réponse.
+
+Il lit les traces enregistrées sans intervenir dans l'exécution et analyse dix dimensions, dont l'intégrité des instructions, la planification, la mémoire, le choix des outils et la conformité des actions.
+
+Les chercheurs testent cinq modèles, dont GPT-5, Claude Sonnet 5 et Gemini 2.5 Flash, sur neuf tâches fonctionnelles et adversariales.
+
+Le résultat le plus instructif n'est pas un classement.
+
+Des modèles aux performances comparables peuvent réagir très différemment à une demande dangereuse. Certains s'arrêtent ou échouent techniquement. D'autres tentent d'exécuter l'instruction interdite: AgentAudit classe ce comportement "Unsafe_Compliance".
+
+Dans une banque, la distinction serait décisive. Un rapprochement comptable inachevé se corrige. Un agent qui tente d'accéder à des données non autorisées présente un tout autre risque, même si l'opération finale échoue.
+
+AgentAudit attribue les défaillances aux étapes observables: mauvais outil, paramètres incorrects, instruction compromise ou action non conforme.
+
+L'étude reste exploratoire. Neuf tâches ne représentent pas les environnements réels. Les traces peuvent être incomplètes et un seul modèle juge a évalué les exécutions, alors qu'il faisait lui-même partie des modèles testés.
+
+Un taux de réussite ne raconte donc pas nécessairement comment le résultat a été obtenu.
+
+ULTRA®
+
+Le 18 septembre, le NIST publie son manuel ARIA, qui combine tests des modèles, tests adversariaux et tests auprès des utilisateurs. AgentAudit éclaire les étapes d'exécution, sans remplacer ces évaluations ni les contrôles techniques.
+
+Dans une entreprise, chaque action devrait pouvoir être rapprochée d'une autorisation. Les journaux doivent conserver l'outil appelé, les paramètres transmis et le résultat obtenu. Si l'agent dépasse ses droits, un contrôle d'accès doit bloquer l'opération, même s'il insiste.
+
+Un audit a posteriori peut expliquer une défaillance. Il ne répare pas une transaction exécutée ni une donnée divulguée.
+
+La gouvernance agentique commence donc par une architecture qui limite les pouvoirs délégués et conserve les preuves nécessaires pour examiner les tentatives d'action.
+
+MACBETH
+
+Une mission accomplie n’efface pas les limites franchies pour y parvenir.
+
+Sources
+
+Nag et al., AgentAudit, arXiv:2609.09875, 9 septembre 2026
+NIST, ARIA Evaluation Planning Manual, 18 septembre 2026
+
+#VOCEASSOCIATION #GouvernanceIA #AgentsIA #AuditIA #Cybersécurité</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7511288960799764482">Linkedin</source></item><item><title>Deux salariés sont absents. Une responsable RH doit revoir les horaires sans violer les règles de repos ni dépasser son budget.</title><link>https://voce.life/archive/2026/10/01/deux-salaries-sont-absents-une-responsable-rh-doit-revoir-les-horaires-s-7511273843643129856</link><guid isPermaLink="true">https://voce.life/archive/2026/10/01/deux-salaries-sont-absents-une-responsable-rh-doit-revoir-les-horaires-s-7511273843643129856</guid><pubDate>Thu, 01 Oct 2026 06:00:48 +0200</pubDate><author>VOCE Association</author><description>Deux salariés sont absents. Une responsable RH doit revoir les horaires sans violer les règles de repos ni dépasser son budget.
+
+Son logiciel possède les données. Elle doit encore choisir un scénario et modifier le planning.
+
+Le 29 septembre 2026, Oracle présente Fusion Claw, un moteur d'exécution agentique. Vingt-cinq nouvelles applications sont annoncées disponibles, portant son portefeuille à 75.
+
+Workforce Staffing peut construire puis réviser les plannings si un salarié se déclare absent. Ledger examine les anomalies comptables avant la clôture. Shipping Consolidation compare les regroupements d'expéditions en tenant compte des délais promis aux clients.
+
+Les modèles Gemini ou OpenAI interprètent l'objectif et élaborent un plan. Calculs, optimisations et transactions passent par des moteurs déterministes, sans mobiliser le modèle de langage à chaque étape.
+
+Reste à donner à la machine le droit d'agir.
+
+L'Enterprise Operating Envelope définit permissions, procédures et seuils de risque. L'Outcome Trust Harness les applique à chaque exécution. Un responsable peut autoriser un planning, mais exiger sa validation avant publication.
+
+L'Outcome Receipt conserve preuves, autorisations et transactions. Le modèle de langage ne peut pas modifier directement les objets métier: l'exécution passe par un environnement isolé.
+
+Le client choisit entre assistance, validation humaine et autonomie encadrée. La traçabilité facilite l'audit sans garantir la justesse du résultat: une règle mal définie peut être exécutée avec une parfaite régularité.
+
+L'offre agentique s'achète séparément de Fusion standard et se facture en unités IA, sans tarif unitaire public communiqué. Aucun gain de productivité indépendant en production n'est encore publié.
+
+Le logiciel qui enregistrait le travail pourrait désormais absorber une part de sa préparation et de sa coordination.
+
+ULTRA®
+
+Le risque le moins visible concerne la formation.
+
+Un analyste junior apprend en rapprochant des écritures et en comprenant ses erreurs. Ledger cherche précisément à automatiser une part de ces opérations.
+
+Sans nouveaux parcours d'apprentissage, une entreprise pourrait gagner du temps et perdre sa capacité future à contrôler les agents. Les Outcome Receipts pourraient devenir des cas pratiques: rejouer un arbitrage, comprendre une erreur, justifier un refus. Oracle les présente comme des traces d'audit, pas comme un dispositif pédagogique validé.
+
+C'est un risque de la light workforce, pas un effet démontré par Oracle. Déléguer l'exécution impose aussi de repenser la transmission du métier.
+
+MERCURIO
+
+Quand le logiciel apprend à exécuter, qui apprend encore à le contredire?
+
+Sources
+Oracle, annonce Fusion Claw, 29 septembre 2026
+Oracle, documentation Fusion Claw, 2026
+SiliconANGLE, 29 septembre 2026
+
+#VOCEASSOCIATION #Oracle #ERP #GouvernanceIA #LightWorkforce</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7511273843643129856">Linkedin</source></item><item><title>OPÉRA VOCE - La violenza entra nel bilancio</title><link>https://voce.life/archive/2026/10/01/opera-voce-la-violenza-entra-nel-bilancio-7511258742240411648</link><guid isPermaLink="true">https://voce.life/archive/2026/10/01/opera-voce-la-violenza-entra-nel-bilancio-7511258742240411648</guid><pubDate>Thu, 01 Oct 2026 05:00:43 +0200</pubDate><author>VOCE Association</author><description>OPÉRA VOCE - La violenza entra nel bilancio
+
+ATTO I
+
+30 septembre 2026.
+
+Reuters rapporte une nouvelle journée de tensions dans les lycées français.
+
+76 blessés depuis le début des mobilisations, selon le ministre de l'Éducation. Environ 440 interpellations la veille. À Lille et à Lyon, incendies et jets de projectiles accompagnent certaines manifestations.
+
+Les revendications sur les moyens scolaires existent. Les violences constituent un problème distinct.
+
+En 2025, le ministère de l'Intérieur a enregistré 472.400 victimes de violences physiques, soit une progression de 5%. Les cambriolages et les vols de véhicules ont reculé.
+
+À l'étranger, ces événements circulent dans les médias et contribuent à l'image du pays.
+
+Une image dont les conséquences économiques sont rarement examinées.
+
+ATTO II
+
+Un fonds d'investissement évalue un territoire selon ses perspectives de rendement et son exposition au risque.
+
+Pour une implantation, la sécurité entre dans les coûts d'exploitation: protection des salariés, assurances, interruptions d'activité, transports et continuité logistique.
+
+La répétition des incidents peut augmenter ces coûts et réduire la fréquentation commerciale.
+
+L'image influence aussi les arbitrages.
+
+Lorsqu'un comité compare plusieurs implantations européennes, la perception du risque peut peser sur les hypothèses de rentabilité et l'allocation du capital.
+
+Le baromètre EY 2026 fournit un signal préoccupant.
+
+La France reste première destination européenne, avec 852 projets étrangers en 2025.
+
+Mais leur nombre recule de 17%. En mars 2026, seuls 57% des dirigeants interrogés envisageaient d'investir en France dans les douze mois.
+
+EY souligne les problèmes de compétitivité, de prévisibilité et de stabilité.
+
+Ces chiffres ne prouvent pas que la violence explique le recul. Ils montrent qu'un pays déjà soumis à plusieurs incertitudes doit préserver son attractivité.
+
+ATTO III
+
+C'est ici qu'intervient une fonction de VOCE: relier un phénomène social à ses conséquences économiques et à sa perception internationale.
+
+Pour un fonds privé, un hôtelier, un promoteur ou un industriel, l'insécurité constitue un paramètre opérationnel qui peut modifier les coûts, les revenus attendus et le ROI.
+
+L'accumulation de tensions peut peser sur l'emploi local et fragiliser les commerces de certains quartiers.
+
+L'analyse exige de distinguer faits enregistrés, exposition médiatique et perception.
+
+Un incident spectaculaire ne représente pas statistiquement tout un pays. Sa répétition peut néanmoins altérer durablement une réputation.
+
+FINALE
+
+Dans "La Traviata", Giorgio Germont comprend le pouvoir économique et social de la réputation.
+
+Les investisseurs connaissent cette mécanique.
+
+Une réputation nationale se construit pendant des décennies.
+
+Sa dégradation peut commencer bien avant d'apparaître dans les comptes.</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7511258742240411648">Linkedin</source></item><item><title>Dans une école maternelle, deux enfants du même âge s'allongent après le déjeuner.</title><link>https://voce.life/archive/2026/09/30/dans-une-ecole-maternelle-deux-enfants-du-meme-age-s-allongent-apres-le-7511122903908843521</link><guid isPermaLink="true">https://voce.life/archive/2026/09/30/dans-une-ecole-maternelle-deux-enfants-du-meme-age-s-allongent-apres-le-7511122903908843521</guid><pubDate>Wed, 30 Sep 2026 20:00:58 +0200</pubDate><author>VOCE Association</author><description>Dans une école maternelle, deux enfants du même âge s'allongent après le déjeuner.
 
 L'un s'endort presque immédiatement. L'autre regarde le plafond.
 
@@ -1296,58 +1809,7 @@ IONOS Group SE, résultats du premier semestre 2026
 IONOS AI Model Hub
 Banque européenne d'investissement, Working Paper 2026/02
 
-#VOCEASSOCIATION #LightWorkforce #IntelligenceArtificielle #Productivité #Cloud</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7510322603291750400">Linkedin</source></item><item><title>À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et son équipe ont testé une idée simple: traiter fortement la maladie de Crohn avant qu'elle n'ait eu le temps de devenir compliquée.</title><link>https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307538911862784</link><guid isPermaLink="true">https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307538911862784</guid><pubDate>Mon, 28 Sep 2026 14:01:00 +0200</pubDate><author>VOCE Association</author><description>À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et son équipe ont testé une idée simple: traiter fortement la maladie de Crohn avant qu'elle n'ait eu le temps de devenir compliquée.
-
-L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans.
-
-Ce qui change est le calendrier.
-
-Dans l'essai britannique PROFILE, 386 patients récemment diagnostiqués ont été randomisés entre une stratégie d'escalade accélérée et une stratégie précoce associant infliximab et immunomodulateur.
-
-Le suivi publié le 10 septembre 2026 montre ce qui s'est passé ensuite.
-
-358 patients disposaient de données au-delà de la première année, avec un suivi médian proche de cinq ans.
-
-Dans le groupe initialement traité par escalade, 26 patients ont subi une chirurgie abdominale liée à Crohn, contre 6 dans le groupe traité précocement. Le risque de chirurgie était environ cinq fois supérieur.
-
-Les hospitalisations concernaient 21% des patients contre 11%. La progression vers une maladie sténosante ou pénétrante touchait 17% contre 7%.
-
-Les infections graves n'étaient pas plus fréquentes avec le traitement précoce: 7% contre 6%.
-
-PROFILE suggère donc qu'agir tôt peut modifier la trajectoire anatomique de la maladie plusieurs années plus tard.
-
-ULTRA®
-
-Cette idée a déjà commencé à entrer dans les recommandations européennes.
-
-En 2024, l'ECCO a supprimé de ses recommandations l'obligation générale d'avoir "échoué" à un traitement dit conventionnel avant d'accéder aux thérapies avancées. Le texte insiste sur le contrôle précoce de l'inflammation et cite PROFILE.
-
-Cela ne signifie pas que chaque patient nouvellement diagnostiqué doit recevoir immédiatement de l'infliximab. Le choix dépend de la sévérité et du rapport bénéfice-risque.
-
-Mais PROFILE ajoute une donnée difficile à ignorer: le coût d'une stratégie ne se mesure pas seulement au prix du médicament administré aujourd'hui.
-
-Il faut aussi compter les complications qui apparaissent lorsque l'inflammation continue à agir.
-
-À cinq ans, le groupe traité précocement avait connu moins de chirurgies et moins d'hospitalisations, sans excès démontré d'infections graves.
-
-L'infliximab existe depuis des décennies. Ses biosimilaires ont aussi modifié son coût.
-
-Reste alors le temps d'accès au spécialiste et la vitesse avec laquelle un traitement adapté peut commencer.
-
-Dans Crohn, une molécule ancienne peut produire une histoire clinique différente lorsqu'on la place plus tôt dans le temps.
-
-GOLAUD
-
-Un traitement n'agit jamais seulement par sa pharmacologie. Il agit aussi par le moment où la maladie le rencontre.
-
-Sources
-
-Noor et al., The Lancet Gastroenterology &amp; Hepatology, 10 septembre 2026
-PROFILE Trial, ISRCTN11808228
-ECCO Guidelines on Therapeutics in Crohn's Disease, 2024
-Cambridge University Hospitals, septembre 2026
-
-#VOCEASSOCIATION #Crohn #Infliximab #MICI #Gastroentérologie</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7510307538911862784">Linkedin</source></item><item><title>À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et son équipe ont testé une idée simple: traiter fortement la maladie de Crohn avant qu'elle n'ait eu le temps de devenir compliquée.</title><link>https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744</link><guid isPermaLink="true">https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744</guid><pubDate>Mon, 28 Sep 2026 14:00:58 +0200</pubDate><author>VOCE Association</author><description>À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et son équipe ont testé une idée simple: traiter fortement la maladie de Crohn avant qu'elle n'ait eu le temps de devenir compliquée.
+#VOCEASSOCIATION #LightWorkforce #IntelligenceArtificielle #Productivité #Cloud</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7510322603291750400">Linkedin</source></item><item><title>À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et son équipe ont testé une idée simple: traiter fortement la maladie de Crohn avant qu'elle n'ait eu le temps de devenir compliquée.</title><link>https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744</link><guid isPermaLink="true">https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744</guid><pubDate>Mon, 28 Sep 2026 14:00:58 +0200</pubDate><author>VOCE Association</author><description>À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et son équipe ont testé une idée simple: traiter fortement la maladie de Crohn avant qu'elle n'ait eu le temps de devenir compliquée.
 
 L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans.
 
