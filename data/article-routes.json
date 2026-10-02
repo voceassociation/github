@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "owner": "VOCE Association",
-  "generated_at": "2026-10-02T14:14:36.448689+00:00",
+  "generated_at": "2026-10-02T14:17:28.056881+00:00",
   "items": [
     {
       "id": "linkedin:7509084439671664640",
@@ -8726,6 +8726,12 @@
       "post_id": "7511258742240411648",
       "date": "2026-10-01",
       "path": "/archive/2026/10/01/opera-voce-la-violenza-entra-nel-bilancio-7511258742240411648"
+    },
+    {
+      "id": "linkedin:7510307538911862784",
+      "post_id": "7510307538911862784",
+      "date": "2026-09-28",
+      "path": "/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307538911862784"
     }
   ]
 }

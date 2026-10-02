@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-02T14:14:36.448689+00:00",
+  "updated_at": "2026-10-02T14:17:28.056881+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -865,8 +865,8 @@
     }
   },
   "retrieved_unique_publications": 1443,
-  "newly_archived": 15,
-  "academy_corpus_items": 1454,
+  "newly_archived": 1,
+  "academy_corpus_items": 1455,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
@@ -951,14 +951,14 @@
       "disposition": "No ingestion: generic Adobe names and modification timestamps are not publication proof."
     },
     "current_publication_ingest": {
-      "date": "2026-10-01",
+      "date": "2026-09-30",
       "verified_source": "Metricool LinkedIn connector, brand 7090850",
-      "items_added": 12,
-      "corpus_items_after": 1454,
+      "items_added": 15,
+      "corpus_items_after": 1455,
       "classification": "A editorial/archive",
-      "static_pages_created": 12,
-      "daily_archive": "archive/2026-10-01.html",
-      "completed_at": "2026-10-02T14:14:36.892436+00:00"
+      "static_pages_created": 15,
+      "daily_archive": "archive/2026-09-30.html",
+      "completed_at": "2026-10-02T14:17:28.630658+00:00"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",
