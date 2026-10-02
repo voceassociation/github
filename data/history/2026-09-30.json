@@ -3,7 +3,7 @@
   "owner": "VOCE Association",
   "source": "Metricool / LinkedIn",
   "date": "2026-09-30",
-  "item_count": 15,
+  "item_count": 16,
   "items": [
     {
       "id": "linkedin:7510896361664561152",
@@ -22,7 +22,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T14:17:28.484290+00:00",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -43,7 +43,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T14:17:28.484303+00:00",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -64,7 +64,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T14:17:28.484307+00:00",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -85,7 +85,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T14:17:28.484309+00:00",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -106,7 +106,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T14:17:28.484310+00:00",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -127,7 +127,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T14:17:28.484311+00:00",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -148,7 +148,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T14:17:28.484313+00:00",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -169,7 +169,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T14:17:28.484314+00:00",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -190,7 +190,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T14:17:28.484315+00:00",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -211,7 +211,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T14:17:28.484317+00:00",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -232,7 +232,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T14:17:28.484318+00:00",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -253,7 +253,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T14:17:28.484320+00:00",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -274,7 +274,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T14:17:28.484321+00:00",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -295,7 +295,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T14:17:28.484322+00:00",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -316,7 +316,28 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T14:17:28.484323+00:00",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7511137969244831745",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7511137969244831745",
+      "date_published": "2026-09-30T21:00:52+02:00",
+      "title": "Trondheim, Norvège.",
+      "slug": "trondheim-norvege-7511137969244831745",
+      "canonical_url": "https://voce.life/archive/2026/09/30/trondheim-norvege-7511137969244831745",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511137969244831745",
+      "language": "fr",
+      "text": "Trondheim, Norvège.\n\n113 enfants commencent la crèche. Leur âge moyen: 14,6 mois.\n\nMay Britt Drugli et l'équipe de la NTNU organisent une transition progressive: quatre à huit visites avant la rentrée, puis un parent reste au moins cinq jours. Deux professionnels référents suivent généralement trois ou quatre nouveaux enfants.\n\nLes chercheurs mesurent le cortisol salivaire. Parents et professionnels décrivent aussi ce qu'ils observent.\n\nLorsque les parents sont présents, le démarrage paraît calme.\n\nPuis vient la séparation.\n\nPendant les deux premières semaines sans parent, le cortisol augmente. Beaucoup de parents décrivent aussi des enfants très fatigués le soir.\n\nLa troisième semaine marque un infléchissement. Après trois mois, le cortisol revient au niveau bas observé au début et le bien-être en crèche est jugé élevé.\n\nLe cortisol n'est ni un détecteur de souffrance ni un test d'attachement. Il varie avec l'heure et d'autres facteurs physiologiques.\n\nUne autre cohorte norvégienne de 156 tout-petits retrouve une différence entre maison et crèche. À domicile, le cortisol diminue dans l'après-midi. En collectivité, ce profil est modifié, surtout au début de l'année. Un meilleur bien-être est associé à des niveaux globalement plus faibles.\n\nCela ne démontre pas que la crèche abîme l'enfant.\n\nL'étude NICHD menée sur 1.153 nourrissons n'a trouvé aucun effet principal de l'âge d'entrée, du nombre d'heures ou du type de garde sur la sécurité de l'attachement maternel.\n\nULTRA®\n\nLe détail le plus intéressant est ailleurs.\n\nÀ Trondheim, la transition était déjà prudente: visites préparatoires, parent présent plusieurs jours et référents identifiés.\n\nMême ainsi, les premières semaines sans parent restent la phase la plus exigeante.\n\nLa variable pertinente devient la manière dont l'institution organise la transition.\n\nEn février 2026, l'Éducation nationale française rappelle que l'accueil scolaire des 2-3 ans \"ne va pas de soi\" et exige un projet spécifique. Une évaluation française portant sur 35.000 élèves n'avait pas établi de bénéfice général de la scolarisation à 2 ans.\n\nÀ cet âge, observer uniquement les pleurs simplifie trop.\n\nLa continuité des adultes, la possibilité d'être consolé et la progressivité de l'entrée renseignent mieux sur ce que l'enfant doit apprendre: se sentir suffisamment en sécurité dans un lieu nouveau sans son parent immédiatement disponible.\n\nL'absence de protestation peut accompagner l'adaptation.\n\nElle ne suffit pas à la mesurer.\n\nPAPAGENO\n\nUn enfant peut lâcher une main avant que son organisme ait fini d'apprendre qu'il est en sécurité ailleurs.\n\nSources\n\nDrugli et al., Frontiers in Psychology, 2023\nNystad et al., Stress, 2022\nNICHD Early Child Care Research Network, Child Development, 1997\nÉduscol, février 2026\nFrance Stratégie, mise à jour 2025\n\n#VOCEASSOCIATION #Enfance #Crèche #Développement",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     }

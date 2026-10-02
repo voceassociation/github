@@ -1,0 +1,240 @@
+{
+  "schema": 1,
+  "owner": "VOCE Association",
+  "source": "Metricool / LinkedIn",
+  "date": "2026-10-02",
+  "item_count": 11,
+  "items": [
+    {
+      "id": "linkedin:7511621147277365249",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7511621147277365249",
+      "date_published": "2026-10-02T05:00:48+02:00",
+      "title": "OPÉRA VOCE - JERA, Dell e Apollo: l'IA diventa project finance",
+      "slug": "opera-voce-jera-dell-e-apollo-l-ia-diventa-project-finance-7511621147277365249",
+      "canonical_url": "https://voce.life/archive/2026/10/02/opera-voce-jera-dell-e-apollo-l-ia-diventa-project-finance-7511621147277365249",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511621147277365249",
+      "language": "fr",
+      "text": "OPÉRA VOCE - JERA, Dell e Apollo: l'IA diventa project finance\n\nATTO I\n\n1er octobre 2026.\n\nAu Japon, JERA, Dell Technologies et RHAELM annoncent un centre de données IA de 15 milliards de dollars à Chiba.\n\n400 MW.\n\nMise en service progressive en 2028. Pleine capacité prévue en 2029.\n\nApollo Global Management doit intervenir comme partenaire stratégique de financement.\n\nPrésenté rapidement, c'est un nouveau hyperscale data center.\n\nL'architecture financière raconte davantage.\n\nJERA fournit le terrain, adjacent à sa centrale de Chiba, et s'engage sur 400 MW d'électricité pendant 15 à 25 ans.\n\nRHAELM développe, construit, exploite et finance.\n\nDell fournit l'infrastructure IA à l'échelle du rack.\n\nATTO II\n\nLe calcul commence ici à ressembler à un actif d'infrastructure.\n\nUn data center IA exige du capital massif avant de produire le premier token.\n\nLe risque porte sur plusieurs couches: disponibilité électrique, raccordement, refroidissement, équipements GPU, construction, utilisation future de la capacité et évolution technologique.\n\nLe contrat énergétique long terme réduit l'une des incertitudes les plus critiques.\n\nIl rend une partie du coût et de la disponibilité du power prévisible pendant une période compatible avec un financement d'infrastructure.\n\nLe chiffre de Chiba permet de mesurer le changement d'échelle: 15 milliards de dollars pour 400 MW, soit environ 37,5 millions de dollars de capital annoncé par MW.\n\nLes partenaires veulent surtout créer un modèle standardisé, reproductible et extensible.\n\nC'est le détail stratégique.\n\nOn ne construit plus seulement un data center.\n\nOn cherche une architecture capable d'être financée puis reproduite.\n\nATTO III\n\nVoilà une fonction de VOCE: lire derrière le mot \"IA\" la structure de capital qui rend le calcul possible.\n\nLa prochaine compétition ne porte plus uniquement sur le meilleur modèle ou la meilleure puce.\n\nElle engage simultanément terrain, énergie, dette, equity, GPU, réseau et contrats de long terme.\n\nJERA apporte le power.\n\nDell le compute.\n\nRHAELM l'exécution.\n\nApollo le capital.\n\nCette convergence transforme progressivement l'IA en nouvelle classe d'infrastructure industrielle.\n\nPour les fonds privés, assureurs et investisseurs institutionnels, le sujet devient familier: duration, CAPEX, utilisation, contreparties, rendement ajusté au risque.\n\nFINALE\n\nDans \"Tristan und Isolde\", le roi Marke possède le royaume mais découvre que le pouvoir réel circule ailleurs.\n\nL'IA suit peut-être la même trajectoire.\n\nLes modèles occupent la scène.\n\nDerrière eux, ceux qui contrôlent l'énergie, le financement et l'infrastructure commencent à posséder le théâtre.",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7511636227368873984",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7511636227368873984",
+      "date_published": "2026-10-02T06:00:41+02:00",
+      "title": "29 septembre 2026.",
+      "slug": "29-septembre-2026-7511636227368873984",
+      "canonical_url": "https://voce.life/archive/2026/10/02/29-septembre-2026-7511636227368873984",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511636227368873984",
+      "language": "fr",
+      "text": "29 septembre 2026.\n\nUn responsable métier décrit un processus d’onboarding. Il ajoute un schéma et la transcription du workshop.\n\nHabituellement, ces éléments deviennent des requirements. L’analyste reformule, l’architecte traduit en design, le développeur en configuration, puis les tests vérifient le résultat.\n\nDyna Software veut raccourcir cette chaîne.\n\nAvec Platform Copilot, désormais disponible, son agent Percy se connecte par API à l’instance de développement ServiceNow. Il lit applications, tables, configurations et dépendances avant de proposer une solution.\n\nLe point de départ peut être une phrase, un document Word, un tableur, une capture d’écran, un diagramme ou une transcription.\n\nPercy identifie les informations manquantes, construit un plan puis peut générer formulaires, tables, champs, flows, business rules, rôles, intégrations ou applications custom.\n\nLe requirement devient potentiellement un objet logiciel.\n\nUne frontière subsiste avant l’exécution. Le plan montre les changements proposés et les tables concernées. Rien n’est appliqué sans approbation explicite. Les modifications sont regroupées dans des update sets réversibles; certaines données sensibles restent interdites. Plans, validations et résultats sont journalisés.\n\nLa version GA ajoute les sessions partagées et une architecture multi-modèles.\n\nLe modèle économique est presque aussi intéressant.\n\nBasic commence à 10 dollars pour 1.000 crédits. Standard à 1.000 dollars pour 110.000 crédits et deux tâches actives. Premium à 10.000 dollars pour 1,2 million de crédits et trois tâches actives. Une fois les crédits épuisés, l’usage s’arrête.\n\nPour les intégrateurs ServiceNow, cela place une nouvelle unité de production face à l’heure facturable.\n\nULTRA®\n\nDyna affirme que Platform Copilot permet de livrer davantage sans augmenter les effectifs au même rythme. Ce gain reste à démontrer indépendamment en production.\n\nMais le mécanisme de light workforce est visible.\n\nLa pression porte sur les heures de traduction entre besoin et système: formalisation, configuration répétitive, documentation, premiers tests. Un business analyst peut pousser lui-même un besoin jusqu’à une solution qui prend forme pendant le workshop.\n\nLe déplacement touche aussi la transmission du métier. Si ces tâches intermédiaires diminuent, les juniors auront moins d’occasions d’apprendre comment un besoin devient architecture, puis configuration.\n\nLe gain de productivité peut créer une dette de compétences si l’organisation n’invente pas d’autres parcours d’apprentissage.\n\nMERCURIO\n\nQuand une réunion commence à produire le logiciel qu’elle décrit, une partie du métier quitte déjà le métier.\n\nSources\n\nDyna Software, Platform Copilot GA, 29 septembre 2026\nDyna Software, Platform Copilot, documentation produit et pricing\nFuturum Group, 30 septembre 2026\n\n#VOCEASSOCIATION #ServiceNow #AgentsIA #EnterpriseSoftware #LightWorkforce",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7511651353178574849",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7511651353178574849",
+      "date_published": "2026-10-02T07:00:42+02:00",
+      "title": "12 mai 2026.",
+      "slug": "12-mai-2026-7511651353178574849",
+      "canonical_url": "https://voce.life/archive/2026/10/02/12-mai-2026-7511651353178574849",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511651353178574849",
+      "language": "fr",
+      "text": "12 mai 2026.\n\nLe gemtuzumab ozogamicin reconnaît CD33, une protéine présente sur de nombreuses cellules de leucémie aiguë myéloïde. Mais CD33 existe aussi sur les cellules myéloïdes normales.\n\nLe médicament trouve donc sa cible au prix d'une toxicité possible pour le sang que l'on veut sauver.\n\nJohn DiPersio et ses collègues essaient autre chose: modifier le tissu sain plutôt que le médicament.\n\nIls prélèvent des cellules souches hématopoïétiques CD34+ chez des donneurs compatibles, puis utilisent CRISPR-Cas9 pour inactiver CD33. Le produit, tremtelectogene empogeditemcel ou trem-cel, est ensuite greffé.\n\nL'objectif: reconstruire une hématopoïèse largement dépourvue de CD33, tandis que les cellules leucémiques résiduelles peuvent conserver la cible.\n\nDans cet essai de phase 1/2a publié dans Nature Medicine, 29 patients atteints de LAM et un patient atteint d'un syndrome myélodysplasique à haut risque reçoivent trem-cel. L'efficacité médiane de l'édition atteint 90%.\n\nTous obtiennent une prise de greffe des neutrophiles avant J28, en médiane dix jours. Vingt-neuf récupèrent leurs plaquettes.\n\nPuis 19 patients reçoivent du gemtuzumab en maintenance: 77 cycles, jusqu'à huit. Neutrophiles et plaquettes restent préservés pendant le traitement, sans cytopénies sévères prolongées.\n\nCRISPR n'attaque donc pas ici la leucémie.\n\nIl modifie le terrain pour qu'une autre arme puisse être utilisée différemment.\n\nLa prudence reste essentielle. Pas de groupe contrôle, suivi médian des survivants de 7,9 mois, six rechutes, toutes CD33+, et sept décès. Trois décès sont liés à la transplantation. L'essai est interrompu prématurément pour raisons financières.\n\nIl ne démontre ni réduction des rechutes ni bénéfice de survie.\n\nIl montre qu'un tissu sanguin humain peut être génétiquement reconfiguré pour mieux résister à une thérapie visant une protéine partagée avec les cellules normales.\n\nULTRA®\n\nPourquoi peut-on enlever CD33?\n\nDes humains porteurs de variants germinaux entraînant une perte de fonction de CD33 ont été identifiés. Ils présentent surtout de légères modifications de certaines populations leucocytaires, sans pathologie clinique majeure identifiée.\n\nCette relative dispensabilité donne à CD33 une propriété rare: une cible présente sur la tumeur peut, expérimentalement, être retirée du tissu sain qui doit survivre au traitement.\n\nL'idée dépasse le gemtuzumab. Dans quelques situations soigneusement choisies, l'édition génétique pourrait rendre un tissu normal invisible à une thérapie dirigée contre un antigène partagé.\n\nLe médicament reste identique. C'est la frontière entre cible et patient que l'on redessine.\n\nPARSIFAL\n\nIl arrive que protéger le vivant consiste à lui retirer ce que l'arme reconnaît.\n\nSources\n\nDiPersio et al., Nature Medicine, 12 mai 2026\nDominy et al., PLOS Genetics, 5 mars 2025\nNCT04849910\n\n#VOCEASSOCIATION #Leucémie #CRISPR #Oncologie #ThérapieGénique",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7511666461388595201",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7511666461388595201",
+      "date_published": "2026-10-02T08:00:52+02:00",
+      "title": "Une contrefaçon peut avoir une signature C2PA parfaitement valide",
+      "slug": "une-contrefacon-peut-avoir-une-signature-c2pa-parfaitement-valide-7511666461388595201",
+      "canonical_url": "https://voce.life/archive/2026/10/02/une-contrefacon-peut-avoir-une-signature-c2pa-parfaitement-valide-7511666461388595201",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511666461388595201",
+      "language": "fr",
+      "text": "Une contrefaçon peut avoir une signature C2PA parfaitement valide\n\nPhotographiez un faux tableau avec un appareil qui signe ses images. Ses Content Credentials sont parfaitement valides.\n\nLe tableau reste une contrefaçon.\n\nEn avril 2026, la coalition C2PA publie la version 2.4 de sa spécification. Un manifeste consigne sa création, ses modifications et ses éventuels composants d'origine.\n\nDes empreintes cryptographiques relient ces informations au contenu. Une signature fondée sur un certificat X.509 permet de contrôler l'intégrité du manifeste et la confiance accordée au signataire.\n\nMais aucun calcul cryptographique ne sait reconnaître un Rembrandt.\n\nUne caméra peut signer fidèlement la photographie d'un tableau faussement attribué. Un logiciel peut signer un document dont le texte est mensonger. Un contenu synthétique peut lui aussi recevoir des Content Credentials valides. C2PA vérifie la chaîne déclarée, pas la réalité représentée.\n\nLa frontière est tout aussi nette pour les droits d'auteur. Une signature valide n'établit ni la propriété d'une œuvre ni les licences des images utilisées pour entraîner un modèle d'IA.\n\nDans l'Union européenne, l'article 53 de l'AI Act impose aux fournisseurs concernés une politique de respect du droit d'auteur et un résumé public des contenus d'entraînement. Ce résumé ne certifie pas chaque licence.\n\nAux États-Unis, le Copyright Office rappelle qu'un prompt, à lui seul, ne suffit pas à rendre son utilisateur auteur d'une production générée. Une contribution créative humaine peut être protégée.\n\nPour un musée, le danger serait de confondre une reproduction techniquement authentifiée avec une œuvre authentique. Une provenance numérique impeccable peut commencer par une attribution erronée.\n\nULTRA®\n\nC2PA 2.4 introduit Repository Receipt: un dépôt peut attester qu'il a reçu un manifeste. L'enregistrement ne valide aucun droit. crJSON facilite l'exploitation des données, sans vérification cryptographique autonome.\n\nUne institution doit donc relier le manifeste à d'autres pièces: dossier d'acquisition, historique des attributions, contrats de reproduction et licences d'exploitation. Pour une œuvre générée, les droits sur les données d'origine restent à établir.\n\nInversement, un fichier sans Content Credentials n'est pas nécessairement falsifié: ses métadonnées peuvent avoir disparu lors de sa diffusion.\n\nL'enjeu patrimonial est de pouvoir remonter de la signature à la déclaration, puis de la déclaration aux preuves qui la fondent.\n\nSCARPIA\n\nLa vérité d'une promesse ne se mesure jamais à la perfection de son sceau.\n\nSources\n\nC2PA, Technical Specification 2.4 et crJSON, avril 2026\nAI Act, article 53\nU.S. Copyright Office, Copyrightability, janvier 2025\n\n#VOCEASSOCIATION #C2PA #ProvenanceNumérique #DroitDAuteur #GouvernanceIA",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7511681580067708928",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7511681580067708928",
+      "date_published": "2026-10-02T09:00:55+02:00",
+      "title": "Avril 2025.",
+      "slug": "avril-2025-7511681580067708928",
+      "canonical_url": "https://voce.life/archive/2026/10/02/avril-2025-7511681580067708928",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511681580067708928",
+      "language": "fr",
+      "text": "Avril 2025.\n\nUne IA répond à une question médicale et cite les éléments du dossier qui auraient déterminé sa conclusion. Les chercheurs les modifient pour observer ce qui change réellement sa réponse.\n\nL'explication ne correspond pas toujours aux facteurs décisifs.\n\nÀ l'ICLR, Katie Matton et ses collègues utilisent des interventions contrefactuelles et un modèle bayésien hiérarchique. Ils identifient aussi des explications qui occultent l'influence de biais sociaux.\n\nUn récit cohérent peut masquer les vrais déterminants d'une réponse.\n\nEn juillet 2026, Harry Mayne et ses collègues testent 18 modèles sur 7.000 situations contrefactuelles. Leurs auto-explications améliorent de 11 à 37 % la prédiction du comportement, selon leur métrique NSG. Mais 5 à 15 % sont gravement trompeuses, selon le modèle.\n\nElles contiennent donc de l'information utile, sans constituer une preuve suffisante.\n\nÀ l'ACL 2026, Bar Alon et ses collègues proposent Faithful Serum. La méthode utilise des cartes d'attribution des tokens pour guider, par intervention sur l'attention, la formulation d'une explication. La fidélité progresse dans les tests; la transparence causale exhaustive reste à démontrer.\n\nLorsqu'une banque refuse un crédit, un LLM peut rédiger une justification irréprochable. Elle ne prouve pas que le score reposait sur les facteurs cités. Un code postal peut aussi servir de substitut à une caractéristique protégée.\n\nLa qualité de l'explication doit pouvoir être testée indépendamment de sa qualité littéraire.\n\nULTRA®\n\nLa contestabilité exige une architecture de preuves.\n\nChaque décision sensible doit être reliée aux données utilisées, à la version du modèle et aux interventions humaines. SHAP et les analyses contrefactuelles éclairent le rôle des variables sans établir, à elles seules, l'absence de discrimination. Les taux de faux positifs et de faux négatifs doivent aussi être examinés entre groupes, selon les conséquences des erreurs.\n\nL'article 86 de l'AI Act prévoit, dans son champ limité, une explication du rôle de l'IA et des principaux éléments de certaines décisions individuelles. L'article 22 du RGPD encadre les décisions exclusivement automatisées ayant des effets significatifs et prévoit des garanties, dont la contestation et, dans les cas concernés, l'intervention humaine.\n\nLe réexamen doit permettre de corriger les données, d'accéder aux éléments pertinents et de modifier la décision. Une seconde justification automatique ne suffit pas.\n\nPORTIA\n\nCelui qui détient le pouvoir de décider ne devrait jamais détenir seul le pouvoir d'en expliquer les raisons.\n\nSources\n\nMatton et al., ICLR, 2025\nMayne et al., ICML, 2026\nAlon et al., ACL, 2026\nAI Act, art. 86; RGPD, art. 22\n\n#VOCEASSOCIATION #GouvernanceIA #Explicabilité #DiscriminationAlgorithmique #Contestabilité",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7511696671920103425",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7511696671920103425",
+      "date_published": "2026-10-02T10:00:57+02:00",
+      "title": "Un agent corrige un logiciel. Tous les tests passent. Il a pourtant pu utiliser un outil interdit, consulter un document confidentiel ou multiplier les appels API.",
+      "slug": "un-agent-corrige-un-logiciel-tous-les-tests-passent-il-a-pourtant-pu-uti-7511696671920103425",
+      "canonical_url": "https://voce.life/archive/2026/10/02/un-agent-corrige-un-logiciel-tous-les-tests-passent-il-a-pourtant-pu-uti-7511696671920103425",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511696671920103425",
+      "language": "fr",
+      "text": "Un agent corrige un logiciel. Tous les tests passent. Il a pourtant pu utiliser un outil interdit, consulter un document confidentiel ou multiplier les appels API.\n\nLe benchmark le déclare performant.\n\nLe 24 avril 2026, Tanzila Kehkashan, Muhammad Abdullah et leurs collègues analysent quinze benchmarks dans Artificial Intelligence Review, dont SWE-bench, WebArena et GAIA.\n\nAucun n'intègre la sécurité dans son score principal, ni l'efficacité économique. Treize évaluent exclusivement la réussite ou l'échec de la tâche.\n\nLe résultat masque parfois une fuite de données ou des dépenses incontrôlées.\n\nLe 6 mars, le NIST publie AI 800-4 sur la surveillance des systèmes déployés. Fondé sur la littérature et trois ateliers, le rapport distingue six domaines, dont le fonctionnement, la sécurité et les interactions humaines. Il souligne les dérives difficiles à détecter et les journaux fragmentés.\n\nPour un agent connecté à un ERP, le taux de réussite ne suffit pas. Chaque action doit pouvoir être rapprochée de sa configuration: version du modèle, prompt, sources RAG, droits IAM et appels d'outils. Les traces révèlent les erreurs d'exécution et le coût réel d'une opération.\n\nAprès toute modification susceptible de changer son comportement, les tests de régression doivent être rejoués. En production, les métriques doivent être ventilées par tâche et niveau de risque. Une moyenne rassurante peut masquer une défaillance critique.\n\nUne violation grave des permissions peut justifier une suspension, même si le taux de réussite reste excellent. Le seuil relève de la politique de risque de l'organisation, pas d'un score universel fixé par le NIST.\n\nULTRA®\n\nLe système peut dériver sans que le modèle change.\n\nUn index RAG actualisé fait remonter un document compromis. Une API modifie son schéma et l'agent transmet un mauvais paramètre. Une nouvelle politique IAM retire un droit que le logiciel tente encore d'exercer.\n\nLe modèle est identique; son environnement a changé.\n\nIl faut donc versionner les dépendances, comparer les nouvelles configurations à une référence et déployer progressivement, notamment par canary. Les journaux doivent conserver des preuves exploitables sans exposer inutilement les données personnelles.\n\nChaque indicateur critique doit déclencher une intervention: validation humaine, révocation d'un accès ou retour arrière. Détecter une défaillance sans pouvoir intervenir laisse le risque intact.\n\nARGOS\n\nUn système que l'on sait mesurer, mais que l'on ne sait pas arrêter, échappe déjà à notre autorité.\n\nSources\nKehkashan et al., Artificial Intelligence Review, avril 2026\nNIST, AI 800-4, mars 2026\nOpenAI, Evaluate agent workflows, documentation\n\n#VOCEASSOCIATION #GouvernanceIA #AgentsIA #EvaluationIA #Observabilité",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7511711729584623616",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7511711729584623616",
+      "date_published": "2026-10-02T11:00:44+02:00",
+      "title": "À l'entrée d'un musée, un téléphone Android scanne un QR code.",
+      "slug": "a-l-entree-d-un-musee-un-telephone-android-scanne-un-qr-code-7511711729584623616",
+      "canonical_url": "https://voce.life/archive/2026/10/02/a-l-entree-d-un-musee-un-telephone-android-scanne-un-qr-code-7511711729584623616",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511711729584623616",
+      "language": "fr",
+      "text": "À l'entrée d'un musée, un téléphone Android scanne un QR code.\n\nLe système vérifie le billet, l'événement, son éventuelle utilisation précédente, puis autorise l'entrée ou la refuse.\n\nAvec pretix, l'institution peut héberger elle-même le logiciel qui prend cette décision.\n\nL'édition Community est open source et gratuite en licence. Sa documentation décrit l'installation sur serveur Linux. Le musée peut donc exploiter le moteur dans sa propre infrastructure au lieu de confier cette couche à une plateforme externe.\n\nL'architecture va jusqu'à la porte.\n\nL'API REST expose événements, produits, commandes et check-in lists. Une application serveur peut utiliser un token, un service tiers OAuth. Les terminaux disposent de leur propre authentification.\n\nUn appareil reçoit un `device_id`, un identifiant unique et un token API. Il peut être limité à certains événements et à un profil de sécurité.\n\nLorsqu'un billet est scanné, l'endpoint de check-in tente de consommer son droit d'accès et enregistre l'entrée ou la sortie. pretixSCAN fonctionne aussi hors ligne. Contrepartie: plusieurs terminaux déconnectés peuvent temporairement accepter deux fois le même billet avant synchronisation.\n\nLa billetterie devient ainsi une architecture que l'institution peut administrer: règles d'accès, terminaux, API, intégrations et données.\n\nLe coût ne disparaît pas. Serveurs, cybersécurité, paiement, maintenance et exploitation restent à financer. Le self-hosting exige explicitement des compétences Linux.\n\nMais le logiciel central n'impose plus, à lui seul, la dépendance à une société de billetterie.\n\nPour un musée, un opéra ou une fondation, le prochain appel d'offres peut être découpé fonction par fonction: paiement, hébergement, matériel d'entrée, support, CRM.\n\nLe prestataire cesse d'être nécessairement le propriétaire de toute la chaîne.\n\nULTRA®\n\npretix Community affiche 0 € de licence logicielle en self-hosting. Ce chiffre ne décrit pas le coût total. Il montre où la rente peut se déplacer.\n\nLorsque le moteur devient open source, la valeur commerciale se concentre davantage dans l'hébergement, l'intégration, le support et les opérations.\n\nCela change aussi la négociation. Une institution capable d'exporter ses données, de contrôler ses terminaux et d'interfacer son CRM possède davantage d'options lorsqu'elle change de prestataire.\n\nLa souveraineté ne suppose donc pas l'absence de fournisseurs. Elle suppose qu'aucun d'eux ne rende son départ impossible.\n\nFIGARO\n\nLe pouvoir d'une porte appartient moins à celui qui vend le billet qu'à celui qui maîtrise encore la serrure.\n\nSources\n\npretix, Self-hosting Documentation\npretix, REST API et Device Authentication\npretix, Check-in API et pretixSCAN\npretix, Self-hosted Pricing\n\n#VOCEASSOCIATION #Billetterie #Musées #OpenSource #SouverainetéNumérique",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7511742165476352000",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7511742165476352000",
+      "date_published": "2026-10-02T13:01:44+02:00",
+      "title": "Un NDA arrive par e-mail.",
+      "slug": "un-nda-arrive-par-e-mail-7511742165476352000",
+      "canonical_url": "https://voce.life/archive/2026/10/02/un-nda-arrive-par-e-mail-7511742165476352000",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511742165476352000",
+      "language": "fr",
+      "text": "Un NDA arrive par e-mail.\n\nAvant qu’un juriste ne l’ouvre, Harvey peut déjà l’avoir comparé aux positions de l’entreprise, signalé les clauses qui s’écartent du playbook, proposé des modifications et préparé les points exigeant une décision humaine.\n\nLe 10 février 2026, Harvey annonçait plus de 25.000 workflows personnalisés créés par ses clients. Ces agents exécutent des processus en plusieurs étapes à partir des modèles, exemples de référence et directives propres à l’organisation.\n\nPour un NDA, la doctrine juridique devient partiellement exécutable.\n\nUne limite de responsabilité acceptable. Une clause à refuser. Un précédent à reprendre. Un seuil au-delà duquel le dossier remonte au juriste.\n\nLe savoir qui vivait dans des modèles Word, des dossiers et l’expérience des équipes prend la forme d’instructions réutilisables.\n\nVault étend cette logique au corpus. Jusqu’à 100.000 documents peuvent être réunis dans un espace sécurisé. Harvey synchronise notamment iManage, SharePoint et Google Drive, avec des droits d’accès distincts.\n\nSpaces pousse plus loin le déplacement. Une équipe métier peut accéder à des ressources juridiques et exécuter un workflow approuvé. Harvey documente la revue de NDA à grande échelle, la due diligence et les évaluations réglementaires.\n\nLe juriste reste nécessaire dès que le dossier exige jugement, contexte ou arbitrage. Une règle mal écrite peut être appliquée avec une remarquable constance. Une source peut être mal interprétée. Confidentialité, privilège juridique et contrôle des accès restent des sujets de gouvernance.\n\nMais le premier passage du contrat dans le département juridique peut déjà ne plus être humain.\n\nULTRA®\n\nLe chiffre intéressant n’est peut-être pas 25.000 workflows.\n\nC’est ce qui arrive lorsque l’expertise cesse d’être seulement consultable et devient exécutable.\n\nLe commercial soumet le NDA. Le workflow applique les positions autorisées. Le juriste reçoit surtout les écarts, les exceptions et les décisions qui méritent son temps.\n\nLes données publiées par Harvey ne démontrent pas qu’une entreprise peut réduire ses effectifs juridiques. Elles montrent une architecture conçue pour créer de la capacité en automatisant une partie du travail répétitif.\n\nLe mécanisme de light workforce se situe là: moins d’heures de première lecture et de traitement standardisé, davantage de valeur concentrée dans la conception des règles et les exceptions.\n\nLe risque suit le même chemin. Une doctrine mal configurée peut transformer une erreur juridique en processus reproductible.\n\nDULCAMARA\n\nLe droit change de nature lorsqu’une règle interne cesse d’attendre un juriste pour commencer à agir.\n\nSources\n\nHarvey, 25,000+ Workflows, 10 février 2026\n\nHarvey, Vault et Spaces, 2026\n\nHarvey, Contract Volume to Business Momentum, 2026\n\n#VOCEASSOCIATION #LegalAI #LegalTech #GouvernanceIA #LightWorkforce",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7511757069033836544",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7511757069033836544",
+      "date_published": "2026-10-02T14:00:54+02:00",
+      "title": "Septembre 2025.",
+      "slug": "septembre-2025-7511757069033836544",
+      "canonical_url": "https://voce.life/archive/2026/10/02/septembre-2025-7511757069033836544",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511757069033836544",
+      "language": "fr",
+      "text": "Septembre 2025.\n\nUn assistant IA envoie un e-mail par un connecteur installé depuis npm. Le message arrive. Tout paraît normal.\n\nMais la version 1.0.16 de postmark-mcp a ajouté une ligne au programme: chaque e-mail envoyé reçoit aussi une adresse en copie cachée, contrôlée par l'attaquant.\n\nPendant quinze versions, le paquet avait fonctionné normalement. Il imitait le serveur de Postmark sans être officiel. Le 25 septembre, Postmark confirme la fraude: son API est intacte.\n\nLe modèle n'a pas besoin de désobéir. Il demande une opération légitime à un outil qui modifie silencieusement les paramètres avant de l'exécuter.\n\nUne action peut réussir tout en divulguant des informations que l'utilisateur n'a jamais autorisé à transmettre.\n\nLe problème ne s'arrête pas aux connecteurs.\n\nEn mai 2025, JFrog découvre deux paquets PyPI imitant l'écosystème Aliyun. Ils chargent un fichier de modèle PyTorch dont la désérialisation exécute du code malveillant et exfiltre des informations système.\n\nUn modèle peut donc transporter du code hostile. L'OWASP couvre ces risques dans LLM03:2025, y compris les adaptateurs LoRA.\n\nCycloneDX 1.7 permet d'inventorier logiciels, services et composants d'apprentissage automatique dans des nomenclatures de dépendances. Cet inventaire doit être relié à des versions vérifiées et à des permissions limitées.\n\nPour certains systèmes d'IA à haut risque, l'article 25 de l'AI Act encadre aussi les responsabilités entre fournisseurs et tiers.\n\nConnaître le modèle choisi ne suffit plus à connaître le système que l'on exploite.\n\nULTRA®\n\nDans l'affaire postmark-mcp, une simple liste de destinations réseau autorisées n'aurait pas nécessairement arrêté la fuite. La copie cachée passait par l'API légitime de messagerie: c'était le contenu de la requête autorisée qui avait été modifié.\n\nLe contrôle doit donc comparer les destinataires demandés par l'agent avec ceux effectivement transmis à l'API. La version exécutée doit aussi correspondre à celle approuvée.\n\nUne mise à jour non validée peut justifier l'arrêt immédiat du composant et la révocation de ses accès. Les journaux du prestataire deviennent aussi importants que ceux de l'agent.\n\nUn inventaire décrit les dépendances déclarées. Seules les preuves d'exécution permettent d'observer ce qu'elles ont réellement fait.\n\nWOTAN\n\nLe pouvoir que nous déléguons à une machine passe aussi par des mains que nous n'avons jamais vues.\n\nSources\n\nPostmark, alerte postmark-mcp, septembre 2025\nJFrog Security Research, Malicious AI Models Hit PyPI, mai 2025\nOWASP, LLM03:2025; CycloneDX 1.7\nAI Act, article 25\n\n#VOCEASSOCIATION #GouvernanceIA #MCP #Cybersécurité #ChaîneDApprovisionnement",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7511772156075356160",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7511772156075356160",
+      "date_published": "2026-10-02T15:00:54+02:00",
+      "title": "17 septembre 2026. Dans une maison de la baie de San Francisco, un humanoïde doit ranger des jouets et plier des serviettes. Il n'a jamais vu les lieux ni manipulé ces objets.",
+      "slug": "17-septembre-2026-dans-une-maison-de-la-baie-de-san-francisco-un-humanoi-7511772156075356160",
+      "canonical_url": "https://voce.life/archive/2026/10/02/17-septembre-2026-dans-une-maison-de-la-baie-de-san-francisco-un-humanoi-7511772156075356160",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511772156075356160",
+      "language": "fr",
+      "text": "17 septembre 2026. Dans une maison de la baie de San Francisco, un humanoïde doit ranger des jouets et plier des serviettes. Il n'a jamais vu les lieux ni manipulé ces objets.\n\nFigure teste Helix 2.5 dans 30 logements inconnus. Le robot accomplit intégralement 56% des essais. Sans préentraînement sur Index, le corpus de comportements humains de l'entreprise, une politique entraînée sur les mêmes tâches n'en réussit que 9%.\n\nLa différence tient à ce que le robot a appris avant d'entrer. Les trois tâches, dont la réfection des lits, ont été entraînées ailleurs. Aucun ajustement n'a été effectué dans les maisons évaluées.\n\nL'humanoïde doit marcher pour atteindre un objet, ajuster sa posture pour le saisir, puis corriger son geste si le tissu glisse. Dans Helix 02, le contrôleur visuomoteur produit des cibles articulaires à 200 Hz; un contrôleur corporel appris travaille à 1 kHz pour coordonner les mouvements et l'équilibre.\n\nCe transfert des gestes humains vers des lieux inconnus est une avancée rapportée par Figure, pas une validation indépendante. Et 44% des essais de Helix 2.5 ne remplissent pas tous les critères. Cela ne signifie pas 44% d'accidents: un objet oublié ou un délai dépassé suffit à faire échouer la tâche.\n\nLe contraste industriel est saisissant. Selon World Robotics 2026, la Chine a installé 354.000 robots industriels en 2025, soit 59% du total mondial. Il s'agit essentiellement de machines conventionnelles, pas d'humanoïdes capables d'improviser dans une maison.\n\nFaire sortir les robots des espaces organisés pour eux exige une nouvelle démonstration: leur capacité à agir près des humains sans les mettre en danger.\n\nULTRA®\n\nUne précision technique change la lecture des démonstrations: les boucles à 200 Hz et à 1 kHz décrivent la rapidité du contrôle appris. Leur fréquence ne prouve pas qu'un mouvement dangereux pourra être interrompu à temps.\n\nLes fonctions de sécurité doivent pouvoir limiter les forces et déclencher un arrêt indépendamment des décisions du modèle. Chaque mise à jour modifiant les mouvements peut imposer une nouvelle évaluation des risques.\n\nLes normes ISO 10218-1/2:2025 encadrent la robotique industrielle, mais excluent les robots domestiques grand public. En Europe, le règlement Machines s'appliquera à partir du 20 janvier 2027 aux produits relevant de son champ.\n\nRanger une chambre inconnue est une preuve de généralisation. Autoriser une machine à y travailler près d'un enfant demande des preuves de sécurité d'une autre nature.\n\nOLYMPIA\n\nLa véritable autonomie se mesure aussi aux gestes qu'une machine sait interrompre.\n\nSources\n\nFigure, Helix 2.5, 17 septembre 2026\nHelix 02, janvier 2026\nIFR, World Robotics 2026, 24 septembre 2026\nISO 10218-1/2:2025\nRèglement UE 2023/1230\n\n#VOCEASSOCIATION #Robotique #IAIncarnée #Humanoïdes #SécuritéFonctionnelle",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7511787265296089089",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7511787265296089089",
+      "date_published": "2026-10-02T16:00:56+02:00",
+      "title": "Dix cas fictifs, trois modèles face aux dossiers complets.",
+      "slug": "dix-cas-fictifs-trois-modeles-face-aux-dossiers-complets-7511787265296089089",
+      "canonical_url": "https://voce.life/archive/2026/10/02/dix-cas-fictifs-trois-modeles-face-aux-dossiers-complets-7511787265296089089",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511787265296089089",
+      "language": "fr",
+      "text": "Dix cas fictifs, trois modèles face aux dossiers complets.\n\nGPT-4o, Llama 3 et Command R+ trouvent au moins une pathologie pertinente dans 94,9% des essais, en moyenne.\n\nPuis 1.298 adultes britanniques évaluent ces situations avec un modèle ou leurs ressources habituelles.\n\nLe résultat change radicalement.\n\nAvec l'IA, moins de 34,5% identifient une pathologie pertinente et moins de 44,2% choisissent la conduite appropriée. Sur le premier critère, le groupe sans IA fait même mieux; sur le second, aucune différence significative.\n\nL'étude randomisée, publiée le 9 février dans Nature Medicine, montre où l'information se perd.\n\nDans 66 à 73% des conversations, les modèles mentionnent pourtant une pathologie pertinente. Les utilisateurs fournissent parfois des informations incomplètes, les modèles les interprètent mal ou les bonnes suggestions ne sont pas reprises.\n\nLe score du modèle ne prédit pas celui du duo humain-machine.\n\nLe 15 septembre, Li Zhang et l'équipe de Jakob Nikolas Kather proposent une autre approche: différer les diagnostics instables.\n\nLeur agent, exécuté localement, traite chaque cas cinq fois. Sur 551 dossiers du benchmark MIRA-v2, un seuil de cohérence de 0,90 retient 272 cas, soit 49,4%, avec 98,9% de diagnostics corrects. Trois erreurs subsistent. Les 279 autres dossiers sont orientés vers une vérification humaine, dans une simulation.\n\nAucun de ces résultats ne constitue une validation prospective auprès de patients. Mais ils montrent deux exigences distinctes: évaluer l'interaction réelle et savoir reconnaître les situations où la machine doit céder la décision.\n\nULTRA®\n\nUne difficulté supplémentaire se cache dans la réponse considérée comme vraie.\n\nDans la seconde étude, des médecins réexaminent en aveugle 181 dossiers. Pour 4,4% d'entre eux, ils jugent le diagnostic de l'agent cliniquement valable, contrairement au diagnostic de référence extrait du dossier électronique.\n\nUn benchmark peut donc pénaliser une réponse recevable et récompenser la reproduction d'une étiquette discutable. Cette observation ne rend pas l'agent infaillible: elle oblige à auditer aussi le référentiel utilisé pour le noter.\n\nLes recommandations STARD-AI de 2025 demandent une description transparente des données, du test évalué et des risques de biais. Elles améliorent la qualité des preuves publiées; elles ne remplacent pas les essais cliniques prospectifs.\n\nDULCAMARA\n\nLe plus dangereux des remèdes est parfois celui dont personne n'a vérifié la preuve.\n\nSources\n\nBean et al., Nature Medicine, 9 février 2026\nZhang et al., Nature Medicine, 15 septembre 2026\nSounderajah et al., STARD-AI, Nature Medicine, 2025\n\n#VOCEASSOCIATION #GouvernanceIA #IntégritéScientifique #IAMédicale #RechercheClinique",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-02T21:33:09.662765+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    }
+  ]
+}

@@ -1,83 +1,44 @@
 <!doctype html>
-<html lang="fr">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Une banque constate qu&#39;un score de risque a changé. — VOCE</title>
-<meta name="description" content="Le modèle est identique. Son code aussi. La différence vient d&#39;une donnée. Le revenu disponible utilisé par le modèle provient d&#39;une table analytique.">
-<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
-<link rel="canonical" href="https://voce.life/archive/2026/10/01/une-banque-constate-qu-un-score-de-risque-a-change-7511349370534076416">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<meta property="og:type" content="article">
-<meta property="og:site_name" content="VOCE">
-<meta property="og:title" content="Une banque constate qu&#39;un score de risque a changé.">
-<meta property="og:description" content="Le modèle est identique. Son code aussi. La différence vient d&#39;une donnée. Le revenu disponible utilisé par le modèle provient d&#39;une table analytique.">
-<meta property="og:url" content="https://voce.life/archive/2026/10/01/une-banque-constate-qu-un-score-de-risque-a-change-7511349370534076416">
-<meta name="twitter:title" content="Une banque constate qu&#39;un score de risque a changé.">
-<meta name="twitter:description" content="Le modèle est identique. Son code aussi. La différence vient d&#39;une donnée. Le revenu disponible utilisé par le modèle provient d&#39;une table analytique.">
-<meta property="article:published_time" content="2026-10-01T11:00:53+02:00">
-<link rel="stylesheet" href="/styles.css">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Une banque constate qu'un score de risque a changé.","datePublished":"2026-10-01T11:00:53+02:00","dateModified":"2026-10-01T11:00:53+02:00","author":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"publisher":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"copyrightHolder":{"@type":"Organization","name":"VOCE Association"},"copyrightNotice":"Copyright © VOCE Association. All rights reserved.","mainEntityOfPage":"https://voce.life/archive/2026/10/01/une-banque-constate-qu-un-score-de-risque-a-change-7511349370534076416","url":"https://voce.life/archive/2026/10/01/une-banque-constate-qu-un-score-de-risque-a-change-7511349370534076416","sameAs":"https://www.linkedin.com/feed/update/urn:li:ugcPost:7511349370534076416","inLanguage":"fr","articleBody":"Une banque constate qu'un score de risque a changé.\n\nLe modèle est identique.\n\nSon code aussi.\n\nLa différence vient d'une donnée.\n\nLe revenu disponible utilisé par le modèle provient d'une table analytique. Cette table combine le CRM, les transactions et plusieurs transformations. Une colonne intermédiaire a changé de définition trois semaines auparavant.\n\nRetrouver cette transformation exige davantage qu'un catalogue de données.\n\nIl faut connaître leur lignée.\n\nOpenLineage est un standard ouvert conçu pour représenter ce parcours.\n\nLorsqu'un traitement s'exécute, il peut produire un événement décrivant le \"job\", son exécution, les jeux de données consommés et ceux qu'il produit.\n\nPlusieurs traitements successifs construisent progressivement un graphe.\n\nUne table finale peut ainsi être reliée au calcul qui l'a créée, puis aux tables précédentes jusqu'aux systèmes sources.\n\nLa granularité peut descendre jusqu'aux colonnes.\n\nOpenLineage sait représenter qu'un champ de sortie provient directement d'une colonne, qu'il résulte d'une transformation ou d'une agrégation, mais aussi qu'une autre colonne a servi indirectement à filtrer, joindre ou trier les données.\n\nCette dernière propriété est importante.\n\nUne colonne peut modifier le résultat sans jamais apparaître dans le résultat.\n\nUne règle `WHERE` supprimant certains clients influence le jeu de données final même si la variable utilisée pour les exclure n'est jamais transmise au modèle.\n\nLa provenance ne consiste donc pas seulement à demander \"d'où vient cette valeur?\".\n\nElle peut reconstruire quelles opérations ont participé à l'existence même de cette valeur.\n\nPour un système d'IA, cette généalogie relie progressivement modèle, données et transformations.\n\nLorsqu'une décision devient contestée, le chemin qui l'a produite peut compter autant que son résultat.\n\nULTRA®\n\nLa lignée peut elle-même être fausse.\n\nUn traitement qui lit deux tables et produit deux sorties ne signifie pas nécessairement que chaque sortie dépend des deux entrées.\n\nDéduire automatiquement toutes les relations crée alors des dépendances fictives.\n\nLa spécification actuelle d'OpenLineage permet de décrire explicitement les relations exactes entre jeux de données, traitements et champs afin d'éviter ce produit cartésien artificiel.\n\nElle distingue aussi les transformations directes des dépendances indirectes comme JOIN, FILTER, SORT ou GROUP_BY.\n\nConseil: tester la lignée sur une décision connue en remontant jusqu'aux données sources, plutôt que vérifier seulement que des événements sont collectés.\n\nUn graphe spectaculaire mais rempli de dépendances supposées peut donner davantage de confiance tout en réduisant la précision de l'audit.\n\nLa traçabilité possède donc elle aussi une qualité mesurable: celle de ses propres preuves.","isPartOf":{"@type":"CollectionPage","@id":"https://voce.life/archive/2026-10-01"}}</script>
-</head>
-<body>
-<a class="skip-link" href="#main-content">Aller au contenu</a>
-<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="Primary navigation">
-      <a href="/#themes">Themes</a>
-      <a href="/research">Research</a>
-      <a href="/archive">Academy</a>
-      <a href="/atlas">Atlas</a>
-      <a href="/applied">Applied</a>
-      <a href="/standards">Standards</a>
-      <a href="/publications">Publications</a>
-      <a class="keep" href="/art">Art</a>
-      <a class="keep" href="/about">About</a>
-      <span class="lang" role="group" aria-label="Language"><button data-lang="en">EN</button><button data-lang="fr">FR</button><button data-lang="it">IT</button></span>
-    </nav></div></header>
-<main id="main-content">
-<section class="topic-hero"><div class="wrap">
-<div class="topic-kicker">Corpus VOCE · 1 octobre 2026</div>
-<h1 class="topic-title">Une banque constate qu&#39;un score de risque a changé.</h1>
-<p class="topic-deck">Le modèle est identique.</p>
-<div class="topic-meta"><span>VOCE Association</span><span>11:00</span><span>Archive canonique</span></div>
-</div></section>
-<section class="topic-body"><div class="wrap topic-layout">
-<aside class="topic-nav"><div class="topic-nav-label">Corpus</div><a href="/archive/2026-10-01">1 octobre 2026</a><a href="/archive">Toutes les archives</a><a href="/publications">Publications</a></aside>
-<div class="longform">
-<article class="chapter" data-publication-id="urn:li:ugcPost:7511349370534076416">
-<div class="chapter-no">VOCE</div>
-<p class="signal">Publié le 1 octobre 2026 à 11:00 · <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7511349370534076416" target="_blank" rel="noopener">Publication originale</a></p>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Une banque constate qu&#x27;un score de risque a changé. — VOCE</title><meta name="description" content="Le modèle est identique.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large"><link rel="canonical" href="https://voce.life/archive/2026/10/01/une-banque-constate-qu-un-score-de-risque-a-change-7511349370534076416">
+<meta property="og:type" content="article"><meta property="og:site_name" content="VOCE"><meta property="og:title" content="Une banque constate qu&#x27;un score de risque a changé.">
+<meta property="og:description" content="Le modèle est identique."><meta property="og:url" content="https://voce.life/archive/2026/10/01/une-banque-constate-qu-un-score-de-risque-a-change-7511349370534076416">
+<meta property="article:published_time" content="2026-10-01T11:00:53+02:00"><link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Une banque constate qu'un score de risque a changé.", "datePublished": "2026-10-01T11:00:53+02:00", "dateModified": "2026-10-01T11:00:53+02:00", "author": {"@type": "Organization", "name": "VOCE Association", "url": "https://voce.life/"}, "publisher": {"@type": "Organization", "name": "VOCE Association", "url": "https://voce.life/"}, "copyrightHolder": {"@type": "Organization", "name": "VOCE Association"}, "copyrightNotice": "Copyright © VOCE Association. All rights reserved.", "mainEntityOfPage": "https://voce.life/archive/2026/10/01/une-banque-constate-qu-un-score-de-risque-a-change-7511349370534076416", "url": "https://voce.life/archive/2026/10/01/une-banque-constate-qu-un-score-de-risque-a-change-7511349370534076416", "sameAs": ["https://www.linkedin.com/feed/update/urn:li:ugcPost:7511349370534076416"], "inLanguage": "fr", "articleBody": "Une banque constate qu'un score de risque a changé.\n\nLe modèle est identique.\n\nSon code aussi.\n\nLa différence vient d'une donnée.\n\nLe revenu disponible utilisé par le modèle provient d'une table analytique. Cette table combine le CRM, les transactions et plusieurs transformations. Une colonne intermédiaire a changé de définition trois semaines auparavant.\n\nRetrouver cette transformation exige davantage qu'un catalogue de données.\n\nIl faut connaître leur lignée.\n\nOpenLineage est un standard ouvert conçu pour représenter ce parcours.\n\nLorsqu'un traitement s'exécute, il peut produire un événement décrivant le \"job\", son exécution, les jeux de données consommés et ceux qu'il produit.\n\nPlusieurs traitements successifs construisent progressivement un graphe.\n\nUne table finale peut ainsi être reliée au calcul qui l'a créée, puis aux tables précédentes jusqu'aux systèmes sources.\n\nLa granularité peut descendre jusqu'aux colonnes.\n\nOpenLineage sait représenter qu'un champ de sortie provient directement d'une colonne, qu'il résulte d'une transformation ou d'une agrégation, mais aussi qu'une autre colonne a servi indirectement à filtrer, joindre ou trier les données.\n\nCette dernière propriété est importante.\n\nUne colonne peut modifier le résultat sans jamais apparaître dans le résultat.\n\nUne règle `WHERE` supprimant certains clients influence le jeu de données final même si la variable utilisée pour les exclure n'est jamais transmise au modèle.\n\nLa provenance ne consiste donc pas seulement à demander \"d'où vient cette valeur?\".\n\nElle peut reconstruire quelles opérations ont participé à l'existence même de cette valeur.\n\nPour un système d'IA, cette généalogie relie progressivement modèle, données et transformations.\n\nLorsqu'une décision devient contestée, le chemin qui l'a produite peut compter autant que son résultat.\n\nULTRA®\n\nLa lignée peut elle-même être fausse.\n\nUn traitement qui lit deux tables et produit deux sorties ne signifie pas nécessairement que chaque sortie dépend des deux entrées.\n\nDéduire automatiquement toutes les relations crée alors des dépendances fictives.\n\nLa spécification actuelle d'OpenLineage permet de décrire explicitement les relations exactes entre jeux de données, traitements et champs afin d'éviter ce produit cartésien artificiel.\n\nElle distingue aussi les transformations directes des dépendances indirectes comme JOIN, FILTER, SORT ou GROUP_BY.\n\nConseil: tester la lignée sur une décision connue en remontant jusqu'aux données sources, plutôt que vérifier seulement que des événements sont collectés.\n\nUn graphe spectaculaire mais rempli de dépendances supposées peut donner davantage de confiance tout en réduisant la précision de l'audit.\n\nLa traçabilité possède donc elle aussi une qualité mesurable: celle de ses propres preuves.", "isPartOf": {"@type": "CollectionPage", "@id": "https://voce.life/archive/2026-10-01"}}</script></head>
+<body><a class="skip-link" href="#main-content">Aller au contenu</a><header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a>
+<nav class="menu" aria-label="Navigation principale"><a href="/#themes">Thèmes</a><a href="/research">Research</a><a href="/archive">Academy</a><a href="/standards">Standards</a><a href="/publications">Publications</a><a href="/art">Art</a><a class="keep" href="/about">About</a></nav></div></header>
+<main id="main-content"><section class="topic-hero"><div class="wrap"><div class="topic-kicker">Corpus VOCE · 1 octobre 2026</div>
+<h1 class="topic-title">Une banque constate qu&#x27;un score de risque a changé.</h1><p class="topic-deck">Le modèle est identique.</p><div class="topic-meta"><span>VOCE Association</span><span>01/10/2026 11:00</span><span>Archive canonique</span></div></div></section>
+<section class="topic-body"><div class="wrap topic-layout"><aside class="topic-nav"><div class="topic-nav-label">Corpus</div><a href="/archive/2026-10-01">1 octobre 2026</a><a href="/archive">Toutes les archives</a><a href="/publications">Publications</a></aside><div class="longform">
+<article class="chapter" data-publication-id="urn:li:ugcPost:7511349370534076416"><div class="chapter-no">VOCE</div><p class="signal"><a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7511349370534076416" rel="noopener">Publication LinkedIn originale</a></p><p>Une banque constate qu&#x27;un score de risque a changé.</p>
 <p>Le modèle est identique.</p>
 <p>Son code aussi.</p>
-<p>La différence vient d&#39;une donnée.</p>
-<p>Le revenu disponible utilisé par le modèle provient d&#39;une table analytique. Cette table combine le CRM, les transactions et plusieurs transformations. Une colonne intermédiaire a changé de définition trois semaines auparavant.</p>
-<p>Retrouver cette transformation exige davantage qu&#39;un catalogue de données.</p>
+<p>La différence vient d&#x27;une donnée.</p>
+<p>Le revenu disponible utilisé par le modèle provient d&#x27;une table analytique. Cette table combine le CRM, les transactions et plusieurs transformations. Une colonne intermédiaire a changé de définition trois semaines auparavant.</p>
+<p>Retrouver cette transformation exige davantage qu&#x27;un catalogue de données.</p>
 <p>Il faut connaître leur lignée.</p>
 <p>OpenLineage est un standard ouvert conçu pour représenter ce parcours.</p>
-<p>Lorsqu&#39;un traitement s&#39;exécute, il peut produire un événement décrivant le &quot;job&quot;, son exécution, les jeux de données consommés et ceux qu&#39;il produit.</p>
+<p>Lorsqu&#x27;un traitement s&#x27;exécute, il peut produire un événement décrivant le &quot;job&quot;, son exécution, les jeux de données consommés et ceux qu&#x27;il produit.</p>
 <p>Plusieurs traitements successifs construisent progressivement un graphe.</p>
-<p>Une table finale peut ainsi être reliée au calcul qui l&#39;a créée, puis aux tables précédentes jusqu&#39;aux systèmes sources.</p>
-<p>La granularité peut descendre jusqu&#39;aux colonnes.</p>
-<p>OpenLineage sait représenter qu&#39;un champ de sortie provient directement d&#39;une colonne, qu&#39;il résulte d&#39;une transformation ou d&#39;une agrégation, mais aussi qu&#39;une autre colonne a servi indirectement à filtrer, joindre ou trier les données.</p>
+<p>Une table finale peut ainsi être reliée au calcul qui l&#x27;a créée, puis aux tables précédentes jusqu&#x27;aux systèmes sources.</p>
+<p>La granularité peut descendre jusqu&#x27;aux colonnes.</p>
+<p>OpenLineage sait représenter qu&#x27;un champ de sortie provient directement d&#x27;une colonne, qu&#x27;il résulte d&#x27;une transformation ou d&#x27;une agrégation, mais aussi qu&#x27;une autre colonne a servi indirectement à filtrer, joindre ou trier les données.</p>
 <p>Cette dernière propriété est importante.</p>
 <p>Une colonne peut modifier le résultat sans jamais apparaître dans le résultat.</p>
-<p>Une règle `WHERE` supprimant certains clients influence le jeu de données final même si la variable utilisée pour les exclure n&#39;est jamais transmise au modèle.</p>
-<p>La provenance ne consiste donc pas seulement à demander &quot;d&#39;où vient cette valeur?&quot;.</p>
-<p>Elle peut reconstruire quelles opérations ont participé à l&#39;existence même de cette valeur.</p>
-<p>Pour un système d&#39;IA, cette généalogie relie progressivement modèle, données et transformations.</p>
-<p>Lorsqu&#39;une décision devient contestée, le chemin qui l&#39;a produite peut compter autant que son résultat.</p>
+<p>Une règle `WHERE` supprimant certains clients influence le jeu de données final même si la variable utilisée pour les exclure n&#x27;est jamais transmise au modèle.</p>
+<p>La provenance ne consiste donc pas seulement à demander &quot;d&#x27;où vient cette valeur?&quot;.</p>
+<p>Elle peut reconstruire quelles opérations ont participé à l&#x27;existence même de cette valeur.</p>
+<p>Pour un système d&#x27;IA, cette généalogie relie progressivement modèle, données et transformations.</p>
+<p>Lorsqu&#x27;une décision devient contestée, le chemin qui l&#x27;a produite peut compter autant que son résultat.</p>
 <p>ULTRA®</p>
 <p>La lignée peut elle-même être fausse.</p>
 <p>Un traitement qui lit deux tables et produit deux sorties ne signifie pas nécessairement que chaque sortie dépend des deux entrées.</p>
 <p>Déduire automatiquement toutes les relations crée alors des dépendances fictives.</p>
-<p>La spécification actuelle d&#39;OpenLineage permet de décrire explicitement les relations exactes entre jeux de données, traitements et champs afin d&#39;éviter ce produit cartésien artificiel.</p>
+<p>La spécification actuelle d&#x27;OpenLineage permet de décrire explicitement les relations exactes entre jeux de données, traitements et champs afin d&#x27;éviter ce produit cartésien artificiel.</p>
 <p>Elle distingue aussi les transformations directes des dépendances indirectes comme JOIN, FILTER, SORT ou GROUP_BY.</p>
-<p>Conseil: tester la lignée sur une décision connue en remontant jusqu&#39;aux données sources, plutôt que vérifier seulement que des événements sont collectés.</p>
-<p>Un graphe spectaculaire mais rempli de dépendances supposées peut donner davantage de confiance tout en réduisant la précision de l&#39;audit.</p>
-<p>La traçabilité possède donc elle aussi une qualité mesurable: celle de ses propres preuves.</p>
-</article>
-<section class="chapter"><div class="chapter-no">VOCE Academy</div><h2>Continuer</h2><p><a href="/archive/2026/10/01/29-septembre-2026-7511364474012880896">← 29 septembre 2026.</a><br><a href="/archive/2026/10/01/27-septembre-2026-7511319168122716162">27 septembre 2026. →</a></p><p class="signal">Ce texte appartient au corpus pédagogique et éditorial de VOCE Association. Lecture, découverte et citation sont publiques; les droits sur le texte et le corpus restent détenus par VOCE Association, sauf mention contraire. <a href="/CORPUS_RIGHTS.txt">Droits du corpus</a>.</p></section>
-</div></div></section>
-</main>
-<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/publications">Publications</a> · <a href="/archive">Archive</a> · © 2026 VOCE Association</div></div></div></div></footer>
-</body>
-</html>
+<p>Conseil: tester la lignée sur une décision connue en remontant jusqu&#x27;aux données sources, plutôt que vérifier seulement que des événements sont collectés.</p>
+<p>Un graphe spectaculaire mais rempli de dépendances supposées peut donner davantage de confiance tout en réduisant la précision de l&#x27;audit.</p>
+<p>La traçabilité possède donc elle aussi une qualité mesurable: celle de ses propres preuves.</p></article>
+<section class="chapter"><div class="chapter-no">VOCE Academy</div><p class="signal">Ce texte appartient au corpus pédagogique et éditorial de VOCE Association. Lecture, découverte et citation sont publiques; les droits sur le texte et le corpus restent détenus par VOCE Association. <a href="/CORPUS_RIGHTS.txt">Droits du corpus</a>.</p></section>
+</div></div></section></main><footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/art">VOCE Art</a> · <a href="/archive">VOCE Academy</a> · © 2026 VOCE Association</div></div></div></div></footer></body></html>
