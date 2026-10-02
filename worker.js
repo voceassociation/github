@@ -67,6 +67,11 @@ function injectPrivacyDefault(response) {
     .on('meta[name="twitter:card"]', {
       element(element) { element.remove(); }
     })
+    .on("span.lang", {
+      element(element) {
+        element.before('<a class="voce-guide-nav" href="/#guide">Guide</a>', { html: true });
+      }
+    })
     .on("head", {
       element(element) {
         element.onEndTag(endTag => {
