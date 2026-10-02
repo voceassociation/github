@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-02T14:17:28.056881+00:00",
+  "updated_at": "2026-10-02T14:14:36.448689+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -865,8 +865,8 @@
     }
   },
   "retrieved_unique_publications": 1443,
-  "newly_archived": 1,
-  "academy_corpus_items": 1455,
+  "newly_archived": 15,
+  "academy_corpus_items": 1454,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
@@ -951,14 +951,14 @@
       "disposition": "No ingestion: generic Adobe names and modification timestamps are not publication proof."
     },
     "current_publication_ingest": {
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "verified_source": "Metricool LinkedIn connector, brand 7090850",
-      "items_added": 15,
-      "corpus_items_after": 1455,
+      "items_added": 12,
+      "corpus_items_after": 1454,
       "classification": "A editorial/archive",
-      "static_pages_created": 15,
-      "daily_archive": "archive/2026-09-30.html",
-      "completed_at": "2026-10-02T14:17:28.630658+00:00"
+      "static_pages_created": 12,
+      "daily_archive": "archive/2026-10-01.html",
+      "completed_at": "2026-10-02T14:14:36.892436+00:00"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",
@@ -985,7 +985,21 @@
         "canonical_url": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
         "text_sha256": "a6d5423a0f6ea8d8e75306091451bbc7792f76a67f0743745c915564051f35c9"
       },
-      "deployment": "pending_verification"
+      "deployment": "verified_publicly",
+      "verification": {
+        "article": "https://voce.life/archive/2026/10/01/28-septembre-2026-7511455087366680576",
+        "articleBodyLength": 2801,
+        "guide_query": "STV-C8",
+        "guide_target": "https://voce.life/archive/2026/10/01/2-septembre-2026-7511424891418562560",
+        "duplicate_redirect_verified": true,
+        "academy_visible_count": 1454
+      },
+      "automation": {
+        "active": "6abb72f5e1108191961956e6e3738fea",
+        "disabled": "6abd74c3796081919a3c2385ef37dabf",
+        "daily_time": "23:30",
+        "timezone": "Europe/Podgorica"
+      }
     }
   }
 }
