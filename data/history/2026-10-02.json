@@ -3,7 +3,7 @@
   "owner": "VOCE Association",
   "source": "Metricool / LinkedIn",
   "date": "2026-10-02",
-  "item_count": 11,
+  "item_count": 15,
   "items": [
     {
       "id": "linkedin:7511621147277365249",
@@ -22,7 +22,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T21:47:32.250622+00:00",
+        "reviewed_at": "2026-10-03T21:33:50.628362+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -43,7 +43,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T21:47:32.250622+00:00",
+        "reviewed_at": "2026-10-03T21:33:50.628362+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -64,7 +64,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T21:47:32.250622+00:00",
+        "reviewed_at": "2026-10-03T21:33:50.628362+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -85,7 +85,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T21:47:32.250622+00:00",
+        "reviewed_at": "2026-10-03T21:33:50.628362+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -106,7 +106,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T21:47:32.250622+00:00",
+        "reviewed_at": "2026-10-03T21:33:50.628362+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -127,7 +127,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T21:47:32.250622+00:00",
+        "reviewed_at": "2026-10-03T21:33:50.628362+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -148,7 +148,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T21:47:32.250622+00:00",
+        "reviewed_at": "2026-10-03T21:33:50.628362+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -169,7 +169,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T21:47:32.250622+00:00",
+        "reviewed_at": "2026-10-03T21:33:50.628362+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -190,7 +190,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T21:47:32.250622+00:00",
+        "reviewed_at": "2026-10-03T21:33:50.628362+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -211,7 +211,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T21:47:32.250622+00:00",
+        "reviewed_at": "2026-10-03T21:33:50.628362+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -232,7 +232,91 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-02T21:47:32.250622+00:00",
+        "reviewed_at": "2026-10-03T21:33:50.628362+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7511802374307377152",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7511802374307377152",
+      "date_published": "2026-10-02T17:00:58+02:00",
+      "title": "Demandons à un modèle de trouver un hôtel disponible à Rome vendredi prochain.",
+      "slug": "demandons-a-un-modele-de-trouver-un-hotel-disponible-a-rome-vendredi-pro-7511802374307377152",
+      "canonical_url": "https://voce.life/archive/2026/10/02/demandons-a-un-modele-de-trouver-un-hotel-disponible-a-rome-vendredi-pro-7511802374307377152",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511802374307377152",
+      "language": "fr",
+      "text": "Demandons à un modèle de trouver un hôtel disponible à Rome vendredi prochain.\n\nUne réponse classique donnerait quelques noms. Un système connecté peut aller plus loin. Il interroge un service de réservation, reçoit les disponibilités et utilise ce résultat pour poursuivre.\n\nCe détail change la structure du travail.\n\nJusqu’ici, nous avons surtout suivi des chaînes préparées à l’avance. Une question arrivait, un document était recherché ou un outil appelé, puis le modèle répondait. Désormais, le résultat d’une opération peut déterminer la suivante.\n\nSi aucun hôtel ne correspond aux critères, le système peut modifier sa recherche. Si plusieurs réponses apparaissent, il peut les comparer. L’information obtenue devient le contexte de la décision suivante.\n\nC’est l’un des mécanismes des systèmes agentiques.\n\nLe mot \"agent\" est utilisé avec beaucoup de liberté. Il ne désigne pas une machine indépendante ni un modèle doté d’une volonté. Il décrit généralement un système où un modèle participe au choix des opérations pour atteindre un objectif, dans un environnement et selon des règles définies.\n\nLa différence se trouve dans la boucle.\n\nLe modèle reçoit un état du problème, produit une décision ou un appel d’outil, puis le système exécute l’opération. Son résultat revient dans le contexte. Le modèle détermine alors la suite. La boucle s’arrête lorsque l’objectif est atteint, qu’une limite est rencontrée ou qu’une intervention humaine est requise.\n\nCette architecture permet des tâches qui ne tiennent plus dans une seule génération. Mais elle multiplie aussi les occasions de dériver. Une mauvaise interprétation peut influencer les étapes suivantes. Un outil peut retourner une donnée ambiguë. Une permission trop large peut transformer une erreur de raisonnement en action réelle.\n\nL’autonomie n’est donc pas une propriété mystérieuse apparue dans le modèle. Elle résulte en partie de l’architecture construite autour de lui et de la latitude que nous lui accordons.\n\nDepuis le premier jour, nous suivons une machine qui prédit le prochain token.\n\nQuatorze jours plus tard, cette prédiction peut contribuer à choisir ce qui se passera ensuite.\n\nJusqu’où peut-on laisser cette boucle se poursuivre?",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-03T21:33:50.628362+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7511817466721746944",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7511817466721746944",
+      "date_published": "2026-10-02T18:00:58+02:00",
+      "title": "Été 2026, Avenches, Suisse.",
+      "slug": "ete-2026-avenches-suisse-7511817466721746944",
+      "canonical_url": "https://voce.life/archive/2026/10/02/ete-2026-avenches-suisse-7511817466721746944",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511817466721746944",
+      "language": "fr",
+      "text": "Été 2026, Avenches, Suisse.\n\nDans un champ desséché, une ligne brune forme un angle droit.\n\nLa nature en dessine rarement.\n\nUn passionné d’histoire la remarque et prévient les archéologues. Un drone décolle. Sur les images apparaît le plan d’un bâtiment romain.\n\nPuis la ville revient par fragments.\n\nDes maisons. Des rues. Des thermes. La trace possible d’un temple.\n\nSous les cultures repose Aventicum, ancienne capitale administrative des Helvètes sous domination romaine. Son amphithéâtre, son théâtre et plusieurs sanctuaires sont connus depuis longtemps. Mais son plan restait incomplet.\n\nL’été exceptionnellement chaud et sec de 2026 offre quelques semaines pour regarder autrement le sol.\n\nAu-dessus d’un mur enfoui, la terre est moins profonde. Les racines atteignent moins d’eau. La plante souffre plus vite que celle située quelques mètres plus loin.\n\nLa maçonnerie demeure invisible.\n\nSon manque d’eau, lui, se dessine à la surface.\n\nEn juillet et août, les archéologues d’Avenches multiplient les vols de drone. Les différences de croissance révèlent murs, sols, routes et bâtiments dans des secteurs parfois jamais fouillés.\n\nCes marques peuvent disparaître après une pluie, une fauche ou un changement de culture.\n\nLe phénomène est connu depuis longtemps sous le nom de cropmarks. Ce qui frappe à Avenches tient à son ampleur: les observations complètent exceptionnellement le plan de la cité.\n\nPendant près de deux millénaires, les structures n’avaient presque pas bougé.\n\nIl a suffi que l’eau manque à quelques centimètres de terre pour qu’une ville recommence à tracer son plan.\n\nULTRA®\n\nLes drones n’ont pas découvert Aventicum. Ils ont capturé un état du paysage qui pouvait ne durer que quelques jours.\n\nC’est une forme particulière d’archive: elle n’existe qu’au moment où le sol, la plante et la météo produisent ensemble assez de contraste pour rendre l’enfoui visible.\n\nLes archéologues ont intégré les nouvelles observations au plan de la ville, corrigeant certains tracés et comblant des zones restées blanches.\n\nLa technologie change la vitesse de l’archéologie. Un drone peut enregistrer en quelques heures ce qu’une fouille mettrait des mois à explorer, sans déplacer une seule pierre.\n\nLe climat ajoute une urgence moins confortable. Sécheresses, incendies, érosion ou fonte du pergélisol peuvent révéler des vestiges et accélérer leur dégradation.\n\nEn 2026, à Avenches, le paysage a offert une fenêtre très brève.\n\nLes archéologues ont eu le temps de la photographier avant qu’elle se referme.\n\nULISSE\n\nCertaines villes disparues attendent moins d’être retrouvées que le moment précis où la terre accepte de les montrer.\n\nSources\n\nSite et Musée romains d’Avenches, Prospection aérienne, 2026\nÉtat de Vaud, Aventicum\nReuters, 29 septembre 2026\n\n#VOCEASSOCIATION #Archéologie #Aventicum #Suisse #Mémoire",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-03T21:33:50.628362+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7511862727858954240",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7511862727858954240",
+      "date_published": "2026-10-02T21:00:45+02:00",
+      "title": "9 septembre 2026.",
+      "slug": "9-septembre-2026-7511862727858954240",
+      "canonical_url": "https://voce.life/archive/2026/10/02/9-septembre-2026-7511862727858954240",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511862727858954240",
+      "language": "fr",
+      "text": "9 septembre 2026.\n\nIls sont si rares qu'ils représentent environ deux neurones sur mille dans le cortex.\n\nPendant l'éveil, ils restent presque silencieux. Lorsque la souris s'assoupit, ils s'activent au moment où des régions éloignées du cortex commencent à ralentir ensemble.\n\nIls s'appellent Sst-Chodl.\n\nJacob Ratliff, Geoffrey Terral, Renata Batista-Brito et leurs collègues les étudient dans Nature. Ces interneurones inhibiteurs ont une anatomie inhabituelle: leurs axones peuvent parcourir plusieurs millimètres et relier plusieurs territoires corticaux.\n\nL'équipe reconstruit entièrement 16 de ces cellules.\n\nPuis elle les observe pendant différents états de vigilance. Les Sst-Chodl sont particulièrement actives pendant le sommeil lent et l'éveil calme, lorsque le cortex entre dans de grandes oscillations synchronisées. Elles se taisent largement lors du mouvement et du sommeil paradoxal.\n\nAccompagnent-elles le sommeil ou participent-elles à sa naissance?\n\nLes chercheurs les activent sélectivement.\n\nL'activité lente augmente à travers le néocortex. Les régions corticales se synchronisent davantage. Les souris s'endorment plus vite et passent plus de temps en sommeil lent, y compris pendant leur phase normalement active.\n\nQuelques cellules extrêmement rares peuvent donc contribuer à faire basculer un vaste réseau cortical vers un autre état.\n\nLa découverte corrige une représentation ancienne. Les structures profondes du cerveau restent essentielles à l'alternance veille-sommeil, mais le cortex n'est pas seulement le territoire qui reçoit l'ordre de s'endormir.\n\nIl possède aussi des circuits capables de participer à son propre ralentissement.\n\nULTRA®\n\n0,2% des neurones du cortex peuvent aider le cerveau à s'endormir\n\nLe détail évolutif rend ces neurones plus intrigants encore.\n\nLes Sst-Chodl appartiennent à une population très conservée chez les vertébrés, des salamandres jusqu'à l'être humain. Leur rôle dans le sommeil humain n'est pourtant pas démontré: l'expérience causale de Nature a été réalisée chez la souris.\n\nIl n'existe aujourd'hui aucun médicament capable de les cibler sélectivement chez l'humain.\n\nL'équipe veut notamment déterminer si elles participent à la pression de sommeil, cette nécessité biologique qui augmente avec le temps passé éveillé.\n\nSi ce mécanisme existe aussi chez l'humain, il offrirait une nouvelle manière d'étudier l'insomnie et certaines pathologies où l'architecture du sommeil se dérègle.\n\nIl ne s'agirait plus simplement de provoquer une sédation, mais de comprendre comment le cortex participe lui-même à l'entrée dans le sommeil.\n\nSOMNUS\n\nChaque nuit, le cerveau ne s'éteint peut-être pas: quelques cellules l'aident à ralentir ensemble.\n\nSources\n\nRatliff et al., Nature, 9 septembre 2026\nIcahn School of Medicine at Mount Sinai, 11 septembre 2026\n\n#VOCEASSOCIATION #Sommeil #Neurosciences #Cerveau #Neurobiologie",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-03T21:33:50.628362+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7511877825335963648",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7511877825335963648",
+      "date_published": "2026-10-02T22:00:45+02:00",
+      "title": "Quand un souvenir prononcé change le chemin de la mémoire des autres",
+      "slug": "quand-un-souvenir-prononce-change-le-chemin-de-la-memoire-des-autres-7511877825335963648",
+      "canonical_url": "https://voce.life/archive/2026/10/02/quand-un-souvenir-prononce-change-le-chemin-de-la-memoire-des-autres-7511877825335963648",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7511877825335963648",
+      "language": "fr",
+      "text": "Quand un souvenir prononcé change le chemin de la mémoire des autres\n\n8 janvier 2026.\n\nTrois personnes viennent d'apprendre les mêmes listes de mots.\n\nLa première en rappelle un. Chez la deuxième, ce mot en fait surgir un autre de la même catégorie. La troisième rebondit.\n\nLe groupe produit une mémoire qu'aucun de ses membres n'aurait construite exactement seul.\n\nTori Peña, Nicholas W. Pepe et Suparna Rajaram, de Stony Brook University, veulent isoler ce qui, dans cet effet, vient réellement de la présence des autres.\n\nDans deux expériences réunissant 270 participants, ils comparent le rappel collaboratif à une situation ingénieuse: les mots produits par de vrais groupes deviennent des indices présentés à d'autres participants, dans le même ordre.\n\nLe contenu reste comparable. Ce qui change, c'est sa source.\n\nDans les deux situations, recevoir une partie de la liste peut rendre d'autres éléments moins accessibles. Les chercheurs retrouvent l'inhibition collaborative et l'effet perturbateur des indices partiels.\n\nMais la conversation ajoute quelque chose.\n\nLorsqu'un membre prononce un mot, les autres produisent plus souvent ensuite un mot de la même catégorie que lorsque le même indice vient d'une source non sociale.\n\nC'est le cross-cuing: le souvenir de l'un ouvre chez l'autre une porte qui serait peut-être restée fermée.\n\nSur trois des quatre mesures utilisées, cet effet est supérieur en collaboration. Les groupes développent aussi une mémoire collective plus forte.\n\nSe souvenir ensemble ne revient donc pas à additionner plusieurs mémoires.\n\nLa conversation participe à déterminer lesquelles deviennent accessibles.\n\nULTRA®\n\nUn média, une plateforme ou un groupe ne nous expose jamais à tout ce qui appartient à une histoire. Certains éléments reviennent; d'autres restent hors du champ.\n\nDes travaux sur le socially shared retrieval-induced forgetting montrent que rappeler sélectivement certains éléments peut réduire ensuite l'accessibilité d'informations liées qui n'ont pas été évoquées. Elles ne sont pas nécessairement effacées: un autre indice peut les rendre accessibles.\n\nEn 2025, une revue sur mémoire collective et réseaux sociaux décrit comment curation algorithmique, hashtags et commémorations participent à ce qui revient dans l'espace public. Elle ne démontre pas qu'un algorithme puisse programmer à volonté la mémoire d'une société.\n\nLe phénomène est plus subtil.\n\nCe qui revient devient plus facile à retrouver. Ce qui reste hors de la conversation peut devenir moins disponible lorsque nous reconstruisons l'ensemble.\n\nMNÉMOSYNE\n\nNous partageons des souvenirs, mais aussi les chemins par lesquels ils redeviennent accessibles.\n\nSources\n\nPeña, Pepe & Rajaram, Journal of Experimental Psychology: Learning, Memory, and Cognition, 2026\nComan, Manier & Hirst, Psychological Science, 2009\nAdriaansen & Smit, Current Opinion in Psychology, 2025\n\n#VOCEASSOCIATION #Psychologie #Mémoire #Cognition #MémoireCollective",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-03T21:33:50.628362+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     }
