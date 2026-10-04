@@ -2203,30 +2203,55 @@
         "urn:li:ugcPost:7511757069033836544",
         "urn:li:ugcPost:7511772156075356160",
         "urn:li:ugcPost:7511787265296089089",
-        "urn:li:ugcPost:7511877825335963648",
-        "urn:li:ugcPost:7511862727858954240",
+        "urn:li:ugcPost:7511802374307377152",
         "urn:li:ugcPost:7511817466721746944",
-        "urn:li:ugcPost:7511802374307377152"
+        "urn:li:ugcPost:7511862727858954240",
+        "urn:li:ugcPost:7511877825335963648"
       ]
     },
     "2026-10-03": {
-      "count": 13,
+      "count": 17,
       "source": "linkedin",
       "page": "/archive/2026-10-03",
       "post_ids": [
-        "urn:li:ugcPost:7512179853912383488",
-        "urn:li:ugcPost:7512164748323442688",
-        "urn:li:ugcPost:7512162678174445568",
-        "urn:li:ugcPost:7512134562521477125",
-        "urn:li:ugcPost:7512119446682005504",
-        "urn:li:ugcPost:7512104361683177473",
-        "urn:li:ugcPost:7512089247743393792",
-        "urn:li:ugcPost:7512074128410062848",
-        "urn:li:ugcPost:7512059046737313793",
-        "urn:li:ugcPost:7512043942016733184",
-        "urn:li:ugcPost:7512028820661706752",
+        "urn:li:ugcPost:7511998612386783232",
         "urn:li:ugcPost:7512013740192612352",
-        "urn:li:ugcPost:7511998612386783232"
+        "urn:li:ugcPost:7512028820661706752",
+        "urn:li:ugcPost:7512043942016733184",
+        "urn:li:ugcPost:7512059046737313793",
+        "urn:li:ugcPost:7512074128410062848",
+        "urn:li:ugcPost:7512089247743393792",
+        "urn:li:ugcPost:7512104361683177473",
+        "urn:li:ugcPost:7512119446682005504",
+        "urn:li:ugcPost:7512134562521477125",
+        "urn:li:ugcPost:7512162678174445568",
+        "urn:li:ugcPost:7512164748323442688",
+        "urn:li:ugcPost:7512179853912383488",
+        "urn:li:ugcPost:7512240216858939392",
+        "urn:li:ugcPost:7512225129058390017",
+        "urn:li:ugcPost:7512210045514797056",
+        "urn:li:ugcPost:7512194914357493760"
+      ]
+    },
+    "2026-10-04": {
+      "count": 14,
+      "source": "linkedin",
+      "page": "/archive/2026-10-04",
+      "post_ids": [
+        "urn:li:ugcPost:7512587528982380544",
+        "urn:li:ugcPost:7512572428422766593",
+        "urn:li:ugcPost:7512557329955876864",
+        "urn:li:ugcPost:7512542213873221632",
+        "urn:li:ugcPost:7512527116043960321",
+        "urn:li:ugcPost:7512512010111283200",
+        "urn:li:ugcPost:7512496942212513792",
+        "urn:li:ugcPost:7512481822606508032",
+        "urn:li:ugcPost:7512466770541068288",
+        "urn:li:ugcPost:7512451614910234624",
+        "urn:li:ugcPost:7512406320172417024",
+        "urn:li:ugcPost:7512391201568768000",
+        "urn:li:ugcPost:7512376120521043968",
+        "urn:li:ugcPost:7512360998960427008"
       ]
     }
   },
