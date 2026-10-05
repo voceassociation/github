@@ -491,3 +491,46 @@ html[lang="it"] .atlas-panel:before{content:"Vista documentale mobile"}
   .guide-home-grid{gap:34px}
   .academy-agent-destination{grid-template-columns:28px minmax(0,1fr) auto}
 }
+
+
+/* VOCE Atlas V2 */
+.atlas-pathfinder{margin-top:34px;padding:30px 0 32px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.atlas-pathfinder-copy{display:grid;grid-template-columns:180px minmax(0,1fr);gap:34px;align-items:start}
+.atlas-pathfinder-copy h3{margin:0;font-family:var(--serif);font-size:clamp(2rem,3.5vw,3.55rem);font-weight:400;line-height:1;letter-spacing:-.018em;color:var(--forest)}
+.atlas-pathfinder-copy p{grid-column:2;margin:10px 0 0;max-width:760px;font-size:.9rem;line-height:1.65;color:#555b57}
+.atlas-path-controls{display:grid;grid-template-columns:minmax(180px,1fr) minmax(180px,1fr) auto;gap:14px;align-items:end;margin-top:26px}
+.atlas-path-controls label{display:grid;gap:7px;font-size:.61rem;font-weight:600;text-transform:uppercase;letter-spacing:.14em;color:var(--muted)}
+.atlas-path-controls select{width:100%;height:44px;border:1px solid var(--line);background:var(--paper);padding:0 12px;font:400 .88rem var(--sans);color:var(--ink)}
+.atlas-path-controls button{height:44px;border:1px solid var(--forest);background:var(--forest);color:var(--paper);padding:0 18px;font:600 .62rem var(--sans);letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
+.atlas-path-controls button:hover{background:transparent;color:var(--forest)}
+.atlas-path-result{margin-top:28px;border-top:1px solid var(--line)}
+.atlas-path-result-head{display:flex;justify-content:space-between;gap:20px;align-items:baseline;padding:16px 0;border-bottom:1px solid var(--line)}
+.atlas-path-result-head strong{font-family:var(--serif);font-size:1.45rem;font-weight:400;color:var(--forest)}
+.atlas-path-result-head span{font-size:.61rem;font-weight:600;text-transform:uppercase;letter-spacing:.13em;color:var(--muted)}
+.atlas-path-step{display:grid;grid-template-columns:52px minmax(0,1fr);gap:18px;padding:22px 0;border-bottom:1px solid var(--line)}
+.atlas-path-step-no{font-family:var(--serif);font-size:1rem;color:var(--muted);padding-top:3px}
+.atlas-path-step-route{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-family:var(--serif);font-size:1.3rem;line-height:1.2}
+.atlas-path-step-route a{color:var(--forest)}
+.atlas-path-step-route span{color:var(--muted)}
+.atlas-path-step p{margin:9px 0 8px;font-size:.82rem;line-height:1.55;color:#555b57}
+.atlas-path-note,.atlas-path-empty{margin:18px 0 0;max-width:880px;font-size:.72rem;line-height:1.55;color:var(--muted)}
+.atlas-relation-permalink{display:inline-block;margin-top:7px;font-size:.59rem;font-weight:600;text-transform:uppercase;letter-spacing:.11em;color:var(--forest);border-bottom:1px solid rgba(18,62,51,.35);padding-bottom:2px}
+.atlas-node.is-path .atlas-node-dot{fill:var(--paper);stroke:var(--forest);stroke-width:2}
+.atlas-node.is-path .atlas-node-label{fill:var(--forest);font-weight:500}
+.atlas-edge.is-path{stroke:var(--forest);stroke-width:1.8;opacity:.82}
+.atlas-relation-hero .topic-title{max-width:1100px}
+.atlas-relation-bridge{display:grid;grid-template-columns:minmax(0,1fr) 54px minmax(0,1fr);gap:20px;align-items:center;margin:36px 0;padding:26px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.atlas-relation-bridge a{font-family:var(--serif);font-size:clamp(1.8rem,3vw,3rem);line-height:1;color:var(--forest);text-decoration:none}
+.atlas-relation-bridge span{text-align:center;color:var(--muted);font-size:1.2rem}
+.atlas-relation-statement{font-family:var(--serif);font-size:clamp(1.7rem,3vw,2.7rem);line-height:1.18;color:var(--forest);margin:0 0 30px}
+@media(max-width:760px){
+  .atlas-pathfinder{margin-top:26px;padding:24px 0 26px}
+  .atlas-pathfinder-copy{grid-template-columns:1fr;gap:10px}
+  .atlas-pathfinder-copy p{grid-column:1;margin-top:4px}
+  .atlas-path-controls{grid-template-columns:1fr;gap:12px;margin-top:20px}
+  .atlas-path-controls select,.atlas-path-controls button{height:46px}
+  .atlas-path-step{grid-template-columns:34px minmax(0,1fr);gap:12px}
+  .atlas-path-step-route{font-size:1.18rem}
+  .atlas-relation-bridge{grid-template-columns:1fr;gap:12px}
+  .atlas-relation-bridge span{text-align:left;transform:rotate(90deg);width:max-content;margin-left:8px}
+}
