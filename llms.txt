@@ -14,6 +14,8 @@ VOCE Applied Italian: https://voce.life/it/applied
 VOCE Applied Solutions registry: https://voce.life/data/applied-solutions.json
 VOCE Agent Infrastructure Reference: https://voce.life/agent-infrastructure
 VOCE Agent Infrastructure Reference JSON: https://voce.life/data/agent-infrastructure-reference.json
+VOCE Agent Conformance: https://voce.life/agent-conformance
+VOCE Agent Conformance framework: https://voce.life/data/agent-conformance.json
 Machine-readable corpus: https://voce.life/data/corpus.json
 NDJSON corpus: https://voce.life/data/corpus.ndjson
 RSS feed: https://voce.life/feed.xml
@@ -51,6 +53,10 @@ VOCE Standards define institutional orchestration: decision-grade evidence, spec
 ## Agent Infrastructure Reference
 
 VOCE Agent Infrastructure Reference — Europe 2026 is a vendor-neutral public control architecture for institutional AI agents. It connects OpenAPI/JSON Schema, MCP, A2A, workload identity, authorization, RAG and memory lifecycle, observability, continuous assurance, FinOps and European regulatory mapping. It defines maturity levels A0–A4 and a board evidence pack. It is a VOCE reference architecture, not an EU harmonised standard or certification scheme.
+
+## Agent Conformance
+
+VOCE Agent Conformance operationalises the Agent Infrastructure Reference through 48 stable controls across 10 domains. It uses five evidence states — Absent, Declared, Documented, Tested and Verified in operation — and explicitly avoids an aggregate score that could hide one critical authority gap. The public Self Assessment runs locally in the browser. Reviewed and Observed modes require VOCE specialist review and do not constitute EU or ISO certification.
 
 ## Applied Solutions
 
