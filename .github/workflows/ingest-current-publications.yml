@@ -67,7 +67,15 @@ jobs:
           assert len({x["id"] for x in agent_ref["layers"]}) == 10
           assert [x["level"] for x in agent_ref["maturity_levels"]] == ["A0","A1","A2","A3","A4"]
           assert len(agent_ref["board_evidence_pack"]) == 12
-          print({"corpus_items": corpus["item_count"], "canonical_routes": len(canonical_routes), "redirects": len(routes["items"])-len(canonical_routes), "solution_records": len(solutions["solutions"]), "solution_evidence": len(solutions["evidence"]), "agent_reference_layers": len(agent_ref["layers"])})
+          conformance=json.loads((root/"data/agent-conformance.json").read_text())
+          assert conformance["schema"] == 1
+          assert conformance["version"] == "1.0"
+          assert len(conformance["domains"]) == 10
+          assert len(conformance["controls"]) == 48
+          assert len({x["id"] for x in conformance["controls"]}) == 48
+          assert [x["id"] for x in conformance["evidence_states"]] == ["absent","declared","documented","tested","verified_in_operation"]
+          assert all(x["min_maturity"] in ["A0","A1","A2","A3","A4"] for x in conformance["controls"])
+          print({"corpus_items": corpus["item_count"], "canonical_routes": len(canonical_routes), "redirects": len(routes["items"])-len(canonical_routes), "solution_records": len(solutions["solutions"]), "solution_evidence": len(solutions["evidence"]), "agent_reference_layers": len(agent_ref["layers"]), "agent_conformance_controls": len(conformance["controls"])})
           PY
 
       - name: Commit generated corpus state
