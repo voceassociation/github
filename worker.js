@@ -13,12 +13,21 @@ const CORE_FILES = [
   "fr/agent-conformance.html",
   "it/agent-conformance.html",
   "agent-conformance.js",
+  "cognitive-agent.js",
+  "human-cognitive-assurance.html",
+  "fr/human-cognitive-assurance.html",
+  "it/human-cognitive-assurance.html",
+  "argos.html",
+  "fr/argos.html",
+  "it/argos.html",
   "atlas.js",
   "solutions.js",
   "data/atlas.json",
   "data/applied-solutions.json",
   "data/agent-infrastructure-reference.json",
   "data/agent-conformance.json",
+  "data/cognitive-assurance.json",
+  "data/argos-assurance.json",
   "art.html",
   "data/corpus.json",
   "data/corpus.ndjson",
@@ -223,6 +232,10 @@ async function loadAtlas(env) {
 
 async function loadConformance(env) {
   return JSON.parse(await getAssetText(env, "data/agent-conformance.json"));
+}
+
+async function loadCognitiveAssurance(env) {
+  return JSON.parse(await getAssetText(env, "data/cognitive-assurance.json"));
 }
 
 function atlasLocale(locale = "en") {
@@ -649,6 +662,57 @@ function renderConformanceLens(framework, lens, maturity = "A2", locale = "en") 
 <footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="${assessment}">Agent Conformance</a> · <a href="${reference}">Agent Infrastructure</a> · <a href="/standards">VOCE Standards</a></div><div>${copy.copyright}</div></div></div></div></footer></body></html>`;
 }
 
+
+function cognitiveControlPath(control, locale = "en") {
+  const l = ["fr","it"].includes(locale) ? locale : "en";
+  const id = String(control?.id || "").toLowerCase();
+  return l === "en" ? `/human-cognitive-assurance/controls/${id}` : `/${l}/human-cognitive-assurance/controls/${id}`;
+}
+
+function renderCognitiveControl(framework, control, locale = "en") {
+  const l = ["fr","it"].includes(locale) ? locale : "en";
+  const domain = (framework.domains || []).find(d=>d.id===control.domain);
+  const localTitle = l==="en" ? control.title : (control.i18n?.[l]?.title || control.title);
+  const localQuestion = l==="en" ? control.question : (control.i18n?.[l]?.question || control.question);
+  const domainName = l==="en" ? (domain?.name || control.domain) : (domain?.i18n?.[l] || domain?.name || control.domain);
+  const copy = l==="fr" ? {
+    skip:"Aller au contenu",record:"Contrôle d’assurance cognitive",domain:"Domaine",criticality:"Criticité",question:"Question opérationnelle",evidence:"Preuves attendues",corpus:"Corpus VOCE",method:"Méthode",methodTitle:"Ce que ce contrôle évalue.",methodText:"Ce contrôle évalue une propriété du système, de l’interface ou du workflow. Il ne constitue jamais un critère de diagnostic psychologique ou neuropsychologique individuel.",critical:"Critique",major:"Majeur",open:"Ouvrir Human Cognitive Assurance →",machine:"Cadre JSON",share:"Partager sur LinkedIn",copyright:"© 2026 VOCE Association"
+  } : l==="it" ? {
+    skip:"Vai al contenuto",record:"Controllo di assurance cognitiva",domain:"Dominio",criticality:"Criticità",question:"Domanda operativa",evidence:"Evidenze attese",corpus:"Corpus VOCE",method:"Metodo",methodTitle:"Cosa valuta questo controllo.",methodText:"Questo controllo valuta una proprietà del sistema, dell’interfaccia o del workflow. Non costituisce mai un criterio di diagnosi psicologica o neuropsicologica individuale.",critical:"Critico",major:"Maggiore",open:"Apri Human Cognitive Assurance →",machine:"Framework JSON",share:"Condividi su LinkedIn",copyright:"© 2026 VOCE Association"
+  } : {
+    skip:"Skip to content",record:"Cognitive assurance control",domain:"Domain",criticality:"Criticality",question:"Operational question",evidence:"Expected evidence",corpus:"VOCE corpus",method:"Method",methodTitle:"What this control evaluates.",methodText:"This control evaluates a property of the system, interface or workflow. It is never an individual psychological or neuropsychological diagnostic criterion.",critical:"Critical",major:"Major",open:"Open Human Cognitive Assurance →",machine:"Framework JSON",share:"Share on LinkedIn",copyright:"© 2026 VOCE Association"
+  };
+  const path=cognitiveControlPath(control,l), canonical=`https://voce.life${path}`;
+  const root=l==="en"?"/human-cognitive-assurance":`/${l}/human-cognitive-assurance`;
+  const evidence=(control.evidence||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join("");
+  const corpus=(control.corpus_evidence||[]).map((url,i)=>`<a class="link-row" href="${escapeHtml(url)}"><div class="label">${String(i+1).padStart(2,"0")}</div><div><h3>VOCE Corpus</h3><p>${escapeHtml(url.replace("https://voce.life",""))}</p></div><div class="go">Open</div></a>`).join("");
+  const ld={"@context":"https://schema.org","@type":"TechArticle",headline:`${control.id} — ${localTitle} | VOCE Human Cognitive Assurance`,description:localQuestion,identifier:control.id,url:canonical,inLanguage:l,datePublished:"2026-10-05",dateModified:"2026-10-05",isPartOf:{"@type":"CreativeWork","name":"VOCE Human Cognitive Assurance","url":"https://voce.life/human-cognitive-assurance"},about:[{"@type":"Thing","name":"Human cognitive assurance"},{"@type":"Thing","name":domainName}],author:{"@type":"Organization","name":"VOCE AI Governance Institute"},publisher:{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"}};
+
+  return `<!doctype html><html lang="${l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${escapeHtml(control.id)} — ${escapeHtml(localTitle)} | VOCE Human Cognitive Assurance</title>
+<meta name="description" content="${escapeHtml(localQuestion)}"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="${canonical}">
+<link rel="alternate" hreflang="en" href="https://voce.life/human-cognitive-assurance/controls/${escapeHtml(String(control.id).toLowerCase())}">
+<link rel="alternate" hreflang="fr" href="https://voce.life/fr/human-cognitive-assurance/controls/${escapeHtml(String(control.id).toLowerCase())}">
+<link rel="alternate" hreflang="it" href="https://voce.life/it/human-cognitive-assurance/controls/${escapeHtml(String(control.id).toLowerCase())}">
+<link rel="alternate" hreflang="x-default" href="https://voce.life/human-cognitive-assurance/controls/${escapeHtml(String(control.id).toLowerCase())}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css">
+<meta property="og:type" content="article"><meta property="og:site_name" content="VOCE"><meta property="og:title" content="${escapeHtml(control.id)} — ${escapeHtml(localTitle)}"><meta property="og:description" content="${escapeHtml(localQuestion)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="https://voce.life/voce-og.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://voce.life/voce-og.jpg">
+<script type="application/ld+json">${JSON.stringify(ld).replace(/</g,"\\u003c")}</script></head>
+<body><a class="skip-link" href="#main-content">${copy.skip}</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu"><a href="/research">Research</a><a href="/archive">Academy</a><a href="${root}" class="active">Human Cognitive Assurance</a><a href="/agent-conformance">Agent Conformance</a><a href="/standards">Standards</a><span class="lang"><a href="/human-cognitive-assurance/controls/${escapeHtml(String(control.id).toLowerCase())}"${l==="en"?' class="active"':""}>EN</a><a href="/fr/human-cognitive-assurance/controls/${escapeHtml(String(control.id).toLowerCase())}"${l==="fr"?' class="active"':""}>FR</a><a href="/it/human-cognitive-assurance/controls/${escapeHtml(String(control.id).toLowerCase())}"${l==="it"?' class="active"':""}>IT</a></span></nav></div></header>
+<main id="main-content">
+<section class="topic-hero"><div class="wrap"><div class="topic-kicker">VOCE Human Cognitive Assurance · ${escapeHtml(control.id)}</div><h1 class="topic-title">${escapeHtml(localTitle)}</h1><p class="topic-deck">${escapeHtml(localQuestion)}</p><div class="topic-meta"><span>${escapeHtml(domainName)}</span><span>${copy.criticality}: ${control.criticality==="critical"?copy.critical:copy.major}</span><span>Corpus-grounded</span></div></div></section>
+<section class="topic-body"><div class="wrap topic-layout"><aside class="topic-nav"><div class="topic-nav-label">VOCE Cognitive</div><a href="${root}">${copy.open}</a><a href="/data/cognitive-assurance.json">${copy.machine}</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(canonical)}" target="_blank" rel="noopener">${copy.share} →</a></aside><div class="longform">
+<section class="chapter"><div class="chapter-no">${copy.question}</div><h2>${escapeHtml(control.id)} · ${escapeHtml(localTitle)}</h2><p class="signal">${escapeHtml(localQuestion)}</p><div class="hc-record-grid"><div><b>${copy.domain}</b><span>${escapeHtml(domainName)}</span></div><div><b>${copy.criticality}</b><span>${control.criticality==="critical"?copy.critical:copy.major}</span></div></div></section>
+<section class="chapter"><div class="chapter-no">${copy.evidence}</div><h2>${copy.evidence}</h2><ul class="cf-record-evidence">${evidence}</ul></section>
+<section class="chapter"><div class="chapter-no">${copy.corpus}</div><h2>${copy.corpus}</h2>${corpus}</section>
+<section class="chapter"><div class="chapter-no">${copy.method}</div><h2>${copy.methodTitle}</h2><p>${copy.methodText}</p></section>
+</div></div></section></main>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="${root}">Human Cognitive Assurance</a> · <a href="/agent-conformance">Agent Conformance</a> · <a href="/governance">ARGOS</a></div><div>${copy.copyright}</div></div></div></div></footer></body></html>`;
+}
+
 function normalizeSearchText(value = "") {
   return String(value)
     .normalize("NFD")
@@ -859,6 +923,129 @@ Ne donne aucun lien dans le texte: les liens seront affichés séparément.`;
       sources,
       destinations: guideDestinations(question, lang)
     };
+  }
+}
+
+
+function cognitiveDomainLexicon() {
+  return {
+    attention:["attention","interruption","interrupt","notification","alert","alerte","vigilance","focus","concentration","attenzione","interruzione","avviso"],
+    load:["cognitive load","charge cognitive","working memory","memoire de travail","complexity","complexite","context switch","multitask","carico cognitivo","memoria di lavoro","complessita"],
+    verification:["verification","verifier","validation","check","confidence","confiance","automation bias","biais","overtrust","fiducia","verifica","conferma"],
+    memory:["memory","memoire","memoria","remember","souvenir","offload","externaliser","retention","rappel","ricordo"],
+    decision:["decision","uncertainty","incertitude","missing information","information manquante","anomaly","anomalie","judgment","jugement","decisione","incertezza"],
+    fatigue:["fatigue","tired","sleep","sommeil","monitoring","surveillance","circadian","rythme","stanchezza","sonno","monitoraggio"],
+    oversight:["oversight","supervision","override","takeover","reprise en main","skill","competence","human in the loop","supervisione","intervento umano"],
+    social:["social","relation","relational","emotion","communication","nonverbal","non verbal","interaction","humain","personne","sociale","relazionale"]
+  };
+}
+
+function rankCognitiveControls(question, framework, limit = 8) {
+  const q = normalizeSearchText(question);
+  const lex = cognitiveDomainLexicon();
+  const domainScores = {};
+  for (const [domain,terms] of Object.entries(lex)) {
+    domainScores[domain] = terms.reduce((score,term) => score + (q.includes(normalizeSearchText(term)) ? 3 : 0), 0);
+  }
+  const tokens = searchTokens(question);
+  const scored = (framework.controls || []).map(control => {
+    const hay = normalizeSearchText([control.title,control.question,control.domain,(control.evidence||[]).join(" ")].join(" "));
+    let score = domainScores[control.domain] || 0;
+    for (const token of tokens) {
+      for (const variant of tokenVariants(token)) {
+        if (hay.includes(variant)) score += 2;
+      }
+    }
+    if (control.criticality === "critical") score += .25;
+    return {control,score};
+  }).sort((a,b)=>b.score-a.score);
+  const positive = scored.filter(x=>x.score>0).slice(0,limit);
+  if (positive.length) return positive.map(x=>x.control);
+  return scored.filter(x=>["verification","oversight","attention","decision"].includes(x.control.domain)).slice(0,limit).map(x=>x.control);
+}
+
+function cognitiveSearchExpansion(controls) {
+  const lex = cognitiveDomainLexicon();
+  const domains = [...new Set((controls||[]).map(c=>c.domain))];
+  return domains.flatMap(d=>lex[d]||[]).slice(0,16).join(" ");
+}
+
+async function answerFromCognitiveAgent(question, env, corpus, routes, framework, lang = "en") {
+  const l = String(lang || "en").toLowerCase();
+  const msg = l.startsWith("fr") ? {
+    none:"Le corpus VOCE ne permet pas de produire une analyse cognitive suffisamment solide pour cette question.",
+    unavailable:"La synthèse cognitive est momentanément indisponible. Voici les documents VOCE et les contrôles cognitifs les plus pertinents.",
+    generic:"Voici les éléments du corpus VOCE et les contrôles cognitifs les plus pertinents.",
+    boundary:"Analyse de système et de workflow uniquement. Aucun diagnostic psychologique ou neuropsychologique individuel."
+  } : l.startsWith("it") ? {
+    none:"Il corpus VOCE non consente un'analisi cognitiva sufficientemente solida per questa domanda.",
+    unavailable:"La sintesi cognitiva è temporaneamente indisponibile. Ecco i documenti VOCE e i controlli cognitivi più pertinenti.",
+    generic:"Ecco gli elementi del corpus VOCE e i controlli cognitivi più pertinenti.",
+    boundary:"Analisi esclusivamente di sistemi e workflow. Nessuna diagnosi psicologica o neuropsicologica individuale."
+  } : {
+    none:"The VOCE corpus does not support a sufficiently grounded cognitive analysis for this question.",
+    unavailable:"Cognitive synthesis is temporarily unavailable. Here are the most relevant VOCE documents and cognitive controls.",
+    generic:"Here are the most relevant VOCE corpus materials and cognitive controls.",
+    boundary:"System and workflow analysis only. No individual psychological or neuropsychological diagnosis."
+  };
+
+  const controls = rankCognitiveControls(question, framework, 8);
+  let matches = rankCorpus(question, corpus, routes, 7);
+  if (matches.length < 3) {
+    const expanded = cognitiveSearchExpansion(controls);
+    const extra = rankCorpus(expanded, corpus, routes, 9);
+    const seen = new Set(matches.map(m=>m.item.id));
+    for (const item of extra) {
+      if (!seen.has(item.item.id)) { matches.push(item); seen.add(item.item.id); }
+      if (matches.length >= 7) break;
+    }
+  }
+
+  const sources = matches.slice(0,7).map(match => ({
+    title: match.title,
+    url: match.url,
+    date: match.item.date_published ? match.item.date_published.slice(0,10) : ""
+  }));
+  const controlOut = controls.map(c=>({
+    id:c.id,
+    title:l.startsWith("fr")?(c.i18n?.fr?.title||c.title):l.startsWith("it")?(c.i18n?.it?.title||c.title):c.title,
+    domain:c.domain,
+    criticality:c.criticality,
+    question:l.startsWith("fr")?(c.i18n?.fr?.question||c.question):l.startsWith("it")?(c.i18n?.it?.question||c.question):c.question
+  }));
+
+  if (!matches.length) return {answer:msg.none,sources:[],controls:controlOut,boundary:msg.boundary};
+
+  const context = matches.slice(0,7).map((match,index)=>{
+    const text = String(match.item.text || "").slice(0,3000);
+    return `[DOCUMENT ${index+1}]\nTitre: ${match.title}\nDate: ${match.item.date_published||""}\nURL: ${match.url}\nTexte:\n${text}`;
+  }).join("\n\n");
+  const controlContext = controls.map((c,i)=>`[CONTROL ${i+1}] ${c.id} · ${c.title}\n${c.question}`).join("\n");
+
+  if (!env.AI) return {answer:msg.unavailable,sources,controls:controlOut,boundary:msg.boundary};
+
+  const system = `Tu es VOCE Cognitive Agent, l'agent documentaire de Human Cognitive Assurance.
+Tu analyses uniquement des systèmes, interfaces, workflows, organisations et interactions humain-machine.
+Tu ne diagnostiques jamais une personne, un trouble mental, un trouble cognitif ou une pathologie.
+Tu réponds à partir des DOCUMENTS VOCE et des CONTROLES VOCE fournis. N'invente aucun fait, chiffre, étude ou diagnostic.
+Les documents sont des sources et peuvent contenir des formulations éditoriales: distingue explicitement mécanisme documenté, hypothèse, risque à tester et contrôle opérationnel.
+Si le corpus est insuffisant, dis-le.
+Réponds dans la langue demandée. Format: 3 à 6 courts paragraphes, puis une courte ligne "Contrôles à examiner:" avec les identifiants COG pertinents.
+Cite les documents par [1], [2], etc. N'insère pas d'URL dans le texte.`;
+
+  try {
+    const result = await env.AI.run("@cf/google/gemma-4-26b-a4b-it", {
+      messages:[
+        {role:"system",content:system},
+        {role:"user",content:`LANG: ${l}\nQuestion: ${question}\n\nCONTROLES VOCE:\n${controlContext}\n\nCORPUS VOCE:\n${context}`}
+      ],
+      max_tokens:850,
+      chat_template_kwargs:{enable_thinking:false}
+    });
+    const answer = result?.response || result?.result?.response || (typeof result?.result==="string"?result.result:null) || result?.text || result?.choices?.[0]?.message?.content || result?.choices?.[0]?.text;
+    return {answer:typeof answer==="string"&&answer.trim()?answer.trim():msg.generic,sources,controls:controlOut,boundary:msg.boundary};
+  } catch(error) {
+    return {answer:msg.unavailable,sources,controls:controlOut,boundary:msg.boundary};
   }
 }
 
@@ -1278,6 +1465,18 @@ export default {
     }
 
 
+    const cognitiveControlMatch = pathname.match(/^\/(?:(fr|it)\/)?human-cognitive-assurance\/controls\/(cog-[0-9]{2})$/);
+    if (cognitiveControlMatch) {
+      const framework = await loadCognitiveAssurance(env);
+      const locale = cognitiveControlMatch[1] || "en";
+      const id = String(cognitiveControlMatch[2] || "").toUpperCase();
+      const control = (framework.controls || []).find(item=>item.id===id);
+      if (!control) return new Response("Not found", {status:404});
+      return injectPrivacyDefault(new Response(renderCognitiveControl(framework, control, locale), {
+        headers:{"content-type":"text/html; charset=utf-8","cache-control":"public, max-age=300"}
+      }));
+    }
+
     const conformanceLensMatch = pathname.match(/^\/(?:(fr|it)\/)?agent-conformance\/lens\/(board|risk|technology|audit)\/(a[0-4])$/);
     if (conformanceLensMatch) {
       const framework = await loadConformance(env);
@@ -1328,6 +1527,27 @@ export default {
           "cache-control": "public, max-age=300"
         }
       }));
+    }
+
+    if (pathname === "/api/cognitive-agent") {
+      if (request.method !== "POST") return new Response("Method not allowed", { status: 405 });
+      let body = {};
+      try { body = await request.json(); } catch (error) {
+        return Response.json({ error:"Invalid JSON" }, { status:400 });
+      }
+      const q = String(body.q || "").trim().slice(0,700);
+      const lang = String(body.lang || "en").trim().slice(0,8);
+      if (!q) return Response.json({ error:"Question required" }, { status:400 });
+      const corpus = await loadCorpus(env);
+      const routes = await loadArticleRoutes(env);
+      const framework = await loadCognitiveAssurance(env);
+      const result = await answerFromCognitiveAgent(q, env, corpus, routes, framework, lang);
+      return Response.json(result, {
+        headers:{
+          "cache-control":"no-store",
+          "x-robots-tag":"noindex, nofollow"
+        }
+      });
     }
 
     if (pathname === "/api/academy-agent") {

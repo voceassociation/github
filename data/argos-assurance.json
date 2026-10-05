@@ -1,0 +1,534 @@
+{
+  "schema": 1,
+  "version": "1.0",
+  "published_at": "2026-10-05",
+  "title": "ARGOS — AI Evaluation & Continuous Assurance",
+  "status": "VOCE public continuous-assurance framework; not a certification scheme",
+  "purpose": "Keep institutional AI and agent systems within an evidence-backed operating envelope as models, prompts, tools, permissions, data, suppliers and human conditions change.",
+  "assurance_cycle": [
+    {
+      "id": "baseline",
+      "order": 1,
+      "name": "Baseline",
+      "question": "What exact model, prompt, tool, permission, data and policy configuration is in production?",
+      "evidence": [
+        "Version manifest",
+        "Agent/tool inventory",
+        "Policy/configuration snapshot"
+      ],
+      "i18n": {
+        "fr": {
+          "name": "Référence initiale",
+          "question": "Quel modèle, prompt, outil, jeu de permissions, donnée et politique exacts sont en production?"
+        },
+        "it": {
+          "name": "Baseline",
+          "question": "Quali modello, prompt, strumento, permessi, dati e policy esatti sono in produzione?"
+        }
+      }
+    },
+    {
+      "id": "observe",
+      "order": 2,
+      "name": "Observe",
+      "question": "What is the deployed system actually doing across tasks, tools, costs, errors, approvals and human interventions?",
+      "evidence": [
+        "Runtime traces",
+        "Task outcomes",
+        "Approval/override logs",
+        "Cost telemetry"
+      ],
+      "i18n": {
+        "fr": {
+          "name": "Observer",
+          "question": "Que fait réellement le système déployé sur les tâches, outils, coûts, erreurs, validations et interventions humaines?"
+        },
+        "it": {
+          "name": "Osservare",
+          "question": "Che cosa fa realmente il sistema implementato tra task, strumenti, costi, errori, approvazioni e interventi umani?"
+        }
+      }
+    },
+    {
+      "id": "detect",
+      "order": 3,
+      "name": "Detect change",
+      "question": "Which material change, drift, incident or supplier event invalidates the previous assurance state?",
+      "evidence": [
+        "Change event",
+        "Drift signal",
+        "Incident record",
+        "Supplier notice"
+      ],
+      "i18n": {
+        "fr": {
+          "name": "Détecter le changement",
+          "question": "Quel changement matériel, dérive, incident ou événement fournisseur invalide l’état d’assurance précédent?"
+        },
+        "it": {
+          "name": "Rilevare il cambiamento",
+          "question": "Quale modifica sostanziale, drift, incidente o evento del fornitore invalida lo stato di assurance precedente?"
+        }
+      }
+    },
+    {
+      "id": "reevaluate",
+      "order": 4,
+      "name": "Re-evaluate",
+      "question": "Which evaluations, security tests, conformance controls and cognitive controls must be repeated after the change?",
+      "evidence": [
+        "Triggered test plan",
+        "Regression suite",
+        "Control selection rationale"
+      ],
+      "i18n": {
+        "fr": {
+          "name": "Réévaluer",
+          "question": "Quelles évaluations, tests de sécurité, contrôles Conformance et contrôles cognitifs doivent être répétés après le changement?"
+        },
+        "it": {
+          "name": "Rivalutare",
+          "question": "Quali valutazioni, test di sicurezza, controlli Conformance e controlli cognitivi devono essere ripetuti dopo il cambiamento?"
+        }
+      }
+    },
+    {
+      "id": "compare",
+      "order": 5,
+      "name": "Compare",
+      "question": "How does the new system state differ from the accepted baseline on quality, safety, authority, cost and human oversight?",
+      "evidence": [
+        "Baseline delta",
+        "Performance delta",
+        "Risk delta",
+        "Cost delta"
+      ],
+      "i18n": {
+        "fr": {
+          "name": "Comparer",
+          "question": "Comment le nouvel état diffère-t-il de la référence acceptée sur qualité, sécurité, autorité, coût et supervision humaine?"
+        },
+        "it": {
+          "name": "Confrontare",
+          "question": "In che modo il nuovo stato differisce dalla baseline accettata su qualità, sicurezza, autorità, costo e supervisione umana?"
+        }
+      }
+    },
+    {
+      "id": "decide",
+      "order": 6,
+      "name": "Decide",
+      "question": "Can the changed system remain in service, require restrictions, rollback, additional approval or withdrawal?",
+      "evidence": [
+        "Decision record",
+        "Accountable owner",
+        "Conditions/limits",
+        "Rollback decision"
+      ],
+      "i18n": {
+        "fr": {
+          "name": "Décider",
+          "question": "Le système modifié peut-il rester en service, doit-il être restreint, revenir en arrière, exiger une validation supplémentaire ou être retiré?"
+        },
+        "it": {
+          "name": "Decidere",
+          "question": "Il sistema modificato può restare in servizio, deve essere limitato, riportato indietro, richiedere un’approvazione aggiuntiva o essere ritirato?"
+        }
+      }
+    },
+    {
+      "id": "retain",
+      "order": 7,
+      "name": "Retain evidence",
+      "question": "Can the institution reconstruct why the system was considered acceptable at that point in time?",
+      "evidence": [
+        "Dated evidence pack",
+        "Reviewer record",
+        "Versioned test outputs",
+        "Decision history"
+      ],
+      "i18n": {
+        "fr": {
+          "name": "Conserver les preuves",
+          "question": "L’institution peut-elle reconstruire pourquoi le système était considéré comme acceptable à cet instant?"
+        },
+        "it": {
+          "name": "Conservare le evidenze",
+          "question": "L’istituzione può ricostruire perché il sistema era considerato accettabile in quel momento?"
+        }
+      }
+    },
+    {
+      "id": "reopen",
+      "order": 8,
+      "name": "Re-open",
+      "question": "What future event automatically reopens assurance rather than waiting for a periodic audit?",
+      "evidence": [
+        "Trigger rules",
+        "Monitoring rule",
+        "Scheduled review",
+        "Event-driven control"
+      ],
+      "i18n": {
+        "fr": {
+          "name": "Rouvrir",
+          "question": "Quel événement futur rouvre automatiquement l’assurance au lieu d’attendre un audit périodique?"
+        },
+        "it": {
+          "name": "Riaprire",
+          "question": "Quale evento futuro riapre automaticamente l’assurance invece di attendere un audit periodico?"
+        }
+      }
+    }
+  ],
+  "triggers": [
+    {
+      "id": "ARG-T01",
+      "name": "Foundation-model or major model-version change",
+      "severity": "material",
+      "i18n": {
+        "fr": {
+          "name": "Changement de modèle de fondation ou de version majeure"
+        },
+        "it": {
+          "name": "Cambio di foundation model o di versione principale"
+        }
+      }
+    },
+    {
+      "id": "ARG-T02",
+      "name": "Prompt, system instruction or orchestration-policy change",
+      "severity": "material",
+      "i18n": {
+        "fr": {
+          "name": "Changement de prompt, d’instruction système ou de politique d’orchestration"
+        },
+        "it": {
+          "name": "Modifica di prompt, istruzione di sistema o policy di orchestrazione"
+        }
+      }
+    },
+    {
+      "id": "ARG-T03",
+      "name": "New tool, API, MCP server or A2A peer",
+      "severity": "material",
+      "i18n": {
+        "fr": {
+          "name": "Nouvel outil, API, serveur MCP ou pair A2A"
+        },
+        "it": {
+          "name": "Nuovo strumento, API, server MCP o peer A2A"
+        }
+      }
+    },
+    {
+      "id": "ARG-T04",
+      "name": "Permission, transaction-limit or approval-threshold change",
+      "severity": "critical",
+      "i18n": {
+        "fr": {
+          "name": "Changement de permissions, limites transactionnelles ou seuils d’approbation"
+        },
+        "it": {
+          "name": "Modifica di permessi, limiti transazionali o soglie di approvazione"
+        }
+      }
+    },
+    {
+      "id": "ARG-T05",
+      "name": "New data source, RAG index, memory mechanism or processing region",
+      "severity": "material",
+      "i18n": {
+        "fr": {
+          "name": "Nouvelle source de données, index RAG, mécanisme de mémoire ou région de traitement"
+        },
+        "it": {
+          "name": "Nuova fonte dati, indice RAG, meccanismo di memoria o regione di elaborazione"
+        }
+      }
+    },
+    {
+      "id": "ARG-T06",
+      "name": "Material degradation in task quality or error distribution",
+      "severity": "critical",
+      "i18n": {
+        "fr": {
+          "name": "Dégradation matérielle de la qualité des tâches ou de la distribution des erreurs"
+        },
+        "it": {
+          "name": "Degrado sostanziale della qualità dei task o della distribuzione degli errori"
+        }
+      }
+    },
+    {
+      "id": "ARG-T07",
+      "name": "Security incident, prompt-injection event or material near miss",
+      "severity": "critical",
+      "i18n": {
+        "fr": {
+          "name": "Incident de sécurité, injection de prompt ou quasi-incident matériel"
+        },
+        "it": {
+          "name": "Incidente di sicurezza, prompt injection o near miss rilevante"
+        }
+      }
+    },
+    {
+      "id": "ARG-T08",
+      "name": "Supplier, licence, pricing or availability change",
+      "severity": "material",
+      "i18n": {
+        "fr": {
+          "name": "Changement de fournisseur, licence, prix ou disponibilité"
+        },
+        "it": {
+          "name": "Cambio di fornitore, licenza, prezzo o disponibilità"
+        }
+      }
+    },
+    {
+      "id": "ARG-T09",
+      "name": "Regulatory role, classification or sector obligation change",
+      "severity": "critical",
+      "i18n": {
+        "fr": {
+          "name": "Changement de rôle réglementaire, classification ou obligation sectorielle"
+        },
+        "it": {
+          "name": "Cambio di ruolo regolatorio, classificazione o obbligo settoriale"
+        }
+      }
+    },
+    {
+      "id": "ARG-T10",
+      "name": "Material increase in cost, retries or resource consumption",
+      "severity": "material",
+      "i18n": {
+        "fr": {
+          "name": "Hausse matérielle des coûts, retries ou consommation de ressources"
+        },
+        "it": {
+          "name": "Aumento rilevante di costi, retry o consumo di risorse"
+        }
+      }
+    },
+    {
+      "id": "ARG-T11",
+      "name": "Rise in human overrides, missed alerts, decision fatigue or cognitive-control failures",
+      "severity": "critical",
+      "i18n": {
+        "fr": {
+          "name": "Hausse des overrides humains, alertes manquées, fatigue décisionnelle ou échecs des contrôles cognitifs"
+        },
+        "it": {
+          "name": "Aumento di override umani, avvisi mancati, affaticamento decisionale o fallimenti dei controlli cognitivi"
+        }
+      }
+    },
+    {
+      "id": "ARG-T12",
+      "name": "Significant organisational or staffing change affecting human oversight",
+      "severity": "material",
+      "i18n": {
+        "fr": {
+          "name": "Changement organisationnel ou d’effectifs affectant matériellement la supervision humaine"
+        },
+        "it": {
+          "name": "Cambiamento organizzativo o di personale che incide materialmente sulla supervisione umana"
+        }
+      }
+    }
+  ],
+  "evaluation_planes": [
+    {
+      "id": "capability",
+      "name": "Capability & task performance",
+      "measures": [
+        "Task success",
+        "Failure modes",
+        "Regression",
+        "Edge cases"
+      ],
+      "i18n": {
+        "fr": {
+          "name": "Capacité & performance des tâches"
+        },
+        "it": {
+          "name": "Capacità e performance dei task"
+        }
+      }
+    },
+    {
+      "id": "authority",
+      "name": "Authority & permissions",
+      "measures": [
+        "Tool access",
+        "Data scope",
+        "Transaction limits",
+        "Approval bypass"
+      ],
+      "i18n": {
+        "fr": {
+          "name": "Autorité & permissions"
+        },
+        "it": {
+          "name": "Autorità e permessi"
+        }
+      }
+    },
+    {
+      "id": "security",
+      "name": "Security & abuse",
+      "measures": [
+        "Prompt injection",
+        "Tool manipulation",
+        "Credential misuse",
+        "Cross-scope access"
+      ],
+      "i18n": {
+        "fr": {
+          "name": "Sécurité & abus"
+        },
+        "it": {
+          "name": "Sicurezza e abuso"
+        }
+      }
+    },
+    {
+      "id": "observability",
+      "name": "Observability & audit",
+      "measures": [
+        "Trace completeness",
+        "Version traceability",
+        "Approval evidence",
+        "Incident reconstruction"
+      ],
+      "i18n": {
+        "fr": {
+          "name": "Observabilité & audit"
+        },
+        "it": {
+          "name": "Osservabilità e audit"
+        }
+      }
+    },
+    {
+      "id": "economics",
+      "name": "Economics & concentration",
+      "measures": [
+        "Cost per completed task",
+        "Retry spend",
+        "Supplier concentration",
+        "Exit readiness"
+      ],
+      "i18n": {
+        "fr": {
+          "name": "Économie & concentration"
+        },
+        "it": {
+          "name": "Economia e concentrazione"
+        }
+      }
+    },
+    {
+      "id": "cognitive",
+      "name": "Human cognitive assurance",
+      "measures": [
+        "Alert burden",
+        "Verification quality",
+        "Takeover comprehension",
+        "Decision fatigue"
+      ],
+      "i18n": {
+        "fr": {
+          "name": "Assurance cognitive humaine"
+        },
+        "it": {
+          "name": "Assurance cognitiva umana"
+        }
+      }
+    }
+  ],
+  "assurance_states": [
+    {
+      "id": "open",
+      "name": "Open",
+      "definition": "A material trigger has occurred and the previous assurance conclusion cannot be relied upon without re-evaluation.",
+      "i18n": {
+        "fr": {
+          "name": "Ouverte",
+          "definition": "Un déclencheur matériel est survenu et la conclusion précédente ne peut plus être utilisée sans réévaluation."
+        },
+        "it": {
+          "name": "Aperta",
+          "definition": "Si è verificato un trigger materiale e la precedente conclusione di assurance non può più essere utilizzata senza rivalutazione."
+        }
+      }
+    },
+    {
+      "id": "restricted",
+      "name": "Restricted",
+      "definition": "The system may operate only under explicit temporary limits while evidence gaps are closed.",
+      "i18n": {
+        "fr": {
+          "name": "Restreinte",
+          "definition": "Le système ne peut fonctionner que sous limites temporaires explicites jusqu’à fermeture des lacunes de preuve."
+        },
+        "it": {
+          "name": "Limitata",
+          "definition": "Il sistema può operare solo sotto limiti temporanei espliciti finché le lacune di evidenza non vengono chiuse."
+        }
+      }
+    },
+    {
+      "id": "accepted",
+      "name": "Accepted",
+      "definition": "The defined evaluation and control set supports continued operation within the stated scope and conditions.",
+      "i18n": {
+        "fr": {
+          "name": "Acceptée",
+          "definition": "L’ensemble défini d’évaluations et de contrôles soutient la poursuite de l’exploitation dans le périmètre et les conditions déclarés."
+        },
+        "it": {
+          "name": "Accettata",
+          "definition": "L’insieme definito di valutazioni e controlli sostiene la prosecuzione dell’operatività nello scope e nelle condizioni dichiarate."
+        }
+      }
+    },
+    {
+      "id": "withdrawn",
+      "name": "Withdrawn",
+      "definition": "The system or capability is removed from service because the evidence no longer supports continued operation.",
+      "i18n": {
+        "fr": {
+          "name": "Retirée",
+          "definition": "Le système ou la capacité est retiré du service parce que les preuves ne soutiennent plus son maintien en exploitation."
+        },
+        "it": {
+          "name": "Ritirata",
+          "definition": "Il sistema o la capacità viene rimosso dal servizio perché le evidenze non supportano più la prosecuzione dell’operatività."
+        }
+      }
+    }
+  ],
+  "integrations": [
+    {
+      "id": "infrastructure",
+      "name": "Agent Infrastructure",
+      "url": "https://voce.life/agent-infrastructure",
+      "role": "Defines the technical architecture and control surfaces."
+    },
+    {
+      "id": "conformance",
+      "name": "Agent Conformance",
+      "url": "https://voce.life/agent-conformance",
+      "role": "Defines the evidence-based operational controls."
+    },
+    {
+      "id": "cognitive",
+      "name": "Human Cognitive Assurance",
+      "url": "https://voce.life/human-cognitive-assurance",
+      "role": "Defines the human cognitive and neuropsychology assurance layer."
+    }
+  ]
+}

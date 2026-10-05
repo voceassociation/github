@@ -18,6 +18,11 @@ VOCE Agent Conformance: https://voce.life/agent-conformance
 VOCE Agent Conformance framework: https://voce.life/data/agent-conformance.json
 VOCE Agent Conformance control records: https://voce.life/agent-conformance/controls/{control-id}
 VOCE Agent Conformance executive lenses: https://voce.life/agent-conformance/lens/{board|risk|technology|audit}/{a0|a1|a2|a3|a4}
+VOCE ARGOS: https://voce.life/argos
+VOCE ARGOS framework: https://voce.life/data/argos-assurance.json
+VOCE Human Cognitive Assurance: https://voce.life/human-cognitive-assurance
+VOCE Human Cognitive Assurance framework: https://voce.life/data/cognitive-assurance.json
+VOCE Cognitive control records: https://voce.life/human-cognitive-assurance/controls/{cog-01..cog-24}
 Machine-readable corpus: https://voce.life/data/corpus.json
 NDJSON corpus: https://voce.life/data/corpus.ndjson
 RSS feed: https://voce.life/feed.xml
@@ -58,7 +63,15 @@ VOCE Agent Infrastructure Reference — Europe 2026 is a vendor-neutral public c
 
 ## VOCE 360 Agent Assurance
 
-VOCE's public agent-assurance architecture combines four layers: Agent Infrastructure for technical architecture; Agent Conformance for evidence-based control assessment; ARGOS — AI Evaluation & Continuous Assurance for change-triggered and ongoing assurance; and a Human Cognitive & Neuropsychology Assurance layer in development for attention, cognitive load, memory, decision fatigue, human-machine interaction and the quality of human oversight. The cognitive layer is explicitly non-diagnostic and does not replace qualified psychological or neuropsychological practice.
+VOCE's public agent-assurance architecture combines four layers: Agent Infrastructure for technical architecture; Agent Conformance for evidence-based control assessment; ARGOS — AI Evaluation & Continuous Assurance for change-triggered and ongoing assurance; and Human Cognitive & Neuropsychology Assurance for attention, cognitive load, memory, decision fatigue, human-machine interaction and the quality of human oversight. The cognitive layer is explicitly non-diagnostic and does not replace qualified psychological or neuropsychological practice.
+
+## ARGOS — AI Evaluation & Continuous Assurance
+
+ARGOS is VOCE's continuous-assurance layer. It uses an eight-step evidence cycle — Baseline, Observe, Detect change, Re-evaluate, Compare, Decide, Retain evidence and Re-open — with 12 material change triggers and six evaluation planes covering capability, authority, security, observability, economics and human cognitive assurance. It is event-driven rather than a claim of permanent compliance.
+
+## Human Cognitive Assurance
+
+VOCE Human Cognitive Assurance adds the human-factors layer to agent governance. It publishes 24 controls across attention and interruption, cognitive load, verification and over-trust, memory and cognitive offloading, decision quality, fatigue, human oversight and social signals. VOCE Cognitive Agent queries the VOCE corpus and maps relevant COG controls. The framework evaluates systems and workflows and is explicitly non-diagnostic.
 
 ## Agent Conformance
 
