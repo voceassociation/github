@@ -44,6 +44,8 @@
   form.addEventListener("submit",e=>{e.preventDefault();ask(input.value);});
   document.querySelectorAll("[data-cognitive-query-en],[data-cognitive-query-fr],[data-cognitive-query-it]").forEach(btn=>btn.addEventListener("click",()=>{
     const q=btn.getAttribute("data-cognitive-query-"+lang)||btn.getAttribute("data-cognitive-query-en")||"";
-    ask(q); output.scrollIntoView({behavior:"smooth",block:"nearest"});
+    input.value=q;
+    input.focus();
+    output.innerHTML="";
   }));
 })();
