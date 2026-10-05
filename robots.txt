@@ -1,4 +1,22 @@
 User-agent: *
 Allow: /
 
+User-agent: Googlebot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: SiteAuditBot
+Allow: /
+
 Sitemap: https://voce.life/sitemap.xml
