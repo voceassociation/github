@@ -221,6 +221,10 @@ async function loadAtlas(env) {
   return JSON.parse(await getAssetText(env, "data/atlas.json"));
 }
 
+async function loadConformance(env) {
+  return JSON.parse(await getAssetText(env, "data/agent-conformance.json"));
+}
+
 function atlasLocale(locale = "en") {
   return ["fr","it"].includes(locale) ? locale : "en";
 }
@@ -426,6 +430,94 @@ function renderAtlasRelation(atlas, edge, locale = "en") {
 <section class="chapter"><div class="chapter-no">${copy.evidence}</div><h2>${copy.evidenceTitle}</h2><div class="atlas-evidence">${evidenceHtml}</div></section>
 <section class="chapter"><div class="chapter-no">${copy.method}</div><h2>${copy.methodTitle}</h2><p>${copy.methodText}</p><p><a href="${root}?from=${escapeHtml(source.id)}&to=${escapeHtml(target.id)}">${copy.openMap} →</a></p></section>
 </div></div></section></main><footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/archive">VOCE Academy</a> · <a href="${root}">VOCE Atlas</a> · <a href="/research">${copy.research}</a></div><div>${copy.copyright}</div></div></div></div></footer></body></html>`;
+}
+
+
+function conformanceLocale(locale = "en") {
+  return ["fr","it"].includes(locale) ? locale : "en";
+}
+
+function conformanceControlPath(control, locale = "en") {
+  const l = conformanceLocale(locale);
+  const id = String(control?.id || "").toLowerCase();
+  return l === "en" ? `/agent-conformance/controls/${id}` : `/${l}/agent-conformance/controls/${id}`;
+}
+
+function renderConformanceControl(framework, control, locale = "en") {
+  const l = conformanceLocale(locale);
+  const ui = l === "fr" ? {
+    skip:"Aller au contenu", nav:"Navigation principale", research:"Recherche", standards:"Standards", about:"À propos", language:"Langue",
+    record:"Contrôle de conformité agentique", question:"Question de contrôle", domain:"Domaine", owner:"Responsable attendu", minimum:"Maturité minimale",
+    criticality:"Criticité", target:"Niveau de preuve cible", evidence:"Preuves attendues", method:"Méthode", methodTitle:"Comment lire ce contrôle.",
+    methodText:"Ce contrôle appartient à VOCE Agent Conformance. Son identifiant et sa formulation normative restent en anglais dans toutes les langues afin de conserver un seul référentiel. Le statut dépend de preuves datées, pas d’une déclaration commerciale ou d’une note moyenne.",
+    returnAssessment:"Ouvrir Agent Conformance →", returnReference:"Ouvrir l’Infrastructure Reference →", machine:"Cadre JSON", permanent:"URL permanente du contrôle",
+    normative:"Formulation normative", copyright:"© 2026 VOCE Association"
+  } : l === "it" ? {
+    skip:"Vai al contenuto", nav:"Navigazione principale", research:"Ricerca", standards:"Standard", about:"Chi siamo", language:"Lingua",
+    record:"Controllo di conformità agentica", question:"Domanda di controllo", domain:"Dominio", owner:"Owner atteso", minimum:"Maturità minima",
+    criticality:"Criticità", target:"Livello di evidenza target", evidence:"Evidenze attese", method:"Metodo", methodTitle:"Come leggere questo controllo.",
+    methodText:"Questo controllo appartiene a VOCE Agent Conformance. Identificatore e formulazione normativa restano in inglese in tutte le lingue per mantenere un unico riferimento. Lo status dipende da evidenze datate, non da dichiarazioni commerciali o da un punteggio medio.",
+    returnAssessment:"Apri Agent Conformance →", returnReference:"Apri Infrastructure Reference →", machine:"Framework JSON", permanent:"URL permanente del controllo",
+    normative:"Formulazione normativa", copyright:"© 2026 VOCE Association"
+  } : {
+    skip:"Skip to content", nav:"Primary navigation", research:"Research", standards:"Standards", about:"About", language:"Language",
+    record:"Agent conformance control", question:"Control question", domain:"Domain", owner:"Expected owner", minimum:"Minimum maturity",
+    criticality:"Criticality", target:"Target evidence state", evidence:"Expected evidence", method:"Method", methodTitle:"How to read this control.",
+    methodText:"This control belongs to VOCE Agent Conformance. Its identifier and normative wording remain identical across language versions so there is one reference, not three variants. Status depends on dated evidence, not a vendor declaration or aggregate score.",
+    returnAssessment:"Open Agent Conformance →", returnReference:"Open Infrastructure Reference →", machine:"Framework JSON", permanent:"Permanent control URL",
+    normative:"Normative wording", copyright:"© 2026 VOCE Association"
+  };
+
+  const domain = (framework.domains || []).find(item => item.id === control.domain);
+  const canonicalPath = conformanceControlPath(control,l);
+  const canonical = `https://voce.life${canonicalPath}`;
+  const assessmentRoot = l === "en" ? "/agent-conformance" : `/${l}/agent-conformance`;
+  const referenceRoot = l === "en" ? "/agent-infrastructure" : `/${l}/agent-infrastructure`;
+  const evidenceHtml = (control.evidence || []).map(item => `<li>${escapeHtml(item)}</li>`).join("");
+  const ld = {
+    "@context":"https://schema.org",
+    "@type":"TechArticle",
+    headline:`${control.id} — ${control.title} | VOCE Agent Conformance`,
+    description:control.question,
+    identifier:control.id,
+    url:canonical,
+    inLanguage:l,
+    datePublished:"2026-10-05",
+    dateModified:"2026-10-05",
+    isPartOf:{"@type":"CreativeWork","name":"VOCE Agent Conformance","url":"https://voce.life/agent-conformance"},
+    about:[
+      {"@type":"Thing","name":"AI agent governance"},
+      {"@type":"Thing","name":domain?.name || control.domain}
+    ],
+    author:{"@type":"Organization","name":"VOCE AI Governance Institute"},
+    publisher:{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"}
+  };
+
+  return `<!doctype html>
+<html lang="${l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${escapeHtml(control.id)} — ${escapeHtml(control.title)} | VOCE Agent Conformance</title>
+<meta name="description" content="${escapeHtml(control.question)} Target evidence: ${escapeHtml(control.target_state)}. Minimum maturity: ${escapeHtml(control.min_maturity)}.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="${canonical}">
+<link rel="alternate" hreflang="en" href="https://voce.life/agent-conformance/controls/${escapeHtml(String(control.id).toLowerCase())}">
+<link rel="alternate" hreflang="fr" href="https://voce.life/fr/agent-conformance/controls/${escapeHtml(String(control.id).toLowerCase())}">
+<link rel="alternate" hreflang="it" href="https://voce.life/it/agent-conformance/controls/${escapeHtml(String(control.id).toLowerCase())}">
+<link rel="alternate" hreflang="x-default" href="https://voce.life/agent-conformance/controls/${escapeHtml(String(control.id).toLowerCase())}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css">
+<meta property="og:type" content="article"><meta property="og:site_name" content="VOCE">
+<meta property="og:title" content="${escapeHtml(control.id)} — ${escapeHtml(control.title)}">
+<meta property="og:description" content="${escapeHtml(control.question)}"><meta property="og:url" content="${canonical}">
+<script type="application/ld+json">${JSON.stringify(ld).replace(/</g,"\\u003c")}</script></head>
+<body><a class="skip-link" href="#main-content">${ui.skip}</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="${ui.nav}"><a href="/research">${ui.research}</a><a href="/archive">Academy</a><a href="/atlas">Atlas</a><a href="${assessmentRoot}" class="active">Agent Conformance</a><a href="${referenceRoot}">Agent Reference</a><a href="/standards">${ui.standards}</a><a href="/about">${ui.about}</a><span class="lang" role="group" aria-label="${ui.language}"><a href="/agent-conformance/controls/${escapeHtml(String(control.id).toLowerCase())}"${l==="en"?' class="active" aria-current="page"':""}>EN</a><a href="/fr/agent-conformance/controls/${escapeHtml(String(control.id).toLowerCase())}"${l==="fr"?' class="active" aria-current="page"':""}>FR</a><a href="/it/agent-conformance/controls/${escapeHtml(String(control.id).toLowerCase())}"${l==="it"?' class="active" aria-current="page"':""}>IT</a></span></nav></div></header>
+<main id="main-content">
+<section class="topic-hero"><div class="wrap"><div class="topic-kicker">VOCE Agent Conformance · ${escapeHtml(control.id)}</div><h1 class="topic-title">${escapeHtml(control.title)}</h1><p class="topic-deck">${escapeHtml(control.question)}</p><div class="topic-meta"><span>${escapeHtml(domain?.name || control.domain)}</span><span>${escapeHtml(control.min_maturity)}+</span><span>${escapeHtml(control.criticality)}</span><span>${ui.permanent}</span></div></div></section>
+<section class="topic-body"><div class="wrap topic-layout"><aside class="topic-nav"><div class="topic-nav-label">VOCE Conformance</div><a href="${assessmentRoot}">${ui.returnAssessment}</a><a href="${referenceRoot}">${ui.returnReference}</a><a href="/data/agent-conformance.json">${ui.machine}</a></aside><div class="longform">
+<section class="chapter"><div class="chapter-no">${ui.normative}</div><h2>${escapeHtml(control.id)} · ${escapeHtml(control.title)}</h2><p class="signal">${escapeHtml(control.question)}</p><div class="cf-record-grid"><div><b>${ui.domain}</b><span>${escapeHtml(domain?.name || control.domain)}</span></div><div><b>${ui.owner}</b><span>${escapeHtml(control.owner)}</span></div><div><b>${ui.minimum}</b><span>${escapeHtml(control.min_maturity)}+</span></div><div><b>${ui.criticality}</b><span>${escapeHtml(control.criticality)}</span></div><div><b>${ui.target}</b><span>${escapeHtml(control.target_state)}</span></div></div></section>
+<section class="chapter"><div class="chapter-no">${ui.evidence}</div><h2>${ui.evidence}</h2><ul class="cf-record-evidence">${evidenceHtml}</ul></section>
+<section class="chapter"><div class="chapter-no">${ui.method}</div><h2>${ui.methodTitle}</h2><p>${ui.methodText}</p><p><a href="${assessmentRoot}">${ui.returnAssessment}</a></p></section>
+</div></div></section></main>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="${assessmentRoot}">Agent Conformance</a> · <a href="${referenceRoot}">Agent Infrastructure</a> · <a href="/standards">VOCE Standards</a></div><div>${ui.copyright}</div></div></div></div></footer></body></html>`;
 }
 
 function normalizeSearchText(value = "") {
@@ -1056,6 +1148,21 @@ export default {
       return injectPrivacyDefault(new Response(response.body, { status: response.status, headers }));
     }
 
+
+    const conformanceControlMatch = pathname.match(/^\/(?:(fr|it)\/)?agent-conformance\/controls\/([a-z0-9-]+)$/);
+    if (conformanceControlMatch) {
+      const framework = await loadConformance(env);
+      const locale = conformanceControlMatch[1] || "en";
+      const id = String(conformanceControlMatch[2] || "").toUpperCase();
+      const control = (framework.controls || []).find(item => item.id === id);
+      if (!control) return new Response("Not found", { status: 404 });
+      return injectPrivacyDefault(new Response(renderConformanceControl(framework, control, locale), {
+        headers: {
+          "content-type":"text/html; charset=utf-8",
+          "cache-control":"public, max-age=300"
+        }
+      }));
+    }
 
     const atlasRelationMatch = pathname.match(/^\/(?:(fr|it)\/)?atlas\/relations\/([a-z0-9-]+)--([a-z0-9-]+)$/);
     if (atlasRelationMatch) {
