@@ -196,7 +196,9 @@
         "https://docs.oracle.com/en/cloud/saas/fusion-ai/fusion-claw.html"
       ],
       "voce_evidence": [
-        "lw-oracle-hr-finance"
+        "lw-oracle-hr-finance",
+        "lw-agent-audit",
+        "lw-agent-explanations"
       ],
       "i18n": {
         "fr": {
@@ -252,7 +254,9 @@
       ],
       "voce_evidence": [
         "lw-servicenow-build",
-        "lw-agent-permissions"
+        "lw-agent-permissions",
+        "lw-agent-audit",
+        "lw-agent-evaluation"
       ],
       "i18n": {
         "fr": {
@@ -416,7 +420,9 @@
       "voce_evidence": [
         "lw-agui",
         "lw-agent-permissions",
-        "lw-mcp-scale"
+        "lw-mcp-scale",
+        "lw-agent-evaluation",
+        "lw-agent-audit"
       ],
       "i18n": {
         "fr": {
@@ -477,7 +483,9 @@
       "voce_evidence": [
         "lw-alibaba-voice",
         "lw-mcp-scale",
-        "lw-doc-intelligence"
+        "lw-doc-intelligence",
+        "lw-spiffe",
+        "lw-agent-evaluation"
       ],
       "i18n": {
         "fr": {
@@ -538,7 +546,9 @@
       "voce_evidence": [
         "lw-mcp-scale",
         "lw-agent-permissions",
-        "lw-doc-intelligence"
+        "lw-doc-intelligence",
+        "lw-agent-evaluation",
+        "lw-agent-explanations"
       ],
       "i18n": {
         "fr": {
@@ -843,7 +853,9 @@
         "https://www.paloaltonetworks.com/unit42"
       ],
       "voce_evidence": [
-        "lw-unit42"
+        "lw-unit42",
+        "lw-cyber-adaptation",
+        "lw-agent-evaluation"
       ],
       "i18n": {
         "fr": {
@@ -893,7 +905,9 @@
         "https://www.hcl-software.com/"
       ],
       "voce_evidence": [
-        "lw-hcl-robotiq"
+        "lw-hcl-robotiq",
+        "lw-spiffe",
+        "lw-agent-permissions"
       ],
       "i18n": {
         "fr": {
@@ -933,6 +947,37 @@
       ]
     },
     {
+      "id": "lw-mcp-scale",
+      "date": "2026-09-21",
+      "title": "Un agent d'IA doit consulter un CRM, rechercher un contrat puis ouvrir un ticket.",
+      "path": "/archive/2026/09/21/un-agent-d-ia-doit-consulter-un-crm-rechercher-un-contrat-puis-ouvrir-un-7507725470881366016",
+      "sectors": [
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "MCP",
+        "scale",
+        "identity",
+        "authorization"
+      ]
+    },
+    {
+      "id": "lw-agent-permissions",
+      "date": "2026-09-22",
+      "title": "L'agent n'a pas besoin d'être piraté. Il suffit qu'il ait trop de droits.",
+      "path": "/archive/2026/09/22/l-agent-n-a-pas-besoin-d-etre-pirate-il-suffit-qu-il-ait-trop-de-droits-7508027480776110080",
+      "sectors": [
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "permissions",
+        "least privilege",
+        "human approval"
+      ]
+    },
+    {
       "id": "lw-doc-intelligence",
       "date": "2026-09-22",
       "title": "Un dossier de prêt arrive.",
@@ -961,6 +1006,23 @@
         "productivity",
         "headcount",
         "apprenticeship"
+      ]
+    },
+    {
+      "id": "lw-event-architecture",
+      "date": "2026-09-23",
+      "title": "Une commande affiche aujourd'hui le statut \"livrée\".",
+      "path": "/archive/2026/09/23/une-commande-affiche-aujourd-hui-le-statut-livree-7508480461036449792",
+      "sectors": [
+        "finance",
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "event architecture",
+        "Kafka",
+        "agent triggers",
+        "idempotency"
       ]
     },
     {
@@ -1008,6 +1070,22 @@
       ]
     },
     {
+      "id": "lw-spiffe",
+      "date": "2026-09-25",
+      "title": "Un agent d'IA demande au système de paiement de rembourser un client.",
+      "path": "/archive/2026/09/25/spiffe-identite-agents-ia",
+      "sectors": [
+        "finance",
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "SPIFFE",
+        "workload identity",
+        "permissions"
+      ]
+    },
+    {
       "id": "lw-positive-mcp",
       "date": "2026-09-25",
       "title": "Un responsable marketing ouvre son tableau SEO...",
@@ -1052,6 +1130,23 @@
       ]
     },
     {
+      "id": "lw-agent-explanations",
+      "date": "2026-09-27",
+      "title": "Lorsqu'une intelligence artificielle donne une réponse puis l'explique...",
+      "path": "/archive/2026/09/27/lorsqu-une-intelligence-artificielle-donne-une-reponse-puis-l-explique-n-7510020597729562624",
+      "sectors": [
+        "legal",
+        "finance",
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "agent governance",
+        "explanations",
+        "audit trail"
+      ]
+    },
+    {
       "id": "lw-ionos",
       "date": "2026-09-28",
       "title": "Karlsruhe, 10 septembre 2026.",
@@ -1079,6 +1174,20 @@
         "MCP",
         "permissions",
         "apprenticeship"
+      ]
+    },
+    {
+      "id": "lw-cyber-adaptation",
+      "date": "2026-09-29",
+      "title": "Pendant des années, une nouvelle signature de sécurité imposait un coût à l'attaquant.",
+      "path": "/archive/2026/09/29/pendant-des-annees-une-nouvelle-signature-de-securite-imposait-un-cout-a-7510564205050241025",
+      "sectors": [
+        "it"
+      ],
+      "themes": [
+        "cybersecurity",
+        "agentic misuse",
+        "adaptive attack"
       ]
     },
     {
@@ -1127,17 +1236,20 @@
       ]
     },
     {
-      "id": "lw-unitree",
+      "id": "lw-agent-audit",
       "date": "2026-10-01",
-      "title": "Hangzhou, Chine.",
-      "path": "/archive/2026/10/01/hangzhou-chine-7511304070486413312",
+      "title": "9 septembre 2026.",
+      "path": "/archive/2026/10/01/9-septembre-2026-7511288960799764482",
       "sectors": [
+        "finance",
+        "it",
         "cross"
       ],
       "themes": [
-        "robotics",
-        "humanoids",
-        "physical automation"
+        "AgentAudit",
+        "tool use",
+        "auditability",
+        "unsafe compliance"
       ]
     },
     {
@@ -1157,18 +1269,32 @@
       ]
     },
     {
-      "id": "lw-legal-harvey",
-      "date": "2026-10-02",
-      "title": "Un NDA arrive par e-mail.",
-      "path": "/archive/2026/10/02/un-nda-arrive-par-e-mail-7511742165476352000",
+      "id": "lw-unitree",
+      "date": "2026-10-01",
+      "title": "Hangzhou, Chine.",
+      "path": "/archive/2026/10/01/hangzhou-chine-7511304070486413312",
       "sectors": [
-        "legal"
+        "cross"
       ],
       "themes": [
-        "Harvey",
-        "NDA",
-        "playbooks",
-        "legal workflows"
+        "robotics",
+        "humanoids",
+        "physical automation"
+      ]
+    },
+    {
+      "id": "lw-retry-budget",
+      "date": "2026-10-01",
+      "title": "Un service reçoit 10.000 requêtes par seconde.",
+      "path": "/archive/2026/10/01/un-service-recoit-10-000-requetes-par-seconde-7511379570923589632",
+      "sectors": [
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "resilience",
+        "retry budget",
+        "agent architecture"
       ]
     },
     {
@@ -1185,6 +1311,52 @@
         "software generation",
         "requirements",
         "human approval"
+      ]
+    },
+    {
+      "id": "lw-agent-supply-chain",
+      "date": "2026-10-02",
+      "title": "Septembre 2025.",
+      "path": "/archive/2026/10/02/septembre-2025-7511757069033836544",
+      "sectors": [
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "MCP",
+        "software supply chain",
+        "dependency risk"
+      ]
+    },
+    {
+      "id": "lw-agent-evaluation",
+      "date": "2026-10-02",
+      "title": "Un agent corrige un logiciel. Tous les tests passent.",
+      "path": "/archive/2026/10/02/un-agent-corrige-un-logiciel-tous-les-tests-passent-il-a-pourtant-pu-uti-7511696671920103425",
+      "sectors": [
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "evaluation",
+        "observability",
+        "permissions",
+        "cost"
+      ]
+    },
+    {
+      "id": "lw-legal-harvey",
+      "date": "2026-10-02",
+      "title": "Un NDA arrive par e-mail.",
+      "path": "/archive/2026/10/02/un-nda-arrive-par-e-mail-7511742165476352000",
+      "sectors": [
+        "legal"
+      ],
+      "themes": [
+        "Harvey",
+        "NDA",
+        "playbooks",
+        "legal workflows"
       ]
     },
     {
