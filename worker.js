@@ -1007,7 +1007,11 @@ async function answerFromCognitiveAgent(question, env, corpus, routes, framework
     date: match.item.date_published ? match.item.date_published.slice(0,10) : ""
   }));
   const controlOut = controls.map(c=>({
-    id:c.id,title:c.title,domain:c.domain,criticality:c.criticality,question:c.question
+    id:c.id,
+    title:l.startsWith("fr")?(c.i18n?.fr?.title||c.title):l.startsWith("it")?(c.i18n?.it?.title||c.title):c.title,
+    domain:c.domain,
+    criticality:c.criticality,
+    question:l.startsWith("fr")?(c.i18n?.fr?.question||c.question):l.startsWith("it")?(c.i18n?.it?.question||c.question):c.question
   }));
 
   if (!matches.length) return {answer:msg.none,sources:[],controls:controlOut,boundary:msg.boundary};
