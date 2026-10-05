@@ -1539,7 +1539,7 @@ export default {
       const lang = String(body.lang || "en").trim().slice(0,8);
       if (!q) return Response.json({ error:"Question required" }, { status:400 });
       const corpus = await loadCorpus(env);
-      const routes = await loadArticleRoutes(env);
+      const routes = await loadRoutes(env);
       const framework = await loadCognitiveAssurance(env);
       const result = await answerFromCognitiveAgent(q, env, corpus, routes, framework, lang);
       return Response.json(result, {
