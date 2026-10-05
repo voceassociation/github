@@ -82,6 +82,16 @@
       if(x&&typeof x==="object"){saved=x.controls||{};maturity=x.maturity||"A2";updatedAt=x.updated_at||null;}
     }catch(e){}
   }
+  function applyUrlContext(){
+    const params=new URLSearchParams(location.search);
+    const m=(params.get("maturity")||"").toUpperCase();
+    const l=(params.get("lens")||"").toLowerCase();
+    const d=(params.get("domain")||"").toLowerCase();
+    if(LEVEL_ORDER[m]!==undefined) maturity=m;
+    if(LENSES[l]) lens=l;
+    if(d==="all"||Object.prototype.hasOwnProperty.call(DOMAIN_LABELS,d)) domain=d;
+  }
+
   function persist(){
     updatedAt=new Date().toISOString();
     localStorage.setItem(KEY,JSON.stringify({schema:1,framework_version:data.version,maturity,updated_at:updatedAt,controls:saved}));
@@ -248,6 +258,6 @@
 
   fetch("/data/agent-conformance.json",{headers:{accept:"application/json"}})
     .then(r=>{if(!r.ok)throw new Error("framework unavailable");return r.json();})
-    .then(json=>{data=json;load();renderToolbar();renderControls();summary();persist();})
+    .then(json=>{data=json;load();applyUrlContext();renderToolbar();renderControls();summary();persist();})
     .catch(()=>{root.querySelector("#conformance-controls").innerHTML='<p class="cf-empty">Conformance framework unavailable.</p>';});
 })();
