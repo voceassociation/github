@@ -658,6 +658,57 @@ function renderConformanceLens(framework, lens, maturity = "A2", locale = "en") 
 <footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="${assessment}">Agent Conformance</a> · <a href="${reference}">Agent Infrastructure</a> · <a href="/standards">VOCE Standards</a></div><div>${copy.copyright}</div></div></div></div></footer></body></html>`;
 }
 
+
+function cognitiveControlPath(control, locale = "en") {
+  const l = ["fr","it"].includes(locale) ? locale : "en";
+  const id = String(control?.id || "").toLowerCase();
+  return l === "en" ? `/human-cognitive-assurance/controls/${id}` : `/${l}/human-cognitive-assurance/controls/${id}`;
+}
+
+function renderCognitiveControl(framework, control, locale = "en") {
+  const l = ["fr","it"].includes(locale) ? locale : "en";
+  const domain = (framework.domains || []).find(d=>d.id===control.domain);
+  const localTitle = l==="en" ? control.title : (control.i18n?.[l]?.title || control.title);
+  const localQuestion = l==="en" ? control.question : (control.i18n?.[l]?.question || control.question);
+  const domainName = l==="en" ? (domain?.name || control.domain) : (domain?.i18n?.[l] || domain?.name || control.domain);
+  const copy = l==="fr" ? {
+    skip:"Aller au contenu",record:"Contrôle d’assurance cognitive",domain:"Domaine",criticality:"Criticité",question:"Question opérationnelle",evidence:"Preuves attendues",corpus:"Corpus VOCE",method:"Méthode",methodTitle:"Ce que ce contrôle évalue.",methodText:"Ce contrôle évalue une propriété du système, de l’interface ou du workflow. Il ne constitue jamais un critère de diagnostic psychologique ou neuropsychologique individuel.",critical:"Critique",major:"Majeur",open:"Ouvrir Human Cognitive Assurance →",machine:"Cadre JSON",share:"Partager sur LinkedIn",copyright:"© 2026 VOCE Association"
+  } : l==="it" ? {
+    skip:"Vai al contenuto",record:"Controllo di assurance cognitiva",domain:"Dominio",criticality:"Criticità",question:"Domanda operativa",evidence:"Evidenze attese",corpus:"Corpus VOCE",method:"Metodo",methodTitle:"Cosa valuta questo controllo.",methodText:"Questo controllo valuta una proprietà del sistema, dell’interfaccia o del workflow. Non costituisce mai un criterio di diagnosi psicologica o neuropsicologica individuale.",critical:"Critico",major:"Maggiore",open:"Apri Human Cognitive Assurance →",machine:"Framework JSON",share:"Condividi su LinkedIn",copyright:"© 2026 VOCE Association"
+  } : {
+    skip:"Skip to content",record:"Cognitive assurance control",domain:"Domain",criticality:"Criticality",question:"Operational question",evidence:"Expected evidence",corpus:"VOCE corpus",method:"Method",methodTitle:"What this control evaluates.",methodText:"This control evaluates a property of the system, interface or workflow. It is never an individual psychological or neuropsychological diagnostic criterion.",critical:"Critical",major:"Major",open:"Open Human Cognitive Assurance →",machine:"Framework JSON",share:"Share on LinkedIn",copyright:"© 2026 VOCE Association"
+  };
+  const path=cognitiveControlPath(control,l), canonical=`https://voce.life${path}`;
+  const root=l==="en"?"/human-cognitive-assurance":`/${l}/human-cognitive-assurance`;
+  const evidence=(control.evidence||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join("");
+  const corpus=(control.corpus_evidence||[]).map((url,i)=>`<a class="link-row" href="${escapeHtml(url)}"><div class="label">${String(i+1).padStart(2,"0")}</div><div><h3>VOCE Corpus</h3><p>${escapeHtml(url.replace("https://voce.life",""))}</p></div><div class="go">Open</div></a>`).join("");
+  const ld={"@context":"https://schema.org","@type":"TechArticle",headline:`${control.id} — ${localTitle} | VOCE Human Cognitive Assurance`,description:localQuestion,identifier:control.id,url:canonical,inLanguage:l,datePublished:"2026-10-05",dateModified:"2026-10-05",isPartOf:{"@type":"CreativeWork","name":"VOCE Human Cognitive Assurance","url":"https://voce.life/human-cognitive-assurance"},about:[{"@type":"Thing","name":"Human cognitive assurance"},{"@type":"Thing","name":domainName}],author:{"@type":"Organization","name":"VOCE AI Governance Institute"},publisher:{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"}};
+
+  return `<!doctype html><html lang="${l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${escapeHtml(control.id)} — ${escapeHtml(localTitle)} | VOCE Human Cognitive Assurance</title>
+<meta name="description" content="${escapeHtml(localQuestion)}"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="${canonical}">
+<link rel="alternate" hreflang="en" href="https://voce.life/human-cognitive-assurance/controls/${escapeHtml(String(control.id).toLowerCase())}">
+<link rel="alternate" hreflang="fr" href="https://voce.life/fr/human-cognitive-assurance/controls/${escapeHtml(String(control.id).toLowerCase())}">
+<link rel="alternate" hreflang="it" href="https://voce.life/it/human-cognitive-assurance/controls/${escapeHtml(String(control.id).toLowerCase())}">
+<link rel="alternate" hreflang="x-default" href="https://voce.life/human-cognitive-assurance/controls/${escapeHtml(String(control.id).toLowerCase())}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css">
+<meta property="og:type" content="article"><meta property="og:site_name" content="VOCE"><meta property="og:title" content="${escapeHtml(control.id)} — ${escapeHtml(localTitle)}"><meta property="og:description" content="${escapeHtml(localQuestion)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="https://voce.life/voce-og.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://voce.life/voce-og.jpg">
+<script type="application/ld+json">${JSON.stringify(ld).replace(/</g,"\\u003c")}</script></head>
+<body><a class="skip-link" href="#main-content">${copy.skip}</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu"><a href="/research">Research</a><a href="/archive">Academy</a><a href="${root}" class="active">Human Cognitive Assurance</a><a href="/agent-conformance">Agent Conformance</a><a href="/standards">Standards</a><span class="lang"><a href="/human-cognitive-assurance/controls/${escapeHtml(String(control.id).toLowerCase())}"${l==="en"?' class="active"':""}>EN</a><a href="/fr/human-cognitive-assurance/controls/${escapeHtml(String(control.id).toLowerCase())}"${l==="fr"?' class="active"':""}>FR</a><a href="/it/human-cognitive-assurance/controls/${escapeHtml(String(control.id).toLowerCase())}"${l==="it"?' class="active"':""}>IT</a></span></nav></div></header>
+<main id="main-content">
+<section class="topic-hero"><div class="wrap"><div class="topic-kicker">VOCE Human Cognitive Assurance · ${escapeHtml(control.id)}</div><h1 class="topic-title">${escapeHtml(localTitle)}</h1><p class="topic-deck">${escapeHtml(localQuestion)}</p><div class="topic-meta"><span>${escapeHtml(domainName)}</span><span>${copy.criticality}: ${control.criticality==="critical"?copy.critical:copy.major}</span><span>Corpus-grounded</span></div></div></section>
+<section class="topic-body"><div class="wrap topic-layout"><aside class="topic-nav"><div class="topic-nav-label">VOCE Cognitive</div><a href="${root}">${copy.open}</a><a href="/data/cognitive-assurance.json">${copy.machine}</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(canonical)}" target="_blank" rel="noopener">${copy.share} →</a></aside><div class="longform">
+<section class="chapter"><div class="chapter-no">${copy.question}</div><h2>${escapeHtml(control.id)} · ${escapeHtml(localTitle)}</h2><p class="signal">${escapeHtml(localQuestion)}</p><div class="hc-record-grid"><div><b>${copy.domain}</b><span>${escapeHtml(domainName)}</span></div><div><b>${copy.criticality}</b><span>${control.criticality==="critical"?copy.critical:copy.major}</span></div></div></section>
+<section class="chapter"><div class="chapter-no">${copy.evidence}</div><h2>${copy.evidence}</h2><ul class="cf-record-evidence">${evidence}</ul></section>
+<section class="chapter"><div class="chapter-no">${copy.corpus}</div><h2>${copy.corpus}</h2>${corpus}</section>
+<section class="chapter"><div class="chapter-no">${copy.method}</div><h2>${copy.methodTitle}</h2><p>${copy.methodText}</p></section>
+</div></div></section></main>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="${root}">Human Cognitive Assurance</a> · <a href="/agent-conformance">Agent Conformance</a> · <a href="/governance">ARGOS</a></div><div>${copy.copyright}</div></div></div></div></footer></body></html>`;
+}
+
 function normalizeSearchText(value = "") {
   return String(value)
     .normalize("NFD")
@@ -1405,6 +1456,18 @@ export default {
       return injectPrivacyDefault(new Response(response.body, { status: response.status, headers }));
     }
 
+
+    const cognitiveControlMatch = pathname.match(/^\/(?:(fr|it)\/)?human-cognitive-assurance\/controls\/(cog-[0-9]{2})$/);
+    if (cognitiveControlMatch) {
+      const framework = await loadCognitiveAssurance(env);
+      const locale = cognitiveControlMatch[1] || "en";
+      const id = String(cognitiveControlMatch[2] || "").toUpperCase();
+      const control = (framework.controls || []).find(item=>item.id===id);
+      if (!control) return new Response("Not found", {status:404});
+      return injectPrivacyDefault(new Response(renderCognitiveControl(framework, control, locale), {
+        headers:{"content-type":"text/html; charset=utf-8","cache-control":"public, max-age=300"}
+      }));
+    }
 
     const conformanceLensMatch = pathname.match(/^\/(?:(fr|it)\/)?agent-conformance\/lens\/(board|risk|technology|audit)\/(a[0-4])$/);
     if (conformanceLensMatch) {
