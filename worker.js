@@ -520,6 +520,106 @@ function renderConformanceControl(framework, control, locale = "en") {
 <footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="${assessmentRoot}">Agent Conformance</a> · <a href="${referenceRoot}">Agent Infrastructure</a> · <a href="/standards">VOCE Standards</a></div><div>${ui.copyright}</div></div></div></div></footer></body></html>`;
 }
 
+
+function renderConformanceLens(framework, lens, maturity = "A2", locale = "en") {
+  const l = conformanceLocale(locale);
+  const lensId = ["board","risk","technology","audit"].includes(lens) ? lens : "board";
+  const maturityId = ["A0","A1","A2","A3","A4"].includes(String(maturity).toUpperCase()) ? String(maturity).toUpperCase() : "A2";
+  const lensDomains = {
+    board:["authorization","identity","assurance","europe","economics"],
+    risk:["authorization","assurance","europe","data","observability"],
+    technology:["api","mcp","a2a","identity","observability"],
+    audit:["observability","authorization","data","europe","assurance"]
+  }[lensId];
+  const levelOrder = {A0:0,A1:1,A2:2,A3:3,A4:4};
+
+  const copy = l === "fr" ? {
+    skip:"Aller au contenu",nav:"Navigation principale",research:"Recherche",standards:"Standards",about:"À propos",language:"Langue",
+    kicker:"VOCE Agent Conformance · Lecture partageable",assessment:"Ouvrir l’auto-évaluation",reference:"Référence infrastructures agents",
+    machine:"Cadre JSON",normative:"Les contrôles normatifs restent en anglais afin de conserver un référentiel unique.",
+    title:{board:"Lecture conseil",risk:"Lecture risques",technology:"Lecture technologie",audit:"Lecture audit"},
+    deck:{
+      board:"Une lecture de niveau conseil d’administration: où se situe l’autorité, quels contrôles conditionnent la délégation et quels éléments doivent être prouvés avant de considérer le système comme maîtrisé.",
+      risk:"Une lecture risques: autorisation, données, assurance, observabilité et obligations européennes qui peuvent créer une exposition matérielle.",
+      technology:"Une lecture architecture: contrats API, MCP, A2A, identité des workloads et observabilité nécessaires à une exécution agentique contrôlable.",
+      audit:"Une lecture audit: capacité à reconstruire une exécution, rattacher l’autorité, vérifier les données, conserver les preuves et tester les contrôles."
+    },
+    maturity:"Maturité",domains:"Domaines prioritaires",controls:"Contrôles applicables",critical:"Contrôles critiques",share:"Partager cette lecture sur LinkedIn",
+    note:"Cette page décrit une lecture VOCE du référentiel. Elle ne contient aucune donnée privée d’auto-évaluation et ne constitue ni certification UE ni certification ISO.",
+    copyright:"© 2026 VOCE Association"
+  } : l === "it" ? {
+    skip:"Vai al contenuto",nav:"Navigazione principale",research:"Ricerca",standards:"Standard",about:"Chi siamo",language:"Lingua",
+    kicker:"VOCE Agent Conformance · Lettura condivisibile",assessment:"Apri l’autovalutazione",reference:"Riferimento infrastruttura agenti",
+    machine:"Framework JSON",normative:"I controlli normativi restano in inglese per mantenere un unico riferimento.",
+    title:{board:"Lettura consiglio",risk:"Lettura rischi",technology:"Lettura tecnologia",audit:"Lettura audit"},
+    deck:{
+      board:"Una lettura per il consiglio di amministrazione: dove risiede l’autorità, quali controlli condizionano la delega e quali evidenze devono esistere prima di considerare il sistema sotto controllo.",
+      risk:"Una lettura rischi: autorizzazione, dati, assurance, osservabilità e obblighi europei che possono creare esposizione materiale.",
+      technology:"Una lettura architetturale: contratti API, MCP, A2A, identità dei workload e osservabilità necessari per un’esecuzione agentica controllabile.",
+      audit:"Una lettura audit: capacità di ricostruire l’esecuzione, attribuire l’autorità, verificare i dati, conservare evidenze e testare i controlli."
+    },
+    maturity:"Maturità",domains:"Domini prioritari",controls:"Controlli applicabili",critical:"Controlli critici",share:"Condividi questa lettura su LinkedIn",
+    note:"Questa pagina descrive una lettura VOCE del framework. Non contiene dati privati dell’autovalutazione e non costituisce certificazione UE o ISO.",
+    copyright:"© 2026 VOCE Association"
+  } : {
+    skip:"Skip to content",nav:"Primary navigation",research:"Research",standards:"Standards",about:"About",language:"Language",
+    kicker:"VOCE Agent Conformance · Shareable lens",assessment:"Open self assessment",reference:"Agent Infrastructure Reference",
+    machine:"Framework JSON",normative:"Normative controls remain in English so the framework has one reference wording.",
+    title:{board:"Board lens",risk:"Risk lens",technology:"Technology lens",audit:"Audit lens"},
+    deck:{
+      board:"A board-level view of where authority sits, which controls condition delegation and what must be evidenced before the system can be treated as controlled.",
+      risk:"A risk view of authorization, data, assurance, observability and European obligations that can create material exposure.",
+      technology:"An architecture view of API contracts, MCP, A2A, workload identity and observability required for controllable agent execution.",
+      audit:"An audit view of whether execution can be reconstructed, authority attributed, data verified, evidence retained and controls tested."
+    },
+    maturity:"Maturity",domains:"Priority domains",controls:"Applicable controls",critical:"Critical controls",share:"Share this lens on LinkedIn",
+    note:"This page describes a VOCE lens on the framework. It contains no private self-assessment data and is not an EU or ISO certification.",
+    copyright:"© 2026 VOCE Association"
+  };
+
+  const domainNames = {
+    en:{api:"API & tool contracts",mcp:"MCP governance",a2a:"A2A & delegation",identity:"Identity & workload trust",authorization:"Authorization & authority",data:"Data, RAG & memory",observability:"Observability & audit",assurance:"Evaluation & assurance",economics:"Economic authority & FinOps",europe:"European regulatory overlay"},
+    fr:{api:"Contrats API et outils",mcp:"Gouvernance MCP",a2a:"A2A et délégation",identity:"Identité et confiance des workloads",authorization:"Autorisation et pouvoir d’action",data:"Données, RAG et mémoire",observability:"Observabilité et audit",assurance:"Évaluation et assurance",economics:"Autorité économique et FinOps",europe:"Cadre réglementaire européen"},
+    it:{api:"Contratti API e strumenti",mcp:"Governance MCP",a2a:"A2A e delega",identity:"Identità e fiducia dei workload",authorization:"Autorizzazione e potere d’azione",data:"Dati, RAG e memoria",observability:"Osservabilità e audit",assurance:"Valutazione e assurance",economics:"Autorità economica e FinOps",europe:"Quadro regolatorio europeo"}
+  }[l];
+
+  const applicable = (framework.controls || []).filter(c => lensDomains.includes(c.domain) && levelOrder[c.min_maturity] <= levelOrder[maturityId]);
+  const critical = applicable.filter(c => c.criticality === "critical");
+  const path = (l === "en" ? "" : `/${l}`) + `/agent-conformance/lens/${lensId}/${maturityId.toLowerCase()}`;
+  const canonical = `https://voce.life${path}`;
+  const assessment = (l === "en" ? "/agent-conformance" : `/${l}/agent-conformance`) + `?lens=${lensId}&maturity=${maturityId}`;
+  const reference = l === "en" ? "/agent-infrastructure" : `/${l}/agent-infrastructure`;
+  const title = `${copy.title[lensId]} · ${maturityId} | VOCE Agent Conformance`;
+  const desc = copy.deck[lensId];
+
+  const domainsHtml = lensDomains.map(id => `<div><b>${escapeHtml(domainNames[id] || id)}</b><span>${applicable.filter(c=>c.domain===id).length} ${copy.controls.toLowerCase()}</span></div>`).join("");
+  const controlsHtml = applicable.map(c => `<a class="cf-lens-control ${c.criticality==="critical"?"is-critical":""}" href="${conformanceControlPath(c,l)}"><b>${escapeHtml(c.id)}</b><span><strong>${escapeHtml(c.title)}</strong><small>${escapeHtml(c.min_maturity)}+ · ${escapeHtml(c.criticality)} · ${escapeHtml(c.target_state)}</small></span><i>→</i></a>`).join("");
+  const ld = {"@context":"https://schema.org","@type":"TechArticle",headline:title,description:desc,url:canonical,inLanguage:l,datePublished:"2026-10-05",dateModified:"2026-10-05",isPartOf:{"@type":"CreativeWork","name":"VOCE Agent Conformance","url":"https://voce.life/agent-conformance"},author:{"@type":"Organization","name":"VOCE AI Governance Institute"},publisher:{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"}};
+
+  return `<!doctype html><html lang="${l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(desc)}"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="${canonical}">
+<link rel="alternate" hreflang="en" href="https://voce.life/agent-conformance/lens/${lensId}/${maturityId.toLowerCase()}">
+<link rel="alternate" hreflang="fr" href="https://voce.life/fr/agent-conformance/lens/${lensId}/${maturityId.toLowerCase()}">
+<link rel="alternate" hreflang="it" href="https://voce.life/it/agent-conformance/lens/${lensId}/${maturityId.toLowerCase()}">
+<link rel="alternate" hreflang="x-default" href="https://voce.life/agent-conformance/lens/${lensId}/${maturityId.toLowerCase()}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css">
+<meta property="og:type" content="article"><meta property="og:site_name" content="VOCE">
+<meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(desc)}"><meta property="og:url" content="${canonical}">
+<meta property="og:image" content="https://voce.life/voce-og.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapeHtml(title)}"><meta name="twitter:description" content="${escapeHtml(desc)}"><meta name="twitter:image" content="https://voce.life/voce-og.jpg">
+<script type="application/ld+json">${JSON.stringify(ld).replace(/</g,"\\u003c")}</script></head>
+<body><a class="skip-link" href="#main-content">${copy.skip}</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="${copy.nav}"><a href="/research">${copy.research}</a><a href="/archive">Academy</a><a href="${assessment}" class="active">Agent Conformance</a><a href="${reference}">${copy.reference}</a><a href="/standards">${copy.standards}</a><a href="/about">${copy.about}</a><span class="lang" role="group" aria-label="${copy.language}"><a href="/agent-conformance/lens/${lensId}/${maturityId.toLowerCase()}"${l==="en"?' class="active" aria-current="page"':""}>EN</a><a href="/fr/agent-conformance/lens/${lensId}/${maturityId.toLowerCase()}"${l==="fr"?' class="active" aria-current="page"':""}>FR</a><a href="/it/agent-conformance/lens/${lensId}/${maturityId.toLowerCase()}"${l==="it"?' class="active" aria-current="page"':""}>IT</a></span></nav></div></header>
+<main id="main-content">
+<section class="topic-hero cf-lens-hero"><div class="wrap"><div class="topic-kicker">${copy.kicker}</div><h1 class="topic-title">${escapeHtml(copy.title[lensId])} · ${maturityId}</h1><p class="topic-deck">${escapeHtml(desc)}</p><div class="topic-meta"><span>${copy.maturity}: ${maturityId}</span><span>${applicable.length} ${copy.controls.toLowerCase()}</span><span>${critical.length} ${copy.critical.toLowerCase()}</span><span>VOCE · 2026</span></div><p class="context-link"><a href="${assessment}">${copy.assessment} →</a> · <a href="${reference}">${copy.reference} →</a></p></div></section>
+<section class="topic-body"><div class="wrap topic-layout"><aside class="topic-nav"><div class="topic-nav-label">VOCE Conformance</div><a href="${assessment}">${copy.assessment}</a><a href="/data/agent-conformance.json">${copy.machine}</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(canonical)}" target="_blank" rel="noopener">${copy.share} →</a></aside><div class="longform">
+<section class="chapter"><div class="chapter-no">${copy.domains}</div><h2>${escapeHtml(copy.title[lensId])}</h2><p class="signal">${escapeHtml(desc)}</p><div class="cf-lens-domains">${domainsHtml}</div><p class="applied-note">${copy.normative}</p></section>
+<section class="chapter"><div class="chapter-no">${copy.controls}</div><h2>${applicable.length} ${copy.controls.toLowerCase()} · ${critical.length} ${copy.critical.toLowerCase()}</h2><div class="cf-lens-controls">${controlsHtml}</div></section>
+<section class="chapter"><div class="chapter-no">VOCE</div><p>${copy.note}</p></section>
+</div></div></section></main>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="${assessment}">Agent Conformance</a> · <a href="${reference}">Agent Infrastructure</a> · <a href="/standards">VOCE Standards</a></div><div>${copy.copyright}</div></div></div></div></footer></body></html>`;
+}
+
 function normalizeSearchText(value = "") {
   return String(value)
     .normalize("NFD")
@@ -1148,6 +1248,20 @@ export default {
       return injectPrivacyDefault(new Response(response.body, { status: response.status, headers }));
     }
 
+
+    const conformanceLensMatch = pathname.match(/^\/(?:(fr|it)\/)?agent-conformance\/lens\/(board|risk|technology|audit)\/(a[0-4])$/);
+    if (conformanceLensMatch) {
+      const framework = await loadConformance(env);
+      const locale = conformanceLensMatch[1] || "en";
+      const lens = conformanceLensMatch[2];
+      const maturity = String(conformanceLensMatch[3] || "a2").toUpperCase();
+      return injectPrivacyDefault(new Response(renderConformanceLens(framework, lens, maturity, locale), {
+        headers: {
+          "content-type":"text/html; charset=utf-8",
+          "cache-control":"public, max-age=300"
+        }
+      }));
+    }
 
     const conformanceControlMatch = pathname.match(/^\/(?:(fr|it)\/)?agent-conformance\/controls\/([a-z0-9-]+)$/);
     if (conformanceControlMatch) {
