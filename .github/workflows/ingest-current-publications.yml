@@ -60,7 +60,14 @@ jobs:
           assert all(isinstance(x.get("self_hosting"), bool) for x in solutions["solutions"])
           assert all(x.get("commercial_use") for x in solutions["solutions"])
           assert all(x.get("path") for x in solutions["evidence"])
-          print({"corpus_items": corpus["item_count"], "canonical_routes": len(canonical_routes), "redirects": len(routes["items"])-len(canonical_routes), "solution_records": len(solutions["solutions"]), "solution_evidence": len(solutions["evidence"])})
+          agent_ref=json.loads((root/"data/agent-infrastructure-reference.json").read_text())
+          assert agent_ref["schema"] == 1
+          assert agent_ref["version"] == "1.0"
+          assert len(agent_ref["layers"]) == 10
+          assert len({x["id"] for x in agent_ref["layers"]}) == 10
+          assert [x["level"] for x in agent_ref["maturity_levels"]] == ["A0","A1","A2","A3","A4"]
+          assert len(agent_ref["board_evidence_pack"]) == 12
+          print({"corpus_items": corpus["item_count"], "canonical_routes": len(canonical_routes), "redirects": len(routes["items"])-len(canonical_routes), "solution_records": len(solutions["solutions"]), "solution_evidence": len(solutions["evidence"]), "agent_reference_layers": len(agent_ref["layers"])})
           PY
 
       - name: Commit generated corpus state
