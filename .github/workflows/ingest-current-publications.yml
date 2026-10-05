@@ -28,6 +28,9 @@ jobs:
       - name: Publish permanent corpus routes
         run: python3 backfill/publish_current.py
 
+      - name: Refresh VOCE Applied Solutions evidence
+        run: python3 backfill/update_applied_solutions.py
+
       - name: Validate corpus consistency
         run: |
           python3 - <<'PY'
