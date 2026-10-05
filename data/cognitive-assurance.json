@@ -1,0 +1,465 @@
+{
+  "schema": 1,
+  "version": "1.0",
+  "published_at": "2026-10-05",
+  "title": "VOCE Human Cognitive Assurance",
+  "status": "VOCE public human-factors assurance framework; non-diagnostic and not a clinical instrument",
+  "purpose": "Evaluate how agentic and digital systems shape attention, cognitive load, memory, verification, decision quality, fatigue and human oversight.",
+  "corpus": "VOCE Public Research & Editorial Corpus",
+  "corpus_url": "https://voce.life/data/corpus.json",
+  "principles": [
+    "Human oversight is effective only when the human can understand, notice and act in time.",
+    "Cognitive friction can be protective when it creates a meaningful verification step.",
+    "Automation should not silently remove the cues humans use to detect anomalies or uncertainty.",
+    "Cognitive controls are evaluated at the workflow and interface level, not used to diagnose individuals.",
+    "Evidence should distinguish laboratory findings, field observations, institutional inference and VOCE editorial synthesis.",
+    "Material changes to models, interfaces, alerts, permissions or task allocation can change cognitive risk and trigger reassessment."
+  ],
+  "domains": [
+    {
+      "id": "attention",
+      "name": "Attention & interruption",
+      "description": "Interruptions, switching, alerting and the ability to sustain or recover task focus."
+    },
+    {
+      "id": "load",
+      "name": "Cognitive load & complexity",
+      "description": "Information density, working-memory demand, multi-step execution and interface complexity."
+    },
+    {
+      "id": "verification",
+      "name": "Verification & over-trust",
+      "description": "Checks, friction, confidence calibration and the risk of accepting fluent machine output without meaningful review."
+    },
+    {
+      "id": "memory",
+      "name": "Memory & cognitive offloading",
+      "description": "What users must remember, what systems externalise, and whether critical knowledge remains retrievable and understood."
+    },
+    {
+      "id": "decision",
+      "name": "Decision quality & uncertainty",
+      "description": "Uncertainty, missing information, anomaly detection and the conditions under which judgment is exercised."
+    },
+    {
+      "id": "fatigue",
+      "name": "Fatigue & temporal load",
+      "description": "Decision fatigue, sustained monitoring, recovery, circadian constraints and workload timing."
+    },
+    {
+      "id": "oversight",
+      "name": "Human oversight & skill retention",
+      "description": "Whether humans retain comprehension, intervention capability and enough practice to take over when automation fails."
+    },
+    {
+      "id": "social",
+      "name": "Social & relational signals",
+      "description": "Loss or distortion of interpersonal cues in mediated, automated or compressed communication."
+    }
+  ],
+  "evidence_states": [
+    {
+      "id": "not_assessed",
+      "order": -1,
+      "name": "Not assessed"
+    },
+    {
+      "id": "absent",
+      "order": 0,
+      "name": "Absent"
+    },
+    {
+      "id": "declared",
+      "order": 1,
+      "name": "Declared"
+    },
+    {
+      "id": "documented",
+      "order": 2,
+      "name": "Documented"
+    },
+    {
+      "id": "tested",
+      "order": 3,
+      "name": "Tested"
+    },
+    {
+      "id": "observed",
+      "order": 4,
+      "name": "Observed in operation"
+    }
+  ],
+  "controls": [
+    {
+      "id": "COG-01",
+      "domain": "attention",
+      "title": "Interruption recovery",
+      "criticality": "major",
+      "question": "Does the workflow measure how quickly and accurately a user can resume a material task after an interruption or agent escalation?",
+      "evidence": [
+        "Task-resumption test",
+        "Error rate after interruption",
+        "Recovery-time measure"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/08/11/notre-journee-nous-semble-continue-pour-le-cerveau-elle-ne-l-est-pas-les-7493048758889529344"
+      ]
+    },
+    {
+      "id": "COG-02",
+      "domain": "attention",
+      "title": "Alert saturation",
+      "criticality": "critical",
+      "question": "Are alerts prioritised and rate-limited so that critical signals remain perceptible rather than competing with routine notifications?",
+      "evidence": [
+        "Alert taxonomy",
+        "Alert-volume baseline",
+        "Missed-critical-alert test"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/07/16/pendant-des-millenaires-le-cerveau-humain-a-fonctionne-avec-des-limites-physiq"
+      ]
+    },
+    {
+      "id": "COG-03",
+      "domain": "attention",
+      "title": "Attentional handoff",
+      "criticality": "critical",
+      "question": "When an agent transfers control to a human, does the interface restore the minimum context needed to understand what happened and what requires attention?",
+      "evidence": [
+        "Handoff design",
+        "Context-restoration test",
+        "Human takeover observation"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/07/11/avant-de-valider-une-action-importante-le-cerveau-humain-effectue-naturellemen"
+      ]
+    },
+    {
+      "id": "COG-04",
+      "domain": "load",
+      "title": "Working-memory demand",
+      "criticality": "major",
+      "question": "Has the institution measured how many independent facts, states or pending actions the user must hold in mind at the same time?",
+      "evidence": [
+        "Task decomposition",
+        "Working-memory burden review",
+        "Usability test"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/07/09/les-neurosciences-ont-longtemps-considere-la-memoire-comme-un-mecanisme-relati"
+      ]
+    },
+    {
+      "id": "COG-05",
+      "domain": "load",
+      "title": "Context-switch burden",
+      "criticality": "major",
+      "question": "Does the workflow minimise unnecessary movement between tools, agents, windows and representational formats during one decision?",
+      "evidence": [
+        "Workflow map",
+        "Context-switch count",
+        "Observed task study"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/08/11/notre-journee-nous-semble-continue-pour-le-cerveau-elle-ne-l-est-pas-les-7493048758889529344"
+      ]
+    },
+    {
+      "id": "COG-06",
+      "domain": "load",
+      "title": "Information-density threshold",
+      "criticality": "major",
+      "question": "Can a user identify the material facts, uncertainty and required action without parsing non-essential model output?",
+      "evidence": [
+        "Information hierarchy review",
+        "Time-to-critical-fact test",
+        "Comprehension test"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/07/16/pendant-des-millenaires-le-cerveau-humain-a-fonctionne-avec-des-limites-physiq"
+      ]
+    },
+    {
+      "id": "COG-07",
+      "domain": "verification",
+      "title": "Cognitive checksum",
+      "criticality": "critical",
+      "question": "Does every high-consequence action preserve a meaningful verification step rather than removing all friction in the name of speed?",
+      "evidence": [
+        "Verification gate",
+        "Error-detection test",
+        "Bypass analysis"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/07/11/avant-de-valider-une-action-importante-le-cerveau-humain-effectue-naturellemen"
+      ]
+    },
+    {
+      "id": "COG-08",
+      "domain": "verification",
+      "title": "Confidence calibration",
+      "criticality": "critical",
+      "question": "Does the interface help users distinguish well-supported output from uncertain, incomplete or weakly grounded output?",
+      "evidence": [
+        "Confidence/uncertainty presentation",
+        "Calibration test",
+        "User interpretation study"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/07/04/pendant-des-milliers-d-annees-le-cerveau-humain-a-appris-a-detecter-des-anomal"
+      ]
+    },
+    {
+      "id": "COG-09",
+      "domain": "verification",
+      "title": "Automation-confirmation bias",
+      "criticality": "critical",
+      "question": "Has the system been tested for the tendency of users to approve a plausible machine recommendation without independently checking material evidence?",
+      "evidence": [
+        "Blind-review comparison",
+        "False-recommendation test",
+        "Approval-behaviour observation"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/07/11/avant-de-valider-une-action-importante-le-cerveau-humain-effectue-naturellemen"
+      ]
+    },
+    {
+      "id": "COG-10",
+      "domain": "memory",
+      "title": "Source-memory preservation",
+      "criticality": "major",
+      "question": "Can users distinguish what they knew, what the system retrieved and what the model generated when revisiting a decision?",
+      "evidence": [
+        "Source labelling",
+        "Decision record",
+        "Recall/source attribution test"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/07/09/les-neurosciences-ont-longtemps-considere-la-memoire-comme-un-mecanisme-relati"
+      ]
+    },
+    {
+      "id": "COG-11",
+      "domain": "memory",
+      "title": "Critical knowledge retention",
+      "criticality": "major",
+      "question": "Does automation preserve enough human practice that essential procedural knowledge is still available when the system is unavailable?",
+      "evidence": [
+        "Manual fallback exercise",
+        "Knowledge-retention test",
+        "Training frequency"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/09/25/effort-effet-ikea-ia-education.html"
+      ]
+    },
+    {
+      "id": "COG-12",
+      "domain": "memory",
+      "title": "Memory expiry awareness",
+      "criticality": "major",
+      "question": "Are users told when an agent's memory is partial, expired, reset or inconsistent with the current institutional record?",
+      "evidence": [
+        "Memory-state indicator",
+        "Reset/expiry test",
+        "User comprehension check"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/08/01/nous-avons-longtemps-cru-que-la-memoire-servait-uniquement-a-conserver-l-7489424876575932416.html"
+      ]
+    },
+    {
+      "id": "COG-13",
+      "domain": "decision",
+      "title": "Missing-information visibility",
+      "criticality": "critical",
+      "question": "Does the system explicitly expose material information that is missing instead of presenting an incomplete situation as complete?",
+      "evidence": [
+        "Missing-data state",
+        "Incomplete-case test",
+        "Escalation rule"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/07/11/il-suffit-parfois-d-une-seule-conversation-interrompue"
+      ]
+    },
+    {
+      "id": "COG-14",
+      "domain": "decision",
+      "title": "Weak-signal preservation",
+      "criticality": "critical",
+      "question": "Does digitisation preserve the contextual or interpersonal signals required to detect anomalies, manipulation or unusual cases?",
+      "evidence": [
+        "Signal inventory",
+        "Loss-of-cue review",
+        "Anomaly-detection comparison"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/07/04/pendant-des-milliers-d-annees-le-cerveau-humain-a-appris-a-detecter-des-anomal"
+      ]
+    },
+    {
+      "id": "COG-15",
+      "domain": "decision",
+      "title": "Decision latency fit",
+      "criticality": "major",
+      "question": "Is the time allowed for human judgment proportionate to consequence, novelty and uncertainty rather than determined only by system speed?",
+      "evidence": [
+        "Decision-time policy",
+        "High-consequence timing test",
+        "Escalation timing"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/08/02/nous-aimons-croire-que-nos-decisions-naissent-au-moment-precis-ou-nous-d-7489787259186024448.html"
+      ]
+    },
+    {
+      "id": "COG-16",
+      "domain": "fatigue",
+      "title": "Sustained-monitoring burden",
+      "criticality": "major",
+      "question": "Has the organisation tested how vigilance changes when humans supervise long periods of mostly correct automated execution?",
+      "evidence": [
+        "Monitoring-duration study",
+        "Miss-rate by duration",
+        "Rotation policy"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/06/28/lorsque-nous-parlons-de-fatigue-psychologique-nous-pensons-presque-toujours-au"
+      ]
+    },
+    {
+      "id": "COG-17",
+      "domain": "fatigue",
+      "title": "Decision-fatigue exposure",
+      "criticality": "major",
+      "question": "Are repeated approval tasks batched, prioritised or redesigned so human oversight does not become a high-volume confirmation queue?",
+      "evidence": [
+        "Approval-volume baseline",
+        "Error trend by sequence/time",
+        "Workflow redesign record"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/06/28/lorsque-nous-parlons-de-fatigue-psychologique-nous-pensons-presque-toujours-au"
+      ]
+    },
+    {
+      "id": "COG-18",
+      "domain": "fatigue",
+      "title": "Circadian and recovery fit",
+      "criticality": "major",
+      "question": "For continuous operations, are high-consequence review duties scheduled with recovery and circadian constraints in mind?",
+      "evidence": [
+        "Shift design",
+        "Night-review error analysis",
+        "Recovery policy"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/06/29/pendant-longtemps-les-specialistes-du-sommeil-ont-surtout-mesure-une-chose"
+      ]
+    },
+    {
+      "id": "COG-19",
+      "domain": "oversight",
+      "title": "Takeover comprehension",
+      "criticality": "critical",
+      "question": "Can a human asked to intervene explain the agent's current state, objective, recent actions and remaining uncertainty before acting?",
+      "evidence": [
+        "Takeover comprehension test",
+        "State summary",
+        "Escalation drill"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/07/11/avant-de-valider-une-action-importante-le-cerveau-humain-effectue-naturellemen"
+      ]
+    },
+    {
+      "id": "COG-20",
+      "domain": "oversight",
+      "title": "Skill-atrophy control",
+      "criticality": "critical",
+      "question": "Does the operating model preserve deliberate human practice for skills that become essential when automation fails or is withdrawn?",
+      "evidence": [
+        "Manual practice schedule",
+        "Competency test",
+        "Fallback drill"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/09/25/effort-effet-ikea-ia-education.html"
+      ]
+    },
+    {
+      "id": "COG-21",
+      "domain": "oversight",
+      "title": "Meaningful override",
+      "criticality": "critical",
+      "question": "Is the human override understandable, timely and operationally effective rather than a nominal button available after consequences are irreversible?",
+      "evidence": [
+        "Override timing test",
+        "Reversibility test",
+        "Human-factors observation"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/07/11/avant-de-valider-une-action-importante-le-cerveau-humain-effectue-naturellemen"
+      ]
+    },
+    {
+      "id": "COG-22",
+      "domain": "social",
+      "title": "Social-cue loss",
+      "criticality": "major",
+      "question": "Where judgment depends on interpersonal context, has the institution identified which non-verbal or contextual cues are lost through mediated or agentic interaction?",
+      "evidence": [
+        "Cue inventory",
+        "Channel comparison",
+        "High-stakes exception policy"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/07/04/pendant-des-milliers-d-annees-le-cerveau-humain-a-appris-a-detecter-des-anomal"
+      ]
+    },
+    {
+      "id": "COG-23",
+      "domain": "social",
+      "title": "Synthetic-interaction disclosure",
+      "criticality": "major",
+      "question": "Can a person reliably tell when they are interacting with an automated agent and understand the limits of that interaction?",
+      "evidence": [
+        "Disclosure design",
+        "Recognition test",
+        "Escalation-to-human path"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/07/04/pendant-des-milliers-d-annees-le-cerveau-humain-a-appris-a-detecter-des-anomal"
+      ]
+    },
+    {
+      "id": "COG-24",
+      "domain": "social",
+      "title": "Relational escalation",
+      "criticality": "critical",
+      "question": "Do sensitive or emotionally consequential interactions have criteria for transfer from automation to a qualified human?",
+      "evidence": [
+        "Escalation criteria",
+        "Sensitive-case test",
+        "Qualified-human handoff record"
+      ],
+      "corpus_evidence": [
+        "https://voce.life/archive/2026/07/11/il-suffit-parfois-d-une-seule-conversation-interrompue"
+      ]
+    }
+  ],
+  "review_triggers": [
+    "Material interface redesign",
+    "Change in alerting or escalation logic",
+    "Change in human approval workload",
+    "New autonomous action capability",
+    "New memory or personalisation mechanism",
+    "Change in staffing, shifts or supervision model",
+    "Observed rise in errors, overrides, fatigue or missed alerts",
+    "Introduction of synthetic social interaction in a sensitive context"
+  ],
+  "clinical_boundary": "The framework evaluates systems and workflows. It does not diagnose, screen, treat or profile an individual's mental health, cognitive disorder or neuropsychological condition."
+}
