@@ -450,25 +450,54 @@ function renderConformanceControl(framework, control, locale = "en") {
     record:"Contrôle de conformité agentique", question:"Question de contrôle", domain:"Domaine", owner:"Responsable attendu", minimum:"Maturité minimale",
     criticality:"Criticité", target:"Niveau de preuve cible", evidence:"Preuves attendues", method:"Méthode", methodTitle:"Comment lire ce contrôle.",
     methodText:"Ce contrôle appartient à VOCE Agent Conformance. Son identifiant et sa formulation normative restent en anglais dans toutes les langues afin de conserver un seul référentiel. Le statut dépend de preuves datées, pas d’une déclaration commerciale ou d’une note moyenne.",
-    returnAssessment:"Ouvrir Agent Conformance →", returnReference:"Ouvrir l’Infrastructure Reference →", machine:"Cadre JSON", permanent:"URL permanente du contrôle",
-    normative:"Formulation normative", copyright:"© 2026 VOCE Association"
+    returnAssessment:"Ouvrir Agent Conformance →", returnReference:"Ouvrir la Référence des infrastructures →", machine:"Cadre JSON", permanent:"URL permanente du contrôle",
+    normative:"Formulation normative", referenceLabel:"Référence agents", infrastructureLabel:"Infrastructure agentique", share:"Partager sur LinkedIn", copyright:"© 2026 VOCE Association"
   } : l === "it" ? {
     skip:"Vai al contenuto", nav:"Navigazione principale", research:"Ricerca", standards:"Standard", about:"Chi siamo", language:"Lingua",
     record:"Controllo di conformità agentica", question:"Domanda di controllo", domain:"Dominio", owner:"Owner atteso", minimum:"Maturità minima",
     criticality:"Criticità", target:"Livello di evidenza target", evidence:"Evidenze attese", method:"Metodo", methodTitle:"Come leggere questo controllo.",
     methodText:"Questo controllo appartiene a VOCE Agent Conformance. Identificatore e formulazione normativa restano in inglese in tutte le lingue per mantenere un unico riferimento. Lo status dipende da evidenze datate, non da dichiarazioni commerciali o da un punteggio medio.",
-    returnAssessment:"Apri Agent Conformance →", returnReference:"Apri Infrastructure Reference →", machine:"Framework JSON", permanent:"URL permanente del controllo",
-    normative:"Formulazione normativa", copyright:"© 2026 VOCE Association"
+    returnAssessment:"Apri Agent Conformance →", returnReference:"Apri il Riferimento delle infrastrutture →", machine:"Framework JSON", permanent:"URL permanente del controllo",
+    normative:"Formulazione normativa", referenceLabel:"Riferimento agenti", infrastructureLabel:"Infrastruttura agentica", share:"Condividi su LinkedIn", copyright:"© 2026 VOCE Association"
   } : {
     skip:"Skip to content", nav:"Primary navigation", research:"Research", standards:"Standards", about:"About", language:"Language",
     record:"Agent conformance control", question:"Control question", domain:"Domain", owner:"Expected owner", minimum:"Minimum maturity",
     criticality:"Criticality", target:"Target evidence state", evidence:"Expected evidence", method:"Method", methodTitle:"How to read this control.",
     methodText:"This control belongs to VOCE Agent Conformance. Its identifier and normative wording remain identical across language versions so there is one reference, not three variants. Status depends on dated evidence, not a vendor declaration or aggregate score.",
     returnAssessment:"Open Agent Conformance →", returnReference:"Open Infrastructure Reference →", machine:"Framework JSON", permanent:"Permanent control URL",
-    normative:"Normative wording", copyright:"© 2026 VOCE Association"
+    normative:"Normative wording", referenceLabel:"Agent Reference", infrastructureLabel:"Agent Infrastructure", share:"Share on LinkedIn", copyright:"© 2026 VOCE Association"
   };
 
+  const domainLabels = {
+    en:{api:"API & tool contracts",mcp:"MCP governance",a2a:"A2A & delegation",identity:"Identity & workload trust",authorization:"Authorization & authority",data:"Data, RAG & memory",observability:"Observability & audit",assurance:"Evaluation & assurance",economics:"Economic authority & FinOps",europe:"European regulatory overlay"},
+    fr:{api:"API et contrats d’outils",mcp:"Gouvernance MCP",a2a:"A2A et délégation",identity:"Identité et confiance des charges de travail",authorization:"Autorisation et pouvoir d’action",data:"Données, RAG et mémoire",observability:"Observabilité et audit",assurance:"Évaluation et assurance",economics:"Autorité économique et FinOps",europe:"Cadre réglementaire européen"},
+    it:{api:"API e contratti degli strumenti",mcp:"Governance MCP",a2a:"A2A e delega",identity:"Identità e fiducia dei carichi di lavoro",authorization:"Autorizzazione e potere d’azione",data:"Dati, RAG e memoria",observability:"Osservabilità e audit",assurance:"Valutazione e garanzia operativa",economics:"Autorità economica e FinOps",europe:"Quadro normativo europeo"}
+  }[l];
+  const stateLabels = {
+    en:{documented:"Documented",tested:"Tested",verified_in_operation:"Verified in operation",declared:"Declared",absent:"Absent"},
+    fr:{documented:"Documenté",tested:"Testé",verified_in_operation:"Vérifié en exploitation",declared:"Déclaré",absent:"Absent"},
+    it:{documented:"Documentato",tested:"Testato",verified_in_operation:"Verificato in esercizio",declared:"Dichiarato",absent:"Assente"}
+  }[l];
+  const criticalityLabels = {
+    en:{critical:"Critical",major:"Major",standard:"Standard"},
+    fr:{critical:"Critique",major:"Majeure",standard:"Standard"},
+    it:{critical:"Critica",major:"Maggiore",standard:"Standard"}
+  }[l];
+  const ownerLabels = {
+    fr:{
+      "Platform Engineering":"Ingénierie plateforme","Platform / Engineering":"Plateforme / Ingénierie","Platform / Security":"Plateforme / Sécurité","Platform / Business Owner":"Plateforme / Responsable métier","Platform / Audit":"Plateforme / Audit","Platform / AI Governance":"Plateforme / Gouvernance IA","Architecture":"Architecture","Architecture / Security":"Architecture / Sécurité","Architecture / Audit":"Architecture / Audit","IAM / Security":"IAM / Sécurité","IAM / Audit":"IAM / Audit","IAM / Risk":"IAM / Risques","IAM / Business Owner":"IAM / Responsable métier","Data / IAM":"Données / IAM","Data / Security":"Données / Sécurité","Data Governance":"Gouvernance des données","Data Governance / Privacy":"Gouvernance des données / Vie privée","Data / Legal":"Données / Juridique","Security / Platform":"Sécurité / Plateforme","Security Architecture":"Architecture de sécurité","Risk / Business Owner":"Risques / Responsable métier","Risk / Internal Control":"Risques / Contrôle interne","Business Owner / Audit":"Responsable métier / Audit","Security / Privacy":"Sécurité / Vie privée","AI Governance / Business Owner":"Gouvernance IA / Responsable métier","Security / AI Risk":"Sécurité / Risque IA","AI Governance / Platform":"Gouvernance IA / Plateforme","Operations / Risk":"Opérations / Risques","FinOps / Finance":"FinOps / Finance","Finance / Platform":"Finance / Plateforme","CIO / Procurement / Risk":"DSI / Achats / Risques","Legal / Compliance":"Juridique / Conformité","Legal / AI Governance":"Juridique / Gouvernance IA","AI Governance / Legal":"Gouvernance IA / Juridique","Legal / Risk":"Juridique / Risques","Third-party Risk / Procurement":"Risque tiers / Achats"
+    },
+    it:{
+      "Platform Engineering":"Ingegneria di piattaforma","Platform / Engineering":"Piattaforma / Ingegneria","Platform / Security":"Piattaforma / Sicurezza","Platform / Business Owner":"Piattaforma / Responsabile di processo","Platform / Audit":"Piattaforma / Audit","Platform / AI Governance":"Piattaforma / Governance IA","Architecture":"Architettura","Architecture / Security":"Architettura / Sicurezza","Architecture / Audit":"Architettura / Audit","IAM / Security":"IAM / Sicurezza","IAM / Audit":"IAM / Audit","IAM / Risk":"IAM / Rischi","IAM / Business Owner":"IAM / Responsabile di processo","Data / IAM":"Dati / IAM","Data / Security":"Dati / Sicurezza","Data Governance":"Governance dei dati","Data Governance / Privacy":"Governance dei dati / Privacy","Data / Legal":"Dati / Legale","Security / Platform":"Sicurezza / Piattaforma","Security Architecture":"Architettura di sicurezza","Risk / Business Owner":"Rischi / Responsabile di processo","Risk / Internal Control":"Rischi / Controllo interno","Business Owner / Audit":"Responsabile di processo / Audit","Security / Privacy":"Sicurezza / Privacy","AI Governance / Business Owner":"Governance IA / Responsabile di processo","Security / AI Risk":"Sicurezza / Rischio IA","AI Governance / Platform":"Governance IA / Piattaforma","Operations / Risk":"Operazioni / Rischi","FinOps / Finance":"FinOps / Finanza","Finance / Platform":"Finanza / Piattaforma","CIO / Procurement / Risk":"CIO / Acquisti / Rischi","Legal / Compliance":"Legale / Conformità","Legal / AI Governance":"Legale / Governance IA","AI Governance / Legal":"Governance IA / Legale","Legal / Risk":"Legale / Rischi","Third-party Risk / Procurement":"Rischio terze parti / Acquisti"
+    }
+  }[l] || {};
+
   const domain = (framework.domains || []).find(item => item.id === control.domain);
+  const domainLabel = domainLabels[control.domain] || domain?.name || control.domain;
+  const ownerLabel = ownerLabels[control.owner] || control.owner;
+  const targetLabel = stateLabels[control.target_state] || control.target_state;
+  const criticalityLabel = criticalityLabels[control.criticality] || control.criticality;
+
   const canonicalPath = conformanceControlPath(control,l);
   const canonical = `https://voce.life${canonicalPath}`;
   const assessmentRoot = l === "en" ? "/agent-conformance" : `/${l}/agent-conformance`;
@@ -496,7 +525,7 @@ function renderConformanceControl(framework, control, locale = "en") {
   return `<!doctype html>
 <html lang="${l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${escapeHtml(control.id)} — ${escapeHtml(control.title)} | VOCE Agent Conformance</title>
-<meta name="description" content="${escapeHtml(control.question)} Target evidence: ${escapeHtml(control.target_state)}. Minimum maturity: ${escapeHtml(control.min_maturity)}.">
+<meta name="description" content="${escapeHtml(control.question)} ${l==="fr"?"Preuve cible":l==="it"?"Evidenza richiesta":"Target evidence"}: ${escapeHtml(targetLabel)}. ${l==="fr"?"Maturité minimale":l==="it"?"Maturità minima":"Minimum maturity"}: ${escapeHtml(control.min_maturity)}.">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <link rel="canonical" href="${canonical}">
 <link rel="alternate" hreflang="en" href="https://voce.life/agent-conformance/controls/${escapeHtml(String(control.id).toLowerCase())}">
@@ -506,18 +535,118 @@ function renderConformanceControl(framework, control, locale = "en") {
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css">
 <meta property="og:type" content="article"><meta property="og:site_name" content="VOCE">
 <meta property="og:title" content="${escapeHtml(control.id)} — ${escapeHtml(control.title)}">
-<meta property="og:description" content="${escapeHtml(control.question)}"><meta property="og:url" content="${canonical}">
+<meta property="og:description" content="${escapeHtml(control.question)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="https://voce.life/voce-og.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://voce.life/voce-og.jpg">
 <script type="application/ld+json">${JSON.stringify(ld).replace(/</g,"\\u003c")}</script></head>
 <body><a class="skip-link" href="#main-content">${ui.skip}</a>
-<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="${ui.nav}"><a href="/research">${ui.research}</a><a href="/archive">Academy</a><a href="/atlas">Atlas</a><a href="${assessmentRoot}" class="active">Agent Conformance</a><a href="${referenceRoot}">Agent Reference</a><a href="/standards">${ui.standards}</a><a href="/about">${ui.about}</a><span class="lang" role="group" aria-label="${ui.language}"><a href="/agent-conformance/controls/${escapeHtml(String(control.id).toLowerCase())}"${l==="en"?' class="active" aria-current="page"':""}>EN</a><a href="/fr/agent-conformance/controls/${escapeHtml(String(control.id).toLowerCase())}"${l==="fr"?' class="active" aria-current="page"':""}>FR</a><a href="/it/agent-conformance/controls/${escapeHtml(String(control.id).toLowerCase())}"${l==="it"?' class="active" aria-current="page"':""}>IT</a></span></nav></div></header>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="${ui.nav}"><a href="/research">${ui.research}</a><a href="/archive">Academy</a><a href="/atlas">Atlas</a><a href="${assessmentRoot}" class="active">Agent Conformance</a><a href="${referenceRoot}">${ui.referenceLabel}</a><a href="/standards">${ui.standards}</a><a href="/about">${ui.about}</a><span class="lang" role="group" aria-label="${ui.language}"><a href="/agent-conformance/controls/${escapeHtml(String(control.id).toLowerCase())}"${l==="en"?' class="active" aria-current="page"':""}>EN</a><a href="/fr/agent-conformance/controls/${escapeHtml(String(control.id).toLowerCase())}"${l==="fr"?' class="active" aria-current="page"':""}>FR</a><a href="/it/agent-conformance/controls/${escapeHtml(String(control.id).toLowerCase())}"${l==="it"?' class="active" aria-current="page"':""}>IT</a></span></nav></div></header>
 <main id="main-content">
-<section class="topic-hero"><div class="wrap"><div class="topic-kicker">VOCE Agent Conformance · ${escapeHtml(control.id)}</div><h1 class="topic-title">${escapeHtml(control.title)}</h1><p class="topic-deck">${escapeHtml(control.question)}</p><div class="topic-meta"><span>${escapeHtml(domain?.name || control.domain)}</span><span>${escapeHtml(control.min_maturity)}+</span><span>${escapeHtml(control.criticality)}</span><span>${ui.permanent}</span></div></div></section>
-<section class="topic-body"><div class="wrap topic-layout"><aside class="topic-nav"><div class="topic-nav-label">VOCE Conformance</div><a href="${assessmentRoot}">${ui.returnAssessment}</a><a href="${referenceRoot}">${ui.returnReference}</a><a href="/data/agent-conformance.json">${ui.machine}</a></aside><div class="longform">
-<section class="chapter"><div class="chapter-no">${ui.normative}</div><h2>${escapeHtml(control.id)} · ${escapeHtml(control.title)}</h2><p class="signal">${escapeHtml(control.question)}</p><div class="cf-record-grid"><div><b>${ui.domain}</b><span>${escapeHtml(domain?.name || control.domain)}</span></div><div><b>${ui.owner}</b><span>${escapeHtml(control.owner)}</span></div><div><b>${ui.minimum}</b><span>${escapeHtml(control.min_maturity)}+</span></div><div><b>${ui.criticality}</b><span>${escapeHtml(control.criticality)}</span></div><div><b>${ui.target}</b><span>${escapeHtml(control.target_state)}</span></div></div></section>
+<section class="topic-hero"><div class="wrap"><div class="topic-kicker">VOCE Agent Conformance · ${escapeHtml(control.id)}</div><h1 class="topic-title">${escapeHtml(control.title)}</h1><p class="topic-deck">${escapeHtml(control.question)}</p><div class="topic-meta"><span>${escapeHtml(domainLabel)}</span><span>${escapeHtml(control.min_maturity)}+</span><span>${escapeHtml(criticalityLabel)}</span><span>${ui.permanent}</span></div></div></section>
+<section class="topic-body"><div class="wrap topic-layout"><aside class="topic-nav"><div class="topic-nav-label">VOCE Conformance</div><a href="${assessmentRoot}">${ui.returnAssessment}</a><a href="${referenceRoot}">${ui.returnReference}</a><a href="/data/agent-conformance.json">${ui.machine}</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(canonical)}" target="_blank" rel="noopener">${ui.share} →</a></aside><div class="longform">
+<section class="chapter"><div class="chapter-no">${ui.normative}</div><h2>${escapeHtml(control.id)} · ${escapeHtml(control.title)}</h2><p class="signal">${escapeHtml(control.question)}</p><div class="cf-record-grid"><div><b>${ui.domain}</b><span>${escapeHtml(domainLabel)}</span></div><div><b>${ui.owner}</b><span>${escapeHtml(ownerLabel)}</span></div><div><b>${ui.minimum}</b><span>${escapeHtml(control.min_maturity)}+</span></div><div><b>${ui.criticality}</b><span>${escapeHtml(criticalityLabel)}</span></div><div><b>${ui.target}</b><span>${escapeHtml(targetLabel)}</span></div></div></section>
 <section class="chapter"><div class="chapter-no">${ui.evidence}</div><h2>${ui.evidence}</h2><ul class="cf-record-evidence">${evidenceHtml}</ul></section>
 <section class="chapter"><div class="chapter-no">${ui.method}</div><h2>${ui.methodTitle}</h2><p>${ui.methodText}</p><p><a href="${assessmentRoot}">${ui.returnAssessment}</a></p></section>
 </div></div></section></main>
-<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="${assessmentRoot}">Agent Conformance</a> · <a href="${referenceRoot}">Agent Infrastructure</a> · <a href="/standards">VOCE Standards</a></div><div>${ui.copyright}</div></div></div></div></footer></body></html>`;
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="${assessmentRoot}">Agent Conformance</a> · <a href="${referenceRoot}">${ui.infrastructureLabel}</a> · <a href="/standards">VOCE Standards</a></div><div>${ui.copyright}</div></div></div></div></footer></body></html>`;
+}
+
+
+function renderConformanceLens(framework, lens, maturity = "A2", locale = "en") {
+  const l = conformanceLocale(locale);
+  const lensId = ["board","risk","technology","audit"].includes(lens) ? lens : "board";
+  const maturityId = ["A0","A1","A2","A3","A4"].includes(String(maturity).toUpperCase()) ? String(maturity).toUpperCase() : "A2";
+  const lensDomains = {
+    board:["authorization","identity","assurance","europe","economics"],
+    risk:["authorization","assurance","europe","data","observability"],
+    technology:["api","mcp","a2a","identity","observability"],
+    audit:["observability","authorization","data","europe","assurance"]
+  }[lensId];
+  const levelOrder = {A0:0,A1:1,A2:2,A3:3,A4:4};
+
+  const copy = l === "fr" ? {
+    skip:"Aller au contenu",nav:"Navigation principale",research:"Recherche",standards:"Standards",about:"À propos",language:"Langue",
+    kicker:"VOCE Agent Conformance · Lecture partageable",assessment:"Ouvrir l’auto-évaluation",reference:"Référence infrastructures agents",
+    machine:"Cadre JSON",normative:"Les contrôles normatifs restent en anglais afin de conserver un référentiel unique.",
+    title:{board:"Lecture conseil",risk:"Lecture risques",technology:"Lecture technologie",audit:"Lecture audit"},
+    deck:{
+      board:"Une lecture de niveau conseil d’administration: où se situe l’autorité, quels contrôles conditionnent la délégation et quels éléments doivent être prouvés avant de considérer le système comme maîtrisé.",
+      risk:"Une lecture risques: autorisation, données, assurance, observabilité et obligations européennes qui peuvent créer une exposition matérielle.",
+      technology:"Une lecture architecture: contrats API, MCP, A2A, identité des workloads et observabilité nécessaires à une exécution agentique contrôlable.",
+      audit:"Une lecture audit: capacité à reconstruire une exécution, rattacher l’autorité, vérifier les données, conserver les preuves et tester les contrôles."
+    },
+    maturity:"Maturité",domains:"Domaines prioritaires",controls:"Contrôles applicables",critical:"Contrôles critiques",share:"Partager cette lecture sur LinkedIn",
+    note:"Cette page décrit une lecture VOCE du référentiel. Elle ne contient aucune donnée privée d’auto-évaluation et ne constitue ni certification UE ni certification ISO.",
+    copyright:"© 2026 VOCE Association"
+  } : l === "it" ? {
+    skip:"Vai al contenuto",nav:"Navigazione principale",research:"Ricerca",standards:"Standard",about:"Chi siamo",language:"Lingua",
+    kicker:"VOCE Agent Conformance · Lettura condivisibile",assessment:"Apri l’autovalutazione",reference:"Riferimento infrastruttura agenti",
+    machine:"Framework JSON",normative:"I controlli normativi restano in inglese per mantenere un unico riferimento.",
+    title:{board:"Lettura consiglio",risk:"Lettura rischi",technology:"Lettura tecnologia",audit:"Lettura audit"},
+    deck:{
+      board:"Una lettura per il consiglio di amministrazione: dove risiede l’autorità, quali controlli condizionano la delega e quali evidenze devono esistere prima di considerare il sistema sotto controllo.",
+      risk:"Una lettura rischi: autorizzazione, dati, assurance, osservabilità e obblighi europei che possono creare esposizione materiale.",
+      technology:"Una lettura architetturale: contratti API, MCP, A2A, identità dei workload e osservabilità necessari per un’esecuzione agentica controllabile.",
+      audit:"Una lettura audit: capacità di ricostruire l’esecuzione, attribuire l’autorità, verificare i dati, conservare evidenze e testare i controlli."
+    },
+    maturity:"Maturità",domains:"Domini prioritari",controls:"Controlli applicabili",critical:"Controlli critici",share:"Condividi questa lettura su LinkedIn",
+    note:"Questa pagina descrive una lettura VOCE del framework. Non contiene dati privati dell’autovalutazione e non costituisce certificazione UE o ISO.",
+    copyright:"© 2026 VOCE Association"
+  } : {
+    skip:"Skip to content",nav:"Primary navigation",research:"Research",standards:"Standards",about:"About",language:"Language",
+    kicker:"VOCE Agent Conformance · Shareable lens",assessment:"Open self assessment",reference:"Agent Infrastructure Reference",
+    machine:"Framework JSON",normative:"Normative controls remain in English so the framework has one reference wording.",
+    title:{board:"Board lens",risk:"Risk lens",technology:"Technology lens",audit:"Audit lens"},
+    deck:{
+      board:"A board-level view of where authority sits, which controls condition delegation and what must be evidenced before the system can be treated as controlled.",
+      risk:"A risk view of authorization, data, assurance, observability and European obligations that can create material exposure.",
+      technology:"An architecture view of API contracts, MCP, A2A, workload identity and observability required for controllable agent execution.",
+      audit:"An audit view of whether execution can be reconstructed, authority attributed, data verified, evidence retained and controls tested."
+    },
+    maturity:"Maturity",domains:"Priority domains",controls:"Applicable controls",critical:"Critical controls",share:"Share this lens on LinkedIn",
+    note:"This page describes a VOCE lens on the framework. It contains no private self-assessment data and is not an EU or ISO certification.",
+    copyright:"© 2026 VOCE Association"
+  };
+
+  const domainNames = {
+    en:{api:"API & tool contracts",mcp:"MCP governance",a2a:"A2A & delegation",identity:"Identity & workload trust",authorization:"Authorization & authority",data:"Data, RAG & memory",observability:"Observability & audit",assurance:"Evaluation & assurance",economics:"Economic authority & FinOps",europe:"European regulatory overlay"},
+    fr:{api:"Contrats API et outils",mcp:"Gouvernance MCP",a2a:"A2A et délégation",identity:"Identité et confiance des workloads",authorization:"Autorisation et pouvoir d’action",data:"Données, RAG et mémoire",observability:"Observabilité et audit",assurance:"Évaluation et assurance",economics:"Autorité économique et FinOps",europe:"Cadre réglementaire européen"},
+    it:{api:"Contratti API e strumenti",mcp:"Governance MCP",a2a:"A2A e delega",identity:"Identità e fiducia dei workload",authorization:"Autorizzazione e potere d’azione",data:"Dati, RAG e memoria",observability:"Osservabilità e audit",assurance:"Valutazione e assurance",economics:"Autorità economica e FinOps",europe:"Quadro regolatorio europeo"}
+  }[l];
+
+  const applicable = (framework.controls || []).filter(c => lensDomains.includes(c.domain) && levelOrder[c.min_maturity] <= levelOrder[maturityId]);
+  const critical = applicable.filter(c => c.criticality === "critical");
+  const path = (l === "en" ? "" : `/${l}`) + `/agent-conformance/lens/${lensId}/${maturityId.toLowerCase()}`;
+  const canonical = `https://voce.life${path}`;
+  const assessment = (l === "en" ? "/agent-conformance" : `/${l}/agent-conformance`) + `?lens=${lensId}&maturity=${maturityId}`;
+  const reference = l === "en" ? "/agent-infrastructure" : `/${l}/agent-infrastructure`;
+  const title = `${copy.title[lensId]} · ${maturityId} | VOCE Agent Conformance`;
+  const desc = copy.deck[lensId];
+
+  const domainsHtml = lensDomains.map(id => `<div><b>${escapeHtml(domainNames[id] || id)}</b><span>${applicable.filter(c=>c.domain===id).length} ${copy.controls.toLowerCase()}</span></div>`).join("");
+  const controlsHtml = applicable.map(c => `<a class="cf-lens-control ${c.criticality==="critical"?"is-critical":""}" href="${conformanceControlPath(c,l)}"><b>${escapeHtml(c.id)}</b><span><strong>${escapeHtml(c.title)}</strong><small>${escapeHtml(c.min_maturity)}+ · ${escapeHtml(c.criticality)} · ${escapeHtml(c.target_state)}</small></span><i>→</i></a>`).join("");
+  const ld = {"@context":"https://schema.org","@type":"TechArticle",headline:title,description:desc,url:canonical,inLanguage:l,datePublished:"2026-10-05",dateModified:"2026-10-05",isPartOf:{"@type":"CreativeWork","name":"VOCE Agent Conformance","url":"https://voce.life/agent-conformance"},author:{"@type":"Organization","name":"VOCE AI Governance Institute"},publisher:{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"}};
+
+  return `<!doctype html><html lang="${l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(desc)}"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="${canonical}">
+<link rel="alternate" hreflang="en" href="https://voce.life/agent-conformance/lens/${lensId}/${maturityId.toLowerCase()}">
+<link rel="alternate" hreflang="fr" href="https://voce.life/fr/agent-conformance/lens/${lensId}/${maturityId.toLowerCase()}">
+<link rel="alternate" hreflang="it" href="https://voce.life/it/agent-conformance/lens/${lensId}/${maturityId.toLowerCase()}">
+<link rel="alternate" hreflang="x-default" href="https://voce.life/agent-conformance/lens/${lensId}/${maturityId.toLowerCase()}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css">
+<meta property="og:type" content="article"><meta property="og:site_name" content="VOCE">
+<meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(desc)}"><meta property="og:url" content="${canonical}">
+<meta property="og:image" content="https://voce.life/voce-og.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapeHtml(title)}"><meta name="twitter:description" content="${escapeHtml(desc)}"><meta name="twitter:image" content="https://voce.life/voce-og.jpg">
+<script type="application/ld+json">${JSON.stringify(ld).replace(/</g,"\\u003c")}</script></head>
+<body><a class="skip-link" href="#main-content">${copy.skip}</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="${copy.nav}"><a href="/research">${copy.research}</a><a href="/archive">Academy</a><a href="${assessment}" class="active">Agent Conformance</a><a href="${reference}">${copy.reference}</a><a href="/standards">${copy.standards}</a><a href="/about">${copy.about}</a><span class="lang" role="group" aria-label="${copy.language}"><a href="/agent-conformance/lens/${lensId}/${maturityId.toLowerCase()}"${l==="en"?' class="active" aria-current="page"':""}>EN</a><a href="/fr/agent-conformance/lens/${lensId}/${maturityId.toLowerCase()}"${l==="fr"?' class="active" aria-current="page"':""}>FR</a><a href="/it/agent-conformance/lens/${lensId}/${maturityId.toLowerCase()}"${l==="it"?' class="active" aria-current="page"':""}>IT</a></span></nav></div></header>
+<main id="main-content">
+<section class="topic-hero cf-lens-hero"><div class="wrap"><div class="topic-kicker">${copy.kicker}</div><h1 class="topic-title">${escapeHtml(copy.title[lensId])} · ${maturityId}</h1><p class="topic-deck">${escapeHtml(desc)}</p><div class="topic-meta"><span>${copy.maturity}: ${maturityId}</span><span>${applicable.length} ${copy.controls.toLowerCase()}</span><span>${critical.length} ${copy.critical.toLowerCase()}</span><span>VOCE · 2026</span></div><p class="context-link"><a href="${assessment}">${copy.assessment} →</a> · <a href="${reference}">${copy.reference} →</a></p></div></section>
+<section class="topic-body"><div class="wrap topic-layout"><aside class="topic-nav"><div class="topic-nav-label">VOCE Conformance</div><a href="${assessment}">${copy.assessment}</a><a href="/data/agent-conformance.json">${copy.machine}</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(canonical)}" target="_blank" rel="noopener">${copy.share} →</a></aside><div class="longform">
+<section class="chapter"><div class="chapter-no">${copy.domains}</div><h2>${escapeHtml(copy.title[lensId])}</h2><p class="signal">${escapeHtml(desc)}</p><div class="cf-lens-domains">${domainsHtml}</div><p class="applied-note">${copy.normative}</p></section>
+<section class="chapter"><div class="chapter-no">${copy.controls}</div><h2>${applicable.length} ${copy.controls.toLowerCase()} · ${critical.length} ${copy.critical.toLowerCase()}</h2><div class="cf-lens-controls">${controlsHtml}</div></section>
+<section class="chapter"><div class="chapter-no">VOCE</div><p>${copy.note}</p></section>
+</div></div></section></main>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="${assessment}">Agent Conformance</a> · <a href="${reference}">Agent Infrastructure</a> · <a href="/standards">VOCE Standards</a></div><div>${copy.copyright}</div></div></div></div></footer></body></html>`;
 }
 
 function normalizeSearchText(value = "") {
@@ -1148,6 +1277,20 @@ export default {
       return injectPrivacyDefault(new Response(response.body, { status: response.status, headers }));
     }
 
+
+    const conformanceLensMatch = pathname.match(/^\/(?:(fr|it)\/)?agent-conformance\/lens\/(board|risk|technology|audit)\/(a[0-4])$/);
+    if (conformanceLensMatch) {
+      const framework = await loadConformance(env);
+      const locale = conformanceLensMatch[1] || "en";
+      const lens = conformanceLensMatch[2];
+      const maturity = String(conformanceLensMatch[3] || "a2").toUpperCase();
+      return injectPrivacyDefault(new Response(renderConformanceLens(framework, lens, maturity, locale), {
+        headers: {
+          "content-type":"text/html; charset=utf-8",
+          "cache-control":"public, max-age=300"
+        }
+      }));
+    }
 
     const conformanceControlMatch = pathname.match(/^\/(?:(fr|it)\/)?agent-conformance\/controls\/([a-z0-9-]+)$/);
     if (conformanceControlMatch) {
