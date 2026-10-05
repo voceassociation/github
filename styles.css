@@ -602,3 +602,39 @@ html[lang="it"] .atlas-panel:before{content:"Vista documentale mobile"}
   .solution-evidence-row{grid-template-columns:1fr;gap:5px}
   .solution-evidence-row small{grid-column:1;text-align:left}
 }
+
+
+/* VOCE Applied Solutions — institutional diligence */
+.solution-diligence-filters{margin-top:10px;padding-top:10px;border-top:1px solid rgba(18,62,51,.08)}
+.solution-filter--diligence{border-style:dashed}
+.solution-comparison{margin-top:34px}
+.solution-comparison-title{display:flex;justify-content:space-between;gap:20px;align-items:baseline;padding:14px 0;border-bottom:1px solid var(--line)}
+.solution-comparison-title strong{font-family:var(--serif);font-size:1.45rem;font-weight:400;color:var(--forest)}
+.solution-comparison-title span{font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+.solution-table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.solution-table-scroll table{width:100%;min-width:1180px;border-collapse:collapse}
+.solution-table-scroll th,.solution-table-scroll td{padding:13px 12px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+.solution-table-scroll thead th{font-size:.54rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);white-space:nowrap}
+.solution-table-scroll tbody th{width:190px}
+.solution-table-scroll tbody th strong{display:block;font-family:var(--serif);font-size:1rem;font-weight:400;line-height:1.15;color:var(--forest)}
+.solution-table-scroll tbody th small{display:block;margin-top:4px;font-size:.55rem;color:var(--muted)}
+.solution-table-scroll td{font-size:.68rem;line-height:1.4;color:#555b57}
+.solution-table-scroll td.is-documented{color:var(--forest);font-weight:600}
+.solution-diligence{margin-top:17px;padding-top:17px;border-top:1px solid var(--line)}
+.solution-diligence summary{cursor:pointer;list-style:none;font-size:.62rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--forest)}
+.solution-diligence summary::-webkit-details-marker{display:none}
+.solution-diligence summary:after{content:" +";color:var(--muted)}
+.solution-diligence[open] summary:after{content:" −"}
+.solution-diligence-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;margin-top:14px;border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.solution-diligence-grid>div{min-width:0;padding:13px 14px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.solution-diligence-grid b{display:block;margin-bottom:5px;font-size:.52rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+.solution-diligence-grid span{display:block;font-size:.72rem;line-height:1.4;color:var(--forest)}
+.solution-diligence-grid small{display:block;margin-top:5px;font-size:.64rem;line-height:1.45;color:#666c68}
+.solution-source-links{display:flex;flex-wrap:wrap;gap:8px 15px;margin-top:12px}
+.solution-source-links a{font-size:.54rem;font-weight:600;text-transform:uppercase;letter-spacing:.09em;color:var(--forest);border-bottom:1px solid rgba(18,62,51,.3);padding-bottom:2px}
+@media(max-width:760px){
+  .solution-diligence-filters{padding-top:12px}
+  .solution-comparison{margin-top:26px}
+  .solution-comparison-title{align-items:flex-start;flex-direction:column;gap:5px}
+  .solution-diligence-grid{grid-template-columns:1fr}
+}

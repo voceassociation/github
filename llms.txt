@@ -44,7 +44,7 @@ Each published Atlas relation has a permanent evidence-backed HTML record in Eng
 
 ## Applied Solutions
 
-VOCE Applied includes a decision-oriented registry connecting documented agent and LI!GHT WORKFORCE © use cases to current software, enterprise suites, agent platforms, model infrastructure and creative systems. Vendor inclusion is documentary and does not constitute recommendation, certification or commercial ranking.
+VOCE Applied includes a decision-oriented registry connecting documented agent and LI!GHT WORKFORCE © use cases to current software, enterprise suites, agent platforms, model infrastructure and creative systems. Each solution carries an institutional due-diligence profile covering public evidence on deployment, data boundaries, identity and access, auditability, interfaces, pricing and availability. Missing public documentation is marked explicitly rather than inferred. Vendor inclusion is documentary and does not constitute recommendation, certification or commercial ranking.
 
 ## Permanent article routes
 
