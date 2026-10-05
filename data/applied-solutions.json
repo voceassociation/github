@@ -1,0 +1,1380 @@
+{
+  "schema": 1,
+  "generated_at": "2026-10-05",
+  "name": "VOCE Applied Solutions",
+  "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
+  "methodology": {
+    "entry_point": "business need before vendor",
+    "evidence_rule": "Every use case links to VOCE corpus evidence when available. Vendor capabilities are separately checked against official vendor material.",
+    "independence": "Presence in the registry is not a VOCE recommendation, certification, ranking or commercial endorsement.",
+    "autonomy": "Autonomy is described as assist, supervised action, governed execution or configurable. Actual permissions depend on deployment.",
+    "regulated_work": "For legal, finance, HR, health and other high-stakes workflows, professional accountability and applicable regulation remain with the deploying organisation and qualified humans.",
+    "freshness": "Vendor capabilities change quickly. Each solution record carries a verification date."
+  },
+  "sectors": [
+    {
+      "id": "legal",
+      "en": "Legal & compliance",
+      "fr": "Juridique & conformité",
+      "it": "Legale & conformità"
+    },
+    {
+      "id": "hr",
+      "en": "Human resources",
+      "fr": "Ressources humaines",
+      "it": "Risorse umane"
+    },
+    {
+      "id": "finance",
+      "en": "Finance & accounting",
+      "fr": "Finance & comptabilité",
+      "it": "Finanza & contabilità"
+    },
+    {
+      "id": "culture",
+      "en": "Museums & culture",
+      "fr": "Musées & culture",
+      "it": "Musei & cultura"
+    },
+    {
+      "id": "marketing",
+      "en": "Marketing & communications",
+      "fr": "Marketing & communication",
+      "it": "Marketing & comunicazione"
+    },
+    {
+      "id": "banking",
+      "en": "Banking & insurance",
+      "fr": "Banque & assurance",
+      "it": "Banca & assicurazioni"
+    },
+    {
+      "id": "healthops",
+      "en": "Healthcare operations",
+      "fr": "Opérations de santé",
+      "it": "Operazioni sanitarie"
+    },
+    {
+      "id": "it",
+      "en": "IT, software & cyber",
+      "fr": "IT, logiciel & cyber",
+      "it": "IT, software & cyber"
+    },
+    {
+      "id": "cross",
+      "en": "Cross-functional",
+      "fr": "Transversal",
+      "it": "Trasversale"
+    }
+  ],
+  "solutions": [
+    {
+      "id": "harvey",
+      "vendor": "Harvey",
+      "product": "Harvey",
+      "layer": "vertical",
+      "sectors": [
+        "legal"
+      ],
+      "use_cases": [
+        "NDA and contract first-pass review",
+        "Playbook-based workflow execution",
+        "Matter and document analysis",
+        "Self-service approved legal workflows"
+      ],
+      "autonomy": "supervised action",
+      "human_control": "Legal judgment, exception handling and final approval remain human responsibilities.",
+      "fit": "Legal teams that want a purpose-built environment around firm knowledge, playbooks and governed collaboration.",
+      "caution": "Purpose-built legal product; deployment must preserve confidentiality, privilege, access controls and jurisdiction-specific validation.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://www.harvey.ai/platform/spaces",
+        "https://www.harvey.ai/"
+      ],
+      "voce_evidence": [
+        "lw-legal-astra",
+        "lw-legal-harvey"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Revue initiale de NDA et contrats",
+            "Workflows fondés sur les playbooks",
+            "Analyse de dossiers et documents",
+            "Workflows juridiques approuvés en self-service"
+          ],
+          "fit": "Équipes juridiques recherchant un environnement métier autour des connaissances, playbooks et collaborations gouvernées.",
+          "caution": "Préserver confidentialité, secret professionnel, contrôle des accès et validation selon la juridiction."
+        },
+        "it": {
+          "use_cases": [
+            "Prima revisione di NDA e contratti",
+            "Workflow basati su playbook",
+            "Analisi di pratiche e documenti",
+            "Workflow legali approvati self-service"
+          ],
+          "fit": "Team legali che cercano un ambiente verticale basato su conoscenza, playbook e collaborazione governata.",
+          "caution": "Preservare riservatezza, privilegio professionale, controlli di accesso e validazione per giurisdizione."
+        }
+      }
+    },
+    {
+      "id": "cocounsel",
+      "vendor": "Thomson Reuters",
+      "product": "CoCounsel Legal",
+      "layer": "vertical",
+      "sectors": [
+        "legal"
+      ],
+      "use_cases": [
+        "Legal research",
+        "Issue analysis",
+        "Drafting",
+        "Document review",
+        "Matter-centric multi-step workflows"
+      ],
+      "autonomy": "supervised action",
+      "human_control": "Lawyers remain responsible for strategy, source checking, professional judgment and work product.",
+      "fit": "Legal teams that value workflows grounded in Westlaw, Practical Law and organisation knowledge.",
+      "caution": "Jurisdiction and content coverage vary. Verify availability and authoritative-source scope before deployment.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-launches-next-generation-of-cocounsel-legal-the-ai-ecosystem-built-for-legal-professionals"
+      ],
+      "voce_evidence": [
+        "lw-legal-astra",
+        "lw-legal-harvey"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Recherche juridique",
+            "Analyse de questions de droit",
+            "Rédaction",
+            "Revue documentaire",
+            "Workflows multi-étapes par dossier"
+          ],
+          "fit": "Équipes juridiques privilégiant des workflows ancrés dans Westlaw, Practical Law et leurs propres connaissances.",
+          "caution": "Vérifier la juridiction, la couverture des contenus et la disponibilité exacte avant déploiement."
+        },
+        "it": {
+          "use_cases": [
+            "Ricerca legale",
+            "Analisi giuridica",
+            "Drafting",
+            "Revisione documentale",
+            "Workflow multi-step per pratica"
+          ],
+          "fit": "Team legali che privilegiano workflow fondati su Westlaw, Practical Law e conoscenza interna.",
+          "caution": "Verificare giurisdizione, copertura delle fonti e disponibilità esatta prima del deployment."
+        }
+      }
+    },
+    {
+      "id": "oracle-fusion-claw",
+      "vendor": "Oracle",
+      "product": "Fusion Claw / Fusion Agentic Applications",
+      "layer": "enterprise-suite",
+      "sectors": [
+        "hr",
+        "finance",
+        "cross"
+      ],
+      "use_cases": [
+        "Accounting close readiness and anomaly investigation",
+        "Workforce staffing and schedule replanning",
+        "Collections",
+        "Supply-chain planning and execution"
+      ],
+      "autonomy": "governed execution",
+      "human_control": "Objectives, policies, permissions, thresholds, approvals and escalation boundaries are defined by the organisation.",
+      "fit": "Oracle Fusion customers seeking agentic execution inside ERP/HCM business objects and controls.",
+      "caution": "Capabilities depend on Fusion modules, release and configured operating envelope. Do not infer full autonomy from product naming.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://www.oracle.com/europe/news/announcement/oracle-extends-fusion-agentic-applications-with-introduction-of-fusion-claw-2026-09-29/",
+        "https://docs.oracle.com/en/cloud/saas/fusion-ai/fusion-claw.html"
+      ],
+      "voce_evidence": [
+        "lw-oracle-hr-finance",
+        "lw-agent-audit",
+        "lw-agent-explanations"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Préparation de clôture et anomalies comptables",
+            "Planification RH et révision des horaires",
+            "Recouvrement",
+            "Planification et exécution supply chain"
+          ],
+          "fit": "Clients Oracle Fusion voulant exécuter des processus agentiques directement dans les objets ERP/HCM et leurs contrôles.",
+          "caution": "Les capacités dépendent des modules, de la version et de l'Operating Envelope configuré."
+        },
+        "it": {
+          "use_cases": [
+            "Preparazione della chiusura e anomalie contabili",
+            "Staffing e ripianificazione turni",
+            "Collections",
+            "Pianificazione ed esecuzione supply chain"
+          ],
+          "fit": "Clienti Oracle Fusion che vogliono esecuzione agentica dentro oggetti e controlli ERP/HCM.",
+          "caution": "Le capacità dipendono da moduli, release e Operating Envelope configurato."
+        }
+      }
+    },
+    {
+      "id": "servicenow-ai-agents",
+      "vendor": "ServiceNow",
+      "product": "AI Agents / Autonomous Workforce",
+      "layer": "enterprise-workflow",
+      "sectors": [
+        "hr",
+        "finance",
+        "legal",
+        "it",
+        "cross"
+      ],
+      "use_cases": [
+        "Employee service",
+        "HR case resolution",
+        "Finance operations",
+        "Procurement",
+        "Legal service workflows",
+        "IT service and security workflows"
+      ],
+      "autonomy": "configurable",
+      "human_control": "Sensitive cases can be escalated; policies, workflows, security and AI Control Tower govern execution.",
+      "fit": "Organisations already using ServiceNow as a workflow and service-management layer across functions.",
+      "caution": "The practical boundary of an agent is the configured workflow, data fabric and permissions, not the marketing label.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://www.servicenow.com/products/ai-agents.html",
+        "https://www.servicenow.com/solutions/employee-experience.html"
+      ],
+      "voce_evidence": [
+        "lw-servicenow-build",
+        "lw-agent-permissions",
+        "lw-agent-audit",
+        "lw-agent-evaluation"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Services aux salariés",
+            "Résolution de cas RH",
+            "Opérations finance",
+            "Achats",
+            "Workflows juridiques",
+            "IT et sécurité"
+          ],
+          "fit": "Organisations utilisant déjà ServiceNow comme couche de workflow transverse.",
+          "caution": "La frontière réelle de l'agent reste celle des workflows, données et permissions configurés."
+        },
+        "it": {
+          "use_cases": [
+            "Servizi ai dipendenti",
+            "Risoluzione casi HR",
+            "Operazioni finance",
+            "Procurement",
+            "Workflow legal",
+            "IT e sicurezza"
+          ],
+          "fit": "Organizzazioni che usano ServiceNow come livello di workflow trasversale.",
+          "caution": "Il confine reale dell'agente è definito da workflow, dati e permessi configurati."
+        }
+      }
+    },
+    {
+      "id": "workday-sana",
+      "vendor": "Workday",
+      "product": "Sana AI Agents",
+      "layer": "enterprise-suite",
+      "sectors": [
+        "hr",
+        "finance",
+        "it"
+      ],
+      "use_cases": [
+        "Employee and manager self-service",
+        "HR workflows",
+        "Finance work",
+        "IT work",
+        "Agent teams orchestrated around Workday data and rules"
+      ],
+      "autonomy": "configurable",
+      "human_control": "Deployment remains bounded by Workday data, policies and the organisation's configured rules.",
+      "fit": "Workday customers seeking agents grounded in workforce and finance data.",
+      "caution": "Availability and individual agent capabilities vary by product and tenant. Validate the precise agent before procurement.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://www.workday.com/en-us/artificial-intelligence/ai-agents.html"
+      ],
+      "voce_evidence": [
+        "lw-oracle-hr-finance",
+        "lw-workforce-apprenticeship"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Self-service salariés et managers",
+            "Workflows RH",
+            "Finance",
+            "IT",
+            "Équipes d'agents orchestrées autour des données Workday"
+          ],
+          "fit": "Clients Workday voulant des agents ancrés dans les données workforce et finance.",
+          "caution": "Valider la disponibilité exacte de chaque agent et capacité dans le tenant concerné."
+        },
+        "it": {
+          "use_cases": [
+            "Self-service dipendenti e manager",
+            "Workflow HR",
+            "Finance",
+            "IT",
+            "Team di agenti su dati Workday"
+          ],
+          "fit": "Clienti Workday che cercano agenti fondati sui dati workforce e finance.",
+          "caution": "Verificare disponibilità e capacità del singolo agente nel tenant interessato."
+        }
+      }
+    },
+    {
+      "id": "sap-joule",
+      "vendor": "SAP",
+      "product": "Joule Agents",
+      "layer": "enterprise-suite",
+      "sectors": [
+        "hr",
+        "finance",
+        "cross"
+      ],
+      "use_cases": [
+        "Finance decision support and automation",
+        "HR recruiting and operations",
+        "Procurement",
+        "Supply-chain workflows"
+      ],
+      "autonomy": "configurable",
+      "human_control": "Agents operate through SAP business applications, data and process controls; material decisions still require organisational governance.",
+      "fit": "SAP estates where business context is already represented in SAP data and processes.",
+      "caution": "Confirm which Joule agents are generally available for the required module and geography.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://www.sap.com/joule",
+        "https://www.sap.com/uk/use-cases/joule-assistant/hr-operations-ai"
+      ],
+      "voce_evidence": [
+        "lw-oracle-hr-finance",
+        "lw-workforce-apprenticeship"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Automatisation et aide à la décision finance",
+            "Recrutement et opérations RH",
+            "Achats",
+            "Supply chain"
+          ],
+          "fit": "Environnements SAP où le contexte métier réside déjà dans les données et processus SAP.",
+          "caution": "Vérifier la disponibilité générale de l'agent Joule requis selon module et géographie."
+        },
+        "it": {
+          "use_cases": [
+            "Automazione e decision support finance",
+            "Recruiting e operazioni HR",
+            "Procurement",
+            "Supply chain"
+          ],
+          "fit": "Ambienti SAP in cui contesto e processi aziendali sono già rappresentati in SAP.",
+          "caution": "Verificare la disponibilità generale del Joule Agent richiesto per modulo e geografia."
+        }
+      }
+    },
+    {
+      "id": "microsoft-copilot-studio",
+      "vendor": "Microsoft",
+      "product": "Copilot Studio",
+      "layer": "agent-platform",
+      "sectors": [
+        "hr",
+        "finance",
+        "it",
+        "cross"
+      ],
+      "use_cases": [
+        "Recruitment assistance",
+        "Balance-sheet reconciliation",
+        "IT support",
+        "Custom agents connected through workflows, connectors, REST APIs and MCP"
+      ],
+      "autonomy": "configurable",
+      "human_control": "Actions should inherit business-system permissions and explicit approval boundaries.",
+      "fit": "Microsoft-heavy organisations that want to build and distribute custom agents across Teams, web and enterprise apps.",
+      "caution": "Copilot Studio is a construction and orchestration layer, not a domain authority for law, accounting or HR compliance.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio",
+        "https://learn.microsoft.com/en-us/microsoft-copilot-studio/agents-overview"
+      ],
+      "voce_evidence": [
+        "lw-agui",
+        "lw-agent-permissions",
+        "lw-mcp-scale",
+        "lw-agent-evaluation",
+        "lw-agent-audit"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Aide au recrutement",
+            "Rapprochement de bilan",
+            "Support IT",
+            "Agents connectés aux workflows, API et MCP"
+          ],
+          "fit": "Organisations Microsoft souhaitant construire puis diffuser des agents personnalisés.",
+          "caution": "Copilot Studio orchestre et construit; il ne constitue pas une autorité métier juridique, RH ou comptable."
+        },
+        "it": {
+          "use_cases": [
+            "Supporto recruiting",
+            "Riconciliazione bilancio",
+            "Supporto IT",
+            "Agenti con workflow, API e MCP"
+          ],
+          "fit": "Organizzazioni Microsoft che vogliono costruire e distribuire agenti personalizzati.",
+          "caution": "Copilot Studio è un livello di costruzione e orchestrazione, non un'autorità verticale legale, HR o contabile."
+        }
+      }
+    },
+    {
+      "id": "alibaba-model-studio",
+      "vendor": "Alibaba Cloud",
+      "product": "Model Studio / Qwen",
+      "layer": "build-platform",
+      "sectors": [
+        "legal",
+        "hr",
+        "finance",
+        "culture",
+        "marketing",
+        "banking",
+        "it",
+        "cross"
+      ],
+      "use_cases": [
+        "Custom RAG assistants and agents",
+        "Function and tool calling",
+        "MCP-connected workflows",
+        "PDF understanding",
+        "OCR and structured document extraction",
+        "Multimodal and voice interfaces"
+      ],
+      "autonomy": "configurable",
+      "human_control": "The deploying organisation defines tools, permissions, knowledge bases and action boundaries.",
+      "fit": "Teams building their own domain agents or document pipelines, especially where Qwen and Alibaba Cloud infrastructure are strategic.",
+      "caution": "This is a model and agent-building platform, not a packaged legal, HR or accounting authority. Region-specific feature availability matters.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://www.alibabacloud.com/help/en/model-studio/single-agent-application",
+        "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/tool-calls",
+        "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-vl-ocr"
+      ],
+      "voce_evidence": [
+        "lw-alibaba-voice",
+        "lw-mcp-scale",
+        "lw-doc-intelligence",
+        "lw-spiffe",
+        "lw-agent-evaluation"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Agents et assistants RAG sur mesure",
+            "Appels de fonctions et d'outils",
+            "Workflows MCP",
+            "Compréhension PDF",
+            "OCR et extraction structurée",
+            "Interfaces multimodales et vocales"
+          ],
+          "fit": "Équipes construisant leurs propres agents métiers ou chaînes documentaires, notamment autour de Qwen et Alibaba Cloud.",
+          "caution": "Plateforme de modèles et d'agents, pas produit juridique/RH/comptable clé en main. La disponibilité varie selon les régions."
+        },
+        "it": {
+          "use_cases": [
+            "Agenti e assistenti RAG personalizzati",
+            "Function e tool calling",
+            "Workflow MCP",
+            "Comprensione PDF",
+            "OCR ed estrazione strutturata",
+            "Interfacce multimodali e vocali"
+          ],
+          "fit": "Team che costruiscono agenti verticali o pipeline documentali su Qwen e Alibaba Cloud.",
+          "caution": "Piattaforma di modelli e agenti, non prodotto legale/HR/contabile pronto all'uso. Le feature variano per regione."
+        }
+      }
+    },
+    {
+      "id": "zai-glm",
+      "vendor": "Z.ai",
+      "product": "GLM / Z.ai API",
+      "layer": "foundation-model",
+      "sectors": [
+        "legal",
+        "hr",
+        "finance",
+        "culture",
+        "marketing",
+        "banking",
+        "it",
+        "cross"
+      ],
+      "use_cases": [
+        "Custom reasoning assistants",
+        "Tool-using agents",
+        "Long-document and research workflows",
+        "OpenAI-compatible model integration"
+      ],
+      "autonomy": "build-dependent",
+      "human_control": "All domain grounding, permissions, validation and action policy must be supplied by the application around the model.",
+      "fit": "Engineering teams that want a general-purpose GLM model layer for custom applications or agent systems.",
+      "caution": "Not a packaged legal, HR, museum or accounting product. Domain authority must come from connected data and controls.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://z.ai/"
+      ],
+      "voce_evidence": [
+        "lw-mcp-scale",
+        "lw-agent-permissions",
+        "lw-doc-intelligence",
+        "lw-agent-evaluation",
+        "lw-agent-explanations"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Assistants de raisonnement sur mesure",
+            "Agents utilisant des outils",
+            "Workflows de documents longs et recherche",
+            "Intégration de modèles via API"
+          ],
+          "fit": "Équipes d'ingénierie recherchant une couche GLM généraliste pour applications ou agents sur mesure.",
+          "caution": "Ce n'est pas un produit métier packagé. Corpus, permissions, validation et politiques d'action doivent être construits autour du modèle."
+        },
+        "it": {
+          "use_cases": [
+            "Assistenti di ragionamento personalizzati",
+            "Agenti con strumenti",
+            "Workflow su documenti lunghi e ricerca",
+            "Integrazione via API"
+          ],
+          "fit": "Team engineering che vogliono un livello GLM general purpose per applicazioni o agenti custom.",
+          "caution": "Non è un prodotto verticale: corpus, permessi, validazione e policy di azione devono essere costruiti attorno al modello."
+        }
+      }
+    },
+    {
+      "id": "seedance",
+      "vendor": "ByteDance Seed",
+      "product": "Seedance 2.5",
+      "layer": "creative-media",
+      "sectors": [
+        "culture",
+        "marketing",
+        "cross"
+      ],
+      "use_cases": [
+        "Exhibition and campaign video prototyping",
+        "Multimodal reference-based creation",
+        "Longer-form audiovisual storytelling",
+        "Targeted video editing",
+        "Training and process-demonstration media"
+      ],
+      "autonomy": "creative generation",
+      "human_control": "Editorial direction, rights clearance, factual accuracy, brand control and publication remain human responsibilities.",
+      "fit": "Museums, cultural institutions and brands that need controlled high-volume audiovisual creation rather than operational workflow automation.",
+      "caution": "Seedance is a creative model, not a museum ticketing, legal or accounting agent. Rights, provenance and likeness policies require separate governance.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://seed.bytedance.com/en/seedance2_5",
+        "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
+      ],
+      "voce_evidence": [
+        "lw-luxury-content",
+        "lw-alibaba-voice"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Prototypage vidéo d'exposition et de campagne",
+            "Création à partir de références multimodales",
+            "Narration audiovisuelle",
+            "Édition vidéo ciblée",
+            "Médias de formation et démonstration"
+          ],
+          "fit": "Musées, institutions culturelles et marques ayant besoin d'une production audiovisuelle contrôlée à volume élevé.",
+          "caution": "Seedance est un modèle créatif, pas un agent de billetterie, juridique ou comptable. Droits, provenance et ressemblance exigent une gouvernance séparée."
+        },
+        "it": {
+          "use_cases": [
+            "Prototipi video per mostre e campagne",
+            "Creazione con riferimenti multimodali",
+            "Storytelling audiovisivo",
+            "Editing video mirato",
+            "Media per training e dimostrazione"
+          ],
+          "fit": "Musei, istituzioni culturali e brand che richiedono produzione audiovisiva controllata ad alto volume.",
+          "caution": "Seedance è un modello creativo, non un agente ticketing, legale o contabile. Diritti e provenienza richiedono governance separata."
+        }
+      }
+    },
+    {
+      "id": "vivenu",
+      "vendor": "vivenu",
+      "product": "Enterprise ticketing / API-first attractions platform",
+      "layer": "vertical-infrastructure",
+      "sectors": [
+        "culture"
+      ],
+      "use_cases": [
+        "Museum and attraction ticketing",
+        "Timed entry",
+        "POS and access",
+        "OTA distribution",
+        "CRM/data integrations",
+        "API-first custom visitor journeys"
+      ],
+      "autonomy": "system-of-record",
+      "human_control": "Institutional teams define distribution, pricing, access, data use and integrations.",
+      "fit": "Museums and cultural organisations that want a ticketing backbone with APIs, white-label journeys and data ownership.",
+      "caution": "Ticketing infrastructure should be separated from agent permissions: payment, reservation, access and fraud functions should not share unnecessary authority.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://vivenu.com/solutions/attractions",
+        "https://vivenu.com/for/developers"
+      ],
+      "voce_evidence": [
+        "lw-museum-api"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Billetterie musées et attractions",
+            "Entrées horodatées",
+            "POS et contrôle d'accès",
+            "Distribution OTA",
+            "Intégrations CRM et données",
+            "Parcours visiteurs API-first"
+          ],
+          "fit": "Musées et institutions culturelles recherchant une infrastructure de billetterie ouverte, white-label et connectable.",
+          "caution": "Séparer les permissions: paiement, réservation, accès et fraude ne devraient pas partager une autorité inutile."
+        },
+        "it": {
+          "use_cases": [
+            "Ticketing per musei e attrazioni",
+            "Ingressi a fascia oraria",
+            "POS e accesso",
+            "Distribuzione OTA",
+            "Integrazioni CRM e dati",
+            "Journey API-first"
+          ],
+          "fit": "Musei e istituzioni culturali che cercano infrastruttura ticketing aperta, white-label e integrabile.",
+          "caution": "Separare i permessi: pagamento, prenotazione, accesso e frode non dovrebbero condividere autorità non necessaria."
+        }
+      }
+    },
+    {
+      "id": "pabau-agent-workforce",
+      "vendor": "Pabau",
+      "product": "Agent Workforce",
+      "layer": "vertical",
+      "sectors": [
+        "healthops"
+      ],
+      "use_cases": [
+        "Reception and phone workflows",
+        "Appointment booking and rescheduling",
+        "Invoice follow-up",
+        "Lead reactivation",
+        "Marketing and sales operations"
+      ],
+      "autonomy": "supervised-to-configurable",
+      "human_control": "VOCE's September 2026 review documented staged autonomy and mandatory supervision for selected skills, with no automatic medical-record modification.",
+      "fit": "Clinics already operating on Pabau that want agents acting on the same operational data.",
+      "caution": "Operational automation must remain separated from clinical judgment and protected medical data.",
+      "verified_at": "2026-09-23",
+      "official_sources": [
+        "https://pabau.com/"
+      ],
+      "voce_evidence": [
+        "lw-pabau"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Réception et téléphonie",
+            "Réservation et déplacement de rendez-vous",
+            "Relance de factures",
+            "Réactivation de prospects",
+            "Marketing et vente"
+          ],
+          "fit": "Cliniques déjà sur Pabau voulant faire agir des agents sur les mêmes données opérationnelles.",
+          "caution": "Séparer strictement automatisation opérationnelle, jugement clinique et données médicales protégées."
+        },
+        "it": {
+          "use_cases": [
+            "Reception e telefonia",
+            "Prenotazione e spostamento appuntamenti",
+            "Follow-up fatture",
+            "Riattivazione lead",
+            "Marketing e vendite"
+          ],
+          "fit": "Cliniche già su Pabau che vogliono agenti operativi sugli stessi dati.",
+          "caution": "Separare rigorosamente automazione operativa, giudizio clinico e dati sanitari protetti."
+        }
+      }
+    },
+    {
+      "id": "vcomply-mcp",
+      "vendor": "VComply",
+      "product": "MCP integrations",
+      "layer": "vertical",
+      "sectors": [
+        "legal"
+      ],
+      "use_cases": [
+        "Compliance obligation retrieval",
+        "Programme and responsibility status",
+        "Performance review",
+        "Task comments and closure from an AI assistant"
+      ],
+      "autonomy": "supervised action",
+      "human_control": "Permissions remain tied to the user's VComply identity and can be constrained tool by tool.",
+      "fit": "Compliance teams that want the GRC system of record accessible from assistants without copying data into a parallel dashboard.",
+      "caution": "Retrieval and workflow execution do not replace regulatory interpretation or evidence review.",
+      "verified_at": "2026-09-28",
+      "official_sources": [
+        "https://www.v-comply.com/"
+      ],
+      "voce_evidence": [
+        "lw-vcomply"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Recherche d'obligations de conformité",
+            "Statuts de programmes et responsabilités",
+            "Analyse de performance",
+            "Commentaires et clôture de tâches depuis l'assistant"
+          ],
+          "fit": "Équipes conformité souhaitant interroger leur GRC depuis l'assistant sans dupliquer le système de référence.",
+          "caution": "L'exécution du workflow ne remplace ni l'interprétation réglementaire ni la revue de preuve."
+        },
+        "it": {
+          "use_cases": [
+            "Ricerca obblighi di compliance",
+            "Stato programmi e responsabilità",
+            "Performance",
+            "Commenti e chiusura task dall'assistente"
+          ],
+          "fit": "Team compliance che vogliono interrogare il GRC dall'assistente senza duplicare il sistema di record.",
+          "caution": "Workflow e retrieval non sostituiscono interpretazione normativa né revisione delle evidenze."
+        }
+      }
+    },
+    {
+      "id": "positive-group-mcp",
+      "vendor": "Positive Group",
+      "product": "MCP connectors for Surfer, Iconosquare and Signitic",
+      "layer": "vertical-tools",
+      "sectors": [
+        "marketing"
+      ],
+      "use_cases": [
+        "SEO analysis",
+        "Social analytics and publishing",
+        "Brand-signature compliance",
+        "Cross-tool marketing workflows"
+      ],
+      "autonomy": "supervised action",
+      "human_control": "The connected SaaS remains the data and permission boundary; write actions should remain explicit and scoped.",
+      "fit": "Marketing teams reducing manual transfer among specialist SaaS tools.",
+      "caution": "MCP reduces interface switching; it does not create marketing judgment or eliminate the need for brand and publishing controls.",
+      "verified_at": "2026-09-25",
+      "official_sources": [
+        "https://positive.co/"
+      ],
+      "voce_evidence": [
+        "lw-positive-mcp"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Analyse SEO",
+            "Analytics et publication sociale",
+            "Conformité des signatures de marque",
+            "Workflows marketing inter-outils"
+          ],
+          "fit": "Équipes marketing voulant réduire les transferts manuels entre SaaS spécialisés.",
+          "caution": "MCP réduit la navigation entre interfaces; il ne remplace pas le jugement marketing ni les contrôles de publication."
+        },
+        "it": {
+          "use_cases": [
+            "Analisi SEO",
+            "Analytics e pubblicazione social",
+            "Compliance firme di brand",
+            "Workflow marketing tra strumenti"
+          ],
+          "fit": "Team marketing che vogliono ridurre i passaggi manuali fra SaaS specialistici.",
+          "caution": "MCP riduce il cambio di interfaccia; non sostituisce il giudizio marketing o i controlli di pubblicazione."
+        }
+      }
+    },
+    {
+      "id": "unit42-continuous",
+      "vendor": "Palo Alto Networks Unit 42",
+      "product": "Continuous Frontier AI Defense",
+      "layer": "cyber",
+      "sectors": [
+        "it"
+      ],
+      "use_cases": [
+        "Continuous attack-surface mapping",
+        "Multi-model offensive testing",
+        "Vulnerability validation",
+        "Attack-path discovery"
+      ],
+      "autonomy": "supervised offensive automation",
+      "human_control": "Security experts remain responsible for scope, authorisation, criticality, validation and remediation decisions.",
+      "fit": "Security organisations moving from periodic pentests toward continuous testing.",
+      "caution": "Provider performance claims should be independently validated in the organisation's environment before staffing decisions.",
+      "verified_at": "2026-09-24",
+      "official_sources": [
+        "https://www.paloaltonetworks.com/unit42"
+      ],
+      "voce_evidence": [
+        "lw-unit42",
+        "lw-cyber-adaptation",
+        "lw-agent-evaluation"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Cartographie continue de surface d'attaque",
+            "Tests offensifs multi-modèles",
+            "Validation de vulnérabilités",
+            "Découverte de chemins d'attaque"
+          ],
+          "fit": "Organisations cyber passant du pentest périodique au test continu.",
+          "caution": "Les performances annoncées par le fournisseur doivent être vérifiées dans l'environnement propre avant toute décision d'effectif."
+        },
+        "it": {
+          "use_cases": [
+            "Mappatura continua superficie d'attacco",
+            "Test offensivi multi-model",
+            "Validazione vulnerabilità",
+            "Scoperta attack path"
+          ],
+          "fit": "Organizzazioni cyber che passano dal pentest periodico al testing continuo.",
+          "caution": "Le performance dichiarate dal vendor vanno validate nell'ambiente specifico prima di decisioni sulla struttura del team."
+        }
+      }
+    },
+    {
+      "id": "hcl-robotiq",
+      "vendor": "HCLSoftware / Robotiq.ai",
+      "product": "UnO Agentic + Robotiq.ai RPA",
+      "layer": "legacy-execution",
+      "sectors": [
+        "banking",
+        "finance",
+        "it",
+        "cross"
+      ],
+      "use_cases": [
+        "Agent execution in legacy applications without usable APIs",
+        "RPA-based operational handoffs",
+        "Banking and insurance back-office automation"
+      ],
+      "autonomy": "governed execution",
+      "human_control": "Identity, authorisation, audit and transaction boundaries remain essential when agents manipulate legacy interfaces.",
+      "fit": "Enterprises whose critical workflows still live behind browser or desktop interfaces rather than modern APIs.",
+      "caution": "UI automation can be brittle. Regression testing and auditability are mandatory when interfaces change.",
+      "verified_at": "2026-09-30",
+      "official_sources": [
+        "https://www.hcl-software.com/"
+      ],
+      "voce_evidence": [
+        "lw-hcl-robotiq",
+        "lw-spiffe",
+        "lw-agent-permissions"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Exécution agentique dans les applications sans API",
+            "Passages opérationnels par RPA",
+            "Automatisation back-office banque et assurance"
+          ],
+          "fit": "Entreprises dont les processus critiques restent derrière des interfaces web ou desktop legacy.",
+          "caution": "L'automatisation d'interface est fragile: tests de régression et audit sont indispensables après tout changement."
+        },
+        "it": {
+          "use_cases": [
+            "Esecuzione agentica in applicazioni senza API",
+            "Passaggi operativi via RPA",
+            "Automazione back-office banca e assicurazioni"
+          ],
+          "fit": "Imprese con processi critici ancora dietro interfacce web o desktop legacy.",
+          "caution": "L'automazione UI può essere fragile: regression test e audit sono obbligatori dopo cambiamenti."
+        }
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "lw-legal-astra",
+      "date": "2026-09-21",
+      "title": "Les avocats facturaient du temps. L'IA vient d'apprendre le dossier",
+      "path": "/archive/2026/09/21/les-avocats-facturaient-du-temps-l-ia-vient-d-apprendre-le-dossier-7507649958817345536",
+      "sectors": [
+        "legal"
+      ],
+      "themes": [
+        "professional AI",
+        "legal research",
+        "tool integration"
+      ]
+    },
+    {
+      "id": "lw-mcp-scale",
+      "date": "2026-09-21",
+      "title": "Un agent d'IA doit consulter un CRM, rechercher un contrat puis ouvrir un ticket.",
+      "path": "/archive/2026/09/21/un-agent-d-ia-doit-consulter-un-crm-rechercher-un-contrat-puis-ouvrir-un-7507725470881366016",
+      "sectors": [
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "MCP",
+        "scale",
+        "identity",
+        "authorization"
+      ]
+    },
+    {
+      "id": "lw-agent-permissions",
+      "date": "2026-09-22",
+      "title": "L'agent n'a pas besoin d'être piraté. Il suffit qu'il ait trop de droits.",
+      "path": "/archive/2026/09/22/l-agent-n-a-pas-besoin-d-etre-pirate-il-suffit-qu-il-ait-trop-de-droits-7508027480776110080",
+      "sectors": [
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "permissions",
+        "least privilege",
+        "human approval"
+      ]
+    },
+    {
+      "id": "lw-doc-intelligence",
+      "date": "2026-09-22",
+      "title": "Un dossier de prêt arrive.",
+      "path": "/archive/2026/09/22/un-dossier-de-pret-arrive-7508012358439567361",
+      "sectors": [
+        "finance",
+        "banking"
+      ],
+      "themes": [
+        "document intelligence",
+        "human review",
+        "API"
+      ]
+    },
+    {
+      "id": "lw-workforce-apprenticeship",
+      "date": "2026-09-23",
+      "title": "New York, 14 juillet 2026.",
+      "path": "/archive/2026/09/23/new-york-14-juillet-2026-7508586172319711232",
+      "sectors": [
+        "banking",
+        "finance",
+        "cross"
+      ],
+      "themes": [
+        "productivity",
+        "headcount",
+        "apprenticeship"
+      ]
+    },
+    {
+      "id": "lw-event-architecture",
+      "date": "2026-09-23",
+      "title": "Une commande affiche aujourd'hui le statut \"livrée\".",
+      "path": "/archive/2026/09/23/une-commande-affiche-aujourd-hui-le-statut-livree-7508480461036449792",
+      "sectors": [
+        "finance",
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "event architecture",
+        "Kafka",
+        "agent triggers",
+        "idempotency"
+      ]
+    },
+    {
+      "id": "lw-pabau",
+      "date": "2026-09-23",
+      "title": "Une patiente téléphone à une clinique à 22h17.",
+      "path": "/archive/2026/09/23/une-patiente-telephone-a-une-clinique-a-22h17-7508374749568405505",
+      "sectors": [
+        "healthops"
+      ],
+      "themes": [
+        "reception",
+        "finance",
+        "marketing",
+        "sales",
+        "staged autonomy"
+      ]
+    },
+    {
+      "id": "lw-unit42",
+      "date": "2026-09-24",
+      "title": "Unit 42 Continuous Frontier AI Defense: le pentest vient de perdre sa date de fin",
+      "path": "/archive/2026/09/24/unit-42-continuous-frontier-ai-defense-le-pentest-vient-de-perdre-sa-dat-7508737128139366401",
+      "sectors": [
+        "it"
+      ],
+      "themes": [
+        "cybersecurity",
+        "continuous testing",
+        "multi-model"
+      ]
+    },
+    {
+      "id": "lw-luxury-content",
+      "date": "2026-09-25",
+      "title": "Entrez dans une boutique de luxe contemporaine et regardez ce qui a disparu.",
+      "path": "/archive/2026/09/25/luxe-minimalisme-complexite-visuelle",
+      "sectors": [
+        "marketing",
+        "culture"
+      ],
+      "themes": [
+        "creative production",
+        "brand complexity"
+      ]
+    },
+    {
+      "id": "lw-spiffe",
+      "date": "2026-09-25",
+      "title": "Un agent d'IA demande au système de paiement de rembourser un client.",
+      "path": "/archive/2026/09/25/spiffe-identite-agents-ia",
+      "sectors": [
+        "finance",
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "SPIFFE",
+        "workload identity",
+        "permissions"
+      ]
+    },
+    {
+      "id": "lw-positive-mcp",
+      "date": "2026-09-25",
+      "title": "Un responsable marketing ouvre son tableau SEO...",
+      "path": "/archive/2026/09/25/positive-group-mcp-marketing-saas",
+      "sectors": [
+        "marketing"
+      ],
+      "themes": [
+        "MCP",
+        "SaaS",
+        "workflow compression"
+      ]
+    },
+    {
+      "id": "lw-alibaba-voice",
+      "date": "2026-09-26",
+      "title": "Une voix synthétique peut imiter quelqu'un.",
+      "path": "/archive/2026/09/26/une-voix-synthetique-peut-imiter-quelqu-un-7509658207536164864",
+      "sectors": [
+        "marketing",
+        "culture",
+        "cross"
+      ],
+      "themes": [
+        "Alibaba Cloud",
+        "synthetic voice",
+        "agent interface"
+      ]
+    },
+    {
+      "id": "lw-volkswagen",
+      "date": "2026-09-27",
+      "title": "À Hefei, en Chine, une Volkswagen sort de chaîne environ toutes les deux minutes.",
+      "path": "/archive/2026/09/27/a-hefei-en-chine-une-volkswagen-sort-de-chaine-environ-toutes-les-deux-m-7509945107798880256",
+      "sectors": [
+        "cross"
+      ],
+      "themes": [
+        "industry",
+        "automation",
+        "R&D productivity"
+      ]
+    },
+    {
+      "id": "lw-agent-explanations",
+      "date": "2026-09-27",
+      "title": "Lorsqu'une intelligence artificielle donne une réponse puis l'explique...",
+      "path": "/archive/2026/09/27/lorsqu-une-intelligence-artificielle-donne-une-reponse-puis-l-explique-n-7510020597729562624",
+      "sectors": [
+        "legal",
+        "finance",
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "agent governance",
+        "explanations",
+        "audit trail"
+      ]
+    },
+    {
+      "id": "lw-ionos",
+      "date": "2026-09-28",
+      "title": "Karlsruhe, 10 septembre 2026.",
+      "path": "/archive/2026/09/28/karlsruhe-10-septembre-2026-7510322603291750400",
+      "sectors": [
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "productivity",
+        "cost per operation",
+        "cloud"
+      ]
+    },
+    {
+      "id": "lw-vcomply",
+      "date": "2026-09-28",
+      "title": "Un responsable conformité reçoit une question avant un comité:",
+      "path": "/archive/2026/09/28/un-responsable-conformite-recoit-une-question-avant-un-comite-7510186698463707136",
+      "sectors": [
+        "legal"
+      ],
+      "themes": [
+        "compliance",
+        "MCP",
+        "permissions",
+        "apprenticeship"
+      ]
+    },
+    {
+      "id": "lw-cyber-adaptation",
+      "date": "2026-09-29",
+      "title": "Pendant des années, une nouvelle signature de sécurité imposait un coût à l'attaquant.",
+      "path": "/archive/2026/09/29/pendant-des-annees-une-nouvelle-signature-de-securite-imposait-un-cout-a-7510564205050241025",
+      "sectors": [
+        "it"
+      ],
+      "themes": [
+        "cybersecurity",
+        "agentic misuse",
+        "adaptive attack"
+      ]
+    },
+    {
+      "id": "lw-agui",
+      "date": "2026-09-29",
+      "title": "Un agent commence une tâche dans une application.",
+      "path": "/archive/2026/09/29/un-agent-commence-une-tache-dans-une-application-7510549070520954882",
+      "sectors": [
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "AG-UI",
+        "human approval",
+        "agent interface"
+      ]
+    },
+    {
+      "id": "lw-hcl-robotiq",
+      "date": "2026-09-30",
+      "title": "Zagreb, 29 septembre 2026.",
+      "path": "/archive/2026/09/30/zagreb-29-septembre-2026-7510911458579361792",
+      "sectors": [
+        "banking",
+        "finance",
+        "it"
+      ],
+      "themes": [
+        "RPA",
+        "legacy applications",
+        "banking agents"
+      ]
+    },
+    {
+      "id": "lw-europe-location",
+      "date": "2026-10-01",
+      "title": "27 septembre 2026.",
+      "path": "/archive/2026/10/01/27-septembre-2026-7511319168122716162",
+      "sectors": [
+        "cross"
+      ],
+      "themes": [
+        "AI infrastructure",
+        "investment",
+        "Europe"
+      ]
+    },
+    {
+      "id": "lw-agent-audit",
+      "date": "2026-10-01",
+      "title": "9 septembre 2026.",
+      "path": "/archive/2026/10/01/9-septembre-2026-7511288960799764482",
+      "sectors": [
+        "finance",
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "AgentAudit",
+        "tool use",
+        "auditability",
+        "unsafe compliance"
+      ]
+    },
+    {
+      "id": "lw-oracle-hr-finance",
+      "date": "2026-10-01",
+      "title": "Deux salariés sont absents. Une responsable RH doit revoir les horaires...",
+      "path": "/archive/2026/10/01/deux-salaries-sont-absents-une-responsable-rh-doit-revoir-les-horaires-s-7511273843643129856",
+      "sectors": [
+        "hr",
+        "finance"
+      ],
+      "themes": [
+        "Oracle Fusion Claw",
+        "staffing",
+        "ledger",
+        "governed execution"
+      ]
+    },
+    {
+      "id": "lw-unitree",
+      "date": "2026-10-01",
+      "title": "Hangzhou, Chine.",
+      "path": "/archive/2026/10/01/hangzhou-chine-7511304070486413312",
+      "sectors": [
+        "cross"
+      ],
+      "themes": [
+        "robotics",
+        "humanoids",
+        "physical automation"
+      ]
+    },
+    {
+      "id": "lw-retry-budget",
+      "date": "2026-10-01",
+      "title": "Un service reçoit 10.000 requêtes par seconde.",
+      "path": "/archive/2026/10/01/un-service-recoit-10-000-requetes-par-seconde-7511379570923589632",
+      "sectors": [
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "resilience",
+        "retry budget",
+        "agent architecture"
+      ]
+    },
+    {
+      "id": "lw-servicenow-build",
+      "date": "2026-10-02",
+      "title": "29 septembre 2026.",
+      "path": "/archive/2026/10/02/29-septembre-2026-7511636227368873984",
+      "sectors": [
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "ServiceNow",
+        "software generation",
+        "requirements",
+        "human approval"
+      ]
+    },
+    {
+      "id": "lw-agent-supply-chain",
+      "date": "2026-10-02",
+      "title": "Septembre 2025.",
+      "path": "/archive/2026/10/02/septembre-2025-7511757069033836544",
+      "sectors": [
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "MCP",
+        "software supply chain",
+        "dependency risk"
+      ]
+    },
+    {
+      "id": "lw-agent-evaluation",
+      "date": "2026-10-02",
+      "title": "Un agent corrige un logiciel. Tous les tests passent.",
+      "path": "/archive/2026/10/02/un-agent-corrige-un-logiciel-tous-les-tests-passent-il-a-pourtant-pu-uti-7511696671920103425",
+      "sectors": [
+        "it",
+        "cross"
+      ],
+      "themes": [
+        "evaluation",
+        "observability",
+        "permissions",
+        "cost"
+      ]
+    },
+    {
+      "id": "lw-legal-harvey",
+      "date": "2026-10-02",
+      "title": "Un NDA arrive par e-mail.",
+      "path": "/archive/2026/10/02/un-nda-arrive-par-e-mail-7511742165476352000",
+      "sectors": [
+        "legal"
+      ],
+      "themes": [
+        "Harvey",
+        "NDA",
+        "playbooks",
+        "legal workflows"
+      ]
+    },
+    {
+      "id": "lw-museum-api",
+      "date": "2026-10-04",
+      "title": "Le Louvre dépense 80 millions pour sa sûreté. Une API peut encore ouvrir une autre porte",
+      "path": "/archive/2026/10/04/le-louvre-depense-80-millions-pour-sa-surete-une-api-peut-encore-ouvrir-7512360998960427008",
+      "sectors": [
+        "culture",
+        "it"
+      ],
+      "themes": [
+        "museum",
+        "ticketing",
+        "API",
+        "permissions",
+        "segmentation"
+      ]
+    }
+  ]
+}

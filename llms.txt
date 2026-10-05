@@ -11,6 +11,7 @@ VOCE Atlas relation records: https://voce.life/atlas/relations/{source}--{target
 VOCE Applied: https://voce.life/applied
 VOCE Applied French: https://voce.life/fr/applied
 VOCE Applied Italian: https://voce.life/it/applied
+VOCE Applied Solutions registry: https://voce.life/data/applied-solutions.json
 Machine-readable corpus: https://voce.life/data/corpus.json
 NDJSON corpus: https://voce.life/data/corpus.ndjson
 RSS feed: https://voce.life/feed.xml
@@ -40,6 +41,10 @@ VOCE Association, title of the publication, publication date, canonical voce.lif
 ## Atlas relation records
 
 Each published Atlas relation has a permanent evidence-backed HTML record in English, French and Italian. Atlas path exploration traverses individually documented relations; a multi-step path is a documentary connection and is not, by itself, a causal claim.
+
+## Applied Solutions
+
+VOCE Applied includes a decision-oriented registry connecting documented agent and LI!GHT WORKFORCE © use cases to current software, enterprise suites, agent platforms, model infrastructure and creative systems. Vendor inclusion is documentary and does not constitute recommendation, certification or commercial ranking.
 
 ## Permanent article routes
 

@@ -11,7 +11,7 @@
 <link rel="alternate" hreflang="fr" href="https://voce.life/fr/applied">
 <link rel="alternate" hreflang="it" href="https://voce.life/it/applied">
 <link rel="alternate" hreflang="x-default" href="https://voce.life/applied">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">\n<link rel="alternate" type="application/json" href="/data/applied-solutions.json" title="VOCE Applied Solutions registry">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="VOCE">
 <meta property="og:title" content="VOCE Applied — Enterprises, museums & foundations">
@@ -87,6 +87,20 @@
 </section>
 </div></section>
 
+<section class="applied-solutions" id="applied-solutions"><div class="wrap">
+<div class="applied-split applied-solutions-intro">
+<div class="eyebrow">VOCE Solutions</div>
+<div><h2 class="applied-display">Start with the work. Then choose the system.</h2><p class="applied-lead">A decision-oriented registry linking VOCE research on agents and LI!GHT WORKFORCE © to software that can actually be evaluated or deployed. Legal, HR, finance, museums, marketing, banking, healthcare operations and IT are separated by use case, autonomy and control model.</p><p class="applied-note" id="solution-independence"></p></div>
+</div>
+<div class="solution-toolbar">
+<div class="solution-stats"><span id="solution-count">—</span><span id="solution-evidence-count">—</span><a href="/data/applied-solutions.json">JSON registry →</a></div>
+<label class="solution-search"><span>Find</span><input id="solution-search" type="search" autocomplete="off" aria-label="Search the VOCE Solutions registry"></label>
+<div class="solution-filters" id="solution-filters" aria-label="Filter solutions by sector"></div>
+</div>
+<div class="solution-cards" id="solution-cards"></div>
+<details class="solution-library"><summary>VOCE evidence library · agents & LI!GHT WORKFORCE ©</summary><div id="solution-evidence" class="solution-evidence"></div></details>
+</div></section>
+
 <section class="applied-art"><div class="wrap applied-split">
 <div class="eyebrow">VOCE Art</div>
 <div><h2 class="applied-display">Art & documentary expertise remain a distinct practice.</h2><p class="applied-lead">For foundations, collections and artistic projects, VOCE can mobilise provenance-led research, documentary review and specialist coordination. Because these missions have different confidentiality and expertise requirements, they remain housed within VOCE Art rather than being folded into a generic consulting offer.</p><a class="applied-link" href="/art">Explore VOCE Art →</a></div>
@@ -130,4 +144,4 @@
 localStorage.setItem("voce-lang","en");
 document.querySelectorAll(".lang a").forEach(a=>a.addEventListener("click",()=>{const h=a.getAttribute("href")||"";localStorage.setItem("voce-lang",h.startsWith("/fr/")?"fr":h.startsWith("/it/")?"it":"en")}));
 </script>
-</body></html>
+<script src="/solutions.js" defer></script>\n</body></html>
