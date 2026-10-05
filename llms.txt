@@ -42,9 +42,13 @@ VOCE Association, title of the publication, publication date, canonical voce.lif
 
 Each published Atlas relation has a permanent evidence-backed HTML record in English, French and Italian. Atlas path exploration traverses individually documented relations; a multi-step path is a documentary connection and is not, by itself, a causal claim.
 
+## VOCE Standards
+
+VOCE Standards define institutional orchestration: decision-grade evidence, specialist authority, segregation of duties, vendor neutrality, concentration risk, reversibility, economics, optionality, continuous assurance and professional responsibility. Opera is used as an operating metaphor for coordinating distinct expert voices without collapsing their disciplinary authority.
+
 ## Applied Solutions
 
-VOCE Applied includes a decision-oriented registry connecting documented agent and LI!GHT WORKFORCE © use cases to current software, enterprise suites, agent platforms, model infrastructure and creative systems. Each solution carries an institutional due-diligence profile covering public evidence on deployment, data boundaries, identity and access, auditability, interfaces, pricing and availability. Missing public documentation is marked explicitly rather than inferred. Vendor inclusion is documentary and does not constitute recommendation, certification or commercial ranking.
+VOCE Applied includes a decision-oriented registry connecting documented agent and LI!GHT WORKFORCE © use cases to current software, enterprise suites, agent platforms, model infrastructure and creative systems. Each solution carries an institutional due-diligence profile covering public evidence on deployment, data boundaries, identity and access, auditability, interfaces, pricing and availability. Schema v3 also records provider/model origin, openness, licence, self-hosting and commercial-use conditions so hosted Chinese cloud services can be distinguished from open-weight or source-available Chinese models. Missing public documentation is marked explicitly rather than inferred. Vendor inclusion is documentary and does not constitute recommendation, certification or commercial ranking.
 
 ## Permanent article routes
 
