@@ -17,6 +17,7 @@ VOCE Agent Infrastructure Reference JSON: https://voce.life/data/agent-infrastru
 VOCE Agent Conformance: https://voce.life/agent-conformance
 VOCE Agent Conformance framework: https://voce.life/data/agent-conformance.json
 VOCE Agent Conformance control records: https://voce.life/agent-conformance/controls/{control-id}
+VOCE Agent Conformance executive lenses: https://voce.life/agent-conformance/lens/{board|risk|technology|audit}/{a0|a1|a2|a3|a4}
 Machine-readable corpus: https://voce.life/data/corpus.json
 NDJSON corpus: https://voce.life/data/corpus.ndjson
 RSS feed: https://voce.life/feed.xml
@@ -57,7 +58,7 @@ VOCE Agent Infrastructure Reference — Europe 2026 is a vendor-neutral public c
 
 ## Agent Conformance
 
-VOCE Agent Conformance operationalises the Agent Infrastructure Reference through 48 stable controls across 10 domains. It uses five evidence states — Absent, Declared, Documented, Tested and Verified in operation — and explicitly avoids an aggregate score that could hide one critical authority gap. The public Self Assessment runs locally in the browser. Reviewed and Observed modes require VOCE specialist review and do not constitute EU or ISO certification. Every control has a permanent indexable record in EN/FR/IT with its stable identifier, normative question, maturity floor, criticality, target evidence state, expected owner and evidence list.
+VOCE Agent Conformance operationalises the Agent Infrastructure Reference through 48 stable controls across 10 domains. It uses five evidence states — Absent, Declared, Documented, Tested and Verified in operation — and explicitly avoids an aggregate score that could hide one critical authority gap. The public Self Assessment runs locally in the browser. Reviewed and Observed modes require VOCE specialist review and do not constitute EU or ISO certification. Every control has a permanent indexable record in EN/FR/IT with its stable identifier, normative question, maturity floor, criticality, target evidence state, expected owner and evidence list. Four shareable executive lenses — Board, Risk, Technology and Audit — are published for each maturity level A0–A4 without exposing private assessment data.
 
 ## Applied Solutions
 
