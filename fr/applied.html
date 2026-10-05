@@ -87,6 +87,20 @@
 </section>
 </div></section>
 
+<section class="applied-solutions" id="applied-solutions"><div class="wrap">
+<div class="applied-split applied-solutions-intro">
+<div class="eyebrow">VOCE Solutions</div>
+<div><h2 class="applied-display">Partir du travail. Ensuite choisir le système.</h2><p class="applied-lead">Un registre d’aide à la décision reliant la recherche VOCE sur les agents et LI!GHT WORKFORCE © aux logiciels réellement évaluables ou déployables. Juridique, RH, finance, musées, marketing, banque, opérations de santé et IT sont séparés selon l’usage, l’autonomie et le modèle de contrôle.</p><p class="applied-note" id="solution-independence"></p></div>
+</div>
+<div class="solution-toolbar">
+<div class="solution-stats"><span id="solution-count">—</span><span id="solution-evidence-count">—</span><a href="/data/applied-solutions.json">Registre JSON →</a></div>
+<label class="solution-search"><span>Rechercher</span><input id="solution-search" type="search" autocomplete="off" aria-label="Rechercher dans VOCE Solutions"></label>
+<div class="solution-filters" id="solution-filters" aria-label="Filtrer les solutions par métier"></div>
+</div>
+<div class="solution-cards" id="solution-cards"></div>
+<details class="solution-library"><summary>Bibliothèque de preuves VOCE · tous les dossiers LI!GHT WORKFORCE ©</summary><div id="solution-evidence" class="solution-evidence"></div></details>
+</div></section>
+
 <section class="applied-art"><div class="wrap applied-split">
 <div class="eyebrow">VOCE Art</div>
 <div><h2 class="applied-display">L’art & l’expertise documentaire restent une pratique distincte.</h2><p class="applied-lead">Pour les fondations, collections et projets artistiques, VOCE peut mobiliser recherche de provenance, étude documentaire et coordination de spécialistes. Ces missions ayant des exigences propres de confidentialité et d’expertise, elles restent rattachées à VOCE Art plutôt que fondues dans une offre générique de conseil.</p><a class="applied-link" href="/art">Explorer VOCE Art →</a></div>
@@ -130,4 +144,4 @@
 localStorage.setItem("voce-lang","fr");
 document.querySelectorAll(".lang a").forEach(a=>a.addEventListener("click",()=>{const h=a.getAttribute("href")||"";localStorage.setItem("voce-lang",h.startsWith("/fr/")?"fr":h.startsWith("/it/")?"it":"en")}));
 </script>
-</body></html>
+<script src="/solutions.js" defer></script>\n</body></html>
