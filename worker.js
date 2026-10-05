@@ -970,6 +970,41 @@ function cognitiveSearchExpansion(controls) {
   return domains.flatMap(d=>lex[d]||[]).slice(0,16).join(" ");
 }
 
+
+function cognitiveEvidenceFallback(controls, corpus, routes, limit = 7) {
+  const routeByPath = new Map((routes.items || []).map(route => [route.path, route]));
+  const itemById = new Map((corpus.items || []).map(item => [item.id, item]));
+  const itemByCanonical = new Map((corpus.items || []).filter(item=>item.canonical_url).map(item => [item.canonical_url, item]));
+  const seen = new Set();
+  const out = [];
+
+  for (const control of controls || []) {
+    for (const evidenceUrl of control.corpus_evidence || []) {
+      if (seen.has(evidenceUrl)) continue;
+      let pathname = "";
+      try { pathname = new URL(evidenceUrl).pathname; } catch {}
+      const route = routeByPath.get(pathname);
+      const item = route ? itemById.get(route.id) : itemByCanonical.get(evidenceUrl);
+      if (!item) continue;
+
+      const url = route ? `https://voce.life${route.path}` : evidenceUrl;
+      const key = item.id || url;
+      if (seen.has(key)) continue;
+      seen.add(evidenceUrl);
+      seen.add(key);
+      out.push({
+        item,
+        route,
+        title:firstLine(item.text),
+        score:1,
+        url
+      });
+      if (out.length >= limit) return out;
+    }
+  }
+  return out;
+}
+
 async function answerFromCognitiveAgent(question, env, corpus, routes, framework, lang = "en") {
   const l = String(lang || "en").toLowerCase();
   const msg = l.startsWith("fr") ? {
@@ -997,6 +1032,16 @@ async function answerFromCognitiveAgent(question, env, corpus, routes, framework
     const seen = new Set(matches.map(m=>m.item.id));
     for (const item of extra) {
       if (!seen.has(item.item.id)) { matches.push(item); seen.add(item.item.id); }
+      if (matches.length >= 7) break;
+    }
+  }
+
+  if (matches.length < 3) {
+    const fallback = cognitiveEvidenceFallback(controls, corpus, routes, 7);
+    const seen = new Set(matches.map(m=>m.item.id || m.url));
+    for (const item of fallback) {
+      const key = item.item.id || item.url;
+      if (!seen.has(key)) { matches.push(item); seen.add(key); }
       if (matches.length >= 7) break;
     }
   }
