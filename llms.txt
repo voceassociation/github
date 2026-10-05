@@ -12,6 +12,8 @@ VOCE Applied: https://voce.life/applied
 VOCE Applied French: https://voce.life/fr/applied
 VOCE Applied Italian: https://voce.life/it/applied
 VOCE Applied Solutions registry: https://voce.life/data/applied-solutions.json
+VOCE Agent Infrastructure Reference: https://voce.life/agent-infrastructure
+VOCE Agent Infrastructure Reference JSON: https://voce.life/data/agent-infrastructure-reference.json
 Machine-readable corpus: https://voce.life/data/corpus.json
 NDJSON corpus: https://voce.life/data/corpus.ndjson
 RSS feed: https://voce.life/feed.xml
@@ -45,6 +47,10 @@ Each published Atlas relation has a permanent evidence-backed HTML record in Eng
 ## VOCE Standards
 
 VOCE Standards define institutional orchestration: decision-grade evidence, specialist authority, segregation of duties, vendor neutrality, concentration risk, reversibility, economics, optionality, continuous assurance and professional responsibility. Opera is used as an operating metaphor for coordinating distinct expert voices without collapsing their disciplinary authority.
+
+## Agent Infrastructure Reference
+
+VOCE Agent Infrastructure Reference — Europe 2026 is a vendor-neutral public control architecture for institutional AI agents. It connects OpenAPI/JSON Schema, MCP, A2A, workload identity, authorization, RAG and memory lifecycle, observability, continuous assurance, FinOps and European regulatory mapping. It defines maturity levels A0–A4 and a board evidence pack. It is a VOCE reference architecture, not an EU harmonised standard or certification scheme.
 
 ## Applied Solutions
 

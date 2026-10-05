@@ -1,0 +1,369 @@
+{
+  "schema": 1,
+  "id": "voce-agent-infrastructure-reference-europe-2026",
+  "version": "1.0",
+  "published_at": "2026-10-05",
+  "title": "VOCE Agent Infrastructure Reference — Europe 2026",
+  "status": "VOCE public reference architecture; not an EU or ISO standard",
+  "purpose": "A vendor-neutral control and interoperability reference for institutions deploying AI agents, APIs, tool protocols and multi-agent systems in Europe.",
+  "design_principles": [
+    {
+      "id": "identity-before-action",
+      "name": "Identity before action",
+      "rule": "Every executing agent or workload must have an attributable identity distinct from the human, service or model that initiated it."
+    },
+    {
+      "id": "least-authority",
+      "name": "Least authority",
+      "rule": "Permissions, data scopes, tools and transaction limits are granted per task and are revocable."
+    },
+    {
+      "id": "contracted-interfaces",
+      "name": "Contracted interfaces",
+      "rule": "APIs, tools and inter-agent messages use explicit machine-readable contracts, versioning and validation."
+    },
+    {
+      "id": "traceable-delegation",
+      "name": "Traceable delegation",
+      "rule": "Delegation chains record who delegated what authority to which agent, for which purpose, duration and resources."
+    },
+    {
+      "id": "observable-execution",
+      "name": "Observable execution",
+      "rule": "Model calls, retrieval, tool calls, agent handoffs, approvals, failures, cost and final actions can be reconstructed."
+    },
+    {
+      "id": "human-authority",
+      "name": "Human authority",
+      "rule": "Material decisions define an accountable human owner, escalation path and executable stop mechanism."
+    },
+    {
+      "id": "reversibility",
+      "name": "Reversibility",
+      "rule": "Models, tools and vendors can be restricted, replaced or revoked without disabling the wider institutional system."
+    },
+    {
+      "id": "regulatory-mapping",
+      "name": "Regulatory mapping",
+      "rule": "EU legal obligations are mapped to the actual role, sector and risk classification of the deployed system rather than applied generically."
+    }
+  ],
+  "layers": [
+    {
+      "id": "api-contracts",
+      "order": 1,
+      "name": "API and tool contracts",
+      "objective": "Make every callable capability explicit, typed, versioned and testable.",
+      "reference_technologies": [
+        "OpenAPI 3.2.x",
+        "JSON Schema 2020-12"
+      ],
+      "mandatory_controls": [
+        "Operation identifier",
+        "Input/output schema",
+        "Version/deprecation policy",
+        "Error model",
+        "Idempotency rule for material writes",
+        "Rate and transaction limits"
+      ],
+      "sources": [
+        "https://spec.openapis.org/oas/",
+        "https://json-schema.org/draft/2020-12/"
+      ]
+    },
+    {
+      "id": "mcp",
+      "order": 2,
+      "name": "Model-to-tool and context interoperability",
+      "objective": "Expose tools, resources and context through a governed interface rather than bespoke prompt wiring.",
+      "reference_technologies": [
+        "Model Context Protocol 2026-07-28"
+      ],
+      "mandatory_controls": [
+        "Explicit tool inventory",
+        "Per-tool authorization",
+        "Resource boundaries",
+        "Protocol-version pinning",
+        "Client/server identity",
+        "Revocation",
+        "Extension review"
+      ],
+      "note": "MCP 2026-07-28 uses a stateless protocol core and includes authorization hardening; protocol interoperability does not replace institutional authorization policy.",
+      "sources": [
+        "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+        "https://plan.modelcontextprotocol.io/conformance/1"
+      ]
+    },
+    {
+      "id": "a2a",
+      "order": 3,
+      "name": "Agent-to-agent interoperability",
+      "objective": "Allow independent agents to discover capabilities, exchange tasks and collaborate across vendor or framework boundaries.",
+      "reference_technologies": [
+        "A2A Protocol 1.0"
+      ],
+      "mandatory_controls": [
+        "Authenticated AgentCard discovery",
+        "Capability allow-listing",
+        "Task ownership",
+        "Message integrity",
+        "Handoff provenance",
+        "Timeout/cancellation semantics",
+        "Cross-agent data policy"
+      ],
+      "note": "A2A defines interoperability; trust, authorization and accountability still belong to the deploying institution.",
+      "sources": [
+        "https://a2a-protocol.org/v1.0.1/specification/",
+        "https://www.linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year"
+      ]
+    },
+    {
+      "id": "workload-identity",
+      "order": 4,
+      "name": "Workload and agent identity",
+      "objective": "Give software actors cryptographically verifiable, short-lived identities independent of network location.",
+      "reference_technologies": [
+        "SPIFFE",
+        "SPIRE",
+        "OIDC for human/user identity"
+      ],
+      "mandatory_controls": [
+        "Unique workload identity",
+        "Short-lived credentials",
+        "Trust-domain design",
+        "Attestation",
+        "Federation policy",
+        "Human-to-agent delegation binding"
+      ],
+      "sources": [
+        "https://spiffe.io/docs/latest/spiffe-specs/spiffe/",
+        "https://spiffe.io/docs/latest/spiffe-specs/spiffe_workload_api/"
+      ]
+    },
+    {
+      "id": "authorization",
+      "order": 5,
+      "name": "Authorization and delegation",
+      "objective": "Decide whether a principal may perform a specific action on a specific resource in context.",
+      "reference_technologies": [
+        "OAuth 2.0 Security BCP (RFC 9700)",
+        "Cedar / policy-as-code",
+        "OPA or equivalent PDP"
+      ],
+      "mandatory_controls": [
+        "Default deny",
+        "Purpose-bound scopes",
+        "Principal/action/resource/context decision",
+        "Step-up approval for sensitive actions",
+        "Time-bound delegation",
+        "Separation of authentication and authorization"
+      ],
+      "sources": [
+        "https://datatracker.ietf.org/doc/html/rfc9700",
+        "https://docs.cedarpolicy.com/"
+      ]
+    },
+    {
+      "id": "knowledge-data",
+      "order": 6,
+      "name": "Data, memory and RAG lifecycle",
+      "objective": "Keep institutional knowledge, access rights and deletion state aligned from source system through retrieval and memory.",
+      "reference_technologies": [
+        "Enterprise IAM",
+        "Vector/index lifecycle controls",
+        "Data residency controls"
+      ],
+      "mandatory_controls": [
+        "Source provenance",
+        "Document/version identifier",
+        "Access-control propagation",
+        "Deletion/tombstone propagation",
+        "Retention policy",
+        "Memory expiry",
+        "Regional routing",
+        "Sensitive-data classification"
+      ],
+      "sources": []
+    },
+    {
+      "id": "observability",
+      "order": 7,
+      "name": "Observability and audit",
+      "objective": "Reconstruct an agentic execution end-to-end without relying on narrative reconstruction.",
+      "reference_technologies": [
+        "OpenTelemetry",
+        "GenAI semantic conventions"
+      ],
+      "mandatory_controls": [
+        "Agent and workflow ID",
+        "Model/provider/version",
+        "Conversation or task ID",
+        "Tool execution spans",
+        "Retrieval records",
+        "Approval events",
+        "Latency",
+        "Token/compute/action cost",
+        "Error and exception events",
+        "PII-safe telemetry policy"
+      ],
+      "sources": [
+        "https://opentelemetry.io/docs/specs/semconv/",
+        "https://opentelemetry.io/docs/specs/semconv/registry/attributes/gen-ai/"
+      ]
+    },
+    {
+      "id": "assurance",
+      "order": 8,
+      "name": "Evaluation, security and continuous assurance",
+      "objective": "Test the deployed system as a changing socio-technical system, not only the foundation model.",
+      "reference_technologies": [
+        "Continuous evaluation",
+        "Red teaming",
+        "Policy testing",
+        "Canary deployment",
+        "Replay/simulation"
+      ],
+      "mandatory_controls": [
+        "Pre-deployment task tests",
+        "Tool-abuse tests",
+        "Permission tests",
+        "Prompt-injection tests",
+        "Regression suite",
+        "Change-triggered re-evaluation",
+        "Incident replay",
+        "Kill switch test",
+        "Supplier/version inventory"
+      ],
+      "sources": []
+    },
+    {
+      "id": "economics",
+      "order": 9,
+      "name": "Economic authority and FinOps",
+      "objective": "Treat spending capacity as an operational permission.",
+      "reference_technologies": [
+        "Usage metering",
+        "Budget policy",
+        "Cost attribution"
+      ],
+      "mandatory_controls": [
+        "Cost per completed task",
+        "Budget per agent/workflow",
+        "Retry budget",
+        "Model-routing policy",
+        "Anomaly alerting",
+        "Unit economics",
+        "Supplier concentration exposure"
+      ],
+      "sources": []
+    },
+    {
+      "id": "eu-overlay",
+      "order": 10,
+      "name": "European regulatory overlay",
+      "objective": "Map technical controls to the institution's actual EU role, sector and risk classification.",
+      "reference_technologies": [
+        "EU AI Act",
+        "GDPR",
+        "DORA where applicable",
+        "NIS2 where applicable"
+      ],
+      "mandatory_controls": [
+        "Provider/deployer role mapping",
+        "Risk classification",
+        "Human-oversight responsibility",
+        "Logging/record retention where required",
+        "Transparency duties where applicable",
+        "GPAI downstream documentation review",
+        "Third-party ICT register for DORA entities",
+        "Incident and cyber obligations by sector"
+      ],
+      "note": "Applicability is contextual. The reference does not classify every agent as high-risk or subject every institution to DORA/NIS2.",
+      "sources": [
+        "https://eur-lex.europa.eu/eli/reg/2024/1689",
+        "https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers",
+        "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2554"
+      ]
+    }
+  ],
+  "maturity_levels": [
+    {
+      "level": "A0",
+      "name": "Assistant",
+      "description": "Generates or retrieves content; no external action authority.",
+      "minimum_controls": [
+        "Identity of user/session",
+        "Data boundary",
+        "Source provenance",
+        "Output review"
+      ]
+    },
+    {
+      "level": "A1",
+      "name": "Tool-connected agent",
+      "description": "Can call approved read or low-impact tools.",
+      "minimum_controls": [
+        "Tool inventory",
+        "Per-tool authorization",
+        "Audit spans",
+        "Rate limits",
+        "Revocation"
+      ]
+    },
+    {
+      "level": "A2",
+      "name": "Delegated action agent",
+      "description": "Can execute business actions under bounded delegated authority.",
+      "minimum_controls": [
+        "Workload identity",
+        "Policy decision point",
+        "Transaction limits",
+        "Human approval gates",
+        "Idempotency",
+        "Rollback or compensating action"
+      ]
+    },
+    {
+      "level": "A3",
+      "name": "Multi-agent operating system",
+      "description": "Multiple agents coordinate tasks, models and tools across systems.",
+      "minimum_controls": [
+        "A2A/MCP governance",
+        "Delegation chain",
+        "Cross-agent data policy",
+        "Central observability",
+        "Supplier routing policy",
+        "Continuous evaluation"
+      ]
+    },
+    {
+      "level": "A4",
+      "name": "Critical agent network",
+      "description": "Agentic execution can materially affect regulated, financial, clinical, infrastructure or public-service outcomes.",
+      "minimum_controls": [
+        "Board-level owner",
+        "Formal risk classification",
+        "Independent assurance",
+        "Incident exercises",
+        "Exit/recovery plan",
+        "Regulatory evidence pack",
+        "Tested emergency stop"
+      ]
+    }
+  ],
+  "board_evidence_pack": [
+    "Agent and tool inventory",
+    "Identity and delegation map",
+    "Permission matrix",
+    "API/MCP/A2A contract inventory",
+    "Data and residency map",
+    "Human approval and escalation map",
+    "Observability and audit schema",
+    "Evaluation and red-team results",
+    "Supplier/version register",
+    "Cost and concentration dashboard",
+    "Regulatory role and applicability memo",
+    "Kill-switch, rollback and exit test evidence"
+  ]
+}
