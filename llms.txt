@@ -56,6 +56,10 @@ VOCE Standards define institutional orchestration: decision-grade evidence, spec
 
 VOCE Agent Infrastructure Reference — Europe 2026 is a vendor-neutral public control architecture for institutional AI agents. It connects OpenAPI/JSON Schema, MCP, A2A, workload identity, authorization, RAG and memory lifecycle, observability, continuous assurance, FinOps and European regulatory mapping. It defines maturity levels A0–A4 and a board evidence pack. It is a VOCE reference architecture, not an EU harmonised standard or certification scheme.
 
+## VOCE 360 Agent Assurance
+
+VOCE's public agent-assurance architecture combines four layers: Agent Infrastructure for technical architecture; Agent Conformance for evidence-based control assessment; ARGOS — AI Evaluation & Continuous Assurance for change-triggered and ongoing assurance; and a Human Cognitive & Neuropsychology Assurance layer in development for attention, cognitive load, memory, decision fatigue, human-machine interaction and the quality of human oversight. The cognitive layer is explicitly non-diagnostic and does not replace qualified psychological or neuropsychological practice.
+
 ## Agent Conformance
 
 VOCE Agent Conformance operationalises the Agent Infrastructure Reference through 48 stable controls across 10 domains. It uses five evidence states — Absent, Declared, Documented, Tested and Verified in operation — and explicitly avoids an aggregate score that could hide one critical authority gap. The public Self Assessment runs locally in the browser. Reviewed and Observed modes require VOCE specialist review and do not constitute EU or ISO certification. Every control has a permanent indexable record in EN/FR/IT with its stable identifier, normative question, maturity floor, criticality, target evidence state, expected owner and evidence list. Four shareable executive lenses — Board, Risk, Technology and Audit — are published for each maturity level A0–A4 without exposing private assessment data.
