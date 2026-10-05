@@ -1,0 +1,841 @@
+{
+  "schema": 1,
+  "version": "1.0",
+  "published_at": "2026-10-05",
+  "title": "VOCE Agent Conformance — Evidence Matrix",
+  "status": "VOCE public conformance framework; not a certification scheme",
+  "reference": "VOCE Agent Infrastructure Reference — Europe 2026 v1.0",
+  "reference_url": "https://voce.life/agent-infrastructure",
+  "assessment_modes": [
+    {
+      "id": "self",
+      "name": "Self Assessment",
+      "description": "The organisation records its own control state and evidence references."
+    },
+    {
+      "id": "reviewed",
+      "name": "Reviewed",
+      "description": "VOCE specialists review supplied architecture, policies, evidence and test records."
+    },
+    {
+      "id": "observed",
+      "name": "Observed",
+      "description": "VOCE specialists review evidence and observe selected controls, logs, permissions or tests in the operating environment."
+    }
+  ],
+  "evidence_states": [
+    {
+      "id": "absent",
+      "order": 0,
+      "name": "Absent",
+      "definition": "The control is not implemented or no reliable evidence exists."
+    },
+    {
+      "id": "declared",
+      "order": 1,
+      "name": "Declared",
+      "definition": "The organisation states that the control exists, but no adequate documentary evidence has been supplied."
+    },
+    {
+      "id": "documented",
+      "order": 2,
+      "name": "Documented",
+      "definition": "A current policy, architecture record, configuration record or equivalent evidence documents the control."
+    },
+    {
+      "id": "tested",
+      "order": 3,
+      "name": "Tested",
+      "definition": "The control has been exercised under a defined test with a recorded result."
+    },
+    {
+      "id": "verified_in_operation",
+      "order": 4,
+      "name": "Verified in operation",
+      "definition": "Current operational evidence shows the control functioning in the deployed environment."
+    }
+  ],
+  "principles": [
+    "No aggregate score: a high average can conceal one unacceptable authority gap.",
+    "A control is evaluated against evidence, not presentation quality.",
+    "Applicability follows the selected maturity level and the institution's actual legal/sector role.",
+    "A missing public or internal record remains missing; conformance is not inferred.",
+    "Reviewed and Observed modes require identifiable evidence and reviewer traceability.",
+    "A conformance result is time-bound and should be re-opened after material changes."
+  ],
+  "domains": [
+    {
+      "id": "api",
+      "name": "API & tool contracts",
+      "layer": "api-contracts",
+      "owner": "Platform / Engineering"
+    },
+    {
+      "id": "mcp",
+      "name": "MCP governance",
+      "layer": "mcp",
+      "owner": "Platform / Security"
+    },
+    {
+      "id": "a2a",
+      "name": "A2A & delegation",
+      "layer": "a2a",
+      "owner": "Platform / Architecture"
+    },
+    {
+      "id": "identity",
+      "name": "Identity & workload trust",
+      "layer": "workload-identity",
+      "owner": "IAM / Security"
+    },
+    {
+      "id": "authorization",
+      "name": "Authorization & authority",
+      "layer": "authorization",
+      "owner": "IAM / Risk"
+    },
+    {
+      "id": "data",
+      "name": "Data, RAG & memory",
+      "layer": "knowledge-data",
+      "owner": "Data Governance"
+    },
+    {
+      "id": "observability",
+      "name": "Observability & audit",
+      "layer": "observability",
+      "owner": "Platform / Audit"
+    },
+    {
+      "id": "assurance",
+      "name": "Evaluation & assurance",
+      "layer": "assurance",
+      "owner": "AI Risk / Security"
+    },
+    {
+      "id": "economics",
+      "name": "Economic authority & FinOps",
+      "layer": "economics",
+      "owner": "Finance / Platform"
+    },
+    {
+      "id": "europe",
+      "name": "European regulatory overlay",
+      "layer": "eu-overlay",
+      "owner": "Legal / Compliance"
+    }
+  ],
+  "controls": [
+    {
+      "id": "API-01",
+      "domain": "api",
+      "title": "Machine-readable operation contract",
+      "question": "Is every agent-callable operation described by a current machine-readable contract?",
+      "min_maturity": "A1",
+      "criticality": "major",
+      "target_state": "documented",
+      "owner": "Platform Engineering",
+      "evidence": [
+        "OpenAPI/JSON Schema file",
+        "Repository version",
+        "Change history"
+      ]
+    },
+    {
+      "id": "API-02",
+      "domain": "api",
+      "title": "Material-write idempotency",
+      "question": "Are material write operations protected against duplicate execution or equipped with a compensating action?",
+      "min_maturity": "A2",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "Platform Engineering",
+      "evidence": [
+        "Idempotency design",
+        "Replay test",
+        "Compensating-action test"
+      ]
+    },
+    {
+      "id": "API-03",
+      "domain": "api",
+      "title": "Version and deprecation policy",
+      "question": "Can the institution identify which API/tool version each agent is using and how breaking changes are retired?",
+      "min_maturity": "A1",
+      "criticality": "major",
+      "target_state": "documented",
+      "owner": "Platform Engineering",
+      "evidence": [
+        "Version policy",
+        "Dependency inventory",
+        "Deprecation record"
+      ]
+    },
+    {
+      "id": "API-04",
+      "domain": "api",
+      "title": "Transaction and rate limits",
+      "question": "Are operation rate, amount, volume or resource ceilings explicit for agent execution?",
+      "min_maturity": "A2",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "Platform / Business Owner",
+      "evidence": [
+        "Limit configuration",
+        "Boundary test",
+        "Exception procedure"
+      ]
+    },
+    {
+      "id": "API-05",
+      "domain": "api",
+      "title": "Error and exception contract",
+      "question": "Do tools return structured errors that agents and humans can distinguish from successful execution?",
+      "min_maturity": "A1",
+      "criticality": "standard",
+      "target_state": "tested",
+      "owner": "Platform Engineering",
+      "evidence": [
+        "Error schema",
+        "Failure-path test"
+      ]
+    },
+    {
+      "id": "MCP-01",
+      "domain": "mcp",
+      "title": "MCP server inventory",
+      "question": "Is every MCP server, owner, endpoint, version and environment inventoried?",
+      "min_maturity": "A1",
+      "criticality": "major",
+      "target_state": "documented",
+      "owner": "Platform / Security",
+      "evidence": [
+        "MCP inventory",
+        "Owner record",
+        "Version register"
+      ]
+    },
+    {
+      "id": "MCP-02",
+      "domain": "mcp",
+      "title": "Tool-level authorization",
+      "question": "Are MCP tools authorized individually rather than inherited as an undifferentiated server capability?",
+      "min_maturity": "A1",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "IAM / Security",
+      "evidence": [
+        "Tool policy",
+        "Allow/deny test",
+        "Permission matrix"
+      ]
+    },
+    {
+      "id": "MCP-03",
+      "domain": "mcp",
+      "title": "Resource boundary enforcement",
+      "question": "Are MCP resources and context sources bounded by the user's or workload's actual access rights?",
+      "min_maturity": "A1",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "Data / IAM",
+      "evidence": [
+        "Resource ACL mapping",
+        "Cross-scope negative test"
+      ]
+    },
+    {
+      "id": "MCP-04",
+      "domain": "mcp",
+      "title": "Tool revocation",
+      "question": "Can a tool or MCP server be revoked quickly without disabling the wider agent system?",
+      "min_maturity": "A2",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "Platform / Security",
+      "evidence": [
+        "Revocation procedure",
+        "Timed revocation test",
+        "Post-revocation denial trace"
+      ]
+    },
+    {
+      "id": "MCP-05",
+      "domain": "mcp",
+      "title": "Protocol and extension control",
+      "question": "Are protocol versions, extensions and experimental capabilities explicitly approved and pinned?",
+      "min_maturity": "A1",
+      "criticality": "major",
+      "target_state": "documented",
+      "owner": "Architecture",
+      "evidence": [
+        "Protocol baseline",
+        "Extension review",
+        "Upgrade record"
+      ]
+    },
+    {
+      "id": "A2A-01",
+      "domain": "a2a",
+      "title": "Authenticated agent discovery",
+      "question": "Are AgentCards or equivalent capability descriptors authenticated before trust is established?",
+      "min_maturity": "A3",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "Architecture / Security",
+      "evidence": [
+        "Discovery design",
+        "Authentication test",
+        "Trust policy"
+      ]
+    },
+    {
+      "id": "A2A-02",
+      "domain": "a2a",
+      "title": "Delegation-chain provenance",
+      "question": "Can each inter-agent handoff be traced back to the initiating principal and delegated authority?",
+      "min_maturity": "A3",
+      "criticality": "critical",
+      "target_state": "verified_in_operation",
+      "owner": "Architecture / Audit",
+      "evidence": [
+        "Delegation trace",
+        "Task lineage",
+        "Operational sample"
+      ]
+    },
+    {
+      "id": "A2A-03",
+      "domain": "a2a",
+      "title": "Cross-agent data policy",
+      "question": "Are data classes and disclosure limits enforced when one agent sends context to another?",
+      "min_maturity": "A3",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "Data / Security",
+      "evidence": [
+        "Data policy",
+        "Cross-agent test",
+        "Redaction rule"
+      ]
+    },
+    {
+      "id": "A2A-04",
+      "domain": "a2a",
+      "title": "Cancellation and timeout semantics",
+      "question": "Can delegated work be cancelled and timed out deterministically across agent boundaries?",
+      "min_maturity": "A3",
+      "criticality": "major",
+      "target_state": "tested",
+      "owner": "Platform Engineering",
+      "evidence": [
+        "Cancellation contract",
+        "Timeout test",
+        "Orphan-task check"
+      ]
+    },
+    {
+      "id": "ID-01",
+      "domain": "identity",
+      "title": "Unique workload identity",
+      "question": "Does each executing agent/workload have an identity distinguishable from the user, model and host service?",
+      "min_maturity": "A2",
+      "criticality": "critical",
+      "target_state": "verified_in_operation",
+      "owner": "IAM / Security",
+      "evidence": [
+        "Identity architecture",
+        "Credential sample",
+        "Operational trace"
+      ]
+    },
+    {
+      "id": "ID-02",
+      "domain": "identity",
+      "title": "Short-lived credentials",
+      "question": "Are machine credentials short-lived and automatically rotated where the platform supports it?",
+      "min_maturity": "A2",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "IAM / Security",
+      "evidence": [
+        "Credential TTL policy",
+        "Rotation test"
+      ]
+    },
+    {
+      "id": "ID-03",
+      "domain": "identity",
+      "title": "Human-to-agent binding",
+      "question": "Can a material agent action be linked to the human or institutional authority that initiated or approved it?",
+      "min_maturity": "A2",
+      "criticality": "critical",
+      "target_state": "verified_in_operation",
+      "owner": "IAM / Audit",
+      "evidence": [
+        "Delegation token/record",
+        "Approval trace",
+        "Operational sample"
+      ]
+    },
+    {
+      "id": "ID-04",
+      "domain": "identity",
+      "title": "Environment and trust-domain separation",
+      "question": "Are development, test and production identities separated and unable to silently cross trust boundaries?",
+      "min_maturity": "A2",
+      "criticality": "major",
+      "target_state": "tested",
+      "owner": "Security / Platform",
+      "evidence": [
+        "Trust-domain map",
+        "Cross-environment negative test"
+      ]
+    },
+    {
+      "id": "ID-05",
+      "domain": "identity",
+      "title": "Third-party identity federation",
+      "question": "Are external agent/provider identities accepted only through an explicit federation policy?",
+      "min_maturity": "A3",
+      "criticality": "major",
+      "target_state": "documented",
+      "owner": "Security Architecture",
+      "evidence": [
+        "Federation policy",
+        "Partner trust record"
+      ]
+    },
+    {
+      "id": "AUTH-01",
+      "domain": "authorization",
+      "title": "Default-deny policy",
+      "question": "Is agent authority denied unless a specific action/resource/context rule allows it?",
+      "min_maturity": "A2",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "IAM / Risk",
+      "evidence": [
+        "Policy definition",
+        "Negative authorization test"
+      ]
+    },
+    {
+      "id": "AUTH-02",
+      "domain": "authorization",
+      "title": "Purpose-bound delegation",
+      "question": "Are delegated permissions limited to the task purpose, resource scope and time window?",
+      "min_maturity": "A2",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "IAM / Business Owner",
+      "evidence": [
+        "Scope policy",
+        "Expiry test",
+        "Out-of-purpose denial"
+      ]
+    },
+    {
+      "id": "AUTH-03",
+      "domain": "authorization",
+      "title": "Step-up approval",
+      "question": "Do sensitive actions require an approval or stronger authorization appropriate to the consequence?",
+      "min_maturity": "A2",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "Risk / Business Owner",
+      "evidence": [
+        "Approval matrix",
+        "Boundary test",
+        "Bypass negative test"
+      ]
+    },
+    {
+      "id": "AUTH-04",
+      "domain": "authorization",
+      "title": "Segregation of duties",
+      "question": "Are incompatible actions separated so one agent or principal cannot initiate and approve the same critical transaction?",
+      "min_maturity": "A2",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "Risk / Internal Control",
+      "evidence": [
+        "SoD matrix",
+        "Conflict test"
+      ]
+    },
+    {
+      "id": "AUTH-05",
+      "domain": "authorization",
+      "title": "Emergency revocation",
+      "question": "Can delegated authority be revoked centrally and propagated to active sessions or workloads?",
+      "min_maturity": "A2",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "IAM / Security",
+      "evidence": [
+        "Emergency revocation procedure",
+        "Timed test"
+      ]
+    },
+    {
+      "id": "DATA-01",
+      "domain": "data",
+      "title": "Source provenance",
+      "question": "Can retrieved or injected institutional content be traced to source, version and access context?",
+      "min_maturity": "A0",
+      "criticality": "major",
+      "target_state": "documented",
+      "owner": "Data Governance",
+      "evidence": [
+        "Source IDs",
+        "Version metadata",
+        "Citation sample"
+      ]
+    },
+    {
+      "id": "DATA-02",
+      "domain": "data",
+      "title": "Access-control propagation",
+      "question": "Do RAG indexes, caches and memories enforce the source system's current access rights?",
+      "min_maturity": "A1",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "Data / IAM",
+      "evidence": [
+        "ACL propagation design",
+        "Revoked-user test"
+      ]
+    },
+    {
+      "id": "DATA-03",
+      "domain": "data",
+      "title": "Deletion and tombstone propagation",
+      "question": "When source content is deleted or access is revoked, is retrieval/memory state withdrawn within a defined window?",
+      "min_maturity": "A1",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "Data Governance",
+      "evidence": [
+        "Deletion SLA",
+        "Tombstone test",
+        "Residual-query test"
+      ]
+    },
+    {
+      "id": "DATA-04",
+      "domain": "data",
+      "title": "Memory retention and expiry",
+      "question": "Are conversational or agent memories governed by a declared retention/expiry policy?",
+      "min_maturity": "A1",
+      "criticality": "major",
+      "target_state": "documented",
+      "owner": "Data Governance / Privacy",
+      "evidence": [
+        "Retention policy",
+        "Expiry configuration"
+      ]
+    },
+    {
+      "id": "DATA-05",
+      "domain": "data",
+      "title": "Regional routing and residency",
+      "question": "Is the location of storage and material processing known for the deployed architecture where residency matters?",
+      "min_maturity": "A1",
+      "criticality": "major",
+      "target_state": "documented",
+      "owner": "Data / Legal",
+      "evidence": [
+        "Data-flow map",
+        "Region configuration",
+        "Processor record"
+      ]
+    },
+    {
+      "id": "OBS-01",
+      "domain": "observability",
+      "title": "End-to-end task trace",
+      "question": "Can one task be reconstructed across model calls, retrieval, tools, agents, approvals and final action?",
+      "min_maturity": "A1",
+      "criticality": "critical",
+      "target_state": "verified_in_operation",
+      "owner": "Platform / Audit",
+      "evidence": [
+        "Trace ID",
+        "Operational trace",
+        "Correlation schema"
+      ]
+    },
+    {
+      "id": "OBS-02",
+      "domain": "observability",
+      "title": "Model and version traceability",
+      "question": "Does each material execution record the actual model/provider/version or equivalent deployment identifier?",
+      "min_maturity": "A0",
+      "criticality": "major",
+      "target_state": "verified_in_operation",
+      "owner": "Platform / AI Governance",
+      "evidence": [
+        "Runtime metadata",
+        "Trace sample"
+      ]
+    },
+    {
+      "id": "OBS-03",
+      "domain": "observability",
+      "title": "Tool execution evidence",
+      "question": "Are tool requests, outcomes, material parameters and failures retained in an auditable form appropriate to sensitivity?",
+      "min_maturity": "A1",
+      "criticality": "critical",
+      "target_state": "verified_in_operation",
+      "owner": "Platform / Audit",
+      "evidence": [
+        "Tool spans",
+        "Action logs",
+        "Redaction policy"
+      ]
+    },
+    {
+      "id": "OBS-04",
+      "domain": "observability",
+      "title": "Approval evidence",
+      "question": "Are human approvals and overrides recorded with identity, timestamp, object and decision?",
+      "min_maturity": "A2",
+      "criticality": "critical",
+      "target_state": "verified_in_operation",
+      "owner": "Business Owner / Audit",
+      "evidence": [
+        "Approval log",
+        "Override sample"
+      ]
+    },
+    {
+      "id": "OBS-05",
+      "domain": "observability",
+      "title": "Telemetry privacy policy",
+      "question": "Are prompts, retrieved content and sensitive fields prevented from leaking into telemetry by default?",
+      "min_maturity": "A1",
+      "criticality": "major",
+      "target_state": "tested",
+      "owner": "Security / Privacy",
+      "evidence": [
+        "Telemetry policy",
+        "Redaction test"
+      ]
+    },
+    {
+      "id": "ASSURE-01",
+      "domain": "assurance",
+      "title": "Task-level evaluation suite",
+      "question": "Is there a reproducible evaluation set for the business tasks the agent is expected to perform?",
+      "min_maturity": "A0",
+      "criticality": "major",
+      "target_state": "tested",
+      "owner": "AI Governance / Business Owner",
+      "evidence": [
+        "Evaluation set",
+        "Pass criteria",
+        "Latest run"
+      ]
+    },
+    {
+      "id": "ASSURE-02",
+      "domain": "assurance",
+      "title": "Permission-abuse tests",
+      "question": "Are attempts to exceed tool, data or transaction authority tested before release and after material change?",
+      "min_maturity": "A2",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "Security / AI Risk",
+      "evidence": [
+        "Abuse cases",
+        "Negative test results"
+      ]
+    },
+    {
+      "id": "ASSURE-03",
+      "domain": "assurance",
+      "title": "Prompt-injection and tool-manipulation tests",
+      "question": "Are retrieval and tool pathways tested against malicious instructions and untrusted content?",
+      "min_maturity": "A1",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "Security / AI Risk",
+      "evidence": [
+        "Attack suite",
+        "Results",
+        "Mitigation retest"
+      ]
+    },
+    {
+      "id": "ASSURE-04",
+      "domain": "assurance",
+      "title": "Change-triggered re-evaluation",
+      "question": "Do model, prompt, tool, permission, policy or data-source changes trigger defined regression checks?",
+      "min_maturity": "A1",
+      "criticality": "major",
+      "target_state": "verified_in_operation",
+      "owner": "AI Governance / Platform",
+      "evidence": [
+        "Change policy",
+        "CI/CD gate",
+        "Recent change record"
+      ]
+    },
+    {
+      "id": "ASSURE-05",
+      "domain": "assurance",
+      "title": "Kill switch and recovery test",
+      "question": "Has the institution tested stopping the agentic system and restoring or safely continuing the affected business process?",
+      "min_maturity": "A2",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "Operations / Risk",
+      "evidence": [
+        "Stop procedure",
+        "Timed test",
+        "Recovery evidence"
+      ]
+    },
+    {
+      "id": "FIN-01",
+      "domain": "economics",
+      "title": "Cost per completed task",
+      "question": "Can the organisation measure end-to-end cost per successful business task rather than model-token cost alone?",
+      "min_maturity": "A1",
+      "criticality": "major",
+      "target_state": "verified_in_operation",
+      "owner": "FinOps / Finance",
+      "evidence": [
+        "Cost attribution model",
+        "Operational dashboard"
+      ]
+    },
+    {
+      "id": "FIN-02",
+      "domain": "economics",
+      "title": "Budget and retry authority",
+      "question": "Are spend ceilings, retry budgets and escalation thresholds defined for agent workflows?",
+      "min_maturity": "A2",
+      "criticality": "major",
+      "target_state": "tested",
+      "owner": "Finance / Platform",
+      "evidence": [
+        "Budget policy",
+        "Limit configuration",
+        "Boundary test"
+      ]
+    },
+    {
+      "id": "FIN-03",
+      "domain": "economics",
+      "title": "Supplier concentration and exit",
+      "question": "Is dependence on model, cloud, identity, vector, tool or orchestration providers documented with an exit path?",
+      "min_maturity": "A3",
+      "criticality": "major",
+      "target_state": "documented",
+      "owner": "CIO / Procurement / Risk",
+      "evidence": [
+        "Dependency map",
+        "Exit plan",
+        "Portability test if available"
+      ]
+    },
+    {
+      "id": "EU-01",
+      "domain": "europe",
+      "title": "AI Act role mapping",
+      "question": "Has the institution documented whether it acts as provider, deployer, importer, distributor, GPAI provider or another relevant role for this system?",
+      "min_maturity": "A0",
+      "criticality": "major",
+      "target_state": "documented",
+      "owner": "Legal / Compliance",
+      "evidence": [
+        "Role memo",
+        "System scope"
+      ]
+    },
+    {
+      "id": "EU-02",
+      "domain": "europe",
+      "title": "Risk-classification record",
+      "question": "Has the deployed use case been classified under the applicable AI Act categories rather than assumed to be high-risk or low-risk?",
+      "min_maturity": "A0",
+      "criticality": "critical",
+      "target_state": "documented",
+      "owner": "Legal / AI Governance",
+      "evidence": [
+        "Classification memo",
+        "Legal basis"
+      ]
+    },
+    {
+      "id": "EU-03",
+      "domain": "europe",
+      "title": "Transparency and human-oversight mapping",
+      "question": "Are applicable transparency and human-oversight duties mapped to actual product behavior and accountable owners?",
+      "min_maturity": "A1",
+      "criticality": "critical",
+      "target_state": "tested",
+      "owner": "Legal / Business Owner",
+      "evidence": [
+        "Obligation matrix",
+        "User notice",
+        "Oversight test"
+      ]
+    },
+    {
+      "id": "EU-04",
+      "domain": "europe",
+      "title": "GPAI/downstream documentation review",
+      "question": "Where relevant, has the organisation reviewed upstream model documentation needed to support downstream compliance and risk decisions?",
+      "min_maturity": "A1",
+      "criticality": "major",
+      "target_state": "documented",
+      "owner": "AI Governance / Legal",
+      "evidence": [
+        "Provider documentation register",
+        "Gap log"
+      ]
+    },
+    {
+      "id": "EU-05",
+      "domain": "europe",
+      "title": "Sector overlay applicability",
+      "question": "Has the organisation documented whether sector regimes such as DORA, NIS2, medical, employment or public-sector rules add controls to this architecture?",
+      "min_maturity": "A0",
+      "criticality": "major",
+      "target_state": "documented",
+      "owner": "Legal / Risk",
+      "evidence": [
+        "Sector applicability memo",
+        "Control crosswalk"
+      ]
+    },
+    {
+      "id": "EU-06",
+      "domain": "europe",
+      "title": "Third-party ICT and model dependency register",
+      "question": "Where sector rules require it, are critical external technology and model dependencies included in the institution's third-party risk records?",
+      "min_maturity": "A3",
+      "criticality": "critical",
+      "target_state": "verified_in_operation",
+      "owner": "Third-party Risk / Procurement",
+      "evidence": [
+        "Supplier register",
+        "Criticality assessment",
+        "Contract/exit record"
+      ]
+    }
+  ],
+  "review_triggers": [
+    "Foundation-model or major model-version change",
+    "New tool, MCP server or A2A peer",
+    "Change to agent permissions or transaction limits",
+    "New data source, memory mechanism or processing region",
+    "Material prompt/policy/orchestration change",
+    "Security incident or material near miss",
+    "Regulatory classification or sector-role change",
+    "Material supplier, licensing or contract change"
+  ]
+}
