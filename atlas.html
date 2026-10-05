@@ -61,7 +61,7 @@
 </div>
 <div class="atlas-intro-copy">
 <p>An article belongs to more than one category. A discussion of AI agents can also be about identity, permissions and work. A study of a doorway can also be about event segmentation, interruption and memory.</p>
-<p>Atlas preserves those crossings. Select a concept to reveal its documented relationships and the VOCE publications that support them.</p>
+<p>Atlas preserves those crossings. Select a concept to reveal its documented relationships, or choose two concepts to trace the shortest evidence-linked path between them.</p>
 </div>
 </div>
 
@@ -75,9 +75,19 @@
 <button class="atlas-reset" id="atlas-reset" type="button">Reset map</button>
 </div>
 
+<div class="atlas-pathfinder" aria-labelledby="atlas-path-title">
+<div class="atlas-pathfinder-copy"><div class="eyebrow">Path explorer</div><h3 id="atlas-path-title">Trace a documented path.</h3><p>Choose two concepts. Atlas follows the shortest sequence of published relations connecting them.</p></div>
+<div class="atlas-path-controls">
+<label>From<select id="atlas-path-from" aria-label="Path starting concept"></select></label>
+<label>To<select id="atlas-path-to" aria-label="Path destination concept"></select></label>
+<button id="atlas-find-path" type="button">Trace path</button>
+</div>
+<div id="atlas-path-result" class="atlas-path-result" hidden></div>
+</div>
+
 <div class="atlas-stage">
 <div class="atlas-map-wrap">
-<div class="atlas-map-kicker">Knowledge map · curated V1</div>
+<div class="atlas-map-kicker">Knowledge map · evidence graph V2</div>
 <svg id="atlas-map" class="atlas-map" viewBox="0 0 1200 760" role="img" aria-labelledby="atlas-map-title atlas-map-desc">
 <title id="atlas-map-title">VOCE Atlas knowledge map</title>
 <desc id="atlas-map-desc">Interactive map of concepts and evidence-grounded relationships across the VOCE corpus.</desc>
@@ -104,6 +114,7 @@
 <div class="rule"><div class="label">Source</div><div class="value">Every relation links back to evidence in VOCE Academy or VOCE Research.</div></div>
 <div class="rule"><div class="label">Scope</div><div class="value">The map begins with a curated core rather than automatically visualising the entire archive.</div></div>
 <div class="rule"><div class="label">Growth</div><div class="value">New concepts can be proposed automatically, but publication into Atlas remains evidence-bound.</div></div>
+<div class="rule"><div class="label">Path semantics</div><div class="value">A path is a documentary sequence across individually supported relations. It does not automatically establish causality between its endpoints.</div></div>
 <div class="rule"><div class="label">Machine-readable</div><div class="value"><a href="/data/atlas.json">The Atlas graph is publicly inspectable as JSON.</a></div></div>
 </div>
 </div>

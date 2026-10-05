@@ -1,14 +1,17 @@
 {
-  "schema": 1,
+  "schema": 2,
   "name": "VOCE Atlas",
   "description": "Evidence-grounded knowledge map connecting systems, mechanisms and human consequences across the VOCE corpus.",
   "owner": "VOCE Association",
   "canonical": "https://voce.life/atlas",
-  "generated_at": "2026-10-01",
+  "generated_at": "2026-10-05",
   "methodology": {
     "principle": "Every displayed relationship must be traceable to at least one VOCE publication or formal research record.",
     "scope": "Curated V1. The Atlas is intentionally selective rather than an automatic visualization of the full corpus.",
-    "relation_status": "documented"
+    "relation_status": "documented",
+    "relation_identifier": "Each published relation has a stable identifier derived from its source and target concept IDs.",
+    "relation_permalink_pattern": "/atlas/relations/{source}--{target}",
+    "path_semantics": "Atlas paths are documentary graph traversals across individually supported relations. A path does not, by itself, assert causality between its endpoints."
   },
   "domains": [
     {
@@ -1135,6 +1138,7 @@
   ],
   "edges": [
     {
+      "id": "human-systems--ai-systems",
       "source": "human-systems",
       "target": "ai-systems",
       "label": "technical architecture conditions action",
@@ -1151,6 +1155,7 @@
       }
     },
     {
+      "id": "human-systems--cognition",
       "source": "human-systems",
       "target": "cognition",
       "label": "systems reshape judgment",
@@ -1167,6 +1172,7 @@
       }
     },
     {
+      "id": "human-systems--health",
       "source": "human-systems",
       "target": "health",
       "label": "systems alter biological trajectories",
@@ -1183,6 +1189,7 @@
       }
     },
     {
+      "id": "human-systems--culture",
       "source": "human-systems",
       "target": "culture",
       "label": "systems shape collective memory",
@@ -1199,6 +1206,7 @@
       }
     },
     {
+      "id": "ai-systems--model",
       "source": "ai-systems",
       "target": "model",
       "label": "contains",
@@ -1215,6 +1223,7 @@
       }
     },
     {
+      "id": "ai-systems--rag",
       "source": "ai-systems",
       "target": "rag",
       "label": "can include",
@@ -1231,6 +1240,7 @@
       }
     },
     {
+      "id": "ai-systems--agents",
       "source": "ai-systems",
       "target": "agents",
       "label": "can orchestrate",
@@ -1247,6 +1257,7 @@
       }
     },
     {
+      "id": "rag--model",
       "source": "rag",
       "target": "model",
       "label": "supplies retrieved context to",
@@ -1263,6 +1274,7 @@
       }
     },
     {
+      "id": "rag--testing",
       "source": "rag",
       "target": "testing",
       "label": "requires end-to-end evaluation",
@@ -1279,6 +1291,7 @@
       }
     },
     {
+      "id": "agents--mcp",
       "source": "agents",
       "target": "mcp",
       "label": "can invoke tools through",
@@ -1295,6 +1308,7 @@
       }
     },
     {
+      "id": "mcp--saas",
       "source": "mcp",
       "target": "saas",
       "label": "exposes functions from",
@@ -1311,6 +1325,7 @@
       }
     },
     {
+      "id": "agents--permissions",
       "source": "agents",
       "target": "permissions",
       "label": "remain bounded by",
@@ -1327,6 +1342,7 @@
       }
     },
     {
+      "id": "agents--identity",
       "source": "agents",
       "target": "identity",
       "label": "require verifiable",
@@ -1343,6 +1359,7 @@
       }
     },
     {
+      "id": "identity--spiffe",
       "source": "identity",
       "target": "spiffe",
       "label": "can be implemented with",
@@ -1359,6 +1376,7 @@
       }
     },
     {
+      "id": "spiffe--mtls",
       "source": "spiffe",
       "target": "mtls",
       "label": "supports authenticated connections via",
@@ -1375,6 +1393,7 @@
       }
     },
     {
+      "id": "identity--permissions",
       "source": "identity",
       "target": "permissions",
       "label": "does not replace",
@@ -1391,6 +1410,7 @@
       }
     },
     {
+      "id": "secrets--kms",
       "source": "secrets",
       "target": "kms",
       "label": "can be protected at rest by",
@@ -1407,6 +1427,7 @@
       }
     },
     {
+      "id": "secrets--permissions",
       "source": "secrets",
       "target": "permissions",
       "label": "remain exposed through",
@@ -1423,6 +1444,7 @@
       }
     },
     {
+      "id": "governance--iso42001",
       "source": "governance",
       "target": "iso42001",
       "label": "can be structured by",
@@ -1439,6 +1461,7 @@
       }
     },
     {
+      "id": "iso42001--testing",
       "source": "iso42001",
       "target": "testing",
       "label": "does not by itself prove",
@@ -1455,6 +1478,7 @@
       }
     },
     {
+      "id": "testing--conformity",
       "source": "testing",
       "target": "conformity",
       "label": "provides evidence for",
@@ -1471,6 +1495,7 @@
       }
     },
     {
+      "id": "governance--procurement",
       "source": "governance",
       "target": "procurement",
       "label": "changes questions in",
@@ -1487,6 +1512,7 @@
       }
     },
     {
+      "id": "procurement--conformity",
       "source": "procurement",
       "target": "conformity",
       "label": "must inspect scope of",
@@ -1503,6 +1529,7 @@
       }
     },
     {
+      "id": "agents--light-workforce",
       "source": "agents",
       "target": "light-workforce",
       "label": "reduce navigation work in",
@@ -1519,6 +1546,7 @@
       }
     },
     {
+      "id": "saas--light-workforce",
       "source": "saas",
       "target": "light-workforce",
       "label": "shifts value toward data and execution in",
@@ -1535,6 +1563,7 @@
       }
     },
     {
+      "id": "ai-systems--governance",
       "source": "ai-systems",
       "target": "governance",
       "label": "must be governed beyond model choice",
@@ -1551,6 +1580,7 @@
       }
     },
     {
+      "id": "cognition--memory",
       "source": "cognition",
       "target": "memory",
       "label": "includes",
@@ -1567,6 +1597,7 @@
       }
     },
     {
+      "id": "memory--episodic-memory",
       "source": "memory",
       "target": "episodic-memory",
       "label": "includes",
@@ -1583,6 +1614,7 @@
       }
     },
     {
+      "id": "episodic-memory--event-boundaries",
       "source": "episodic-memory",
       "target": "event-boundaries",
       "label": "is reorganized by",
@@ -1599,6 +1631,7 @@
       }
     },
     {
+      "id": "event-boundaries--interruption",
       "source": "event-boundaries",
       "target": "interruption",
       "label": "can be created cognitively by",
@@ -1615,6 +1648,7 @@
       }
     },
     {
+      "id": "interruption--memory",
       "source": "interruption",
       "target": "memory",
       "label": "can fragment",
@@ -1631,6 +1665,7 @@
       }
     },
     {
+      "id": "cognition--effort",
       "source": "cognition",
       "target": "effort",
       "label": "allocates",
@@ -1647,6 +1682,7 @@
       }
     },
     {
+      "id": "effort--learning",
       "source": "effort",
       "target": "learning",
       "label": "can contribute to",
@@ -1663,6 +1699,7 @@
       }
     },
     {
+      "id": "ai-assistance--effort",
       "source": "ai-assistance",
       "target": "effort",
       "label": "can remove",
@@ -1679,6 +1716,7 @@
       }
     },
     {
+      "id": "ai-assistance--learning",
       "source": "ai-assistance",
       "target": "learning",
       "label": "can change the construction of",
@@ -1695,6 +1733,7 @@
       }
     },
     {
+      "id": "effort--ownership",
       "source": "effort",
       "target": "ownership",
       "label": "can increase",
@@ -1711,6 +1750,7 @@
       }
     },
     {
+      "id": "attention--introspective-technoference",
       "source": "attention",
       "target": "introspective-technoference",
       "label": "is fragmented in",
@@ -1727,6 +1767,7 @@
       }
     },
     {
+      "id": "introspective-technoference--internal-dialogue",
       "source": "introspective-technoference",
       "target": "internal-dialogue",
       "label": "disrupts",
@@ -1743,6 +1784,7 @@
       }
     },
     {
+      "id": "introspective-technoference--memory",
       "source": "introspective-technoference",
       "target": "memory",
       "label": "can alter conditions for",
@@ -1759,6 +1801,7 @@
       }
     },
     {
+      "id": "parental-technoference--joint-attention",
       "source": "parental-technoference",
       "target": "joint-attention",
       "label": "can disrupt",
@@ -1775,6 +1818,7 @@
       }
     },
     {
+      "id": "joint-attention--language-development",
       "source": "joint-attention",
       "target": "language-development",
       "label": "supports",
@@ -1791,6 +1835,7 @@
       }
     },
     {
+      "id": "parental-technoference--language-development",
       "source": "parental-technoference",
       "target": "language-development",
       "label": "is associated with altered interaction supporting",
@@ -1807,6 +1852,7 @@
       }
     },
     {
+      "id": "attention--parental-technoference",
       "source": "attention",
       "target": "parental-technoference",
       "label": "is diverted in",
@@ -1823,6 +1869,7 @@
       }
     },
     {
+      "id": "health--her2",
       "source": "health",
       "target": "her2",
       "label": "uses molecular markers such as",
@@ -1839,6 +1886,7 @@
       }
     },
     {
+      "id": "her2--biliary-cancer",
       "source": "her2",
       "target": "biliary-cancer",
       "label": "defines a targetable subgroup within",
@@ -1855,6 +1903,7 @@
       }
     },
     {
+      "id": "her2--precision-oncology",
       "source": "her2",
       "target": "precision-oncology",
       "label": "supports",
@@ -1871,6 +1920,7 @@
       }
     },
     {
+      "id": "biliary-cancer--precision-oncology",
       "source": "biliary-cancer",
       "target": "precision-oncology",
       "label": "can be reclassified by",
@@ -1887,6 +1937,7 @@
       }
     },
     {
+      "id": "health--alzheimer-pathology",
       "source": "health",
       "target": "alzheimer-pathology",
       "label": "tracks",
@@ -1903,6 +1954,7 @@
       }
     },
     {
+      "id": "alzheimer-pathology--cognitive-resilience",
       "source": "alzheimer-pathology",
       "target": "cognitive-resilience",
       "label": "does not fully determine",
@@ -1919,6 +1971,7 @@
       }
     },
     {
+      "id": "cognitive-resilience--memory",
       "source": "cognitive-resilience",
       "target": "memory",
       "label": "describes preserved performance involving",
@@ -1935,6 +1988,7 @@
       }
     },
     {
+      "id": "health--cortical-ageing",
       "source": "health",
       "target": "cortical-ageing",
       "label": "maps",
@@ -1951,6 +2005,7 @@
       }
     },
     {
+      "id": "cortical-ageing--glia",
       "source": "cortical-ageing",
       "target": "glia",
       "label": "shows strong change in",
@@ -1967,6 +2022,7 @@
       }
     },
     {
+      "id": "cortical-ageing--circadian",
       "source": "cortical-ageing",
       "target": "circadian",
       "label": "alters",
@@ -1983,6 +2039,7 @@
       }
     },
     {
+      "id": "prematurity--music",
       "source": "prematurity",
       "target": "music",
       "label": "has been studied with",
@@ -1999,6 +2056,7 @@
       }
     },
     {
+      "id": "music--corpus-callosum",
       "source": "music",
       "target": "corpus-callosum",
       "label": "is associated with faster growth of",
@@ -2015,6 +2073,7 @@
       }
     },
     {
+      "id": "prematurity--corpus-callosum",
       "source": "prematurity",
       "target": "corpus-callosum",
       "label": "involves maturation of",
@@ -2031,6 +2090,7 @@
       }
     },
     {
+      "id": "wound-healing--shea",
       "source": "wound-healing",
       "target": "shea",
       "label": "has been experimentally probed using",
@@ -2047,6 +2107,7 @@
       }
     },
     {
+      "id": "shea--wound-healing",
       "source": "shea",
       "target": "wound-healing",
       "label": "shows biomarker and tissue signals relevant to",
@@ -2063,6 +2124,7 @@
       }
     },
     {
+      "id": "culture--luxury",
       "source": "culture",
       "target": "luxury",
       "label": "encodes value through",
@@ -2079,6 +2141,7 @@
       }
     },
     {
+      "id": "luxury--visual-complexity",
       "source": "luxury",
       "target": "visual-complexity",
       "label": "is shaped by",
@@ -2095,6 +2158,7 @@
       }
     },
     {
+      "id": "luxury--minimalism",
       "source": "luxury",
       "target": "minimalism",
       "label": "can be signalled by",
@@ -2111,6 +2175,7 @@
       }
     },
     {
+      "id": "minimalism--visual-complexity",
       "source": "minimalism",
       "target": "visual-complexity",
       "label": "is only one region of",
@@ -2127,6 +2192,7 @@
       }
     },
     {
+      "id": "culture--industrial-archaeology",
       "source": "culture",
       "target": "industrial-archaeology",
       "label": "recovers hidden technical systems through",
@@ -2143,6 +2209,7 @@
       }
     },
     {
+      "id": "industrial-archaeology--celtic-salt",
       "source": "industrial-archaeology",
       "target": "celtic-salt",
       "label": "reveals",
@@ -2159,6 +2226,7 @@
       }
     },
     {
+      "id": "celtic-salt--national-narrative",
       "source": "celtic-salt",
       "target": "national-narrative",
       "label": "complicates",
@@ -2175,6 +2243,7 @@
       }
     },
     {
+      "id": "culture--heritage",
       "source": "culture",
       "target": "heritage",
       "label": "organizes",
@@ -2191,6 +2260,7 @@
       }
     },
     {
+      "id": "heritage--mont-treadwheel",
       "source": "heritage",
       "target": "mont-treadwheel",
       "label": "can misdate",
@@ -2207,6 +2277,7 @@
       }
     },
     {
+      "id": "mont-treadwheel--national-narrative",
       "source": "mont-treadwheel",
       "target": "national-narrative",
       "label": "contradicts simplified",
@@ -2223,6 +2294,7 @@
       }
     },
     {
+      "id": "culture--kentridge",
       "source": "culture",
       "target": "kentridge",
       "label": "uses artistic practice to examine",
@@ -2239,6 +2311,7 @@
       }
     },
     {
+      "id": "kentridge--erasure",
       "source": "kentridge",
       "target": "erasure",
       "label": "works through",
@@ -2255,6 +2328,7 @@
       }
     },
     {
+      "id": "erasure--memory",
       "source": "erasure",
       "target": "memory",
       "label": "materializes traces of",
@@ -2271,6 +2345,7 @@
       }
     },
     {
+      "id": "memory--reconsolidation",
       "source": "memory",
       "target": "reconsolidation",
       "label": "can involve",
@@ -2287,6 +2362,7 @@
       }
     },
     {
+      "id": "culture--vernacular-architecture",
       "source": "culture",
       "target": "vernacular-architecture",
       "label": "contains accumulated knowledge in",
@@ -2303,6 +2379,7 @@
       }
     },
     {
+      "id": "vernacular-architecture--climate-design",
       "source": "vernacular-architecture",
       "target": "climate-design",
       "label": "implements",
@@ -2319,6 +2396,7 @@
       }
     },
     {
+      "id": "availability-heuristic--national-narrative",
       "source": "availability-heuristic",
       "target": "national-narrative",
       "label": "can privilege memorable figures in",
@@ -2335,6 +2413,7 @@
       }
     },
     {
+      "id": "availability-heuristic--heritage",
       "source": "availability-heuristic",
       "target": "heritage",
       "label": "can simplify readings of",

@@ -7,6 +7,7 @@ VOCE Atlas: https://voce.life/atlas
 VOCE Atlas French: https://voce.life/fr/atlas
 VOCE Atlas Italian: https://voce.life/it/atlas
 VOCE Atlas machine-readable graph: https://voce.life/data/atlas.json
+VOCE Atlas relation records: https://voce.life/atlas/relations/{source}--{target}
 VOCE Applied: https://voce.life/applied
 VOCE Applied French: https://voce.life/fr/applied
 VOCE Applied Italian: https://voce.life/it/applied
@@ -35,6 +36,10 @@ Contact: contact@voce.life
 ## Preferred citation
 
 VOCE Association, title of the publication, publication date, canonical voce.life URL.
+
+## Atlas relation records
+
+Each published Atlas relation has a permanent evidence-backed HTML record in English, French and Italian. Atlas path exploration traverses individually documented relations; a multi-step path is a documentary connection and is not, by itself, a causal claim.
 
 ## Permanent article routes
 
