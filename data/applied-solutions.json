@@ -1,5 +1,5 @@
 {
-  "schema": 1,
+  "schema": 2,
   "generated_at": "2026-10-05",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
@@ -9,7 +9,10 @@
     "independence": "Presence in the registry is not a VOCE recommendation, certification, ranking or commercial endorsement.",
     "autonomy": "Autonomy is described as assist, supervised action, governed execution or configurable. Actual permissions depend on deployment.",
     "regulated_work": "For legal, finance, HR, health and other high-stakes workflows, professional accountability and applicable regulation remain with the deploying organisation and qualified humans.",
-    "freshness": "Vendor capabilities change quickly. Each solution record carries a verification date."
+    "freshness": "Vendor capabilities change quickly. Each solution record carries a verification date.",
+    "due_diligence": "Institutional fields distinguish publicly documented capabilities from fields not located in official public material. Missing public documentation is not treated as a product defect.",
+    "documentation_coverage": "Coverage describes how much official public evidence VOCE could verify for deployment, data boundary, identity, auditability, interfaces, pricing and availability. It is not a quality score.",
+    "verification_date": "Institutional comparison verified against official vendor documentation on 2026-10-05."
   },
   "sectors": [
     {
@@ -116,6 +119,76 @@
           "fit": "Team legali che cercano un ambiente verticale basato su conoscenza, playbook e collaborazione governata.",
           "caution": "Preservare riservatezza, privilegio professionale, controlli di accesso e validazione per giurisdizione."
         }
+      },
+      "institutional": {
+        "availability": {
+          "status": "commercial",
+          "detail": "Enterprise SaaS; Harvey reports use across 70+ countries."
+        },
+        "deployment": [
+          "Vendor-managed SaaS",
+          "Microsoft Azure"
+        ],
+        "regions": [
+          "US",
+          "EU / Switzerland",
+          "Australia"
+        ],
+        "data_residency": {
+          "status": "documented",
+          "detail": "Regional hosting and processing are offered in US, EU/Switzerland and Australia; the operative order form governs the selected region. Optional covered AI services can have separate location terms."
+        },
+        "identity_access": {
+          "status": "documented",
+          "controls": [
+            "SAML SSO",
+            "RBAC",
+            "Ethical walls",
+            "IP allow-listing",
+            "Data lifecycle controls"
+          ]
+        },
+        "auditability": {
+          "status": "documented",
+          "controls": [
+            "Audit logs",
+            "24/7 monitoring",
+            "Annual third-party audits",
+            "Annual penetration testing"
+          ]
+        },
+        "interfaces": [
+          "APIs",
+          "iManage",
+          "NetDocuments",
+          "SharePoint",
+          "Google Drive",
+          "Aderant",
+          "Ironclad",
+          "Word",
+          "Outlook"
+        ],
+        "mcp": {
+          "status": "not_public"
+        },
+        "pricing": {
+          "status": "contact_sales",
+          "public": false
+        },
+        "security_certifications": [
+          "SOC 2 Type II",
+          "ISO 27001",
+          "ISO 27701",
+          "ISO 42001",
+          "GDPR"
+        ],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://www.harvey.ai/security",
+          "https://www.harvey.ai/platform",
+          "https://www.harvey.ai/legal/subprocessors",
+          "https://www.harvey.ai/legal/security-addendum"
+        ]
       }
     },
     {
@@ -168,6 +241,163 @@
           "fit": "Team legali che privilegiano workflow fondati su Westlaw, Practical Law e conoscenza interna.",
           "caution": "Verificare giurisdizione, copertura delle fonti e disponibilità esatta prima del deployment."
         }
+      },
+      "institutional": {
+        "availability": {
+          "status": "commercial",
+          "detail": "Commercial legal AI plans are publicly offered; plan and next-generation feature availability can vary by customer."
+        },
+        "deployment": [
+          "Vendor-managed SaaS",
+          "Thomson Reuters environment"
+        ],
+        "regions": [],
+        "data_residency": {
+          "status": "not_public",
+          "detail": "No product-specific customer-selectable region statement was located in the public legal product sources reviewed."
+        },
+        "identity_access": {
+          "status": "partial",
+          "controls": [
+            "Access controls",
+            "Matter/workspace permissions"
+          ]
+        },
+        "auditability": {
+          "status": "documented",
+          "controls": [
+            "Audit trails for AI interactions",
+            "Usage analytics",
+            "Source attribution"
+          ]
+        },
+        "interfaces": [
+          "Microsoft 365",
+          "Westlaw",
+          "Practical Law",
+          "Document-management integrations"
+        ],
+        "mcp": {
+          "status": "not_public"
+        },
+        "pricing": {
+          "status": "public_partial",
+          "public": true,
+          "detail": "U.S. in-house CoCounsel Legal pricing is published from $1,694.90/month for new customers; larger teams and existing customers may require sales contact."
+        },
+        "security_certifications": [
+          "SOC 2",
+          "ISO 27001",
+          "ISO 42001"
+        ],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://legal.thomsonreuters.com/en/products/cocounsel-legal/plans",
+          "https://legal.thomsonreuters.com/en/c/compare-cocounsel-plans-for-your-legal-team",
+          "https://legal.thomsonreuters.com/blog/beyond-chatbots-how-cocounsel-legal-delivers-ai-legal-research-you-can-trust/",
+          "https://legal.thomsonreuters.com/en/products/cocounsel-legal/corp"
+        ]
+      }
+    },
+    {
+      "id": "astra-for-law",
+      "vendor": "OpenAI",
+      "product": "Astra for Law",
+      "layer": "professional-foundation",
+      "sectors": [
+        "legal"
+      ],
+      "use_cases": [
+        "U.S. legal research with a dedicated daily-updated index",
+        "Argument and objection analysis",
+        "Contract-risk analysis",
+        "Legal workflows connected to specialist tools and firm knowledge"
+      ],
+      "autonomy": "assist / build foundation",
+      "human_control": "OpenAI explicitly instructs users to review answers and cited legal sources before relying on them. Professional judgment remains with eligible lawyers and supervised staff.",
+      "fit": "Selected U.S. law firms and legal-technology builders that want GPT-6 Astra configured around professional legal search, legal instructions and specialist integrations.",
+      "caution": "Early access. The Legal Search Index currently covers U.S. legal sources; API access is announced as coming soon. Product-specific data-residency terms are not public in the launch material reviewed.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://openai.com/index/astra-for-law/",
+        "https://help.openai.com/en/articles/20001528-astra-for-law",
+        "https://openai.com/solutions/industries/law/"
+      ],
+      "voce_evidence": [
+        "lw-legal-astra"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Recherche juridique américaine via un index dédié mis à jour quotidiennement",
+            "Analyse d'arguments et d'objections",
+            "Analyse du risque contractuel",
+            "Workflows juridiques reliés aux outils spécialisés et au savoir du cabinet"
+          ],
+          "fit": "Cabinets américains sélectionnés et éditeurs legaltech voulant GPT-6 Astra configuré autour de la recherche juridique, d'instructions métier et d'intégrations spécialisées.",
+          "caution": "Accès anticipé. L'index juridique couvre actuellement les sources américaines; l'API est annoncée prochainement. Les modalités propres de résidence des données ne sont pas publiées dans les documents de lancement examinés."
+        },
+        "it": {
+          "use_cases": [
+            "Ricerca legale USA tramite indice dedicato aggiornato quotidianamente",
+            "Analisi di argomenti e obiezioni",
+            "Analisi del rischio contrattuale",
+            "Workflow legali collegati a strumenti specialistici e conoscenza dello studio"
+          ],
+          "fit": "Studi USA selezionati e legaltech che vogliono GPT-6 Astra configurato per ricerca legale, istruzioni professionali e integrazioni specialistiche.",
+          "caution": "Accesso anticipato. L'indice legale copre attualmente fonti statunitensi; l'API è annunciata prossimamente. I termini specifici di data residency non sono pubblicati nei materiali di lancio esaminati."
+        }
+      },
+      "institutional": {
+        "availability": {
+          "status": "early_access",
+          "detail": "Initially available to selected U.S. law firms through Trusted Access and Codex; API access is announced as coming soon."
+        },
+        "deployment": [
+          "ChatGPT / Codex hosted service",
+          "API coming soon"
+        ],
+        "regions": [
+          "United States initial access"
+        ],
+        "data_residency": {
+          "status": "not_public",
+          "detail": "No Astra-for-Law-specific public data-residency commitment was located in the launch materials reviewed."
+        },
+        "identity_access": {
+          "status": "partial",
+          "controls": [
+            "Legal-grade trust and controls",
+            "Eligible-lawyer access model",
+            "Plugin permissions depend on connected tool"
+          ]
+        },
+        "auditability": {
+          "status": "not_public",
+          "detail": "Product-specific public audit-log details were not enumerated in the launch material reviewed."
+        },
+        "interfaces": [
+          "26 legal ecosystem plugins",
+          "iManage",
+          "DeepJudge",
+          "Relativity",
+          "Clio",
+          "Legal Search Index"
+        ],
+        "mcp": {
+          "status": "plugin_ecosystem"
+        },
+        "pricing": {
+          "status": "contact_sales",
+          "public": false
+        },
+        "security_certifications": [],
+        "documentation_coverage": "medium",
+        "source_urls": [
+          "https://openai.com/index/astra-for-law/",
+          "https://help.openai.com/en/articles/20001528-astra-for-law",
+          "https://openai.com/solutions/industries/law/"
+        ]
       }
     },
     {
@@ -221,6 +451,57 @@
           "fit": "Clienti Oracle Fusion che vogliono esecuzione agentica dentro oggetti e controlli ERP/HCM.",
           "caution": "Le capacità dipendono da moduli, release e Operating Envelope configurato."
         }
+      },
+      "institutional": {
+        "availability": {
+          "status": "ga",
+          "detail": "Oracle announced 25 Claw-powered Fusion Agentic Applications as available on 2026-09-29."
+        },
+        "deployment": [
+          "Oracle Fusion Cloud Applications"
+        ],
+        "regions": [],
+        "data_residency": {
+          "status": "suite_dependent",
+          "detail": "Fusion Claw runs inside Oracle Fusion Applications; exact residency must be validated for the customer's Fusion Cloud region and contract."
+        },
+        "identity_access": {
+          "status": "documented",
+          "controls": [
+            "Enterprise Operating Envelope",
+            "Identity controls",
+            "Permissions",
+            "Decision rights",
+            "Approvals",
+            "Escalation boundaries"
+          ]
+        },
+        "auditability": {
+          "status": "documented",
+          "controls": [
+            "Outcome Receipt",
+            "Evidence record",
+            "Decision/action/transaction trace"
+          ]
+        },
+        "interfaces": [
+          "Oracle Fusion business objects",
+          "Deterministic enterprise computation"
+        ],
+        "mcp": {
+          "status": "not_public"
+        },
+        "pricing": {
+          "status": "contact_sales",
+          "public": false,
+          "detail": "Commercial packaging is separate from standard Fusion licensing; no public Claw unit price was located in official sources reviewed."
+        },
+        "security_certifications": [],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://www.oracle.com/europe/news/announcement/oracle-extends-fusion-agentic-applications-with-introduction-of-fusion-claw-2026-09-29/",
+          "https://docs.oracle.com/en/cloud/saas/fusion-ai/fusion-claw.html"
+        ]
       }
     },
     {
@@ -283,6 +564,63 @@
           "fit": "Organizzazioni che usano ServiceNow come livello di workflow trasversale.",
           "caution": "Il confine reale dell'agente è definito da workflow, dati e permessi configurati."
         }
+      },
+      "institutional": {
+        "availability": {
+          "status": "ga",
+          "detail": "AI Agents are embedded in the ServiceNow AI Platform; access depends on product tier and installed plugins."
+        },
+        "deployment": [
+          "ServiceNow AI Platform SaaS"
+        ],
+        "regions": [],
+        "data_residency": {
+          "status": "suite_dependent",
+          "detail": "ServiceNow documents AI data-handling and residency controls, but model availability and processing paths vary by geography, data-center environment and feature."
+        },
+        "identity_access": {
+          "status": "documented",
+          "controls": [
+            "Role masking",
+            "Approved roles",
+            "AI identity governance",
+            "AI Control Tower policies",
+            "Kill switch"
+          ]
+        },
+        "auditability": {
+          "status": "documented",
+          "controls": [
+            "AI Control Tower observability",
+            "Agent action monitoring",
+            "Audit-ready compliance gates",
+            "Work-note/action traces"
+          ]
+        },
+        "interfaces": [
+          "MCP client",
+          "A2A",
+          "Action Fabric",
+          "APIs",
+          "Workflow Data Fabric",
+          "Third-party agents"
+        ],
+        "mcp": {
+          "status": "documented"
+        },
+        "pricing": {
+          "status": "contact_sales",
+          "public": false,
+          "detail": "Agentic capabilities are packaged by ServiceNow product tier; public pages route buyers to custom quotes."
+        },
+        "security_certifications": [],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://www.servicenow.com/products/ai-agents.html",
+          "https://www.servicenow.com/products/ai-control-tower.html",
+          "https://www.servicenow.com/standard/resource-center/white-paper/ai-security-and-governance.html",
+          "https://www.servicenow.com/products/business-suite/pricing.html"
+        ]
       }
     },
     {
@@ -337,6 +675,74 @@
           "fit": "Clienti Workday che cercano agenti fondati sui dati workforce e finance.",
           "caution": "Verificare disponibilità e capacità del singolo agente nel tenant interessato."
         }
+      },
+      "institutional": {
+        "availability": {
+          "status": "ga",
+          "detail": "Sana for Workday, Self-Service Agent and Sana Enterprise are available through Workday Flex Credits; some developer-agent capabilities remain Early Access."
+        },
+        "deployment": [
+          "Workday SaaS",
+          "Sana Enterprise"
+        ],
+        "regions": [
+          "Workday regional deployments",
+          "EU Sovereign Cloud option"
+        ],
+        "data_residency": {
+          "status": "documented_partial",
+          "detail": "Workday offers an EU Sovereign Cloud with EU data residency for AI-powered HR and finance. Workday also states Developer Agent inference stays within the customer's Extend region; connector-specific Sana Enterprise flows must still be reviewed."
+        },
+        "identity_access": {
+          "status": "documented",
+          "controls": [
+            "Workday security groups",
+            "Domain security policies",
+            "Agent System of Record",
+            "Provisioning controls",
+            "Approved email-domain restrictions"
+          ]
+        },
+        "auditability": {
+          "status": "documented",
+          "controls": [
+            "Workday audit framework",
+            "Agent System of Record"
+          ]
+        },
+        "interfaces": [
+          "MCP (Developer Agent)",
+          "Box",
+          "Confluence",
+          "Google Workspace",
+          "Jira",
+          "Microsoft 365",
+          "Salesforce",
+          "ServiceNow",
+          "SharePoint",
+          "Slack",
+          "Zoom"
+        ],
+        "mcp": {
+          "status": "documented_partial"
+        },
+        "pricing": {
+          "status": "flex_credits",
+          "public": false,
+          "detail": "Sana for Workday and Self-Service Agent use Workday Flex Credits; Sana Enterprise requires an eligible Workday product and Flex Credits. Exact enterprise price is contract-specific."
+        },
+        "security_certifications": [
+          "ISO 27001 (Workday services, applicability product-specific)",
+          "SOC 2 (Workday services, applicability product-specific)"
+        ],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://www.workday.com/en-us/artificial-intelligence/ai-agents.html",
+          "https://www.workday.com/en-us/artificial-intelligence/workday-sana.html",
+          "https://doc.workday.com/admin-guide/en-us/workday-ai/sana-for-workday/steps--set-up-sana-for-workday.html",
+          "https://newsroom.workday.com/2025-11-19-Workday-Launches-Workday-EU-Sovereign-Cloud-to-Unlock-Enterprise-AI-With-Full-EU-Data-Residency-and-Control",
+          "https://newsroom.workday.com/2026-03-17-Introducing-Sana-from-Workday-Superintelligence-for-Work-That-Finds-Answers%2C-Takes-Action%2C-and-Automates-Workflows"
+        ]
       }
     },
     {
@@ -389,6 +795,54 @@
           "fit": "Ambienti SAP in cui contesto e processi aziendali sono già rappresentati in SAP.",
           "caution": "Verificare la disponibilità generale del Joule Agent richiesto per modulo e geografia."
         }
+      },
+      "institutional": {
+        "availability": {
+          "status": "ga_varies",
+          "detail": "Joule Agents and AI features are commercially available, but individual agents vary by SAP solution and release."
+        },
+        "deployment": [
+          "SAP BTP",
+          "SAP business applications"
+        ],
+        "regions": [],
+        "data_residency": {
+          "status": "suite_dependent",
+          "detail": "Joule is built on SAP BTP/Cloud Foundry; residency and model-processing routes depend on the customer's SAP landscape, BTP region and enabled capability."
+        },
+        "identity_access": {
+          "status": "suite_dependent",
+          "controls": [
+            "SAP application/BTP authorization model"
+          ]
+        },
+        "auditability": {
+          "status": "partial",
+          "controls": [
+            "Agent-action usage tracking",
+            "SAP application logs depend on connected workflow"
+          ]
+        },
+        "interfaces": [
+          "Joule Studio",
+          "SAP AI Agent Hub",
+          "SAP BTP",
+          "SAP business applications"
+        ],
+        "mcp": {
+          "status": "not_public"
+        },
+        "pricing": {
+          "status": "public",
+          "public": true,
+          "detail": "SAP-delivered autonomous enterprise agents in 2026 are priced at 0.02 AI Units per agent action. Custom productive runtime is billed through SAP BTP resource consumption; SAP publishes separate AI Unit rules."
+        },
+        "security_certifications": [],
+        "documentation_coverage": "medium",
+        "source_urls": [
+          "https://www.sap.com/westbalkans/products/artificial-intelligence/pricing.html",
+          "https://help.sap.com/doc/75f5965fbb514fbcb89f1e47c094ea3f/CLOUD/en-US/9d8c0ef2443b49f993a27de8f38f83af.pdf"
+        ]
       }
     },
     {
@@ -445,6 +899,73 @@
           "fit": "Organizzazioni Microsoft che vogliono costruire e distribuire agenti personalizzati.",
           "caution": "Copilot Studio è un livello di costruzione e orchestrazione, non un'autorità verticale legale, HR o contabile."
         }
+      },
+      "institutional": {
+        "availability": {
+          "status": "ga_with_previews",
+          "detail": "Copilot Studio is generally available; some MCP/A2A and REST tooling is in preview or staged rollout depending on harness and environment."
+        },
+        "deployment": [
+          "Microsoft Power Platform",
+          "Azure"
+        ],
+        "regions": [
+          "Multi-geo Azure regions",
+          "EU Data Boundary eligible configurations"
+        ],
+        "data_residency": {
+          "status": "documented",
+          "detail": "Customers can select geographic environments; EU/EFTA tenants can qualify for EU Data Boundary when environments are created inside the boundary. External connectors can move data outside the selected geography."
+        },
+        "identity_access": {
+          "status": "documented",
+          "controls": [
+            "Microsoft Entra ID",
+            "OAuth 2.0",
+            "RBAC",
+            "MFA",
+            "DLP policies",
+            "Customer-managed keys"
+          ]
+        },
+        "auditability": {
+          "status": "documented",
+          "controls": [
+            "Audit logs",
+            "Monitoring",
+            "Agent activity/transcripts",
+            "Power Platform governance"
+          ]
+        },
+        "interfaces": [
+          "MCP",
+          "A2A",
+          "REST API",
+          "Power Platform connectors",
+          "Power Automate",
+          "Microsoft 365"
+        ],
+        "mcp": {
+          "status": "documented"
+        },
+        "pricing": {
+          "status": "public_usage",
+          "public": true,
+          "detail": "Usage is measured in Copilot Credits; Microsoft publishes feature-level credit rates and supports prepaid capacity or Azure pay-as-you-go."
+        },
+        "security_certifications": [
+          "Azure / Microsoft compliance portfolio",
+          "GDPR",
+          "ISO/IEC 27001",
+          "SOC 1/2/3"
+        ],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://learn.microsoft.com/en-us/microsoft-copilot-studio/geo-data-residency-security",
+          "https://learn.microsoft.com/en-us/microsoft-copilot-studio/security-and-governance",
+          "https://learn.microsoft.com/en-us/microsoft-copilot-studio/mcp-add-components-to-agent",
+          "https://learn.microsoft.com/en-us/microsoft-copilot-studio/requirements-messages-management"
+        ]
       }
     },
     {
@@ -512,6 +1033,74 @@
           "fit": "Team che costruiscono agenti verticali o pipeline documentali su Qwen e Alibaba Cloud.",
           "caution": "Piattaforma di modelli e agenti, non prodotto legale/HR/contabile pronto all'uso. Le feature variano per regione."
         }
+      },
+      "institutional": {
+        "availability": {
+          "status": "ga",
+          "detail": "Model Studio is available in multiple regional deployments with region-specific endpoints, API keys, models and pricing."
+        },
+        "deployment": [
+          "Alibaba Cloud Model Studio",
+          "Workspace-dedicated API endpoints"
+        ],
+        "regions": [
+          "China (Beijing)",
+          "Singapore",
+          "Germany (Frankfurt)",
+          "Japan (Tokyo)",
+          "China (Hong Kong)",
+          "US (Virginia)"
+        ],
+        "data_residency": {
+          "status": "documented",
+          "detail": "Static data remains in the selected region. Germany supports an EU deployment scope; US Virginia supports a US scope. Region, endpoint, API key and model list are isolated."
+        },
+        "identity_access": {
+          "status": "documented",
+          "controls": [
+            "Alibaba Cloud RAM",
+            "Workspace roles",
+            "Granular model permissions",
+            "API key scopes",
+            "IP allow-lists"
+          ]
+        },
+        "auditability": {
+          "status": "documented",
+          "controls": [
+            "Default audit logs",
+            "Optional inference logs",
+            "Monitoring",
+            "Alerts",
+            "SLS log delivery"
+          ]
+        },
+        "interfaces": [
+          "REST API",
+          "OpenAPI",
+          "Function/tool calling",
+          "MCP-connected applications",
+          "Knowledge bases"
+        ],
+        "mcp": {
+          "status": "supported_application_layer"
+        },
+        "pricing": {
+          "status": "public_usage",
+          "public": true,
+          "detail": "Alibaba publishes per-model token pricing by region and deployment scope; prices differ by model, context length and modality."
+        },
+        "security_certifications": [
+          "Alibaba Cloud security/compliance portfolio"
+        ],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://www.alibabacloud.com/help/en/model-studio/what-is-model-studio",
+          "https://www.alibabacloud.com/help/en/model-studio/regions",
+          "https://www.alibabacloud.com/help/en/model-studio/permission-management-overview",
+          "https://www.alibabacloud.com/help/en/model-studio/model-telemetry",
+          "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+        ]
       }
     },
     {
@@ -571,6 +1160,54 @@
           "fit": "Team engineering che vogliono un livello GLM general purpose per applicazioni o agenti custom.",
           "caution": "Non è un prodotto verticale: corpus, permessi, validazione e policy di azione devono essere costruiti attorno al modello."
         }
+      },
+      "institutional": {
+        "availability": {
+          "status": "ga",
+          "detail": "Z.ai offers a commercial model API and coding plans; current GLM models are available through Z.ai endpoints. Open model weights are also published for selected GLM releases."
+        },
+        "deployment": [
+          "Z.ai hosted API",
+          "Local/self-hosted deployment for open-weight GLM releases"
+        ],
+        "regions": [],
+        "data_residency": {
+          "status": "not_public",
+          "detail": "No customer-selectable hosted API data-residency regions were located in the public sources reviewed."
+        },
+        "identity_access": {
+          "status": "partial",
+          "controls": [
+            "API keys",
+            "Team plans"
+          ]
+        },
+        "auditability": {
+          "status": "not_public"
+        },
+        "interfaces": [
+          "OpenAI-compatible API",
+          "Anthropic-compatible coding endpoint",
+          "Agent frameworks",
+          "Local vLLM/SGLang for open weights"
+        ],
+        "mcp": {
+          "status": "ecosystem",
+          "detail": "MCP tools are included in some coding plans, but no general hosted MCP governance layer was documented."
+        },
+        "pricing": {
+          "status": "public_usage",
+          "public": true,
+          "detail": "Z.ai publishes API pricing and separate Coding Plan tiers; enterprise cooperation is available via sales."
+        },
+        "security_certifications": [],
+        "documentation_coverage": "medium",
+        "source_urls": [
+          "https://z.ai/pricing",
+          "https://z.ai/model-api",
+          "https://z.ai/blog/glm-5.3",
+          "https://zcode.z.ai/en/docs/configuration"
+        ]
       }
     },
     {
@@ -626,6 +1263,62 @@
           "fit": "Musei, istituzioni culturali e brand che richiedono produzione audiovisiva controllata ad alto volume.",
           "caution": "Seedance è un modello creativo, non un agente ticketing, legale o contabile. Diritti e provenienza richiedono governance separata."
         }
+      },
+      "institutional": {
+        "availability": {
+          "status": "ga_api",
+          "detail": "Seedance 2.5 is available through BytePlus ModelArk API and ByteDance creative products."
+        },
+        "deployment": [
+          "BytePlus ModelArk hosted API",
+          "ByteDance creative applications"
+        ],
+        "regions": [
+          "BytePlus ModelArk regional service"
+        ],
+        "data_residency": {
+          "status": "not_public",
+          "detail": "A Seedance-2.5-specific public data-residency commitment was not located in the product materials reviewed; deployment must be checked against the selected BytePlus region and contract."
+        },
+        "identity_access": {
+          "status": "partial",
+          "controls": [
+            "ARK API key",
+            "BytePlus account controls"
+          ]
+        },
+        "auditability": {
+          "status": "partial",
+          "controls": [
+            "Task IDs",
+            "Billing records",
+            "Callback/task lifecycle"
+          ]
+        },
+        "interfaces": [
+          "REST API",
+          "cURL",
+          "Python SDK",
+          "Java SDK",
+          "Go SDK"
+        ],
+        "mcp": {
+          "status": "not_applicable"
+        },
+        "pricing": {
+          "status": "public_usage",
+          "public": true,
+          "detail": "BytePlus bills Seedance by model/token usage; activation can use credits, AI Savings Plans or resource packs. Pricing varies with resolution and input type."
+        },
+        "security_certifications": [],
+        "documentation_coverage": "medium",
+        "source_urls": [
+          "https://seed.bytedance.com/en/seedance2_5",
+          "https://docs.byteplus.com/en/docs/ModelArk/seedance-2-5",
+          "https://docs.byteplus.com/fr/docs/ModelArk/seedance-model-activation-usage-and-refund",
+          "https://docs.byteplus.com/de/docs/modelark/model-service-pricing",
+          "https://seed.bytedance.com/transparency"
+        ]
       }
     },
     {
@@ -681,6 +1374,61 @@
           "fit": "Musei e istituzioni culturali che cercano infrastruttura ticketing aperta, white-label e integrabile.",
           "caution": "Separare i permessi: pagamento, prenotazione, accesso e frode non dovrebbero condividere autorità non necessaria."
         }
+      },
+      "institutional": {
+        "availability": {
+          "status": "commercial",
+          "detail": "Enterprise ticketing platform for attractions and events."
+        },
+        "deployment": [
+          "Vendor-managed SaaS"
+        ],
+        "regions": [],
+        "data_residency": {
+          "status": "not_public",
+          "detail": "No customer-selectable data-residency region statement was located in the public product/security pages reviewed."
+        },
+        "identity_access": {
+          "status": "documented",
+          "controls": [
+            "RBAC",
+            "MFA",
+            "SAML 2.0 SSO",
+            "OIDC SSO",
+            "Granular API-key permissions"
+          ]
+        },
+        "auditability": {
+          "status": "documented",
+          "controls": [
+            "Audit logging for authentication, configuration and access events"
+          ]
+        },
+        "interfaces": [
+          "REST API",
+          "API keys",
+          "SSO exchange-token API",
+          "Webhooks / integrations"
+        ],
+        "mcp": {
+          "status": "not_public"
+        },
+        "pricing": {
+          "status": "contact_sales",
+          "public": false
+        },
+        "security_certifications": [
+          "SOC 2 Type II",
+          "GDPR",
+          "PCI DSS"
+        ],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://vivenu.com/security",
+          "https://docs.vivenu.com/api/introduction",
+          "https://docs.vivenu.com/api/sso",
+          "https://trust.vivenu.com/"
+        ]
       }
     },
     {
@@ -732,6 +1480,64 @@
           "fit": "Cliniche già su Pabau che vogliono agenti operativi sugli stessi dati.",
           "caution": "Separare rigorosamente automazione operativa, giudizio clinico e dati sanitari protetti."
         }
+      },
+      "institutional": {
+        "availability": {
+          "status": "commercial_addon",
+          "detail": "Pabau core plans are commercial; AI agents are offered through the Engage Plus add-on."
+        },
+        "deployment": [
+          "Vendor-managed SaaS"
+        ],
+        "regions": [
+          "London (UK)",
+          "Singapore (APAC)",
+          "US on request"
+        ],
+        "data_residency": {
+          "status": "documented",
+          "detail": "Pabau documents London hosting for UK customers, Singapore for APAC and US provisioning on request; files and backups for UK customers are in London."
+        },
+        "identity_access": {
+          "status": "documented",
+          "controls": [
+            "2FA",
+            "Team roles and permissions",
+            "HIPAA support controls"
+          ]
+        },
+        "auditability": {
+          "status": "documented",
+          "controls": [
+            "Audit logs for HIPAA-support workflows",
+            "Security monitoring"
+          ]
+        },
+        "interfaces": [
+          "Integrations",
+          "Payments",
+          "Scheduling",
+          "Patient records",
+          "AI voice/chat agents"
+        ],
+        "mcp": {
+          "status": "not_public"
+        },
+        "pricing": {
+          "status": "public_partial",
+          "public": true,
+          "detail": "Core plans are priced by team size; larger-team pricing is quote-based. Engage Plus is priced per location with usage credits for messages and AI call minutes."
+        },
+        "security_certifications": [
+          "HIPAA-support controls",
+          "PCI via Stripe",
+          "DigitalOcean SOC 2 Type II infrastructure"
+        ],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://pabau.com/security/",
+          "https://pabau.com/pricing/"
+        ]
       }
     },
     {
@@ -780,6 +1586,60 @@
           "fit": "Team compliance che vogliono interrogare il GRC dall'assistente senza duplicare il sistema di record.",
           "caution": "Workflow e retrieval non sostituiscono interpretazione normativa né revisione delle evidenze."
         }
+      },
+      "institutional": {
+        "availability": {
+          "status": "commercial",
+          "detail": "Commercial GRC SaaS; MCP connectivity documented by VComply and in VOCE source review."
+        },
+        "deployment": [
+          "Vendor-managed SaaS"
+        ],
+        "regions": [],
+        "data_residency": {
+          "status": "not_public",
+          "detail": "No customer-selectable region statement was located in the public security and pricing pages reviewed."
+        },
+        "identity_access": {
+          "status": "documented",
+          "controls": [
+            "SSO",
+            "2FA",
+            "Least-privilege access",
+            "Password policies"
+          ]
+        },
+        "auditability": {
+          "status": "documented",
+          "controls": [
+            "Continuous monitoring",
+            "Detailed audit trails",
+            "User/data/system-event logging"
+          ]
+        },
+        "interfaces": [
+          "MCP",
+          "GRC workflows",
+          "Assistant integrations"
+        ],
+        "mcp": {
+          "status": "documented"
+        },
+        "pricing": {
+          "status": "public_partial",
+          "public": true,
+          "detail": "Pro modules start at $1,000/month, invoiced annually with a 12-month minimum; enterprise features and special packages vary."
+        },
+        "security_certifications": [
+          "SOC 2 Type 2",
+          "HIPAA",
+          "ISO/IEC 27001 compliant"
+        ],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://www.v-comply.com/security/",
+          "https://www.v-comply.com/pricing/"
+        ]
       }
     },
     {
@@ -828,6 +1688,51 @@
           "fit": "Team marketing che vogliono ridurre i passaggi manuali fra SaaS specialistici.",
           "caution": "MCP riduce il cambio di interfaccia; non sostituisce il giudizio marketing o i controlli di pubblicazione."
         }
+      },
+      "institutional": {
+        "availability": {
+          "status": "mixed",
+          "detail": "MCP availability varies by Positive Group product. Iconosquare MCP is public; Surfer MCP was announced in beta with staged plan rollout."
+        },
+        "deployment": [
+          "Vendor-managed SaaS products"
+        ],
+        "regions": [],
+        "data_residency": {
+          "status": "not_assessed",
+          "detail": "This aggregate entry spans multiple products; residency must be assessed per Surfer, Iconosquare and Signitic contract."
+        },
+        "identity_access": {
+          "status": "product_dependent",
+          "controls": [
+            "Product account authentication",
+            "MCP authorization per product"
+          ]
+        },
+        "auditability": {
+          "status": "product_dependent"
+        },
+        "interfaces": [
+          "MCP",
+          "Iconosquare analytics/publishing",
+          "Surfer SEO/AI visibility",
+          "Signitic brand tooling"
+        ],
+        "mcp": {
+          "status": "documented"
+        },
+        "pricing": {
+          "status": "product_dependent",
+          "public": true,
+          "detail": "Pricing is set separately by each Positive Group product and MCP rollout may depend on plan."
+        },
+        "security_certifications": [],
+        "documentation_coverage": "medium",
+        "source_urls": [
+          "https://www.iconosquare.com/mcp",
+          "https://www.iconosquare.com/product-updates",
+          "https://surferseo.com/updates/surfer-mcp-august2026/"
+        ]
       }
     },
     {
@@ -878,6 +1783,52 @@
           "fit": "Organizzazioni cyber che passano dal pentest periodico al testing continuo.",
           "caution": "Le performance dichiarate dal vendor vanno validate nell'ambiente specifico prima di decisioni sulla struttura del team."
         }
+      },
+      "institutional": {
+        "availability": {
+          "status": "service",
+          "detail": "Expert-led continuous offensive-security service announced 2026-09-22."
+        },
+        "deployment": [
+          "Managed expert service",
+          "Customer-defined testing scope"
+        ],
+        "regions": [],
+        "data_residency": {
+          "status": "not_public",
+          "detail": "No standardized public data-residency statement for this consulting/security service was located in the sources reviewed."
+        },
+        "identity_access": {
+          "status": "engagement_defined",
+          "controls": [
+            "Testing scope and authorization agreed with customer"
+          ]
+        },
+        "auditability": {
+          "status": "service_deliverable",
+          "controls": [
+            "Validated attack paths",
+            "Remediation recommendations",
+            "Continuous re-testing"
+          ]
+        },
+        "interfaces": [
+          "Ticketing-system remediation integration",
+          "Enterprise estate testing"
+        ],
+        "mcp": {
+          "status": "not_applicable"
+        },
+        "pricing": {
+          "status": "contact_sales",
+          "public": false
+        },
+        "security_certifications": [],
+        "documentation_coverage": "medium",
+        "source_urls": [
+          "https://www.paloaltonetworks.com/resources/datasheets/unit-42-continuous-frontier-ai-defense",
+          "https://www.paloaltonetworks.com/unit42/frontier-ai-defense"
+        ]
       }
     },
     {
@@ -928,6 +1879,54 @@
           "fit": "Imprese con processi critici ancora dietro interfacce web o desktop legacy.",
           "caution": "L'automazione UI può essere fragile: regression test e audit sono obbligatori dopo cambiamenti."
         }
+      },
+      "institutional": {
+        "availability": {
+          "status": "acquisition_pending",
+          "detail": "HCLSoftware announced intent to acquire Robotiq.ai on 2026-09-28; closing was expected in November 2026. Product integration therefore remains transition-stage."
+        },
+        "deployment": [
+          "Flexible deployment options",
+          "RPA execution",
+          "HCL UnO Agentic orchestration"
+        ],
+        "regions": [],
+        "data_residency": {
+          "status": "not_public"
+        },
+        "identity_access": {
+          "status": "partial",
+          "controls": [
+            "Enterprise governance depends on deployment and orchestrated process"
+          ]
+        },
+        "auditability": {
+          "status": "documented",
+          "controls": [
+            "Audit logs",
+            "HCL orchestration audit trails"
+          ]
+        },
+        "interfaces": [
+          "RPA",
+          "Legacy UI automation",
+          "SAP/workflow orchestration",
+          "HCL Universal Orchestrator"
+        ],
+        "mcp": {
+          "status": "not_public"
+        },
+        "pricing": {
+          "status": "contact_sales",
+          "public": false
+        },
+        "security_certifications": [
+          "Robotiq.ai: ISO-certified security (specific certificates not enumerated in HCL acquisition release)"
+        ],
+        "documentation_coverage": "medium",
+        "source_urls": [
+          "https://www.hcl-software.com/news/28-9-26-hclsoftware-to-acquire-robotiq-ai-strengthening-enterprise-agentic-automation"
+        ]
       }
     }
   ],
@@ -1376,5 +2375,15 @@
         "segmentation"
       ]
     }
+  ],
+  "comparison_dimensions": [
+    "availability",
+    "deployment",
+    "data_residency",
+    "identity_access",
+    "auditability",
+    "interfaces",
+    "pricing",
+    "security_certifications"
   ]
 }
