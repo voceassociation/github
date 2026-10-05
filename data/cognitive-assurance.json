@@ -19,42 +19,74 @@
     {
       "id": "attention",
       "name": "Attention & interruption",
-      "description": "Interruptions, switching, alerting and the ability to sustain or recover task focus."
+      "description": "Interruptions, switching, alerting and the ability to sustain or recover task focus.",
+      "i18n": {
+        "fr": "Attention & interruptions",
+        "it": "Attenzione e interruzioni"
+      }
     },
     {
       "id": "load",
       "name": "Cognitive load & complexity",
-      "description": "Information density, working-memory demand, multi-step execution and interface complexity."
+      "description": "Information density, working-memory demand, multi-step execution and interface complexity.",
+      "i18n": {
+        "fr": "Charge cognitive & complexité",
+        "it": "Carico cognitivo e complessità"
+      }
     },
     {
       "id": "verification",
       "name": "Verification & over-trust",
-      "description": "Checks, friction, confidence calibration and the risk of accepting fluent machine output without meaningful review."
+      "description": "Checks, friction, confidence calibration and the risk of accepting fluent machine output without meaningful review.",
+      "i18n": {
+        "fr": "Vérification & surconfiance",
+        "it": "Verifica e fiducia eccessiva"
+      }
     },
     {
       "id": "memory",
       "name": "Memory & cognitive offloading",
-      "description": "What users must remember, what systems externalise, and whether critical knowledge remains retrievable and understood."
+      "description": "What users must remember, what systems externalise, and whether critical knowledge remains retrievable and understood.",
+      "i18n": {
+        "fr": "Mémoire & externalisation cognitive",
+        "it": "Memoria ed esternalizzazione cognitiva"
+      }
     },
     {
       "id": "decision",
       "name": "Decision quality & uncertainty",
-      "description": "Uncertainty, missing information, anomaly detection and the conditions under which judgment is exercised."
+      "description": "Uncertainty, missing information, anomaly detection and the conditions under which judgment is exercised.",
+      "i18n": {
+        "fr": "Qualité de décision & incertitude",
+        "it": "Qualità decisionale e incertezza"
+      }
     },
     {
       "id": "fatigue",
       "name": "Fatigue & temporal load",
-      "description": "Decision fatigue, sustained monitoring, recovery, circadian constraints and workload timing."
+      "description": "Decision fatigue, sustained monitoring, recovery, circadian constraints and workload timing.",
+      "i18n": {
+        "fr": "Fatigue & charge temporelle",
+        "it": "Affaticamento e carico temporale"
+      }
     },
     {
       "id": "oversight",
       "name": "Human oversight & skill retention",
-      "description": "Whether humans retain comprehension, intervention capability and enough practice to take over when automation fails."
+      "description": "Whether humans retain comprehension, intervention capability and enough practice to take over when automation fails.",
+      "i18n": {
+        "fr": "Supervision humaine & maintien des compétences",
+        "it": "Supervisione umana e mantenimento delle competenze"
+      }
     },
     {
       "id": "social",
       "name": "Social & relational signals",
-      "description": "Loss or distortion of interpersonal cues in mediated, automated or compressed communication."
+      "description": "Loss or distortion of interpersonal cues in mediated, automated or compressed communication.",
+      "i18n": {
+        "fr": "Signaux sociaux & relationnels",
+        "it": "Segnali sociali e relazionali"
+      }
     }
   ],
   "evidence_states": [
@@ -103,7 +135,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/08/11/notre-journee-nous-semble-continue-pour-le-cerveau-elle-ne-l-est-pas-les-7493048758889529344"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Reprise après interruption",
+          "question": "Le workflow mesure-t-il la rapidité et la précision avec lesquelles un utilisateur reprend une tâche importante après une interruption ou une escalade de l’agent?"
+        },
+        "it": {
+          "title": "Ripresa dopo un’interruzione",
+          "question": "Il workflow misura rapidità e precisione con cui un utente riprende un compito rilevante dopo un’interruzione o un’escalation dell’agente?"
+        }
+      }
     },
     {
       "id": "COG-02",
@@ -118,7 +160,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/07/16/pendant-des-millenaires-le-cerveau-humain-a-fonctionne-avec-des-limites-physiq"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Saturation des alertes",
+          "question": "Les alertes sont-elles hiérarchisées et limitées afin que les signaux critiques restent perceptibles au lieu d’entrer en concurrence avec les notifications ordinaires?"
+        },
+        "it": {
+          "title": "Saturazione degli avvisi",
+          "question": "Gli avvisi sono prioritizzati e limitati affinché i segnali critici restino percepibili invece di competere con notifiche ordinarie?"
+        }
+      }
     },
     {
       "id": "COG-03",
@@ -133,7 +185,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/07/11/avant-de-valider-une-action-importante-le-cerveau-humain-effectue-naturellemen"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Passage de relais attentionnel",
+          "question": "Lorsqu’un agent rend la main à un humain, l’interface restitue-t-elle le contexte minimal nécessaire pour comprendre ce qui s’est passé et ce qui exige son attention?"
+        },
+        "it": {
+          "title": "Passaggio di consegne attentivo",
+          "question": "Quando un agente trasferisce il controllo a una persona, l’interfaccia ripristina il contesto minimo necessario per capire cosa è accaduto e cosa richiede attenzione?"
+        }
+      }
     },
     {
       "id": "COG-04",
@@ -148,7 +210,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/07/09/les-neurosciences-ont-longtemps-considere-la-memoire-comme-un-mecanisme-relati"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Charge de mémoire de travail",
+          "question": "L’institution a-t-elle mesuré combien de faits, d’états ou d’actions en attente l’utilisateur doit maintenir simultanément en mémoire?"
+        },
+        "it": {
+          "title": "Carico sulla memoria di lavoro",
+          "question": "L’istituzione ha misurato quanti fatti, stati o azioni in sospeso l’utente deve mantenere contemporaneamente in memoria?"
+        }
+      }
     },
     {
       "id": "COG-05",
@@ -163,7 +235,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/08/11/notre-journee-nous-semble-continue-pour-le-cerveau-elle-ne-l-est-pas-les-7493048758889529344"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Coût des changements de contexte",
+          "question": "Le workflow réduit-il les passages inutiles entre outils, agents, fenêtres et formats de représentation au cours d’une même décision?"
+        },
+        "it": {
+          "title": "Costo dei cambi di contesto",
+          "question": "Il workflow riduce i passaggi non necessari tra strumenti, agenti, finestre e formati di rappresentazione durante una stessa decisione?"
+        }
+      }
     },
     {
       "id": "COG-06",
@@ -178,7 +260,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/07/16/pendant-des-millenaires-le-cerveau-humain-a-fonctionne-avec-des-limites-physiq"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Seuil de densité informationnelle",
+          "question": "L’utilisateur peut-il identifier les faits matériels, l’incertitude et l’action requise sans devoir parcourir des sorties de modèle non essentielles?"
+        },
+        "it": {
+          "title": "Soglia di densità informativa",
+          "question": "L’utente può identificare fatti rilevanti, incertezza e azione richiesta senza dover analizzare output del modello non essenziali?"
+        }
+      }
     },
     {
       "id": "COG-07",
@@ -193,7 +285,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/07/11/avant-de-valider-une-action-importante-le-cerveau-humain-effectue-naturellemen"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Checksum cognitif",
+          "question": "Toute action à forte conséquence conserve-t-elle une vérification significative au lieu de supprimer toute friction au nom de la vitesse?"
+        },
+        "it": {
+          "title": "Checksum cognitivo",
+          "question": "Ogni azione ad alto impatto conserva una verifica significativa invece di eliminare ogni attrito in nome della velocità?"
+        }
+      }
     },
     {
       "id": "COG-08",
@@ -208,7 +310,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/07/04/pendant-des-milliers-d-annees-le-cerveau-humain-a-appris-a-detecter-des-anomal"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Calibration de la confiance",
+          "question": "L’interface aide-t-elle à distinguer une sortie solidement étayée d’une sortie incertaine, incomplète ou faiblement ancrée?"
+        },
+        "it": {
+          "title": "Calibrazione della fiducia",
+          "question": "L’interfaccia aiuta a distinguere un output ben supportato da uno incerto, incompleto o scarsamente fondato?"
+        }
+      }
     },
     {
       "id": "COG-09",
@@ -223,7 +335,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/07/11/avant-de-valider-une-action-importante-le-cerveau-humain-effectue-naturellemen"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Biais de confirmation de l’automatisation",
+          "question": "Le système a-t-il été testé pour détecter la tendance à approuver une recommandation machine plausible sans vérifier indépendamment les preuves importantes?"
+        },
+        "it": {
+          "title": "Bias di conferma dell’automazione",
+          "question": "Il sistema è stato testato per rilevare la tendenza ad approvare una raccomandazione plausibile della macchina senza verificare in modo indipendente le evidenze rilevanti?"
+        }
+      }
     },
     {
       "id": "COG-10",
@@ -238,7 +360,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/07/09/les-neurosciences-ont-longtemps-considere-la-memoire-comme-un-mecanisme-relati"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Préservation de la mémoire des sources",
+          "question": "Lorsqu’une décision est revue, l’utilisateur peut-il distinguer ce qu’il savait, ce que le système a retrouvé et ce que le modèle a généré?"
+        },
+        "it": {
+          "title": "Preservazione della memoria delle fonti",
+          "question": "Quando una decisione viene riesaminata, l’utente può distinguere ciò che sapeva, ciò che il sistema ha recuperato e ciò che il modello ha generato?"
+        }
+      }
     },
     {
       "id": "COG-11",
@@ -253,7 +385,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/09/25/effort-effet-ikea-ia-education.html"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Rétention des connaissances critiques",
+          "question": "L’automatisation préserve-t-elle suffisamment de pratique humaine pour que les connaissances procédurales essentielles restent disponibles lorsque le système est indisponible?"
+        },
+        "it": {
+          "title": "Conservazione delle conoscenze critiche",
+          "question": "L’automazione preserva una pratica umana sufficiente affinché le conoscenze procedurali essenziali restino disponibili quando il sistema non lo è?"
+        }
+      }
     },
     {
       "id": "COG-12",
@@ -268,7 +410,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/08/01/nous-avons-longtemps-cru-que-la-memoire-servait-uniquement-a-conserver-l-7489424876575932416.html"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Visibilité de l’expiration de la mémoire",
+          "question": "Les utilisateurs sont-ils informés lorsque la mémoire d’un agent est partielle, expirée, réinitialisée ou incohérente avec le registre institutionnel actuel?"
+        },
+        "it": {
+          "title": "Visibilità della scadenza della memoria",
+          "question": "Gli utenti vengono informati quando la memoria di un agente è parziale, scaduta, reimpostata o incoerente con il registro istituzionale corrente?"
+        }
+      }
     },
     {
       "id": "COG-13",
@@ -283,7 +435,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/07/11/il-suffit-parfois-d-une-seule-conversation-interrompue"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Visibilité de l’information manquante",
+          "question": "Le système expose-t-il explicitement les informations matérielles absentes au lieu de présenter une situation incomplète comme complète?"
+        },
+        "it": {
+          "title": "Visibilità delle informazioni mancanti",
+          "question": "Il sistema espone esplicitamente le informazioni rilevanti mancanti invece di presentare come completa una situazione incompleta?"
+        }
+      }
     },
     {
       "id": "COG-14",
@@ -298,7 +460,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/07/04/pendant-des-milliers-d-annees-le-cerveau-humain-a-appris-a-detecter-des-anomal"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Préservation des signaux faibles",
+          "question": "La numérisation préserve-t-elle les signaux contextuels ou interpersonnels nécessaires pour détecter anomalies, manipulations ou cas inhabituels?"
+        },
+        "it": {
+          "title": "Preservazione dei segnali deboli",
+          "question": "La digitalizzazione preserva i segnali contestuali o interpersonali necessari a rilevare anomalie, manipolazioni o casi insoliti?"
+        }
+      }
     },
     {
       "id": "COG-15",
@@ -313,7 +485,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/08/02/nous-aimons-croire-que-nos-decisions-naissent-au-moment-precis-ou-nous-d-7489787259186024448.html"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Adéquation du temps de décision",
+          "question": "Le temps laissé au jugement humain est-il proportionné aux conséquences, à la nouveauté et à l’incertitude plutôt qu’à la seule vitesse du système?"
+        },
+        "it": {
+          "title": "Adeguatezza del tempo decisionale",
+          "question": "Il tempo concesso al giudizio umano è proporzionato a conseguenze, novità e incertezza invece di essere determinato soltanto dalla velocità del sistema?"
+        }
+      }
     },
     {
       "id": "COG-16",
@@ -328,7 +510,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/06/28/lorsque-nous-parlons-de-fatigue-psychologique-nous-pensons-presque-toujours-au"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Charge de surveillance prolongée",
+          "question": "L’organisation a-t-elle testé l’évolution de la vigilance lorsque des humains supervisent longtemps une exécution automatisée généralement correcte?"
+        },
+        "it": {
+          "title": "Carico di monitoraggio prolungato",
+          "question": "L’organizzazione ha testato come cambia la vigilanza quando le persone supervisionano a lungo un’esecuzione automatizzata per lo più corretta?"
+        }
+      }
     },
     {
       "id": "COG-17",
@@ -343,7 +535,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/06/28/lorsque-nous-parlons-de-fatigue-psychologique-nous-pensons-presque-toujours-au"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Exposition à la fatigue décisionnelle",
+          "question": "Les validations répétitives sont-elles regroupées, hiérarchisées ou repensées afin que la supervision humaine ne devienne pas une file de confirmations à haut volume?"
+        },
+        "it": {
+          "title": "Esposizione all’affaticamento decisionale",
+          "question": "Le approvazioni ripetitive sono aggregate, prioritizzate o riprogettate affinché la supervisione umana non diventi una coda di conferme ad alto volume?"
+        }
+      }
     },
     {
       "id": "COG-18",
@@ -358,7 +560,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/06/29/pendant-longtemps-les-specialistes-du-sommeil-ont-surtout-mesure-une-chose"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Compatibilité circadienne et récupération",
+          "question": "Dans les opérations continues, les tâches de revue à forte conséquence tiennent-elles compte de la récupération et des contraintes circadiennes?"
+        },
+        "it": {
+          "title": "Compatibilità circadiana e recupero",
+          "question": "Nelle operazioni continue, le attività di revisione ad alto impatto tengono conto del recupero e dei vincoli circadiani?"
+        }
+      }
     },
     {
       "id": "COG-19",
@@ -373,7 +585,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/07/11/avant-de-valider-une-action-importante-le-cerveau-humain-effectue-naturellemen"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Compréhension lors de la reprise en main",
+          "question": "Un humain appelé à intervenir peut-il expliquer l’état actuel de l’agent, son objectif, ses actions récentes et l’incertitude restante avant d’agir?"
+        },
+        "it": {
+          "title": "Comprensione nella ripresa del controllo",
+          "question": "Una persona chiamata a intervenire può spiegare lo stato attuale dell’agente, il suo obiettivo, le azioni recenti e l’incertezza residua prima di agire?"
+        }
+      }
     },
     {
       "id": "COG-20",
@@ -388,7 +610,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/09/25/effort-effet-ikea-ia-education.html"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Contrôle de l’atrophie des compétences",
+          "question": "Le modèle opérationnel préserve-t-il une pratique humaine volontaire des compétences qui redeviennent essentielles lorsque l’automatisation échoue ou disparaît?"
+        },
+        "it": {
+          "title": "Controllo dell’atrofia delle competenze",
+          "question": "Il modello operativo preserva una pratica umana deliberata delle competenze che tornano essenziali quando l’automazione fallisce o viene rimossa?"
+        }
+      }
     },
     {
       "id": "COG-21",
@@ -403,7 +635,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/07/11/avant-de-valider-une-action-importante-le-cerveau-humain-effectue-naturellemen"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Override réellement utile",
+          "question": "La reprise de contrôle humaine est-elle compréhensible, suffisamment précoce et opérationnellement efficace plutôt qu’un bouton nominal disponible après l’irréversibilité des conséquences?"
+        },
+        "it": {
+          "title": "Override realmente efficace",
+          "question": "La ripresa del controllo umano è comprensibile, tempestiva ed effettivamente operativa invece di essere un pulsante nominale disponibile quando le conseguenze sono già irreversibili?"
+        }
+      }
     },
     {
       "id": "COG-22",
@@ -418,7 +660,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/07/04/pendant-des-milliers-d-annees-le-cerveau-humain-a-appris-a-detecter-des-anomal"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Perte des signaux sociaux",
+          "question": "Lorsque le jugement dépend du contexte interpersonnel, l’institution a-t-elle identifié les signaux non verbaux ou contextuels perdus dans l’interaction médiatisée ou agentique?"
+        },
+        "it": {
+          "title": "Perdita dei segnali sociali",
+          "question": "Quando il giudizio dipende dal contesto interpersonale, l’istituzione ha identificato i segnali non verbali o contestuali persi nell’interazione mediata o agentica?"
+        }
+      }
     },
     {
       "id": "COG-23",
@@ -433,7 +685,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/07/04/pendant-des-milliers-d-annees-le-cerveau-humain-a-appris-a-detecter-des-anomal"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Divulgation de l’interaction synthétique",
+          "question": "Une personne peut-elle identifier de manière fiable qu’elle interagit avec un agent automatisé et comprendre les limites de cette interaction?"
+        },
+        "it": {
+          "title": "Trasparenza dell’interazione sintetica",
+          "question": "Una persona può riconoscere in modo affidabile che sta interagendo con un agente automatizzato e comprenderne i limiti?"
+        }
+      }
     },
     {
       "id": "COG-24",
@@ -448,7 +710,17 @@
       ],
       "corpus_evidence": [
         "https://voce.life/archive/2026/07/11/il-suffit-parfois-d-une-seule-conversation-interrompue"
-      ]
+      ],
+      "i18n": {
+        "fr": {
+          "title": "Escalade relationnelle",
+          "question": "Les interactions sensibles ou émotionnellement conséquentes disposent-elles de critères de transfert de l’automatisation vers un humain qualifié?"
+        },
+        "it": {
+          "title": "Escalation relazionale",
+          "question": "Le interazioni sensibili o con conseguenze emotive dispongono di criteri per trasferire il caso dall’automazione a una persona qualificata?"
+        }
+      }
     }
   ],
   "review_triggers": [
