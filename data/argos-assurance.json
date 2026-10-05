@@ -1,0 +1,270 @@
+{
+  "schema": 1,
+  "version": "1.0",
+  "published_at": "2026-10-05",
+  "title": "ARGOS — AI Evaluation & Continuous Assurance",
+  "status": "VOCE public continuous-assurance framework; not a certification scheme",
+  "purpose": "Keep institutional AI and agent systems within an evidence-backed operating envelope as models, prompts, tools, permissions, data, suppliers and human conditions change.",
+  "assurance_cycle": [
+    {
+      "id": "baseline",
+      "order": 1,
+      "name": "Baseline",
+      "question": "What exact model, prompt, tool, permission, data and policy configuration is in production?",
+      "evidence": [
+        "Version manifest",
+        "Agent/tool inventory",
+        "Policy/configuration snapshot"
+      ]
+    },
+    {
+      "id": "observe",
+      "order": 2,
+      "name": "Observe",
+      "question": "What is the deployed system actually doing across tasks, tools, costs, errors, approvals and human interventions?",
+      "evidence": [
+        "Runtime traces",
+        "Task outcomes",
+        "Approval/override logs",
+        "Cost telemetry"
+      ]
+    },
+    {
+      "id": "detect",
+      "order": 3,
+      "name": "Detect change",
+      "question": "Which material change, drift, incident or supplier event invalidates the previous assurance state?",
+      "evidence": [
+        "Change event",
+        "Drift signal",
+        "Incident record",
+        "Supplier notice"
+      ]
+    },
+    {
+      "id": "reevaluate",
+      "order": 4,
+      "name": "Re-evaluate",
+      "question": "Which evaluations, security tests, conformance controls and cognitive controls must be repeated after the change?",
+      "evidence": [
+        "Triggered test plan",
+        "Regression suite",
+        "Control selection rationale"
+      ]
+    },
+    {
+      "id": "compare",
+      "order": 5,
+      "name": "Compare",
+      "question": "How does the new system state differ from the accepted baseline on quality, safety, authority, cost and human oversight?",
+      "evidence": [
+        "Baseline delta",
+        "Performance delta",
+        "Risk delta",
+        "Cost delta"
+      ]
+    },
+    {
+      "id": "decide",
+      "order": 6,
+      "name": "Decide",
+      "question": "Can the changed system remain in service, require restrictions, rollback, additional approval or withdrawal?",
+      "evidence": [
+        "Decision record",
+        "Accountable owner",
+        "Conditions/limits",
+        "Rollback decision"
+      ]
+    },
+    {
+      "id": "retain",
+      "order": 7,
+      "name": "Retain evidence",
+      "question": "Can the institution reconstruct why the system was considered acceptable at that point in time?",
+      "evidence": [
+        "Dated evidence pack",
+        "Reviewer record",
+        "Versioned test outputs",
+        "Decision history"
+      ]
+    },
+    {
+      "id": "reopen",
+      "order": 8,
+      "name": "Re-open",
+      "question": "What future event automatically reopens assurance rather than waiting for a periodic audit?",
+      "evidence": [
+        "Trigger rules",
+        "Monitoring rule",
+        "Scheduled review",
+        "Event-driven control"
+      ]
+    }
+  ],
+  "triggers": [
+    {
+      "id": "ARG-T01",
+      "name": "Foundation-model or major model-version change",
+      "severity": "material"
+    },
+    {
+      "id": "ARG-T02",
+      "name": "Prompt, system instruction or orchestration-policy change",
+      "severity": "material"
+    },
+    {
+      "id": "ARG-T03",
+      "name": "New tool, API, MCP server or A2A peer",
+      "severity": "material"
+    },
+    {
+      "id": "ARG-T04",
+      "name": "Permission, transaction-limit or approval-threshold change",
+      "severity": "critical"
+    },
+    {
+      "id": "ARG-T05",
+      "name": "New data source, RAG index, memory mechanism or processing region",
+      "severity": "material"
+    },
+    {
+      "id": "ARG-T06",
+      "name": "Material degradation in task quality or error distribution",
+      "severity": "critical"
+    },
+    {
+      "id": "ARG-T07",
+      "name": "Security incident, prompt-injection event or material near miss",
+      "severity": "critical"
+    },
+    {
+      "id": "ARG-T08",
+      "name": "Supplier, licence, pricing or availability change",
+      "severity": "material"
+    },
+    {
+      "id": "ARG-T09",
+      "name": "Regulatory role, classification or sector obligation change",
+      "severity": "critical"
+    },
+    {
+      "id": "ARG-T10",
+      "name": "Material increase in cost, retries or resource consumption",
+      "severity": "material"
+    },
+    {
+      "id": "ARG-T11",
+      "name": "Rise in human overrides, missed alerts, decision fatigue or cognitive-control failures",
+      "severity": "critical"
+    },
+    {
+      "id": "ARG-T12",
+      "name": "Significant organisational or staffing change affecting human oversight",
+      "severity": "material"
+    }
+  ],
+  "evaluation_planes": [
+    {
+      "id": "capability",
+      "name": "Capability & task performance",
+      "measures": [
+        "Task success",
+        "Failure modes",
+        "Regression",
+        "Edge cases"
+      ]
+    },
+    {
+      "id": "authority",
+      "name": "Authority & permissions",
+      "measures": [
+        "Tool access",
+        "Data scope",
+        "Transaction limits",
+        "Approval bypass"
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Security & abuse",
+      "measures": [
+        "Prompt injection",
+        "Tool manipulation",
+        "Credential misuse",
+        "Cross-scope access"
+      ]
+    },
+    {
+      "id": "observability",
+      "name": "Observability & audit",
+      "measures": [
+        "Trace completeness",
+        "Version traceability",
+        "Approval evidence",
+        "Incident reconstruction"
+      ]
+    },
+    {
+      "id": "economics",
+      "name": "Economics & concentration",
+      "measures": [
+        "Cost per completed task",
+        "Retry spend",
+        "Supplier concentration",
+        "Exit readiness"
+      ]
+    },
+    {
+      "id": "cognitive",
+      "name": "Human cognitive assurance",
+      "measures": [
+        "Alert burden",
+        "Verification quality",
+        "Takeover comprehension",
+        "Decision fatigue"
+      ]
+    }
+  ],
+  "assurance_states": [
+    {
+      "id": "open",
+      "name": "Open",
+      "definition": "A material trigger has occurred and the previous assurance conclusion cannot be relied upon without re-evaluation."
+    },
+    {
+      "id": "restricted",
+      "name": "Restricted",
+      "definition": "The system may operate only under explicit temporary limits while evidence gaps are closed."
+    },
+    {
+      "id": "accepted",
+      "name": "Accepted",
+      "definition": "The defined evaluation and control set supports continued operation within the stated scope and conditions."
+    },
+    {
+      "id": "withdrawn",
+      "name": "Withdrawn",
+      "definition": "The system or capability is removed from service because the evidence no longer supports continued operation."
+    }
+  ],
+  "integrations": [
+    {
+      "id": "infrastructure",
+      "name": "Agent Infrastructure",
+      "url": "https://voce.life/agent-infrastructure",
+      "role": "Defines the technical architecture and control surfaces."
+    },
+    {
+      "id": "conformance",
+      "name": "Agent Conformance",
+      "url": "https://voce.life/agent-conformance",
+      "role": "Defines the evidence-based operational controls."
+    },
+    {
+      "id": "cognitive",
+      "name": "Human Cognitive Assurance",
+      "url": "https://voce.life/human-cognitive-assurance",
+      "role": "Defines the human cognitive and neuropsychology assurance layer."
+    }
+  ]
+}
