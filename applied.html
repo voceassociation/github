@@ -11,7 +11,8 @@
 <link rel="alternate" hreflang="fr" href="https://voce.life/fr/applied">
 <link rel="alternate" hreflang="it" href="https://voce.life/it/applied">
 <link rel="alternate" hreflang="x-default" href="https://voce.life/applied">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">\n<link rel="alternate" type="application/json" href="/data/applied-solutions.json" title="VOCE Applied Solutions registry">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/json" href="/data/applied-solutions.json" title="VOCE Applied Solutions registry">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="VOCE">
 <meta property="og:title" content="VOCE Applied — Institutional Orchestration">
@@ -95,9 +96,11 @@
 <div class="solution-toolbar">
 <div class="solution-stats"><span id="solution-count">—</span><span id="solution-evidence-count">—</span><a href="/data/applied-solutions.json">JSON registry →</a></div>
 <label class="solution-search"><span>Find</span><input id="solution-search" type="search" autocomplete="off" aria-label="Search the VOCE Solutions registry"></label>
-<div class="solution-filters" id="solution-filters" aria-label="Filter solutions by sector"></div>\n<div class="solution-filters solution-diligence-filters" id="solution-diligence-filters" aria-label="Filter solutions by institutional documentation"></div>
+<div class="solution-filters" id="solution-filters" aria-label="Filter solutions by sector"></div>
+<div class="solution-filters solution-diligence-filters" id="solution-diligence-filters" aria-label="Filter solutions by institutional documentation"></div>
 </div>
-<div class="solution-comparison" id="solution-comparison"></div>\n<div class="solution-cards" id="solution-cards"></div>
+<div class="solution-comparison" id="solution-comparison"></div>
+<div class="solution-cards" id="solution-cards"></div>
 <details class="solution-library"><summary>VOCE evidence library · agents & LI!GHT WORKFORCE ©</summary><div id="solution-evidence" class="solution-evidence"></div></details>
 </div></section>
 
@@ -144,4 +147,5 @@
 localStorage.setItem("voce-lang","en");
 document.querySelectorAll(".lang a").forEach(a=>a.addEventListener("click",()=>{const h=a.getAttribute("href")||"";localStorage.setItem("voce-lang",h.startsWith("/fr/")?"fr":h.startsWith("/it/")?"it":"en")}));
 </script>
-<script src="/solutions.js" defer></script>\n</body></html>
+<script src="/solutions.js" defer></script>
+</body></html>
