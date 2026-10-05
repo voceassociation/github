@@ -730,8 +730,9 @@ html[lang="it"] .atlas-panel:before{content:"Vista documentale mobile"}
 .cf-index-domain:nth-child(-n+2){border-top:1px solid var(--line)}
 .cf-index-domain h3{margin:0 0 14px;font-family:var(--serif);font-size:1.45rem;font-weight:400;color:var(--forest)}
 .cf-index-domain div{display:grid}
-.cf-index-domain span{display:grid;grid-template-columns:72px minmax(0,1fr);gap:9px;padding:7px 0;border-top:1px solid rgba(18,62,51,.09);font-size:.68rem;line-height:1.35;color:#555b57}
-.cf-index-domain span b{font-size:.58rem;letter-spacing:.08em;color:var(--forest)}
+.cf-index-domain a{display:grid;grid-template-columns:72px minmax(0,1fr);gap:9px;padding:7px 0;border-top:1px solid rgba(18,62,51,.09);font-size:.68rem;line-height:1.35;color:#555b57;text-decoration:none}
+.cf-index-domain a:hover{color:var(--forest)}
+.cf-index-domain a b{font-size:.58rem;letter-spacing:.08em;color:var(--forest)}
 @media(max-width:900px){
   .cf-controls,.cf-index{grid-template-columns:1fr}
   .cf-control:nth-child(2),.cf-index-domain:nth-child(2){border-top:0}
@@ -757,10 +758,20 @@ html[lang="it"] .atlas-panel:before{content:"Vista documentale mobile"}
   .cf-inputs .cf-na,.cf-inputs .cf-note{grid-column:1}
   .cf-inputs .cf-na{padding:5px 0;min-height:38px}
   .cf-index-domain{padding:20px 16px}
-  .cf-index-domain span{grid-template-columns:62px minmax(0,1fr)}
+  .cf-index-domain a{grid-template-columns:62px minmax(0,1fr)}
 }
 @media print{
   header,.cf-toolbar,.cf-domain-status,.cf-local-meta,.cf-catalogue,.controcanto,footer{display:none!important}
   .cf-controls{display:block;border:0}
   .cf-control{break-inside:avoid;border:1px solid #bbb;margin:0 0 10px;box-shadow:none!important}
+}
+
+.cf-record-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line);margin-top:24px}
+.cf-record-grid>div{padding:16px 18px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.cf-record-grid b{display:block;margin-bottom:5px;font-size:.54rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+.cf-record-grid span{font-size:.76rem;line-height:1.45;color:var(--forest)}
+.cf-record-evidence{margin:18px 0 0;padding-left:20px}
+.cf-record-evidence li{margin:8px 0;font-size:.82rem;line-height:1.5;color:#505652}
+@media(max-width:620px){
+  .cf-record-grid{grid-template-columns:1fr}
 }
