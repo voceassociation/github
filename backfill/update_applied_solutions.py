@@ -40,7 +40,8 @@ def classify(text):
 changed = False
 for item in corpus.get("items", []):
     text = item.get("text", "")
-    if not re.search(r"(?:li!ght|light)\s+workforce", text, re.I):
+    marker = re.search(r"(?:li!ght|light)\s+workforce", text, re.I)
+    if not marker:
         continue
     canonical = item.get("canonical_url", "")
     if not canonical.startswith("https://voce.life/"):
