@@ -862,3 +862,17 @@ html[lang="it"] .atlas-panel:before{content:"Vista documentale mobile"}
   .cf-lens-control{grid-template-columns:58px minmax(0,1fr) 18px;gap:8px}
   .cf-lens-control strong{font-size:.98rem}
 }
+
+
+/* VOCE Agent Assurance 360 */
+.cf-360{padding:88px 0;border-top:1px solid var(--line)}
+.cf-360-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:30px;border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.cf-360-grid article{position:relative;padding:24px 22px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.cf-360-grid article>span{font-size:.55rem;font-weight:700;letter-spacing:.13em;color:var(--muted)}
+.cf-360-grid h3{margin:13px 0 9px;font-family:var(--serif);font-size:1.45rem;font-weight:400;line-height:1.08;color:var(--forest)}
+.cf-360-grid p{margin:0 0 14px;font-size:.76rem;line-height:1.55;color:#555b57}
+.cf-360-grid a,.cf-360-grid em{font-size:.55rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--forest)}
+.cf-360-grid em{font-style:normal;color:var(--muted)}
+.cf-360-grid .is-development{background:rgba(18,62,51,.018)}
+@media(max-width:980px){.cf-360-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.cf-360{padding:64px 0}.cf-360-grid{grid-template-columns:1fr}.cf-360-grid article{padding:20px 16px}}
