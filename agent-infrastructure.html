@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>European Agent Infrastructure Reference 2026 | VOCE</title>
+<meta name="description" content="VOCE's vendor-neutral European reference architecture for AI agents: APIs, MCP, A2A, workload identity, authorization, RAG, observability, continuous assurance, FinOps and EU regulatory mapping.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://voce.life/agent-infrastructure">
+<link rel="alternate" hreflang="en" href="https://voce.life/agent-infrastructure">
+<link rel="alternate" hreflang="fr" href="https://voce.life/fr/agent-infrastructure">
+<link rel="alternate" hreflang="it" href="https://voce.life/it/agent-infrastructure">
+<link rel="alternate" hreflang="x-default" href="https://voce.life/agent-infrastructure">
+<link rel="alternate" type="application/json" href="/data/agent-infrastructure-reference.json" title="VOCE Agent Infrastructure Reference JSON">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article"><meta property="og:site_name" content="VOCE">
+<meta property="og:title" content="European Agent Infrastructure Reference 2026 | VOCE">
+<meta property="og:description" content="A decision-grade architecture for API, MCP, A2A, identity, authorization, observability and European agent governance.">
+<meta property="og:url" content="https://voce.life/agent-infrastructure">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="European Agent Infrastructure Reference 2026 | VOCE">
+<meta name="twitter:description" content="A decision-grade architecture for API, MCP, A2A, identity, authorization, observability and European agent governance.">
+<meta name="theme-color" content="#fbfaf6">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"VOCE Agent Infrastructure Reference — Europe 2026","description":"Vendor-neutral reference architecture for institutional AI agents in Europe.","url":"https://voce.life/agent-infrastructure","inLanguage":"en","datePublished":"2026-10-05","dateModified":"2026-10-05","author":{"@type":"Organization","name":"VOCE AI Governance Institute"},"publisher":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"}}</script>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span>V</span><span class="o"><i class="ray r1"></i><i class="ray r2"></i><i class="ray r3"></i></span><span>CE</span></a><nav class="menu" aria-label="Primary navigation"><a href="/#themes">Themes</a><a href="/research">Research</a><a href="/archive">Academy</a><a href="/atlas">Atlas</a><a href="/applied">Applied</a><a href="/standards">Standards</a><a href="/publications">Publications</a><a class="keep" href="/art">Art</a><a class="keep" href="/about">About</a><span class="lang" role="group" aria-label="Language"><a href="/agent-infrastructure" class="active" aria-current="page">EN</a><a href="/fr/agent-infrastructure">FR</a><a href="/it/agent-infrastructure">IT</a></span></nav></div></header>
+<main id="main-content">
+<section class="topic-hero agent-ref-hero"><div class="wrap">
+<div class="topic-kicker">VOCE AI Governance Institute · Europe 2026 · v1.0</div>
+<h1 class="topic-title">An agent becomes institutional infrastructure when identity, tools, permissions and consequences converge.</h1>
+<p class="topic-deck">The VOCE Agent Infrastructure Reference defines a vendor-neutral control architecture for institutions deploying AI agents in Europe. It connects API contracts, MCP, A2A, workload identity, authorization, data, observability, continuous assurance, economics and regulation in one operating model.</p>
+<div class="topic-meta"><span>Open architecture</span><span>Vendor-neutral</span><span>Machine-readable</span><span>European regulatory overlay</span><span>5 October 2026</span></div>
+<p class="context-link"><a href="/data/agent-infrastructure-reference.json">Machine-readable reference →</a></p>
+</div></section>
+
+<section class="topic-body"><div class="wrap topic-layout">
+<aside class="topic-nav"><div class="topic-nav-label">Reference</div><div>
+<a href="#principles">01 · Design principles</a><a href="#stack">02 · Ten control layers</a><a href="#maturity">03 · Agent maturity A0–A4</a><a href="#europe">04 · European control overlay</a><a href="#board">05 · Board evidence pack</a><a href="#sources">06 · Primary references</a>
+</div></aside>
+<div>
+<section class="chapter" id="principles"><div class="chapter-no">01</div><h2>Eight principles before the first agent acts.</h2>
+<div class="agent-principles">
+<article><b>Identity before action</b><p>Every executing agent or workload receives an attributable identity distinct from the human, model or service that initiated it.</p></article>
+<article><b>Least authority</b><p>Tools, data scopes and transaction limits are granted per task and remain revocable.</p></article>
+<article><b>Contracted interfaces</b><p>APIs and inter-agent messages are typed, versioned, validated and observable.</p></article>
+<article><b>Traceable delegation</b><p>The institution can reconstruct who delegated which authority, to which agent, for what purpose and duration.</p></article>
+<article><b>Observable execution</b><p>Model calls, retrieval, tool use, handoffs, approvals, failures, costs and actions form one traceable execution record.</p></article>
+<article><b>Human authority</b><p>Material workflows identify an accountable owner, escalation path and executable stop mechanism.</p></article>
+<article><b>Reversibility</b><p>A model, tool or supplier can be restricted or replaced without rebuilding the institution around it.</p></article>
+<article><b>Regulatory mapping</b><p>European obligations are applied to the actual role, sector and risk classification of the system.</p></article>
+</div>
+</section>
+
+<section class="chapter" id="stack"><div class="chapter-no">02</div><h2>The ten-layer agent control stack.</h2>
+<div class="agent-stack">
+<article><span>01</span><h3>API and tool contracts</h3><p>OpenAPI 3.2.x and JSON Schema make capabilities explicit. Material write operations define schema, errors, idempotency, versioning, rate limits and transaction ceilings.</p></article>
+<article><span>02</span><h3>MCP</h3><p>MCP 2026-07-28 provides the model-to-tool and context layer. Its stateless core improves ordinary HTTP scaling; authorization remains an institutional control, never a side effect of interoperability.</p></article>
+<article><span>03</span><h3>A2A</h3><p>A2A 1.0 handles agent-to-agent discovery and task exchange across vendors. AgentCards, handoffs, cancellation, provenance and cross-agent data policy become governance objects.</p></article>
+<article><span>04</span><h3>Workload identity</h3><p>SPIFFE/SPIRE can give software actors short-lived cryptographic identities. Human identity and software identity remain distinguishable throughout delegation.</p></article>
+<article><span>05</span><h3>Authorization</h3><p>OAuth security practice plus policy-as-code separates authentication from permission. The decision is explicit: principal, action, resource and context, with default deny and step-up approval.</p></article>
+<article><span>06</span><h3>Data, memory and RAG</h3><p>Provenance, version, access rights, deletion, retention, memory expiry and regional routing follow information from source system through retrieval and agent memory.</p></article>
+<article><span>07</span><h3>Observability and audit</h3><p>OpenTelemetry-style traces record agent, workflow, model, retrieval, tool calls, approvals, latency, cost and exceptions while keeping sensitive content under a separate telemetry policy.</p></article>
+<article><span>08</span><h3>Continuous assurance</h3><p>Task evaluation, permission tests, prompt-injection tests, red teaming, regression, incident replay and tested kill switches follow every material system change.</p></article>
+<article><span>09</span><h3>Economic authority</h3><p>Budget is a permission. Institutions govern cost per completed task, retry budgets, model routing, anomaly thresholds and supplier concentration.</p></article>
+<article><span>10</span><h3>European regulatory overlay</h3><p>AI Act, GDPR, DORA and NIS2 are mapped only where the organisation, use case and legal role make them applicable. Compliance evidence is attached to the system architecture.</p></article>
+</div>
+</section>
+
+<section class="chapter" id="maturity"><div class="chapter-no">03</div><h2>Five operating levels, five different control burdens.</h2>
+<div class="agent-maturity">
+<div><b>A0 · Assistant</b><p>Generation or retrieval without external action authority. Minimum: session identity, data boundary, source provenance and output review.</p></div>
+<div><b>A1 · Tool-connected agent</b><p>Approved read or low-impact tools. Add tool inventory, per-tool authorization, traces, limits and revocation.</p></div>
+<div><b>A2 · Delegated action agent</b><p>Business actions under bounded authority. Add workload identity, policy decision point, transaction limits, approval gates, idempotency and rollback.</p></div>
+<div><b>A3 · Multi-agent operating system</b><p>Agents coordinate models and tools across systems. Add MCP/A2A governance, delegation chain, shared observability, routing policy and continuous evaluation.</p></div>
+<div><b>A4 · Critical agent network</b><p>Material regulated, financial, clinical, infrastructure or public-service consequences. Add board owner, independent assurance, incident exercises, exit plan, evidence pack and tested emergency stop.</p></div>
+</div>
+</section>
+
+<section class="chapter" id="europe"><div class="chapter-no">04</div><h2>Europe changes the evidence burden.</h2>
+<p>The EU AI Act does not turn every agent into a high-risk system. It does make role and classification explicit. For systems that fall within high-risk obligations, the legal architecture includes logging, transparency to deployers, human oversight and deployer duties. Article 50 transparency obligations have applied since 2 August 2026 for relevant interactive and generative systems. GPAI provider obligations have applied since 2 August 2025, with Commission enforcement powers applying from 2 August 2026.</p>
+<p>Sector overlays remain decisive. A financial institution subject to DORA remains responsible for ICT third-party risk even when an agent, cloud provider or model vendor performs the technical work. Critical and important functions therefore require dependency registers, contractual controls, resilience and exit thinking alongside AI governance.</p>
+<div class="agent-eu-gates">
+<div><b>Role</b><span>Provider, deployer, importer, distributor, GPAI provider or downstream integrator?</span></div>
+<div><b>Risk</b><span>Prohibited, high-risk, transparency-regulated, GPAI or other use?</span></div>
+<div><b>Sector</b><span>Financial services, healthcare, employment, public services, critical infrastructure or general enterprise?</span></div>
+<div><b>Evidence</b><span>Which logs, instructions, tests, human-oversight records, supplier records and incidents must be retained?</span></div>
+</div>
+</section>
+
+<section class="chapter" id="board"><div class="chapter-no">05</div><h2>The board should be able to ask for one evidence pack.</h2>
+<div class="checks">
+<div class="check"><b>01</b><span>Agent, model and tool inventory.</span></div>
+<div class="check"><b>02</b><span>Identity and delegation map.</span></div>
+<div class="check"><b>03</b><span>Permission and transaction-limit matrix.</span></div>
+<div class="check"><b>04</b><span>API, MCP and A2A contract inventory.</span></div>
+<div class="check"><b>05</b><span>Data, memory and residency map.</span></div>
+<div class="check"><b>06</b><span>Human approval, escalation and stop map.</span></div>
+<div class="check"><b>07</b><span>Observability and audit schema.</span></div>
+<div class="check"><b>08</b><span>Evaluation, red-team and regression results.</span></div>
+<div class="check"><b>09</b><span>Supplier, version and concentration register.</span></div>
+<div class="check"><b>10</b><span>Cost-per-task and budget controls.</span></div>
+<div class="check"><b>11</b><span>EU regulatory role and applicability memo.</span></div>
+<div class="check"><b>12</b><span>Kill-switch, rollback and exit test evidence.</span></div>
+</div>
+</section>
+
+<section class="chapter" id="sources"><div class="chapter-no">06</div><h2>Primary technical and European references.</h2>
+<div class="technical-references">
+<a href="https://blog.modelcontextprotocol.io/posts/2026-07-28/" target="_blank" rel="noopener">Model Context Protocol · 2026-07-28 specification<span>↗</span></a>
+<a href="https://a2a-protocol.org/v1.0.1/specification/" target="_blank" rel="noopener">A2A Protocol · 1.0 specification<span>↗</span></a>
+<a href="https://spiffe.io/docs/latest/spiffe-specs/spiffe/" target="_blank" rel="noopener">SPIFFE · workload identity standard<span>↗</span></a>
+<a href="https://datatracker.ietf.org/doc/html/rfc9700" target="_blank" rel="noopener">IETF · RFC 9700 OAuth 2.0 Security BCP<span>↗</span></a>
+<a href="https://spec.openapis.org/oas/" target="_blank" rel="noopener">OpenAPI Initiative · OpenAPI Specification<span>↗</span></a>
+<a href="https://opentelemetry.io/docs/specs/semconv/" target="_blank" rel="noopener">OpenTelemetry · semantic conventions<span>↗</span></a>
+<a href="https://eur-lex.europa.eu/eli/reg/2024/1689" target="_blank" rel="noopener">European Union · AI Act consolidated text<span>↗</span></a>
+<a href="https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems" target="_blank" rel="noopener">European Commission · Article 50 transparency guidelines<span>↗</span></a>
+<a href="https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers" target="_blank" rel="noopener">European Commission · GPAI provider guidelines<span>↗</span></a>
+<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2554" target="_blank" rel="noopener">European Union · DORA<span>↗</span></a>
+</div>
+<p class="applied-note">VOCE Agent Infrastructure Reference is a VOCE public reference architecture. It is not an EU harmonised standard, legal opinion, certification scheme or substitute for sector-specific professional review.</p>
+</section>
+</div></div></section>
+
+<section class="controcanto"><div class="wrap controcanto-grid"><div class="eyebrow">VOCE · Orchestration</div><div class="controcanto-copy"><h2>The score is written before the orchestra accelerates.</h2><p>Agentic systems distribute execution across models, APIs, identities and institutions. VOCE treats the architecture as a score: each actor keeps a defined register, entrance, authority and stop condition. The purpose is not aesthetic. It is operational accountability.</p><a class="back" href="/governance">Return to AI Governance</a></div></div></section>
+</main>
+<footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span>V</span><span class="o"><i class="ray r1"></i><i class="ray r2"></i><i class="ray r3"></i></span><span>CE</span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/standards">VOCE Standards</a> · <a href="/governance">AI Governance</a> · <a href="/applied">Applied</a></div><div><a href="/legal">Legal</a> · <a href="/privacy">Privacy</a> · © 2026 VOCE Association</div></div></div></div></footer>
+</body></html>
