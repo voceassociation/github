@@ -50,8 +50,10 @@ jobs:
           ids={x["id"] for x in corpus["items"]}
           assert len(ids) == corpus["item_count"]
           solutions=json.loads((root/"data/applied-solutions.json").read_text())
-          assert solutions["schema"] == 1
+          assert solutions["schema"] == 2
           assert len({x["id"] for x in solutions["solutions"]}) == len(solutions["solutions"])
+          assert all(x.get("institutional") for x in solutions["solutions"])
+          assert all(x["institutional"].get("source_urls") for x in solutions["solutions"])
           assert all(x.get("path") for x in solutions["evidence"])
           print({"corpus_items": corpus["item_count"], "canonical_routes": len(canonical_routes), "redirects": len(routes["items"])-len(canonical_routes), "solution_records": len(solutions["solutions"]), "solution_evidence": len(solutions["evidence"])})
           PY
