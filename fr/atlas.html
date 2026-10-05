@@ -61,7 +61,7 @@
 </div>
 <div class="atlas-intro-copy">
 <p>Un article appartient à plusieurs catégories. Un texte sur les agents IA peut aussi parler d’identité, de permissions et de travail. Une étude sur une porte peut aussi concerner la segmentation des événements, l’interruption et la mémoire.</p>
-<p>Atlas conserve ces croisements. Sélectionnez un concept pour révéler ses relations documentées et les publications VOCE qui les soutiennent.</p>
+<p>Atlas conserve ces croisements. Sélectionnez un concept pour révéler ses relations documentées, ou choisissez deux concepts pour tracer le chemin le plus court entre leurs preuves.</p>
 </div>
 </div>
 
@@ -75,9 +75,19 @@
 <button class="atlas-reset" id="atlas-reset" type="button">Réinitialiser</button>
 </div>
 
+<div class="atlas-pathfinder" aria-labelledby="atlas-path-title">
+<div class="atlas-pathfinder-copy"><div class="eyebrow">Explorateur de chemins</div><h3 id="atlas-path-title">Tracer un chemin documenté.</h3><p>Choisissez deux concepts. Atlas suit la plus courte succession de relations publiées qui les relie.</p></div>
+<div class="atlas-path-controls">
+<label>De<select id="atlas-path-from" aria-label="Concept de départ"></select></label>
+<label>Vers<select id="atlas-path-to" aria-label="Concept d’arrivée"></select></label>
+<button id="atlas-find-path" type="button">Tracer le chemin</button>
+</div>
+<div id="atlas-path-result" class="atlas-path-result" hidden></div>
+</div>
+
 <div class="atlas-stage">
 <div class="atlas-map-wrap">
-<div class="atlas-map-kicker">Carte des connaissances · V1 éditoriale</div>
+<div class="atlas-map-kicker">Carte des connaissances · graphe de preuves V2</div>
 <svg id="atlas-map" class="atlas-map" viewBox="0 0 1200 760" role="img" aria-labelledby="atlas-map-title atlas-map-desc">
 <title id="atlas-map-title">Carte des connaissances VOCE Atlas</title>
 <desc id="atlas-map-desc">Carte interactive des concepts et des relations fondées sur les preuves dans le corpus VOCE.</desc>
@@ -104,6 +114,7 @@
 <div class="rule"><div class="label">Source</div><div class="value">Chaque relation renvoie à une preuve dans VOCE Academy ou VOCE Research.</div></div>
 <div class="rule"><div class="label">Périmètre</div><div class="value">La carte commence par un noyau éditorial plutôt que par une visualisation automatique de toute l’archive.</div></div>
 <div class="rule"><div class="label">Croissance</div><div class="value">De nouveaux concepts peuvent être proposés automatiquement, mais leur publication dans Atlas reste liée aux preuves.</div></div>
+<div class="rule"><div class="label">Sémantique des chemins</div><div class="value">Un chemin est une succession documentaire de relations soutenues individuellement. Il n’établit pas automatiquement une causalité entre ses extrémités.</div></div>
 <div class="rule"><div class="label">Lisible par machine</div><div class="value"><a href="/data/atlas.json">Le graphe Atlas est publiquement consultable en JSON.</a></div></div>
 </div>
 </div>
