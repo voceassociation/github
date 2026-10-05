@@ -16,6 +16,7 @@ VOCE Agent Infrastructure Reference: https://voce.life/agent-infrastructure
 VOCE Agent Infrastructure Reference JSON: https://voce.life/data/agent-infrastructure-reference.json
 VOCE Agent Conformance: https://voce.life/agent-conformance
 VOCE Agent Conformance framework: https://voce.life/data/agent-conformance.json
+VOCE Agent Conformance control records: https://voce.life/agent-conformance/controls/{control-id}
 Machine-readable corpus: https://voce.life/data/corpus.json
 NDJSON corpus: https://voce.life/data/corpus.ndjson
 RSS feed: https://voce.life/feed.xml
@@ -56,7 +57,7 @@ VOCE Agent Infrastructure Reference — Europe 2026 is a vendor-neutral public c
 
 ## Agent Conformance
 
-VOCE Agent Conformance operationalises the Agent Infrastructure Reference through 48 stable controls across 10 domains. It uses five evidence states — Absent, Declared, Documented, Tested and Verified in operation — and explicitly avoids an aggregate score that could hide one critical authority gap. The public Self Assessment runs locally in the browser. Reviewed and Observed modes require VOCE specialist review and do not constitute EU or ISO certification.
+VOCE Agent Conformance operationalises the Agent Infrastructure Reference through 48 stable controls across 10 domains. It uses five evidence states — Absent, Declared, Documented, Tested and Verified in operation — and explicitly avoids an aggregate score that could hide one critical authority gap. The public Self Assessment runs locally in the browser. Reviewed and Observed modes require VOCE specialist review and do not constitute EU or ISO certification. Every control has a permanent indexable record in EN/FR/IT with its stable identifier, normative question, maturity floor, criticality, target evidence state, expected owner and evidence list.
 
 ## Applied Solutions
 
