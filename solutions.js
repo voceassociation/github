@@ -8,19 +8,19 @@
       independence:"Inclusion is documentary, not a recommendation, certification or commercial ranking. Documentation coverage measures public evidence, not product quality.",
       compare:"Institutional comparison",profile:"Institutional profile",availability:"Availability",deployment:"Deployment",residency:"Data boundary",identity:"Identity & access",audit:"Auditability",interfaces:"Interfaces",pricing:"Pricing",security:"Security",coverage:"Documentation",sources:"Official evidence",
       documented:"Documented",partial:"Partial",notPublic:"Not publicly documented",suiteDependent:"Suite / region dependent",productDependent:"Product dependent",notApplicable:"Not applicable",contactSales:"Contact sales",publicPricing:"Public pricing",market:"Market available",
-      capAll:"All profiles",capResidency:"Residency documented",capAudit:"Audit trail",capInterface:"API / MCP",capPricing:"Public pricing",capMarket:"Available now",unknown:"Not public"
+      capAll:"All profiles",capResidency:"Residency documented",capAudit:"Audit trail",capInterface:"API / MCP",capPricing:"Public pricing",capMarket:"Available now",capChina:"China",capOpen:"Open / open-weight",capSelfHost:"Self-hostable",capCommercialOpen:"Commercial open use",origin:"Origin",openness:"Openness",license:"License",selfHost:"Self-hosting",openRelease:"Open release",targetedBeta:"Targeted beta",deploymentControlled:"Deployment-controlled",restricted:"Restricted",unknown:"Not public"
     },
     fr:{
       all:"Tous",search:"Rechercher une solution ou un usage",verified:"Vérifié",official:"Source officielle",evidence:"Preuves VOCE",fit:"Usage pertinent",caution:"Point de déploiement",autonomy:"Autonomie",empty:"Aucune solution ne correspond à ces filtres.",registry:"solutions",proofs:"publications VOCE",read:"Lire VOCE →",
       independence:"La présence dans ce registre est documentaire: elle ne constitue ni recommandation, ni certification, ni classement commercial. La couverture documentaire mesure les preuves publiques, pas la qualité du produit.",
       compare:"Comparaison institutionnelle",profile:"Profil institutionnel",availability:"Disponibilité",deployment:"Déploiement",residency:"Frontière des données",identity:"Identité & accès",audit:"Auditabilité",interfaces:"Interfaces",pricing:"Tarification",security:"Sécurité",coverage:"Documentation",sources:"Preuves officielles",
-      documented:"Documenté",partial:"Partiel",notPublic:"Non documenté publiquement",suiteDependent:"Dépend du produit / de la région",productDependent:"Dépend du produit",notApplicable:"Non applicable",contactSales:"Sur devis",publicPricing:"Tarif public",market:"Disponible",capAll:"Tous les profils",capResidency:"Résidence documentée",capAudit:"Traçabilité",capInterface:"API / MCP",capPricing:"Tarif public",capMarket:"Disponible maintenant",unknown:"Non public"
+      documented:"Documenté",partial:"Partiel",notPublic:"Non documenté publiquement",suiteDependent:"Dépend du produit / de la région",productDependent:"Dépend du produit",notApplicable:"Non applicable",contactSales:"Sur devis",publicPricing:"Tarif public",market:"Disponible",capAll:"Tous les profils",capResidency:"Résidence documentée",capAudit:"Traçabilité",capInterface:"API / MCP",capPricing:"Tarif public",capMarket:"Disponible maintenant",capChina:"Chine",capOpen:"Open / open-weight",capSelfHost:"Auto-hébergeable",capCommercialOpen:"Usage commercial ouvert",origin:"Origine",openness:"Ouverture",license:"Licence",selfHost:"Auto-hébergement",openRelease:"Publication ouverte",targetedBeta:"Bêta ciblée",deploymentControlled:"Contrôlé par le déploiement",restricted:"Restreint",unknown:"Non public"
     },
     it:{
       all:"Tutti",search:"Cerca una soluzione o un caso d'uso",verified:"Verificato",official:"Fonte ufficiale",evidence:"Evidenze VOCE",fit:"Uso pertinente",caution:"Nota di deployment",autonomy:"Autonomia",empty:"Nessuna soluzione corrisponde a questi filtri.",registry:"soluzioni",proofs:"pubblicazioni VOCE",read:"Leggi VOCE →",
       independence:"La presenza nel registro è documentaria: non costituisce raccomandazione, certificazione o classifica commerciale. La copertura documentale misura le evidenze pubbliche, non la qualità del prodotto.",
       compare:"Confronto istituzionale",profile:"Profilo istituzionale",availability:"Disponibilità",deployment:"Deployment",residency:"Confine dei dati",identity:"Identità & accesso",audit:"Auditabilità",interfaces:"Interfacce",pricing:"Prezzi",security:"Sicurezza",coverage:"Documentazione",sources:"Evidenze ufficiali",
-      documented:"Documentato",partial:"Parziale",notPublic:"Non documentato pubblicamente",suiteDependent:"Dipende da suite / regione",productDependent:"Dipende dal prodotto",notApplicable:"Non applicabile",contactSales:"Su preventivo",publicPricing:"Prezzo pubblico",market:"Disponibile",capAll:"Tutti i profili",capResidency:"Residenza documentata",capAudit:"Audit trail",capInterface:"API / MCP",capPricing:"Prezzo pubblico",capMarket:"Disponibile ora",unknown:"Non pubblico"
+      documented:"Documentato",partial:"Parziale",notPublic:"Non documentato pubblicamente",suiteDependent:"Dipende da suite / regione",productDependent:"Dipende dal prodotto",notApplicable:"Non applicabile",contactSales:"Su preventivo",publicPricing:"Prezzo pubblico",market:"Disponibile",capAll:"Tutti i profili",capResidency:"Residenza documentata",capAudit:"Audit trail",capInterface:"API / MCP",capPricing:"Prezzo pubblico",capMarket:"Disponibile ora",capChina:"Cina",capOpen:"Open / open-weight",capSelfHost:"Self-hostable",capCommercialOpen:"Uso commerciale aperto",origin:"Origine",openness:"Apertura",license:"Licenza",selfHost:"Self-hosting",openRelease:"Release aperta",targetedBeta:"Beta mirata",deploymentControlled:"Controllato dal deployment",restricted:"Limitato",unknown:"Non pubblico"
     }
   }[lang];
   const sectorLabels = {
@@ -29,9 +29,9 @@
     it:{legal:"Legale & conformità",hr:"Risorse umane",finance:"Finanza & contabilità",culture:"Musei & cultura",marketing:"Marketing & comunicazione",banking:"Banca & assicurazioni",healthops:"Operazioni sanitarie",it:"IT, software & cyber",cross:"Trasversale"}
   }[lang];
   const layerLabels = {
-    en:{vertical:"Specialist product","professional-foundation":"Professional foundation","enterprise-suite":"Enterprise suite","enterprise-workflow":"Enterprise workflow","agent-platform":"Agent platform","build-platform":"Build platform","foundation-model":"Foundation model","creative-media":"Creative media","vertical-infrastructure":"Vertical infrastructure","vertical-tools":"Specialist tools",cyber:"Cybersecurity","legacy-execution":"Legacy execution"},
-    fr:{vertical:"Produit métier","professional-foundation":"Fondation professionnelle","enterprise-suite":"Suite entreprise","enterprise-workflow":"Workflow entreprise","agent-platform":"Plateforme d'agents","build-platform":"Plateforme de construction","foundation-model":"Modèle fondation","creative-media":"Média créatif","vertical-infrastructure":"Infrastructure métier","vertical-tools":"Outils métier",cyber:"Cybersécurité","legacy-execution":"Exécution legacy"},
-    it:{vertical:"Prodotto verticale","professional-foundation":"Fondazione professionale","enterprise-suite":"Suite enterprise","enterprise-workflow":"Workflow enterprise","agent-platform":"Piattaforma agenti","build-platform":"Piattaforma di sviluppo","foundation-model":"Foundation model","creative-media":"Media creativo","vertical-infrastructure":"Infrastruttura verticale","vertical-tools":"Strumenti verticali",cyber:"Cybersecurity","legacy-execution":"Esecuzione legacy"}
+    en:{vertical:"Specialist product","professional-foundation":"Professional foundation","enterprise-suite":"Enterprise suite","enterprise-workflow":"Enterprise workflow","agent-platform":"Agent platform","build-platform":"Build platform","foundation-model":"Foundation model","open-model":"Open / open-weight model","creative-media":"Creative media","vertical-infrastructure":"Vertical infrastructure","vertical-tools":"Specialist tools",cyber:"Cybersecurity","legacy-execution":"Legacy execution"},
+    fr:{vertical:"Produit métier","professional-foundation":"Fondation professionnelle","enterprise-suite":"Suite entreprise","enterprise-workflow":"Workflow entreprise","agent-platform":"Plateforme d'agents","build-platform":"Plateforme de construction","foundation-model":"Modèle fondation","open-model":"Modèle open / open-weight","creative-media":"Média créatif","vertical-infrastructure":"Infrastructure métier","vertical-tools":"Outils métier",cyber:"Cybersécurité","legacy-execution":"Exécution legacy"},
+    it:{vertical:"Prodotto verticale","professional-foundation":"Fondazione professionale","enterprise-suite":"Suite enterprise","enterprise-workflow":"Workflow enterprise","agent-platform":"Piattaforma agenti","build-platform":"Piattaforma di sviluppo","foundation-model":"Foundation model","open-model":"Modello open / open-weight","creative-media":"Media creativo","vertical-infrastructure":"Infrastruttura verticale","vertical-tools":"Strumenti verticali",cyber:"Cybersecurity","legacy-execution":"Esecuzione legacy"}
   }[lang];
 
   const filters = root.querySelector("#solution-filters");
@@ -59,7 +59,11 @@
   function statusLabel(value){
     const v=String(value||"").toLowerCase();
     if(["documented","ga","commercial","ga_api","service","commercial_addon"].includes(v)) return UI.documented;
-    if(["documented_partial","partial","mixed","ga_varies","ga_with_previews","early_access","acquisition_pending","engagement_defined","service_deliverable","supported_application_layer","ecosystem","plugin_ecosystem","flex_credits","public_partial","public_usage"].includes(v)) return UI.partial;
+    if(["documented_partial","partial","mixed","ga_varies","ga_with_previews","early_access","acquisition_pending","engagement_defined","service_deliverable","supported_application_layer","ecosystem","plugin_ecosystem","flex_credits","public_partial","public_usage","source_available"].includes(v)) return UI.partial;
+    if(v==="open_release") return UI.openRelease;
+    if(v==="targeted_beta") return UI.targetedBeta;
+    if(v==="deployment_controlled") return UI.deploymentControlled;
+    if(v==="license_restricted") return UI.restricted;
     if(["suite_dependent"].includes(v)) return UI.suiteDependent;
     if(["product_dependent"].includes(v)) return UI.productDependent;
     if(["not_applicable"].includes(v)) return UI.notApplicable;
@@ -82,7 +86,7 @@
     return /api|mcp|a2a/.test(joined)||!["not_public","not_applicable",undefined].includes(m);
   }
   function hasResidency(i){return !!(i&&i.data_residency&&["documented","documented_partial"].includes(i.data_residency.status));}
-  function isMarket(i){return !!(i&&i.availability&&!["early_access","acquisition_pending","not_public"].includes(i.availability.status));}
+  function isMarket(i){return !!(i&&i.availability&&!["early_access","acquisition_pending","targeted_beta","not_public"].includes(i.availability.status));}
   function capabilityOk(s){
     const i=s.institutional||{};
     if(capability==="residency") return hasResidency(i);
@@ -90,6 +94,10 @@
     if(capability==="interface") return hasInterface(i);
     if(capability==="pricing") return !!(i.pricing&&i.pricing.public);
     if(capability==="market") return isMarket(i);
+    if(capability==="china") return s.origin_country==="China";
+    if(capability==="open") return ["open_weight","code_and_weights","open_weight_custom_license","open_weight_and_toolkit","source_available_restricted"].includes(s.openness);
+    if(capability==="selfhost") return s.self_hosting===true;
+    if(capability==="commercialopen") return s.self_hosting===true && s.commercial_use==="permitted";
     return true;
   }
   function currentFiltered(){
@@ -97,7 +105,7 @@
     return data.solutions.filter(function(s){
       const t=localizedSolution(s),i=s.institutional||{};
       const sectorOk=sector==="all"||s.sectors.includes(sector);
-      const hay=[s.vendor,s.product,s.layer,s.autonomy,JSON.stringify(i)].concat(s.sectors.map(function(x){return sectorLabels[x]||x;}),t.use_cases,[t.fit,t.caution]).join(" ").toLowerCase();
+      const hay=[s.vendor,s.product,s.layer,s.autonomy,s.origin_country,s.openness,s.license,s.commercial_use,JSON.stringify(i)].concat(s.sectors.map(function(x){return sectorLabels[x]||x;}),t.use_cases,[t.fit,t.caution]).join(" ").toLowerCase();
       return sectorOk&&capabilityOk(s)&&(!q||hay.includes(q));
     });
   }
@@ -105,7 +113,7 @@
     const list=[{id:"all",label:UI.all}].concat(data.sectors.map(function(item){return{id:item.id,label:sectorLabels[item.id]||item.id};}));
     filters.innerHTML=list.map(function(item){return '<button type="button" class="solution-filter'+(sector===item.id?' is-active':'')+'" data-sector="'+esc(item.id)+'">'+esc(item.label)+'</button>';}).join("");
     filters.querySelectorAll("[data-sector]").forEach(function(btn){btn.addEventListener("click",function(){sector=btn.dataset.sector;renderFilters();renderAll();});});
-    const caps=[["all",UI.capAll],["residency",UI.capResidency],["audit",UI.capAudit],["interface",UI.capInterface],["pricing",UI.capPricing],["market",UI.capMarket]];
+    const caps=[["all",UI.capAll],["china",UI.capChina],["open",UI.capOpen],["selfhost",UI.capSelfHost],["commercialopen",UI.capCommercialOpen],["residency",UI.capResidency],["audit",UI.capAudit],["interface",UI.capInterface],["pricing",UI.capPricing],["market",UI.capMarket]];
     diligenceFilters.innerHTML=caps.map(function(item){return '<button type="button" class="solution-filter solution-filter--diligence'+(capability===item[0]?' is-active':'')+'" data-capability="'+item[0]+'">'+item[1]+'</button>';}).join("");
     diligenceFilters.querySelectorAll("[data-capability]").forEach(function(btn){btn.addEventListener("click",function(){capability=btn.dataset.capability;renderFilters();renderAll();});});
   }
@@ -126,7 +134,11 @@
     const pricing=i.pricing||{};
     const certs=(i.security_certifications||[]).join(" · ")||UI.unknown;
     const sources=(i.source_urls||[]).map(function(url,idx){return '<a href="'+esc(url)+'" target="_blank" rel="noopener">'+UI.official+' '+(idx+1)+' ↗</a>';}).join("");
+    const selfHosting=s.self_hosting===true?(lang==="fr"?"Oui":lang==="it"?"Sì":"Yes"):(lang==="fr"?"Non":lang==="it"?"No":"No");
+    const openness=[s.openness,s.license].filter(Boolean).join(" · ")||UI.unknown;
     return '<div class="solution-diligence-grid">'
+      +'<div><b>'+UI.origin+'</b><span>'+esc(s.origin_country||UI.unknown)+'</span></div>'
+      +'<div><b>'+UI.openness+'</b><span>'+esc(openness)+'</span><small>'+UI.selfHost+': '+selfHosting+'</small></div>'
       +'<div><b>'+UI.availability+'</b><span>'+esc(statusLabel(i.availability&&i.availability.status))+'</span><small>'+esc(i.availability&&i.availability.detail||"")+'</small></div>'
       +'<div><b>'+UI.deployment+'</b><span>'+esc(deployment)+'</span></div>'
       +'<div><b>'+UI.residency+'</b><span>'+esc(statusLabel(residency.status))+'</span><small>'+esc(residency.detail||"")+'</small></div>'
@@ -164,6 +176,8 @@
       return '<tr>'
         +'<th scope="row"><strong>'+esc(s.product)+'</strong><small>'+esc(s.vendor)+'</small></th>'
         +tableCell(esc(layerLabels[s.layer]||s.layer))
+        +tableCell(esc(s.origin_country||UI.unknown),s.origin_country==="China"?"is-documented":"")
+        +tableCell(esc((s.openness||UI.unknown)+(s.license?" · "+s.license:"")),s.self_hosting?"is-documented":"")
         +tableCell(esc(statusLabel(res.status)),hasResidency(i)?"is-documented":"")
         +tableCell(esc(statusLabel(ident.status)),ident.status==="documented"?"is-documented":"")
         +tableCell(esc(hasAudit(i)?UI.documented:UI.notPublic),hasAudit(i)?"is-documented":"")
@@ -173,7 +187,7 @@
         +tableCell(esc(coverageLabel(i.documentation_coverage)))
         +'</tr>';
     }).join("");
-    comparison.innerHTML='<div class="solution-comparison-title"><strong>'+UI.compare+'</strong><span>'+filtered.length+' '+UI.registry+'</span></div><div class="solution-table-scroll"><table><thead><tr><th>Solution</th><th>'+UI.profile+'</th><th>'+UI.residency+'</th><th>'+UI.identity+'</th><th>'+UI.audit+'</th><th>API / MCP</th><th>'+UI.pricing+'</th><th>'+UI.availability+'</th><th>'+UI.coverage+'</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
+    comparison.innerHTML='<div class="solution-comparison-title"><strong>'+UI.compare+'</strong><span>'+filtered.length+' '+UI.registry+'</span></div><div class="solution-table-scroll"><table><thead><tr><th>Solution</th><th>'+UI.profile+'</th><th>'+UI.origin+'</th><th>'+UI.license+'</th><th>'+UI.residency+'</th><th>'+UI.identity+'</th><th>'+UI.audit+'</th><th>API / MCP</th><th>'+UI.pricing+'</th><th>'+UI.availability+'</th><th>'+UI.coverage+'</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
   }
   function renderEvidence(){
     evidenceCount.textContent=data.evidence.length+" "+UI.proofs;
