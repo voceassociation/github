@@ -56,7 +56,7 @@ for item in corpus.get("items", []):
         "title": title_of(item),
         "path": path,
         "sectors": classify(text),
-        "themes": ["LI!GHT WORKFORCE ©", "agents", "work transformation"]
+        "themes": (["LI!GHT WORKFORCE ©"] if marker else []) + ["agents", "work transformation"]
     }
     evidence.append(record)
     by_path[path] = record
