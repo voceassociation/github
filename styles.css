@@ -612,7 +612,7 @@ html[lang="it"] .atlas-panel:before{content:"Vista documentale mobile"}
 .solution-comparison-title strong{font-family:var(--serif);font-size:1.45rem;font-weight:400;color:var(--forest)}
 .solution-comparison-title span{font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
 .solution-table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
-.solution-table-scroll table{width:100%;min-width:1180px;border-collapse:collapse}
+.solution-table-scroll table{width:100%;min-width:1540px;border-collapse:collapse}
 .solution-table-scroll th,.solution-table-scroll td{padding:13px 12px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
 .solution-table-scroll thead th{font-size:.54rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);white-space:nowrap}
 .solution-table-scroll tbody th{width:190px}
