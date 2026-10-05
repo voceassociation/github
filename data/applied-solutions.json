@@ -3055,6 +3055,22 @@
   ],
   "evidence": [
     {
+      "id": "lw-auto-post-7507015808154488833",
+      "date": "2026-09-19",
+      "title": "Guangzhou, septembre 2026.",
+      "path": "/archive/2026/09/19/guangzhou-septembre-2026-7507015808154488833",
+      "sectors": [
+        "legal",
+        "hr",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
       "id": "lw-legal-astra",
       "date": "2026-09-21",
       "title": "Les avocats facturaient du temps. L'IA vient d'apprendre le dossier",
@@ -3192,6 +3208,21 @@
       ]
     },
     {
+      "id": "lw-auto-post-7509144829097021440",
+      "date": "2026-09-25",
+      "title": "Entrez dans une boutique de luxe contemporaine et regardez ce qui a disparu.",
+      "path": "/archive/2026-09-25#post-7509144829097021440",
+      "sectors": [
+        "marketing",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
       "id": "lw-spiffe",
       "date": "2026-09-25",
       "title": "Un agent d'IA demande au système de paiement de rembourser un client.",
@@ -3205,6 +3236,23 @@
         "SPIFFE",
         "workload identity",
         "permissions"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7509099525530185728",
+      "date": "2026-09-25",
+      "title": "Un responsable marketing ouvre son tableau SEO, repère une page qui perd de la visibilité, exporte l’information, prépare un contenu dans un a…",
+      "path": "/archive/2026-09-25#post-7509099525530185728",
+      "sectors": [
+        "legal",
+        "finance",
+        "marketing",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
       ]
     },
     {
@@ -3238,20 +3286,6 @@
       ]
     },
     {
-      "id": "lw-volkswagen",
-      "date": "2026-09-27",
-      "title": "À Hefei, en Chine, une Volkswagen sort de chaîne environ toutes les deux minutes.",
-      "path": "/archive/2026/09/27/a-hefei-en-chine-une-volkswagen-sort-de-chaine-environ-toutes-les-deux-m-7509945107798880256",
-      "sectors": [
-        "cross"
-      ],
-      "themes": [
-        "industry",
-        "automation",
-        "R&D productivity"
-      ]
-    },
-    {
       "id": "lw-agent-explanations",
       "date": "2026-09-27",
       "title": "Lorsqu'une intelligence artificielle donne une réponse puis l'explique...",
@@ -3266,6 +3300,20 @@
         "agent governance",
         "explanations",
         "audit trail"
+      ]
+    },
+    {
+      "id": "lw-volkswagen",
+      "date": "2026-09-27",
+      "title": "À Hefei, en Chine, une Volkswagen sort de chaîne environ toutes les deux minutes.",
+      "path": "/archive/2026/09/27/a-hefei-en-chine-une-volkswagen-sort-de-chaine-environ-toutes-les-deux-m-7509945107798880256",
+      "sectors": [
+        "cross"
+      ],
+      "themes": [
+        "industry",
+        "automation",
+        "R&D productivity"
       ]
     },
     {
@@ -3451,6 +3499,21 @@
       ]
     },
     {
+      "id": "lw-legal-harvey",
+      "date": "2026-10-02",
+      "title": "Un NDA arrive par e-mail.",
+      "path": "/archive/2026/10/02/un-nda-arrive-par-e-mail-7511742165476352000",
+      "sectors": [
+        "legal"
+      ],
+      "themes": [
+        "Harvey",
+        "NDA",
+        "playbooks",
+        "legal workflows"
+      ]
+    },
+    {
       "id": "lw-agent-evaluation",
       "date": "2026-10-02",
       "title": "Un agent corrige un logiciel. Tous les tests passent.",
@@ -3464,21 +3527,6 @@
         "observability",
         "permissions",
         "cost"
-      ]
-    },
-    {
-      "id": "lw-legal-harvey",
-      "date": "2026-10-02",
-      "title": "Un NDA arrive par e-mail.",
-      "path": "/archive/2026/10/02/un-nda-arrive-par-e-mail-7511742165476352000",
-      "sectors": [
-        "legal"
-      ],
-      "themes": [
-        "Harvey",
-        "NDA",
-        "playbooks",
-        "legal workflows"
       ]
     },
     {
@@ -3496,6 +3544,42 @@
         "API",
         "permissions",
         "segmentation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7512738491596791809",
+      "date": "2026-10-05",
+      "title": "ServiceNow Flow: quand la conversation devient le service desk",
+      "path": "/archive/2026/10/05/servicenow-flow-quand-la-conversation-devient-le-service-desk-7512738491596791809",
+      "sectors": [
+        "hr",
+        "finance",
+        "culture",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7512708292570243072",
+      "date": "2026-10-05",
+      "title": "Stanford: l’IA peut réduire les juniors avant de réduire les postes",
+      "path": "/archive/2026/10/05/stanford-lia-peut-reduire-les-juniors-avant-de-reduire-les-postes-7512708292570243072",
+      "sectors": [
+        "legal",
+        "hr",
+        "culture",
+        "marketing",
+        "banking",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
       ]
     }
   ],

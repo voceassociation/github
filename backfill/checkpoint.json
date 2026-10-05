@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-04T21:44:00Z",
+  "updated_at": "2026-10-05T21:35:48.409325+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -878,11 +878,15 @@
     "2026-10-04": {
       "status": "rows_returned",
       "rows": 14
+    },
+    "2026-10-05": {
+      "status": "rows_returned",
+      "rows": 15
     }
   },
-  "retrieved_unique_publications": 1520,
-  "newly_archived": 18,
-  "academy_corpus_items": 1520,
+  "retrieved_unique_publications": 1535,
+  "newly_archived": 15,
+  "academy_corpus_items": 1535,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
@@ -971,47 +975,23 @@
     },
     "current_publication_ingest": {
       "dates": [
-        "2026-10-01",
         "2026-10-02",
         "2026-10-03",
-        "2026-10-04"
+        "2026-10-04",
+        "2026-10-05"
       ],
       "verified_source": "Metricool LinkedIn connector, brand 7090850",
-      "items_processed": 62,
-      "corpus_items_after": 1520,
+      "items_processed": 61,
+      "corpus_items_after": 1535,
       "classification": "A editorial/archive",
-      "static_pages_verified_for_generation": 62,
+      "static_pages_verified_for_generation": 61,
       "daily_archives": [
-        "archive/2026-10-01.html",
         "archive/2026-10-02.html",
         "archive/2026-10-03.html",
-        "archive/2026-10-04.html"
+        "archive/2026-10-04.html",
+        "archive/2026-10-05.html"
       ],
-      "completed_at": "2026-10-04T21:38:16.784540+00:00",
-      "deployment_verified_at": "2026-10-04T21:44:00Z",
-      "verification": {
-        "article": "https://voce.life/archive/2026/10/04/deux-secondes-peuvent-proteger-ce-qui-vient-de-finir-7512587528982380544",
-        "articleBodyLength": 2879,
-        "decoded_source_exact_match": true,
-        "canonical_verified": true,
-        "robots": "index,follow,max-snippet:-1,max-image-preview:large",
-        "guide_query": "Hannah Bernhard deux secondes mémoire",
-        "guide_result_verified": true,
-        "academy_visible_count": 1520,
-        "sitemap_included": true
-      },
-      "indexnow": {
-        "status": "failed_403_key_verification",
-        "workflow_run": "https://github.com/voceassociation/github/actions/runs/37236888809",
-        "key_publicly_readable": true
-      },
-      "r2_backup": {
-        "status": "syncing_stale_manifest",
-        "synced_at": "2026-09-30T15:00:48.996Z",
-        "backup_cursor": 0,
-        "objects_synced": 0,
-        "backup_complete": false
-      }
+      "completed_at": "2026-10-05T21:35:48.804232+00:00"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",
