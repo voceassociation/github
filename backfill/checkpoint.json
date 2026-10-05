@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-05T21:35:48.409325+00:00",
+  "updated_at": "2026-10-05T21:39:00Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -901,26 +901,26 @@
     "pull_request": 3,
     "merge_commit": "cb66dce1c40f07282b275482f801e8a350dc5f0a",
     "indexnow_check": "failed_403_key_verification_with_public_c86_key",
-    "live_deployment": "1520_article_pages_and_sample_verified_publicly",
+    "live_deployment": "1535_article_pages_and_sample_verified_publicly",
     "linkedin_browser_session": "signed_out_metricool_connector_connected",
-    "static_pages_generated": 1520,
+    "static_pages_generated": 1535,
     "academy_catalogue": "existing_curated_selection_plus_guide_no_bulk_listing",
-    "verified_article": "https://voce.life/archive/2026/10/04/deux-secondes-peuvent-proteger-ce-qui-vient-de-finir-7512587528982380544",
-    "rss_items": 1520,
+    "verified_article": "https://voce.life/archive/2026/10/05/pourquoi-certaines-minutes-coutent-elles-plus-cher-que-dautres-7512949915510026240",
+    "rss_items": 1535,
     "indexnow_key": "verified_live",
     "indexnow_retry_commit": "fab67c8f0bb0a1c3614798a189cd1771b5bdaaa3",
     "r2_backup": {
       "status": "syncing_stale_manifest",
       "manifest_synced_at": "2026-09-30T15:00:48.996Z",
       "manifest_article_routes": 17,
-      "current_article_routes": 1520,
+      "current_article_routes": 1535,
       "issue": "Previous monolithic sync exceeded practical per-invocation R2 work after corpus expansion.",
       "remediation": "Resumable 150-route batches with persistent cursor deployed.",
       "remediation_commit": "5f303ffb9dbdb8a58a5fabfcc3049d5663142037",
       "next_check": "Confirm deployment, then verify cursor and synced_at advance after the next scheduled event.",
       "second_remediation": "Unified queue capped at 40 total objects per scheduled run.",
       "second_remediation_commit": "339bfc15199956c0f3307202297a95631ead3df9",
-      "last_checked_at": "2026-10-04T21:44:00Z",
+      "last_checked_at": "2026-10-05T21:39:00Z",
       "latest_health": {
         "status": "syncing",
         "synced_at": "2026-09-30T15:00:48.996Z",
@@ -944,7 +944,7 @@
         "https://voce.life/research/introspective-technoference",
         "https://voce.life/research/parental-technoference-language-development"
       ],
-      "last_verified_at": "2026-10-04T21:44:00Z",
+      "last_verified_at": "2026-10-05T21:39:00Z",
       "status": "Canonical research targets and authoritative DOI metadata remain consistent; no new formal output added."
     },
     "facebook": {
@@ -954,16 +954,16 @@
       "full_text_saved": true,
       "ingestion_status": "pending exact publication timestamp and cross-platform duplicate reconciliation"
     },
-    "indexnow_workflow_run": "https://github.com/voceassociation/github/actions/runs/37236888809",
+    "indexnow_workflow_run": "https://github.com/voceassociation/github/actions/runs/37376864211",
     "indexnow_error": {
       "errorCode": "UserForbiddedToAccessSite",
       "message": "User is unauthorized to access the site. Please verify the site using the key and try again",
-      "observed_at": "2026-10-04T21:38:21Z",
+      "observed_at": "2026-10-05T21:35:54Z",
       "endpoint": "https://api.indexnow.org/indexnow",
       "root_key_url": "https://voce.life/c86f946ba27001564086ad51d808e308.txt",
       "root_key_publicly_readable": true,
       "submission_status": "not_accepted",
-      "likely_next_action": "Inspect Cloudflare security/bot rules and origin behavior seen by the IndexNow verifier; do not rotate the currently public key blindly."
+      "likely_next_action": "Inspect Cloudflare security/bot rules and origin behavior seen by the IndexNow verifier; do not rotate the publicly valid key blindly."
     },
     "adobe_recent_scan": {
       "observed_at": "2026-09-30T19:05:56Z",
@@ -991,7 +991,37 @@
         "archive/2026-10-04.html",
         "archive/2026-10-05.html"
       ],
-      "completed_at": "2026-10-05T21:35:48.804232+00:00"
+      "completed_at": "2026-10-05T21:35:48.804232+00:00",
+      "deployment_verified_at": "2026-10-05T21:39:00Z",
+      "verification": {
+        "article": "https://voce.life/archive/2026/10/05/pourquoi-certaines-minutes-coutent-elles-plus-cher-que-dautres-7512949915510026240",
+        "articleBodyLength": 2887,
+        "decoded_source_exact_match": true,
+        "canonical_verified": true,
+        "robots": "index,follow,max-snippet:-1,max-image-preview:large",
+        "guide_query": "Vatansever stress temps IRM",
+        "guide_result_verified": true,
+        "academy_visible_count": 1535,
+        "sitemap_included": true
+      },
+      "indexnow": {
+        "status": "failed_403_key_verification",
+        "workflow_run": "https://github.com/voceassociation/github/actions/runs/37376864211",
+        "key_publicly_readable": true
+      },
+      "r2_backup": {
+        "status": "syncing_stale_manifest",
+        "synced_at": "2026-09-30T15:00:48.996Z",
+        "backup_cursor": 0,
+        "objects_synced": 0,
+        "backup_complete": false
+      },
+      "workflow_repair": {
+        "issue": "update_applied_solutions.py referenced undefined marker",
+        "fix_commit": "9b0a6aa3202b7bd584456a898f16295e38bddd2f",
+        "status": "fixed_and_verified",
+        "applied_solution_evidence_records": 34
+      }
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",
