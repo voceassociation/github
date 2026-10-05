@@ -8,19 +8,19 @@
       independence:"Inclusion is documentary, not a recommendation, certification or commercial ranking. Documentation coverage measures public evidence, not product quality.",
       compare:"Institutional comparison",profile:"Institutional profile",availability:"Availability",deployment:"Deployment",residency:"Data boundary",identity:"Identity & access",audit:"Auditability",interfaces:"Interfaces",pricing:"Pricing",security:"Security",coverage:"Documentation",sources:"Official evidence",
       documented:"Documented",partial:"Partial",notPublic:"Not publicly documented",suiteDependent:"Suite / region dependent",productDependent:"Product dependent",notApplicable:"Not applicable",contactSales:"Contact sales",publicPricing:"Public pricing",market:"Market available",
-      capAll:"All profiles",capResidency:"Residency documented",capAudit:"Audit trail",capInterface:"API / MCP",capPricing:"Public pricing",capMarket:"Available now",capChina:"China",capOpen:"Open / open-weight",capSelfHost:"Self-hostable",capCommercialOpen:"Commercial open use",origin:"Origin",openness:"Openness",license:"License",selfHost:"Self-hosting",openRelease:"Open release",targetedBeta:"Targeted beta",deploymentControlled:"Deployment-controlled",restricted:"Restricted",unknown:"Not public"
+      capAll:"All profiles",capResidency:"Residency documented",capAudit:"Audit trail",capInterface:"API / MCP",capPricing:"Public pricing",capMarket:"Available now",capChina:"China",capOpen:"Open / open-weight",capSelfHost:"Self-hostable",capCommercialOpen:"Commercial open use",origin:"Origin",openness:"Openness",license:"License",selfHost:"Self-hosting",commercialUse:"Commercial use",openRelease:"Open release",targetedBeta:"Targeted beta",deploymentControlled:"Deployment-controlled",restricted:"Restricted",openWeights:"Downloadable weights",subscription:"Subscription",permitted:"Permitted",conditional:"Conditional",authorizationRequired:"Authorisation required",verifyCheckpoint:"Verify checkpoint",unknown:"Not public"
     },
     fr:{
       all:"Tous",search:"Rechercher une solution ou un usage",verified:"Vérifié",official:"Source officielle",evidence:"Preuves VOCE",fit:"Usage pertinent",caution:"Point de déploiement",autonomy:"Autonomie",empty:"Aucune solution ne correspond à ces filtres.",registry:"solutions",proofs:"publications VOCE",read:"Lire VOCE →",
       independence:"La présence dans ce registre est documentaire: elle ne constitue ni recommandation, ni certification, ni classement commercial. La couverture documentaire mesure les preuves publiques, pas la qualité du produit.",
       compare:"Comparaison institutionnelle",profile:"Profil institutionnel",availability:"Disponibilité",deployment:"Déploiement",residency:"Frontière des données",identity:"Identité & accès",audit:"Auditabilité",interfaces:"Interfaces",pricing:"Tarification",security:"Sécurité",coverage:"Documentation",sources:"Preuves officielles",
-      documented:"Documenté",partial:"Partiel",notPublic:"Non documenté publiquement",suiteDependent:"Dépend du produit / de la région",productDependent:"Dépend du produit",notApplicable:"Non applicable",contactSales:"Sur devis",publicPricing:"Tarif public",market:"Disponible",capAll:"Tous les profils",capResidency:"Résidence documentée",capAudit:"Traçabilité",capInterface:"API / MCP",capPricing:"Tarif public",capMarket:"Disponible maintenant",capChina:"Chine",capOpen:"Open / open-weight",capSelfHost:"Auto-hébergeable",capCommercialOpen:"Usage commercial ouvert",origin:"Origine",openness:"Ouverture",license:"Licence",selfHost:"Auto-hébergement",openRelease:"Publication ouverte",targetedBeta:"Bêta ciblée",deploymentControlled:"Contrôlé par le déploiement",restricted:"Restreint",unknown:"Non public"
+      documented:"Documenté",partial:"Partiel",notPublic:"Non documenté publiquement",suiteDependent:"Dépend du produit / de la région",productDependent:"Dépend du produit",notApplicable:"Non applicable",contactSales:"Sur devis",publicPricing:"Tarif public",market:"Disponible",capAll:"Tous les profils",capResidency:"Résidence documentée",capAudit:"Traçabilité",capInterface:"API / MCP",capPricing:"Tarif public",capMarket:"Disponible maintenant",capChina:"Chine",capOpen:"Open / open-weight",capSelfHost:"Auto-hébergeable",capCommercialOpen:"Usage commercial ouvert",origin:"Origine",openness:"Ouverture",license:"Licence",selfHost:"Auto-hébergement",commercialUse:"Usage commercial",openRelease:"Publication ouverte",targetedBeta:"Bêta ciblée",deploymentControlled:"Contrôlé par le déploiement",restricted:"Restreint",openWeights:"Poids téléchargeables",subscription:"Abonnement",permitted:"Permis",conditional:"Conditionnel",authorizationRequired:"Autorisation requise",verifyCheckpoint:"Vérifier le checkpoint",unknown:"Non public"
     },
     it:{
       all:"Tutti",search:"Cerca una soluzione o un caso d'uso",verified:"Verificato",official:"Fonte ufficiale",evidence:"Evidenze VOCE",fit:"Uso pertinente",caution:"Nota di deployment",autonomy:"Autonomia",empty:"Nessuna soluzione corrisponde a questi filtri.",registry:"soluzioni",proofs:"pubblicazioni VOCE",read:"Leggi VOCE →",
       independence:"La presenza nel registro è documentaria: non costituisce raccomandazione, certificazione o classifica commerciale. La copertura documentale misura le evidenze pubbliche, non la qualità del prodotto.",
       compare:"Confronto istituzionale",profile:"Profilo istituzionale",availability:"Disponibilità",deployment:"Deployment",residency:"Confine dei dati",identity:"Identità & accesso",audit:"Auditabilità",interfaces:"Interfacce",pricing:"Prezzi",security:"Sicurezza",coverage:"Documentazione",sources:"Evidenze ufficiali",
-      documented:"Documentato",partial:"Parziale",notPublic:"Non documentato pubblicamente",suiteDependent:"Dipende da suite / regione",productDependent:"Dipende dal prodotto",notApplicable:"Non applicabile",contactSales:"Su preventivo",publicPricing:"Prezzo pubblico",market:"Disponibile",capAll:"Tutti i profili",capResidency:"Residenza documentata",capAudit:"Audit trail",capInterface:"API / MCP",capPricing:"Prezzo pubblico",capMarket:"Disponibile ora",capChina:"Cina",capOpen:"Open / open-weight",capSelfHost:"Self-hostable",capCommercialOpen:"Uso commerciale aperto",origin:"Origine",openness:"Apertura",license:"Licenza",selfHost:"Self-hosting",openRelease:"Release aperta",targetedBeta:"Beta mirata",deploymentControlled:"Controllato dal deployment",restricted:"Limitato",unknown:"Non pubblico"
+      documented:"Documentato",partial:"Parziale",notPublic:"Non documentato pubblicamente",suiteDependent:"Dipende da suite / regione",productDependent:"Dipende dal prodotto",notApplicable:"Non applicabile",contactSales:"Su preventivo",publicPricing:"Prezzo pubblico",market:"Disponibile",capAll:"Tutti i profili",capResidency:"Residenza documentata",capAudit:"Audit trail",capInterface:"API / MCP",capPricing:"Prezzo pubblico",capMarket:"Disponibile ora",capChina:"Cina",capOpen:"Open / open-weight",capSelfHost:"Self-hostable",capCommercialOpen:"Uso commerciale aperto",origin:"Origine",openness:"Apertura",license:"Licenza",selfHost:"Self-hosting",commercialUse:"Uso commerciale",openRelease:"Release aperta",targetedBeta:"Beta mirata",deploymentControlled:"Controllato dal deployment",restricted:"Limitato",openWeights:"Pesi scaricabili",subscription:"Abbonamento",permitted:"Consentito",conditional:"Condizionale",authorizationRequired:"Autorizzazione richiesta",verifyCheckpoint:"Verificare checkpoint",unknown:"Non pubblico"
     }
   }[lang];
   const sectorLabels = {
@@ -64,6 +64,8 @@
     if(v==="targeted_beta") return UI.targetedBeta;
     if(v==="deployment_controlled") return UI.deploymentControlled;
     if(v==="license_restricted") return UI.restricted;
+    if(v==="open_weights") return UI.openWeights;
+    if(v==="subscription") return UI.subscription;
     if(["suite_dependent"].includes(v)) return UI.suiteDependent;
     if(["product_dependent"].includes(v)) return UI.productDependent;
     if(["not_applicable"].includes(v)) return UI.notApplicable;
@@ -78,6 +80,14 @@
     return lang==="fr"?"Limitée":lang==="it"?"Limitata":"Limited";
   }
   function yesNoStatus(ok){return ok?UI.documented:UI.notPublic;}
+  function commercialUseLabel(value){
+    if(value==="permitted") return UI.permitted;
+    if(value==="conditional") return UI.conditional;
+    if(value==="authorization_required") return UI.authorizationRequired;
+    if(value==="verify_checkpoint") return UI.verifyCheckpoint;
+    if(value==="commercial_service") return UI.market;
+    return value||UI.unknown;
+  }
   function hasAudit(i){return !!(i&&i.auditability&&((i.auditability.controls||[]).length||["documented","partial","service_deliverable"].includes(i.auditability.status)));}
   function hasInterface(i){
     if(!i) return false;
@@ -85,7 +95,7 @@
     const m=i.mcp&&i.mcp.status;
     return /api|mcp|a2a/.test(joined)||!["not_public","not_applicable",undefined].includes(m);
   }
-  function hasResidency(i){return !!(i&&i.data_residency&&["documented","documented_partial"].includes(i.data_residency.status));}
+  function hasResidency(i){return !!(i&&i.data_residency&&["documented","documented_partial","deployment_controlled"].includes(i.data_residency.status));}
   function isMarket(i){return !!(i&&i.availability&&!["early_access","acquisition_pending","targeted_beta","not_public"].includes(i.availability.status));}
   function capabilityOk(s){
     const i=s.institutional||{};
@@ -178,6 +188,7 @@
         +tableCell(esc(layerLabels[s.layer]||s.layer))
         +tableCell(esc(s.origin_country||UI.unknown),s.origin_country==="China"?"is-documented":"")
         +tableCell(esc((s.openness||UI.unknown)+(s.license?" · "+s.license:"")),s.self_hosting?"is-documented":"")
+        +tableCell(esc((s.self_hosting?(lang==="fr"?"Oui":lang==="it"?"Sì":"Yes"):(lang==="fr"?"Non":lang==="it"?"No":"No"))+" · "+commercialUseLabel(s.commercial_use)),s.self_hosting&&s.commercial_use==="permitted"?"is-documented":"")
         +tableCell(esc(statusLabel(res.status)),hasResidency(i)?"is-documented":"")
         +tableCell(esc(statusLabel(ident.status)),ident.status==="documented"?"is-documented":"")
         +tableCell(esc(hasAudit(i)?UI.documented:UI.notPublic),hasAudit(i)?"is-documented":"")
@@ -187,7 +198,7 @@
         +tableCell(esc(coverageLabel(i.documentation_coverage)))
         +'</tr>';
     }).join("");
-    comparison.innerHTML='<div class="solution-comparison-title"><strong>'+UI.compare+'</strong><span>'+filtered.length+' '+UI.registry+'</span></div><div class="solution-table-scroll"><table><thead><tr><th>Solution</th><th>'+UI.profile+'</th><th>'+UI.origin+'</th><th>'+UI.license+'</th><th>'+UI.residency+'</th><th>'+UI.identity+'</th><th>'+UI.audit+'</th><th>API / MCP</th><th>'+UI.pricing+'</th><th>'+UI.availability+'</th><th>'+UI.coverage+'</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
+    comparison.innerHTML='<div class="solution-comparison-title"><strong>'+UI.compare+'</strong><span>'+filtered.length+' '+UI.registry+'</span></div><div class="solution-table-scroll"><table><thead><tr><th>Solution</th><th>'+UI.profile+'</th><th>'+UI.origin+'</th><th>'+UI.license+'</th><th>'+UI.selfHost+' / '+UI.commercialUse+'</th><th>'+UI.residency+'</th><th>'+UI.identity+'</th><th>'+UI.audit+'</th><th>API / MCP</th><th>'+UI.pricing+'</th><th>'+UI.availability+'</th><th>'+UI.coverage+'</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
   }
   function renderEvidence(){
     evidenceCount.textContent=data.evidence.length+" "+UI.proofs;
