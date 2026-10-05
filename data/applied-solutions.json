@@ -2825,6 +2825,232 @@
           "https://github.com/MiniMax-AI/MiniMax-M2.7/blob/main/LICENSE"
         ]
       }
+    },
+    {
+      "id": "tencent-hy3-open",
+      "vendor": "Tencent Hy",
+      "product": "Hy3",
+      "layer": "open-model",
+      "sectors": [
+        "legal",
+        "finance",
+        "banking",
+        "it",
+        "cross"
+      ],
+      "use_cases": [
+        "Self-hosted reasoning agents",
+        "Agentic enterprise workflows",
+        "Private coding and tool-use systems",
+        "Fine-tuning and reinforcement post-training",
+        "Quantized private inference"
+      ],
+      "autonomy": "build-dependent",
+      "human_control": "The deployer controls data, serving, permissions, evaluation and the agent/action layer.",
+      "fit": "Institutions that want a current Tencent reasoning/agent model under a permissive Apache-2.0 release rather than older Hunyuan community-licensed checkpoints.",
+      "caution": "Tencent's older Hunyuan releases used materially different community licences, including territorial restrictions. Hy3 must therefore be evaluated by its own checkpoint and licence, not by assuming the entire Hunyuan family shares one legal regime.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://github.com/Tencent-Hunyuan/Hy3"
+      ],
+      "voce_evidence": [
+        "lw-agent-evaluation",
+        "lw-mcp-scale",
+        "lw-agent-permissions"
+      ],
+      "origin_country": "China",
+      "openness": "code_and_weights",
+      "license": "Apache-2.0",
+      "self_hosting": true,
+      "commercial_use": "permitted",
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Agents de raisonnement auto-hébergés",
+            "Workflows d'entreprise agentiques",
+            "Systèmes privés de code et d'usage d'outils",
+            "Fine-tuning et post-entraînement par renforcement",
+            "Inférence privée quantifiée"
+          ],
+          "fit": "Institutions recherchant un modèle Tencent récent de raisonnement et d'agents sous Apache 2.0, plutôt que d'anciens checkpoints Hunyuan soumis à une licence communautaire différente.",
+          "caution": "Les anciennes publications Hunyuan de Tencent utilisaient des licences sensiblement différentes, avec notamment des restrictions territoriales. Hy3 doit donc être évalué sur son checkpoint et sa licence propres."
+        },
+        "it": {
+          "use_cases": [
+            "Agenti di reasoning self-hosted",
+            "Workflow enterprise agentici",
+            "Sistemi privati di coding e tool use",
+            "Fine-tuning e reinforcement post-training",
+            "Inferenza privata quantizzata"
+          ],
+          "fit": "Istituzioni che cercano un modello Tencent recente per reasoning e agenti sotto Apache 2.0, invece di vecchi checkpoint Hunyuan soggetti a licenze community differenti.",
+          "caution": "Le release Hunyuan precedenti di Tencent usavano licenze materialmente diverse, incluse restrizioni territoriali. Hy3 va quindi valutato sul proprio checkpoint e sulla propria licenza."
+        }
+      },
+      "institutional": {
+        "availability": {
+          "status": "open_release",
+          "detail": "Hy3 is publicly released with code and model resources and is described by Tencent as a reasoning and agent model."
+        },
+        "deployment": [
+          "Self-hosted",
+          "Private cloud",
+          "vLLM",
+          "Fine-tuning / RL post-training stack"
+        ],
+        "regions": [
+          "Deployment-defined"
+        ],
+        "data_residency": {
+          "status": "deployment_controlled",
+          "detail": "Self-hosted deployment lets the operator select the hosting and storage boundary."
+        },
+        "identity_access": {
+          "status": "deployment_controlled",
+          "controls": [
+            "Defined by serving and agent stack"
+          ]
+        },
+        "auditability": {
+          "status": "deployment_controlled",
+          "controls": [
+            "Defined by serving and agent stack"
+          ]
+        },
+        "interfaces": [
+          "vLLM",
+          "Fine-tuning pipeline",
+          "RL post-training",
+          "Quantization toolchain"
+        ],
+        "mcp": {
+          "status": "ecosystem"
+        },
+        "pricing": {
+          "status": "open_weights",
+          "public": true,
+          "detail": "Apache-2.0 model release; compute, hosting and operations remain the deployer's cost."
+        },
+        "security_certifications": [],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://github.com/Tencent-Hunyuan/Hy3",
+          "https://github.com/Tencent-Hunyuan/Hy3/blob/main/LICENSE"
+        ]
+      }
+    },
+    {
+      "id": "stepfun-step3-open",
+      "vendor": "StepFun",
+      "product": "Step3",
+      "layer": "open-model",
+      "sectors": [
+        "culture",
+        "marketing",
+        "it",
+        "cross"
+      ],
+      "use_cases": [
+        "Self-hosted multimodal intelligence",
+        "Private visual-document workflows",
+        "Multimodal agents",
+        "vLLM/SGLang serving",
+        "Research and enterprise model adaptation"
+      ],
+      "autonomy": "build-dependent",
+      "human_control": "The operator defines data access, serving controls, domain validation and any downstream action layer.",
+      "fit": "Teams wanting an Apache-2.0 multimodal Chinese model with both code and weights released and straightforward vLLM/SGLang deployment paths.",
+      "caution": "Step3 is a model component rather than a packaged institutional application. Governance, security, data grounding and business controls must be supplied by the deployment architecture.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://github.com/stepfun-ai/Step3",
+        "https://stepfun.ai/research/step3"
+      ],
+      "voce_evidence": [
+        "lw-doc-intelligence",
+        "lw-agent-evaluation"
+      ],
+      "origin_country": "China",
+      "openness": "code_and_weights",
+      "license": "Apache-2.0",
+      "self_hosting": true,
+      "commercial_use": "permitted",
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Intelligence multimodale auto-hébergée",
+            "Workflows privés sur documents visuels",
+            "Agents multimodaux",
+            "Serving vLLM/SGLang",
+            "Adaptation de modèles pour recherche et entreprise"
+          ],
+          "fit": "Équipes recherchant un modèle multimodal chinois Apache 2.0 avec code et poids publiés et des voies de déploiement vLLM/SGLang directes.",
+          "caution": "Step3 est une brique modèle et non une application institutionnelle packagée. Gouvernance, sécurité, ancrage des données et contrôles métier doivent être fournis par l'architecture de déploiement."
+        },
+        "it": {
+          "use_cases": [
+            "Intelligenza multimodale self-hosted",
+            "Workflow privati su documenti visuali",
+            "Agenti multimodali",
+            "Serving vLLM/SGLang",
+            "Adattamento modelli per ricerca e impresa"
+          ],
+          "fit": "Team che cercano un modello multimodale cinese Apache 2.0 con codice e pesi pubblicati e deployment diretto via vLLM/SGLang.",
+          "caution": "Step3 è un componente modello, non un'applicazione istituzionale pronta all'uso. Governance, sicurezza, grounding dei dati e controlli business devono essere forniti dall'architettura di deployment."
+        }
+      },
+      "institutional": {
+        "availability": {
+          "status": "open_release",
+          "detail": "Step3 code and model weights are publicly released under Apache 2.0."
+        },
+        "deployment": [
+          "Self-hosted",
+          "Private cloud",
+          "vLLM",
+          "SGLang",
+          "Hugging Face checkpoints"
+        ],
+        "regions": [
+          "Deployment-defined"
+        ],
+        "data_residency": {
+          "status": "deployment_controlled",
+          "detail": "Self-hosted deployment lets the operator define data location and serving boundary."
+        },
+        "identity_access": {
+          "status": "deployment_controlled",
+          "controls": [
+            "Defined by serving stack"
+          ]
+        },
+        "auditability": {
+          "status": "deployment_controlled",
+          "controls": [
+            "Defined by serving/agent stack"
+          ]
+        },
+        "interfaces": [
+          "vLLM",
+          "SGLang",
+          "Hugging Face ecosystem"
+        ],
+        "mcp": {
+          "status": "ecosystem"
+        },
+        "pricing": {
+          "status": "open_weights",
+          "public": true,
+          "detail": "Apache-2.0 code and weights; infrastructure costs remain with the operator."
+        },
+        "security_certifications": [],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://github.com/stepfun-ai/Step3",
+          "https://github.com/stepfun-ai/Step3/blob/main/LICENSE",
+          "https://stepfun.ai/research/step3"
+        ]
+      }
     }
   ],
   "evidence": [
