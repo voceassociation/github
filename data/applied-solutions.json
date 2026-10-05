@@ -1,5 +1,5 @@
 {
-  "schema": 2,
+  "schema": 3,
   "generated_at": "2026-10-05",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
@@ -12,7 +12,9 @@
     "freshness": "Vendor capabilities change quickly. Each solution record carries a verification date.",
     "due_diligence": "Institutional fields distinguish publicly documented capabilities from fields not located in official public material. Missing public documentation is not treated as a product defect.",
     "documentation_coverage": "Coverage describes how much official public evidence VOCE could verify for deployment, data boundary, identity, auditability, interfaces, pricing and availability. It is not a quality score.",
-    "verification_date": "Institutional comparison verified against official vendor documentation on 2026-10-05."
+    "verification_date": "Institutional comparison verified against official vendor documentation on 2026-10-05.",
+    "openness": "VOCE distinguishes hosted proprietary services, open-weight models, code-and-weight releases, and source-available models with commercial restrictions. 'Open' never means that training data, full training pipeline or commercial rights are automatically unrestricted.",
+    "china_scope": "China-origin systems are tagged separately so institutional buyers can compare hosted Chinese cloud services with self-hostable model releases."
   },
   "sectors": [
     {
@@ -1101,6 +1103,148 @@
           "https://www.alibabacloud.com/help/en/model-studio/model-telemetry",
           "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
         ]
+      },
+      "origin_country": "China",
+      "openness": "hosted_platform",
+      "license": "Proprietary service",
+      "self_hosting": false,
+      "commercial_use": "commercial_service"
+    },
+    {
+      "id": "alibaba-quick-bi-aipro",
+      "vendor": "Alibaba Cloud",
+      "product": "Quick BI AIPro",
+      "layer": "vertical",
+      "sectors": [
+        "finance",
+        "marketing",
+        "banking",
+        "cross"
+      ],
+      "use_cases": [
+        "Conversational business intelligence without SQL",
+        "Automated attribution and root-cause analysis",
+        "Dashboard and HTML report generation",
+        "Recurring management reporting",
+        "PPT generation from business data"
+      ],
+      "autonomy": "analytical assistant / scheduled output",
+      "human_control": "Business users define the question, accessible data assets and reporting scope. Administrators control access, roles and AI features.",
+      "fit": "Finance, operations, commercial and management teams that want natural-language analysis on governed enterprise data rather than a general-purpose chatbot.",
+      "caution": "AIPro is a BI product, not a foundation model. As of the official August 2026 documentation it is in targeted beta for selected customers, even though the international billing matrix already lists an AIPro edition.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://www.alibabacloud.com/help/en/quick-bi/user-guide/quick-bi-aipro-overview",
+        "https://www.alibabacloud.com/help/en/quick-bi/getting-started/quick-bi-aipro-getting-started-guide",
+        "https://www.alibabacloud.com/help/en/quick-bi/product-overview/billing-methods-of-quick-bi",
+        "https://www.alibabacloud.com/help/en/quick-bi/security-and-compliance/audit-log",
+        "https://www.alibabacloud.com/help/en/quick-bi/security-and-compliance/data-security"
+      ],
+      "voce_evidence": [
+        "lw-oracle-hr-finance",
+        "lw-workforce-apprenticeship",
+        "lw-agent-evaluation"
+      ],
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Business intelligence conversationnelle sans SQL",
+            "Analyse automatique d'attribution et de causes",
+            "Génération de dashboards et rapports HTML",
+            "Reporting de gestion récurrent",
+            "Génération de PPT à partir des données métier"
+          ],
+          "fit": "Équipes finance, opérations, commerce et direction voulant interroger des données gouvernées en langage naturel plutôt qu'utiliser un chatbot généraliste.",
+          "caution": "AIPro est un produit BI, pas un modèle fondation. La documentation officielle d'août 2026 le décrit encore en bêta ciblée pour certains clients, même si l'édition AIPro figure déjà dans la grille internationale de facturation."
+        },
+        "it": {
+          "use_cases": [
+            "Business intelligence conversazionale senza SQL",
+            "Analisi automatica di attribuzione e cause",
+            "Generazione di dashboard e report HTML",
+            "Reporting gestionale ricorrente",
+            "Generazione di PPT dai dati aziendali"
+          ],
+          "fit": "Team finance, operations, commerciale e management che vogliono interrogare dati governati in linguaggio naturale invece di usare un chatbot generalista.",
+          "caution": "AIPro è un prodotto BI, non un foundation model. La documentazione ufficiale di agosto 2026 lo descrive ancora in beta mirata per clienti selezionati, anche se l'edizione AIPro compare già nella matrice internazionale di billing."
+        }
+      },
+      "origin_country": "China",
+      "openness": "hosted_service",
+      "license": "Proprietary SaaS",
+      "self_hosting": false,
+      "commercial_use": "commercial_service",
+      "institutional": {
+        "availability": {
+          "status": "targeted_beta",
+          "detail": "Official August 2026 getting-started documentation describes Quick BI AIPro as targeted beta for selected customers; the international billing matrix already includes an AIPro Edition."
+        },
+        "deployment": [
+          "Alibaba Cloud SaaS",
+          "Quick BI environments",
+          "Quick BI also documents private deployment for the broader platform"
+        ],
+        "regions": [
+          "China (Hong Kong)",
+          "Malaysia",
+          "Singapore",
+          "Japan (Tokyo)",
+          "Indonesia (Jakarta)",
+          "China (Hangzhou)",
+          "US (Virginia)",
+          "Germany (Frankfurt)",
+          "Saudi Arabia (Riyadh)"
+        ],
+        "data_residency": {
+          "status": "documented_partial",
+          "detail": "Quick BI states that connected customer data is queried live and not written to disk; platform metadata is stored in Alibaba Cloud RDS. Exact AIPro model-processing location must still be validated for the selected region."
+        },
+        "identity_access": {
+          "status": "documented",
+          "controls": [
+            "Alibaba Cloud RAM",
+            "Organization roles",
+            "Workspace roles",
+            "Custom roles"
+          ]
+        },
+        "auditability": {
+          "status": "documented",
+          "controls": [
+            "Login logs",
+            "Access logs",
+            "Operation logs",
+            "Permission logs",
+            "ActionTrail delivery"
+          ]
+        },
+        "interfaces": [
+          "Enterprise data sources",
+          "Quick BI APIs",
+          "VPC endpoints",
+          "Smart Q / Qwen integration",
+          "Scheduled subscriptions"
+        ],
+        "mcp": {
+          "status": "not_public"
+        },
+        "pricing": {
+          "status": "subscription",
+          "public": true,
+          "detail": "Quick BI is subscription-based by user count and duration; the international billing matrix lists AIPro Edition. Targeted-beta access can still require consultation."
+        },
+        "security_certifications": [
+          "Alibaba Cloud security/compliance portfolio"
+        ],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://www.alibabacloud.com/help/en/quick-bi/user-guide/quick-bi-aipro-overview",
+          "https://www.alibabacloud.com/help/en/quick-bi/getting-started/quick-bi-aipro-getting-started-guide",
+          "https://www.alibabacloud.com/help/en/quick-bi/product-overview/billing-methods-of-quick-bi",
+          "https://www.alibabacloud.com/help/en/quick-bi/security-and-compliance/audit-log",
+          "https://www.alibabacloud.com/help/en/quick-bi/security-and-compliance/data-security",
+          "https://www.alibabacloud.com/help/en/quick-bi/developer-reference/api-quickbi-public-2022-01-01-endpoint"
+        ]
       }
     },
     {
@@ -1208,7 +1352,12 @@
           "https://z.ai/blog/glm-5.3",
           "https://zcode.z.ai/en/docs/configuration"
         ]
-      }
+      },
+      "origin_country": "China",
+      "openness": "hosted_api",
+      "license": "Hosted service terms; separate open-weight GLM releases exist",
+      "self_hosting": false,
+      "commercial_use": "commercial_service"
     },
     {
       "id": "seedance",
@@ -1319,7 +1468,12 @@
           "https://docs.byteplus.com/de/docs/modelark/model-service-pricing",
           "https://seed.bytedance.com/transparency"
         ]
-      }
+      },
+      "origin_country": "China",
+      "openness": "hosted_model",
+      "license": "Proprietary hosted model",
+      "self_hosting": false,
+      "commercial_use": "commercial_service"
     },
     {
       "id": "vivenu",
@@ -1733,7 +1887,12 @@
           "https://www.iconosquare.com/product-updates",
           "https://surferseo.com/updates/surfer-mcp-august2026/"
         ]
-      }
+      },
+      "origin_country": "France",
+      "openness": "hosted_tools",
+      "license": "Proprietary services",
+      "self_hosting": false,
+      "commercial_use": "commercial_service"
     },
     {
       "id": "unit42-continuous",
@@ -1926,6 +2085,679 @@
         "documentation_coverage": "medium",
         "source_urls": [
           "https://www.hcl-software.com/news/28-9-26-hclsoftware-to-acquire-robotiq-ai-strengthening-enterprise-agentic-automation"
+        ]
+      }
+    },
+    {
+      "id": "qwen36-open",
+      "vendor": "Alibaba / Qwen",
+      "product": "Qwen3.6 Open-Weight Models",
+      "layer": "open-model",
+      "sectors": [
+        "legal",
+        "hr",
+        "finance",
+        "culture",
+        "marketing",
+        "banking",
+        "it",
+        "cross"
+      ],
+      "use_cases": [
+        "Self-hosted reasoning and coding agents",
+        "Private RAG and document assistants",
+        "Tool-using workflows",
+        "Fine-tuned domain models",
+        "On-premise or private-cloud inference"
+      ],
+      "autonomy": "build-dependent",
+      "human_control": "The deploying organisation owns the surrounding RAG, permissions, evaluation, logging and action policy.",
+      "fit": "Teams that want Alibaba's current Qwen family without depending on Model Studio for inference.",
+      "caution": "Qwen3.6 is open-weight under Apache 2.0, but an open-weight model is not a ready-made legal, HR or accounting system. Training-data transparency and operational controls remain separate questions.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://github.com/AlibabaCloud-Official/Qwen3.6",
+        "https://huggingface.co/Qwen"
+      ],
+      "voce_evidence": [
+        "lw-mcp-scale",
+        "lw-agent-permissions",
+        "lw-agent-evaluation"
+      ],
+      "origin_country": "China",
+      "openness": "open_weight",
+      "license": "Apache-2.0",
+      "self_hosting": true,
+      "commercial_use": "permitted",
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Agents de raisonnement et de code auto-hébergés",
+            "RAG privé et assistants documentaires",
+            "Workflows avec outils",
+            "Modèles métier fine-tunés",
+            "Inférence on-premise ou cloud privé"
+          ],
+          "fit": "Équipes voulant utiliser la famille Qwen actuelle sans dépendre de Model Studio pour l'inférence.",
+          "caution": "Qwen3.6 est open-weight sous Apache 2.0, mais un modèle ouvert n'est pas un système juridique, RH ou comptable prêt à l'emploi. La transparence des données d'entraînement et les contrôles opérationnels restent des sujets distincts."
+        },
+        "it": {
+          "use_cases": [
+            "Agenti di reasoning e coding self-hosted",
+            "RAG privato e assistenti documentali",
+            "Workflow con tool",
+            "Modelli verticali fine-tuned",
+            "Inferenza on-premise o private cloud"
+          ],
+          "fit": "Team che vogliono usare l'attuale famiglia Qwen senza dipendere da Model Studio per l'inferenza.",
+          "caution": "Qwen3.6 è open-weight sotto Apache 2.0, ma un modello aperto non è un sistema legale, HR o contabile pronto all'uso. Trasparenza dei dati di training e controlli operativi restano temi separati."
+        }
+      },
+      "institutional": {
+        "availability": {
+          "status": "open_release",
+          "detail": "Qwen3.6 open-weight releases are published on Hugging Face and ModelScope; the official repository lists 35B-A3B and 27B releases in April 2026."
+        },
+        "deployment": [
+          "Self-hosted",
+          "Private cloud",
+          "Hugging Face / ModelScope downloads",
+          "vLLM",
+          "SGLang",
+          "Transformers"
+        ],
+        "regions": [
+          "Deployment-defined"
+        ],
+        "data_residency": {
+          "status": "deployment_controlled",
+          "detail": "With self-hosting, the operator controls the hosting region and storage boundary; this does not describe QwenCloud or Alibaba-hosted services."
+        },
+        "identity_access": {
+          "status": "deployment_controlled",
+          "controls": [
+            "Defined by serving stack and organisation IAM"
+          ]
+        },
+        "auditability": {
+          "status": "deployment_controlled",
+          "controls": [
+            "Defined by serving and agent stack"
+          ]
+        },
+        "interfaces": [
+          "Transformers",
+          "vLLM",
+          "SGLang",
+          "Agent frameworks",
+          "Tool use"
+        ],
+        "mcp": {
+          "status": "ecosystem",
+          "detail": "Qwen-Agent and surrounding frameworks support tool use and MCP."
+        },
+        "pricing": {
+          "status": "open_weights",
+          "public": true,
+          "detail": "Model weights are downloadable; infrastructure and operations remain the deployer's cost."
+        },
+        "security_certifications": [],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://github.com/AlibabaCloud-Official/Qwen3.6",
+          "https://github.com/QwenLM/Qwen3"
+        ]
+      }
+    },
+    {
+      "id": "deepseek-open",
+      "vendor": "DeepSeek",
+      "product": "DeepSeek Open Models",
+      "layer": "open-model",
+      "sectors": [
+        "legal",
+        "finance",
+        "banking",
+        "it",
+        "cross"
+      ],
+      "use_cases": [
+        "Private reasoning workloads",
+        "Self-hosted coding and analytical agents",
+        "Long-context experimentation",
+        "Distillation and domain adaptation"
+      ],
+      "autonomy": "build-dependent",
+      "human_control": "The organisation controls deployment, evaluation, permissions and any action layer around the model.",
+      "fit": "Engineering teams prioritising commercially usable downloadable weights and self-hosting.",
+      "caution": "DeepSeek-R1 is a mature open release under MIT; DeepSeek-V3.2-Exp is explicitly experimental. VOCE should not present an experimental architecture as a production default.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://github.com/deepseek-ai/DeepSeek-R1",
+        "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp"
+      ],
+      "voce_evidence": [
+        "lw-agent-evaluation",
+        "lw-agent-explanations",
+        "lw-mcp-scale"
+      ],
+      "origin_country": "China",
+      "openness": "code_and_weights",
+      "license": "MIT (R1; V3.2-Exp repository also marked MIT)",
+      "self_hosting": true,
+      "commercial_use": "permitted",
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Raisonnement privé",
+            "Agents de code et d'analyse auto-hébergés",
+            "Expérimentation long contexte",
+            "Distillation et adaptation métier"
+          ],
+          "fit": "Équipes techniques privilégiant des poids téléchargeables, utilisables commercialement et auto-hébergeables.",
+          "caution": "DeepSeek-R1 est une publication ouverte établie sous MIT; DeepSeek-V3.2-Exp est explicitement expérimental. VOCE ne doit pas présenter une architecture expérimentale comme choix de production par défaut."
+        },
+        "it": {
+          "use_cases": [
+            "Reasoning privato",
+            "Agenti di coding e analisi self-hosted",
+            "Sperimentazione long-context",
+            "Distillazione e adattamento verticale"
+          ],
+          "fit": "Team tecnici che privilegiano pesi scaricabili, uso commerciale e self-hosting.",
+          "caution": "DeepSeek-R1 è una release aperta consolidata sotto MIT; DeepSeek-V3.2-Exp è esplicitamente sperimentale. VOCE non deve presentare un'architettura sperimentale come default produttivo."
+        }
+      },
+      "institutional": {
+        "availability": {
+          "status": "open_release",
+          "detail": "DeepSeek-R1 weights and code are publicly released; V3.2-Exp is a separate experimental public release."
+        },
+        "deployment": [
+          "Self-hosted",
+          "Hugging Face",
+          "Local/private cloud inference"
+        ],
+        "regions": [
+          "Deployment-defined"
+        ],
+        "data_residency": {
+          "status": "deployment_controlled",
+          "detail": "Self-hosted deployment allows the operator to choose the data boundary; hosted DeepSeek services have separate terms."
+        },
+        "identity_access": {
+          "status": "deployment_controlled",
+          "controls": [
+            "Defined by serving stack"
+          ]
+        },
+        "auditability": {
+          "status": "deployment_controlled",
+          "controls": [
+            "Defined by serving and agent stack"
+          ]
+        },
+        "interfaces": [
+          "Local inference",
+          "Hugging Face ecosystem",
+          "Custom agent stacks"
+        ],
+        "mcp": {
+          "status": "ecosystem"
+        },
+        "pricing": {
+          "status": "open_weights",
+          "public": true,
+          "detail": "Weights/code are downloadable; compute and operations remain the operator's cost."
+        },
+        "security_certifications": [],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://github.com/deepseek-ai/DeepSeek-R1",
+          "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp"
+        ]
+      }
+    },
+    {
+      "id": "kimi-k3-open",
+      "vendor": "Moonshot AI",
+      "product": "Kimi K3",
+      "layer": "open-model",
+      "sectors": [
+        "legal",
+        "finance",
+        "culture",
+        "marketing",
+        "it",
+        "cross"
+      ],
+      "use_cases": [
+        "Native multimodal agentic systems",
+        "Long-horizon coding",
+        "Long-context knowledge work",
+        "Private multimodal assistants",
+        "Self-hosted agent research"
+      ],
+      "autonomy": "build-dependent",
+      "human_control": "Application permissions, audit and business-domain validation remain the deployer's responsibility.",
+      "fit": "Teams wanting a very large multimodal agentic model with downloadable weights and a 1-million-token context window.",
+      "caution": "Kimi K3 uses a custom Kimi K3 License, not Apache/MIT. Commercial Model-as-a-Service use has specific conditions, including a separate-agreement trigger for qualifying MaaS operators.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://github.com/MoonshotAI/Kimi-K3"
+      ],
+      "voce_evidence": [
+        "lw-agent-evaluation",
+        "lw-agent-explanations"
+      ],
+      "origin_country": "China",
+      "openness": "open_weight_custom_license",
+      "license": "Kimi K3 License",
+      "self_hosting": true,
+      "commercial_use": "conditional",
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Systèmes agentiques multimodaux natifs",
+            "Code long horizon",
+            "Travail de connaissance très long contexte",
+            "Assistants multimodaux privés",
+            "Recherche agentique auto-hébergée"
+          ],
+          "fit": "Équipes recherchant un très grand modèle multimodal agentique avec poids téléchargeables et contexte d'un million de tokens.",
+          "caution": "Kimi K3 utilise une licence Kimi K3 spécifique, pas Apache/MIT. L'usage commercial Model-as-a-Service comporte des conditions particulières et peut exiger un accord séparé."
+        },
+        "it": {
+          "use_cases": [
+            "Sistemi agentici multimodali nativi",
+            "Coding long-horizon",
+            "Knowledge work con contesto molto lungo",
+            "Assistenti multimodali privati",
+            "Ricerca agentica self-hosted"
+          ],
+          "fit": "Team che cercano un modello multimodale agentico molto grande con pesi scaricabili e contesto da un milione di token.",
+          "caution": "Kimi K3 usa una licenza Kimi K3 specifica, non Apache/MIT. L'uso commerciale Model-as-a-Service ha condizioni particolari e può richiedere un accordo separato."
+        }
+      },
+      "institutional": {
+        "availability": {
+          "status": "open_release",
+          "detail": "Code and model weights are publicly released under the Kimi K3 License."
+        },
+        "deployment": [
+          "Self-hosted",
+          "Hugging Face / ModelScope",
+          "Private infrastructure"
+        ],
+        "regions": [
+          "Deployment-defined"
+        ],
+        "data_residency": {
+          "status": "deployment_controlled",
+          "detail": "Self-hosting lets the operator choose the hosting boundary."
+        },
+        "identity_access": {
+          "status": "deployment_controlled",
+          "controls": [
+            "Defined by serving and agent stack"
+          ]
+        },
+        "auditability": {
+          "status": "deployment_controlled",
+          "controls": [
+            "Defined by serving and agent stack"
+          ]
+        },
+        "interfaces": [
+          "Open-weight inference ecosystem",
+          "Multimodal agent stacks"
+        ],
+        "mcp": {
+          "status": "ecosystem"
+        },
+        "pricing": {
+          "status": "open_weights",
+          "public": true,
+          "detail": "Weights are downloadable; license conditions must be reviewed for commercial MaaS deployment."
+        },
+        "security_certifications": [],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://github.com/MoonshotAI/Kimi-K3",
+          "https://github.com/MoonshotAI/Kimi-K3/blob/main/LICENSE"
+        ]
+      }
+    },
+    {
+      "id": "glm47-open",
+      "vendor": "Z.ai / Zhipu AI",
+      "product": "GLM-4.7 Open Models",
+      "layer": "open-model",
+      "sectors": [
+        "legal",
+        "finance",
+        "it",
+        "cross"
+      ],
+      "use_cases": [
+        "Agentic coding",
+        "Tool-using private agents",
+        "Reasoning workloads",
+        "Fine-tuned enterprise models",
+        "Self-hosted inference including GPU/NPU environments"
+      ],
+      "autonomy": "build-dependent",
+      "human_control": "The application owner remains responsible for data grounding, permissions, testing and actions.",
+      "fit": "Teams wanting to separate Z.ai's hosted API from downloadable GLM model deployment.",
+      "caution": "The current repository contains several GLM generations and license history differs across releases. VOCE should bind the license statement to the exact checkpoint selected for deployment.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://github.com/zai-org/GLM-4.5"
+      ],
+      "voce_evidence": [
+        "lw-agent-evaluation",
+        "lw-mcp-scale"
+      ],
+      "origin_country": "China",
+      "openness": "open_weight",
+      "license": "Apache-2.0 repository license; verify checkpoint-specific model card",
+      "self_hosting": true,
+      "commercial_use": "verify_checkpoint",
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Code agentique",
+            "Agents privés utilisant des outils",
+            "Raisonnement",
+            "Modèles entreprise fine-tunés",
+            "Inférence auto-hébergée GPU/NPU"
+          ],
+          "fit": "Équipes voulant distinguer l'API hébergée Z.ai du déploiement de modèles GLM téléchargeables.",
+          "caution": "Le dépôt courant contient plusieurs générations GLM et l'historique des licences varie selon les versions. VOCE doit rattacher la licence au checkpoint exact retenu."
+        },
+        "it": {
+          "use_cases": [
+            "Coding agentico",
+            "Agenti privati con tool",
+            "Reasoning",
+            "Modelli enterprise fine-tuned",
+            "Inferenza self-hosted GPU/NPU"
+          ],
+          "fit": "Team che vogliono separare l'API hosted Z.ai dal deployment dei modelli GLM scaricabili.",
+          "caution": "Il repository corrente contiene più generazioni GLM e la storia delle licenze varia per release. VOCE deve associare la licenza al checkpoint esatto scelto."
+        }
+      },
+      "institutional": {
+        "availability": {
+          "status": "open_release",
+          "detail": "GLM-4.7, GLM-4.6 and related checkpoints are publicly downloadable from linked model hubs."
+        },
+        "deployment": [
+          "Self-hosted",
+          "Hugging Face",
+          "ModelScope",
+          "vLLM",
+          "SGLang",
+          "GPU / Ascend NPU"
+        ],
+        "regions": [
+          "Deployment-defined"
+        ],
+        "data_residency": {
+          "status": "deployment_controlled",
+          "detail": "Self-hosted deployment allows operator-selected boundaries."
+        },
+        "identity_access": {
+          "status": "deployment_controlled",
+          "controls": [
+            "Defined by serving stack"
+          ]
+        },
+        "auditability": {
+          "status": "deployment_controlled",
+          "controls": [
+            "Defined by serving stack"
+          ]
+        },
+        "interfaces": [
+          "Transformers",
+          "vLLM",
+          "SGLang",
+          "Agent frameworks",
+          "Tool use"
+        ],
+        "mcp": {
+          "status": "ecosystem"
+        },
+        "pricing": {
+          "status": "open_weights",
+          "public": true,
+          "detail": "Downloadable weights; infrastructure cost remains with the operator."
+        },
+        "security_certifications": [],
+        "documentation_coverage": "medium",
+        "source_urls": [
+          "https://github.com/zai-org/GLM-4.5",
+          "https://github.com/zai-org/GLM-4.5/blob/main/LICENSE"
+        ]
+      }
+    },
+    {
+      "id": "ernie45-open",
+      "vendor": "Baidu / PaddlePaddle",
+      "product": "ERNIE 4.5 Open Models",
+      "layer": "open-model",
+      "sectors": [
+        "legal",
+        "finance",
+        "culture",
+        "marketing",
+        "it",
+        "cross"
+      ],
+      "use_cases": [
+        "Text and multimodal private assistants",
+        "Contract information extraction",
+        "Document translation",
+        "Fine-tuning and LoRA",
+        "Self-hosted multimodal inference"
+      ],
+      "autonomy": "build-dependent",
+      "human_control": "The deployment owner controls the model, data, tool permissions and domain validation.",
+      "fit": "Organisations wanting an Apache-2.0 Chinese model family with industrial training/deployment tooling through PaddlePaddle, ERNIEKit and FastDeploy.",
+      "caution": "The ERNIE 4.5 family contains multiple text and vision-language sizes; compute requirements and production suitability differ materially by checkpoint.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://github.com/PaddlePaddle/ERNIE"
+      ],
+      "voce_evidence": [
+        "lw-doc-intelligence",
+        "lw-agent-evaluation"
+      ],
+      "origin_country": "China",
+      "openness": "open_weight_and_toolkit",
+      "license": "Apache-2.0",
+      "self_hosting": true,
+      "commercial_use": "permitted",
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Assistants privés texte et multimodaux",
+            "Extraction d'informations contractuelles",
+            "Traduction documentaire",
+            "Fine-tuning et LoRA",
+            "Inférence multimodale auto-hébergée"
+          ],
+          "fit": "Organisations voulant une famille chinoise Apache 2.0 avec outillage industriel PaddlePaddle, ERNIEKit et FastDeploy.",
+          "caution": "ERNIE 4.5 regroupe plusieurs tailles texte et vision-langage; besoins de calcul et aptitude production varient fortement selon le checkpoint."
+        },
+        "it": {
+          "use_cases": [
+            "Assistenti privati testuali e multimodali",
+            "Estrazione informazioni contrattuali",
+            "Traduzione documentale",
+            "Fine-tuning e LoRA",
+            "Inferenza multimodale self-hosted"
+          ],
+          "fit": "Organizzazioni che vogliono una famiglia cinese Apache 2.0 con tooling industriale PaddlePaddle, ERNIEKit e FastDeploy.",
+          "caution": "ERNIE 4.5 comprende più dimensioni text e vision-language; requisiti compute e idoneità production cambiano molto per checkpoint."
+        }
+      },
+      "institutional": {
+        "availability": {
+          "status": "open_release",
+          "detail": "ERNIE 4.5 model weights and development toolkit are publicly released."
+        },
+        "deployment": [
+          "Self-hosted",
+          "Hugging Face",
+          "AI Studio",
+          "PaddlePaddle",
+          "FastDeploy"
+        ],
+        "regions": [
+          "Deployment-defined"
+        ],
+        "data_residency": {
+          "status": "deployment_controlled",
+          "detail": "Self-hosted deployment lets the operator define the data boundary."
+        },
+        "identity_access": {
+          "status": "deployment_controlled",
+          "controls": [
+            "Defined by serving stack"
+          ]
+        },
+        "auditability": {
+          "status": "deployment_controlled",
+          "controls": [
+            "Defined by serving stack"
+          ]
+        },
+        "interfaces": [
+          "PaddlePaddle",
+          "ERNIEKit",
+          "FastDeploy",
+          "Hugging Face"
+        ],
+        "mcp": {
+          "status": "ecosystem"
+        },
+        "pricing": {
+          "status": "open_weights",
+          "public": true,
+          "detail": "Apache-2.0 downloadable models; deployment compute remains the operator's cost."
+        },
+        "security_certifications": [],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://github.com/PaddlePaddle/ERNIE",
+          "https://github.com/PaddlePaddle/ERNIE/blob/release/v1.5/LICENSE"
+        ]
+      }
+    },
+    {
+      "id": "minimax-m27",
+      "vendor": "MiniMax",
+      "product": "MiniMax M2.7",
+      "layer": "open-model",
+      "sectors": [
+        "it",
+        "cross"
+      ],
+      "use_cases": [
+        "Agent harness development",
+        "Coding agents",
+        "Tool-search workflows",
+        "Self-hosted research and personal development"
+      ],
+      "autonomy": "build-dependent",
+      "human_control": "The operator controls the serving and agent layer.",
+      "fit": "Research and non-commercial experimentation where MiniMax's agent-oriented model capabilities are relevant.",
+      "caution": "Do not label M2.7 'open source' for enterprise procurement. Its 2026 license permits non-commercial use by default and requires prior written authorization for commercial use.",
+      "verified_at": "2026-10-05",
+      "official_sources": [
+        "https://github.com/MiniMax-AI/MiniMax-M2.7",
+        "https://github.com/MiniMax-AI/MiniMax-M2.7/blob/main/LICENSE"
+      ],
+      "voce_evidence": [
+        "lw-agent-evaluation",
+        "lw-mcp-scale"
+      ],
+      "origin_country": "China",
+      "openness": "source_available_restricted",
+      "license": "MiniMax M2.7 Non-Commercial License",
+      "self_hosting": true,
+      "commercial_use": "authorization_required",
+      "i18n": {
+        "fr": {
+          "use_cases": [
+            "Développement de harness agentiques",
+            "Agents de code",
+            "Workflows de recherche d'outils",
+            "Recherche et développement personnel auto-hébergés"
+          ],
+          "fit": "Recherche et expérimentation non commerciale lorsque les capacités agentiques de MiniMax sont pertinentes.",
+          "caution": "Ne pas qualifier M2.7 d'open source dans un achat entreprise. Sa licence 2026 autorise par défaut les usages non commerciaux et exige une autorisation écrite préalable pour l'usage commercial."
+        },
+        "it": {
+          "use_cases": [
+            "Sviluppo di agent harness",
+            "Agenti di coding",
+            "Workflow di tool search",
+            "Ricerca e sviluppo personale self-hosted"
+          ],
+          "fit": "Ricerca e sperimentazione non commerciale quando le capacità agentiche MiniMax sono pertinenti.",
+          "caution": "Non definire M2.7 open source in procurement enterprise. La licenza 2026 consente di default l'uso non commerciale e richiede autorizzazione scritta preventiva per l'uso commerciale."
+        }
+      },
+      "institutional": {
+        "availability": {
+          "status": "source_available",
+          "detail": "Repository and weights are publicly accessible, subject to the MiniMax M2.7 Non-Commercial License."
+        },
+        "deployment": [
+          "Self-hosted",
+          "Hugging Face / ModelScope",
+          "MiniMax API separately available"
+        ],
+        "regions": [
+          "Deployment-defined"
+        ],
+        "data_residency": {
+          "status": "deployment_controlled",
+          "detail": "Self-hosted non-commercial deployment lets the operator choose the hosting boundary; hosted API terms are separate."
+        },
+        "identity_access": {
+          "status": "deployment_controlled",
+          "controls": [
+            "Defined by serving stack"
+          ]
+        },
+        "auditability": {
+          "status": "deployment_controlled",
+          "controls": [
+            "Defined by serving stack"
+          ]
+        },
+        "interfaces": [
+          "Local inference ecosystem",
+          "MiniMax MCP ecosystem",
+          "Agent frameworks"
+        ],
+        "mcp": {
+          "status": "ecosystem"
+        },
+        "pricing": {
+          "status": "license_restricted",
+          "public": false,
+          "detail": "Commercial use requires prior written authorization under the repository's 2026 license."
+        },
+        "security_certifications": [],
+        "documentation_coverage": "high",
+        "source_urls": [
+          "https://github.com/MiniMax-AI/MiniMax-M2.7",
+          "https://github.com/MiniMax-AI/MiniMax-M2.7/blob/main/LICENSE"
         ]
       }
     }
@@ -2384,6 +3216,11 @@
     "auditability",
     "interfaces",
     "pricing",
-    "security_certifications"
+    "security_certifications",
+    "origin",
+    "openness",
+    "license",
+    "self_hosting",
+    "commercial_use"
   ]
 }
