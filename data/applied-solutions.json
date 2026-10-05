@@ -191,7 +191,12 @@
           "https://www.harvey.ai/legal/subprocessors",
           "https://www.harvey.ai/legal/security-addendum"
         ]
-      }
+      },
+      "origin_country": "United States",
+      "openness": "proprietary_service",
+      "license": "Commercial / service terms",
+      "self_hosting": false,
+      "commercial_use": "commercial_service"
     },
     {
       "id": "cocounsel",
@@ -299,7 +304,12 @@
           "https://legal.thomsonreuters.com/blog/beyond-chatbots-how-cocounsel-legal-delivers-ai-legal-research-you-can-trust/",
           "https://legal.thomsonreuters.com/en/products/cocounsel-legal/corp"
         ]
-      }
+      },
+      "origin_country": "Canada",
+      "openness": "proprietary_service",
+      "license": "Commercial / service terms",
+      "self_hosting": false,
+      "commercial_use": "commercial_service"
     },
     {
       "id": "astra-for-law",
@@ -400,7 +410,12 @@
           "https://help.openai.com/en/articles/20001528-astra-for-law",
           "https://openai.com/solutions/industries/law/"
         ]
-      }
+      },
+      "origin_country": "United States",
+      "openness": "proprietary_service",
+      "license": "Commercial / service terms",
+      "self_hosting": false,
+      "commercial_use": "commercial_service"
     },
     {
       "id": "oracle-fusion-claw",
@@ -504,7 +519,12 @@
           "https://www.oracle.com/europe/news/announcement/oracle-extends-fusion-agentic-applications-with-introduction-of-fusion-claw-2026-09-29/",
           "https://docs.oracle.com/en/cloud/saas/fusion-ai/fusion-claw.html"
         ]
-      }
+      },
+      "origin_country": "United States",
+      "openness": "proprietary_service",
+      "license": "Commercial / service terms",
+      "self_hosting": false,
+      "commercial_use": "commercial_service"
     },
     {
       "id": "servicenow-ai-agents",
@@ -623,7 +643,12 @@
           "https://www.servicenow.com/standard/resource-center/white-paper/ai-security-and-governance.html",
           "https://www.servicenow.com/products/business-suite/pricing.html"
         ]
-      }
+      },
+      "origin_country": "United States",
+      "openness": "proprietary_service",
+      "license": "Commercial / service terms",
+      "self_hosting": false,
+      "commercial_use": "commercial_service"
     },
     {
       "id": "workday-sana",
@@ -745,7 +770,12 @@
           "https://newsroom.workday.com/2025-11-19-Workday-Launches-Workday-EU-Sovereign-Cloud-to-Unlock-Enterprise-AI-With-Full-EU-Data-Residency-and-Control",
           "https://newsroom.workday.com/2026-03-17-Introducing-Sana-from-Workday-Superintelligence-for-Work-That-Finds-Answers%2C-Takes-Action%2C-and-Automates-Workflows"
         ]
-      }
+      },
+      "origin_country": "United States",
+      "openness": "proprietary_service",
+      "license": "Commercial / service terms",
+      "self_hosting": false,
+      "commercial_use": "commercial_service"
     },
     {
       "id": "sap-joule",
@@ -845,7 +875,12 @@
           "https://www.sap.com/westbalkans/products/artificial-intelligence/pricing.html",
           "https://help.sap.com/doc/75f5965fbb514fbcb89f1e47c094ea3f/CLOUD/en-US/9d8c0ef2443b49f993a27de8f38f83af.pdf"
         ]
-      }
+      },
+      "origin_country": "Germany",
+      "openness": "proprietary_service",
+      "license": "Commercial / service terms",
+      "self_hosting": false,
+      "commercial_use": "commercial_service"
     },
     {
       "id": "microsoft-copilot-studio",
@@ -968,7 +1003,12 @@
           "https://learn.microsoft.com/en-us/microsoft-copilot-studio/mcp-add-components-to-agent",
           "https://learn.microsoft.com/en-us/microsoft-copilot-studio/requirements-messages-management"
         ]
-      }
+      },
+      "origin_country": "United States",
+      "openness": "proprietary_service",
+      "license": "Commercial / service terms",
+      "self_hosting": false,
+      "commercial_use": "commercial_service"
     },
     {
       "id": "alibaba-model-studio",
@@ -1583,7 +1623,12 @@
           "https://docs.vivenu.com/api/sso",
           "https://trust.vivenu.com/"
         ]
-      }
+      },
+      "origin_country": "Germany / United States",
+      "openness": "proprietary_service",
+      "license": "Commercial / service terms",
+      "self_hosting": false,
+      "commercial_use": "commercial_service"
     },
     {
       "id": "pabau-agent-workforce",
@@ -1692,7 +1737,12 @@
           "https://pabau.com/security/",
           "https://pabau.com/pricing/"
         ]
-      }
+      },
+      "origin_country": "United Kingdom",
+      "openness": "proprietary_service",
+      "license": "Commercial / service terms",
+      "self_hosting": false,
+      "commercial_use": "commercial_service"
     },
     {
       "id": "vcomply-mcp",
@@ -1794,7 +1844,12 @@
           "https://www.v-comply.com/security/",
           "https://www.v-comply.com/pricing/"
         ]
-      }
+      },
+      "origin_country": "United States",
+      "openness": "proprietary_service",
+      "license": "Commercial / service terms",
+      "self_hosting": false,
+      "commercial_use": "commercial_service"
     },
     {
       "id": "positive-group-mcp",
@@ -1988,7 +2043,12 @@
           "https://www.paloaltonetworks.com/resources/datasheets/unit-42-continuous-frontier-ai-defense",
           "https://www.paloaltonetworks.com/unit42/frontier-ai-defense"
         ]
-      }
+      },
+      "origin_country": "United States",
+      "openness": "proprietary_service",
+      "license": "Commercial / service terms",
+      "self_hosting": false,
+      "commercial_use": "commercial_service"
     },
     {
       "id": "hcl-robotiq",
@@ -2086,7 +2146,12 @@
         "source_urls": [
           "https://www.hcl-software.com/news/28-9-26-hclsoftware-to-acquire-robotiq-ai-strengthening-enterprise-agentic-automation"
         ]
-      }
+      },
+      "origin_country": "India",
+      "openness": "proprietary_service",
+      "license": "Commercial / service terms",
+      "self_hosting": false,
+      "commercial_use": "commercial_service"
     },
     {
       "id": "qwen36-open",
