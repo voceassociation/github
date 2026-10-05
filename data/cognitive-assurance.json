@@ -23,6 +23,10 @@
       "i18n": {
         "fr": "Attention & interruptions",
         "it": "Attenzione e interruzioni"
+      },
+      "description_i18n": {
+        "fr": "Interruptions, changements de tâche, alertes et capacité à maintenir ou retrouver le focus.",
+        "it": "Interruzioni, cambi di compito, avvisi e capacità di mantenere o recuperare il focus."
       }
     },
     {
@@ -32,6 +36,10 @@
       "i18n": {
         "fr": "Charge cognitive & complexité",
         "it": "Carico cognitivo e complessità"
+      },
+      "description_i18n": {
+        "fr": "Densité d’information, mémoire de travail, exécution multi-étapes et complexité des interfaces.",
+        "it": "Densità informativa, memoria di lavoro, esecuzione multi-fase e complessità delle interfacce."
       }
     },
     {
@@ -41,6 +49,10 @@
       "i18n": {
         "fr": "Vérification & surconfiance",
         "it": "Verifica e fiducia eccessiva"
+      },
+      "description_i18n": {
+        "fr": "Vérifications, friction utile, calibration de la confiance et risque d’accepter une sortie fluide sans revue réelle.",
+        "it": "Verifiche, attrito utile, calibrazione della fiducia e rischio di accettare output fluidi senza una revisione reale."
       }
     },
     {
@@ -50,6 +62,10 @@
       "i18n": {
         "fr": "Mémoire & externalisation cognitive",
         "it": "Memoria ed esternalizzazione cognitiva"
+      },
+      "description_i18n": {
+        "fr": "Ce que l’humain doit retenir, ce que le système externalise et la disponibilité des connaissances critiques.",
+        "it": "Ciò che la persona deve ricordare, ciò che il sistema esternalizza e la disponibilità delle conoscenze critiche."
       }
     },
     {
@@ -59,6 +75,10 @@
       "i18n": {
         "fr": "Qualité de décision & incertitude",
         "it": "Qualità decisionale e incertezza"
+      },
+      "description_i18n": {
+        "fr": "Incertitude, information manquante, détection des anomalies et conditions réelles d’exercice du jugement.",
+        "it": "Incertezza, informazioni mancanti, rilevamento delle anomalie e condizioni reali in cui viene esercitato il giudizio."
       }
     },
     {
@@ -68,6 +88,10 @@
       "i18n": {
         "fr": "Fatigue & charge temporelle",
         "it": "Affaticamento e carico temporale"
+      },
+      "description_i18n": {
+        "fr": "Fatigue décisionnelle, surveillance prolongée, récupération, contraintes circadiennes et temporalité du travail.",
+        "it": "Affaticamento decisionale, monitoraggio prolungato, recupero, vincoli circadiani e temporalità del lavoro."
       }
     },
     {
@@ -77,6 +101,10 @@
       "i18n": {
         "fr": "Supervision humaine & maintien des compétences",
         "it": "Supervisione umana e mantenimento delle competenze"
+      },
+      "description_i18n": {
+        "fr": "Compréhension, capacité d’intervention et maintien des compétences lorsque l’automatisation échoue.",
+        "it": "Comprensione, capacità di intervento e mantenimento delle competenze quando l’automazione fallisce."
       }
     },
     {
@@ -86,6 +114,10 @@
       "i18n": {
         "fr": "Signaux sociaux & relationnels",
         "it": "Segnali sociali e relazionali"
+      },
+      "description_i18n": {
+        "fr": "Perte ou distorsion des signaux interpersonnels dans les communications médiatisées, automatisées ou compressées.",
+        "it": "Perdita o distorsione dei segnali interpersonali nelle comunicazioni mediate, automatizzate o compresse."
       }
     }
   ],
