@@ -31,6 +31,7 @@ Research: https://voce.life/research
 Formal DOI research record: https://voce.life/research/introspective-technoference
 Formal DOI research record: https://voce.life/research/parental-technoference-language-development
 VOCE Art: https://voce.life/art
+VOCE Art is the first cultural gateway; VOCE Academy is the second public gateway. The Private Art Vault is an invitation-only controlled-access layer and is intentionally excluded from public indexing, sitemap discovery and machine-readable corpus listings.
 Publications: https://voce.life/publications
 
 ## Provenance and ownership
