@@ -98,7 +98,7 @@
 
   function domainLabel(id){return DOMAIN_LABELS[id]||data.domains.find(x=>x.id===id)?.name||id;}
   function controlUrl(id){return (lang==="en"?"":"/"+lang)+"/agent-conformance/controls/"+String(id).toLowerCase();}
-  function lensUrl(){return (lang==="en"?"":"/"+lang)+"/agent-conformance/lens/"+lens;}
+  function lensUrl(){return (lang==="en"?"":"/"+lang)+"/agent-conformance/lens/"+lens+"/"+maturity.toLowerCase();}
   function evidenceDepth(active){
     const assessed=active.filter(c=>STATE_ORDER[stateOf(c.id)]>=0);
     if(!assessed.length) return 0;
