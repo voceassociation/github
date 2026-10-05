@@ -81,7 +81,15 @@ jobs:
           assert len(argos["assurance_cycle"]) == 8
           assert len(argos["triggers"]) == 12
           assert len(argos["evaluation_planes"]) == 6
-          print({"corpus_items": corpus["item_count"], "canonical_routes": len(canonical_routes), "redirects": len(routes["items"])-len(canonical_routes), "solution_records": len(solutions["solutions"]), "solution_evidence": len(solutions["evidence"]), "agent_reference_layers": len(agent_ref["layers"]), "agent_conformance_controls": len(conformance["controls"]), "argos_triggers": len(argos["triggers"])})
+          cognitive=json.loads((root/"data/cognitive-assurance.json").read_text())
+          assert cognitive["schema"] == 1
+          assert cognitive["version"] == "1.0"
+          assert len(cognitive["domains"]) == 8
+          assert len(cognitive["controls"]) == 24
+          assert len({x["id"] for x in cognitive["controls"]}) == 24
+          assert all(x.get("corpus_evidence") for x in cognitive["controls"])
+          assert all(x.get("i18n",{}).get("fr") and x.get("i18n",{}).get("it") for x in cognitive["controls"])
+          print({"corpus_items": corpus["item_count"], "canonical_routes": len(canonical_routes), "redirects": len(routes["items"])-len(canonical_routes), "solution_records": len(solutions["solutions"]), "solution_evidence": len(solutions["evidence"]), "agent_reference_layers": len(agent_ref["layers"]), "agent_conformance_controls": len(conformance["controls"]), "argos_triggers": len(argos["triggers"]), "cognitive_controls": len(cognitive["controls"])})
           PY
 
       - name: Commit generated corpus state
