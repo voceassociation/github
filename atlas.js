@@ -200,6 +200,7 @@
     if(!from||!to)return;
     const path=shortestPath(from,to);
     selectedId=from;
+    renderPanel(from);
     if(updateUrl)setPathQuery(from,to);
     renderPath(path);
   }
