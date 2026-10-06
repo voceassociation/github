@@ -166,8 +166,14 @@
       btn.classList.toggle("is-active",active);btn.setAttribute("aria-pressed",String(active));
     });
   }
-  function setSemanticFilter(type){
+  function setSemanticQuery(type){
+    const url=new URL(location.href);
+    if(type)url.searchParams.set("semantic",type);else url.searchParams.delete("semantic");
+    history.replaceState(null,"",url.pathname+url.search+url.hash);
+  }
+  function setSemanticFilter(type,updateUrl=true){
     activeSemantic=type||null;activePath=null;if(pathResult)pathResult.hidden=true;
+    if(updateUrl)setSemanticQuery(activeSemantic);
     updateSemanticButtons();renderPanel(selectedId);updateVisualState();
   }
 
@@ -365,7 +371,7 @@
   pathButton?.addEventListener("click",()=>runPath(true));
   pathFrom?.addEventListener("change",()=>{if(pathFrom.value&&pathTo?.value)runPath(true)});
   pathTo?.addEventListener("change",()=>{if(pathTo.value&&pathFrom?.value)runPath(true)});
-  reset?.addEventListener("click",()=>{search.value="";activeDomain=null;activePath=null;activeLens="direct";activeSemantic=null;updateLensButtons();updateSemanticButtons();if(pathFrom)pathFrom.value="";if(pathTo)pathTo.value="";if(pathResult)pathResult.hidden=true;setPathQuery("","");selectNode("human-systems")});
+  reset?.addEventListener("click",()=>{search.value="";activeDomain=null;activePath=null;activeLens="direct";activeSemantic=null;setSemanticQuery(null);updateLensButtons();updateSemanticButtons();if(pathFrom)pathFrom.value="";if(pathTo)pathTo.value="";if(pathResult)pathResult.hidden=true;setPathQuery("","");selectNode("human-systems")});
   mobileQuery.addEventListener?.("change",()=>{activeDomain=null;updateVisualState()});
 
   fetch("/data/atlas.json",{headers:{accept:"application/json"}})
@@ -376,8 +382,10 @@
       document.getElementById("atlas-edge-count").textContent=`${data.edges.length} ${UI.documented}`;
       if(sourceCountEl)sourceCountEl.textContent=`${uniqueEvidenceUrls(data.edges).size} ${UI.sourceRecords}`;
       if(domainCountEl)domainCountEl.textContent=`${data.domains.length} ${UI.territories}`;
+      const params=new URLSearchParams(location.search),semantic=params.get("semantic");
+      if(semantic&&data?.semantic_model?.classes?.[semantic])activeSemantic=semantic;
       updateLensButtons();renderSemanticControls();renderDomains();renderMap();renderPathfinder();
-      const params=new URLSearchParams(location.search),from=params.get("from"),to=params.get("to");
+      const from=params.get("from"),to=params.get("to");
       if(from&&to&&data.nodes.some(n=>n.id===from)&&data.nodes.some(n=>n.id===to)&&pathFrom&&pathTo){
         pathFrom.value=from;pathTo.value=to;runPath(false);
       }else{
