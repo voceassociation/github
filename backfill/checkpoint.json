@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-06T15:36:30Z",
+  "updated_at": "2026-10-06T15:54:00Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -910,32 +910,27 @@
     "indexnow_key": "verified_live",
     "indexnow_retry_commit": "fab67c8f0bb0a1c3614798a189cd1771b5bdaaa3",
     "r2_backup": {
-      "status": "syncing_stale_manifest",
-      "manifest_synced_at": "2026-09-30T15:00:48.996Z",
-      "manifest_article_routes": 17,
-      "current_article_routes": 1535,
-      "issue": "Previous monolithic sync exceeded practical per-invocation R2 work after corpus expansion.",
-      "remediation": "Resumable 150-route batches with persistent cursor deployed.",
-      "remediation_commit": "5f303ffb9dbdb8a58a5fabfcc3049d5663142037",
-      "next_check": "Confirm deployment, then verify cursor and synced_at advance after the next scheduled event.",
-      "second_remediation": "Unified queue capped at 40 total objects per scheduled run.",
-      "second_remediation_commit": "339bfc15199956c0f3307202297a95631ead3df9",
-      "last_checked_at": "2026-10-06T14:36:00Z",
-      "latest_health": {
-        "status": "syncing",
-        "synced_at": "2026-09-30T15:00:48.996Z",
-        "article_routes": 17,
-        "corpus_items": 17,
-        "article_routes_synced": 0,
-        "source_snapshot_complete": false,
-        "backup_cursor": 0,
-        "backup_complete": false,
-        "objects_synced": 0,
-        "changed_in_last_sync": 0
+      "status": "source_backup_verified_and_derived_backup_progressing",
+      "owner": "VOCE Association",
+      "bucket": "voce-sovereign-corpus",
+      "private": true,
+      "source_snapshot_complete": true,
+      "backup_complete": true,
+      "corpus_items": 1534,
+      "article_routes": 1534,
+      "last_observed_sync_at": "2026-10-06T15:51:12.706Z",
+      "derived_backup_complete": false,
+      "derived_cursor": 280,
+      "total_derived_objects": 1634,
+      "derived_article_pages_synced": 180,
+      "progress_verified": {
+        "previous_cursor": 240,
+        "current_cursor": 280
       },
-      "diagnosis": "Schema 3 health code is live, but the scheduled handler has not written a new manifest after deployment. The cron trigger is declared as */30 * * * * in wrangler.jsonc; Cloudflare scheduled-event registration or runtime failure must be inspected.",
-      "next_action": "Inspect Cloudflare Worker Cron Trigger registration, scheduled invocation logs and R2 binding; no further blind code changes.",
-      "access_blocker": "Cloudflare dashboard login verification fails and Sign in is disabled; no connected Cloudflare plugin or CLI credentials available. Scheduled logs cannot be inspected."
+      "cloudflare_production_version": "10618fe8",
+      "cloudflare_build_id": "b898131a",
+      "deployed_commit": "fafa36e622c87a46cdcf5a44ab56ada396a0dfac",
+      "resume": "Scheduled cron continues rendering batches of 40; check derived_backup_complete before claiming all HTML copies complete."
     },
     "research_registry": {
       "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
@@ -1095,7 +1090,7 @@
     "r2_repair_2026_10_06": {
       "cause_verified": "Cloudflare scheduled syncCorpus failed fetching absent static archive/2026-06-27.html (404), screenshot 16:57:34 Europe/Podgorica",
       "fix": "Render day archive backups from canonical corpus rather than fetching absent static HTML; retain permanent article links",
-      "status": "tested_fix_on_main_cloudflare_deployment_pending",
+      "status": "source_backup_verified_and_derived_backup_progressing",
       "source_texts_modified": false,
       "resume": "Read public backup status after deployment; confirm fresh manifest, 1534 source items and advancing derived_cursor before marking R2 repaired",
       "fix_commit": "f0784aea0170844bbe7831109dff99fc9660663e",
@@ -1116,8 +1111,31 @@
         "synced_at": "2026-09-30T15:00:48.996Z",
         "corpus_items": 17
       },
-      "access": "GitHub available; CUA verification failure and TinyFish ERR_TUNNEL_CONNECTION_FAILED prevent Cloudflare administration",
-      "next_action": "Build and deploy current GitHub main, not Dashboard's previous Worker code. Verify fresh public manifest and cursor progression. Never report R2 repaired before observed success."
+      "access": "TinyFish verified signed-in Voceassociation Account; GitHub connection and current main build deployed; CUA browser access remains separate",
+      "next_action": "Scheduled cron continues rendering batches of 40; check derived_backup_complete before claiming all HTML copies complete.",
+      "verification": {
+        "status": "source_backup_verified_and_derived_backup_progressing",
+        "owner": "VOCE Association",
+        "bucket": "voce-sovereign-corpus",
+        "private": true,
+        "source_snapshot_complete": true,
+        "backup_complete": true,
+        "corpus_items": 1534,
+        "article_routes": 1534,
+        "last_observed_sync_at": "2026-10-06T15:51:12.706Z",
+        "derived_backup_complete": false,
+        "derived_cursor": 280,
+        "total_derived_objects": 1634,
+        "derived_article_pages_synced": 180,
+        "progress_verified": {
+          "previous_cursor": 240,
+          "current_cursor": 280
+        },
+        "cloudflare_production_version": "10618fe8",
+        "cloudflare_build_id": "b898131a",
+        "deployed_commit": "fafa36e622c87a46cdcf5a44ab56ada396a0dfac",
+        "resume": "Scheduled cron continues rendering batches of 40; check derived_backup_complete before claiming all HTML copies complete."
+      }
     }
   }
 }
