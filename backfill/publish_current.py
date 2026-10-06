@@ -87,6 +87,7 @@ def article_html(item, day):
         "mainEntityOfPage": canonical,
         "url": canonical,
         "sameAs": same_as,
+        "image": "https://voce.life/voce-og.jpg",
         "inLanguage": item.get("language", "fr"),
         "articleBody": item["text"],
         "isPartOf": {"@type": "CollectionPage", "@id": f"https://voce.life/archive/{day}"}
@@ -102,6 +103,8 @@ def article_html(item, day):
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large"><link rel="canonical" href="{html.escape(canonical, quote=True)}">
 <meta property="og:type" content="article"><meta property="og:site_name" content="VOCE"><meta property="og:title" content="{html.escape(title, quote=True)}">
 <meta property="og:description" content="{html.escape(excerpt, quote=True)}"><meta property="og:url" content="{html.escape(canonical, quote=True)}">
+<meta property="og:image" content="https://voce.life/voce-og.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="VOCE Association">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://voce.life/voce-og.jpg">
 <meta property="article:published_time" content="{html.escape(published, quote=True)}"><link rel="stylesheet" href="/styles.css">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False).replace("</", "<\\/")}</script></head>
 <body><a class="skip-link" href="#main-content">Aller au contenu</a><header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a>

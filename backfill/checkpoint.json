@@ -920,7 +920,7 @@
       "next_check": "Confirm deployment, then verify cursor and synced_at advance after the next scheduled event.",
       "second_remediation": "Unified queue capped at 40 total objects per scheduled run.",
       "second_remediation_commit": "339bfc15199956c0f3307202297a95631ead3df9",
-      "last_checked_at": "2026-10-05T21:39:00Z",
+      "last_checked_at": "2026-10-06T14:36:00Z",
       "latest_health": {
         "status": "syncing",
         "synced_at": "2026-09-30T15:00:48.996Z",
@@ -934,7 +934,8 @@
         "changed_in_last_sync": 0
       },
       "diagnosis": "Schema 3 health code is live, but the scheduled handler has not written a new manifest after deployment. The cron trigger is declared as */30 * * * * in wrangler.jsonc; Cloudflare scheduled-event registration or runtime failure must be inspected.",
-      "next_action": "Inspect Cloudflare Worker Cron Trigger registration, scheduled invocation logs and R2 binding; no further blind code changes."
+      "next_action": "Inspect Cloudflare Worker Cron Trigger registration, scheduled invocation logs and R2 binding; no further blind code changes.",
+      "access_blocker": "Cloudflare dashboard login verification fails and Sign in is disabled; no connected Cloudflare plugin or CLI credentials available. Scheduled logs cannot be inspected."
     },
     "research_registry": {
       "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
@@ -1072,17 +1073,17 @@
       },
       "unique_texts": 1534,
       "regression": "two complete raw-history reconciliations passed",
-      "deployment": "pending_verification"
+      "deployment": "pending_live_verification"
     },
     "indexnow_latest": {
-      "run_id": 37478338858,
-      "job_id": 112319608561,
+      "run_id": 37480606608,
+      "job_id": 112327416329,
       "endpoint": "https://www.bing.com/indexnow",
-      "status": 202,
-      "submitted_url_count": 1,
-      "url": "https://voce.life/atlas",
-      "observed_at": "2026-10-06T14:22:06Z",
-      "interpretation": "accepted_for_processing_not_confirmation_of_indexing"
+      "status": 200,
+      "submitted_url_count": 2272,
+      "scope": "complete canonical sitemap",
+      "observed_at": "2026-10-06T14:38:15Z",
+      "interpretation": "accepted_not_guarantee_of_indexing"
     }
   }
 }

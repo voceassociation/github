@@ -1232,7 +1232,7 @@ function renderArticle(item, route, routes) {
     .map(p => `<p>${escapeHtml(p).replace(/\n/g, "<br>")}</p>`)
     .join("\n");
 
-  const routeItems = routes.items || [];
+  const routeItems = (routes.items || []).filter(entry => !entry.redirect_to);
   const index = routeItems.findIndex(r => r.id === route.id);
   const previous = index > 0 ? routeItems[index - 1] : null;
   const next = index >= 0 && index < routeItems.length - 1 ? routeItems[index + 1] : null;
@@ -1261,7 +1261,8 @@ function renderArticle(item, route, routes) {
     copyrightNotice: "Copyright © VOCE Association. All rights reserved.",
     mainEntityOfPage: canonical,
     url: canonical,
-    sameAs: item.source_url,
+    sameAs: [item.source_url, ...(item.alternate_publications || []).map(publication => publication.source_url)].filter(Boolean),
+    image: "https://voce.life/voce-og.jpg",
     inLanguage: item.language || "fr",
     articleBody: item.text,
     isPartOf: { "@type": "CollectionPage", "@id": `https://voce.life/archive/${route.date}` }
@@ -1283,6 +1284,12 @@ function renderArticle(item, route, routes) {
 <meta property="og:description" content="${escapeHtml(metaDescription)}">
 <meta property="og:url" content="${canonical}">
 <meta name="twitter:title" content="${escapeHtml(metaTitle)}">
+<meta property="og:image" content="https://voce.life/voce-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="VOCE Association">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://voce.life/voce-og.jpg">
 <meta name="twitter:description" content="${escapeHtml(metaDescription)}">
 <meta property="article:published_time" content="${escapeHtml(item.date_published)}">
 <link rel="stylesheet" href="/styles.css">

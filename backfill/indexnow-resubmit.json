@@ -1,7 +1,9 @@
 {
   "requested_at": "2026-10-06",
-  "reason": "Ownership verification accepted by Bing with HTTP202; retry canonical sitemap URLs whose earlier submissions failed403.",
+  "reason": "Retry previous403submissions after verified ownership",
   "source": "sitemap.xml",
-  "exclude_redirects": true,
-  "status": "pending"
+  "status": "accepted",
+  "http_status": 200,
+  "submitted_urls": 2272,
+  "run_id": 37480606608
 }
