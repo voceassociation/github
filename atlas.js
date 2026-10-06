@@ -9,9 +9,9 @@
   localStorage.setItem("voce-lang", pageLang);
 
   const UI = {
-    en:{source:"Source",read:"Read in VOCE →",permanent:"Permanent page →",relationPage:"Relation record →",relation:"relation",relations:"relations",empty:"No documented relation in this curated edition.",noConcept:"No concept in this curated edition.",unavailable:"Atlas unavailable",unavailableText:"The knowledge map could not be loaded. VOCE Academy remains available as the canonical corpus.",openAcademy:"Open VOCE Academy",readCorpus:"Read the corpus →",concepts:"concepts",documented:"documented relations",sourceRecords:"source records",territories:"knowledge territories",directRelations:"direct relations",uniqueSources:"source records",domainsReached:"territories reached",bridgesTitle:"Documentary bridges",bridge:"bridge",bridges:"bridges",bridgesVia:"via",bridgesNote:"Two-step adjacency only. Each leg is documented separately; the bridge does not assert causality.",noBridges:"No two-step documentary bridge from this concept in the current Atlas.",bridgeRecords:"relation records",pathChoose:"Choose a concept",pathResult:"Documented path",pathNone:"No documented path connects these concepts in the current Atlas.",pathSources:"source records",pathTerritories:"territories",pathCrossings:"cross-domain crossings",pathNote:"Atlas traverses graph adjacency in either direction. Relation statements retain their published source-target wording; the route does not establish direction or causality.",mapDirectNote:"Select a node. Directly documented concepts remain visible; unrelated material recedes.",mapBridgeNote:"Bridge lens: two-step documentary adjacencies appear through dashed connections. Proximity does not imply causality.",mapPathNote:"Path view: highlighted adjacency is documentary and non-directional; relation wording remains source-traceable."},
-    fr:{source:"Source",read:"Lire dans VOCE →",permanent:"Page permanente →",relationPage:"Dossier de relation →",relation:"relation",relations:"relations",empty:"Aucune relation documentée dans cette édition éditoriale.",noConcept:"Aucun concept dans cette édition éditoriale.",unavailable:"Atlas indisponible",unavailableText:"La carte des connaissances n’a pas pu être chargée. VOCE Academy reste accessible comme corpus canonique.",openAcademy:"Ouvrir VOCE Academy",readCorpus:"Lire le corpus →",concepts:"concepts",documented:"relations documentées",sourceRecords:"dossiers sources",territories:"territoires de connaissance",directRelations:"relations directes",uniqueSources:"dossiers sources",domainsReached:"territoires atteints",bridgesTitle:"Ponts documentaires",bridge:"pont",bridges:"ponts",bridgesVia:"via",bridgesNote:"Adjacence en deux étapes uniquement. Chaque segment est documenté séparément; le pont n’affirme aucune causalité.",noBridges:"Aucun pont documentaire en deux étapes depuis ce concept dans l’Atlas actuel.",bridgeRecords:"dossiers de relation",pathChoose:"Choisir un concept",pathResult:"Chemin documenté",pathNone:"Aucun chemin documenté ne relie ces concepts dans l’Atlas actuel.",pathSources:"dossiers sources",pathTerritories:"territoires",pathCrossings:"franchissements inter-domaines",pathNote:"Atlas parcourt l’adjacence du graphe dans les deux sens. Les énoncés de relation conservent leur formulation source-cible publiée; l’itinéraire n’établit ni direction ni causalité.",mapDirectNote:"Sélectionnez un nœud. Les concepts directement documentés restent visibles; le reste s’efface.",mapBridgeNote:"Mode ponts: les adjacences documentaires en deux étapes apparaissent par des connexions pointillées. La proximité n’implique aucune causalité.",mapPathNote:"Vue chemin: l’adjacence mise en évidence est documentaire et non directionnelle; la formulation de chaque relation reste traçable à sa source."},
-    it:{source:"Fonte",read:"Leggi in VOCE →",permanent:"Pagina permanente →",relationPage:"Scheda della relazione →",relation:"relazione",relations:"relazioni",empty:"Nessuna relazione documentata in questa edizione curatoriale.",noConcept:"Nessun concetto in questa edizione curatoriale.",unavailable:"Atlas non disponibile",unavailableText:"La mappa della conoscenza non è stata caricata. VOCE Academy resta disponibile come corpus canonico.",openAcademy:"Apri VOCE Academy",readCorpus:"Leggi il corpus →",concepts:"concetti",documented:"relazioni documentate",sourceRecords:"record fonte",territories:"territori di conoscenza",directRelations:"relazioni dirette",uniqueSources:"record fonte",domainsReached:"territori raggiunti",bridgesTitle:"Ponti documentari",bridge:"ponte",bridges:"ponti",bridgesVia:"via",bridgesNote:"Solo adiacenza in due passaggi. Ogni segmento è documentato separatamente; il ponte non afferma causalità.",noBridges:"Nessun ponte documentario in due passaggi da questo concetto nell’Atlas attuale.",bridgeRecords:"schede di relazione",pathChoose:"Scegli un concetto",pathResult:"Percorso documentato",pathNone:"Nessun percorso documentato collega questi concetti nell’Atlas attuale.",pathSources:"record fonte",pathTerritories:"territori",pathCrossings:"attraversamenti inter-dominio",pathNote:"Atlas percorre l’adiacenza del grafo in entrambe le direzioni. Gli enunciati di relazione mantengono la formulazione fonte-destinazione pubblicata; il percorso non stabilisce direzione o causalità.",mapDirectNote:"Seleziona un nodo. I concetti documentati direttamente restano visibili; il resto arretra.",mapBridgeNote:"Modalità ponti: le adiacenze documentarie in due passaggi appaiono con connessioni tratteggiate. La prossimità non implica causalità.",mapPathNote:"Vista percorso: l’adiacenza evidenziata è documentaria e non direzionale; la formulazione di ogni relazione resta tracciabile alla fonte."}
+    en:{source:"Source",read:"Read in VOCE →",permanent:"Permanent page →",relationPage:"Relation record →",relation:"relation",relations:"relations",empty:"No documented relation in this curated edition.",noConcept:"No concept in this curated edition.",unavailable:"Atlas unavailable",unavailableText:"The knowledge map could not be loaded. VOCE Academy remains available as the canonical corpus.",openAcademy:"Open VOCE Academy",readCorpus:"Read the corpus →",concepts:"concepts",documented:"documented relations",sourceRecords:"source records",territories:"knowledge territories",directRelations:"direct relations",uniqueSources:"source records",domainsReached:"territories reached",bridgesTitle:"Documentary bridges",bridge:"bridge",bridges:"bridges",bridgesVia:"via",bridgesNote:"Two-step adjacency only. Each leg is documented separately; the bridge does not assert causality.",noBridges:"No two-step documentary bridge from this concept in the current Atlas.",bridgeRecords:"relation records",pathChoose:"Choose a concept",pathResult:"Documented path",pathNone:"No documented path connects these concepts in the current Atlas.",pathSources:"source records",pathTerritories:"territories",pathCrossings:"cross-domain crossings",pathNote:"Atlas traverses graph adjacency in either direction. Relation statements retain their published source-target wording; the route does not establish direction or causality.",mapDirectNote:"Select a node. Directly documented concepts remain visible; unrelated material recedes.",mapBridgeNote:"Bridge lens: two-step documentary adjacencies appear through dashed connections. Proximity does not imply causality.",mapPathNote:"Path view: highlighted adjacency is documentary and non-directional; relation wording remains source-traceable.",allRelations:"All relation classes",inference:"Inference prohibited",showing:"Showing",visibleRelations:"visible relations",semanticClass:"Relation class"},
+    fr:{source:"Source",read:"Lire dans VOCE →",permanent:"Page permanente →",relationPage:"Dossier de relation →",relation:"relation",relations:"relations",empty:"Aucune relation documentée dans cette édition éditoriale.",noConcept:"Aucun concept dans cette édition éditoriale.",unavailable:"Atlas indisponible",unavailableText:"La carte des connaissances n’a pas pu être chargée. VOCE Academy reste accessible comme corpus canonique.",openAcademy:"Ouvrir VOCE Academy",readCorpus:"Lire le corpus →",concepts:"concepts",documented:"relations documentées",sourceRecords:"dossiers sources",territories:"territoires de connaissance",directRelations:"relations directes",uniqueSources:"dossiers sources",domainsReached:"territoires atteints",bridgesTitle:"Ponts documentaires",bridge:"pont",bridges:"ponts",bridgesVia:"via",bridgesNote:"Adjacence en deux étapes uniquement. Chaque segment est documenté séparément; le pont n’affirme aucune causalité.",noBridges:"Aucun pont documentaire en deux étapes depuis ce concept dans l’Atlas actuel.",bridgeRecords:"dossiers de relation",pathChoose:"Choisir un concept",pathResult:"Chemin documenté",pathNone:"Aucun chemin documenté ne relie ces concepts dans l’Atlas actuel.",pathSources:"dossiers sources",pathTerritories:"territoires",pathCrossings:"franchissements inter-domaines",pathNote:"Atlas parcourt l’adjacence du graphe dans les deux sens. Les énoncés de relation conservent leur formulation source-cible publiée; l’itinéraire n’établit ni direction ni causalité.",mapDirectNote:"Sélectionnez un nœud. Les concepts directement documentés restent visibles; le reste s’efface.",mapBridgeNote:"Mode ponts: les adjacences documentaires en deux étapes apparaissent par des connexions pointillées. La proximité n’implique aucune causalité.",mapPathNote:"Vue chemin: l’adjacence mise en évidence est documentaire et non directionnelle; la formulation de chaque relation reste traçable à sa source.",allRelations:"Toutes les classes de relation",inference:"Inférence interdite",showing:"Affichage",visibleRelations:"relations visibles",semanticClass:"Classe de relation"},
+    it:{source:"Fonte",read:"Leggi in VOCE →",permanent:"Pagina permanente →",relationPage:"Scheda della relazione →",relation:"relazione",relations:"relazioni",empty:"Nessuna relazione documentata in questa edizione curatoriale.",noConcept:"Nessun concetto in questa edizione curatoriale.",unavailable:"Atlas non disponibile",unavailableText:"La mappa della conoscenza non è stata caricata. VOCE Academy resta disponibile come corpus canonico.",openAcademy:"Apri VOCE Academy",readCorpus:"Leggi il corpus →",concepts:"concetti",documented:"relazioni documentate",sourceRecords:"record fonte",territories:"territori di conoscenza",directRelations:"relazioni dirette",uniqueSources:"record fonte",domainsReached:"territori raggiunti",bridgesTitle:"Ponti documentari",bridge:"ponte",bridges:"ponti",bridgesVia:"via",bridgesNote:"Solo adiacenza in due passaggi. Ogni segmento è documentato separatamente; il ponte non afferma causalità.",noBridges:"Nessun ponte documentario in due passaggi da questo concetto nell’Atlas attuale.",bridgeRecords:"schede di relazione",pathChoose:"Scegli un concetto",pathResult:"Percorso documentato",pathNone:"Nessun percorso documentato collega questi concetti nell’Atlas attuale.",pathSources:"record fonte",pathTerritories:"territori",pathCrossings:"attraversamenti inter-dominio",pathNote:"Atlas percorre l’adiacenza del grafo in entrambe le direzioni. Gli enunciati di relazione mantengono la formulazione fonte-destinazione pubblicata; il percorso non stabilisce direzione o causalità.",mapDirectNote:"Seleziona un nodo. I concetti documentati direttamente restano visibili; il resto arretra.",mapBridgeNote:"Modalità ponti: le adiacenze documentarie in due passaggi appaiono con connessioni tratteggiate. La prossimità non implica causalità.",mapPathNote:"Vista percorso: l’adiacenza evidenziata è documentaria e non direzionale; la formulazione di ogni relazione resta tracciabile alla fonte.",allRelations:"Tutte le classi di relazione",inference:"Inferenza vietata",showing:"Visualizzazione",visibleRelations:"relazioni visibili",semanticClass:"Classe di relazione"}
   }[pageLang];
 
   const map = document.getElementById("atlas-map");
@@ -33,13 +33,14 @@
   const lensButtons = [...document.querySelectorAll("[data-atlas-lens]")];
   const sourceCountEl = document.getElementById("atlas-source-count");
   const domainCountEl = document.getElementById("atlas-domain-count");
+  const semanticControls = document.getElementById("atlas-semantic-controls");
   if (!map) return;
 
   const centers={cross:[600,360],ai:[295,205],work:[210,480],cognition:[880,205],health:[900,520],culture:[500,610]};
   const domainOrder=["ai","work","cognition","health","culture","cross"];
   const mobileDomainHub={ai:"ai-systems",work:"light-workforce",cognition:"cognition",health:"health",culture:"culture"};
   const mobileQuery=window.matchMedia("(max-width: 760px)");
-  let data=null, selectedId="human-systems", activeDomain=null, activePath=null, activeLens="direct";
+  let data=null, selectedId="human-systems", activeDomain=null, activePath=null, activeLens="direct", activeSemantic=null;
   let nodeEls=new Map(), edgeEls=[];
 
   document.querySelectorAll(".lang a").forEach(a=>{
@@ -64,18 +65,40 @@
   function relationPath(edge){const id=edge?.id||`${edge?.source||""}--${edge?.target||""}`;return (pageLang==="en"?"/atlas/relations/":"/"+pageLang+"/atlas/relations/")+encodeURIComponent(id)}
   function relationWord(n){return n===1?UI.relation:UI.relations}
   function bridgeWord(n){return n===1?UI.bridge:UI.bridges}
+  function semanticDefinition(type){
+    const def=data?.semantic_model?.classes?.[type];
+    if(!def)return null;
+    if(pageLang==="en")return{label:def.label,description:def.description};
+    return def.i18n?.[pageLang]||{label:def.label,description:def.description};
+  }
+  function semanticLabel(type){return semanticDefinition(type)?.label||type||""}
+  function inferenceDefinition(edge){
+    const def=data?.semantic_model?.inference_boundaries?.[edge?.inference_boundary];
+    if(!def)return null;
+    if(pageLang==="en")return{label:def.label,description:def.description};
+    return def.i18n?.[pageLang]||{label:def.label,description:def.description};
+  }
+  function semanticMatch(edge){return !activeSemantic||edge?.semantic_type===activeSemantic}
+  function inferenceHtml(edge){
+    const inference=inferenceDefinition(edge);if(!inference)return"";
+    return `<div class="atlas-inference-boundary"><span>${escapeHTML(inference.label||UI.inference)}</span><p>${escapeHTML(inference.description||"")}</p></div>`;
+  }
+  function semanticHtml(edge){
+    const def=semanticDefinition(edge?.semantic_type);if(!def)return"";
+    return `<div class="atlas-relation-semantic"><span>${escapeHTML(UI.semanticClass)}</span><strong>${escapeHTML(def.label)}</strong><p>${escapeHTML(def.description)}</p></div>`;
+  }
   function uniqueEvidenceUrls(edges){
     return new Set(edges.flatMap(edge=>(edge?.evidence||[]).map(item=>item?.url).filter(Boolean)));
   }
   function edgeOther(edge,id){return edge.source===id?edge.target:edge.source}
   function twoHopBridges(id){
-    const directEdges=data.edges.map((edge,index)=>({edge,index})).filter(x=>x.edge.source===id||x.edge.target===id);
+    const directEdges=data.edges.map((edge,index)=>({edge,index})).filter(x=>(x.edge.source===id||x.edge.target===id)&&semanticMatch(x.edge));
     const directNeighbors=new Set(directEdges.map(x=>edgeOther(x.edge,id)));
     const byTarget=new Map();
     for(const first of directEdges){
       const via=edgeOther(first.edge,id);
       data.edges.forEach((second,secondIndex)=>{
-        if(secondIndex===first.index||!(second.source===via||second.target===via))return;
+        if(secondIndex===first.index||!semanticMatch(second)||!(second.source===via||second.target===via))return;
         const target=edgeOther(second,via);
         if(target===id||directNeighbors.has(target))return;
         if(!byTarget.has(target))byTarget.set(target,{target,routes:[]});
@@ -117,6 +140,37 @@
     }
   }
 
+  function renderSemanticControls(){
+    if(!semanticControls)return;
+    const classes=data?.semantic_model?.classes||{};
+    const order=["direct_evidence","shared_mechanism","correlation","technical_dependency","human_consequence"];
+    const all=document.createElement("button");
+    all.type="button";all.className="atlas-semantic-button";all.dataset.semantic="";
+    all.innerHTML=`<strong>${UI.allRelations}</strong><span>${data.edges.length}</span>`;
+    all.addEventListener("click",()=>setSemanticFilter(null));
+    semanticControls.replaceChildren(all);
+    for(const type of order){
+      const def=semanticDefinition(type);if(!def)continue;
+      const count=data.edges.filter(edge=>edge.semantic_type===type).length;
+      const b=document.createElement("button");
+      b.type="button";b.className="atlas-semantic-button";b.dataset.semantic=type;b.title=def.description;
+      b.innerHTML=`<strong>${escapeHTML(def.label)}</strong><span>${count}</span>`;
+      b.addEventListener("click",()=>setSemanticFilter(type));
+      semanticControls.appendChild(b);
+    }
+    updateSemanticButtons();
+  }
+  function updateSemanticButtons(){
+    semanticControls?.querySelectorAll("[data-semantic]").forEach(btn=>{
+      const value=btn.dataset.semantic||null,active=value===activeSemantic;
+      btn.classList.toggle("is-active",active);btn.setAttribute("aria-pressed",String(active));
+    });
+  }
+  function setSemanticFilter(type){
+    activeSemantic=type||null;activePath=null;if(pathResult)pathResult.hidden=true;
+    updateSemanticButtons();renderPanel(selectedId);updateVisualState();
+  }
+
   function renderDomains(){
     domainsEl.innerHTML="";
     for(const d of data.domains.filter(d=>d.id!=="cross")){
@@ -144,7 +198,7 @@
     }
   }
 
-  function relationSet(id){const related=new Set([id]),indexes=new Set();data.edges.forEach((e,i)=>{if(e.source===id||e.target===id){related.add(e.source);related.add(e.target);indexes.add(i)}});return{related,indexes}}
+  function relationSet(id){const related=new Set([id]),indexes=new Set();data.edges.forEach((e,i)=>{if(semanticMatch(e)&&(e.source===id||e.target===id)){related.add(e.source);related.add(e.target);indexes.add(i)}});return{related,indexes}}
   function updateVisualState(){
     const pathNodes=activePath?new Set(activePath.nodes):null,pathEdges=activePath?new Set(activePath.edges):null;
     const{related,indexes}=relationSet(selectedId);
@@ -160,9 +214,9 @@
       el.classList.toggle("is-dimmed",activePath?!inPath:(domainDim||relationDim));
     });
     edgeEls.forEach((el,i)=>{
-      const edge=data.edges[i],domainVisible=!activeDomain||[edge.source,edge.target].some(id=>data.nodes.find(n=>n.id===id)?.domain===activeDomain);
-      const directActive=indexes.has(i)&&domainVisible;
-      const bridgeActive=!activePath&&activeLens==="bridges"&&bridgeState.edges.has(i)&&!indexes.has(i)&&domainVisible;
+      const edge=data.edges[i],domainVisible=!activeDomain||[edge.source,edge.target].some(id=>data.nodes.find(n=>n.id===id)?.domain===activeDomain),semanticVisible=semanticMatch(edge);
+      const directActive=indexes.has(i)&&domainVisible&&semanticVisible;
+      const bridgeActive=!activePath&&activeLens==="bridges"&&bridgeState.edges.has(i)&&!indexes.has(i)&&domainVisible&&semanticVisible;
       const active=activePath?pathEdges.has(i):(directActive||bridgeActive);
       el.classList.toggle("is-active",!activePath&&directActive);
       el.classList.toggle("is-bridge",bridgeActive);
@@ -188,26 +242,30 @@
       const target=data.nodes.find(n=>n.id===item.target),route=item.routes[0],via=data.nodes.find(n=>n.id===route.via);
       const routeEdges=route.edges.map(index=>data.edges[index]).filter(Boolean);
       const recordLinks=routeEdges.map((edge,i)=>`<a href="${relationPath(edge)}">${UI.bridgeRecords} ${i+1}</a>`).join(" · ");
+      const routeSemantics=[...new Set(routeEdges.map(edge=>semanticLabel(edge.semantic_type)).filter(Boolean))].join(" · ");
       const alternativeCount=item.routes.length-1;
-      return `<article class="atlas-documentary-bridge"><button type="button" data-node="${item.target}"><strong>${escapeHTML(nodeLabel(target)||item.target)}</strong></button><p class="atlas-documentary-bridge-route">${UI.bridgesVia} <b>${escapeHTML(nodeLabel(via)||route.via)}</b>${alternativeCount>0?` · +${alternativeCount} ${bridgeWord(alternativeCount)}`:""}</p><div class="atlas-documentary-bridge-links">${recordLinks}</div></article>`;
+      return `<article class="atlas-documentary-bridge"><button type="button" data-node="${item.target}"><strong>${escapeHTML(nodeLabel(target)||item.target)}</strong></button><p class="atlas-documentary-bridge-route">${UI.bridgesVia} <b>${escapeHTML(nodeLabel(via)||route.via)}</b>${alternativeCount>0?` · +${alternativeCount} ${bridgeWord(alternativeCount)}`:""}</p><span class="atlas-documentary-bridge-meta">${escapeHTML(routeSemantics)}</span><div class="atlas-documentary-bridge-links">${recordLinks}</div></article>`;
     }).join("");
     bridgesEl.querySelectorAll("[data-node]").forEach(btn=>btn.addEventListener("click",()=>selectNode(btn.dataset.node)));
   }
 
   function renderPanel(id){
     const node=data.nodes.find(n=>n.id===id);if(!node)return;
-    const relations=data.edges.filter(e=>e.source===id||e.target===id);
+    const allRelations=data.edges.filter(e=>e.source===id||e.target===id);
+    const relations=allRelations.filter(semanticMatch);
     const reached=new Set(relations.map(edge=>data.nodes.find(n=>n.id===edgeOther(edge,id))?.domain).filter(Boolean));
     const sources=uniqueEvidenceUrls(relations);
     panelTitle.textContent=nodeLabel(node);panelSummary.textContent=nodeSummary(node);
-    panelMeta.innerHTML=`<span>${escapeHTML(domainLabel(node.domain))}</span><span>${relations.length} ${relationWord(relations.length)}</span><a class="atlas-concept-link" href="${conceptPath(node.id)}">${UI.permanent}</a>`;
+    const semanticMeta=activeSemantic?`<span>${escapeHTML(semanticLabel(activeSemantic))}</span>`:"";
+    panelMeta.innerHTML=`<span>${escapeHTML(domainLabel(node.domain))}</span><span>${relations.length} ${UI.visibleRelations}</span>${semanticMeta}<a class="atlas-concept-link" href="${conceptPath(node.id)}">${UI.permanent}</a>`;
     if(panelInsight)panelInsight.innerHTML=`<div class="atlas-insight-stat"><strong>${relations.length}</strong><span>${UI.directRelations}</span></div><div class="atlas-insight-stat"><strong>${sources.size}</strong><span>${UI.uniqueSources}</span></div><div class="atlas-insight-stat"><strong>${reached.size}</strong><span>${UI.domainsReached}</span></div>`;
     renderBridges(id);
     if(!relations.length){relationsEl.innerHTML=`<p class="atlas-empty">${UI.empty}</p>`;return}
-    relationsEl.innerHTML=relations.map(edge=>{
+    const filterState=activeSemantic?`<div class="atlas-filter-state">${UI.showing}: <strong>${escapeHTML(semanticLabel(activeSemantic))}</strong> · ${relations.length}/${allRelations.length}</div>`:"";
+    relationsEl.innerHTML=filterState+relations.map(edge=>{
       const source=data.nodes.find(n=>n.id===edge.source),target=data.nodes.find(n=>n.id===edge.target),otherId=edge.source===id?edge.target:edge.source,other=data.nodes.find(n=>n.id===otherId);
       const statement=`${nodeLabel(source)} ${edgeLabel(edge)} ${nodeLabel(target)}`;
-      return `<article class="atlas-relation-card"><button type="button" class="atlas-relation-target" data-node="${otherId}"><span>${escapeHTML(domainLabel(other?.domain||""))}</span><strong>${escapeHTML(nodeLabel(other)||otherId)}</strong></button><p>${escapeHTML(statement)}</p><div class="atlas-evidence">${evidenceHtml(edge.evidence)}</div><a class="atlas-relation-permalink" href="${relationPath(edge)}">${UI.relationPage}</a></article>`;
+      return `<article class="atlas-relation-card"><button type="button" class="atlas-relation-target" data-node="${otherId}"><span>${escapeHTML(domainLabel(other?.domain||""))}</span><strong>${escapeHTML(nodeLabel(other)||otherId)}</strong></button><p>${escapeHTML(statement)}</p>${semanticHtml(edge)}${inferenceHtml(edge)}<div class="atlas-evidence">${evidenceHtml(edge.evidence)}</div><a class="atlas-relation-permalink" href="${relationPath(edge)}">${UI.relationPage}</a></article>`;
     }).join("");
     relationsEl.querySelectorAll("[data-node]").forEach(btn=>btn.addEventListener("click",()=>selectNode(btn.dataset.node)));
   }
@@ -226,6 +284,7 @@
       const current=queue.shift();
       for(let i=0;i<data.edges.length;i++){
         const edge=data.edges[i];
+        if(!semanticMatch(edge))continue;
         let next=null;
         if(edge.source===current)next=edge.target;else if(edge.target===current)next=edge.source;
         if(!next||seen.has(next))continue;
@@ -263,7 +322,7 @@
       const edge=data.edges[edgeIndex],source=data.nodes.find(n=>n.id===edge.source),target=data.nodes.find(n=>n.id===edge.target);
       const stepFrom=data.nodes.find(n=>n.id===path.nodes[i]),stepTo=data.nodes.find(n=>n.id===path.nodes[i+1]);
       const statement=`${nodeLabel(source)} ${edgeLabel(edge)} ${nodeLabel(target)}`;
-      return `<article class="atlas-path-step"><div class="atlas-path-step-no">${String(i+1).padStart(2,"0")}</div><div><div class="atlas-path-step-route"><a href="${conceptPath(stepFrom.id)}">${escapeHTML(nodeLabel(stepFrom))}</a><span>↔</span><a href="${conceptPath(stepTo.id)}">${escapeHTML(nodeLabel(stepTo))}</a></div><p>${escapeHTML(statement)}</p><div class="atlas-evidence">${evidenceHtml(edge.evidence)}</div><a class="atlas-relation-permalink" href="${relationPath(edge)}">${UI.relationPage}</a></div></article>`;
+      return `<article class="atlas-path-step"><div class="atlas-path-step-no">${String(i+1).padStart(2,"0")}</div><div><div class="atlas-path-step-route"><a href="${conceptPath(stepFrom.id)}">${escapeHTML(nodeLabel(stepFrom))}</a><span>↔</span><a href="${conceptPath(stepTo.id)}">${escapeHTML(nodeLabel(stepTo))}</a></div><p>${escapeHTML(statement)}</p>${semanticHtml(edge)}${inferenceHtml(edge)}<div class="atlas-evidence">${evidenceHtml(edge.evidence)}</div><a class="atlas-relation-permalink" href="${relationPath(edge)}">${UI.relationPage}</a></div></article>`;
     }).join("");
     const count=path.edges.length;
     pathResult.hidden=false;
@@ -287,7 +346,7 @@
   function renderSearchResults(value){
     const q=value.trim().toLowerCase();if(!q){searchResults.hidden=true;searchResults.innerHTML="";return}
     const matches=data.nodes.filter(n=>{
-      const relationText=data.edges.filter(e=>e.source===n.id||e.target===n.id).flatMap(e=>[e.label,e.i18n?.fr,e.i18n?.it,...(e.evidence||[]).map(item=>item.title)]).filter(Boolean);
+      const relationText=data.edges.filter(e=>e.source===n.id||e.target===n.id).flatMap(e=>[e.label,e.i18n?.fr,e.i18n?.it,semanticLabel(e.semantic_type),semanticDefinition(e.semantic_type)?.description,inferenceDefinition(e)?.description,...(e.evidence||[]).map(item=>item.title)]).filter(Boolean);
       return [n.label,n.summary,n.i18n?.fr?.label,n.i18n?.fr?.summary,n.i18n?.it?.label,n.i18n?.it?.summary,...relationText].join(" ").toLowerCase().includes(q);
     }).slice(0,8);
     searchResults.innerHTML=matches.length?matches.map(n=>`<button type="button" data-node="${n.id}"><strong>${escapeHTML(nodeLabel(n))}</strong><span>${escapeHTML(domainLabel(n.domain))}</span></button>`).join(""):`<div class="atlas-search-empty">${UI.noConcept}</div>`;
@@ -306,7 +365,7 @@
   pathButton?.addEventListener("click",()=>runPath(true));
   pathFrom?.addEventListener("change",()=>{if(pathFrom.value&&pathTo?.value)runPath(true)});
   pathTo?.addEventListener("change",()=>{if(pathTo.value&&pathFrom?.value)runPath(true)});
-  reset?.addEventListener("click",()=>{search.value="";activeDomain=null;activePath=null;activeLens="direct";updateLensButtons();if(pathFrom)pathFrom.value="";if(pathTo)pathTo.value="";if(pathResult)pathResult.hidden=true;setPathQuery("","");selectNode("human-systems")});
+  reset?.addEventListener("click",()=>{search.value="";activeDomain=null;activePath=null;activeLens="direct";activeSemantic=null;updateLensButtons();updateSemanticButtons();if(pathFrom)pathFrom.value="";if(pathTo)pathTo.value="";if(pathResult)pathResult.hidden=true;setPathQuery("","");selectNode("human-systems")});
   mobileQuery.addEventListener?.("change",()=>{activeDomain=null;updateVisualState()});
 
   fetch("/data/atlas.json",{headers:{accept:"application/json"}})
@@ -317,7 +376,7 @@
       document.getElementById("atlas-edge-count").textContent=`${data.edges.length} ${UI.documented}`;
       if(sourceCountEl)sourceCountEl.textContent=`${uniqueEvidenceUrls(data.edges).size} ${UI.sourceRecords}`;
       if(domainCountEl)domainCountEl.textContent=`${data.domains.length} ${UI.territories}`;
-      updateLensButtons();renderDomains();renderMap();renderPathfinder();
+      updateLensButtons();renderSemanticControls();renderDomains();renderMap();renderPathfinder();
       const params=new URLSearchParams(location.search),from=params.get("from"),to=params.get("to");
       if(from&&to&&data.nodes.some(n=>n.id===from)&&data.nodes.some(n=>n.id===to)&&pathFrom&&pathTo){
         pathFrom.value=from;pathTo.value=to;runPath(false);
