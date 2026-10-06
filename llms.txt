@@ -56,6 +56,12 @@ Each published Atlas relation has a permanent evidence-backed HTML record in Eng
 
 All 63 Atlas concepts and all 76 relation records are included in the XML sitemap in EN/FR/IT. The Atlas root pages also contain static HTML links to every permanent concept page so discovery does not depend on JavaScript.
 
+## Search, social and answer-engine discovery
+
+The public VOCE corpus is intentionally available for indexing, citation, link previews and answer-engine grounding. robots.txt explicitly permits major discovery agents including Googlebot, Bingbot, MicrosoftPreview, Meta/Facebook fetchers, LinkedInBot, OAI-SearchBot, ChatGPT-User, PerplexityBot, Applebot and DuckDuckBot. Microsoft/Bing ecosystem updates are also signalled through IndexNow when relevant public URLs change.
+
+Crawler access for discovery does not itself grant a licence to reproduce the corpus, create derivative datasets or use VOCE content for model training. The rights statement at https://voce.life/CORPUS_RIGHTS.txt remains authoritative.
+
 ## VOCE Standards
 
 VOCE Standards define institutional orchestration: decision-grade evidence, specialist authority, segregation of duties, vendor neutrality, concentration risk, reversibility, economics, optionality, continuous assurance and professional responsibility. Opera is used as an operating metaphor for coordinating distinct expert voices without collapsing their disciplinary authority.
