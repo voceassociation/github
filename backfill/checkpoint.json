@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-05T21:39:00Z",
+  "updated_at": "2026-10-06T14:41:06.068Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -901,7 +901,7 @@
     "pull_request": 3,
     "merge_commit": "cb66dce1c40f07282b275482f801e8a350dc5f0a",
     "indexnow_check": "accepted_202",
-    "live_deployment": "1535_article_pages_and_sample_verified_publicly",
+    "live_deployment": "1534_unique_articles_verified_publicly",
     "linkedin_browser_session": "signed_out_metricool_connector_connected",
     "static_pages_generated": 1534,
     "academy_catalogue": "existing_curated_selection_plus_guide_no_bulk_listing",
@@ -1073,7 +1073,14 @@
       },
       "unique_texts": 1534,
       "regression": "two complete raw-history reconciliations passed",
-      "deployment": "pending_live_verification"
+      "deployment": "verified_publicly",
+      "live_checks": {
+        "visible_count": 1534,
+        "alias_redirect_verified": true,
+        "jsonld_sameAs_preserves_both_linkedin_urls": true,
+        "og_image": "https://voce.life/voce-og.jpg",
+        "twitter_card": "summary_large_image"
+      }
     },
     "indexnow_latest": {
       "run_id": 37480606608,
