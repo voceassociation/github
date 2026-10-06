@@ -1,21 +1,50 @@
+# VOCE public discovery policy
+# Search, social-preview and answer-engine crawlers are welcome on the public corpus.
+
 User-agent: *
 Allow: /
 
+# Google Search, Images, News and inspection
 User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Googlebot-News
+User-agent: Google-InspectionTool
 Allow: /
 
-User-agent: LinkedInBot
+# Microsoft Bing, Copilot grounding and Microsoft previews
+User-agent: Bingbot
+User-agent: MicrosoftPreview
 Allow: /
 
+# Meta / Facebook / Instagram link discovery and user-triggered fetching
 User-agent: facebookexternalhit
-Allow: /
-
 User-agent: Facebot
+User-agent: meta-externalfetcher
 Allow: /
 
+# Professional and social link previews
+User-agent: LinkedInBot
+User-agent: Twitterbot
+Allow: /
+
+# AI answer/search retrieval
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+Allow: /
+
+# OpenAI training is a separate policy from search/citation.
+# VOCE permits SearchBot discovery while reserving corpus-training rights.
+User-agent: GPTBot
+Disallow: /
+
+# Other major discovery crawlers
+User-agent: Applebot
+User-agent: DuckDuckBot
+Allow: /
+
+# SEO audit crawlers used by VOCE
 User-agent: SemrushBot
-Allow: /
-
 User-agent: SiteAuditBot
 Allow: /
 

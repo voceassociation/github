@@ -242,6 +242,15 @@ function atlasLocale(locale = "en") {
   return ["fr","it"].includes(locale) ? locale : "en";
 }
 
+function atlasOgLocale(locale = "en") {
+  return { en:"en_US", fr:"fr_FR", it:"it_IT" }[atlasLocale(locale)];
+}
+
+function atlasOgAlternateLocales(locale = "en") {
+  const current = atlasOgLocale(locale);
+  return ["en_US","fr_FR","it_IT"].filter(item => item !== current);
+}
+
 function atlasNodeLabel(node, locale = "en") {
   const l = atlasLocale(locale);
   return node?.i18n?.[l]?.label || node?.label || "";
@@ -381,6 +390,7 @@ function renderAtlasConcept(atlas, node, locale = "en") {
     url:canonical,
     inLanguage:l,
     dateModified:atlas.generated_at || "2026-10-06",
+    publisher:{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},
     mainEntityOfPage:canonical,
     inDefinedTermSet:{
       "@type":"DefinedTermSet",
@@ -408,7 +418,9 @@ function renderAtlasConcept(atlas, node, locale = "en") {
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${escapeHtml(title)} — VOCE Atlas</title>
 <meta name="description" content="${escapeHtml(summary)}">
-<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="googlebot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="author" content="VOCE Association">
 <link rel="canonical" href="${canonical}">
 <link rel="alternate" hreflang="en" href="https://voce.life/atlas/${escapeHtml(node.id)}">
 <link rel="alternate" hreflang="fr" href="https://voce.life/fr/atlas/${escapeHtml(node.id)}">
@@ -417,6 +429,9 @@ function renderAtlasConcept(atlas, node, locale = "en") {
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="VOCE">
+<meta property="og:locale" content="${atlasOgLocale(l)}">
+${atlasOgAlternateLocales(l).map(value=>`<meta property="og:locale:alternate" content="${value}">`).join("\n")}
+<meta property="article:modified_time" content="${escapeHtml(atlas.generated_at || "2026-10-06")}">
 <meta property="og:title" content="${escapeHtml(title)} — VOCE Atlas">
 <meta property="og:description" content="${escapeHtml(summary)}">
 <meta property="og:url" content="${canonical}">
@@ -475,12 +490,12 @@ function renderAtlasRelation(atlas, edge, locale = "en") {
   const inference = atlasInferenceDefinition(atlas,edge,l);
   const semanticRecord = renderAtlasSemanticRecord(atlas,edge,l,true);
   const citation = evidenceItems.filter(x=>x?.url).map(x=>x.url.startsWith("http")?x.url:`https://voce.life${x.url}`);
-  const ld = {"@context":"https://schema.org","@type":"WebPage","@id":canonical+"#relation","identifier":id,name:`${a} — ${b} | VOCE Atlas`,description:statement,url:canonical,inLanguage:l,dateModified:atlas.generated_at || "2026-10-06",isPartOf:{"@type":"WebSite","name":"VOCE","url":"https://voce.life/"},about:[{"@type":"DefinedTerm","name":a,"url":`https://voce.life${atlasConceptPath(source.id,l)}`},{"@type":"DefinedTerm","name":b,"url":`https://voce.life${atlasConceptPath(target.id,l)}`}],citation,additionalProperty:[{"@type":"PropertyValue","name":"VOCE Atlas relation class","value":semantic?.label||edge.semantic_type||""},{"@type":"PropertyValue","name":"VOCE Atlas inference boundary","value":inference?.description||edge.inference_boundary||""}],breadcrumb:{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VOCE","item":"https://voce.life/"},{"@type":"ListItem","position":2,"name":"VOCE Atlas","item":`https://voce.life${root}`},{"@type":"ListItem","position":3,"name":a,"item":`https://voce.life${atlasConceptPath(source.id,l)}`},{"@type":"ListItem","position":4,"name":`${a} — ${b}`,"item":canonical}]}};
+  const ld = {"@context":"https://schema.org","@type":"WebPage","@id":canonical+"#relation","identifier":id,name:`${a} — ${b} | VOCE Atlas`,description:statement,url:canonical,inLanguage:l,dateModified:atlas.generated_at || "2026-10-06",publisher:{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},isPartOf:{"@type":"WebSite","name":"VOCE","url":"https://voce.life/"},about:[{"@type":"DefinedTerm","name":a,"url":`https://voce.life${atlasConceptPath(source.id,l)}`},{"@type":"DefinedTerm","name":b,"url":`https://voce.life${atlasConceptPath(target.id,l)}`}],citation,additionalProperty:[{"@type":"PropertyValue","name":"VOCE Atlas relation class","value":semantic?.label||edge.semantic_type||""},{"@type":"PropertyValue","name":"VOCE Atlas inference boundary","value":inference?.description||edge.inference_boundary||""}],breadcrumb:{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VOCE","item":"https://voce.life/"},{"@type":"ListItem","position":2,"name":"VOCE Atlas","item":`https://voce.life${root}`},{"@type":"ListItem","position":3,"name":a,"item":`https://voce.life${atlasConceptPath(source.id,l)}`},{"@type":"ListItem","position":4,"name":`${a} — ${b}`,"item":canonical}]}};
   const applied = l==="en"?"/applied":`/${l}/applied`;
   return `<!doctype html><html lang="${l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${escapeHtml(a)} — ${escapeHtml(b)} | VOCE Atlas</title><meta name="description" content="${escapeHtml(statement)}"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<title>${escapeHtml(a)} — ${escapeHtml(b)} | VOCE Atlas</title><meta name="description" content="${escapeHtml(statement)}"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"><meta name="googlebot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"><meta name="author" content="VOCE Association">
 <link rel="canonical" href="${canonical}"><link rel="alternate" hreflang="en" href="https://voce.life/atlas/relations/${escapeHtml(id)}"><link rel="alternate" hreflang="fr" href="https://voce.life/fr/atlas/relations/${escapeHtml(id)}"><link rel="alternate" hreflang="it" href="https://voce.life/it/atlas/relations/${escapeHtml(id)}"><link rel="alternate" hreflang="x-default" href="https://voce.life/atlas/relations/${escapeHtml(id)}">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta property="og:type" content="article"><meta property="og:site_name" content="VOCE"><meta property="og:title" content="${escapeHtml(a)} — ${escapeHtml(b)} | VOCE Atlas"><meta property="og:description" content="${escapeHtml(statement)}"><meta property="og:url" content="${canonical}"><link rel="stylesheet" href="/styles.css"><script type="application/ld+json">${JSON.stringify(ld).replace(/</g,"\\u003c")}</script></head>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta property="og:type" content="article"><meta property="og:site_name" content="VOCE"><meta property="og:locale" content="${atlasOgLocale(l)}">${atlasOgAlternateLocales(l).map(value=>`<meta property="og:locale:alternate" content="${value}">`).join("")}<meta property="article:modified_time" content="${escapeHtml(atlas.generated_at || "2026-10-06")}"><meta property="og:title" content="${escapeHtml(a)} — ${escapeHtml(b)} | VOCE Atlas"><meta property="og:description" content="${escapeHtml(statement)}"><meta property="og:url" content="${canonical}"><link rel="stylesheet" href="/styles.css"><script type="application/ld+json">${JSON.stringify(ld).replace(/</g,"\\u003c")}</script></head>
 <body class="atlas-page"><a class="skip-link" href="#main-content">${copy.skip}</a><header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="${copy.nav}"><a href="/#themes">${copy.themes}</a><a href="/research">${copy.research}</a><a href="/archive">Academy</a><a href="${root}" class="active">Atlas</a><a href="${applied}">Applied</a><a href="/standards">${copy.standards}</a><a href="/publications">${copy.publications}</a><a class="keep" href="/art">Art</a><a class="keep" href="/about">${copy.about}</a><span class="lang" role="group" aria-label="${copy.language}"><a href="/atlas/relations/${escapeHtml(id)}"${l==="en"?' class="active" aria-current="page"':""}>EN</a><a href="/fr/atlas/relations/${escapeHtml(id)}"${l==="fr"?' class="active" aria-current="page"':""}>FR</a><a href="/it/atlas/relations/${escapeHtml(id)}"${l==="it"?' class="active" aria-current="page"':""}>IT</a></span></nav></div></header>
 <main id="main-content"><section class="topic-hero atlas-relation-hero"><div class="wrap"><div class="topic-kicker">VOCE Atlas · ${copy.relation}</div><h1 class="topic-title">${escapeHtml(a)} ↔ ${escapeHtml(b)}</h1><p class="topic-deck">${escapeHtml(statement)}</p><div class="topic-meta"><span>${escapeHtml(semantic?.label||copy.relation)}</span><span>${evidenceItems.length} ${copy.evidence.toLowerCase()}</span><span>${copy.permanent}</span></div></div></section>
 <section class="topic-body"><div class="wrap topic-layout"><aside class="topic-nav"><div class="topic-nav-label">VOCE Atlas</div><a href="${root}?from=${escapeHtml(source.id)}&to=${escapeHtml(target.id)}&semantic=${escapeHtml(edge.semantic_type||"")}">${copy.openMap}</a><a href="${atlasConceptPath(source.id,l)}">${escapeHtml(a)}</a><a href="${atlasConceptPath(target.id,l)}">${escapeHtml(b)}</a><a href="/data/atlas.json">Atlas JSON</a><a href="/CORPUS_RIGHTS.txt">${copy.rights}</a></aside><div class="longform">
