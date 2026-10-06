@@ -4,14 +4,16 @@
   "description": "Evidence-grounded knowledge map connecting systems, mechanisms and human consequences across the VOCE corpus.",
   "owner": "VOCE Association",
   "canonical": "https://voce.life/atlas",
-  "generated_at": "2026-10-05",
+  "generated_at": "2026-10-06",
   "methodology": {
     "principle": "Every displayed relationship must be traceable to at least one VOCE publication or formal research record.",
-    "scope": "Curated V1. The Atlas is intentionally selective rather than an automatic visualization of the full corpus.",
+    "scope": "Curated V2. The Atlas is intentionally selective rather than an automatic visualization of the full corpus.",
     "relation_status": "documented",
     "relation_identifier": "Each published relation has a stable identifier derived from its source and target concept IDs.",
     "relation_permalink_pattern": "/atlas/relations/{source}--{target}",
-    "path_semantics": "Atlas paths are documentary graph traversals across individually supported relations. A path does not, by itself, assert causality between its endpoints."
+    "path_semantics": "Atlas paths are documentary graph traversals across individually supported relations. A path does not, by itself, assert causality between its endpoints.",
+    "bridge_semantics": "A documentary bridge is a two-hop adjacency across two independently supported relations. It does not, by itself, assert causality between the bridge endpoints.",
+    "traversal_directionality": "Atlas pathfinding traverses graph adjacency in either direction. Relation statements preserve their authored source-target wording; a traversal does not infer causal or directional equivalence."
   },
   "domains": [
     {
