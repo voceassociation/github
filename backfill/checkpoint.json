@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-06T14:41:06.068Z",
+  "updated_at": "2026-10-06T15:36:30Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1095,9 +1095,29 @@
     "r2_repair_2026_10_06": {
       "cause_verified": "Cloudflare scheduled syncCorpus failed fetching absent static archive/2026-06-27.html (404), screenshot 16:57:34 Europe/Podgorica",
       "fix": "Render day archive backups from canonical corpus rather than fetching absent static HTML; retain permanent article links",
-      "status": "fix_tested_pending_public_verification",
+      "status": "tested_fix_on_main_cloudflare_deployment_pending",
       "source_texts_modified": false,
-      "resume": "Read public backup status after deployment; confirm fresh manifest, 1534 source items and advancing derived_cursor before marking R2 repaired"
+      "resume": "Read public backup status after deployment; confirm fresh manifest, 1534 source items and advancing derived_cursor before marking R2 repaired",
+      "fix_commit": "f0784aea0170844bbe7831109dff99fc9660663e",
+      "cloudflare_observed_version": "77abb57a-a598-4af2-a164-554d273b9e7a",
+      "cloudflare_observed_version_origin": "Manually deployed from Dashboard",
+      "latest_error_at": "2026-10-06T17:32:16.140+02:00",
+      "latest_error": "Asset archive/2026-06-27.html returned 404",
+      "test_results": {
+        "source_items": 1534,
+        "derived_objects": 1634,
+        "complete_cycle_passed": true,
+        "resume_passed": true,
+        "original_texts_preserved": true
+      },
+      "public_status_checked_at": "2026-10-06T17:36:30+02:00",
+      "public_status": {
+        "status": "syncing",
+        "synced_at": "2026-09-30T15:00:48.996Z",
+        "corpus_items": 17
+      },
+      "access": "GitHub available; CUA verification failure and TinyFish ERR_TUNNEL_CONNECTION_FAILED prevent Cloudflare administration",
+      "next_action": "Build and deploy current GitHub main, not Dashboard's previous Worker code. Verify fresh public manifest and cursor progression. Never report R2 repaired before observed success."
     }
   }
 }
