@@ -374,14 +374,27 @@ function renderAtlasConcept(atlas, node, locale = "en") {
   const ld = {
     "@context":"https://schema.org",
     "@type":"DefinedTerm",
+    "@id":canonical+"#concept",
+    identifier:node.id,
     name:title,
     description:summary,
     url:canonical,
     inLanguage:l,
+    dateModified:atlas.generated_at || "2026-10-06",
+    mainEntityOfPage:canonical,
     inDefinedTermSet:{
       "@type":"DefinedTermSet",
+      "@id":"https://voce.life/data/atlas.json#dataset",
       name:"VOCE Atlas",
       url:`https://voce.life${root}`
+    },
+    breadcrumb:{
+      "@type":"BreadcrumbList",
+      itemListElement:[
+        {"@type":"ListItem","position":1,"name":"VOCE","item":"https://voce.life/"},
+        {"@type":"ListItem","position":2,"name":"VOCE Atlas","item":`https://voce.life${root}`},
+        {"@type":"ListItem","position":3,"name":title,"item":canonical}
+      ]
     }
   };
 
@@ -462,7 +475,7 @@ function renderAtlasRelation(atlas, edge, locale = "en") {
   const inference = atlasInferenceDefinition(atlas,edge,l);
   const semanticRecord = renderAtlasSemanticRecord(atlas,edge,l,true);
   const citation = evidenceItems.filter(x=>x?.url).map(x=>x.url.startsWith("http")?x.url:`https://voce.life${x.url}`);
-  const ld = {"@context":"https://schema.org","@type":"WebPage",name:`${a} — ${b} | VOCE Atlas`,description:statement,url:canonical,inLanguage:l,isPartOf:{"@type":"WebSite","name":"VOCE","url":"https://voce.life/"},about:[{"@type":"DefinedTerm","name":a,"url":`https://voce.life${atlasConceptPath(source.id,l)}`},{"@type":"DefinedTerm","name":b,"url":`https://voce.life${atlasConceptPath(target.id,l)}`}],citation,additionalProperty:[{"@type":"PropertyValue","name":"VOCE Atlas relation class","value":semantic?.label||edge.semantic_type||""},{"@type":"PropertyValue","name":"VOCE Atlas inference boundary","value":inference?.description||edge.inference_boundary||""}]};
+  const ld = {"@context":"https://schema.org","@type":"WebPage","@id":canonical+"#relation","identifier":id,name:`${a} — ${b} | VOCE Atlas`,description:statement,url:canonical,inLanguage:l,dateModified:atlas.generated_at || "2026-10-06",isPartOf:{"@type":"WebSite","name":"VOCE","url":"https://voce.life/"},about:[{"@type":"DefinedTerm","name":a,"url":`https://voce.life${atlasConceptPath(source.id,l)}`},{"@type":"DefinedTerm","name":b,"url":`https://voce.life${atlasConceptPath(target.id,l)}`}],citation,additionalProperty:[{"@type":"PropertyValue","name":"VOCE Atlas relation class","value":semantic?.label||edge.semantic_type||""},{"@type":"PropertyValue","name":"VOCE Atlas inference boundary","value":inference?.description||edge.inference_boundary||""}],breadcrumb:{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VOCE","item":"https://voce.life/"},{"@type":"ListItem","position":2,"name":"VOCE Atlas","item":`https://voce.life${root}`},{"@type":"ListItem","position":3,"name":a,"item":`https://voce.life${atlasConceptPath(source.id,l)}`},{"@type":"ListItem","position":4,"name":`${a} — ${b}`,"item":canonical}]}};
   const applied = l==="en"?"/applied":`/${l}/applied`;
   return `<!doctype html><html lang="${l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${escapeHtml(a)} — ${escapeHtml(b)} | VOCE Atlas</title><meta name="description" content="${escapeHtml(statement)}"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
