@@ -48,8 +48,8 @@
 <div class="topic-meta">
 <span id="atlas-node-count">63 concepts</span>
 <span id="atlas-edge-count">76 documented relations</span>
-<span>Evidence-linked</span>
-<span>Public corpus</span>
+<span id="atlas-source-count">19 source records</span>
+<span id="atlas-domain-count">6 knowledge territories</span>
 </div>
 </div></section>
 
@@ -61,7 +61,7 @@
 </div>
 <div class="atlas-intro-copy">
 <p>An article belongs to more than one category. A discussion of AI agents can also be about identity, permissions and work. A study of a doorway can also be about event segmentation, interruption and memory.</p>
-<p>Atlas preserves those crossings. Select a concept to reveal its documented relationships, or choose two concepts to trace the shortest evidence-linked path between them.</p>
+<p>Atlas preserves those crossings. Select a concept to inspect its direct evidence, switch to documentary bridges to expose two-step adjacencies, or choose two concepts to trace the shortest evidence-linked route between them.</p>
 </div>
 </div>
 
@@ -75,8 +75,16 @@
 <button class="atlas-reset" id="atlas-reset" type="button">Reset map</button>
 </div>
 
+<div class="atlas-lenses" aria-label="Reasoning lenses">
+<div class="atlas-lens-copy"><div class="eyebrow">Reasoning lens</div><p>Direct relations show first-order evidence. Documentary bridges reveal two-step adjacency without turning proximity into causality.</p></div>
+<div class="atlas-lens-buttons" role="group" aria-label="Atlas reasoning lens">
+<button type="button" class="atlas-lens-button is-active" data-atlas-lens="direct" aria-pressed="true">Direct evidence</button>
+<button type="button" class="atlas-lens-button" data-atlas-lens="bridges" aria-pressed="false">Documentary bridges</button>
+</div>
+</div>
+
 <div class="atlas-pathfinder" aria-labelledby="atlas-path-title">
-<div class="atlas-pathfinder-copy"><div class="eyebrow">Path explorer</div><h3 id="atlas-path-title">Trace a documented path.</h3><p>Choose two concepts. Atlas follows the shortest sequence of published relations connecting them.</p></div>
+<div class="atlas-pathfinder-copy"><div class="eyebrow">Path explorer</div><h3 id="atlas-path-title">Trace a documented path.</h3><p>Choose two concepts. Atlas follows the shortest documentary route across published relations connecting them.</p></div>
 <div class="atlas-path-controls">
 <label>From<select id="atlas-path-from" aria-label="Path starting concept"></select></label>
 <label>To<select id="atlas-path-to" aria-label="Path destination concept"></select></label>
@@ -100,6 +108,8 @@
 <h2 id="atlas-panel-title">Human systems</h2>
 <p id="atlas-panel-summary">The conditions through which technologies, institutions, bodies and cultures shape human action.</p>
 <div class="atlas-panel-meta" id="atlas-panel-meta"></div>
+<div class="atlas-panel-insight" id="atlas-panel-insight"></div>
+<div class="atlas-bridges" id="atlas-bridges" hidden></div>
 <div class="atlas-relations" id="atlas-relations"></div>
 </aside>
 </div>
@@ -109,12 +119,12 @@
 <div class="eyebrow">Method</div>
 <div>
 <h2 class="display">A relation must earn its line.</h2>
-<p class="lead">The first Atlas is deliberately selective. It does not draw a connection because two words appear in the same corpus. A displayed relation must be supported by a VOCE publication or formal research record.</p>
+<p class="lead">This V2 edition is deliberately selective. It does not draw a connection because two words appear in the same corpus. A displayed relation must be supported by a VOCE publication or formal research record.</p>
 <div class="rule-list">
 <div class="rule"><div class="label">Source</div><div class="value">Every relation links back to evidence in VOCE Academy or VOCE Research.</div></div>
 <div class="rule"><div class="label">Scope</div><div class="value">The map begins with a curated core rather than automatically visualising the entire archive.</div></div>
 <div class="rule"><div class="label">Growth</div><div class="value">New concepts can be proposed automatically, but publication into Atlas remains evidence-bound.</div></div>
-<div class="rule"><div class="label">Path semantics</div><div class="value">A path is a documentary sequence across individually supported relations. It does not automatically establish causality between its endpoints.</div></div>
+<div class="rule"><div class="label">Reasoning semantics</div><div class="value">Direct relations are first-order evidence. A documentary bridge is a two-step adjacency across two independently supported relations. Graph traversal is topological and non-directional; neither a bridge nor a path establishes causality between endpoints.</div></div>
 <div class="rule"><div class="label">Machine-readable</div><div class="value"><a href="/data/atlas.json">The Atlas graph is publicly inspectable as JSON.</a></div></div>
 </div>
 </div>
