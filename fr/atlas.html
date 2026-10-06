@@ -48,8 +48,8 @@
 <div class="topic-meta">
 <span id="atlas-node-count">63 concepts</span>
 <span id="atlas-edge-count">76 relations documentées</span>
-<span>Relié aux preuves</span>
-<span>Corpus public</span>
+<span id="atlas-source-count">19 dossiers sources</span>
+<span id="atlas-domain-count">6 territoires de connaissance</span>
 </div>
 </div></section>
 
@@ -61,7 +61,7 @@
 </div>
 <div class="atlas-intro-copy">
 <p>Un article appartient à plusieurs catégories. Un texte sur les agents IA peut aussi parler d’identité, de permissions et de travail. Une étude sur une porte peut aussi concerner la segmentation des événements, l’interruption et la mémoire.</p>
-<p>Atlas conserve ces croisements. Sélectionnez un concept pour révéler ses relations documentées, ou choisissez deux concepts pour tracer le chemin le plus court entre leurs preuves.</p>
+<p>Atlas conserve ces croisements. Sélectionnez un concept pour inspecter ses preuves directes, activez les ponts documentaires pour révéler les adjacences en deux étapes, ou choisissez deux concepts pour tracer le plus court itinéraire relié aux preuves.</p>
 </div>
 </div>
 
@@ -75,8 +75,16 @@
 <button class="atlas-reset" id="atlas-reset" type="button">Réinitialiser</button>
 </div>
 
+<div class="atlas-lenses" aria-label="Modes de raisonnement">
+<div class="atlas-lens-copy"><div class="eyebrow">Mode de raisonnement</div><p>Les relations directes montrent la preuve de premier ordre. Les ponts documentaires révèlent une adjacence en deux étapes sans transformer la proximité en causalité.</p></div>
+<div class="atlas-lens-buttons" role="group" aria-label="Mode de raisonnement Atlas">
+<button type="button" class="atlas-lens-button is-active" data-atlas-lens="direct" aria-pressed="true">Preuve directe</button>
+<button type="button" class="atlas-lens-button" data-atlas-lens="bridges" aria-pressed="false">Ponts documentaires</button>
+</div>
+</div>
+
 <div class="atlas-pathfinder" aria-labelledby="atlas-path-title">
-<div class="atlas-pathfinder-copy"><div class="eyebrow">Explorateur de chemins</div><h3 id="atlas-path-title">Tracer un chemin documenté.</h3><p>Choisissez deux concepts. Atlas suit la plus courte succession de relations publiées qui les relie.</p></div>
+<div class="atlas-pathfinder-copy"><div class="eyebrow">Explorateur de chemins</div><h3 id="atlas-path-title">Tracer un chemin documenté.</h3><p>Choisissez deux concepts. Atlas suit le plus court itinéraire documentaire à travers les relations publiées qui les relient.</p></div>
 <div class="atlas-path-controls">
 <label>De<select id="atlas-path-from" aria-label="Concept de départ"></select></label>
 <label>Vers<select id="atlas-path-to" aria-label="Concept d’arrivée"></select></label>
@@ -100,6 +108,8 @@
 <h2 id="atlas-panel-title">Systèmes humains</h2>
 <p id="atlas-panel-summary">Les conditions par lesquelles technologies, institutions, corps et cultures façonnent l’action humaine.</p>
 <div class="atlas-panel-meta" id="atlas-panel-meta"></div>
+<div class="atlas-panel-insight" id="atlas-panel-insight"></div>
+<div class="atlas-bridges" id="atlas-bridges" hidden></div>
 <div class="atlas-relations" id="atlas-relations"></div>
 </aside>
 </div>
@@ -109,12 +119,12 @@
 <div class="eyebrow">Méthode</div>
 <div>
 <h2 class="display">Une relation doit mériter sa ligne.</h2>
-<p class="lead">Le premier Atlas est volontairement sélectif. Il ne trace pas une connexion parce que deux mots apparaissent dans le même corpus. Toute relation affichée doit être soutenue par une publication VOCE ou un travail de recherche formel.</p>
+<p class="lead">Cette édition V2 est volontairement sélective. Elle ne trace pas une connexion parce que deux mots apparaissent dans le même corpus. Toute relation affichée doit être soutenue par une publication VOCE ou un travail de recherche formel.</p>
 <div class="rule-list">
 <div class="rule"><div class="label">Source</div><div class="value">Chaque relation renvoie à une preuve dans VOCE Academy ou VOCE Research.</div></div>
 <div class="rule"><div class="label">Périmètre</div><div class="value">La carte commence par un noyau éditorial plutôt que par une visualisation automatique de toute l’archive.</div></div>
 <div class="rule"><div class="label">Croissance</div><div class="value">De nouveaux concepts peuvent être proposés automatiquement, mais leur publication dans Atlas reste liée aux preuves.</div></div>
-<div class="rule"><div class="label">Sémantique des chemins</div><div class="value">Un chemin est une succession documentaire de relations soutenues individuellement. Il n’établit pas automatiquement une causalité entre ses extrémités.</div></div>
+<div class="rule"><div class="label">Sémantique du raisonnement</div><div class="value">Les relations directes sont des preuves de premier ordre. Un pont documentaire est une adjacence en deux étapes entre deux relations soutenues séparément. Le parcours du graphe est topologique et non directionnel; ni un pont ni un chemin n’établit une causalité entre ses extrémités.</div></div>
 <div class="rule"><div class="label">Lisible par machine</div><div class="value"><a href="/data/atlas.json">Le graphe Atlas est publiquement consultable en JSON.</a></div></div>
 </div>
 </div>
