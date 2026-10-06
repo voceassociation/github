@@ -1,0 +1,3015 @@
+{
+  "checked_at": "2026-10-06T16:05:42.432885+00:00",
+  "source_commit": "0d748009c0a4301f601d096d0b14b09e447992b6",
+  "scope": "Public HTTP and server-rendered metadata; real search indexing and bot IP access not measured",
+  "local": {
+    "corpus_items": 1534,
+    "canonical_article_routes": 1534,
+    "unique_ids": 1534,
+    "unique_texts": 1534,
+    "all_articles_in_sitemap": true,
+    "redirect_aliases_excluded_from_sitemap": true,
+    "sitemap_urls": 2272,
+    "sitemap_unique_urls": 2272
+  },
+  "http_checks": [
+    {
+      "url": "https://voce.life/archive/2026/06/27/nous-nous-souvenons-facilement-de-ceux-qui-nous-ont-donne-des-conseils",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 12119,
+      "sha256": "0299549a021767b9e6d1c1ad09b3de2b549e3cc8109fe1177c735084315112ae",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "Nous nous souvenons facilement de ceux qui nous ont donné… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/06/27/nous-nous-souvenons-facilement-de-ceux-qui-nous-ont-donne-des-conseils"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "Plus rarement de ceux qui nous ont simplement montré une manière d'être. Une personne qui prenait toujours le temps d'écouter."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "Nous nous souvenons facilement de ceux qui nous ont donné…"
+        ],
+        "og:description": [
+          "Plus rarement de ceux qui nous ont simplement montré une manière d'être. Une personne qui prenait toujours le temps d'écouter."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/06/27/nous-nous-souvenons-facilement-de-ceux-qui-nous-ont-donne-des-conseils"
+        ],
+        "twitter:title": [
+          "Nous nous souvenons facilement de ceux qui nous ont donné…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "Plus rarement de ceux qui nous ont simplement montré une manière d'être. Une personne qui prenait toujours le temps d'écouter."
+        ],
+        "article:published_time": [
+          "2026-06-27T19:00:43+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/archive/2026/09/25/positive-group-mcp-marketing-saas",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 13239,
+      "sha256": "82981165b295e3c17021d772ddfac3b343baafffa2a200b071833c31255b8f19",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "Un responsable marketing ouvre son tableau SEO, repère une… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/09/25/positive-group-mcp-marketing-saas"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "Le travail est numérique. La navigation reste humaine. Le 23 septembre 2026, Positive Group ouvre Positive Surfer, Positive Iconosquare et Positive…"
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "Un responsable marketing ouvre son tableau SEO, repère une…"
+        ],
+        "og:description": [
+          "Le travail est numérique. La navigation reste humaine. Le 23 septembre 2026, Positive Group ouvre Positive Surfer, Positive Iconosquare et Positive…"
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/09/25/positive-group-mcp-marketing-saas"
+        ],
+        "twitter:title": [
+          "Un responsable marketing ouvre son tableau SEO, repère une…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "Le travail est numérique. La navigation reste humaine. Le 23 septembre 2026, Positive Group ouvre Positive Surfer, Positive Iconosquare et Positive…"
+        ],
+        "article:published_time": [
+          "2026-09-25T04:00:00+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 13794,
+      "sha256": "3f98831e1163ca04592e6d3e1b0d3b1399f5754b789eedd6dc460c872fa31031",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+        ],
+        "twitter:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "article:published_time": [
+          "2026-09-28T14:00:58+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/archive/2026/10/05/pourquoi-certaines-minutes-coutent-elles-plus-cher-que-dautres-7512949915510026240",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 13630,
+      "sha256": "f923937e6e86d37ed3ba689aa2cf5d5556da9367a11663e0e57acaaed3f588ae",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "Pourquoi certaines minutes coûtent-elles plus cher que… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/10/05/pourquoi-certaines-minutes-coutent-elles-plus-cher-que-dautres-7512949915510026240"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "Septembre 2026. Quarante-cinq adultes passent une IRM fonctionnelle. Ils doivent reproduire des intervalles de temps et des distances."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "Pourquoi certaines minutes coûtent-elles plus cher que…"
+        ],
+        "og:description": [
+          "Septembre 2026. Quarante-cinq adultes passent une IRM fonctionnelle. Ils doivent reproduire des intervalles de temps et des distances."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/10/05/pourquoi-certaines-minutes-coutent-elles-plus-cher-que-dautres-7512949915510026240"
+        ],
+        "twitter:title": [
+          "Pourquoi certaines minutes coûtent-elles plus cher que…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "Septembre 2026. Quarante-cinq adultes passent une IRM fonctionnelle. Ils doivent reproduire des intervalles de temps et des distances."
+        ],
+        "article:published_time": [
+          "2026-10-05T21:00:51+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
+      "user_agent": "Googlebot",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 13794,
+      "sha256": "3f98831e1163ca04592e6d3e1b0d3b1399f5754b789eedd6dc460c872fa31031",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+        ],
+        "twitter:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "article:published_time": [
+          "2026-09-28T14:00:58+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
+      "user_agent": "Bingbot",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 13794,
+      "sha256": "3f98831e1163ca04592e6d3e1b0d3b1399f5754b789eedd6dc460c872fa31031",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+        ],
+        "twitter:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "article:published_time": [
+          "2026-09-28T14:00:58+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
+      "user_agent": "facebookexternalhit/1.1",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 13794,
+      "sha256": "3f98831e1163ca04592e6d3e1b0d3b1399f5754b789eedd6dc460c872fa31031",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+        ],
+        "twitter:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "article:published_time": [
+          "2026-09-28T14:00:58+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
+      "user_agent": "Facebot",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 13794,
+      "sha256": "3f98831e1163ca04592e6d3e1b0d3b1399f5754b789eedd6dc460c872fa31031",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+        ],
+        "twitter:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "article:published_time": [
+          "2026-09-28T14:00:58+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
+      "user_agent": "meta-externalfetcher/1.1",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 13794,
+      "sha256": "3f98831e1163ca04592e6d3e1b0d3b1399f5754b789eedd6dc460c872fa31031",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+        ],
+        "twitter:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "article:published_time": [
+          "2026-09-28T14:00:58+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
+      "user_agent": "Meta-WebIndexer/1.1",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 13794,
+      "sha256": "3f98831e1163ca04592e6d3e1b0d3b1399f5754b789eedd6dc460c872fa31031",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+        ],
+        "twitter:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "article:published_time": [
+          "2026-09-28T14:00:58+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
+      "user_agent": "SemrushBot",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 13794,
+      "sha256": "3f98831e1163ca04592e6d3e1b0d3b1399f5754b789eedd6dc460c872fa31031",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+        ],
+        "twitter:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "article:published_time": [
+          "2026-09-28T14:00:58+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
+      "user_agent": "SiteAuditBot",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 13794,
+      "sha256": "3f98831e1163ca04592e6d3e1b0d3b1399f5754b789eedd6dc460c872fa31031",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+        ],
+        "twitter:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "article:published_time": [
+          "2026-09-28T14:00:58+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
+      "user_agent": "LinkedInBot",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 13794,
+      "sha256": "3f98831e1163ca04592e6d3e1b0d3b1399f5754b789eedd6dc460c872fa31031",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+        ],
+        "twitter:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "article:published_time": [
+          "2026-09-28T14:00:58+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
+      "user_agent": "Twitterbot",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 13794,
+      "sha256": "3f98831e1163ca04592e6d3e1b0d3b1399f5754b789eedd6dc460c872fa31031",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+        ],
+        "twitter:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "article:published_time": [
+          "2026-09-28T14:00:58+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
+      "user_agent": "Applebot",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 13794,
+      "sha256": "3f98831e1163ca04592e6d3e1b0d3b1399f5754b789eedd6dc460c872fa31031",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+        ],
+        "twitter:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "article:published_time": [
+          "2026-09-28T14:00:58+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
+      "user_agent": "DuckDuckBot",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 13794,
+      "sha256": "3f98831e1163ca04592e6d3e1b0d3b1399f5754b789eedd6dc460c872fa31031",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+        ],
+        "twitter:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "article:published_time": [
+          "2026-09-28T14:00:58+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
+      "user_agent": "OAI-SearchBot",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 13794,
+      "sha256": "3f98831e1163ca04592e6d3e1b0d3b1399f5754b789eedd6dc460c872fa31031",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+        ],
+        "twitter:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "article:published_time": [
+          "2026-09-28T14:00:58+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
+      "user_agent": "PerplexityBot",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 13794,
+      "sha256": "3f98831e1163ca04592e6d3e1b0d3b1399f5754b789eedd6dc460c872fa31031",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et… — VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744"
+        ],
+        "twitter:title": [
+          "À l'Addenbrooke's Hospital de Cambridge, Miles Parkes et…"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:description": [
+          "L'infliximab, anticorps monoclonal dirigé contre le TNF, est utilisé depuis plus de vingt ans. Ce qui change est le calendrier."
+        ],
+        "article:published_time": [
+          "2026-09-28T14:00:58+02:00"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article"
+      ],
+      "jsonld_parse_errors": 0,
+      "original_articleBody_exact": true
+    },
+    {
+      "url": "https://voce.life/",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 37835,
+      "sha256": "dff388a41632a3149228c345edc26bab06734f31574ab4501f248a2865c4e490",
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "VOCE — Research, Culture, Intelligence"
+      ],
+      "canonical": [
+        "https://voce.life/"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "VOCE analyses AI, work, digital environments, health, culture and human behaviour through research, expert practice and comparative observation."
+        ],
+        "robots": [
+          "index,follow,max-image-preview:large"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "VOCE — Research, Culture, Intelligence"
+        ],
+        "og:description": [
+          "VOCE analyses AI, work, digital environments, health, culture and human behaviour through research, expert practice and comparative observation."
+        ],
+        "og:url": [
+          "https://voce.life/"
+        ],
+        "twitter:title": [
+          "VOCE — Research, Culture, Intelligence"
+        ],
+        "twitter:description": [
+          "VOCE analyses AI, work, digital environments, health, culture and human behaviour through research, expert practice and comparative observation."
+        ],
+        "theme-color": [
+          "#fbfaf6"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Organization",
+        "WebSite"
+      ],
+      "jsonld_parse_errors": 0
+    },
+    {
+      "url": "https://voce.life/archive",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 27403,
+      "sha256": "3a2f48a7b76f3f1e82556ce7868734fa73ac0ddb6f112a2ade726b9fb2dd02ce",
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "VOCE Academy — Corpus, courses and archives"
+      ],
+      "canonical": [
+        "https://voce.life/archive"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "Explore the VOCE corpus across AI governance, health, cognition, culture and formal research, with full texts, sources and permanent URLs."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "VOCE Academy — Corpus, courses and archives"
+        ],
+        "og:description": [
+          "Explore the VOCE corpus across AI governance, health, cognition, culture and formal research, with full texts, sources and permanent URLs."
+        ],
+        "og:url": [
+          "https://voce.life/archive"
+        ],
+        "twitter:title": [
+          "VOCE Academy — Corpus, courses and archives"
+        ],
+        "twitter:description": [
+          "Explore the VOCE corpus across AI governance, health, cognition, culture and formal research, with full texts, sources and permanent URLs."
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "CollectionPage"
+      ],
+      "jsonld_parse_errors": 0
+    },
+    {
+      "url": "https://voce.life/archive/2026-06-27",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 5632,
+      "sha256": "a613caff911cd0fcaa06c57baed291ab088700c6d4b8d503341ef33c29dfcf52",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "VOCE Academy · 27 juin 2026"
+      ],
+      "canonical": [
+        "https://voce.life/archive/2026-06-27"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "2 publications VOCE conservées le 27 juin 2026 dans le corpus public et propriétaire de VOCE Association."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "VOCE Academy · 27 juin 2026"
+        ],
+        "og:description": [
+          "2 publications VOCE conservées le 27 juin 2026 dans le corpus public et propriétaire de VOCE Association."
+        ],
+        "og:url": [
+          "https://voce.life/archive/2026-06-27"
+        ],
+        "twitter:title": [
+          "VOCE Academy · 27 juin 2026"
+        ],
+        "twitter:description": [
+          "2 publications VOCE conservées le 27 juin 2026 dans le corpus public et propriétaire de VOCE Association."
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [],
+      "jsonld_parse_errors": 0
+    },
+    {
+      "url": "https://voce.life/atlas",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 16948,
+      "sha256": "c88d416ee62ec643053f2f331b6fd6825ac5312e76374acf2ba4a5e34e2bb0f3",
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "VOCE Atlas — Knowledge map",
+        "VOCE Atlas knowledge map"
+      ],
+      "canonical": [
+        "https://voce.life/atlas"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "Explore relationships across AI, cognition, health, culture and human systems in the evidence-grounded VOCE knowledge corpus."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+        ],
+        "googlebot": [
+          "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+        ],
+        "author": [
+          "VOCE Association"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:locale": [
+          "en_US"
+        ],
+        "og:locale:alternate": [
+          "fr_FR",
+          "it_IT"
+        ],
+        "og:title": [
+          "VOCE Atlas — Knowledge map"
+        ],
+        "og:description": [
+          "An evidence-grounded map of relationships across the VOCE corpus. Every connection returns to a source."
+        ],
+        "og:url": [
+          "https://voce.life/atlas"
+        ],
+        "twitter:title": [
+          "VOCE Atlas — Knowledge map"
+        ],
+        "twitter:description": [
+          "An evidence-grounded map of relationships across the VOCE corpus. Every connection returns to a source."
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "CollectionPage",
+        "Dataset"
+      ],
+      "jsonld_parse_errors": 0
+    },
+    {
+      "url": "https://voce.life/fr/atlas",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 17967,
+      "sha256": "0108105779e4ffde10a45a88916a61f96eebcf8b2e37fb793d846cd9e4329bb5",
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "VOCE Atlas — Cartographie des connaissances",
+        "Carte des connaissances VOCE Atlas"
+      ],
+      "canonical": [
+        "https://voce.life/fr/atlas"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "Explorez les relations entre IA, cognition, santé, culture et systèmes humains dans le corpus VOCE fondé sur les preuves."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+        ],
+        "googlebot": [
+          "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+        ],
+        "author": [
+          "VOCE Association"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:locale": [
+          "fr_FR"
+        ],
+        "og:locale:alternate": [
+          "en_US",
+          "it_IT"
+        ],
+        "og:title": [
+          "VOCE Atlas — Cartographie des connaissances"
+        ],
+        "og:description": [
+          "Une cartographie fondée sur les preuves des relations au sein du corpus VOCE. Chaque connexion renvoie à une source."
+        ],
+        "og:url": [
+          "https://voce.life/fr/atlas"
+        ],
+        "twitter:title": [
+          "VOCE Atlas — Cartographie des connaissances"
+        ],
+        "twitter:description": [
+          "Une cartographie fondée sur les preuves des relations au sein du corpus VOCE. Chaque connexion renvoie à une source."
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "CollectionPage",
+        "Dataset"
+      ],
+      "jsonld_parse_errors": 0
+    },
+    {
+      "url": "https://voce.life/it/atlas",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 17686,
+      "sha256": "02ed29a1450f5aa6eab195f2b76caf782470012f71900a733548a5ef4b094443",
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "VOCE Atlas — Mappa della conoscenza",
+        "Mappa della conoscenza VOCE Atlas"
+      ],
+      "canonical": [
+        "https://voce.life/it/atlas"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "Esplora le relazioni tra IA, cognizione, salute, cultura e sistemi umani nel corpus VOCE basato sulle evidenze."
+        ],
+        "robots": [
+          "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+        ],
+        "googlebot": [
+          "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+        ],
+        "author": [
+          "VOCE Association"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:locale": [
+          "it_IT"
+        ],
+        "og:locale:alternate": [
+          "en_US",
+          "fr_FR"
+        ],
+        "og:title": [
+          "VOCE Atlas — Mappa della conoscenza"
+        ],
+        "og:description": [
+          "Una mappa basata sulle evidenze delle relazioni nel corpus VOCE. Ogni connessione rimanda a una fonte."
+        ],
+        "og:url": [
+          "https://voce.life/it/atlas"
+        ],
+        "twitter:title": [
+          "VOCE Atlas — Mappa della conoscenza"
+        ],
+        "twitter:description": [
+          "Una mappa basata sulle evidenze delle relazioni nel corpus VOCE. Ogni connessione rimanda a una fonte."
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "CollectionPage",
+        "Dataset"
+      ],
+      "jsonld_parse_errors": 0
+    },
+    {
+      "url": "https://voce.life/art",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 25462,
+      "sha256": "00a2e48c30c658eb963a9d63a189075c3b509c7a4326e31b96131823805052ee",
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "VOCE Art — Art, Provenance, Discretion"
+      ],
+      "canonical": [
+        "https://voce.life/art"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "VOCE Art develops confidential cultural intermediation, documentary research and provenance-led coordination for works of art and artefacts."
+        ],
+        "robots": [
+          "index,follow,max-image-preview:large"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "VOCE Art — Art, Provenance, Discretion"
+        ],
+        "og:description": [
+          "Confidential cultural intermediation, documentary research and provenance-led coordination for works of art and artefacts."
+        ],
+        "og:url": [
+          "https://voce.life/art"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:width": [
+          "1200",
+          "1200"
+        ],
+        "og:image:height": [
+          "630",
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Art — Art, provenance, discretion",
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:title": [
+          "VOCE Art — Art, Provenance, Discretion"
+        ],
+        "twitter:description": [
+          "Confidential cultural intermediation, documentary research and provenance-led coordination for works of art and artefacts."
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg",
+          "https://voce.life/voce-og.jpg"
+        ],
+        "theme-color": [
+          "#fbfaf6"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "WebPage"
+      ],
+      "jsonld_parse_errors": 0
+    },
+    {
+      "url": "https://voce.life/governance",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 15821,
+      "sha256": "f9260c4c0cecf0df48469ea6d9584f4ea63b95fa78a9835e175aca347af60f3c",
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "AI Governance: Agentic Systems, RAG & Institutional Control | VOCE"
+      ],
+      "canonical": [
+        "https://voce.life/governance"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "VOCE examines AI governance beyond the model: agents, APIs, IAM, MCP, RAG, multi-model orchestration, observability, FinOps and institutional accountability."
+        ],
+        "robots": [
+          "index,follow,max-image-preview:large"
+        ],
+        "og:type": [
+          "article"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "AI Governance: Agentic Systems, RAG & Institutional Control | VOCE"
+        ],
+        "og:description": [
+          "VOCE examines AI governance beyond the model: agents, APIs, IAM, MCP, RAG, multi-model orchestration, observability, FinOps and institutional accountability."
+        ],
+        "og:url": [
+          "https://voce.life/governance"
+        ],
+        "og:locale": [
+          "en_GB"
+        ],
+        "twitter:title": [
+          "AI Governance: Agentic Systems, RAG & Institutional Control | VOCE"
+        ],
+        "twitter:description": [
+          "VOCE examines AI governance beyond the model: agents, APIs, IAM, MCP, RAG, multi-model orchestration, observability, FinOps and institutional accountability."
+        ],
+        "theme-color": [
+          "#fbfaf6"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "jsonld_parse_errors": 0
+    },
+    {
+      "url": "https://voce.life/robots.txt",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 1194,
+      "sha256": "15523aa0d67da0d7caeea4a7dd9b1fd702c5eff819056d409d4f9bf2d2c88849",
+      "headers": {
+        "content-type": "text/plain",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "body": "# VOCE public discovery policy\n# Search, social-preview and answer-engine crawlers are welcome on the public corpus.\n\nUser-agent: *\nAllow: /\n\n# Google Search, Images, News and inspection\nUser-agent: Googlebot\nUser-agent: Googlebot-Image\nUser-agent: Googlebot-News\nUser-agent: Google-InspectionTool\nAllow: /\n\n# Microsoft Bing, Copilot grounding and Microsoft previews\nUser-agent: Bingbot\nUser-agent: MicrosoftPreview\nAllow: /\n\n# Meta / Facebook / Instagram link discovery and user-triggered fetching\nUser-agent: facebookexternalhit\nUser-agent: Facebot\nUser-agent: meta-externalfetcher\nAllow: /\n\n# Professional and social link previews\nUser-agent: LinkedInBot\nUser-agent: Twitterbot\nAllow: /\n\n# AI answer/search retrieval\nUser-agent: OAI-SearchBot\nUser-agent: ChatGPT-User\nUser-agent: PerplexityBot\nAllow: /\n\n# OpenAI training is a separate policy from search/citation.\n# VOCE permits SearchBot discovery while reserving corpus-training rights.\nUser-agent: GPTBot\nDisallow: /\n\n# Other major discovery crawlers\nUser-agent: Applebot\nUser-agent: DuckDuckBot\nAllow: /\n\n# SEO audit crawlers used by VOCE\nUser-agent: SemrushBot\nUser-agent: SiteAuditBot\nAllow: /\n\nSitemap: https://voce.life/sitemap.xml\n"
+    },
+    {
+      "url": "https://voce.life/sitemap.xml",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 290468,
+      "sha256": "bac732c4310a4bb9bb088bf6a4442a5c8b0332e87bd4131bc63784f78c725c4d",
+      "headers": {
+        "content-type": "application/xml",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "url_count": 2272,
+      "unique_url_count": 2272,
+      "local_sitemap_exact": true
+    },
+    {
+      "url": "https://voce.life/voce-og.jpg",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 14814,
+      "sha256": "7f14dc9d1e2d7cb4d5712c38032f3c35cc946804c6bc366b6ecbab8bbdef54e5",
+      "headers": {
+        "content-type": "image/jpeg",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      }
+    },
+    {
+      "url": "https://voce.life/.well-known/voce-corpus-backup",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 652,
+      "sha256": "613573afc809c792aa389a0dd878949f7efe754ba1227ff99554440a77b97fa7",
+      "headers": {
+        "content-type": "application/json",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "backup": {
+        "status": "ok",
+        "owner": "VOCE Association",
+        "bucket": "voce-sovereign-corpus",
+        "private": true,
+        "synced_at": "2026-10-06T16:03:05.812Z",
+        "article_routes": 1534,
+        "corpus_items": 1534,
+        "article_routes_synced": 1534,
+        "source_snapshot_complete": true,
+        "backup_cursor": 480,
+        "backup_batch_size": 40,
+        "backup_complete": true,
+        "last_complete_sync_at": "2026-10-06T16:03:05.812Z",
+        "total_objects_target": 1645,
+        "objects_synced": 491,
+        "derived_backup_complete": false,
+        "derived_cursor": 480,
+        "total_derived_objects": 1634,
+        "derived_objects_synced": 480,
+        "derived_article_pages_synced": 380,
+        "source_objects_touched_in_last_sync": 11,
+        "derived_objects_touched_in_last_sync": 40,
+        "changed_in_last_sync": 5
+      }
+    },
+    {
+      "url": "https://voce.life/",
+      "user_agent": "Googlebot",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 37835,
+      "sha256": "dff388a41632a3149228c345edc26bab06734f31574ab4501f248a2865c4e490",
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "VOCE — Research, Culture, Intelligence"
+      ],
+      "canonical": [
+        "https://voce.life/"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "VOCE analyses AI, work, digital environments, health, culture and human behaviour through research, expert practice and comparative observation."
+        ],
+        "robots": [
+          "index,follow,max-image-preview:large"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "VOCE — Research, Culture, Intelligence"
+        ],
+        "og:description": [
+          "VOCE analyses AI, work, digital environments, health, culture and human behaviour through research, expert practice and comparative observation."
+        ],
+        "og:url": [
+          "https://voce.life/"
+        ],
+        "twitter:title": [
+          "VOCE — Research, Culture, Intelligence"
+        ],
+        "twitter:description": [
+          "VOCE analyses AI, work, digital environments, health, culture and human behaviour through research, expert practice and comparative observation."
+        ],
+        "theme-color": [
+          "#fbfaf6"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Organization",
+        "WebSite"
+      ],
+      "jsonld_parse_errors": 0
+    },
+    {
+      "url": "https://voce.life/",
+      "user_agent": "Bingbot",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 37835,
+      "sha256": "dff388a41632a3149228c345edc26bab06734f31574ab4501f248a2865c4e490",
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "VOCE — Research, Culture, Intelligence"
+      ],
+      "canonical": [
+        "https://voce.life/"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "VOCE analyses AI, work, digital environments, health, culture and human behaviour through research, expert practice and comparative observation."
+        ],
+        "robots": [
+          "index,follow,max-image-preview:large"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "VOCE — Research, Culture, Intelligence"
+        ],
+        "og:description": [
+          "VOCE analyses AI, work, digital environments, health, culture and human behaviour through research, expert practice and comparative observation."
+        ],
+        "og:url": [
+          "https://voce.life/"
+        ],
+        "twitter:title": [
+          "VOCE — Research, Culture, Intelligence"
+        ],
+        "twitter:description": [
+          "VOCE analyses AI, work, digital environments, health, culture and human behaviour through research, expert practice and comparative observation."
+        ],
+        "theme-color": [
+          "#fbfaf6"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Organization",
+        "WebSite"
+      ],
+      "jsonld_parse_errors": 0
+    },
+    {
+      "url": "https://voce.life/",
+      "user_agent": "facebookexternalhit/1.1",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 37835,
+      "sha256": "dff388a41632a3149228c345edc26bab06734f31574ab4501f248a2865c4e490",
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "VOCE — Research, Culture, Intelligence"
+      ],
+      "canonical": [
+        "https://voce.life/"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "VOCE analyses AI, work, digital environments, health, culture and human behaviour through research, expert practice and comparative observation."
+        ],
+        "robots": [
+          "index,follow,max-image-preview:large"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "VOCE — Research, Culture, Intelligence"
+        ],
+        "og:description": [
+          "VOCE analyses AI, work, digital environments, health, culture and human behaviour through research, expert practice and comparative observation."
+        ],
+        "og:url": [
+          "https://voce.life/"
+        ],
+        "twitter:title": [
+          "VOCE — Research, Culture, Intelligence"
+        ],
+        "twitter:description": [
+          "VOCE analyses AI, work, digital environments, health, culture and human behaviour through research, expert practice and comparative observation."
+        ],
+        "theme-color": [
+          "#fbfaf6"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Organization",
+        "WebSite"
+      ],
+      "jsonld_parse_errors": 0
+    },
+    {
+      "url": "https://voce.life/",
+      "user_agent": "SiteAuditBot",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 37835,
+      "sha256": "dff388a41632a3149228c345edc26bab06734f31574ab4501f248a2865c4e490",
+      "headers": {
+        "content-type": "text/html",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "title": [
+        "VOCE — Research, Culture, Intelligence"
+      ],
+      "canonical": [
+        "https://voce.life/"
+      ],
+      "meta": {
+        "": [
+          ""
+        ],
+        "viewport": [
+          "width=device-width,initial-scale=1"
+        ],
+        "description": [
+          "VOCE analyses AI, work, digital environments, health, culture and human behaviour through research, expert practice and comparative observation."
+        ],
+        "robots": [
+          "index,follow,max-image-preview:large"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "VOCE"
+        ],
+        "og:title": [
+          "VOCE — Research, Culture, Intelligence"
+        ],
+        "og:description": [
+          "VOCE analyses AI, work, digital environments, health, culture and human behaviour through research, expert practice and comparative observation."
+        ],
+        "og:url": [
+          "https://voce.life/"
+        ],
+        "twitter:title": [
+          "VOCE — Research, Culture, Intelligence"
+        ],
+        "twitter:description": [
+          "VOCE analyses AI, work, digital environments, health, culture and human behaviour through research, expert practice and comparative observation."
+        ],
+        "theme-color": [
+          "#fbfaf6"
+        ],
+        "og:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:secure_url": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "og:image:type": [
+          "image/jpeg"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "630"
+        ],
+        "og:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ],
+        "twitter:card": [
+          "summary_large_image"
+        ],
+        "twitter:image": [
+          "https://voce.life/voce-og.jpg"
+        ],
+        "twitter:image:alt": [
+          "VOCE Association — No One Left Unheard"
+        ]
+      },
+      "jsonld_types": [
+        "Organization",
+        "WebSite"
+      ],
+      "jsonld_parse_errors": 0
+    },
+    {
+      "url": "https://voce.life/voce-og.jpg",
+      "user_agent": "facebookexternalhit/1.1",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 14814,
+      "sha256": "7f14dc9d1e2d7cb4d5712c38032f3c35cc946804c6bc366b6ecbab8bbdef54e5",
+      "headers": {
+        "content-type": "image/jpeg",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      }
+    },
+    {
+      "url": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307538911862784",
+      "user_agent": "Googlebot",
+      "status": "308",
+      "transport_error": null,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "headers": {
+        "content-type": null,
+        "x-robots-tag": null,
+        "location": "https://voce.life/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
+        "cf-mitigated": null
+      }
+    },
+    {
+      "url": "http://voce.life/",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "301",
+      "transport_error": null,
+      "bytes": 275,
+      "sha256": "e6d211c1321fa15cd04163760622249d50a52c1735a04c7d3e35305c64efdd96",
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "location": "https://voce.life/",
+        "cf-mitigated": null
+      },
+      "title": [
+        "301 Moved Permanently"
+      ],
+      "canonical": [],
+      "meta": {},
+      "jsonld_types": [],
+      "jsonld_parse_errors": 0
+    },
+    {
+      "url": "https://www.voce.life/",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "301",
+      "transport_error": null,
+      "bytes": 280,
+      "sha256": "f50e38470ec6b67bc0e02e8028d791a5acb6b93149a74027f97a92d678cc9e05",
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "location": "https://voce.life/",
+        "cf-mitigated": null
+      },
+      "title": [
+        "301 Moved Permanently"
+      ],
+      "canonical": [],
+      "meta": {},
+      "jsonld_types": [],
+      "jsonld_parse_errors": 0
+    }
+  ],
+  "semrush": {
+    "installed": true,
+    "plugin_id": "plugin_connector_691fa57b709c8191b61c48b1f78dce21",
+    "analytics_status": "pending_tool_exposure",
+    "reason": "Installation confirmed by plugin registry; no callable Semrush tool is exposed in this session. No traffic, keyword or rank metrics claimed."
+  },
+  "findings": [
+    {
+      "issue": "corrupted_social_preview_jpeg",
+      "url": "https://voce.life/voce-og.jpg",
+      "before_sha256": "7f14dc9d1e2d7cb4d5712c38032f3c35cc946804c6bc366b6ecbab8bbdef54e5",
+      "before_bytes": 14814,
+      "before_decoder_error": "PIL.UnidentifiedImageError",
+      "repair": "Export existing VOCE SVG wordmark and existing brand colors/tagline to a valid 1200x630 JPEG; binary uploaded as base64. No article text or site layout changed.",
+      "after_local_sha256": "c57a89828118373029e1ff68f32c52cee58060211d6a1bfa08c3b1fe800180e6",
+      "after_local_bytes": 44805,
+      "after_local_dimensions": [
+        1200,
+        630
+      ],
+      "deployment_verification": "pending"
+    }
+  ]
+}
