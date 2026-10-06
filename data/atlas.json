@@ -1,7 +1,7 @@
 {
-  "schema": 2,
+  "schema": 3,
   "name": "VOCE Atlas",
-  "description": "Evidence-grounded knowledge map connecting systems, mechanisms and human consequences across the VOCE corpus.",
+  "description": "Evidence-grounded, semantically typed knowledge graph connecting systems, mechanisms and human consequences across the VOCE corpus.",
   "owner": "VOCE Association",
   "canonical": "https://voce.life/atlas",
   "generated_at": "2026-10-06",
@@ -13,7 +13,9 @@
     "relation_permalink_pattern": "/atlas/relations/{source}--{target}",
     "path_semantics": "Atlas paths are documentary graph traversals across individually supported relations. A path does not, by itself, assert causality between its endpoints.",
     "bridge_semantics": "A documentary bridge is a two-hop adjacency across two independently supported relations. It does not, by itself, assert causality between the bridge endpoints.",
-    "traversal_directionality": "Atlas pathfinding traverses graph adjacency in either direction. Relation statements preserve their authored source-target wording; a traversal does not infer causal or directional equivalence."
+    "traversal_directionality": "Atlas pathfinding traverses graph adjacency in either direction. Relation statements preserve their authored source-target wording; a traversal does not infer causal or directional equivalence.",
+    "relation_semantics": "Every published relation is assigned one primary semantic class: direct evidence, shared mechanism, correlation, technical dependency or human consequence.",
+    "inference_boundaries": "Every semantic class carries an explicit prohibited-inference boundary. The boundary is part of the relation record, not a disclaimer detached from it."
   },
   "domains": [
     {
@@ -1154,7 +1156,9 @@
       "i18n": {
         "fr": "l'architecture technique conditionne l'action",
         "it": "l'architettura tecnica condiziona l'azione"
-      }
+      },
+      "semantic_type": "technical_dependency",
+      "inference_boundary": "system_sufficiency_prohibited"
     },
     {
       "id": "human-systems--cognition",
@@ -1171,7 +1175,9 @@
       "i18n": {
         "fr": "les systèmes reconfigurent le jugement",
         "it": "i sistemi rimodellano il giudizio"
-      }
+      },
+      "semantic_type": "human_consequence",
+      "inference_boundary": "deterministic_outcome_prohibited"
     },
     {
       "id": "human-systems--health",
@@ -1188,7 +1194,9 @@
       "i18n": {
         "fr": "les systèmes modifient les trajectoires biologiques",
         "it": "i sistemi modificano le traiettorie biologiche"
-      }
+      },
+      "semantic_type": "human_consequence",
+      "inference_boundary": "deterministic_outcome_prohibited"
     },
     {
       "id": "human-systems--culture",
@@ -1205,7 +1213,9 @@
       "i18n": {
         "fr": "les systèmes façonnent la mémoire collective",
         "it": "i sistemi plasmano la memoria collettiva"
-      }
+      },
+      "semantic_type": "human_consequence",
+      "inference_boundary": "deterministic_outcome_prohibited"
     },
     {
       "id": "ai-systems--model",
@@ -1222,7 +1232,9 @@
       "i18n": {
         "fr": "contient",
         "it": "contiene"
-      }
+      },
+      "semantic_type": "technical_dependency",
+      "inference_boundary": "system_sufficiency_prohibited"
     },
     {
       "id": "ai-systems--rag",
@@ -1239,7 +1251,9 @@
       "i18n": {
         "fr": "peut inclure",
         "it": "può includere"
-      }
+      },
+      "semantic_type": "technical_dependency",
+      "inference_boundary": "system_sufficiency_prohibited"
     },
     {
       "id": "ai-systems--agents",
@@ -1256,7 +1270,9 @@
       "i18n": {
         "fr": "peut orchestrer",
         "it": "può orchestrare"
-      }
+      },
+      "semantic_type": "technical_dependency",
+      "inference_boundary": "system_sufficiency_prohibited"
     },
     {
       "id": "rag--model",
@@ -1273,7 +1289,9 @@
       "i18n": {
         "fr": "fournit le contexte récupéré à",
         "it": "fornisce il contesto recuperato a"
-      }
+      },
+      "semantic_type": "technical_dependency",
+      "inference_boundary": "system_sufficiency_prohibited"
     },
     {
       "id": "rag--testing",
@@ -1290,7 +1308,9 @@
       "i18n": {
         "fr": "exige une évaluation de bout en bout",
         "it": "richiede una valutazione end-to-end"
-      }
+      },
+      "semantic_type": "technical_dependency",
+      "inference_boundary": "system_sufficiency_prohibited"
     },
     {
       "id": "agents--mcp",
@@ -1307,7 +1327,9 @@
       "i18n": {
         "fr": "peut appeler des outils via",
         "it": "può invocare strumenti tramite"
-      }
+      },
+      "semantic_type": "technical_dependency",
+      "inference_boundary": "system_sufficiency_prohibited"
     },
     {
       "id": "mcp--saas",
@@ -1324,7 +1346,9 @@
       "i18n": {
         "fr": "expose les fonctions de",
         "it": "espone le funzioni di"
-      }
+      },
+      "semantic_type": "technical_dependency",
+      "inference_boundary": "system_sufficiency_prohibited"
     },
     {
       "id": "agents--permissions",
@@ -1341,7 +1365,9 @@
       "i18n": {
         "fr": "restent limités par",
         "it": "restano vincolati da"
-      }
+      },
+      "semantic_type": "technical_dependency",
+      "inference_boundary": "system_sufficiency_prohibited"
     },
     {
       "id": "agents--identity",
@@ -1358,7 +1384,9 @@
       "i18n": {
         "fr": "exigent une identité vérifiable",
         "it": "richiedono un'identità verificabile"
-      }
+      },
+      "semantic_type": "technical_dependency",
+      "inference_boundary": "system_sufficiency_prohibited"
     },
     {
       "id": "identity--spiffe",
@@ -1375,7 +1403,9 @@
       "i18n": {
         "fr": "peut être mise en œuvre avec",
         "it": "può essere implementata con"
-      }
+      },
+      "semantic_type": "technical_dependency",
+      "inference_boundary": "system_sufficiency_prohibited"
     },
     {
       "id": "spiffe--mtls",
@@ -1392,7 +1422,9 @@
       "i18n": {
         "fr": "permet des connexions authentifiées via",
         "it": "supporta connessioni autenticate tramite"
-      }
+      },
+      "semantic_type": "technical_dependency",
+      "inference_boundary": "system_sufficiency_prohibited"
     },
     {
       "id": "identity--permissions",
@@ -1409,7 +1441,9 @@
       "i18n": {
         "fr": "ne remplace pas",
         "it": "non sostituisce"
-      }
+      },
+      "semantic_type": "technical_dependency",
+      "inference_boundary": "system_sufficiency_prohibited"
     },
     {
       "id": "secrets--kms",
@@ -1426,7 +1460,9 @@
       "i18n": {
         "fr": "peuvent être protégés au repos par",
         "it": "possono essere protetti a riposo da"
-      }
+      },
+      "semantic_type": "technical_dependency",
+      "inference_boundary": "system_sufficiency_prohibited"
     },
     {
       "id": "secrets--permissions",
@@ -1443,7 +1479,9 @@
       "i18n": {
         "fr": "restent exposés via",
         "it": "restano esposti tramite"
-      }
+      },
+      "semantic_type": "technical_dependency",
+      "inference_boundary": "system_sufficiency_prohibited"
     },
     {
       "id": "governance--iso42001",
@@ -1460,7 +1498,9 @@
       "i18n": {
         "fr": "peut être structurée par",
         "it": "può essere strutturata da"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "iso42001--testing",
@@ -1477,7 +1517,9 @@
       "i18n": {
         "fr": "ne prouve pas à elle seule",
         "it": "non dimostra da sola"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "testing--conformity",
@@ -1494,7 +1536,9 @@
       "i18n": {
         "fr": "fournit des preuves pour",
         "it": "fornisce evidenze per"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "governance--procurement",
@@ -1511,7 +1555,9 @@
       "i18n": {
         "fr": "change les questions dans",
         "it": "cambia le domande nel"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "procurement--conformity",
@@ -1528,7 +1574,9 @@
       "i18n": {
         "fr": "doit examiner le périmètre de",
         "it": "deve esaminare il perimetro di"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "agents--light-workforce",
@@ -1545,7 +1593,9 @@
       "i18n": {
         "fr": "réduisent le travail de navigation dans",
         "it": "riducono il lavoro di navigazione nella"
-      }
+      },
+      "semantic_type": "human_consequence",
+      "inference_boundary": "deterministic_outcome_prohibited"
     },
     {
       "id": "saas--light-workforce",
@@ -1562,7 +1612,9 @@
       "i18n": {
         "fr": "déplace la valeur vers les données et l'exécution dans",
         "it": "sposta il valore verso dati ed esecuzione nella"
-      }
+      },
+      "semantic_type": "human_consequence",
+      "inference_boundary": "deterministic_outcome_prohibited"
     },
     {
       "id": "ai-systems--governance",
@@ -1579,7 +1631,9 @@
       "i18n": {
         "fr": "doivent être gouvernés au-delà du choix du modèle",
         "it": "devono essere governati oltre la scelta del modello"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "cognition--memory",
@@ -1596,7 +1650,9 @@
       "i18n": {
         "fr": "inclut",
         "it": "include"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "memory--episodic-memory",
@@ -1613,7 +1669,9 @@
       "i18n": {
         "fr": "inclut",
         "it": "include"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "episodic-memory--event-boundaries",
@@ -1630,7 +1688,9 @@
       "i18n": {
         "fr": "est réorganisée par",
         "it": "è riorganizzata da"
-      }
+      },
+      "semantic_type": "shared_mechanism",
+      "inference_boundary": "endpoint_causality_prohibited"
     },
     {
       "id": "event-boundaries--interruption",
@@ -1647,7 +1707,9 @@
       "i18n": {
         "fr": "peuvent être créées cognitivement par",
         "it": "possono essere create cognitivamente da"
-      }
+      },
+      "semantic_type": "shared_mechanism",
+      "inference_boundary": "endpoint_causality_prohibited"
     },
     {
       "id": "interruption--memory",
@@ -1664,7 +1726,9 @@
       "i18n": {
         "fr": "peut fragmenter",
         "it": "può frammentare"
-      }
+      },
+      "semantic_type": "shared_mechanism",
+      "inference_boundary": "endpoint_causality_prohibited"
     },
     {
       "id": "cognition--effort",
@@ -1681,7 +1745,9 @@
       "i18n": {
         "fr": "mobilise",
         "it": "mobilita"
-      }
+      },
+      "semantic_type": "shared_mechanism",
+      "inference_boundary": "endpoint_causality_prohibited"
     },
     {
       "id": "effort--learning",
@@ -1698,7 +1764,9 @@
       "i18n": {
         "fr": "peut contribuer à",
         "it": "può contribuire a"
-      }
+      },
+      "semantic_type": "shared_mechanism",
+      "inference_boundary": "endpoint_causality_prohibited"
     },
     {
       "id": "ai-assistance--effort",
@@ -1715,7 +1783,9 @@
       "i18n": {
         "fr": "peut réduire",
         "it": "può rimuovere"
-      }
+      },
+      "semantic_type": "human_consequence",
+      "inference_boundary": "deterministic_outcome_prohibited"
     },
     {
       "id": "ai-assistance--learning",
@@ -1732,7 +1802,9 @@
       "i18n": {
         "fr": "peut modifier la construction de",
         "it": "può modificare la costruzione di"
-      }
+      },
+      "semantic_type": "human_consequence",
+      "inference_boundary": "deterministic_outcome_prohibited"
     },
     {
       "id": "effort--ownership",
@@ -1749,7 +1821,9 @@
       "i18n": {
         "fr": "peut accroître",
         "it": "può aumentare"
-      }
+      },
+      "semantic_type": "shared_mechanism",
+      "inference_boundary": "endpoint_causality_prohibited"
     },
     {
       "id": "attention--introspective-technoference",
@@ -1766,7 +1840,9 @@
       "i18n": {
         "fr": "est fragmentée dans",
         "it": "è frammentata nella"
-      }
+      },
+      "semantic_type": "shared_mechanism",
+      "inference_boundary": "endpoint_causality_prohibited"
     },
     {
       "id": "introspective-technoference--internal-dialogue",
@@ -1783,7 +1859,9 @@
       "i18n": {
         "fr": "perturbe",
         "it": "interrompe"
-      }
+      },
+      "semantic_type": "human_consequence",
+      "inference_boundary": "deterministic_outcome_prohibited"
     },
     {
       "id": "introspective-technoference--memory",
@@ -1800,7 +1878,9 @@
       "i18n": {
         "fr": "peut modifier les conditions de",
         "it": "può modificare le condizioni per"
-      }
+      },
+      "semantic_type": "human_consequence",
+      "inference_boundary": "deterministic_outcome_prohibited"
     },
     {
       "id": "parental-technoference--joint-attention",
@@ -1817,7 +1897,9 @@
       "i18n": {
         "fr": "peut perturber",
         "it": "può interrompere"
-      }
+      },
+      "semantic_type": "human_consequence",
+      "inference_boundary": "deterministic_outcome_prohibited"
     },
     {
       "id": "joint-attention--language-development",
@@ -1834,7 +1916,9 @@
       "i18n": {
         "fr": "soutient",
         "it": "sostiene"
-      }
+      },
+      "semantic_type": "shared_mechanism",
+      "inference_boundary": "endpoint_causality_prohibited"
     },
     {
       "id": "parental-technoference--language-development",
@@ -1851,7 +1935,9 @@
       "i18n": {
         "fr": "est associée à une interaction modifiée soutenant",
         "it": "è associata a un'interazione alterata che sostiene"
-      }
+      },
+      "semantic_type": "correlation",
+      "inference_boundary": "association_causality_prohibited"
     },
     {
       "id": "attention--parental-technoference",
@@ -1868,7 +1954,9 @@
       "i18n": {
         "fr": "est détournée dans",
         "it": "viene distolta nella"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "health--her2",
@@ -1885,7 +1973,9 @@
       "i18n": {
         "fr": "utilise des marqueurs moléculaires tels que",
         "it": "utilizza marcatori molecolari come"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "her2--biliary-cancer",
@@ -1902,7 +1992,9 @@
       "i18n": {
         "fr": "définit un sous-groupe ciblable dans",
         "it": "definisce un sottogruppo targettabile nel"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "her2--precision-oncology",
@@ -1919,7 +2011,9 @@
       "i18n": {
         "fr": "soutient",
         "it": "sostiene"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "biliary-cancer--precision-oncology",
@@ -1936,7 +2030,9 @@
       "i18n": {
         "fr": "peut être reclassé par",
         "it": "può essere riclassificato da"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "health--alzheimer-pathology",
@@ -1953,7 +2049,9 @@
       "i18n": {
         "fr": "suit",
         "it": "monitora"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "alzheimer-pathology--cognitive-resilience",
@@ -1970,7 +2068,9 @@
       "i18n": {
         "fr": "ne détermine pas entièrement",
         "it": "non determina completamente"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "cognitive-resilience--memory",
@@ -1987,7 +2087,9 @@
       "i18n": {
         "fr": "décrit une performance préservée impliquant",
         "it": "descrive una prestazione preservata che coinvolge"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "health--cortical-ageing",
@@ -2004,7 +2106,9 @@
       "i18n": {
         "fr": "cartographie",
         "it": "mappa"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "cortical-ageing--glia",
@@ -2021,7 +2125,9 @@
       "i18n": {
         "fr": "montre de forts changements dans",
         "it": "mostra forti cambiamenti nelle"
-      }
+      },
+      "semantic_type": "shared_mechanism",
+      "inference_boundary": "endpoint_causality_prohibited"
     },
     {
       "id": "cortical-ageing--circadian",
@@ -2038,7 +2144,9 @@
       "i18n": {
         "fr": "modifie",
         "it": "modifica"
-      }
+      },
+      "semantic_type": "shared_mechanism",
+      "inference_boundary": "endpoint_causality_prohibited"
     },
     {
       "id": "prematurity--music",
@@ -2055,7 +2163,9 @@
       "i18n": {
         "fr": "a été étudiée avec",
         "it": "è stata studiata con"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "music--corpus-callosum",
@@ -2072,7 +2182,9 @@
       "i18n": {
         "fr": "est associée à une croissance plus rapide du",
         "it": "è associata a una crescita più rapida del"
-      }
+      },
+      "semantic_type": "correlation",
+      "inference_boundary": "association_causality_prohibited"
     },
     {
       "id": "prematurity--corpus-callosum",
@@ -2089,7 +2201,9 @@
       "i18n": {
         "fr": "implique la maturation du",
         "it": "coinvolge la maturazione del"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "wound-healing--shea",
@@ -2106,7 +2220,9 @@
       "i18n": {
         "fr": "a été étudiée expérimentalement avec",
         "it": "è stata studiata sperimentalmente usando"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "shea--wound-healing",
@@ -2123,7 +2239,9 @@
       "i18n": {
         "fr": "montre des signaux biologiques et tissulaires pertinents pour",
         "it": "mostra segnali biologici e tissutali rilevanti per"
-      }
+      },
+      "semantic_type": "shared_mechanism",
+      "inference_boundary": "endpoint_causality_prohibited"
     },
     {
       "id": "culture--luxury",
@@ -2140,7 +2258,9 @@
       "i18n": {
         "fr": "encode la valeur à travers",
         "it": "codifica il valore attraverso"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "luxury--visual-complexity",
@@ -2157,7 +2277,9 @@
       "i18n": {
         "fr": "est façonnée par",
         "it": "è plasmata da"
-      }
+      },
+      "semantic_type": "human_consequence",
+      "inference_boundary": "deterministic_outcome_prohibited"
     },
     {
       "id": "luxury--minimalism",
@@ -2174,7 +2296,9 @@
       "i18n": {
         "fr": "peut être signalée par",
         "it": "può essere segnalata da"
-      }
+      },
+      "semantic_type": "correlation",
+      "inference_boundary": "association_causality_prohibited"
     },
     {
       "id": "minimalism--visual-complexity",
@@ -2191,7 +2315,9 @@
       "i18n": {
         "fr": "n'est qu'une région de",
         "it": "è solo una regione di"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "culture--industrial-archaeology",
@@ -2208,7 +2334,9 @@
       "i18n": {
         "fr": "retrouve des systèmes techniques cachés via",
         "it": "recupera sistemi tecnici nascosti attraverso"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "industrial-archaeology--celtic-salt",
@@ -2225,7 +2353,9 @@
       "i18n": {
         "fr": "révèle",
         "it": "rivela"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "celtic-salt--national-narrative",
@@ -2242,7 +2372,9 @@
       "i18n": {
         "fr": "complexifie",
         "it": "complica"
-      }
+      },
+      "semantic_type": "human_consequence",
+      "inference_boundary": "deterministic_outcome_prohibited"
     },
     {
       "id": "culture--heritage",
@@ -2259,7 +2391,9 @@
       "i18n": {
         "fr": "organise",
         "it": "organizza"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "heritage--mont-treadwheel",
@@ -2276,7 +2410,9 @@
       "i18n": {
         "fr": "peut mal dater",
         "it": "può datare erroneamente"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "mont-treadwheel--national-narrative",
@@ -2293,7 +2429,9 @@
       "i18n": {
         "fr": "contredit une vision simplifiée de",
         "it": "contraddice una visione semplificata di"
-      }
+      },
+      "semantic_type": "human_consequence",
+      "inference_boundary": "deterministic_outcome_prohibited"
     },
     {
       "id": "culture--kentridge",
@@ -2310,7 +2448,9 @@
       "i18n": {
         "fr": "utilise la pratique artistique pour examiner",
         "it": "usa la pratica artistica per esaminare"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "kentridge--erasure",
@@ -2327,7 +2467,9 @@
       "i18n": {
         "fr": "travaille par",
         "it": "opera attraverso"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "erasure--memory",
@@ -2344,7 +2486,9 @@
       "i18n": {
         "fr": "matérialise les traces de",
         "it": "materializza le tracce di"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "memory--reconsolidation",
@@ -2361,7 +2505,9 @@
       "i18n": {
         "fr": "peut impliquer",
         "it": "può coinvolgere"
-      }
+      },
+      "semantic_type": "shared_mechanism",
+      "inference_boundary": "endpoint_causality_prohibited"
     },
     {
       "id": "culture--vernacular-architecture",
@@ -2378,7 +2524,9 @@
       "i18n": {
         "fr": "contient un savoir accumulé dans",
         "it": "contiene conoscenza accumulata nella"
-      }
+      },
+      "semantic_type": "direct_evidence",
+      "inference_boundary": "scope_generalization_prohibited"
     },
     {
       "id": "vernacular-architecture--climate-design",
@@ -2395,7 +2543,9 @@
       "i18n": {
         "fr": "met en œuvre",
         "it": "implementa"
-      }
+      },
+      "semantic_type": "shared_mechanism",
+      "inference_boundary": "endpoint_causality_prohibited"
     },
     {
       "id": "availability-heuristic--national-narrative",
@@ -2412,7 +2562,9 @@
       "i18n": {
         "fr": "peut privilégier les figures mémorables dans",
         "it": "può privilegiare figure memorabili nella"
-      }
+      },
+      "semantic_type": "human_consequence",
+      "inference_boundary": "deterministic_outcome_prohibited"
     },
     {
       "id": "availability-heuristic--heritage",
@@ -2429,7 +2581,9 @@
       "i18n": {
         "fr": "peut simplifier la lecture de",
         "it": "può semplificare la lettura di"
-      }
+      },
+      "semantic_type": "human_consequence",
+      "inference_boundary": "deterministic_outcome_prohibited"
     }
   ],
   "languages": [
@@ -2440,5 +2594,153 @@
   "description_i18n": {
     "fr": "Carte de connaissances fondée sur les preuves reliant systèmes, mécanismes et conséquences humaines dans le corpus VOCE.",
     "it": "Mappa della conoscenza basata sulle evidenze che collega sistemi, meccanismi e conseguenze umane nel corpus VOCE."
+  },
+  "semantic_model": {
+    "version": 1,
+    "principle": "Relation class describes what the evidence supports. Inference boundary describes what Atlas refuses to infer from that support.",
+    "classes": {
+      "direct_evidence": {
+        "label": "Direct evidence",
+        "description": "A descriptive, taxonomic, historical, clinical or institutional relation directly supported by the cited record without claiming a stronger mechanism.",
+        "i18n": {
+          "fr": {
+            "label": "Preuve directe",
+            "description": "Relation descriptive, taxonomique, historique, clinique ou institutionnelle directement soutenue par le dossier cité, sans revendiquer un mécanisme plus fort."
+          },
+          "it": {
+            "label": "Evidenza diretta",
+            "description": "Relazione descrittiva, tassonomica, storica, clinica o istituzionale sostenuta direttamente dal record citato, senza rivendicare un meccanismo più forte."
+          }
+        }
+      },
+      "shared_mechanism": {
+        "label": "Shared mechanism",
+        "description": "The relation is supported through a documented mechanism, intermediary process or functional pathway connecting the concepts.",
+        "i18n": {
+          "fr": {
+            "label": "Mécanisme partagé",
+            "description": "La relation est soutenue par un mécanisme documenté, un processus intermédiaire ou une voie fonctionnelle reliant les concepts."
+          },
+          "it": {
+            "label": "Meccanismo condiviso",
+            "description": "La relazione è sostenuta da un meccanismo documentato, un processo intermedio o un percorso funzionale che collega i concetti."
+          }
+        }
+      },
+      "correlation": {
+        "label": "Correlation",
+        "description": "The source supports an association or covariation, without establishing causal direction.",
+        "i18n": {
+          "fr": {
+            "label": "Corrélation",
+            "description": "La source soutient une association ou une covariation, sans établir de direction causale."
+          },
+          "it": {
+            "label": "Correlazione",
+            "description": "La fonte sostiene un’associazione o una covariazione, senza stabilire una direzione causale."
+          }
+        }
+      },
+      "technical_dependency": {
+        "label": "Technical dependency",
+        "description": "One component, control, identity layer, interface or system capability depends on or is constrained by another.",
+        "i18n": {
+          "fr": {
+            "label": "Dépendance technique",
+            "description": "Un composant, un contrôle, une couche d’identité, une interface ou une capacité système dépend d’un autre élément ou reste contraint par lui."
+          },
+          "it": {
+            "label": "Dipendenza tecnica",
+            "description": "Un componente, un controllo, un livello di identità, un’interfaccia o una capacità di sistema dipende da un altro elemento o ne è vincolato."
+          }
+        }
+      },
+      "human_consequence": {
+        "label": "Human consequence",
+        "description": "The evidence connects a system, intervention or condition to an effect on cognition, work, behaviour, health, perception or collective interpretation.",
+        "i18n": {
+          "fr": {
+            "label": "Conséquence humaine",
+            "description": "La preuve relie un système, une intervention ou une condition à un effet sur la cognition, le travail, le comportement, la santé, la perception ou l’interprétation collective."
+          },
+          "it": {
+            "label": "Conseguenza umana",
+            "description": "L’evidenza collega un sistema, un intervento o una condizione a un effetto su cognizione, lavoro, comportamento, salute, percezione o interpretazione collettiva."
+          }
+        }
+      }
+    },
+    "inference_boundaries": {
+      "scope_generalization_prohibited": {
+        "label": "Inference prohibited",
+        "description": "Do not generalize this relation beyond the population, system, period or documentary scope supported by the cited record.",
+        "i18n": {
+          "fr": {
+            "label": "Inférence interdite",
+            "description": "Ne pas généraliser cette relation au-delà de la population, du système, de la période ou du périmètre documentaire soutenu par le dossier cité."
+          },
+          "it": {
+            "label": "Inferenza vietata",
+            "description": "Non generalizzare questa relazione oltre la popolazione, il sistema, il periodo o il perimetro documentario sostenuto dal record citato."
+          }
+        }
+      },
+      "endpoint_causality_prohibited": {
+        "label": "Inference prohibited",
+        "description": "A shared mechanism does not by itself prove that one endpoint directly causes the other, nor that the mechanism is exclusive.",
+        "i18n": {
+          "fr": {
+            "label": "Inférence interdite",
+            "description": "Un mécanisme partagé ne prouve pas à lui seul qu’une extrémité cause directement l’autre, ni que ce mécanisme soit exclusif."
+          },
+          "it": {
+            "label": "Inferenza vietata",
+            "description": "Un meccanismo condiviso non prova da solo che un estremo causi direttamente l’altro, né che il meccanismo sia esclusivo."
+          }
+        }
+      },
+      "association_causality_prohibited": {
+        "label": "Inference prohibited",
+        "description": "Association does not establish causality, causal direction or individual prediction.",
+        "i18n": {
+          "fr": {
+            "label": "Inférence interdite",
+            "description": "Une association n’établit ni causalité, ni direction causale, ni prédiction individuelle."
+          },
+          "it": {
+            "label": "Inferenza vietata",
+            "description": "Un’associazione non stabilisce causalità, direzione causale o previsione individuale."
+          }
+        }
+      },
+      "system_sufficiency_prohibited": {
+        "label": "Inference prohibited",
+        "description": "A documented dependency does not prove that the component is sufficient for security, compliance, reliability or system effectiveness.",
+        "i18n": {
+          "fr": {
+            "label": "Inférence interdite",
+            "description": "Une dépendance documentée ne prouve pas que le composant suffise à garantir sécurité, conformité, fiabilité ou efficacité du système."
+          },
+          "it": {
+            "label": "Inferenza vietata",
+            "description": "Una dipendenza documentata non prova che il componente sia sufficiente a garantire sicurezza, conformità, affidabilità o efficacia del sistema."
+          }
+        }
+      },
+      "deterministic_outcome_prohibited": {
+        "label": "Inference prohibited",
+        "description": "A documented human consequence does not imply an inevitable, universal or individually predictable outcome.",
+        "i18n": {
+          "fr": {
+            "label": "Inférence interdite",
+            "description": "Une conséquence humaine documentée n’implique pas un résultat inévitable, universel ou prédictible à l’échelle individuelle."
+          },
+          "it": {
+            "label": "Inferenza vietata",
+            "description": "Una conseguenza umana documentata non implica un esito inevitabile, universale o prevedibile a livello individuale."
+          }
+        }
+      }
+    }
   }
 }
