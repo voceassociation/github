@@ -1065,3 +1065,23 @@ html[lang="it"] .atlas-panel:before{content:"Vista documentale mobile"}
   .atlas-semantic-button:first-child{grid-column:1/-1}
   .atlas-semantics{padding:22px 0 24px}
 }
+
+
+/* VOCE Atlas crawlable concept index */
+.atlas-index-section{border-top:1px solid var(--line);padding-top:72px}
+.atlas-index-head{display:grid;grid-template-columns:300px minmax(0,1fr);gap:86px;align-items:start;margin-bottom:34px}
+.atlas-index-head p{margin:0;max-width:760px;font-size:.86rem;line-height:1.6;color:#555b57}
+.atlas-index-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 42px}
+.atlas-index-domain{padding-top:14px;border-top:1px solid var(--line)}
+.atlas-index-domain h3{margin:0 0 12px;font-family:var(--serif);font-size:1.4rem;font-weight:400;color:var(--forest)}
+.atlas-index-links{display:flex;flex-wrap:wrap;gap:7px 12px}
+.atlas-index-links a{font-size:.7rem;line-height:1.4;color:#4f5651;border-bottom:1px solid rgba(18,62,51,.18)}
+.atlas-index-links a:hover{color:var(--forest);border-color:var(--forest)}
+@media(max-width:900px){
+  .atlas-index-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .atlas-index-head{grid-template-columns:1fr;gap:12px}
+}
+@media(max-width:620px){
+  .atlas-index-section{padding-top:52px}
+  .atlas-index-grid{grid-template-columns:1fr}
+}
