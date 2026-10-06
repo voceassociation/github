@@ -121,21 +121,39 @@ jobs:
           }
 
           data = json.dumps(payload).encode("utf-8")
-          req = urllib.request.Request(
+          endpoints = [
+              "https://www.bing.com/indexnow",
               "https://api.indexnow.org/indexnow",
-              data=data,
-              headers={"Content-Type": "application/json; charset=utf-8"},
-              method="POST",
-          )
+          ]
 
-          try:
-              with urllib.request.urlopen(req, timeout=30) as response:
-                  print(f"IndexNow status: {response.status}")
-                  print("Submitted URLs:")
-                  for url in urls:
-                      print(url)
-          except urllib.error.HTTPError as exc:
-              print(f"IndexNow HTTP error: {exc.code}")
-              print(exc.read().decode("utf-8", errors="replace"))
-              raise
+          last_error = None
+          for endpoint in endpoints:
+              req = urllib.request.Request(
+                  endpoint,
+                  data=data,
+                  headers={
+                      "Content-Type": "application/json; charset=utf-8",
+                      "User-Agent": "VOCE-IndexNow/1.0",
+                  },
+                  method="POST",
+              )
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as response:
+                      print(f"IndexNow endpoint: {endpoint}")
+                      print(f"IndexNow status: {response.status}")
+                      print(f"Submitted {len(urls)} URLs.")
+                      for url in urls:
+                          print(url)
+                      last_error = None
+                      break
+              except urllib.error.HTTPError as exc:
+                  body = exc.read().decode("utf-8", errors="replace")
+                  print(f"IndexNow endpoint failed: {endpoint}")
+                  print(f"IndexNow HTTP error: {exc.code}")
+                  print(body)
+                  last_error = exc
+                  continue
+
+          if last_error is not None:
+              raise last_error
           PY
