@@ -66,6 +66,13 @@
   const LENSES={board:["authorization","identity","assurance","europe","economics"],risk:["authorization","assurance","europe","data","observability"],technology:["api","mcp","a2a","identity","observability"],audit:["observability","authorization","data","europe","assurance"]};
   const STATE_ORDER={not_assessed:-1,absent:0,declared:1,documented:2,tested:3,verified_in_operation:4};
   const LEVEL_ORDER={A0:0,A1:1,A2:2,A3:3,A4:4};
+  const DEFAULT_MATURITY_LEVELS=[
+    {level:"A0",name:"Assistant"},
+    {level:"A1",name:"Tool-connected agent"},
+    {level:"A2",name:"Delegated action agent"},
+    {level:"A3",name:"Multi-agent operating system"},
+    {level:"A4",name:"Critical agent network"}
+  ];
   const KEY="voce-agent-conformance-v1";
   let data=null;
   let maturity="A2";
@@ -214,9 +221,18 @@
     container.querySelectorAll("[data-na]").forEach(el=>el.addEventListener("change",e=>{const id=e.target.dataset.na;saved[id]=saved[id]||{};saved[id].not_applicable=e.target.checked;persist();renderControls();summary();}));
     container.querySelectorAll("[data-note]").forEach(el=>el.addEventListener("input",e=>{const id=e.target.dataset.note;saved[id]=saved[id]||{};saved[id].note=e.target.value;persist();}));
   }
+  function maturityLevels(){
+    const levels=Array.isArray(data&&data.maturity_levels)
+      ? data.maturity_levels.filter(x=>x&&LEVEL_ORDER[x.level]!==undefined)
+      : [];
+    return levels.length ? levels : DEFAULT_MATURITY_LEVELS;
+  }
+
   function renderToolbar(){
     const m=root.querySelector("#cf-maturity");
-    m.innerHTML=data.maturity_levels.map(x=>'<option value="'+x.level+'"'+(x.level===maturity?' selected':'')+'>'+x.level+' · '+esc(MATURITY_LABELS[x.level]||x.name)+'</option>').join("");
+    const levels=maturityLevels();
+    if(!levels.some(x=>x.level===maturity)) maturity=levels.some(x=>x.level==="A2")?"A2":levels[0].level;
+    m.innerHTML=levels.map(x=>'<option value="'+x.level+'"'+(x.level===maturity?' selected':'')+'>'+x.level+' · '+esc(MATURITY_LABELS[x.level]||x.name)+'</option>').join("");
     m.addEventListener("change",()=>{maturity=m.value;domain="all";persist();renderControls();summary();});
     const d=root.querySelector("#cf-domain");
     d.innerHTML='<option value="all">'+T.allDomains+'</option>'+data.domains.map(x=>'<option value="'+x.id+'">'+esc(domainLabel(x.id))+'</option>').join("");
@@ -258,6 +274,21 @@
 
   fetch("/data/agent-conformance.json",{headers:{accept:"application/json"}})
     .then(r=>{if(!r.ok)throw new Error("framework unavailable");return r.json();})
-    .then(json=>{data=json;load();applyUrlContext();renderToolbar();renderControls();summary();persist();})
-    .catch(()=>{root.querySelector("#conformance-controls").innerHTML='<p class="cf-empty">Conformance framework unavailable.</p>';});
+    .then(json=>{
+      if(!json||!Array.isArray(json.domains)||!Array.isArray(json.controls)) throw new Error("invalid framework");
+      data=json;
+      if(!Array.isArray(data.maturity_levels)||!data.maturity_levels.some(x=>x&&LEVEL_ORDER[x.level]!==undefined)){
+        data.maturity_levels=DEFAULT_MATURITY_LEVELS.map(x=>({...x}));
+      }
+      load();
+      applyUrlContext();
+      renderToolbar();
+      renderControls();
+      summary();
+      persist();
+    })
+    .catch(error=>{
+      console.error("VOCE Agent Conformance:",error);
+      root.querySelector("#conformance-controls").innerHTML='<p class="cf-empty">Conformance framework unavailable.</p>';
+    });
 })();
