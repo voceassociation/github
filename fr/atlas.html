@@ -76,11 +76,17 @@
 </div>
 
 <div class="atlas-lenses" aria-label="Modes de raisonnement">
-<div class="atlas-lens-copy"><div class="eyebrow">Mode de raisonnement</div><p>Les relations directes montrent la preuve de premier ordre. Les ponts documentaires révèlent une adjacence en deux étapes sans transformer la proximité en causalité.</p></div>
+<div class="atlas-lens-copy"><div class="eyebrow">Mode de raisonnement</div><p>Les relations de premier ordre montrent une arête soutenue par une preuve. Les ponts documentaires révèlent une adjacence en deux étapes sans transformer la proximité en causalité.</p></div>
 <div class="atlas-lens-buttons" role="group" aria-label="Mode de raisonnement Atlas">
-<button type="button" class="atlas-lens-button is-active" data-atlas-lens="direct" aria-pressed="true">Preuve directe</button>
+<button type="button" class="atlas-lens-button is-active" data-atlas-lens="direct" aria-pressed="true">Relations de premier ordre</button>
 <button type="button" class="atlas-lens-button" data-atlas-lens="bridges" aria-pressed="false">Ponts documentaires</button>
 </div>
+</div>
+
+<div class="atlas-semantics" aria-labelledby="atlas-semantics-title">
+<div class="atlas-semantic-copy"><div class="eyebrow">Sémantique des relations</div><div><h3 id="atlas-semantics-title">Quelle est la nature de cette connexion?</h3><p>Atlas classe chaque relation publiée selon ce que les preuves soutiennent réellement, puis lui attache une limite d’inférence explicite.</p></div></div>
+<div class="atlas-semantic-controls" id="atlas-semantic-controls" aria-label="Classes sémantiques des relations"></div>
+<div class="atlas-inference-principle"><span>Inférence interdite</span><p>Atlas précise ce qui ne doit pas être conclu d’une relation: aucune causalité ajoutée, aucune suffisance système et aucune généralisation au-delà du périmètre cité sans preuve correspondante.</p></div>
 </div>
 
 <div class="atlas-pathfinder" aria-labelledby="atlas-path-title">
