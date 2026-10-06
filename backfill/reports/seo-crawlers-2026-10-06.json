@@ -3009,7 +3009,129 @@
         1200,
         630
       ],
-      "deployment_verification": "pending"
+      "deployment_verification": "verified_live_200_decodable_exact_sha256"
     }
-  ]
+  ],
+  "robots_checks": {
+    "source": "live robots.txt",
+    "public_article_allowed": {
+      "Applebot": true,
+      "Bingbot": true,
+      "DuckDuckBot": true,
+      "Facebot": true,
+      "Googlebot": true,
+      "LinkedInBot": true,
+      "Meta-WebIndexer/1.1": true,
+      "OAI-SearchBot": true,
+      "PerplexityBot": true,
+      "SemrushBot": true,
+      "SiteAuditBot": true,
+      "Twitterbot": true,
+      "facebookexternalhit/1.1": true,
+      "meta-externalfetcher/1.1": true
+    },
+    "gptbot_training_allowed": false
+  },
+  "summary": {
+    "http_checks": 38,
+    "named_crawler_article_probes": 14,
+    "all_article_probes_exact": true,
+    "distinct_articles_with_exact_body": 4,
+    "html_samples_canonical_matches_url": true,
+    "html_samples_have_title_description_and_og": true,
+    "html_samples_no_noindex": true,
+    "jsonld_parse_errors": 0,
+    "redirect_alias_status": "308",
+    "indexing_confirmed": false,
+    "real_bot_ip_access_confirmed": false
+  },
+  "post_deployment_checks": [
+    {
+      "url": "https://voce.life/voce-og.jpg",
+      "user_agent": "facebookexternalhit/1.1",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 44805,
+      "sha256": "c57a89828118373029e1ff68f32c52cee58060211d6a1bfa08c3b1fe800180e6",
+      "headers": {
+        "content-type": "image/jpeg",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "image_decodes": true,
+      "image_format": "JPEG",
+      "image_dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "url": "https://voce.life/voce-og.jpg",
+      "user_agent": "SiteAuditBot",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 44805,
+      "sha256": "c57a89828118373029e1ff68f32c52cee58060211d6a1bfa08c3b1fe800180e6",
+      "headers": {
+        "content-type": "image/jpeg",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "image_decodes": true,
+      "image_format": "JPEG",
+      "image_dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "url": "https://voce.life/.well-known/voce-corpus-backup",
+      "user_agent": "VOCE-Public-Discovery-Audit/1.0",
+      "status": "200",
+      "transport_error": null,
+      "bytes": 652,
+      "sha256": "03a3f31a271b313e6e7831596e3b1e01eed90954e94605e8ec1347dbfb054c2e",
+      "headers": {
+        "content-type": "application/json",
+        "x-robots-tag": null,
+        "location": null,
+        "cf-mitigated": null
+      },
+      "backup": {
+        "status": "ok",
+        "owner": "VOCE Association",
+        "bucket": "voce-sovereign-corpus",
+        "private": true,
+        "synced_at": "2026-10-06T16:11:08.852Z",
+        "article_routes": 1534,
+        "corpus_items": 1534,
+        "article_routes_synced": 1534,
+        "source_snapshot_complete": true,
+        "backup_cursor": 640,
+        "backup_batch_size": 40,
+        "backup_complete": true,
+        "last_complete_sync_at": "2026-10-06T16:11:08.852Z",
+        "total_objects_target": 1645,
+        "objects_synced": 651,
+        "derived_backup_complete": false,
+        "derived_cursor": 640,
+        "total_derived_objects": 1634,
+        "derived_objects_synced": 640,
+        "derived_article_pages_synced": 540,
+        "source_objects_touched_in_last_sync": 11,
+        "derived_objects_touched_in_last_sync": 40,
+        "changed_in_last_sync": 3
+      }
+    }
+  ],
+  "deployment": {
+    "commit": "e52d1f4a0405ddf83856f40da8e18f21a3311313",
+    "workers_build_id": "ea8180a3-6fb7-4185-8995-fe8b7aa2e449",
+    "workers_build_conclusion": "success",
+    "indexnow_workflow_run": "https://github.com/voceassociation/github/actions/runs/37493469591",
+    "indexnow_conclusion": "success"
+  },
+  "verified_at": "2026-10-06T16:12:58.171799+00:00"
 }

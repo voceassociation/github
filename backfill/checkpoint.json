@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-06T15:54:00Z",
+  "updated_at": "2026-10-06T16:12:58.171799+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -910,27 +910,29 @@
     "indexnow_key": "verified_live",
     "indexnow_retry_commit": "fab67c8f0bb0a1c3614798a189cd1771b5bdaaa3",
     "r2_backup": {
-      "status": "source_backup_verified_and_derived_backup_progressing",
+      "status": "ok",
       "owner": "VOCE Association",
       "bucket": "voce-sovereign-corpus",
       "private": true,
-      "source_snapshot_complete": true,
-      "backup_complete": true,
-      "corpus_items": 1534,
+      "synced_at": "2026-10-06T16:11:08.852Z",
       "article_routes": 1534,
-      "last_observed_sync_at": "2026-10-06T15:51:12.706Z",
+      "corpus_items": 1534,
+      "article_routes_synced": 1534,
+      "source_snapshot_complete": true,
+      "backup_cursor": 640,
+      "backup_batch_size": 40,
+      "backup_complete": true,
+      "last_complete_sync_at": "2026-10-06T16:11:08.852Z",
+      "total_objects_target": 1645,
+      "objects_synced": 651,
       "derived_backup_complete": false,
-      "derived_cursor": 280,
+      "derived_cursor": 640,
       "total_derived_objects": 1634,
-      "derived_article_pages_synced": 180,
-      "progress_verified": {
-        "previous_cursor": 240,
-        "current_cursor": 280
-      },
-      "cloudflare_production_version": "10618fe8",
-      "cloudflare_build_id": "b898131a",
-      "deployed_commit": "fafa36e622c87a46cdcf5a44ab56ada396a0dfac",
-      "resume": "Scheduled cron continues rendering batches of 40; check derived_backup_complete before claiming all HTML copies complete."
+      "derived_objects_synced": 640,
+      "derived_article_pages_synced": 540,
+      "source_objects_touched_in_last_sync": 11,
+      "derived_objects_touched_in_last_sync": 40,
+      "changed_in_last_sync": 3
     },
     "research_registry": {
       "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
@@ -1135,6 +1137,78 @@
         "cloudflare_build_id": "b898131a",
         "deployed_commit": "fafa36e622c87a46cdcf5a44ab56ada396a0dfac",
         "resume": "Scheduled cron continues rendering batches of 40; check derived_backup_complete before claiming all HTML copies complete."
+      }
+    },
+    "seo_crawler_audit": {
+      "checked_at": "2026-10-06T16:05:42.432885+00:00",
+      "report": "backfill/reports/seo-crawlers-2026-10-06.json",
+      "read_only_audit_script": "backfill/audit_crawlers.py",
+      "summary": {
+        "http_checks": 38,
+        "named_crawler_article_probes": 14,
+        "all_article_probes_exact": true,
+        "distinct_articles_with_exact_body": 4,
+        "html_samples_canonical_matches_url": true,
+        "html_samples_have_title_description_and_og": true,
+        "html_samples_no_noindex": true,
+        "jsonld_parse_errors": 0,
+        "redirect_alias_status": "308",
+        "indexing_confirmed": false,
+        "real_bot_ip_access_confirmed": false
+      },
+      "corpus_items": 1534,
+      "sitemap_urls": 2272,
+      "all_articles_in_sitemap": true,
+      "social_preview_repair": {
+        "issue": "JPEG responded 200 but was not decodable",
+        "commit": "e52d1f4a0405ddf83856f40da8e18f21a3311313",
+        "local_image_dimensions": [
+          1200,
+          630
+        ],
+        "status": "verified_live",
+        "dimensions": [
+          1200,
+          630
+        ],
+        "sha256": "c57a89828118373029e1ff68f32c52cee58060211d6a1bfa08c3b1fe800180e6",
+        "workers_build_conclusion": "success"
+      },
+      "semrush": {
+        "installed": true,
+        "plugin_id": "plugin_connector_691fa57b709c8191b61c48b1f78dce21",
+        "analytics_status": "pending_tool_exposure",
+        "reason": "Installation confirmed by plugin registry; no callable Semrush tool is exposed in this session. No traffic, keyword or rank metrics claimed."
+      },
+      "resume": [
+        "When Semrush tools are exposed, retrieve domain visibility and organic keywords for voce.life; preserve source/database/date, distinguish estimated metrics from actual Search Console/Bing indexing.",
+        "Continue normal daily publication reconciliation; retain original full texts, permanent URLs, design and Academy Guide languages."
+      ],
+      "verified_at": "2026-10-06T16:12:58.171799+00:00",
+      "r2_status_at_verification": {
+        "status": "ok",
+        "owner": "VOCE Association",
+        "bucket": "voce-sovereign-corpus",
+        "private": true,
+        "synced_at": "2026-10-06T16:11:08.852Z",
+        "article_routes": 1534,
+        "corpus_items": 1534,
+        "article_routes_synced": 1534,
+        "source_snapshot_complete": true,
+        "backup_cursor": 640,
+        "backup_batch_size": 40,
+        "backup_complete": true,
+        "last_complete_sync_at": "2026-10-06T16:11:08.852Z",
+        "total_objects_target": 1645,
+        "objects_synced": 651,
+        "derived_backup_complete": false,
+        "derived_cursor": 640,
+        "total_derived_objects": 1634,
+        "derived_objects_synced": 640,
+        "derived_article_pages_synced": 540,
+        "source_objects_touched_in_last_sync": 11,
+        "derived_objects_touched_in_last_sync": 40,
+        "changed_in_last_sync": 3
       }
     }
   }
