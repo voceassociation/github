@@ -1029,3 +1029,39 @@ html[lang="it"] .atlas-panel:before{content:"Vista documentale mobile"}
   .atlas-insight-stat strong{font-size:1.18rem}
   .atlas-insight-stat span{font-size:.5rem}
 }
+
+
+/* VOCE Atlas V2 semantic layer */
+.atlas-semantics{padding:26px 0 30px;border-bottom:1px solid var(--line)}
+.atlas-semantic-copy{display:grid;grid-template-columns:180px minmax(0,1fr);gap:34px;align-items:start}
+.atlas-semantic-copy h3{margin:0;font-family:var(--serif);font-size:clamp(1.7rem,2.7vw,2.65rem);font-weight:400;line-height:1.04;letter-spacing:-.014em;color:var(--forest)}
+.atlas-semantic-copy p{margin:9px 0 0;max-width:800px;font-size:.82rem;line-height:1.58;color:#555b57}
+.atlas-semantic-controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:22px}
+.atlas-semantic-button{display:flex;justify-content:space-between;gap:14px;align-items:baseline;min-height:46px;padding:10px 12px;border:1px solid var(--line);background:transparent;text-align:left;color:#4b514d;cursor:pointer}
+.atlas-semantic-button strong{font:600 .61rem var(--sans);letter-spacing:.09em;text-transform:uppercase}
+.atlas-semantic-button span{font-family:var(--serif);font-size:1.02rem;color:var(--muted)}
+.atlas-semantic-button:hover,.atlas-semantic-button.is-active{border-color:var(--forest);color:var(--forest)}
+.atlas-semantic-button.is-active{background:rgba(18,62,51,.055)}
+.atlas-semantic-button.is-active span{color:var(--forest)}
+.atlas-inference-principle{display:grid;grid-template-columns:180px minmax(0,1fr);gap:34px;margin-top:20px;padding-top:18px;border-top:1px solid var(--line)}
+.atlas-inference-principle span{font-size:.59rem;font-weight:700;text-transform:uppercase;letter-spacing:.13em;color:var(--forest)}
+.atlas-inference-principle p{margin:0;max-width:820px;font-size:.72rem;line-height:1.55;color:var(--muted)}
+.atlas-filter-state{padding:12px 0;border-bottom:1px solid var(--line);font-size:.58rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+.atlas-filter-state strong{color:var(--forest);font-weight:600}
+.atlas-relation-semantic{margin:12px 0 8px;padding:10px 12px;border-left:2px solid var(--forest);background:rgba(18,62,51,.025)}
+.atlas-relation-semantic span{display:block;font-size:.54rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+.atlas-relation-semantic strong{display:block;margin-top:3px;font-family:var(--serif);font-size:1.03rem;font-weight:400;color:var(--forest)}
+.atlas-relation-semantic p{margin:5px 0 0!important;font-size:.68rem!important;line-height:1.48!important;color:#5a605c!important}
+.atlas-inference-boundary{margin:8px 0 10px;padding:10px 12px;border:1px solid var(--line)}
+.atlas-inference-boundary span{display:block;font-size:.54rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--forest)}
+.atlas-inference-boundary p{margin:5px 0 0!important;font-size:.68rem!important;line-height:1.48!important;color:#5a605c!important}
+.atlas-path-step .atlas-relation-semantic,.atlas-path-step .atlas-inference-boundary{max-width:760px}
+.atlas-documentary-bridge .atlas-documentary-bridge-meta{line-height:1.4}
+.atlas-relation-semantic--page{margin:18px 0}
+.atlas-inference-boundary--page{margin:18px 0}
+@media(max-width:760px){
+  .atlas-semantic-copy,.atlas-inference-principle{grid-template-columns:1fr;gap:8px}
+  .atlas-semantic-controls{grid-template-columns:1fr 1fr}
+  .atlas-semantic-button:first-child{grid-column:1/-1}
+  .atlas-semantics{padding:22px 0 24px}
+}
