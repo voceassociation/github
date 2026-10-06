@@ -837,5 +837,70 @@
     "Security incident or material near miss",
     "Regulatory classification or sector-role change",
     "Material supplier, licensing or contract change"
+  ],
+  "maturity_levels": [
+    {
+      "level": "A0",
+      "name": "Assistant",
+      "description": "Generates or retrieves content; no external action authority.",
+      "minimum_controls": [
+        "Identity of user/session",
+        "Data boundary",
+        "Source provenance",
+        "Output review"
+      ]
+    },
+    {
+      "level": "A1",
+      "name": "Tool-connected agent",
+      "description": "Can call approved read or low-impact tools.",
+      "minimum_controls": [
+        "Tool inventory",
+        "Per-tool authorization",
+        "Audit spans",
+        "Rate limits",
+        "Revocation"
+      ]
+    },
+    {
+      "level": "A2",
+      "name": "Delegated action agent",
+      "description": "Can execute business actions under bounded delegated authority.",
+      "minimum_controls": [
+        "Workload identity",
+        "Policy decision point",
+        "Transaction limits",
+        "Human approval gates",
+        "Idempotency",
+        "Rollback or compensating action"
+      ]
+    },
+    {
+      "level": "A3",
+      "name": "Multi-agent operating system",
+      "description": "Multiple agents coordinate tasks, models and tools across systems.",
+      "minimum_controls": [
+        "A2A/MCP governance",
+        "Delegation chain",
+        "Cross-agent data policy",
+        "Central observability",
+        "Supplier routing policy",
+        "Continuous evaluation"
+      ]
+    },
+    {
+      "level": "A4",
+      "name": "Critical agent network",
+      "description": "Agentic execution can materially affect regulated, financial, clinical, infrastructure or public-service outcomes.",
+      "minimum_controls": [
+        "Board-level owner",
+        "Formal risk classification",
+        "Independent assurance",
+        "Incident exercises",
+        "Exit/recovery plan",
+        "Regulatory evidence pack",
+        "Tested emergency stop"
+      ]
+    }
   ]
 }
