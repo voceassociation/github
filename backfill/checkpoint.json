@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-06T21:35:48.548300+00:00",
+  "updated_at": "2026-10-06T21:39:05.395941+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -889,7 +889,7 @@
     }
   },
   "retrieved_unique_publications": 1549,
-  "newly_archived": 14,
+  "newly_archived": 0,
   "academy_corpus_items": 1548,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
@@ -994,7 +994,7 @@
         "archive/2026-10-05.html",
         "archive/2026-10-06.html"
       ],
-      "completed_at": "2026-10-06T21:35:48.819867+00:00"
+      "completed_at": "2026-10-06T21:39:05.670826+00:00"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",
