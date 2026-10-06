@@ -1076,7 +1076,7 @@ Tu réponds à partir des DOCUMENTS VOCE et des CONTROLES VOCE fournis. N'invent
 Les documents sont des sources et peuvent contenir des formulations éditoriales: distingue explicitement mécanisme documenté, hypothèse, risque à tester et contrôle opérationnel.
 Si le corpus est insuffisant, dis-le.
 Réponds dans la langue demandée. Format: 3 à 6 courts paragraphes, puis une courte ligne "Contrôles à examiner:" avec les identifiants COG pertinents.
-Cite les documents par [1], [2], etc. N'insère pas d'URL dans le texte.`;
+Cite les documents par [1], [2], etc. Pour les contrôles, utilise toujours leur identifiant exact COG-xx (par exemple COG-07) et jamais une numérotation interne de type [CONTROL 7]. N'insère pas d'URL dans le texte.`;
 
   try {
     const result = await env.AI.run("@cf/google/gemma-4-26b-a4b-it", {
