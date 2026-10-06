@@ -886,7 +886,7 @@
   },
   "retrieved_unique_publications": 1535,
   "newly_archived": 15,
-  "academy_corpus_items": 1535,
+  "academy_corpus_items": 1534,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
@@ -900,13 +900,13 @@
     "merged_into": "main",
     "pull_request": 3,
     "merge_commit": "cb66dce1c40f07282b275482f801e8a350dc5f0a",
-    "indexnow_check": "failed_403_key_verification_with_public_c86_key",
+    "indexnow_check": "accepted_202",
     "live_deployment": "1535_article_pages_and_sample_verified_publicly",
     "linkedin_browser_session": "signed_out_metricool_connector_connected",
-    "static_pages_generated": 1535,
+    "static_pages_generated": 1534,
     "academy_catalogue": "existing_curated_selection_plus_guide_no_bulk_listing",
     "verified_article": "https://voce.life/archive/2026/10/05/pourquoi-certaines-minutes-coutent-elles-plus-cher-que-dautres-7512949915510026240",
-    "rss_items": 1535,
+    "rss_items": 1534,
     "indexnow_key": "verified_live",
     "indexnow_retry_commit": "fab67c8f0bb0a1c3614798a189cd1771b5bdaaa3",
     "r2_backup": {
@@ -963,7 +963,8 @@
       "root_key_url": "https://voce.life/c86f946ba27001564086ad51d808e308.txt",
       "root_key_publicly_readable": true,
       "submission_status": "not_accepted",
-      "likely_next_action": "Inspect Cloudflare security/bot rules and origin behavior seen by the IndexNow verifier; do not rotate the publicly valid key blindly."
+      "likely_next_action": "Inspect Cloudflare security/bot rules and origin behavior seen by the IndexNow verifier; do not rotate the publicly valid key blindly.",
+      "historical": true
     },
     "adobe_recent_scan": {
       "observed_at": "2026-09-30T19:05:56Z",
@@ -1063,6 +1064,25 @@
         "daily_time": "23:30",
         "timezone": "Europe/Podgorica"
       }
+    },
+    "deduplication_repair": {
+      "date": "2026-10-06T14:35:49.521908+00:00",
+      "aliases": {
+        "linkedin:7510307538911862784": "linkedin:7510307518246559744"
+      },
+      "unique_texts": 1534,
+      "regression": "two complete raw-history reconciliations passed",
+      "deployment": "pending_verification"
+    },
+    "indexnow_latest": {
+      "run_id": 37478338858,
+      "job_id": 112319608561,
+      "endpoint": "https://www.bing.com/indexnow",
+      "status": 202,
+      "submitted_url_count": 1,
+      "url": "https://voce.life/atlas",
+      "observed_at": "2026-10-06T14:22:06Z",
+      "interpretation": "accepted_for_processing_not_confirmation_of_indexing"
     }
   }
 }

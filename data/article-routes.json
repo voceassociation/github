@@ -8728,12 +8728,6 @@
       "path": "/archive/2026/10/01/opera-voce-la-violenza-entra-nel-bilancio-7511258742240411648"
     },
     {
-      "id": "linkedin:7510307538911862784",
-      "post_id": "7510307538911862784",
-      "date": "2026-09-28",
-      "path": "/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307538911862784"
-    },
-    {
       "id": "linkedin:7510775611695484928",
       "post_id": "7510775611695484928",
       "date": "2026-09-29",
@@ -9212,6 +9206,14 @@
       "post_id": "7512708292570243072",
       "date": "2026-10-05",
       "path": "/archive/2026/10/05/stanford-lia-peut-reduire-les-juniors-avant-de-reduire-les-postes-7512708292570243072"
+    },
+    {
+      "id": "redirect:linkedin:7510307538911862784",
+      "post_id": "7510307538911862784",
+      "date": "2026-09-28",
+      "path": "/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307538911862784",
+      "redirect_to": "/archive/2026/09/28/a-l-addenbrooke-s-hospital-de-cambridge-miles-parkes-et-son-equipe-ont-t-7510307518246559744",
+      "canonical_id": "linkedin:7510307518246559744"
     }
   ]
 }

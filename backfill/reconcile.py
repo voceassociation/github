@@ -2,6 +2,7 @@ import json, re, hashlib, unicodedata
 from pathlib import Path
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
+from deduplicate import consolidate
 
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / 'backfill'
@@ -31,6 +32,7 @@ for p in sorted((ROOT/'data/history').glob('*.json')):
             raise ValueError('Conflicting existing records: ' + item['id'])
         existing.setdefault(item['id'], item)
 route_by_id = {x['id']:x for x in routes['items']}
+consolidated_aliases = consolidate(existing, histories, route_by_id)
 text_owner = {}
 for item in existing.values():
     text_owner.setdefault(digest(item['text']), item)
@@ -103,7 +105,7 @@ for key,item in existing.items():
         route_by_id[key] = {'id':key,'post_id':item['platform_id'].rsplit(':',1)[-1],
                             'date':item['date_published'][:10],
                             'path':item['canonical_url'].removeprefix('https://voce.life')}
-    if key not in original: corpus['items'].append(item)
+corpus['items'] = list(existing.values())
 corpus['item_count'] = len(corpus['items'])
 corpus['generated_at'] = datetime.now(timezone.utc).isoformat()
 routes['items'] = list(route_by_id.values()); routes['generated_at'] = corpus['generated_at']
@@ -139,6 +141,10 @@ import xml.etree.ElementTree as ET
 ns='http://www.sitemaps.org/schemas/sitemap/0.9'; ET.register_namespace('',ns)
 sitemap_path=ROOT/'sitemap.xml'; tree=ET.parse(sitemap_path); root=tree.getroot()
 locations={x.text for x in root.findall('{'+ns+'}url/{'+ns+'}loc')}
+redirect_urls = {'https://voce.life'+x['path'] for x in routes['items'] if x.get('redirect_to')}
+for node in list(root):
+    if node.find('{'+ns+'}loc').text in redirect_urls:
+        root.remove(node)
 for route in routes['items']:
     if route.get('redirect_to'):
         continue

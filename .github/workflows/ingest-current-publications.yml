@@ -49,6 +49,9 @@ jobs:
               if history.exists(): assert (root/"archive"/f"{day}.html").exists()
           ids={x["id"] for x in corpus["items"]}
           assert len(ids) == corpus["item_count"]
+          assert len({x["text"] for x in corpus["items"]}) == corpus["item_count"], "Identical publication texts must be consolidated"
+          alternate_ids={p.get("platform_id") for x in corpus["items"] for p in x.get("alternate_publications", [])}
+          assert not alternate_ids.intersection(x["platform_id"] for x in corpus["items"]), "A consolidated alias was reimported"
           solutions=json.loads((root/"data/applied-solutions.json").read_text())
           assert solutions["schema"] == 3
           assert len({x["id"] for x in solutions["solutions"]}) == len(solutions["solutions"])

@@ -56,7 +56,7 @@ jobs:
           # Manual dispatch is the only deliberate full resubmission.
           # A workflow-only change probes the Atlas root instead of blasting
           # historical URLs that did not change.
-          if event_name == "workflow_dispatch":
+          if event_name == "workflow_dispatch" or "backfill/indexnow-resubmit.json" in changed:
               tree = ET.parse("sitemap.xml")
               ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
               urls.extend(
