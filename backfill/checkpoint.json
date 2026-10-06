@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-06T21:39:05.395941+00:00",
+  "updated_at": "2026-10-06T21:40:10.810Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -889,7 +889,7 @@
     }
   },
   "retrieved_unique_publications": 1549,
-  "newly_archived": 0,
+  "newly_archived": 14,
   "academy_corpus_items": 1548,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
@@ -905,38 +905,26 @@
     "pull_request": 3,
     "merge_commit": "cb66dce1c40f07282b275482f801e8a350dc5f0a",
     "indexnow_check": "accepted_202",
-    "live_deployment": "1534_unique_articles_verified_publicly",
+    "live_deployment": "1548_unique_articles_verified_publicly",
     "linkedin_browser_session": "signed_out_metricool_connector_connected",
-    "static_pages_generated": 1534,
+    "static_pages_generated": 1548,
     "academy_catalogue": "existing_curated_selection_plus_guide_no_bulk_listing",
-    "verified_article": "https://voce.life/archive/2026/10/05/pourquoi-certaines-minutes-coutent-elles-plus-cher-que-dautres-7512949915510026240",
-    "rss_items": 1534,
+    "verified_article": "https://voce.life/archive/2026/10/06/a-chicago-une-tornade-se-forme-a-quelques-metres-des-visiteurs-7513267092767502336",
+    "rss_items": 1548,
     "indexnow_key": "verified_live",
     "indexnow_retry_commit": "fab67c8f0bb0a1c3614798a189cd1771b5bdaaa3",
     "r2_backup": {
       "status": "ok",
-      "owner": "VOCE Association",
-      "bucket": "voce-sovereign-corpus",
-      "private": true,
-      "synced_at": "2026-10-06T16:11:08.852Z",
-      "article_routes": 1534,
-      "corpus_items": 1534,
-      "article_routes_synced": 1534,
+      "synced_at": "2026-10-06T21:38:58.320Z",
+      "corpus_items": 1548,
+      "article_routes": 1548,
       "source_snapshot_complete": true,
-      "backup_cursor": 640,
-      "backup_batch_size": 40,
       "backup_complete": true,
-      "last_complete_sync_at": "2026-10-06T16:11:08.852Z",
-      "total_objects_target": 1645,
-      "objects_synced": 651,
       "derived_backup_complete": false,
-      "derived_cursor": 640,
-      "total_derived_objects": 1634,
-      "derived_objects_synced": 640,
-      "derived_article_pages_synced": 540,
-      "source_objects_touched_in_last_sync": 11,
-      "derived_objects_touched_in_last_sync": 40,
-      "changed_in_last_sync": 3
+      "derived_cursor": 1320,
+      "total_derived_objects": 1649,
+      "derived_objects_synced": 1320,
+      "derived_article_pages_synced": 1219
     },
     "research_registry": {
       "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
@@ -946,7 +934,7 @@
         "https://voce.life/research/introspective-technoference",
         "https://voce.life/research/parental-technoference-language-development"
       ],
-      "last_verified_at": "2026-10-05T21:39:00Z",
+      "last_verified_at": "2026-10-06T21:40:10.810Z",
       "status": "Canonical research targets and authoritative DOI metadata remain consistent; no new formal output added."
     },
     "facebook": {
@@ -985,6 +973,7 @@
       ],
       "verified_source": "Metricool LinkedIn connector, brand 7090850",
       "items_processed": 60,
+      "newly_archived": 14,
       "corpus_items_after": 1548,
       "classification": "A editorial/archive",
       "static_pages_verified_for_generation": 60,
@@ -994,7 +983,55 @@
         "archive/2026-10-05.html",
         "archive/2026-10-06.html"
       ],
-      "completed_at": "2026-10-06T21:39:05.670826+00:00"
+      "completed_at": "2026-10-06T21:40:10.810Z",
+      "deployment_verified_at": "2026-10-06T21:40:10.810Z",
+      "verification": {
+        "article": "https://voce.life/archive/2026/10/06/a-chicago-une-tornade-se-forme-a-quelques-metres-des-visiteurs-7513267092767502336",
+        "articleBodyLength": 1931,
+        "articleBodyFNV1a": "9bf4de26",
+        "decoded_source_exact_match": true,
+        "canonical_verified": true,
+        "robots": "index,follow,max-snippet:-1,max-image-preview:large",
+        "og_image": "https://voce.life/voce-og.jpg",
+        "sameAs": [
+          "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513267092767502336"
+        ],
+        "guide_query": "Chicago tornado vortex Science Storms",
+        "guide_result_verified": true,
+        "academy_visible_count": 1548
+      },
+      "deduplication": {
+        "unique_texts": 1548,
+        "alternate_ids_reimported": 0,
+        "canonical_routes": 1548,
+        "redirects": 1,
+        "validation_status": "passed"
+      },
+      "indexnow": {
+        "endpoint": "https://www.bing.com/indexnow",
+        "status": "failed_403_key_verification",
+        "workflow_run": "https://github.com/voceassociation/github/actions/runs/37535330356",
+        "submitted_scope": "current four-day window only",
+        "global_submission_repeated": false,
+        "prior_global_success_run": "https://github.com/voceassociation/github/actions/runs/37480606608",
+        "prior_global_status": 200
+      },
+      "r2_backup": {
+        "status": "ok",
+        "synced_at": "2026-10-06T21:38:58.320Z",
+        "corpus_items": 1548,
+        "article_routes": 1548,
+        "source_snapshot_complete": true,
+        "backup_complete": true,
+        "derived_backup_complete": false,
+        "derived_cursor": 1320,
+        "total_derived_objects": 1649,
+        "derived_objects_synced": 1320,
+        "derived_article_pages_synced": 1219
+      },
+      "source_commit": "8f1f96d554a25ae0a446a0c34fe4138c0bc3dda9",
+      "corpus_commit": "cdadbe93139aa3395c5040a45a5bf0fe9a63b290",
+      "indexnow_endpoint_fix_commit": "33ddeef28293530392f90b1514d7385927537650"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",
@@ -1042,8 +1079,8 @@
       "aliases": {
         "linkedin:7510307538911862784": "linkedin:7510307518246559744"
       },
-      "unique_texts": 1534,
-      "regression": "two complete raw-history reconciliations passed",
+      "unique_texts": 1548,
+      "regression": "Current reconciliation and validation passed: every full text unique and no alternate_publications identifier present as an article.",
       "deployment": "verified_publicly",
       "live_checks": {
         "visible_count": 1534,
@@ -1184,6 +1221,15 @@
         "derived_objects_touched_in_last_sync": 40,
         "changed_in_last_sync": 3
       }
+    },
+    "indexnow_current_submission": {
+      "endpoint": "https://www.bing.com/indexnow",
+      "status": "failed_403_key_verification",
+      "workflow_run": "https://github.com/voceassociation/github/actions/runs/37535330356",
+      "submitted_scope": "current four-day window only",
+      "global_submission_repeated": false,
+      "prior_global_success_run": "https://github.com/voceassociation/github/actions/runs/37480606608",
+      "prior_global_status": 200
     }
   }
 }
