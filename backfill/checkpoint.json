@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-06T16:12:58.171799+00:00",
+  "updated_at": "2026-10-06T21:35:48.548300+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -882,11 +882,15 @@
     "2026-10-05": {
       "status": "rows_returned",
       "rows": 15
+    },
+    "2026-10-06": {
+      "status": "rows_returned",
+      "rows": 14
     }
   },
-  "retrieved_unique_publications": 1535,
-  "newly_archived": 15,
-  "academy_corpus_items": 1534,
+  "retrieved_unique_publications": 1549,
+  "newly_archived": 14,
+  "academy_corpus_items": 1548,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
@@ -974,53 +978,23 @@
     },
     "current_publication_ingest": {
       "dates": [
-        "2026-10-02",
         "2026-10-03",
         "2026-10-04",
-        "2026-10-05"
+        "2026-10-05",
+        "2026-10-06"
       ],
       "verified_source": "Metricool LinkedIn connector, brand 7090850",
-      "items_processed": 61,
-      "corpus_items_after": 1535,
+      "items_processed": 60,
+      "corpus_items_after": 1548,
       "classification": "A editorial/archive",
-      "static_pages_verified_for_generation": 61,
+      "static_pages_verified_for_generation": 60,
       "daily_archives": [
-        "archive/2026-10-02.html",
         "archive/2026-10-03.html",
         "archive/2026-10-04.html",
-        "archive/2026-10-05.html"
+        "archive/2026-10-05.html",
+        "archive/2026-10-06.html"
       ],
-      "completed_at": "2026-10-05T21:35:48.804232+00:00",
-      "deployment_verified_at": "2026-10-05T21:39:00Z",
-      "verification": {
-        "article": "https://voce.life/archive/2026/10/05/pourquoi-certaines-minutes-coutent-elles-plus-cher-que-dautres-7512949915510026240",
-        "articleBodyLength": 2887,
-        "decoded_source_exact_match": true,
-        "canonical_verified": true,
-        "robots": "index,follow,max-snippet:-1,max-image-preview:large",
-        "guide_query": "Vatansever stress temps IRM",
-        "guide_result_verified": true,
-        "academy_visible_count": 1535,
-        "sitemap_included": true
-      },
-      "indexnow": {
-        "status": "failed_403_key_verification",
-        "workflow_run": "https://github.com/voceassociation/github/actions/runs/37376864211",
-        "key_publicly_readable": true
-      },
-      "r2_backup": {
-        "status": "syncing_stale_manifest",
-        "synced_at": "2026-09-30T15:00:48.996Z",
-        "backup_cursor": 0,
-        "objects_synced": 0,
-        "backup_complete": false
-      },
-      "workflow_repair": {
-        "issue": "update_applied_solutions.py referenced undefined marker",
-        "fix_commit": "9b0a6aa3202b7bd584456a898f16295e38bddd2f",
-        "status": "fixed_and_verified",
-        "applied_solution_evidence_records": 34
-      }
+      "completed_at": "2026-10-06T21:35:48.819867+00:00"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",

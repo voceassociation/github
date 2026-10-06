@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generated_at": "2026-10-05",
+  "generated_at": "2026-10-06",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
   "methodology": {
@@ -3573,6 +3573,56 @@
         "hr",
         "culture",
         "marketing",
+        "banking",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7513085781318651904",
+      "date": "2026-10-06",
+      "title": "IBM Bob: l’agent entre enfin dans le code que l’entreprise refuse de sortir",
+      "path": "/archive/2026/10/06/ibm-bob-lagent-entre-enfin-dans-le-code-que-lentreprise-refuse-de-sortir-7513085781318651904",
+      "sectors": [
+        "legal",
+        "banking",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7513146200410431489",
+      "date": "2026-10-06",
+      "title": "La finance agentique peut faire doubler les transactions sans doubler les équipes",
+      "path": "/archive/2026/10/06/la-finance-agentique-peut-faire-doubler-les-transactions-sans-doubler-le-7513146200410431489",
+      "sectors": [
+        "legal",
+        "finance",
+        "banking",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7513131144553336844",
+      "date": "2026-10-06",
+      "title": "McKinsey voit disparaître les trois étages des RH. Les agents commencent à les remplacer.",
+      "path": "/archive/2026/10/06/mckinsey-voit-disparaitre-les-trois-etages-des-rh-les-agents-commencent-7513131144553336844",
+      "sectors": [
+        "legal",
+        "hr",
         "banking",
         "it"
       ],
