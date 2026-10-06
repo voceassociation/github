@@ -52,7 +52,9 @@ VOCE Association, title of the publication, publication date, canonical voce.lif
 
 ## Atlas relation records
 
-Each published Atlas relation has a permanent evidence-backed HTML record in English, French and Italian. Atlas path exploration traverses individually documented relations; a multi-step path is a documentary connection and is not, by itself, a causal claim.
+Each published Atlas relation has a permanent evidence-backed HTML record in English, French and Italian. Atlas schema v3 assigns every relation one semantic class: direct evidence, shared mechanism, correlation, technical dependency or human consequence. Every relation also carries an explicit inference boundary stating what must not be inferred from the evidence, including causal upgrades, system-sufficiency claims, deterministic human outcomes or generalisation beyond the documented scope. Atlas path exploration traverses individually documented relations; graph traversal is topological and non-directional, and a multi-step path is a documentary connection rather than a causal claim.
+
+All 63 Atlas concepts and all 76 relation records are included in the XML sitemap in EN/FR/IT. The Atlas root pages also contain static HTML links to every permanent concept page so discovery does not depend on JavaScript.
 
 ## VOCE Standards
 
