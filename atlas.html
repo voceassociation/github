@@ -20,8 +20,8 @@
 <meta name="twitter:title" content="VOCE Atlas — Knowledge map">
 <meta name="twitter:description" content="An evidence-grounded map of relationships across the VOCE corpus. Every connection returns to a source.">
 <link rel="stylesheet" href="/styles.css">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"VOCE Atlas","url":"https://voce.life/atlas","description":"Evidence-grounded knowledge map connecting systems, mechanisms and human consequences across the VOCE corpus.","publisher":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"isPartOf":{"@type":"WebSite","name":"VOCE","url":"https://voce.life/"}}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"VOCE Atlas knowledge graph","url":"https://voce.life/data/atlas.json","creator":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"license":"https://voce.life/CORPUS_RIGHTS.txt","isAccessibleForFree":true,"description":"Curated concept and relationship data supporting the VOCE Atlas interface."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"VOCE Atlas","url":"https://voce.life/atlas","description":"Evidence-grounded knowledge map connecting systems, mechanisms and human consequences across the VOCE corpus.","publisher":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"isPartOf":{"@type":"WebSite","name":"VOCE","url":"https://voce.life/"},"inLanguage":"en","dateModified":"2026-10-06","mainEntity":{"@id":"https://voce.life/data/atlas.json#dataset"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"VOCE Atlas knowledge graph","url":"https://voce.life/data/atlas.json","creator":{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},"license":"https://voce.life/CORPUS_RIGHTS.txt","isAccessibleForFree":true,"description":"Curated concept and relationship data supporting the VOCE Atlas interface.","@id":"https://voce.life/data/atlas.json#dataset","version":"3","dateModified":"2026-10-06","inLanguage":["en","fr","it"],"keywords":["knowledge graph","evidence graph","AI governance","cognition","health","culture","human systems","relation semantics","inference boundaries"],"distribution":{"@type":"DataDownload","contentUrl":"https://voce.life/data/atlas.json","encodingFormat":"application/json"},"variableMeasured":["concept","relation","semantic_type","inference_boundary","evidence"]}</script>
 </head>
 <body class="atlas-page">
 <a class="skip-link" href="#main-content">Skip to content</a>
@@ -48,8 +48,8 @@
 <div class="topic-meta">
 <span id="atlas-node-count">63 concepts</span>
 <span id="atlas-edge-count">76 documented relations</span>
-<span>Evidence-linked</span>
-<span>Public corpus</span>
+<span id="atlas-source-count">19 source records</span>
+<span id="atlas-domain-count">6 knowledge territories</span>
 </div>
 </div></section>
 
@@ -61,7 +61,7 @@
 </div>
 <div class="atlas-intro-copy">
 <p>An article belongs to more than one category. A discussion of AI agents can also be about identity, permissions and work. A study of a doorway can also be about event segmentation, interruption and memory.</p>
-<p>Atlas preserves those crossings. Select a concept to reveal its documented relationships, or choose two concepts to trace the shortest evidence-linked path between them.</p>
+<p>Atlas preserves those crossings. Select a concept to inspect its direct evidence, switch to documentary bridges to expose two-step adjacencies, or choose two concepts to trace the shortest evidence-linked route between them.</p>
 </div>
 </div>
 
@@ -75,8 +75,22 @@
 <button class="atlas-reset" id="atlas-reset" type="button">Reset map</button>
 </div>
 
+<div class="atlas-lenses" aria-label="Reasoning lenses">
+<div class="atlas-lens-copy"><div class="eyebrow">Reasoning lens</div><p>First-order relations show one evidence-backed edge. Documentary bridges reveal two-step adjacency without turning proximity into causality.</p></div>
+<div class="atlas-lens-buttons" role="group" aria-label="Atlas reasoning lens">
+<button type="button" class="atlas-lens-button is-active" data-atlas-lens="direct" aria-pressed="true">First-order relations</button>
+<button type="button" class="atlas-lens-button" data-atlas-lens="bridges" aria-pressed="false">Documentary bridges</button>
+</div>
+</div>
+
+<div class="atlas-semantics" aria-labelledby="atlas-semantics-title">
+<div class="atlas-semantic-copy"><div class="eyebrow">Relation semantics</div><div><h3 id="atlas-semantics-title">What kind of connection is this?</h3><p>Atlas classifies every published relation by what the evidence actually supports, then attaches an explicit inference boundary to it.</p></div></div>
+<div class="atlas-semantic-controls" id="atlas-semantic-controls" aria-label="Relation semantic classes"></div>
+<div class="atlas-inference-principle"><span>Inference prohibited</span><p>Atlas states what must not be concluded from each relation: no causal upgrade, no system-sufficiency claim and no generalisation beyond the cited scope unless the evidence supports it.</p></div>
+</div>
+
 <div class="atlas-pathfinder" aria-labelledby="atlas-path-title">
-<div class="atlas-pathfinder-copy"><div class="eyebrow">Path explorer</div><h3 id="atlas-path-title">Trace a documented path.</h3><p>Choose two concepts. Atlas follows the shortest sequence of published relations connecting them.</p></div>
+<div class="atlas-pathfinder-copy"><div class="eyebrow">Path explorer</div><h3 id="atlas-path-title">Trace a documented path.</h3><p>Choose two concepts. Atlas follows the shortest documentary route across published relations connecting them.</p></div>
 <div class="atlas-path-controls">
 <label>From<select id="atlas-path-from" aria-label="Path starting concept"></select></label>
 <label>To<select id="atlas-path-to" aria-label="Path destination concept"></select></label>
@@ -100,6 +114,8 @@
 <h2 id="atlas-panel-title">Human systems</h2>
 <p id="atlas-panel-summary">The conditions through which technologies, institutions, bodies and cultures shape human action.</p>
 <div class="atlas-panel-meta" id="atlas-panel-meta"></div>
+<div class="atlas-panel-insight" id="atlas-panel-insight"></div>
+<div class="atlas-bridges" id="atlas-bridges" hidden></div>
 <div class="atlas-relations" id="atlas-relations"></div>
 </aside>
 </div>
@@ -109,15 +125,21 @@
 <div class="eyebrow">Method</div>
 <div>
 <h2 class="display">A relation must earn its line.</h2>
-<p class="lead">The first Atlas is deliberately selective. It does not draw a connection because two words appear in the same corpus. A displayed relation must be supported by a VOCE publication or formal research record.</p>
+<p class="lead">This V2 edition is deliberately selective. It does not draw a connection because two words appear in the same corpus. A displayed relation must be supported by a VOCE publication or formal research record.</p>
 <div class="rule-list">
 <div class="rule"><div class="label">Source</div><div class="value">Every relation links back to evidence in VOCE Academy or VOCE Research.</div></div>
 <div class="rule"><div class="label">Scope</div><div class="value">The map begins with a curated core rather than automatically visualising the entire archive.</div></div>
 <div class="rule"><div class="label">Growth</div><div class="value">New concepts can be proposed automatically, but publication into Atlas remains evidence-bound.</div></div>
-<div class="rule"><div class="label">Path semantics</div><div class="value">A path is a documentary sequence across individually supported relations. It does not automatically establish causality between its endpoints.</div></div>
+<div class="rule"><div class="label">Relation classes</div><div class="value">Every relation is typed as direct evidence, shared mechanism, correlation, technical dependency or human consequence. Each type carries an explicit prohibited-inference boundary.</div></div>
+<div class="rule"><div class="label">Reasoning semantics</div><div class="value">First-order relations expose one evidence-backed edge. A documentary bridge is a two-step adjacency across two independently supported relations. Graph traversal is topological and non-directional; neither a bridge nor a path establishes causality between endpoints.</div></div>
 <div class="rule"><div class="label">Machine-readable</div><div class="value"><a href="/data/atlas.json">The Atlas graph is publicly inspectable as JSON.</a></div></div>
 </div>
 </div>
+</div></section>
+
+<section class="section atlas-index-section"><div class="wrap">
+<div class="atlas-index-head"><div class="eyebrow">Permanent concept index</div><p>Crawler-visible, human-readable entry points to every concept in the curated Atlas.</p></div>
+<div class="atlas-index-grid"><section class="atlas-index-domain"><h3>AI & governance</h3><div class="atlas-index-links"><a href="/atlas/agents">AI agents</a><a href="/atlas/governance">AI governance</a><a href="/atlas/procurement">AI procurement</a><a href="/atlas/ai-systems">AI systems</a><a href="/atlas/conformity">Conformity assessment</a><a href="/atlas/iso42001">ISO/IEC 42001</a><a href="/atlas/kms">KMS</a><a href="/atlas/mcp">MCP</a><a href="/atlas/model">Model</a><a href="/atlas/mtls">mTLS</a><a href="/atlas/permissions">Permissions</a><a href="/atlas/rag">RAG</a><a href="/atlas/saas">SaaS</a><a href="/atlas/secrets">Secrets</a><a href="/atlas/spiffe">SPIFFE</a><a href="/atlas/testing">System testing</a><a href="/atlas/identity">Workload identity</a></div></section><section class="atlas-index-domain"><h3>Work</h3><div class="atlas-index-links"><a href="/atlas/light-workforce">Light workforce</a></div></section><section class="atlas-index-domain"><h3>Cognition</h3><div class="atlas-index-links"><a href="/atlas/ai-assistance">AI assistance</a><a href="/atlas/attention">Attention</a><a href="/atlas/availability-heuristic">Availability heuristic</a><a href="/atlas/cognition">Cognition</a><a href="/atlas/effort">Cognitive effort</a><a href="/atlas/language-development">Early language</a><a href="/atlas/episodic-memory">Episodic memory</a><a href="/atlas/event-boundaries">Event boundaries</a><a href="/atlas/internal-dialogue">Internal dialogue</a><a href="/atlas/interruption">Interruption</a><a href="/atlas/introspective-technoference">Introspective technoference</a><a href="/atlas/joint-attention">Joint attention</a><a href="/atlas/learning">Learning</a><a href="/atlas/memory">Memory</a><a href="/atlas/reconsolidation">Memory reconsolidation</a><a href="/atlas/parental-technoference">Parental technoference</a><a href="/atlas/ownership">Psychological ownership</a></div></section><section class="atlas-index-domain"><h3>Health & neuroscience</h3><div class="atlas-index-links"><a href="/atlas/alzheimer-pathology">Alzheimer pathology</a><a href="/atlas/biliary-cancer">Biliary tract cancer</a><a href="/atlas/circadian">Cellular rhythms</a><a href="/atlas/cognitive-resilience">Cognitive resilience</a><a href="/atlas/corpus-callosum">Corpus callosum</a><a href="/atlas/cortical-ageing">Cortical ageing</a><a href="/atlas/glia">Glial cells</a><a href="/atlas/health">Health</a><a href="/atlas/her2">HER2</a><a href="/atlas/precision-oncology">Precision oncology</a><a href="/atlas/prematurity">Prematurity</a><a href="/atlas/shea">Shea triterpenes</a><a href="/atlas/music">Structured music</a><a href="/atlas/wound-healing">Wound healing</a></div></section><section class="atlas-index-domain"><h3>Culture & civilisation</h3><div class="atlas-index-links"><a href="/atlas/celtic-salt">Celtic salt industry</a><a href="/atlas/climate-design">Climate-responsive design</a><a href="/atlas/culture">Culture</a><a href="/atlas/erasure">Erasure & trace</a><a href="/atlas/heritage">Heritage</a><a href="/atlas/industrial-archaeology">Industrial archaeology</a><a href="/atlas/luxury">Luxury perception</a><a href="/atlas/minimalism">Minimalism</a><a href="/atlas/mont-treadwheel">Mont-Saint-Michel treadwheel</a><a href="/atlas/national-narrative">National narrative</a><a href="/atlas/vernacular-architecture">Vernacular architecture</a><a href="/atlas/visual-complexity">Visual complexity</a><a href="/atlas/kentridge">William Kentridge</a></div></section><section class="atlas-index-domain"><h3>Human systems</h3><div class="atlas-index-links"><a href="/atlas/human-systems">Human systems</a></div></section></div>
 </div></section>
 
 <section class="quote atlas-quote"><div class="wrap"><div class="quote-inner">
