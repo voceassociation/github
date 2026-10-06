@@ -76,6 +76,38 @@ jobs:
                       url = origin + "/" + page_path[:-5]
                   urls.append(url)
 
+              # Atlas permanent concept/relation pages are rendered by the
+              # Worker rather than stored as individual HTML files. Whenever
+              # Atlas data, routing or interface semantics change, submit the
+              # complete Atlas URL family from the sitemap so Bing/Copilot and
+              # other IndexNow participants see the dynamic records promptly.
+              atlas_triggers = {
+                  "atlas.html",
+                  "fr/atlas.html",
+                  "it/atlas.html",
+                  "atlas.js",
+                  "data/atlas.json",
+                  "worker.js",
+                  "sitemap.xml",
+              }
+              if atlas_triggers.intersection(changed):
+                  tree = ET.parse("sitemap.xml")
+                  ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+                  for loc in tree.findall(".//sm:loc", ns):
+                      if not loc.text:
+                          continue
+                      value = loc.text.strip()
+                      path = value.removeprefix(origin)
+                      if (
+                          path == "/atlas"
+                          or path.startswith("/atlas/")
+                          or path == "/fr/atlas"
+                          or path.startswith("/fr/atlas/")
+                          or path == "/it/atlas"
+                          or path.startswith("/it/atlas/")
+                      ):
+                          urls.append(value)
+
           urls = sorted(set(urls))
           if not urls:
               print("No indexable URL changed; nothing to submit.")
