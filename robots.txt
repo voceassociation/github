@@ -33,6 +33,11 @@ User-agent: ChatGPT-User
 User-agent: PerplexityBot
 Allow: /
 
+# OpenAI training is a separate policy from search/citation.
+# VOCE permits SearchBot discovery while reserving corpus-training rights.
+User-agent: GPTBot
+Disallow: /
+
 # Other major discovery crawlers
 User-agent: Applebot
 User-agent: DuckDuckBot
