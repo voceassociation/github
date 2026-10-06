@@ -48,8 +48,8 @@
 <div class="topic-meta">
 <span id="atlas-node-count">63 concetti</span>
 <span id="atlas-edge-count">76 relazioni documentate</span>
-<span>Collegato alle evidenze</span>
-<span>Corpus pubblico</span>
+<span id="atlas-source-count">19 record fonte</span>
+<span id="atlas-domain-count">6 territori di conoscenza</span>
 </div>
 </div></section>
 
@@ -61,7 +61,7 @@
 </div>
 <div class="atlas-intro-copy">
 <p>Un articolo appartiene a più categorie. Un testo sugli agenti IA può riguardare anche identità, permessi e lavoro. Uno studio su una porta può riguardare anche segmentazione degli eventi, interruzione e memoria.</p>
-<p>Atlas conserva questi incroci. Seleziona un concetto per rivelare le relazioni documentate, oppure scegli due concetti per tracciare il percorso più breve tra le loro evidenze.</p>
+<p>Atlas conserva questi incroci. Seleziona un concetto per ispezionare le evidenze dirette, attiva i ponti documentari per rivelare adiacenze in due passaggi, oppure scegli due concetti per tracciare il percorso più breve collegato alle evidenze.</p>
 </div>
 </div>
 
@@ -75,8 +75,16 @@
 <button class="atlas-reset" id="atlas-reset" type="button">Reimposta</button>
 </div>
 
+<div class="atlas-lenses" aria-label="Modalità di ragionamento">
+<div class="atlas-lens-copy"><div class="eyebrow">Modalità di ragionamento</div><p>Le relazioni dirette mostrano evidenze di primo ordine. I ponti documentari rivelano adiacenze in due passaggi senza trasformare la prossimità in causalità.</p></div>
+<div class="atlas-lens-buttons" role="group" aria-label="Modalità di ragionamento Atlas">
+<button type="button" class="atlas-lens-button is-active" data-atlas-lens="direct" aria-pressed="true">Evidenza diretta</button>
+<button type="button" class="atlas-lens-button" data-atlas-lens="bridges" aria-pressed="false">Ponti documentari</button>
+</div>
+</div>
+
 <div class="atlas-pathfinder" aria-labelledby="atlas-path-title">
-<div class="atlas-pathfinder-copy"><div class="eyebrow">Esploratore di percorsi</div><h3 id="atlas-path-title">Traccia un percorso documentato.</h3><p>Scegli due concetti. Atlas segue la sequenza più breve di relazioni pubblicate che li collega.</p></div>
+<div class="atlas-pathfinder-copy"><div class="eyebrow">Esploratore di percorsi</div><h3 id="atlas-path-title">Traccia un percorso documentato.</h3><p>Scegli due concetti. Atlas segue il percorso documentario più breve attraverso le relazioni pubblicate che li collegano.</p></div>
 <div class="atlas-path-controls">
 <label>Da<select id="atlas-path-from" aria-label="Concetto di partenza"></select></label>
 <label>A<select id="atlas-path-to" aria-label="Concetto di arrivo"></select></label>
@@ -100,6 +108,8 @@
 <h2 id="atlas-panel-title">Sistemi umani</h2>
 <p id="atlas-panel-summary">Le condizioni attraverso cui tecnologie, istituzioni, corpi e culture plasmano l’azione umana.</p>
 <div class="atlas-panel-meta" id="atlas-panel-meta"></div>
+<div class="atlas-panel-insight" id="atlas-panel-insight"></div>
+<div class="atlas-bridges" id="atlas-bridges" hidden></div>
 <div class="atlas-relations" id="atlas-relations"></div>
 </aside>
 </div>
@@ -109,12 +119,12 @@
 <div class="eyebrow">Metodo</div>
 <div>
 <h2 class="display">Una relazione deve meritare la sua linea.</h2>
-<p class="lead">Il primo Atlas è deliberatamente selettivo. Non traccia una connessione perché due parole compaiono nello stesso corpus. Ogni relazione mostrata deve essere sostenuta da una pubblicazione VOCE o da un lavoro di ricerca formale.</p>
+<p class="lead">Questa edizione V2 è deliberatamente selettiva. Non traccia una connessione perché due parole compaiono nello stesso corpus. Ogni relazione mostrata deve essere sostenuta da una pubblicazione VOCE o da un lavoro di ricerca formale.</p>
 <div class="rule-list">
 <div class="rule"><div class="label">Fonte</div><div class="value">Ogni relazione rimanda a evidenze in VOCE Academy o VOCE Research.</div></div>
 <div class="rule"><div class="label">Perimetro</div><div class="value">La mappa parte da un nucleo curatoriale invece di visualizzare automaticamente l’intero archivio.</div></div>
 <div class="rule"><div class="label">Crescita</div><div class="value">Nuovi concetti possono essere proposti automaticamente, ma la pubblicazione in Atlas resta vincolata alle evidenze.</div></div>
-<div class="rule"><div class="label">Semantica dei percorsi</div><div class="value">Un percorso è una sequenza documentaria di relazioni sostenute singolarmente. Non stabilisce automaticamente una causalità tra i suoi estremi.</div></div>
+<div class="rule"><div class="label">Semantica del ragionamento</div><div class="value">Le relazioni dirette sono evidenze di primo ordine. Un ponte documentario è un’adiacenza in due passaggi tra due relazioni sostenute separatamente. L’attraversamento del grafo è topologico e non direzionale; né un ponte né un percorso stabilisce causalità tra i suoi estremi.</div></div>
 <div class="rule"><div class="label">Leggibile dalle macchine</div><div class="value"><a href="/data/atlas.json">Il grafo Atlas è consultabile pubblicamente in JSON.</a></div></div>
 </div>
 </div>
