@@ -1180,7 +1180,7 @@ function renderHistoryDay(day) {
   const date = day.date;
   const pretty = items[0]?.date_published ? formatDate(items[0].date_published) : date;
   const rows = items.map(item =>
-    `<article class="chapter"><div class="chapter-no">${escapeHtml(formatTime(item.date_published))}</div><h2><a href="/archive/${date.replaceAll("-","/")}/${escapeHtml(item.slug)}">${escapeHtml(item.title)}</a></h2><p class="signal">Publication VOCE conservée dans le corpus propriétaire.</p><p><a href="/archive/${date.replaceAll("-","/")}/${escapeHtml(item.slug)}">Lire ce document →</a></p></article>`
+    `<article class="chapter"><div class="chapter-no">${escapeHtml(formatTime(item.date_published))}</div><h2><a href="${escapeHtml(item.canonical_url || `/archive/${date.replaceAll("-","/")}/${item.slug}`)}">${escapeHtml(item.title)}</a></h2><p class="signal">Publication VOCE conservée dans le corpus propriétaire.</p><p><a href="${escapeHtml(item.canonical_url || `/archive/${date.replaceAll("-","/")}/${item.slug}`)}">Lire ce document →</a></p></article>`
   ).join("\n");
   return `<!doctype html>
 <html lang="fr"><head>
@@ -1428,7 +1428,8 @@ async function syncCorpus(env) {
   // the sovereign source backup from being complete.
   const derivedTasks = [
     ...Object.keys(registry.archived_days || {}).map(date => ({
-      kind: "path",
+      kind: "day",
+      date,
       path: `archive/${date}.html`
     })),
     ...(routes.items || []).filter(route => !route.redirect_to).map(route => ({ kind: "article", route }))
@@ -1479,6 +1480,20 @@ async function syncCorpus(env) {
         "text/html; charset=utf-8",
         `https://voce.life${route.path}`,
         timestamp
+      ));
+      continue;
+    }
+
+    // Historical day pages are rendered by the Worker, not necessarily present
+    // in ASSETS. Rebuild the same page from the canonical corpus for R2.
+    if (task.kind === "day") {
+      const dayItems = (publicCorpus.items || []).filter(item =>
+        item.date_published?.slice(0, 10) === task.date
+      );
+      const html = renderHistoryDay({ date: task.date, items: dayItems });
+      derivedResults.push(await storeBytesIfChanged(
+        env, task.path, new TextEncoder().encode(html), "text/html; charset=utf-8",
+        `https://voce.life/archive/${task.date}`, timestamp
       ));
       continue;
     }

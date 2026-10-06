@@ -1091,6 +1091,13 @@
       "scope": "complete canonical sitemap",
       "observed_at": "2026-10-06T14:38:15Z",
       "interpretation": "accepted_not_guarantee_of_indexing"
+    },
+    "r2_repair_2026_10_06": {
+      "cause_verified": "Cloudflare scheduled syncCorpus failed fetching absent static archive/2026-06-27.html (404), screenshot 16:57:34 Europe/Podgorica",
+      "fix": "Render day archive backups from canonical corpus rather than fetching absent static HTML; retain permanent article links",
+      "status": "fix_tested_pending_public_verification",
+      "source_texts_modified": false,
+      "resume": "Read public backup status after deployment; confirm fresh manifest, 1534 source items and advancing derived_cursor before marking R2 repaired"
     }
   }
 }
