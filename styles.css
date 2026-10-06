@@ -1008,6 +1008,8 @@ html[lang="it"] .atlas-panel:before{content:"Vista documentale mobile"}
 .atlas-documentary-bridge-route{margin:6px 0 0!important;font-size:.72rem!important;line-height:1.45!important;color:#555b57!important}
 .atlas-documentary-bridge-route b{font-weight:500;color:var(--forest)}
 .atlas-documentary-bridge-meta{display:block;margin-top:5px;font-size:.56rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+.atlas-documentary-bridge-links{margin-top:7px;font-size:.56rem;font-weight:600;text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}
+.atlas-documentary-bridge-links a{color:var(--forest);border-bottom:1px solid rgba(18,62,51,.28);padding-bottom:1px}
 .atlas-node.is-bridge .atlas-node-dot{stroke:var(--forest);stroke-width:1.45;stroke-dasharray:2.5 2.5}
 .atlas-node.is-bridge .atlas-node-label{fill:var(--forest)}
 .atlas-edge.is-bridge{stroke:var(--forest);stroke-width:1.15;opacity:.38;stroke-dasharray:3 3}
