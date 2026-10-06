@@ -33,6 +33,7 @@ jobs:
           import subprocess
           import urllib.request
           import urllib.error
+          import time
           import xml.etree.ElementTree as ET
 
           origin = os.environ["SITE_ORIGIN"].rstrip("/")
@@ -52,9 +53,10 @@ jobs:
 
           urls = []
 
-          # One-time bootstrap when this workflow is introduced/changed, and
-          # a deliberate full resubmission when manually dispatched.
-          if event_name == "workflow_dispatch" or ".github/workflows/indexnow.yml" in changed:
+          # Manual dispatch is the only deliberate full resubmission.
+          # A workflow-only change probes the Atlas root instead of blasting
+          # historical URLs that did not change.
+          if event_name == "workflow_dispatch":
               tree = ET.parse("sitemap.xml")
               ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
               urls.extend(
@@ -63,6 +65,9 @@ jobs:
                   if loc.text and loc.text.strip().startswith(origin)
               )
           else:
+              if ".github/workflows/indexnow.yml" in changed:
+                  urls.append(origin + "/atlas")
+
               for page_path in changed:
                   if not page_path.endswith(".html"):
                       continue
