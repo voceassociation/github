@@ -134,7 +134,7 @@
   ],
   "schema": "voce.search-console.preparation.v1",
   "checked_at": "2026-10-07T07:49:08.580Z",
-  "status": "properties_verified_discovery_access_fixed_google_retry_in_progress",
+  "status": "properties_verified_discovery_access_repaired_google_processing_unconfirmed",
   "remote_console_state": "Verified owner; exact non-www root sitemap absent. HTML pages found in Sitemaps table are not section properties.",
   "primary_property": {
     "domain": "voce.life",
@@ -271,8 +271,8 @@
     }
   ],
   "next_steps": [
-    "Record the single Google sitemap refresh outcome after access repair.",
-    "Recheck Google's later processing status; do not claim the corpus is fully indexed based only on submission or two successful URL inspections."
+    "At the next authorized evening backfill, check the Google root sitemap once and save actual processing status/read date/discovered URL count.",
+    "Do not repeatedly resubmit, recreate properties, alter source texts/canonicals or infer that all public articles are indexed. Preserve all narrow Cloudflare exceptions and global protections."
   ],
   "official_references": [
     "https://support.google.com/webmasters/answer/34592",
@@ -357,15 +357,21 @@
     "console_confirmation": "Sitemap submitted successfully",
     "submitted_date": "2026-10-07",
     "observed_type": "unknown",
-    "observed_status": "error",
-    "last_read": "2026-10-07",
+    "observed_status": "could_not_fetch",
+    "last_read": null,
     "discovered_pages": 0,
     "processing_success_confirmed": false,
     "console_url": "https://search.google.com/search-console/sitemaps?resource_id=sc-domain:voce.life",
     "note": "Provider called Unknown pending processing, but Unknown is the reported sitemap TYPE; do not interpret fetch failure as confirmed processing.",
-    "error_message": "Sitemap could not be read",
+    "error_message": "Couldn't fetch",
     "discovered_videos": 0,
-    "error_cause_from_google": "not_confirmed"
+    "error_cause_from_google": "not_confirmed",
+    "previous_error_observation": {
+      "observed_status": "error",
+      "last_read": "2026-10-07",
+      "error_message": "Sitemap could not be read"
+    },
+    "latest_submission_after_access_repair": true
   },
   "public_sitemap_check": {
     "http_status": 200,
@@ -492,9 +498,27 @@
     }
   ],
   "google_sitemap_retry_after_access_repair": {
-    "status": "running",
+    "status": "completed",
     "run_id": "f03215e5-6790-4048-a3c9-9d2716adb1c2",
     "run_url": "https://agent.tinyfish.ai/runs/f03215e5-6790-4048-a3c9-9d2716adb1c2",
-    "scope": "Update the same canonical XML sitemap once after owner-side repair, unless current state is already Success; no different URL or duplicate source."
-  }
+    "scope": "Update the same canonical XML sitemap once after owner-side repair, unless current state is already Success; no different URL or duplicate source.",
+    "submitted_refresh": true,
+    "confirmation": "Sitemap submitted successfully",
+    "actual_console_result_url": "https://search.google.com/search-console/sitemaps?resource_id=sc-domain:voce.life",
+    "observed_type": "unknown",
+    "observed_status": "could_not_fetch",
+    "last_read": null,
+    "discovered_pages": 0,
+    "processing_success_confirmed": false,
+    "evidence_limit": "A refresh after access repair was confirmed; latest visible Google table still reports failure/zero URLs. Subsequent processing is not yet verified."
+  },
+  "completed_at": "2026-10-07T10:11:56.972Z",
+  "nightly_followup": {
+    "automation_id": "6abb72f5e1108191961956e6e3738fea",
+    "prompt_updated": true,
+    "schedule_preserved": "23:30 Europe/Podgorica",
+    "one_google_sitemap_observation_next_evening": true,
+    "backfill_must_not_wait_for_google_processing": true
+  },
+  "canonical_site_urls_modified": false
 }
