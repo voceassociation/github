@@ -1,0 +1,264 @@
+{
+  "sitemap_url": "https://voce.life/sitemap.xml",
+  "url_count": 2287,
+  "unique_url_count": 2287,
+  "families": [
+    {
+      "name": "agent-conformance",
+      "urls_in_sitemap": 207,
+      "canonical_roots": [
+        "https://voce.life/agent-conformance",
+        "https://voce.life/fr/agent-conformance",
+        "https://voce.life/it/agent-conformance"
+      ]
+    },
+    {
+      "name": "applied",
+      "urls_in_sitemap": 3,
+      "canonical_roots": [
+        "https://voce.life/applied",
+        "https://voce.life/fr/applied",
+        "https://voce.life/it/applied"
+      ]
+    },
+    {
+      "name": "agent-infrastructure",
+      "urls_in_sitemap": 3,
+      "canonical_roots": [
+        "https://voce.life/agent-infrastructure",
+        "https://voce.life/fr/agent-infrastructure",
+        "https://voce.life/it/agent-infrastructure"
+      ]
+    },
+    {
+      "name": "atlas",
+      "urls_in_sitemap": 420,
+      "canonical_roots": [
+        "https://voce.life/atlas",
+        "https://voce.life/fr/atlas",
+        "https://voce.life/it/atlas"
+      ]
+    },
+    {
+      "name": "human-cognitive-assurance",
+      "urls_in_sitemap": 75,
+      "canonical_roots": [
+        "https://voce.life/human-cognitive-assurance",
+        "https://voce.life/fr/human-cognitive-assurance",
+        "https://voce.life/it/human-cognitive-assurance"
+      ]
+    },
+    {
+      "name": "argos",
+      "urls_in_sitemap": 3,
+      "canonical_roots": [
+        "https://voce.life/argos",
+        "https://voce.life/fr/argos",
+        "https://voce.life/it/argos"
+      ]
+    },
+    {
+      "name": "archive",
+      "urls_in_sitemap": 1559,
+      "canonical_roots": [
+        "https://voce.life/archive"
+      ]
+    },
+    {
+      "name": "research",
+      "urls_in_sitemap": 3,
+      "canonical_roots": [
+        "https://voce.life/research"
+      ]
+    },
+    {
+      "name": "governance",
+      "urls_in_sitemap": 3,
+      "canonical_roots": [
+        "https://voce.life/governance",
+        "https://voce.life/fr/governance",
+        "https://voce.life/it/governance"
+      ]
+    },
+    {
+      "name": "standards",
+      "urls_in_sitemap": 1,
+      "canonical_roots": [
+        "https://voce.life/standards"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "url": "https://voce.life/agent-conformance",
+      "status": 200,
+      "final_url": "https://voce.life/agent-conformance",
+      "canonical": "https://voce.life/agent-conformance",
+      "robots": "index,follow,max-image-preview:large"
+    },
+    {
+      "url": "https://voce.life/applied",
+      "status": 200,
+      "final_url": "https://voce.life/applied",
+      "canonical": "https://voce.life/applied",
+      "robots": "index,follow,max-snippet:-1,max-image-preview:large"
+    },
+    {
+      "url": "https://voce.life/agent-infrastructure",
+      "status": 200,
+      "final_url": "https://voce.life/agent-infrastructure",
+      "canonical": "https://voce.life/agent-infrastructure",
+      "robots": "index,follow,max-image-preview:large"
+    },
+    {
+      "url": "https://voce.life/atlas",
+      "status": 200,
+      "final_url": "https://voce.life/atlas",
+      "canonical": "https://voce.life/atlas",
+      "robots": "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+    },
+    {
+      "url": "https://voce.life/human-cognitive-assurance",
+      "status": 200,
+      "final_url": "https://voce.life/human-cognitive-assurance",
+      "canonical": "https://voce.life/human-cognitive-assurance",
+      "robots": "index,follow,max-snippet:-1,max-image-preview:large"
+    },
+    {
+      "url": "https://voce.life/argos",
+      "status": 200,
+      "final_url": "https://voce.life/argos",
+      "canonical": "https://voce.life/argos",
+      "robots": "index,follow,max-snippet:-1,max-image-preview:large"
+    }
+  ],
+  "schema": "voce.search-console.preparation.v1",
+  "checked_at": "2026-10-07T07:49:08.580Z",
+  "status": "awaiting_google_authentication",
+  "remote_console_state": "Signed-out Search Console redirected to Google sign-in; no property or sitemap submission claimed.",
+  "primary_property": {
+    "domain": "voce.life",
+    "api_site_url": "sc-domain:voce.life",
+    "verification_status": "not_checked_in_authenticated_console"
+  },
+  "scope_note": "All listed URLs are already in the root sitemap. Section properties are for separate measurement; they do not create new public URLs or guarantee indexing.",
+  "section_properties": [
+    {
+      "label": "agent-conformance",
+      "url_prefix": "https://voce.life/agent-conformance",
+      "status": "prepared_not_created",
+      "localized_canonical_roots": [
+        "https://voce.life/agent-conformance",
+        "https://voce.life/fr/agent-conformance",
+        "https://voce.life/it/agent-conformance"
+      ],
+      "urls_in_sitemap": 207
+    },
+    {
+      "label": "applied",
+      "url_prefix": "https://voce.life/applied",
+      "status": "prepared_not_created",
+      "localized_canonical_roots": [
+        "https://voce.life/applied",
+        "https://voce.life/fr/applied",
+        "https://voce.life/it/applied"
+      ],
+      "urls_in_sitemap": 3
+    },
+    {
+      "label": "agent-infrastructure",
+      "url_prefix": "https://voce.life/agent-infrastructure",
+      "status": "prepared_not_created",
+      "localized_canonical_roots": [
+        "https://voce.life/agent-infrastructure",
+        "https://voce.life/fr/agent-infrastructure",
+        "https://voce.life/it/agent-infrastructure"
+      ],
+      "urls_in_sitemap": 3
+    },
+    {
+      "label": "atlas",
+      "url_prefix": "https://voce.life/atlas",
+      "status": "prepared_not_created",
+      "localized_canonical_roots": [
+        "https://voce.life/atlas",
+        "https://voce.life/fr/atlas",
+        "https://voce.life/it/atlas"
+      ],
+      "urls_in_sitemap": 420
+    },
+    {
+      "label": "human-cognitive-assurance",
+      "url_prefix": "https://voce.life/human-cognitive-assurance",
+      "status": "prepared_not_created",
+      "localized_canonical_roots": [
+        "https://voce.life/human-cognitive-assurance",
+        "https://voce.life/fr/human-cognitive-assurance",
+        "https://voce.life/it/human-cognitive-assurance"
+      ],
+      "urls_in_sitemap": 75
+    },
+    {
+      "label": "argos",
+      "url_prefix": "https://voce.life/argos",
+      "status": "prepared_not_created",
+      "localized_canonical_roots": [
+        "https://voce.life/argos",
+        "https://voce.life/fr/argos",
+        "https://voce.life/it/argos"
+      ],
+      "urls_in_sitemap": 3
+    },
+    {
+      "label": "archive",
+      "url_prefix": "https://voce.life/archive",
+      "status": "prepared_not_created",
+      "localized_canonical_roots": [
+        "https://voce.life/archive"
+      ],
+      "urls_in_sitemap": 1559
+    },
+    {
+      "label": "research",
+      "url_prefix": "https://voce.life/research",
+      "status": "prepared_not_created",
+      "localized_canonical_roots": [
+        "https://voce.life/research"
+      ],
+      "urls_in_sitemap": 3
+    },
+    {
+      "label": "governance",
+      "url_prefix": "https://voce.life/governance",
+      "status": "prepared_not_created",
+      "localized_canonical_roots": [
+        "https://voce.life/governance",
+        "https://voce.life/fr/governance",
+        "https://voce.life/it/governance"
+      ],
+      "urls_in_sitemap": 3
+    },
+    {
+      "label": "standards",
+      "url_prefix": "https://voce.life/standards",
+      "status": "prepared_not_created",
+      "localized_canonical_roots": [
+        "https://voce.life/standards"
+      ],
+      "urls_in_sitemap": 1
+    }
+  ],
+  "next_steps": [
+    "Authenticate to Google Search Console using the account owning voce.life.",
+    "Check existing verified Domain or HTTPS root property, reuse existing properties, and submit or verify https://voce.life/sitemap.xml without duplicate submissions.",
+    "Add missing section URL-prefix properties requested for Agent Conformance, Applied and related VOCE sections; keep the Domain property as overall view. Verify ownership through existing root ownership when available.",
+    "Inspect the main canonical URLs and request indexing when permitted and needed. Record actual console outcomes, not assumptions."
+  ],
+  "official_references": [
+    "https://support.google.com/webmasters/answer/34592",
+    "https://support.google.com/webmasters/answer/7451001",
+    "https://support.google.com/webmasters/answer/9012289"
+  ],
+  "site_design_modified": false,
+  "original_article_texts_modified": false
+}

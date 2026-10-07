@@ -165,7 +165,18 @@
     "other_path_control_status": 403,
     "other_path_control_error": "1010",
     "admin_run_id": "413cc863-e9cb-4c2d-9772-1d946ffd6a39",
-    "rule_detail_capture_status": "awaiting_final_provider_receipt"
+    "rule_detail_capture_status": "captured",
+    "provider_status": "completed",
+    "zone_id": "cdabe58023a1352c97a5e9d2318cfd65",
+    "rule_id": "40b1bdcd678045d3a2bf7394f32906ed",
+    "rule_name": "VOCE IndexNow verification key",
+    "reported_expression": "http.host == \"voce.life\" and http.request.uri.path == \"/9e4c71d85a2f4b6cb3098f21d7a56e40.txt\"",
+    "bic": false,
+    "rule_status": "active",
+    "global_security_settings_unchanged": true,
+    "rule_url": "https://dash.cloudflare.com/3dbe18eeba621a992dd5b3b2a9e2a5dc/voce.life/rules/configuration-rules/40b1bdcd678045d3a2bf7394f32906ed",
+    "provider_run_url": "https://agent.tinyfish.ai/runs/413cc863-e9cb-4c2d-9772-1d946ffd6a39",
+    "verified_at": "2026-10-07T07:49:08.580Z"
   },
   "nightly_automation": {
     "id": "6abb72f5e1108191961956e6e3738fea",
