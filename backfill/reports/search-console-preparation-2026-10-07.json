@@ -134,7 +134,7 @@
   ],
   "schema": "voce.search-console.preparation.v1",
   "checked_at": "2026-10-07T07:49:08.580Z",
-  "status": "properties_verified_crawler_discovery_repair_in_progress",
+  "status": "properties_verified_discovery_access_fixed_google_retry_in_progress",
   "remote_console_state": "Verified owner; exact non-www root sitemap absent. HTML pages found in Sitemaps table are not section properties.",
   "primary_property": {
     "domain": "voce.life",
@@ -271,9 +271,8 @@
     }
   ],
   "next_steps": [
-    "Verify narrow BIC exception for public GET/HEAD sitemap.xml and robots.txt; retain all global protections and IndexNow key rule.",
-    "Repeat the original unchanged Python client probes after the admin save and record actual response status/body checks.",
-    "Confirm Google root sitemap processing later; its current error and zero discovered URLs must not be represented as successful ingestion."
+    "Record the single Google sitemap refresh outcome after access repair.",
+    "Recheck Google's later processing status; do not claim the corpus is fully indexed based only on submission or two successful URL inspections."
   ],
   "official_references": [
     "https://support.google.com/webmasters/answer/34592",
@@ -444,7 +443,7 @@
     }
   ],
   "cloudflare_discovery_repair": {
-    "status": "running",
+    "status": "completed",
     "run_id": "bcc76908-58cb-4dfe-afc8-c043577a772c",
     "run_url": "https://agent.tinyfish.ai/runs/bcc76908-58cb-4dfe-afc8-c043577a772c",
     "requested_rule_name": "VOCE crawler discovery files",
@@ -453,6 +452,49 @@
       "bic": false
     },
     "preserve_existing_indexnow_rule": "40b1bdcd678045d3a2bf7394f32906ed",
-    "global_security_unchanged": true
+    "global_security_unchanged": true,
+    "rule_id": "60553ef311534cae905ebb84c9316028",
+    "active": true,
+    "bic": false,
+    "reported_expression": "http.host == \"voce.life\" and http.request.method in {\"GET\" \"HEAD\"} and http.request.uri.path in {\"/robots.txt\" \"/sitemap.xml\"}",
+    "rule_url": "https://dash.cloudflare.com/3dbe18eeba621a992dd5b3b2a9e2a5dc/voce.life/rules/configuration-rules/60553ef311534cae905ebb84c9316028",
+    "verified_at": "2026-10-07T10:06:59.789Z",
+    "evidence_limit": "403/1010 reproduced for unchanged Python client and corrected to200; this alone does not prove Google's precise previous failure cause."
+  },
+  "machine_discovery_file_probes_after_repair": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "content_type": "application/xml",
+      "cf_ray": "a46c15cdfd88cca4-ORD",
+      "length": 292984,
+      "sha256": "195774a6de110e4da4be45970c187a5591811369ca45cad362c1a338cb29c75c",
+      "urls": 2287,
+      "unique_urls": 2287
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "content_type": "text/plain",
+      "cf_ray": "a46c16136d19cca4-ORD",
+      "length": 1194,
+      "sha256": "15523aa0d67da0d7caeea4a7dd9b1fd702c5eff819056d409d4f9bf2d2c88849",
+      "root_sitemap_declared": true
+    },
+    {
+      "path": "/9e4c71d85a2f4b6cb3098f21d7a56e40.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "cf_ray": "a46c1651c973cca4-ORD",
+      "length": 32,
+      "sha256": "5ab86bfd5faae735d567f50e869a9b5c7962c423cf24f3a04f8b749997b78ec4",
+      "key_matches": true
+    }
+  ],
+  "google_sitemap_retry_after_access_repair": {
+    "status": "running",
+    "run_id": "f03215e5-6790-4048-a3c9-9d2716adb1c2",
+    "run_url": "https://agent.tinyfish.ai/runs/f03215e5-6790-4048-a3c9-9d2716adb1c2",
+    "scope": "Update the same canonical XML sitemap once after owner-side repair, unless current state is already Success; no different URL or duplicate source."
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-07T10:02:17.421Z",
+  "updated_at": "2026-10-07T10:06:59.789Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1332,7 +1332,7 @@
       "cloudflare_rule_evidence_status": "captured"
     },
     "search_console_followup_2026_10_07": {
-      "status": "properties_verified_crawler_discovery_repair_in_progress",
+      "status": "properties_verified_discovery_access_fixed_google_retry_in_progress",
       "report": "backfill/reports/search-console-preparation-2026-10-07.json",
       "public_sitemap_urls": 2287,
       "unique_public_sitemap_urls": 2287,
@@ -1351,8 +1351,8 @@
       "properties_added": true,
       "sitemap_submitted": true,
       "blocker": null,
-      "run_id": "bcc76908-58cb-4dfe-afc8-c043577a772c",
-      "run_url": "https://agent.tinyfish.ai/runs/bcc76908-58cb-4dfe-afc8-c043577a772c",
+      "run_id": "f03215e5-6790-4048-a3c9-9d2716adb1c2",
+      "run_url": "https://agent.tinyfish.ai/runs/f03215e5-6790-4048-a3c9-9d2716adb1c2",
       "root_property_observed": "sc-domain:voce.life",
       "root_property_verified": true,
       "canonical_sitemap_missing_at_audit": true,
@@ -1378,7 +1378,15 @@
       "sitemap_error": "Sitemap could not be read",
       "conformance_indexed": true,
       "applied_indexed": true,
-      "discovery_file_http_1010_confirmed": true
+      "discovery_file_http_1010_confirmed": true,
+      "discovery_file_access_repaired": true,
+      "public_machine_file_statuses": {
+        "sitemap": 200,
+        "robots": 200,
+        "indexnow_key": 200
+      },
+      "cloudflare_discovery_rule_id": "60553ef311534cae905ebb84c9316028",
+      "public_sitemap_valid_unique_urls": 2287
     }
   }
 }
