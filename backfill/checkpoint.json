@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-07T10:11:56.972Z",
+  "updated_at": "2026-10-07T12:38:58.642Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1332,7 +1332,7 @@
       "cloudflare_rule_evidence_status": "captured"
     },
     "search_console_followup_2026_10_07": {
-      "status": "properties_verified_discovery_access_repaired_google_processing_unconfirmed",
+      "status": "properties_verified_discovery_access_repaired_google_sitemap_success",
       "report": "backfill/reports/search-console-preparation-2026-10-07.json",
       "public_sitemap_urls": 2287,
       "unique_public_sitemap_urls": 2287,
@@ -1351,13 +1351,13 @@
       "properties_added": true,
       "sitemap_submitted": true,
       "blocker": null,
-      "run_id": "f03215e5-6790-4048-a3c9-9d2716adb1c2",
-      "run_url": "https://agent.tinyfish.ai/runs/f03215e5-6790-4048-a3c9-9d2716adb1c2",
+      "run_id": "d76b8bf1-9898-45c8-89bd-e8464e844bfb",
+      "run_url": "https://agent.tinyfish.ai/runs/d76b8bf1-9898-45c8-89bd-e8464e844bfb",
       "root_property_observed": "sc-domain:voce.life",
       "root_property_verified": true,
       "canonical_sitemap_missing_at_audit": true,
-      "sitemap_status": "could_not_fetch",
-      "google_discovered_urls": 0,
+      "sitemap_status": "success",
+      "google_discovered_urls": 2287,
       "existing_section_properties": [
         "https://voce.life/archive/",
         "https://voce.life/research/",
@@ -1375,7 +1375,7 @@
         "https://voce.life/argos"
       ],
       "previous_tool_blocker_resolved_for_conformance": true,
-      "sitemap_error": "Couldn't fetch",
+      "sitemap_error": null,
       "conformance_indexed": true,
       "applied_indexed": true,
       "discovery_file_http_1010_confirmed": true,
@@ -1388,11 +1388,30 @@
       "cloudflare_discovery_rule_id": "60553ef311534cae905ebb84c9316028",
       "public_sitemap_valid_unique_urls": 2287,
       "sitemap_refreshed_after_access_repair": true,
-      "google_full_sitemap_processing_confirmed": false,
+      "google_full_sitemap_processing_confirmed": true,
       "nightly_followup_prompt_updated": true,
       "nightly_followup_time": "23:30 Europe/Podgorica",
       "run_status": "completed",
-      "completed_at": "2026-10-07T10:11:56.972Z"
+      "completed_at": "2026-10-07T10:11:56.972Z",
+      "google_sitemap_last_read": "2026-10-07",
+      "latest_checked_at": "2026-10-07T12:38:58.642Z",
+      "google_sitemap_latest_observation": {
+        "checked_at": "2026-10-07T12:38:58.642Z",
+        "run_id": "d76b8bf1-9898-45c8-89bd-e8464e844bfb",
+        "run_url": "https://agent.tinyfish.ai/runs/d76b8bf1-9898-45c8-89bd-e8464e844bfb",
+        "read_only": true,
+        "console_url": "https://search.google.com/search-console/sitemaps?resource_id=sc-domain:voce.life",
+        "sitemap_url": "https://voce.life/sitemap.xml",
+        "status": "success",
+        "status_text": "Success",
+        "type": "Sitemap",
+        "submitted_date": "2026-10-07",
+        "last_read": "2026-10-07",
+        "discovered_pages": 2287,
+        "discovered_videos": 0,
+        "processing_success_confirmed": true,
+        "evidence_limit": "Google's sitemap report confirms successful reading and discovery of 2287 URLs; it does not establish that every URL is indexed."
+      }
     }
   }
 }

@@ -134,7 +134,7 @@
   ],
   "schema": "voce.search-console.preparation.v1",
   "checked_at": "2026-10-07T07:49:08.580Z",
-  "status": "properties_verified_discovery_access_repaired_google_processing_unconfirmed",
+  "status": "properties_verified_discovery_access_repaired_google_sitemap_success",
   "remote_console_state": "Verified owner; exact non-www root sitemap absent. HTML pages found in Sitemaps table are not section properties.",
   "primary_property": {
     "domain": "voce.life",
@@ -271,8 +271,8 @@
     }
   ],
   "next_steps": [
-    "At the next authorized evening backfill, check the Google root sitemap once and save actual processing status/read date/discovered URL count.",
-    "Do not repeatedly resubmit, recreate properties, alter source texts/canonicals or infer that all public articles are indexed. Preserve all narrow Cloudflare exceptions and global protections."
+    "Continue the authorized evening backfill at 23:30 Europe/Podgorica; make the already scheduled single read-only sitemap observation after publication and record the current Google processing state.",
+    "No additional resubmission or property recreation is needed for this successful sitemap. Discovery of 2287 URLs does not mean every page is indexed."
   ],
   "official_references": [
     "https://support.google.com/webmasters/answer/34592",
@@ -356,14 +356,14 @@
     "url": "https://voce.life/sitemap.xml",
     "console_confirmation": "Sitemap submitted successfully",
     "submitted_date": "2026-10-07",
-    "observed_type": "unknown",
-    "observed_status": "could_not_fetch",
-    "last_read": null,
-    "discovered_pages": 0,
-    "processing_success_confirmed": false,
+    "observed_type": "sitemap",
+    "observed_status": "success",
+    "last_read": "2026-10-07",
+    "discovered_pages": 2287,
+    "processing_success_confirmed": true,
     "console_url": "https://search.google.com/search-console/sitemaps?resource_id=sc-domain:voce.life",
-    "note": "Provider called Unknown pending processing, but Unknown is the reported sitemap TYPE; do not interpret fetch failure as confirmed processing.",
-    "error_message": "Couldn't fetch",
+    "note": "Google's sitemap report confirms successful reading and discovery of 2287 URLs; it does not establish that every URL is indexed.",
+    "error_message": null,
     "discovered_videos": 0,
     "error_cause_from_google": "not_confirmed",
     "previous_error_observation": {
@@ -371,7 +371,15 @@
       "last_read": "2026-10-07",
       "error_message": "Sitemap could not be read"
     },
-    "latest_submission_after_access_repair": true
+    "latest_submission_after_access_repair": true,
+    "previous_table_observation_before_afternoon_check": {
+      "observed_type": "unknown",
+      "observed_status": "could_not_fetch",
+      "last_read": null,
+      "discovered_pages": 0,
+      "error_message": "Couldn't fetch"
+    },
+    "latest_checked_at": "2026-10-07T12:38:58.642Z"
   },
   "public_sitemap_check": {
     "http_status": 200,
@@ -520,5 +528,42 @@
     "one_google_sitemap_observation_next_evening": true,
     "backfill_must_not_wait_for_google_processing": true
   },
-  "canonical_site_urls_modified": false
+  "canonical_site_urls_modified": false,
+  "updated_at": "2026-10-07T12:38:58.642Z",
+  "google_sitemap_latest_observation": {
+    "checked_at": "2026-10-07T12:38:58.642Z",
+    "run_id": "d76b8bf1-9898-45c8-89bd-e8464e844bfb",
+    "run_url": "https://agent.tinyfish.ai/runs/d76b8bf1-9898-45c8-89bd-e8464e844bfb",
+    "read_only": true,
+    "console_url": "https://search.google.com/search-console/sitemaps?resource_id=sc-domain:voce.life",
+    "sitemap_url": "https://voce.life/sitemap.xml",
+    "status": "success",
+    "status_text": "Success",
+    "type": "Sitemap",
+    "submitted_date": "2026-10-07",
+    "last_read": "2026-10-07",
+    "discovered_pages": 2287,
+    "discovered_videos": 0,
+    "processing_success_confirmed": true,
+    "evidence_limit": "Google's sitemap report confirms successful reading and discovery of 2287 URLs; it does not establish that every URL is indexed."
+  },
+  "google_sitemap_observation_history": [
+    {
+      "checked_at": "2026-10-07T12:38:58.642Z",
+      "run_id": "d76b8bf1-9898-45c8-89bd-e8464e844bfb",
+      "run_url": "https://agent.tinyfish.ai/runs/d76b8bf1-9898-45c8-89bd-e8464e844bfb",
+      "read_only": true,
+      "console_url": "https://search.google.com/search-console/sitemaps?resource_id=sc-domain:voce.life",
+      "sitemap_url": "https://voce.life/sitemap.xml",
+      "status": "success",
+      "status_text": "Success",
+      "type": "Sitemap",
+      "submitted_date": "2026-10-07",
+      "last_read": "2026-10-07",
+      "discovered_pages": 2287,
+      "discovered_videos": 0,
+      "processing_success_confirmed": true,
+      "evidence_limit": "Google's sitemap report confirms successful reading and discovery of 2287 URLs; it does not establish that every URL is indexed."
+    }
+  ]
 }
