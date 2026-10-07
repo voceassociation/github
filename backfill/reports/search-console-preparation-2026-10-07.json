@@ -134,7 +134,7 @@
   ],
   "schema": "voce.search-console.preparation.v1",
   "checked_at": "2026-10-07T07:49:08.580Z",
-  "status": "section_properties_creation_in_progress",
+  "status": "section_property_ui_error_alternative_in_progress",
   "remote_console_state": "Verified owner; exact non-www root sitemap absent. HTML pages found in Sitemaps table are not section properties.",
   "primary_property": {
     "domain": "voce.life",
@@ -146,7 +146,7 @@
     {
       "label": "agent-conformance",
       "url_prefix": "https://voce.life/agent-conformance",
-      "status": "prepared_not_created",
+      "status": "not_created_tool_ui_error",
       "localized_canonical_roots": [
         "https://voce.life/agent-conformance",
         "https://voce.life/fr/agent-conformance",
@@ -157,7 +157,7 @@
     {
       "label": "applied",
       "url_prefix": "https://voce.life/applied",
-      "status": "prepared_not_created",
+      "status": "not_created_tool_ui_error",
       "localized_canonical_roots": [
         "https://voce.life/applied",
         "https://voce.life/fr/applied",
@@ -168,7 +168,7 @@
     {
       "label": "agent-infrastructure",
       "url_prefix": "https://voce.life/agent-infrastructure",
-      "status": "prepared_not_created",
+      "status": "not_created_tool_ui_error",
       "localized_canonical_roots": [
         "https://voce.life/agent-infrastructure",
         "https://voce.life/fr/agent-infrastructure",
@@ -179,7 +179,7 @@
     {
       "label": "atlas",
       "url_prefix": "https://voce.life/atlas",
-      "status": "prepared_not_created",
+      "status": "not_created_tool_ui_error",
       "localized_canonical_roots": [
         "https://voce.life/atlas",
         "https://voce.life/fr/atlas",
@@ -190,7 +190,7 @@
     {
       "label": "human-cognitive-assurance",
       "url_prefix": "https://voce.life/human-cognitive-assurance",
-      "status": "prepared_not_created",
+      "status": "not_created_tool_ui_error",
       "localized_canonical_roots": [
         "https://voce.life/human-cognitive-assurance",
         "https://voce.life/fr/human-cognitive-assurance",
@@ -201,7 +201,7 @@
     {
       "label": "argos",
       "url_prefix": "https://voce.life/argos",
-      "status": "prepared_not_created",
+      "status": "not_created_tool_ui_error",
       "localized_canonical_roots": [
         "https://voce.life/argos",
         "https://voce.life/fr/argos",
@@ -212,40 +212,44 @@
     {
       "label": "archive",
       "url_prefix": "https://voce.life/archive",
-      "status": "prepared_not_created",
+      "status": "existing_property_observed",
       "localized_canonical_roots": [
         "https://voce.life/archive"
       ],
-      "urls_in_sitemap": 1559
+      "urls_in_sitemap": 1559,
+      "actual_existing_property": "https://voce.life/archive/"
     },
     {
       "label": "research",
       "url_prefix": "https://voce.life/research",
-      "status": "prepared_not_created",
+      "status": "existing_property_observed",
       "localized_canonical_roots": [
         "https://voce.life/research"
       ],
-      "urls_in_sitemap": 3
+      "urls_in_sitemap": 3,
+      "actual_existing_property": "https://voce.life/research/"
     },
     {
       "label": "governance",
       "url_prefix": "https://voce.life/governance",
-      "status": "prepared_not_created",
+      "status": "existing_property_observed",
       "localized_canonical_roots": [
         "https://voce.life/governance",
         "https://voce.life/fr/governance",
         "https://voce.life/it/governance"
       ],
-      "urls_in_sitemap": 3
+      "urls_in_sitemap": 3,
+      "actual_existing_property": "https://voce.life/governance/"
     },
     {
       "label": "standards",
       "url_prefix": "https://voce.life/standards",
-      "status": "prepared_not_created",
+      "status": "existing_property_observed",
       "localized_canonical_roots": [
         "https://voce.life/standards"
       ],
-      "urls_in_sitemap": 1
+      "urls_in_sitemap": 1,
+      "actual_existing_property": "https://voce.life/standards/"
     }
   ],
   "next_steps": [
@@ -354,8 +358,24 @@
     "evidence_limit": "This public client response does not prove Google successfully retrieved it."
   },
   "section_properties_run": {
-    "status": "running",
+    "status": "completed_with_tool_blocker",
     "run_id": "a659613e-8e61-4aa2-a4c5-f4676b2df274",
-    "run_url": "https://agent.tinyfish.ai/runs/a659613e-8e61-4aa2-a4c5-f4676b2df274"
+    "run_url": "https://agent.tinyfish.ai/runs/a659613e-8e61-4aa2-a4c5-f4676b2df274",
+    "blocker": "TinyFish click_element_tool rejects the visible Add property element ID as hallucinated; no Google-served bot or security block was observed."
+  },
+  "sections_created_count": 0,
+  "url_inspections": {
+    "agent_conformance": {
+      "status": "not_performed"
+    },
+    "applied": {
+      "status": "not_performed"
+    }
+  },
+  "alternative_property_run": {
+    "status": "running",
+    "run_id": "e47f33c6-bf40-4488-8233-0a9b01d455aa",
+    "run_url": "https://agent.tinyfish.ai/runs/e47f33c6-bf40-4488-8233-0a9b01d455aa",
+    "method": "Supported visual or normal GUI alternative to stale element IDs, single property only"
   }
 }
