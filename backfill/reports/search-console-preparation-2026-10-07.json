@@ -134,7 +134,7 @@
   ],
   "schema": "voce.search-console.preparation.v1",
   "checked_at": "2026-10-07T07:49:08.580Z",
-  "status": "section_property_ui_error_alternative_in_progress",
+  "status": "conformance_verified_remaining_sections_in_progress",
   "remote_console_state": "Verified owner; exact non-www root sitemap absent. HTML pages found in Sitemaps table are not section properties.",
   "primary_property": {
     "domain": "voce.life",
@@ -146,13 +146,16 @@
     {
       "label": "agent-conformance",
       "url_prefix": "https://voce.life/agent-conformance",
-      "status": "not_created_tool_ui_error",
+      "status": "created_verified",
       "localized_canonical_roots": [
         "https://voce.life/agent-conformance",
         "https://voce.life/fr/agent-conformance",
         "https://voce.life/it/agent-conformance"
       ],
-      "urls_in_sitemap": 207
+      "urls_in_sitemap": 207,
+      "actual_property_url": "https://voce.life/agent-conformance/",
+      "verification_method": "automatic_domain_ownership",
+      "verified_at": "2026-10-07T09:40:03.881Z"
     },
     {
       "label": "applied",
@@ -253,10 +256,9 @@
     }
   ],
   "next_steps": [
-    "Authenticate to Google Search Console using the account owning voce.life.",
-    "Check existing verified Domain or HTTPS root property, reuse existing properties, and submit or verify https://voce.life/sitemap.xml without duplicate submissions.",
-    "Add missing section URL-prefix properties requested for Agent Conformance, Applied and related VOCE sections; keep the Domain property as overall view. Verify ownership through existing root ownership when available.",
-    "Inspect the main canonical URLs and request indexing when permitted and needed. Record actual console outcomes, not assumptions."
+    "Complete remaining Applied, Agent Infrastructure, Atlas, Human Cognitive Assurance and ARGOS properties without duplicates.",
+    "Read actual current canonical sitemap status/error in root Domain property, without resubmission.",
+    "Inspect exact slashless Agent Conformance and Applied canonical landing URLs in root Domain property and request indexing only when live test permits it."
   ],
   "official_references": [
     "https://support.google.com/webmasters/answer/34592",
@@ -363,7 +365,7 @@
     "run_url": "https://agent.tinyfish.ai/runs/a659613e-8e61-4aa2-a4c5-f4676b2df274",
     "blocker": "TinyFish click_element_tool rejects the visible Add property element ID as hallucinated; no Google-served bot or security block was observed."
   },
-  "sections_created_count": 0,
+  "sections_created_count": 1,
   "url_inspections": {
     "agent_conformance": {
       "status": "not_performed"
@@ -373,9 +375,18 @@
     }
   },
   "alternative_property_run": {
-    "status": "running",
+    "status": "completed",
     "run_id": "e47f33c6-bf40-4488-8233-0a9b01d455aa",
     "run_url": "https://agent.tinyfish.ai/runs/e47f33c6-bf40-4488-8233-0a9b01d455aa",
-    "method": "Supported visual or normal GUI alternative to stale element IDs, single property only"
+    "method": "Supported visual or normal GUI alternative to stale element IDs, single property only",
+    "created_verified": true,
+    "actual_property_url": "https://voce.life/agent-conformance/",
+    "verification_method": "Inherited verified Domain ownership"
+  },
+  "normalized_property_scope_note": "Google normalized the new section property to a trailing slash. Keep canonical landing URLs unchanged and inspect them in sc-domain:voce.life; a section property ending / must not be assumed to cover a slashless landing URL.",
+  "remaining_sections_run": {
+    "status": "running",
+    "run_id": "e514c201-cf53-492c-9010-aa5692516e85",
+    "run_url": "https://agent.tinyfish.ai/runs/e514c201-cf53-492c-9010-aa5692516e85"
   }
 }

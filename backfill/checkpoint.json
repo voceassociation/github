@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-07T09:36:01.908Z",
+  "updated_at": "2026-10-07T09:40:03.881Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1332,7 +1332,7 @@
       "cloudflare_rule_evidence_status": "captured"
     },
     "search_console_followup_2026_10_07": {
-      "status": "section_property_ui_error_alternative_in_progress",
+      "status": "conformance_verified_remaining_sections_in_progress",
       "report": "backfill/reports/search-console-preparation-2026-10-07.json",
       "public_sitemap_urls": 2287,
       "unique_public_sitemap_urls": 2287,
@@ -1348,11 +1348,11 @@
         "https://voce.life/governance",
         "https://voce.life/standards"
       ],
-      "properties_added": false,
+      "properties_added": true,
       "sitemap_submitted": true,
-      "blocker": "TinyFish click_element_tool rejects the visible Add property element ID as hallucinated; no Google-served bot or security block was observed.",
-      "run_id": "e47f33c6-bf40-4488-8233-0a9b01d455aa",
-      "run_url": "https://agent.tinyfish.ai/runs/e47f33c6-bf40-4488-8233-0a9b01d455aa",
+      "blocker": null,
+      "run_id": "e514c201-cf53-492c-9010-aa5692516e85",
+      "run_url": "https://agent.tinyfish.ai/runs/e514c201-cf53-492c-9010-aa5692516e85",
       "root_property_observed": "sc-domain:voce.life",
       "root_property_verified": true,
       "canonical_sitemap_missing_at_audit": true,
@@ -1365,13 +1365,17 @@
         "https://voce.life/standards/"
       ],
       "missing_section_properties": [
-        "https://voce.life/agent-conformance",
         "https://voce.life/applied",
         "https://voce.life/agent-infrastructure",
         "https://voce.life/atlas",
         "https://voce.life/human-cognitive-assurance",
         "https://voce.life/argos"
-      ]
+      ],
+      "properties_added_count": 1,
+      "properties_added_urls": [
+        "https://voce.life/agent-conformance/"
+      ],
+      "previous_tool_blocker_resolved_for_conformance": true
     }
   }
 }
