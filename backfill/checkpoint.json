@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-06T21:40:10.810Z",
+  "updated_at": "2026-10-07T07:05:55.169Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -915,16 +915,28 @@
     "indexnow_retry_commit": "fab67c8f0bb0a1c3614798a189cd1771b5bdaaa3",
     "r2_backup": {
       "status": "ok",
-      "synced_at": "2026-10-06T21:38:58.320Z",
-      "corpus_items": 1548,
+      "owner": "VOCE Association",
+      "bucket": "voce-sovereign-corpus",
+      "private": true,
+      "synced_at": "2026-10-07T07:03:28.709Z",
       "article_routes": 1548,
+      "corpus_items": 1548,
+      "article_routes_synced": 1548,
       "source_snapshot_complete": true,
+      "backup_cursor": 320,
+      "backup_batch_size": 40,
       "backup_complete": true,
-      "derived_backup_complete": false,
-      "derived_cursor": 1320,
+      "last_complete_sync_at": "2026-10-07T07:03:28.709Z",
+      "total_objects_target": 1660,
+      "objects_synced": 1660,
+      "derived_backup_complete": true,
+      "derived_cursor": 320,
       "total_derived_objects": 1649,
-      "derived_objects_synced": 1320,
-      "derived_article_pages_synced": 1219
+      "derived_objects_synced": 1649,
+      "derived_article_pages_synced": 1548,
+      "source_objects_touched_in_last_sync": 11,
+      "derived_objects_touched_in_last_sync": 40,
+      "changed_in_last_sync": 0
     },
     "research_registry": {
       "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
@@ -1103,7 +1115,7 @@
     "r2_repair_2026_10_06": {
       "cause_verified": "Cloudflare scheduled syncCorpus failed fetching absent static archive/2026-06-27.html (404), screenshot 16:57:34 Europe/Podgorica",
       "fix": "Render day archive backups from canonical corpus rather than fetching absent static HTML; retain permanent article links",
-      "status": "source_backup_verified_and_derived_backup_progressing",
+      "status": "full_source_and_derived_backup_verified",
       "source_texts_modified": false,
       "resume": "Read public backup status after deployment; confirm fresh manifest, 1534 source items and advancing derived_cursor before marking R2 repaired",
       "fix_commit": "f0784aea0170844bbe7831109dff99fc9660663e",
@@ -1118,14 +1130,34 @@
         "resume_passed": true,
         "original_texts_preserved": true
       },
-      "public_status_checked_at": "2026-10-06T17:36:30+02:00",
+      "public_status_checked_at": "2026-10-07T07:05:55.169Z",
       "public_status": {
-        "status": "syncing",
-        "synced_at": "2026-09-30T15:00:48.996Z",
-        "corpus_items": 17
+        "status": "ok",
+        "owner": "VOCE Association",
+        "bucket": "voce-sovereign-corpus",
+        "private": true,
+        "synced_at": "2026-10-07T07:03:28.709Z",
+        "article_routes": 1548,
+        "corpus_items": 1548,
+        "article_routes_synced": 1548,
+        "source_snapshot_complete": true,
+        "backup_cursor": 320,
+        "backup_batch_size": 40,
+        "backup_complete": true,
+        "last_complete_sync_at": "2026-10-07T07:03:28.709Z",
+        "total_objects_target": 1660,
+        "objects_synced": 1660,
+        "derived_backup_complete": true,
+        "derived_cursor": 320,
+        "total_derived_objects": 1649,
+        "derived_objects_synced": 1649,
+        "derived_article_pages_synced": 1548,
+        "source_objects_touched_in_last_sync": 11,
+        "derived_objects_touched_in_last_sync": 40,
+        "changed_in_last_sync": 0
       },
       "access": "TinyFish verified signed-in Voceassociation Account; GitHub connection and current main build deployed; CUA browser access remains separate",
-      "next_action": "Scheduled cron continues rendering batches of 40; check derived_backup_complete before claiming all HTML copies complete.",
+      "next_action": "Monitor routine scheduled backup and new publication intake; complete source and HTML snapshot verified.",
       "verification": {
         "status": "source_backup_verified_and_derived_backup_progressing",
         "owner": "VOCE Association",
@@ -1230,6 +1262,21 @@
       "global_submission_repeated": false,
       "prior_global_success_run": "https://github.com/voceassociation/github/actions/runs/37480606608",
       "prior_global_status": 200
+    },
+    "nightly_backfill_morning_verification_2026_10_07": {
+      "checked_at": "2026-10-07T07:05:55.169Z",
+      "nightly_run_completed_at": "2026-10-06T21:40:10.810Z",
+      "newly_archived": 14,
+      "corpus_items": 1548,
+      "unique_texts": 1548,
+      "canonical_article_checked": "https://voce.life/archive/2026/10/06/a-chicago-une-tornade-se-forme-a-quelques-metres-des-visiteurs-7513267092767502336",
+      "http_status": 200,
+      "articleBodyFNV1a": "9bf4de26",
+      "articleBody_matches_nightly_verified_source": true,
+      "r2_source_snapshot_complete": true,
+      "r2_derived_backup_complete": true,
+      "r2_objects_synced": 1660,
+      "indexnow_status": "failed_403_key_verification"
     }
   }
 }
