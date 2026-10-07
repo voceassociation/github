@@ -134,7 +134,7 @@
   ],
   "schema": "voce.search-console.preparation.v1",
   "checked_at": "2026-10-07T07:49:08.580Z",
-  "status": "root_sitemap_submission_in_progress",
+  "status": "section_properties_creation_in_progress",
   "remote_console_state": "Verified owner; exact non-www root sitemap absent. HTML pages found in Sitemaps table are not section properties.",
   "primary_property": {
     "domain": "voce.life",
@@ -329,6 +329,33 @@
   "sitemap_submission_run": {
     "run_id": "5afbb448-7669-49b2-add0-02051850a777",
     "run_url": "https://agent.tinyfish.ai/runs/5afbb448-7669-49b2-add0-02051850a777",
-    "status": "running"
+    "status": "completed"
+  },
+  "sitemap_submission": {
+    "submitted": true,
+    "url": "https://voce.life/sitemap.xml",
+    "console_confirmation": "Sitemap submitted successfully",
+    "submitted_date": "2026-10-07",
+    "observed_type": "unknown",
+    "observed_status": "could_not_fetch",
+    "last_read": null,
+    "discovered_pages": 0,
+    "processing_success_confirmed": false,
+    "console_url": "https://search.google.com/search-console/sitemaps?resource_id=sc-domain:voce.life",
+    "note": "Provider called Unknown pending processing, but Unknown is the reported sitemap TYPE; do not interpret fetch failure as confirmed processing."
+  },
+  "public_sitemap_check": {
+    "http_status": 200,
+    "content_type": "application/xml",
+    "content_length": 292984,
+    "checked_at": "2026-10-07T09:27:18.133Z",
+    "distinct_urls": 2287,
+    "cf_ray": "a46bdce0eb19cca4-ORD",
+    "evidence_limit": "This public client response does not prove Google successfully retrieved it."
+  },
+  "section_properties_run": {
+    "status": "running",
+    "run_id": "a659613e-8e61-4aa2-a4c5-f4676b2df274",
+    "run_url": "https://agent.tinyfish.ai/runs/a659613e-8e61-4aa2-a4c5-f4676b2df274"
   }
 }
