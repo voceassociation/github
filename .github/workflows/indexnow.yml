@@ -34,6 +34,7 @@ jobs:
           import urllib.request
           import urllib.error
           import time
+          from pathlib import Path
           import xml.etree.ElementTree as ET
 
           origin = os.environ["SITE_ORIGIN"].rstrip("/")
@@ -53,17 +54,33 @@ jobs:
 
           urls = []
 
-          # Manual dispatch is the only deliberate full resubmission.
+          # Manual dispatch or an explicit full request resubmits the sitemap.
+          # A dated request retries only its existing canonical article/day URLs.
           # A workflow-only change probes the Atlas root instead of blasting
           # historical URLs that did not change.
           if event_name == "workflow_dispatch" or "backfill/indexnow-resubmit.json" in changed:
-              tree = ET.parse("sitemap.xml")
-              ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-              urls.extend(
-                  loc.text.strip()
-                  for loc in tree.findall(".//sm:loc", ns)
-                  if loc.text and loc.text.strip().startswith(origin)
-              )
+              request = json.loads(Path("backfill/indexnow-resubmit.json").read_text())
+              if event_name != "workflow_dispatch" and request.get("scope") == "current_days":
+                  days = set(request["dates"])
+                  if not days:
+                      raise ValueError("A current_days request must contain publication dates")
+                  routes = json.loads(Path("data/article-routes.json").read_text())
+                  urls.extend(
+                      origin + route["path"] for route in routes["items"]
+                      if route.get("date") in days and not route.get("redirect_to")
+                  )
+                  urls.extend(
+                      f"{origin}/archive/{day}" for day in sorted(days)
+                      if Path(f"data/history/{day}.json").exists()
+                  )
+              else:
+                  tree = ET.parse("sitemap.xml")
+                  ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+                  urls.extend(
+                      loc.text.strip()
+                      for loc in tree.findall(".//sm:loc", ns)
+                      if loc.text and loc.text.strip().startswith(origin)
+                  )
           else:
               if ".github/workflows/indexnow.yml" in changed:
                   urls.append(origin + "/atlas")
@@ -118,9 +135,17 @@ jobs:
               print("No indexable URL changed; nothing to submit.")
               raise SystemExit(0)
 
+          key_location = f"{origin}/{key}.txt"
+          with urllib.request.urlopen(key_location, timeout=30) as response:
+              live_key = response.read().decode("utf-8").strip()
+              if response.status != 200 or live_key != key:
+                  raise RuntimeError("IndexNow ownership key does not match the published key file")
+          print(f"Verified IndexNow ownership key: {key_location}")
+
           payload = {
               "host": host,
               "key": key,
+              "keyLocation": key_location,
               "urlList": urls,
           }
 

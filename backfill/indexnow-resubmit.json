@@ -1,9 +1,23 @@
 {
-  "requested_at": "2026-10-06",
-  "reason": "Retry previous403submissions after verified ownership",
-  "source": "sitemap.xml",
-  "status": "accepted",
-  "http_status": 200,
-  "submitted_urls": 2272,
-  "run_id": 37480606608
+  "requested_at": "2026-10-07T07:11:19.651745+00:00",
+  "reason": "Retry the 2026-10-06 current-publication submission with the verified canonical ownership key",
+  "scope": "current_days",
+  "dates": [
+    "2026-10-03",
+    "2026-10-04",
+    "2026-10-05",
+    "2026-10-06"
+  ],
+  "source": "data/article-routes.json and data/history",
+  "status": "requested",
+  "previous_failed_run_id": 37535330356,
+  "previous_full_sitemap_submission": {
+    "requested_at": "2026-10-06",
+    "reason": "Retry previous403submissions after verified ownership",
+    "source": "sitemap.xml",
+    "status": "accepted",
+    "http_status": 200,
+    "submitted_urls": 2272,
+    "run_id": 37480606608
+  }
 }

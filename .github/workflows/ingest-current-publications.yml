@@ -109,10 +109,11 @@ jobs:
 
       - name: Submit published article URLs to IndexNow
         env:
-          INDEXNOW_KEY: c86f946ba27001564086ad51d808e308
+          INDEXNOW_KEY: 9e4c71d85a2f4b6cb3098f21d7a56e40
         run: |
           python3 - <<'PY'
           import json
+          import os
           import pathlib
           import urllib.request
           import urllib.error
@@ -137,11 +138,17 @@ jobs:
           if not urls:
               print("No current article URLs to submit.")
               raise SystemExit(0)
-          key = "c86f946ba27001564086ad51d808e308"
+          key = os.environ["INDEXNOW_KEY"]
+          key_location = f"https://voce.life/{key}.txt"
+          with urllib.request.urlopen(key_location, timeout=30) as response:
+              live_key = response.read().decode("utf-8").strip()
+              if response.status != 200 or live_key != key:
+                  raise RuntimeError("IndexNow ownership key does not match the published key file")
+          print(f"Verified IndexNow ownership key: {key_location}")
           payload = {
               "host": "voce.life",
               "key": key,
-              "keyLocation": f"https://voce.life/{key}.txt",
+              "keyLocation": key_location,
               "urlList": sorted(set(urls)),
           }
           request = urllib.request.Request(
