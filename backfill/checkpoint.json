@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-07T12:38:58.642Z",
+  "updated_at": "2026-10-07T21:31:36.879005+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -885,12 +885,16 @@
     },
     "2026-10-06": {
       "status": "rows_returned",
-      "rows": 14
+      "rows": 17
+    },
+    "2026-10-07": {
+      "status": "rows_returned",
+      "rows": 15
     }
   },
-  "retrieved_unique_publications": 1549,
-  "newly_archived": 14,
-  "academy_corpus_items": 1548,
+  "retrieved_unique_publications": 1567,
+  "newly_archived": 17,
+  "academy_corpus_items": 1565,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
@@ -978,77 +982,23 @@
     },
     "current_publication_ingest": {
       "dates": [
-        "2026-10-03",
         "2026-10-04",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07"
       ],
       "verified_source": "Metricool LinkedIn connector, brand 7090850",
       "items_processed": 60,
-      "newly_archived": 14,
-      "corpus_items_after": 1548,
+      "corpus_items_after": 1565,
       "classification": "A editorial/archive",
       "static_pages_verified_for_generation": 60,
       "daily_archives": [
-        "archive/2026-10-03.html",
         "archive/2026-10-04.html",
         "archive/2026-10-05.html",
-        "archive/2026-10-06.html"
+        "archive/2026-10-06.html",
+        "archive/2026-10-07.html"
       ],
-      "completed_at": "2026-10-06T21:40:10.810Z",
-      "deployment_verified_at": "2026-10-06T21:40:10.810Z",
-      "verification": {
-        "article": "https://voce.life/archive/2026/10/06/a-chicago-une-tornade-se-forme-a-quelques-metres-des-visiteurs-7513267092767502336",
-        "articleBodyLength": 1931,
-        "articleBodyFNV1a": "9bf4de26",
-        "decoded_source_exact_match": true,
-        "canonical_verified": true,
-        "robots": "index,follow,max-snippet:-1,max-image-preview:large",
-        "og_image": "https://voce.life/voce-og.jpg",
-        "sameAs": [
-          "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513267092767502336"
-        ],
-        "guide_query": "Chicago tornado vortex Science Storms",
-        "guide_result_verified": true,
-        "academy_visible_count": 1548
-      },
-      "deduplication": {
-        "unique_texts": 1548,
-        "alternate_ids_reimported": 0,
-        "canonical_routes": 1548,
-        "redirects": 1,
-        "validation_status": "passed"
-      },
-      "indexnow": {
-        "endpoint": "https://www.bing.com/indexnow",
-        "status": "accepted_200",
-        "workflow_run": "https://github.com/voceassociation/github/actions/runs/37535330356",
-        "submitted_scope": "current four-day window only",
-        "global_submission_repeated": false,
-        "prior_global_success_run": "https://github.com/voceassociation/github/actions/runs/37480606608",
-        "prior_global_status": 200,
-        "http_status": 200,
-        "accepted_at": "2026-10-07T07:31:50.868Z",
-        "recovery_run_id": 37586011624,
-        "recovery_job_id": 112682128127,
-        "submitted_url_count": 64
-      },
-      "r2_backup": {
-        "status": "ok",
-        "synced_at": "2026-10-06T21:38:58.320Z",
-        "corpus_items": 1548,
-        "article_routes": 1548,
-        "source_snapshot_complete": true,
-        "backup_complete": true,
-        "derived_backup_complete": false,
-        "derived_cursor": 1320,
-        "total_derived_objects": 1649,
-        "derived_objects_synced": 1320,
-        "derived_article_pages_synced": 1219
-      },
-      "source_commit": "8f1f96d554a25ae0a446a0c34fe4138c0bc3dda9",
-      "corpus_commit": "cdadbe93139aa3395c5040a45a5bf0fe9a63b290",
-      "indexnow_endpoint_fix_commit": "33ddeef28293530392f90b1514d7385927537650"
+      "completed_at": "2026-10-07T21:31:37.299550+00:00"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",

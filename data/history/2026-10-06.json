@@ -3,7 +3,7 @@
   "owner": "VOCE Association",
   "source": "Metricool / LinkedIn",
   "date": "2026-10-06",
-  "item_count": 14,
+  "item_count": 17,
   "items": [
     {
       "id": "linkedin:7513070699846995968",
@@ -22,7 +22,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-06T21:39:05.670826+00:00",
+        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -43,7 +43,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-06T21:39:05.670826+00:00",
+        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -64,7 +64,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-06T21:39:05.670826+00:00",
+        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -85,7 +85,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-06T21:39:05.670826+00:00",
+        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -106,7 +106,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-06T21:39:05.670826+00:00",
+        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -127,7 +127,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-06T21:39:05.670826+00:00",
+        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -148,7 +148,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-06T21:39:05.670826+00:00",
+        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -169,7 +169,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-06T21:39:05.670826+00:00",
+        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -190,7 +190,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-06T21:39:05.670826+00:00",
+        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -211,7 +211,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-06T21:39:05.670826+00:00",
+        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -232,7 +232,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-06T21:39:05.670826+00:00",
+        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -253,7 +253,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-06T21:39:05.670826+00:00",
+        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -274,7 +274,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-06T21:39:05.670826+00:00",
+        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -295,7 +295,70 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-06T21:39:05.670826+00:00",
+        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7513282110875639808",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7513282110875639808",
+      "date_published": "2026-10-06T19:00:52+02:00",
+      "title": "Un couple peut devenir moins heureux sans devenir moins important",
+      "slug": "un-couple-peut-devenir-moins-heureux-sans-devenir-moins-important-7513282110875639808",
+      "canonical_url": "https://voce.life/archive/2026/10/06/un-couple-peut-devenir-moins-heureux-sans-devenir-moins-important-7513282110875639808",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513282110875639808",
+      "language": "fr",
+      "text": "Un couple peut devenir moins heureux sans devenir moins important\n\nToronto, 24 septembre 2026.\n\n426 personnes en couple évaluent séparément deux dimensions que nous confondons souvent: le bonheur que leur relation procure et le sens qu'elle possède dans leur vie.\n\nRavi Thiruchselvam, Stephanie Domingo et Aidan Campbell découvrent qu'elles ne suivent pas les mêmes variables.\n\nLe désir et la satisfaction sexuels sont associés à davantage de bonheur relationnel.\n\nLes sacrifices fréquents ou difficiles et le stress relationnel sont associés à moins de bonheur.\n\nPourtant, ces sacrifices ne sont pas associés à une relation moins significative.\n\nPuis apparaît une différence plus singulière.\n\nPartager avec son partenaire des expériences négatives, embarrassantes ou honteuses est associé à davantage de sens dans la relation, indépendamment du bonheur.\n\nLes chercheurs répètent ensuite l'analyse auprès de 711 autres participants.\n\nL'essentiel du résultat se reproduit.\n\nUne période difficile peut donc réduire la satisfaction quotidienne sans effacer nécessairement l'importance que la relation possède dans une existence.\n\nPrudence: l'étude ne démontre pas que souffrir ensemble renforce un couple, ni qu'un sacrifice crée du sens.\n\nElle montre qu'une relation peut perdre du plaisir sans perdre sa signification.\n\nULTRA®\n\nL'étude ne mesure ni activité cérébrale ni mémoire autobiographique.\n\nLes auteurs distinguent deux dimensions du bien-être.\n\nL'une est hédonique: plaisir, émotions positives, satisfaction.\n\nL'autre touche à la signification: compréhension, importance, sentiment que quelque chose compte dans son existence.\n\nLa confidence négative est particulièrement intéressante.\n\nDire à quelqu'un ce que l'on préférerait cacher augmente la quantité d'information personnelle disponible dans la relation. Les auteurs proposent qu'une telle révélation puisse favoriser compréhension et signification.\n\nC'est une interprétation, pas un mécanisme démontré.\n\nLe résultat permet néanmoins de relire certaines \"mauvaises années\".\n\nUne maladie ou des mois de fatigue ne deviennent pas précieux avec le temps.\n\nMais la qualité d'un lien ne se résume pas à la somme des moments agréables.\n\nDeux personnes peuvent juger une période profondément insatisfaisante et continuer à considérer que leur histoire commune occupe une place immense dans leur vie.\n\nDemander seulement \"Sommes-nous heureux?\" laisse donc parfois une partie de l'information hors du cadre.\n\nUne autre mesure existe: \"Quelle importance cette relation a-t-elle prise dans ce que je suis devenu?\"\n\nCUPIDO\n\nCertaines relations comptent aussi par ce qu'elles nous ont permis de confier sans nous faire disparaître aux yeux de l'autre.\n\nSources\n\nThiruchselvam, Domingo & Campbell, Journal of Social and Personal Relationships, 24 septembre 2026\nUniversity of Toronto\n\n#VOCEASSOCIATION #Amour #Couple #Psychologie #Intimité",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7513297208801382400",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7513297208801382400",
+      "date_published": "2026-10-06T20:00:52+02:00",
+      "title": "Sexualité du couple: le \"oui\" ne mesure ni le désir ni la liberté du \"non\"",
+      "slug": "sexualite-du-couple-le-oui-ne-mesure-ni-le-desir-ni-la-liberte-du-non-7513297208801382400",
+      "canonical_url": "https://voce.life/archive/2026/10/06/sexualite-du-couple-le-oui-ne-mesure-ni-le-desir-ni-la-liberte-du-non-7513297208801382400",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513297208801382400",
+      "language": "fr",
+      "text": "Sexualité du couple: le \"oui\" ne mesure ni le désir ni la liberté du \"non\"\n\n21 juillet 2026.\n\n849 adultes décrivent leur dernière expérience sexuelle consentie.\n\nTiffany Marcantonio, Kristen Jozkowski et leurs collègues distinguent ce qui est exprimé vers l'extérieur de ce qui est éprouvé intérieurement.\n\nSécurité et confort. Excitation. Réponse physique. Sentiment d'être prêt.\n\nCes dimensions internes sont associées à davantage de satisfaction et de plaisir. La sensation d'être prêt est aussi associée à la satisfaction.\n\nLa propre communication externe du participant n'est pas un prédicteur significatif dans leurs modèles.\n\nLes signaux verbaux du partenaire sont également associés à davantage de satisfaction et de plaisir.\n\nLe consentement reste indispensable. Il ne résume pas l'expérience.\n\nLe 18 juillet, une seconde étude examine 675 personnes en couple hétérosexuel stable.\n\n34,4% déclarent avoir fréquemment accepté une activité sexuelle sans désir pour faire plaisir au partenaire.\n\n13,6% le font fréquemment par peur de conséquences négatives.\n\nDans les deux cas, cette conformité sexuelle est associée à une satisfaction sexuelle et relationnelle plus faible.\n\nUne étude finlandaise sur 948 personnes ajoute une nuance.\n\nAccepter sans désir initial peut être vécu différemment selon le contexte. Les motivations d'approche, comme rechercher proximité ou intimité, sont les plus liées aux conséquences positives. Coercition du partenaire et détresse sexuelle sont les plus liées aux conséquences négatives.\n\nEn Chine, deux études de 2026 montrent que répondre aux besoins du partenaire peut accompagner une meilleure satisfaction, tandis que négliger ses propres besoins et manquer d'assertivité est associé à davantage de détresse.\n\nULTRA®\n\nCes travaux obligent à distinguer plusieurs variables.\n\nConsentir. Désirer. Communiquer. Accepter sans désir initial. Craindre les conséquences d'un refus. Pouvoir exprimer ses besoins.\n\nLes confondre efface l'information clinique.\n\nUne activité peut être consentie sans désir initial et être vécue positivement. Une scène extérieurement similaire peut aussi coexister avec anticipation du conflit, culpabilité, retrait affectif ou peur.\n\nCes études sont observationnelles. Elles n'établissent pas la cause.\n\nElles rendent pourtant une question particulièrement informative:\n\n\"Que pensiez-vous qu'il arriverait si vous disiez non?\"\n\nLe consentement fixe une frontière fondamentale.\n\nComprendre la sexualité du couple exige ensuite d'examiner la liberté réelle avec laquelle le \"oui\" et le \"non\" peuvent être exprimés.\n\nARIANE\n\nL'intimité devient libre lorsque le refus peut exister sans dette, menace ni sanction.\n\nSources\n\nMarcantonio et al., The Journal of Sex Research, 21 juillet 2026\nSowan et al., Family Relations, 18 juillet 2026\nNickull et al., Journal of Sex & Marital Therapy, 2025\nShi et al., Archives of Sexual Behavior, 29 mai 2026\n\n#VOCEASSOCIATION #Sexologie #Consentement #Couple #SantéSexuelle",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7513327376039055360",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7513327376039055360",
+      "date_published": "2026-10-06T22:00:46+02:00",
+      "title": "Un sourire qui n'enseigne rien peut pourtant modifier ce que le cerveau d'un adolescent apprend",
+      "slug": "un-sourire-qui-n-enseigne-rien-peut-pourtant-modifier-ce-que-le-cerveau-7513327376039055360",
+      "canonical_url": "https://voce.life/archive/2026/10/06/un-sourire-qui-n-enseigne-rien-peut-pourtant-modifier-ce-que-le-cerveau-7513327376039055360",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513327376039055360",
+      "language": "fr",
+      "text": "Un sourire qui n'enseigne rien peut pourtant modifier ce que le cerveau d'un adolescent apprend\n\nSeattle.\n\n40 adolescents de 15 et 17 ans écoutent des séquences de syllabes pendant une tâche informatique.\n\nAprès certaines réponses, un visage apparaît.\n\nIl sourit ou fronce les sourcils.\n\nLe visage ne contient aucune information sur les régularités cachées dans les sons.\n\nLe 6 septembre 2026, Alexis Bosseler, Erica Peterson, Katherine Meltzoff, Andrew Meltzoff, Patricia Kuhl et leurs collègues publient les résultats dans Developmental Cognitive Neuroscience.\n\nLe cerveau est enregistré par magnétoencéphalographie.\n\nAvec les visages souriants, les chercheurs observent des réponses compatibles avec l'apprentissage statistique dans plusieurs régions de l'hémisphère gauche: cortex auditif antérieur, cortex frontal inférieur, insula et amygdale.\n\nLes visages désapprobateurs ne produisent pas de signature comparable.\n\nCes visages ne prédisent pas les syllabes et n'aident pas à résoudre la tâche.\n\nPourtant, leur valence sociale modifie la réponse neuronale associée à l'extraction implicite des régularités.\n\nDeux enseignants peuvent prononcer exactement la même correction. Le contenu verbal est identique. Le contexte social dans lequel le cerveau la reçoit ne l'est pas.\n\nL'étude ne démontre pas qu'un professeur souriant fait mieux apprendre, ni que l'effet persiste à long terme.\n\nElle montre que, chez l'adolescent, un signal social périphérique peut atteindre les mécanismes neuronaux engagés pendant un apprentissage implicite.\n\nULTRA®\n\nMémoire, attention et langage sont souvent testés comme des fonctions séparées. Cette expérience rappelle qu'elles travaillent dans un environnement social capable de modifier leur expression neuronale.\n\nAprès correction pour comparaisons multiples, l'effet positif le plus robuste apparaît dans l'insula gauche.\n\nCela ne prouve pas que cette région \"explique\" l'effet du sourire. Cela localise une partie mesurable de la modulation.\n\nPour un neuropsychologue, un enseignant ou un parent, une performance faible peut donc être difficile à comprendre sans regarder le contexte social dans lequel l'information est reçue.\n\nUne plateforme peut reproduire un exercice, une voix et une correction. Elle ne reproduit pas automatiquement les micro-signaux sociaux de l'apprentissage humain.\n\nIl reste à savoir si cette modulation améliore réellement les connaissances, combien de temps elle persiste et si elle existe hors du laboratoire.\n\nSeattle déplace pourtant déjà une frontière.\n\nL'atmosphère sociale entre dans la mesure neuronale de l'apprentissage.\n\nPAMINA\n\nOn enseigne aussi par ce que le cerveau comprend du visage qui accompagne les mots.\n\nSources\n\nBosseler et al., Developmental Cognitive Neuroscience, 6 septembre 2026\nUniversity of Washington, Institute for Learning & Brain Sciences\n\n#VOCEASSOCIATION #Neurosciences #Adolescence #Apprentissage #Neuropsychologie",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     }

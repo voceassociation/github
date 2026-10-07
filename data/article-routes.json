@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "owner": "VOCE Association",
-  "generated_at": "2026-10-06T21:39:05.395941+00:00",
+  "generated_at": "2026-10-07T21:31:36.879005+00:00",
   "items": [
     {
       "id": "linkedin:7509084439671664640",
@@ -9298,6 +9298,116 @@
       "post_id": "7513070699846995968",
       "date": "2026-10-06",
       "path": "/archive/2026/10/06/opera-voce-la-francia-entra-nello-spread-7513070699846995968"
+    },
+    {
+      "id": "redirect:linkedin:7513433094587351040",
+      "post_id": "7513433094587351040",
+      "date": "2026-10-07",
+      "path": "/archive/2026/10/07/opera-voce-il-cloud-non-vive-tra-le-nuvole-7513433094587351040",
+      "redirect_to": "/archive/2026/09/24/opera-voce-il-cloud-non-vive-tra-le-nuvole-7508722055333314561",
+      "canonical_id": "linkedin:7508722055333314561"
+    },
+    {
+      "id": "linkedin:7513327376039055360",
+      "post_id": "7513327376039055360",
+      "date": "2026-10-06",
+      "path": "/archive/2026/10/06/un-sourire-qui-n-enseigne-rien-peut-pourtant-modifier-ce-que-le-cerveau-7513327376039055360"
+    },
+    {
+      "id": "linkedin:7513297208801382400",
+      "post_id": "7513297208801382400",
+      "date": "2026-10-06",
+      "path": "/archive/2026/10/06/sexualite-du-couple-le-oui-ne-mesure-ni-le-desir-ni-la-liberte-du-non-7513297208801382400"
+    },
+    {
+      "id": "linkedin:7513282110875639808",
+      "post_id": "7513282110875639808",
+      "date": "2026-10-06",
+      "path": "/archive/2026/10/06/un-couple-peut-devenir-moins-heureux-sans-devenir-moins-important-7513282110875639808"
+    },
+    {
+      "id": "linkedin:7513644519108788225",
+      "post_id": "7513644519108788225",
+      "date": "2026-10-07",
+      "path": "/archive/2026/10/07/un-hopital-veut-accueillir-davantage-de-patients-sans-ajouter-de-lits-7513644519108788225"
+    },
+    {
+      "id": "linkedin:7513629456113270784",
+      "post_id": "7513629456113270784",
+      "date": "2026-10-07",
+      "path": "/archive/2026/10/07/pantheon-de-rome-l-inscription-authentique-qui-a-trompe-l-histoire-penda-7513629456113270784"
+    },
+    {
+      "id": "linkedin:7513614309063548928",
+      "post_id": "7513614309063548928",
+      "date": "2026-10-07",
+      "path": "/archive/2026/10/07/jour-16-un-metier-nest-pas-une-tache-7513614309063548928"
+    },
+    {
+      "id": "linkedin:7513599240896663552",
+      "post_id": "7513599240896663552",
+      "date": "2026-10-07",
+      "path": "/archive/2026/10/07/nous-avons-peut-etre-mesure-le-mauvais-probleme-chez-les-adolescents-7513599240896663552"
+    },
+    {
+      "id": "linkedin:7513584144115912704",
+      "post_id": "7513584144115912704",
+      "date": "2026-10-07",
+      "path": "/archive/2026/10/07/a-neuf-ans-comprendre-plus-vite-ne-signifie-pas-construire-la-memoire-la-7513584144115912704"
+    },
+    {
+      "id": "linkedin:7513569016938917890",
+      "post_id": "7513569016938917890",
+      "date": "2026-10-07",
+      "path": "/archive/2026/10/07/pendant-que-vous-preparez-le-diner-votre-bebe-selectionne-deja-ce-qui-me-7513569016938917890"
+    },
+    {
+      "id": "linkedin:7513553919088730113",
+      "post_id": "7513553919088730113",
+      "date": "2026-10-07",
+      "path": "/archive/2026/10/07/dans-le-rhone-la-france-teste-une-energie-que-presque-personne-ne-regard-7513553919088730113"
+    },
+    {
+      "id": "linkedin:7513538793220616192",
+      "post_id": "7513538793220616192",
+      "date": "2026-10-07",
+      "path": "/archive/2026/10/07/mil-125-nh2-ti-un-materiau-retire-90-2-du-fluor-d-un-pfas-presque-indest-7513538793220616192"
+    },
+    {
+      "id": "linkedin:7513523706837721088",
+      "post_id": "7513523706837721088",
+      "date": "2026-10-07",
+      "path": "/archive/2026/10/07/le-bilinguisme-familial-ne-suit-pas-toujours-la-regle-un-parent-une-lang-7513523706837721088"
+    },
+    {
+      "id": "linkedin:7513508603249762305",
+      "post_id": "7513508603249762305",
+      "date": "2026-10-07",
+      "path": "/archive/2026/10/07/un-bebe-peut-regarder-sans-apprendre-7513508603249762305"
+    },
+    {
+      "id": "linkedin:7513493510428319744",
+      "post_id": "7513493510428319744",
+      "date": "2026-10-07",
+      "path": "/archive/2026/10/07/pourquoi-dis-pardon-n-enseigne-pas-toujours-a-reparer-7513493510428319744"
+    },
+    {
+      "id": "linkedin:7513478407234707456",
+      "post_id": "7513478407234707456",
+      "date": "2026-10-07",
+      "path": "/archive/2026/10/07/cancer-de-la-vessie-ugn-103-transforme-une-chimiotherapie-ancienne-en-ge-7513478407234707456"
+    },
+    {
+      "id": "linkedin:7513463281693696000",
+      "post_id": "7513463281693696000",
+      "date": "2026-10-07",
+      "path": "/archive/2026/10/07/akasicmem-l-agent-se-souvient-d-une-information-que-vous-n-avez-plus-le-7513463281693696000"
+    },
+    {
+      "id": "linkedin:7513448168559288320",
+      "post_id": "7513448168559288320",
+      "date": "2026-10-07",
+      "path": "/archive/2026/10/07/shopify-webmcp-l-agent-ia-peut-desormais-aller-jusqu-au-bouton-payer-7513448168559288320"
     }
   ]
 }

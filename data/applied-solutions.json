@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generated_at": "2026-10-06",
+  "generated_at": "2026-10-07",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
   "methodology": {
@@ -3624,6 +3624,22 @@
         "legal",
         "hr",
         "banking",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7513448168559288320",
+      "date": "2026-10-07",
+      "title": "Shopify WebMCP: l'agent IA peut désormais aller jusqu'au bouton payer",
+      "path": "/archive/2026/10/07/shopify-webmcp-l-agent-ia-peut-desormais-aller-jusqu-au-bouton-payer-7513448168559288320",
+      "sectors": [
+        "legal",
+        "marketing",
         "it"
       ],
       "themes": [
