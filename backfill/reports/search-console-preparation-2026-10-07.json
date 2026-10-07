@@ -134,8 +134,8 @@
   ],
   "schema": "voce.search-console.preparation.v1",
   "checked_at": "2026-10-07T07:49:08.580Z",
-  "status": "awaiting_google_authentication",
-  "remote_console_state": "Signed-out Search Console redirected to Google sign-in; no property or sitemap submission claimed.",
+  "status": "in_progress_authenticated_console",
+  "remote_console_state": "Run has reached selection of sc-domain:voce.life; sitemap/property outcomes remain pending.",
   "primary_property": {
     "domain": "voce.life",
     "api_site_url": "sc-domain:voce.life",
@@ -260,5 +260,13 @@
     "https://support.google.com/webmasters/answer/9012289"
   ],
   "site_design_modified": false,
-  "original_article_texts_modified": false
+  "original_article_texts_modified": false,
+  "authenticated_console": {
+    "user_confirmed_saved": true,
+    "observed_domain_property": "sc-domain:voce.life",
+    "verification_detail_status": "awaiting_final_console_receipt",
+    "run_id": "e4002d30-252a-4b94-8b2c-c4edd2adb8b7",
+    "run_url": "https://agent.tinyfish.ai/runs/e4002d30-252a-4b94-8b2c-c4edd2adb8b7",
+    "started_at": "2026-10-07T09:19:01.864Z"
+  }
 }
