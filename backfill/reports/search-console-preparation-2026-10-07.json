@@ -134,7 +134,7 @@
   ],
   "schema": "voce.search-console.preparation.v1",
   "checked_at": "2026-10-07T07:49:08.580Z",
-  "status": "conformance_verified_remaining_sections_in_progress",
+  "status": "properties_verified_crawler_discovery_repair_in_progress",
   "remote_console_state": "Verified owner; exact non-www root sitemap absent. HTML pages found in Sitemaps table are not section properties.",
   "primary_property": {
     "domain": "voce.life",
@@ -160,57 +160,72 @@
     {
       "label": "applied",
       "url_prefix": "https://voce.life/applied",
-      "status": "not_created_tool_ui_error",
+      "status": "created_verified",
       "localized_canonical_roots": [
         "https://voce.life/applied",
         "https://voce.life/fr/applied",
         "https://voce.life/it/applied"
       ],
-      "urls_in_sitemap": 3
+      "urls_in_sitemap": 3,
+      "actual_property_url": "https://voce.life/applied",
+      "verification_method": "automatic_domain_ownership",
+      "verified_at": "2026-10-07T10:02:17.421Z"
     },
     {
       "label": "agent-infrastructure",
       "url_prefix": "https://voce.life/agent-infrastructure",
-      "status": "not_created_tool_ui_error",
+      "status": "created_verified",
       "localized_canonical_roots": [
         "https://voce.life/agent-infrastructure",
         "https://voce.life/fr/agent-infrastructure",
         "https://voce.life/it/agent-infrastructure"
       ],
-      "urls_in_sitemap": 3
+      "urls_in_sitemap": 3,
+      "actual_property_url": "https://voce.life/agent-infrastructure",
+      "verification_method": "automatic_domain_ownership",
+      "verified_at": "2026-10-07T10:02:17.421Z"
     },
     {
       "label": "atlas",
       "url_prefix": "https://voce.life/atlas",
-      "status": "not_created_tool_ui_error",
+      "status": "created_verified",
       "localized_canonical_roots": [
         "https://voce.life/atlas",
         "https://voce.life/fr/atlas",
         "https://voce.life/it/atlas"
       ],
-      "urls_in_sitemap": 420
+      "urls_in_sitemap": 420,
+      "actual_property_url": "https://voce.life/atlas",
+      "verification_method": "automatic_domain_ownership",
+      "verified_at": "2026-10-07T10:02:17.421Z"
     },
     {
       "label": "human-cognitive-assurance",
       "url_prefix": "https://voce.life/human-cognitive-assurance",
-      "status": "not_created_tool_ui_error",
+      "status": "created_verified",
       "localized_canonical_roots": [
         "https://voce.life/human-cognitive-assurance",
         "https://voce.life/fr/human-cognitive-assurance",
         "https://voce.life/it/human-cognitive-assurance"
       ],
-      "urls_in_sitemap": 75
+      "urls_in_sitemap": 75,
+      "actual_property_url": "https://voce.life/human-cognitive-assurance",
+      "verification_method": "automatic_domain_ownership",
+      "verified_at": "2026-10-07T10:02:17.421Z"
     },
     {
       "label": "argos",
       "url_prefix": "https://voce.life/argos",
-      "status": "not_created_tool_ui_error",
+      "status": "created_verified",
       "localized_canonical_roots": [
         "https://voce.life/argos",
         "https://voce.life/fr/argos",
         "https://voce.life/it/argos"
       ],
-      "urls_in_sitemap": 3
+      "urls_in_sitemap": 3,
+      "actual_property_url": "https://voce.life/argos",
+      "verification_method": "automatic_domain_ownership",
+      "verified_at": "2026-10-07T10:02:17.421Z"
     },
     {
       "label": "archive",
@@ -256,9 +271,9 @@
     }
   ],
   "next_steps": [
-    "Complete remaining Applied, Agent Infrastructure, Atlas, Human Cognitive Assurance and ARGOS properties without duplicates.",
-    "Read actual current canonical sitemap status/error in root Domain property, without resubmission.",
-    "Inspect exact slashless Agent Conformance and Applied canonical landing URLs in root Domain property and request indexing only when live test permits it."
+    "Verify narrow BIC exception for public GET/HEAD sitemap.xml and robots.txt; retain all global protections and IndexNow key rule.",
+    "Repeat the original unchanged Python client probes after the admin save and record actual response status/body checks.",
+    "Confirm Google root sitemap processing later; its current error and zero discovered URLs must not be represented as successful ingestion."
   ],
   "official_references": [
     "https://support.google.com/webmasters/answer/34592",
@@ -343,12 +358,15 @@
     "console_confirmation": "Sitemap submitted successfully",
     "submitted_date": "2026-10-07",
     "observed_type": "unknown",
-    "observed_status": "could_not_fetch",
-    "last_read": null,
+    "observed_status": "error",
+    "last_read": "2026-10-07",
     "discovered_pages": 0,
     "processing_success_confirmed": false,
     "console_url": "https://search.google.com/search-console/sitemaps?resource_id=sc-domain:voce.life",
-    "note": "Provider called Unknown pending processing, but Unknown is the reported sitemap TYPE; do not interpret fetch failure as confirmed processing."
+    "note": "Provider called Unknown pending processing, but Unknown is the reported sitemap TYPE; do not interpret fetch failure as confirmed processing.",
+    "error_message": "Sitemap could not be read",
+    "discovered_videos": 0,
+    "error_cause_from_google": "not_confirmed"
   },
   "public_sitemap_check": {
     "http_status": 200,
@@ -357,7 +375,12 @@
     "checked_at": "2026-10-07T09:27:18.133Z",
     "distinct_urls": 2287,
     "cf_ray": "a46bdce0eb19cca4-ORD",
-    "evidence_limit": "This public client response does not prove Google successfully retrieved it."
+    "evidence_limit": "This public client response does not prove Google successfully retrieved it.",
+    "xml_namespace_correct": true,
+    "valid_url_entries": 2287,
+    "unique_locations": 2287,
+    "origin_and_lastmod_validation_errors": 0,
+    "unexpected_children": 0
   },
   "section_properties_run": {
     "status": "completed_with_tool_blocker",
@@ -365,13 +388,29 @@
     "run_url": "https://agent.tinyfish.ai/runs/a659613e-8e61-4aa2-a4c5-f4676b2df274",
     "blocker": "TinyFish click_element_tool rejects the visible Add property element ID as hallucinated; no Google-served bot or security block was observed."
   },
-  "sections_created_count": 1,
+  "sections_created_count": 6,
   "url_inspections": {
     "agent_conformance": {
-      "status": "not_performed"
+      "url": "https://voce.life/agent-conformance",
+      "current_status": "URL is on Google",
+      "index_status": "Page is indexed",
+      "google_selected_canonical_observed": "N/A in visible panel",
+      "last_crawl_not_captured": true,
+      "request_indexing_performed": false,
+      "public_declared_canonical": "https://voce.life/agent-conformance"
     },
     "applied": {
-      "status": "not_performed"
+      "url": "https://voce.life/applied",
+      "current_status": "URL is on Google",
+      "index_status": "Page is indexed",
+      "google_selected_canonical_observed": "No canonical URL specified in visible panel",
+      "last_crawl_not_captured": true,
+      "request_indexing_performed": true,
+      "request_confirmation_received": false,
+      "request_error": "Oops! Something went wrong",
+      "request_retried": false,
+      "public_declared_canonical": "https://voce.life/applied",
+      "note": "Already indexed. No need to repeat failed optional indexing request; visible panel does not establish absence of canonical markup on the public page."
     }
   },
   "alternative_property_run": {
@@ -385,8 +424,35 @@
   },
   "normalized_property_scope_note": "Google normalized the new section property to a trailing slash. Keep canonical landing URLs unchanged and inspect them in sc-domain:voce.life; a section property ending / must not be assumed to cover a slashless landing URL.",
   "remaining_sections_run": {
-    "status": "running",
+    "status": "completed",
     "run_id": "e514c201-cf53-492c-9010-aa5692516e85",
-    "run_url": "https://agent.tinyfish.ai/runs/e514c201-cf53-492c-9010-aa5692516e85"
+    "run_url": "https://agent.tinyfish.ai/runs/e514c201-cf53-492c-9010-aa5692516e85",
+    "created_verified_count": 5
+  },
+  "machine_discovery_file_probes": [
+    {
+      "url": "https://voce.life/sitemap.xml",
+      "status": 403,
+      "body": "error code: 1010\n",
+      "cf_ray": "a46c0e77482ecca4-ORD"
+    },
+    {
+      "url": "https://voce.life/robots.txt",
+      "status": 403,
+      "body": "error code: 1010\n",
+      "cf_ray": "a46c0ec3bb06cca4-ORD"
+    }
+  ],
+  "cloudflare_discovery_repair": {
+    "status": "running",
+    "run_id": "bcc76908-58cb-4dfe-afc8-c043577a772c",
+    "run_url": "https://agent.tinyfish.ai/runs/bcc76908-58cb-4dfe-afc8-c043577a772c",
+    "requested_rule_name": "VOCE crawler discovery files",
+    "requested_expression": "(http.host eq \"voce.life\" and http.request.method in {\"GET\" \"HEAD\"} and http.request.uri.path in {\"/robots.txt\" \"/sitemap.xml\"})",
+    "requested_setting": {
+      "bic": false
+    },
+    "preserve_existing_indexnow_rule": "40b1bdcd678045d3a2bf7394f32906ed",
+    "global_security_unchanged": true
   }
 }
