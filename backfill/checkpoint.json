@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-07T07:05:55.169Z",
+  "updated_at": "2026-10-07T07:37:13.603Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -904,7 +904,7 @@
     "merged_into": "main",
     "pull_request": 3,
     "merge_commit": "cb66dce1c40f07282b275482f801e8a350dc5f0a",
-    "indexnow_check": "accepted_202",
+    "indexnow_check": "accepted_200",
     "live_deployment": "1548_unique_articles_verified_publicly",
     "linkedin_browser_session": "signed_out_metricool_connector_connected",
     "static_pages_generated": 1548,
@@ -956,7 +956,7 @@
       "full_text_saved": true,
       "ingestion_status": "pending exact publication timestamp and cross-platform duplicate reconciliation"
     },
-    "indexnow_workflow_run": "https://github.com/voceassociation/github/actions/runs/37376864211",
+    "indexnow_workflow_run": "https://github.com/voceassociation/github/actions/runs/37586011624",
     "indexnow_error": {
       "errorCode": "UserForbiddedToAccessSite",
       "message": "User is unauthorized to access the site. Please verify the site using the key and try again",
@@ -1021,12 +1021,17 @@
       },
       "indexnow": {
         "endpoint": "https://www.bing.com/indexnow",
-        "status": "failed_403_key_verification",
+        "status": "accepted_200",
         "workflow_run": "https://github.com/voceassociation/github/actions/runs/37535330356",
         "submitted_scope": "current four-day window only",
         "global_submission_repeated": false,
         "prior_global_success_run": "https://github.com/voceassociation/github/actions/runs/37480606608",
-        "prior_global_status": 200
+        "prior_global_status": 200,
+        "http_status": 200,
+        "accepted_at": "2026-10-07T07:31:50.868Z",
+        "recovery_run_id": 37586011624,
+        "recovery_job_id": 112682128127,
+        "submitted_url_count": 64
       },
       "r2_backup": {
         "status": "ok",
@@ -1103,13 +1108,13 @@
       }
     },
     "indexnow_latest": {
-      "run_id": 37480606608,
-      "job_id": 112327416329,
+      "run_id": 37586011624,
+      "job_id": 112682128127,
       "endpoint": "https://www.bing.com/indexnow",
       "status": 200,
-      "submitted_url_count": 2272,
-      "scope": "complete canonical sitemap",
-      "observed_at": "2026-10-06T14:38:15Z",
+      "submitted_url_count": 64,
+      "scope": "current four-day canonical publication batch",
+      "observed_at": "2026-10-07T07:31:50.868Z",
       "interpretation": "accepted_not_guarantee_of_indexing"
     },
     "r2_repair_2026_10_06": {
@@ -1219,9 +1224,13 @@
       },
       "semrush": {
         "installed": true,
-        "plugin_id": "plugin_connector_691fa57b709c8191b61c48b1f78dce21",
-        "analytics_status": "pending_tool_exposure",
-        "reason": "Installation confirmed by plugin registry; no callable Semrush tool is exposed in this session. No traffic, keyword or rank metrics claimed."
+        "tools_exposed": true,
+        "checked_on": "2026-10-07",
+        "analytics_status": "blocked_no_api_units",
+        "subscription_active": true,
+        "api_units_insufficient": true,
+        "retryable": false,
+        "account_options_url": "https://www.semrush.com/mcp-access"
       },
       "resume": [
         "When Semrush tools are exposed, retrieve domain visibility and organic keywords for voce.life; preserve source/database/date, distinguish estimated metrics from actual Search Console/Bing indexing.",
@@ -1256,12 +1265,31 @@
     },
     "indexnow_current_submission": {
       "endpoint": "https://www.bing.com/indexnow",
-      "status": "failed_403_key_verification",
+      "status": "accepted_200",
       "workflow_run": "https://github.com/voceassociation/github/actions/runs/37535330356",
       "submitted_scope": "current four-day window only",
       "global_submission_repeated": false,
       "prior_global_success_run": "https://github.com/voceassociation/github/actions/runs/37480606608",
-      "prior_global_status": 200
+      "prior_global_status": 200,
+      "http_status": 200,
+      "accepted_at": "2026-10-07T07:31:50.868Z",
+      "run_id": 37586011624,
+      "job_id": 112682128127,
+      "workflow_url": "https://github.com/voceassociation/github/actions/runs/37586011624",
+      "submitted_url_count": 64,
+      "keyLocation": "https://voce.life/9e4c71d85a2f4b6cb3098f21d7a56e40.txt",
+      "interpretation": "Search engine received the URLs; no claim of indexing or ranking.",
+      "scope": "current four-day publication window only",
+      "previous_failure": {
+        "endpoint": "https://www.bing.com/indexnow",
+        "status": "failed_403_key_verification",
+        "workflow_run": "https://github.com/voceassociation/github/actions/runs/37535330356",
+        "submitted_scope": "current four-day window only",
+        "global_submission_repeated": false,
+        "prior_global_success_run": "https://github.com/voceassociation/github/actions/runs/37480606608",
+        "prior_global_status": 200
+      },
+      "corrected_commit": "d109c255616d65f4ea3eb4c6efbd6cda3a5ca008"
     },
     "nightly_backfill_morning_verification_2026_10_07": {
       "checked_at": "2026-10-07T07:05:55.169Z",
@@ -1277,6 +1305,28 @@
       "r2_derived_backup_complete": true,
       "r2_objects_synced": 1660,
       "indexnow_status": "failed_403_key_verification"
+    },
+    "indexnow_last_full_sitemap_submission": {
+      "run_id": 37480606608,
+      "job_id": 112327416329,
+      "endpoint": "https://www.bing.com/indexnow",
+      "status": 200,
+      "submitted_url_count": 2272,
+      "scope": "complete canonical sitemap",
+      "observed_at": "2026-10-06T14:38:15Z",
+      "interpretation": "accepted_not_guarantee_of_indexing"
+    },
+    "indexnow_repair_2026_10_07": {
+      "status": "accepted_200",
+      "report": "backfill/reports/indexnow-repair-2026-10-07.json",
+      "workflow_key_aligned": true,
+      "public_key_read_200": true,
+      "bic_exception_scope": "one public ownership key path",
+      "cloudflare_run_id": "413cc863-e9cb-4c2d-9772-1d946ffd6a39",
+      "submitted_urls": 64,
+      "original_texts_modified": false,
+      "design_modified": false,
+      "nightly_prompt_updated": true
     }
   }
 }

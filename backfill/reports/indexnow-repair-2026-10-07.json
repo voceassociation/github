@@ -1,0 +1,180 @@
+{
+  "checked_at": "2026-10-07T07:20:41.930839+00:00",
+  "status": "accepted_200",
+  "original_failed_run": 37535330356,
+  "original_failed_job": 112514679144,
+  "original_failure": {
+    "endpoint": "https://www.bing.com/indexnow",
+    "status": 403,
+    "errorCode": "UserForbiddedToAccessSite",
+    "key": "c86f946ba27001564086ad51d808e308"
+  },
+  "correction_commit": "d109c255616d65f4ea3eb4c6efbd6cda3a5ca008",
+  "canonical_key": "9e4c71d85a2f4b6cb3098f21d7a56e40",
+  "retry_scope": {
+    "kind": "current_days",
+    "dates": [
+      "2026-10-03",
+      "2026-10-04",
+      "2026-10-05",
+      "2026-10-06"
+    ],
+    "canonical_article_urls": 60,
+    "daily_archive_urls": 4,
+    "total_urls": 64,
+    "full_sitemap_repeated": false
+  },
+  "preflight_failed_run": 37586011624,
+  "cloudflare_key_read_failure": {
+    "status": 403,
+    "body": "error code: 1010",
+    "ray": "a46b1c472f77a1dd-MSP",
+    "observed_at": "2026-10-07T07:14:42Z",
+    "classification": "Browser Integrity Check; verified against Cloudflare official documentation"
+  },
+  "cloudflare_change_requested": {
+    "zone": "voce.life",
+    "rule_name": "VOCE IndexNow verification key",
+    "expression": "(http.host eq \"voce.life\" and http.request.uri.path eq \"/9e4c71d85a2f4b6cb3098f21d7a56e40.txt\")",
+    "setting": {
+      "bic": false
+    },
+    "scope": "one public text key only",
+    "run_id": "413cc863-e9cb-4c2d-9772-1d946ffd6a39"
+  },
+  "tests": {
+    "regression_tests_passed": 4,
+    "whitespace_check_passed": true,
+    "original_corpus_sha256": "8e62f9c56440da20f52c650f3057c614c9161914adc2accb3a1d8395f372520e",
+    "original_texts_modified": false,
+    "design_modified": false,
+    "corpus_items": 1548,
+    "unique_texts": 1548
+  },
+  "semrush": {
+    "installed": true,
+    "tools_exposed": true,
+    "checked_on": "2026-10-07",
+    "analytics_status": "blocked_no_api_units",
+    "subscription_active": true,
+    "api_units_insufficient": true,
+    "retryable": false,
+    "account_options_url": "https://www.semrush.com/mcp-access"
+  },
+  "completed_at": "2026-10-07T07:39:17.282Z",
+  "acceptance": {
+    "status": "accepted_200",
+    "http_status": 200,
+    "endpoint": "https://www.bing.com/indexnow",
+    "accepted_at": "2026-10-07T07:31:50.868Z",
+    "run_id": 37586011624,
+    "job_id": 112682128127,
+    "workflow_url": "https://github.com/voceassociation/github/actions/runs/37586011624",
+    "submitted_url_count": 64,
+    "urls": [
+      "https://voce.life/archive/2026-10-03",
+      "https://voce.life/archive/2026-10-04",
+      "https://voce.life/archive/2026-10-05",
+      "https://voce.life/archive/2026-10-06",
+      "https://voce.life/archive/2026/10/03/a-force-de-voir-les-memes-visages-notre-idee-du-normal-peut-commencer-a-7512059046737313793",
+      "https://voce.life/archive/2026/10/03/apres-66-ans-la-ville-peut-redevenir-socialement-plus-grande-7512028820661706752",
+      "https://voce.life/archive/2026/10/03/arachide-lintestin-allergique-pourrait-etre-programme-avant-lallergene-7512089247743393792",
+      "https://voce.life/archive/2026/10/03/certains-medicaments-changent-de-comportement-quand-le-thermometre-monte-7512162678174445568",
+      "https://voce.life/archive/2026/10/03/le-froid-ne-donne-pas-le-rhume-mais-il-peut-desarmer-une-partie-de-votre-7512210045514797056",
+      "https://voce.life/archive/2026/10/03/le-meme-316l-peut-perdre-quatre-fois-moins-de-matiere-simplement-parce-q-7511998612386783232",
+      "https://voce.life/archive/2026/10/03/le-prochain-trillion-ne-cherche-plus-les-memes-actifs-7512179853912383488",
+      "https://voce.life/archive/2026/10/03/le-regard-qui-reste-quand-personne-ne-regarde-7512074128410062848",
+      "https://voce.life/archive/2026/10/03/les-additifs-sont-evalues-un-par-un-notre-alimentation-les-combine-7512194914357493760",
+      "https://voce.life/archive/2026/10/03/leurope-a-retire-la-monensine-des-bovins-la-science-continue-pourtant-a-7512164748323442688",
+      "https://voce.life/archive/2026/10/03/nous-avons-peut-etre-sous-estime-l-intelligence-animale-pendant-50-ans-7512225129058390017",
+      "https://voce.life/archive/2026/10/03/syndrome-de-lynch-100-mg-daspirine-pourraient-suffire-la-ou-lon-en-donna-7512134562521477125",
+      "https://voce.life/archive/2026/10/03/trois-mois-de-retraite-ne-valent-pas-toujours-trois-mois-de-liberte-7512013740192612352",
+      "https://voce.life/archive/2026/10/03/un-casque-vr-peut-reveler-ce-que-vous-percevez-sans-enregistrer-votre-ce-7512104361683177473",
+      "https://voce.life/archive/2026/10/03/un-materiau-peut-fondre-a-3-380-c-et-pourtant-disparaitre-dans-lair-7512043942016733184",
+      "https://voce.life/archive/2026/10/03/une-femme-peut-etre-preferee-pour-diriger-jusquau-moment-ou-elle-veut-ch-7512119446682005504",
+      "https://voce.life/archive/2026/10/03/une-information-corrigee-peut-continuer-a-organiser-votre-jugement-7512240216858939392",
+      "https://voce.life/archive/2026/10/04/dans-l-arthrose-certaines-cellules-immunitaires-peuvent-faire-vieillir-l-7512512010111283200",
+      "https://voce.life/archive/2026/10/04/deux-secondes-peuvent-proteger-ce-qui-vient-de-finir-7512587528982380544",
+      "https://voce.life/archive/2026/10/04/grenoble-7512527116043960321",
+      "https://voce.life/archive/2026/10/04/l-oubli-induit-par-le-rappel-se-souvenir-peut-rendre-d-autres-souvenirs-7512481822606508032",
+      "https://voce.life/archive/2026/10/04/la-graisse-beige-autour-des-arteres-peut-les-proteger-de-l-hypertension-7512376120521043968",
+      "https://voce.life/archive/2026/10/04/la-menopause-peut-modifier-votre-corps-sans-modifier-brutalement-votre-p-7512466770541068288",
+      "https://voce.life/archive/2026/10/04/le-30-septembre-le-gard-et-l-herault-recoivent-plusieurs-centaines-de-mi-7512542213873221632",
+      "https://voce.life/archive/2026/10/04/le-louvre-depense-80-millions-pour-sa-surete-une-api-peut-encore-ouvrir-7512360998960427008",
+      "https://voce.life/archive/2026/10/04/le-sang-peut-etre-traite-pendant-qu-il-circule-7512572428422766593",
+      "https://voce.life/archive/2026/10/04/lurine-peut-reveler-ce-que-la-tumeur-de-la-vessie-est-en-train-de-faire-7512451614910234624",
+      "https://voce.life/archive/2026/10/04/paris-7512391201568768000",
+      "https://voce.life/archive/2026/10/04/toronto-la-ketamine-pourrait-ouvrir-quelques-heures-ou-la-douleur-devien-7512496942212513792",
+      "https://voce.life/archive/2026/10/04/un-sequoia-de-100-metres-fait-monter-l-eau-sans-pompe-7512557329955876864",
+      "https://voce.life/archive/2026/10/04/vous-pouvez-rester-performant-pendant-que-la-technoference-detruit-votre-7512406320172417024",
+      "https://voce.life/archive/2026/10/05/53-des-pme-francaises-utilisent-l-ia-mais-qui-possedera-ce-qu-elles-appr-7512859369697648640",
+      "https://voce.life/archive/2026/10/05/claude-mythos-5-et-gpt-5-6-cyber-deux-audits-presque-deux-realites-7512753609369907200",
+      "https://voce.life/archive/2026/10/05/goes-lacier-presque-inconnu-qui-peut-ralentir-lia-europeenne-7512814023567028224",
+      "https://voce.life/archive/2026/10/05/la-confidentialite-differentielle-quand-chaque-statistique-depense-une-p-7512829122994294784",
+      "https://voce.life/archive/2026/10/05/mckinsey-automatise-le-bureau-lelectricien-devient-un-metier-strategique-7512844216763596800",
+      "https://voce.life/archive/2026/10/05/milan-quand-donner-l-heure-devient-un-probleme-industriel-7512934823997636608",
+      "https://voce.life/archive/2026/10/05/opera-voce-blackrock-amundi-e-kkr-l-ia-entra-nel-rischio-di-concentrazio-7512723398771499008",
+      "https://voce.life/archive/2026/10/05/pantheon-de-paris-le-jour-ou-l-on-est-venu-voir-tourner-la-terre-7512904646496169984",
+      "https://voce.life/archive/2026/10/05/pourquoi-certaines-minutes-coutent-elles-plus-cher-que-dautres-7512949915510026240",
+      "https://voce.life/archive/2026/10/05/servicenow-flow-quand-la-conversation-devient-le-service-desk-7512738491596791809",
+      "https://voce.life/archive/2026/10/05/stanford-lia-peut-reduire-les-juniors-avant-de-reduire-les-postes-7512708292570243072",
+      "https://voce.life/archive/2026/10/05/un-agent-recoit-une-tache-qui-prendra-vingt-minutes-7512889522620334082",
+      "https://voce.life/archive/2026/10/05/un-comite-doit-fermer-un-site-7512919728504344577",
+      "https://voce.life/archive/2026/10/05/un-grand-modele-produit-son-texte-token-apres-token-7512798931077001233",
+      "https://voce.life/archive/2026/10/05/zipalertinib-quand-egfr-positif-ne-suffit-plus-7512768697351163906",
+      "https://voce.life/archive/2026/10/06/a-chicago-une-tornade-se-forme-a-quelques-metres-des-visiteurs-7513267092767502336",
+      "https://voce.life/archive/2026/10/06/dix-hopitaux-peuvent-entrainer-un-modele-sans-reunir-leurs-dossiers-pati-7513191509584736256",
+      "https://voce.life/archive/2026/10/06/dyp688-un-anticorps-transporte-jusqu-au-melanome-uveal-un-medicament-tro-7513115998527598595",
+      "https://voce.life/archive/2026/10/06/ibm-bob-lagent-entre-enfin-dans-le-code-que-lentreprise-refuse-de-sortir-7513085781318651904",
+      "https://voce.life/archive/2026/10/06/la-corse-avait-une-constitution-ecrite-36-ans-avant-la-france-7513251909118402561",
+      "https://voce.life/archive/2026/10/06/la-finance-agentique-peut-faire-doubler-les-transactions-sans-doubler-le-7513146200410431489",
+      "https://voce.life/archive/2026/10/06/laltermagnetisme-leurope-finance-deja-une-physique-qui-pourrait-changer-7513176407586267136",
+      "https://voce.life/archive/2026/10/06/le-singe-qui-revele-le-prochain-cout-cache-de-l-intelligence-artificiell-7513236828720664576",
+      "https://voce.life/archive/2026/10/06/les-wallenberg-ont-transforme-l-heritage-en-infrastructure-de-controle-7513221721399943168",
+      "https://voce.life/archive/2026/10/06/mckinsey-voit-disparaitre-les-trois-etages-des-rh-les-agents-commencent-7513131144553336844",
+      "https://voce.life/archive/2026/10/06/opera-voce-la-francia-entra-nello-spread-7513070699846995968",
+      "https://voce.life/archive/2026/10/06/pwc-les-competences-numeriques-changent-deux-fois-plus-vite-les-plombier-7513206608764579841",
+      "https://voce.life/archive/2026/10/06/un-modele-accepte-un-million-de-tokens-7513161320977018881",
+      "https://voce.life/archive/2026/10/06/xuebijing-1-817-patients-une-perfusion-issue-de-cinq-plantes-et-un-signa-7513100894209748993"
+    ],
+    "receipt_lines": [
+      "2026-10-07T07:31:50.8679600Z Verified IndexNow ownership key: https://voce.life/9e4c71d85a2f4b6cb3098f21d7a56e40.txt",
+      "2026-10-07T07:31:50.8680704Z IndexNow endpoint: https://www.bing.com/indexnow",
+      "2026-10-07T07:31:50.8682196Z IndexNow status: 200",
+      "2026-10-07T07:31:50.8682901Z Submitted 64 URLs."
+    ],
+    "keyLocation": "https://voce.life/9e4c71d85a2f4b6cb3098f21d7a56e40.txt",
+    "interpretation": "Search engine received the URLs; no claim of indexing or ranking."
+  },
+  "public_key_checks": [
+    {
+      "path": "/9e4c71d85a2f4b6cb3098f21d7a56e40.txt",
+      "status": 200,
+      "body": "9e4c71d85a2f4b6cb3098f21d7a56e40",
+      "cf_ray": "a46b33879ef0a1dd-MSP"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 403,
+      "body": "error code: 1010\n",
+      "cf_ray": "a46b3387ef1ca1dd-MSP"
+    }
+  ],
+  "cloudflare_change_verified": {
+    "public_key_read_with_original_client_status": 200,
+    "other_path_control_status": 403,
+    "other_path_control_error": "1010",
+    "admin_run_id": "413cc863-e9cb-4c2d-9772-1d946ffd6a39",
+    "rule_detail_capture_status": "awaiting_final_provider_receipt"
+  },
+  "nightly_automation": {
+    "id": "6abb72f5e1108191961956e6e3738fea",
+    "prompt_updated": true,
+    "schedule_preserved": "23:30 Europe/Podgorica"
+  },
+  "reference_documents": [
+    "https://www.indexnow.org/documentation",
+    "https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/",
+    "https://developers.cloudflare.com/rules/configuration-rules/settings/"
+  ]
+}
