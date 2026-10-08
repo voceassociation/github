@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generated_at": "2026-10-07",
+  "generated_at": "2026-10-08",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
   "methodology": {
@@ -3640,6 +3640,65 @@
       "sectors": [
         "legal",
         "marketing",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7513871006457839617",
+      "date": "2026-10-08",
+      "title": "AGIBOT: 64.828 tâches en 64 heures, l'humanoïde entre enfin dans le vrai travail",
+      "path": "/archive/2026/10/08/agibot-64-828-taches-en-64-heures-l-humanoide-entre-enfin-dans-le-vrai-t-7513871006457839617",
+      "sectors": [
+        "legal"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7513825669336842241",
+      "date": "2026-10-08",
+      "title": "Humphrey: Whitehall automatise une partie du travail de haute administration",
+      "path": "/archive/2026/10/08/humphrey-whitehall-automatise-une-partie-du-travail-de-haute-administrat-7513825669336842241",
+      "sectors": [
+        "legal",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7513931403663667200",
+      "date": "2026-10-08",
+      "title": "SeedRealtime: l'agent de ByteDance choisit désormais quand vous parler",
+      "path": "/archive/2026/10/08/seedrealtime-l-agent-de-bytedance-choisit-desormais-quand-vous-parler-7513931403663667200",
+      "sectors": [
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7513840796694003714",
+      "date": "2026-10-08",
+      "title": "Zylo Clarity AI: l'agent commence à décider quels logiciels l'entreprise doit encore payer",
+      "path": "/archive/2026/10/08/zylo-clarity-ai-l-agent-commence-a-decider-quels-logiciels-l-entreprise-7513840796694003714",
+      "sectors": [
+        "legal",
+        "finance",
         "it"
       ],
       "themes": [

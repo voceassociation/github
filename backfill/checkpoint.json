@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-08T09:10:51.445Z",
+  "updated_at": "2026-10-08T21:29:34.786633+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -889,12 +889,16 @@
     },
     "2026-10-07": {
       "status": "rows_returned",
+      "rows": 17
+    },
+    "2026-10-08": {
+      "status": "rows_returned",
       "rows": 15
     }
   },
-  "retrieved_unique_publications": 1567,
+  "retrieved_unique_publications": 1584,
   "newly_archived": 17,
-  "academy_corpus_items": 1565,
+  "academy_corpus_items": 1582,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
@@ -984,50 +988,23 @@
     },
     "current_publication_ingest": {
       "dates": [
-        "2026-10-04",
         "2026-10-05",
         "2026-10-06",
-        "2026-10-07"
+        "2026-10-07",
+        "2026-10-08"
       ],
       "verified_source": "Metricool LinkedIn connector, brand 7090850",
-      "raw_rows_processed": 61,
-      "items_processed": 61,
-      "unique_publications_in_window": 60,
-      "late_connector_rows_recovered": 3,
-      "newly_archived": 17,
-      "exact_text_duplicate_consolidated": 1,
-      "corpus_items_after": 1565,
+      "items_processed": 63,
+      "corpus_items_after": 1582,
       "classification": "A editorial/archive",
-      "static_pages_verified_for_generation": 60,
+      "static_pages_verified_for_generation": 63,
       "daily_archives": [
-        "archive/2026-10-04.html",
         "archive/2026-10-05.html",
         "archive/2026-10-06.html",
-        "archive/2026-10-07.html"
+        "archive/2026-10-07.html",
+        "archive/2026-10-08.html"
       ],
-      "source_commit": "5d5594bd779cd15300356424c125409466a1e8e7",
-      "corpus_commit": "5dba690168f433649f38f9747599331f65a12667",
-      "workflow_run_id": 37690020988,
-      "workflow_job_id": 113027495568,
-      "completed_at": "2026-10-07T21:31:37.299550+00:00",
-      "public_verification": {
-        "canonical_url": "https://voce.life/archive/2026/10/07/un-hopital-veut-accueillir-davantage-de-patients-sans-ajouter-de-lits-7513644519108788225",
-        "linkedin_id": "urn:li:ugcPost:7513644519108788225",
-        "article_body_length": 2799,
-        "article_body_fnv1a": "3d4fb8a1",
-        "exact_source_match": true,
-        "canonical_self_reference": true,
-        "date_published": "2026-10-07T19:00:57+02:00",
-        "robots": "index,follow,max-snippet:-1,max-image-preview:large",
-        "og_image": "https://voce.life/voce-og.jpg",
-        "jsonld_type": "Article",
-        "same_as": [
-          "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513644519108788225"
-        ],
-        "ultra_sources_hashtags_preserved": true,
-        "academy_visible_count": 1565,
-        "academy_guide_exact_title_result": true
-      }
+      "completed_at": "2026-10-08T21:29:35.236272+00:00"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",

@@ -3,7 +3,7 @@
   "owner": "VOCE Association",
   "source": "Metricool / LinkedIn",
   "date": "2026-10-07",
-  "item_count": 14,
+  "item_count": 16,
   "items": [
     {
       "id": "linkedin:7513448168559288320",
@@ -22,7 +22,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
+        "reviewed_at": "2026-10-08T21:29:35.236272+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -43,7 +43,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
+        "reviewed_at": "2026-10-08T21:29:35.236272+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -64,7 +64,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
+        "reviewed_at": "2026-10-08T21:29:35.236272+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -85,7 +85,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
+        "reviewed_at": "2026-10-08T21:29:35.236272+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -106,7 +106,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
+        "reviewed_at": "2026-10-08T21:29:35.236272+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -127,7 +127,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
+        "reviewed_at": "2026-10-08T21:29:35.236272+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -148,7 +148,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
+        "reviewed_at": "2026-10-08T21:29:35.236272+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -169,7 +169,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
+        "reviewed_at": "2026-10-08T21:29:35.236272+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -190,7 +190,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
+        "reviewed_at": "2026-10-08T21:29:35.236272+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -211,7 +211,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
+        "reviewed_at": "2026-10-08T21:29:35.236272+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -232,7 +232,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
+        "reviewed_at": "2026-10-08T21:29:35.236272+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -253,7 +253,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
+        "reviewed_at": "2026-10-08T21:29:35.236272+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -274,7 +274,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
+        "reviewed_at": "2026-10-08T21:29:35.236272+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -295,7 +295,49 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-07T21:31:37.299550+00:00",
+        "reviewed_at": "2026-10-08T21:29:35.236272+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7513659591566610433",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7513659591566610433",
+      "date_published": "2026-10-07T20:00:50+02:00",
+      "title": "Oxford montre comment 5.000 ans ont fabriqué Aphrodite",
+      "slug": "oxford-montre-comment-5-000-ans-ont-fabrique-aphrodite-7513659591566610433",
+      "canonical_url": "https://voce.life/archive/2026/10/07/oxford-montre-comment-5-000-ans-ont-fabrique-aphrodite-7513659591566610433",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513659591566610433",
+      "language": "fr",
+      "text": "Oxford montre comment 5.000 ans ont fabriqué Aphrodite\n\nNous avons gardé d'Aphrodite une image presque trop nette.\n\nLa beauté.\n\nLe désir.\n\nPuis Botticelli, la coquille, les cheveux emportés par le vent.\n\nLe 8 octobre, l'Ashmolean Museum ouvre \"Aphrodite: The Making of a Goddess\".\n\nEt commence avant Aphrodite.\n\nSur Chypre, il y a plus de 3.000 ans, des communautés honorent déjà une grande divinité féminine dont les pouvoirs débordent largement l'amour: fécondité, protection, autorité religieuse.\n\nL'exposition rassemble plus de 200 objets et suit ce déplacement sur plusieurs millénaires.\n\nLa divinité chypriote devient Aphrodite dans le monde grec.\n\nRome en fera Venus.\n\nLa Renaissance retravaillera encore son corps.\n\nParmi les œuvres prêtées figure la \"Lely Venus\", marbre romain du IIe siècle après J.-C., aujourd'hui dans la Royal Collection.\n\nLa déesse est accroupie, surprise au bain.\n\nCette image aura une immense descendance.\n\nMais quelques salles auparavant, elle n'avait pas encore ce corps.\n\nC'est là que l'exposition devient passionnante.\n\nNous parlons souvent des grandes figures culturelles comme si leur identité avait traversé intacte les siècles.\n\nAphrodite montre le contraire.\n\nChaque époque reçoit une version, sélectionne certains attributs, en oublie d'autres, puis transmet une figure déjà modifiée.\n\nLorsque Botticelli peint Venus vers 1490, il intervient donc dans une chaîne commencée plusieurs millénaires auparavant.\n\nLa célébrité d'une icône peut ainsi cacher l'histoire qui l'a rendue célèbre.\n\nULTRA®\n\nCette transformation intéresse directement les institutions qui travaillent avec la mémoire.\n\nUne civilisation ne transmet jamais l'intégralité d'un symbole.\n\nElle transmet ce qu'elle continue à rendre visible.\n\nÀ force de répétition, certains attributs deviennent dominants. Pour Aphrodite, \"amour\", \"beauté\" et \"désir\" ont progressivement écrasé une partie de ses fonctions religieuses anciennes.\n\nC'est ainsi qu'une culture fabrique ses évidences.\n\nMusées, écoles, marques, États et médias participent tous à cette sélection: choix des images, cartels, récits, commémorations, œuvres reproduites.\n\nCe qui est montré mille fois finit par sembler originel.\n\nOxford accomplit ici quelque chose de plus rare: remettre devant nous les versions éliminées par la célébrité.\n\nTOSCA\n\nUne icône ne traverse pas les siècles parce qu'elle reste intacte. Elle survit parce que chaque époque choisit ce qu'elle veut encore reconnaître en elle.\n\nSources 2026\n\nAshmolean Museum, \"Aphrodite: The Making of a Goddess\", 8 octobre 2026-11 avril 2027\n\nRoyal Collection Trust, \"Lely Venus\"\n\nA.G. Leventis Curatorial Programme, Ashmolean Museum\n\n#VOCEAssociation #Tosca #Aphrodite #Ashmolean #Oxford #Archéologie #Culture #Histoire",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-08T21:29:35.236272+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7513674702045814784",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7513674702045814784",
+      "date_published": "2026-10-07T21:00:53+02:00",
+      "title": "Pourquoi quelques points qui bougent suffisent-ils pour que nous voyions la vie?",
+      "slug": "pourquoi-quelques-points-qui-bougent-suffisent-ils-pour-que-nous-voyions-7513674702045814784",
+      "canonical_url": "https://voce.life/archive/2026/10/07/pourquoi-quelques-points-qui-bougent-suffisent-ils-pour-que-nous-voyions-7513674702045814784",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7513674702045814784",
+      "language": "fr",
+      "text": "Pourquoi quelques points qui bougent suffisent-ils pour que nous voyions la vie?\n\nSur un écran noir, des points blancs se déplacent.\n\nPas de visage. Pas de peau. Aucun contour.\n\nEt pourtant, immédiatement, nous voyons quelqu'un.\n\nEn septembre 2026, Mei Huang et ses collègues publient dans Cognition une série d'expériences sur cette capacité: reconnaître l'animation biologique à partir du mouvement seul.\n\nLes chercheurs utilisent quelques points placés sur les articulations d'un marcheur.\n\nAprès une exposition prolongée à une marche humaine, les mouvements présentés ensuite paraissent moins vivants.\n\nC'est un effet d'adaptation visuelle: la réponse au stimulus suivant se décale après exposition répétée.\n\nLes chercheurs retirent alors presque tout.\n\nIls ne gardent que les trajectoires locales des pieds.\n\nL'effet persiste.\n\nQuelques trajectoires suffisent donc à modifier notre jugement du vivant.\n\nPuis vient le plus étrange.\n\nLes participants s'adaptent au mouvement d'un pigeon.\n\nLeur perception de mouvements humains change elle aussi.\n\nUn pigeon et un humain n'ont ni la même forme ni la même démarche. Pourtant, leur locomotion partage assez de régularités pour produire un effet d'adaptation croisé.\n\nUne silhouette humaine immobile, elle, ne produit pas cet effet.\n\nLe système visuel semble ainsi extraire quelque chose de plus abstrait que l'apparence: une signature du mouvement biologique.\n\nDans l'obscurité, derrière un rideau ou au bout d'un quai, une présence peut être détectée avant son visage.\n\nLe mouvement a déjà parlé.\n\nULTRA®\n\nL'adaptation visuelle est parfois surnommée le \"microélectrode du psychologue\": elle permet d'inférer quelles propriétés du stimulus mobilisent des mécanismes perceptifs communs.\n\nIci, l'effet produit par des pieds isolés et son transfert du pigeon à l'humain suggèrent une sensibilité à des régularités cinématiques présentes chez plusieurs vertébrés terrestres.\n\nAccélérations, changements de direction et contraintes de locomotion apportent une information que la forme seule ne fournit pas.\n\nLes auteurs évoquent un possible \"système de détection de la vie\". La formule doit rester prudente: l'étude n'identifie ni un neurone de la vie ni un module cérébral unique.\n\nMais elle ouvre un enjeu beaucoup plus large.\n\nPour la robotique, l'animation, les avatars et les agents incarnés, produire une forme réaliste ne garantit pas une présence crédible. Quelques millisecondes de cinématique peuvent suffire à faire basculer notre perception du mécanique vers le vivant.\n\nLe cerveau peut reconnaître une signature de vie avant de savoir à qui elle appartient.\n\nPARSIFAL\n\nLa vie n'a parfois besoin ni d'un visage ni d'un nom pour être reconnue.\n\nSources\n\nHuang M., Yang X., Yang G., Shen L., Hu Z., Wang Y., Jiang Y., \"Seeing life in motion: Animacy perception across species revealed by adaptation\", Cognition, 2026\n\n#VOCEAssociation #CorpoESilenzio #Perception #Cognition #Mouvement #Neurosciences #Vision",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-08T21:29:35.236272+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     }
