@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-08T08:33:49.540Z",
+  "updated_at": "2026-10-08T09:10:51.445Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1462,6 +1462,29 @@
       },
       "source_texts_modified": false,
       "design_modified": false
+    },
+    "pathway_improvements_2026_10_08": {
+      "status": "deployed_verified_publicly",
+      "report": "backfill/reports/pathway-improvements-2026-10-08.json",
+      "completed_at": "2026-10-08T09:10:51.445Z",
+      "deployed_commit": "cc90f0dc45e9d9a91ef45613f993ab3758ece176",
+      "pathways": 4,
+      "html_pages_verified": 6,
+      "navigation_languages_verified": [
+        "en",
+        "fr",
+        "it"
+      ],
+      "metadata_author_dates_image_breadcrumb": true,
+      "publication_dates_source": "First recorded public repository versions",
+      "content_modified_dates_source": "Last substantive main content commits; unchanged by metadata maintenance",
+      "canonicals_preserved": true,
+      "editorial_texts_preserved": true,
+      "corpus_preserved": true,
+      "css_or_design_modified": false,
+      "build_success": true,
+      "indexnow_workflow_success": true,
+      "new_google_indexing_claim": false
     }
   }
 }

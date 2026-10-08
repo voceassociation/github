@@ -1,7 +1,7 @@
 {
   "schema": "voce.pathway-improvements.v1",
   "created_at": "2026-10-08T09:06:35.292Z",
-  "status": "published_verification_pending",
+  "status": "deployed_verified_publicly",
   "base_commit": "8962299b474d731cd2f91056c76786d22fe7e42e",
   "scope": "Four institutional pathways; governance EN/FR/IT and the existing in-page translations on the other three pathways.",
   "changes": [
@@ -27,7 +27,9 @@
     "javascript_syntax": true,
     "language_functional_cases": 9,
     "local_browser_executable_available": false,
-    "language_test_method": "Node vm DOM fixture; remote live browser verification pending"
+    "language_test_method": "Node vm DOM fixture; remote live browser verification pending",
+    "remote_browser_language_navigation": true,
+    "remote_browser_verification_pending": false
   },
   "source_article_texts_modified": false,
   "css_or_design_modified": false,
@@ -38,5 +40,166 @@
   "official_references": [
     "https://developers.google.com/search/docs/appearance/structured-data/article",
     "https://developers.google.com/search/docs/appearance/publication-dates"
-  ]
+  ],
+  "completed_at": "2026-10-08T09:10:51.445Z",
+  "deployed_commit": "cc90f0dc45e9d9a91ef45613f993ab3758ece176",
+  "deployment": {
+    "cloudflare_workers_build": "success",
+    "github_indexnow_workflow": "success",
+    "indexnow_receipt_not_separately_read": true
+  },
+  "public_checks": {
+    "checked_at": "2026-10-08T09:07:59.092400+00:00",
+    "checks": [
+      {
+        "path": "governance",
+        "http_status": "200",
+        "new_metadata": true,
+        "author": "VOCE AI Governance Institute",
+        "datePublished": "2026-09-23",
+        "dateModified": "2026-10-05",
+        "canonical": "https://voce.life/governance",
+        "jsonld_url": "https://voce.life/governance",
+        "jsonld_type": "Article",
+        "visible_date_count": 2,
+        "governance_language_links": true
+      },
+      {
+        "path": "fr/governance",
+        "http_status": "200",
+        "new_metadata": true,
+        "author": "VOCE AI Governance Institute",
+        "datePublished": "2026-09-28",
+        "dateModified": "2026-10-05",
+        "canonical": "https://voce.life/fr/governance",
+        "jsonld_url": "https://voce.life/fr/governance",
+        "jsonld_type": "Article",
+        "visible_date_count": 2,
+        "governance_language_links": true
+      },
+      {
+        "path": "it/governance",
+        "http_status": "200",
+        "new_metadata": true,
+        "author": "VOCE AI Governance Institute",
+        "datePublished": "2026-09-28",
+        "dateModified": "2026-10-05",
+        "canonical": "https://voce.life/it/governance",
+        "jsonld_url": "https://voce.life/it/governance",
+        "jsonld_type": "Article",
+        "visible_date_count": 2,
+        "governance_language_links": true
+      },
+      {
+        "path": "sovereignty",
+        "http_status": "200",
+        "new_metadata": true,
+        "author": "VOCE Association",
+        "datePublished": "2026-09-23",
+        "dateModified": "2026-09-23",
+        "canonical": "https://voce.life/sovereignty",
+        "jsonld_url": "https://voce.life/sovereignty",
+        "jsonld_type": "Article",
+        "visible_date_count": 2,
+        "governance_language_links": null
+      },
+      {
+        "path": "technoference",
+        "http_status": "200",
+        "new_metadata": true,
+        "author": "VOCE Association",
+        "datePublished": "2026-09-23",
+        "dateModified": "2026-09-23",
+        "canonical": "https://voce.life/technoference",
+        "jsonld_url": "https://voce.life/technoference",
+        "jsonld_type": "Article",
+        "visible_date_count": 2,
+        "governance_language_links": null
+      },
+      {
+        "path": "light-workforce",
+        "http_status": "200",
+        "new_metadata": true,
+        "author": "VOCE Association",
+        "datePublished": "2026-09-23",
+        "dateModified": "2026-09-23",
+        "canonical": "https://voce.life/light-workforce",
+        "jsonld_url": "https://voce.life/light-workforce",
+        "jsonld_type": "Article",
+        "visible_date_count": 2,
+        "governance_language_links": null
+      }
+    ]
+  },
+  "browser_verification": {
+    "run_id": "9c1edc03-041c-438f-a7de-bfd6d352ee51",
+    "status": "completed",
+    "fr_navigation_confirmed": true,
+    "it_navigation_confirmed": true,
+    "localized_atlas_applied_links_confirmed": true,
+    "fr_governance_navigation_confirmed": true,
+    "desktop_menu_and_overflow_verified": true,
+    "mobile_viewport_verified": false,
+    "provider_observations": {
+      "page": "/sovereignty (current URL)",
+      "findings": {
+        "desktop_viewport": {
+          "broken_menu": "none",
+          "horizontal_overflow": "none",
+          "all_menu_items_aligned": true
+        },
+        "fr_governance_page": {
+          "url": "/fr/governance",
+          "note": "Dates differ from /sovereignty (2026-09-23 on both); governance page has different publication/update dates",
+          "title": "Gouvernance de l'IA: de l'intelligence du modèle à l'autorité institutionnelle",
+          "updated_date": "2026-10-05",
+          "author_visible": "VOCE Association (in footer)",
+          "published_date": "2026-09-28",
+          "loads_french_text": true
+        },
+        "fr_navigation_test": {
+          "click": "FR button clicked once",
+          "labels": [
+            "Thèmes",
+            "Recherche",
+            "Academy",
+            "Atlas",
+            "Applied",
+            "Normes",
+            "Publications",
+            "Art",
+            "À propos",
+            "Guide"
+          ],
+          "atlas_href": "/fr/atlas",
+          "applied_href": "/fr/applied",
+          "updated_date": "2026-09-23",
+          "author_visible": "VOCE Association",
+          "published_date": "2026-09-23",
+          "menu_labels_french": true
+        },
+        "it_navigation_test": {
+          "click": "IT button clicked once",
+          "atlas_href": "/it/atlas",
+          "applied_href": "/it/applied",
+          "updated_date": "2026-09-23",
+          "author_visible": "VOCE Association",
+          "published_date": "2026-09-23",
+          "menu_labels_italian": true
+        },
+        "narrow_mobile_viewport": "Not explicitly tested (no viewport change performed), but page has no visible horizontal overflow on desktop suggesting responsive design",
+        "governance_language_selectors": {
+          "en_link": "/",
+          "fr_link": "/fr/governance",
+          "it_link": "/it/governance",
+          "all_are_real_links": true
+        }
+      }
+    },
+    "evidence_notes": [
+      "Provider's EN selector value / conflicts with source markup: exact live governance hrefs are /governance, /fr/governance, /it/governance.",
+      "Provider read governance footer publisher as visible author; actual topic-meta and JSON-LD attribute Governance to VOCE AI Governance Institute.",
+      "Desktop overflow results are not evidence of mobile rendering. No mobile viewport was performed."
+    ]
+  }
 }
