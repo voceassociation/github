@@ -277,10 +277,38 @@ function renderTopic(l){
  if(document.querySelector("[data-nav-art]")) document.querySelector("[data-nav-art]").textContent=c.art;
  if(document.querySelector("[data-nav-committee]")) document.querySelector("[data-nav-committee]").textContent=c.committee;
  if(document.querySelector("[data-nav-about]")) document.querySelector("[data-nav-about]").textContent=c.about;
+ const prefix=l==="en"?"":"/"+l;
+ for(const section of ["atlas","applied"]){
+   const link=document.querySelector("[data-nav-"+section+"]");
+   if(link) link.setAttribute("href",prefix+"/"+section);
+ }
+ document.querySelector("nav.menu").setAttribute("aria-label",l==="fr"?"Navigation principale":l==="it"?"Navigazione principale":"Primary navigation");
  document.querySelector("#topic-kicker").textContent=d.kicker;
  document.querySelector("#topic-title").textContent=d.title;
  document.querySelector("#topic-deck").textContent=d.deck;
- document.querySelector("#topic-meta").innerHTML=d.meta.map(x=>'<span>'+x+'</span>').join("");
+ const meta=document.querySelector("#topic-meta");
+ meta.innerHTML=d.meta.map(x=>'<span>'+x+'</span>').join("");
+ if(meta.dataset.author){
+   const signature=document.createElement("span");
+   signature.textContent=meta.dataset.author;
+   meta.append(signature);
+ }
+ const dates=l==="fr"?["Publié le","Mis à jour le"]:l==="it"?["Pubblicato il","Aggiornato il"]:["Published","Updated"];
+ ["published","modified"].forEach((key,i)=>{
+   if(!meta.dataset[key]) return;
+   const span=document.createElement("span"), time=document.createElement("time");
+   time.dateTime=meta.dataset[key];
+   time.textContent=meta.dataset[key];
+   span.append(dates[i]+" ",time);
+   meta.append(span);
+ });
+ const structured=document.getElementById("voce-pathway-metadata");
+ if(structured){
+   const data=JSON.parse(structured.textContent);
+   data.inLanguage=l;
+   data.headline=d.title;
+   structured.textContent=JSON.stringify(data).replace(/</g,"\\u003c");
+ }
  document.querySelector("#topic-nav-label").textContent=d.nav;
  const nav=document.querySelector("#topic-nav-links");
  const chapters=document.querySelector("#chapters");

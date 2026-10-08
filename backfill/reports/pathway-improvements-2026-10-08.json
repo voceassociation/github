@@ -1,0 +1,42 @@
+{
+  "schema": "voce.pathway-improvements.v1",
+  "created_at": "2026-10-08T09:06:35.292Z",
+  "status": "published_verification_pending",
+  "base_commit": "8962299b474d731cd2f91056c76786d22fe7e42e",
+  "scope": "Four institutional pathways; governance EN/FR/IT and the existing in-page translations on the other three pathways.",
+  "changes": [
+    "Activate existing localization hooks on the primary menu of Sovereignty, Technoference and Light Workforce.",
+    "Route Atlas and Applied to the current selected language.",
+    "Replace inert Governance EN language buttons with real canonical language links.",
+    "Add one Article schema, author identity URL, original publication date, substantive content modification date, image and BreadcrumbList consistently across six HTML pages.",
+    "Expose matching authors and publication/modification dates in the existing topic-meta layout; preserve them on language switching."
+  ],
+  "dates_provenance": {
+    "publication_record": "First recorded public repository versions: b7adeb937c0842cdd93ea0fd79d41f02943adafd (2026-09-23); FR governance b82b85891b859b6681d0935263147226f524564e and IT governance 04b7fde1468a0321306b3cfe7e2c8491f9820b06 (2026-09-28). Calendar date precision only, no invented deployment timestamp.",
+    "last_substantive_main_revision": {
+      "governance": "55ee9ce44c99b59690db4c594d72af3c2c5dbda2; 2026-10-05",
+      "sovereignty": "c67939dda53f6a3b54814cd856856f9b53096a68; 2026-09-23",
+      "technoference": "0e88e7d85a6fc946bccfcb8e05215ad075788231; 2026-09-23",
+      "light_workforce": "f1b6b6b454d7939578ba4398e734583f5a9e29cd; 2026-09-23"
+    },
+    "note": "Navigation and metadata maintenance does not reset editorial freshness to October 8."
+  },
+  "validation": {
+    "six_html_schemas_and_canonicals": true,
+    "editorial_main_identical_excluding_attribution": true,
+    "javascript_syntax": true,
+    "language_functional_cases": 9,
+    "local_browser_executable_available": false,
+    "language_test_method": "Node vm DOM fixture; remote live browser verification pending"
+  },
+  "source_article_texts_modified": false,
+  "css_or_design_modified": false,
+  "canonical_urls_modified": false,
+  "scholarly_article_claim_added": false,
+  "new_collections_created": false,
+  "google_indexing_claim": false,
+  "official_references": [
+    "https://developers.google.com/search/docs/appearance/structured-data/article",
+    "https://developers.google.com/search/docs/appearance/publication-dates"
+  ]
+}
