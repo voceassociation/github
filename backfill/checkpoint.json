@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-08T21:32:30Z",
+  "updated_at": "2026-10-09T13:14:26.732Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -926,27 +926,27 @@
       "owner": "VOCE Association",
       "bucket": "voce-sovereign-corpus",
       "private": true,
-      "checked_at": "2026-10-08T21:32:30Z",
-      "synced_at": "2026-10-08T21:31:56.513Z",
+      "synced_at": "2026-10-09T13:10:02.699Z",
       "article_routes": 1582,
       "corpus_items": 1582,
       "article_routes_synced": 1582,
       "source_snapshot_complete": true,
-      "backup_cursor": 120,
+      "backup_cursor": 520,
       "backup_batch_size": 40,
       "backup_complete": true,
-      "last_complete_sync_at": "2026-10-08T21:31:56.513Z",
+      "last_complete_sync_at": "2026-10-09T13:10:02.699Z",
       "total_objects_target": 1696,
-      "objects_synced": 131,
-      "derived_backup_complete": false,
-      "derived_cursor": 120,
+      "objects_synced": 1696,
+      "derived_backup_complete": true,
+      "derived_cursor": 520,
       "total_derived_objects": 1685,
-      "derived_objects_synced": 120,
-      "derived_article_pages_synced": 17,
+      "derived_objects_synced": 1685,
+      "derived_article_pages_synced": 1582,
       "source_objects_touched_in_last_sync": 11,
       "derived_objects_touched_in_last_sync": 40,
-      "changed_in_last_sync": 2,
-      "interpretation": "Source snapshot is complete for all 1582 texts; derived HTML backup is advancing in resumable batches and is not yet complete."
+      "changed_in_last_sync": 0,
+      "checked_at": "2026-10-09T13:14:26.732Z",
+      "interpretation": "Source snapshot and all derived HTML pages complete for 1582 archived texts."
     },
     "research_registry": {
       "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
@@ -1327,8 +1327,8 @@
     "search_console_followup_2026_10_07": {
       "status": "properties_verified_discovery_access_repaired_google_sitemap_success",
       "report": "backfill/reports/search-console-preparation-2026-10-07.json",
-      "public_sitemap_urls": 2305,
-      "unique_public_sitemap_urls": 2305,
+      "public_sitemap_urls": 2323,
+      "unique_public_sitemap_urls": 2323,
       "section_property_prefixes": [
         "https://voce.life/agent-conformance",
         "https://voce.life/applied",
@@ -1379,7 +1379,7 @@
         "indexnow_key": 200
       },
       "cloudflare_discovery_rule_id": "60553ef311534cae905ebb84c9316028",
-      "public_sitemap_valid_unique_urls": 2305,
+      "public_sitemap_valid_unique_urls": 2323,
       "sitemap_refreshed_after_access_repair": true,
       "google_full_sitemap_processing_confirmed": true,
       "nightly_followup_prompt_updated": true,
@@ -1406,6 +1406,14 @@
         "resubmitted": false,
         "public_sitemap_current_distinct_urls": 2305,
         "evidence_limit": "Sitemap discovery is confirmed; all-page indexing and discovery of the 18 URLs added since the last Google read are not confirmed."
+      },
+      "latest_refresh_attempt": {
+        "checked_at": "2026-10-09T13:14:26.732Z",
+        "status": "blocked_connection",
+        "run_id": "13311238-c011-432f-8aa9-dae0a9a58bc2",
+        "run_url": "https://agent.tinyfish.ai/runs/13311238-c011-432f-8aa9-dae0a9a58bc2",
+        "reason": "Unable to access Google Search Console sitemaps page for sc-domain:voce.life. Repeated attempts resulted in ERR_TUNNEL_CONNECTION_FAILED or empty pages with no content loaded. No sign-in wall/CAPTCHA was observed, but the connection could not be established. Unable to read the non-www https://voce.life/sitemap.xml row status, type, last read date, or discovered page count.",
+        "followup": "Preserve last confirmed Google observation; recheck during normal nightly follow-up without resubmission."
       }
     },
     "nightly_backfill_morning_verification_2026_10_08": {
@@ -1493,6 +1501,21 @@
       "build_success": true,
       "indexnow_workflow_success": true,
       "new_google_indexing_claim": false
+    },
+    "daily_verification_2026_10_09": {
+      "status": "public_site_and_archive_verified_google_refresh_blocked",
+      "checked_at": "2026-10-09T13:14:26.732Z",
+      "report": "backfill/reports/daily-verification-2026-10-09.json",
+      "corpus_items": 1582,
+      "unique_ids": 1582,
+      "unique_decoded_texts": 1582,
+      "unique_canonical_urls": 1582,
+      "academy_live_count": 1582,
+      "academy_counter_mismatch_reproduced": false,
+      "academy_counter_change_required": false,
+      "sitemap_unique_urls": 2323,
+      "r2_source_and_derived_complete": true,
+      "google_refresh_blocked_connection": true
     }
   }
 }
