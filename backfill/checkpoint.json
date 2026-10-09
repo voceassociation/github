@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-09T21:37:24.572Z",
+  "updated_at": "2026-10-09T21:37:44.156Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -926,31 +926,15 @@
     "indexnow_key": "verified_live",
     "indexnow_retry_commit": "fab67c8f0bb0a1c3614798a189cd1771b5bdaaa3",
     "r2_backup": {
-      "status": "ok",
-      "owner": "VOCE Association",
-      "bucket": "voce-sovereign-corpus",
-      "private": true,
-      "synced_at": "2026-10-09T21:34:50.953Z",
-      "article_routes": 1591,
-      "corpus_items": 1591,
-      "article_routes_synced": 1591,
-      "source_snapshot_complete": true,
-      "backup_cursor": 1680,
-      "backup_batch_size": 40,
-      "backup_complete": true,
-      "last_complete_sync_at": "2026-10-09T21:34:50.953Z",
-      "total_objects_target": 1706,
-      "objects_synced": 1691,
-      "derived_backup_complete": false,
-      "derived_cursor": 1680,
-      "total_derived_objects": 1695,
-      "derived_objects_synced": 1680,
-      "derived_article_pages_synced": 1576,
-      "source_objects_touched_in_last_sync": 11,
-      "derived_objects_touched_in_last_sync": 40,
-      "changed_in_last_sync": 0,
-      "checked_at": "2026-10-09T21:37:24.572Z",
-      "interpretation": "The 1591-item source snapshot is complete; derived HTML backup is advancing in scheduled batches and is not yet complete."
+      "type": "document",
+      "children": [
+        {
+          "type": "code",
+          "text": "{\"status\":\"ok\",\"owner\":\"VOCE Association\",\"bucket\":\"voce-sovereign-corpus\",\"private\":true,\"synced_at\":\"2026-10-09T21:36:50.952Z\",\"article_routes\":1591,\"corpus_items\":1591,\"article_routes_synced\":1591,\"source_snapshot_complete\":true,\"backup_cursor\":40,\"backup_batch_size\":40,\"backup_complete\":true,\"last_complete_sync_at\":\"2026-10-09T21:36:50.952Z\",\"total_objects_target\":1706,\"objects_synced\":1706,\"derived_backup_complete\":true,\"derived_cursor\":40,\"total_derived_objects\":1695,\"derived_objects_synced\":1695,\"derived_article_pages_synced\":1591,\"source_objects_touched_in_last_sync\":11,\"derived_objects_touched_in_last_sync\":40,\"changed_in_last_sync\":0}"
+        }
+      ],
+      "checked_at": "2026-10-09T21:37:44.156Z",
+      "interpretation": "The 1591-item source snapshot and all 1591 derived article HTML pages are complete."
     },
     "research_registry": {
       "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
@@ -1563,17 +1547,7 @@
         "indexing_claimed": false
       },
       "r2": {
-        "status": "ok",
-        "synced_at": "2026-10-09T21:34:50.953Z",
-        "source_snapshot_complete": true,
-        "backup_complete": true,
-        "corpus_items": 1591,
-        "article_routes": 1591,
-        "derived_backup_complete": false,
-        "derived_cursor": 1680,
-        "total_derived_objects": 1695,
-        "derived_article_pages_synced": 1576,
-        "interpretation": "Source snapshot complete; derived HTML backup still progressing."
+        "interpretation": "Source snapshot and all derived article HTML pages complete."
       },
       "source_texts_modified": false,
       "design_modified": false
