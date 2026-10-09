@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-09T21:32:55.141105+00:00",
+  "updated_at": "2026-10-09T21:37:24.572Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -917,12 +917,12 @@
     "pull_request": 3,
     "merge_commit": "cb66dce1c40f07282b275482f801e8a350dc5f0a",
     "indexnow_check": "accepted_200",
-    "live_deployment": "1582_unique_articles_verified_publicly",
+    "live_deployment": "1591_unique_articles_verified_publicly",
     "linkedin_browser_session": "signed_out_metricool_connector_connected",
-    "static_pages_generated": 1582,
+    "static_pages_generated": 1591,
     "academy_catalogue": "existing_curated_selection_plus_guide_no_bulk_listing",
-    "verified_article": "https://voce.life/archive/2026/10/08/laromestrocel-63-4-metres-d-ecart-apres-une-seule-perfusion-chez-des-per-7514006911101620224",
-    "rss_items": 1582,
+    "verified_article": "https://voce.life/archive/2026/10/09/robco-vaut-un-milliard-son-prochain-cycle-de-croissance-se-construit-aux-7514233394118086656",
+    "rss_items": 1591,
     "indexnow_key": "verified_live",
     "indexnow_retry_commit": "fab67c8f0bb0a1c3614798a189cd1771b5bdaaa3",
     "r2_backup": {
@@ -930,27 +930,27 @@
       "owner": "VOCE Association",
       "bucket": "voce-sovereign-corpus",
       "private": true,
-      "synced_at": "2026-10-09T13:10:02.699Z",
-      "article_routes": 1582,
-      "corpus_items": 1582,
-      "article_routes_synced": 1582,
+      "synced_at": "2026-10-09T21:34:50.953Z",
+      "article_routes": 1591,
+      "corpus_items": 1591,
+      "article_routes_synced": 1591,
       "source_snapshot_complete": true,
-      "backup_cursor": 520,
+      "backup_cursor": 1680,
       "backup_batch_size": 40,
       "backup_complete": true,
-      "last_complete_sync_at": "2026-10-09T13:10:02.699Z",
-      "total_objects_target": 1696,
-      "objects_synced": 1696,
-      "derived_backup_complete": true,
-      "derived_cursor": 520,
-      "total_derived_objects": 1685,
-      "derived_objects_synced": 1685,
-      "derived_article_pages_synced": 1582,
+      "last_complete_sync_at": "2026-10-09T21:34:50.953Z",
+      "total_objects_target": 1706,
+      "objects_synced": 1691,
+      "derived_backup_complete": false,
+      "derived_cursor": 1680,
+      "total_derived_objects": 1695,
+      "derived_objects_synced": 1680,
+      "derived_article_pages_synced": 1576,
       "source_objects_touched_in_last_sync": 11,
       "derived_objects_touched_in_last_sync": 40,
       "changed_in_last_sync": 0,
-      "checked_at": "2026-10-09T13:14:26.732Z",
-      "interpretation": "Source snapshot and all derived HTML pages complete for 1582 archived texts."
+      "checked_at": "2026-10-09T21:37:24.572Z",
+      "interpretation": "The 1591-item source snapshot is complete; derived HTML backup is advancing in scheduled batches and is not yet complete."
     },
     "research_registry": {
       "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
@@ -960,7 +960,7 @@
         "https://voce.life/research/introspective-technoference",
         "https://voce.life/research/parental-technoference-language-development"
       ],
-      "last_verified_at": "2026-10-08T21:32:30Z",
+      "last_verified_at": "2026-10-09T21:37:24.572Z",
       "status": "Google Drive registry verified unchanged: the two authoritative DOI records and canonical VOCE Academy research targets remain exact; no new formal output added."
     },
     "facebook": {
@@ -998,16 +998,25 @@
         "2026-10-09"
       ],
       "verified_source": "Metricool LinkedIn connector, brand 7090850",
-      "items_processed": 57,
+      "raw_rows": 58,
+      "unique_linkedin_ids": 58,
+      "unique_decoded_texts": 58,
+      "items_processed": 58,
+      "late_connector_rows_recovered": 3,
+      "newly_archived": 9,
       "corpus_items_after": 1591,
       "classification": "A editorial/archive",
-      "static_pages_verified_for_generation": 57,
+      "static_pages_verified_for_generation": 58,
       "daily_archives": [
         "archive/2026-10-06.html",
         "archive/2026-10-07.html",
         "archive/2026-10-08.html",
         "archive/2026-10-09.html"
       ],
+      "raw_source_commit": "852082faaffae0686a7753ed2e90c0cac92ff6d8",
+      "corpus_commit": "79561c0e93d1ff9bb6c88f5a6c8b288673b39a4a",
+      "workflow_run_id": 37994097432,
+      "workflow_job_id": 114035546779,
       "completed_at": "2026-10-09T21:32:55.578578+00:00"
     },
     "catchup": {
@@ -1056,7 +1065,7 @@
       "aliases": {
         "linkedin:7510307538911862784": "linkedin:7510307518246559744"
       },
-      "unique_texts": 1582,
+      "unique_texts": 1591,
       "regression": "Current reconciliation and validation passed: every full text unique and no alternate_publications identifier present as an article.",
       "deployment": "verified_publicly",
       "live_checks": {
@@ -1066,19 +1075,19 @@
         "og_image": "https://voce.life/voce-og.jpg",
         "twitter_card": "summary_large_image"
       },
-      "last_verified_at": "2026-10-08T21:32:30Z",
+      "last_verified_at": "2026-10-09T21:37:24.572Z",
       "alternate_ids_reimported": 0,
-      "canonical_routes": 1582,
+      "canonical_routes": 1591,
       "redirects": 2
     },
     "indexnow_latest": {
-      "run_id": 37847137011,
-      "job_id": 113550704609,
+      "run_id": 37994097432,
+      "job_id": 114035546779,
       "endpoint": "https://www.bing.com/indexnow",
       "status": 200,
-      "submitted_url_count": 67,
+      "submitted_url_count": 61,
       "scope": "current four-day canonical publication batch",
-      "observed_at": "2026-10-08T21:29:41.131Z",
+      "observed_at": "2026-10-09T21:33:01.596Z",
       "key_location": "https://voce.life/9e4c71d85a2f4b6cb3098f21d7a56e40.txt",
       "global_submission_repeated": false,
       "interpretation": "accepted_not_guarantee_of_indexing"
@@ -1232,17 +1241,17 @@
     "indexnow_current_submission": {
       "endpoint": "https://www.bing.com/indexnow",
       "status": "accepted_200",
-      "workflow_run": "https://github.com/voceassociation/github/actions/runs/37847137011",
+      "workflow_run": "https://github.com/voceassociation/github/actions/runs/37994097432",
       "submitted_scope": "current four-day canonical publication batch",
       "global_submission_repeated": false,
       "prior_global_success_run": "https://github.com/voceassociation/github/actions/runs/37480606608",
       "prior_global_status": 200,
       "http_status": 200,
-      "accepted_at": "2026-10-08T21:29:41.131Z",
-      "run_id": 37847137011,
-      "job_id": 113550704609,
-      "workflow_url": "https://github.com/voceassociation/github/actions/runs/37847137011",
-      "submitted_url_count": 67,
+      "accepted_at": "2026-10-09T21:33:01.596Z",
+      "run_id": 37994097432,
+      "job_id": 114035546779,
+      "workflow_url": "https://github.com/voceassociation/github/actions/runs/37994097432",
+      "submitted_url_count": 61,
       "keyLocation": "https://voce.life/9e4c71d85a2f4b6cb3098f21d7a56e40.txt",
       "interpretation": "Search engine received the URLs; no claim of indexing or ranking.",
       "scope": "current four-day canonical publication batch",
@@ -1503,6 +1512,71 @@
       "google_sitemap_status": "success",
       "google_discovered_pages": 2287,
       "google_checked_at": "2026-10-09T13:25:44.280Z"
+    },
+    "nightly_backfill_2026_10_09": {
+      "checked_at": "2026-10-09T21:37:24.572Z",
+      "dates": [
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09"
+      ],
+      "raw_rows": 58,
+      "unique_linkedin_ids": 58,
+      "unique_decoded_texts": 58,
+      "newly_archived": 9,
+      "corpus_items": 1591,
+      "unique_canonical_texts": 1591,
+      "alternate_ids_reimported": 0,
+      "canonical_routes": 1591,
+      "redirects": 2,
+      "source_commit": "852082faaffae0686a7753ed2e90c0cac92ff6d8",
+      "corpus_commit": "79561c0e93d1ff9bb6c88f5a6c8b288673b39a4a",
+      "workflow_run_id": 37994097432,
+      "workflow_job_id": 114035546779,
+      "article_verification": {
+        "url": "https://voce.life/archive/2026/10/09/robco-vaut-un-milliard-son-prochain-cycle-de-croissance-se-construit-aux-7514233394118086656",
+        "source_linkedin_id": "urn:li:ugcPost:7514233394118086656",
+        "title": "RobCo vaut un milliard. Son prochain cycle de croissance se construit aux États-Unis",
+        "article_body_length": 2961,
+        "article_body_fnv1a_js_utf16": "672d9f5a",
+        "exact_source_match": true,
+        "canonical_self_reference": true,
+        "same_as_linkedin": true,
+        "ultra_present": true,
+        "sources_present": true,
+        "og_image": "https://voce.life/voce-og.jpg"
+      },
+      "guide_verification": {
+        "query": "RobCo vaut un milliard. Son prochain cycle de croissance se construit aux États-Unis",
+        "top_document_url": "https://voce.life/archive/2026/10/09/robco-vaut-un-milliard-son-prochain-cycle-de-croissance-se-construit-aux-7514233394118086656",
+        "exact_title_found": true
+      },
+      "discovery": {
+        "sitemap_unique_urls": 2333,
+        "sample_in_sitemap": true,
+        "rss_items": 1591,
+        "sample_in_rss": true,
+        "vault_absent_from_sitemap_rss_llms": true,
+        "indexnow_http_status": 200,
+        "indexnow_received_urls": 61,
+        "indexing_claimed": false
+      },
+      "r2": {
+        "status": "ok",
+        "synced_at": "2026-10-09T21:34:50.953Z",
+        "source_snapshot_complete": true,
+        "backup_complete": true,
+        "corpus_items": 1591,
+        "article_routes": 1591,
+        "derived_backup_complete": false,
+        "derived_cursor": 1680,
+        "total_derived_objects": 1695,
+        "derived_article_pages_synced": 1576,
+        "interpretation": "Source snapshot complete; derived HTML backup still progressing."
+      },
+      "source_texts_modified": false,
+      "design_modified": false
     }
   }
 }
