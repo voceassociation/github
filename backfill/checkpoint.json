@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-09T13:14:26.732Z",
+  "updated_at": "2026-10-09T13:25:44.280Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1344,8 +1344,8 @@
       "properties_added": true,
       "sitemap_submitted": true,
       "blocker": null,
-      "run_id": "ad5bee79-bdea-4bc2-b84c-163675ed70af",
-      "run_url": "https://agent.tinyfish.ai/runs/ad5bee79-bdea-4bc2-b84c-163675ed70af",
+      "run_id": "4f073cf2-f984-4c4d-a2ae-770d20f15087",
+      "run_url": "https://agent.tinyfish.ai/runs/4f073cf2-f984-4c4d-a2ae-770d20f15087",
       "root_property_observed": "sc-domain:voce.life",
       "root_property_verified": true,
       "canonical_sitemap_missing_at_audit": true,
@@ -1387,27 +1387,37 @@
       "run_status": "completed",
       "completed_at": "2026-10-07T10:11:56.972Z",
       "google_sitemap_last_read": "2026-10-07",
-      "latest_checked_at": "2026-10-08T08:33:49.540Z",
+      "latest_checked_at": "2026-10-09T13:25:44.280Z",
       "google_sitemap_latest_observation": {
-        "checked_at": "2026-10-08T08:33:49.540Z",
-        "run_id": "ad5bee79-bdea-4bc2-b84c-163675ed70af",
-        "run_url": "https://agent.tinyfish.ai/runs/ad5bee79-bdea-4bc2-b84c-163675ed70af",
+        "checked_at": "2026-10-09T13:25:44.280Z",
+        "run_id": "4f073cf2-f984-4c4d-a2ae-770d20f15087",
+        "run_url": "https://agent.tinyfish.ai/runs/4f073cf2-f984-4c4d-a2ae-770d20f15087",
         "read_only": true,
+        "authenticated_access_confirmed": true,
+        "user_confirmed_profile_saved": true,
+        "profile_id": "prof_236917ff0f01402f",
+        "property": "sc-domain:voce.life",
         "console_url": "https://search.google.com/search-console/sitemaps?resource_id=sc-domain:voce.life",
         "sitemap_url": "https://voce.life/sitemap.xml",
         "status": "success",
         "status_text": "Success",
         "type": "Sitemap",
-        "submitted_date": "2026-10-07",
         "last_read": "2026-10-07",
+        "submitted_date": "2026-10-07",
         "discovered_pages": 2287,
         "discovered_videos": 0,
         "processing_success_confirmed": true,
         "resubmitted": false,
-        "public_sitemap_current_distinct_urls": 2305,
-        "evidence_limit": "Sitemap discovery is confirmed; all-page indexing and discovery of the 18 URLs added since the last Google read are not confirmed."
+        "public_sitemap_current_distinct_urls": 2323,
+        "evidence_limit": "Successful authenticated read of the sitemap report; Google still shows its October 7 read and 2287 discovered pages. This does not establish current discovery or indexing of all 2323 public URLs."
       },
       "latest_refresh_attempt": {
+        "checked_at": "2026-10-09T13:25:44.280Z",
+        "status": "authenticated_observation_success",
+        "run_id": "4f073cf2-f984-4c4d-a2ae-770d20f15087",
+        "run_url": "https://agent.tinyfish.ai/runs/4f073cf2-f984-4c4d-a2ae-770d20f15087"
+      },
+      "previous_refresh_attempt": {
         "checked_at": "2026-10-09T13:14:26.732Z",
         "status": "blocked_connection",
         "run_id": "13311238-c011-432f-8aa9-dae0a9a58bc2",
@@ -1503,7 +1513,7 @@
       "new_google_indexing_claim": false
     },
     "daily_verification_2026_10_09": {
-      "status": "public_site_and_archive_verified_google_refresh_blocked",
+      "status": "public_site_archive_and_google_sitemap_verified",
       "checked_at": "2026-10-09T13:14:26.732Z",
       "report": "backfill/reports/daily-verification-2026-10-09.json",
       "corpus_items": 1582,
@@ -1515,7 +1525,11 @@
       "academy_counter_change_required": false,
       "sitemap_unique_urls": 2323,
       "r2_source_and_derived_complete": true,
-      "google_refresh_blocked_connection": true
+      "google_refresh_blocked_connection": false,
+      "google_authenticated_access_confirmed": true,
+      "google_sitemap_status": "success",
+      "google_discovered_pages": 2287,
+      "google_checked_at": "2026-10-09T13:25:44.280Z"
     }
   }
 }

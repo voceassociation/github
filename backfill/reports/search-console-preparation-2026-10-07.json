@@ -529,25 +529,29 @@
     "backfill_must_not_wait_for_google_processing": true
   },
   "canonical_site_urls_modified": false,
-  "updated_at": "2026-10-08T08:33:49.540Z",
+  "updated_at": "2026-10-09T13:25:44.280Z",
   "google_sitemap_latest_observation": {
-    "checked_at": "2026-10-08T08:33:49.540Z",
-    "run_id": "ad5bee79-bdea-4bc2-b84c-163675ed70af",
-    "run_url": "https://agent.tinyfish.ai/runs/ad5bee79-bdea-4bc2-b84c-163675ed70af",
+    "checked_at": "2026-10-09T13:25:44.280Z",
+    "run_id": "4f073cf2-f984-4c4d-a2ae-770d20f15087",
+    "run_url": "https://agent.tinyfish.ai/runs/4f073cf2-f984-4c4d-a2ae-770d20f15087",
     "read_only": true,
+    "authenticated_access_confirmed": true,
+    "user_confirmed_profile_saved": true,
+    "profile_id": "prof_236917ff0f01402f",
+    "property": "sc-domain:voce.life",
     "console_url": "https://search.google.com/search-console/sitemaps?resource_id=sc-domain:voce.life",
     "sitemap_url": "https://voce.life/sitemap.xml",
     "status": "success",
     "status_text": "Success",
     "type": "Sitemap",
-    "submitted_date": "2026-10-07",
     "last_read": "2026-10-07",
+    "submitted_date": "2026-10-07",
     "discovered_pages": 2287,
     "discovered_videos": 0,
     "processing_success_confirmed": true,
     "resubmitted": false,
-    "public_sitemap_current_distinct_urls": 2305,
-    "evidence_limit": "Sitemap discovery is confirmed; all-page indexing and discovery of the 18 URLs added since the last Google read are not confirmed."
+    "public_sitemap_current_distinct_urls": 2323,
+    "evidence_limit": "Successful authenticated read of the sitemap report; Google still shows its October 7 read and 2287 discovered pages. This does not establish current discovery or indexing of all 2323 public URLs."
   },
   "google_sitemap_observation_history": [
     {
@@ -585,6 +589,29 @@
       "resubmitted": false,
       "public_sitemap_current_distinct_urls": 2305,
       "evidence_limit": "Sitemap discovery is confirmed; all-page indexing and discovery of the 18 URLs added since the last Google read are not confirmed."
+    },
+    {
+      "checked_at": "2026-10-09T13:25:44.280Z",
+      "run_id": "4f073cf2-f984-4c4d-a2ae-770d20f15087",
+      "run_url": "https://agent.tinyfish.ai/runs/4f073cf2-f984-4c4d-a2ae-770d20f15087",
+      "read_only": true,
+      "authenticated_access_confirmed": true,
+      "user_confirmed_profile_saved": true,
+      "profile_id": "prof_236917ff0f01402f",
+      "property": "sc-domain:voce.life",
+      "console_url": "https://search.google.com/search-console/sitemaps?resource_id=sc-domain:voce.life",
+      "sitemap_url": "https://voce.life/sitemap.xml",
+      "status": "success",
+      "status_text": "Success",
+      "type": "Sitemap",
+      "last_read": "2026-10-07",
+      "submitted_date": "2026-10-07",
+      "discovered_pages": 2287,
+      "discovered_videos": 0,
+      "processing_success_confirmed": true,
+      "resubmitted": false,
+      "public_sitemap_current_distinct_urls": 2323,
+      "evidence_limit": "Successful authenticated read of the sitemap report; Google still shows its October 7 read and 2287 discovered pages. This does not establish current discovery or indexing of all 2323 public URLs."
     }
   ],
   "public_sitemap_latest_observation": {
