@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generated_at": "2026-10-08",
+  "generated_at": "2026-10-09",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
   "methodology": {
@@ -3699,6 +3699,72 @@
       "sectors": [
         "legal",
         "finance",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7514157844376621056",
+      "date": "2026-10-09",
+      "title": "50/50 ne suffit pas: le biais peut être dans le dataset avant d'être dans l'algorithme",
+      "path": "/archive/2026/10/09/50-50-ne-suffit-pas-le-biais-peut-etre-dans-le-dataset-avant-d-etre-dans-7514157844376621056",
+      "sectors": [
+        "legal",
+        "hr",
+        "banking",
+        "healthops"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7514233394118086656",
+      "date": "2026-10-09",
+      "title": "RobCo vaut un milliard. Son prochain cycle de croissance se construit aux États-Unis",
+      "path": "/archive/2026/10/09/robco-vaut-un-milliard-son-prochain-cycle-de-croissance-se-construit-aux-7514233394118086656",
+      "sectors": [
+        "legal",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7514188082343157760",
+      "date": "2026-10-09",
+      "title": "Une campagne IA peut coûter un million sans acheter l'exclusivité attendue",
+      "path": "/archive/2026/10/09/une-campagne-ia-peut-couter-un-million-sans-acheter-l-exclusivite-attend-7514188082343157760",
+      "sectors": [
+        "legal",
+        "finance",
+        "marketing"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7514218280249810944",
+      "date": "2026-10-09",
+      "title": "Votre agent peut rester en ligne après avoir changé de cerveau",
+      "path": "/archive/2026/10/09/votre-agent-peut-rester-en-ligne-apres-avoir-change-de-cerveau-7514218280249810944",
+      "sectors": [
+        "legal",
+        "finance",
+        "marketing",
+        "banking",
         "it"
       ],
       "themes": [

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-09T13:25:44.280Z",
+  "updated_at": "2026-10-09T21:32:55.141105+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -893,12 +893,16 @@
     },
     "2026-10-08": {
       "status": "rows_returned",
-      "rows": 15
+      "rows": 18
+    },
+    "2026-10-09": {
+      "status": "rows_returned",
+      "rows": 6
     }
   },
-  "retrieved_unique_publications": 1584,
-  "newly_archived": 17,
-  "academy_corpus_items": 1582,
+  "retrieved_unique_publications": 1593,
+  "newly_archived": 9,
+  "academy_corpus_items": 1591,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
@@ -988,54 +992,23 @@
     },
     "current_publication_ingest": {
       "dates": [
-        "2026-10-05",
         "2026-10-06",
         "2026-10-07",
-        "2026-10-08"
+        "2026-10-08",
+        "2026-10-09"
       ],
       "verified_source": "Metricool LinkedIn connector, brand 7090850",
-      "raw_rows_processed": 64,
-      "items_processed": 64,
-      "unique_linkedin_ids_in_window": 64,
-      "unique_decoded_texts_in_window": 64,
-      "late_connector_rows_recovered": 2,
-      "newly_archived": 17,
-      "exact_text_duplicates_in_window": 0,
-      "corpus_items_after": 1582,
+      "items_processed": 57,
+      "corpus_items_after": 1591,
       "classification": "A editorial/archive",
-      "static_pages_verified_for_generation": 64,
+      "static_pages_verified_for_generation": 57,
       "daily_archives": [
-        "archive/2026-10-05.html",
         "archive/2026-10-06.html",
         "archive/2026-10-07.html",
-        "archive/2026-10-08.html"
+        "archive/2026-10-08.html",
+        "archive/2026-10-09.html"
       ],
-      "sitemap_urls_after": 2323,
-      "rss_items_after": 1582,
-      "source_commit": "3bf52290f18fad912e9a7d9fe2b22dee4552e36b",
-      "corpus_commit": "7833fe75a72674176a82f436712a42bffa806bf6",
-      "workflow_run_id": 37847137011,
-      "workflow_job_id": 113550704609,
-      "completed_at": "2026-10-08T21:29:44Z",
-      "public_verification": {
-        "canonical_url": "https://voce.life/archive/2026/10/08/laromestrocel-63-4-metres-d-ecart-apres-une-seule-perfusion-chez-des-per-7514006911101620224",
-        "linkedin_id": "urn:li:ugcPost:7514006911101620224",
-        "title": "Laromestrocel: 63,4 mètres d'écart après une seule perfusion chez des personnes âgées fragiles",
-        "article_body_length": 2808,
-        "article_body_fnv1a": "04a91d37",
-        "exact_source_match": true,
-        "canonical_self_reference": true,
-        "date_published": "2026-10-08T19:00:56+02:00",
-        "robots": "index,follow,max-snippet:-1,max-image-preview:large",
-        "og_image": "https://voce.life/voce-og.jpg",
-        "jsonld_type": "Article",
-        "same_as": [
-          "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514006911101620224"
-        ],
-        "ultra_sources_hashtags_preserved": true,
-        "academy_guide_exact_title_result": true,
-        "academy_guide_target_matches_canonical": true
-      }
+      "completed_at": "2026-10-09T21:32:55.578578+00:00"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",

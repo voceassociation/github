@@ -1,5 +1,562 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>VOCE Academy</title><link>https://voce.life/archive</link><description>VOCE Association canonical editorial and educational corpus.</description><language>fr</language><lastBuildDate>Thu, 08 Oct 2026 21:29:35 +0000</lastBuildDate><item><title>Laromestrocel: 63,4 mètres d'écart après une seule perfusion chez des personnes âgées fragiles</title><link>https://voce.life/archive/2026/10/08/laromestrocel-63-4-metres-d-ecart-apres-une-seule-perfusion-chez-des-per-7514006911101620224</link><guid isPermaLink="true">https://voce.life/archive/2026/10/08/laromestrocel-63-4-metres-d-ecart-apres-une-seule-perfusion-chez-des-per-7514006911101620224</guid><pubDate>Thu, 08 Oct 2026 19:00:56 +0200</pubDate><author>VOCE Association</author><description>Laromestrocel: 63,4 mètres d'écart après une seule perfusion chez des personnes âgées fragiles
+<rss version="2.0"><channel><title>VOCE Academy</title><link>https://voce.life/archive</link><description>VOCE Association canonical editorial and educational corpus.</description><language>fr</language><lastBuildDate>Fri, 09 Oct 2026 21:32:55 +0000</lastBuildDate><item><title>RobCo vaut un milliard. Son prochain cycle de croissance se construit aux États-Unis</title><link>https://voce.life/archive/2026/10/09/robco-vaut-un-milliard-son-prochain-cycle-de-croissance-se-construit-aux-7514233394118086656</link><guid isPermaLink="true">https://voce.life/archive/2026/10/09/robco-vaut-un-milliard-son-prochain-cycle-de-croissance-se-construit-aux-7514233394118086656</guid><pubDate>Fri, 09 Oct 2026 10:00:56 +0200</pubDate><author>VOCE Association</author><description>RobCo vaut un milliard. Son prochain cycle de croissance se construit aux États-Unis
+
+Munich, 5 octobre 2026.
+
+RobCo, née à l'Université technique de Munich en 2020, vient d'atteindre une valorisation d'un milliard de dollars.
+
+Sequoia, Lightspeed et Lingotto figurent parmi ses investisseurs.
+
+Le signal industriel est ailleurs.
+
+Roman Hölzl, fondateur et CEO, s'est installé aux États-Unis alors qu'environ 70% de l'activité reste européenne. La fabrication demeure en Allemagne. RobCo développe aussi une capacité industrielle à Austin et un laboratoire à San Francisco.
+
+Les États-Unis sont désormais son marché à la croissance la plus rapide.
+
+L'entreprise prépare Alfie, robot à deux bras destiné à la manipulation, l'assemblage et l'alimentation de machines. Lancement prévu en mars 2027. Des prototypes fonctionnent déjà chez certains clients, sans preuve publiée de performance à grande échelle.
+
+Les chiffres de l'International Federation of Robotics éclairent ce déplacement.
+
+En 2025, les États-Unis ont installé environ 38.000 robots industriels, +11%.
+
+L'Allemagne est passée sous 25.000, -8%.
+
+La France reste autour de 4.500, -8%.
+
+La Chine en a installé 354.000: 59% du total mondial.
+
+RobCo illustre une situation que l'Europe devra surveiller: une technologie peut naître ici et y conserver sa fabrication, tandis que son prochain marché se construit ailleurs.
+
+ULTRA®
+
+Dans la robotique physique, la géographie de la valeur ne se lit plus dans l'adresse du siège.
+
+RobFlow 8 fonctionne sur ROS 2 et s'intègre aux usines via Profinet et OPC UA.
+
+À mesure qu'une plateforme s'installe, logiciels, support, intégration et données d'exploitation prennent davantage de poids.
+
+Pour un investisseur ou un État, il faut suivre où restent ingénierie et propriété intellectuelle, mais aussi où se construit l'installed base et où arrivent les revenus logiciels.
+
+RobCo ne démontre aucun transfert de propriété intellectuelle hors d'Allemagne.
+
+Son expansion américaine pose néanmoins une question concrète: quel territoire captera la prochaine couche de valeur si la robotique devient un service logiciel adossé à des machines?
+
+LI!GHT WORKFORCE ©
+
+Alfie vise des tâches physiques encore difficiles à automatiser.
+
+Si ses capacités se confirment, le travail humain pourra se déplacer vers supervision, intégration, contrôle qualité et gestion des exceptions.
+
+Aucune donnée publiée ne permet encore de conclure à une réduction nette d'effectifs chez les clients.
+
+Le KPI utile: heures humaines par unité produite, taux d'intervention, disponibilité réelle et coût complet.
+
+MERCURIO
+
+La puissance industrielle d'un territoire se mesure aussi à l'endroit où ses meilleures entreprises décident de grandir.
+
+Sources 
+
+Reuters, Toby Sterling, 5 octobre 2026
+International Federation of Robotics, World Robotics 2026, 24 septembre
+RobCo, documentation RobFlow 8 et Interfaces
+RobCo, Alfie, 2026
+
+#VOCEAssociation #Robotique #PhysicalAI #Industrie #Europe</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7514233394118086656">Linkedin</source></item><item><title>Votre agent peut rester en ligne après avoir changé de cerveau</title><link>https://voce.life/archive/2026/10/09/votre-agent-peut-rester-en-ligne-apres-avoir-change-de-cerveau-7514218280249810944</link><guid isPermaLink="true">https://voce.life/archive/2026/10/09/votre-agent-peut-rester-en-ligne-apres-avoir-change-de-cerveau-7514218280249810944</guid><pubDate>Fri, 09 Oct 2026 09:00:52 +0200</pubDate><author>VOCE Association</author><description>Votre agent peut rester en ligne après avoir changé de cerveau
+
+29 septembre 2026.
+
+Une mise en production chez OpenAI génère un trafic interne excessif. ChatGPT, Codex et plusieurs API, dont l'Agents API, connaissent des erreurs.
+
+Cette panne se voit.
+
+Le risque plus difficile commence lorsque tout reste vert.
+
+Une entreprise achète un agent. Le contrat garantit disponibilité et sécurité. Mais son fournisseur peut dépendre d'un modèle, d'un cloud, d'API et d'outils qu'il ne contrôle pas entièrement.
+
+Le même jour, Mayer Brown alerte sur ce risque: le fournisseur d'un agent peut ne pas posséder le modèle qui détermine son comportement.
+
+Un modèle amont peut être remplacé ou rerouté. L'API répond. L'agent reste disponible.
+
+Son jugement peut pourtant changer.
+
+Prenons un agent de réclamations. Il lit le dossier, vérifie le compte, accorde ou refuse un geste commercial puis met à jour le CRM.
+
+Une modification du modèle peut déplacer son seuil d'escalade, sa lecture d'une exception ou sa propension à rembourser.
+
+Aucune panne.
+
+Le service n'est pourtant plus exactement celui qui avait été validé.
+
+Pour une banque, un assureur ou une administration, la chaîne fournisseur devient aussi une chaîne de décision.
+
+ULTRA®
+
+Un SLA classique mesure disponibilité, latence et reprise.
+
+Un agent critique exige une deuxième couche: un SLA comportemental.
+
+À chaque exécution, l'entreprise devrait pouvoir enregistrer modèle appelé, fournisseur, version des outils, permissions, routeur et politique d'orchestration.
+
+Un changement significatif peut alors déclencher des évaluations sur des cas métiers réels: taux d'escalade, faux positifs, montants accordés, hallucinations, appels d'outils et violations de règles.
+
+Si ces métriques dérivent, la configuration doit pouvoir être bloquée, comparée à une version approuvée ou basculée vers une alternative testée.
+
+Les contrats doivent couvrir notification des changements amont, substitution de modèle, portabilité, preuves d'évaluation et sortie.
+
+Un service peut rester disponible tout en cessant d'être comportementalement équivalent.
+
+LI!GHT WORKFORCE ©
+
+Les plateformes agentiques concentrent dans une même dépendance des tâches auparavant réparties entre plusieurs équipes.
+
+Une modification amont peut alors toucher service client, finance, achats ou support.
+
+La cartographie fournisseurs devient celle de la main-d'œuvre numérique: quel agent travaille, avec quel modèle, quels outils, quelles permissions et quel acteur peut modifier son comportement?
+
+WOTAN
+
+Une organisation devient vulnérable lorsqu'elle connaît le fournisseur de son agent, mais pas ceux qui peuvent encore changer son jugement.
+
+Sources 2026
+
+OpenAI Status, incident du 29 septembre 2026
+Mayer Brown, "Agentic AI Supply Risk: When the Supplier Does Not Own the Model", 29 septembre 2026
+Microsoft Security, "Securing AI agents: When AI tools move from reading to acting", 30 juin 2026
+
+#VOCEAssociation #AIGovernance #AISupplyChain #ThirdPartyRisk #AgenticAI</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7514218280249810944">Linkedin</source></item><item><title>Myélome asymptomatique: le teclistamab obtient 77,8% de réponses complètes avant les symptômes</title><link>https://voce.life/archive/2026/10/09/myelome-asymptomatique-le-teclistamab-obtient-77-8-de-reponses-completes-7514203155379953664</link><guid isPermaLink="true">https://voce.life/archive/2026/10/09/myelome-asymptomatique-le-teclistamab-obtient-77-8-de-reponses-completes-7514203155379953664</guid><pubDate>Fri, 09 Oct 2026 08:00:50 +0200</pubDate><author>VOCE Association</author><description>Myélome asymptomatique: le teclistamab obtient 77,8% de réponses complètes avant les symptômes
+
+Boston.
+
+Dans le myélome multiple asymptomatique à haut risque, la moelle contient déjà des plasmocytes tumoraux alors que douleurs osseuses, atteinte rénale ou autres critères de maladie active peuvent manquer.
+
+Intervenir tôt signifie traiter avant les dégâts.
+
+En septembre 2026, Nature Medicine publie ImmunoPRISM, essai randomisé de phase II mené par Omar Nadeem, Irene Ghobrial et leurs collègues.
+
+Teclistamab rapproche BCMA sur le plasmocyte tumoral et CD3 sur le lymphocyte T.
+
+Le système immunitaire reçoit alors une cible.
+
+45 patients ont reçu le teclistamab, dont six lors de la phase initiale de sécurité. 14 ont reçu lénalidomide-dexaméthasone.
+
+Parmi les 45 patients exposés, 35 ont obtenu une réponse complète ou meilleure: 77,8%.
+
+La maladie résiduelle minimale était indétectable à 10⁻⁵ chez 82,2%.
+
+À deux ans, la survie sans progression estimée atteignait 92%, contre 49% dans le groupe comparateur.
+
+Le suivi médian reste de 24,5 mois. L'effectif est faible. Aucune amélioration de survie globale ni guérison n'est démontrée.
+
+La toxicité rappelle le prix de l'interception précoce.
+
+Un syndrome de libération des cytokines est survenu chez 71,1% des patients, uniquement de grade 1 ou 2. Les infections de grade 3 concernaient 20%, contre 21% sous lénalidomide-dexaméthasone. Aucun décès n'a été observé.
+
+Le résultat déplace le moment thérapeutique.
+
+L'immunothérapie cherche ici à réduire profondément la maladie avant qu'elle n'endommage l'os, le rein ou le sang.
+
+ULTRA®
+
+Le détail le plus étrange est soluble.
+
+BCMA existe à la surface des plasmocytes, mais circule aussi dans le sang. Cette forme soluble peut intercepter une partie d'un anticorps dirigé contre BCMA.
+
+Chez 25 patients évalués, les concentrations initiales étaient significativement plus faibles chez ceux obtenant les réponses les plus profondes.
+
+Chez un patient résistant, une plasmaphérèse a même été tentée pour réduire cette BCMA circulante. Sans bénéfice clinique.
+
+Le biomarqueur pourrait donc participer à la pharmacologie du traitement qu'il sert à orienter.
+
+La prochaine étape sera décisive: mesurer la durée des réponses après arrêt et identifier les patients dont le risque justifie cette intervention avant symptômes.
+
+GURNEMANZ
+
+La médecine change lorsqu'elle apprend à distinguer le temps où attendre protège du temps où attendre laisse la maladie construire ses dégâts.
+
+Sources 
+
+Nature Medicine, Nadeem O. et al., 11 septembre 2026
+Dana-Farber Cancer Institute, ImmunoPRISM, NCT05469893
+FDA, daratumumab, myélome asymptomatique à haut risque, 6 novembre 2025
+FDA, teclistamab, indications autorisées, 5 mars 2026
+
+#VOCEAssociation #MyelomeMultiple #Teclistamab #Hematologie #Oncologie</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7514203155379953664">Linkedin</source></item><item><title>Une campagne IA peut coûter un million sans acheter l'exclusivité attendue</title><link>https://voce.life/archive/2026/10/09/une-campagne-ia-peut-couter-un-million-sans-acheter-l-exclusivite-attend-7514188082343157760</link><guid isPermaLink="true">https://voce.life/archive/2026/10/09/une-campagne-ia-peut-couter-un-million-sans-acheter-l-exclusivite-attend-7514188082343157760</guid><pubDate>Fri, 09 Oct 2026 07:00:53 +0200</pubDate><author>VOCE Association</author><description>Une campagne IA peut coûter un million sans acheter l'exclusivité attendue
+
+Une maison commande une campagne mondiale.
+
+Images, films, vitrines numériques, déclinaisons locales.
+
+Le contrat prévoit une "cession exclusive de tous les droits".
+
+La facture atteint sept chiffres.
+
+Mais quels droits existaient réellement?
+
+Aux États-Unis, le Copyright Office a précisé en 2025 qu'un output génératif peut être protégé si l'humain a déterminé suffisamment d'éléments expressifs. Les prompts, même nombreux, ne suffisent pas automatiquement.
+
+En mars 2025, la Cour d'appel du District of Columbia confirme dans Thaler que le Copyright Act exige un auteur humain.
+
+Une clause de cession ne crée donc pas un copyright inexistant.
+
+OpenAI prévoit qu'entre OpenAI et son client, et dans la mesure permise par la loi, le client possède l'output. D'autres utilisateurs peuvent toutefois recevoir des résultats similaires.
+
+Adobe propose une indemnisation IP pour certaines fonctions Firefly éligibles.
+
+Pour une marque, acheter le fichier final ne suffit plus.
+
+Il faut pouvoir reconstruire sa naissance: modèle, inputs, licences, transformations humaines et validations.
+
+L'actif stratégique devient aussi son dossier de provenance.
+
+ULTRA®
+
+Une chaîne de droits IA devrait distinguer inputs, protectabilité de l'output, chaîne contractuelle et couverture du risque.
+
+L'article 53 de l'AI Act impose aux fournisseurs de modèles d'IA à usage général une politique de respect du droit d'auteur et un résumé des contenus d'entraînement.
+
+Cette transparence ne donne pas à la marque un titre exclusif sur chaque image générée.
+
+Pour les campagnes majeures, journaux de génération, versions de modèle, fichiers sources, choix humains et validations devraient entrer dans le "chain of title".
+
+Le risque juridique se déplace vers la preuve de création.
+
+LI!GHT WORKFORCE ©
+
+Les agents créatifs compliquent cette preuve.
+
+Adobe déploie en 2026 des agents capables d'orchestrer des workflows entre Firefly, Photoshop, Illustrator, Premiere et InDesign. GenStudio automatise aussi une partie du passage du brief aux actifs, à la revue puis à la livraison.
+
+Moins d'interventions humaines explicites peuvent laisser moins de traces sur les choix expressifs réellement humains.
+
+Le juridique doit donc gouverner le workflow: validations humaines, modèles, provenance des assets et historique des décisions.
+
+L'agent peut produire mille variantes.
+
+L'exclusivité dépendra parfois de la capacité à prouver pourquoi l'une d'elles est protégeable.
+
+CELLINI
+
+Demain, la signature la plus précieuse pourrait être la trace de celui qui a réellement choisi.
+
+Sources
+
+U.S. Copyright Office, "Copyright and Artificial Intelligence, Part 2", 29 janvier 2025
+U.S. Court of Appeals, Thaler v. Perlmutter, 18 mars 2025
+Règlement (UE) 2024/1689, article 53
+OpenAI, Services Agreement
+Adobe, Firefly IP Indemnification; Firefly AI Assistant; GenStudio, 2026
+
+#VOCEAssociation #AIGovernance #Copyright #GenerativeAI #LegalTech</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7514188082343157760">Linkedin</source></item><item><title>OPÉRA VOCE - SpaceX e Apollo: l'IA entre sur le marché des souverains</title><link>https://voce.life/archive/2026/10/09/opera-voce-spacex-e-apollo-l-ia-entre-sur-le-marche-des-souverains-7514172952297320448</link><guid isPermaLink="true">https://voce.life/archive/2026/10/09/opera-voce-spacex-e-apollo-l-ia-entre-sur-le-marche-des-souverains-7514172952297320448</guid><pubDate>Fri, 09 Oct 2026 06:00:45 +0200</pubDate><author>VOCE Association</author><description>OPÉRA VOCE - SpaceX e Apollo: l'IA entre sur le marché des souverains
+
+ATTO I
+
+8 octobre 2026.
+
+SpaceX cherche environ 40 milliards de dollars pour acheter des puces NVIDIA.
+
+Environ 30 milliards prendraient la forme de dette investment grade, 10 milliards de prêts bancaires. Apollo doit piloter l'opération.
+
+En juin, SpaceX avait déjà levé 86 milliards en Bourse puis émis 25 milliards d'obligations.
+
+Cette fois, le crédit réagit.
+
+Le CDS à cinq ans atteint environ 194 points de base, contre 110 en juin. Le spread de ses obligations 2056 sur les Treasuries monte à 236 points.
+
+Ce n'est pas une prédiction de défaut.
+
+C'est un prix du risque.
+
+ATTO II
+
+Morgan Stanley estime qu'environ 3.000 milliards de dollars de data centers et de matériel devront être financés d'ici 2028.
+
+Les cash-flows des hyperscalers pourraient en couvrir la moitié.
+
+Reste près de 1.500 milliards à trouver auprès des banques, marchés obligataires et fonds privés.
+
+Ce capital arrive sur les mêmes marchés où les États financent déficits, défense, énergie et vieillissement.
+
+Chaque émission doit offrir un rendement capable d'attirer les mêmes assureurs, fonds et investisseurs institutionnels.
+
+Le compute entre dans la compétition mondiale pour le capital.
+
+ATTO III
+
+Le problème tient aussi au temps.
+
+Une autoroute peut produire des flux pendant trente ans.
+
+Un GPU appartient à un cycle technologique beaucoup plus court.
+
+La qualité du crédit dépend donc de la capacité de l'actif à générer suffisamment de cash avant son obsolescence économique.
+
+Pour un CIO ou un fonds privé, l'IA descend jusqu'au capital stack: equity, prêts, obligations, private credit et contrats commerciaux.
+
+Le risque IA entre dans les portefeuilles par le crédit.
+
+ULTRA®
+
+Une dette IA relie deux horloges.
+
+La dette peut courir vingt ans.
+
+Le hardware peut perdre son avantage en quelques générations.
+
+Le stress test doit rapprocher maturités, cash-flow, utilisation du compute, électricité, renouvellement des accélérateurs et dépendance fournisseur.
+
+À cette échelle, une infrastructure privée peut venir solliciter le même capital long terme que les souverains.
+
+FINALE
+
+Alberich croit que posséder l'or suffit à posséder la puissance.
+
+Les marchés savent qu'il faut encore financer la forge.
+
+Quand le compute se paie à crédit, l'intelligence artificielle devient une structure de bilan.
+
+ALBERICH
+
+La puissance appartient aussi à celui qui peut financer la prochaine génération de machines.
+
+Sources 
+
+Reuters, octobre 2026
+Financial Times, 8 octobre 2026
+Morgan Stanley, AI Infrastructure Financing, 2025-2026
+
+#VOCEAssociation #SpaceX #NVIDIA #CreditMarkets #AIInfrastructure</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7514172952297320448">Linkedin</source></item><item><title>50/50 ne suffit pas: le biais peut être dans le dataset avant d'être dans l'algorithme</title><link>https://voce.life/archive/2026/10/09/50-50-ne-suffit-pas-le-biais-peut-etre-dans-le-dataset-avant-d-etre-dans-7514157844376621056</link><guid isPermaLink="true">https://voce.life/archive/2026/10/09/50-50-ne-suffit-pas-le-biais-peut-etre-dans-le-dataset-avant-d-etre-dans-7514157844376621056</guid><pubDate>Fri, 09 Oct 2026 05:00:45 +0200</pubDate><author>VOCE Association</author><description>50/50 ne suffit pas: le biais peut être dans le dataset avant d'être dans l'algorithme
+
+Une étude publiée le 13 mai 2026 dans npj Digital Medicine teste dix algorithmes sur trois jeux de données médicaux: capteurs portables, risque cardiaque et AVC.
+
+Pour chacun, les chercheurs imposent trois répartitions femmes-hommes: 50/50, 90/10 et 10/90.
+
+Puis ils mesurent l'écart de précision entre les sexes.
+
+Dans la décomposition de variance, l'identité du dataset explique 63,4% de la variation. Le choix de l'algorithme: 9,7%. Le scénario d'échantillonnage: 0,2%.
+
+L'interaction dataset-algorithme ajoute 17,2%.
+
+Le même modèle peut donc sembler presque équitable dans un domaine et défavoriser nettement un groupe dans un autre.
+
+Même le 50/50 réduit certains écarts sans les supprimer.
+
+Un dataset contient davantage qu'une proportion: qualité du signal, variables disponibles, pratiques cliniques, labels historiques, erreurs et corrélations locales continuent de structurer ce que le modèle apprend.
+
+L'étude reste limitée à trois datasets et à une variable binaire de sexe. Ces pourcentages ne sont pas des constantes universelles.
+
+Le message de gouvernance, lui, est net: équilibrer les lignes ne démontre pas l'équité du système.
+
+Pour une banque, un assureur ou un recruteur, l'analogie est directe. Supprimer une variable sensible n'efface pas les proxys capables de la reconstruire indirectement.
+
+ULTRA®
+
+L'audit doit descendre au comportement réel du modèle.
+
+Faux positifs, faux négatifs, AUROC, PR-AUC et calibration doivent être stratifiés par sous-groupes, puis retestés par site, période et contexte.
+
+La métrique elle-même change le diagnostic. Pour les écarts de PR-AUC, l'algorithme n'explique plus que 1,9% de la variance, tandis que le scénario d'échantillonnage monte à 32%.
+
+L'article 10 de l'AI Act impose, pour les systèmes à haut risque concernés, des jeux de données pertinents, suffisamment représentatifs, dotés de propriétés statistiques appropriées et examinés pour les biais susceptibles d'affecter les droits fondamentaux ou de produire une discrimination.
+
+Un ratio 50/50 ne suffit donc pas à établir la conformité.
+
+LI!GHT WORKFORCE ©
+
+Dans une architecture agentique, le biais peut quitter le score pour devenir une action.
+
+Un agent peut classer, demander une pièce, déclencher une investigation ou décider quels dossiers arrivent jusqu'à l'humain.
+
+L'audit doit alors couvrir modèle, outils, orchestration, mémoire, seuils d'escalade, permissions et historique des décisions.
+
+Moins d'intermédiaires humains signifie aussi moins d'occasions de voir une anomalie avant qu'elle ne devienne opérationnelle.
+
+PORTIA
+
+L'égalité des proportions ne garantit jamais l'égalité des conséquences.
+
+Sources 2026
+
+Elgendi M. et al., npj Digital Medicine, 13 mai 2026
+Règlement (UE) 2024/1689, article 10
+
+#VOCEAssociation #AIGovernance #AlgorithmicFairness #ResponsibleAI #AIAct</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7514157844376621056">Linkedin</source></item><item><title>Le risque souverain français commence aussi dans une salle de classe</title><link>https://voce.life/archive/2026/10/08/le-risque-souverain-francais-commence-aussi-dans-une-salle-de-classe-7514052150705176576</link><guid isPermaLink="true">https://voce.life/archive/2026/10/08/le-risque-souverain-francais-commence-aussi-dans-une-salle-de-classe-7514052150705176576</guid><pubDate>Thu, 08 Oct 2026 22:00:46 +0200</pubDate><author>VOCE Association</author><description>Le risque souverain français commence aussi dans une salle de classe
+
+Une crise de dette peut commencer vingt ans avant que le spread ne bouge.
+
+En France, 19,8% des hommes de 18 à 24 ans ne sont ni en emploi, ni en études, ni en formation.
+
+Chez les femmes: 16%.
+
+L'écart est encore plus net dans l'éducation: 61% des jeunes femmes de cet âge étudient encore, contre 48% des hommes.
+
+Treize points.
+
+Pendant longtemps, un jeune homme peu adapté aux filières académiques disposait de portes d'entrée vers le statut adulte: industrie, maintenance, logistique, chantier, métiers techniques.
+
+Ces voies n'ont pas disparu. Mais l'économie française exige davantage de qualifications et les débuts de carrière deviennent plus difficiles.
+
+L'IA ajoute une pression nouvelle. L'OCDE ne conclut pas qu'elle explique aujourd'hui la dégradation de l'emploi des jeunes. Le FMI constate toutefois que les emplois d'entrée sont parmi les plus exposés à l'automatisation.
+
+Le sujet devient souverain lorsqu'une cohorte reste durablement en dehors de l'emploi et de la formation.
+
+Moins de revenus. Moins de cotisations. Davantage de dépenses sociales. Une croissance potentielle plus faible.
+
+Puis vient la variable que les modèles budgétaires mesurent mal: la capacité politique à corriger la trajectoire.
+
+En octobre 2026, le rendement français à dix ans a dépassé 5% et le spread avec l'Allemagne 150 points de base, sur fond de déficit élevé et de fragmentation politique.
+
+Le FMI relève déjà qu'en France cette fragmentation ralentit l'ajustement budgétaire prévu.
+
+Il observe aussi, à l'échelle internationale, qu'une hausse de l'agitation sociale est associée à une croissance plus faible et à un déficit primaire plus élevé.
+
+Le capital humain finit donc par rencontrer le prix de la dette.
+
+ULTRA®
+
+Un analyste souverain suit dette, déficit, croissance, intérêts et crédibilité institutionnelle.
+
+Il devrait aussi regarder la profondeur des portes d'entrée économiques offertes à une génération.
+
+Un taux NEET élevé ne provoque pas mécaniquement une crise souveraine.
+
+Il peut cependant éroder simultanément base fiscale, croissance potentielle et capacité d'acceptation des ajustements futurs.
+
+Pour un État très endetté, cette troisième variable est stratégique.
+
+Un plan budgétaire vaut autant par ses chiffres que par la probabilité politique de pouvoir l'exécuter.
+
+C'est ici que 19,8% de jeunes hommes hors emploi et hors formation cessent d'être seulement une statistique sociale.
+
+Ils deviennent une variable de résilience nationale.
+
+RIGOLETTO
+
+Une dette devient dangereuse lorsque ceux qui devront la porter cessent de voir une place pour eux dans l'économie qui l'a créée.
+
+Sources
+
+OCDE, Regards sur l'éducation 2026
+OCDE, Perspectives de l'emploi 2026
+FMI, Fiscal Monitor, avril 2026
+FMI, Article IV France, 2026
+Reuters, marchés obligataires européens, octobre 2026
+
+#VOCEAssociation #CapitalHumain #RisqueSouverain #France #Emploi #JeunesHommes</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7514052150705176576">Linkedin</source></item><item><title>Le corps invisible du couple</title><link>https://voce.life/archive/2026/10/08/le-corps-invisible-du-couple-7514037091811344385</link><guid isPermaLink="true">https://voce.life/archive/2026/10/08/le-corps-invisible-du-couple-7514037091811344385</guid><pubDate>Thu, 08 Oct 2026 21:01:00 +0200</pubDate><author>VOCE Association</author><description>Le corps invisible du couple
+
+Une dispute commence.
+
+L'un des deux prend son téléphone, ouvre Instagram, écrit à un ami ou regarde une vidéo.
+
+Le téléphone vient d'entrer dans la régulation émotionnelle du couple.
+
+Le 1er octobre 2026, Katherine Hertlein publie dans Contemporary Family Therapy un modèle consacré à cette fonction.
+
+Le smartphone peut réduire l'anxiété, fournir une distraction, chercher ailleurs une validation ou modifier momentanément un état émotionnel.
+
+La littérature appelle "technoference" les interruptions technologiques qui traversent les interactions proches.
+
+En août 2026, une revue systématique synthétise 55 études, soit 29.925 participants.
+
+L'usage du téléphone en présence du partenaire est régulièrement associé à une satisfaction relationnelle plus faible.
+
+Une étude de Brandon McDaniel contourne une partie du problème.
+
+247 adultes sont suivis pendant huit jours avec mesure objective du smartphone.
+
+En moyenne, le téléphone est utilisé pendant 27% du temps passé avec le partenaire. 86% des participants l'utilisent chaque jour au moins une fois en sa présence.
+
+Son usage pendant le temps partagé prédit mieux certains indicateurs relationnels que l'usage quotidien total, surtout chez les femmes de cet échantillon.
+
+Le téléphone permet surtout quelque chose de nouveau: rester physiquement auprès de l'autre tout en déplaçant instantanément attention et réassurance vers un système extérieur.
+
+Le couple n'est plus seul dans la pièce.
+
+ULTRA®
+
+Pour la clinique, le concept intéressant est celui de corégulation.
+
+Dans une relation proche, l'état émotionnel dépend en partie de la disponibilité perçue de l'autre, de sa réponse et du sentiment d'être compris.
+
+Hertlein propose que les technologies numériques puissent entrer dans cette boucle.
+
+Une notification de dix secondes n'a pas la même fonction qu'un téléphone mobilisé systématiquement au moment d'un conflit, d'un silence ou d'une vulnérabilité.
+
+Compter les heures d'écran renseigne donc peu sur son rôle précis.
+
+Il faut aussi savoir quand il apparaît, ce qu'il permet d'éviter, ce qu'il remplace et ce que le partenaire perçoit.
+
+Une attention fragmentée peut aussi modifier la perception d'être compris, validé ou soutenu.
+
+Nous ne savons pas encore si l'usage répété du smartphone comme échappatoire consolide durablement une stratégie d'évitement relationnel.
+
+Mais la question clinique devient beaucoup plus précise:
+
+"À quoi votre téléphone vous sert-il exactement lorsque l'autre est là?"
+
+MIMÌ
+
+Un couple peut supporter le silence. Il devient plus difficile de savoir ce qu'il signifie lorsqu'un système extérieur le remplit immédiatement.
+
+Sources
+
+Hertlein, Contemporary Family Therapy, 1er octobre 2026
+Frackowiak et al., Computers in Human Behavior Reports, août 2026
+McDaniel et al., Human Behavior and Emerging Technologies, 2025
+
+#VOCEASSOCIATION #Couple #Technoference #Neuropsychologie #RelationsHumaines</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7514037091811344385">Linkedin</source></item><item><title>Les Illyres n'habitaient pas aux marges de l'Europe</title><link>https://voce.life/archive/2026/10/08/les-illyres-n-habitaient-pas-aux-marges-de-l-europe-7514021962025857024</link><guid isPermaLink="true">https://voce.life/archive/2026/10/08/les-illyres-n-habitaient-pas-aux-marges-de-l-europe-7514021962025857024</guid><pubDate>Thu, 08 Oct 2026 20:00:47 +0200</pubDate><author>VOCE Association</author><description>Les Illyres n'habitaient pas aux marges de l'Europe
+
+Un casque de bronze retrouvé en Albanie raconte autre chose qu'une bataille.
+
+En avril 2026, des chercheurs analysent par fluorescence X les 27 casques dits illyriens conservés dans les collections albanaises.
+
+Malgré des provenances différentes, les alliages sont remarquablement homogènes: 89 à 95% de cuivre, avec peu d'étain. Les auteurs y voient une tradition métallurgique standardisée et l'hypothèse d'une production concentrée dans quelques ateliers, notamment autour d'Epidamnos et d'Apollonia.
+
+Quelques casques sortent du groupe. Ils pourraient refléter d'autres minerais, d'autres ateliers ou du métal recyclé.
+
+Un objet militaire devient une trace d'organisation industrielle.
+
+À Kopila, sur l'île de Korčula, dix années de fouilles racontent un autre réseau. Métal, verre et céramiques de provenances diverses montrent qu'une communauté insulaire de l'âge du Fer participait activement aux échanges adriatiques.
+
+À Bushat, dans le nord de l'Albanie, une ville de près de 20 hectares était enfermée derrière des murs de 3,50 mètres d'épaisseur.
+
+L'une des portes obligeait l'arrivant à longer la fortification avant d'entrer, sous le contrôle d'une tour.
+
+Amphores, vaisselle à vernis noir et monnaie macédonienne replacent cette ville dans les circuits hellénistiques des IVe-IIIe siècles avant notre ère.
+
+Le mot "Illyres" recouvre des communautés différentes, parfois rivales
+
+Les traces matérielles dessinent pourtant un espace organisé autour d'ateliers, de ports, de fortifications et de routes.
+
+Lorsque Rome avance dans la région, elle rencontre un territoire structuré.
+
+ULTRA®
+
+La nouveauté vient aussi des instruments.
+
+La fluorescence X révèle la composition d'un alliage sans détruire l'objet. L'analyse isotopique du plomb rapproche un métal de régions minières possibles. À Risan et Riječani, au Monténégro, elle indique plusieurs sources, compatibles surtout avec le sud des Balkans.
+
+Ces méthodes changent la géographie historique.
+
+Une frontière peut disparaître des textes et rester lisible dans un mur. Un réseau commercial peut survivre dans une amphore. Une organisation productive peut réapparaître dans des traces d'antimoine ou d'arsenic.
+
+Pour les musées et les institutions patrimoniales, la collection devient alors une base de données matérielle sur les économies anciennes.
+
+ULISSE
+
+Une civilisation paraît périphérique surtout lorsque l'histoire a été écrite depuis un autre centre.
+
+Sources 
+
+Heritage, Çakaj O. et al., "Between Warfare and Craftsmanship: In Situ XRF Analysis of Illyrian Helmets from Across Albania", 16 avril 2026
+
+Živa Antika, Borzić I., "Between War and Peace: Illyrian Communities on the Island of Korčula in Protohistoric Times", 2025
+
+Antiquity, Lemke M. et al., "Bushat, not lost but found", 2021
+
+Journal of Archaeological Science: Reports, Kałaska M. et al., étude isotopique de Risan et Riječani, 2025
+
+#VOCEAssociation #Illyriens #Archéologie #Adriatique #Europe</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7514021962025857024">Linkedin</source></item><item><title>Laromestrocel: 63,4 mètres d'écart après une seule perfusion chez des personnes âgées fragiles</title><link>https://voce.life/archive/2026/10/08/laromestrocel-63-4-metres-d-ecart-apres-une-seule-perfusion-chez-des-per-7514006911101620224</link><guid isPermaLink="true">https://voce.life/archive/2026/10/08/laromestrocel-63-4-metres-d-ecart-apres-une-seule-perfusion-chez-des-per-7514006911101620224</guid><pubDate>Thu, 08 Oct 2026 19:00:56 +0200</pubDate><author>VOCE Association</author><description>Laromestrocel: 63,4 mètres d'écart après une seule perfusion chez des personnes âgées fragiles
 
 Miami.
 
