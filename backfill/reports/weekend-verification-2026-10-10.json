@@ -1,0 +1,188 @@
+{
+  "schema": "voce.weekend-verification.v1",
+  "checked_at": "2026-10-10T14:47:23.721274+00:00",
+  "scope": "Read-only operational status and desktop visitor assessment; progress journal only.",
+  "repository_head_observed": "e8d1f0103073d50896dcccf59d17e1cc56344a9f",
+  "nightly": {
+    "checked_at": "2026-10-09T21:37:24.572Z",
+    "dates": [
+      "2026-10-06",
+      "2026-10-07",
+      "2026-10-08",
+      "2026-10-09"
+    ],
+    "raw_rows": 58,
+    "unique_linkedin_ids": 58,
+    "unique_decoded_texts": 58,
+    "newly_archived": 9,
+    "corpus_items": 1591,
+    "unique_canonical_texts": 1591,
+    "alternate_ids_reimported": 0,
+    "canonical_routes": 1591,
+    "redirects": 2,
+    "source_commit": "852082faaffae0686a7753ed2e90c0cac92ff6d8",
+    "corpus_commit": "79561c0e93d1ff9bb6c88f5a6c8b288673b39a4a",
+    "workflow_run_id": 37994097432,
+    "workflow_job_id": 114035546779,
+    "article_verification": {
+      "url": "https://voce.life/archive/2026/10/09/robco-vaut-un-milliard-son-prochain-cycle-de-croissance-se-construit-aux-7514233394118086656",
+      "source_linkedin_id": "urn:li:ugcPost:7514233394118086656",
+      "title": "RobCo vaut un milliard. Son prochain cycle de croissance se construit aux États-Unis",
+      "article_body_length": 2961,
+      "article_body_fnv1a_js_utf16": "672d9f5a",
+      "exact_source_match": true,
+      "canonical_self_reference": true,
+      "same_as_linkedin": true,
+      "ultra_present": true,
+      "sources_present": true,
+      "og_image": "https://voce.life/voce-og.jpg"
+    },
+    "guide_verification": {
+      "query": "RobCo vaut un milliard. Son prochain cycle de croissance se construit aux États-Unis",
+      "top_document_url": "https://voce.life/archive/2026/10/09/robco-vaut-un-milliard-son-prochain-cycle-de-croissance-se-construit-aux-7514233394118086656",
+      "exact_title_found": true
+    },
+    "discovery": {
+      "sitemap_unique_urls": 2333,
+      "sample_in_sitemap": true,
+      "rss_items": 1591,
+      "sample_in_rss": true,
+      "vault_absent_from_sitemap_rss_llms": true,
+      "indexnow_http_status": 200,
+      "indexnow_received_urls": 61,
+      "indexing_claimed": false
+    },
+    "r2": {
+      "status": "ok",
+      "synced_at": "2026-10-09T21:36:50.952Z",
+      "source_snapshot_complete": true,
+      "backup_complete": true,
+      "corpus_items": 1591,
+      "article_routes": 1591,
+      "derived_backup_complete": true,
+      "derived_cursor": 40,
+      "total_derived_objects": 1695,
+      "derived_article_pages_synced": 1591,
+      "interpretation": "Source snapshot and all derived article HTML pages complete."
+    },
+    "source_texts_modified": false,
+    "design_modified": false
+  },
+  "public_checks": [
+    {
+      "name": "academy",
+      "url": "https://voce.life/archive",
+      "status": "200",
+      "visible_count": [
+        "1591",
+        "1591",
+        "1591",
+        "1591"
+      ]
+    },
+    {
+      "name": "corpus",
+      "url": "https://voce.life/data/corpus.json",
+      "status": "200",
+      "items": 1591,
+      "unique_ids": 1591,
+      "unique_texts": 1591,
+      "unique_canonicals": 1591,
+      "generated_at": "2026-10-09T21:32:55.578578+00:00"
+    },
+    {
+      "name": "r2",
+      "url": "https://voce.life/.well-known/voce-corpus-backup",
+      "status": "200",
+      "manifest": {
+        "status": "ok",
+        "owner": "VOCE Association",
+        "bucket": "voce-sovereign-corpus",
+        "private": true,
+        "synced_at": "2026-10-10T14:46:28.246Z",
+        "article_routes": 1591,
+        "corpus_items": 1591,
+        "article_routes_synced": 1591,
+        "source_snapshot_complete": true,
+        "backup_cursor": 1320,
+        "backup_batch_size": 40,
+        "backup_complete": true,
+        "last_complete_sync_at": "2026-10-10T14:46:28.246Z",
+        "total_objects_target": 1706,
+        "objects_synced": 1706,
+        "derived_backup_complete": true,
+        "derived_cursor": 1320,
+        "total_derived_objects": 1695,
+        "derived_objects_synced": 1695,
+        "derived_article_pages_synced": 1591,
+        "source_objects_touched_in_last_sync": 11,
+        "derived_objects_touched_in_last_sync": 40,
+        "changed_in_last_sync": 0
+      }
+    },
+    {
+      "name": "sitemap",
+      "url": "https://voce.life/sitemap.xml",
+      "status": "200",
+      "urls": 2333,
+      "unique_urls": 2333
+    },
+    {
+      "name": "governance",
+      "url": "https://voce.life/fr/governance",
+      "status": "200",
+      "assurance_links": [
+        "/fr/agent-infrastructure",
+        "/fr/agent-conformance",
+        "/fr/argos",
+        "/fr/human-cognitive-assurance"
+      ],
+      "has_authorship_metadata": true
+    }
+  ],
+  "governance": {
+    "latest_substantive_framework_revision": "2026-10-05",
+    "metadata_navigation_revision": "2026-10-08",
+    "agent_conformance_controls": 48,
+    "human_cognitive_assurance_controls": 24,
+    "applied_solutions": 26,
+    "applied_evidence_entries": 46,
+    "comparison": {
+      "date": "2026-10-07",
+      "applied_solutions": 26,
+      "applied_evidence_entries": 38
+    },
+    "recent_editorial_topics": [
+      "Dataset bias before algorithmic processing",
+      "Rights and exclusivity in AI campaigns",
+      "An agent remaining deployed while its underlying model changes"
+    ],
+    "interpretation": "The supporting corpus and practical evidence grew; no new framework controls were established by this check."
+  },
+  "visitor_assessment": {
+    "browser_run_id": "f5e69270-741d-4ba1-b4e3-78ae7d3e182a",
+    "desktop": true,
+    "mobile_tested": false,
+    "pages": [
+      "https://voce.life/",
+      "https://voce.life/fr/governance"
+    ],
+    "observed": [
+      "Academy, Atlas, Applied and Guide are visible in the main navigation.",
+      "The homepage presents four research pathways with working Explore links.",
+      "French Governance exposes the four assurance frameworks in its body navigation.",
+      "No obvious broken menus or desktop layout elements were observed."
+    ],
+    "opinion": "Clear, restrained institutional presentation suited to expert readers. The homepage gives limited visibility to the practical uses of the assurance frameworks.",
+    "recommendation": "Clarify practical uses within the existing Governance homepage introduction, preserving the design; no change applied.",
+    "provider_report_correction": "The provider's claim that no cross-reference exists is inconsistent with the observed Explore link and is not adopted."
+  },
+  "limits": {
+    "historical_backfill_complete_confirmed": false,
+    "full_google_bing_indexing_confirmed": false,
+    "google_search_console_last_observed_at": "2026-10-09T13:25:44.280Z",
+    "future_scheduled_run_success_guaranteed": false
+  },
+  "source_texts_modified": false,
+  "site_design_modified": false
+}

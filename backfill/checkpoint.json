@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-09T21:37:55.756Z",
+  "updated_at": "2026-10-10T14:51:39.278Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1577,6 +1577,48 @@
       },
       "source_texts_modified": false,
       "design_modified": false
+    },
+    "weekend_verification_2026_10_10": {
+      "checked_at": "2026-10-10T14:47:23.721274+00:00",
+      "report": "backfill/reports/weekend-verification-2026-10-10.json",
+      "corpus_items": 1591,
+      "newly_archived_previous_night": 9,
+      "unique_ids": 1591,
+      "unique_texts": 1591,
+      "unique_canonical_urls": 1591,
+      "academy_counter_matches": true,
+      "sitemap_unique_urls": 2333,
+      "r2": {
+        "status": "ok",
+        "owner": "VOCE Association",
+        "bucket": "voce-sovereign-corpus",
+        "private": true,
+        "synced_at": "2026-10-10T14:46:28.246Z",
+        "article_routes": 1591,
+        "corpus_items": 1591,
+        "article_routes_synced": 1591,
+        "source_snapshot_complete": true,
+        "backup_cursor": 1320,
+        "backup_batch_size": 40,
+        "backup_complete": true,
+        "last_complete_sync_at": "2026-10-10T14:46:28.246Z",
+        "total_objects_target": 1706,
+        "objects_synced": 1706,
+        "derived_backup_complete": true,
+        "derived_cursor": 1320,
+        "total_derived_objects": 1695,
+        "derived_objects_synced": 1695,
+        "derived_article_pages_synced": 1591,
+        "source_objects_touched_in_last_sync": 11,
+        "derived_objects_touched_in_last_sync": 40,
+        "changed_in_last_sync": 0
+      },
+      "applied_evidence_entries": 46,
+      "applied_solutions": 26,
+      "site_design_modified": false,
+      "source_texts_modified": false,
+      "indexing_claimed": false,
+      "mobile_tested": false
     }
   }
 }
