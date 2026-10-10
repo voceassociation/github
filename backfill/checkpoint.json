@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-10T21:38:03.600Z",
+  "updated_at": "2026-10-10T21:39:25.867Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1064,16 +1064,16 @@
         "linkedin:7510307538911862784": "linkedin:7510307518246559744"
       },
       "unique_texts": 1591,
-      "regression": "Current reconciliation and validation passed: every full text unique and no alternate_publications identifier present as an article.",
+      "regression": "Current public corpus validation passed: 1591 unique ids, 1591 unique decoded full texts, 1591 unique canonical URLs, and no alternate_publications identifier present as an article.",
       "deployment": "verified_publicly",
       "live_checks": {
-        "visible_count": 1534,
+        "visible_count": 1591,
         "alias_redirect_verified": true,
         "jsonld_sameAs_preserves_both_linkedin_urls": true,
         "og_image": "https://voce.life/voce-og.jpg",
         "twitter_card": "summary_large_image"
       },
-      "last_verified_at": "2026-10-09T21:37:24.572Z",
+      "last_verified_at": "2026-10-10T21:39:25.867Z",
       "alternate_ids_reimported": 0,
       "canonical_routes": 1591,
       "redirects": 2
@@ -1729,7 +1729,19 @@
         "sitemap_urls": 2333,
         "vault_absent_from_rss_and_sitemap": true
       },
-      "research_registry_verified_unchanged": true
+      "research_registry_verified_unchanged": true,
+      "integrity_validation": {
+        "checked_at": "2026-10-10T21:39:25.867Z",
+        "corpus_items": 1591,
+        "unique_ids": 1591,
+        "unique_decoded_texts": 1591,
+        "duplicate_text_groups": 0,
+        "unique_canonical_urls": 1591,
+        "alternate_publication_ids": 2,
+        "alternate_ids_reimported": 0,
+        "article_route_records": 1593,
+        "vault_in_public_corpus": false
+      }
     }
   }
 }
