@@ -1,0 +1,104 @@
+{
+  "schema": "voce.metricool.linkedin.retrieval-attempt.v1",
+  "retrieved_at": "2026-10-10T21:37:22.082Z",
+  "source": "Metricool LinkedIn connector",
+  "brand_id": "7090850",
+  "metrics": [
+    "LIPO02",
+    "LIPO04",
+    "LIPO06",
+    "LIPO08"
+  ],
+  "timezone": "Europe/Podgorica",
+  "purpose": "Nightly current-day plus prior-three-day text and metadata retrieval; no video download.",
+  "daily_requests": [
+    {
+      "date": "2026-10-07",
+      "from": "2026-10-07T00:00:00+02:00",
+      "to": "2026-10-07T23:59:59+02:00",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"rows\":[]}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "from": "2026-10-08T00:00:00+02:00",
+      "to": "2026-10-08T23:59:59+02:00",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"rows\":[]}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "from": "2026-10-09T00:00:00+02:00",
+      "to": "2026-10-09T23:59:59+02:00",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"rows\":[]}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "from": "2026-10-10T00:00:00+02:00",
+      "to": "2026-10-10T23:59:59+02:00",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"rows\":[]}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  ],
+  "aggregate_request": {
+    "from": "2026-10-07T00:00:00+02:00",
+    "to": "2026-10-10T23:59:59+02:00",
+    "response": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"rows\":[]}"
+        }
+      ],
+      "isError": false
+    }
+  },
+  "available_metrics_check": {
+    "content": [
+      {
+        "type": "text",
+        "text": "[{\"fieldId\":\"LIPO01\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":1,\"metricName\":\"created\",\"metricLabel\":\"LinkedIn Posts > Date\",\"description\":\"Date of the publication\",\"dataAggregation\":\"\"},{\"fieldId\":\"LIPO02\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":2,\"metricName\":\"created\",\"metricLabel\":\"LinkedIn Posts > Date with Time\",\"description\":\"Date and time of the publication\",\"dataAggregation\":\"\"},{\"fieldId\":\"LIPO03\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":3,\"metricName\":\"title\",\"metricLabel\":\"LinkedIn Posts > Title\",\"description\":\"Title of the post\",\"dataAggregation\":\"\"},{\"fieldId\":\"LIPO04\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":4,\"metricName\":\"comment\",\"metricLabel\":\"LinkedIn Posts > Comment\",\"description\":\"Text of the post\",\"dataAggregation\":\"\"},{\"fieldId\":\"LIPO05\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":5,\"metricName\":\"description\",\"metricLabel\":\"LinkedIn Posts > Description\",\"description\":\"Description of link if the post contains a link. \",\"dataAggregation\":\"\"},{\"fieldId\":\"LIPO06\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":6,\"metricName\":\"postId:LIPO08\",\"metricLabel\":\"LinkedIn Posts > Post Id\",\"description\":\"Id of the post\",\"dataAggregation\":\"\"},{\"fieldId\":\"LIPO07\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":7,\"metricName\":\"picture:LIPO08\",\"metricLabel\":\"LinkedIn Posts > Picture\",\"description\":\"Image of the post\",\"dataAggregation\":\"\"},{\"fieldId\":\"LIPO08\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":8,\"metricName\":\"url\",\"metricLabel\":\"LinkedIn Posts > Url\",\"description\":\"Url of the post\",\"dataAggregation\":\"\"},{\"fieldId\":\"LIPO09\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":9,\"metricName\":\"clicks\",\"metricLabel\":\"LinkedIn Posts > Clicks\",\"description\":\"Number of clicks on the stories\",\"dataAggregation\":\"SUM\"},{\"fieldId\":\"LIPO10\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":10,\"metricName\":\"comments\",\"metricLabel\":\"LinkedIn Posts > Comments\",\"description\":\"Number of comments received by post\",\"dataAggregation\":\"SUM\"},{\"fieldId\":\"LIPO12\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":12,\"metricName\":\"impressions\",\"metricLabel\":\"LinkedIn Posts > Impressions\",\"description\":\"Number of times that the posts have been displayed.\",\"dataAggregation\":\"SUM\"},{\"fieldId\":\"LIPO13\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":13,\"metricName\":\"likes\",\"metricLabel\":\"LinkedIn Posts > Reactions\",\"description\":\"Number of reactions received by post.\",\"dataAggregation\":\"SUM\"},{\"fieldId\":\"LIPO14\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":14,\"metricName\":\"timeWatched\",\"metricLabel\":\"LinkedIn Posts > Time Watched\",\"description\":\"Total time that videos have been watched.\",\"dataAggregation\":\"SUM\"},{\"fieldId\":\"LIPO15\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":15,\"metricName\":\"timeWatchedForVideoViews\",\"metricLabel\":\"LinkedIn Posts > Time Watched for Video Views\",\"description\":\"Total time per view of the videos \",\"dataAggregation\":\"SUM\"},{\"fieldId\":\"LIPO16\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":16,\"metricName\":\"videoViews\",\"metricLabel\":\"LinkedIn Posts > Video Views\",\"description\":\"Number of times a video was watched\",\"dataAggregation\":\"SUM\"},{\"fieldId\":\"LIPO17\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":17,\"metricName\":\"viewers\",\"metricLabel\":\"LinkedIn Posts > Viewers\",\"description\":\"Number of viewers of a video\",\"dataAggregation\":\"SUM\"},{\"fieldId\":\"LIPO18\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":18,\"metricName\":\"shares\",\"metricLabel\":\"LinkedIn Posts > Shares\",\"description\":\"Number of times your post was shared\",\"dataAggregation\":\"SUM\"},{\"fieldId\":\"LIPO19\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":19,\"metricName\":\"type\",\"metricLabel\":\"LinkedIn Posts > Type\",\"description\":\"Post type\",\"dataAggregation\":\"\"},{\"fieldId\":\"LIPO20\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":20,\"metricName\":\"uniqueImpressions\",\"metricLabel\":\"LinkedIn Posts > Unique Impressions\",\"description\":\"Unique Impressions (Applies only to personal accounts)\",\"dataAggregation\":\"\"},{\"fieldId\":\"LIPO21\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":21,\"metricName\":\"likeReactions\",\"metricLabel\":\"LinkedIn Posts > Like Reactions\",\"description\":\"Number of like reactions received by post.\",\"dataAggregation\":\"SUM\"},{\"fieldId\":\"LIPO22\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":22,\"metricName\":\"entertainmentReactions\",\"metricLabel\":\"LinkedIn Posts > Entertainment reactions\",\"description\":\"Number of entertainment reactions received by post.\",\"dataAggregation\":\"SUM\"},{\"fieldId\":\"LIPO23\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":23,\"metricName\":\"interestReactions\",\"metricLabel\":\"LinkedIn Posts > Interest reactions\",\"description\":\"Number of interest reactions received by post.\",\"dataAggregation\":\"SUM\"},{\"fieldId\":\"LIPO24\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":24,\"metricName\":\"praiseReactions\",\"metricLabel\":\"LinkedIn Posts > Praise reactions\",\"description\":\"Number of praise reactions received by post.\",\"dataAggregation\":\"SUM\"},{\"fieldId\":\"LIPO25\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":25,\"metricName\":\"empathyReactions\",\"metricLabel\":\"LinkedIn Posts > Empathy reactions\",\"description\":\"Number of empathy reactions received by post.\",\"dataAggregation\":\"SUM\"},{\"fieldId\":\"LIPO26\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":26,\"metricName\":\"appreciationReactions\",\"metricLabel\":\"LinkedIn Posts > Appreciationreactions\",\"description\":\"Number of appreciation reactions received by post.\",\"dataAggregation\":\"SUM\"},{\"fieldId\":\"LIPO9999\",\"network\":\"linkedin\",\"connector\":\"posts\",\"index\":11,\"metricName\":\"postsEngagement\",\"metricLabel\":\"LinkedIn Posts > Engagement\",\"description\":\"Engagement of posts. Number of Interactions per X impressions, this value being the engagement ratio configured in the brand\",\"dataAggregation\":\"AVG\"}]"
+      }
+    ],
+    "isError": false
+  },
+  "assessment": {
+    "all_daily_rows_empty": true,
+    "aggregate_rows_empty": true,
+    "metrics_still_available": true,
+    "known_prior_dates_also_empty": true,
+    "interpretation": "Connector retrieval failure or lag; empty responses are not evidence that no LinkedIn posts exist.",
+    "ingestion_performed": false,
+    "facebook_suspended": true,
+    "videos_downloaded": false
+  }
+}
