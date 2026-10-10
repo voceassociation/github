@@ -1,6 +1,6 @@
 {
   "schema": "voce.landing-improvement.v1",
-  "updated_at": "2026-10-10T15:01:31.692Z",
+  "updated_at": "2026-10-10T15:07:05.972Z",
   "source_head": "beb0ff354b4902aca47782090656ac8a9ec76d01",
   "changes": [
     "Clearer introductory and research pathway copy in EN/FR/IT.",
@@ -21,7 +21,14 @@
     "existing_guide_script_modified": false,
     "existing_style_file_modified": false,
     "canonical_preserved": "https://voce.life/",
-    "corpus_or_article_changes": false
+    "corpus_or_article_changes": false,
+    "post_deploy": {
+      "corpus_items": 1591,
+      "academy_counter_matches": true,
+      "r2_source_snapshot_complete": true,
+      "r2_derived_backup_complete": true,
+      "r2_synced_at": "2026-10-10T15:02:58.000Z"
+    }
   },
   "google": {
     "checked_at": "2026-10-10T14:59:59.372Z",
@@ -51,10 +58,38 @@
     ],
     "limits": "Canonical and crawl timestamps were not explicitly displayed. Self-canonical selection cannot be inferred from indexed status.",
     "legacy_invalid_sitemap_entries_present": true,
-    "settings_changed": false
+    "settings_changed": false,
+    "updated_landing_revision_recrawled_confirmed": false
   },
   "deployment": {
-    "status": "awaiting_live_verification"
+    "status": "verified_live",
+    "site": "https://voce.life/",
+    "implementation_commit": "311f2ca9f69e599b7c10b3d48383e7f1c9a59dab",
+    "cloudflare_build_uuid": "edfa3eec-3363-4fd7-9675-64215cfa8cc0",
+    "build_outcome": "success",
+    "completed_at": "2026-10-10T15:02:33.129Z",
+    "worker_injections_preserved": true
   },
-  "mobile_visual_verification": false
+  "mobile_visual_verification": false,
+  "browser_verification": {
+    "run_id": "3b1d4302-eba1-461d-9861-7e265b9f3ecc",
+    "status": "completed",
+    "desktop_layout": "No obvious breakage or clipped text observed.",
+    "hero_anchor_navigation": "verified",
+    "assurance_cards_visible_below_header": true,
+    "languages_verified": [
+      "en",
+      "fr",
+      "it"
+    ],
+    "french_conformance_page_opened": true,
+    "guide": {
+      "query": "permissions des agents",
+      "language": "fr",
+      "answer_rendered": true,
+      "cited_documents_rendered": 6
+    },
+    "mobile_tested": false,
+    "provider_layout_description_correction": "Provider says four-column card grid; implementation reuses the existing two-column guide-pathways grid. Column count is not adopted as a verified observation."
+  }
 }

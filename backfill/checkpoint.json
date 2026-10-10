@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-10T15:01:31.692Z",
+  "updated_at": "2026-10-10T15:07:05.972Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1369,35 +1369,27 @@
       "run_status": "completed",
       "completed_at": "2026-10-07T10:11:56.972Z",
       "google_sitemap_last_read": "2026-10-07",
-      "latest_checked_at": "2026-10-09T13:25:44.280Z",
+      "latest_checked_at": "2026-10-10T14:59:59.372Z",
       "google_sitemap_latest_observation": {
-        "checked_at": "2026-10-09T13:25:44.280Z",
-        "run_id": "4f073cf2-f984-4c4d-a2ae-770d20f15087",
-        "run_url": "https://agent.tinyfish.ai/runs/4f073cf2-f984-4c4d-a2ae-770d20f15087",
+        "checked_at": "2026-10-10T14:59:59.372Z",
+        "run_id": "8df8dc6c-e60b-480a-8ce1-322d5d091dbe",
         "read_only": true,
         "authenticated_access_confirmed": true,
-        "user_confirmed_profile_saved": true,
         "profile_id": "prof_236917ff0f01402f",
         "property": "sc-domain:voce.life",
-        "console_url": "https://search.google.com/search-console/sitemaps?resource_id=sc-domain:voce.life",
         "sitemap_url": "https://voce.life/sitemap.xml",
         "status": "success",
-        "status_text": "Success",
-        "type": "Sitemap",
         "last_read": "2026-10-07",
-        "submitted_date": "2026-10-07",
         "discovered_pages": 2287,
-        "discovered_videos": 0,
-        "processing_success_confirmed": true,
+        "public_sitemap_current_distinct_urls": 2333,
         "resubmitted": false,
-        "public_sitemap_current_distinct_urls": 2323,
-        "evidence_limit": "Successful authenticated read of the sitemap report; Google still shows its October 7 read and 2287 discovered pages. This does not establish current discovery or indexing of all 2323 public URLs."
+        "processing_success_confirmed": true,
+        "evidence_limit": "Google shows its October 7 read with 2287 discovered URLs. Home and French Governance are indexed; full current discovery or indexing and recrawling of the updated landing are not confirmed."
       },
       "latest_refresh_attempt": {
-        "checked_at": "2026-10-09T13:25:44.280Z",
+        "checked_at": "2026-10-10T14:59:59.372Z",
         "status": "authenticated_observation_success",
-        "run_id": "4f073cf2-f984-4c4d-a2ae-770d20f15087",
-        "run_url": "https://agent.tinyfish.ai/runs/4f073cf2-f984-4c4d-a2ae-770d20f15087"
+        "run_id": "8df8dc6c-e60b-480a-8ce1-322d5d091dbe"
       },
       "previous_refresh_attempt": {
         "checked_at": "2026-10-09T13:14:26.732Z",
@@ -1406,7 +1398,8 @@
         "run_url": "https://agent.tinyfish.ai/runs/13311238-c011-432f-8aa9-dae0a9a58bc2",
         "reason": "Unable to access Google Search Console sitemaps page for sc-domain:voce.life. Repeated attempts resulted in ERR_TUNNEL_CONNECTION_FAILED or empty pages with no content loaded. No sign-in wall/CAPTCHA was observed, but the connection could not be established. Unable to read the non-www https://voce.life/sitemap.xml row status, type, last read date, or discovered page count.",
         "followup": "Preserve last confirmed Google observation; recheck during normal nightly follow-up without resubmission."
-      }
+      },
+      "current_full_corpus_indexing_confirmed": false
     },
     "nightly_backfill_morning_verification_2026_10_08": {
       "checked_at": "2026-10-08T08:33:49.540Z",
@@ -1622,10 +1615,19 @@
     },
     "landing_improvements_2026_10_10": {
       "report": "backfill/reports/landing-improvements-2026-10-10.json",
-      "updated_at": "2026-10-10T15:01:31.692Z",
+      "updated_at": "2026-10-10T15:07:05.972Z",
       "changed_site_files": [
         "index.html"
       ],
+      "deployment": {
+        "status": "verified_live",
+        "site": "https://voce.life/",
+        "implementation_commit": "311f2ca9f69e599b7c10b3d48383e7f1c9a59dab",
+        "cloudflare_build_uuid": "edfa3eec-3363-4fd7-9675-64215cfa8cc0",
+        "build_outcome": "success",
+        "completed_at": "2026-10-10T15:02:33.129Z",
+        "worker_injections_preserved": true
+      },
       "google": {
         "checked_at": "2026-10-10T14:59:59.372Z",
         "run_id": "8df8dc6c-e60b-480a-8ce1-322d5d091dbe",
@@ -1654,10 +1656,33 @@
         ],
         "limits": "Canonical and crawl timestamps were not explicitly displayed. Self-canonical selection cannot be inferred from indexed status.",
         "legacy_invalid_sitemap_entries_present": true,
-        "settings_changed": false
+        "settings_changed": false,
+        "updated_landing_revision_recrawled_confirmed": false
       },
-      "deployment": "awaiting_live_verification",
-      "source_texts_modified": false
+      "browser_verification": {
+        "run_id": "3b1d4302-eba1-461d-9861-7e265b9f3ecc",
+        "status": "completed",
+        "desktop_layout": "No obvious breakage or clipped text observed.",
+        "hero_anchor_navigation": "verified",
+        "assurance_cards_visible_below_header": true,
+        "languages_verified": [
+          "en",
+          "fr",
+          "it"
+        ],
+        "french_conformance_page_opened": true,
+        "guide": {
+          "query": "permissions des agents",
+          "language": "fr",
+          "answer_rendered": true,
+          "cited_documents_rendered": 6
+        },
+        "mobile_tested": false,
+        "provider_layout_description_correction": "Provider says four-column card grid; implementation reuses the existing two-column guide-pathways grid. Column count is not adopted as a verified observation."
+      },
+      "source_texts_modified": false,
+      "existing_site_stylesheet_modified": false,
+      "academy_guide_script_modified": false
     }
   }
 }
