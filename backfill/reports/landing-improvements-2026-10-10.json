@@ -1,0 +1,60 @@
+{
+  "schema": "voce.landing-improvement.v1",
+  "updated_at": "2026-10-10T15:01:31.692Z",
+  "source_head": "beb0ff354b4902aca47782090656ac8a9ec76d01",
+  "changes": [
+    "Clearer introductory and research pathway copy in EN/FR/IT.",
+    "Two immediate entry points from the hero to corpus search and agent assurance.",
+    "Four directly linked assurance frameworks described by practical use, with existing card styling.",
+    "Direct Applied entry for documented systems.",
+    "Language-aware framework destination links; unknown or unavailable language storage falls back safely.",
+    "Working keyboard skip link and anchor offset for sticky header."
+  ],
+  "validation": {
+    "inline_javascript_syntax": "passed",
+    "json_ld_parse": "passed",
+    "localization_and_routes_en_fr_it": "passed",
+    "invalid_or_blocked_storage": "passed",
+    "html_anchors_and_form_structure": "passed",
+    "new_destination_http_checks": 15,
+    "all_new_destinations_http_200": true,
+    "existing_guide_script_modified": false,
+    "existing_style_file_modified": false,
+    "canonical_preserved": "https://voce.life/",
+    "corpus_or_article_changes": false
+  },
+  "google": {
+    "checked_at": "2026-10-10T14:59:59.372Z",
+    "run_id": "8df8dc6c-e60b-480a-8ce1-322d5d091dbe",
+    "status": "completed",
+    "authenticated": true,
+    "property": "sc-domain:voce.life",
+    "sitemap": {
+      "url": "https://voce.life/sitemap.xml",
+      "status": "Success",
+      "last_read": "2026-10-07",
+      "discovered_urls": 2287
+    },
+    "inspected": [
+      {
+        "url": "https://voce.life/",
+        "status": "Page is indexed",
+        "google_selected_canonical": null,
+        "last_crawl": null
+      },
+      {
+        "url": "https://voce.life/fr/governance",
+        "status": "Page is indexed",
+        "google_selected_canonical": null,
+        "last_crawl": null
+      }
+    ],
+    "limits": "Canonical and crawl timestamps were not explicitly displayed. Self-canonical selection cannot be inferred from indexed status.",
+    "legacy_invalid_sitemap_entries_present": true,
+    "settings_changed": false
+  },
+  "deployment": {
+    "status": "awaiting_live_verification"
+  },
+  "mobile_visual_verification": false
+}
