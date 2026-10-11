@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-10T21:39:25.867Z",
+  "updated_at": "2026-10-11T21:35:22.037050+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -898,12 +898,6 @@
     "2026-10-09": {
       "status": "rows_returned",
       "rows": 6
-    },
-    "2026-10-10": {
-      "status": "connector_empty_not_proof_of_absence",
-      "rows": 0,
-      "checked_at": "2026-10-10T21:38:03.600Z",
-      "raw_attempt": "backfill/raw/attempts/metricool-linkedin-2026-10-10T2135Z-empty.json"
     }
   },
   "retrieved_unique_publications": 1593,
@@ -913,7 +907,6 @@
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
   "resume": [
-    "Retry Metricool LinkedIn posts for 2026-10-07 through 2026-10-10; the 2026-10-10 run returned empty known-date windows and is not proof of absence.",
     "Obtain authenticated LinkedIn history for dates with no connector rows.",
     "Compare connector text against LinkedIn originals and review conflicts without overwriting.",
     "Verify Adobe provenance with exact publication/asset evidence.",
@@ -1015,7 +1008,7 @@
         "archive/2026-10-08.html",
         "archive/2026-10-09.html"
       ],
-      "completed_at": "2026-10-10T21:37:32.647516+00:00"
+      "completed_at": "2026-10-11T21:35:22.472819+00:00"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",
