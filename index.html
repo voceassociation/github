@@ -18,6 +18,7 @@
 <meta name="twitter:description" content="VOCE analyses AI, work, digital environments, health, culture and human behaviour through research, expert practice and comparative observation.">
 <meta name="theme-color" content="#fbfaf6">
 <link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/visual-guides.css?v=20261011">
 <style>#guide,#assurance{scroll-margin-top:100px}</style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"VOCE Association","alternateName":"VOCE","url":"https://voce.life/","email":"contact@voce.life","address":{"@type":"PostalAddress","streetAddress":"94 rue Montmartre","postalCode":"75002","addressLocality":"Paris","addressCountry":"FR"},"sameAs":["https://fr.linkedin.com/in/voce-association-0030763b6"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"VOCE","url":"https://voce.life/"}</script>
@@ -63,6 +64,7 @@
       <div class="eyebrow">VOCE Guide</div>
       <h2 class="display" data-t="guideTitle">Find the VOCE document you need.</h2>
       <p class="lead" data-t="guideLead">Ask a question in your own words. The Guide searches the VOCE corpus and links its answer to the supporting documents. You can also enter through a research pathway below.</p>
+      <p class="voce-visual-entry"><a class="voce-visual-open" href="#home-guide-query" data-voce-diagram="guide" data-t="visualGuide">Understand with a diagram</a></p>
       <div class="guide-pathways" aria-label="VOCE Guide pathways">
         <a href="/art" class="guide-pathway" data-guide-query data-guide-query-en="Show me VOCE Art, provenance and cultural access." data-guide-query-fr="Montre-moi VOCE Art, la provenance et les accès culturels." data-guide-query-it="Mostrami VOCE Art, la provenienza e gli accessi culturali."><span>01</span><strong>Art</strong><small data-t="guideArt">Works, provenance and cultural access.</small></a>
         <a href="/archive" class="guide-pathway" data-guide-query data-guide-query-en="Show me VOCE Academy courses, corpus and archives." data-guide-query-fr="Montre-moi les cours, le corpus et les archives de VOCE Academy." data-guide-query-it="Mostrami i corsi, il corpus e gli archivi di VOCE Academy."><span>02</span><strong>Academy</strong><small data-t="guideAcademy">Courses, corpus and archives.</small></a>
@@ -216,7 +218,7 @@
     </div>
     <div class="footer-nav">
       <div><h4 data-t="footerInstitution">Institution</h4><a href="/about" data-t="navAbout">About</a><a href="/standards" data-t="footerStandards">Governance & Standards</a><a href="/contact" data-t="footerContact">Contact</a></div>
-      <div><h4 data-t="footerWork">Work</h4><a href="/research" data-t="navResearch">Research</a><a href="/archive">VOCE Academy</a><a href="/governance" data-t="footerAI">AI Governance</a><a href="/publications" data-t="navPublications">Publications</a></div>
+      <div><h4 data-t="footerWork">Work</h4><a href="/research" data-t="navResearch">Research</a><a href="/archive">VOCE Academy</a><a href="/governance" data-t="footerAI">AI Governance</a><a href="/visual-guides" data-home-route="visual-guides" data-t="visualLibrary">Visual guides</a><a href="/publications" data-t="navPublications">Publications</a></div>
       <div><h4>VOCE</h4><a href="/sovereignty" data-t="footerSovereignty">Sovereignty</a><a href="/light-workforce">Light workforce</a><a href="/technoference">Technoference</a></div>
     </div>
   </div>
@@ -224,6 +226,7 @@
 <script>
 const C={
 en:{
+visualGuide:"Understand with a diagram",visualLibrary:"Visual guides",
 navThemes:"Themes",navResearch:"Research",navStandards:"Standards",navPublications:"Publications",navAbout:"About",footerInstitution:"Institution",footerStandards:"Governance & Standards",footerContact:"Contact",footerWork:"Work",footerAI:"AI Governance",footerSovereignty:"Sovereignty",footerLegal:"Legal",footerPrivacy:"Privacy",
 tagline:"Research. Culture. Intelligence.",status:"Independent French non-profit association",
 guideTitle:"Find the VOCE document you need.",guideLead:"Ask a question in your own words. The Guide searches the VOCE corpus and links its answer to the supporting documents. You can also enter through a research pathway below.",guideArt:"Works, provenance and cultural access.",guideAcademy:"Courses, corpus and archives.",guideGovernance:"AI Governance",guideGovernanceDesc:"Agent permissions, evaluation and human responsibility.",guideTechno:"Attention, cognition and digital environments.",guideLabel:"Ask VOCE",guideButton:"Ask VOCE",guideNote:"Answers are grounded in the VOCE corpus and linked to the documents that support them.",guidePlaceholder:"What are you looking for?",
@@ -258,6 +261,7 @@ appliedLink:"See documented systems in Applied",
 skipContent:"Skip to content"
 },
 fr:{
+visualGuide:"Comprendre en schéma",visualLibrary:"VOCE en schémas",
 navThemes:"Thèmes",navResearch:"Recherche",navStandards:"Normes",navPublications:"Publications",navAbout:"À propos",footerInstitution:"Institution",footerStandards:"Gouvernance & standards",footerContact:"Contact",footerWork:"Travaux",footerAI:"Gouvernance de l’IA",footerSovereignty:"Souveraineté",footerLegal:"Mentions légales",footerPrivacy:"Confidentialité",
 tagline:"Recherche. Culture. Intelligence.",status:"Association française indépendante à but non lucratif",
 guideTitle:"Trouvez le document VOCE dont vous avez besoin.",guideLead:"Posez une question avec vos mots. Le Guide recherche dans le corpus VOCE et relie sa réponse aux documents qui la soutiennent. Vous pouvez aussi entrer par un parcours de recherche ci-dessous.",guideArt:"Œuvres, provenance et accès culturel.",guideAcademy:"Cours, corpus et archives.",guideGovernance:"Gouvernance de l’IA",guideGovernanceDesc:"Permissions des agents, évaluation et responsabilité humaine.",guideTechno:"Attention, cognition et environnements numériques.",guideLabel:"Interroger VOCE",guideButton:"Interroger",guideNote:"Les réponses sont ancrées dans le corpus VOCE et reliées aux documents qui les soutiennent.",guidePlaceholder:"Que recherchez-vous ?",
@@ -292,6 +296,7 @@ appliedLink:"Voir les systèmes documentés dans Applied",
 skipContent:"Aller au contenu"
 },
 it:{
+visualGuide:"Capire con uno schema",visualLibrary:"VOCE in schemi",
 navThemes:"Temi",navResearch:"Ricerca",navStandards:"Standard",navPublications:"Pubblicazioni",navAbout:"Chi siamo",footerInstitution:"Istituzione",footerStandards:"Governance & standard",footerContact:"Contatti",footerWork:"Lavoro",footerAI:"Governance dell’IA",footerSovereignty:"Sovranità",footerLegal:"Note legali",footerPrivacy:"Privacy",
 tagline:"Ricerca. Cultura. Intelligenza.",status:"Associazione francese indipendente senza scopo di lucro",
 guideTitle:"Trova il documento VOCE di cui hai bisogno.",guideLead:"Fai una domanda con parole tue. La Guida cerca nel corpus VOCE e collega la risposta ai documenti che la sostengono. Puoi anche entrare attraverso un percorso di ricerca qui sotto.",guideArt:"Opere, provenienza e accesso culturale.",guideAcademy:"Corsi, corpus e archivi.",guideGovernance:"Governance dell’IA",guideGovernanceDesc:"Permessi degli agenti, valutazione e responsabilità umana.",guideTechno:"Attenzione, cognizione e ambienti digitali.",guideLabel:"Interroga VOCE",guideButton:"Interroga",guideNote:"Le risposte sono fondate sul corpus VOCE e collegate ai documenti che le sostengono.",guidePlaceholder:"Che cosa stai cercando?",
@@ -340,5 +345,6 @@ let preferredLang="en"; try{preferredLang=localStorage.getItem("voce-lang")||"en
 setLang(preferredLang);
 </script>
 <script src="/academy-agent.js" defer></script>
+<script src="/visual-guides.js?v=20261011" defer></script>
 </body>
 </html>
