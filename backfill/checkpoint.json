@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-11T21:36:37.251Z",
+  "updated_at": "2026-10-11T21:36:49.386Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1806,7 +1806,15 @@
         "corpus_items": 1591,
         "derived_article_pages_synced": 1591
       },
-      "research_registry_verified_unchanged": true
+      "research_registry_verified_unchanged": true,
+      "automation": {
+        "id": "6abb72f5e1108191961956e6e3738fea",
+        "title": "VOCE archivage LinkedIn du soir",
+        "enabled": false,
+        "disabled_at": "2026-10-11T21:36:49.386Z",
+        "reason": "Core LinkedIn retrieval is fully blocked: Metricool brand 7090850 exposes no LinkedIn connection and returned empty known-date windows for two consecutive nights.",
+        "resume_condition": "Reconnect VOCE Association LinkedIn inside Metricool brand 7090850, verify a non-empty known-date read, then re-enable the automation."
+      }
     }
   }
 }
