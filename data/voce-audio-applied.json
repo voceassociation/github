@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "section": "applied",
+  "voice": "Paul – Soothing",
+  "audios": {
+    "fr": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=b3860980-fd90-4648-bba5-9cf8b45b475f.wav",
+      "transcript": "Votché Applied accompagne l'analyse de systèmes complexes dans les entreprises, les musées et les fondations. Le point de départ est un problème documenté, pas une liste de fournisseurs. La méthode réunit les expertises nécessaires, précise les responsabilités et compare les architectures avant d'envisager la mise en œuvre. Cette page explique comment ouvrir un échange institutionnel.",
+      "duration": 22.3
+    },
+    "en": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=623aef71-65c4-456f-bc8d-d41df19306cf.wav",
+      "transcript": "Votché Applied examines complex systems inside enterprises, museums and foundations. Work begins with a documented problem, not a supplier catalogue. The approach brings relevant expertise together, clarifies decision rights and compares possible architectures before considering execution. This page explains when an institutional conversation may be appropriate.",
+      "duration": 29
+    },
+    "it": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=0d45b4a4-7fb6-4d1e-b1e8-caa379bf166c.wav",
+      "transcript": "Voce Applied esamina sistemi complessi nelle imprese, nei musei e nelle fondazioni. Il punto di partenza è un problema documentato, non un catalogo di fornitori. Il metodo riunisce le competenze necessarie, chiarisce le responsabilità e confronta le possibili architetture prima dell'esecuzione. Questa pagina spiega come avviare un dialogo istituzionale.",
+      "duration": 30.8
+    }
+  }
+}
