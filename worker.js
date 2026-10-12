@@ -48,7 +48,9 @@ function hex(buffer) {
   return [...new Uint8Array(buffer)].map(b => b.toString(16).padStart(2, "0")).join("");
 }
 
-const VOCE_PRIVACY_DEFAULT_SCRIPT = `<script>(function(){function deny(){try{if(window.zaraz&&zaraz.consent&&zaraz.consent.APIReady){zaraz.consent.setAll(false);zaraz.consent.modal=false;return true}}catch(e){}return false}function fallback(){var b=document.getElementById("cf_consent-buttons__reject-all");if(b){b.click();return true}var d=document.querySelector("dialog.cf_modal");if(d&&d.open){try{d.close()}catch(e){}return true}return false}if(!deny()){document.addEventListener("zarazConsentAPIReady",function(){deny();fallback()},{once:true})}var o=new MutationObserver(function(){if(deny()||fallback()){o.disconnect()}});o.observe(document.documentElement,{childList:true,subtree:true});setTimeout(function(){deny();fallback();o.disconnect()},30000)})();<\/script>`;
+// Consent preferences are now managed by Cloudflare Zaraz CMP.
+// Never silently reject or force-enable analytics on behalf of a visitor.
+const VOCE_PRIVACY_CONTROLS = '<script src="/voce-consent.js" defer><\\/script>';
 
 // VOCE Audio: authorized HeyGen stock voice, rehosted privately in R2 on first request.
 // VOCE is an Italian name, pronounced 'VOTCHÉ' in all languages.
@@ -193,6 +195,13 @@ function injectPrivacyDefault(response) {
         element.before('<a class="voce-guide-nav" href="/#guide">Guide</a>', { html: true });
       }
     })
+    .on(".footer-right", {
+      element(element) {
+        element.onEndTag(endTag => {
+          endTag.before('<div class="voce-consent-footer"><a href="/privacy" data-voce-cookie-settings>Cookie preferences</a></div>', {html:true});
+        });
+      }
+    })
     .on("head", {
       element(element) {
         element.onEndTag(endTag => {
@@ -203,7 +212,7 @@ function injectPrivacyDefault(response) {
           if (!hasTwitterDescription && ogDescription) {
             pageSpecific += `\n<meta name="twitter:description" content="${escapeHtml(ogDescription)}">`;
           }
-          endTag.before(VOCE_PRIVACY_DEFAULT_SCRIPT + VOCE_SOCIAL_META + VOCE_AUDIO_ASSETS + pageSpecific, { html: true });
+          endTag.before(VOCE_PRIVACY_CONTROLS + VOCE_SOCIAL_META + VOCE_AUDIO_ASSETS + pageSpecific, { html: true });
         });
       }
     })
