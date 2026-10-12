@@ -1085,3 +1085,9 @@ html[lang="it"] .atlas-panel:before{content:"Vista documentale mobile"}
   .atlas-index-section{padding-top:52px}
   .atlas-index-grid{grid-template-columns:1fr}
 }
+
+/* VOCE privacy preferences: unobtrusive and keyboard accessible */
+.voce-consent-footer{margin-top:7px}
+.voce-consent-footer a{font-size:.66rem;color:var(--muted);text-decoration:underline;text-underline-offset:3px}
+.voce-consent-footer a:hover{color:var(--forest)}
+.voce-consent-footer a:focus-visible{outline:2px solid var(--forest);outline-offset:4px}
