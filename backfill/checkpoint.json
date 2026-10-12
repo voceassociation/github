@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T11:26:06.697385+00:00",
+  "updated_at": "2026-10-12T11:34:37.047085+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1571,6 +1571,15 @@
       "source": "historical_connector_and_authenticated_linkedin_browser",
       "coverage_complete": false
     },
+    "2026-10-11": {
+      "status": "rows_returned",
+      "rows": 1,
+      "source_packets": [
+        "backfill/raw/2026-10-11.json"
+      ],
+      "source": "authenticated_linkedin_browser",
+      "coverage_complete": false
+    },
     "2026-10-12": {
       "status": "rows_returned",
       "rows": 8,
@@ -1581,9 +1590,9 @@
       "coverage_complete": false
     }
   },
-  "retrieved_unique_publications": 1602,
-  "newly_archived": 3,
-  "academy_corpus_items": 1600,
+  "retrieved_unique_publications": 1603,
+  "newly_archived": 1,
+  "academy_corpus_items": 1601,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
@@ -1673,23 +1682,23 @@
     },
     "current_publication_ingest": {
       "dates": [
-        "2026-10-07",
         "2026-10-08",
         "2026-10-09",
+        "2026-10-11",
         "2026-10-12"
       ],
       "verified_source": "Metricool LinkedIn connector, brand 7090850",
-      "items_processed": 49,
-      "corpus_items_after": 1600,
+      "items_processed": 34,
+      "corpus_items_after": 1601,
       "classification": "A editorial/archive",
-      "static_pages_verified_for_generation": 49,
+      "static_pages_verified_for_generation": 34,
       "daily_archives": [
-        "archive/2026-10-07.html",
         "archive/2026-10-08.html",
         "archive/2026-10-09.html",
+        "archive/2026-10-11.html",
         "archive/2026-10-12.html"
       ],
-      "completed_at": "2026-10-12T11:26:07.064298+00:00"
+      "completed_at": "2026-10-12T11:34:37.488704+00:00"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",
