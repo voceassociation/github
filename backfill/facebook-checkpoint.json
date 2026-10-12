@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "checked_at": "2026-10-12T13:19:50.369Z",
+  "checked_at": "2026-10-12T14:49:10.625Z",
   "brand_id": "7090850",
   "brand_label": "VOCE Association",
   "verified_page_id": "61581153121750",
@@ -56,11 +56,11 @@
       "corpus_status": "pending exact publication date and LinkedIn duplicate/provenance reconciliation"
     }
   ],
-  "status": "Continuation after LinkedIn authorised; one complete current Facebook caption saved, pending verified publication date and connector identity.",
+  "status": "Direct Facebook continuation selected by user; secure sign-in handoff issued, pending saved Facebook session and publication date verification.",
   "next_actions": [
-    "Verify Metricool is connected to page61581153121750; do not treat empty results for802476986277786 as absence.",
-    "Verify candidate timestamp after2026-10-12T12:00:56.377Z; no date invention from body source dates.",
-    "Archive only new publications after the LinkedIn boundary and preserve platform provenance and original texts."
+    "User signs in to Facebook through the issued secure session link and clicks Save profile; then verify candidate1997995871106377 date, collect only publications after Diella and deduplicate before Academy publication.",
+    "Preserve all archived original texts and canonical URLs; use explicit Facebook provenance, no videos, no Metricool.",
+    "Keep nightly task6abb72f5e1108191961956e6e3738fea at existing23:30 Europe/Podgorica schedule; stop with a checkpoint if authentication is missing."
   ],
   "current_continuation": {
     "scope": "Only publications after latest archived LinkedIn Diella; no historic Facebook backfill",
@@ -77,7 +77,7 @@
       "reels_after_boundary_rows": 0,
       "whole_day_posts_rows": 0,
       "empty_rows_are_not_proof_of_absence": true,
-      "status": "connected_page_identity_not_reconciled"
+      "status": "historical_diagnostic_only_not_used_for_continuation"
     },
     "candidate": {
       "facebook_id": "1997995871106377",
@@ -93,6 +93,27 @@
     "corpus_items_preserved": 1622,
     "existing_texts_modified": false,
     "videos_downloaded": false,
-    "next": "Verify Metricool is connected to VOCE page61581153121750 and retrieve post date/permalink; preserve candidate original text and ingest only after source chronology and corpus duplicate checks."
+    "next": "User signs in to Facebook through the issued secure session link and clicks Save profile; then verify candidate1997995871106377 date, collect only publications after Diella and deduplicate before Academy publication.",
+    "user_source_choice": {
+      "source": "direct Facebook VOCE",
+      "metricool_prohibited": true,
+      "checked_at": "2026-10-12T14:49:10.625Z",
+      "historical_scope_unchanged": true
+    },
+    "authentication": {
+      "provider": "TinyFish",
+      "profile_id": "prof_236917ff0f01402f",
+      "secure_handoff_issued": true,
+      "facebook_signin_confirmed": false,
+      "private_handoff_url_published": false
+    },
+    "automation": {
+      "id": "6abb72f5e1108191961956e6e3738fea",
+      "time": "23:30",
+      "timezone": "Europe/Podgorica",
+      "source": "direct Facebook continuation",
+      "prompt_updated": true,
+      "enabled": true
+    }
   }
 }
