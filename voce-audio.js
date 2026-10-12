@@ -12,6 +12,11 @@
       research: ["VOCE Audio", "Hear VOCE Research", "A voice for mechanisms, evidence and human consequence."],
       governance: ["VOCE Audio", "Hear AI Governance", "A voice for systems, authority and responsibility."],
       technoference: ["VOCE Audio", "Hear Technoference", "A voice for attention, cognition and digital life."],
+      academy: ["VOCE Audio", "Explore Academy", "How to use the public corpus."],
+      sovereignty: ["VOCE Audio", "Understand Sovereignty", "Technological dependencies and institutional choice."],
+      workforce: ["VOCE Audio", "Explore Light Workforce", "Automation and how expertise develops."],
+      applied: ["VOCE Audio", "Discover VOCE Applied", "Institutional expertise in practice."],
+      publications: ["VOCE Audio", "Explore Publications", "Research and documented analysis."],
       play: "Play", pause: "Pause", unavailable: "Audio unavailable"
     },
     fr: {
@@ -20,6 +25,11 @@
       research: ["VOCE Audio", "Écouter VOCE Research", "Une voix pour les mécanismes, les preuves et leurs conséquences humaines."],
       governance: ["VOCE Audio", "Écouter AI Governance", "Une voix pour les systèmes, l'autorité et la responsabilité."],
       technoference: ["VOCE Audio", "Écouter Technoference", "Une voix pour l'attention, la cognition et la vie numérique."],
+      academy: ["VOCE Audio", "Découvrir Academy", "Comment explorer le corpus public."],
+      sovereignty: ["VOCE Audio", "Comprendre Sovereignty", "Dépendances technologiques et liberté de choisir."],
+      workforce: ["VOCE Audio", "Découvrir Light Workforce", "Automatisation et formation de l'expertise."],
+      applied: ["VOCE Audio", "Découvrir VOCE Applied", "L'expertise au service des institutions."],
+      publications: ["VOCE Audio", "Explorer les publications", "Travaux et analyses documentés."],
       play: "Écouter", pause: "Pause", unavailable: "Audio indisponible"
     },
     it: {
@@ -28,6 +38,11 @@
       research: ["VOCE Audio", "Ascolta VOCE Research", "Una voce per meccanismi, prove e conseguenze umane."],
       governance: ["VOCE Audio", "Ascolta AI Governance", "Una voce per sistemi, autorità e responsabilità."],
       technoference: ["VOCE Audio", "Ascolta Technoference", "Una voce per attenzione, cognizione e vita digitale."],
+      academy: ["VOCE Audio", "Scopri Academy", "Come esplorare il corpus pubblico."],
+      sovereignty: ["VOCE Audio", "Comprendi Sovereignty", "Dipendenze tecnologiche e libertà di scelta."],
+      workforce: ["VOCE Audio", "Scopri Light Workforce", "Automazione e competenze."],
+      applied: ["VOCE Audio", "Scopri VOCE Applied", "Competenza al servizio delle istituzioni."],
+      publications: ["VOCE Audio", "Esplora le pubblicazioni", "Ricerca e analisi documentate."],
       play: "Ascolta", pause: "Pausa", unavailable: "Audio non disponibile"
     }
   };
