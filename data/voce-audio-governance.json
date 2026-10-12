@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "section": "governance",
+  "voice": "Paul – Soothing",
+  "audios": {
+    "it": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=2d214f50-1a6d-4961-8c9e-58216596b4cf.wav",
+      "transcript": "La governance dell'intelligenza artificiale inizia quando un sistema può agire. Un agente accede ai dati, utilizza strumenti e può avviare operazioni. Voce esamina identità, permessi, tracciabilità e intervento umano. Agent Infrastructure, Agent Conformance e ARGOS aiutano a verificare le responsabilità oltre le prestazioni del modello.",
+      "duration": 28.4
+    }
+  }
+}
