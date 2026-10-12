@@ -96,7 +96,7 @@ def article_html(item, day):
         "<p>" + html.escape(x).replace("\n", "<br>") + "</p>"
         for x in item["text"].split("\n\n") if x.strip()
     )
-    date_display = datetime.fromisoformat(published).strftime("%d/%m/%Y %H:%M")
+    date_display = datetime.fromisoformat(published).strftime("%d/%m/%Y" if item.get("date_precision") == "day" else "%d/%m/%Y %H:%M")
     return f"""<!doctype html>
 <html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)} — VOCE</title><meta name="description" content="{html.escape(excerpt, quote=True)}">
@@ -126,7 +126,7 @@ for day, history in histories.items():
     cards = []
     for item in sorted(items, key=lambda x: x["date_published"], reverse=True):
         route = route_by_id[item["id"]]
-        when = datetime.fromisoformat(item["date_published"]).strftime("%H:%M")
+        when = "Publication" if item.get("date_precision") == "day" else datetime.fromisoformat(item["date_published"]).strftime("%H:%M")
         cards.append(f'<article class="chapter"><div class="chapter-no">{when}</div><h2><a href="{html.escape(route["path"], quote=True)}">{html.escape(title_of(item))}</a></h2><p>{html.escape(excerpt_of(item))}</p></article>')
     daily = f"""<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Archive VOCE du {day_label(day)}</title><meta name="description" content="{len(items)} publications VOCE du {day_label(day)}."><meta name="robots" content="index,follow"><link rel="canonical" href="https://voce.life/archive/{day}"><link rel="stylesheet" href="/styles.css"></head><body><header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu"><a href="/#themes">Thèmes</a><a href="/research">Research</a><a href="/archive">Academy</a><a href="/standards">Standards</a><a href="/publications">Publications</a><a href="/art">Art</a><a href="/about">About</a></nav></div></header><main><section class="topic-hero"><div class="wrap"><div class="topic-kicker">VOCE Academy</div><h1 class="topic-title">{day_label(day)}</h1><p class="topic-deck">Index chronologique reliant chaque publication à son adresse documentaire permanente.</p><div class="topic-meta"><span>{len(items)} publications</span><span>Texte intégral</span><span>URL permanentes</span></div></div></section><section class="topic-body"><div class="wrap topic-layout"><aside class="topic-nav"><a href="/archive">Toutes les archives</a></aside><div class="longform">{''.join(cards)}</div></div></section></main></body></html>"""
     (ROOT / "archive" / f"{day}.html").write_text(daily)
@@ -150,7 +150,8 @@ for item in sorted(corpus["items"], key=lambda x: x["date_published"], reverse=T
     ET.SubElement(node, "title").text = title_of(item)
     ET.SubElement(node, "link").text = item["canonical_url"]
     ET.SubElement(node, "guid", {"isPermaLink": "true"}).text = item["canonical_url"]
-    ET.SubElement(node, "pubDate").text = format_datetime(datetime.fromisoformat(item["date_published"]))
+    if item.get("date_precision") != "day":
+        ET.SubElement(node, "pubDate").text = format_datetime(datetime.fromisoformat(item["date_published"]))
     ET.SubElement(node, "author").text = "VOCE Association"
     ET.SubElement(node, "description").text = item["text"]
     ET.SubElement(node, "source", {"url": item["source_url"]}).text = item["platform"].title()

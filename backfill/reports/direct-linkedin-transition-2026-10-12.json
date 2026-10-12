@@ -1,0 +1,51 @@
+{
+  "schema": "voce.direct-linkedin-transition.v1",
+  "checked_at": "2026-10-12T10:32:15.844Z",
+  "authenticated_access_confirmed": true,
+  "author_url": "https://www.linkedin.com/in/voce-association-0030763b6/",
+  "profile_id": "prof_236917ff0f01402f",
+  "browser_runs": {
+    "access_check": "bda6f5c8-fa1f-431d-b3d5-24b0eb4fd21f",
+    "candidate_extraction": "806036e8-ad44-4da7-82e5-42328185b327",
+    "exact_permalink_verification": "fb881fab-4d00-4439-b87d-c4479e9347ae"
+  },
+  "verified_source_texts": 1,
+  "candidates_pending": 5,
+  "added_to_academy": 0,
+  "coverage_complete": false,
+  "source_packet": "backfill/raw/2026-10-12.json",
+  "rejected_inference": "First browser run incorrectly treated article dates and relative times as proof that October 10–12 had no publications; identifiers and current-clock observations show current October 12 posts. This claim is not adopted.",
+  "automation": {
+    "id": "6abb72f5e1108191961956e6e3738fea",
+    "source": "direct LinkedIn",
+    "enabled": true,
+    "time": "23:30",
+    "timezone": "Europe/Podgorica",
+    "resume_from_checkpoint": true,
+    "expired_session": "Request user login through secure handoff; do not bypass."
+  },
+  "metricool": {
+    "source_discontinued": true,
+    "cause_user_confirmed": "LinkedIn requires an additional paid Metricool option."
+  },
+  "n8n": {
+    "deployed": false,
+    "assessment": "Can orchestrate the workflow, but cannot remove LinkedIn API permissions or required reauthorisation. Built-in LinkedIn node supports post creation; reading personal-profile posts requires restricted r_member_social approval.",
+    "primary_sources": [
+      "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.linkedin",
+      "https://learn.microsoft.com/en-us/linkedin/marketing/community-management/shares/posts-api?view=li-lms-2026-09",
+      "https://learn.microsoft.com/en-us/linkedin/shared/authentication/programmatic-refresh-tokens"
+    ]
+  },
+  "next_steps": [
+    "Verify published first browser-source article and its canonical route.",
+    "Resolve/capture the remaining candidate posts verbatim.",
+    "Continue through October 10–11 until the verified October 9 boundary is reached."
+  ],
+  "ingestion": {
+    "status": "validated_locally_pending_deployment",
+    "expected_corpus_items": 1592,
+    "original_texts_and_routes_preserved": 1591,
+    "source_text_sha256_pending_receipt": true
+  }
+}

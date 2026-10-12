@@ -39,35 +39,66 @@ for item in existing.values():
 records, conflicts, scan, seen = [], [], {}, {}
 new_count = 0
 for path in sorted((WORK/'raw').glob('*.json')):
-    # Only dated Metricool packets belong to this reconciliation pass.
+    # Dated connector packets and verified browser captures belong to this pass.
     # Adobe/Facebook evidence files share the raw directory but use other schemas.
     if not re.fullmatch(r'\d{4}-\d{2}-\d{2}\.json', path.name):
         continue
     packet = read(path)
-    if 'response' not in packet or 'date' not in packet:
-        continue
-    response = packet['response']; day = packet['date']
-    if response.get('isError'):
-        scan[day] = {'status':'retry_required'}; continue
-    rows = json.loads(response['content'][0]['text'])['rows']
+    browser = packet.get('schema') == 'voce.linkedin-browser-source.v1'
+    browser_records = {}
+    if browser:
+        day = packet['date']; rows = []
+        if not packet.get('access_verified'):
+            scan[day] = {'status':'browser_verification_required'}; continue
+        for post in packet.get('verified_posts', []):
+            if not post.get('url_resolved') or not post.get('linebreaks_preserved'):
+                raise ValueError('Unverified browser source: ' + post.get('linkedin_id', 'unknown'))
+            text = post['text']
+            if len(text) > 1000 and '\n' not in text:
+                raise ValueError('Browser text lost paragraph structure')
+            published = post['publication_date']
+            if post.get('date_precision') != 'day' or not re.fullmatch(r'\d{4}-\d{2}-\d{2}', published):
+                raise ValueError('Browser source requires an explicit verified civil date')
+            if published != day:
+                raise ValueError('Browser packet date mismatch')
+            browser_records[post['linkedin_id']] = post
+            rows.append((published, text, post['linkedin_id'], post['source_url']))
+    else:
+        if 'response' not in packet or 'date' not in packet:
+            continue
+        response = packet['response']; day = packet['date']
+        if response.get('isError'):
+            scan[day] = {'status':'retry_required'}; continue
+        rows = json.loads(response['content'][0]['text'])['rows']
     scan[day] = {'status':'rows_returned' if rows else 'no_rows_not_proof_of_absence', 'rows':len(rows)}
+    if browser:
+        scan[day].update(source='authenticated_linkedin_browser', coverage_complete=bool(packet.get('coverage_complete')))
     for created, raw, urn, url in rows:
         ident = urn.rsplit(':',1)[-1]; key = 'linkedin:' + ident
         if not re.fullmatch(r'\d+',ident) or not url.startswith('https://www.linkedin.com/feed/update/'+urn):
             conflicts.append({'id':key,'reason':'invalid_identifier_or_url'}); continue
-        text = decode(raw)
+        text = raw if browser else decode(raw)
         if key in seen:
             if seen[key] != raw: conflicts.append({'id':key,'reason':'different_connector_texts'})
             continue
         seen[key] = raw
         # Connector timestamps agree with the UTC time encoded by LinkedIn IDs.
-        dt = datetime.strptime(created,'%Y%m%d%H%M%S').replace(tzinfo=timezone.utc)
-        local = dt.astimezone(ZoneInfo('Europe/Podgorica'))
+        if browser:
+            local = datetime.fromisoformat(created).replace(tzinfo=ZoneInfo('Europe/Podgorica'))
+            published = created  # Date precision is a day; do not invent a publication hour.
+        else:
+            dt = datetime.strptime(created,'%Y%m%d%H%M%S').replace(tzinfo=timezone.utc)
+            local = dt.astimezone(ZoneInfo('Europe/Podgorica'))
+            published = local.isoformat()
         local_day = local.date().isoformat()
-        record = {'id':key,'platform_id':urn,'source_url':url,'date_published':local.isoformat(),
+        record = {'id':key,'platform_id':urn,'source_url':url,'date_published':published,
                   'connector_created':created,'connector_text':raw,'text':text,
                   'text_sha256':digest(text),'connector_text_sha256':digest(raw),
                   'adobe_provenance':{'status':'pending','evidence':[]}}
+        if browser:
+            evidence = browser_records[urn]
+            record.pop('connector_created', None); record.pop('connector_text', None); record.pop('connector_text_sha256', None)
+            record.update(source='authenticated_linkedin_browser', date_precision='day', retrieved_at=evidence['retrieved_at'], date_basis=evidence['date_basis'])
         records.append(record)
         if key in existing:
             if existing[key]['text'] != text:
@@ -77,7 +108,7 @@ for path in sorted((WORK/'raw').glob('*.json')):
         text_key = digest(text)
         canonical = text_owner.get(text_key)
         if canonical:
-            publication = {'platform':'linkedin','platform_id':urn,'date_published':local.isoformat(),'source_url':url}
+            publication = {'platform':'linkedin','platform_id':urn,'date_published':published,'source_url':url}
             alternates = canonical.setdefault('alternate_publications', [])
             if not any(x.get('platform_id') == urn for x in alternates):
                 alternates.append(publication)
@@ -92,11 +123,13 @@ for path in sorted((WORK/'raw').glob('*.json')):
         title = next((s for s in text.splitlines() if s.strip()), 'Publication VOCE')
         item_slug = slug(title, ident)
         canonical_path = '/archive/' + local_day.replace('-','/') + '/' + item_slug
-        item = {'id':key,'platform':'linkedin','platform_id':urn,'date_published':local.isoformat(),
+        item = {'id':key,'platform':'linkedin','platform_id':urn,'date_published':published,
                 'title':title,'slug':item_slug,'canonical_url':'https://voce.life'+canonical_path,
                 'source_url':url,'language':'fr','text':text,'adobe_provenance':{'status':'pending'}}
+        if browser:
+            item.update(date_precision='day', provenance={'source':'authenticated_linkedin_browser','retrieved_at':record['retrieved_at'],'visible_relative_time':browser_records[urn]['visible_relative_time'],'date_basis':record['date_basis']})
         existing[key] = item; text_owner[text_key] = item; new_count += 1
-        target = histories.setdefault(local_day,{'schema':1,'owner':'VOCE Association','source':'Metricool / LinkedIn','date':local_day,'item_count':0,'items':[]})
+        target = histories.setdefault(local_day,{'schema':1,'owner':'VOCE Association','source':('LinkedIn authenticated browser' if browser else 'Metricool / LinkedIn'),'date':local_day,'item_count':0,'items':[]})
         target['items'].append(item)
 
 # Integrate existing historical records into the Academy corpus without modifying them.
@@ -121,7 +154,7 @@ registry['backfill']['requested_window'] = {'from':'2026-03-01','through':'2026-
 registry['backfill']['checkpoint'] = 'backfill/checkpoint.json'
 registry['backfill']['status'] = 'partial_connector_history_requires_linkedin_verification'
 write(ROOT/'data/voce-index-registry.json',registry)
-write(WORK/'publications.json',{'source':'Metricool LinkedIn','items':records})
+write(WORK/'publications.json',{'source':'LinkedIn original publications: historical connector packets and verified browser captures','items':records})
 write(WORK/'conflicts.json',{'items':conflicts})
 previous_checkpoint = read(WORK/'checkpoint.json') if (WORK/'checkpoint.json').exists() else {}
 checkpoint = {'schema':1,'updated_at':corpus['generated_at'],'complete':False,'window':{'from':'2026-03-01','through':'2026-09-30'},

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T09:58:45.580Z",
+  "updated_at": "2026-10-12T10:38:24.840Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -925,7 +925,7 @@
     "merge_commit": "cb66dce1c40f07282b275482f801e8a350dc5f0a",
     "indexnow_check": "accepted_200",
     "live_deployment": "1591_unique_articles_verified_publicly",
-    "linkedin_browser_session": "signed_out_metricool_connector_connected",
+    "linkedin_browser_session": "authenticated_direct_access_verified_2026_10_12",
     "static_pages_generated": 1591,
     "academy_catalogue": "existing_curated_selection_plus_guide_no_bulk_listing",
     "verified_article": "https://voce.life/archive/2026/10/09/robco-vaut-un-milliard-son-prochain-cycle-de-croissance-se-construit-aux-7514233394118086656",
@@ -1899,6 +1899,26 @@
         }
       ],
       "visual_downloads_http_200": 96
+    },
+    "direct_linkedin_transition_2026_10_12": {
+      "report": "backfill/reports/direct-linkedin-transition-2026-10-12.json",
+      "checked_at": "2026-10-12T10:38:24.840Z",
+      "source_packet": "backfill/raw/2026-10-12.json",
+      "verified_source_texts": 1,
+      "candidates_pending": 5,
+      "coverage_complete": false,
+      "added_to_academy": 0,
+      "pending_deployment_expected_additions": 1,
+      "automation": {
+        "id": "6abb72f5e1108191961956e6e3738fea",
+        "source": "direct LinkedIn",
+        "enabled": true,
+        "time": "23:30",
+        "timezone": "Europe/Podgorica",
+        "resume_from_checkpoint": true,
+        "expired_session": "Request user login through secure handoff; do not bypass."
+      },
+      "n8n_deployed": false
     }
   }
 }
