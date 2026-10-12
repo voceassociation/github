@@ -402,5 +402,144 @@
     "run": "275c2993-8826-4ccc-904a-c0b4dcc96611",
     "matched_own_source": false,
     "reason": "No VOCE result in the ordinary LinkedIn post search; no identifier or text is invented."
+  },
+  "nightly_2026_10_12_2300": {
+    "checked_at": "2026-10-12T21:28:32.048Z",
+    "status": "published_live_r2_derived_sync_in_progress",
+    "source_method": "One normal authenticated activity read followed by exact public single-post metadata fetches; no stealth, proxy change, CAPTCHA handling, Facebook substitution or media download.",
+    "access": {
+      "run_id": "f2e15529-8811-4d20-9390-0de419f9a0e6",
+      "profile_id": "prof_236917ff0f01402f",
+      "status": "accessible",
+      "profile_verified": true,
+      "posts_tab_selected": true,
+      "diella_boundary_reached": true,
+      "blocker": null
+    },
+    "previous_latest_id": "7515380937786953728",
+    "added_ids": [
+      "7515486632960143361",
+      "7515471546673664000",
+      "7515456438346059776",
+      "7515441362918600707",
+      "7515426263306641408",
+      "7515411161006174209",
+      "7515396064288452608"
+    ],
+    "added_count": 7,
+    "latest_source": {
+      "id": "7515486632960143361",
+      "source_publication_datetime": "2026-10-12T19:00:52.850Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515486632960143361/",
+      "canonical": "https://voce.life/archive/2026/10/12/pourquoi-une-plume-parait-elle-plus-facile-a-faire-leviter-qu-un-rocher-7515486632960143361"
+    },
+    "sources": [
+      {
+        "linkedin_id": "7515486632960143361",
+        "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515486632960143361/",
+        "published_date": "2026-10-12T19:00:52.850Z",
+        "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-cognition-imagination-activity-7515486668880220163-iOG0",
+        "text_chars": 2843
+      },
+      {
+        "linkedin_id": "7515471546673664000",
+        "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515471546673664000/",
+        "published_date": "2026-10-12T18:00:56.085Z",
+        "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-trieste-miramare-activity-7515471582954299392-NE9d",
+        "text_chars": 2904
+      },
+      {
+        "linkedin_id": "7515456438346059776",
+        "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515456438346059776/",
+        "published_date": "2026-10-12T17:00:50.314Z",
+        "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-canguilhem-neuropsychologie-activity-7515456459254607872-q2Bq",
+        "text_chars": 2793
+      },
+      {
+        "linkedin_id": "7515441362918600707",
+        "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515441362918600707/",
+        "published_date": "2026-10-12T16:00:57.025Z",
+        "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-florence-brunelleschi-activity-7515441387908136960-Exnf",
+        "text_chars": 2999
+      },
+      {
+        "linkedin_id": "7515426263306641408",
+        "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515426263306641408/",
+        "published_date": "2026-10-12T15:01:02.993Z",
+        "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-asml-semiconducteurs-activity-7515426313445433344-atnH",
+        "text_chars": 2980
+      },
+      {
+        "linkedin_id": "7515411161006174209",
+        "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515411161006174209/",
+        "published_date": "2026-10-12T14:00:58.564Z",
+        "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-souverainet%C3%A9sanitaire-activity-7515411195374424064-x7Lp",
+        "text_chars": 2984
+      },
+      {
+        "linkedin_id": "7515396064288452608",
+        "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515396064288452608/",
+        "published_date": "2026-10-12T13:00:58.965Z",
+        "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-paiements-tr%C3%A9sorerie-activity-7515396097561886720-Ow6S",
+        "text_chars": 2828
+      }
+    ],
+    "raw_packet": "backfill/raw/2026-10-12.json",
+    "source_commit": "0bab3f87d49c6928457f23dfae79bfa3f7d4884a",
+    "generated_commit": "b9073d79cf66ef9dfa23798f548c4ad9f141cf36",
+    "workflow": {
+      "run_id": 38309923000,
+      "job_id": 115012860247,
+      "conclusion": "success"
+    },
+    "validation": {
+      "corpus_items": 1629,
+      "canonical_routes": 1629,
+      "redirects": 2,
+      "unique_ids": true,
+      "unique_full_texts": true,
+      "alternate_ids_not_reimported": true,
+      "new_conflicts": 0,
+      "preexisting_conflicts_preserved": 334
+    },
+    "live_verification": {
+      "academy_counter": 1629,
+      "article_url": "https://voce.life/archive/2026/10/12/pourquoi-une-plume-parait-elle-plus-facile-a-faire-leviter-qu-un-rocher-7515486632960143361",
+      "self_canonical": true,
+      "title_rendered_as_h1": true,
+      "body_after_title_exact": true,
+      "exact_body_characters": 2769,
+      "original_link_present": true,
+      "guide_query": "Pourquoi une plume paraît-elle plus facile à faire léviter qu'un rocher?",
+      "guide_top_source_exact": true
+    },
+    "indexnow": {
+      "http_status": 200,
+      "submitted_url_count": 48,
+      "run_id": 38309923000,
+      "job_id": 115012860247,
+      "scope": "current four-day publication batch",
+      "indexing_claimed": false
+    },
+    "r2": {
+      "status": "ok",
+      "corpus_items": 1629,
+      "article_routes": 1629,
+      "source_snapshot_complete": true,
+      "backup_complete": true,
+      "derived_backup_complete": false,
+      "derived_cursor": 1080,
+      "total_derived_objects": 1736,
+      "checked_at": "2026-10-12T21:25:09.758Z"
+    },
+    "drive_research_registry": {
+      "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
+      "checked": true,
+      "formal_records": 2,
+      "unchanged": true
+    },
+    "facebook_paused": true,
+    "coverage_complete": false,
+    "historical_conflicts_preserved": 334
   }
 }
