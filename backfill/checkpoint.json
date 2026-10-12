@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T20:03:39.173Z",
+  "updated_at": "2026-10-12T20:38:47.171Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -2994,6 +2994,29 @@
         "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Podgorica:20261012T230000\nRRULE:FREQ=DAILY;BYHOUR=23;BYMINUTE=0;BYSECOND=0\nEND:VEVENT"
       },
       "facebook_paused": true
+    },
+    "night_integrity_seo_ga4_2026_10_12": {
+      "report": "backfill/reports/night-integrity-seo-ga4-2026-10-12.json",
+      "checked_at": "2026-10-12T20:38:47.171Z",
+      "status": "technical_checks_passed_indexing_followup_required",
+      "corpus_items": 1622,
+      "sitemap_urls": 2373,
+      "exact_duplicate_groups": 0,
+      "normalized_duplicate_groups": 0,
+      "all_corpus_canonicals_in_sitemap": true,
+      "recent_articles_verified": 37,
+      "r2_complete": true,
+      "gsc_obsolete_sitemap_submissions_removed": 7,
+      "ga4_realtime_collection_verified": true,
+      "pending": [
+        "Not an exhaustive HTTP crawl of all 2373 sitemap URLs.",
+        "User-agent header tests are not requests from verified crawler IP addresses.",
+        "Indexation of new articles and the latest submitted sitemap remains a Google processing follow-up.",
+        "GA4 standard reports and stream warning need subsequent review after fresh activation; realtime receipt is confirmed.",
+        "Historical March–September completeness is not certified; 334 pre-existing text conflicts remain preserved."
+      ],
+      "linkedin_time": "23:00",
+      "timezone": "Europe/Podgorica"
     }
   }
 }

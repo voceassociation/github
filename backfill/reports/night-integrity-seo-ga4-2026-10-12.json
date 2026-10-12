@@ -1,0 +1,651 @@
+{
+  "schema": "voce.integrity-seo-analytics-audit.v1",
+  "checked_at": "2026-10-12T20:38:47.171Z",
+  "status": "technical_checks_passed_indexing_followup_required",
+  "scope": "Current published 1622-item corpus and sitemap; HTTP checks for 10 institutional pages and all 37 October 9–12 article pages",
+  "technical": {
+    "checked_at": "2026-10-12T20:15:48.672333+00:00",
+    "corpus_items": 1622,
+    "unique_ids": 1622,
+    "unique_literal_texts": 1622,
+    "unique_canonicals": 1622,
+    "normalized_duplicate_groups": [],
+    "legacy_redirects_preserved": 2,
+    "sitemap_urls": 2373,
+    "sitemap_unique_urls": 2373,
+    "corpus_canonicals_missing_from_sitemap": [],
+    "rss_count": 1622,
+    "rss_matches_corpus": true,
+    "r2": {
+      "status": "ok",
+      "owner": "VOCE Association",
+      "bucket": "voce-sovereign-corpus",
+      "private": true,
+      "synced_at": "2026-10-12T20:12:48.565Z",
+      "article_routes": 1622,
+      "corpus_items": 1622,
+      "article_routes_synced": 1622,
+      "source_snapshot_complete": true,
+      "backup_cursor": 1320,
+      "backup_batch_size": 40,
+      "backup_complete": true,
+      "last_complete_sync_at": "2026-10-12T20:12:48.565Z",
+      "total_objects_target": 1740,
+      "objects_synced": 1740,
+      "derived_backup_complete": true,
+      "derived_cursor": 1320,
+      "total_derived_objects": 1729,
+      "derived_objects_synced": 1729,
+      "derived_article_pages_synced": 1622,
+      "source_objects_touched_in_last_sync": 11,
+      "derived_objects_touched_in_last_sync": 40,
+      "changed_in_last_sync": 39
+    },
+    "pages": [
+      {
+        "path": "/",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/"
+        ],
+        "description": true,
+        "open_graph": true,
+        "noindex": false,
+        "canonical_count": 1,
+        "internal_navigation_links": 38
+      },
+      {
+        "path": "/archive",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/archive"
+        ],
+        "description": true,
+        "open_graph": true,
+        "noindex": false,
+        "canonical_count": 1,
+        "internal_navigation_links": 47
+      },
+      {
+        "path": "/governance",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/governance"
+        ],
+        "description": true,
+        "open_graph": true,
+        "noindex": false,
+        "canonical_count": 1,
+        "internal_navigation_links": 37
+      },
+      {
+        "path": "/agent-conformance",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/agent-conformance"
+        ],
+        "description": true,
+        "open_graph": true,
+        "noindex": false,
+        "canonical_count": 1,
+        "internal_navigation_links": 71
+      },
+      {
+        "path": "/argos",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/argos"
+        ],
+        "description": true,
+        "open_graph": true,
+        "noindex": false,
+        "canonical_count": 1,
+        "internal_navigation_links": 26
+      },
+      {
+        "path": "/human-cognitive-assurance",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/human-cognitive-assurance"
+        ],
+        "description": true,
+        "open_graph": true,
+        "noindex": false,
+        "canonical_count": 1,
+        "internal_navigation_links": 50
+      },
+      {
+        "path": "/atlas",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/atlas"
+        ],
+        "description": true,
+        "open_graph": true,
+        "noindex": false,
+        "canonical_count": 1,
+        "internal_navigation_links": 85
+      },
+      {
+        "path": "/applied",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/applied"
+        ],
+        "description": true,
+        "open_graph": true,
+        "noindex": false,
+        "canonical_count": 1,
+        "internal_navigation_links": 27
+      },
+      {
+        "path": "/fr/visual-guides",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/fr/visual-guides"
+        ],
+        "description": true,
+        "open_graph": true,
+        "noindex": false,
+        "canonical_count": 1,
+        "internal_navigation_links": 86
+      },
+      {
+        "path": "/it/visual-guides",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/it/visual-guides"
+        ],
+        "description": true,
+        "open_graph": true,
+        "noindex": false,
+        "canonical_count": 1,
+        "internal_navigation_links": 86
+      }
+    ],
+    "crawler_header_checks": [
+      {
+        "agent": "Googlebot",
+        "path": "/robots.txt",
+        "status": 200,
+        "mime": "text/plain"
+      },
+      {
+        "agent": "Googlebot",
+        "path": "/sitemap.xml",
+        "status": 200,
+        "mime": "application/xml"
+      },
+      {
+        "agent": "Googlebot",
+        "path": "/archive",
+        "status": 200,
+        "mime": "text/html"
+      },
+      {
+        "agent": "Bingbot",
+        "path": "/robots.txt",
+        "status": 200,
+        "mime": "text/plain"
+      },
+      {
+        "agent": "Bingbot",
+        "path": "/sitemap.xml",
+        "status": 200,
+        "mime": "application/xml"
+      },
+      {
+        "agent": "Bingbot",
+        "path": "/archive",
+        "status": 200,
+        "mime": "text/html"
+      },
+      {
+        "agent": "Meta",
+        "path": "/robots.txt",
+        "status": 200,
+        "mime": "text/plain"
+      },
+      {
+        "agent": "Meta",
+        "path": "/sitemap.xml",
+        "status": 200,
+        "mime": "application/xml"
+      },
+      {
+        "agent": "Meta",
+        "path": "/archive",
+        "status": 200,
+        "mime": "text/html"
+      },
+      {
+        "agent": "OAI-SearchBot",
+        "path": "/robots.txt",
+        "status": 200,
+        "mime": "text/plain"
+      },
+      {
+        "agent": "OAI-SearchBot",
+        "path": "/sitemap.xml",
+        "status": 200,
+        "mime": "application/xml"
+      },
+      {
+        "agent": "OAI-SearchBot",
+        "path": "/archive",
+        "status": 200,
+        "mime": "text/html"
+      }
+    ],
+    "crawler_header_checks_are_not_verified_bot_ip_tests": true
+  },
+  "recent_articles": {
+    "checked_at": "2026-10-12T20:37:12.083974+00:00",
+    "scope": "Published articles dated 2026-10-09 through 2026-10-12 in the audited 1622-item snapshot",
+    "count": 37,
+    "all_pass": true,
+    "articles": [
+      {
+        "id": "linkedin:7514233394118086656",
+        "canonical_url": "https://voce.life/archive/2026/10/09/robco-vaut-un-milliard-son-prochain-cycle-de-croissance-se-construit-aux-7514233394118086656",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/09/robco-vaut-un-milliard-son-prochain-cycle-de-croissance-se-construit-aux-7514233394118086656",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514218280249810944",
+        "canonical_url": "https://voce.life/archive/2026/10/09/votre-agent-peut-rester-en-ligne-apres-avoir-change-de-cerveau-7514218280249810944",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/09/votre-agent-peut-rester-en-ligne-apres-avoir-change-de-cerveau-7514218280249810944",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514203155379953664",
+        "canonical_url": "https://voce.life/archive/2026/10/09/myelome-asymptomatique-le-teclistamab-obtient-77-8-de-reponses-completes-7514203155379953664",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/09/myelome-asymptomatique-le-teclistamab-obtient-77-8-de-reponses-completes-7514203155379953664",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514188082343157760",
+        "canonical_url": "https://voce.life/archive/2026/10/09/une-campagne-ia-peut-couter-un-million-sans-acheter-l-exclusivite-attend-7514188082343157760",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/09/une-campagne-ia-peut-couter-un-million-sans-acheter-l-exclusivite-attend-7514188082343157760",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514172952297320448",
+        "canonical_url": "https://voce.life/archive/2026/10/09/opera-voce-spacex-e-apollo-l-ia-entre-sur-le-marche-des-souverains-7514172952297320448",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/09/opera-voce-spacex-e-apollo-l-ia-entre-sur-le-marche-des-souverains-7514172952297320448",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514157844376621056",
+        "canonical_url": "https://voce.life/archive/2026/10/09/50-50-ne-suffit-pas-le-biais-peut-etre-dans-le-dataset-avant-d-etre-dans-7514157844376621056",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/09/50-50-ne-suffit-pas-le-biais-peut-etre-dans-le-dataset-avant-d-etre-dans-7514157844376621056",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7515350721006018560",
+        "canonical_url": "https://voce.life/archive/2026/10/12/un-materiau-sans-cellule-se-met-en-mouvement-selon-un-programme-ecrit-da-7515350721006018560",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/12/un-materiau-sans-cellule-se-met-en-mouvement-selon-un-programme-ecrit-da-7515350721006018560",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7515335641077940224",
+        "canonical_url": "https://voce.life/archive/2026/10/12/msci-peut-faire-vendre-une-action-sans-que-l-entreprise-ait-change-7515335641077940224",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/12/msci-peut-faire-vendre-une-action-sans-que-l-entreprise-ait-change-7515335641077940224",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7515320570008219649",
+        "canonical_url": "https://voce.life/archive/2026/10/12/snibs-la-neurochirurgie-commence-a-mesurer-la-pression-reellement-exerce-7515320570008219649",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/12/snibs-la-neurochirurgie-commence-a-mesurer-la-pression-reellement-exerce-7515320570008219649",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7515305429837586433",
+        "canonical_url": "https://voce.life/archive/2026/10/12/blackrock-jpmorgan-goldman-sachs-l-eau-entre-dans-la-valeur-des-actifs-7515305429837586433",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/12/blackrock-jpmorgan-goldman-sachs-l-eau-entre-dans-la-valeur-des-actifs-7515305429837586433",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7515290330926194688",
+        "canonical_url": "https://voce.life/archive/2026/10/12/cancer-du-pancreas-optune-pax-ajoute-2-mois-de-survie-avec-des-champs-el-7515290330926194688",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/12/cancer-du-pancreas-optune-pax-ajoute-2-mois-de-survie-avec-des-champs-el-7515290330926194688",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7515275221361315841",
+        "canonical_url": "https://voce.life/archive/2026/10/12/zylo-clarity-ai-le-registre-logiciel-commence-a-executer-les-decisions-7515275221361315841",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/12/zylo-clarity-ai-le-registre-logiciel-commence-a-executer-les-decisions-7515275221361315841",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514248492110970880",
+        "canonical_url": "https://voce.life/archive/2026/10/09/l-hotellerie-depense-des-millions-pour-etre-vue-les-agents-vont-decider-7514248492110970880",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/09/l-hotellerie-depense-des-millions-pour-etre-vue-les-agents-vont-decider-7514248492110970880",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7515365850959421440",
+        "canonical_url": "https://voce.life/archive/2026/10/12/siemens-energy-et-koncar-les-transformateurs-deviennent-le-calendrier-ca-7515365850959421440",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/12/siemens-energy-et-koncar-les-transformateurs-deviennent-le-calendrier-ca-7515365850959421440",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7515260109472686080",
+        "canonical_url": "https://voce.life/archive/2026/10/12/apollo-graphos-agent-services-l-agent-ia-ne-voit-plus-toute-l-entreprise-7515260109472686080",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/12/apollo-graphos-agent-services-l-agent-ia-ne-voit-plus-toute-l-entreprise-7515260109472686080",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7515124236231946240",
+        "canonical_url": "https://voce.life/archive/2026/10/11/votre-cerveau-peut-juger-une-information-plus-importante-simplement-parc-7515124236231946240",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/11/votre-cerveau-peut-juger-une-information-plus-importante-simplement-parc-7515124236231946240",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514761841596817408",
+        "canonical_url": "https://voce.life/archive/2026/10/10/etheridge-foundation-88-500-dollars-pour-tester-la-psilocybine-contre-la-7514761841596817408",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/10/etheridge-foundation-88-500-dollars-pour-tester-la-psilocybine-contre-la-7514761841596817408",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514746750146949120",
+        "canonical_url": "https://voce.life/archive/2026/10/10/novo-nordisk-28-du-capital-donnent-a-une-fondation-77-des-votes-7514746750146949120",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/10/novo-nordisk-28-du-capital-donnent-a-une-fondation-77-des-votes-7514746750146949120",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514731641408413696",
+        "canonical_url": "https://voce.life/archive/2026/10/10/quand-la-presse-locale-disparait-le-cout-du-credit-augmente-7514731641408413696",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/10/quand-la-presse-locale-disparait-le-cout-du-credit-augmente-7514731641408413696",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514716555205779456",
+        "canonical_url": "https://voce.life/archive/2026/10/10/on-lightspray-32-robots-a-busan-condensent-200-etapes-de-fabrication-en-7514716555205779456",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/10/on-lightspray-32-robots-a-busan-condensent-200-etapes-de-fabrication-en-7514716555205779456",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514701472106840064",
+        "canonical_url": "https://voce.life/archive/2026/10/10/a-2-600-metres-sous-le-pacifique-un-telescope-a-neutrinos-doit-apprendre-7514701472106840064",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/10/a-2-600-metres-sous-le-pacifique-un-telescope-a-neutrinos-doit-apprendre-7514701472106840064",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514686355679981568",
+        "canonical_url": "https://voce.life/archive/2026/10/10/singapour-prepare-l-apres-2061-206-kilometres-de-tunnels-pour-securiser-7514686355679981568",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/10/singapour-prepare-l-apres-2061-206-kilometres-de-tunnels-pour-securiser-7514686355679981568",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7515109132023140352",
+        "canonical_url": "https://voce.life/archive/2026/10/11/un-celibataire-refuse-pour-un-logement-seuls-10-y-voient-spontanement-un-7515109132023140352",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/11/un-celibataire-refuse-pour-un-logement-seuls-10-y-voient-spontanement-un-7515109132023140352",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7515094034659524608",
+        "canonical_url": "https://voce.life/archive/2026/10/11/taxotere-un-if-toxique-europeen-a-permis-de-fabriquer-un-anticancereux-s-7515094034659524608",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/11/taxotere-un-if-toxique-europeen-a-permis-de-fabriquer-un-anticancereux-s-7515094034659524608",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7515078984284540928",
+        "canonical_url": "https://voce.life/archive/2026/10/11/epr2-60-milliards-d-euros-plafonnes-en-capital-mais-pas-les-interets-gar-7515078984284540928",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/11/epr2-60-milliards-d-euros-plafonnes-en-capital-mais-pas-les-interets-gar-7515078984284540928",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7515048754085965825",
+        "canonical_url": "https://voce.life/archive/2026/10/11/cat-nat-votre-maison-peut-etre-reparee-et-perdre-quand-meme-de-la-valeur-7515048754085965825",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/11/cat-nat-votre-maison-peut-etre-reparee-et-perdre-quand-meme-de-la-valeur-7515048754085965825",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7515018542132633600",
+        "canonical_url": "https://voce.life/archive/2026/10/11/eagle-hills-en-syrie-la-marina-de-lattaquie-ne-dira-pas-qui-encaisse-ree-7515018542132633600",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/11/eagle-hills-en-syrie-la-marina-de-lattaquie-ne-dira-pas-qui-encaisse-ree-7515018542132633600",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7515003452989681664",
+        "canonical_url": "https://voce.life/archive/2026/10/11/une-tonne-de-fer-sur-le-danube-ce-que-nous-avons-sous-estime-chez-les-ce-7515003452989681664",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/11/une-tonne-de-fer-sur-le-danube-ce-que-nous-avons-sous-estime-chez-les-ce-7515003452989681664",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514988323313078274",
+        "canonical_url": "https://voce.life/archive/2026/10/11/chime-mesure-l-univers-d-il-y-a-huit-milliards-d-annees-sans-distinguer-7514988323313078274",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/11/chime-mesure-l-univers-d-il-y-a-huit-milliards-d-annees-sans-distinguer-7514988323313078274",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514973262741680128",
+        "canonical_url": "https://voce.life/archive/2026/10/11/grenoble-en-1889-l-electricite-des-alpes-faisait-deja-chuter-le-prix-de-7514973262741680128",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/11/grenoble-en-1889-l-electricite-des-alpes-faisait-deja-chuter-le-prix-de-7514973262741680128",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514958137871941633",
+        "canonical_url": "https://voce.life/archive/2026/10/11/bank-of-america-un-tableau-peut-garantir-10-millions-de-dollars-sans-qui-7514958137871941633",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/11/bank-of-america-un-tableau-peut-garantir-10-millions-de-dollars-sans-qui-7514958137871941633",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514943025576443904",
+        "canonical_url": "https://voce.life/archive/2026/10/11/tiktok-go-hotels-et-musees-peuvent-etre-reserves-avant-meme-que-le-clien-7514943025576443904",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/11/tiktok-go-hotels-et-musees-peuvent-etre-reserves-avant-meme-que-le-clien-7514943025576443904",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514927927222894592",
+        "canonical_url": "https://voce.life/archive/2026/10/11/simandou-600-kilometres-de-rail-pour-deplacer-la-carte-mondiale-du-fer-7514927927222894592",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/11/simandou-600-kilometres-de-rail-pour-deplacer-la-carte-mondiale-du-fer-7514927927222894592",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514912819457187840",
+        "canonical_url": "https://voce.life/archive/2026/10/11/mount-sinai-un-circuit-cerebral-augmente-le-volume-du-prochain-stress-7514912819457187840",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/11/mount-sinai-un-circuit-cerebral-augmente-le-volume-du-prochain-stress-7514912819457187840",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7514897716884426752",
+        "canonical_url": "https://voce.life/archive/2026/10/11/fpt-le-vietnam-equipe-le-japon-et-pese-5-5-dans-un-fonds-jpmorgan-7514897716884426752",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/11/fpt-le-vietnam-equipe-le-japon-et-pese-5-5-dans-un-fonds-jpmorgan-7514897716884426752",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7515245002936176640",
+        "canonical_url": "https://voce.life/archive/2026/10/12/don-pasquale-e-il-capitale-che-vuole-pagare-meno-7515245002936176640",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/12/don-pasquale-e-il-capitale-che-vuole-pagare-meno-7515245002936176640",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      },
+      {
+        "id": "linkedin:7515380937786953728",
+        "canonical_url": "https://voce.life/archive/2026/10/12/diella-l-albanie-veut-automatiser-presque-tout-le-marche-public-avant-la-7515380937786953728",
+        "http_status": 200,
+        "final_url": "https://voce.life/archive/2026/10/12/diella-l-albanie-veut-automatiser-presque-tout-le-marche-public-avant-la-7515380937786953728",
+        "canonical_matches": true,
+        "exact_original_article_body": true
+      }
+    ]
+  },
+  "search_console": {
+    "site_property": "sc-domain:voce.life",
+    "sitemap": [
+      {
+        "path": "https://voce.life/sitemap.xml",
+        "lastSubmitted": "2026-10-12T20:27:50.608Z",
+        "isPending": true,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "lastDownloaded": "2026-10-07T10:41:16.796Z",
+        "warnings": "0",
+        "errors": "0",
+        "contents": [
+          {
+            "type": "web",
+            "submitted": "2287",
+            "indexed": "0"
+          }
+        ]
+      }
+    ],
+    "obsolete_sitemap_submissions_removed": 7,
+    "removal_is_not_page_or_index_deletion": true,
+    "inspections": [
+      {
+        "url": "https://voce.life/archive",
+        "verdict": "PASS",
+        "coverageState": "Envoyée et indexée",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-07T12:03:04Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://voce.life/archive",
+        "userCanonical": "https://voce.life/archive",
+        "sitemap": [
+          "https://voce.life/sitemap.xml"
+        ],
+        "referringUrls": [
+          "https://voce.life/it/atlas/relations/cognition--effort",
+          "https://voce.life/archive/2026/10/01/6-mai-2026-7511500357169115136",
+          "https://voce.life/"
+        ],
+        "crawledAs": "MOBILE"
+      },
+      {
+        "url": "https://voce.life/agent-conformance",
+        "verdict": "PASS",
+        "coverageState": "Envoyée et indexée",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-06T16:12:28Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://voce.life/agent-conformance",
+        "userCanonical": "https://voce.life/agent-conformance",
+        "referringUrls": [
+          "https://voce.life/fr/agent-conformance?lens=risk&maturity=A1",
+          "https://voce.life/agent-conformance/controls/mcp-01",
+          "https://voce.life/standards"
+        ],
+        "crawledAs": "MOBILE"
+      },
+      {
+        "url": "https://voce.life/archive/2026/10/12/diella-l-albanie-veut-automatiser-presque-tout-le-marche-public-avant-la-7515380937786953728",
+        "verdict": "NEUTRAL",
+        "coverageState": "Google ne reconnaît pas cette URL",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+      }
+    ],
+    "sitemap_submitted_or_accessible_does_not_prove_all_urls_indexed": true
+  },
+  "analytics": {
+    "measurement_id": "G-92MSZDPT5J",
+    "measurement_matches_existing_google_property": true,
+    "realtime_collection_confirmed_in_normal_authenticated_ga4_ui": true,
+    "observed_event_names": [
+      "page_view",
+      "voce_pillar_open",
+      "user_engagement"
+    ],
+    "private_audience_counts_not_published": true,
+    "consent_accept_persisted": true,
+    "consent_reject_keeps_site_accessible": true,
+    "test_browser_returned_to_reject": true,
+    "zaraz_single_enabled_ga4_tool": true,
+    "stream_interface_still_displays_no_recent_data_warning": true,
+    "standard_report_connector_returned_empty_rows": true,
+    "empty_rows_do_not_prove_no_collection": true,
+    "no_analytics_settings_changed_during_audit": true
+  },
+  "preservation": {
+    "original_texts_not_modified": true,
+    "canonical_routes_not_modified": true,
+    "design_not_modified": true,
+    "facebook_remains_paused": true,
+    "linkedin_existing_nightly_task": "23:00 Europe/Podgorica"
+  },
+  "limits": [
+    "Not an exhaustive HTTP crawl of all 2373 sitemap URLs.",
+    "User-agent header tests are not requests from verified crawler IP addresses.",
+    "Indexation of new articles and the latest submitted sitemap remains a Google processing follow-up.",
+    "GA4 standard reports and stream warning need subsequent review after fresh activation; realtime receipt is confirmed.",
+    "Historical March–September completeness is not certified; 334 pre-existing text conflicts remain preserved."
+  ]
+}
