@@ -10,6 +10,11 @@
     "en": {
       "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=c81a1911-9235-402d-b8b1-cb356f625bf0.wav",
       "transcript": "Votché Academy is a public library of documented publications. Start with a subject, a study or a question. The Guide finds relevant texts and their references. Each publication has a permanent address, allowing readers to follow evidence and connect knowledge independently of social media."
+    },
+    "it": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=02cd9cd7-77b0-44ba-a199-5cbbe9267e34.wav",
+      "transcript": "Voce Academy è una biblioteca pubblica di testi documentati. Partite da un tema, uno studio o una domanda. La Guida trova le pubblicazioni pertinenti e le loro fonti. Ogni testo ha un indirizzo permanente, per leggere e verificare le conoscenze senza dipendere dai social network.",
+      "duration": 24
     }
   }
 }
