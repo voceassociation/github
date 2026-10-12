@@ -96,6 +96,54 @@ async function serveVoceAudio(request, env, lang) {
   }
 }
 
+// VOCE thematic audio: cached in private R2, supported by public transcripts.
+const VOCE_BRIEF_KEYS = new Set(["guide","academy","research","art","governance","technoference","sovereignty","workforce","applied","publications"]);
+
+async function serveVoceBrief(request, env, section, lang) {
+  if (request.method !== "GET" && request.method !== "HEAD") {
+    return new Response("Method not allowed", { status: 405, headers: { allow: "GET, HEAD" } });
+  }
+  if (!VOCE_BRIEF_KEYS.has(section)) return new Response("Not found", { status: 404 });
+  const key = `assets/audio/voce-brief-${section}-${lang}.wav`;
+  try {
+    let audio = await env.VOCE_CORPUS.get(key);
+    if (!audio) {
+      const configResponse = await env.ASSETS.fetch(new Request(
+        `https://voce.life/data/voce-audio-${section}.json`
+      ));
+      if (!configResponse.ok) return new Response("Not found", {status:404});
+      const config = await configResponse.json();
+      const url = config?.audios?.[lang]?.url;
+      if (typeof url !== "string" || !url.startsWith("https://resource2.heygen.ai/text_to_speech/")) {
+        return new Response("Audio unavailable", {status:404,headers:{"cache-control":"no-store"}});
+      }
+      if (request.method === "HEAD") {
+        return new Response(null, {status:200,headers:{"content-type":"audio/wav","cache-control":"public, max-age=300"}});
+      }
+      const remote = await fetch(url, {redirect:"follow"});
+      if (!remote.ok) return new Response("Audio temporarily unavailable",{status:503});
+      const type = (remote.headers.get("content-type") || "").toLowerCase();
+      if (!/^(audio\/|application\/octet-stream)/.test(type)) return new Response("Bad audio source",{status:502});
+      const bytes = await remote.arrayBuffer();
+      if (bytes.byteLength < 1024 || bytes.byteLength > 20_000_000) {
+        return new Response("Bad audio length",{status:502});
+      }
+      await env.VOCE_CORPUS.put(key,bytes,{
+        httpMetadata:{contentType:"audio/wav"},
+        customMetadata:{voice:"Paul Soothing",section,language:lang}
+      });
+      audio = await env.VOCE_CORPUS.get(key);
+    }
+    if (!audio) return new Response("Unavailable",{status:503});
+    return new Response(request.method === "HEAD" ? null : audio.body,{
+      headers:{"content-type":"audio/wav","cache-control":"public, max-age=3600",
+      "content-length":String(audio.size),"x-content-type-options":"nosniff"}
+    });
+  } catch {
+    return new Response("Audio temporarily unavailable", {status:503,headers:{"cache-control":"no-store"}});
+  }
+}
+
 const VOCE_AUDIO_ASSETS = `
 <link rel="stylesheet" href="/voce-audio.css">
 <script src="/voce-audio.js" defer><\/script>
@@ -1622,6 +1670,8 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     const pathname = url.pathname.length > 1 ? url.pathname.replace(/\/+$/, "") : url.pathname;
+    const voceBriefMatch = pathname.match(/^\/assets\/audio\/voce-brief-(guide|academy|research|art|governance|technoference|sovereignty|workforce|applied|publications)-(fr|en|it)\.wav$/);
+    if (voceBriefMatch) return serveVoceBrief(request, env, voceBriefMatch[1], voceBriefMatch[2]);
     const voceAudioMatch = pathname.match(/^\/assets\/audio\/voce-signature-(fr|en|it)\.wav$/);
     if (voceAudioMatch) return serveVoceAudio(request, env, voceAudioMatch[1]);
 
