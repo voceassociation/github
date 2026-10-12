@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "section": "academy",
+  "voice": "Paul – Soothing",
+  "audios": {
+    "fr": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=a9aa228c-f97d-4f13-ba5b-09ecc5e96f68.wav",
+      "transcript": "Votché Academy rassemble des publications publiques et documentées. Choisissez un sujet, une étude ou une question. Le Guide retrouve les textes pertinents et leurs références. Chaque publication possède une adresse permanente, afin de lire, vérifier et relier les connaissances sans dépendre des réseaux sociaux."
+    },
+    "en": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=c81a1911-9235-402d-b8b1-cb356f625bf0.wav",
+      "transcript": "Votché Academy is a public library of documented publications. Start with a subject, a study or a question. The Guide finds relevant texts and their references. Each publication has a permanent address, allowing readers to follow evidence and connect knowledge independently of social media."
+    }
+  }
+}
