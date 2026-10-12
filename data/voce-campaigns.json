@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "created_on": "2026-10-12",
+  "purpose": "Reader acquisition and institutional awareness using #VOCEAssociation and topic hashtags.",
+  "note": "Editorial test plans, not measured performance. Metricool hashtag analytics returned no rows on 2026-10-12. No paid advertising, boosted posts or outbound solicitations have been launched.",
+  "utm": {
+    "medium": "social",
+    "core_campaign_prefix": "voce-",
+    "link_profile_destination": "https://voce.life/discover"
+  },
+  "brand_hashtag": "#VOCEAssociation",
+  "max_hashtags_per_post": 5,
+  "categories": [
+    {
+      "id": "voce-academy",
+      "theme": "Academy",
+      "audience": "lecteurs",
+      "destination": "https://voce.life/archive",
+      "hashtags": [
+        "#VOCEAssociation",
+        "#Research",
+        "#ScientificLiteracy",
+        "#OpenKnowledge"
+      ],
+      "platform_links": {
+        "linkedin": "https://voce.life/archive?utm_source=linkedin&utm_medium=social&utm_campaign=voce-academy&utm_content=topic",
+        "facebook": "https://voce.life/archive?utm_source=facebook&utm_medium=social&utm_campaign=voce-academy&utm_content=topic",
+        "instagram": "https://voce.life/discover?utm_source=instagram&utm_medium=social&utm_campaign=voce-academy&utm_content=profile",
+        "tiktok": "https://voce.life/discover?utm_source=tiktok&utm_medium=social&utm_campaign=voce-academy&utm_content=profile"
+      },
+      "organic_copy_fr": {
+        "linkedin": "Les réseaux distribuent une publication. VOCE Academy conserve les textes, leurs références et les liens entre les sujets.\n\nLire sur VOCE: https://voce.life/archive?utm_source=linkedin&utm_medium=social&utm_campaign=voce-academy&utm_content=topic\n\n#VOCEAssociation #Research #ScientificLiteracy #OpenKnowledge",
+        "facebook": "Les réseaux distribuent une publication. VOCE Academy conserve les textes, leurs références et les liens entre les sujets.\n\nRetrouvez les textes documentés sur VOCE: https://voce.life/archive?utm_source=facebook&utm_medium=social&utm_campaign=voce-academy&utm_content=topic\n\n#VOCEAssociation #Research #ScientificLiteracy #OpenKnowledge",
+        "instagram": "Les réseaux distribuent une publication. VOCE Academy conserve les textes, leurs références et les liens entre les sujets.\n\nRetrouvez VOCE dans le lien du profil et choisissez votre rubrique.\n\n#VOCEAssociation #Research #ScientificLiteracy #OpenKnowledge",
+        "tiktok": "Les réseaux distribuent une publication. VOCE Academy conserve les textes, leurs références et les liens entre les sujets.\n\nTextes et sources: lien VOCE dans le profil.\n\n#VOCEAssociation #Research #ScientificLiteracy #OpenKnowledge"
+      },
+      "measurement": {
+        "visits": "ga4_sessions_by_utm_campaign",
+        "engagement": "voce_article_open",
+        "contacts": "voce_contact_interest"
+      },
+      "status": "prepared_not_published"
+    },
+    {
+      "id": "voce-ai-governance",
+      "theme": "Gouvernance IA",
+      "audience": "institutions",
+      "destination": "https://voce.life/governance",
+      "hashtags": [
+        "#VOCEAssociation",
+        "#AIGovernance",
+        "#AgenticAI",
+        "#AIAssurance"
+      ],
+      "platform_links": {
+        "linkedin": "https://voce.life/governance?utm_source=linkedin&utm_medium=social&utm_campaign=voce-ai-governance&utm_content=topic",
+        "facebook": "https://voce.life/governance?utm_source=facebook&utm_medium=social&utm_campaign=voce-ai-governance&utm_content=topic",
+        "instagram": "https://voce.life/discover?utm_source=instagram&utm_medium=social&utm_campaign=voce-ai-governance&utm_content=profile",
+        "tiktok": "https://voce.life/discover?utm_source=tiktok&utm_medium=social&utm_campaign=voce-ai-governance&utm_content=profile"
+      },
+      "organic_copy_fr": {
+        "linkedin": "Un agent IA peut consulter des données et déclencher des actions. Découvrez comment VOCE étudie ses droits et ses responsabilités.\n\nLire sur VOCE: https://voce.life/governance?utm_source=linkedin&utm_medium=social&utm_campaign=voce-ai-governance&utm_content=topic\n\n#VOCEAssociation #AIGovernance #AgenticAI #AIAssurance",
+        "facebook": "Un agent IA peut consulter des données et déclencher des actions. Découvrez comment VOCE étudie ses droits et ses responsabilités.\n\nRetrouvez les textes documentés sur VOCE: https://voce.life/governance?utm_source=facebook&utm_medium=social&utm_campaign=voce-ai-governance&utm_content=topic\n\n#VOCEAssociation #AIGovernance #AgenticAI #AIAssurance",
+        "instagram": "Un agent IA peut consulter des données et déclencher des actions. Découvrez comment VOCE étudie ses droits et ses responsabilités.\n\nRetrouvez VOCE dans le lien du profil et choisissez votre rubrique.\n\n#VOCEAssociation #AIGovernance #AgenticAI #AIAssurance",
+        "tiktok": "Un agent IA peut consulter des données et déclencher des actions. Découvrez comment VOCE étudie ses droits et ses responsabilités.\n\nTextes et sources: lien VOCE dans le profil.\n\n#VOCEAssociation #AIGovernance #AgenticAI #AIAssurance"
+      },
+      "measurement": {
+        "visits": "ga4_sessions_by_utm_campaign",
+        "engagement": "voce_article_open",
+        "contacts": "voce_contact_interest"
+      },
+      "status": "prepared_not_published"
+    },
+    {
+      "id": "voce-technoference",
+      "theme": "Technoference",
+      "audience": "lecteurs",
+      "destination": "https://voce.life/technoference",
+      "hashtags": [
+        "#VOCEAssociation",
+        "#Technoference",
+        "#CognitiveScience",
+        "#DigitalWellbeing"
+      ],
+      "platform_links": {
+        "linkedin": "https://voce.life/technoference?utm_source=linkedin&utm_medium=social&utm_campaign=voce-technoference&utm_content=topic",
+        "facebook": "https://voce.life/technoference?utm_source=facebook&utm_medium=social&utm_campaign=voce-technoference&utm_content=topic",
+        "instagram": "https://voce.life/discover?utm_source=instagram&utm_medium=social&utm_campaign=voce-technoference&utm_content=profile",
+        "tiktok": "https://voce.life/discover?utm_source=tiktok&utm_medium=social&utm_campaign=voce-technoference&utm_content=profile"
+      },
+      "organic_copy_fr": {
+        "linkedin": "L'interruption numérique modifie parfois bien davantage qu'un temps d'écran. Explorez les mécanismes documentés par VOCE.\n\nLire sur VOCE: https://voce.life/technoference?utm_source=linkedin&utm_medium=social&utm_campaign=voce-technoference&utm_content=topic\n\n#VOCEAssociation #Technoference #CognitiveScience #DigitalWellbeing",
+        "facebook": "L'interruption numérique modifie parfois bien davantage qu'un temps d'écran. Explorez les mécanismes documentés par VOCE.\n\nRetrouvez les textes documentés sur VOCE: https://voce.life/technoference?utm_source=facebook&utm_medium=social&utm_campaign=voce-technoference&utm_content=topic\n\n#VOCEAssociation #Technoference #CognitiveScience #DigitalWellbeing",
+        "instagram": "L'interruption numérique modifie parfois bien davantage qu'un temps d'écran. Explorez les mécanismes documentés par VOCE.\n\nRetrouvez VOCE dans le lien du profil et choisissez votre rubrique.\n\n#VOCEAssociation #Technoference #CognitiveScience #DigitalWellbeing",
+        "tiktok": "L'interruption numérique modifie parfois bien davantage qu'un temps d'écran. Explorez les mécanismes documentés par VOCE.\n\nTextes et sources: lien VOCE dans le profil.\n\n#VOCEAssociation #Technoference #CognitiveScience #DigitalWellbeing"
+      },
+      "measurement": {
+        "visits": "ga4_sessions_by_utm_campaign",
+        "engagement": "voce_article_open",
+        "contacts": "voce_contact_interest"
+      },
+      "status": "prepared_not_published"
+    },
+    {
+      "id": "voce-art",
+      "theme": "VOCE Art",
+      "audience": "institutions",
+      "destination": "https://voce.life/art",
+      "hashtags": [
+        "#VOCEAssociation",
+        "#ArtProvenance",
+        "#ArtHistory",
+        "#CulturalHeritage"
+      ],
+      "platform_links": {
+        "linkedin": "https://voce.life/art?utm_source=linkedin&utm_medium=social&utm_campaign=voce-art&utm_content=topic",
+        "facebook": "https://voce.life/art?utm_source=facebook&utm_medium=social&utm_campaign=voce-art&utm_content=topic",
+        "instagram": "https://voce.life/discover?utm_source=instagram&utm_medium=social&utm_campaign=voce-art&utm_content=profile",
+        "tiktok": "https://voce.life/discover?utm_source=tiktok&utm_medium=social&utm_campaign=voce-art&utm_content=profile"
+      },
+      "organic_copy_fr": {
+        "linkedin": "Une œuvre possède une histoire qui dépasse son image. VOCE Art explore sa documentation et sa provenance.\n\nLire sur VOCE: https://voce.life/art?utm_source=linkedin&utm_medium=social&utm_campaign=voce-art&utm_content=topic\n\n#VOCEAssociation #ArtProvenance #ArtHistory #CulturalHeritage",
+        "facebook": "Une œuvre possède une histoire qui dépasse son image. VOCE Art explore sa documentation et sa provenance.\n\nRetrouvez les textes documentés sur VOCE: https://voce.life/art?utm_source=facebook&utm_medium=social&utm_campaign=voce-art&utm_content=topic\n\n#VOCEAssociation #ArtProvenance #ArtHistory #CulturalHeritage",
+        "instagram": "Une œuvre possède une histoire qui dépasse son image. VOCE Art explore sa documentation et sa provenance.\n\nRetrouvez VOCE dans le lien du profil et choisissez votre rubrique.\n\n#VOCEAssociation #ArtProvenance #ArtHistory #CulturalHeritage",
+        "tiktok": "Une œuvre possède une histoire qui dépasse son image. VOCE Art explore sa documentation et sa provenance.\n\nTextes et sources: lien VOCE dans le profil.\n\n#VOCEAssociation #ArtProvenance #ArtHistory #CulturalHeritage"
+      },
+      "measurement": {
+        "visits": "ga4_sessions_by_utm_campaign",
+        "engagement": "voce_article_open",
+        "contacts": "voce_contact_interest"
+      },
+      "status": "prepared_not_published"
+    },
+    {
+      "id": "voce-research",
+      "theme": "VOCE Research",
+      "audience": "lecteurs",
+      "destination": "https://voce.life/research",
+      "hashtags": [
+        "#VOCEAssociation",
+        "#ScientificResearch",
+        "#EvidenceBased",
+        "#ResearchMethods"
+      ],
+      "platform_links": {
+        "linkedin": "https://voce.life/research?utm_source=linkedin&utm_medium=social&utm_campaign=voce-research&utm_content=topic",
+        "facebook": "https://voce.life/research?utm_source=facebook&utm_medium=social&utm_campaign=voce-research&utm_content=topic",
+        "instagram": "https://voce.life/discover?utm_source=instagram&utm_medium=social&utm_campaign=voce-research&utm_content=profile",
+        "tiktok": "https://voce.life/discover?utm_source=tiktok&utm_medium=social&utm_campaign=voce-research&utm_content=profile"
+      },
+      "organic_copy_fr": {
+        "linkedin": "La qualité d'une recherche tient aussi à ce qu'elle refuse de conclure. Explorez les travaux et méthodes VOCE.\n\nLire sur VOCE: https://voce.life/research?utm_source=linkedin&utm_medium=social&utm_campaign=voce-research&utm_content=topic\n\n#VOCEAssociation #ScientificResearch #EvidenceBased #ResearchMethods",
+        "facebook": "La qualité d'une recherche tient aussi à ce qu'elle refuse de conclure. Explorez les travaux et méthodes VOCE.\n\nRetrouvez les textes documentés sur VOCE: https://voce.life/research?utm_source=facebook&utm_medium=social&utm_campaign=voce-research&utm_content=topic\n\n#VOCEAssociation #ScientificResearch #EvidenceBased #ResearchMethods",
+        "instagram": "La qualité d'une recherche tient aussi à ce qu'elle refuse de conclure. Explorez les travaux et méthodes VOCE.\n\nRetrouvez VOCE dans le lien du profil et choisissez votre rubrique.\n\n#VOCEAssociation #ScientificResearch #EvidenceBased #ResearchMethods",
+        "tiktok": "La qualité d'une recherche tient aussi à ce qu'elle refuse de conclure. Explorez les travaux et méthodes VOCE.\n\nTextes et sources: lien VOCE dans le profil.\n\n#VOCEAssociation #ScientificResearch #EvidenceBased #ResearchMethods"
+      },
+      "measurement": {
+        "visits": "ga4_sessions_by_utm_campaign",
+        "engagement": "voce_article_open",
+        "contacts": "voce_contact_interest"
+      },
+      "status": "prepared_not_published"
+    },
+    {
+      "id": "voce-sovereignty",
+      "theme": "Souveraineté technologique",
+      "audience": "institutions",
+      "destination": "https://voce.life/sovereignty",
+      "hashtags": [
+        "#VOCEAssociation",
+        "#DigitalSovereignty",
+        "#CloudComputing",
+        "#TechnologyGovernance"
+      ],
+      "platform_links": {
+        "linkedin": "https://voce.life/sovereignty?utm_source=linkedin&utm_medium=social&utm_campaign=voce-sovereignty&utm_content=topic",
+        "facebook": "https://voce.life/sovereignty?utm_source=facebook&utm_medium=social&utm_campaign=voce-sovereignty&utm_content=topic",
+        "instagram": "https://voce.life/discover?utm_source=instagram&utm_medium=social&utm_campaign=voce-sovereignty&utm_content=profile",
+        "tiktok": "https://voce.life/discover?utm_source=tiktok&utm_medium=social&utm_campaign=voce-sovereignty&utm_content=profile"
+      },
+      "organic_copy_fr": {
+        "linkedin": "Posséder un modèle d'IA ne suffit pas pour décider. VOCE étudie les dépendances et les possibilités réelles d'autonomie.\n\nLire sur VOCE: https://voce.life/sovereignty?utm_source=linkedin&utm_medium=social&utm_campaign=voce-sovereignty&utm_content=topic\n\n#VOCEAssociation #DigitalSovereignty #CloudComputing #TechnologyGovernance",
+        "facebook": "Posséder un modèle d'IA ne suffit pas pour décider. VOCE étudie les dépendances et les possibilités réelles d'autonomie.\n\nRetrouvez les textes documentés sur VOCE: https://voce.life/sovereignty?utm_source=facebook&utm_medium=social&utm_campaign=voce-sovereignty&utm_content=topic\n\n#VOCEAssociation #DigitalSovereignty #CloudComputing #TechnologyGovernance",
+        "instagram": "Posséder un modèle d'IA ne suffit pas pour décider. VOCE étudie les dépendances et les possibilités réelles d'autonomie.\n\nRetrouvez VOCE dans le lien du profil et choisissez votre rubrique.\n\n#VOCEAssociation #DigitalSovereignty #CloudComputing #TechnologyGovernance",
+        "tiktok": "Posséder un modèle d'IA ne suffit pas pour décider. VOCE étudie les dépendances et les possibilités réelles d'autonomie.\n\nTextes et sources: lien VOCE dans le profil.\n\n#VOCEAssociation #DigitalSovereignty #CloudComputing #TechnologyGovernance"
+      },
+      "measurement": {
+        "visits": "ga4_sessions_by_utm_campaign",
+        "engagement": "voce_article_open",
+        "contacts": "voce_contact_interest"
+      },
+      "status": "prepared_not_published"
+    },
+    {
+      "id": "voce-light-workforce",
+      "theme": "Travail et automatisation",
+      "audience": "institutions",
+      "destination": "https://voce.life/light-workforce",
+      "hashtags": [
+        "#VOCEAssociation",
+        "#FutureOfWork",
+        "#AgenticAI",
+        "#WorkforceTransformation"
+      ],
+      "platform_links": {
+        "linkedin": "https://voce.life/light-workforce?utm_source=linkedin&utm_medium=social&utm_campaign=voce-light-workforce&utm_content=topic",
+        "facebook": "https://voce.life/light-workforce?utm_source=facebook&utm_medium=social&utm_campaign=voce-light-workforce&utm_content=topic",
+        "instagram": "https://voce.life/discover?utm_source=instagram&utm_medium=social&utm_campaign=voce-light-workforce&utm_content=profile",
+        "tiktok": "https://voce.life/discover?utm_source=tiktok&utm_medium=social&utm_campaign=voce-light-workforce&utm_content=profile"
+      },
+      "organic_copy_fr": {
+        "linkedin": "Si les agents automatisent les tâches des débutants, comment se formeront les experts de demain? Découvrez les analyses VOCE.\n\nLire sur VOCE: https://voce.life/light-workforce?utm_source=linkedin&utm_medium=social&utm_campaign=voce-light-workforce&utm_content=topic\n\n#VOCEAssociation #FutureOfWork #AgenticAI #WorkforceTransformation",
+        "facebook": "Si les agents automatisent les tâches des débutants, comment se formeront les experts de demain? Découvrez les analyses VOCE.\n\nRetrouvez les textes documentés sur VOCE: https://voce.life/light-workforce?utm_source=facebook&utm_medium=social&utm_campaign=voce-light-workforce&utm_content=topic\n\n#VOCEAssociation #FutureOfWork #AgenticAI #WorkforceTransformation",
+        "instagram": "Si les agents automatisent les tâches des débutants, comment se formeront les experts de demain? Découvrez les analyses VOCE.\n\nRetrouvez VOCE dans le lien du profil et choisissez votre rubrique.\n\n#VOCEAssociation #FutureOfWork #AgenticAI #WorkforceTransformation",
+        "tiktok": "Si les agents automatisent les tâches des débutants, comment se formeront les experts de demain? Découvrez les analyses VOCE.\n\nTextes et sources: lien VOCE dans le profil.\n\n#VOCEAssociation #FutureOfWork #AgenticAI #WorkforceTransformation"
+      },
+      "measurement": {
+        "visits": "ga4_sessions_by_utm_campaign",
+        "engagement": "voce_article_open",
+        "contacts": "voce_contact_interest"
+      },
+      "status": "prepared_not_published"
+    },
+    {
+      "id": "voce-museums",
+      "theme": "Musées et données",
+      "audience": "institutions",
+      "destination": "https://voce.life/art",
+      "hashtags": [
+        "#VOCEAssociation",
+        "#MuseumStudies",
+        "#CulturalHeritage",
+        "#DigitalTransformation"
+      ],
+      "platform_links": {
+        "linkedin": "https://voce.life/art?utm_source=linkedin&utm_medium=social&utm_campaign=voce-museums&utm_content=topic",
+        "facebook": "https://voce.life/art?utm_source=facebook&utm_medium=social&utm_campaign=voce-museums&utm_content=topic",
+        "instagram": "https://voce.life/discover?utm_source=instagram&utm_medium=social&utm_campaign=voce-museums&utm_content=profile",
+        "tiktok": "https://voce.life/discover?utm_source=tiktok&utm_medium=social&utm_campaign=voce-museums&utm_content=profile"
+      },
+      "organic_copy_fr": {
+        "linkedin": "Documentation des œuvres, technologie et relations avec les publics: explorez les recherches culturelles de VOCE.\n\nLire sur VOCE: https://voce.life/art?utm_source=linkedin&utm_medium=social&utm_campaign=voce-museums&utm_content=topic\n\n#VOCEAssociation #MuseumStudies #CulturalHeritage #DigitalTransformation",
+        "facebook": "Documentation des œuvres, technologie et relations avec les publics: explorez les recherches culturelles de VOCE.\n\nRetrouvez les textes documentés sur VOCE: https://voce.life/art?utm_source=facebook&utm_medium=social&utm_campaign=voce-museums&utm_content=topic\n\n#VOCEAssociation #MuseumStudies #CulturalHeritage #DigitalTransformation",
+        "instagram": "Documentation des œuvres, technologie et relations avec les publics: explorez les recherches culturelles de VOCE.\n\nRetrouvez VOCE dans le lien du profil et choisissez votre rubrique.\n\n#VOCEAssociation #MuseumStudies #CulturalHeritage #DigitalTransformation",
+        "tiktok": "Documentation des œuvres, technologie et relations avec les publics: explorez les recherches culturelles de VOCE.\n\nTextes et sources: lien VOCE dans le profil.\n\n#VOCEAssociation #MuseumStudies #CulturalHeritage #DigitalTransformation"
+      },
+      "measurement": {
+        "visits": "ga4_sessions_by_utm_campaign",
+        "engagement": "voce_article_open",
+        "contacts": "voce_contact_interest"
+      },
+      "status": "prepared_not_published"
+    }
+  ]
+}
