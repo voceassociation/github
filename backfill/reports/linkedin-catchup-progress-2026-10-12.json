@@ -194,13 +194,22 @@
     "7515320570008219649",
     "7515305429837586433",
     "7515290330926194688",
-    "7515275221361315841"
+    "7515275221361315841",
+    "7515365850959421440",
+    "7515260109472686080",
+    "7514248492110970880"
   ],
   "current_ingestion": {
-    "status": "source_packet_verified_pending_workflow",
-    "added": 5,
-    "expected_corpus_items": 1597,
+    "status": "eight_new_sources_verified_since_1592_baseline",
+    "expected_corpus_items": 1600,
     "previous_texts_and_canonicals_preserved": 1592,
-    "new_conflicts": 0
+    "new_conflicts": 0,
+    "first_five_workflow": {
+      "run": 38241986212,
+      "conclusion": "success",
+      "corpus_commit": "53949ba074bed0adbcf43606af3097d3664f3a5e",
+      "build": "600bb2fe-73ce-4ab4-ab7f-9a2f63aea78e",
+      "build_success": true
+    }
   }
 }

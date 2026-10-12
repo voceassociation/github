@@ -38,7 +38,8 @@ for item in existing.values():
     text_owner.setdefault(digest(item['text']), item)
 records, conflicts, scan, seen = [], [], {}, {}
 new_count = 0
-for path in sorted((WORK/'raw').glob('*.json')):
+source_packets = list((WORK/'raw').glob('*.json')) + list((WORK/'raw'/'browser').glob('*.json'))
+for path in sorted(source_packets, key=lambda p: (p.stem, str(p))):
     # Dated connector packets and verified browser captures belong to this pass.
     # Adobe/Facebook evidence files share the raw directory but use other schemas.
     if not re.fullmatch(r'\d{4}-\d{2}-\d{2}\.json', path.name):
@@ -70,9 +71,16 @@ for path in sorted((WORK/'raw').glob('*.json')):
         if response.get('isError'):
             scan[day] = {'status':'retry_required'}; continue
         rows = json.loads(response['content'][0]['text'])['rows']
-    scan[day] = {'status':'rows_returned' if rows else 'no_rows_not_proof_of_absence', 'rows':len(rows)}
+    previous_scan = scan.get(day)
+    scan[day] = {'status':'rows_returned' if rows else 'no_rows_not_proof_of_absence', 'rows':len(rows), 'source_packets':[str(path.relative_to(ROOT))]}
     if browser:
         scan[day].update(source='authenticated_linkedin_browser', coverage_complete=bool(packet.get('coverage_complete')))
+    if previous_scan:
+        scan[day]['rows'] += previous_scan.get('rows', 0)
+        scan[day]['source_packets'] = previous_scan.get('source_packets', []) + scan[day]['source_packets']
+        if scan[day]['rows']:
+            scan[day]['status'] = 'rows_returned'
+        scan[day]['source'] = 'historical_connector_and_authenticated_linkedin_browser'
     for created, raw, urn, url in rows:
         ident = urn.rsplit(':',1)[-1]; key = 'linkedin:' + ident
         if not re.fullmatch(r'\d+',ident) or not url.startswith('https://www.linkedin.com/feed/update/'+urn):

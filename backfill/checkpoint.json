@@ -1961,8 +1961,8 @@
       }
     },
     "linkedin_catchup_2026_10_12": {
-      "checked_at": "2026-10-12T11:19:57.676Z",
-      "status": "first_five_source_packet_verified_pending_workflow",
+      "checked_at": "2026-10-12T11:24:51.486Z",
+      "status": "nine_verified_sources_pending_next_ingestion",
       "baseline_corpus": 1592,
       "baseline_after_oct9": "7514233394118086656",
       "coverage_scan_run": "c07c8141-da6a-4a59-80f6-e27afe4f68db",
@@ -2077,9 +2077,13 @@
         "7515320570008219649",
         "7515305429837586433",
         "7515290330926194688",
-        "7515275221361315841"
+        "7515275221361315841",
+        "7515365850959421440",
+        "7515260109472686080",
+        "7514248492110970880"
       ],
-      "expected_corpus_after_ingest": 1597
+      "expected_corpus_after_ingest": 1600,
+      "pending_candidates": 15
     }
   }
 }
