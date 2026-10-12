@@ -40,7 +40,7 @@
   }
 
   function masterSource(lang) {
-    return `/assets/audio/voce-signature-${lang}.wav`;
+    return pageKey === "home" ? `/assets/audio/voce-signature-${lang}.wav` : `/assets/audio/voce-brief-${pageKey}-${lang}.wav`;
   }
 
   function findAnchor() {
