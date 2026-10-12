@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T09:50:09.641Z",
+  "updated_at": "2026-10-12T09:58:45.580Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1818,7 +1818,7 @@
     },
     "weekly_seo_followup_2026_10_12": {
       "report": "backfill/reports/weekly-seo-followup-2026-10-12.json",
-      "checked_at": "2026-10-12T09:50:09.641Z",
+      "checked_at": "2026-10-12T09:58:45.580Z",
       "google": {
         "checked_at": "2026-10-12T09:38:53.378Z",
         "run_id": "ce5fb30a-526e-4d06-a370-7639cf3e5842",
@@ -1877,7 +1877,28 @@
         ]
       },
       "visual_assets": 96,
-      "deployment": "awaiting_verification"
+      "deployment": "verified_live",
+      "implementation_commit": "0204465cb5d29c460dd40c16f35e244f2de95be5",
+      "public_after_deployment": [
+        {
+          "path": "/data/corpus.json",
+          "items": 1591,
+          "generated_at": "2026-10-11T21:35:22.472819+00:00"
+        },
+        {
+          "path": "/.well-known/voce-corpus-backup",
+          "source_snapshot_complete": true,
+          "derived_backup_complete": true,
+          "corpus_items": 1591,
+          "synced_at": "2026-10-12T09:52:27.802Z"
+        },
+        {
+          "path": "/sitemap.xml",
+          "urls": 2336,
+          "unique_urls": 2336
+        }
+      ],
+      "visual_downloads_http_200": 96
     }
   }
 }

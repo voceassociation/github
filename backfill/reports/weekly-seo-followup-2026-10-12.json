@@ -1,6 +1,6 @@
 {
   "schema": "voce.weekly-seo-followup.v1",
-  "checked_at": "2026-10-12T09:50:09.641Z",
+  "checked_at": "2026-10-12T09:58:45.580Z",
   "baseline_commit": "797ab13f470d6eea3313b4b2416bf7795c245880",
   "public_sitemap": {
     "urls": 2336,
@@ -96,8 +96,42 @@
       "manifest_hash_guard": true
     },
     "deployment": {
-      "status": "awaiting_verification"
+      "status": "verified_live",
+      "implementation_commit": "0204465cb5d29c460dd40c16f35e244f2de95be5",
+      "cloudflare_build": "9ae42a2f-09c6-4f85-af87-8111147032a0",
+      "build_success_at": "2026-10-12T09:51:13.034Z",
+      "http_verification": {
+        "checked_assets": 96,
+        "successful": 96,
+        "failures": [],
+        "first_pass_transient_timeouts": 12,
+        "retry_parallelism": 4
+      },
+      "binary_hashes_and_file_signatures_verified": 4,
+      "static_html_downloads_verified": 96,
+      "browser_run_id": "a44c7f70-0144-42df-b580-d05e21bfb6d9",
+      "browser_pdf_viewer_loaded": true,
+      "browser_png_mime_inference_corrected": "Provider inferred a text/html PNG response from its text representation. Actual HTTP content-type, PNG byte signatures, image decoding and exact published checksums establish genuine PNG responses."
     }
   },
-  "interpretation": "Technical discovery improved; Google reach is still modest. Property-wide indexing figures include historical/alternate routes and must not be treated as a corpus indexing percentage. Stable Academy count cannot establish publication completeness while the LinkedIn connector is disconnected."
+  "interpretation": "Technical discovery improved; Google reach is still modest. Property-wide indexing figures include historical/alternate routes and must not be treated as a corpus indexing percentage. Stable Academy count cannot establish publication completeness while the LinkedIn connector is disconnected.",
+  "public_after_deployment": [
+    {
+      "path": "/data/corpus.json",
+      "items": 1591,
+      "generated_at": "2026-10-11T21:35:22.472819+00:00"
+    },
+    {
+      "path": "/.well-known/voce-corpus-backup",
+      "source_snapshot_complete": true,
+      "derived_backup_complete": true,
+      "corpus_items": 1591,
+      "synced_at": "2026-10-12T09:52:27.802Z"
+    },
+    {
+      "path": "/sitemap.xml",
+      "urls": 2336,
+      "unique_urls": 2336
+    }
+  ]
 }
