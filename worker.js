@@ -50,6 +50,51 @@ function hex(buffer) {
 
 const VOCE_PRIVACY_DEFAULT_SCRIPT = `<script>(function(){function deny(){try{if(window.zaraz&&zaraz.consent&&zaraz.consent.APIReady){zaraz.consent.setAll(false);zaraz.consent.modal=false;return true}}catch(e){}return false}function fallback(){var b=document.getElementById("cf_consent-buttons__reject-all");if(b){b.click();return true}var d=document.querySelector("dialog.cf_modal");if(d&&d.open){try{d.close()}catch(e){}return true}return false}if(!deny()){document.addEventListener("zarazConsentAPIReady",function(){deny();fallback()},{once:true})}var o=new MutationObserver(function(){if(deny()||fallback()){o.disconnect()}});o.observe(document.documentElement,{childList:true,subtree:true});setTimeout(function(){deny();fallback();o.disconnect()},30000)})();<\/script>`;
 
+// VOCE Audio: authorized HeyGen stock voice, rehosted privately in R2 on first request.
+const VOCE_AUDIO_ORIGINS = Object.freeze({
+  fr: "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=7ff0fcd1-487c-4728-9821-0163f097076e.wav",
+  en: "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=08f4d1b7-03a8-410a-b74c-32aca4b621ed.wav",
+  it: "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=00aec082-6820-4373-ad1c-4f468bd386bf.wav"
+});
+
+async function serveVoceAudio(request, env, lang) {
+  if (request.method !== "GET" && request.method !== "HEAD") {
+    return new Response("Method not allowed", { status: 405, headers: { "allow": "GET, HEAD" } });
+  }
+  const key = `assets/audio/voce-signature-${lang}.wav`;
+  try {
+    let audio = await env.VOCE_CORPUS.get(key);
+    if (!audio) {
+      const remote = await fetch(VOCE_AUDIO_ORIGINS[lang], { redirect: "follow" });
+      if (!remote.ok) return new Response("Audio temporarily unavailable", { status: 503 });
+      const contentType = remote.headers.get("content-type") || "";
+      if (!/^(audio\/|application\/octet-stream)/i.test(contentType)) {
+        return new Response("Invalid audio source", { status: 502 });
+      }
+      const bytes = await remote.arrayBuffer();
+      if (bytes.byteLength < 1024 || bytes.byteLength > 20_000_000) {
+        return new Response("Invalid audio length", { status: 502 });
+      }
+      await env.VOCE_CORPUS.put(key, bytes, {
+        httpMetadata: { contentType: "audio/wav" },
+        customMetadata: { voice: "Paul Soothing", language: lang, origin: "HeyGen" }
+      });
+      audio = await env.VOCE_CORPUS.get(key);
+    }
+    if (!audio) return new Response("Audio unavailable", { status: 503 });
+    return new Response(request.method === "HEAD" ? null : audio.body, {
+      headers: {
+        "content-type": "audio/wav",
+        "content-length": String(audio.size),
+        "cache-control": "public, max-age=3600",
+        "x-content-type-options": "nosniff"
+      }
+    });
+  } catch {
+    return new Response("Audio temporarily unavailable", { status: 503, headers: { "cache-control": "no-store" } });
+  }
+}
+
 const VOCE_AUDIO_ASSETS = `
 <link rel="stylesheet" href="/voce-audio.css">
 <script src="/voce-audio.js" defer><\/script>
@@ -1576,6 +1621,9 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     const pathname = url.pathname.length > 1 ? url.pathname.replace(/\/+$/, "") : url.pathname;
+    const voceAudioMatch = pathname.match(/^\/assets\/audio\/voce-signature-(fr|en|it)\.wav$/);
+    if (voceAudioMatch) return serveVoceAudio(request, env, voceAudioMatch[1]);
+
     const INDEXNOW_KEY = "9e4c71d85a2f4b6cb3098f21d7a56e40";
 
     if (pathname === `/${INDEXNOW_KEY}.txt`) {
