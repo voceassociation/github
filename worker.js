@@ -1339,25 +1339,42 @@ function renderHistoryDay(day) {
 }
 
 function voceShareTags(title, text) {
-  // Small, editorially controlled selection. Tags guide discovery, not ranking.
-  const t=String(title||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
-  const packs=[
-    [/cancer|tum(eur|or)|leucem|chimiotherap|oncolog|pancreas|prostate|sein\b|poumon/,"#CancerResearch #Oncology #MedicalResearch"],
-    [/alzheimer|demence|parkinson|neurodegener/,"#AlzheimersResearch #Neuroscience #CognitiveHealth"],
-    [/technoference|smartphone|ecran|notification|interruption numerique/,"#Technoference #DigitalWellbeing #CognitiveScience"],
-    [/musee|museum|patrimoine|restaurat|provenance|billetterie|galerie|collection/,"#CulturalHeritage #MuseumStudies #ArtHistory"],
-    [/luxe|haute couture|fashion|hospitality|hotellerie/,"#LuxuryIndustry #Hospitality #CulturalResearch"],
-    [/agent|mcp|model evaluation|governance|gouvernance|audit ia|evaluation ia|identite numerique|spiffe/,"#AgenticAI #AIGovernance #AIAssurance"],
-    [/robot|humanoide|production industrielle|usine/,"#Robotics #Industry40 #FutureOfWork"],
-    [/education|ecole|eleve|enseignant|enfant|parentalite|adolescent/,"#ChildDevelopment #EducationResearch #HumanBehaviour"],
-    [/cerveau|memoire|cognition|neuroscien|psycholog|attention|conscience/,"#CognitiveScience #Neuroscience #Psychology"],
-    [/climat|ecosystem|ocean|biodivers|ressource naturelle/,"#ClimateResearch #EnvironmentalScience #Sustainability"],
-    [/culture|histoire|civilisation|opera|artiste|architecture/,"#CulturalHistory #ArtHistory #Heritage"],
-    [/cyber|authentification|cloud|logiciel|informatique/,"#Cybersecurity #DigitalInfrastructure #DigitalSovereignty"],
-    [/travail|emploi|entreprise|metier|productivite/,"#FutureOfWork #WorkforceTransformation #Leadership"]
+  // One durable VOCE signature + three domain-accurate discovery tags.
+  // Taxonomy is editorial, not a claim of hashtag reach or follower numbers.
+  const normalize=s=>String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+  const head=normalize(title);
+  const excerpt=normalize(String(text||"").slice(0,1500));
+  const groups=[
+    {re:/alzheimer|demenc|parkinson|neurodegener/,tags:["#AlzheimersResearch","#Neuroscience","#CognitiveHealth"]},
+    {re:/cancer|oncolog|tumor|tumeur|carcinom|leucem|metastas|chimiotherap|pancreas|prostate|her2|triple.negati/,tags:["#CancerResearch","#Oncology","#MedicalResearch"]},
+    {re:/menopause|fertilit|gynecolog|endometriose|grossesse|maternit/,tags:["#WomensHealth","#MedicalResearch","#ReproductiveHealth"]},
+    {re:/microbiom|microbiot|bacteri|intestinal|virolog|hpv|immunolog|vaccin/,tags:["#Microbiome","#MedicalResearch","#LifeSciences"]},
+    {re:/technoference|notification|smartphone|temps d.ecran|interruption numerique/,tags:["#Technoference","#DigitalWellbeing","#CognitiveScience"]},
+    {re:/provenance|attribution|restaurat|collection privee|authentic|march[ée] de l.art|oeuvre d.art/,tags:["#ArtProvenance","#ArtHistory","#CulturalHeritage"]},
+    {re:/musee|museum|billetterie|patrimoine|exposition|curator|galerie|museograph/,tags:["#MuseumStudies","#CulturalHeritage","#DigitalMuseums"]},
+    {re:/c2pa|copyright|droit d.auteur|licence|contenu synthetique|propriete intellectuelle/,tags:["#ContentProvenance","#Copyright","#AIGovernance"]},
+    {re:/spiffe|svid|identite machine|least privilege|permissions|mcp|agentic|agent ia|agent autonome|agent logiciel|gouvernance|argos|conformance|audit ia/,tags:["#AgenticAI","#AIGovernance","#AIAssurance"]},
+    {re:/chaine d.approvision|supply.chain|tiers fournisseur|dependance cloud|souverainete numerique|souverainete technologique/,tags:["#DigitalSovereignty","#SupplyChain","#TechnologyGovernance"]},
+    {re:/robot|humanoide|usine|automatisat|embodied|industrie 4|cobot/,tags:["#Robotics","#Industry40","#FutureOfWork"]},
+    {re:/cyber|securite informatique|malware|authentification|ransomware|zero trust/,tags:["#Cybersecurity","#DigitalInfrastructure","#AIGovernance"]},
+    {re:/enfant|adolescen|nourrisson|parentalit|education|eleve|ecole|enseignant/,tags:["#ChildDevelopment","#EducationResearch","#HumanBehaviour"]},
+    {re:/cerveau|memoire|cognition|neuro|conscience|psycholog|attention|estime de soi|comportement/,tags:["#CognitiveScience","#Neuroscience","#Psychology"]},
+    {re:/opera|compositeur|verdi|puccini|mozart|wagner|theatre|musique|orchestre/,tags:["#Opera","#MusicHistory","#CulturalHeritage"]},
+    {re:/architecture|venise|venezia|patrimoine|histoire|medieval|civilisation|heritage/,tags:["#CulturalHistory","#ArtHistory","#Heritage"]},
+    {re:/luxe|haute.couture|joaillerie|fashion|hospitality|hotellerie/,tags:["#LuxuryIndustry","#Hospitality","#CulturalResearch"]},
+    {re:/climat|ecosystem|ocean|biodivers|ressource naturelle|desertification|rechauffement/,tags:["#ClimateResearch","#EnvironmentalScience","#Sustainability"]},
+    {re:/travail|emploi|metier|productivite|recrutement|ressources humaines|comptabilite|management/,tags:["#FutureOfWork","#WorkforceTransformation","#Leadership"]},
+    {re:/droits? fondamentaux|droit penal|loi|legaltech|juridique|justice|tribunal/,tags:["#LegalTech","#AIRegulation","#DigitalRights"]},
+    {re:/ministere|gouvernement|service public|collectivite|fonction publique|appel d.offres/,tags:["#PublicSector","#DigitalGovernment","#AIGovernance"]},
+    {re:/modeles? de langage|large language model|llm|r ag\b|rag\b|benchmark|inference|deep learning|foundation model/,tags:["#ArtificialIntelligence","#MachineLearning","#AIResearch"]}
   ];
-  const pack=packs.find(([pattern])=>pattern.test(t));
-  return "#VOCEAssociation " + (pack ? pack[1] : "#Research #Culture #Science");
+  const scored=groups.map((g,index)=>{
+    const a=head.match(g.re);
+    const b=excerpt.match(g.re);
+    return {g,index,score:(a?4:0)+(b?1:0)};
+  }).filter(x=>x.score>0).sort((a,b)=>b.score-a.score||a.index-b.index);
+  const selected=scored.length?scored[0].g.tags:["#Research","#Culture","#Science"];
+  return ["#VOCEAssociation",...selected].join(" ");
 }
 
 function renderArticle(item, route, routes) {
@@ -1475,6 +1492,8 @@ ${body}
 <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(canonical)}" data-voce-share-linkedin target="_blank" rel="noopener noreferrer">LinkedIn</a>
 <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(canonical)}" data-voce-share-facebook target="_blank" rel="noopener noreferrer">Facebook</a>
 <button type="button" data-voce-share-copy>Copier texte et hashtags</button>
+<button type="button" data-voce-share-instagram>Instagram</button>
+<button type="button" data-voce-share-youtube>YouTube</button>
 </div>
 <textarea class="voce-share-template" hidden readonly aria-label="Texte prêt à partager"></textarea>
 <p class="voce-share-status" data-voce-share-status role="status" aria-live="polite"></p>
