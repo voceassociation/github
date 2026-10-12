@@ -1,0 +1,14 @@
+/* VOCE themes: accessible, crawlable editorial orientations */
+.voce-topic-brief{border-bottom:1px solid var(--line);background:var(--paper)}
+.voce-topic-brief-inner{display:grid;grid-template-columns:160px minmax(0,1fr);gap:42px;align-items:start;padding-top:20px;padding-bottom:22px}
+.voce-topic-brief-label{display:block;padding-top:4px;font-size:.57rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--forest)}
+.voce-topic-brief p{margin:0;max-width:930px;font-family:var(--serif);font-weight:400;font-size:clamp(.95rem,1.42vw,1.12rem);line-height:1.48;color:var(--ink)}
+.voce-guide-howto{margin:16px 0 18px;padding:0 0 14px;border-bottom:1px solid var(--line);max-width:840px}
+.voce-guide-howto>summary{display:list-item;cursor:pointer;color:var(--forest);font:700 .65rem var(--sans);letter-spacing:.06em}
+.voce-guide-howto>summary:focus-visible{outline:2px solid var(--forest);outline-offset:5px}
+.voce-guide-howto p{max-width:740px;margin:12px 0 0;color:var(--ink);font-size:.77rem;line-height:1.65}
+@media(max-width:720px){
+ .voce-topic-brief-inner{grid-template-columns:1fr;gap:8px;padding-top:18px;padding-bottom:20px}
+ .voce-topic-brief p{font-size:1rem}
+ .voce-guide-howto{margin:14px 0}
+}
