@@ -50,6 +50,11 @@ function hex(buffer) {
 
 const VOCE_PRIVACY_DEFAULT_SCRIPT = `<script>(function(){function deny(){try{if(window.zaraz&&zaraz.consent&&zaraz.consent.APIReady){zaraz.consent.setAll(false);zaraz.consent.modal=false;return true}}catch(e){}return false}function fallback(){var b=document.getElementById("cf_consent-buttons__reject-all");if(b){b.click();return true}var d=document.querySelector("dialog.cf_modal");if(d&&d.open){try{d.close()}catch(e){}return true}return false}if(!deny()){document.addEventListener("zarazConsentAPIReady",function(){deny();fallback()},{once:true})}var o=new MutationObserver(function(){if(deny()||fallback()){o.disconnect()}});o.observe(document.documentElement,{childList:true,subtree:true});setTimeout(function(){deny();fallback();o.disconnect()},30000)})();<\/script>`;
 
+const VOCE_AUDIO_ASSETS = `
+<link rel="stylesheet" href="/voce-audio.css">
+<script src="/voce-audio.js" defer><\/script>
+`;
+
 const VOCE_SOCIAL_META = `
 <meta property="og:image" content="https://voce.life/voce-og.jpg">
 <meta property="og:image:secure_url" content="https://voce.life/voce-og.jpg">
@@ -102,7 +107,7 @@ function injectPrivacyDefault(response) {
           if (!hasTwitterDescription && ogDescription) {
             pageSpecific += `\n<meta name="twitter:description" content="${escapeHtml(ogDescription)}">`;
           }
-          endTag.before(VOCE_PRIVACY_DEFAULT_SCRIPT + VOCE_SOCIAL_META + pageSpecific, { html: true });
+          endTag.before(VOCE_PRIVACY_DEFAULT_SCRIPT + VOCE_SOCIAL_META + VOCE_AUDIO_ASSETS + pageSpecific, { html: true });
         });
       }
     })
