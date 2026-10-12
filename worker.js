@@ -1494,6 +1494,7 @@ ${body}
 <button type="button" data-voce-share-copy>Copier texte et hashtags</button>
 <button type="button" data-voce-share-instagram>Instagram</button>
 <button type="button" data-voce-share-youtube>YouTube</button>
+<button type="button" data-voce-share-tiktok>TikTok</button>
 </div>
 <textarea class="voce-share-template" hidden readonly aria-label="Texte prêt à partager"></textarea>
 <p class="voce-share-status" data-voce-share-status role="status" aria-live="polite"></p>
