@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T10:39:11.011826+00:00",
+  "updated_at": "2026-10-12T10:45:25.140Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1901,12 +1901,12 @@
     },
     "direct_linkedin_transition_2026_10_12": {
       "report": "backfill/reports/direct-linkedin-transition-2026-10-12.json",
-      "checked_at": "2026-10-12T10:38:24.840Z",
+      "checked_at": "2026-10-12T10:45:25.140Z",
       "source_packet": "backfill/raw/2026-10-12.json",
       "verified_source_texts": 1,
       "candidates_pending": 5,
       "coverage_complete": false,
-      "added_to_academy": 0,
+      "added_to_academy": 1,
       "pending_deployment_expected_additions": 1,
       "automation": {
         "id": "6abb72f5e1108191961956e6e3738fea",
@@ -1917,7 +1917,48 @@
         "resume_from_checkpoint": true,
         "expired_session": "Request user login through secure handoff; do not bypass."
       },
-      "n8n_deployed": false
+      "n8n_deployed": false,
+      "academy_corpus_items": 1592,
+      "ingestion": {
+        "status": "published_and_verified",
+        "source_commit": "b6494340d39fe7e755e0439ee83a343d5e4193fa",
+        "corpus_commit": "d05c5d92a475ec2b2624c42fa8be75ce5de65f4a",
+        "workflow_run": 38237639654,
+        "workflow_job": 114772149208,
+        "workflow_conclusion": "success",
+        "corpus_items": 1592,
+        "exact_source_text_verified": true,
+        "previous_texts_and_canonicals_preserved": 1591,
+        "published_date_precision": "day",
+        "guide_top_result_verified": true,
+        "indexnow": {
+          "http_status": 200,
+          "received_urls": 45,
+          "indexing_claimed": false
+        },
+        "public_checks": [
+          {
+            "url": "https://voce.life/data/corpus.json",
+            "count": 1592,
+            "new_record_present": true,
+            "date_precision": "day"
+          },
+          {
+            "url": "https://voce.life/.well-known/voce-corpus-backup",
+            "count": 1592,
+            "source_snapshot_complete": true,
+            "derived_backup_complete": false,
+            "synced_at": "2026-10-12T10:41:18.000Z"
+          },
+          {
+            "url": "https://voce.life/archive/2026/10/12/un-materiau-sans-cellule-se-met-en-mouvement-selon-un-programme-ecrit-da-7515350721006018560",
+            "article_jsonld": true,
+            "exact_source_text": true,
+            "canonical": "https://voce.life/archive/2026/10/12/un-materiau-sans-cellule-se-met-en-mouvement-selon-un-programme-ecrit-da-7515350721006018560",
+            "datePublished": "2026-10-12"
+          }
+        ]
+      }
     }
   }
 }
