@@ -198,7 +198,7 @@ function injectPrivacyDefault(response) {
     .on(".footer-right", {
       element(element) {
         element.onEndTag(endTag => {
-          endTag.before('<div class="voce-consent-footer"><a href="/privacy" data-voce-cookie-settings>Cookie preferences</a></div>', {html:true});
+          endTag.before('<div class="voce-consent-footer"><a href="/discover" data-voce-discover-link>Discover VOCE</a> · <a href="/privacy" data-voce-cookie-settings>Cookie preferences</a></div>', {html:true});
         });
       }
     })
