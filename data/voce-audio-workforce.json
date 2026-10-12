@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "section": "workforce",
+  "voice": "Paul – Soothing",
+  "audios": {
+    "fr": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=aa66d542-996c-45b1-8ce6-dd851d515f05.wav",
+      "transcript": "Le travail change lorsque des agents logiciels et des robots exécutent certaines tâches. Votché Light Workforce examine la productivité, mais aussi les activités qui disparaissent des parcours de formation. Si les tâches des débutants sont automatisées, comment les experts de demain apprendront-ils leur métier? Le sujet concerne l'organisation réelle du travail et la responsabilité des dirigeants.",
+      "duration": 22.4
+    },
+    "en": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=b2055ace-c688-4bde-ae19-633882097083.wav",
+      "transcript": "Work changes when software agents and robots perform tasks once handled by people. Votché Light Workforce examines productivity alongside the work that disappears from training pathways. When entry-level tasks are automated, how will tomorrow's experts learn their profession? The question concerns the real organisation of work and institutional responsibility.",
+      "duration": 28.3
+    },
+    "it": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=0a03ed93-e11b-4a14-b15a-f25ee1e65edd.wav",
+      "transcript": "Il lavoro cambia quando agenti software e robot eseguono compiti prima svolti dalle persone. Voce Light Workforce studia la produttività e le attività che scompaiono dai percorsi di formazione. Se automatizziamo i compiti dei principianti, come nasceranno gli esperti di domani? Il tema riguarda l'organizzazione del lavoro e la responsabilità delle istituzioni.",
+      "duration": 30.5
+    }
+  }
+}
