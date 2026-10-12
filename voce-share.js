@@ -4,35 +4,64 @@
   const sourceUrl=panel.dataset.voceUrl||location.origin+location.pathname;
   const title=panel.dataset.voceTitle||document.title.replace(/ — VOCE$/,"");
   const tags=(panel.dataset.voceTags||"#VOCEAssociation").trim();
-  const tagLine=tags.split(/\s+/).filter(Boolean).slice(0,5).join(" ");
+  const tagLine=[...new Set(tags.split(/\s+/).filter(Boolean))].slice(0,5).join(" ");
   const language=(document.documentElement.lang||"fr").slice(0,2);
-  const copy={
-    fr:{heading:"Faire découvrir cette publication",intro:"Partager cet article et ses sources à d'autres lecteurs.",linkedin:"Partager sur LinkedIn",facebook:"Partager sur Facebook",copy:"Copier le texte et les hashtags",done:"Texte copié",failed:"Sélectionnez et copiez le texte affiché."},
-    en:{heading:"Share this publication",intro:"Help other readers discover this article and its sources.",linkedin:"Share on LinkedIn",facebook:"Share on Facebook",copy:"Copy caption and hashtags",done:"Copied",failed:"Select and copy the displayed text."},
-    it:{heading:"Condividi questa pubblicazione",intro:"Aiuta altri lettori a scoprire questo articolo e le sue fonti.",linkedin:"Condividi su LinkedIn",facebook:"Condividi su Facebook",copy:"Copia testo e hashtag",done:"Copiato",failed:"Seleziona e copia il testo."}
-  }[language]||{
-    heading:"Faire découvrir cette publication",intro:"Partager cet article et ses sources à d'autres lecteurs.",linkedin:"Partager sur LinkedIn",facebook:"Partager sur Facebook",copy:"Copier le texte et les hashtags",done:"Texte copié",failed:"Sélectionnez et copiez le texte affiché."
-  };
-  function taggedUrl(source) {
-    const u=new URL(sourceUrl);
-    u.searchParams.set("utm_source",source);
-    u.searchParams.set("utm_medium","social");
-    u.searchParams.set("utm_campaign","voce-corpus");
-    u.searchParams.set("utm_content",(panel.dataset.voceId||"article").slice(0,70).replace(/[^a-zA-Z0-9-]/g,"-"));
-    return u.href;
+  const locale={
+    fr:{
+      heading:"Faire découvrir cette publication",
+      intro:"Un texte documenté, quatre voies de diffusion. La source reste sur VOCE Academy.",
+      linkedin:"Partager sur LinkedIn",facebook:"Partager sur Facebook",instagram:"Copier pour Instagram",
+      youtube:"Copier pour YouTube",copy:"Copier pour LinkedIn / Facebook",
+      done:"Texte et hashtags copiés",failed:"Sélectionnez et copiez le texte affiché.",
+      read:"Lire le texte intégral et ses sources",bio:"Texte intégral: lien VOCE Academy dans la bio.",
+      yt:"Découvrir cette recherche VOCE et ses références"
+    },
+    en:{
+      heading:"Share this publication",intro:"One documented article, four distribution pathways. The source stays in VOCE Academy.",
+      linkedin:"Share on LinkedIn",facebook:"Share on Facebook",instagram:"Copy for Instagram",
+      youtube:"Copy for YouTube",copy:"Copy for LinkedIn / Facebook",
+      done:"Caption and hashtags copied",failed:"Select and copy the text displayed.",
+      read:"Read the full article and sources",bio:"Full article: VOCE Academy link in bio.",
+      yt:"Discover this VOCE research and its references"
+    },
+    it:{
+      heading:"Condividi questa pubblicazione",intro:"Un articolo documentato, quattro percorsi di diffusione. La fonte rimane su VOCE Academy.",
+      linkedin:"Condividi su LinkedIn",facebook:"Condividi su Facebook",instagram:"Copia per Instagram",
+      youtube:"Copia per YouTube",copy:"Copia per LinkedIn / Facebook",
+      done:"Testo e hashtag copiati",failed:"Seleziona e copia il testo visualizzato.",
+      read:"Leggi il testo integrale e le fonti",bio:"Articolo integrale: link VOCE Academy nella bio.",
+      yt:"Scopri questa ricerca VOCE e le sue fonti"
+    }
+  }[language]||null;
+  const copy=locale;
+  function taggedUrl(source){
+    const url=new URL(sourceUrl,location.origin);
+    url.searchParams.set("utm_source",source);
+    url.searchParams.set("utm_medium","social");
+    url.searchParams.set("utm_campaign","voce-corpus");
+    url.searchParams.set("utm_content",(panel.dataset.voceId||"article").slice(0,70).replace(/[^a-zA-Z0-9-]/g,"-"));
+    return url.href;
   }
-  function track(method) {
-    try {
-      if(window.zaraz?.consent?.APIReady && window.zaraz.consent.get("stats")===true) {
+  function track(method){
+    try{
+      if(window.zaraz?.consent?.APIReady===true&&window.zaraz.consent.get("stats")===true){
         window.zaraz.track("voce_share",{platform:method});
       }
-    } catch {}
+    }catch{}
+  }
+  function caption(platform){
+    const network=platform==="facebook"?"facebook":platform==="instagram"?"instagram":platform==="youtube"?"youtube":"linkedin";
+    if(network==="instagram")return [title,"",copy.bio,"",tagLine].join("\n");
+    if(network==="youtube")return [title,"",copy.yt+": "+taggedUrl("youtube"),"",tagLine].join("\n");
+    return [title,"",copy.read+": "+taggedUrl(network),"",tagLine].join("\n");
   }
   const h=panel.querySelector(".voce-share-title");
   const intro=panel.querySelector(".voce-share-intro");
   const linkedin=panel.querySelector("[data-voce-share-linkedin]");
   const facebook=panel.querySelector("[data-voce-share-facebook]");
   const button=panel.querySelector("[data-voce-share-copy]");
+  const instagram=panel.querySelector("[data-voce-share-instagram]");
+  const youtube=panel.querySelector("[data-voce-share-youtube]");
   const sample=panel.querySelector(".voce-share-template");
   const status=panel.querySelector("[data-voce-share-status]");
   if(h)h.textContent=copy.heading;
@@ -47,19 +76,20 @@
     facebook.href="https://www.facebook.com/sharer/sharer.php?u="+encodeURIComponent(taggedUrl("facebook"));
     facebook.addEventListener("click",()=>track("facebook"));
   }
-  const caption=title+"\n\n"+(language==="en"?"Read the full text and references: ":language==="it"?"Leggi il testo e le fonti: ":"Lire le texte intégral et ses sources: ")+taggedUrl("reader_share")+"\n\n"+tagLine;
-  if(sample)sample.value=caption;
-  if(button){
-    button.textContent=copy.copy;
-    button.addEventListener("click",async()=>{
-      track("copy");
-      try {
-        await navigator.clipboard.writeText(caption);
-        if(status)status.textContent=copy.done;
-      }catch{
-        if(sample){sample.hidden=false;sample.focus();sample.select();}
-        if(status)status.textContent=copy.failed;
-      }
-    });
+  async function copyFor(platform){
+    track(platform+"_copy");
+    const text=caption(platform);
+    if(sample)sample.value=text;
+    try{
+      await navigator.clipboard.writeText(text);
+      if(status)status.textContent=copy.done;
+    }catch{
+      if(sample){sample.hidden=false;sample.focus();sample.select();}
+      if(status)status.textContent=copy.failed;
+    }
   }
+  if(button){button.textContent=copy.copy;button.addEventListener("click",()=>copyFor("linkedin"));}
+  if(instagram){instagram.textContent=copy.instagram;instagram.addEventListener("click",()=>copyFor("instagram"));}
+  if(youtube){youtube.textContent=copy.youtube;youtube.addEventListener("click",()=>copyFor("youtube"));}
+  if(sample)sample.value=caption("linkedin");
 })();
