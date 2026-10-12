@@ -50,7 +50,7 @@ function hex(buffer) {
 
 // Consent preferences are now managed by Cloudflare Zaraz CMP.
 // Never silently reject or force-enable analytics on behalf of a visitor.
-const VOCE_PRIVACY_CONTROLS = '<script src="/voce-consent.js" defer><\\/script>';
+const VOCE_PRIVACY_CONTROLS = '<script src="/voce-consent.js" defer></script>';
 
 // VOCE Audio: authorized HeyGen stock voice, rehosted privately in R2 on first request.
 // VOCE is an Italian name, pronounced 'VOTCHÉ' in all languages.
