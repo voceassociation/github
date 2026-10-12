@@ -204,6 +204,15 @@ function formatTime(iso) {
   }).format(new Date(iso));
 }
 
+function hasPublicationTime(item) {
+  return item.date_precision !== "day" && /^\d{4}-\d{2}-\d{2}T/.test(item.date_published || "");
+}
+
+function formatPublicationLabel(item) {
+  const date = formatDate(item.date_published);
+  return hasPublicationTime(item) ? `${date} à ${formatTime(item.date_published)}` : date;
+}
+
 async function getAsset(env, path) {
   const response = await env.ASSETS.fetch(new Request(`https://voce.life/${path}`));
   if (!response.ok) throw new Error(`Asset ${path} returned ${response.status}`);
@@ -1180,7 +1189,7 @@ function renderHistoryDay(day) {
   const date = day.date;
   const pretty = items[0]?.date_published ? formatDate(items[0].date_published) : date;
   const rows = items.map(item =>
-    `<article class="chapter"><div class="chapter-no">${escapeHtml(formatTime(item.date_published))}</div><h2><a href="${escapeHtml(item.canonical_url || `/archive/${date.replaceAll("-","/")}/${item.slug}`)}">${escapeHtml(item.title)}</a></h2><p class="signal">Publication VOCE conservée dans le corpus propriétaire.</p><p><a href="${escapeHtml(item.canonical_url || `/archive/${date.replaceAll("-","/")}/${item.slug}`)}">Lire ce document →</a></p></article>`
+    `<article class="chapter"><div class="chapter-no">${escapeHtml(hasPublicationTime(item) ? formatTime(item.date_published) : "Publication")}</div><h2><a href="${escapeHtml(item.canonical_url || `/archive/${date.replaceAll("-","/")}/${item.slug}`)}">${escapeHtml(item.title)}</a></h2><p class="signal">Publication VOCE conservée dans le corpus propriétaire.</p><p><a href="${escapeHtml(item.canonical_url || `/archive/${date.replaceAll("-","/")}/${item.slug}`)}">Lire ce document →</a></p></article>`
   ).join("\n");
   return `<!doctype html>
 <html lang="fr"><head>
@@ -1314,14 +1323,14 @@ function renderArticle(item, route, routes) {
 <div class="topic-kicker">Corpus VOCE · ${escapeHtml(formatDate(item.date_published))}</div>
 <h1 class="topic-title">${escapeHtml(title)}</h1>
 <p class="topic-deck">${escapeHtml(description)}</p>
-<div class="topic-meta"><span>VOCE Association</span><span>${escapeHtml(formatTime(item.date_published))}</span><span>Archive canonique</span></div>
+<div class="topic-meta"><span>VOCE Association</span><span>${escapeHtml(hasPublicationTime(item) ? formatTime(item.date_published) : formatDate(item.date_published))}</span><span>Archive canonique</span></div>
 </div></section>
 <section class="topic-body"><div class="wrap topic-layout">
 <aside class="topic-nav"><div class="topic-nav-label">Corpus</div><a href="/archive/${route.date}">${escapeHtml(formatDate(item.date_published))}</a><a href="/archive">Toutes les archives</a><a href="/publications">Publications</a></aside>
 <div class="longform">
 <article class="chapter" data-publication-id="${escapeHtml(item.platform_id || item.id)}">
 <div class="chapter-no">VOCE</div>
-<p class="signal">Publié le ${escapeHtml(formatDate(item.date_published))} à ${escapeHtml(formatTime(item.date_published))} · <a href="${escapeHtml(item.source_url || "")}" target="_blank" rel="noopener">Publication originale</a></p>
+<p class="signal">Publié le ${escapeHtml(formatPublicationLabel(item))} · <a href="${escapeHtml(item.source_url || "")}" target="_blank" rel="noopener">Publication originale</a></p>
 ${body}
 </article>
 <section class="chapter"><div class="chapter-no">VOCE Academy</div><h2>Continuer</h2><p>${navigation}</p><p class="signal">Ce texte appartient au corpus pédagogique et éditorial de VOCE Association. Lecture, découverte et citation sont publiques; les droits sur le texte et le corpus restent détenus par VOCE Association, sauf mention contraire. <a href="/CORPUS_RIGHTS.txt">Droits du corpus</a>.</p></section>
