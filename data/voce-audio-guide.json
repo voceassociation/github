@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "section": "guide",
+  "voice": "Paul – Soothing",
+  "audios": {
+    "fr": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=61929434-4707-47cb-aeda-5d0deda07d74.wav",
+      "transcript": "Pour explorer Votché, ouvrez le Guide et posez votre question avec vos propres mots. Le moteur recherche les publications du corpus et propose des sources à consulter. Vous pouvez également entrer par Academy, Art, Gouvernance ou Technoference. Les liens vous conduisent vers des pages publiques et documentées.",
+      "duration": 19.6
+    },
+    "en": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=63cc5156-31a9-402f-b0cf-0d029c93488a.wav",
+      "transcript": "To explore Votché, open the Guide and ask your question in everyday language. The Guide searches VOCE publications and suggests documents supporting its response. You can also start with Academy, Art, AI Governance or Technoference, then follow the links to inspect the original texts and references.",
+      "duration": 24.3
+    },
+    "it": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=1d03a559-2b1d-443a-9994-6e523838d955.wav",
+      "transcript": "Per esplorare Voce, aprite la Guida e formulate una domanda con parole semplici. Il motore cerca nel corpus pubblico e propone documenti pertinenti. Potete anche iniziare da Academy, Arte, Governance o Technoference. I collegamenti conducono alle pubblicazioni e alle fonti.",
+      "duration": 24.5
+    }
+  }
+}
