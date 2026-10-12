@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "section": "publications",
+  "voice": "Paul – Soothing",
+  "audios": {
+    "fr": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=4d32141d-28a0-4e34-9c33-473477d8e56e.wav",
+      "transcript": "Les publications Votché distinguent la recherche formelle des analyses éditoriales. Les travaux scientifiques présentent leurs références et, lorsque c'est possible, un identifiant permanent. Les articles et cours restent accessibles dans Academy, avec leurs sources et leurs contextes. Utilisez ces parcours pour retrouver un document et examiner ce qui soutient ses conclusions.",
+      "duration": 22.2
+    },
+    "en": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=8912e2ba-9915-4e94-8257-be53e2d091e1.wav",
+      "transcript": "Votché Publications distinguishes formal research outputs from editorial analysis. Scientific work presents references and, where available, a persistent publication identifier. Articles and courses remain accessible through Academy, with their sources and context. Use these pathways to find a document and examine the evidence behind its conclusions.",
+      "duration": 27.2
+    },
+    "it": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=c8c7cef2-0510-412a-9fe6-8a3ad4e50e1b.wav",
+      "transcript": "Le pubblicazioni Voce distinguono la ricerca formale dall'analisi editoriale. I lavori scientifici presentano riferimenti e, quando disponibili, identificativi permanenti. Articoli e corsi restano consultabili in Academy, con fonti e contesto. Questi percorsi aiutano a trovare un documento e verificare le prove che sostengono le sue conclusioni.",
+      "duration": 28.5
+    }
+  }
+}
