@@ -187,5 +187,20 @@
   "rejected_capture_reason": "The earlier aggregate extraction mismatched three IDs, used invalid /ugcPost URLs and fabricated exact timestamps from relative time labels.",
   "exact_capture_run": "74484941-7aa4-4899-9528-59f6db29c133",
   "previously_published_post": "7515350721006018560",
-  "next": "Resolve and transcribe each feed/update permalink; verify original hashtag completeness and day before ingestion."
+  "next": "Resolve and transcribe each feed/update permalink; verify original hashtag completeness and day before ingestion.",
+  "verified_source_ids": [
+    "7515350721006018560",
+    "7515335641077940224",
+    "7515320570008219649",
+    "7515305429837586433",
+    "7515290330926194688",
+    "7515275221361315841"
+  ],
+  "current_ingestion": {
+    "status": "source_packet_verified_pending_workflow",
+    "added": 5,
+    "expected_corpus_items": 1597,
+    "previous_texts_and_canonicals_preserved": 1592,
+    "new_conflicts": 0
+  }
 }

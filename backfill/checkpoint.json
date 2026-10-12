@@ -1961,8 +1961,8 @@
       }
     },
     "linkedin_catchup_2026_10_12": {
-      "checked_at": "2026-10-12T11:13:01.254Z",
-      "status": "exact_permalink_transcription_in_progress",
+      "checked_at": "2026-10-12T11:19:57.676Z",
+      "status": "first_five_source_packet_verified_pending_workflow",
       "baseline_corpus": 1592,
       "baseline_after_oct9": "7514233394118086656",
       "coverage_scan_run": "c07c8141-da6a-4a59-80f6-e27afe4f68db",
@@ -2070,7 +2070,16 @@
       ],
       "unverified_candidates_are_not_published": true,
       "coverage_complete": false,
-      "resume": "Resolve each actual feed/update permalink, capture full commentary including paragraphs/sources/hashtags, verify civil publication dates, ingest verified packets, verify live Guide and R2."
+      "resume": "Resolve each actual feed/update permalink, capture full commentary including paragraphs/sources/hashtags, verify civil publication dates, ingest verified packets, verify live Guide and R2.",
+      "verified_source_ids": [
+        "7515350721006018560",
+        "7515335641077940224",
+        "7515320570008219649",
+        "7515305429837586433",
+        "7515290330926194688",
+        "7515275221361315841"
+      ],
+      "expected_corpus_after_ingest": 1597
     }
   }
 }
