@@ -51,17 +51,18 @@ function hex(buffer) {
 const VOCE_PRIVACY_DEFAULT_SCRIPT = `<script>(function(){function deny(){try{if(window.zaraz&&zaraz.consent&&zaraz.consent.APIReady){zaraz.consent.setAll(false);zaraz.consent.modal=false;return true}}catch(e){}return false}function fallback(){var b=document.getElementById("cf_consent-buttons__reject-all");if(b){b.click();return true}var d=document.querySelector("dialog.cf_modal");if(d&&d.open){try{d.close()}catch(e){}return true}return false}if(!deny()){document.addEventListener("zarazConsentAPIReady",function(){deny();fallback()},{once:true})}var o=new MutationObserver(function(){if(deny()||fallback()){o.disconnect()}});o.observe(document.documentElement,{childList:true,subtree:true});setTimeout(function(){deny();fallback();o.disconnect()},30000)})();<\/script>`;
 
 // VOCE Audio: authorized HeyGen stock voice, rehosted privately in R2 on first request.
+// VOCE is an Italian name, pronounced 'VOTCHÉ' in all languages.
 const VOCE_AUDIO_ORIGINS = Object.freeze({
-  fr: "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=7ff0fcd1-487c-4728-9821-0163f097076e.wav",
-  en: "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=08f4d1b7-03a8-410a-b74c-32aca4b621ed.wav",
-  it: "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=00aec082-6820-4373-ad1c-4f468bd386bf.wav"
+  fr: "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=7b4cb7ab-3c6a-4713-ba7e-d80e52bd9dbc.wav",
+  en: "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=770f22a5-9778-4c33-9e40-a8b341f49064.wav",
+  it: "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=73f0909a-cd63-4b98-a884-081c2f896b25.wav"
 });
 
 async function serveVoceAudio(request, env, lang) {
   if (request.method !== "GET" && request.method !== "HEAD") {
     return new Response("Method not allowed", { status: 405, headers: { "allow": "GET, HEAD" } });
   }
-  const key = `assets/audio/voce-signature-${lang}.wav`;
+  const key = `assets/audio/voce-signature-v2-${lang}.wav`;
   try {
     let audio = await env.VOCE_CORPUS.get(key);
     if (!audio) {
