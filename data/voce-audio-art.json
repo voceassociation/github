@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "section": "art",
+  "voice": "Paul – Soothing",
+  "audios": {
+    "fr": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=701c1252-2f5b-4585-85cc-088555898299.wav",
+      "transcript": "Votché Art examine ce qu'une œuvre transporte au-delà de son image. La provenance, l'attribution, l'état et les documents sont des questions distinctes. Cette page explique une méthode de recherche et de médiation, pas un catalogue de vente. Les dossiers sensibles restent réservés aux personnes autorisées."
+    },
+    "en": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=faa4f708-0f69-4fa4-b8aa-97f756150801.wav",
+      "transcript": "Votché Art looks beyond the image of an artwork to its documentary history. Provenance, attribution, condition and ownership are different questions. This page explains a method of cultural research and mediation, not a public sales catalogue. Sensitive records remain available only to authorized parties."
+    },
+    "it": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=6cde446c-d047-43ce-b7fb-cec379312c0a.wav",
+      "transcript": "Voce Art guarda oltre l'immagine di un'opera, verso la sua storia documentaria. Provenienza, attribuzione, conservazione e proprietà sono questioni distinte. Questa pagina descrive un metodo di ricerca e mediazione culturale, non un catalogo commerciale. I documenti sensibili restano riservati alle persone autorizzate."
+    }
+  }
+}
