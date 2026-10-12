@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "section": "technoference",
+  "voice": "Paul – Soothing",
+  "audios": {
+    "en": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=5954ebc6-b5ef-49ac-ba2e-8e7f1c1fdc56.wav",
+      "transcript": "Digital interruptions cannot be measured only as time spent on screens. A notification may fragment a conversation, redirect attention or interrupt a child's exchange with an adult. Votché Technoference examines the consequences for memory, language and inner thought, carefully separating observed evidence from open hypotheses.",
+      "duration": 25
+    }
+  }
+}
