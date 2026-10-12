@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "checked_at": "2026-10-12T14:49:10.625Z",
+  "checked_at": "2026-10-12T15:05:36.338Z",
   "brand_id": "7090850",
   "brand_label": "VOCE Association",
   "verified_page_id": "61581153121750",
   "verified_page_url": "https://www.facebook.com/people/VOCE-Association/61581153121750/",
   "identity_status": "Verified from the user-supplied profile redirect and public page metadata. Exclude VOCE Balkans.",
   "metricool_connected_page_id": "802476986277786",
-  "connector_identity_status": "Mismatch with verified VOCE public page; empty Metricool scans are not proof of absence and must not be treated as this page's history.",
+  "connector_identity_status": "Verified by actual Metricool reel4565965330351495 canonical containing page61581153121750; numeric networksData mismatch is not proof of wrong page.",
   "scan_results": {
     "march_june_posts": {
       "content": [
@@ -56,11 +56,11 @@
       "corpus_status": "pending exact publication date and LinkedIn duplicate/provenance reconciliation"
     }
   ],
-  "status": "Direct Facebook continuation selected by user; secure sign-in handoff issued, pending saved Facebook session and publication date verification.",
+  "status": "Metricool Facebook connector corroborated with real VOCE permalink; current-day data pending documented daily sync. Resume after Diella only.",
   "next_actions": [
-    "User signs in to Facebook through the issued secure session link and clicks Save profile; then verify candidate1997995871106377 date, collect only publications after Diella and deduplicate before Academy publication.",
-    "Preserve all archived original texts and canonical URLs; use explicit Facebook provenance, no videos, no Metricool.",
-    "Keep nightly task6abb72f5e1108191961956e6e3738fea at existing23:30 Europe/Podgorica schedule; stop with a checkpoint if authentication is missing."
+    "Read lagged Metricool Facebook posts/reel captions after daily sync; recheck a three-day window, accept only originals strictly after the2026-10-12T12:00:56.377Z Diella boundary, verify timestamps and literal text, then deduplicate and publish.",
+    "Do not require Facebook reconnection merely because the displayed numeric identifier differs; actual source permalink verified.",
+    "Preserve all existing LinkedIn texts/canonicals and explicitly mark new Facebook provenance; no videos."
   ],
   "current_continuation": {
     "scope": "Only publications after latest archived LinkedIn Diella; no historic Facebook backfill",
@@ -71,13 +71,22 @@
     },
     "metricool": {
       "brand_id": "7090850",
-      "connected_page_id": "802476986277786",
-      "verified_target_page_id": "61581153121750",
+      "networks_data_identifier": "802476986277786",
+      "verified_page_id": "61581153121750",
+      "status": "corroborated_real_VOCE_source_permalink",
+      "verified_source_url": "https://www.facebook.com/reel/4565965330351495/",
+      "verified_source_canonical": "https://www.facebook.com/61581153121750/videos/votre-cerveau-peut-juger-une-information-importante-simplement-parce-quil-sen-so/4565965330351495/",
+      "diagnostic_date": "2026-10-11",
+      "diagnostic_reels_rows": 14,
+      "diagnostic_records_ingested": 0,
       "posts_after_boundary_rows": 0,
       "reels_after_boundary_rows": 0,
-      "whole_day_posts_rows": 0,
-      "empty_rows_are_not_proof_of_absence": true,
-      "status": "historical_diagnostic_only_not_used_for_continuation"
+      "checked_through_local": "2026-10-12T17:03:00+02:00",
+      "daily_sync_lag_documented": true,
+      "docs": [
+        "https://help.metricool.com/historical-data-available-5zavf",
+        "https://help.metricool.com/difference-between-published-posts-and-viewed-posts-in-the-period-2pwtf"
+      ]
     },
     "candidate": {
       "facebook_id": "1997995871106377",
@@ -93,12 +102,12 @@
     "corpus_items_preserved": 1622,
     "existing_texts_modified": false,
     "videos_downloaded": false,
-    "next": "User signs in to Facebook through the issued secure session link and clicks Save profile; then verify candidate1997995871106377 date, collect only publications after Diella and deduplicate before Academy publication.",
+    "next": "Read lagged Metricool Facebook posts/reel captions after daily sync; recheck a three-day window, accept only originals strictly after the2026-10-12T12:00:56.377Z Diella boundary, verify timestamps and literal text, then deduplicate and publish.",
     "user_source_choice": {
-      "source": "direct Facebook VOCE",
-      "metricool_prohibited": true,
-      "checked_at": "2026-10-12T14:49:10.625Z",
-      "historical_scope_unchanged": true
+      "source": "Metricool Facebook read connector; Codex handles archiving",
+      "metricool_read_authorized": true,
+      "metricool_publishing_authorized": false,
+      "updated_at": "2026-10-12T15:05:36.338Z"
     },
     "authentication": {
       "provider": "TinyFish",
@@ -111,7 +120,7 @@
       "id": "6abb72f5e1108191961956e6e3738fea",
       "time": "23:30",
       "timezone": "Europe/Podgorica",
-      "source": "direct Facebook continuation",
+      "source": "Metricool Facebook read connector; Codex archive",
       "prompt_updated": true,
       "enabled": true
     }
