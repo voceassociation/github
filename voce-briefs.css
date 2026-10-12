@@ -12,3 +12,15 @@
  .voce-topic-brief p{font-size:1rem}
  .voce-guide-howto{margin:14px 0}
 }
+
+.voce-guide-listen{margin-top:12px;display:inline-flex;align-items:center;padding:8px 12px;border:1px solid rgba(18,62,51,.25);color:var(--forest);background:transparent;cursor:pointer;font-size:.65rem;font-weight:600;letter-spacing:.035em}
+.voce-guide-listen:hover:not(:disabled){border-color:var(--forest)}
+.voce-guide-listen:disabled{display:none}
+.voce-guide-listen:focus-visible{outline:2px solid var(--forest);outline-offset:3px}
+.voce-guide-howto audio{display:none}
+.voce-audio-transcript{grid-column:2;min-width:0;margin-top:5px}
+.voce-audio-transcript[hidden]{display:none}
+.voce-audio-transcript summary{cursor:pointer;color:var(--forest);font-size:.6rem;font-weight:600;letter-spacing:.03em}
+.voce-audio-transcript summary:focus-visible{outline:2px solid var(--forest);outline-offset:3px}
+.voce-audio-transcript p{margin:10px 0 0;max-width:750px;color:var(--ink);font-size:.74rem;line-height:1.6}
+@media(max-width:720px){.voce-audio-transcript{grid-column:2}.voce-guide-listen{width:auto}}
