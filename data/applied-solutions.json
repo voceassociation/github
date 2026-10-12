@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generated_at": "2026-10-09",
+  "generated_at": "2026-10-12",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
   "methodology": {
@@ -3765,6 +3765,20 @@
         "finance",
         "marketing",
         "banking",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7515275221361315841",
+      "date": "2026-10-12",
+      "title": "Zylo Clarity AI: le registre logiciel commence à exécuter les décisions",
+      "path": "/archive/2026/10/12/zylo-clarity-ai-le-registre-logiciel-commence-a-executer-les-decisions-7515275221361315841",
+      "sectors": [
         "it"
       ],
       "themes": [

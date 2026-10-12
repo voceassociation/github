@@ -2361,11 +2361,16 @@
       ]
     },
     "2026-10-12": {
-      "count": 1,
+      "count": 6,
       "source": "linkedin",
       "page": "/archive/2026-10-12",
       "post_ids": [
-        "urn:li:ugcPost:7515350721006018560"
+        "urn:li:ugcPost:7515350721006018560",
+        "urn:li:ugcPost:7515335641077940224",
+        "urn:li:ugcPost:7515320570008219649",
+        "urn:li:ugcPost:7515305429837586433",
+        "urn:li:ugcPost:7515290330926194688",
+        "urn:li:ugcPost:7515275221361315841"
       ]
     }
   },
