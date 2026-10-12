@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "checked_at": "2026-09-30T17:07:49Z",
+  "checked_at": "2026-10-12T13:19:50.369Z",
   "brand_id": "7090850",
   "brand_label": "VOCE Association",
   "verified_page_id": "61581153121750",
@@ -56,10 +56,43 @@
       "corpus_status": "pending exact publication date and LinkedIn duplicate/provenance reconciliation"
     }
   ],
-  "status": "Verified Facebook source established; one complete reel text preserved; historical signed-out feed remains incomplete.",
+  "status": "Continuation after LinkedIn authorised; one complete current Facebook caption saved, pending verified publication date and connector identity.",
   "next_actions": [
-    "Do not rescan Metricool page 802476986277786 as if it were verified page 61581153121750.",
-    "Recover the exact publication timestamp before assigning a canonical archive date.",
-    "Match against LinkedIn originals; enrich provenance for duplicates and preserve materially different variants."
-  ]
+    "Verify Metricool is connected to page61581153121750; do not treat empty results for802476986277786 as absence.",
+    "Verify candidate timestamp after2026-10-12T12:00:56.377Z; no date invention from body source dates.",
+    "Archive only new publications after the LinkedIn boundary and preserve platform provenance and original texts."
+  ],
+  "current_continuation": {
+    "scope": "Only publications after latest archived LinkedIn Diella; no historic Facebook backfill",
+    "boundary": {
+      "linkedin_id": "7515380937786953728",
+      "source_publication_datetime": "2026-10-12T12:00:56.377Z",
+      "local_time": "2026-10-12T14:00:56.377+02:00"
+    },
+    "metricool": {
+      "brand_id": "7090850",
+      "connected_page_id": "802476986277786",
+      "verified_target_page_id": "61581153121750",
+      "posts_after_boundary_rows": 0,
+      "reels_after_boundary_rows": 0,
+      "whole_day_posts_rows": 0,
+      "empty_rows_are_not_proof_of_absence": true,
+      "status": "connected_page_identity_not_reconciled"
+    },
+    "candidate": {
+      "facebook_id": "1997995871106377",
+      "source_url": "https://www.facebook.com/reel/1997995871106377/",
+      "title": "Kinexys de JPMorgan, CIPS chinois: avoir l'argent ne suffit pas pour payer",
+      "full_text_recovered": true,
+      "original_sources_and_hashtags_preserved": true,
+      "absolute_publication_datetime_verified": false,
+      "relative_page_label": "14 minutes ago",
+      "raw_response": "backfill/raw/facebook-61581153121750-reel-1997995871106377.json",
+      "corpus_status": "pending publication date and continuation chronology verification"
+    },
+    "corpus_items_preserved": 1622,
+    "existing_texts_modified": false,
+    "videos_downloaded": false,
+    "next": "Verify Metricool is connected to VOCE page61581153121750 and retrieve post date/permalink; preserve candidate original text and ingest only after source chronology and corpus duplicate checks."
+  }
 }

@@ -1,0 +1,19 @@
+{
+  "schema": "voce.facebook-source-evidence.v1",
+  "retrieved_at": "2026-10-12T13:19:50.369Z",
+  "page_id": "61581153121750",
+  "facebook_id": "1997995871106377",
+  "source_url": "https://www.facebook.com/reel/1997995871106377/",
+  "source_canonical": "https://www.facebook.com/61581153121750/videos/kinexys-de-jpmorgan-cips-chinois-avoir-largent-ne-suffit-pas-pour-payerune-entre/1997995871106377/",
+  "text": "Kinexys de JPMorgan, CIPS chinois: avoir l'argent ne suffit pas pour payer\n\nUne entreprise peut disposer des fonds nécessaires et ne plus pouvoir régler son fournisseur étranger.\n\nSon solde représente une créance sur sa banque. Pour payer à l'étranger, celle-ci doit accéder à un circuit de règlement et mobiliser la liquidité dans la devise requise. Dans la banque correspondante, cette liquidité se trouve notamment sur des comptes \"nostro\" ouverts auprès d'autres établissements.\n\nUn contrôle de conformité peut suspendre l'instruction. La fermeture d'une relation de correspondance peut supprimer le chemin disponible. La solvabilité de l'entreprise ne résout aucun de ces blocages.\n\nLe 29 juin 2026, JPMorgan annonce cinq devises supplémentaires pour les Blockchain Deposit Accounts de Kinexys, portant l'offre à huit devises. Ces comptes permettent des paiements transfrontaliers 24h/24 et une trésorerie programmable.\n\nLe dépôt demeure une créance bancaire. L'exécution sur blockchain ne le transforme pas en monnaie de banque centrale. La disponibilité du réseau doit être distinguée de celle des transferts vers les comptes traditionnels.\n\nEn Chine, CIPS règle les paiements transfrontaliers en renminbi. Son mode brut en temps réel inscrit chaque paiement de manière irrévocable; son mode par lots compense les opérations pour réduire la liquidité immobilisée. Le choix engage le financement du règlement.\n\nLa conversion des devises reste une opération distincte, soumise à ses conditions d'accès.\n\nLe prototype Agorá, présenté en mai 2026, associe des dépôts bancaires tokenisés à des réserves de banque centrale tokenisées. Il démontre un règlement multidevise atomique: les mouvements interdépendants aboutissent ensemble ou échouent ensemble. Son fonctionnement continu reste à mettre en œuvre.\n\nULTRA®\n\nPour un comité de direction, le risque se mesure au niveau du paiement effectivement réalisable. Un groupe peut afficher une trésorerie consolidée confortable alors que sa filiale ne dispose pas des fonds transférables dans la devise et la juridiction du fournisseur.\n\nL'analyse doit localiser les comptes de règlement et préciser les droits de remboursement à parité. Elle doit identifier l'établissement exposé en cas de défaillance et les autorités capables d'imposer un gel.\n\nLe règlement atomique réduit le risque de livrer une devise sans recevoir l'autre. Il ne fournit pas automatiquement la liquidité nécessaire et ne neutralise pas les sanctions.\n\nUne voie de secours n'est crédible que si elle reste financée et accessible lorsque le circuit principal s'interrompt. Deux interfaces reposant sur le même correspondant laissent subsister une dépendance commune.\n\nDapertutto, dans \"Les Contes d'Hoffmann\", capture le reflet de celui qui croit encore le posséder.\n\nLa richesse disponible dépend aussi du passage qu'on lui laisse.\n\nSources 2026\n\nJPMorgan, Kinexys, 29 juin\nCIPS, services de règlement\nBRI, Agorá, 27 mai\nRapport économique, chapitre III\nDirectives sur la banque correspondante\n\n#VOCEAssociation #Paiements #Trésorerie",
+  "verification": {
+    "public_full_title_and_expanded_caption_equal": true,
+    "browser_report_separator_newline_excluded": true,
+    "browser_run": "d746f56d-eed7-459a-93db-b4c146aa0011",
+    "paragraphs_preserved": true,
+    "absolute_publication_datetime_verified": false
+  },
+  "publication_datetime": null,
+  "ingest_status": "pending verified chronology",
+  "no_video_download": true
+}
