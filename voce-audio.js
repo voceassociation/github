@@ -1,7 +1,8 @@
 (() => {
-  const path = (location.pathname.replace(/\/+$/, "") || "/");
+  const rawPath = location.pathname.replace(/\/+$/, "") || "/";
+  const path = rawPath.replace(/^\/(fr|it)(?=\/)/, "") || "/";
   const isArt = path === "/art" || (path.startsWith("/art/") && !path.startsWith("/art/vault"));
-  const eligible = path === "/" || path === "/research" || path === "/governance" || path === "/technoference" || isArt;
+  const eligible = ["/","/archive","/research","/governance","/technoference","/sovereignty","/light-workforce","/applied","/publications","/art"].includes(path) || isArt;
   if (!eligible) return;
 
   const COPY = {
@@ -31,11 +32,11 @@
     }
   };
 
-  const pageKey = isArt ? "art" : path === "/research" ? "research" : path === "/governance" ? "governance" : path === "/technoference" ? "technoference" : "home";
+  const pageKey = path === "/" ? "home" : ({"/archive":"academy","/research":"research","/governance":"governance","/technoference":"technoference","/sovereignty":"sovereignty","/light-workforce":"workforce","/applied":"applied","/publications":"publications","/art":"art"})[path];
 
   function currentLang() {
     const active = document.querySelector(".lang [data-lang].active");
-    const raw = (active?.getAttribute("data-lang") || document.documentElement.lang || "en").toLowerCase();
+    const raw = (rawPath.startsWith("/fr/") ? "fr" : rawPath.startsWith("/it/") ? "it" : active?.getAttribute("data-lang") || document.documentElement.lang || "en").toLowerCase();
     return raw.startsWith("fr") ? "fr" : raw.startsWith("it") ? "it" : "en";
   }
 
