@@ -1,0 +1,28 @@
+/* VOCE Discover — reader-first gateway from social publications */
+.discover-intro{padding-top:42px;padding-bottom:24px}
+.discover-kicker{font-size:.65rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--forest)}
+.discover-title{font:500 clamp(2.4rem,5vw,5rem)/.95 var(--serif);max-width:980px;letter-spacing:-.015em;margin:20px 0}
+.discover-deck{font-size:clamp(.91rem,1.4vw,1.12rem);line-height:1.66;max-width:795px;color:var(--muted);margin:0 0 16px}
+.discover-links{display:flex;flex-wrap:wrap;gap:9px;margin:14px 0}
+.discover-links a{font-size:.7rem;color:var(--forest);text-decoration:underline;text-underline-offset:4px}
+.discover-label{font-size:.65rem;letter-spacing:.13em;text-transform:uppercase;color:var(--forest);margin:35px 0 14px}
+.discover-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:0 0 40px}
+.discover-card{display:flex;flex-direction:column;gap:13px;padding:21px 23px;min-height:190px;border:1px solid var(--line);background:var(--paper);transition:background .18s ease,border-color .18s ease}
+.discover-card:hover{background:var(--soft);border-color:var(--forest)}
+.discover-index{font-size:.62rem;font-weight:600;color:var(--forest);letter-spacing:.07em}
+.discover-card h2{font:500 clamp(1.3rem,2vw,1.85rem)/1.04 var(--serif);color:var(--ink);margin:0}
+.discover-card p{font-size:.75rem;line-height:1.6;color:var(--muted);margin:0;flex:1}
+.discover-card span:last-child{font-size:.64rem;letter-spacing:.03em;color:var(--forest)}
+.discover-feature{margin:8px 0 42px;padding:23px 25px;background:var(--soft);border:1px solid var(--line)}
+.discover-feature h2{font:500 1.8rem/1.12 var(--serif);margin:0 0 16px}
+.discover-feature li{margin-bottom:9px;font-size:.78rem;line-height:1.5}
+.discover-feature a{text-decoration:underline;text-underline-offset:3px;color:var(--forest)}
+.discover-cta{display:flex;flex-wrap:wrap;gap:20px;align-items:center;border-top:1px solid var(--line);padding:25px 0 45px}
+.discover-cta p{font-size:.85rem;max-width:650px;color:var(--ink)}
+.discover-cta a{border:1px solid var(--forest);padding:11px 18px;font-size:.73rem;color:var(--forest)}
+.discover-cta a:hover{background:var(--forest);color:var(--paper)}
+.discover-language{display:flex;align-items:center;gap:7px}
+.discover-language a{font-size:.66rem;letter-spacing:.06em;padding:8px 2px}
+.discover-language a[aria-current="page"]{font-weight:700;color:var(--forest);text-decoration:underline}
+@media(max-width:950px){.discover-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.discover-grid{grid-template-columns:1fr}.discover-intro{padding-top:24px}.discover-card{min-height:0;padding:18px}.discover-feature{padding:16px}.discover-title{font-size:2.8rem}}
