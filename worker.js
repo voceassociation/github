@@ -146,7 +146,9 @@ async function serveVoceBrief(request, env, section, lang) {
 
 const VOCE_AUDIO_ASSETS = `
 <link rel="stylesheet" href="/voce-audio.css">
+<link rel="stylesheet" href="/voce-briefs.css">
 <script src="/voce-audio.js" defer><\/script>
+<script src="/voce-briefs.js" defer><\/script>
 `;
 
 const VOCE_SOCIAL_META = `
