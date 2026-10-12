@@ -24235,6 +24235,22 @@
       "date_basis": "The source's structured publication datetime is 2026-10-11T04:00:43.272Z. Its Europe/Podgorica civil date is 11 October 2026. Original source timestamp retained; archive displays day precision."
     },
     {
+      "id": "linkedin:7515380937786953728",
+      "platform_id": "urn:li:ugcPost:7515380937786953728",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515380937786953728/",
+      "date_published": "2026-10-12",
+      "text": "Diella: l'Albanie veut automatiser presque tout le marché public avant la signature humaine\n\nUne entreprise candidate à un marché public rassemble encore des documents que l'État possède déjà.\n\nL'Albanie veut supprimer cette étape.\n\nLe 11 mai 2026, le gouvernement annonce que Diella devra récupérer les informations des entreprises dans plus de 40 registres publics numérisés. Le dossier serait ensuite mis à leur disposition pour activation.\n\nLe système doit couvrir l'étude de marché, la préparation des procédures, le dépôt des offres et le suivi du contrat. Le gouvernement parle désormais d'un dispositif couvrant jusqu'à 95% du processus sans intervention humaine.\n\nLa décision finale resterait prise par la commission compétente.\n\nDiella ne doit donc pas attribuer seule l'argent public. Elle doit produire une grande partie du travail en amont, avec une procédure traçable et réexaminable manuellement.\n\nEn septembre 2026, le système reste en construction. L'Albanie parle d'un modèle \"360 degrés\" développé avec l'appui de Microsoft. La Banque mondiale a également examiné 450 pages de spécifications techniques et délivré son \"no objection\" pour les projets qu'elle finance.\n\nPour les entreprises, le gain potentiel est concret: ne plus reconstituer à chaque appel d'offres des informations que l'administration possède déjà.\n\nMais l'automatisation déplace le risque.\n\nUne spécification favorable à un fournisseur peut être appliquée parfaitement par une machine. Une donnée erronée dans un registre peut aussi être réutilisée partout.\n\nULTRA®\n\nLe point de contrôle devient la possibilité de reconstruire la décision.\n\nQuel critère a éliminé une offre? Quelle donnée a été utilisée? À quel moment un humain pouvait-il corriger le résultat?\n\nLe rapport 2026 de l'Open Government Partnership relève encore des limites de transparence dans la commande publique albanaise malgré des progrès réels.\n\nL'automatisation peut réduire certaines manipulations documentaires. Elle rend en contrepartie l'audit des critères et des données beaucoup plus important.\n\nLI!GHT WORKFORCE ©\n\nDiella est développée par l'AKSHI, l'agence numérique albanaise. Le gouvernement travaille aussi avec Microsoft sur le système de commande publique.\n\nUne partie de la collecte de pièces et de l'instruction peut quitter le travail manuel.\n\nLes agents publics conservent la validation finale, les recours et la responsabilité juridique.\n\nLe métier se déplace vers la compréhension des critères, le contrôle des exceptions et la capacité à expliquer pourquoi une offre a été retenue ou rejetée.\n\nBORIS GODUNOV\n\nUne signature humaine ne protège rien si celui qui signe ne peut plus reconstruire la décision.\n\nSources\n\nGouvernement albanais, 11 mai 2026\nGouvernement albanais, Second Innovation Forum, 8 septembre 2026\nOpen Government Partnership, 6 mars 2026\n\n#VOCEAssociation #Diella #MarchésPublics #AgentsIA #FonctionPublique",
+      "text_sha256": "0a3ca30b51f6c34e6f17fb3c56d6c7a1f6ac027369e996d2e5f872bb87c4ac81",
+      "adobe_provenance": {
+        "status": "pending",
+        "evidence": []
+      },
+      "source": "authenticated_linkedin_browser",
+      "date_precision": "day",
+      "retrieved_at": "2026-10-12T12:15:53.050Z",
+      "date_basis": "LinkedIn source structured publication datetime 2026-10-12T12:00:56.377Z corresponds to 12 October 2026 Europe/Podgorica. Original timestamp retained; archive has day precision."
+    },
+    {
       "id": "linkedin:7515365850959421440",
       "platform_id": "urn:li:ugcPost:7515365850959421440",
       "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515365850959421440/",
