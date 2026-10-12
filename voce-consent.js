@@ -12,6 +12,11 @@
     return value.startsWith("fr") ? "fr" : value.startsWith("it") ? "it" : "en";
   }
   function updateLabels() {
+    const lang=currentLang();
+    document.querySelectorAll("[data-voce-discover-link]").forEach(element=>{
+      element.textContent=lang==="fr"?"Découvrir VOCE":lang==="it"?"Scopri VOCE":"Discover VOCE";
+      element.href=lang==="fr"?"/fr/discover":lang==="it"?"/it/discover":"/discover";
+    });
     document.querySelectorAll("[data-voce-cookie-settings]").forEach(element => {
       element.textContent = labels[currentLang()] || labels.en;
     });
