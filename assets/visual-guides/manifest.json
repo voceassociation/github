@@ -1,0 +1,777 @@
+{
+  "schema": "voce.visual-guide-assets.v1",
+  "editorial_date": "2026-10-11",
+  "published_at": "2026-10-12",
+  "guide_source_sha256": "5a2ca31920f9f00c21ecf35a37a6fa0f1eb988d5d5539e12c70d05e2819182d4",
+  "exporter_sha256": "c92e949d6c8e7ebbcb599a8d5dee2a2575b0ea8871de6e025e56386403b00a93",
+  "files": [
+    {
+      "path": "assets/visual-guides/en/infrastructure.png",
+      "bytes": 173820,
+      "sha256": "ba439cdd902b4ce7019bc6cd8091b1f7144b335ed7ee8daf00c31adb702a6c73",
+      "guide": "infrastructure",
+      "language": "en",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/en/infrastructure.pdf",
+      "bytes": 757648,
+      "sha256": "ba51f3e67928b2a5e64073cc3846831a5cce1831c6fdcaf0acbb4b4e5f2554a6",
+      "guide": "infrastructure",
+      "language": "en",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/fr/infrastructure.png",
+      "bytes": 184804,
+      "sha256": "9f8c38a2b6df1182b76d1111ac0e01dd83fc0f284a2c7f1b8adf348dc8f7c610",
+      "guide": "infrastructure",
+      "language": "fr",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/fr/infrastructure.pdf",
+      "bytes": 805960,
+      "sha256": "d8ef3852e742a8432f9b3e9ba523f5a59b7e5841bd82a902ed9d1139b2186c42",
+      "guide": "infrastructure",
+      "language": "fr",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/it/infrastructure.png",
+      "bytes": 183050,
+      "sha256": "69f78f8efb3939e2bd4abe3802f51bb7333ee0fd79be20567b6631d1d5987011",
+      "guide": "infrastructure",
+      "language": "it",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/it/infrastructure.pdf",
+      "bytes": 788121,
+      "sha256": "2892691a248cdab147cf35feb6da5737b10c05d641c290955c64bd42e7c6e064",
+      "guide": "infrastructure",
+      "language": "it",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/en/conformance.png",
+      "bytes": 227802,
+      "sha256": "3444369a1b31184d4d7191082db861c4e4cd01b01cb253e90ff1e554d25f864a",
+      "guide": "conformance",
+      "language": "en",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/en/conformance.pdf",
+      "bytes": 834636,
+      "sha256": "6bb90ba65b6895851f9e64fdc60446e9e0aac91e79802341c966e04e6f630a7b",
+      "guide": "conformance",
+      "language": "en",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/fr/conformance.png",
+      "bytes": 242348,
+      "sha256": "368c7c1785c50e67cfa0ebcae8c950441ed490490884fc022502adc3fd1af147",
+      "guide": "conformance",
+      "language": "fr",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/fr/conformance.pdf",
+      "bytes": 890792,
+      "sha256": "7f181cb02f9a941610f74489da9193e54456878d31f5fa9141077ceaac4bae67",
+      "guide": "conformance",
+      "language": "fr",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/it/conformance.png",
+      "bytes": 228724,
+      "sha256": "b598037b515daac209ce4bafb0acfd2f2e0d79eb0d5f9c681178ed5732be9f48",
+      "guide": "conformance",
+      "language": "it",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/it/conformance.pdf",
+      "bytes": 852280,
+      "sha256": "63469a8bf996681224099ef47bb8304701975ade2067853d6e493c43ffa7ca23",
+      "guide": "conformance",
+      "language": "it",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/en/argos.png",
+      "bytes": 187144,
+      "sha256": "81ac2fe35fa8759565fca5c1f90965178d89a3802de7477c4d4c0421a0b9811a",
+      "guide": "argos",
+      "language": "en",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/en/argos.pdf",
+      "bytes": 982071,
+      "sha256": "c10af44d0f52050f6636f546809f545fa2b267216c0e54e8a55fe629e40939b5",
+      "guide": "argos",
+      "language": "en",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/fr/argos.png",
+      "bytes": 200546,
+      "sha256": "a37f93fc5317b23c8b7250713a3fa09adc37cc7d6d2c31130782f3482ac8d4c5",
+      "guide": "argos",
+      "language": "fr",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/fr/argos.pdf",
+      "bytes": 1057079,
+      "sha256": "f282b174c1c356b03fd78d60071b97cd3cf15507e136aa77ea240c0b8aeace43",
+      "guide": "argos",
+      "language": "fr",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/it/argos.png",
+      "bytes": 203430,
+      "sha256": "41c891473c64d290591c2d3e4bbbd60dd0f0bd0e81a40f204378185295ca54e8",
+      "guide": "argos",
+      "language": "it",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/it/argos.pdf",
+      "bytes": 1067330,
+      "sha256": "a6dc2b46dee08edd71180bc66484761ea488e1cd29a3a6371613bd2b0ace9a3d",
+      "guide": "argos",
+      "language": "it",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/en/cognitive.png",
+      "bytes": 232943,
+      "sha256": "10d11a870d6db8276e209230af5fa3f838c77aba3328c7f56d24838570b49c2e",
+      "guide": "cognitive",
+      "language": "en",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/en/cognitive.pdf",
+      "bytes": 723796,
+      "sha256": "80a5538546257cb976c31510e7e44115a19b0492d17970231091e53cc61f9d3a",
+      "guide": "cognitive",
+      "language": "en",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/fr/cognitive.png",
+      "bytes": 196837,
+      "sha256": "c36e4199be141fa082fee60d39598e1b7d9c420d10a9025ee303b1aa7c811e1b",
+      "guide": "cognitive",
+      "language": "fr",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/fr/cognitive.pdf",
+      "bytes": 758255,
+      "sha256": "3b6831f83cb4101736e6b0b41872023fc8766ff8a8ebc0730cd73394fc5f2625",
+      "guide": "cognitive",
+      "language": "fr",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/it/cognitive.png",
+      "bytes": 236775,
+      "sha256": "4f13deea6004ad4d0cbefa9c9261c78b76363d1e4a6f0296658cbbd390ab0385",
+      "guide": "cognitive",
+      "language": "it",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/it/cognitive.pdf",
+      "bytes": 779571,
+      "sha256": "db0bb89a58ad11a5c677b18f7113eea979ac3041e08186ad5ee399ee654f67e5",
+      "guide": "cognitive",
+      "language": "it",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/en/guide.png",
+      "bytes": 230165,
+      "sha256": "4712550ea6d4f4a2150fbbcdcb1b12213c7bd004a8d297689d083c53368625ad",
+      "guide": "guide",
+      "language": "en",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/en/guide.pdf",
+      "bytes": 718288,
+      "sha256": "627780c2c67e478304753151a0d9190afb9b695374705cd2ff71e9420c4cbabd",
+      "guide": "guide",
+      "language": "en",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/fr/guide.png",
+      "bytes": 243077,
+      "sha256": "83e426bcdc722e4153d867b8dcb420ddeb98dda8dce875bb5816e735c37b8fdc",
+      "guide": "guide",
+      "language": "fr",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/fr/guide.pdf",
+      "bytes": 784901,
+      "sha256": "cce9ae70f50d285deaf2bbce07ad9f58bbdb215ea7b6563454ba0003d01964be",
+      "guide": "guide",
+      "language": "fr",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/it/guide.png",
+      "bytes": 229583,
+      "sha256": "891af110657818e7b0d415b311cd171c16978b7a43760895c05366d382789a3e",
+      "guide": "guide",
+      "language": "it",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/it/guide.pdf",
+      "bytes": 729418,
+      "sha256": "437edefb966fb8ae5a728f608d8991273848e059676de0d462475b1e615337d8",
+      "guide": "guide",
+      "language": "it",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/en/overview.png",
+      "bytes": 170525,
+      "sha256": "c36cfb2e8f0cf3349ea29d0d80d98574171456b289e96fc55dccc85155e5f88e",
+      "guide": "overview",
+      "language": "en",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/en/overview.pdf",
+      "bytes": 799672,
+      "sha256": "5c29564fa91882bc202a3cdc3efde731d66f149b62c9a4ca49bce008e81a0876",
+      "guide": "overview",
+      "language": "en",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/fr/overview.png",
+      "bytes": 182115,
+      "sha256": "6c9d52d7ee904cf8072f1c150e65225f331fbed8c519e3e93e7e01f81fa7d955",
+      "guide": "overview",
+      "language": "fr",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/fr/overview.pdf",
+      "bytes": 831512,
+      "sha256": "c7458e629e32ab0c552bc2f73a939897c6bdfcc19938f34b0a6cdd72156c7b80",
+      "guide": "overview",
+      "language": "fr",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/it/overview.png",
+      "bytes": 182017,
+      "sha256": "e1df4b0e3580d40f78c048046a2012b4429bf6de2315042637cb46ecdadd5495",
+      "guide": "overview",
+      "language": "it",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/it/overview.pdf",
+      "bytes": 816356,
+      "sha256": "1ba91e42cf525217facb50001f9d71c55169efe2b9bba51ef2732ec898b196d7",
+      "guide": "overview",
+      "language": "it",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/en/atlas.png",
+      "bytes": 203419,
+      "sha256": "39d3ceec3c73c264587a28afea4344abbe7406c61182943bd556697cf3b44537",
+      "guide": "atlas",
+      "language": "en",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/en/atlas.pdf",
+      "bytes": 607382,
+      "sha256": "00a21fc9da0766d87c042cffc3aa01d23a49e71f067dbe5b79fe8839280ebef1",
+      "guide": "atlas",
+      "language": "en",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/fr/atlas.png",
+      "bytes": 199947,
+      "sha256": "af69387a41ffa72493084d37fdb15a4ff65695ec0298c5fbb2995329b2800cef",
+      "guide": "atlas",
+      "language": "fr",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/fr/atlas.pdf",
+      "bytes": 627875,
+      "sha256": "ff6511c3fa630caf0e324c77815dee042c1d6bb45f7594da6d92a2f026c3d7d7",
+      "guide": "atlas",
+      "language": "fr",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/it/atlas.png",
+      "bytes": 211239,
+      "sha256": "c8f10759ec68452061fd53debd906f57625a09ebd4c17a3b6dc8b0014f72a970",
+      "guide": "atlas",
+      "language": "it",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/it/atlas.pdf",
+      "bytes": 664804,
+      "sha256": "6d46acba629b009dd2a6a22082ee77a8af6b30c3f5a3f320b712fdae9ad4bcbd",
+      "guide": "atlas",
+      "language": "it",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/en/academy-research.png",
+      "bytes": 218676,
+      "sha256": "e6825c830a59529b56fa5de1f2ba7a092a9cd5bcec4d2eebdb97c2ff437850ef",
+      "guide": "academy-research",
+      "language": "en",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/en/academy-research.pdf",
+      "bytes": 702004,
+      "sha256": "eec8489ea94fdbfc43a9cd1f391adae48a95799d5ed92fab9134e99dcdc11ddc",
+      "guide": "academy-research",
+      "language": "en",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/fr/academy-research.png",
+      "bytes": 217147,
+      "sha256": "a7e4aa66b997f3ff376146acbe955cdd40b043af9ae957ca8a7ca21b1d67e5da",
+      "guide": "academy-research",
+      "language": "fr",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/fr/academy-research.pdf",
+      "bytes": 695834,
+      "sha256": "7098e45ed6ac26c9fe3ab83fd3ab1ee4f38b7065a73be9d13802b90da6419ff5",
+      "guide": "academy-research",
+      "language": "fr",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/it/academy-research.png",
+      "bytes": 205452,
+      "sha256": "21592f3aca436d73a6e1430527b144ff6751454f136df14c61902978a9690b99",
+      "guide": "academy-research",
+      "language": "it",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/it/academy-research.pdf",
+      "bytes": 659505,
+      "sha256": "3c96d7a3bbc3515fab86f8c133f736884e7f785de51625f3e92d6a03df7daf12",
+      "guide": "academy-research",
+      "language": "it",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/en/sovereignty.png",
+      "bytes": 227005,
+      "sha256": "c6dc7b793c1f794e0ac501b7044c502cc6670adcbc3ba2f70d2747e723e027bd",
+      "guide": "sovereignty",
+      "language": "en",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/en/sovereignty.pdf",
+      "bytes": 705701,
+      "sha256": "99fbafb96784ceb59e41e3f74584be2f07534e816af14030203b2fe234e68b30",
+      "guide": "sovereignty",
+      "language": "en",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/fr/sovereignty.png",
+      "bytes": 240658,
+      "sha256": "4787da35a14237c2fe8b5cc927ab25d26b1539a6a53bad4a113b1aed66f9ac95",
+      "guide": "sovereignty",
+      "language": "fr",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/fr/sovereignty.pdf",
+      "bytes": 816415,
+      "sha256": "d3a633375ee887ce8973c0948bda3daa18cec68b3435768cf3f1766c29c91e22",
+      "guide": "sovereignty",
+      "language": "fr",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/it/sovereignty.png",
+      "bytes": 231230,
+      "sha256": "ec17215a0ebf5009ef6d5e628c6e7428d40fbf8ad25a7b349f87351176cc64ec",
+      "guide": "sovereignty",
+      "language": "it",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/it/sovereignty.pdf",
+      "bytes": 750525,
+      "sha256": "0a7e072285c1adebf0925d0dff607003308a0edc9e37b9ee9ab12ae7f6fd5ae9",
+      "guide": "sovereignty",
+      "language": "it",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/en/light-workforce.png",
+      "bytes": 237550,
+      "sha256": "3bf30113373842b5bdfb15aa025c4e6120b9220b4dcffd0e3841515c3bb268c5",
+      "guide": "light-workforce",
+      "language": "en",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/en/light-workforce.pdf",
+      "bytes": 745277,
+      "sha256": "0ec80ca5935bf59e51afc9c7f3e8dbb87670736c2b34a5cb8ca73edfaa03d159",
+      "guide": "light-workforce",
+      "language": "en",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/fr/light-workforce.png",
+      "bytes": 207150,
+      "sha256": "7477e777d1c780e5bec78038d2f167b2a3ba9b2cc5d9e56254fc01df4b8fada1",
+      "guide": "light-workforce",
+      "language": "fr",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/fr/light-workforce.pdf",
+      "bytes": 817827,
+      "sha256": "6f24010e5fc92e6a553458558db486b4eff747c5503c2b8418067255e354be2f",
+      "guide": "light-workforce",
+      "language": "fr",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/it/light-workforce.png",
+      "bytes": 242709,
+      "sha256": "38c5a1548745597989c0cfde0c70383621c05dbf2eb0c97fec94c71a79f8cfe0",
+      "guide": "light-workforce",
+      "language": "it",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/it/light-workforce.pdf",
+      "bytes": 812570,
+      "sha256": "e09e14fcc63ba4ad1b66a71817d19a695288d528aa848d3359e90278c6ad7ecd",
+      "guide": "light-workforce",
+      "language": "it",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/en/technoference.png",
+      "bytes": 226329,
+      "sha256": "54998c7bf4de8c285da04127e37596273eb139f3ce2a9174aeaf7024108f92ce",
+      "guide": "technoference",
+      "language": "en",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/en/technoference.pdf",
+      "bytes": 739454,
+      "sha256": "b8a16918b91d7eb088eb13abf60c0624f723f4e86be053b56fb6390205a2a2be",
+      "guide": "technoference",
+      "language": "en",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/fr/technoference.png",
+      "bytes": 226879,
+      "sha256": "d658101e1ae8588fba52436291bde4208622b8f37247af8f124ea760764fd9c5",
+      "guide": "technoference",
+      "language": "fr",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/fr/technoference.pdf",
+      "bytes": 775516,
+      "sha256": "f6f9c266e35d3ec65478fd730825292f7eb8ac5ae0e1bd73d20be69a9207232d",
+      "guide": "technoference",
+      "language": "fr",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/it/technoference.png",
+      "bytes": 230079,
+      "sha256": "0e0cd4c0f40769ef09ed78343264ff70c64d79df89b671a22671f5f0456f92f3",
+      "guide": "technoference",
+      "language": "it",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/it/technoference.pdf",
+      "bytes": 764971,
+      "sha256": "ea8fd904f0a7cdbc7b737fe20e655be27c78759087c80cdd7c51f4673c226a23",
+      "guide": "technoference",
+      "language": "it",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/en/art.png",
+      "bytes": 240779,
+      "sha256": "e6651214f19be7c785baf35d619d7876624b36533e9835d04689ef44cb274c1e",
+      "guide": "art",
+      "language": "en",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/en/art.pdf",
+      "bytes": 782965,
+      "sha256": "96e6e68bd6f39f6b73483938e7f29bc9cbd50d236668c37997eab62cedc2f8a2",
+      "guide": "art",
+      "language": "en",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/fr/art.png",
+      "bytes": 244972,
+      "sha256": "62547455f8b6c3b097cbebcc07def7da4e1964dc059cda3799aa55e0d9f545fc",
+      "guide": "art",
+      "language": "fr",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/fr/art.pdf",
+      "bytes": 821547,
+      "sha256": "a7e69922fd5f3ede8cf2cdc0a12c6aefbb7adf64a3eeef5467af3be65c54ef49",
+      "guide": "art",
+      "language": "fr",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/it/art.png",
+      "bytes": 233441,
+      "sha256": "0e4452d9dd3e64614748f82591e54f3e97c8af8e924ac6ec6d7911e0cc5069d3",
+      "guide": "art",
+      "language": "it",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/it/art.pdf",
+      "bytes": 765480,
+      "sha256": "93588269dbfa9c2f55d78a3191cd2dcf885a7b281873638b3977738013f6723c",
+      "guide": "art",
+      "language": "it",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/en/method.png",
+      "bytes": 225220,
+      "sha256": "9b257d95685c0262205ebb63167010a49ea75debc3bbeeab928f81f3a84fe99a",
+      "guide": "method",
+      "language": "en",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/en/method.pdf",
+      "bytes": 745962,
+      "sha256": "4b46c3ab67639dbb0699e3af09384be2247f8a2e9590549f9384c516338ccb56",
+      "guide": "method",
+      "language": "en",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/fr/method.png",
+      "bytes": 237846,
+      "sha256": "a008142a583747e5ddec6e2ddc9e78edc8cd47c1b83bc04b63c42084d4602322",
+      "guide": "method",
+      "language": "fr",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/fr/method.pdf",
+      "bytes": 797765,
+      "sha256": "0930f86078bd8340a38e39748c44a7fc49bcdd312936e42cb21eb823abbd305e",
+      "guide": "method",
+      "language": "fr",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/it/method.png",
+      "bytes": 224150,
+      "sha256": "4361bea12d7a23509868453434da4eb08c117fdfa9e2c927315173aba3c14b8b",
+      "guide": "method",
+      "language": "it",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/it/method.pdf",
+      "bytes": 755746,
+      "sha256": "1e6218442c025a2421b9df3cc723d45475fd08bb9200974b1790ad6b16278d49",
+      "guide": "method",
+      "language": "it",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/en/connections.png",
+      "bytes": 219253,
+      "sha256": "5f72480ef7f628006b93915f50ffaf3ff72660ff975e9469323c83dd9c57eb1c",
+      "guide": "connections",
+      "language": "en",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/en/connections.pdf",
+      "bytes": 699972,
+      "sha256": "f49deb6ed9d62c83736af6f84e8b105bbc3caf22b6b61f159d30723501569378",
+      "guide": "connections",
+      "language": "en",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/fr/connections.png",
+      "bytes": 212928,
+      "sha256": "a585b55bc65539343d6279396061848662448b8554b245d6bf6b8579d3680fb7",
+      "guide": "connections",
+      "language": "fr",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/fr/connections.pdf",
+      "bytes": 730200,
+      "sha256": "121bcdba8f0da2141634ea02965b73ef3f4eaa480728d5fbc007a06658edbef8",
+      "guide": "connections",
+      "language": "fr",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/it/connections.png",
+      "bytes": 208799,
+      "sha256": "957ff1b12d7592742cff07d50f8d15d949bcf3de0d9eba4ad0299b746bb02939",
+      "guide": "connections",
+      "language": "it",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/it/connections.pdf",
+      "bytes": 699559,
+      "sha256": "5fe224c80059186722b3dab271900be02f281afeee77c24d06828dbd8dabb473",
+      "guide": "connections",
+      "language": "it",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/en/permissions.png",
+      "bytes": 208130,
+      "sha256": "680dc94d01c31ca945cf6ea889305036cc6aa3b709e4cd1014804bc5eb66211f",
+      "guide": "permissions",
+      "language": "en",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/en/permissions.pdf",
+      "bytes": 691015,
+      "sha256": "65ed436abd5a6a5221a89668cf75112bbaca3ae4554558e049b801ef58ac4d98",
+      "guide": "permissions",
+      "language": "en",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/fr/permissions.png",
+      "bytes": 219281,
+      "sha256": "775f076061041ba7dad4aab21339386884a11fb85846d61c6ff68a8f26c22c7c",
+      "guide": "permissions",
+      "language": "fr",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/fr/permissions.pdf",
+      "bytes": 765350,
+      "sha256": "a2cbd27a5440e40a76ed058a2536b5de9ba81a94aa6399b959bf0eadfbe5905e",
+      "guide": "permissions",
+      "language": "fr",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/it/permissions.png",
+      "bytes": 229294,
+      "sha256": "994f2e3f4d00e9353f919457db35d8c11b6a1353434f2551ab5abb124e7ba694",
+      "guide": "permissions",
+      "language": "it",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/it/permissions.pdf",
+      "bytes": 779327,
+      "sha256": "2f040e7e26c5b8315037535e4fe2ffaf1a58c409d66797fbe691681b80ce437a",
+      "guide": "permissions",
+      "language": "it",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/en/costs.png",
+      "bytes": 232534,
+      "sha256": "3fc0c979ae1c70f4388526e9a07633a791a634d8d3220295aabef45605e6f7ad",
+      "guide": "costs",
+      "language": "en",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/en/costs.pdf",
+      "bytes": 770028,
+      "sha256": "3e3d2e078e5f3a3d7c3c5f2fec1c631b7d838faa0831b16a546af3e1e6db1787",
+      "guide": "costs",
+      "language": "en",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/fr/costs.png",
+      "bytes": 243003,
+      "sha256": "c8de814aff0157683479222e0ac2a71cf75e932d9f5ea53dae5c4ac07cfca277",
+      "guide": "costs",
+      "language": "fr",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/fr/costs.pdf",
+      "bytes": 820144,
+      "sha256": "9adb1e6075f1b18e8b2b753992af9f4c59b8a1e5c23767d0c9cca96d2a710c0f",
+      "guide": "costs",
+      "language": "fr",
+      "format": "pdf"
+    },
+    {
+      "path": "assets/visual-guides/it/costs.png",
+      "bytes": 231375,
+      "sha256": "b72cd5ee326189f0172c3c63063bb4fff8945df7c62e5f178a9bad90559998f1",
+      "guide": "costs",
+      "language": "it",
+      "format": "png"
+    },
+    {
+      "path": "assets/visual-guides/it/costs.pdf",
+      "bytes": 796262,
+      "sha256": "1d02fe9e207c94319cec3ccb662e85f090fb1214aabfc75333f4e0907db93234",
+      "guide": "costs",
+      "language": "it",
+      "format": "pdf"
+    }
+  ]
+}

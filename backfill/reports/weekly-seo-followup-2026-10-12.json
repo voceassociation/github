@@ -1,0 +1,103 @@
+{
+  "schema": "voce.weekly-seo-followup.v1",
+  "checked_at": "2026-10-12T09:50:09.641Z",
+  "baseline_commit": "797ab13f470d6eea3313b4b2416bf7795c245880",
+  "public_sitemap": {
+    "urls": 2336,
+    "unique_urls": 2336
+  },
+  "google": {
+    "checked_at": "2026-10-12T09:38:53.378Z",
+    "run_id": "ce5fb30a-526e-4d06-a370-7639cf3e5842",
+    "authenticated": true,
+    "property": "sc-domain:voce.life",
+    "page_indexing": {
+      "last_updated": "2026-10-08",
+      "indexed": 1792,
+      "not_indexed": 650,
+      "reasons": {
+        "discovered_currently_not_indexed": 490,
+        "crawled_currently_not_indexed": 87,
+        "not_found_404": 3,
+        "alternative_with_canonical": 53,
+        "server_error_5xx": 0,
+        "redirect_error": 9,
+        "soft_404": 1,
+        "noindex": 1,
+        "other_4xx": 2,
+        "page_with_redirect": 4
+      }
+    },
+    "performance": {
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-09",
+      "clicks": 6,
+      "impressions": 312,
+      "ctr_percent": 1.9,
+      "average_position": 8.4
+    },
+    "sitemap": {
+      "status": "success",
+      "last_read": "2026-10-07",
+      "discovered_urls": 2287
+    },
+    "visual_guides_indexed": null,
+    "settings_changed": false,
+    "limitations": [
+      "Indexing totals are property-wide and cannot be divided by today's sitemap count to infer a corpus coverage ratio.",
+      "Visual-guides URL inspection was not completed.",
+      "Performance data includes reporting delay; no same-period prior-week comparison was obtained.",
+      "Redirect and 404 categories may describe historical routes; URLs have not yet been inspected."
+    ]
+  },
+  "linkedin": {
+    "checked_at": "2026-10-12T09:42:24.711Z",
+    "brand_id": 7090850,
+    "brand": "VOCE Association",
+    "linkedin_connected": false,
+    "automation_preserved_disabled": true,
+    "action_required": "Use an available authorised source instead of the unavailable Metricool LinkedIn connector; do not enable the paused job until retrieval is verified.",
+    "user_explained_cause": "Metricool LinkedIn access is behind a paid plan; user confirmed this is why the connector is unavailable.",
+    "source_alternatives": [
+      "Direct authenticated LinkedIn retrieval",
+      "Adobe text exports with verifiable LinkedIn provenance"
+    ]
+  },
+  "visual_guides": {
+    "guides": 16,
+    "languages": [
+      "en",
+      "fr",
+      "it"
+    ],
+    "files": 96,
+    "pngs": 48,
+    "pdfs": 48,
+    "permanent_path": "/assets/visual-guides/{language}/{guide}.{format}",
+    "static_html_links": 96,
+    "text_alternatives": "All full stage explanations, scope notes and reference links remain in collection HTML.",
+    "structured_data": "Each guide CreativeWork references original sources and encodes its PNG/PDF download.",
+    "editorial_text_modified": false,
+    "canonicals_modified": false,
+    "collections_added": 0,
+    "corpus_items_added": 0,
+    "local_validation": {
+      "all_pdf_png_pairs": 48,
+      "pdf_dimensions": [
+        600,
+        750
+      ],
+      "png_dimensions": [
+        1200,
+        1500
+      ],
+      "pdf_source_links": true,
+      "representative_png_pdf_visual_review": true,
+      "manifest_hash_guard": true
+    },
+    "deployment": {
+      "status": "awaiting_verification"
+    }
+  },
+  "interpretation": "Technical discovery improved; Google reach is still modest. Property-wide indexing figures include historical/alternate routes and must not be treated as a corpus indexing percentage. Stable Academy count cannot establish publication completeness while the LinkedIn connector is disconnected."
+}
