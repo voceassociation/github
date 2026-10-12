@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "owner": "VOCE Association",
-  "generated_at": "2026-10-12T11:20:25.331931+00:00",
+  "generated_at": "2026-10-12T11:26:06.697385+00:00",
   "items": [
     {
       "id": "linkedin:7509084439671664640",
@@ -9600,6 +9600,24 @@
       "post_id": "7515275221361315841",
       "date": "2026-10-12",
       "path": "/archive/2026/10/12/zylo-clarity-ai-le-registre-logiciel-commence-a-executer-les-decisions-7515275221361315841"
+    },
+    {
+      "id": "linkedin:7514248492110970880",
+      "post_id": "7514248492110970880",
+      "date": "2026-10-09",
+      "path": "/archive/2026/10/09/l-hotellerie-depense-des-millions-pour-etre-vue-les-agents-vont-decider-7514248492110970880"
+    },
+    {
+      "id": "linkedin:7515365850959421440",
+      "post_id": "7515365850959421440",
+      "date": "2026-10-12",
+      "path": "/archive/2026/10/12/siemens-energy-et-koncar-les-transformateurs-deviennent-le-calendrier-ca-7515365850959421440"
+    },
+    {
+      "id": "linkedin:7515260109472686080",
+      "post_id": "7515260109472686080",
+      "date": "2026-10-12",
+      "path": "/archive/2026/10/12/apollo-graphos-agent-services-l-agent-ia-ne-voit-plus-toute-l-entreprise-7515260109472686080"
     }
   ]
 }

@@ -23899,6 +23899,22 @@
       }
     },
     {
+      "id": "linkedin:7514248492110970880",
+      "platform_id": "urn:li:ugcPost:7514248492110970880",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514248492110970880/",
+      "date_published": "2026-10-09",
+      "text": "L'hôtellerie dépense des millions pour être vue. Les agents vont décider qui encaisse la réservation\n\nSiteMinder observe en 2025 un écart difficile à ignorer.\n\nRéservation moyenne sur le site de l'hôtel: 516 dollars.\n\nVia une OTA: 312 dollars.\n\nLes clientèles diffèrent. Mais le canal direct protège davantage de marge et de donnée client.\n\nD-EDGE estime à 3,5% le coût moyen de distribution directe chez ses hôtels clients, contre 12 à 28% de commission généralement prélevée par les OTA.\n\nPourtant, l'IA n'a pas encore bouleversé cette économie.\n\nEn 2026, 26% des voyageurs interrogés commencent leur recherche sur une OTA. Seulement 4% commencent par l'IA. Et 18% de ceux qui démarrent sur une OTA finissent par réserver directement.\n\nC'est dans ce passage entre découverte et transaction que les agents deviennent intéressants.\n\nEn mars 2026, Canary Technologies lance Hospitality AI Agent Studio. Des agents de réservation, réception ou conciergerie peuvent traiter une demande, consulter les disponibilités, proposer des services et accompagner la réservation.\n\nEn avril, SiteMinder ouvre aussi sa distribution à des parcours conversationnels IA.\n\nPour un propriétaire ou un fonds, le sujet devient: combien de réservations additionnelles ont été créées, à quel coût, sur quel canal et avec quelle marge?\n\nULTRA®\n\nPrenons 1.000 réservations de 500 euros.\n\nÀ 18% de commission OTA: 90.000 euros.\n\nÀ 5% de coût direct: 25.000 euros.\n\nÉcart théorique: 65.000 euros.\n\nCette valeur n'existe que si l'agent déplace réellement une réservation ou crée une conversion supplémentaire. Acquisition, technologie, promotions et cannibalisation doivent être intégrées.\n\nCRS, PMS, CRM, moteur de réservation, paiement et couche agentique doivent partager prix et disponibilité sans permettre au modèle d'inventer une chambre ou un tarif.\n\nLe KPI central devient la marge contributive incrémentale par réservation confirmée.\n\nLe risque: si l'agent personnel du voyageur appartient à une grande plateforme, l'hôtel peut automatiser sa vente tout en laissant l'intermédiaire contrôler la demande.\n\nLa bataille porte désormais sur l'interface qui possède l'intention du client.\n\nLI!GHT WORKFORCE ©\n\nCanary automatise déjà une partie des tâches de réservation, réception et conciergerie.\n\nL'impact se mesure en demandes résolues, réservations confirmées, revenus additionnels et interventions humaines évitées sans dégrader le service.\n\nL'humain remonte vers exceptions, relation, négociation et hospitalité.\n\nFIGARO\n\nCelui qui contrôle le dernier mètre entre le désir et la réservation contrôle une partie de la marge.\n\nSources\n\nSiteMinder, Hotel Booking Trends 2026\nSiteMinder, Changing Traveller Report 2026\nSiteMinder, AI hotel distribution, 15 avril 2026\nD-EDGE, 2025 Hotel Direct Distribution Report\nCanary Technologies, Hospitality AI Agent Studio, mars 2026\n\n#VOCEAssociation #AgenticCommerce #LuxuryHospitality #AgentsIA #RevenueManagement",
+      "text_sha256": "48103718905769f212a965522059771b3d20ecec2b913e182316f574cb3577b6",
+      "adobe_provenance": {
+        "status": "pending",
+        "evidence": []
+      },
+      "source": "authenticated_linkedin_browser",
+      "date_precision": "day",
+      "retrieved_at": "2026-10-12T11:23:37.785Z",
+      "date_basis": "The actual LinkedIn post displays '9 oct.' during an authenticated observation on 12 October 2026. Its identifier creation signal also falls on 9 October 2026; no exact publication hour is asserted."
+    },
+    {
       "id": "linkedin:7515350721006018560",
       "platform_id": "urn:li:ugcPost:7515350721006018560",
       "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515350721006018560/",
@@ -23993,6 +24009,38 @@
       "date_precision": "day",
       "retrieved_at": "2026-10-12T11:18:46.966Z",
       "date_basis": "Visible 2–6 hour labels observed on 12 October 2026 around 13:20 Europe/Podgorica; the full possible interval falls on 12 October. Exact publication hour is unknown."
+    },
+    {
+      "id": "linkedin:7515365850959421440",
+      "platform_id": "urn:li:ugcPost:7515365850959421440",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515365850959421440/",
+      "date_published": "2026-10-12",
+      "text": "Siemens Energy et KONČAR: les transformateurs deviennent le calendrier caché des data centers européens\n\nUn data center peut être financé avant que le réseau sache quand il pourra l'alimenter.\n\nLa BEI décrit cette contrainte dans son Investment Report 2025/2026. À Francfort, les files de raccordement atteignent en moyenne sept à dix ans. Amsterdam connaît déjà des restrictions locales qui déplacent certains projets.\n\nDerrière ces délais se trouvent aussi des usines.\n\nÀ Nuremberg, Siemens Energy investit 220 millions d'euros pour agrandir de 16.000 m² son usine de grands transformateurs et augmenter sa capacité d'environ 50%. Les nouvelles surfaces doivent être disponibles en 2028.\n\nCes transformateurs servent aux réseaux dont dépendent les data centers, mais aussi aux interconnexions et à l'éolien offshore. Un projet numérique entre donc en concurrence industrielle avec d'autres infrastructures électriques.\n\nLe 23 janvier 2026, KONČAR et Siemens Energy ouvrent à Sesvetski Kraljevec, près de Zagreb, une usine de cuves pour grands transformateurs. Capacité annoncée: environ 160 unités sur mesure par an.\n\nUne cuve n'est pas un transformateur prêt à raccorder. La partie active doit encore être intégrée et le transformateur doit passer ses essais électriques.\n\nÀ Zagreb, leur autre coentreprise, KONČAR-Power Transformers, engage parallèlement environ 260 millions d'euros. Sa capacité doit passer de 22.000 MVA à 30.000 MVA en 2027 puis atteindre 45.000 MVA en 2031.\n\nEn Espagne, Hitachi Energy investit 30 millions d'euros dans une nouvelle usine de transformateurs secs à Saragosse, prévue pour fin 2026. Cette famille équipe notamment les data centers, sans remplacer les grands transformateurs du réseau amont.\n\nULTRA®\n\nPour un investisseur, des mégawatts annoncés ne suffisent pas.\n\nIl faut connaître la date de raccordement accordée par le gestionnaire de réseau et vérifier qu'un créneau de fabrication existe pour l'équipement retenu.\n\nUne réservation industrielle peut perdre sa valeur si la conception du poste change et impose un autre transformateur.\n\nLe retard décale les revenus pendant que le capital reste immobilisé. Les pénalités contractuelles ne compensent pas nécessairement cette perte économique.\n\nLe calendrier industriel compte donc autant que la capacité future. Une usine disponible en 2028 ou une montée à 45.000 MVA en 2031 ne sécurisent pas un data center promis pour 2027.\n\nLa diligence d'un actif numérique doit désormais remonter jusqu'aux usines qui fabriquent l'infrastructure électrique nécessaire à son exploitation.\n\nFASOLT\n\nDans \"Das Rheingold\", le Walhalla existe d'abord comme promesse monumentale. Sa réalité dépend encore de ceux qui savent le construire.\n\nSources\n\nBanque européenne d'investissement, Investment Report 2025/2026\nSiemens Energy, Nuremberg, 5 septembre 2025\nKONČAR, 23 janvier et 5 mai 2026\nHitachi Energy, Saragosse, 23 janvier 2025\n\n#VOCEAssociation #DataCenters #Infrastructure #Transformateurs",
+      "text_sha256": "52be4d6643e2e3a4bb555d1cd4110ea5e1da453cedaf492f80c61fb5b083fd1c",
+      "adobe_provenance": {
+        "status": "pending",
+        "evidence": []
+      },
+      "source": "authenticated_linkedin_browser",
+      "date_precision": "day",
+      "retrieved_at": "2026-10-12T11:23:37.785Z",
+      "date_basis": "The observed minute/hour label on 12 October 2026 around 13:25 Europe/Podgorica places the full possible publication interval on this same civil day. Exact hour is not claimed."
+    },
+    {
+      "id": "linkedin:7515260109472686080",
+      "platform_id": "urn:li:ugcPost:7515260109472686080",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515260109472686080/",
+      "date_published": "2026-10-12",
+      "text": "Apollo GraphOS Agent Services: l'agent IA ne voit plus toute l'entreprise par défaut\n\nUn agent doit retrouver le statut d'un client.\n\nL'API peut lui renvoyer davantage: adresse, facturation ou données de compte.\n\nCes informations entrent alors dans son contexte avant même qu'il ait répondu.\n\nLe 7 octobre 2026, Apollo GraphQL présente GraphOS Agent Services pour traiter ce risque.\n\nGraphOS orchestre déjà plus de 2.000 milliards d'opérations par mois. Agent Services ajoute une couche de contrôle entre les agents et les systèmes de l'entreprise.\n\nL'agent cherche dans un modèle métier commun les données utiles. GraphOS lui attribue une identité propre ou propage celle de l'utilisateur qui l'a mandaté. Les règles d'accès s'appliquent jusqu'au niveau du champ.\n\nIl peut lire le nom d'un client et l'état d'une commande sans recevoir son adresse ou ses informations de paiement.\n\nApollo classe les champs avec des tags comme \"sensitivity:PII\" ou \"sensitivity:financial\". Une règle peut autoriser, masquer ou refuser leur accès selon l'agent ou l'utilisateur.\n\nUn champ refusé peut être retiré avant d'entrer dans le contexte du LLM.\n\nLa sécurité ne dépend plus d'une instruction demandant au modèle d'ignorer une donnée qu'il a déjà vue.\n\nChaque requête laisse aussi une trace d'audit.\n\nIntuit pilote déjà Agent Services. Apollo cite aussi American Airlines, Block et Expedia parmi les entreprises utilisant GraphOS pour leurs systèmes ou leurs agents.\n\nLa disponibilité reste ambiguë: Apollo annonce une \"public preview\", tandis que sa documentation indique encore \"private preview\" avec accompagnement obligatoire pour l'onboarding.\n\nLe prix spécifique n'est pas public.\n\nULTRA®\n\nLes API d'entreprise ont souvent été conçues pour des développeurs de confiance, pas pour des machines autonomes.\n\nLe GraphOS MCP Server expose des capacités aux assistants. Agent Services décide ce qu'un agent peut réellement voir ou modifier.\n\nUn compte technique large donne à l'agent des droits indépendants de la personne qui l'utilise. Avec une identité transportée jusqu'à la source, le même agent peut recevoir des réponses différentes selon l'utilisateur.\n\nLa décision d'autorisation appartient au moteur de politique, pas au modèle.\n\nLI!GHT WORKFORCE ©\n\nGraphOS Agent Services réduit une partie du travail répétitif autour des connexions, credentials et contrôles reconstruits agent par agent.\n\nLes équipes API Platform, IAM et sécurité restent responsables du modèle métier, de la classification des données et des règles.\n\nÀ grande échelle, l'autonomie d'un agent dépend aussi de la précision avec laquelle l'entreprise décide ce qu'il n'a jamais besoin de voir.\n\nSources\n\nApollo GraphQL, \"Introducing GraphOS Agent Services\", 7 octobre 2026\n\nApollo GraphQL, GraphOS Agent Services Documentation\n\nApollo Summit 2026\n\nApollo GraphQL, GraphOS Pricing\n\n#VOCEAssociation #ApolloGraphQL #AIAgents #AIGovernance #MCP",
+      "text_sha256": "6fadff1b76597b27888445a966dd372ecec119a0fe582762e46f851f07005ecd",
+      "adobe_provenance": {
+        "status": "pending",
+        "evidence": []
+      },
+      "source": "authenticated_linkedin_browser",
+      "date_precision": "day",
+      "retrieved_at": "2026-10-12T11:23:37.785Z",
+      "date_basis": "The observed minute/hour label on 12 October 2026 around 13:25 Europe/Podgorica places the full possible publication interval on this same civil day. Exact hour is not claimed."
     }
   ]
 }

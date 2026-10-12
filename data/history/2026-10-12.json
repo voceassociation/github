@@ -3,7 +3,7 @@
   "owner": "VOCE Association",
   "source": "LinkedIn authenticated browser",
   "date": "2026-10-12",
-  "item_count": 6,
+  "item_count": 8,
   "items": [
     {
       "id": "linkedin:7515350721006018560",
@@ -29,7 +29,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:20:25.777036+00:00",
+        "reviewed_at": "2026-10-12T11:26:07.064298+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -57,7 +57,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:20:25.777036+00:00",
+        "reviewed_at": "2026-10-12T11:26:07.064298+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -85,7 +85,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:20:25.777036+00:00",
+        "reviewed_at": "2026-10-12T11:26:07.064298+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -113,7 +113,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:20:25.777036+00:00",
+        "reviewed_at": "2026-10-12T11:26:07.064298+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -141,7 +141,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:20:25.777036+00:00",
+        "reviewed_at": "2026-10-12T11:26:07.064298+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -169,7 +169,63 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:20:25.777036+00:00",
+        "reviewed_at": "2026-10-12T11:26:07.064298+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7515365850959421440",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7515365850959421440",
+      "date_published": "2026-10-12",
+      "title": "Siemens Energy et KONČAR: les transformateurs deviennent le calendrier caché des data centers européens",
+      "slug": "siemens-energy-et-koncar-les-transformateurs-deviennent-le-calendrier-ca-7515365850959421440",
+      "canonical_url": "https://voce.life/archive/2026/10/12/siemens-energy-et-koncar-les-transformateurs-deviennent-le-calendrier-ca-7515365850959421440",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515365850959421440/",
+      "language": "fr",
+      "text": "Siemens Energy et KONČAR: les transformateurs deviennent le calendrier caché des data centers européens\n\nUn data center peut être financé avant que le réseau sache quand il pourra l'alimenter.\n\nLa BEI décrit cette contrainte dans son Investment Report 2025/2026. À Francfort, les files de raccordement atteignent en moyenne sept à dix ans. Amsterdam connaît déjà des restrictions locales qui déplacent certains projets.\n\nDerrière ces délais se trouvent aussi des usines.\n\nÀ Nuremberg, Siemens Energy investit 220 millions d'euros pour agrandir de 16.000 m² son usine de grands transformateurs et augmenter sa capacité d'environ 50%. Les nouvelles surfaces doivent être disponibles en 2028.\n\nCes transformateurs servent aux réseaux dont dépendent les data centers, mais aussi aux interconnexions et à l'éolien offshore. Un projet numérique entre donc en concurrence industrielle avec d'autres infrastructures électriques.\n\nLe 23 janvier 2026, KONČAR et Siemens Energy ouvrent à Sesvetski Kraljevec, près de Zagreb, une usine de cuves pour grands transformateurs. Capacité annoncée: environ 160 unités sur mesure par an.\n\nUne cuve n'est pas un transformateur prêt à raccorder. La partie active doit encore être intégrée et le transformateur doit passer ses essais électriques.\n\nÀ Zagreb, leur autre coentreprise, KONČAR-Power Transformers, engage parallèlement environ 260 millions d'euros. Sa capacité doit passer de 22.000 MVA à 30.000 MVA en 2027 puis atteindre 45.000 MVA en 2031.\n\nEn Espagne, Hitachi Energy investit 30 millions d'euros dans une nouvelle usine de transformateurs secs à Saragosse, prévue pour fin 2026. Cette famille équipe notamment les data centers, sans remplacer les grands transformateurs du réseau amont.\n\nULTRA®\n\nPour un investisseur, des mégawatts annoncés ne suffisent pas.\n\nIl faut connaître la date de raccordement accordée par le gestionnaire de réseau et vérifier qu'un créneau de fabrication existe pour l'équipement retenu.\n\nUne réservation industrielle peut perdre sa valeur si la conception du poste change et impose un autre transformateur.\n\nLe retard décale les revenus pendant que le capital reste immobilisé. Les pénalités contractuelles ne compensent pas nécessairement cette perte économique.\n\nLe calendrier industriel compte donc autant que la capacité future. Une usine disponible en 2028 ou une montée à 45.000 MVA en 2031 ne sécurisent pas un data center promis pour 2027.\n\nLa diligence d'un actif numérique doit désormais remonter jusqu'aux usines qui fabriquent l'infrastructure électrique nécessaire à son exploitation.\n\nFASOLT\n\nDans \"Das Rheingold\", le Walhalla existe d'abord comme promesse monumentale. Sa réalité dépend encore de ceux qui savent le construire.\n\nSources\n\nBanque européenne d'investissement, Investment Report 2025/2026\nSiemens Energy, Nuremberg, 5 septembre 2025\nKONČAR, 23 janvier et 5 mai 2026\nHitachi Energy, Saragosse, 23 janvier 2025\n\n#VOCEAssociation #DataCenters #Infrastructure #Transformateurs",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "date_precision": "day",
+      "provenance": {
+        "source": "authenticated_linkedin_browser",
+        "retrieved_at": "2026-10-12T11:23:37.785Z",
+        "visible_relative_time": "18 min",
+        "date_basis": "The observed minute/hour label on 12 October 2026 around 13:25 Europe/Podgorica places the full possible publication interval on this same civil day. Exact hour is not claimed."
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-12T11:26:07.064298+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7515260109472686080",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7515260109472686080",
+      "date_published": "2026-10-12",
+      "title": "Apollo GraphOS Agent Services: l'agent IA ne voit plus toute l'entreprise par défaut",
+      "slug": "apollo-graphos-agent-services-l-agent-ia-ne-voit-plus-toute-l-entreprise-7515260109472686080",
+      "canonical_url": "https://voce.life/archive/2026/10/12/apollo-graphos-agent-services-l-agent-ia-ne-voit-plus-toute-l-entreprise-7515260109472686080",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515260109472686080/",
+      "language": "fr",
+      "text": "Apollo GraphOS Agent Services: l'agent IA ne voit plus toute l'entreprise par défaut\n\nUn agent doit retrouver le statut d'un client.\n\nL'API peut lui renvoyer davantage: adresse, facturation ou données de compte.\n\nCes informations entrent alors dans son contexte avant même qu'il ait répondu.\n\nLe 7 octobre 2026, Apollo GraphQL présente GraphOS Agent Services pour traiter ce risque.\n\nGraphOS orchestre déjà plus de 2.000 milliards d'opérations par mois. Agent Services ajoute une couche de contrôle entre les agents et les systèmes de l'entreprise.\n\nL'agent cherche dans un modèle métier commun les données utiles. GraphOS lui attribue une identité propre ou propage celle de l'utilisateur qui l'a mandaté. Les règles d'accès s'appliquent jusqu'au niveau du champ.\n\nIl peut lire le nom d'un client et l'état d'une commande sans recevoir son adresse ou ses informations de paiement.\n\nApollo classe les champs avec des tags comme \"sensitivity:PII\" ou \"sensitivity:financial\". Une règle peut autoriser, masquer ou refuser leur accès selon l'agent ou l'utilisateur.\n\nUn champ refusé peut être retiré avant d'entrer dans le contexte du LLM.\n\nLa sécurité ne dépend plus d'une instruction demandant au modèle d'ignorer une donnée qu'il a déjà vue.\n\nChaque requête laisse aussi une trace d'audit.\n\nIntuit pilote déjà Agent Services. Apollo cite aussi American Airlines, Block et Expedia parmi les entreprises utilisant GraphOS pour leurs systèmes ou leurs agents.\n\nLa disponibilité reste ambiguë: Apollo annonce une \"public preview\", tandis que sa documentation indique encore \"private preview\" avec accompagnement obligatoire pour l'onboarding.\n\nLe prix spécifique n'est pas public.\n\nULTRA®\n\nLes API d'entreprise ont souvent été conçues pour des développeurs de confiance, pas pour des machines autonomes.\n\nLe GraphOS MCP Server expose des capacités aux assistants. Agent Services décide ce qu'un agent peut réellement voir ou modifier.\n\nUn compte technique large donne à l'agent des droits indépendants de la personne qui l'utilise. Avec une identité transportée jusqu'à la source, le même agent peut recevoir des réponses différentes selon l'utilisateur.\n\nLa décision d'autorisation appartient au moteur de politique, pas au modèle.\n\nLI!GHT WORKFORCE ©\n\nGraphOS Agent Services réduit une partie du travail répétitif autour des connexions, credentials et contrôles reconstruits agent par agent.\n\nLes équipes API Platform, IAM et sécurité restent responsables du modèle métier, de la classification des données et des règles.\n\nÀ grande échelle, l'autonomie d'un agent dépend aussi de la précision avec laquelle l'entreprise décide ce qu'il n'a jamais besoin de voir.\n\nSources\n\nApollo GraphQL, \"Introducing GraphOS Agent Services\", 7 octobre 2026\n\nApollo GraphQL, GraphOS Agent Services Documentation\n\nApollo Summit 2026\n\nApollo GraphQL, GraphOS Pricing\n\n#VOCEAssociation #ApolloGraphQL #AIAgents #AIGovernance #MCP",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "date_precision": "day",
+      "provenance": {
+        "source": "authenticated_linkedin_browser",
+        "retrieved_at": "2026-10-12T11:23:37.785Z",
+        "visible_relative_time": "7 h",
+        "date_basis": "The observed minute/hour label on 12 October 2026 around 13:25 Europe/Podgorica places the full possible publication interval on this same civil day. Exact hour is not claimed."
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-12T11:26:07.064298+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     }

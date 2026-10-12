@@ -3,8 +3,36 @@
   "owner": "VOCE Association",
   "source": "Metricool / LinkedIn",
   "date": "2026-10-09",
-  "item_count": 6,
+  "item_count": 7,
   "items": [
+    {
+      "id": "linkedin:7514248492110970880",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7514248492110970880",
+      "date_published": "2026-10-09",
+      "title": "L'hôtellerie dépense des millions pour être vue. Les agents vont décider qui encaisse la réservation",
+      "slug": "l-hotellerie-depense-des-millions-pour-etre-vue-les-agents-vont-decider-7514248492110970880",
+      "canonical_url": "https://voce.life/archive/2026/10/09/l-hotellerie-depense-des-millions-pour-etre-vue-les-agents-vont-decider-7514248492110970880",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514248492110970880/",
+      "language": "fr",
+      "text": "L'hôtellerie dépense des millions pour être vue. Les agents vont décider qui encaisse la réservation\n\nSiteMinder observe en 2025 un écart difficile à ignorer.\n\nRéservation moyenne sur le site de l'hôtel: 516 dollars.\n\nVia une OTA: 312 dollars.\n\nLes clientèles diffèrent. Mais le canal direct protège davantage de marge et de donnée client.\n\nD-EDGE estime à 3,5% le coût moyen de distribution directe chez ses hôtels clients, contre 12 à 28% de commission généralement prélevée par les OTA.\n\nPourtant, l'IA n'a pas encore bouleversé cette économie.\n\nEn 2026, 26% des voyageurs interrogés commencent leur recherche sur une OTA. Seulement 4% commencent par l'IA. Et 18% de ceux qui démarrent sur une OTA finissent par réserver directement.\n\nC'est dans ce passage entre découverte et transaction que les agents deviennent intéressants.\n\nEn mars 2026, Canary Technologies lance Hospitality AI Agent Studio. Des agents de réservation, réception ou conciergerie peuvent traiter une demande, consulter les disponibilités, proposer des services et accompagner la réservation.\n\nEn avril, SiteMinder ouvre aussi sa distribution à des parcours conversationnels IA.\n\nPour un propriétaire ou un fonds, le sujet devient: combien de réservations additionnelles ont été créées, à quel coût, sur quel canal et avec quelle marge?\n\nULTRA®\n\nPrenons 1.000 réservations de 500 euros.\n\nÀ 18% de commission OTA: 90.000 euros.\n\nÀ 5% de coût direct: 25.000 euros.\n\nÉcart théorique: 65.000 euros.\n\nCette valeur n'existe que si l'agent déplace réellement une réservation ou crée une conversion supplémentaire. Acquisition, technologie, promotions et cannibalisation doivent être intégrées.\n\nCRS, PMS, CRM, moteur de réservation, paiement et couche agentique doivent partager prix et disponibilité sans permettre au modèle d'inventer une chambre ou un tarif.\n\nLe KPI central devient la marge contributive incrémentale par réservation confirmée.\n\nLe risque: si l'agent personnel du voyageur appartient à une grande plateforme, l'hôtel peut automatiser sa vente tout en laissant l'intermédiaire contrôler la demande.\n\nLa bataille porte désormais sur l'interface qui possède l'intention du client.\n\nLI!GHT WORKFORCE ©\n\nCanary automatise déjà une partie des tâches de réservation, réception et conciergerie.\n\nL'impact se mesure en demandes résolues, réservations confirmées, revenus additionnels et interventions humaines évitées sans dégrader le service.\n\nL'humain remonte vers exceptions, relation, négociation et hospitalité.\n\nFIGARO\n\nCelui qui contrôle le dernier mètre entre le désir et la réservation contrôle une partie de la marge.\n\nSources\n\nSiteMinder, Hotel Booking Trends 2026\nSiteMinder, Changing Traveller Report 2026\nSiteMinder, AI hotel distribution, 15 avril 2026\nD-EDGE, 2025 Hotel Direct Distribution Report\nCanary Technologies, Hospitality AI Agent Studio, mars 2026\n\n#VOCEAssociation #AgenticCommerce #LuxuryHospitality #AgentsIA #RevenueManagement",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "date_precision": "day",
+      "provenance": {
+        "source": "authenticated_linkedin_browser",
+        "retrieved_at": "2026-10-12T11:23:37.785Z",
+        "visible_relative_time": "9 oct.",
+        "date_basis": "The actual LinkedIn post displays '9 oct.' during an authenticated observation on 12 October 2026. Its identifier creation signal also falls on 9 October 2026; no exact publication hour is asserted."
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-12T11:26:07.064298+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
     {
       "id": "linkedin:7514157844376621056",
       "platform": "linkedin",
@@ -22,7 +50,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:20:25.777036+00:00",
+        "reviewed_at": "2026-10-12T11:26:07.064298+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -43,7 +71,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:20:25.777036+00:00",
+        "reviewed_at": "2026-10-12T11:26:07.064298+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -64,7 +92,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:20:25.777036+00:00",
+        "reviewed_at": "2026-10-12T11:26:07.064298+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -85,7 +113,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:20:25.777036+00:00",
+        "reviewed_at": "2026-10-12T11:26:07.064298+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -106,7 +134,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:20:25.777036+00:00",
+        "reviewed_at": "2026-10-12T11:26:07.064298+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -127,7 +155,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:20:25.777036+00:00",
+        "reviewed_at": "2026-10-12T11:26:07.064298+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     }
