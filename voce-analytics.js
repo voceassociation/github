@@ -25,6 +25,10 @@
     }
     const link=event.target.closest?.("a[href]");
     if(!link)return;
+    if(link.hasAttribute("data-voce-linkedin-follow")) {
+      track("voce_linkedin_follow_intent");
+      return;
+    }
     const href=link.getAttribute("href")||"";
     if(/^mailto:contact@voce\.life/i.test(href)) {
       track("voce_contact_interest");
