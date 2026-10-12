@@ -55,7 +55,7 @@ const VOCE_PRIVACY_DEFAULT_SCRIPT = `<script>(function(){function deny(){try{if(
 const VOCE_AUDIO_ORIGINS = Object.freeze({
   fr: "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=7b4cb7ab-3c6a-4713-ba7e-d80e52bd9dbc.wav",
   en: "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=770f22a5-9778-4c33-9e40-a8b341f49064.wav",
-  it: "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=73f0909a-cd63-4b98-a884-081c2f896b25.wav"
+  it: "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=def8e5e8-cd50-4bdb-b476-5dc85f52882e.wav"
 });
 
 async function serveVoceAudio(request, env, lang) {
