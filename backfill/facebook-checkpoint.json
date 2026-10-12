@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "checked_at": "2026-10-12T15:16:43.460878+00:00",
+  "checked_at": "2026-10-12T20:03:39.173Z",
   "brand_id": "7090850",
   "brand_label": "VOCE Association",
   "verified_page_id": "61581153121750",
@@ -56,11 +56,10 @@
       "corpus_status": "pending exact publication date and LinkedIn duplicate/provenance reconciliation"
     }
   ],
-  "status": "Metricool Facebook connector corroborated with real VOCE permalink; current-day data pending documented daily sync. Resume after Diella only.",
+  "status": "Facebook continuation paused by user; direct LinkedIn backfill resumes at23:00 Europe/Podgorica.",
   "next_actions": [
-    "Read lagged Metricool Facebook posts/reel captions after daily sync; recheck a three-day window, accept only originals strictly after the2026-10-12T12:00:56.377Z Diella boundary, verify timestamps and literal text, then deduplicate and publish.",
-    "Do not require Facebook reconnection merely because the displayed numeric identifier differs; actual source permalink verified.",
-    "Preserve all existing LinkedIn texts/canonicals and explicitly mark new Facebook provenance; no videos."
+    "Preserve existing Facebook candidates and original texts; do not ingest them under the current LinkedIn-only instruction.",
+    "Resume direct LinkedIn from the current corpus checkpoint using backfill/reports/linkedin-return-2026-10-12.json."
   ],
   "current_continuation": {
     "scope": "Only publications after latest archived LinkedIn Diella; no historic Facebook backfill",
@@ -104,10 +103,9 @@
     "videos_downloaded": false,
     "next": "Read lagged Metricool Facebook posts/reel captions after daily sync; recheck a three-day window, accept only originals strictly after the2026-10-12T12:00:56.377Z Diella boundary, verify timestamps and literal text, then deduplicate and publish.",
     "user_source_choice": {
-      "source": "Metricool Facebook read connector; Codex handles archiving",
-      "metricool_read_authorized": true,
-      "metricool_publishing_authorized": false,
-      "updated_at": "2026-10-12T15:05:36.338Z"
+      "source": "direct LinkedIn",
+      "facebook_continuation_authorized_now": false,
+      "updated_at": "2026-10-12T20:03:39.173Z"
     },
     "authentication": {
       "provider": "TinyFish",
@@ -118,14 +116,11 @@
     },
     "automation": {
       "id": "6abb72f5e1108191961956e6e3738fea",
-      "time": "08:00",
+      "time": "23:00",
       "timezone": "Europe/Podgorica",
-      "source": "Metricool Facebook read connector; Codex archive",
-      "prompt_updated": true,
-      "enabled": true,
-      "first_morning_run": "2026-10-13T08:00:00+02:00",
-      "schedule_updated": true,
-      "metricool_sync_completion_time_guaranteed": false
+      "source": "direct LinkedIn",
+      "facebook_continuation_enabled": false,
+      "shared_archive_task_enabled": true
     },
     "pipeline": {
       "schema": "voce.facebook-verified-source.v1",
@@ -136,6 +131,7 @@
       "pending_candidate_publication_date_still_required": true,
       "preserve_full_facebook_base_text_without_length_limit": true,
       "documentation": "backfill/FACEBOOK_CONTINUATION.md"
-    }
+    },
+    "status": "paused_in_favour_of_direct_linkedin"
   }
 }

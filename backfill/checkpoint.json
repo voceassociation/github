@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T13:20:10.653599+00:00",
+  "updated_at": "2026-10-12T20:03:39.173Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -2978,6 +2978,22 @@
         "latest_article_original_link_and_full_footer_verified": true
       },
       "pending_candidates_reason": "Earlier overview associated some identifiers with neighbouring posts and is not a reliable count of missing sources."
+    },
+    "linkedin_return_2026_10_12": {
+      "report": "backfill/reports/linkedin-return-2026-10-12.json",
+      "checked_at": "2026-10-12T20:03:39.173Z",
+      "status": "normal_authenticated_access_and_full_original_text_read_verified",
+      "latest_source_id": "7515486632960143361",
+      "latest_source_datetime": "2026-10-12T19:00:52.850Z",
+      "automation": {
+        "id": "6abb72f5e1108191961956e6e3738fea",
+        "enabled": true,
+        "time": "23:00",
+        "timezone": "Europe/Podgorica",
+        "starts_local": "2026-10-12T23:00:00+02:00",
+        "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Podgorica:20261012T230000\nRRULE:FREQ=DAILY;BYHOUR=23;BYMINUTE=0;BYSECOND=0\nEND:VEVENT"
+      },
+      "facebook_paused": true
     }
   }
 }

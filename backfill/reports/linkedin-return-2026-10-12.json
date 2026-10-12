@@ -1,0 +1,34 @@
+{
+  "schema": "voce.linkedin-source-return.v1",
+  "checked_at": "2026-10-12T20:03:39.173Z",
+  "profile_id": "prof_236917ff0f01402f",
+  "normal_authenticated_access_verified": true,
+  "access_check_run": "33946a29-0079-4cf5-966e-f90ee1165fc9",
+  "author": "VOCE Association",
+  "source": "direct LinkedIn",
+  "automation": {
+    "id": "6abb72f5e1108191961956e6e3738fea",
+    "enabled": true,
+    "time": "23:00",
+    "timezone": "Europe/Podgorica",
+    "starts_local": "2026-10-12T23:00:00+02:00",
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Podgorica:20261012T230000\nRRULE:FREQ=DAILY;BYHOUR=23;BYMINUTE=0;BYSECOND=0\nEND:VEVENT"
+  },
+  "facebook_continuation_paused": true,
+  "facebook_candidates_deleted": false,
+  "metricool_not_required": true,
+  "latest_source_evidence": {
+    "observed_source_url": "https://lnkd.in/p/dAJwZVYq",
+    "observed_ugc_post_id": "7515486632960143361",
+    "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515486668880220163",
+    "source_author_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-cognition-imagination-activity-7515486668880220163-iOG0",
+    "source_publication_datetime": "2026-10-12T19:00:52.850Z",
+    "text": "Pourquoi une plume paraît-elle plus facile à faire léviter qu'un rocher?\n\nLes deux scènes sont impossibles.\n\nPourtant, beaucoup choisissent la plume lorsqu'on demande laquelle paraît la plus facile.\n\nCette intuition ouvre une question plus étrange: lorsque deux énoncés sont inconcevables, notre esprit continue-t-il à établir des degrés entre eux?\n\nJennifer Hu, Felix Sosa et Tomer Ullman l'étudient dans Cognition, volume 275, en 2026.\n\n\"Une fille est un nombre premier\" ne décrit pas seulement un événement physiquement impossible. Il associe des catégories que notre représentation du monde ne sait normalement pas combiner.\n\nÀ travers sept expériences, les chercheurs montrent que les participants ne traitent pas ces énoncés comme un bloc uniforme de non-sens.\n\nIls les classent de manière systématique.\n\nLa probabilité linguistique de la phrase n'explique pas les classements. La facilité à lui inventer une interprétation métaphorique ne les explique pas davantage.\n\nLe signal apparaît dans la distance entre catégories au sein d'une hiérarchie de types. Confondre un être animé avec un objet inanimé produit une violation moins profonde que d'attribuer à une personne la propriété d'être un nombre premier.\n\nNotre imagination semble donc conserver une ontologie même lorsqu'elle quitte le réel.\n\nLa plume illustre le même principe du côté de l'impossible physique. Nous savons qu'elle est légère et qu'un courant d'air peut la porter. Ces connaissances restent disponibles lorsque nous imaginons une lévitation magique.\n\nLe rocher est plus éloigné de ce modèle appris.\n\nL'impossible possède ainsi une géographie cognitive.\n\nULTRA®\n\nLe résultat intéresse directement la cognition contrefactuelle.\n\nImaginer un monde différent ne signifie pas reconstruire toutes ses règles. L'esprit peut suspendre une contrainte tout en conservant les catégories utilisées pour organiser le monde réel.\n\nHu, Sosa et Ullman rapprochent ce fonctionnement des systèmes de types en informatique. Une opération peut échouer lorsqu'elle reçoit un objet appartenant à une catégorie incompatible. Les participants semblent néanmoins percevoir que certaines erreurs de type sont plus éloignées que d'autres.\n\nCette architecture éclaire aussi la prospective.\n\nUn scénario radical peut sembler plus crédible simplement parce qu'il respecte encore nos catégories familières. Une rupture plus profonde peut être rejetée parce qu'elle exige de modifier les catégories elles-mêmes.\n\nL'imagination reste ainsi contrainte par son point de départ.\n\nPROSPERO\n\nNous pouvons quitter le réel tout en continuant à mesurer la distance avec les règles qu'il nous a apprises.\n\nSources 2026\n\nHu J., Sosa F., Ullman T., \"People make graded judgments about the inconceivable\", Cognition, vol. 275, article 106627\n\n#VOCEAssociation #Cognition #Imagination #Psychologie #Prospective",
+    "text_integral_metadata_recovered": true,
+    "ultra_sources_hashtags_present": true,
+    "corpus_status": "source evidence saved; nightly ingestion must reconcile against current main corpus"
+  },
+  "private_session_or_tracking_query_saved": false,
+  "videos_downloaded": false,
+  "next": "At23:00 retrieve direct VOCE LinkedIn original texts after current checkpoint, reconcile IDs/full texts/permanent URLs, publish only verified missing originals and verify R2."
+}
