@@ -1,6 +1,6 @@
 {
   "schema": "voce.linkedin-catchup-progress.v1",
-  "checked_at": "2026-10-12T12:52:02.075Z",
+  "checked_at": "2026-10-12T13:12:08.234Z",
   "window": {
     "after": "2026-10-09",
     "through": "2026-10-12"
@@ -365,11 +365,11 @@
     "account_identity_verified": true,
     "actual_requested_category": "Articles",
     "posts_export_confirmed": false,
-    "status": "articles_export_pending_posts_category_unavailable_and_two_hour_request_limit",
+    "status": "archive_ready_owner_download_needed_due_to_linkedin_browser_block",
     "request_receipt": "Votre téléchargement sera prêt dans environ 10 minutes",
     "rate_limit_literal": "Vous avez dépassé votre limite de téléchargements. Vous pourrez demander une nouvelle archive dans 2 heures",
     "no_further_archive_requests": true,
-    "pending": "Obtain the existing export ZIP/CSV from the owner without issuing another archive request; inspect filenames and confirm ordinary posts/shares coverage before ingesting.",
+    "pending": "Owner downloads the ready archive using the email link in their own session and provides the ZIP as a chat upload or Gmail attachment; inspect ordinary posts/shares before certifying coverage.",
     "ready_check": {
       "run": "dee9b230-2b1b-45fe-aef9-81c5346e1883",
       "status": "blocked_by_linkedin_anti_bot",
@@ -378,11 +378,22 @@
     },
     "user_reported_email_received": true,
     "email_retrieval": {
-      "checked_at": "2026-10-12T12:52:02.075Z",
-      "connected_mailbox": "voceassociation@gmail.com",
-      "status": "specific_export_message_not_found_in_connector",
+      "checked_at": "2026-10-12T13:12:08.234Z",
+      "status": "forwarded_owner_email_found_and_read",
+      "received_at": "2026-10-12T13:10:06Z",
+      "original_notification_at": "2026-10-12T12:38:38Z",
+      "archive_ready_confirmed": true,
+      "zip_attachment_present": false,
+      "download_target_kind": "authenticated_linkedin_member_data_settings",
+      "advertised_contents": [
+        "connections",
+        "contacts",
+        "recommendations",
+        "messages",
+        "profile_information"
+      ],
+      "ordinary_posts_or_shares_confirmed": false,
       "archive_downloaded": false,
-      "archive_contents_verified": false,
       "private_download_url_published": false
     }
   },
