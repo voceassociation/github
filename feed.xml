@@ -1,5 +1,37 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>VOCE Academy</title><link>https://voce.life/archive</link><description>VOCE Association canonical editorial and educational corpus.</description><language>fr</language><lastBuildDate>Sun, 11 Oct 2026 21:35:22 +0000</lastBuildDate><item><title>RobCo vaut un milliard. Son prochain cycle de croissance se construit aux États-Unis</title><link>https://voce.life/archive/2026/10/09/robco-vaut-un-milliard-son-prochain-cycle-de-croissance-se-construit-aux-7514233394118086656</link><guid isPermaLink="true">https://voce.life/archive/2026/10/09/robco-vaut-un-milliard-son-prochain-cycle-de-croissance-se-construit-aux-7514233394118086656</guid><pubDate>Fri, 09 Oct 2026 10:00:56 +0200</pubDate><author>VOCE Association</author><description>RobCo vaut un milliard. Son prochain cycle de croissance se construit aux États-Unis
+<rss version="2.0"><channel><title>VOCE Academy</title><link>https://voce.life/archive</link><description>VOCE Association canonical editorial and educational corpus.</description><language>fr</language><lastBuildDate>Mon, 12 Oct 2026 10:39:11 +0000</lastBuildDate><item><title>Un matériau sans cellule se met en mouvement selon un programme écrit dans l'ADN</title><link>https://voce.life/archive/2026/10/12/un-materiau-sans-cellule-se-met-en-mouvement-selon-un-programme-ecrit-da-7515350721006018560</link><guid isPermaLink="true">https://voce.life/archive/2026/10/12/un-materiau-sans-cellule-se-met-en-mouvement-selon-un-programme-ecrit-da-7515350721006018560</guid><author>VOCE Association</author><description>Un matériau sans cellule se met en mouvement selon un programme écrit dans l'ADN
+
+Une feuille de microtubules repose immobile dans une chambre expérimentale, sans cellule vivante pour en contrôler le comportement. Le 8 octobre 2026, Rochelle Silverman, Alexandra Tayar et leurs collègues décrivent dans Nature Materials un matériau dont l'activité mécanique est produite par un programme génétique incorporé au réseau.
+
+Le milieu contient une machinerie d'expression génique cell-free. L'ADN code la kinésine, moteur moléculaire capable de se déplacer le long des microtubules. À mesure que la protéine est fabriquée, les contraintes internes augmentent et la feuille finit par entrer en turbulence active.
+
+La concentration d'ADN règle le calendrier. Lorsque l'ADN codant la kinésine passe de 0,2 à 15 nM, l'activité apparaît d'environ sept heures à environ 45 minutes. À 0,2 nM, cette estimation repose sur les expériences où l'instabilité est apparue pendant les douze heures d'observation.
+
+L'équipe fait ensuite produire PRC1, une protéine qui relie les microtubules. Sous 10 nM d'ADN codant PRC1, l'écoulement reste soutenu. Entre environ 10 et 50 nM, le réseau se déforme puis s'arrête. Au-delà de 50 nM, une phase turbulente apparaît plus tôt avant un arrêt rapide. Modifier l'expression génétique suffit ainsi à déplacer le matériau d'un régime mécanique à un autre.
+
+ULTRA®
+
+L'expérience la plus avancée introduit une rétroaction génétique retardée. Une fusion kinésine-σ28 active la production de CI, son propre répresseur. ClpXP dégrade les protéines du circuit et rend possibles des cycles répétés.
+
+Avec environ 0,2 à 4 nM d'ADN du répresseur, la concentration de kinésine oscille et le matériau génère un mouvement rythmé d'une période proche de 30 minutes. Au-dessus de 4 nM, une seule impulsion apparaît avant l'arrêt.
+
+La géométrie intervient également. Dans des canaux imprimés en 3D de 100 à 500 µm, le confinement oriente les déformations. Des reliefs imposés étendent certaines structures jusqu'à environ 3 mm. Le programme génétique règle ainsi la temporalité de l'activité tandis que la géométrie organise son expression spatiale.
+
+Le système reste expérimental et fonctionne à l'échelle millimétrique avec une machinerie biochimique qu'il faut alimenter. Sa portée fondamentale est ailleurs: une information génétique devient directement un paramètre de mécanique des matériaux.
+
+Changer la quantité d'ADN ou l'architecture du circuit modifie le moment où la matière bouge et le régime qu'elle adopte sans reconstruire le matériau.
+
+COPPÉLIUS
+
+Une instruction génétique peut désormais être incorporée au matériau qui produit son propre mouvement.
+
+Sources
+
+Silverman R. et al., Nature Materials, 8 octobre 2026
+Weizmann Institute of Science
+University of Minnesota
+
+#VOCEAssociation #ActiveMatter #ADN #Biomateriaux #SyntheticBiology</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7515350721006018560/">Linkedin</source></item><item><title>RobCo vaut un milliard. Son prochain cycle de croissance se construit aux États-Unis</title><link>https://voce.life/archive/2026/10/09/robco-vaut-un-milliard-son-prochain-cycle-de-croissance-se-construit-aux-7514233394118086656</link><guid isPermaLink="true">https://voce.life/archive/2026/10/09/robco-vaut-un-milliard-son-prochain-cycle-de-croissance-se-construit-aux-7514233394118086656</guid><pubDate>Fri, 09 Oct 2026 10:00:56 +0200</pubDate><author>VOCE Association</author><description>RobCo vaut un milliard. Son prochain cycle de croissance se construit aux États-Unis
 
 Munich, 5 octobre 2026.
 

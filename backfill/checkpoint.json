@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T10:38:24.840Z",
+  "updated_at": "2026-10-12T10:39:11.011826+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -899,21 +899,20 @@
       "status": "rows_returned",
       "rows": 6
     },
-    "2026-10-11": {
-      "status": "linkedin_connector_disconnected_not_proof_of_absence",
-      "rows": 0,
-      "checked_at": "2026-10-11T21:36:37.251Z",
-      "raw_attempt": "backfill/raw/attempts/metricool-linkedin-2026-10-11T2136Z-disconnected.json"
+    "2026-10-12": {
+      "status": "rows_returned",
+      "rows": 1,
+      "source": "authenticated_linkedin_browser",
+      "coverage_complete": false
     }
   },
-  "retrieved_unique_publications": 1593,
-  "newly_archived": 0,
-  "academy_corpus_items": 1591,
+  "retrieved_unique_publications": 1594,
+  "newly_archived": 1,
+  "academy_corpus_items": 1592,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
   "resume": [
-    "Reconnect LinkedIn in Metricool brand 7090850; the connector is absent from brand settings and two consecutive nightly windows returned empty known dates.",
     "Obtain authenticated LinkedIn history for dates with no connector rows.",
     "Compare connector text against LinkedIn originals and review conflicts without overwriting.",
     "Verify Adobe provenance with exact publication/asset evidence.",
@@ -999,23 +998,23 @@
     },
     "current_publication_ingest": {
       "dates": [
-        "2026-10-06",
         "2026-10-07",
         "2026-10-08",
-        "2026-10-09"
+        "2026-10-09",
+        "2026-10-12"
       ],
       "verified_source": "Metricool LinkedIn connector, brand 7090850",
-      "items_processed": 57,
-      "corpus_items_after": 1591,
+      "items_processed": 41,
+      "corpus_items_after": 1592,
       "classification": "A editorial/archive",
-      "static_pages_verified_for_generation": 57,
+      "static_pages_verified_for_generation": 41,
       "daily_archives": [
-        "archive/2026-10-06.html",
         "archive/2026-10-07.html",
         "archive/2026-10-08.html",
-        "archive/2026-10-09.html"
+        "archive/2026-10-09.html",
+        "archive/2026-10-12.html"
       ],
-      "completed_at": "2026-10-11T21:35:22.472819+00:00"
+      "completed_at": "2026-10-12T10:39:11.442555+00:00"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",

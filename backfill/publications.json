@@ -1,5 +1,5 @@
 {
-  "source": "Metricool LinkedIn",
+  "source": "LinkedIn original publications: historical connector packets and verified browser captures",
   "items": [
     {
       "id": "linkedin:7476741297828040704",
@@ -23897,6 +23897,22 @@
         "status": "pending",
         "evidence": []
       }
+    },
+    {
+      "id": "linkedin:7515350721006018560",
+      "platform_id": "urn:li:ugcPost:7515350721006018560",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515350721006018560/",
+      "date_published": "2026-10-12",
+      "text": "Un matériau sans cellule se met en mouvement selon un programme écrit dans l'ADN\n\nUne feuille de microtubules repose immobile dans une chambre expérimentale, sans cellule vivante pour en contrôler le comportement. Le 8 octobre 2026, Rochelle Silverman, Alexandra Tayar et leurs collègues décrivent dans Nature Materials un matériau dont l'activité mécanique est produite par un programme génétique incorporé au réseau.\n\nLe milieu contient une machinerie d'expression génique cell-free. L'ADN code la kinésine, moteur moléculaire capable de se déplacer le long des microtubules. À mesure que la protéine est fabriquée, les contraintes internes augmentent et la feuille finit par entrer en turbulence active.\n\nLa concentration d'ADN règle le calendrier. Lorsque l'ADN codant la kinésine passe de 0,2 à 15 nM, l'activité apparaît d'environ sept heures à environ 45 minutes. À 0,2 nM, cette estimation repose sur les expériences où l'instabilité est apparue pendant les douze heures d'observation.\n\nL'équipe fait ensuite produire PRC1, une protéine qui relie les microtubules. Sous 10 nM d'ADN codant PRC1, l'écoulement reste soutenu. Entre environ 10 et 50 nM, le réseau se déforme puis s'arrête. Au-delà de 50 nM, une phase turbulente apparaît plus tôt avant un arrêt rapide. Modifier l'expression génétique suffit ainsi à déplacer le matériau d'un régime mécanique à un autre.\n\nULTRA®\n\nL'expérience la plus avancée introduit une rétroaction génétique retardée. Une fusion kinésine-σ28 active la production de CI, son propre répresseur. ClpXP dégrade les protéines du circuit et rend possibles des cycles répétés.\n\nAvec environ 0,2 à 4 nM d'ADN du répresseur, la concentration de kinésine oscille et le matériau génère un mouvement rythmé d'une période proche de 30 minutes. Au-dessus de 4 nM, une seule impulsion apparaît avant l'arrêt.\n\nLa géométrie intervient également. Dans des canaux imprimés en 3D de 100 à 500 µm, le confinement oriente les déformations. Des reliefs imposés étendent certaines structures jusqu'à environ 3 mm. Le programme génétique règle ainsi la temporalité de l'activité tandis que la géométrie organise son expression spatiale.\n\nLe système reste expérimental et fonctionne à l'échelle millimétrique avec une machinerie biochimique qu'il faut alimenter. Sa portée fondamentale est ailleurs: une information génétique devient directement un paramètre de mécanique des matériaux.\n\nChanger la quantité d'ADN ou l'architecture du circuit modifie le moment où la matière bouge et le régime qu'elle adopte sans reconstruire le matériau.\n\nCOPPÉLIUS\n\nUne instruction génétique peut désormais être incorporée au matériau qui produit son propre mouvement.\n\nSources\n\nSilverman R. et al., Nature Materials, 8 octobre 2026\nWeizmann Institute of Science\nUniversity of Minnesota\n\n#VOCEAssociation #ActiveMatter #ADN #Biomateriaux #SyntheticBiology",
+      "text_sha256": "eca92d99fe69cdd74ea03baddf6791e21b71af361b388d42202fb835247544ab",
+      "adobe_provenance": {
+        "status": "pending",
+        "evidence": []
+      },
+      "source": "authenticated_linkedin_browser",
+      "date_precision": "day",
+      "retrieved_at": "2026-10-12T10:30:11.250Z",
+      "date_basis": "Relative '24 min' observed during authenticated October 12 midday visit, consistent with October 12 encoded ID creation date. Exact publication time not supplied."
     }
   ]
 }
