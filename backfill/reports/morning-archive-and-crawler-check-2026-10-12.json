@@ -1,0 +1,180 @@
+{
+  "schema": "voce.morning-archive-and-crawler-check.v1",
+  "checked_at": "2026-10-12T15:16:43.460878+00:00",
+  "schedule": {
+    "id": "6abb72f5e1108191961956e6e3738fea",
+    "time": "08:00",
+    "timezone": "Europe/Podgorica",
+    "source": "Metricool Facebook read connector; Codex archive",
+    "prompt_updated": true,
+    "enabled": true,
+    "first_morning_run": "2026-10-13T08:00:00+02:00",
+    "schedule_updated": true,
+    "metricool_sync_completion_time_guaranteed": false
+  },
+  "metricool_sync_reference": "https://help.metricool.com/historical-data-available-5zavf",
+  "public_resources": [
+    {
+      "path": "/llms.txt",
+      "status": 200,
+      "mime": "text/plain",
+      "corpus_link": true
+    },
+    {
+      "path": "/feed.xml",
+      "status": 200,
+      "mime": "application/rss+xml; charset=utf-8",
+      "items": 1622
+    },
+    {
+      "path": "/data/corpus.json",
+      "status": 200,
+      "mime": "application/json; charset=utf-8",
+      "count": 1622,
+      "ids": 1622,
+      "texts": 1622,
+      "canonicals": 1622
+    },
+    {
+      "path": "/data/corpus.ndjson",
+      "status": 200,
+      "mime": "application/x-ndjson; charset=utf-8",
+      "items": 1622
+    },
+    {
+      "path": "/.well-known/voce-corpus-backup",
+      "status": 200,
+      "mime": "application/json",
+      "manifest": {
+        "status": "ok",
+        "owner": "VOCE Association",
+        "bucket": "voce-sovereign-corpus",
+        "private": true,
+        "synced_at": "2026-10-12T15:11:48.565Z",
+        "article_routes": 1622,
+        "corpus_items": 1622,
+        "article_routes_synced": 1622,
+        "source_snapshot_complete": true,
+        "backup_cursor": 600,
+        "backup_batch_size": 40,
+        "backup_complete": true,
+        "last_complete_sync_at": "2026-10-12T15:11:48.565Z",
+        "total_objects_target": 1740,
+        "objects_synced": 1740,
+        "derived_backup_complete": true,
+        "derived_cursor": 600,
+        "total_derived_objects": 1729,
+        "derived_objects_synced": 1729,
+        "derived_article_pages_synced": 1622,
+        "source_objects_touched_in_last_sync": 11,
+        "derived_objects_touched_in_last_sync": 40,
+        "changed_in_last_sync": 0
+      }
+    },
+    {
+      "path": "/archive",
+      "status": 200,
+      "mime": "text/html",
+      "counter_matches": true,
+      "canonical": [
+        "https://voce.life/archive"
+      ]
+    }
+  ],
+  "crawler_validation": {
+    "corpus": 1622,
+    "sitemap_urls": 2370,
+    "all_article_canonicals_in_sitemap": true,
+    "rss_matches_corpus": true,
+    "latest_article_exact_original_and_jsonld": true,
+    "pages": [
+      {
+        "path": "/",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/"
+        ],
+        "meta_description": true,
+        "open_graph": true
+      },
+      {
+        "path": "/fr/visual-guides",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/fr/visual-guides"
+        ],
+        "meta_description": true,
+        "open_graph": true
+      },
+      {
+        "path": "/visual-guides",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/visual-guides"
+        ],
+        "meta_description": true,
+        "open_graph": true
+      },
+      {
+        "path": "/it/visual-guides",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/it/visual-guides"
+        ],
+        "meta_description": true,
+        "open_graph": true
+      },
+      {
+        "path": "/governance",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/governance"
+        ],
+        "meta_description": true,
+        "open_graph": true
+      },
+      {
+        "path": "/atlas",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/atlas"
+        ],
+        "meta_description": true,
+        "open_graph": true
+      },
+      {
+        "path": "/standards",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/standards"
+        ],
+        "meta_description": true,
+        "open_graph": true
+      },
+      {
+        "path": "/research",
+        "status": 200,
+        "canonical": [
+          "https://voce.life/research"
+        ],
+        "meta_description": true,
+        "open_graph": true
+      }
+    ]
+  },
+  "validation": {
+    "schema": "voce.facebook-verified-source.v1",
+    "source_directory": "backfill/raw/facebook",
+    "implemented": true,
+    "test_cases_passed": 4,
+    "baseline_original_texts_and_canonicals_preserved": 1622,
+    "pending_candidate_publication_date_still_required": true,
+    "preserve_full_facebook_base_text_without_length_limit": true,
+    "documentation": "backfill/FACEBOOK_CONTINUATION.md"
+  },
+  "historical_conflicts_preserved": 334,
+  "new_facebook_items_published": 0,
+  "pending_source": "Kinexys/CIPS1997995871106377: exact caption retained, publication date pending",
+  "search_engine_indexing_claimed": false,
+  "design_changed": false
+}

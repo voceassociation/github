@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "checked_at": "2026-10-12T15:05:36.338Z",
+  "checked_at": "2026-10-12T15:16:43.460878+00:00",
   "brand_id": "7090850",
   "brand_label": "VOCE Association",
   "verified_page_id": "61581153121750",
@@ -118,11 +118,24 @@
     },
     "automation": {
       "id": "6abb72f5e1108191961956e6e3738fea",
-      "time": "23:30",
+      "time": "08:00",
       "timezone": "Europe/Podgorica",
       "source": "Metricool Facebook read connector; Codex archive",
       "prompt_updated": true,
-      "enabled": true
+      "enabled": true,
+      "first_morning_run": "2026-10-13T08:00:00+02:00",
+      "schedule_updated": true,
+      "metricool_sync_completion_time_guaranteed": false
+    },
+    "pipeline": {
+      "schema": "voce.facebook-verified-source.v1",
+      "source_directory": "backfill/raw/facebook",
+      "implemented": true,
+      "test_cases_passed": 4,
+      "baseline_original_texts_and_canonicals_preserved": 1622,
+      "pending_candidate_publication_date_still_required": true,
+      "preserve_full_facebook_base_text_without_length_limit": true,
+      "documentation": "backfill/FACEBOOK_CONTINUATION.md"
     }
   }
 }

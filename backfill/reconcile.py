@@ -3,6 +3,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from deduplicate import consolidate
+from facebook_sources import integrate_facebook
 
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / 'backfill'
@@ -166,6 +167,16 @@ for path in sorted(source_packets, key=lambda p: (p.stem, str(p))):
         target = histories.setdefault(local_day,{'schema':1,'owner':'VOCE Association','source':('LinkedIn authenticated browser' if browser else 'Metricool / LinkedIn'),'date':local_day,'item_count':0,'items':[]})
         target['items'].append(item)
 
+facebook_records, facebook_scan, facebook_conflicts, facebook_added = integrate_facebook(
+    WORK, existing, histories, route_by_id, text_owner, digest, slug)
+records.extend(facebook_records)
+new_count += facebook_added
+for history in histories.values():
+    for item in history['items']:
+        canonical = existing[item['id']]
+        if canonical.get('alternate_publications'):
+            item['alternate_publications'] = canonical['alternate_publications']
+
 # Integrate existing historical records into the Academy corpus without modifying them.
 for key,item in existing.items():
     if key not in route_by_id:
@@ -178,7 +189,8 @@ corpus['generated_at'] = datetime.now(timezone.utc).isoformat()
 routes['items'] = list(route_by_id.values()); routes['generated_at'] = corpus['generated_at']
 for day,obj in histories.items():
     obj['item_count'] = len(obj['items']); write(ROOT/'data/history'/f'{day}.json',obj)
-    registry['archived_days'][day] = {'count':len(obj['items']),'source':'linkedin','page':'/archive/'+day,
+    platforms = sorted({x.get('platform', 'linkedin') for x in obj['items']})
+    registry['archived_days'][day] = {'count':len(obj['items']),'source':'+'.join(platforms),'page':'/archive/'+day,
                                      'post_ids':[x['platform_id'] for x in obj['items']]}
 write(ROOT/'data/corpus.json', corpus)
 (ROOT/'data/corpus.ndjson').write_text(''.join(json.dumps(x,ensure_ascii=False)+'\n' for x in corpus['items']))
@@ -188,8 +200,9 @@ registry['backfill']['requested_window'] = {'from':'2026-03-01','through':'2026-
 registry['backfill']['checkpoint'] = 'backfill/checkpoint.json'
 registry['backfill']['status'] = 'partial_connector_history_requires_linkedin_verification'
 write(ROOT/'data/voce-index-registry.json',registry)
-write(WORK/'publications.json',{'source':'LinkedIn original publications: historical connector packets and verified browser captures','items':records})
+write(WORK/'publications.json',{'source':'VOCE originals with explicit LinkedIn or Facebook provenance','items':records})
 write(WORK/'conflicts.json',{'items':conflicts})
+write(WORK/'facebook-conflicts.json',{'items':facebook_conflicts})
 previous_checkpoint = read(WORK/'checkpoint.json') if (WORK/'checkpoint.json').exists() else {}
 checkpoint = {'schema':1,'updated_at':corpus['generated_at'],'complete':False,'window':{'from':'2026-03-01','through':'2026-09-30'},
               'daily_scans':scan,'retrieved_unique_publications':len(records),'newly_archived':new_count,
@@ -201,6 +214,8 @@ checkpoint = {'schema':1,'updated_at':corpus['generated_at'],'complete':False,'w
                         'Recheck September 29–30 for connector lag.']}
 if previous_checkpoint.get('integration'):
     checkpoint['integration'] = previous_checkpoint['integration']
+checkpoint['facebook_daily_scans'] = facebook_scan
+checkpoint['facebook_text_conflicts'] = len(facebook_conflicts)
 write(WORK/'checkpoint.json',checkpoint)
 
 # Extend discoverability using existing XML conventions; never replace existing canonical URLs.

@@ -25,6 +25,9 @@ jobs:
       - name: Reconcile verified source packets
         run: python3 backfill/reconcile.py
 
+      - name: Validate Facebook source integrity safeguards
+        run: python3 backfill/test_facebook_sources.py
+
       - name: Publish permanent corpus routes
         run: python3 backfill/publish_current.py
 
@@ -43,7 +46,7 @@ jobs:
           canonical_routes=[x for x in routes["items"] if not x.get("redirect_to")]
           assert len(canonical_routes) == corpus["item_count"]
           assert sum(1 for _ in (root/"data/corpus.ndjson").open()) == corpus["item_count"]
-          raw_days=sorted(p.stem for p in (root/"backfill/raw").glob("*.json") if len(p.stem)==10)
+          raw_days=sorted({p.stem for directory in (root/"backfill/raw",root/"backfill/raw/facebook") for p in directory.glob("*.json") if len(p.stem)==10})
           for day in raw_days[-4:]:
               history=root/"data/history"/f"{day}.json"
               if history.exists(): assert (root/"archive"/f"{day}.html").exists()
@@ -103,8 +106,8 @@ jobs:
           fi
           git config user.name "VOCE Corpus Automation"
           git config user.email "actions@users.noreply.github.com"
-          git add archive.html archive data backfill/checkpoint.json backfill/conflicts.json backfill/publications.json feed.xml llms.txt sitemap.xml
-          git commit -m "Publish verified current VOCE LinkedIn texts"
+          git add archive.html archive data backfill/checkpoint.json backfill/conflicts.json backfill/facebook-conflicts.json backfill/publications.json feed.xml llms.txt sitemap.xml
+          git commit -m "Publish verified current VOCE original texts"
           git push
 
       - name: Submit published article URLs to IndexNow
@@ -120,10 +123,11 @@ jobs:
 
           root = pathlib.Path(".")
           routes = json.loads((root / "data/article-routes.json").read_text())
-          raw_days = sorted(
-              p.stem for p in (root / "backfill/raw").glob("*.json")
+          raw_days = sorted({
+              p.stem for directory in (root / "backfill/raw", root / "backfill/raw/facebook")
+              for p in directory.glob("*.json")
               if len(p.stem) == 10
-          )
+          })
           days = set(raw_days[-4:])
           urls = sorted({
               "https://voce.life" + route["path"]

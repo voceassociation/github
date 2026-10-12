@@ -14,10 +14,11 @@ corpus = json.loads(corpus_path.read_text())
 routes = json.loads(routes_path.read_text())
 route_by_id = {x["id"]: x for x in routes["items"]}
 
-raw_days = sorted(
-    p.stem for p in (ROOT / "backfill" / "raw").glob("*.json")
+raw_days = sorted({
+    p.stem for directory in (ROOT / "backfill" / "raw", ROOT / "backfill" / "raw" / "facebook")
+    for p in directory.glob("*.json")
     if re.fullmatch(r"\d{4}-\d{2}-\d{2}", p.stem)
-)
+})
 DAYS = sys.argv[1:] or raw_days[-4:]
 DAYS = sorted(dict.fromkeys(DAYS))
 histories = {}
@@ -97,6 +98,7 @@ def article_html(item, day):
         for x in item["text"].split("\n\n") if x.strip()
     )
     date_display = datetime.fromisoformat(published).strftime("%d/%m/%Y" if item.get("date_precision") == "day" else "%d/%m/%Y %H:%M")
+    source_label = "Publication Facebook originale" if item.get("platform") == "facebook" else "Publication LinkedIn originale"
     return f"""<!doctype html>
 <html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)} — VOCE</title><meta name="description" content="{html.escape(excerpt, quote=True)}">
@@ -112,7 +114,7 @@ def article_html(item, day):
 <main id="main-content"><section class="topic-hero"><div class="wrap"><div class="topic-kicker">Corpus VOCE · {day_label(day)}</div>
 <h1 class="topic-title">{html.escape(title)}</h1><p class="topic-deck">{html.escape(excerpt)}</p><div class="topic-meta"><span>VOCE Association</span><span>{date_display}</span><span>Archive canonique</span></div></div></section>
 <section class="topic-body"><div class="wrap topic-layout"><aside class="topic-nav"><div class="topic-nav-label">Corpus</div><a href="/archive/{day}">{day_label(day)}</a><a href="/archive">Toutes les archives</a><a href="/publications">Publications</a></aside><div class="longform">
-<article class="chapter" data-publication-id="{html.escape(item["platform_id"], quote=True)}"><div class="chapter-no">VOCE</div><p class="signal"><a href="{html.escape(item["source_url"], quote=True)}" rel="noopener">Publication LinkedIn originale</a></p>{body}</article>
+<article class="chapter" data-publication-id="{html.escape(item["platform_id"], quote=True)}"><div class="chapter-no">VOCE</div><p class="signal"><a href="{html.escape(item["source_url"], quote=True)}" rel="noopener">{source_label}</a></p>{body}</article>
 <section class="chapter"><div class="chapter-no">VOCE Academy</div><p class="signal">Ce texte appartient au corpus pédagogique et éditorial de VOCE Association. Lecture, découverte et citation sont publiques; les droits sur le texte et le corpus restent détenus par VOCE Association. <a href="/CORPUS_RIGHTS.txt">Droits du corpus</a>.</p></section>
 </div></div></section></main><footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/art">VOCE Art</a> · <a href="/archive">VOCE Academy</a> · © 2026 VOCE Association</div></div></div></div></footer></body></html>"""
 
@@ -159,7 +161,8 @@ ET.ElementTree(rss).write(ROOT / "feed.xml", encoding="utf-8", xml_declaration=T
 
 count = len(corpus["items"])
 llms = (ROOT / "llms.txt").read_text()
-llms = re.sub(r"[\d,]+ archived LinkedIn texts", f"{count:,} archived LinkedIn texts", llms)
+corpus_label = "archived VOCE texts" if any(x.get("platform") == "facebook" for x in corpus['items']) else "archived LinkedIn texts"
+llms = re.sub(r"[\d,]+ archived (?:LinkedIn|VOCE) texts", f"{count:,} {corpus_label}", llms)
 (ROOT / "llms.txt").write_text(llms)
 archive = (ROOT / "archive.html").read_text()
 archive = re.sub(r"\d+ archived publications", f"{count} archived publications", archive)
@@ -199,7 +202,7 @@ checkpoint = json.loads(checkpoint_path.read_text())
 integration = checkpoint.setdefault("integration", {})
 integration["current_publication_ingest"] = {
     "dates": list(histories),
-    "verified_source": "Metricool LinkedIn connector, brand 7090850",
+    "verified_source": "VOCE verified source packets with explicit platform provenance",
     "items_processed": sum(len(x["items"]) for x in histories.values()),
     "corpus_items_after": count,
     "classification": "A editorial/archive",
