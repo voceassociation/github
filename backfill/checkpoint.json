@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T21:28:32.048Z",
+  "updated_at": "2026-10-12T21:44:43.675Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -3019,8 +3019,8 @@
       "timezone": "Europe/Podgorica"
     },
     "linkedin_nightly_2026_10_12_2300": {
-      "checked_at": "2026-10-12T21:28:32.048Z",
-      "status": "published_live_r2_derived_sync_in_progress",
+      "checked_at": "2026-10-12T21:44:43.675Z",
+      "status": "published_live_full_r2_backup_verified",
       "source_method": "One normal authenticated activity read followed by exact public single-post metadata fetches; no stealth, proxy change, CAPTCHA handling, Facebook substitution or media download.",
       "access": {
         "run_id": "f2e15529-8811-4d20-9390-0de419f9a0e6",
@@ -3138,14 +3138,29 @@
       },
       "r2": {
         "status": "ok",
-        "corpus_items": 1629,
+        "owner": "VOCE Association",
+        "bucket": "voce-sovereign-corpus",
+        "private": true,
+        "synced_at": "2026-10-12T21:44:09.540Z",
         "article_routes": 1629,
+        "corpus_items": 1629,
+        "article_routes_synced": 1629,
         "source_snapshot_complete": true,
+        "backup_cursor": 40,
+        "backup_batch_size": 40,
         "backup_complete": true,
-        "derived_backup_complete": false,
-        "derived_cursor": 1080,
+        "last_complete_sync_at": "2026-10-12T21:44:09.540Z",
+        "total_objects_target": 1747,
+        "objects_synced": 1747,
+        "derived_backup_complete": true,
+        "derived_cursor": 40,
         "total_derived_objects": 1736,
-        "checked_at": "2026-10-12T21:25:09.758Z"
+        "derived_objects_synced": 1736,
+        "derived_article_pages_synced": 1629,
+        "source_objects_touched_in_last_sync": 11,
+        "derived_objects_touched_in_last_sync": 40,
+        "changed_in_last_sync": 0,
+        "checked_at": "2026-10-12T21:44:43.675Z"
       },
       "drive_research_registry": {
         "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
