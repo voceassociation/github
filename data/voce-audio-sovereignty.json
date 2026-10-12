@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "section": "sovereignty",
+  "voice": "Paul – Soothing",
+  "audios": {
+    "fr": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=4dbc5616-0a47-4f4d-9202-b62475fac90c.wav",
+      "transcript": "La souveraineté en intelligence artificielle ne consiste pas seulement à posséder un modèle. Elle dépend de la capacité à choisir, remplacer ou arrêter des technologies reliées entre elles: cloud, données, interfaces et fournisseurs. Votché analyse ces dépendances et les marges de décision qu'elles laissent aux institutions. La souveraineté devient une capacité à vérifier.",
+      "duration": 23
+    },
+    "en": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=5bf4d78f-0e59-4a1a-a852-fa530f0f46f2.wav",
+      "transcript": "AI sovereignty is not simply about owning a model. It depends on the ability to choose, replace or disconnect technologies across cloud systems, data, interfaces and suppliers. Votché examines those dependencies and the decisions institutions can genuinely control. Sovereignty becomes an operational capacity that can be tested.",
+      "duration": 26.5
+    },
+    "it": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=083f2312-9dc8-43a3-b79e-0f5d08addcb6.wav",
+      "transcript": "La sovranità nell'intelligenza artificiale non consiste soltanto nel possedere un modello. Dipende dalla capacità di scegliere, sostituire o interrompere servizi collegati: cloud, dati, interfacce e fornitori. Voce analizza queste dipendenze e il margine di decisione delle istituzioni. La sovranità diventa una capacità verificabile.",
+      "duration": 29.8
+    }
+  }
+}
