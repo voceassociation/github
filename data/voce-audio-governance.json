@@ -7,6 +7,16 @@
       "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=2d214f50-1a6d-4961-8c9e-58216596b4cf.wav",
       "transcript": "La governance dell'intelligenza artificiale inizia quando un sistema può agire. Un agente accede ai dati, utilizza strumenti e può avviare operazioni. Voce esamina identità, permessi, tracciabilità e intervento umano. Agent Infrastructure, Agent Conformance e ARGOS aiutano a verificare le responsabilità oltre le prestazioni del modello.",
       "duration": 28.4
+    },
+    "fr": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=212b52c4-3b25-4cb9-8b4d-a674872fc36e.wav",
+      "transcript": "La gouvernance de l'intelligence artificielle commence lorsque le système peut agir. Un agent lit des données, appelle des outils et peut déclencher des opérations. Votché examine donc les identités, les permissions, la traçabilité et l'intervention humaine. Les parcours Agent Infrastructure, Agent Conformance et ARGOS permettent d'analyser les responsabilités au-delà de la seule performance du modèle.",
+      "duration": 25.7
+    },
+    "en": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=59537b3c-8b83-44bc-8d23-0bff66800f00.wav",
+      "transcript": "AI governance begins when a system can take action. An agent may read data, call tools and trigger operations. Votché therefore examines identities, permissions, traceability and human intervention. Agent Infrastructure, Agent Conformance and ARGOS explore the evidence needed to govern responsibilities beyond model performance alone.",
+      "duration": 27.2
     }
   }
 }
