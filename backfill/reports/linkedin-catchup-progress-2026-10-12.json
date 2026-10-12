@@ -1,6 +1,6 @@
 {
   "schema": "voce.linkedin-catchup-progress.v1",
-  "checked_at": "2026-10-12T12:17:38.482Z",
+  "checked_at": "2026-10-12T12:37:47.521Z",
   "window": {
     "after": "2026-10-09",
     "through": "2026-10-12"
@@ -221,7 +221,7 @@
     "7514973262741680128"
   ],
   "current_ingestion": {
-    "status": "latest_diella_verified_pending_publish_previous_1621_fully_backed_up",
+    "status": "published_live_with_1622_source_backup_complete_derived_backup_syncing",
     "expected_corpus_items": 1622,
     "verified_by_day": {
       "2026-10-12": 10,
@@ -244,7 +244,7 @@
       ]
     },
     "public_source_dates_verified": true,
-    "corpus_items": 1621,
+    "corpus_items": 1622,
     "source_commit": "1e5dfd159963990595eb3c38b63128ab569da049",
     "corpus_commit": "538cf3f5e4c1f74393c8f6e6c165cae4620cf162",
     "workflow_run": 38245664978,
@@ -262,25 +262,25 @@
       "owner": "VOCE Association",
       "bucket": "voce-sovereign-corpus",
       "private": true,
-      "synced_at": "2026-10-12T12:02:18.005Z",
-      "article_routes": 1621,
-      "corpus_items": 1621,
-      "article_routes_synced": 1621,
+      "synced_at": "2026-10-12T12:31:18.003Z",
+      "article_routes": 1622,
+      "corpus_items": 1622,
+      "article_routes_synced": 1622,
       "source_snapshot_complete": true,
-      "backup_cursor": 0,
+      "backup_cursor": 1160,
       "backup_batch_size": 40,
       "backup_complete": true,
-      "last_complete_sync_at": "2026-10-12T12:02:18.005Z",
-      "total_objects_target": 1739,
-      "objects_synced": 1739,
-      "derived_backup_complete": true,
-      "derived_cursor": 0,
-      "total_derived_objects": 1728,
-      "derived_objects_synced": 1728,
-      "derived_article_pages_synced": 1621,
+      "last_complete_sync_at": "2026-10-12T12:31:18.003Z",
+      "total_objects_target": 1740,
+      "objects_synced": 1171,
+      "derived_backup_complete": false,
+      "derived_cursor": 1160,
+      "total_derived_objects": 1729,
+      "derived_objects_synced": 1160,
+      "derived_article_pages_synced": 1053,
       "source_objects_touched_in_last_sync": 11,
-      "derived_objects_touched_in_last_sync": 8,
-      "changed_in_last_sync": 8
+      "derived_objects_touched_in_last_sync": 40,
+      "changed_in_last_sync": 0
     },
     "academy_ui_counter": 1621,
     "guide_live": {
@@ -290,7 +290,34 @@
       "source_date": "2026-10-11",
       "supporting_documents": 6
     },
-    "verified_source_texts": 31
+    "verified_source_texts": 31,
+    "diella_deployment": {
+      "generated_commit": "924fe4de23a84b0df885d2078286e1c393291a11",
+      "failed_build": "4ccab70c-5752-44f3-be8f-53588ab20007",
+      "failure": "Cloudflare API POST /workers/scripts/github/versions returned 504 Gateway Timeout after successful asset upload",
+      "retry_requested": true,
+      "retry_build": "7f1d94de-4462-4e2e-b363-49e13e1169f9",
+      "retry_exit_nonzero": true,
+      "retry_partial_error": "Cron schedule PUT returned 504 after successful script deployment; API read confirms schedule exists and remains every minute. Live article and new 1622 source snapshot verified.",
+      "active_version": "dc4981de-5cb5-4836-a637-46e889e48006",
+      "active_deployment": "c84cb3ba-a3e7-4325-a9b8-5a4e027cd730"
+    },
+    "latest_source_commit": "cf64e00d27e1b9c190eaca57b37136dfb92a41fd",
+    "latest_corpus_commit": "924fe4de23a84b0df885d2078286e1c393291a11",
+    "latest_workflow_run": 38248133902,
+    "latest_workflow_job": 114807121063,
+    "latest_workflow_success": true,
+    "latest_indexnow": {
+      "status": 200,
+      "submitted_urls": 41,
+      "indexing_claimed": false
+    },
+    "latest_deployment_id": "c84cb3ba-a3e7-4325-a9b8-5a4e027cd730",
+    "latest_version": "dc4981de-5cb5-4836-a637-46e889e48006",
+    "latest_deployment_percentage": 100,
+    "cron_verified": "* * * * *",
+    "latest_article_live_ui_verified": true,
+    "latest_article_original_link_and_full_footer_verified": true
   },
   "previous_inventory_rejected_as_exhaustive": true,
   "deep_coverage_run": "9646d3a9-418a-4364-bf12-05a6bfbb3477",
@@ -321,8 +348,9 @@
     "literal_public_metadata_capture": true
   },
   "pending": [
-    "Verify Diella deployment and updated R2 manifest.",
-    "Resume older-day coverage using the posts-only export if LinkedIn makes it available."
+    "Inspect the already-requested Articles archive when it is ready and verify whether it actually contains posts/shares; do not submit another request under the 2-hour limit.",
+    "Finish coverage verification of October9–12, including the unverified bone-marrow title, without inventing source identifiers.",
+    "Wait for R2 derived_backup_complete for the 1622-object corpus."
   ],
   "latest_source": {
     "id": "7515380937786953728",
@@ -331,7 +359,20 @@
   },
   "posts_export_attempt": {
     "run": "dce06642-bac7-4c33-954c-5037185838ee",
-    "scope": "Posts only, own VOCE identity verification; no credentials or unrelated personal categories",
-    "status": "in_progress"
+    "correction_check_run": "62dbdd0d-efdb-4d53-bd84-6c9d02c088ca",
+    "account_identity_verified": true,
+    "actual_requested_category": "Articles",
+    "posts_export_confirmed": false,
+    "status": "articles_export_pending_posts_category_unavailable_and_two_hour_request_limit",
+    "request_receipt": "Votre téléchargement sera prêt dans environ 10 minutes",
+    "rate_limit_literal": "Vous avez dépassé votre limite de téléchargements. Vous pourrez demander une nouvelle archive dans 2 heures",
+    "no_further_archive_requests": true,
+    "pending": "Inspect the already-requested archive when ready; check filenames before assuming it contains ordinary posts."
+  },
+  "archive_ready_check_run": "dee9b230-2b1b-45fe-aef9-81c5346e1883",
+  "moelle_lookup": {
+    "run": "275c2993-8826-4ccc-904a-c0b4dcc96611",
+    "matched_own_source": false,
+    "reason": "No VOCE result in the ordinary LinkedIn post search; no identifier or text is invented."
   }
 }

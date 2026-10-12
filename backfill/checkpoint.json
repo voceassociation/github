@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T12:17:51.700153+00:00",
+  "updated_at": "2026-10-12T11:54:33.636150+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1591,7 +1591,7 @@
     },
     "2026-10-12": {
       "status": "rows_returned",
-      "rows": 10,
+      "rows": 9,
       "source_packets": [
         "backfill/raw/2026-10-12.json"
       ],
@@ -1599,9 +1599,9 @@
       "coverage_complete": false
     }
   },
-  "retrieved_unique_publications": 1624,
-  "newly_archived": 1,
-  "academy_corpus_items": 1622,
+  "retrieved_unique_publications": 1623,
+  "newly_archived": 20,
+  "academy_corpus_items": 1621,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
@@ -1616,12 +1616,12 @@
     "pull_request": 3,
     "merge_commit": "cb66dce1c40f07282b275482f801e8a350dc5f0a",
     "indexnow_check": "accepted_200",
-    "live_deployment": "1591_unique_articles_verified_publicly",
+    "live_deployment": "1622_unique_articles_live_source_backup_complete",
     "linkedin_browser_session": "authenticated_direct_access_verified_2026_10_12",
-    "static_pages_generated": 1591,
+    "static_pages_generated": 1622,
     "academy_catalogue": "existing_curated_selection_plus_guide_no_bulk_listing",
     "verified_article": "https://voce.life/archive/2026/10/09/robco-vaut-un-milliard-son-prochain-cycle-de-croissance-se-construit-aux-7514233394118086656",
-    "rss_items": 1591,
+    "rss_items": 1622,
     "indexnow_key": "verified_live",
     "indexnow_retry_commit": "fab67c8f0bb0a1c3614798a189cd1771b5bdaaa3",
     "r2_backup": {
@@ -1629,27 +1629,26 @@
       "owner": "VOCE Association",
       "bucket": "voce-sovereign-corpus",
       "private": true,
-      "synced_at": "2026-10-11T21:34:30.056Z",
-      "article_routes": 1591,
-      "corpus_items": 1591,
-      "article_routes_synced": 1591,
+      "synced_at": "2026-10-12T12:31:18.003Z",
+      "article_routes": 1622,
+      "corpus_items": 1622,
+      "article_routes_synced": 1622,
       "source_snapshot_complete": true,
-      "backup_cursor": 1360,
+      "backup_cursor": 1160,
       "backup_batch_size": 40,
       "backup_complete": true,
-      "last_complete_sync_at": "2026-10-11T21:34:30.056Z",
-      "total_objects_target": 1706,
-      "objects_synced": 1706,
-      "derived_backup_complete": true,
-      "derived_cursor": 1360,
-      "total_derived_objects": 1695,
-      "derived_objects_synced": 1695,
-      "derived_article_pages_synced": 1591,
+      "last_complete_sync_at": "2026-10-12T12:31:18.003Z",
+      "total_objects_target": 1740,
+      "objects_synced": 1171,
+      "derived_backup_complete": false,
+      "derived_cursor": 1160,
+      "total_derived_objects": 1729,
+      "derived_objects_synced": 1160,
+      "derived_article_pages_synced": 1053,
       "source_objects_touched_in_last_sync": 11,
       "derived_objects_touched_in_last_sync": 40,
       "changed_in_last_sync": 0,
-      "checked_at": "2026-10-11T21:36:37.251Z",
-      "interpretation": "The 1591-item source snapshot and all 1591 derived article HTML pages remain complete; no new source ingestion occurred because the Metricool LinkedIn connector is absent from current brand settings."
+      "checked_at": "2026-10-12T12:35:34.885Z"
     },
     "research_registry": {
       "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
@@ -1697,17 +1696,17 @@
         "2026-10-12"
       ],
       "verified_source": "Metricool LinkedIn connector, brand 7090850",
-      "items_processed": 37,
-      "corpus_items_after": 1622,
+      "items_processed": 36,
+      "corpus_items_after": 1621,
       "classification": "A editorial/archive",
-      "static_pages_verified_for_generation": 37,
+      "static_pages_verified_for_generation": 36,
       "daily_archives": [
         "archive/2026-10-09.html",
         "archive/2026-10-10.html",
         "archive/2026-10-11.html",
         "archive/2026-10-12.html"
       ],
-      "completed_at": "2026-10-12T12:17:52.086393+00:00"
+      "completed_at": "2026-10-12T11:54:34.095223+00:00"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",
@@ -2651,11 +2650,15 @@
             "datePublished": "2026-10-12"
           }
         ]
-      }
+      },
+      "continuation_report": "backfill/reports/linkedin-catchup-progress-2026-10-12.json",
+      "current_corpus_items": 1622,
+      "current_verified_source_texts": 31,
+      "initial_five_candidates_resolved": true
     },
     "linkedin_catchup_2026_10_12": {
-      "checked_at": "2026-10-12T12:17:38.482Z",
-      "status": "latest_diella_verified_pending_publish_previous_1621_fully_backed_up",
+      "checked_at": "2026-10-12T12:35:34.885Z",
+      "status": "published_live_with_1622_source_backup_complete_derived_backup_syncing",
       "baseline_corpus": 1592,
       "baseline_after_oct9": "7514233394118086656",
       "coverage_scan_run": "c07c8141-da6a-4a59-80f6-e27afe4f68db",
@@ -2799,7 +2802,11 @@
       "expected_corpus_after_ingest": 1622,
       "pending_candidates": 15,
       "source_method": "Exact full public LinkedIn source metadata text, visible commentary corroboration and structured publication datetime",
-      "pending": "Continue loading activity to actual October 9 RobCo boundary; verify live corpus/Guide/R2 after publication.",
+      "pending": [
+        "Inspect the already-requested Articles archive when it is ready and verify whether it actually contains posts/shares; do not submit another request under the 2-hour limit.",
+        "Finish coverage verification of October9–12, including the unverified bone-marrow title, without inventing source identifiers.",
+        "Wait for R2 derived_backup_complete for the 1622-object corpus."
+      ],
       "verified_source_texts": 31,
       "coverage_blocker": "Multiple activity-list attempts load only 20–30 recent cards; the actual October 9 RobCo boundary has not been observed. A source title about normal blood tests and bone-marrow cardiovascular risk was seen in one overview but its valid source identifier is still unknown. This is not claimed archived.",
       "report": "backfill/reports/linkedin-catchup-progress-2026-10-12.json",
@@ -2835,8 +2842,15 @@
       },
       "posts_export_attempt": {
         "run": "dce06642-bac7-4c33-954c-5037185838ee",
-        "scope": "Posts only, own VOCE identity verification; no credentials or unrelated personal categories",
-        "status": "in_progress"
+        "correction_check_run": "62dbdd0d-efdb-4d53-bd84-6c9d02c088ca",
+        "account_identity_verified": true,
+        "actual_requested_category": "Articles",
+        "posts_export_confirmed": false,
+        "status": "articles_export_pending_posts_category_unavailable_and_two_hour_request_limit",
+        "request_receipt": "Votre téléchargement sera prêt dans environ 10 minutes",
+        "rate_limit_literal": "Vous avez dépassé votre limite de téléchargements. Vous pourrez demander une nouvelle archive dans 2 heures",
+        "no_further_archive_requests": true,
+        "pending": "Inspect the already-requested archive when ready; check filenames before assuming it contains ordinary posts."
       },
       "nightly_method": {
         "updated": true,
@@ -2845,6 +2859,106 @@
         "time": "23:30",
         "timezone": "Europe/Podgorica",
         "literal_public_metadata_capture": true
+      },
+      "academy_corpus_items": 1622,
+      "ingestion": {
+        "status": "published_live_with_1622_source_backup_complete_derived_backup_syncing",
+        "expected_corpus_items": 1622,
+        "verified_by_day": {
+          "2026-10-12": 10,
+          "2026-10-11": 14,
+          "2026-10-09": 1,
+          "2026-10-10": 6
+        },
+        "baseline_texts_and_canonicals_preserved": 1592,
+        "new_conflicts": 0,
+        "source_transcription_correction": {
+          "schema": "voce.verified-transcription-correction.v1",
+          "corrections": [
+            {
+              "id": "linkedin:7515365850959421440",
+              "expected_existing_sha256": "52be4d6643e2e3a4bb555d1cd4110ea5e1da453cedaf492f80c61fb5b083fd1c",
+              "source_text_sha256": "b5d642533f9977b3cce522148bcf2ec57afe5af5efbc7acd06beafbaa4421fe9",
+              "source_packet": "backfill/raw/2026-10-12.json",
+              "reason": "Restore the one trailing space after the authored Sources heading omitted by the browser transcription. Source full metadata and visible HTML agree. No words, canonical URL or document identity change."
+            }
+          ]
+        },
+        "public_source_dates_verified": true,
+        "corpus_items": 1622,
+        "source_commit": "1e5dfd159963990595eb3c38b63128ab569da049",
+        "corpus_commit": "538cf3f5e4c1f74393c8f6e6c165cae4620cf162",
+        "workflow_run": 38245664978,
+        "workflow_job": 114798758540,
+        "workflow_conclusion": "success",
+        "cloudflare_build": "e8c1ad1d-c655-4304-97f1-525f824dba3f",
+        "cloudflare_build_success": true,
+        "indexnow": {
+          "status": 200,
+          "submitted_urls": 40,
+          "indexing_claimed": false
+        },
+        "r2": {
+          "status": "ok",
+          "owner": "VOCE Association",
+          "bucket": "voce-sovereign-corpus",
+          "private": true,
+          "synced_at": "2026-10-12T12:31:18.003Z",
+          "article_routes": 1622,
+          "corpus_items": 1622,
+          "article_routes_synced": 1622,
+          "source_snapshot_complete": true,
+          "backup_cursor": 1160,
+          "backup_batch_size": 40,
+          "backup_complete": true,
+          "last_complete_sync_at": "2026-10-12T12:31:18.003Z",
+          "total_objects_target": 1740,
+          "objects_synced": 1171,
+          "derived_backup_complete": false,
+          "derived_cursor": 1160,
+          "total_derived_objects": 1729,
+          "derived_objects_synced": 1160,
+          "derived_article_pages_synced": 1053,
+          "source_objects_touched_in_last_sync": 11,
+          "derived_objects_touched_in_last_sync": 40,
+          "changed_in_last_sync": 0
+        },
+        "academy_ui_counter": 1621,
+        "guide_live": {
+          "query": "CHIME mesure l'Univers d'il y a huit milliards d'années",
+          "answer_with_source_citations": true,
+          "top_source_title": "CHIME mesure l'Univers d'il y a huit milliards d'années sans distinguer une seule galaxie",
+          "source_date": "2026-10-11",
+          "supporting_documents": 6
+        },
+        "verified_source_texts": 31,
+        "diella_deployment": {
+          "generated_commit": "924fe4de23a84b0df885d2078286e1c393291a11",
+          "failed_build": "4ccab70c-5752-44f3-be8f-53588ab20007",
+          "failure": "Cloudflare API POST /workers/scripts/github/versions returned 504 Gateway Timeout after successful asset upload",
+          "retry_requested": true,
+          "retry_build": "7f1d94de-4462-4e2e-b363-49e13e1169f9",
+          "retry_exit_nonzero": true,
+          "retry_partial_error": "Cron schedule PUT returned 504 after successful script deployment; API read confirms schedule exists and remains every minute. Live article and new 1622 source snapshot verified.",
+          "active_version": "dc4981de-5cb5-4836-a637-46e889e48006",
+          "active_deployment": "c84cb3ba-a3e7-4325-a9b8-5a4e027cd730"
+        },
+        "latest_source_commit": "cf64e00d27e1b9c190eaca57b37136dfb92a41fd",
+        "latest_corpus_commit": "924fe4de23a84b0df885d2078286e1c393291a11",
+        "latest_workflow_run": 38248133902,
+        "latest_workflow_job": 114807121063,
+        "latest_workflow_success": true,
+        "latest_indexnow": {
+          "status": 200,
+          "submitted_urls": 41,
+          "indexing_claimed": false
+        },
+        "latest_deployment_id": "c84cb3ba-a3e7-4325-a9b8-5a4e027cd730",
+        "latest_version": "dc4981de-5cb5-4836-a637-46e889e48006",
+        "latest_deployment_percentage": 100,
+        "cron_verified": "* * * * *",
+        "latest_article_live_ui_verified": true,
+        "latest_article_original_link_and_full_footer_verified": true
       }
     }
   }
