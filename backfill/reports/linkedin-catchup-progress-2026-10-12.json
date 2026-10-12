@@ -1,6 +1,6 @@
 {
   "schema": "voce.linkedin-catchup-progress.v1",
-  "checked_at": "2026-10-12T11:53:10.389Z",
+  "checked_at": "2026-10-12T12:17:38.482Z",
   "window": {
     "after": "2026-10-09",
     "through": "2026-10-12"
@@ -221,10 +221,10 @@
     "7514973262741680128"
   ],
   "current_ingestion": {
-    "status": "thirty_verified_sources_pending_deployment",
-    "expected_corpus_items": 1621,
+    "status": "latest_diella_verified_pending_publish_previous_1621_fully_backed_up",
+    "expected_corpus_items": 1622,
     "verified_by_day": {
-      "2026-10-12": 9,
+      "2026-10-12": 10,
       "2026-10-11": 14,
       "2026-10-09": 1,
       "2026-10-10": 6
@@ -243,8 +243,95 @@
         }
       ]
     },
-    "public_source_dates_verified": true
+    "public_source_dates_verified": true,
+    "corpus_items": 1621,
+    "source_commit": "1e5dfd159963990595eb3c38b63128ab569da049",
+    "corpus_commit": "538cf3f5e4c1f74393c8f6e6c165cae4620cf162",
+    "workflow_run": 38245664978,
+    "workflow_job": 114798758540,
+    "workflow_conclusion": "success",
+    "cloudflare_build": "e8c1ad1d-c655-4304-97f1-525f824dba3f",
+    "cloudflare_build_success": true,
+    "indexnow": {
+      "status": 200,
+      "submitted_urls": 40,
+      "indexing_claimed": false
+    },
+    "r2": {
+      "status": "ok",
+      "owner": "VOCE Association",
+      "bucket": "voce-sovereign-corpus",
+      "private": true,
+      "synced_at": "2026-10-12T12:02:18.005Z",
+      "article_routes": 1621,
+      "corpus_items": 1621,
+      "article_routes_synced": 1621,
+      "source_snapshot_complete": true,
+      "backup_cursor": 0,
+      "backup_batch_size": 40,
+      "backup_complete": true,
+      "last_complete_sync_at": "2026-10-12T12:02:18.005Z",
+      "total_objects_target": 1739,
+      "objects_synced": 1739,
+      "derived_backup_complete": true,
+      "derived_cursor": 0,
+      "total_derived_objects": 1728,
+      "derived_objects_synced": 1728,
+      "derived_article_pages_synced": 1621,
+      "source_objects_touched_in_last_sync": 11,
+      "derived_objects_touched_in_last_sync": 8,
+      "changed_in_last_sync": 8
+    },
+    "academy_ui_counter": 1621,
+    "guide_live": {
+      "query": "CHIME mesure l'Univers d'il y a huit milliards d'années",
+      "answer_with_source_citations": true,
+      "top_source_title": "CHIME mesure l'Univers d'il y a huit milliards d'années sans distinguer une seule galaxie",
+      "source_date": "2026-10-11",
+      "supporting_documents": 6
+    },
+    "verified_source_texts": 31
   },
   "previous_inventory_rejected_as_exhaustive": true,
-  "deep_coverage_run": "9646d3a9-418a-4364-bf12-05a6bfbb3477"
+  "deep_coverage_run": "9646d3a9-418a-4364-bf12-05a6bfbb3477",
+  "coverage_blocker": "Multiple activity-list attempts load only 20–30 recent cards; the actual October 9 RobCo boundary has not been observed. A source title about normal blood tests and bone-marrow cardiovascular risk was seen in one overview but its valid source identifier is still unknown. This is not claimed archived.",
+  "ambiguous_identifier_resolutions": [
+    {
+      "identifier": "7514701521796640768",
+      "actual_kind": "activity",
+      "same_post_ugc": "7514701472106840064",
+      "source_metadata_verifies_alias": true,
+      "not_a_missing_deleted_post": true
+    },
+    {
+      "invalid_overview_identifier": "7514746750251794432",
+      "status": "unverified_do_not_publish"
+    },
+    {
+      "rejected_run": "9646d3a9-418a-4364-bf12-05a6bfbb3477",
+      "reason": "UGC IDs were returned as JSON numbers and rounded; all digits from that result are rejected."
+    }
+  ],
+  "nightly_method": {
+    "updated": true,
+    "existing_task": "6abb72f5e1108191961956e6e3738fea",
+    "enabled": true,
+    "time": "23:30",
+    "timezone": "Europe/Podgorica",
+    "literal_public_metadata_capture": true
+  },
+  "pending": [
+    "Verify Diella deployment and updated R2 manifest.",
+    "Resume older-day coverage using the posts-only export if LinkedIn makes it available."
+  ],
+  "latest_source": {
+    "id": "7515380937786953728",
+    "source_publication_datetime": "2026-10-12T12:00:56.377Z",
+    "canonical": "https://voce.life/archive/2026/10/12/diella-l-albanie-veut-automatiser-presque-tout-le-marche-public-avant-la-7515380937786953728"
+  },
+  "posts_export_attempt": {
+    "run": "dce06642-bac7-4c33-954c-5037185838ee",
+    "scope": "Posts only, own VOCE identity verification; no credentials or unrelated personal categories",
+    "status": "in_progress"
+  }
 }
