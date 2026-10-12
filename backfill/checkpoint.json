@@ -1959,6 +1959,118 @@
           }
         ]
       }
+    },
+    "linkedin_catchup_2026_10_12": {
+      "checked_at": "2026-10-12T11:13:01.254Z",
+      "status": "exact_permalink_transcription_in_progress",
+      "baseline_corpus": 1592,
+      "baseline_after_oct9": "7514233394118086656",
+      "coverage_scan_run": "c07c8141-da6a-4a59-80f6-e27afe4f68db",
+      "observed_candidates": [
+        {
+          "id": "7515365850959421440",
+          "title": "Siemens Energy et KONČAR: les transformateurs deviennent le calendrier caché des data centers européens"
+        },
+        {
+          "id": "7515350721006018560",
+          "title": "Un matériau sans cellule se met en mouvement selon un programme écrit dans l'ADN"
+        },
+        {
+          "id": "7515335641077940224",
+          "title": "MSCI peut faire vendre une action sans que l'entreprise ait changé"
+        },
+        {
+          "id": "7515320570008219649",
+          "title": "SNIBS: la neurochirurgie commence à mesurer la pression réellement exercée sur le cerveau"
+        },
+        {
+          "id": "7515305429837586433",
+          "title": "BlackRock, JPMorgan, Goldman Sachs: l'eau entre dans la valeur des actifs"
+        },
+        {
+          "id": "7515290330926194688",
+          "title": "Cancer du pancréas: Optune Pax ajoute 2 mois de survie avec des champs électriques"
+        },
+        {
+          "id": "7515275221361315841",
+          "title": "Zylo Clarity AI: le registre logiciel commence à exécuter les décisions"
+        },
+        {
+          "id": "7515260109472686080",
+          "title": "Apollo GraphOS Agent Services: l'agent IA ne voit plus toute l'entreprise par défaut"
+        },
+        {
+          "id": "7515124236231946240",
+          "title": "DON PASQUALE E IL CAPITALE CHE VUOLE PAGARE MENO"
+        },
+        {
+          "id": "7515109132023140352",
+          "title": "Votre cerveau peut juger une information plus importante simplement parce qu'il la retrouve"
+        },
+        {
+          "id": "7515094034659524608",
+          "title": "Un célibataire refusé pour un logement: seuls 10% y voient spontanément une discrimination"
+        },
+        {
+          "id": "7515078984284540928",
+          "title": "Taxotère: un if toxique européen a permis de fabriquer un anticancéreux sans détruire l'arbre"
+        },
+        {
+          "id": "7515048754085965825",
+          "title": "EPR2: 60 milliards d'euros plafonnés en capital, mais pas les intérêts garantis jusqu'en 2090"
+        },
+        {
+          "id": "7515018542132633600",
+          "title": "Cat Nat: votre maison peut être réparée et perdre quand même de la valeur"
+        },
+        {
+          "id": "7515003452989681664",
+          "title": "Eagle Hills en Syrie: la marina de Lattaquié ne dira pas qui encaisse réellement les revenus"
+        },
+        {
+          "id": "7514988323313078274",
+          "title": "FPT: le Vietnam équipe le Japon, et pèse 5,5% dans un fonds JPMorgan"
+        },
+        {
+          "id": "7514761841596817408",
+          "title": "Etheridge Foundation: 88.500 dollars pour tester la psilocybine contre la dépendance aux opioïdes"
+        },
+        {
+          "id": "7514746750146949120",
+          "title": "Novo Nordisk: 28% du capital donnent à une fondation 77% des votes"
+        },
+        {
+          "id": "7514731641408413696",
+          "title": "Votre prise de sang peut être normale. Votre moelle peut pourtant porter un risque cardiovasculaire invisible"
+        },
+        {
+          "id": "7514716555205779456",
+          "title": "Quand la presse locale disparaît, le coût du crédit augmente"
+        },
+        {
+          "id": "7514701472106840064",
+          "title": "ON LightSpray: 32 robots à Busan condensent 200 étapes de fabrication en trois minutes"
+        },
+        {
+          "id": "7514686355679981568",
+          "title": "Singapour prépare l'après-2061: 206 kilomètres de tunnels pour sécuriser son eau industrielle"
+        },
+        {
+          "id": "7514701521796640768",
+          "title": "À 2.600 mètres sous le Pacifique, un télescope à neutrinos doit apprendre pourquoi l'océan clignote"
+        },
+        {
+          "id": "7514248492110970880",
+          "title": "L'hôtellerie dépense des millions pour être vue. Les agents vont décider qui encaisse la réservation"
+        }
+      ],
+      "candidate_count": 24,
+      "already_verified_and_archived": [
+        "7515350721006018560"
+      ],
+      "unverified_candidates_are_not_published": true,
+      "coverage_complete": false,
+      "resume": "Resolve each actual feed/update permalink, capture full commentary including paragraphs/sources/hashtags, verify civil publication dates, ingest verified packets, verify live Guide and R2."
     }
   }
 }

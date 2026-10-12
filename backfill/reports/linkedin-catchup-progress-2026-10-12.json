@@ -1,0 +1,191 @@
+{
+  "schema": "voce.linkedin-catchup-progress.v1",
+  "checked_at": "2026-10-12T11:13:01.254Z",
+  "window": {
+    "after": "2026-10-09",
+    "through": "2026-10-12"
+  },
+  "corpus_items": 1592,
+  "coverage_complete": false,
+  "observed_candidates": {
+    "posts": [
+      {
+        "title": "Siemens Energy et KONČAR: les transformateurs deviennent le calendrier caché des data centers européens",
+        "linkedin_id": "7515365850959421440",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515365850959421440",
+        "visible_time_label": "À l’instant",
+        "absolute_date_displayed_or_null": "2026-10-12"
+      },
+      {
+        "title": "Un matériau sans cellule se met en mouvement selon un programme écrit dans l'ADN",
+        "linkedin_id": "7515350721006018560",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515350721006018560",
+        "visible_time_label": "1 h",
+        "absolute_date_displayed_or_null": "2026-10-12"
+      },
+      {
+        "title": "MSCI peut faire vendre une action sans que l'entreprise ait changé",
+        "linkedin_id": "7515335641077940224",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515335641077940224",
+        "visible_time_label": "2 h",
+        "absolute_date_displayed_or_null": "2026-10-12"
+      },
+      {
+        "title": "SNIBS: la neurochirurgie commence à mesurer la pression réellement exercée sur le cerveau",
+        "linkedin_id": "7515320570008219649",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515320570008219649",
+        "visible_time_label": "3 h",
+        "absolute_date_displayed_or_null": "2026-10-12"
+      },
+      {
+        "title": "BlackRock, JPMorgan, Goldman Sachs: l'eau entre dans la valeur des actifs",
+        "linkedin_id": "7515305429837586433",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515305429837586433",
+        "visible_time_label": "4 h",
+        "absolute_date_displayed_or_null": "2026-10-12"
+      },
+      {
+        "title": "Cancer du pancréas: Optune Pax ajoute 2 mois de survie avec des champs électriques",
+        "linkedin_id": "7515290330926194688",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515290330926194688",
+        "visible_time_label": "5 h",
+        "absolute_date_displayed_or_null": "2026-10-12"
+      },
+      {
+        "title": "Zylo Clarity AI: le registre logiciel commence à exécuter les décisions",
+        "linkedin_id": "7515275221361315841",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515275221361315841",
+        "visible_time_label": "6 h",
+        "absolute_date_displayed_or_null": "2026-10-12"
+      },
+      {
+        "title": "Apollo GraphOS Agent Services: l'agent IA ne voit plus toute l'entreprise par défaut",
+        "linkedin_id": "7515260109472686080",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515260109472686080",
+        "visible_time_label": "7 h",
+        "absolute_date_displayed_or_null": "2026-10-12"
+      },
+      {
+        "title": "DON PASQUALE E IL CAPITALE CHE VUOLE PAGARE MENO",
+        "linkedin_id": "7515124236231946240",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515124236231946240",
+        "visible_time_label": "8 h",
+        "absolute_date_displayed_or_null": "2026-10-12"
+      },
+      {
+        "title": "Votre cerveau peut juger une information plus importante simplement parce qu'il la retrouve",
+        "linkedin_id": "7515109132023140352",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515109132023140352",
+        "visible_time_label": "16 h",
+        "absolute_date_displayed_or_null": "2026-10-12"
+      },
+      {
+        "title": "Un célibataire refusé pour un logement: seuls 10% y voient spontanément une discrimination",
+        "linkedin_id": "7515094034659524608",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515094034659524608",
+        "visible_time_label": "17 h",
+        "absolute_date_displayed_or_null": "2026-10-12"
+      },
+      {
+        "title": "Taxotère: un if toxique européen a permis de fabriquer un anticancéreux sans détruire l'arbre",
+        "linkedin_id": "7515078984284540928",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515078984284540928",
+        "visible_time_label": "18 h",
+        "absolute_date_displayed_or_null": "2026-10-12"
+      },
+      {
+        "title": "EPR2: 60 milliards d'euros plafonnés en capital, mais pas les intérêts garantis jusqu'en 2090",
+        "linkedin_id": "7515048754085965825",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515048754085965825",
+        "visible_time_label": "19 h",
+        "absolute_date_displayed_or_null": "2026-10-12"
+      },
+      {
+        "title": "Cat Nat: votre maison peut être réparée et perdre quand même de la valeur",
+        "linkedin_id": "7515018542132633600",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515018542132633600",
+        "visible_time_label": "21 h",
+        "absolute_date_displayed_or_null": "2026-10-12"
+      },
+      {
+        "title": "Eagle Hills en Syrie: la marina de Lattaquié ne dira pas qui encaisse réellement les revenus",
+        "linkedin_id": "7515003452989681664",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515003452989681664",
+        "visible_time_label": "23 h",
+        "absolute_date_displayed_or_null": "2026-10-12"
+      },
+      {
+        "title": "FPT: le Vietnam équipe le Japon, et pèse 5,5% dans un fonds JPMorgan",
+        "linkedin_id": "7514988323313078274",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514988323313078274",
+        "visible_time_label": "Hier",
+        "absolute_date_displayed_or_null": "2026-10-11"
+      },
+      {
+        "title": "Etheridge Foundation: 88.500 dollars pour tester la psilocybine contre la dépendance aux opioïdes",
+        "linkedin_id": "7514761841596817408",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514761841596817408",
+        "visible_time_label": "Hier",
+        "absolute_date_displayed_or_null": "2026-10-11"
+      },
+      {
+        "title": "Novo Nordisk: 28% du capital donnent à une fondation 77% des votes",
+        "linkedin_id": "7514746750146949120",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514746750146949120",
+        "visible_time_label": "Hier",
+        "absolute_date_displayed_or_null": "2026-10-11"
+      },
+      {
+        "title": "Votre prise de sang peut être normale. Votre moelle peut pourtant porter un risque cardiovasculaire invisible",
+        "linkedin_id": "7514731641408413696",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514731641408413696",
+        "visible_time_label": "Hier",
+        "absolute_date_displayed_or_null": "2026-10-11"
+      },
+      {
+        "title": "Quand la presse locale disparaît, le coût du crédit augmente",
+        "linkedin_id": "7514716555205779456",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514716555205779456",
+        "visible_time_label": "Hier",
+        "absolute_date_displayed_or_null": "2026-10-11"
+      },
+      {
+        "title": "ON LightSpray: 32 robots à Busan condensent 200 étapes de fabrication en trois minutes",
+        "linkedin_id": "7514701472106840064",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514701472106840064",
+        "visible_time_label": "Hier",
+        "absolute_date_displayed_or_null": "2026-10-11"
+      },
+      {
+        "title": "Singapour prépare l'après-2061: 206 kilomètres de tunnels pour sécuriser son eau industrielle",
+        "linkedin_id": "7514686355679981568",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514686355679981568",
+        "visible_time_label": "Hier",
+        "absolute_date_displayed_or_null": "2026-10-11"
+      },
+      {
+        "title": "À 2.600 mètres sous le Pacifique, un télescope à neutrinos doit apprendre pourquoi l'océan clignote",
+        "linkedin_id": "7514701521796640768",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514701521796640768",
+        "visible_time_label": "Hier",
+        "absolute_date_displayed_or_null": "2026-10-11"
+      },
+      {
+        "title": "L'hôtellerie dépense des millions pour être vue. Les agents vont décider qui encaisse la réservation",
+        "linkedin_id": "7514248492110970880",
+        "observed_post_href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514248492110970880",
+        "visible_time_label": "9 oct.",
+        "absolute_date_displayed_or_null": "2026-10-09"
+      }
+    ],
+    "scrolls": 5,
+    "blockers": "Messaging popup dismissed.",
+    "boundary_title": "RobCo vaut un milliard. Son prochain cycle de croissance se construit aux États-Unis",
+    "boundary_reached": true
+  },
+  "unverified_publication_dates_are_not_accepted": true,
+  "rejected_capture_reason": "The earlier aggregate extraction mismatched three IDs, used invalid /ugcPost URLs and fabricated exact timestamps from relative time labels.",
+  "exact_capture_run": "74484941-7aa4-4899-9528-59f6db29c133",
+  "previously_published_post": "7515350721006018560",
+  "next": "Resolve and transcribe each feed/update permalink; verify original hashtag completeness and day before ingestion."
+}
