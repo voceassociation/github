@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "section": "research",
+  "voice": "Paul – Soothing",
+  "audios": {
+    "fr": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=cafce542-fe55-444b-adc0-c7fc2e72685c.wav",
+      "transcript": "Votché Research distingue les travaux formels, les enquêtes appliquées et les analyses éditoriales. Chaque recherche expose un mécanisme, situe les preuves et précise leurs limites. Les lecteurs peuvent consulter les références et, lorsqu'ils existent, les identifiants permanents des publications scientifiques."
+    },
+    "en": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=dbaaa6f2-0211-4867-87eb-29f07d335221.wav",
+      "transcript": "Votché Research separates formal research, applied studies and editorial analysis. Each publication explains a mechanism, identifies the evidence and acknowledges its limits. Readers can then consult the references and, where available, persistent identifiers for formal research outputs."
+    },
+    "it": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=e2fd3074-1ea3-4001-81bf-1b04e628d3a4.wav",
+      "transcript": "Voce Research distingue la ricerca formale, gli studi applicati e l'analisi editoriale. Ogni pubblicazione spiega un meccanismo, identifica le prove e ne chiarisce i limiti. I lettori possono consultare le fonti e, quando disponibili, gli identificativi permanenti dei lavori scientifici."
+    }
+  }
+}
