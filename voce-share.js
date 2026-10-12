@@ -16,8 +16,8 @@
   function taggedUrl(source) {
     const u=new URL(sourceUrl);
     u.searchParams.set("utm_source",source);
-    u.searchParams.set("utm_medium","organic_social");
-    u.searchParams.set("utm_campaign","voce_corpus");
+    u.searchParams.set("utm_medium","social");
+    u.searchParams.set("utm_campaign","voce-corpus");
     u.searchParams.set("utm_content",(panel.dataset.voceId||"article").slice(0,70).replace(/[^a-zA-Z0-9-]/g,"-"));
     return u.href;
   }
