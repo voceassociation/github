@@ -7,6 +7,16 @@
       "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=5954ebc6-b5ef-49ac-ba2e-8e7f1c1fdc56.wav",
       "transcript": "Digital interruptions cannot be measured only as time spent on screens. A notification may fragment a conversation, redirect attention or interrupt a child's exchange with an adult. Votché Technoference examines the consequences for memory, language and inner thought, carefully separating observed evidence from open hypotheses.",
       "duration": 25
+    },
+    "fr": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=c4a25b93-adef-4f62-a8a1-a58f50d7fae6.wav",
+      "transcript": "Une interruption numérique ne se mesure pas seulement en minutes passées devant un écran. Un message peut fragmenter la conversation, modifier l'attention ou interrompre un échange avec un enfant. Votché Technoference relie ces épisodes ordinaires à la mémoire, au langage et à la pensée intérieure, en séparant observations, hypothèses et preuves.",
+      "duration": 22.2
+    },
+    "it": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=9b3fbc98-3b86-4d89-a1f8-bb402633e3f4.wav",
+      "transcript": "Le interruzioni digitali non si misurano soltanto in minuti davanti a uno schermo. Una notifica può interrompere una conversazione, spostare l'attenzione o frammentare lo scambio con un bambino. Voce Technoference studia gli effetti su memoria, linguaggio e pensiero interiore, distinguendo osservazioni e ipotesi.",
+      "duration": 26.1
     }
   }
 }
