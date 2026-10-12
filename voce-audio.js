@@ -40,7 +40,7 @@
   }
 
   function masterSource(lang) {
-    return `/assets/audio/voce-signature-${lang}.mp3`;
+    return `/assets/audio/voce-signature-${lang}.wav`;
   }
 
   function findAnchor() {
