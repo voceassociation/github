@@ -1338,12 +1338,35 @@ function renderHistoryDay(day) {
 </body></html>`;
 }
 
+function voceShareTags(title, text) {
+  // Small, editorially controlled selection. Tags guide discovery, not ranking.
+  const t=String(title||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+  const packs=[
+    [/cancer|tum(eur|or)|leucem|chimiotherap|oncolog|pancreas|prostate|sein\b|poumon/,"#CancerResearch #Oncology #MedicalResearch"],
+    [/alzheimer|demence|parkinson|neurodegener/,"#AlzheimersResearch #Neuroscience #CognitiveHealth"],
+    [/technoference|smartphone|ecran|notification|interruption numerique/,"#Technoference #DigitalWellbeing #CognitiveScience"],
+    [/musee|museum|patrimoine|restaurat|provenance|billetterie|galerie|collection/,"#CulturalHeritage #MuseumStudies #ArtHistory"],
+    [/luxe|haute couture|fashion|hospitality|hotellerie/,"#LuxuryIndustry #Hospitality #CulturalResearch"],
+    [/agent|mcp|model evaluation|governance|gouvernance|audit ia|evaluation ia|identite numerique|spiffe/,"#AgenticAI #AIGovernance #AIAssurance"],
+    [/robot|humanoide|production industrielle|usine/,"#Robotics #Industry40 #FutureOfWork"],
+    [/education|ecole|eleve|enseignant|enfant|parentalite|adolescent/,"#ChildDevelopment #EducationResearch #HumanBehaviour"],
+    [/cerveau|memoire|cognition|neuroscien|psycholog|attention|conscience/,"#CognitiveScience #Neuroscience #Psychology"],
+    [/climat|ecosystem|ocean|biodivers|ressource naturelle/,"#ClimateResearch #EnvironmentalScience #Sustainability"],
+    [/culture|histoire|civilisation|opera|artiste|architecture/,"#CulturalHistory #ArtHistory #Heritage"],
+    [/cyber|authentification|cloud|logiciel|informatique/,"#Cybersecurity #DigitalInfrastructure #DigitalSovereignty"],
+    [/travail|emploi|entreprise|metier|productivite/,"#FutureOfWork #WorkforceTransformation #Leadership"]
+  ];
+  const pack=packs.find(([pattern])=>pattern.test(t));
+  return "#VOCEAssociation " + (pack ? pack[1] : "#Research #Culture #Science");
+}
+
 function renderArticle(item, route, routes) {
   const title = firstLine(item.text);
   const description = excerpt(item.text, title);
   const metaTitle = seoTitle(item.text, title);
   const metaDescription = seoDescription(item.text, title);
   const canonical = `https://voce.life${route.path}`;
+  const shareTags = voceShareTags(title, item.text);
   let paragraphs = String(item.text || "").split(/\n{2,}/).map(s => s.trim()).filter(Boolean);
   if (paragraphs[0] === title) paragraphs = paragraphs.slice(1);
 
@@ -1412,6 +1435,7 @@ function renderArticle(item, route, routes) {
 <meta name="twitter:description" content="${escapeHtml(metaDescription)}">
 <meta property="article:published_time" content="${escapeHtml(item.date_published)}">
 <link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/voce-share.css">
 <script type="application/ld+json">${JSON.stringify(ld).replace(/</g, "\\u003c")}</script>
 </head>
 <body>
@@ -1443,10 +1467,23 @@ function renderArticle(item, route, routes) {
 <p class="signal">Publié le ${escapeHtml(formatPublicationLabel(item))} · <a href="${escapeHtml(item.source_url || "")}" target="_blank" rel="noopener">Publication originale</a></p>
 ${body}
 </article>
+<section class="voce-share-panel" data-voce-share data-voce-url="${canonical}" data-voce-title="${escapeHtml(title)}" data-voce-id="${escapeHtml(item.id||route.id||"")}" data-voce-tags="${escapeHtml(shareTags)}" aria-label="Partager la publication VOCE">
+<h2 class="voce-share-title">Faire découvrir cette publication</h2>
+<p class="voce-share-intro">Partager cette recherche, ses sources et sa version intégrale.</p>
+<p class="voce-share-tags">${escapeHtml(shareTags)}</p>
+<div class="voce-share-actions">
+<a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(canonical)}" data-voce-share-linkedin target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(canonical)}" data-voce-share-facebook target="_blank" rel="noopener noreferrer">Facebook</a>
+<button type="button" data-voce-share-copy>Copier texte et hashtags</button>
+</div>
+<textarea class="voce-share-template" hidden readonly aria-label="Texte prêt à partager"></textarea>
+<p class="voce-share-status" data-voce-share-status role="status" aria-live="polite"></p>
+</section>
 <section class="chapter"><div class="chapter-no">VOCE Academy</div><h2>Continuer</h2><p>${navigation}</p><p class="signal">Ce texte appartient au corpus pédagogique et éditorial de VOCE Association. Lecture, découverte et citation sont publiques; les droits sur le texte et le corpus restent détenus par VOCE Association, sauf mention contraire. <a href="/CORPUS_RIGHTS.txt">Droits du corpus</a>.</p></section>
 </div></div></section>
 </main>
 <footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/publications">Publications</a> · <a href="/archive">Archive</a> · © 2026 VOCE Association</div></div></div></div></footer>
+<script src="/voce-share.js" defer></script>
 </body>
 </html>`;
 }
