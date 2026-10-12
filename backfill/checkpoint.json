@@ -2645,8 +2645,8 @@
       }
     },
     "linkedin_catchup_2026_10_12": {
-      "checked_at": "2026-10-12T11:24:51.486Z",
-      "status": "nine_verified_sources_pending_next_ingestion",
+      "checked_at": "2026-10-12T11:53:10.389Z",
+      "status": "thirty_literal_sources_verified_pending_deployment_and_coverage_check",
       "baseline_corpus": 1592,
       "baseline_after_oct9": "7514233394118086656",
       "coverage_scan_run": "c07c8141-da6a-4a59-80f6-e27afe4f68db",
@@ -2764,10 +2764,33 @@
         "7515275221361315841",
         "7515365850959421440",
         "7515260109472686080",
-        "7514248492110970880"
+        "7515245002936176640",
+        "7515124236231946240",
+        "7515109132023140352",
+        "7515094034659524608",
+        "7515078984284540928",
+        "7515048754085965825",
+        "7515018542132633600",
+        "7515003452989681664",
+        "7514988323313078274",
+        "7514248492110970880",
+        "7514746750146949120",
+        "7514731641408413696",
+        "7514716555205779456",
+        "7514701472106840064",
+        "7514686355679981568",
+        "7514761841596817408",
+        "7514912819457187840",
+        "7514897716884426752",
+        "7514927927222894592",
+        "7514943025576443904",
+        "7514958137871941633",
+        "7514973262741680128"
       ],
-      "expected_corpus_after_ingest": 1600,
-      "pending_candidates": 15
+      "expected_corpus_after_ingest": 1621,
+      "pending_candidates": 15,
+      "source_method": "Exact full public LinkedIn source metadata text, visible commentary corroboration and structured publication datetime",
+      "pending": "Continue loading activity to actual October 9 RobCo boundary; verify live corpus/Guide/R2 after publication."
     }
   }
 }

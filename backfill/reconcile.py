@@ -22,12 +22,38 @@ def slug(text, identifier):
 corpus = read(ROOT/'data/corpus.json')
 routes = read(ROOT/'data/article-routes.json')
 registry = read(ROOT/'data/voce-index-registry.json')
+source_corrections = {}
+for correction_path in sorted((WORK/'source-corrections').glob('*.json')):
+    for correction in read(correction_path)['corrections']:
+        packet = read(ROOT/correction['source_packet'])
+        source = next(p for p in packet['verified_posts'] if 'linkedin:' + p['linkedin_id'].rsplit(':', 1)[-1] == correction['id'])
+        if not source.get('url_resolved') or not source.get('linebreaks_preserved') or digest(source['text']) != correction['source_text_sha256']:
+            raise ValueError('Invalid verified transcription correction: ' + correction['id'])
+        source_corrections[correction['id']] = (correction, source)
+
+def restore_verified_transcription(item):
+    if item['id'] not in source_corrections:
+        return
+    correction, source = source_corrections[item['id']]
+    current_hash = digest(item['text'])
+    if current_hash == correction['source_text_sha256']:
+        return
+    if current_hash != correction['expected_existing_sha256'] or item.get('source_url') != source['source_url']:
+        raise ValueError('Unexpected existing transcription: ' + item['id'])
+    if item['title'] != source['text'].splitlines()[0]:
+        raise ValueError('Transcription correction must preserve the title and route')
+    item['text'] = source['text']
+    item.setdefault('provenance', {})['transcription_correction'] = correction
+
+for item in corpus['items']:
+    restore_verified_transcription(item)
 original = {x['id']: x for x in corpus['items']}
 existing = dict(original)
 histories = {}
 for p in sorted((ROOT/'data/history').glob('*.json')):
     day = read(p); histories[day['date']] = day
     for item in day['items']:
+        restore_verified_transcription(item)
         if item['id'] in existing and existing[item['id']]['text'] != item['text']:
             raise ValueError('Conflicting existing records: ' + item['id'])
         existing.setdefault(item['id'], item)

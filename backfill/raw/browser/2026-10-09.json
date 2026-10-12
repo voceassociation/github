@@ -1,9 +1,9 @@
 {
   "schema": "voce.linkedin-browser-source.v1",
   "date": "2026-10-09",
-  "retrieved_at": "2026-10-12T11:23:37.785Z",
+  "retrieved_at": "2026-10-12T11:48:35.224Z",
   "author_url": "https://www.linkedin.com/in/voce-association-0030763b6/",
-  "source": "authenticated_linkedin_browser",
+  "source": "verified_linkedin_public_html",
   "access_verified": true,
   "verified_posts": [
     {
@@ -11,21 +11,26 @@
       "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514248492110970880/",
       "text": "L'hôtellerie dépense des millions pour être vue. Les agents vont décider qui encaisse la réservation\n\nSiteMinder observe en 2025 un écart difficile à ignorer.\n\nRéservation moyenne sur le site de l'hôtel: 516 dollars.\n\nVia une OTA: 312 dollars.\n\nLes clientèles diffèrent. Mais le canal direct protège davantage de marge et de donnée client.\n\nD-EDGE estime à 3,5% le coût moyen de distribution directe chez ses hôtels clients, contre 12 à 28% de commission généralement prélevée par les OTA.\n\nPourtant, l'IA n'a pas encore bouleversé cette économie.\n\nEn 2026, 26% des voyageurs interrogés commencent leur recherche sur une OTA. Seulement 4% commencent par l'IA. Et 18% de ceux qui démarrent sur une OTA finissent par réserver directement.\n\nC'est dans ce passage entre découverte et transaction que les agents deviennent intéressants.\n\nEn mars 2026, Canary Technologies lance Hospitality AI Agent Studio. Des agents de réservation, réception ou conciergerie peuvent traiter une demande, consulter les disponibilités, proposer des services et accompagner la réservation.\n\nEn avril, SiteMinder ouvre aussi sa distribution à des parcours conversationnels IA.\n\nPour un propriétaire ou un fonds, le sujet devient: combien de réservations additionnelles ont été créées, à quel coût, sur quel canal et avec quelle marge?\n\nULTRA®\n\nPrenons 1.000 réservations de 500 euros.\n\nÀ 18% de commission OTA: 90.000 euros.\n\nÀ 5% de coût direct: 25.000 euros.\n\nÉcart théorique: 65.000 euros.\n\nCette valeur n'existe que si l'agent déplace réellement une réservation ou crée une conversion supplémentaire. Acquisition, technologie, promotions et cannibalisation doivent être intégrées.\n\nCRS, PMS, CRM, moteur de réservation, paiement et couche agentique doivent partager prix et disponibilité sans permettre au modèle d'inventer une chambre ou un tarif.\n\nLe KPI central devient la marge contributive incrémentale par réservation confirmée.\n\nLe risque: si l'agent personnel du voyageur appartient à une grande plateforme, l'hôtel peut automatiser sa vente tout en laissant l'intermédiaire contrôler la demande.\n\nLa bataille porte désormais sur l'interface qui possède l'intention du client.\n\nLI!GHT WORKFORCE ©\n\nCanary automatise déjà une partie des tâches de réservation, réception et conciergerie.\n\nL'impact se mesure en demandes résolues, réservations confirmées, revenus additionnels et interventions humaines évitées sans dégrader le service.\n\nL'humain remonte vers exceptions, relation, négociation et hospitalité.\n\nFIGARO\n\nCelui qui contrôle le dernier mètre entre le désir et la réservation contrôle une partie de la marge.\n\nSources\n\nSiteMinder, Hotel Booking Trends 2026\nSiteMinder, Changing Traveller Report 2026\nSiteMinder, AI hotel distribution, 15 avril 2026\nD-EDGE, 2025 Hotel Direct Distribution Report\nCanary Technologies, Hospitality AI Agent Studio, mars 2026\n\n#VOCEAssociation #AgenticCommerce #LuxuryHospitality #AgentsIA #RevenueManagement",
       "author": "Voce Association",
-      "retrieved_at": "2026-10-12T11:23:37.785Z",
-      "visible_relative_time": "9 oct.",
+      "retrieved_at": "2026-10-12T11:48:35.224Z",
+      "visible_relative_time": "3d",
       "linebreaks_preserved": true,
       "url_resolved": true,
-      "source": "linkedin-browser",
+      "source": "linkedin-public-html",
       "publication_date": "2026-10-09",
       "date_precision": "day",
-      "date_basis": "The actual LinkedIn post displays '9 oct.' during an authenticated observation on 12 October 2026. Its identifier creation signal also falls on 9 October 2026; no exact publication hour is asserted.",
+      "source_publication_datetime": "2026-10-09T09:00:58.542Z",
+      "date_basis": "LinkedIn's public single-post structured publication metadata gives 2026-10-09T09:00:58.542Z. Converted to Europe/Podgorica, the civil publication date is 2026-10-09. The original timestamp is preserved in this source packet; the archive retains day precision.",
       "verification": {
-        "run_id": "932199e8-8498-44e6-8db3-7e1fa1c1f706",
-        "sources_and_hashtags_inspected": true
+        "method": "literal_public_post_full_metadata_description_corroborated_by_visible_commentary",
+        "commentary_words_and_punctuation_match_html": true,
+        "original_newlines_retained_from_full_source_metadata": true,
+        "author_profile_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-agenticcommerce-luxuryhospitality-activity-7514248534213287937-c2Nv",
+        "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7514248534213287937",
+        "sources_and_hashtags_retained": true
       }
     }
   ],
+  "candidate_posts": [],
   "coverage_complete": false,
-  "session_secrets_saved": false,
-  "supplements": "backfill/raw/2026-10-09.json without modifying the historical connector evidence"
+  "session_secrets_saved": false
 }

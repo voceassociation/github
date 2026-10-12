@@ -1,0 +1,12 @@
+{
+  "schema": "voce.verified-transcription-correction.v1",
+  "corrections": [
+    {
+      "id": "linkedin:7515365850959421440",
+      "expected_existing_sha256": "52be4d6643e2e3a4bb555d1cd4110ea5e1da453cedaf492f80c61fb5b083fd1c",
+      "source_text_sha256": "b5d642533f9977b3cce522148bcf2ec57afe5af5efbc7acd06beafbaa4421fe9",
+      "source_packet": "backfill/raw/2026-10-12.json",
+      "reason": "Restore the one trailing space after the authored Sources heading omitted by the browser transcription. Source full metadata and visible HTML agree. No words, canonical URL or document identity change."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema": "voce.linkedin-catchup-progress.v1",
-  "checked_at": "2026-10-12T11:13:01.254Z",
+  "checked_at": "2026-10-12T11:53:10.389Z",
   "window": {
     "after": "2026-10-09",
     "through": "2026-10-12"
@@ -197,19 +197,54 @@
     "7515275221361315841",
     "7515365850959421440",
     "7515260109472686080",
-    "7514248492110970880"
+    "7515245002936176640",
+    "7515124236231946240",
+    "7515109132023140352",
+    "7515094034659524608",
+    "7515078984284540928",
+    "7515048754085965825",
+    "7515018542132633600",
+    "7515003452989681664",
+    "7514988323313078274",
+    "7514248492110970880",
+    "7514746750146949120",
+    "7514731641408413696",
+    "7514716555205779456",
+    "7514701472106840064",
+    "7514686355679981568",
+    "7514761841596817408",
+    "7514912819457187840",
+    "7514897716884426752",
+    "7514927927222894592",
+    "7514943025576443904",
+    "7514958137871941633",
+    "7514973262741680128"
   ],
   "current_ingestion": {
-    "status": "eight_new_sources_verified_since_1592_baseline",
-    "expected_corpus_items": 1600,
-    "previous_texts_and_canonicals_preserved": 1592,
+    "status": "thirty_verified_sources_pending_deployment",
+    "expected_corpus_items": 1621,
+    "verified_by_day": {
+      "2026-10-12": 9,
+      "2026-10-11": 14,
+      "2026-10-09": 1,
+      "2026-10-10": 6
+    },
+    "baseline_texts_and_canonicals_preserved": 1592,
     "new_conflicts": 0,
-    "first_five_workflow": {
-      "run": 38241986212,
-      "conclusion": "success",
-      "corpus_commit": "53949ba074bed0adbcf43606af3097d3664f3a5e",
-      "build": "600bb2fe-73ce-4ab4-ab7f-9a2f63aea78e",
-      "build_success": true
-    }
-  }
+    "source_transcription_correction": {
+      "schema": "voce.verified-transcription-correction.v1",
+      "corrections": [
+        {
+          "id": "linkedin:7515365850959421440",
+          "expected_existing_sha256": "52be4d6643e2e3a4bb555d1cd4110ea5e1da453cedaf492f80c61fb5b083fd1c",
+          "source_text_sha256": "b5d642533f9977b3cce522148bcf2ec57afe5af5efbc7acd06beafbaa4421fe9",
+          "source_packet": "backfill/raw/2026-10-12.json",
+          "reason": "Restore the one trailing space after the authored Sources heading omitted by the browser transcription. Source full metadata and visible HTML agree. No words, canonical URL or document identity change."
+        }
+      ]
+    },
+    "public_source_dates_verified": true
+  },
+  "previous_inventory_rejected_as_exhaustive": true,
+  "deep_coverage_run": "9646d3a9-418a-4364-bf12-05a6bfbb3477"
 }
