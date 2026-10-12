@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T11:34:37.047085+00:00",
+  "updated_at": "2026-10-12T11:54:33.636150+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1571,9 +1571,18 @@
       "source": "historical_connector_and_authenticated_linkedin_browser",
       "coverage_complete": false
     },
+    "2026-10-10": {
+      "status": "rows_returned",
+      "rows": 6,
+      "source_packets": [
+        "backfill/raw/2026-10-10.json"
+      ],
+      "source": "authenticated_linkedin_browser",
+      "coverage_complete": false
+    },
     "2026-10-11": {
       "status": "rows_returned",
-      "rows": 1,
+      "rows": 14,
       "source_packets": [
         "backfill/raw/2026-10-11.json"
       ],
@@ -1582,7 +1591,7 @@
     },
     "2026-10-12": {
       "status": "rows_returned",
-      "rows": 8,
+      "rows": 9,
       "source_packets": [
         "backfill/raw/2026-10-12.json"
       ],
@@ -1590,9 +1599,9 @@
       "coverage_complete": false
     }
   },
-  "retrieved_unique_publications": 1603,
-  "newly_archived": 1,
-  "academy_corpus_items": 1601,
+  "retrieved_unique_publications": 1623,
+  "newly_archived": 20,
+  "academy_corpus_items": 1621,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
@@ -1682,23 +1691,23 @@
     },
     "current_publication_ingest": {
       "dates": [
-        "2026-10-08",
         "2026-10-09",
+        "2026-10-10",
         "2026-10-11",
         "2026-10-12"
       ],
       "verified_source": "Metricool LinkedIn connector, brand 7090850",
-      "items_processed": 34,
-      "corpus_items_after": 1601,
+      "items_processed": 36,
+      "corpus_items_after": 1621,
       "classification": "A editorial/archive",
-      "static_pages_verified_for_generation": 34,
+      "static_pages_verified_for_generation": 36,
       "daily_archives": [
-        "archive/2026-10-08.html",
         "archive/2026-10-09.html",
+        "archive/2026-10-10.html",
         "archive/2026-10-11.html",
         "archive/2026-10-12.html"
       ],
-      "completed_at": "2026-10-12T11:34:37.488704+00:00"
+      "completed_at": "2026-10-12T11:54:34.095223+00:00"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",

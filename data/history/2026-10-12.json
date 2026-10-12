@@ -3,7 +3,7 @@
   "owner": "VOCE Association",
   "source": "LinkedIn authenticated browser",
   "date": "2026-10-12",
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": "linkedin:7515350721006018560",
@@ -29,7 +29,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:34:37.488704+00:00",
+        "reviewed_at": "2026-10-12T11:54:34.095223+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -57,7 +57,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:34:37.488704+00:00",
+        "reviewed_at": "2026-10-12T11:54:34.095223+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -85,7 +85,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:34:37.488704+00:00",
+        "reviewed_at": "2026-10-12T11:54:34.095223+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -113,7 +113,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:34:37.488704+00:00",
+        "reviewed_at": "2026-10-12T11:54:34.095223+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -141,7 +141,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:34:37.488704+00:00",
+        "reviewed_at": "2026-10-12T11:54:34.095223+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -169,7 +169,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:34:37.488704+00:00",
+        "reviewed_at": "2026-10-12T11:54:34.095223+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -183,7 +183,7 @@
       "canonical_url": "https://voce.life/archive/2026/10/12/siemens-energy-et-koncar-les-transformateurs-deviennent-le-calendrier-ca-7515365850959421440",
       "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515365850959421440/",
       "language": "fr",
-      "text": "Siemens Energy et KONČAR: les transformateurs deviennent le calendrier caché des data centers européens\n\nUn data center peut être financé avant que le réseau sache quand il pourra l'alimenter.\n\nLa BEI décrit cette contrainte dans son Investment Report 2025/2026. À Francfort, les files de raccordement atteignent en moyenne sept à dix ans. Amsterdam connaît déjà des restrictions locales qui déplacent certains projets.\n\nDerrière ces délais se trouvent aussi des usines.\n\nÀ Nuremberg, Siemens Energy investit 220 millions d'euros pour agrandir de 16.000 m² son usine de grands transformateurs et augmenter sa capacité d'environ 50%. Les nouvelles surfaces doivent être disponibles en 2028.\n\nCes transformateurs servent aux réseaux dont dépendent les data centers, mais aussi aux interconnexions et à l'éolien offshore. Un projet numérique entre donc en concurrence industrielle avec d'autres infrastructures électriques.\n\nLe 23 janvier 2026, KONČAR et Siemens Energy ouvrent à Sesvetski Kraljevec, près de Zagreb, une usine de cuves pour grands transformateurs. Capacité annoncée: environ 160 unités sur mesure par an.\n\nUne cuve n'est pas un transformateur prêt à raccorder. La partie active doit encore être intégrée et le transformateur doit passer ses essais électriques.\n\nÀ Zagreb, leur autre coentreprise, KONČAR-Power Transformers, engage parallèlement environ 260 millions d'euros. Sa capacité doit passer de 22.000 MVA à 30.000 MVA en 2027 puis atteindre 45.000 MVA en 2031.\n\nEn Espagne, Hitachi Energy investit 30 millions d'euros dans une nouvelle usine de transformateurs secs à Saragosse, prévue pour fin 2026. Cette famille équipe notamment les data centers, sans remplacer les grands transformateurs du réseau amont.\n\nULTRA®\n\nPour un investisseur, des mégawatts annoncés ne suffisent pas.\n\nIl faut connaître la date de raccordement accordée par le gestionnaire de réseau et vérifier qu'un créneau de fabrication existe pour l'équipement retenu.\n\nUne réservation industrielle peut perdre sa valeur si la conception du poste change et impose un autre transformateur.\n\nLe retard décale les revenus pendant que le capital reste immobilisé. Les pénalités contractuelles ne compensent pas nécessairement cette perte économique.\n\nLe calendrier industriel compte donc autant que la capacité future. Une usine disponible en 2028 ou une montée à 45.000 MVA en 2031 ne sécurisent pas un data center promis pour 2027.\n\nLa diligence d'un actif numérique doit désormais remonter jusqu'aux usines qui fabriquent l'infrastructure électrique nécessaire à son exploitation.\n\nFASOLT\n\nDans \"Das Rheingold\", le Walhalla existe d'abord comme promesse monumentale. Sa réalité dépend encore de ceux qui savent le construire.\n\nSources\n\nBanque européenne d'investissement, Investment Report 2025/2026\nSiemens Energy, Nuremberg, 5 septembre 2025\nKONČAR, 23 janvier et 5 mai 2026\nHitachi Energy, Saragosse, 23 janvier 2025\n\n#VOCEAssociation #DataCenters #Infrastructure #Transformateurs",
+      "text": "Siemens Energy et KONČAR: les transformateurs deviennent le calendrier caché des data centers européens\n\nUn data center peut être financé avant que le réseau sache quand il pourra l'alimenter.\n\nLa BEI décrit cette contrainte dans son Investment Report 2025/2026. À Francfort, les files de raccordement atteignent en moyenne sept à dix ans. Amsterdam connaît déjà des restrictions locales qui déplacent certains projets.\n\nDerrière ces délais se trouvent aussi des usines.\n\nÀ Nuremberg, Siemens Energy investit 220 millions d'euros pour agrandir de 16.000 m² son usine de grands transformateurs et augmenter sa capacité d'environ 50%. Les nouvelles surfaces doivent être disponibles en 2028.\n\nCes transformateurs servent aux réseaux dont dépendent les data centers, mais aussi aux interconnexions et à l'éolien offshore. Un projet numérique entre donc en concurrence industrielle avec d'autres infrastructures électriques.\n\nLe 23 janvier 2026, KONČAR et Siemens Energy ouvrent à Sesvetski Kraljevec, près de Zagreb, une usine de cuves pour grands transformateurs. Capacité annoncée: environ 160 unités sur mesure par an.\n\nUne cuve n'est pas un transformateur prêt à raccorder. La partie active doit encore être intégrée et le transformateur doit passer ses essais électriques.\n\nÀ Zagreb, leur autre coentreprise, KONČAR-Power Transformers, engage parallèlement environ 260 millions d'euros. Sa capacité doit passer de 22.000 MVA à 30.000 MVA en 2027 puis atteindre 45.000 MVA en 2031.\n\nEn Espagne, Hitachi Energy investit 30 millions d'euros dans une nouvelle usine de transformateurs secs à Saragosse, prévue pour fin 2026. Cette famille équipe notamment les data centers, sans remplacer les grands transformateurs du réseau amont.\n\nULTRA®\n\nPour un investisseur, des mégawatts annoncés ne suffisent pas.\n\nIl faut connaître la date de raccordement accordée par le gestionnaire de réseau et vérifier qu'un créneau de fabrication existe pour l'équipement retenu.\n\nUne réservation industrielle peut perdre sa valeur si la conception du poste change et impose un autre transformateur.\n\nLe retard décale les revenus pendant que le capital reste immobilisé. Les pénalités contractuelles ne compensent pas nécessairement cette perte économique.\n\nLe calendrier industriel compte donc autant que la capacité future. Une usine disponible en 2028 ou une montée à 45.000 MVA en 2031 ne sécurisent pas un data center promis pour 2027.\n\nLa diligence d'un actif numérique doit désormais remonter jusqu'aux usines qui fabriquent l'infrastructure électrique nécessaire à son exploitation.\n\nFASOLT\n\nDans \"Das Rheingold\", le Walhalla existe d'abord comme promesse monumentale. Sa réalité dépend encore de ceux qui savent le construire.\n\nSources \n\nBanque européenne d'investissement, Investment Report 2025/2026\nSiemens Energy, Nuremberg, 5 septembre 2025\nKONČAR, 23 janvier et 5 mai 2026\nHitachi Energy, Saragosse, 23 janvier 2025\n\n#VOCEAssociation #DataCenters #Infrastructure #Transformateurs",
       "adobe_provenance": {
         "status": "pending"
       },
@@ -192,12 +192,19 @@
         "source": "authenticated_linkedin_browser",
         "retrieved_at": "2026-10-12T11:23:37.785Z",
         "visible_relative_time": "18 min",
-        "date_basis": "The observed minute/hour label on 12 October 2026 around 13:25 Europe/Podgorica places the full possible publication interval on this same civil day. Exact hour is not claimed."
+        "date_basis": "The observed minute/hour label on 12 October 2026 around 13:25 Europe/Podgorica places the full possible publication interval on this same civil day. Exact hour is not claimed.",
+        "transcription_correction": {
+          "id": "linkedin:7515365850959421440",
+          "expected_existing_sha256": "52be4d6643e2e3a4bb555d1cd4110ea5e1da453cedaf492f80c61fb5b083fd1c",
+          "source_text_sha256": "b5d642533f9977b3cce522148bcf2ec57afe5af5efbc7acd06beafbaa4421fe9",
+          "source_packet": "backfill/raw/2026-10-12.json",
+          "reason": "Restore the one trailing space after the authored Sources heading omitted by the browser transcription. Source full metadata and visible HTML agree. No words, canonical URL or document identity change."
+        }
       },
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:34:37.488704+00:00",
+        "reviewed_at": "2026-10-12T11:54:34.095223+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -225,7 +232,35 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-12T11:34:37.488704+00:00",
+        "reviewed_at": "2026-10-12T11:54:34.095223+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7515245002936176640",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7515245002936176640",
+      "date_published": "2026-10-12",
+      "title": "DON PASQUALE E IL CAPITALE CHE VUOLE PAGARE MENO",
+      "slug": "don-pasquale-e-il-capitale-che-vuole-pagare-meno-7515245002936176640",
+      "canonical_url": "https://voce.life/archive/2026/10/12/don-pasquale-e-il-capitale-che-vuole-pagare-meno-7515245002936176640",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515245002936176640/",
+      "language": "fr",
+      "text": "DON PASQUALE E IL CAPITALE CHE VUOLE PAGARE MENO\n\nOPÉRA VOCE - CalPERS: 1 milliard co-investi peut éviter 400 millions de frais\n\nATTO I\n\nAu premier semestre 2026, les co-investissements en private equity atteignent 198,19 milliards de dollars.\n\nS&P Global Market Intelligence indique que ce montant dépasse déjà cinq des six années complètes précédentes.\n\nDans un fonds classique, le LP confie son capital au GP, qui choisit les actifs et prélève management fees puis carried interest.\n\nEn co-investissement, le LP choisit une opération proposée par le GP et investit directement à ses côtés, souvent avec des frais fortement réduits.\n\nATTO II\n\nCalPERS donne une mesure rare de cette économie.\n\nDans son programme 2026, le fonds estime que 1 milliard de dollars co-investi peut éviter environ 400 millions de dollars de management fees et de carry sur la vie de l'investissement.\n\nHypothèses: multiple brut de 2,5x, fee de 1,25%, carry de 20%, dix ans.\n\n125 millions proviennent des frais de gestion évités.\n\n275 millions du carried interest.\n\nCe calcul est une illustration simplifiée, pas une économie déjà réalisée.\n\nAvec 15,5 milliards de dollars d'engagements annuels et une cible de 40% en co-investissements, CalPERS obtient environ 2,5 milliards de coûts évités sur une seule année d'engagements.\n\nLa baisse des frais ne garantit aucun alpha.\n\nLe LP doit décider vite et accepter davantage de concentration. Le GP reste celui qui choisit les opérations qu'il ouvre au co-investissement.\n\nATTO III\n\nLe mouvement change le partage du rendement.\n\nUn grand investisseur peut continuer à payer le GP pour l'accès aux opérations sans accepter que chaque dollar supporte l'économie complète du fonds aveugle.\n\nLa compétence interne devient alors une variable financière: le rendement net conservé doit justifier le coût des équipes capables d'analyser chaque transaction.\n\nCalPERS rappelle d'ailleurs que ses co-investissements ont connu des périodes de sous-performance avant l'amélioration récente.\n\nULTRA®\n\nLe co-investissement déplace une partie du pouvoir vers les LP capables d'underwriter eux-mêmes les actifs.\n\nL'asymétrie d'information demeure: le GP connaît mieux l'entreprise et décide quels deals partager.\n\nLa comparaison pertinente porte donc sur le rendement net du co-investissement face au fonds principal, après coûts internes et concentration.\n\nUne économie de frais ne sauve jamais un mauvais actif.\n\nFINALE\n\nDans \"Don Pasquale\", la fortune paraît donner le contrôle jusqu'au moment où le contrat redistribue le pouvoir.\n\nLe private equity connaît la même mécanique.\n\nDON PASQUALE\n\nLe capital devient plus exigeant lorsqu'il découvre combien lui coûte le droit de ne pas choisir.\n\nSources 2026\n\nCalPERS, 2026 Private Equity Annual Program Review, juin 2026\nS&P Global Market Intelligence, 10 juillet 2026\n\n#VOCEAssociation #PrivateEquity #CalPERS #CoInvestment",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "date_precision": "day",
+      "provenance": {
+        "source": "authenticated_linkedin_browser",
+        "retrieved_at": "2026-10-12T11:48:35.224Z",
+        "visible_relative_time": "",
+        "date_basis": "LinkedIn's public single-post structured publication metadata gives 2026-10-12T03:00:42.757Z. Converted to Europe/Podgorica, the civil publication date is 2026-10-12. The original timestamp is preserved in this source packet; the archive retains day precision."
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-12T11:54:34.095223+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     }
