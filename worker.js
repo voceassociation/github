@@ -99,7 +99,7 @@ async function serveVoceAudio(request, env, lang) {
 }
 
 // VOCE thematic audio: cached in private R2, supported by public transcripts.
-const VOCE_BRIEF_KEYS = new Set(["guide","academy","research","art","governance","technoference","sovereignty","workforce","applied","publications"]);
+const VOCE_BRIEF_KEYS = new Set(["guide","academy","research","art","governance","technoference","sovereignty","workforce","applied","publications","courses"]);
 
 async function serveVoceBrief(request, env, section, lang) {
   if (request.method !== "GET" && request.method !== "HEAD") {
@@ -1738,7 +1738,7 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     const pathname = url.pathname.length > 1 ? url.pathname.replace(/\/+$/, "") : url.pathname;
-    const voceBriefMatch = pathname.match(/^\/assets\/audio\/voce-brief-(guide|academy|research|art|governance|technoference|sovereignty|workforce|applied|publications)-(fr|en|it)\.wav$/);
+    const voceBriefMatch = pathname.match(/^\/assets\/audio\/voce-brief-(guide|academy|research|art|governance|technoference|sovereignty|workforce|applied|publications|courses)-(fr|en|it)\.wav$/);
     if (voceBriefMatch) return serveVoceBrief(request, env, voceBriefMatch[1], voceBriefMatch[2]);
     const voceAudioMatch = pathname.match(/^\/assets\/audio\/voce-signature-(fr|en|it)\.wav$/);
     if (voceAudioMatch) return serveVoceAudio(request, env, voceAudioMatch[1]);
@@ -2037,3 +2037,4 @@ export default {
     ctx.waitUntil(syncCorpus(env));
   }
 };
+

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "section": "courses",
+  "voice": "Paul - Soothing",
+  "audios": {
+    "fr": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=ec37d824-2f3c-4075-a8a1-4dac7ae4d368.wav",
+      "transcript": "Bienvenue dans les cours VOCE. Choisissez un cours dans le catalogue: il s'ouvre sur une page dédiée. Lisez l'objectif et l'explication, puis travaillez sur le cas proposé avant d'ouvrir le corrigé. Chaque cours contient moins de cinq mille caractères, avec ses références. Vous pouvez suivre les dix étapes du premier parcours, ou commencer par le sujet utile à votre entreprise. Pour les centres de formation, les critères d'évaluation indiquent ce que le participant doit savoir faire. Les thèmes du futur Campus sont présentés séparément des cours déjà disponibles. Ils couvriront aussi les gigafactories, la robotique et la light workforce.",
+      "duration": 37.407
+    }
+  }
+}

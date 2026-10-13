@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "publisher": "VOCE Association",
+  "updated_at": "2026-10-13",
+  "courses": [
+    {
+      "id": "D01",
+      "title": "Un modèle ne suffit pas à faire fonctionner un service",
+      "concept": "SYSTÈME",
+      "objective": "distinguer le modèle des composants qui permettent au service de consulter des informations et d'agir.",
+      "url": "/cours/modele-et-systeme",
+      "characters": 3154,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "D02",
+      "title": "Qui donne ses droits à un agent?",
+      "concept": "PERMISSIONS",
+      "objective": "définir les accès nécessaires à une tâche et distinguer accès technique et autorisation métier.",
+      "url": "/cours/permissions-agent",
+      "characters": 3056,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "D03",
+      "title": "Quelle preuve demander avant d’autoriser une action?",
+      "concept": "PREUVES",
+      "objective": "transformer une affirmation générale en vérification adaptée à un usage précis.",
+      "url": "/cours/preuves-controle",
+      "characters": 2801,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "D04",
+      "title": "L’agent change: que faut-il vérifier à nouveau?",
+      "concept": "CHANGEMENT",
+      "objective": "relier une modification aux contrôles qu'elle peut affecter.",
+      "url": "/cours/reevaluer-agent",
+      "characters": 2742,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "D05",
+      "title": "Combien coûte une tâche vraiment terminée?",
+      "concept": "COÛT",
+      "objective": "calculer un coût opérationnel par dossier accepté, avec un périmètre explicite.",
+      "url": "/cours/cout-tache-terminee",
+      "characters": 2813,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "D06",
+      "title": "Si l’IA traite les dossiers simples, comment former les juniors?",
+      "concept": "APPRENTISSAGE",
+      "objective": "conserver une activité qui développe une compétence professionnelle utile.",
+      "url": "/cours/former-les-juniors",
+      "characters": 2994,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "D07",
+      "title": "À quel moment autoriser l’assistance?",
+      "concept": "ASSISTANCE",
+      "objective": "organiser l'accès à l'outil selon la compétence que l'activité cherche à développer.",
+      "url": "/cours/quand-utiliser-assistance",
+      "characters": 2820,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "D08",
+      "title": "Cliquer sur \"approuver\" suffit-il à superviser?",
+      "concept": "SUPERVISION",
+      "objective": "concevoir une approbation qui permet un examen réel de l'action proposée.",
+      "url": "/cours/supervision-humaine",
+      "characters": 2827,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "D09",
+      "title": "Que faut-il savoir pour reprendre sans l’outil?",
+      "concept": "CONTINUITÉ",
+      "objective": "identifier une capacité minimale de continuité et la vérifier dans un exercice.",
+      "url": "/cours/reprendre-sans-outil",
+      "characters": 2834,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "D10",
+      "title": "Pouvez-vous remplacer votre fournisseur d’IA?",
+      "concept": "REMPLACEMENT",
+      "objective": "vérifier une possibilité de remplacement sur le service complet.",
+      "url": "/cours/remplacer-fournisseur",
+      "characters": 3219,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    }
+  ],
+  "future_training": [
+    {
+      "domain": "Gigafactory",
+      "title": "Calculer le coût d’une cellule conforme",
+      "objective": "Relier cadence, rebuts et dépenses au volume réellement utilisable.",
+      "deliverable": "Un calcul comparatif avec hypothèses.",
+      "status": "planned"
+    },
+    {
+      "domain": "Gigafactory",
+      "title": "Piloter la montée en cadence d’une ligne de batteries",
+      "objective": "Identifier les étapes qui limitent le débit et les preuves nécessaires avant d’augmenter la cadence.",
+      "deliverable": "Une carte des étapes et un plan de vérification.",
+      "status": "planned"
+    },
+    {
+      "domain": "Gigafactory",
+      "title": "Choisir ce qui doit être automatisé dans une usine",
+      "objective": "Comparer la capacité de production et les compétences nécessaires au fonctionnement réel.",
+      "deliverable": "Une décision sur un poste de travail.",
+      "status": "planned"
+    },
+    {
+      "domain": "Light workforce",
+      "title": "Réceptionner un robot avant son entrée en production",
+      "objective": "Vérifier une tâche complète avec ses incidents, ses interruptions et sa reprise.",
+      "deliverable": "Un protocole de réception.",
+      "status": "planned"
+    },
+    {
+      "domain": "Light workforce",
+      "title": "Passer de la simulation à une tâche robotique réelle",
+      "objective": "Identifier les écarts entre un résultat simulé et les conditions de travail.",
+      "deliverable": "Une grille de validation avant essai.",
+      "status": "planned"
+    },
+    {
+      "domain": "Light workforce",
+      "title": "Organiser les rôles quand les agents exécutent les tâches",
+      "objective": "Définir les responsabilités et l’apprentissage nécessaire après automatisation.",
+      "deliverable": "Une fiche de rôle et une activité formatrice.",
+      "status": "planned"
+    },
+    {
+      "domain": "Systèmes d’IA",
+      "title": "Autoriser un agent à évoluer sans perdre les contrôles",
+      "objective": "Examiner les modifications et les critères d’acceptation d’un système qui évolue.",
+      "deliverable": "Un plan de réévaluation.",
+      "status": "planned"
+    },
+    {
+      "domain": "Systèmes d’IA",
+      "title": "Maîtriser les dépendances d’un modèle à poids ouverts",
+      "objective": "Examiner les composants nécessaires, les licences et les conditions de remplacement.",
+      "deliverable": "Une carte de dépendances.",
+      "status": "planned"
+    },
+    {
+      "domain": "Énergie et mobilité",
+      "title": "Lire une architecture électrique de véhicule",
+      "objective": "Relier batterie, moteur et contrôle aux besoins de fonctionnement.",
+      "deliverable": "Une carte fonctionnelle.",
+      "status": "planned"
+    },
+    {
+      "domain": "Culture et institutions",
+      "title": "Garder la maîtrise des données de billetterie",
+      "objective": "Définir les accès, exports et conditions de reprise d’un service culturel.",
+      "deliverable": "Une grille d’exigences.",
+      "status": "planned"
+    },
+    {
+      "domain": "Cognition et apprentissage",
+      "title": "Maintenir l’expertise quand les tâches d’entrée disparaissent",
+      "objective": "Concevoir une progression professionnelle dans une organisation automatisée.",
+      "deliverable": "Une activité avec critères de transfert.",
+      "status": "planned"
+    },
+    {
+      "domain": "Décision scientifique",
+      "title": "Vérifier une promesse technologique avant investissement",
+      "objective": "Distinguer une démonstration, une déclaration et une mesure en conditions réelles.",
+      "deliverable": "Une fiche de preuve et de décision.",
+      "status": "planned"
+    }
+  ]
+}
