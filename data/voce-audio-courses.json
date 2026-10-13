@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "section": "courses",
   "voice": "Paul - Soothing",
   "audios": {
@@ -7,6 +7,16 @@
       "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=ec37d824-2f3c-4075-a8a1-4dac7ae4d368.wav",
       "transcript": "Bienvenue dans les cours VOCE. Choisissez un cours dans le catalogue: il s'ouvre sur une page dédiée. Lisez l'objectif et l'explication, puis travaillez sur le cas proposé avant d'ouvrir le corrigé. Chaque cours contient moins de cinq mille caractères, avec ses références. Vous pouvez suivre les dix étapes du premier parcours, ou commencer par le sujet utile à votre entreprise. Pour les centres de formation, les critères d'évaluation indiquent ce que le participant doit savoir faire. Les thèmes du futur Campus sont présentés séparément des cours déjà disponibles. Ils couvriront aussi les gigafactories, la robotique et la light workforce.",
       "duration": 37.407
+    },
+    "en": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=d7e6e824-7cb5-4ee9-b75c-e41dfd3295c5.wav",
+      "transcript": "Welcome to VOCE courses. Choose a course from the catalogue: it will open on a dedicated page. Read the objective and the explanation, then work on the proposed case before opening the answer. Each course contains fewer than five thousand characters, along with its references. You can follow the ten steps of the first track, or start with the subject useful to your company. For training centres, the evaluation criteria indicate what the participant must be able to do. The themes of the future Campus are presented separately from the courses already available. They will also cover gigafactories, robotics, and the light workforce.",
+      "duration": 41.53469387755102
+    },
+    "it": {
+      "url": "https://resource2.heygen.ai/text_to_speech/ce85dc39ee9e4ddc8cfb36bef0ca8ec9/046dacc3502347eea0c796f97399632e/id=0b2f2f3c-c6f3-4e18-a5ea-c43ac6a4c006.wav",
+      "transcript": "Benvenuti nei corsi VOCE. Scegliete un corso dal catalogo: si aprirà in una pagina dedicata. Leggete l'obiettivo e la spiegazione, quindi lavorate sul caso proposto prima di aprire la soluzione. Ogni corso contiene meno di cinquemila caratteri, con i relativi riferimenti. Potete seguire i dieci passaggi del primo percorso, o iniziare con l'argomento utile alla vostra azienda. Per i centri di formazione, i criteri di valutazione indicano ciò che il partecipante deve saper fare. I temi del futuro Campus sono presentati separatamente dai corsi già disponibili. Essi copriranno anche le gigafactory, la robotica e la light workforce.",
+      "duration": 48.35265306122449
     }
   }
 }

@@ -4,6 +4,34 @@
   "updated_at": "2026-10-13",
   "courses": [
     {
+      "id": "D05",
+      "title": "Combien coûte une tâche vraiment terminée?",
+      "concept": "COÛT",
+      "objective": "calculer un coût opérationnel par dossier accepté, avec un périmètre explicite.",
+      "url": "/cours/cout-tache-terminee",
+      "characters": 2813,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "D06",
+      "title": "Si l’IA traite les dossiers simples, comment former les juniors?",
+      "concept": "APPRENTISSAGE",
+      "objective": "conserver une activité qui développe une compétence professionnelle utile.",
+      "url": "/cours/former-les-juniors",
+      "characters": 2994,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
       "id": "D01",
       "title": "Un modèle ne suffit pas à faire fonctionner un service",
       "concept": "SYSTÈME",
@@ -46,48 +74,6 @@
       ]
     },
     {
-      "id": "D04",
-      "title": "L’agent change: que faut-il vérifier à nouveau?",
-      "concept": "CHANGEMENT",
-      "objective": "relier une modification aux contrôles qu'elle peut affecter.",
-      "url": "/cours/reevaluer-agent",
-      "characters": 2742,
-      "language": "fr",
-      "status": "available",
-      "duration_minutes": [
-        10,
-        12
-      ]
-    },
-    {
-      "id": "D05",
-      "title": "Combien coûte une tâche vraiment terminée?",
-      "concept": "COÛT",
-      "objective": "calculer un coût opérationnel par dossier accepté, avec un périmètre explicite.",
-      "url": "/cours/cout-tache-terminee",
-      "characters": 2813,
-      "language": "fr",
-      "status": "available",
-      "duration_minutes": [
-        10,
-        12
-      ]
-    },
-    {
-      "id": "D06",
-      "title": "Si l’IA traite les dossiers simples, comment former les juniors?",
-      "concept": "APPRENTISSAGE",
-      "objective": "conserver une activité qui développe une compétence professionnelle utile.",
-      "url": "/cours/former-les-juniors",
-      "characters": 2994,
-      "language": "fr",
-      "status": "available",
-      "duration_minutes": [
-        10,
-        12
-      ]
-    },
-    {
       "id": "D07",
       "title": "À quel moment autoriser l’assistance?",
       "concept": "ASSISTANCE",
@@ -102,26 +88,12 @@
       ]
     },
     {
-      "id": "D08",
-      "title": "Cliquer sur \"approuver\" suffit-il à superviser?",
-      "concept": "SUPERVISION",
-      "objective": "concevoir une approbation qui permet un examen réel de l'action proposée.",
-      "url": "/cours/supervision-humaine",
-      "characters": 2827,
-      "language": "fr",
-      "status": "available",
-      "duration_minutes": [
-        10,
-        12
-      ]
-    },
-    {
-      "id": "D09",
-      "title": "Que faut-il savoir pour reprendre sans l’outil?",
-      "concept": "CONTINUITÉ",
-      "objective": "identifier une capacité minimale de continuité et la vérifier dans un exercice.",
-      "url": "/cours/reprendre-sans-outil",
-      "characters": 2834,
+      "id": "D04",
+      "title": "L’agent change: que faut-il vérifier à nouveau?",
+      "concept": "CHANGEMENT",
+      "objective": "relier une modification aux contrôles qu'elle peut affecter.",
+      "url": "/cours/reevaluer-agent",
+      "characters": 2742,
       "language": "fr",
       "status": "available",
       "duration_minutes": [
@@ -144,12 +116,12 @@
       ]
     },
     {
-      "id": "D11",
-      "title": "Tsinghua et AGIBOT: passer de la simulation à un robot au travail",
-      "concept": "ROBOTIQUE / PROGRAMMES CHINOIS",
-      "objective": "Définir ce qui doit être vérifié avant d’utiliser une tâche robotique dans un environnement réel.",
-      "url": "/cours/tsinghua-agibot-robot-production",
-      "characters": 3519,
+      "id": "D09",
+      "title": "Que faut-il savoir pour reprendre sans l’outil?",
+      "concept": "CONTINUITÉ",
+      "objective": "identifier une capacité minimale de continuité et la vérifier dans un exercice.",
+      "url": "/cours/reprendre-sans-outil",
+      "characters": 2834,
       "language": "fr",
       "status": "available",
       "duration_minutes": [
@@ -172,6 +144,34 @@
       ]
     },
     {
+      "id": "D14",
+      "title": "Shanghai Jiao Tong: intégrer la température dans une décision de mobilité électrique",
+      "concept": "GESTION THERMIQUE / PROGRAMMES CHINOIS",
+      "objective": "Préparer une comparaison opérationnelle tenant compte des conditions thermiques sans poser un diagnostic technique.",
+      "url": "/cours/shanghai-jiao-tong-gestion-thermique",
+      "characters": 3525,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "D08",
+      "title": "Cliquer sur \"approuver\" suffit-il à superviser?",
+      "concept": "SUPERVISION",
+      "objective": "concevoir une approbation qui permet un examen réel de l'action proposée.",
+      "url": "/cours/supervision-humaine",
+      "characters": 2827,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
       "id": "D13",
       "title": "Tsinghua et AGIBOT: choisir les données qui apprendront une tâche au robot",
       "concept": "DONNÉES ROBOTIQUES / PROGRAMMES CHINOIS",
@@ -186,12 +186,12 @@
       ]
     },
     {
-      "id": "D14",
-      "title": "Shanghai Jiao Tong: intégrer la température dans une décision de mobilité électrique",
-      "concept": "GESTION THERMIQUE / PROGRAMMES CHINOIS",
-      "objective": "Préparer une comparaison opérationnelle tenant compte des conditions thermiques sans poser un diagnostic technique.",
-      "url": "/cours/shanghai-jiao-tong-gestion-thermique",
-      "characters": 3525,
+      "id": "D11",
+      "title": "Tsinghua et AGIBOT: passer de la simulation à un robot au travail",
+      "concept": "ROBOTIQUE / PROGRAMMES CHINOIS",
+      "objective": "Définir ce qui doit être vérifié avant d’utiliser une tâche robotique dans un environnement réel.",
+      "url": "/cours/tsinghua-agibot-robot-production",
+      "characters": 3519,
       "language": "fr",
       "status": "available",
       "duration_minutes": [
@@ -313,5 +313,690 @@
       "deliverable": "Une fiche de preuve et de décision.",
       "status": "planned"
     }
-  ]
+  ],
+  "languages": [
+    "fr",
+    "en",
+    "it"
+  ],
+  "localized_courses": {
+    "fr": [
+      {
+        "id": "D05",
+        "title": "Combien coûte une tâche vraiment terminée?",
+        "concept": "COÛT",
+        "objective": "calculer un coût opérationnel par dossier accepté, avec un périmètre explicite.",
+        "url": "/cours/cout-tache-terminee",
+        "characters": 2813,
+        "language": "fr",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D06",
+        "title": "Si l’IA traite les dossiers simples, comment former les juniors?",
+        "concept": "APPRENTISSAGE",
+        "objective": "conserver une activité qui développe une compétence professionnelle utile.",
+        "url": "/cours/former-les-juniors",
+        "characters": 2994,
+        "language": "fr",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D01",
+        "title": "Un modèle ne suffit pas à faire fonctionner un service",
+        "concept": "SYSTÈME",
+        "objective": "distinguer le modèle des composants qui permettent au service de consulter des informations et d'agir.",
+        "url": "/cours/modele-et-systeme",
+        "characters": 3154,
+        "language": "fr",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D02",
+        "title": "Qui donne ses droits à un agent?",
+        "concept": "PERMISSIONS",
+        "objective": "définir les accès nécessaires à une tâche et distinguer accès technique et autorisation métier.",
+        "url": "/cours/permissions-agent",
+        "characters": 3056,
+        "language": "fr",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D03",
+        "title": "Quelle preuve demander avant d’autoriser une action?",
+        "concept": "PREUVES",
+        "objective": "transformer une affirmation générale en vérification adaptée à un usage précis.",
+        "url": "/cours/preuves-controle",
+        "characters": 2801,
+        "language": "fr",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D07",
+        "title": "À quel moment autoriser l’assistance?",
+        "concept": "ASSISTANCE",
+        "objective": "organiser l'accès à l'outil selon la compétence que l'activité cherche à développer.",
+        "url": "/cours/quand-utiliser-assistance",
+        "characters": 2820,
+        "language": "fr",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D04",
+        "title": "L’agent change: que faut-il vérifier à nouveau?",
+        "concept": "CHANGEMENT",
+        "objective": "relier une modification aux contrôles qu'elle peut affecter.",
+        "url": "/cours/reevaluer-agent",
+        "characters": 2742,
+        "language": "fr",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D10",
+        "title": "Pouvez-vous remplacer votre fournisseur d’IA?",
+        "concept": "REMPLACEMENT",
+        "objective": "vérifier une possibilité de remplacement sur le service complet.",
+        "url": "/cours/remplacer-fournisseur",
+        "characters": 3219,
+        "language": "fr",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D09",
+        "title": "Que faut-il savoir pour reprendre sans l’outil?",
+        "concept": "CONTINUITÉ",
+        "objective": "identifier une capacité minimale de continuité et la vérifier dans un exercice.",
+        "url": "/cours/reprendre-sans-outil",
+        "characters": 2834,
+        "language": "fr",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D12",
+        "title": "Shanghai Jiao Tong: comprendre un véhicule électrique au-delà de sa batterie",
+        "concept": "ÉLECTRIFICATION / PROGRAMMES CHINOIS",
+        "objective": "Relier la batterie, la propulsion et les commandes aux questions d’évaluation d’un projet de mobilité.",
+        "url": "/cours/shanghai-jiao-tong-architecture-electrique",
+        "characters": 3668,
+        "language": "fr",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D14",
+        "title": "Shanghai Jiao Tong: intégrer la température dans une décision de mobilité électrique",
+        "concept": "GESTION THERMIQUE / PROGRAMMES CHINOIS",
+        "objective": "Préparer une comparaison opérationnelle tenant compte des conditions thermiques sans poser un diagnostic technique.",
+        "url": "/cours/shanghai-jiao-tong-gestion-thermique",
+        "characters": 3525,
+        "language": "fr",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D08",
+        "title": "Cliquer sur \"approuver\" suffit-il à superviser?",
+        "concept": "SUPERVISION",
+        "objective": "concevoir une approbation qui permet un examen réel de l'action proposée.",
+        "url": "/cours/supervision-humaine",
+        "characters": 2827,
+        "language": "fr",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D13",
+        "title": "Tsinghua et AGIBOT: choisir les données qui apprendront une tâche au robot",
+        "concept": "DONNÉES ROBOTIQUES / PROGRAMMES CHINOIS",
+        "objective": "Définir un jeu de situations d’apprentissage et un jeu d’essai distincts pour une tâche robotique.",
+        "url": "/cours/tsinghua-agibot-donnees-robot",
+        "characters": 3441,
+        "language": "fr",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D11",
+        "title": "Tsinghua et AGIBOT: passer de la simulation à un robot au travail",
+        "concept": "ROBOTIQUE / PROGRAMMES CHINOIS",
+        "objective": "Définir ce qui doit être vérifié avant d’utiliser une tâche robotique dans un environnement réel.",
+        "url": "/cours/tsinghua-agibot-robot-production",
+        "characters": 3519,
+        "language": "fr",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D15",
+        "title": "Tsinghua iCenter: le robot doit comprendre l’espace où vous l’installez",
+        "concept": "PERCEPTION ET NAVIGATION / PROGRAMMES CHINOIS",
+        "objective": "Identifier les conditions d’environnement à examiner avant d’élargir une tâche robotique.",
+        "url": "/cours/tsinghua-icenter-environnement-robot",
+        "characters": 3397,
+        "language": "fr",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D16",
+        "title": "Tsinghua: passer d’un matériau prometteur à une production conforme",
+        "concept": "GIGAFACTORY / PROGRAMMES CHINOIS",
+        "objective": "Comparer une capacité de production annoncée au volume accepté dans un cas industriel.",
+        "url": "/cours/tsinghua-materiaux-production-conforme",
+        "characters": 3382,
+        "language": "fr",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      }
+    ],
+    "en": [
+      {
+        "id": "D05",
+        "title": "How much does a truly completed task cost?",
+        "concept": "COÛT",
+        "objective": "calculate an operational cost per accepted case, with an explicit scope.",
+        "url": "/en/cours/cout-tache-terminee",
+        "characters": 2727,
+        "language": "en",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D06",
+        "title": "If AI handles simple cases, how do you train juniors?",
+        "concept": "APPRENTISSAGE",
+        "objective": "maintain an activity that develops a useful professional skill.",
+        "url": "/en/cours/former-les-juniors",
+        "characters": 2819,
+        "language": "en",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D01",
+        "title": "A model is not enough to make a service work",
+        "concept": "SYSTÈME",
+        "objective": "distinguish the model from the components that allow the service to consult information and act.",
+        "url": "/en/cours/modele-et-systeme",
+        "characters": 2908,
+        "language": "en",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D02",
+        "title": "Who gives their rights to an agent?",
+        "concept": "PERMISSIONS",
+        "objective": "define the access necessary for a task and distinguish between technical access and business authorization.",
+        "url": "/en/cours/permissions-agent",
+        "characters": 2810,
+        "language": "en",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D03",
+        "title": "What proof should be requested before authorizing an action?",
+        "concept": "PREUVES",
+        "objective": "transform a general statement into a verification adapted to a specific use.",
+        "url": "/en/cours/preuves-controle",
+        "characters": 2650,
+        "language": "en",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D07",
+        "title": "At what point should assistance be authorized?",
+        "concept": "ASSISTANCE",
+        "objective": "organize access to the tool according to the skill the activity seeks to develop.",
+        "url": "/en/cours/quand-utiliser-assistance",
+        "characters": 2784,
+        "language": "en",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D04",
+        "title": "The agent changes: what needs to be re-verified?",
+        "concept": "CHANGEMENT",
+        "objective": "link a modification to the controls it may affect.",
+        "url": "/en/cours/reevaluer-agent",
+        "characters": 2566,
+        "language": "en",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D10",
+        "title": "Can you replace your AI provider?",
+        "concept": "REMPLACEMENT",
+        "objective": "verify the possibility of replacement for the complete service.",
+        "url": "/en/cours/remplacer-fournisseur",
+        "characters": 2978,
+        "language": "en",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D09",
+        "title": "What must be known to resume without the tool?",
+        "concept": "CONTINUITÉ",
+        "objective": "identify a minimum continuity capability and verify it in an exercise.",
+        "url": "/en/cours/reprendre-sans-outil",
+        "characters": 2651,
+        "language": "en",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D12",
+        "title": "Shanghai Jiao Tong: understanding an electric vehicle beyond its battery",
+        "concept": "ÉLECTRIFICATION / PROGRAMMES CHINOIS",
+        "objective": "Link the battery, propulsion, and controls to the evaluation questions of a mobility project.",
+        "url": "/en/cours/shanghai-jiao-tong-architecture-electrique",
+        "characters": 3354,
+        "language": "en",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D14",
+        "title": "Shanghai Jiao Tong: integrating temperature into an electric mobility decision",
+        "concept": "GESTION THERMIQUE / PROGRAMMES CHINOIS",
+        "objective": "Prepare an operational comparison taking thermal conditions into account without making a technical diagnosis.",
+        "url": "/en/cours/shanghai-jiao-tong-gestion-thermique",
+        "characters": 3218,
+        "language": "en",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D08",
+        "title": "Is clicking \"approve\" enough to supervise?",
+        "concept": "SUPERVISION",
+        "objective": "design an approval that allows for a real examination of the proposed action.",
+        "url": "/en/cours/supervision-humaine",
+        "characters": 2680,
+        "language": "en",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D13",
+        "title": "Tsinghua and AGIBOT: choosing the data that will teach a task to the robot",
+        "concept": "DONNÉES ROBOTIQUES / PROGRAMMES CHINOIS",
+        "objective": "Define a distinct set of learning situations and a set of tests for a robotic task.",
+        "url": "/en/cours/tsinghua-agibot-donnees-robot",
+        "characters": 3226,
+        "language": "en",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D11",
+        "title": "Tsinghua and AGIBOT: moving from simulation to a robot at work",
+        "concept": "ROBOTIQUE / PROGRAMMES CHINOIS",
+        "objective": "Define what must be verified before using a robotic task in a real environment.",
+        "url": "/en/cours/tsinghua-agibot-robot-production",
+        "characters": 3300,
+        "language": "en",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D15",
+        "title": "Tsinghua iCenter: the robot must understand the space where you install it",
+        "concept": "PERCEPTION ET NAVIGATION / PROGRAMMES CHINOIS",
+        "objective": "Identify the environmental conditions to be examined before expanding a robotic task.",
+        "url": "/en/cours/tsinghua-icenter-environnement-robot",
+        "characters": 3146,
+        "language": "en",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D16",
+        "title": "Tsinghua: moving from a promising material to compliant production",
+        "concept": "GIGAFACTORY / PROGRAMMES CHINOIS",
+        "objective": "Compare an announced production capacity with the volume accepted in an industrial case.",
+        "url": "/en/cours/tsinghua-materiaux-production-conforme",
+        "characters": 3215,
+        "language": "en",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      }
+    ],
+    "it": [
+      {
+        "id": "D05",
+        "title": "Quanto costa un compito realmente concluso?",
+        "concept": "COÛT",
+        "objective": "calcolare un costo operativo per pratica accettata, con un perimetro esplicito.",
+        "url": "/it/cours/cout-tache-terminee",
+        "characters": 2885,
+        "language": "it",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D06",
+        "title": "Se l'IA gestisce le pratiche semplici, come formare i junior?",
+        "concept": "APPRENTISSAGE",
+        "objective": "mantenere un'attività che sviluppi una competenza professionale utile.",
+        "url": "/it/cours/former-les-juniors",
+        "characters": 3033,
+        "language": "it",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D01",
+        "title": "Un modello non basta per far funzionare un servizio",
+        "concept": "SYSTÈME",
+        "objective": "distinguere il modello dai componenti che permettono al servizio di consultare informazioni e agire.",
+        "url": "/it/cours/modele-et-systeme",
+        "characters": 3191,
+        "language": "it",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D02",
+        "title": "Chi concede i propri diritti a un agente?",
+        "concept": "PERMISSIONS",
+        "objective": "definire gli accessi necessari a un compito e distinguere tra accesso tecnico e autorizzazione aziendale.",
+        "url": "/it/cours/permissions-agent",
+        "characters": 3108,
+        "language": "it",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D03",
+        "title": "Quale prova richiedere prima di autorizzare un'azione?",
+        "concept": "PREUVES",
+        "objective": "trasformare un'affermazione generale in una verifica adatta a un uso preciso.",
+        "url": "/it/cours/preuves-controle",
+        "characters": 2849,
+        "language": "it",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D07",
+        "title": "In quale momento autorizzare l'assistenza?",
+        "concept": "ASSISTANCE",
+        "objective": "organizzare l'accesso allo strumento in base alla competenza che l'attività mira a sviluppare.",
+        "url": "/it/cours/quand-utiliser-assistance",
+        "characters": 2900,
+        "language": "it",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D04",
+        "title": "L'agente cambia: cosa occorre verificare di nuovo?",
+        "concept": "CHANGEMENT",
+        "objective": "collegare una modifica ai controlli che essa può influenzare.",
+        "url": "/it/cours/reevaluer-agent",
+        "characters": 2689,
+        "language": "it",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D10",
+        "title": "È possibile sostituire il proprio fornitore di IA?",
+        "concept": "REMPLACEMENT",
+        "objective": "verificare la possibilità di sostituzione sull'intero servizio.",
+        "url": "/it/cours/remplacer-fournisseur",
+        "characters": 3229,
+        "language": "it",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D09",
+        "title": "Cosa occorre sapere per riprendere senza lo strumento?",
+        "concept": "CONTINUITÉ",
+        "objective": "identificare una capacità minima di continuità e verificarla in un esercizio.",
+        "url": "/it/cours/reprendre-sans-outil",
+        "characters": 2795,
+        "language": "it",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D12",
+        "title": "Shanghai Jiao Tong: comprendere un veicolo elettrico oltre la sua batteria",
+        "concept": "ÉLECTRIFICATION / PROGRAMMES CHINOIS",
+        "objective": "Collegare la batteria, la propulsione e i comandi alle questioni di valutazione di un progetto di mobilità.",
+        "url": "/it/cours/shanghai-jiao-tong-architecture-electrique",
+        "characters": 3623,
+        "language": "it",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D14",
+        "title": "Shanghai Jiao Tong: integrare la temperatura in una decisione di mobilità elettrica",
+        "concept": "GESTION THERMIQUE / PROGRAMMES CHINOIS",
+        "objective": "Preparare un confronto operativo che tenga conto delle condizioni termiche senza formulare una diagnosi tecnica.",
+        "url": "/it/cours/shanghai-jiao-tong-gestion-thermique",
+        "characters": 3498,
+        "language": "it",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D08",
+        "title": "Cliccare su \"approva\" è sufficiente per supervisionare?",
+        "concept": "SUPERVISION",
+        "objective": "progettare un'approvazione che permetta un esame reale dell'azione proposta.",
+        "url": "/it/cours/supervision-humaine",
+        "characters": 2832,
+        "language": "it",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D13",
+        "title": "Tsinghua e AGIBOT: scegliere i dati che insegneranno un compito al robot",
+        "concept": "DONNÉES ROBOTIQUES / PROGRAMMES CHINOIS",
+        "objective": "Definire un set di situazioni di apprendimento e un set di prova distinti per un compito robotico.",
+        "url": "/it/cours/tsinghua-agibot-donnees-robot",
+        "characters": 3414,
+        "language": "it",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D11",
+        "title": "Tsinghua e AGIBOT: passare dalla simulazione a un robot al lavoro",
+        "concept": "ROBOTIQUE / PROGRAMMES CHINOIS",
+        "objective": "Definire cosa deve essere verificato prima di utilizzare un compito robotico in un ambiente reale.",
+        "url": "/it/cours/tsinghua-agibot-robot-production",
+        "characters": 3579,
+        "language": "it",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D15",
+        "title": "Tsinghua iCenter: il robot deve comprendere lo spazio in cui viene installato",
+        "concept": "PERCEPTION ET NAVIGATION / PROGRAMMES CHINOIS",
+        "objective": "Identificare le condizioni ambientali da esaminare prima di ampliare un compito robotico.",
+        "url": "/it/cours/tsinghua-icenter-environnement-robot",
+        "characters": 3418,
+        "language": "it",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      },
+      {
+        "id": "D16",
+        "title": "Tsinghua: passare da un materiale promettente a una produzione conforme",
+        "concept": "GIGAFACTORY / PROGRAMMES CHINOIS",
+        "objective": "Confrontare una capacità di produzione annunciata con il volume accettato in un caso industriale.",
+        "url": "/it/cours/tsinghua-materiaux-production-conforme",
+        "characters": 3428,
+        "language": "it",
+        "status": "available",
+        "duration_minutes": [
+          10,
+          12
+        ]
+      }
+    ]
+  }
 }

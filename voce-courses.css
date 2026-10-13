@@ -61,3 +61,7 @@
 @media(max-width:1000px){.voce-courses .course-layout{grid-template-columns:minmax(0,1fr);gap:30px}.voce-courses .course-resource{position:static}.voce-courses .courses-future-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.voce-courses .courses-section-top{gap:30px}}
 @media(max-width:700px){.voce-courses .courses-how,.voce-courses .courses-section-top,.voce-courses .courses-two-col{grid-template-columns:1fr;gap:25px}.voce-courses .courses-grid,.voce-courses .courses-future-grid{grid-template-columns:1fr}.voce-courses .courses-section{padding-top:45px;padding-bottom:45px}.voce-courses .course-layout{padding-top:30px}.voce-courses .course-card h3{font-size:1.8rem}.voce-courses .courses-how{padding-top:25px;padding-bottom:25px}.voce-courses .courses-button{width:100%}.voce-courses .course-step-nav{justify-content:flex-start}.voce-courses .course-written h1{font-size:3rem}}
 @media(prefers-reduced-motion:reduce){.voce-courses .course-card{transition:none}}
+
+.voce-courses .courses-languages{display:inline-flex;gap:11px;margin-left:12px;white-space:nowrap}
+.voce-courses .courses-languages a{font-size:.65rem;padding:5px 0}
+.voce-courses .courses-languages a[aria-current="page"]{color:var(--forest);border-bottom:1px solid var(--forest)}

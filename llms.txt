@@ -125,3 +125,9 @@ Course registry: https://voce.life/data/voce-courses.json
 - Tsinghua: passer d’un matériau prometteur à une production conforme: https://voce.life/cours/tsinghua-materiaux-production-conforme
 
 Six original VOCE lessons use documented Chinese programmes as reference points. The lesson texts, exercises and corrections are VOCE creations; no university partnership or geographic exclusivity of the subjects is claimed.
+
+## COURS VOCE multilingual editions
+
+French: https://voce.life/cours
+English: https://voce.life/en/cours
+Italian: https://voce.life/it/cours
