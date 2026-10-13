@@ -1,0 +1,265 @@
+{
+  "schema": "voce.linkedin-nightly-report.v1",
+  "date": "2026-10-13",
+  "checked_at": "2026-10-13T21:16:15.000Z",
+  "status": "published_live_full_r2_backup_verified",
+  "source_method": "One normal authenticated activity read followed by exact public single-post metadata fetches; no stealth, proxy change, CAPTCHA handling, Facebook substitution or media download.",
+  "access": {
+    "run_id": "998fc3c4-9c20-44eb-9282-da4416b12edf",
+    "profile_id": "prof_236917ff0f01402f",
+    "status": "accessible",
+    "profile_verified": true,
+    "posts_tab_selected": true,
+    "previous_boundary_reached": true,
+    "blocker": null
+  },
+  "previous_latest_id": "7515486632960143361",
+  "added_ids": [
+    "7515849033970696193",
+    "7515833925634646016",
+    "7515818845769617408",
+    "7515803757981577216",
+    "7515788658373943297",
+    "7515758481082187776",
+    "7515743335827992577",
+    "7515728224535060480",
+    "7515713129562173440",
+    "7515698056005267456",
+    "7515667862825578496",
+    "7515652722235416576",
+    "7515637653447487490",
+    "7515622493039063040",
+    "7515607410728955904"
+  ],
+  "added_count": 15,
+  "latest_source": {
+    "id": "7515849033970696193",
+    "source_publication_datetime": "2026-10-13T19:00:58.239Z",
+    "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515849033970696193/",
+    "canonical": "https://voce.life/archive/2026/10/13/harvard-le-groupe-peut-posseder-la-bonne-reponse-et-la-perdre-en-discuta-7515849033970696193"
+  },
+  "sources": [
+    {
+      "linkedin_id": "7515849033970696193",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515849033970696193/",
+      "published_date": "2026-10-13T19:00:58.239Z",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_gouvernance-leadership-intelligencecollective-activity-7515849079344619520-I4lp",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515849079344619520",
+      "text_chars": 2902,
+      "canonical_url": "https://voce.life/archive/2026/10/13/harvard-le-groupe-peut-posseder-la-bonne-reponse-et-la-perdre-en-discuta-7515849033970696193"
+    },
+    {
+      "linkedin_id": "7515833925634646016",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515833925634646016/",
+      "published_date": "2026-10-13T18:00:51.143Z",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-venise-renseignement-activity-7515833950095929344-pOjy",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515833950095929344",
+      "text_chars": 2998,
+      "canonical_url": "https://voce.life/archive/2026/10/13/venise-savait-en-1569-que-les-ottomans-preparaient-l-attaque-de-chypre-e-7515833925634646016"
+    },
+    {
+      "linkedin_id": "7515818845769617408",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515818845769617408/",
+      "published_date": "2026-10-13T17:00:50.264Z",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-cachemire-luxe-activity-7515818846910509057-mwQm",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515818846910509057",
+      "text_chars": 2934,
+      "canonical_url": "https://voce.life/archive/2026/10/13/un-pull-100-cachemire-peut-etre-mediocre-ce-que-l-etiquette-ne-dit-pas-7515818845769617408"
+    },
+    {
+      "linkedin_id": "7515803757981577216",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515803757981577216/",
+      "published_date": "2026-10-13T16:01:01.334Z",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-bernardaud-limoges-activity-7515803793851260928-2eB1",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515803793851260928",
+      "text_chars": 2875,
+      "canonical_url": "https://voce.life/archive/2026/10/13/bernardaud-la-porcelaine-de-limoges-fabrique-une-image-sans-pigment-7515803757981577216"
+    },
+    {
+      "linkedin_id": "7515788658373943297",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515788658373943297/",
+      "published_date": "2026-10-13T15:01:18.065Z",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-intelligenceartificielle-activity-7515788764527656961-fwkB",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515788764527656961",
+      "text_chars": 2484,
+      "canonical_url": "https://voce.life/archive/2026/10/13/jour-17-comment-devient-on-expert-quand-l-ia-supprime-le-travail-qui-for-7515788658373943297"
+    },
+    {
+      "linkedin_id": "7515758481082187776",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515758481082187776/",
+      "published_date": "2026-10-13T13:01:06.338Z",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_byd-mobilit%C3%A9%C3%A9lectrique-batteries-activity-7515758516352249856-tqVm",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515758516352249856",
+      "text_chars": 2679,
+      "canonical_url": "https://voce.life/archive/2026/10/13/byd-recharge-en-neuf-minutes-derriere-la-borne-370-kwh-de-batteries-cach-7515758481082187776"
+    },
+    {
+      "linkedin_id": "7515743335827992577",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515743335827992577/",
+      "published_date": "2026-10-13T12:00:55.285Z",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_neuropsychologie-m%C3%A9dias-d%C3%A9sinformation-activity-7515743370502250496-lNOt",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515743370502250496",
+      "text_chars": 2821,
+      "canonical_url": "https://voce.life/archive/2026/10/13/une-photographie-vraie-peut-rendre-un-mensonge-mediatique-plus-credible-7515743335827992577"
+    },
+    {
+      "linkedin_id": "7515728224535060480",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515728224535060480/",
+      "published_date": "2026-10-13T11:00:51.980Z",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_aigovernance-modelrisk-mlops-activity-7515728257141493760-SK1-",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515728257141493760",
+      "text_chars": 2946,
+      "canonical_url": "https://voce.life/archive/2026/10/13/cours-voce-042-derive-un-modele-peut-echouer-sans-qu-une-ligne-de-code-a-7515728224535060480"
+    },
+    {
+      "linkedin_id": "7515713129562173440",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515713129562173440/",
+      "published_date": "2026-10-13T10:00:45.590Z",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_kalshi-essaiscliniques-biotech-activity-7515713130845523969-HdkQ",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515713130845523969",
+      "text_chars": 2941,
+      "canonical_url": "https://voce.life/archive/2026/10/13/kalshi-le-succes-d-un-medicament-se-negocie-desormais-avant-le-verdict-s-7515713129562173440"
+    },
+    {
+      "linkedin_id": "7515698056005267456",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515698056005267456/",
+      "published_date": "2026-10-13T09:00:59.492Z",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_aigovernance-aisecurity-promptinjection-activity-7515698089660325888---0Y",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515698089660325888",
+      "text_chars": 2906,
+      "canonical_url": "https://voce.life/archive/2026/10/13/cours-voce-041-prompt-injection-un-pdf-peut-retourner-votre-agent-contre-7515698056005267456"
+    },
+    {
+      "linkedin_id": "7515667862825578496",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515667862825578496/",
+      "published_date": "2026-10-13T07:01:04.098Z",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-bretagne-breton-activity-7515667909990457346-nNPG",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515667909990457346",
+      "text_chars": 2969,
+      "canonical_url": "https://voce.life/archive/2026/10/13/bretagne-le-symbole-apprenait-aux-enfants-a-denoncer-ceux-qui-parlaient-7515667862825578496"
+    },
+    {
+      "linkedin_id": "7515652722235416576",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515652722235416576/",
+      "published_date": "2026-10-13T06:00:51.035Z",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-cancerdusein-giredestrant-activity-7515652755705802752-BZJ-",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515652755705802752",
+      "text_chars": 2934,
+      "canonical_url": "https://voce.life/archive/2026/10/13/giredestrant-la-mutation-qui-permet-au-cancer-du-sein-de-resister-devien-7515652722235416576"
+    },
+    {
+      "linkedin_id": "7515637653447487490",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515637653447487490/",
+      "published_date": "2026-10-13T05:00:57.685Z",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-workday-microsoftentra-activity-7515637684103630848-elNY",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515637684103630848",
+      "text_chars": 2921,
+      "canonical_url": "https://voce.life/archive/2026/10/13/workday-agent-system-of-record-l-entreprise-commence-a-gerer-ses-agents-7515637653447487490"
+    },
+    {
+      "linkedin_id": "7515622493039063040",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515622493039063040/",
+      "published_date": "2026-10-13T04:00:43.186Z",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-googlecloud-gemini-activity-7515622523795943424--0Pg",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515622523795943424",
+      "text_chars": 2987,
+      "canonical_url": "https://voce.life/archive/2026/10/13/google-gemini-agent-l-entreprise-peut-creer-un-collegue-ia-avec-sa-propr-7515622493039063040"
+    },
+    {
+      "linkedin_id": "7515607410728955904",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515607410728955904/",
+      "published_date": "2026-10-13T03:00:46.543Z",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-blueowl-insurance-activity-7515607438381940736-J4Yo",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515607438381940736",
+      "text_chars": 2909,
+      "canonical_url": "https://voce.life/archive/2026/10/13/opera-voce-blue-owl-veut-l-assurance-sans-acheter-l-assureur-7515607410728955904"
+    }
+  ],
+  "raw_packet": "backfill/raw/2026-10-13.json",
+  "source_commit": "5869e9551be670d5784a0bed2e7f2c2d0596d9ea",
+  "generated_commit": "d2b8780",
+  "workflow": {
+    "run_id": 38468258760,
+    "job_id": 115540430742,
+    "conclusion": "success"
+  },
+  "validation": {
+    "corpus_items": 1644,
+    "canonical_routes": 1644,
+    "redirects": 2,
+    "unique_ids": true,
+    "unique_full_texts": true,
+    "alternate_ids_not_reimported": true,
+    "new_conflicts": 0,
+    "preexisting_conflicts_preserved": 334
+  },
+  "live_verification": {
+    "academy_counter": 1644,
+    "article_url": "https://voce.life/archive/2026/10/13/harvard-le-groupe-peut-posseder-la-bonne-reponse-et-la-perdre-en-discuta-7515849033970696193",
+    "self_canonical": true,
+    "robots_index_follow": true,
+    "body_after_title_exact_after_safe_html_whitespace_normalization": true,
+    "source_text_characters": 2902,
+    "original_link_present": true,
+    "og_image": "https://voce.life/voce-og.jpg",
+    "guide_query": "Harvard: le groupe peut posséder la bonne réponse et la perdre en discutant",
+    "guide_top_source_exact": true
+  },
+  "indexnow": {
+    "http_status": 200,
+    "submitted_url_count": 56,
+    "run_id": 38468258760,
+    "job_id": 115540430742,
+    "scope": "current four-day publication batch",
+    "indexing_claimed": false
+  },
+  "r2": {
+    "status": "ok",
+    "owner": "VOCE Association",
+    "bucket": "voce-sovereign-corpus",
+    "private": true,
+    "synced_at": "2026-10-13T21:16:01.438Z",
+    "article_routes": 1644,
+    "corpus_items": 1644,
+    "article_routes_synced": 1644,
+    "source_snapshot_complete": true,
+    "backup_cursor": 40,
+    "backup_batch_size": 40,
+    "backup_complete": true,
+    "last_complete_sync_at": "2026-10-13T21:16:01.438Z",
+    "total_objects_target": 1763,
+    "objects_synced": 1763,
+    "derived_backup_complete": true,
+    "derived_cursor": 40,
+    "total_derived_objects": 1752,
+    "derived_objects_synced": 1752,
+    "derived_article_pages_synced": 1644,
+    "checked_at": "2026-10-13T21:16:15.000Z"
+  },
+  "drive_research_registry": {
+    "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
+    "checked": true,
+    "formal_records": 2,
+    "unchanged": true,
+    "records": [
+      {
+        "type": "Preprint",
+        "creator": "Cano, Giovanni",
+        "issued": "2026-03-23",
+        "doi": "10.5281/zenodo.19189281",
+        "voce_url": "https://voce.life/research/introspective-technoference"
+      },
+      {
+        "type": "Report",
+        "creator": "VOCE Association",
+        "issued": "2026-03-19",
+        "doi": "10.5281/zenodo.19114381",
+        "voce_url": "https://voce.life/research/parental-technoference-language-development"
+      }
+    ]
+  },
+  "facebook_paused": true,
+  "media_downloaded": false,
+  "coverage_complete": false,
+  "historical_conflicts_preserved": 334
+}
