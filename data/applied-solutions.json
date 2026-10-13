@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generated_at": "2026-10-12",
+  "generated_at": "2026-10-13",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
   "methodology": {
@@ -3824,6 +3824,114 @@
       "title": "Zylo Clarity AI: le registre logiciel commence à exécuter les décisions",
       "path": "/archive/2026/10/12/zylo-clarity-ai-le-registre-logiciel-commence-a-executer-les-decisions-7515275221361315841",
       "sectors": [
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7515758481082187776",
+      "date": "2026-10-13",
+      "title": "BYD recharge en neuf minutes: derrière la borne, 370 kWh de batteries cachent la contrainte du réseau",
+      "path": "/archive/2026/10/13/byd-recharge-en-neuf-minutes-derriere-la-borne-370-kwh-de-batteries-cach-7515758481082187776",
+      "sectors": [
+        "legal",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7515698056005267456",
+      "date": "2026-10-13",
+      "title": "COURS VOCE® 041 | PROMPT INJECTION: UN PDF PEUT RETOURNER VOTRE AGENT CONTRE SA MISSION",
+      "path": "/archive/2026/10/13/cours-voce-041-prompt-injection-un-pdf-peut-retourner-votre-agent-contre-7515698056005267456",
+      "sectors": [
+        "legal",
+        "marketing",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7515728224535060480",
+      "date": "2026-10-13",
+      "title": "COURS VOCE® 042 | DÉRIVE: UN MODÈLE PEUT ÉCHOUER SANS QU'UNE LIGNE DE CODE AIT CHANGÉ",
+      "path": "/archive/2026/10/13/cours-voce-042-derive-un-modele-peut-echouer-sans-qu-une-ligne-de-code-a-7515728224535060480",
+      "sectors": [
+        "legal",
+        "hr",
+        "banking"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7515622493039063040",
+      "date": "2026-10-13",
+      "title": "Google Gemini Agent: l'entreprise peut créer un collègue IA avec sa propre adresse e-mail",
+      "path": "/archive/2026/10/13/google-gemini-agent-l-entreprise-peut-creer-un-collegue-ia-avec-sa-propr-7515622493039063040",
+      "sectors": [
+        "legal",
+        "hr",
+        "marketing",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7515849033970696193",
+      "date": "2026-10-13",
+      "title": "Harvard: le groupe peut posséder la bonne réponse et la perdre en discutant",
+      "path": "/archive/2026/10/13/harvard-le-groupe-peut-posseder-la-bonne-reponse-et-la-perdre-en-discuta-7515849033970696193",
+      "sectors": [
+        "legal"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7515743335827992577",
+      "date": "2026-10-13",
+      "title": "Une photographie vraie peut rendre un mensonge médiatique plus crédible",
+      "path": "/archive/2026/10/13/une-photographie-vraie-peut-rendre-un-mensonge-mediatique-plus-credible-7515743335827992577",
+      "sectors": [
+        "legal",
+        "culture"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7515637653447487490",
+      "date": "2026-10-13",
+      "title": "Workday Agent System of Record: l'entreprise commence à gérer ses agents comme une population",
+      "path": "/archive/2026/10/13/workday-agent-system-of-record-l-entreprise-commence-a-gerer-ses-agents-7515637653447487490",
+      "sectors": [
+        "hr",
         "it"
       ],
       "themes": [
