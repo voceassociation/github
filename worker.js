@@ -233,6 +233,7 @@ function injectPrivacyDefault(response) {
   let ogDescription = "";
   let hasTwitterTitle = false;
   let hasTwitterDescription = false;
+  let hasSocialImage = false;
 
   return new HTMLRewriter()
     .on('meta[property="og:title"]', {
@@ -240,6 +241,9 @@ function injectPrivacyDefault(response) {
     })
     .on('meta[property="og:description"]', {
       element(element) { ogDescription = element.getAttribute("content") || ""; }
+    })
+    .on('meta[property="og:image"]', {
+      element() { hasSocialImage = true; }
     })
     .on('meta[name="twitter:title"]', {
       element() { hasTwitterTitle = true; }
@@ -272,7 +276,7 @@ function injectPrivacyDefault(response) {
           if (!hasTwitterDescription && ogDescription) {
             pageSpecific += `\n<meta name="twitter:description" content="${escapeHtml(ogDescription)}">`;
           }
-          endTag.before(VOCE_PRIVACY_CONTROLS + VOCE_SOCIAL_META + VOCE_AUDIO_ASSETS + pageSpecific, { html: true });
+          endTag.before(VOCE_PRIVACY_CONTROLS + (hasSocialImage ? '<meta name="twitter:card" content="summary_large_image">' : VOCE_SOCIAL_META) + VOCE_AUDIO_ASSETS + pageSpecific, { html: true });
         });
       }
     })

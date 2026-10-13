@@ -65,3 +65,5 @@
 .voce-courses .courses-languages{display:inline-flex;gap:11px;margin-left:12px;white-space:nowrap}
 .voce-courses .courses-languages a{font-size:.65rem;padding:5px 0}
 .voce-courses .courses-languages a[aria-current="page"]{color:var(--forest);border-bottom:1px solid var(--forest)}
+
+.voce-courses .courses-access{max-width:850px;font-size:.88rem;color:var(--muted);margin-top:24px}
