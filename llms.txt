@@ -99,3 +99,29 @@ Daily archive pages are chronological indexes; individual subject URLs are the d
 ## Corpus coverage
 
 1,629 archived LinkedIn texts are available at permanent individual HTML URLs and through the JSON/NDJSON corpus. The visible Academy titles are illustrative selections. Full historical completeness from March 2026 is still pending verification.
+
+
+
+## COURS VOCE: written professional courses
+
+Catalogue: https://voce.life/cours
+Campus programme and international references: https://voce.life/cours/campus
+Course registry: https://voce.life/data/voce-courses.json
+- Un modèle ne suffit pas à faire fonctionner un service: https://voce.life/cours/modele-et-systeme
+- Qui donne ses droits à un agent?: https://voce.life/cours/permissions-agent
+- Quelle preuve demander avant d’autoriser une action?: https://voce.life/cours/preuves-controle
+- L’agent change: que faut-il vérifier à nouveau?: https://voce.life/cours/reevaluer-agent
+- Combien coûte une tâche vraiment terminée?: https://voce.life/cours/cout-tache-terminee
+- Si l’IA traite les dossiers simples, comment former les juniors?: https://voce.life/cours/former-les-juniors
+- À quel moment autoriser l’assistance?: https://voce.life/cours/quand-utiliser-assistance
+- Cliquer sur "approuver" suffit-il à superviser?: https://voce.life/cours/supervision-humaine
+- Que faut-il savoir pour reprendre sans l’outil?: https://voce.life/cours/reprendre-sans-outil
+- Pouvez-vous remplacer votre fournisseur d’IA?: https://voce.life/cours/remplacer-fournisseur
+- Tsinghua et AGIBOT: passer de la simulation à un robot au travail: https://voce.life/cours/tsinghua-agibot-robot-production
+- Shanghai Jiao Tong: comprendre un véhicule électrique au-delà de sa batterie: https://voce.life/cours/shanghai-jiao-tong-architecture-electrique
+- Tsinghua et AGIBOT: choisir les données qui apprendront une tâche au robot: https://voce.life/cours/tsinghua-agibot-donnees-robot
+- Shanghai Jiao Tong: intégrer la température dans une décision de mobilité électrique: https://voce.life/cours/shanghai-jiao-tong-gestion-thermique
+- Tsinghua iCenter: le robot doit comprendre l’espace où vous l’installez: https://voce.life/cours/tsinghua-icenter-environnement-robot
+- Tsinghua: passer d’un matériau prometteur à une production conforme: https://voce.life/cours/tsinghua-materiaux-production-conforme
+
+Six original VOCE lessons use documented Chinese programmes as reference points. The lesson texts, exercises and corrections are VOCE creations; no university partnership or geographic exclusivity of the subjects is claimed.

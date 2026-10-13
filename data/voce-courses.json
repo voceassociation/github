@@ -142,6 +142,90 @@
         10,
         12
       ]
+    },
+    {
+      "id": "D11",
+      "title": "Tsinghua et AGIBOT: passer de la simulation à un robot au travail",
+      "concept": "ROBOTIQUE / PROGRAMMES CHINOIS",
+      "objective": "Définir ce qui doit être vérifié avant d’utiliser une tâche robotique dans un environnement réel.",
+      "url": "/cours/tsinghua-agibot-robot-production",
+      "characters": 3519,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "D12",
+      "title": "Shanghai Jiao Tong: comprendre un véhicule électrique au-delà de sa batterie",
+      "concept": "ÉLECTRIFICATION / PROGRAMMES CHINOIS",
+      "objective": "Relier la batterie, la propulsion et les commandes aux questions d’évaluation d’un projet de mobilité.",
+      "url": "/cours/shanghai-jiao-tong-architecture-electrique",
+      "characters": 3668,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "D13",
+      "title": "Tsinghua et AGIBOT: choisir les données qui apprendront une tâche au robot",
+      "concept": "DONNÉES ROBOTIQUES / PROGRAMMES CHINOIS",
+      "objective": "Définir un jeu de situations d’apprentissage et un jeu d’essai distincts pour une tâche robotique.",
+      "url": "/cours/tsinghua-agibot-donnees-robot",
+      "characters": 3441,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "D14",
+      "title": "Shanghai Jiao Tong: intégrer la température dans une décision de mobilité électrique",
+      "concept": "GESTION THERMIQUE / PROGRAMMES CHINOIS",
+      "objective": "Préparer une comparaison opérationnelle tenant compte des conditions thermiques sans poser un diagnostic technique.",
+      "url": "/cours/shanghai-jiao-tong-gestion-thermique",
+      "characters": 3525,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "D15",
+      "title": "Tsinghua iCenter: le robot doit comprendre l’espace où vous l’installez",
+      "concept": "PERCEPTION ET NAVIGATION / PROGRAMMES CHINOIS",
+      "objective": "Identifier les conditions d’environnement à examiner avant d’élargir une tâche robotique.",
+      "url": "/cours/tsinghua-icenter-environnement-robot",
+      "characters": 3397,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "D16",
+      "title": "Tsinghua: passer d’un matériau prometteur à une production conforme",
+      "concept": "GIGAFACTORY / PROGRAMMES CHINOIS",
+      "objective": "Comparer une capacité de production annoncée au volume accepté dans un cas industriel.",
+      "url": "/cours/tsinghua-materiaux-production-conforme",
+      "characters": 3382,
+      "language": "fr",
+      "status": "available",
+      "duration_minutes": [
+        10,
+        12
+      ]
     }
   ],
   "future_training": [
