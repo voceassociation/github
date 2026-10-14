@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-14T10:18:57.301326+00:00",
+  "updated_at": "2026-10-14T10:25:58.360Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -3447,11 +3447,18 @@
     },
     "discovery_improvements_2026_10_14": {
       "report": "backfill/reports/discovery-improvements-2026-10-14.json",
-      "status": "tested_pending_deployment",
+      "status": "deployed_and_publicly_verified",
+      "checked_at": "2026-10-14T10:23:18.285178+00:00",
       "corpus_items": 1644,
       "rss_limit": 50,
+      "rss_bytes": 177675,
       "course_pages": 48,
-      "resume": "Verify production feed, Academy counter, course metadata and R2 receipt."
+      "course_sitemap_urls": 54,
+      "sitemap_urls": 2450,
+      "build": "ab87e8cf-4a62-4c68-a042-5334c31f26e1",
+      "commit": "3f9ef45f25bd071ccc1d478ab7480167cf9975e0",
+      "daily_archive_instructions_updated": true,
+      "resume": "Monitor effective course indexation in Search Console; preserve the bounded RSS and validated Academy counters."
     }
   },
   "facebook_daily_scans": {},

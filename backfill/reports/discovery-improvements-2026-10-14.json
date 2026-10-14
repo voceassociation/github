@@ -2,7 +2,7 @@
   "schema": "voce.discovery-improvements.v1",
   "checked_at": "2026-10-14T10:18:57.301326+00:00",
   "baseline_commit": "41a4084ffff85e0b89f5320e15d48c36852edda6",
-  "status": "tested_pending_deployment",
+  "status": "deployed_and_publicly_verified",
   "academy": {
     "corpus_items": 1644,
     "live_count_before_change": 1644,
@@ -60,7 +60,518 @@
     "intentional_rss_source_trailing_spaces_preserved": true
   },
   "remaining": [
-    "Verify deployed resources, caches and R2 after deployment.",
-    "Google indexation of all course pages is not certified by sitemap presence."
-  ]
+    "Google did not yet recognize the inspected D01 and D11 course URLs. Sitemap presence and IndexNow acceptance do not prove indexation."
+  ],
+  "deployment": {
+    "commit": "3f9ef45f25bd071ccc1d478ab7480167cf9975e0",
+    "cloudflare_build": "ab87e8cf-4a62-4c68-a042-5334c31f26e1",
+    "build_success": true,
+    "indexnow_workflow": 38548795815,
+    "indexnow_workflow_success": true,
+    "indexnow_is_not_indexation_proof": true,
+    "targeted_cache_purge_accepted": true,
+    "served_updated_metadata_verified": true
+  },
+  "live_validation": {
+    "checked_at": "2026-10-14T10:23:18.285178+00:00",
+    "course_pages": [
+      {
+        "url": "https://voce.life/cours/cout-tache-terminee",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/cours/former-les-juniors",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/cours/modele-et-systeme",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/cours/permissions-agent",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/cours/preuves-controle",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/cours/quand-utiliser-assistance",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/cours/reevaluer-agent",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/cours/remplacer-fournisseur",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/cours/reprendre-sans-outil",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/cours/shanghai-jiao-tong-architecture-electrique",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/cours/shanghai-jiao-tong-gestion-thermique",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/cours/supervision-humaine",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/cours/tsinghua-agibot-donnees-robot",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/cours/tsinghua-agibot-robot-production",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/cours/tsinghua-icenter-environnement-robot",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/cours/tsinghua-materiaux-production-conforme",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/en/cours/cout-tache-terminee",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/en/cours/former-les-juniors",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/en/cours/modele-et-systeme",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/en/cours/permissions-agent",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/en/cours/preuves-controle",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/en/cours/quand-utiliser-assistance",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/en/cours/reevaluer-agent",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/en/cours/remplacer-fournisseur",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/en/cours/reprendre-sans-outil",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/en/cours/shanghai-jiao-tong-architecture-electrique",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/en/cours/shanghai-jiao-tong-gestion-thermique",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/en/cours/supervision-humaine",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/en/cours/tsinghua-agibot-donnees-robot",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/en/cours/tsinghua-agibot-robot-production",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/en/cours/tsinghua-icenter-environnement-robot",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/en/cours/tsinghua-materiaux-production-conforme",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/it/cours/cout-tache-terminee",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/it/cours/former-les-juniors",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/it/cours/modele-et-systeme",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/it/cours/permissions-agent",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/it/cours/preuves-controle",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/it/cours/quand-utiliser-assistance",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/it/cours/reevaluer-agent",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/it/cours/remplacer-fournisseur",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/it/cours/reprendre-sans-outil",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/it/cours/shanghai-jiao-tong-architecture-electrique",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/it/cours/shanghai-jiao-tong-gestion-thermique",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/it/cours/supervision-humaine",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/it/cours/tsinghua-agibot-donnees-robot",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      },
+      {
+        "url": "https://voce.life/it/cours/tsinghua-agibot-robot-production",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/it/cours/tsinghua-icenter-environnement-robot",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "MISS"
+      },
+      {
+        "url": "https://voce.life/it/cours/tsinghua-materiaux-production-conforme",
+        "status": 200,
+        "description_matches": true,
+        "schema_course": true,
+        "canonical_matches": true,
+        "language_matches": true,
+        "cache_status": "HIT"
+      }
+    ],
+    "courses_all_pass": true,
+    "academy": {
+      "status": 200,
+      "counts": [
+        "1644",
+        "1644",
+        "1644",
+        "1644"
+      ],
+      "all_match_corpus": true,
+      "cache_control": "public, max-age=0, must-revalidate",
+      "cache_status": "HIT"
+    },
+    "rss": {
+      "status": 200,
+      "bytes": 177675,
+      "items": 50,
+      "original_full_texts": true,
+      "cache_control": "public, max-age=300"
+    },
+    "corpus_items": 1644,
+    "sitemap_urls": 2450,
+    "unique_sitemap_urls": 2450,
+    "course_sitemap_urls": 54,
+    "all_corpus_canonicals_in_sitemap": true,
+    "r2": {
+      "status": "ok",
+      "owner": "VOCE Association",
+      "bucket": "voce-sovereign-corpus",
+      "private": true,
+      "synced_at": "2026-10-14T10:22:53.042Z",
+      "article_routes": 1644,
+      "corpus_items": 1644,
+      "article_routes_synced": 1644,
+      "source_snapshot_complete": true,
+      "backup_cursor": 720,
+      "backup_batch_size": 40,
+      "backup_complete": true,
+      "last_complete_sync_at": "2026-10-14T10:22:53.042Z",
+      "total_objects_target": 1763,
+      "objects_synced": 1763,
+      "derived_backup_complete": true,
+      "derived_cursor": 720,
+      "total_derived_objects": 1752,
+      "derived_objects_synced": 1752,
+      "derived_article_pages_synced": 1644,
+      "source_objects_touched_in_last_sync": 11,
+      "derived_objects_touched_in_last_sync": 40,
+      "changed_in_last_sync": 0
+    }
+  },
+  "search_console": {
+    "sitemap_errors": 0,
+    "sitemap_warnings": 0,
+    "google_last_sitemap_read": "2026-10-12T20:57:04.933Z",
+    "course_urls_inspected": [
+      "https://voce.life/cours/modele-et-systeme",
+      "https://voce.life/cours/tsinghua-agibot-robot-production"
+    ],
+    "inspected_course_verdict": "NEUTRAL: Google does not yet recognize these URLs"
+  },
+  "daily_archive_instructions_updated": {
+    "task_id": "6abb72f5e1108191961956e6e3738fea",
+    "rss_limit_preserved": 50,
+    "schedule_unchanged": "23:00 Europe/Podgorica"
+  }
 }
