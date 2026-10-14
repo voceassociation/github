@@ -1,0 +1,66 @@
+{
+  "schema": "voce.discovery-improvements.v1",
+  "checked_at": "2026-10-14T10:18:57.301326+00:00",
+  "baseline_commit": "41a4084ffff85e0b89f5320e15d48c36852edda6",
+  "status": "tested_pending_deployment",
+  "academy": {
+    "corpus_items": 1644,
+    "live_count_before_change": 1644,
+    "reported_mismatch_not_reproduced": true,
+    "counter_generated_from_corpus": true,
+    "all_language_counters_validated_on_ingestion": true,
+    "response_cache_control_observed": "public, max-age=0, must-revalidate"
+  },
+  "rss": {
+    "url": "https://voce.life/feed.xml",
+    "previous_bytes": 5650194,
+    "new_bytes": 177675,
+    "latest_entries": 50,
+    "original_full_texts_preserved": true,
+    "full_corpus_in_json_ndjson_and_archives": true
+  },
+  "courses": {
+    "pages_updated": 48,
+    "languages": [
+      "fr",
+      "en",
+      "it"
+    ],
+    "catalogs_with_course_list": 3,
+    "schema_types": [
+      "Course",
+      "LearningResource",
+      "Article"
+    ],
+    "descriptions_derived_from_published_learning_objectives": true,
+    "description_characters_min_max": [
+      125,
+      199
+    ],
+    "course_bodies_and_routes_unchanged": true,
+    "provider": "VOCE Association",
+    "no_university_certification_or_affiliation_claim_added": true
+  },
+  "sitemap": {
+    "unique_urls": 2450,
+    "url_set_unchanged": true
+  },
+  "preserved": {
+    "corpus_json_and_ndjson_identical_to_baseline": true,
+    "article_routes_identical_to_baseline": true,
+    "academy_html_unchanged": true,
+    "worker_unchanged": true,
+    "design_unchanged": true,
+    "social_accounts_not_touched": true
+  },
+  "validation": {
+    "discovery_and_indexnow_regression_tests_passed": 7,
+    "facebook_integrity_tests_passed": 4,
+    "metadata_generation_idempotent": true,
+    "intentional_rss_source_trailing_spaces_preserved": true
+  },
+  "remaining": [
+    "Verify deployed resources, caches and R2 after deployment.",
+    "Google indexation of all course pages is not certified by sitemap presence."
+  ]
+}

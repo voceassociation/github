@@ -3,7 +3,7 @@ import json
 import re
 import sys
 from datetime import datetime, timezone
-from email.utils import format_datetime
+from discovery import write_discovery
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
@@ -140,35 +140,13 @@ for route in routes["items"]:
         canonical = "https://voce.life" + route["redirect_to"]
         target.write_text(f'<!doctype html><html><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><link rel="canonical" href="{html.escape(canonical, quote=True)}"><title>Redirection VOCE</title></head><body><p><a href="{html.escape(canonical, quote=True)}">Texte canonique</a></p></body></html>')
 
-rss = ET.Element("rss", {"version": "2.0"})
-channel = ET.SubElement(rss, "channel")
-ET.SubElement(channel, "title").text = "VOCE Academy"
-ET.SubElement(channel, "link").text = "https://voce.life/archive"
-ET.SubElement(channel, "description").text = "VOCE Association canonical editorial and educational corpus."
-ET.SubElement(channel, "language").text = "fr"
-ET.SubElement(channel, "lastBuildDate").text = format_datetime(datetime.now(timezone.utc))
-for item in sorted(corpus["items"], key=lambda x: x["date_published"], reverse=True):
-    node = ET.SubElement(channel, "item")
-    ET.SubElement(node, "title").text = title_of(item)
-    ET.SubElement(node, "link").text = item["canonical_url"]
-    ET.SubElement(node, "guid", {"isPermaLink": "true"}).text = item["canonical_url"]
-    if item.get("date_precision") != "day":
-        ET.SubElement(node, "pubDate").text = format_datetime(datetime.fromisoformat(item["date_published"]))
-    ET.SubElement(node, "author").text = "VOCE Association"
-    ET.SubElement(node, "description").text = item["text"]
-    ET.SubElement(node, "source", {"url": item["source_url"]}).text = item["platform"].title()
-ET.ElementTree(rss).write(ROOT / "feed.xml", encoding="utf-8", xml_declaration=True)
+write_discovery(ROOT, corpus)
 
 count = len(corpus["items"])
 llms = (ROOT / "llms.txt").read_text()
 corpus_label = "archived VOCE texts" if any(x.get("platform") == "facebook" for x in corpus['items']) else "archived LinkedIn texts"
 llms = re.sub(r"[\d,]+ archived (?:LinkedIn|VOCE) texts", f"{count:,} {corpus_label}", llms)
 (ROOT / "llms.txt").write_text(llms)
-archive = (ROOT / "archive.html").read_text()
-archive = re.sub(r"\d+ archived publications", f"{count} archived publications", archive)
-archive = re.sub(r"\d+ publications archivées", f"{count} publications archivées", archive)
-archive = re.sub(r"\d+ pubblicazioni archiviate", f"{count} pubblicazioni archiviate", archive)
-(ROOT / "archive.html").write_text(archive)
 
 ns = "http://www.sitemaps.org/schemas/sitemap/0.9"
 ET.register_namespace("", ns)

@@ -28,6 +28,9 @@ jobs:
       - name: Validate Facebook source integrity safeguards
         run: python3 backfill/test_facebook_sources.py
 
+      - name: Validate discovery publication safeguards
+        run: python3 -m unittest discover -s backfill/tests -p test_discovery.py
+
       - name: Publish permanent corpus routes
         run: python3 backfill/publish_current.py
 
@@ -38,11 +41,15 @@ jobs:
         run: |
           python3 - <<'PY'
           import json
+          import sys
           from pathlib import Path
+          sys.path.insert(0, "backfill")
+          from discovery import validate_discovery
           root=Path(".")
           corpus=json.loads((root/"data/corpus.json").read_text())
           routes=json.loads((root/"data/article-routes.json").read_text())
           assert corpus["item_count"] == len(corpus["items"])
+          validate_discovery(root, corpus)
           canonical_routes=[x for x in routes["items"] if not x.get("redirect_to")]
           assert len(canonical_routes) == corpus["item_count"]
           assert sum(1 for _ in (root/"data/corpus.ndjson").open()) == corpus["item_count"]

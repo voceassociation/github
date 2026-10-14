@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-13T21:16:15.000Z",
+  "updated_at": "2026-10-14T10:18:57.301326+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -3444,6 +3444,14 @@
       "coverage_complete": false,
       "historical_conflicts_preserved": 334,
       "report": "backfill/reports/linkedin-catchup-progress-2026-10-13.json"
+    },
+    "discovery_improvements_2026_10_14": {
+      "report": "backfill/reports/discovery-improvements-2026-10-14.json",
+      "status": "tested_pending_deployment",
+      "corpus_items": 1644,
+      "rss_limit": 50,
+      "course_pages": 48,
+      "resume": "Verify production feed, Academy counter, course metadata and R2 receipt."
     }
   },
   "facebook_daily_scans": {},

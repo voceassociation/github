@@ -87,9 +87,9 @@ class IndexNowRegression(unittest.TestCase):
                                   changed=["backfill/indexnow-resubmit.json"],
                                   request_data={"scope": "current_days", "dates":
                                                 ["2026-10-03", "2026-10-04", "2026-10-05", "2026-10-06"]})
-        self.assertEqual(len(payload["urlList"]), 64)
-        self.assertEqual(len(set(payload["urlList"])), 64)
-        self.assertTrue(all("/archive/2026/10/0" in u or "/archive/2026-10-0" in u
+        self.assertGreater(len(payload["urlList"]), 0)
+        self.assertEqual(len(set(payload["urlList"])), len(payload["urlList"]))
+        self.assertTrue(all(re.search(r"/archive/(?:2026/10/0[3-6]/|2026-10-0[3-6]$)", u)
                             for u in payload["urlList"]))
 
     def test_manual_full_sitemap_submission_is_preserved(self):

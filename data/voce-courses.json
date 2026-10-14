@@ -1,7 +1,7 @@
 {
   "version": 1,
   "publisher": "VOCE Association",
-  "updated_at": "2026-10-13",
+  "updated_at": "2026-10-14",
   "courses": [
     {
       "id": "D05",
@@ -15,7 +15,8 @@
       "duration_minutes": [
         10,
         12
-      ]
+      ],
+      "seo_description": "Calculer un coût opérationnel par dossier accepté, avec un périmètre explicite. Cours VOCE® D05 en accès libre, avec cas pratique et exercice corrigé."
     },
     {
       "id": "D06",
@@ -29,7 +30,8 @@
       "duration_minutes": [
         10,
         12
-      ]
+      ],
+      "seo_description": "Conserver une activité qui développe une compétence professionnelle utile. Cours VOCE® D06 en accès libre, avec cas pratique et exercice corrigé."
     },
     {
       "id": "D01",
@@ -43,7 +45,8 @@
       "duration_minutes": [
         10,
         12
-      ]
+      ],
+      "seo_description": "Distinguer le modèle des composants qui permettent au service de consulter des informations et d'agir. Cours VOCE® D01 en accès libre, avec cas pratique et exercice corrigé."
     },
     {
       "id": "D02",
@@ -57,7 +60,8 @@
       "duration_minutes": [
         10,
         12
-      ]
+      ],
+      "seo_description": "Définir les accès nécessaires à une tâche et distinguer accès technique et autorisation métier. Cours VOCE® D02 en accès libre, avec cas pratique et exercice corrigé."
     },
     {
       "id": "D03",
@@ -71,7 +75,8 @@
       "duration_minutes": [
         10,
         12
-      ]
+      ],
+      "seo_description": "Transformer une affirmation générale en vérification adaptée à un usage précis. Cours VOCE® D03 en accès libre, avec cas pratique et exercice corrigé."
     },
     {
       "id": "D07",
@@ -85,7 +90,8 @@
       "duration_minutes": [
         10,
         12
-      ]
+      ],
+      "seo_description": "Organiser l'accès à l'outil selon la compétence que l'activité cherche à développer. Cours VOCE® D07 en accès libre, avec cas pratique et exercice corrigé."
     },
     {
       "id": "D04",
@@ -99,7 +105,8 @@
       "duration_minutes": [
         10,
         12
-      ]
+      ],
+      "seo_description": "Relier une modification aux contrôles qu'elle peut affecter. Cours VOCE® D04 en accès libre, avec cas pratique et exercice corrigé."
     },
     {
       "id": "D10",
@@ -113,7 +120,8 @@
       "duration_minutes": [
         10,
         12
-      ]
+      ],
+      "seo_description": "Vérifier une possibilité de remplacement sur le service complet. Cours VOCE® D10 en accès libre, avec cas pratique et exercice corrigé."
     },
     {
       "id": "D09",
@@ -127,7 +135,8 @@
       "duration_minutes": [
         10,
         12
-      ]
+      ],
+      "seo_description": "Identifier une capacité minimale de continuité et la vérifier dans un exercice. Cours VOCE® D09 en accès libre, avec cas pratique et exercice corrigé."
     },
     {
       "id": "D12",
@@ -141,7 +150,8 @@
       "duration_minutes": [
         10,
         12
-      ]
+      ],
+      "seo_description": "Relier la batterie, la propulsion et les commandes aux questions d’évaluation d’un projet de mobilité. Cours VOCE® D12 en accès libre, avec cas pratique et exercice corrigé."
     },
     {
       "id": "D14",
@@ -155,7 +165,8 @@
       "duration_minutes": [
         10,
         12
-      ]
+      ],
+      "seo_description": "Préparer une comparaison opérationnelle tenant compte des conditions thermiques sans poser un diagnostic technique. Cours VOCE® D14 en accès libre, avec cas pratique et exercice corrigé."
     },
     {
       "id": "D08",
@@ -169,7 +180,8 @@
       "duration_minutes": [
         10,
         12
-      ]
+      ],
+      "seo_description": "Concevoir une approbation qui permet un examen réel de l'action proposée. Cours VOCE® D08 en accès libre, avec cas pratique et exercice corrigé."
     },
     {
       "id": "D13",
@@ -183,7 +195,8 @@
       "duration_minutes": [
         10,
         12
-      ]
+      ],
+      "seo_description": "Définir un jeu de situations d’apprentissage et un jeu d’essai distincts pour une tâche robotique. Cours VOCE® D13 en accès libre, avec cas pratique et exercice corrigé."
     },
     {
       "id": "D11",
@@ -197,7 +210,8 @@
       "duration_minutes": [
         10,
         12
-      ]
+      ],
+      "seo_description": "Définir ce qui doit être vérifié avant d’utiliser une tâche robotique dans un environnement réel. Cours VOCE® D11 en accès libre, avec cas pratique et exercice corrigé."
     },
     {
       "id": "D15",
@@ -211,7 +225,8 @@
       "duration_minutes": [
         10,
         12
-      ]
+      ],
+      "seo_description": "Identifier les conditions d’environnement à examiner avant d’élargir une tâche robotique. Cours VOCE® D15 en accès libre, avec cas pratique et exercice corrigé."
     },
     {
       "id": "D16",
@@ -225,7 +240,8 @@
       "duration_minutes": [
         10,
         12
-      ]
+      ],
+      "seo_description": "Comparer une capacité de production annoncée au volume accepté dans un cas industriel. Cours VOCE® D16 en accès libre, avec cas pratique et exercice corrigé."
     }
   ],
   "future_training": [
@@ -333,7 +349,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Calculer un coût opérationnel par dossier accepté, avec un périmètre explicite. Cours VOCE® D05 en accès libre, avec cas pratique et exercice corrigé."
       },
       {
         "id": "D06",
@@ -347,7 +364,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Conserver une activité qui développe une compétence professionnelle utile. Cours VOCE® D06 en accès libre, avec cas pratique et exercice corrigé."
       },
       {
         "id": "D01",
@@ -361,7 +379,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Distinguer le modèle des composants qui permettent au service de consulter des informations et d'agir. Cours VOCE® D01 en accès libre, avec cas pratique et exercice corrigé."
       },
       {
         "id": "D02",
@@ -375,7 +394,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Définir les accès nécessaires à une tâche et distinguer accès technique et autorisation métier. Cours VOCE® D02 en accès libre, avec cas pratique et exercice corrigé."
       },
       {
         "id": "D03",
@@ -389,7 +409,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Transformer une affirmation générale en vérification adaptée à un usage précis. Cours VOCE® D03 en accès libre, avec cas pratique et exercice corrigé."
       },
       {
         "id": "D07",
@@ -403,7 +424,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Organiser l'accès à l'outil selon la compétence que l'activité cherche à développer. Cours VOCE® D07 en accès libre, avec cas pratique et exercice corrigé."
       },
       {
         "id": "D04",
@@ -417,7 +439,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Relier une modification aux contrôles qu'elle peut affecter. Cours VOCE® D04 en accès libre, avec cas pratique et exercice corrigé."
       },
       {
         "id": "D10",
@@ -431,7 +454,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Vérifier une possibilité de remplacement sur le service complet. Cours VOCE® D10 en accès libre, avec cas pratique et exercice corrigé."
       },
       {
         "id": "D09",
@@ -445,7 +469,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Identifier une capacité minimale de continuité et la vérifier dans un exercice. Cours VOCE® D09 en accès libre, avec cas pratique et exercice corrigé."
       },
       {
         "id": "D12",
@@ -459,7 +484,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Relier la batterie, la propulsion et les commandes aux questions d’évaluation d’un projet de mobilité. Cours VOCE® D12 en accès libre, avec cas pratique et exercice corrigé."
       },
       {
         "id": "D14",
@@ -473,7 +499,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Préparer une comparaison opérationnelle tenant compte des conditions thermiques sans poser un diagnostic technique. Cours VOCE® D14 en accès libre, avec cas pratique et exercice corrigé."
       },
       {
         "id": "D08",
@@ -487,7 +514,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Concevoir une approbation qui permet un examen réel de l'action proposée. Cours VOCE® D08 en accès libre, avec cas pratique et exercice corrigé."
       },
       {
         "id": "D13",
@@ -501,7 +529,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Définir un jeu de situations d’apprentissage et un jeu d’essai distincts pour une tâche robotique. Cours VOCE® D13 en accès libre, avec cas pratique et exercice corrigé."
       },
       {
         "id": "D11",
@@ -515,7 +544,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Définir ce qui doit être vérifié avant d’utiliser une tâche robotique dans un environnement réel. Cours VOCE® D11 en accès libre, avec cas pratique et exercice corrigé."
       },
       {
         "id": "D15",
@@ -529,7 +559,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Identifier les conditions d’environnement à examiner avant d’élargir une tâche robotique. Cours VOCE® D15 en accès libre, avec cas pratique et exercice corrigé."
       },
       {
         "id": "D16",
@@ -543,7 +574,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Comparer une capacité de production annoncée au volume accepté dans un cas industriel. Cours VOCE® D16 en accès libre, avec cas pratique et exercice corrigé."
       }
     ],
     "en": [
@@ -559,7 +591,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Calculate an operational cost per accepted case, with an explicit scope. Free VOCE® course D05 with a business case, exercise and explained answer."
       },
       {
         "id": "D06",
@@ -573,7 +606,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Maintain an activity that develops a useful professional skill. Free VOCE® course D06 with a business case, exercise and explained answer."
       },
       {
         "id": "D01",
@@ -587,7 +621,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Distinguish the model from the components that allow the service to consult information and act. Free VOCE® course D01 with a business case, exercise and explained answer."
       },
       {
         "id": "D02",
@@ -601,7 +636,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Define the access necessary for a task and distinguish between technical access and business authorization. Free VOCE® course D02 with a business case, exercise and explained answer."
       },
       {
         "id": "D03",
@@ -615,7 +651,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Transform a general statement into a verification adapted to a specific use. Free VOCE® course D03 with a business case, exercise and explained answer."
       },
       {
         "id": "D07",
@@ -629,7 +666,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Organize access to the tool according to the skill the activity seeks to develop. Free VOCE® course D07 with a business case, exercise and explained answer."
       },
       {
         "id": "D04",
@@ -643,7 +681,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Link a modification to the controls it may affect. Free VOCE® course D04 with a business case, exercise and explained answer."
       },
       {
         "id": "D10",
@@ -657,7 +696,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Verify the possibility of replacement for the complete service. Free VOCE® course D10 with a business case, exercise and explained answer."
       },
       {
         "id": "D09",
@@ -671,7 +711,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Identify a minimum continuity capability and verify it in an exercise. Free VOCE® course D09 with a business case, exercise and explained answer."
       },
       {
         "id": "D12",
@@ -685,7 +726,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Link the battery, propulsion, and controls to the evaluation questions of a mobility project. Free VOCE® course D12 with a business case, exercise and explained answer."
       },
       {
         "id": "D14",
@@ -699,7 +741,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Prepare an operational comparison taking thermal conditions into account without making a technical diagnosis. Free VOCE® course D14 with a business case, exercise and explained answer."
       },
       {
         "id": "D08",
@@ -713,7 +756,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Design an approval that allows for a real examination of the proposed action. Free VOCE® course D08 with a business case, exercise and explained answer."
       },
       {
         "id": "D13",
@@ -727,7 +771,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Define a distinct set of learning situations and a set of tests for a robotic task. Free VOCE® course D13 with a business case, exercise and explained answer."
       },
       {
         "id": "D11",
@@ -741,7 +786,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Define what must be verified before using a robotic task in a real environment. Free VOCE® course D11 with a business case, exercise and explained answer."
       },
       {
         "id": "D15",
@@ -755,7 +801,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Identify the environmental conditions to be examined before expanding a robotic task. Free VOCE® course D15 with a business case, exercise and explained answer."
       },
       {
         "id": "D16",
@@ -769,7 +816,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Compare an announced production capacity with the volume accepted in an industrial case. Free VOCE® course D16 with a business case, exercise and explained answer."
       }
     ],
     "it": [
@@ -785,7 +833,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Calcolare un costo operativo per pratica accettata, con un perimetro esplicito. Corso VOCE® D05 ad accesso libero, con caso pratico, esercizio e soluzione commentata."
       },
       {
         "id": "D06",
@@ -799,7 +848,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Mantenere un'attività che sviluppi una competenza professionale utile. Corso VOCE® D06 ad accesso libero, con caso pratico, esercizio e soluzione commentata."
       },
       {
         "id": "D01",
@@ -813,7 +863,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Distinguere il modello dai componenti che permettono al servizio di consultare informazioni e agire. Corso VOCE® D01 ad accesso libero, con caso pratico, esercizio e soluzione commentata."
       },
       {
         "id": "D02",
@@ -827,7 +878,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Definire gli accessi necessari a un compito e distinguere tra accesso tecnico e autorizzazione aziendale. Corso VOCE® D02 ad accesso libero, con caso pratico, esercizio e soluzione commentata."
       },
       {
         "id": "D03",
@@ -841,7 +893,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Trasformare un'affermazione generale in una verifica adatta a un uso preciso. Corso VOCE® D03 ad accesso libero, con caso pratico, esercizio e soluzione commentata."
       },
       {
         "id": "D07",
@@ -855,7 +908,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Organizzare l'accesso allo strumento in base alla competenza che l'attività mira a sviluppare. Corso VOCE® D07 ad accesso libero, con caso pratico, esercizio e soluzione commentata."
       },
       {
         "id": "D04",
@@ -869,7 +923,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Collegare una modifica ai controlli che essa può influenzare. Corso VOCE® D04 ad accesso libero, con caso pratico, esercizio e soluzione commentata."
       },
       {
         "id": "D10",
@@ -883,7 +938,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Verificare la possibilità di sostituzione sull'intero servizio. Corso VOCE® D10 ad accesso libero, con caso pratico, esercizio e soluzione commentata."
       },
       {
         "id": "D09",
@@ -897,7 +953,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Identificare una capacità minima di continuità e verificarla in un esercizio. Corso VOCE® D09 ad accesso libero, con caso pratico, esercizio e soluzione commentata."
       },
       {
         "id": "D12",
@@ -911,7 +968,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Collegare la batteria, la propulsione e i comandi alle questioni di valutazione di un progetto di mobilità. Corso VOCE® D12 ad accesso libero, con caso pratico, esercizio e soluzione commentata."
       },
       {
         "id": "D14",
@@ -925,7 +983,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Preparare un confronto operativo che tenga conto delle condizioni termiche senza formulare una diagnosi tecnica. Corso VOCE® D14 ad accesso libero, con caso pratico, esercizio e soluzione commentata."
       },
       {
         "id": "D08",
@@ -939,7 +998,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Progettare un'approvazione che permetta un esame reale dell'azione proposta. Corso VOCE® D08 ad accesso libero, con caso pratico, esercizio e soluzione commentata."
       },
       {
         "id": "D13",
@@ -953,7 +1013,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Definire un set di situazioni di apprendimento e un set di prova distinti per un compito robotico. Corso VOCE® D13 ad accesso libero, con caso pratico, esercizio e soluzione commentata."
       },
       {
         "id": "D11",
@@ -967,7 +1028,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Definire cosa deve essere verificato prima di utilizzare un compito robotico in un ambiente reale. Corso VOCE® D11 ad accesso libero, con caso pratico, esercizio e soluzione commentata."
       },
       {
         "id": "D15",
@@ -981,7 +1043,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Identificare le condizioni ambientali da esaminare prima di ampliare un compito robotico. Corso VOCE® D15 ad accesso libero, con caso pratico, esercizio e soluzione commentata."
       },
       {
         "id": "D16",
@@ -995,7 +1058,8 @@
         "duration_minutes": [
           10,
           12
-        ]
+        ],
+        "seo_description": "Confrontare una capacità di produzione annunciata con il volume accettato in un caso industriale. Corso VOCE® D16 ad accesso libero, con caso pratico, esercizio e soluzione commentata."
       }
     ]
   }
