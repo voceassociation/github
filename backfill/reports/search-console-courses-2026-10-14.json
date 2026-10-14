@@ -1,0 +1,59 @@
+{
+  "schema": "voce.search-console-course-followup.v1",
+  "checked_at": "2026-10-14T10:39:27.964Z",
+  "status": "sitemap_processed_manual_requests_not_accepted",
+  "property": "sc-domain:voce.life",
+  "sitemap_api_proof": [
+    {
+      "path": "https://voce.life/sitemap.xml",
+      "lastSubmitted": "2026-10-14T10:31:24.169Z",
+      "isPending": false,
+      "isSitemapsIndex": false,
+      "type": "sitemap",
+      "lastDownloaded": "2026-10-14T10:31:26.548Z",
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "2450",
+          "indexed": "0"
+        }
+      ]
+    }
+  ],
+  "sitemap_read_current_2450_urls": true,
+  "sitemap_errors": 0,
+  "sitemap_warnings": 0,
+  "manual_requests": [
+    {
+      "url": "https://voce.life/cours",
+      "inspection_state_reported_by_browser": "Discovered - currently not indexed",
+      "request_attempted": true,
+      "acceptance_confirmed": false,
+      "google_message": "We had a problem submitting your indexing request. Please try again later."
+    },
+    {
+      "url": "https://voce.life/cours/modele-et-systeme",
+      "inspection_state_reported_by_browser": "Page is not indexed: URL is unknown to Google",
+      "request_attempted": true,
+      "acceptance_confirmed": false,
+      "google_message": "Oops! Something went wrong"
+    },
+    {
+      "url": "https://voce.life/cours/tsinghua-agibot-robot-production",
+      "request_attempted": false,
+      "acceptance_confirmed": false,
+      "status": "not_treated_after_generic_submission_error"
+    }
+  ],
+  "error_cause": "Not established. A generic UI error does not prove quota exhaustion or an Indexing API rate limit.",
+  "source_runs": [
+    "8a689b92-38c3-4363-a5b2-4b9cfff6b43b",
+    "ff180665-face-468f-acd1-826365a428b8"
+  ],
+  "no_authentication_or_security_changes": true,
+  "no_duplicate_property_or_sitemap_submission_created": true,
+  "no_indexation_success_claimed": true,
+  "resume": "On a subsequent authorised Search Console check, inspect the pending course URLs. Do not repeat sitemap submission while its current version has already been read. If indexing is still needed and the UI permits, make one targeted request and record the actual confirmation; stop on another submission error, explicit quota or challenge."
+}

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-14T10:25:58.360Z",
+  "updated_at": "2026-10-14T10:39:27.964Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -3459,6 +3459,20 @@
       "commit": "3f9ef45f25bd071ccc1d478ab7480167cf9975e0",
       "daily_archive_instructions_updated": true,
       "resume": "Monitor effective course indexation in Search Console; preserve the bounded RSS and validated Academy counters."
+    },
+    "search_console_courses_2026_10_14": {
+      "report": "backfill/reports/search-console-courses-2026-10-14.json",
+      "status": "sitemap_processed_manual_requests_not_accepted",
+      "sitemap_discovered_urls": 2450,
+      "sitemap_last_read": "2026-10-14T10:31:26.548Z",
+      "sitemap_errors": 0,
+      "manual_requests_accepted": 0,
+      "pending_urls": [
+        "https://voce.life/cours",
+        "https://voce.life/cours/modele-et-systeme",
+        "https://voce.life/cours/tsinghua-agibot-robot-production"
+      ],
+      "resume": "On a subsequent authorised Search Console check, inspect the pending course URLs. Do not repeat sitemap submission while its current version has already been read. If indexing is still needed and the UI permits, make one targeted request and record the actual confirmation; stop on another submission error, explicit quota or challenge."
     }
   },
   "facebook_daily_scans": {},
