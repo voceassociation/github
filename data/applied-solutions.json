@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generated_at": "2026-10-13",
+  "generated_at": "2026-10-14",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
   "methodology": {
@@ -3933,6 +3933,35 @@
       "sectors": [
         "hr",
         "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7515984885552021504",
+      "date": "2026-10-14",
+      "title": "GitHub Copilot Computer Use: votre vieux logiciel devient pilotable sans API",
+      "path": "/archive/2026/10/14/github-copilot-computer-use-votre-vieux-logiciel-devient-pilotable-sans-7515984885552021504",
+      "sectors": [
+        "legal",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7516211411694280705",
+      "date": "2026-10-14",
+      "title": "Le toucher d'un tissu laisse une signature ultrasonore que le frottement seul ne révèle pas",
+      "path": "/archive/2026/10/14/le-toucher-d-un-tissu-laisse-une-signature-ultrasonore-que-le-frottement-7516211411694280705",
+      "sectors": [
+        "cross"
       ],
       "themes": [
         "LI!GHT WORKFORCE ©",
