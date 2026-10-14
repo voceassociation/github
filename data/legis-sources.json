@@ -1,0 +1,408 @@
+{
+  "schema_version": "1.0",
+  "version": "2026-10-14",
+  "checked_at": "2026-10-14",
+  "owner": "VOCE Association",
+  "source_mode": "curated_official_sources",
+  "scope": "France / EU: preliminary examination of ticketing and software contracts, personal data and procurement definitions. No live jurisprudence, historic version lookup or procurement thresholds.",
+  "sources": [
+    {
+      "id": "gdpr-28",
+      "topic": "data",
+      "reference": "RGPD / GDPR, article 28",
+      "articles": [
+        "28"
+      ],
+      "checked_at": "2026-10-14",
+      "publisher": "CNIL · Union européenne",
+      "url": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4",
+      "title": {
+        "fr": "Sous-traitance et contrat de traitement",
+        "en": "Processors and data processing contracts",
+        "it": "Responsabili del trattamento e contratto"
+      },
+      "basis": "Si un prestataire traite des données personnelles pour le compte d'un responsable du traitement, l'article 28 exige des garanties suffisantes et un contrat ou autre acte juridique contraignant. Ce contrat précise objet, durée, nature, finalité, types de données, personnes concernées et obligations des parties. Il encadre les instructions documentées, la confidentialité, les sous-traitants ultérieurs, l'assistance, les audits et le retour ou la suppression des données personnelles à la fin de la prestation, sous réserve de conservation imposée par le droit. Les sous-traitants ultérieurs nécessitent une autorisation écrite préalable, spécifique ou générale, avec information des changements en cas d'autorisation générale.",
+      "scope": "Applicable seulement si le rôle de sous-traitant est établi. Ne détermine ni la propriété de toutes les données métier, ni la base légale de tout traitement, ni la licéité d'un transfert international.",
+      "basis_en": "If a supplier processes personal data on behalf of a controller, Article 28 requires sufficient guarantees and a binding contract or legal act. It specifies the subject, duration, nature and purpose of processing, data types, data subjects and party obligations. It covers documented instructions, confidentiality, further processors, assistance, audits and return or deletion of personal data when the service ends, subject to legally required retention. Further processors require prior written specific or general authorisation; general authorisation entails notice of planned changes.",
+      "basis_it": "Se il fornitore tratta dati personali per conto di un titolare del trattamento, l’articolo 28 richiede garanzie sufficienti e un contratto o altro atto giuridico vincolante. Devono essere precisati oggetto, durata, natura, finalità, tipi di dati, categorie di interessati e obblighi delle parti. Il contratto disciplina istruzioni documentate, riservatezza, ulteriori responsabili, assistenza, audit e restituzione o cancellazione dei dati personali alla cessazione, salvo conservazione prescritta dalla legge. Gli ulteriori responsabili richiedono un’autorizzazione scritta preventiva, specifica o generale; in quest’ultimo caso occorre informare delle modifiche previste."
+    },
+    {
+      "id": "gdpr-32",
+      "topic": "security",
+      "reference": "RGPD / GDPR, article 32",
+      "articles": [
+        "32"
+      ],
+      "checked_at": "2026-10-14",
+      "publisher": "CNIL · Union européenne",
+      "url": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4",
+      "title": {
+        "fr": "Sécurité du traitement",
+        "en": "Security of processing",
+        "it": "Sicurezza del trattamento"
+      },
+      "basis": "Le responsable du traitement et le sous-traitant mettent en œuvre des mesures techniques et organisationnelles adaptées au risque, en tenant compte de l'état des connaissances, des coûts et du traitement. Les mesures pertinentes peuvent comprendre pseudonymisation et chiffrement, confidentialité, intégrité, disponibilité et résilience, restauration de l'accès et tests réguliers de leur efficacité. Leur adéquation exige une analyse du contexte et du risque.",
+      "scope": "Une déclaration commerciale de sécurité ou une clause générale ne démontre pas l'adéquation réelle des mesures. Aucun fournisseur ni certificat n'est évalué par ce paquet.",
+      "basis_en": "The controller and processor implement technical and organisational measures appropriate to the risk, considering the state of the art, costs and processing context. Relevant measures may include pseudonymisation and encryption, confidentiality, integrity, availability and resilience, restoration of access and regular effectiveness testing. Adequacy requires examination of the actual context and risk; a general security claim is not evidence of implementation.",
+      "basis_it": "Il titolare e il responsabile del trattamento adottano misure tecniche e organizzative adeguate al rischio, tenendo conto dello stato dell’arte, dei costi e del trattamento. Possono essere pertinenti pseudonimizzazione e cifratura, riservatezza, integrità, disponibilità e resilienza, ripristino dell’accesso e verifiche periodiche dell’efficacia. L’adeguatezza richiede l’esame del contesto e dei rischi reali; una dichiarazione generale di sicurezza non dimostra l’attuazione delle misure."
+    },
+    {
+      "id": "gdpr-33",
+      "topic": "security",
+      "reference": "RGPD / GDPR, article 33",
+      "articles": [
+        "33"
+      ],
+      "checked_at": "2026-10-14",
+      "publisher": "CNIL · Union européenne",
+      "url": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4",
+      "title": {
+        "fr": "Signalement des violations de données",
+        "en": "Personal data breach notification",
+        "it": "Notifica delle violazioni dei dati"
+      },
+      "basis": "Le sous-traitant notifie au responsable du traitement une violation de données personnelles dans les meilleurs délais après en avoir pris connaissance. La notification à l'autorité de contrôle relève du responsable du traitement, selon les conditions de l'article 33. L'obligation du prestataire envers son client doit être distinguée de celle du responsable envers l'autorité.",
+      "scope": "Le paquet ne calcule aucun délai légal, n'analyse pas d'incident réel et ne statue pas sur l'obligation de notifier un cas individuel.",
+      "basis_en": "The processor reports a personal data breach to the controller without undue delay after becoming aware of it. Notification to the supervisory authority is the controller’s responsibility under the conditions of Article 33. Supplier-to-client reporting must be distinguished from controller-to-authority notification. This packet does not calculate deadlines or assess an actual incident.",
+      "basis_it": "Il responsabile del trattamento informa il titolare di una violazione dei dati personali senza ingiustificato ritardo dopo esserne venuto a conoscenza. La notifica all’autorità di controllo spetta al titolare secondo le condizioni dell’articolo 33. Occorre distinguere la segnalazione del fornitore al cliente dalla notifica del titolare all’autorità. Il pacchetto non calcola scadenze né valuta incidenti reali."
+    },
+    {
+      "id": "gdpr-transfers",
+      "topic": "transfer",
+      "reference": "RGPD / GDPR, articles 44–46",
+      "articles": [
+        "44",
+        "45",
+        "46"
+      ],
+      "checked_at": "2026-10-14",
+      "publisher": "CNIL · Union européenne",
+      "url": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre5",
+      "title": {
+        "fr": "Transferts vers des pays tiers",
+        "en": "Transfers to third countries",
+        "it": "Trasferimenti verso paesi terzi"
+      },
+      "basis": "Le chapitre V soumet les transferts de données personnelles vers un pays tiers, y compris les transferts ultérieurs, à des conditions spécifiques. Selon le cas, il faut examiner une décision d'adéquation applicable ou des garanties appropriées avec droits opposables et voies de recours effectives. Un accord de sous-traitance au titre de l'article 28 ne suffit pas, à lui seul, à autoriser un transfert. Les lieux d'hébergement, les accès à distance et les prestataires ultérieurs doivent être identifiés pour l'examen.",
+      "scope": "Aucune liste actuelle de pays adéquats, garantie valable pour un fournisseur, dérogation exceptionnelle ou évaluation d'impact de transfert n'est fournie. Les pays et mécanismes doivent être vérifiés séparément.",
+      "basis_en": "Chapter V sets specific conditions for transfers of personal data to third countries, including onward transfers. Depending on the facts, an applicable adequacy decision or appropriate safeguards with enforceable rights and effective remedies must be examined. An Article 28 processing agreement alone does not authorise a transfer. Hosting locations, remote access and further processors must be identified. This packet provides no current list of adequate countries or supplier-specific transfer assessment.",
+      "basis_it": "Il capo V prevede condizioni specifiche per i trasferimenti di dati personali verso paesi terzi, compresi quelli successivi. A seconda dei fatti, occorre esaminare una decisione di adeguatezza applicabile oppure garanzie appropriate con diritti azionabili e mezzi di ricorso effettivi. Il solo accordo ai sensi dell’articolo 28 non autorizza un trasferimento. Vanno identificati luoghi di hosting, accessi da remoto e ulteriori responsabili. Il pacchetto non fornisce un elenco aggiornato dei paesi adeguati né una valutazione specifica dei trasferimenti del fornitore."
+    },
+    {
+      "id": "cnil-contract-clauses",
+      "topic": "data",
+      "reference": "CNIL, clauses contractuelles types responsable / sous-traitant",
+      "articles": [
+        "28"
+      ],
+      "checked_at": "2026-10-14",
+      "publisher": "CNIL",
+      "url": "https://www.cnil.fr/fr/clauses-contractuelles-types-entre-responsable-de-traitement-et-sous-traitant",
+      "title": {
+        "fr": "Clauses de sous-traitance et clauses de transfert",
+        "en": "Processing clauses and transfer clauses",
+        "it": "Clausole di trattamento e di trasferimento"
+      },
+      "basis": "La CNIL explique que les clauses contractuelles types responsable de traitement / sous-traitant peuvent être utilisées pour encadrer les exigences obligatoires de l’article 28. Ce modèle est facultatif; les obligations applicables de l’article 28 ne le sont pas. Ces clauses doivent être distinguées de celles conçues pour les transferts hors de l’Union européenne. Un modèle ne prouve pas la conformité globale du contrat ou de son exécution.",
+      "scope": "Il s'agit d'une explication de l'autorité, pas d'une analyse du contrat de l'utilisateur. Les annexes, rôles et opérations réelles restent à examiner.",
+      "basis_en": "CNIL explains that controller-to-processor standard contractual clauses can be used to address the mandatory requirements of Article 28. The template is optional; the applicable Article 28 obligations are not. These clauses differ from standard contractual clauses for transfers outside the European Union. A template does not demonstrate overall compliance of a contract or its execution.",
+      "basis_it": "La CNIL spiega che le clausole contrattuali tipo tra titolare e responsabile possono essere utilizzate per disciplinare i requisiti obbligatori dell’articolo 28. Il modello è facoltativo; gli obblighi applicabili dell’articolo 28 non lo sono. Queste clausole sono distinte da quelle per i trasferimenti fuori dall’Unione europea. L’uso del modello non dimostra la conformità complessiva del contratto o della sua esecuzione."
+    },
+    {
+      "id": "ccp-market",
+      "topic": "procurement",
+      "reference": "Code de la commande publique, article L1111-1",
+      "articles": [
+        "L1111-1"
+      ],
+      "checked_at": "2026-10-14",
+      "publisher": "Légifrance · DILA",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703258",
+      "title": {
+        "fr": "Définition d'un marché public",
+        "en": "Definition of a public contract",
+        "it": "Definizione di un appalto pubblico"
+      },
+      "basis": "Un marché répond aux besoins de travaux, de fournitures ou de services d'un ou plusieurs acheteurs soumis au Code de la commande publique et donne lieu à un prix ou un équivalent. L'applicabilité du code à l'institution et les règles de passation nécessitent une qualification distincte. Le simple usage d'un logiciel ou le caractère privé d'une personne morale ne permettent pas de conclure que les règles de commande publique sont inapplicables.",
+      "scope": "Définition documentaire issue de la source officielle consultable; version consolidée à reconfirmer pour la décision. Aucune détermination de la qualité d'acheteur, exemption, procédure ou seuil financier dans cette bêta.",
+      "basis_en": "A public contract under Article L1111-1 meets works, supplies or services needs of one or more contracting purchasers subject to the Code de la commande publique, in return for a price or equivalent. Whether the code applies to the institution and which award rules apply require separate classification. Use of software or private legal-entity status alone does not establish that procurement rules are inapplicable. No purchaser-status determination, exemption, award procedure or financial threshold is provided here.",
+      "basis_it": "Un appalto ai sensi dell’articolo L1111-1 risponde alle esigenze di lavori, forniture o servizi di uno o più acquirenti soggetti al Code de la commande publique, a fronte di un prezzo o equivalente. L’applicabilità del codice all’istituzione e le regole di affidamento richiedono una qualificazione distinta. L’uso di software o lo status di persona giuridica privata non dimostrano da soli che le regole siano inapplicabili. Il pacchetto non determina lo status di acquirente, esenzioni, procedure o soglie finanziarie."
+    },
+    {
+      "id": "ccp-concession",
+      "topic": "procurement",
+      "reference": "Code de la commande publique, article L1121-1",
+      "articles": [
+        "L1121-1"
+      ],
+      "checked_at": "2026-10-14",
+      "publisher": "Légifrance · DILA",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037703286",
+      "title": {
+        "fr": "Concession et risque d'exploitation",
+        "en": "Concessions and operating risk",
+        "it": "Concessioni e rischio operativo"
+      },
+      "basis": "Une concession implique que l'autorité concédante confie des travaux ou la gestion d'un service en transférant un risque d'exploitation réel, en contrepartie d'un droit d'exploiter, éventuellement assorti d'un prix. La perte potentielle ne doit pas être purement théorique ou négligeable. Une rémunération liée aux billets ne suffit pas à établir, à elle seule, ce transfert de risque.",
+      "scope": "Définition consultée dans la source officielle; version consolidée à reconfirmer. La qualification du contrat dépend des faits et ne résulte pas automatiquement d'une commission par billet.",
+      "basis_en": "A concession under Article L1121-1 involves entrusting works or a service while transferring real operating risk, in return for a right to exploit the works or service, possibly combined with a price. Potential loss cannot be merely theoretical or negligible. Remuneration through a commission on tickets does not, by itself, establish this transfer of operating risk. Classification depends on the actual contract and facts.",
+      "basis_it": "Una concessione ai sensi dell’articolo L1121-1 comporta l’affidamento di lavori o della gestione di un servizio con trasferimento di un rischio operativo reale, a fronte del diritto di gestione, eventualmente accompagnato da un prezzo. La perdita potenziale non deve essere puramente teorica o trascurabile. Un compenso tramite commissioni sui biglietti non dimostra, da solo, questo trasferimento del rischio operativo. La qualificazione dipende dal contratto e dai fatti reali."
+    }
+  ],
+  "checks": [
+    {
+      "id": "roles",
+      "type": "legal",
+      "workflows": [
+        "ticketing",
+        "data",
+        "clauses"
+      ],
+      "source_ids": [
+        "gdpr-28"
+      ],
+      "title": {
+        "fr": "Qualifier les rôles",
+        "en": "Establish the roles",
+        "it": "Definire i ruoli"
+      },
+      "question": {
+        "fr": "Qui décide des finalités du traitement, et qui traite les données pour son compte? Examiner chaque opération avant d'appliquer le régime du sous-traitant.",
+        "en": "Who determines the purposes of processing, and who processes data on their behalf? Examine each operation before applying the processor regime.",
+        "it": "Chi determina le finalità e chi tratta i dati per suo conto? Esaminare ogni operazione prima di applicare il regime del responsabile."
+      }
+    },
+    {
+      "id": "scope",
+      "type": "legal",
+      "workflows": [
+        "ticketing",
+        "data",
+        "clauses"
+      ],
+      "source_ids": [
+        "gdpr-28"
+      ],
+      "title": {
+        "fr": "Définir le traitement",
+        "en": "Define the processing",
+        "it": "Definire il trattamento"
+      },
+      "question": {
+        "fr": "L'annexe décrit-elle les finalités, la durée, les catégories de personnes et de données, ainsi que les instructions? Un contrat commercial seul ne répond pas nécessairement à ces exigences.",
+        "en": "Does the annex set out purposes, duration, categories of people and data, and instructions? A commercial contract alone may not meet these requirements.",
+        "it": "L'allegato descrive finalità, durata, categorie di persone e dati e istruzioni? Il solo contratto commerciale potrebbe non bastare."
+      }
+    },
+    {
+      "id": "subprocessors",
+      "type": "legal",
+      "workflows": [
+        "ticketing",
+        "data",
+        "clauses"
+      ],
+      "source_ids": [
+        "gdpr-28"
+      ],
+      "title": {
+        "fr": "Identifier les prestataires ultérieurs",
+        "en": "Identify further processors",
+        "it": "Identificare gli ulteriori responsabili"
+      },
+      "question": {
+        "fr": "La liste est-elle fournie? Quel mécanisme d'autorisation écrite et d'information permet d'examiner l'ajout ou le remplacement d'un sous-traitant?",
+        "en": "Is the list available? Which written authorisation and notification mechanism covers adding or replacing a processor?",
+        "it": "È disponibile l'elenco? Quale autorizzazione scritta e informazione consentono di esaminare aggiunte o sostituzioni?"
+      }
+    },
+    {
+      "id": "security",
+      "type": "legal",
+      "workflows": [
+        "ticketing",
+        "data",
+        "clauses"
+      ],
+      "source_ids": [
+        "gdpr-32"
+      ],
+      "title": {
+        "fr": "Demander les preuves de sécurité",
+        "en": "Request security evidence",
+        "it": "Richiedere evidenze di sicurezza"
+      },
+      "question": {
+        "fr": "Quelles mesures et quels tests démontrent une sécurité adaptée au risque? Examiner les accès, la restauration et la disponibilité sur la base de preuves pertinentes.",
+        "en": "Which measures and tests demonstrate security appropriate to the risk? Examine access, recovery and availability using relevant evidence.",
+        "it": "Quali misure e test dimostrano una sicurezza adeguata al rischio? Esaminare accessi, ripristino e disponibilità sulla base di evidenze."
+      }
+    },
+    {
+      "id": "breach",
+      "type": "legal",
+      "workflows": [
+        "ticketing",
+        "data",
+        "clauses"
+      ],
+      "source_ids": [
+        "gdpr-33"
+      ],
+      "title": {
+        "fr": "Organiser le signalement d'incident",
+        "en": "Organise incident reporting",
+        "it": "Organizzare la segnalazione degli incidenti"
+      },
+      "question": {
+        "fr": "À qui le prestataire signale-t-il une violation, avec quelles informations et quelle procédure? Distinguer son signalement au client de la notification à l'autorité.",
+        "en": "To whom does the supplier report a breach, with which information and procedure? Distinguish reporting to the client from notifying the authority.",
+        "it": "A chi segnala il fornitore una violazione, con quali informazioni e procedura? Distinguere la segnalazione al cliente dalla notifica all'autorità."
+      }
+    },
+    {
+      "id": "transfers",
+      "type": "legal",
+      "workflows": [
+        "ticketing",
+        "data",
+        "clauses"
+      ],
+      "source_ids": [
+        "gdpr-transfers",
+        "cnil-contract-clauses"
+      ],
+      "title": {
+        "fr": "Cartographier les transferts",
+        "en": "Map international transfers",
+        "it": "Mappare i trasferimenti internazionali"
+      },
+      "question": {
+        "fr": "Où les données sont-elles hébergées et accessibles, y compris par les sous-traitants? Examiner le mécanisme applicable; une clause de sous-traitance ne suffit pas à autoriser tout transfert.",
+        "en": "Where are data hosted and accessible, including by further processors? Examine the applicable mechanism; a processing clause does not authorise every transfer.",
+        "it": "Dove sono ospitati e accessibili i dati, anche per gli ulteriori responsabili? Esaminare il meccanismo applicabile; una clausola di trattamento non autorizza qualsiasi trasferimento."
+      }
+    },
+    {
+      "id": "exit-personal",
+      "type": "legal",
+      "workflows": [
+        "ticketing",
+        "data",
+        "clauses"
+      ],
+      "source_ids": [
+        "gdpr-28"
+      ],
+      "title": {
+        "fr": "Préparer le sort des données personnelles",
+        "en": "Prepare the handling of personal data on exit",
+        "it": "Preparare la gestione dei dati personali alla cessazione"
+      },
+      "question": {
+        "fr": "Le retour ou la suppression, les copies et les obligations de conservation sont-ils définis? Cela ne couvre pas automatiquement l'export de toutes les données métier.",
+        "en": "Are return or deletion, copies and statutory retention addressed? This does not automatically cover exporting all business data.",
+        "it": "Sono definiti restituzione o cancellazione, copie e obblighi di conservazione? Questo non copre automaticamente l'esportazione di tutti i dati operativi."
+      }
+    },
+    {
+      "id": "audit",
+      "type": "legal",
+      "workflows": [
+        "ticketing",
+        "data",
+        "clauses"
+      ],
+      "source_ids": [
+        "gdpr-28"
+      ],
+      "title": {
+        "fr": "Vérifier le droit d'audit",
+        "en": "Examine audit rights",
+        "it": "Esaminare i diritti di audit"
+      },
+      "question": {
+        "fr": "Quelles informations et possibilités d'audit permettent au responsable d'examiner le respect des obligations? Vérifier les modalités pratiques du contrat.",
+        "en": "Which information and audit arrangements let the controller examine fulfilment of the obligations? Check the practical contractual terms.",
+        "it": "Quali informazioni e modalità di audit consentono al titolare di esaminare il rispetto degli obblighi? Verificare le condizioni pratiche."
+      }
+    },
+    {
+      "id": "procurement",
+      "type": "legal",
+      "workflows": [
+        "ticketing"
+      ],
+      "source_ids": [
+        "ccp-market",
+        "ccp-concession"
+      ],
+      "title": {
+        "fr": "Faire qualifier le contrat",
+        "en": "Have the contract classified",
+        "it": "Far qualificare il contratto"
+      },
+      "question": {
+        "fr": "Le code s'applique-t-il à l'institution? Qui porte le risque d'exploitation? Le statut déclaré et une commission par billet ne permettent pas, seuls, de déterminer la procédure applicable.",
+        "en": "Does the procurement code apply to the institution? Who bears operating risk? Declared status and a ticket commission alone do not determine the applicable procedure.",
+        "it": "Il codice si applica all'istituzione? Chi assume il rischio operativo? Lo status dichiarato e una commissione per biglietto non determinano da soli la procedura applicabile."
+      }
+    },
+    {
+      "id": "exit-business",
+      "type": "contractual",
+      "workflows": [
+        "ticketing",
+        "clauses"
+      ],
+      "source_ids": [],
+      "title": {
+        "fr": "Négocier la réversibilité opérationnelle",
+        "en": "Negotiate operational exit arrangements",
+        "it": "Negoziare la reversibilità operativa"
+      },
+      "question": {
+        "fr": "Préciser les formats d'export, les délais de migration, l'assistance et les coûts. Point de négociation VOCE, distinct d'une obligation générale d'export fondée sur le RGPD.",
+        "en": "Specify export formats, migration timing, assistance and costs. A VOCE negotiation point, distinct from a general GDPR obligation to export all data.",
+        "it": "Precisare formati di esportazione, tempi di migrazione, assistenza e costi. Punto negoziale VOCE, distinto da un obbligo generale di esportazione fondato sul GDPR."
+      }
+    },
+    {
+      "id": "funds",
+      "type": "contractual",
+      "workflows": [
+        "ticketing"
+      ],
+      "source_ids": [],
+      "title": {
+        "fr": "Clarifier les flux financiers",
+        "en": "Clarify payment flows",
+        "it": "Chiarire i flussi finanziari"
+      },
+      "question": {
+        "fr": "Qui encaisse, rapproche et rembourse les ventes? Documenter commissions, réserves, reversements et responsabilités. Le paquet de sources ne tranche pas les règles des services de paiement.",
+        "en": "Who collects, reconciles and refunds sales? Document fees, reserves, settlements and responsibilities. This source packet does not determine payment services rules.",
+        "it": "Chi incassa, riconcilia e rimborsa le vendite? Documentare commissioni, riserve, riversamenti e responsabilità. Il pacchetto non determina le regole sui servizi di pagamento."
+      }
+    },
+    {
+      "id": "availability",
+      "type": "contractual",
+      "workflows": [
+        "ticketing",
+        "clauses"
+      ],
+      "source_ids": [],
+      "title": {
+        "fr": "Prévoir la continuité du service",
+        "en": "Plan service continuity",
+        "it": "Pianificare la continuità del servizio"
+      },
+      "question": {
+        "fr": "Définir les engagements de service, l'accès sur site en cas de panne et les voies d'escalade. Point contractuel à négocier, sans garantie de conformité donnée par LEGIS.",
+        "en": "Define service commitments, onsite access during an outage and escalation routes. A contractual point to negotiate, with no compliance guarantee from LEGIS.",
+        "it": "Definire impegni di servizio, accesso in sede durante un guasto e vie di escalation. Punto contrattuale da negoziare, senza garanzia di conformità da LEGIS."
+      }
+    }
+  ]
+}

@@ -13,6 +13,14 @@
   "ai": {
     "binding": "AI"
   },
+  "d1_databases": [
+    {
+      "binding": "LEGIS_DB",
+      "database_name": "voce-legis-beta",
+      "database_id": "62db925a-8b3a-40c1-9936-1ef63fb95bf1",
+      "migrations_dir": "migrations/legis"
+    }
+  ],
   "r2_buckets": [
     {
       "binding": "VOCE_CORPUS",

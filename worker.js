@@ -1,3 +1,5 @@
+import { handleLegis } from './legis-worker.js';
+
 const CORE_FILES = [
   "en/cours.html",
   "en/cours/campus.html",
@@ -1799,9 +1801,14 @@ async function syncCorpus(env) {
 }
 
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
     const pathname = url.pathname.length > 1 ? url.pathname.replace(/\/+$/, "") : url.pathname;
+    if (pathname.startsWith('/api/legis/')) return handleLegis(request, env, ctx);
+    if (pathname === '/en/legis') return Response.redirect('https://voce.life/legis', 308);
+    if (/^\/(?:fr\/|it\/)?legis(?:\.html)?$/.test(pathname) || ['/legis-core.js','/legis-copy.js','/legis-ui.js','/legis.css','/data/legis-sources.json'].includes(pathname)) {
+      return injectPrivacyDefault(await env.ASSETS.fetch(request));
+    }
     const voceBriefMatch = pathname.match(/^\/assets\/audio\/voce-brief-(guide|academy|research|art|governance|technoference|sovereignty|workforce|applied|publications|courses)-(fr|en|it)\.wav$/);
     if (voceBriefMatch) return serveVoceBrief(request, env, voceBriefMatch[1], voceBriefMatch[2]);
     const voceAudioMatch = pathname.match(/^\/assets\/audio\/voce-signature-(fr|en|it)\.wav$/);

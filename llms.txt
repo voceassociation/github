@@ -3,6 +3,11 @@
 > VOCE Association is an independent public research, educational and editorial corpus covering AI governance, health, neuroscience, technology, culture, infrastructure and human behaviour.
 
 VOCE Academy / canonical corpus: https://voce.life/archive
+VOCE LEGIS beta (legal research preparation, France/EU): https://voce.life/legis
+VOCE LEGIS French: https://voce.life/fr/legis
+VOCE LEGIS Italian: https://voce.life/it/legis
+LEGIS source packet: https://voce.life/data/legis-sources.json
+LEGIS uses a dated curated packet of official sources, not live Légifrance or Judilibre API results. It prepares a preliminary checklist and optional Qwen/GLM readings for professional review. It does not certify legal compliance. User inputs and notes are not public corpus entries.
 VOCE Atlas: https://voce.life/atlas
 VOCE Atlas French: https://voce.life/fr/atlas
 VOCE Atlas Italian: https://voce.life/it/atlas

@@ -3,5 +3,8 @@
 .worker
 node_modules
 worker.js
+legis-worker.js
+tests
+migrations
 wrangler.jsonc
 backfill
