@@ -1,0 +1,302 @@
+{
+  "schema": "voce.linkedin-catchup-progress.v1",
+  "checked_at": "2026-10-14T21:52:43.686Z",
+  "status": "published_live_full_r2_backup_verified",
+  "source_method": "One normal authenticated activity read followed by exact public single-post metadata fetches; no stealth, proxy change, CAPTCHA handling, Facebook substitution or media download.",
+  "access": {
+    "run_id": "2ec6a31e-0588-4776-b84a-49b6eb620a37",
+    "profile_id": "prof_236917ff0f01402f",
+    "status": "accessible",
+    "profile_verified": true,
+    "posts_tab_selected": true,
+    "previous_boundary_reached": true,
+    "blocker": null
+  },
+  "previous_latest_id": "7515849033970696193",
+  "added_ids": [
+    "7516226514670120961",
+    "7516211411694280705",
+    "7516196319993016322",
+    "7516181213452169216",
+    "7516166228848271360",
+    "7516151053134929922",
+    "7516135969692069888",
+    "7516120838291787777",
+    "7516105737375330305",
+    "7516090634231910400",
+    "7516075556489113600",
+    "7516045312646508545",
+    "7516030210933174272",
+    "7516015124885876736",
+    "7516000003052675072",
+    "7515984885552021504",
+    "7515969795943686144"
+  ],
+  "added_count": 17,
+  "latest_source": {
+    "id": "7516226514670120961",
+    "source_publication_datetime": "2026-10-14T20:00:46.116Z",
+    "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516226514670120961/",
+    "canonical": "https://voce.life/archive/2026/10/14/chez-les-enfants-qui-doutent-d-eux-un-compliment-exagere-peut-faire-choi-7516226514670120961"
+  },
+  "sources": [
+    {
+      "linkedin_id": "7516226514670120961",
+      "canonical_url": "https://voce.life/archive/2026/10/14/chez-les-enfants-qui-doutent-d-eux-un-compliment-exagere-peut-faire-choi-7516226514670120961",
+      "title": "Chez les enfants qui doutent d'eux, un compliment exagéré peut faire choisir la facilité",
+      "text_chars": 2919,
+      "source_publication_datetime": "2026-10-14T20:00:46.116Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516226514670120961/",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_psychologie-parents-enfants-activity-7516226515857125376-4Ufu",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7516226515857125376"
+    },
+    {
+      "linkedin_id": "7516211411694280705",
+      "canonical_url": "https://voce.life/archive/2026/10/14/le-toucher-d-un-tissu-laisse-une-signature-ultrasonore-que-le-frottement-7516211411694280705",
+      "title": "Le toucher d'un tissu laisse une signature ultrasonore que le frottement seul ne révèle pas",
+      "text_chars": 2857,
+      "source_publication_datetime": "2026-10-14T19:00:52.530Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516211411694280705/",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_luxe-textile-tribologie-activity-7516211443269001216-NNa2",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7516211443269001216"
+    },
+    {
+      "linkedin_id": "7516196319993016322",
+      "canonical_url": "https://voce.life/archive/2026/10/14/retraites-62-des-montants-de-la-majoration-pour-trois-enfants-vont-aux-h-7516196319993016322",
+      "title": "Retraites: 62% des montants de la majoration pour trois enfants vont aux hommes",
+      "text_chars": 2493,
+      "source_publication_datetime": "2026-10-14T18:00:55.769Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516196319993016322/",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_retraites-egalitefemmeshommes-politiquespubliques-activity-7516196357360111616-849d",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7516196357360111616"
+    },
+    {
+      "linkedin_id": "7516181213452169216",
+      "canonical_url": "https://voce.life/archive/2026/10/14/le-poignet-peut-faire-perdre-jusqu-a-54-de-force-transmissible-sans-que-7516181213452169216",
+      "title": "Le poignet peut faire perdre jusqu'à 54% de force transmissible sans que les muscles aient changé",
+      "text_chars": 2600,
+      "source_publication_datetime": "2026-10-14T17:00:51.582Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516181213452169216/",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_biom%C3%A9canique-ergonomie-robotique-activity-7516181240308375552-JFx6",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7516181240308375552"
+    },
+    {
+      "linkedin_id": "7516166228848271360",
+      "canonical_url": "https://voce.life/archive/2026/10/14/apres-des-antibiotiques-malassezia-le-champignon-des-pellicules-prolifer-7516166228848271360",
+      "title": "Après des antibiotiques, Malassezia, le champignon des pellicules, prolifère dans l'intestin de bébés",
+      "text_chars": 2877,
+      "source_publication_datetime": "2026-10-14T16:01:19.650Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516166228848271360/",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_antibiotiques-p%C3%A9diatrie-microbiote-activity-7516166258539606017-cvMn",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7516166258539606017"
+    },
+    {
+      "linkedin_id": "7516151053134929922",
+      "canonical_url": "https://voce.life/archive/2026/10/14/prematurite-le-meme-bebe-peut-perdre-1-2-ecart-type-ou-seulement-0-4-sel-7516151053134929922",
+      "title": "Prématurité: le même bébé peut perdre 1,2 écart-type ou seulement 0,4 selon la courbe utilisée",
+      "text_chars": 2883,
+      "source_publication_datetime": "2026-10-14T15:01:02.472Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516151053134929922/",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_pr%C3%A9maturit%C3%A9-n%C3%A9onatologie-croissance-activity-7516151086991351809-25Do",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7516151086991351809"
+    },
+    {
+      "linkedin_id": "7516135969692069888",
+      "canonical_url": "https://voce.life/archive/2026/10/14/retard-de-marche-chez-l-enfant-l-oreille-interne-peut-etre-en-cause-meme-7516135969692069888",
+      "title": "Retard de marche chez l'enfant: l'oreille interne peut être en cause même si son audition paraît normale",
+      "text_chars": 2958,
+      "source_publication_datetime": "2026-10-14T14:01:06.181Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516135969692069888/",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_enfance-d%C3%A9veloppementmoteur-oreilleinterne-activity-7516136003053625344-mSJN",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7516136003053625344"
+    },
+    {
+      "linkedin_id": "7516120838291787777",
+      "canonical_url": "https://voce.life/archive/2026/10/14/sollicitations-sexuelles-en-ligne-plus-d-un-adolescent-sur-deux-n-en-par-7516120838291787777",
+      "title": "Sollicitations sexuelles en ligne: plus d'un adolescent sur deux n'en parle pas à ses parents",
+      "text_chars": 2651,
+      "source_publication_datetime": "2026-10-14T13:00:58.053Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516120838291787777/",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_adolescence-s%C3%A9curit%C3%A9num%C3%A9rique-parentalit%C3%A9-activity-7516120869467885569-BBs_",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7516120869467885569"
+    },
+    {
+      "linkedin_id": "7516105737375330305",
+      "canonical_url": "https://voce.life/archive/2026/10/14/harcelement-scolaire-en-coree-former-les-enseignants-change-ce-que-font-7516105737375330305",
+      "title": "Harcèlement scolaire: en Corée, former les enseignants change ce que font les témoins",
+      "text_chars": 2883,
+      "source_publication_datetime": "2026-10-14T12:00:58.527Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516105737375330305/",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_harc%C3%A8lementscolaire-adolescence-education-activity-7516105771961544704-Og0R",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7516105771961544704"
+    },
+    {
+      "linkedin_id": "7516090634231910400",
+      "canonical_url": "https://voce.life/archive/2026/10/14/a-5-ans-entendre-un-adulte-critiquer-les-questions-d-un-autre-enfant-peu-7516090634231910400",
+      "title": "À 5 ans, entendre un adulte critiquer les questions d'un autre enfant peut diviser par deux les siennes",
+      "text_chars": 2743,
+      "source_publication_datetime": "2026-10-14T11:00:56.745Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516090634231910400/",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-psychologiedud%C3%A9veloppement-activity-7516090664992911360-9SuV",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7516090664992911360"
+    },
+    {
+      "linkedin_id": "7516075556489113600",
+      "canonical_url": "https://voce.life/archive/2026/10/14/maia-300-microsoft-veut-deployer-jusqu-a-un-million-de-puces-ia-maison-p-7516075556489113600",
+      "title": "Maia 300: Microsoft veut déployer jusqu'à un million de puces IA maison pour réduire sa dépendance à Nvidia",
+      "text_chars": 2802,
+      "source_publication_datetime": "2026-10-14T10:01:04.038Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516075556489113600/",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_maia300-microsoft-nvidia-activity-7516075596091891712-Fj41",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7516075596091891712"
+    },
+    {
+      "linkedin_id": "7516045312646508545",
+      "canonical_url": "https://voce.life/archive/2026/10/14/sanfilippo-fayuvi-pourrait-preserver-les-acquis-cognitifs-d-enfants-cond-7516045312646508545",
+      "title": "Sanfilippo: Fayuvi pourrait préserver les acquis cognitifs d'enfants condamnés à les perdre",
+      "text_chars": 2879,
+      "source_publication_datetime": "2026-10-14T08:00:50.367Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516045312646508545/",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_maladiesrares-sanfilippo-fayuvi-activity-7516045339758440448-px9l",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7516045339758440448"
+    },
+    {
+      "linkedin_id": "7516030210933174272",
+      "canonical_url": "https://voce.life/archive/2026/10/14/ebro-foods-krbl-amazon-l-arsenic-du-riz-devient-un-risque-sanitaire-et-c-7516030210933174272",
+      "title": "EBRO FOODS, KRBL, AMAZON: L'ARSENIC DU RIZ DEVIENT UN RISQUE SANITAIRE ET CONTENTIEUX",
+      "text_chars": 2971,
+      "source_publication_datetime": "2026-10-14T07:00:49.846Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516030210933174272/",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_arsenic-sant%C3%A9publique-ebrofoods-activity-7516030238078758913-9elq",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7516030238078758913"
+    },
+    {
+      "linkedin_id": "7516015124885876736",
+      "canonical_url": "https://voce.life/archive/2026/10/14/myelome-multiple-blenrep-l-anticancereux-ne-d-une-toxine-marine-retire-p-7516015124885876736",
+      "title": "Myélome multiple: Blenrep, l'anticancéreux né d'une toxine marine, retiré puis réautorisé en Europe",
+      "text_chars": 2981,
+      "source_publication_datetime": "2026-10-14T06:00:54.721Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516015124885876736/",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-blenrep-gsk-activity-7516015159035863040-qlix",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7516015159035863040"
+    },
+    {
+      "linkedin_id": "7516000003052675072",
+      "canonical_url": "https://voce.life/archive/2026/10/14/openai-chat-latest-votre-modele-peut-changer-sans-que-votre-code-change-7516000003052675072",
+      "title": "OpenAI chat-latest: votre modèle peut changer sans que votre code change",
+      "text_chars": 2966,
+      "source_publication_datetime": "2026-10-14T05:00:47.448Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516000003052675072/",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-aigovernance-aiassurance-activity-7516000029032194048-8DvU",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7516000029032194048"
+    },
+    {
+      "linkedin_id": "7515984885552021504",
+      "canonical_url": "https://voce.life/archive/2026/10/14/github-copilot-computer-use-votre-vieux-logiciel-devient-pilotable-sans-7515984885552021504",
+      "title": "GitHub Copilot Computer Use: votre vieux logiciel devient pilotable sans API",
+      "text_chars": 2997,
+      "source_publication_datetime": "2026-10-14T04:00:43.400Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515984885552021504/",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_voceassociation-github-copilot-activity-7515984912559280128-ua6Q",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515984912559280128"
+    },
+    {
+      "linkedin_id": "7515969795943686144",
+      "canonical_url": "https://voce.life/archive/2026/10/14/apollo-e-il-private-credit-che-ora-ha-un-prezzo-ogni-giorno-7515969795943686144",
+      "title": "APOLLO E IL PRIVATE CREDIT CHE ORA HA UN PREZZO OGNI GIORNO",
+      "text_chars": 2892,
+      "source_publication_datetime": "2026-10-14T03:00:44.591Z",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7515969795943686144/",
+      "linkedin_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_privatecredit-apollo-finance-activity-7515969818102218752-fvFI",
+      "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515969818102218752"
+    }
+  ],
+  "raw_packet": "backfill/raw/2026-10-14.json",
+  "source_commit": "47b2ec6aeef8227604783d703b642e40f9ed93f8",
+  "generated_commit": "d9f5a08bd72f0062244f3d74a1e1452d270d95d2",
+  "workflow": {
+    "run_id": 38638497220,
+    "job_id": 116107699815,
+    "conclusion": "success"
+  },
+  "validation": {
+    "corpus_items": 1661,
+    "canonical_routes": 1661,
+    "redirects": 2,
+    "unique_ids": true,
+    "unique_full_texts": true,
+    "alternate_ids_not_reimported": true,
+    "new_conflicts": 0,
+    "preexisting_conflicts_preserved": 334,
+    "rss_items": 50,
+    "discovery_validation_passed": true,
+    "sitemap_urls": 2471,
+    "vault_routes_in_sitemap": 0
+  },
+  "live_verification": {
+    "academy_counter": 1661,
+    "article_url": "https://voce.life/archive/2026/10/14/chez-les-enfants-qui-doutent-d-eux-un-compliment-exagere-peut-faire-choi-7516226514670120961",
+    "self_canonical": true,
+    "robots_index_follow": true,
+    "body_after_title_exact_after_safe_html_whitespace_normalization": true,
+    "source_text_characters": 2919,
+    "original_link_present": true,
+    "og_image": "https://voce.life/voce-og.jpg",
+    "daily_archive_link_present": true,
+    "sitemap_entry_present": true,
+    "guide_query": "Chez les enfants qui doutent d'eux, un compliment exagéré peut faire choisir la facilité",
+    "guide_top_source_exact": true
+  },
+  "indexnow": {
+    "http_status": 200,
+    "submitted_url_count": 67,
+    "run_id": 38638497220,
+    "job_id": 116107699815,
+    "scope": "current four-day publication batch",
+    "indexing_claimed": false
+  },
+  "r2": {
+    "checked_at": "2026-10-14T21:52:43.686Z",
+    "status": "ok",
+    "bucket": "voce-sovereign-corpus",
+    "private": true,
+    "article_routes": 1661,
+    "corpus_items": 1661,
+    "article_routes_synced": 1661,
+    "source_snapshot_complete": true,
+    "backup_complete": true,
+    "total_objects_target": 1781,
+    "objects_synced": 1781,
+    "derived_backup_complete": true,
+    "total_derived_objects": 1770,
+    "derived_objects_synced": 1770,
+    "derived_article_pages_synced": 1661
+  },
+  "drive_research_registry": {
+    "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
+    "checked": true,
+    "formal_records": 2,
+    "unchanged": true,
+    "records": [
+      {
+        "type": "Preprint",
+        "creator": "Cano, Giovanni",
+        "issued": "2026-03-23",
+        "doi": "10.5281/zenodo.19189281",
+        "voce_url": "https://voce.life/research/introspective-technoference"
+      },
+      {
+        "type": "Report",
+        "creator": "VOCE Association",
+        "issued": "2026-03-19",
+        "doi": "10.5281/zenodo.19114381",
+        "voce_url": "https://voce.life/research/parental-technoference-language-development"
+      }
+    ]
+  },
+  "facebook_paused": true,
+  "media_downloaded": false,
+  "coverage_complete": false,
+  "historical_conflicts_preserved": 334,
+  "report": "backfill/reports/linkedin-catchup-progress-2026-10-14.json"
+}
