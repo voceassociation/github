@@ -1,4 +1,7 @@
 .legis-page{--legis-accent:#d7cbb4}
+.legis-public-entry{background:#edf1e7;border-bottom:1px solid #ccd4c5;padding:16px 0;font-size:.76rem;color:var(--forest)}
+.legis-public-entry .wrap{display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.legis-public-entry a{border-bottom:1px solid #819574;font-weight:500;padding:3px 0}
 .legis-hero{background:var(--forest);color:var(--paper);padding:78px 0 76px}
 .legis-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:100px;align-items:end}
 .legis-kicker{font:600 .65rem var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--forest);margin:0 0 22px}

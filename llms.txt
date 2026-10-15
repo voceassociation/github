@@ -4,6 +4,9 @@
 
 VOCE Academy / canonical corpus: https://voce.life/archive
 VOCE LEGIS beta (legal research preparation, France/EU): https://voce.life/legis
+LEGIS public access-to-rights pathway (France, local browser preparation and official referrals, not legal representation): https://voce.life/fr/legis/aide
+LEGIS public English: https://voce.life/legis/help
+LEGIS public Italian: https://voce.life/it/legis/aiuto
 VOCE LEGIS French: https://voce.life/fr/legis
 VOCE LEGIS Italian: https://voce.life/it/legis
 LEGIS source packet: https://voce.life/data/legis-sources.json

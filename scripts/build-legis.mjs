@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {COPY} from '../legis-copy.js';
+import {HELP_COPY,HELP_ROUTES} from '../legis-help-content.js';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const catalog=JSON.parse(fs.readFileSync(path.join(root,'data/legis-sources.json'),'utf8'));
@@ -18,7 +19,7 @@ for(const lang of ['en','fr','it']) {
 <title>${esc(t.title)}</title><meta name="description" content="${esc(t.description)}">
 <meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="${url}">
 <link rel="alternate" hreflang="en" href="https://voce.life/legis"><link rel="alternate" hreflang="fr" href="https://voce.life/fr/legis"><link rel="alternate" hreflang="it" href="https://voce.life/it/legis"><link rel="alternate" hreflang="x-default" href="https://voce.life/legis">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/legis.css?v=20261014">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/legis.css?v=20261015">
 <meta property="og:type" content="website"><meta property="og:site_name" content="VOCE"><meta property="og:title" content="${esc(t.title)}"><meta property="og:description" content="${esc(t.description)}"><meta property="og:url" content="${url}"><meta property="og:image" content="https://voce.life/voce-og.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(t.title)}"><meta name="twitter:description" content="${esc(t.description)}"><meta name="twitter:image" content="https://voce.life/voce-og.jpg"><meta name="theme-color" content="#123e33">
 <script type="application/ld+json">${JSON.stringify(schema).replace(/</g,'\\u003c')}</script>
 </head>
@@ -26,6 +27,7 @@ for(const lang of ['en','fr','it']) {
 <a class="skip-link" href="#main-content">${esc(t.skip)}</a>
 <header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span>VOCE</span></a><nav class="menu" aria-label="VOCE"><a href="/">${esc(t.home)}</a><a href="/archive">${t.academy}</a><a href="${prefix}/governance">${t.governance}</a><a href="${prefix}/visual-guides">${t.visuals}</a><span class="lang" role="group" aria-label="Language"><a href="/legis" ${lang==='en'?'class="active" aria-current="page"':''}>EN</a><a href="/fr/legis" ${lang==='fr'?'class="active" aria-current="page"':''}>FR</a><a href="/it/legis" ${lang==='it'?'class="active" aria-current="page"':''}>IT</a></span></nav></div></header>
 <main id="main-content">
+<aside class="legis-public-entry"><div class="wrap"><span>${esc(HELP_COPY[lang].proBanner)}</span><a href="${HELP_ROUTES[lang]}">${esc(HELP_COPY[lang].proBannerLink)} ↗</a></div></aside>
 <section class="legis-hero"><div class="wrap legis-hero-grid"><div><p class="legis-kicker">${t.kicker}</p><h1>${t.headline}</h1><p class="legis-deck">${t.deck}</p><div class="legis-actions"><a class="legis-button" href="#workshop">${t.open}</a><button class="legis-link" type="button" data-legis-example>${t.example}</button></div></div><aside class="legis-scope"><h2>${t.scope}</h2><p>${t.scopeText}</p><p>${t.phase}</p><span>FR / EN / IT</span></aside></div></section>
 <section class="legis-section" id="workshop"><div class="wrap"><div class="legis-section-head"><p class="legis-kicker">LEGIS</p><h2>${t.workshop}</h2><p>${t.workshopText}</p></div>
 <div class="legis-workspace">

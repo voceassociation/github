@@ -1804,6 +1804,21 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     const pathname = url.pathname.length > 1 ? url.pathname.replace(/\/+$/, "") : url.pathname;
+    // The public access-to-rights pathway processes its form only in the browser.
+    // Keep it free of shared analytics/audio injections and block case submissions.
+    if (pathname === '/en/legis/help') return Response.redirect('https://voce.life/legis/help', 308);
+    const legisHelpPage = /^\/(?:fr\/legis\/aide|legis\/help|it\/legis\/aiuto)(?:\.html)?$/.test(pathname);
+    if (legisHelpPage || /^\/legis-help(?:-(?:content|core|ui)\.js|\.css)$/.test(pathname)) {
+      const response = await env.ASSETS.fetch(request);
+      const headers = new Headers(response.headers);
+      headers.set('referrer-policy', 'no-referrer');
+      headers.set('x-content-type-options', 'nosniff');
+      if (legisHelpPage) {
+        headers.set('content-security-policy', "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'; form-action 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'");
+        headers.set('permissions-policy', 'camera=(), microphone=(), geolocation=()');
+      }
+      return new Response(response.body, {status:response.status,headers});
+    }
     if (pathname.startsWith('/api/legis/')) return handleLegis(request, env, ctx);
     if (pathname === '/en/legis') return Response.redirect('https://voce.life/legis', 308);
     if (/^\/(?:fr\/|it\/)?legis(?:\.html)?$/.test(pathname) || ['/legis-core.js','/legis-copy.js','/legis-ui.js','/legis.css','/data/legis-sources.json'].includes(pathname)) {
