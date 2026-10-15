@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generated_at": "2026-10-14",
+  "generated_at": "2026-10-15",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
   "methodology": {
@@ -3962,6 +3962,58 @@
       "path": "/archive/2026/10/14/le-toucher-d-un-tissu-laisse-une-signature-ultrasonore-que-le-frottement-7516211411694280705",
       "sectors": [
         "cross"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7516498338977001473",
+      "date": "2026-10-15",
+      "title": "Block supprime 4.000 postes, mais ses dépenses remontent: l'angle mort du light workforce",
+      "path": "/archive/2026/10/15/block-supprime-4-000-postes-mais-ses-depenses-remontent-l-angle-mort-du-7516498338977001473",
+      "sectors": [
+        "legal",
+        "hr",
+        "finance"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7516362421037506561",
+      "date": "2026-10-15",
+      "title": "Google Agent Gateway: l'agent peut demander un virement de 2.000 $, l'infrastructure peut dire non",
+      "path": "/archive/2026/10/15/google-agent-gateway-l-agent-peut-demander-un-virement-de-2-000-l-infras-7516362421037506561",
+      "sectors": [
+        "legal",
+        "hr",
+        "finance",
+        "banking",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7516347283248951296",
+      "date": "2026-10-15",
+      "title": "Salesforce Agentforce: l'assuré peut déclarer un sinistre sans qu'aucun salarié ne prenne l'appel",
+      "path": "/archive/2026/10/15/salesforce-agentforce-l-assure-peut-declarer-un-sinistre-sans-qu-aucun-s-7516347283248951296",
+      "sectors": [
+        "legal",
+        "hr",
+        "finance",
+        "banking",
+        "it"
       ],
       "themes": [
         "LI!GHT WORKFORCE ©",
