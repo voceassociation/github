@@ -1,12 +1,14 @@
 (() => {
   const SVG_NS = "http://www.w3.org/2000/svg";
   const pageLang = ["fr","it"].includes(document.documentElement.lang) ? document.documentElement.lang : "en";
-  const storedLang = localStorage.getItem("voce-lang");
+  const readLanguage = () => { try { return localStorage.getItem("voce-lang"); } catch { return null; } };
+  const saveLanguage = value => { try { localStorage.setItem("voce-lang",value); } catch {} };
+  const storedLang = readLanguage();
   if (location.pathname === "/atlas" && ["fr","it"].includes(storedLang)) {
-    location.replace("/" + storedLang + "/atlas" + location.hash);
+    location.replace("/" + storedLang + "/atlas" + location.search + location.hash);
     return;
   }
-  localStorage.setItem("voce-lang", pageLang);
+  saveLanguage(pageLang);
 
   const UI = {
     en:{source:"Source",read:"Read in VOCE →",permanent:"Permanent page →",relationPage:"Relation record →",relation:"relation",relations:"relations",empty:"No documented relation in this curated edition.",noConcept:"No concept in this curated edition.",unavailable:"Atlas unavailable",unavailableText:"The knowledge map could not be loaded. VOCE Academy remains available as the canonical corpus.",openAcademy:"Open VOCE Academy",readCorpus:"Read the corpus →",concepts:"concepts",documented:"documented relations",sourceRecords:"source records",territories:"knowledge territories",directRelations:"direct relations",uniqueSources:"source records",domainsReached:"territories reached",bridgesTitle:"Documentary bridges",bridge:"bridge",bridges:"bridges",bridgesVia:"via",bridgesNote:"Two-step adjacency only. Each leg is documented separately; the bridge does not assert causality.",noBridges:"No two-step documentary bridge from this concept in the current Atlas.",bridgeRecords:"relation records",pathChoose:"Choose a concept",pathResult:"Documented path",pathNone:"No documented path connects these concepts in the current Atlas.",pathSources:"source records",pathTerritories:"territories",pathCrossings:"cross-domain crossings",pathNote:"Atlas traverses graph adjacency in either direction. Relation statements retain their published source-target wording; the route does not establish direction or causality.",mapDirectNote:"Select a node. Directly documented concepts remain visible; unrelated material recedes.",mapBridgeNote:"Bridge lens: two-step documentary adjacencies appear through dashed connections. Proximity does not imply causality.",mapPathNote:"Path view: highlighted adjacency is documentary and non-directional; relation wording remains source-traceable.",allRelations:"All relation classes",inference:"Inference prohibited",showing:"Showing",visibleRelations:"visible relations",semanticClass:"Relation class"},
@@ -47,10 +49,10 @@
     a.addEventListener("click",e=>{
       const href=a.getAttribute("href")||"";
       const targetLang=href.startsWith("/fr/")?"fr":href.startsWith("/it/")?"it":"en";
-      localStorage.setItem("voce-lang",targetLang);
-      if(location.hash){
+      saveLanguage(targetLang);
+      if(location.search||location.hash){
         e.preventDefault();
-        location.href=href+location.hash;
+        location.href=href+location.search+location.hash;
       }
     });
   });
@@ -347,7 +349,7 @@
     renderPath(path);
   }
 
-  function selectNode(id,updateHash=true){if(!data.nodes.some(n=>n.id===id))return;selectedId=id;activeDomain=null;activePath=null;if(pathResult)pathResult.hidden=true;renderPanel(id);updateVisualState();if(updateHash){setPathQuery("","");history.replaceState(null,"",location.pathname+slugHash(id))}}
+  function selectNode(id,updateHash=true){if(!data.nodes.some(n=>n.id===id))return;selectedId=id;activeDomain=null;activePath=null;if(pathResult)pathResult.hidden=true;renderPanel(id);updateVisualState();if(updateHash){setPathQuery("","");history.replaceState(null,"",location.pathname+location.search+slugHash(id))}}
 
   function renderSearchResults(value){
     const q=value.trim().toLowerCase();if(!q){searchResults.hidden=true;searchResults.innerHTML="";return}

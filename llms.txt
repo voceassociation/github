@@ -64,6 +64,10 @@ Each published Atlas relation has a permanent evidence-backed HTML record in Eng
 
 All 63 Atlas concepts and all 76 relation records are included in the XML sitemap in EN/FR/IT. The Atlas root pages also contain static HTML links to every permanent concept page so discovery does not depend on JavaScript.
 
+Atlas offers four editorial reading paths for AI procurement, agent identity, work and ownership, and cultural perception. These paths support professional review without asserting certification or a recommendation. Each relation page includes both concept definitions, a question appropriate to its evidence class, neighbouring relation records, and a canonical citation. The presentation update dated 2026-10-16 does not imply that the underlying research or graph was newly verified on that date.
+
+LEGIS public access to rights remains a free orientation pathway, distinct from the professional contract analysis beta. Public case preparation stays in the person's browser and does not enter the Academy corpus or Atlas graph.
+
 ## Search, social and answer-engine discovery
 
 The public VOCE corpus is intentionally available for indexing, citation, link previews and answer-engine grounding. robots.txt explicitly permits major discovery agents including Googlebot, Bingbot, MicrosoftPreview, Meta/Facebook fetchers, LinkedInBot, OAI-SearchBot, ChatGPT-User, PerplexityBot, Applebot and DuckDuckBot. Microsoft/Bing ecosystem updates are also signalled through IndexNow when relevant public URLs change.

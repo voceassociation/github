@@ -1,4 +1,6 @@
 import { handleLegis } from './legis-worker.js';
+import { serveCachedPublicPage } from './public-page-cache.js';
+import { ATLAS_PRESENTATION_UPDATED_AT, renderAtlasRelationContext } from './atlas-editorial.js';
 
 const CORE_FILES = [
   "en/cours.html",
@@ -83,6 +85,7 @@ const CORE_FILES = [
   "fr/argos.html",
   "it/argos.html",
   "atlas.js",
+  "atlas-editorial.css",
   "solutions.js",
   "data/atlas.json",
   "data/applied-solutions.json",
@@ -508,7 +511,7 @@ function renderAtlasConcept(atlas, node, locale = "en") {
   const l = atlasLocale(locale);
   const ui = l === "fr" ? {
     skip:"Aller au contenu", nav:"Navigation principale", themes:"Thèmes", research:"Recherche", standards:"Standards", publications:"Publications", about:"À propos", copyright:"Copyright © 2025-2026 VOCE Association. Tous droits réservés.",
-    source:"Source", read:"Lire dans VOCE →", relations:"Relations", relationTitle:"Où ce concept se relie.",
+    read:"Lire dans VOCE →", relations:"Relations", relationTitle:"Où ce concept se relie.",
     relationSignal:"Chaque ligne ci-dessous est conservée uniquement lorsqu’une publication VOCE ou un travail de recherche formel soutient la relation.",
     method:"Méthode", methodTitle:"Une relation doit mériter sa ligne.",
     methodText:"VOCE Atlas est un graphe de connaissances éditorial. La simple cooccurrence ne crée pas une relation publiée. Chaque connexion porte désormais une classe sémantique et une limite d’inférence qui font partie du dossier au même titre que la source.",
@@ -517,7 +520,7 @@ function renderAtlasConcept(atlas, node, locale = "en") {
     language:"Langue", relationRecord:"Dossier de relation →"
   } : l === "it" ? {
     skip:"Vai al contenuto", nav:"Navigazione principale", themes:"Temi", research:"Ricerca", standards:"Standard", publications:"Pubblicazioni", about:"Chi siamo", copyright:"Copyright © 2025-2026 VOCE Association. Tutti i diritti riservati.",
-    source:"Fonte", read:"Leggi in VOCE →", relations:"Relazioni", relationTitle:"Dove si collega questo concetto.",
+    read:"Leggi in VOCE →", relations:"Relazioni", relationTitle:"Dove si collega questo concetto.",
     relationSignal:"Ogni linea qui sotto viene mantenuta solo quando una pubblicazione VOCE o un lavoro di ricerca formale sostiene la relazione.",
     method:"Metodo", methodTitle:"Una relazione deve meritare la sua linea.",
     methodText:"VOCE Atlas è un grafo della conoscenza curatoriale. La semplice co-occorrenza non crea una relazione pubblicata. Ogni connessione porta ora una classe semantica e un limite di inferenza che fanno parte del record insieme alla fonte.",
@@ -526,7 +529,7 @@ function renderAtlasConcept(atlas, node, locale = "en") {
     language:"Lingua", relationRecord:"Scheda della relazione →"
   } : {
     skip:"Skip to content", nav:"Primary navigation", themes:"Themes", research:"Research", standards:"Standards", publications:"Publications", about:"About", copyright:"Copyright © 2025-2026 VOCE Association. All rights reserved.",
-    source:"Source", read:"Read in VOCE →", relations:"Relations", relationTitle:"Where this concept connects.",
+    read:"Read in VOCE →", relations:"Relations", relationTitle:"Where this concept connects.",
     relationSignal:"Each line below is retained only when a VOCE publication or formal research record supports the relationship.",
     method:"Method", methodTitle:"A relation must earn its line.",
     methodText:"VOCE Atlas is a curated knowledge graph. Co-occurrence alone does not create a published relationship. Every connection now carries a semantic class and an inference boundary that remain part of the record alongside its source.",
@@ -574,7 +577,7 @@ function renderAtlasConcept(atlas, node, locale = "en") {
     description:summary,
     url:canonical,
     inLanguage:l,
-    dateModified:atlas.generated_at || "2026-10-06",
+    dateModified:ATLAS_PRESENTATION_UPDATED_AT,
     publisher:{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},
     mainEntityOfPage:canonical,
     inDefinedTermSet:{
@@ -616,13 +619,14 @@ function renderAtlasConcept(atlas, node, locale = "en") {
 <meta property="og:site_name" content="VOCE">
 <meta property="og:locale" content="${atlasOgLocale(l)}">
 ${atlasOgAlternateLocales(l).map(value=>`<meta property="og:locale:alternate" content="${value}">`).join("\n")}
-<meta property="article:modified_time" content="${escapeHtml(atlas.generated_at || "2026-10-06")}">
+<meta property="article:modified_time" content="${ATLAS_PRESENTATION_UPDATED_AT}">
 <meta property="og:title" content="${escapeHtml(title)} — VOCE Atlas">
 <meta property="og:description" content="${escapeHtml(summary)}">
 <meta property="og:url" content="${canonical}">
 <meta name="twitter:title" content="${escapeHtml(title)} — VOCE Atlas">
 <meta name="twitter:description" content="${escapeHtml(summary)}">
 <link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/atlas-editorial.css?v=20261016">
 <script type="application/ld+json">${JSON.stringify(ld).replace(/</g,"\\u003c")}</script>
 </head>
 <body class="atlas-page">
@@ -675,17 +679,18 @@ function renderAtlasRelation(atlas, edge, locale = "en") {
   const inference = atlasInferenceDefinition(atlas,edge,l);
   const semanticRecord = renderAtlasSemanticRecord(atlas,edge,l,true);
   const citation = evidenceItems.filter(x=>x?.url).map(x=>x.url.startsWith("http")?x.url:`https://voce.life${x.url}`);
-  const ld = {"@context":"https://schema.org","@type":"WebPage","@id":canonical+"#relation","identifier":id,name:`${a} — ${b} | VOCE Atlas`,description:statement,url:canonical,inLanguage:l,dateModified:atlas.generated_at || "2026-10-06",publisher:{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},isPartOf:{"@type":"WebSite","name":"VOCE","url":"https://voce.life/"},about:[{"@type":"DefinedTerm","name":a,"url":`https://voce.life${atlasConceptPath(source.id,l)}`},{"@type":"DefinedTerm","name":b,"url":`https://voce.life${atlasConceptPath(target.id,l)}`}],citation,additionalProperty:[{"@type":"PropertyValue","name":"VOCE Atlas relation class","value":semantic?.label||edge.semantic_type||""},{"@type":"PropertyValue","name":"VOCE Atlas inference boundary","value":inference?.description||edge.inference_boundary||""}],breadcrumb:{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VOCE","item":"https://voce.life/"},{"@type":"ListItem","position":2,"name":"VOCE Atlas","item":`https://voce.life${root}`},{"@type":"ListItem","position":3,"name":a,"item":`https://voce.life${atlasConceptPath(source.id,l)}`},{"@type":"ListItem","position":4,"name":`${a} — ${b}`,"item":canonical}]}};
+  const ld = {"@context":"https://schema.org","@type":"WebPage","@id":canonical+"#relation","identifier":id,name:`${a} — ${b} | VOCE Atlas`,description:statement,url:canonical,inLanguage:l,dateModified:ATLAS_PRESENTATION_UPDATED_AT,publisher:{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},isPartOf:{"@type":"WebSite","name":"VOCE","url":"https://voce.life/"},about:[{"@type":"DefinedTerm","name":a,"url":`https://voce.life${atlasConceptPath(source.id,l)}`},{"@type":"DefinedTerm","name":b,"url":`https://voce.life${atlasConceptPath(target.id,l)}`}],citation,additionalProperty:[{"@type":"PropertyValue","name":"VOCE Atlas relation class","value":semantic?.label||edge.semantic_type||""},{"@type":"PropertyValue","name":"VOCE Atlas inference boundary","value":inference?.description||edge.inference_boundary||""}],breadcrumb:{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VOCE","item":"https://voce.life/"},{"@type":"ListItem","position":2,"name":"VOCE Atlas","item":`https://voce.life${root}`},{"@type":"ListItem","position":3,"name":a,"item":`https://voce.life${atlasConceptPath(source.id,l)}`},{"@type":"ListItem","position":4,"name":`${a} — ${b}`,"item":canonical}]}};
   const applied = l==="en"?"/applied":`/${l}/applied`;
   return `<!doctype html><html lang="${l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${escapeHtml(a)} — ${escapeHtml(b)} | VOCE Atlas</title><meta name="description" content="${escapeHtml(statement)}"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"><meta name="googlebot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"><meta name="author" content="VOCE Association">
 <link rel="canonical" href="${canonical}"><link rel="alternate" hreflang="en" href="https://voce.life/atlas/relations/${escapeHtml(id)}"><link rel="alternate" hreflang="fr" href="https://voce.life/fr/atlas/relations/${escapeHtml(id)}"><link rel="alternate" hreflang="it" href="https://voce.life/it/atlas/relations/${escapeHtml(id)}"><link rel="alternate" hreflang="x-default" href="https://voce.life/atlas/relations/${escapeHtml(id)}">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta property="og:type" content="article"><meta property="og:site_name" content="VOCE"><meta property="og:locale" content="${atlasOgLocale(l)}">${atlasOgAlternateLocales(l).map(value=>`<meta property="og:locale:alternate" content="${value}">`).join("")}<meta property="article:modified_time" content="${escapeHtml(atlas.generated_at || "2026-10-06")}"><meta property="og:title" content="${escapeHtml(a)} — ${escapeHtml(b)} | VOCE Atlas"><meta property="og:description" content="${escapeHtml(statement)}"><meta property="og:url" content="${canonical}"><link rel="stylesheet" href="/styles.css"><script type="application/ld+json">${JSON.stringify(ld).replace(/</g,"\\u003c")}</script></head>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta property="og:type" content="article"><meta property="og:site_name" content="VOCE"><meta property="og:locale" content="${atlasOgLocale(l)}">${atlasOgAlternateLocales(l).map(value=>`<meta property="og:locale:alternate" content="${value}">`).join("")}<meta property="article:modified_time" content="${ATLAS_PRESENTATION_UPDATED_AT}"><meta property="og:title" content="${escapeHtml(a)} — ${escapeHtml(b)} | VOCE Atlas"><meta property="og:description" content="${escapeHtml(statement)}"><meta property="og:url" content="${canonical}"><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/atlas-editorial.css?v=20261016"><script type="application/ld+json">${JSON.stringify(ld).replace(/</g,"\\u003c")}</script></head>
 <body class="atlas-page"><a class="skip-link" href="#main-content">${copy.skip}</a><header><div class="wrap nav"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><nav class="menu" aria-label="${copy.nav}"><a href="/#themes">${copy.themes}</a><a href="/research">${copy.research}</a><a href="/archive">Academy</a><a href="${root}" class="active">Atlas</a><a href="${applied}">Applied</a><a href="/standards">${copy.standards}</a><a href="/publications">${copy.publications}</a><a class="keep" href="/art">Art</a><a class="keep" href="/about">${copy.about}</a><span class="lang" role="group" aria-label="${copy.language}"><a href="/atlas/relations/${escapeHtml(id)}"${l==="en"?' class="active" aria-current="page"':""}>EN</a><a href="/fr/atlas/relations/${escapeHtml(id)}"${l==="fr"?' class="active" aria-current="page"':""}>FR</a><a href="/it/atlas/relations/${escapeHtml(id)}"${l==="it"?' class="active" aria-current="page"':""}>IT</a></span></nav></div></header>
 <main id="main-content"><section class="topic-hero atlas-relation-hero"><div class="wrap"><div class="topic-kicker">VOCE Atlas · ${copy.relation}</div><h1 class="topic-title">${escapeHtml(a)} ↔ ${escapeHtml(b)}</h1><p class="topic-deck">${escapeHtml(statement)}</p><div class="topic-meta"><span>${escapeHtml(semantic?.label||copy.relation)}</span><span>${evidenceItems.length} ${copy.evidence.toLowerCase()}</span><span>${copy.permanent}</span></div></div></section>
 <section class="topic-body"><div class="wrap topic-layout"><aside class="topic-nav"><div class="topic-nav-label">VOCE Atlas</div><a href="${root}?from=${escapeHtml(source.id)}&to=${escapeHtml(target.id)}&semantic=${escapeHtml(edge.semantic_type||"")}">${copy.openMap}</a><a href="${atlasConceptPath(source.id,l)}">${escapeHtml(a)}</a><a href="${atlasConceptPath(target.id,l)}">${escapeHtml(b)}</a><a href="/data/atlas.json">Atlas JSON</a><a href="/CORPUS_RIGHTS.txt">${copy.rights}</a></aside><div class="longform">
 <section class="chapter"><div class="chapter-no">${copy.relation}</div><div class="atlas-relation-bridge"><a href="${atlasConceptPath(source.id,l)}">${escapeHtml(a)}</a><span>↔</span><a href="${atlasConceptPath(target.id,l)}">${escapeHtml(b)}</a></div><p class="atlas-relation-statement">${escapeHtml(statement)}</p>${semanticRecord}</section>
 <section class="chapter"><div class="chapter-no">${copy.evidence}</div><h2>${copy.evidenceTitle}</h2><div class="atlas-evidence">${evidenceHtml}</div></section>
+${renderAtlasRelationContext(atlas,edge,l)}
 <section class="chapter"><div class="chapter-no">${copy.method}</div><h2>${copy.methodTitle}</h2><p>${copy.methodText}</p><p><a href="${root}?from=${escapeHtml(source.id)}&to=${escapeHtml(target.id)}&semantic=${escapeHtml(edge.semantic_type||"")}">${copy.openMap} →</a></p></section>
 </div></div></section></main><footer><div class="wrap"><div class="footer"><a class="voce-mark" href="/" aria-label="VOCE"><span></span></a><div class="footer-right"><div>Paris · London · Dubai · Hangzhou · Shanghai · Hong Kong</div><div><a href="/archive">VOCE Academy</a> · <a href="${root}">VOCE Atlas</a> · <a href="/research">${copy.research}</a></div><div>${copy.copyright}</div></div></div></div></footer></body></html>`;
 }
@@ -1800,7 +1805,7 @@ async function syncCorpus(env) {
   });
 }
 
-export default {
+const app = {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     const pathname = url.pathname.length > 1 ? url.pathname.replace(/\/+$/, "") : url.pathname;
@@ -2026,6 +2031,14 @@ export default {
       );
     }
 
+    // Static pages, styles, images and datasets do not need the article corpus.
+    // Keep the dynamic archive, public corpus and RSS transformations below.
+    const needsCorpus = /^\/archive\/(?:\d{4}\/\d{2}\/\d{2}\/[^/]+|\d{4}-\d{2}-\d{2})$/.test(pathname)
+      || ["/data/corpus.json", "/data/corpus.ndjson", "/feed.xml"].includes(pathname);
+    if (!needsCorpus) {
+      return injectPrivacyDefault(await env.ASSETS.fetch(request));
+    }
+
     const routes = await loadRoutes(env);
     const corpus = await loadCorpus(env);
     routes._corpusItems = corpus.items || [];
@@ -2121,6 +2134,15 @@ export default {
 
   async scheduled(controller, env, ctx) {
     ctx.waitUntil(syncCorpus(env));
+  }
+};
+
+export default {
+  fetch(request, env, ctx) {
+    return serveCachedPublicPage(request, env, ctx, () => app.fetch(request, env, ctx));
+  },
+  scheduled(controller, env, ctx) {
+    return app.scheduled(controller, env, ctx);
   }
 };
 

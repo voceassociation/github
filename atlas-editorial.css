@@ -1,0 +1,24 @@
+.atlas-dossiers{padding:4.5rem 0;border-bottom:1px solid var(--line,#dce2dd);background:#f5f4ee}
+.atlas-dossiers h2{font-family:var(--serif,'Cormorant Garamond',Georgia,serif);font-weight:500;font-size:clamp(2rem,4vw,3.2rem);line-height:1.13;margin:.7rem 0 1rem;color:#173b31}
+.atlas-dossiers-intro{max-width:760px;line-height:1.8;color:#475a50}
+.atlas-dossier-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 2.5rem;margin:2.5rem 0 2rem}
+.atlas-dossier{padding:1.5rem 0 1.75rem;border-top:1px solid #cbd5cc;display:flex;flex-direction:column;align-items:flex-start}
+.atlas-dossier-number{font-size:.7rem;letter-spacing:.14em;color:#64776b}
+.atlas-dossier h3{font-family:var(--serif,'Cormorant Garamond',Georgia,serif);font-size:1.7rem;line-height:1.2;font-weight:500;margin:.7rem 0;color:#173b31}
+.atlas-dossier p{font-size:.92rem;line-height:1.75;color:#475a50;max-width:470px;margin:0 0 1.2rem}
+.atlas-dossier a{margin-top:auto;font-size:.8rem;font-weight:600;color:#173b31;text-underline-offset:4px}
+.atlas-review-links{display:flex;flex-wrap:wrap;align-items:baseline;gap:.8rem 1.6rem;padding-top:1.5rem;border-top:1px solid #cbd5cc;font-size:.75rem;line-height:1.6}
+.atlas-review-links>span{color:#64776b;text-transform:uppercase;letter-spacing:.08em}
+.atlas-review-links a{color:#173b31;text-underline-offset:3px}
+.atlas-context-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem;margin:0 0 2rem}
+.atlas-context-grid h2{font-size:1.6rem!important;line-height:1.2}
+.atlas-context-grid p,.atlas-scope-note{font-size:.9rem!important;line-height:1.8!important}
+.atlas-scope-note{padding:1rem 1.2rem;background:#f5f4ee;border-left:2px solid #9cad9b}
+.atlas-related-records{padding-left:1.2rem;line-height:1.8;font-size:.9rem;columns:2;column-gap:2rem}
+.atlas-related-records li{break-inside:avoid;margin-bottom:.5rem}
+.atlas-citation{border-top:1px solid #dce2dd;border-bottom:1px solid #dce2dd;padding:1rem 0;margin-top:1.8rem;font-size:.8rem;overflow-wrap:anywhere}
+.atlas-citation summary{cursor:pointer;font-weight:600;color:#173b31}
+.atlas-citation p{font-size:.8rem!important;line-height:1.8!important}
+.atlas-dossiers a:focus-visible,.atlas-citation summary:focus-visible{outline:2px solid #173b31;outline-offset:5px}
+@media(max-width:700px){.atlas-dossiers{padding:2.5rem 0}.atlas-dossier-grid,.atlas-context-grid{grid-template-columns:1fr;gap:0}.atlas-related-records{columns:1}.atlas-review-links{flex-direction:column;gap:.8rem}.atlas-dossier p{max-width:none}}
+@media print{.atlas-dossiers{background:white}.atlas-dossier-grid{grid-template-columns:1fr 1fr}.atlas-citation{display:block}.atlas-record-context{break-before:auto}.atlas-related-records a{color:black}}

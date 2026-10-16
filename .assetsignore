@@ -4,6 +4,9 @@
 node_modules
 worker.js
 legis-worker.js
+public-page-cache.js
+atlas-editorial.js
+scripts
 tests
 migrations
 wrangler.jsonc
