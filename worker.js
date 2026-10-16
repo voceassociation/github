@@ -577,7 +577,7 @@ function renderAtlasConcept(atlas, node, locale = "en") {
     description:summary,
     url:canonical,
     inLanguage:l,
-    dateModified:ATLAS_PRESENTATION_UPDATED_AT,
+    dateModified:atlas.generated_at || "2026-10-06",
     publisher:{"@type":"Organization","name":"VOCE Association","url":"https://voce.life/"},
     mainEntityOfPage:canonical,
     inDefinedTermSet:{
@@ -619,14 +619,13 @@ function renderAtlasConcept(atlas, node, locale = "en") {
 <meta property="og:site_name" content="VOCE">
 <meta property="og:locale" content="${atlasOgLocale(l)}">
 ${atlasOgAlternateLocales(l).map(value=>`<meta property="og:locale:alternate" content="${value}">`).join("\n")}
-<meta property="article:modified_time" content="${ATLAS_PRESENTATION_UPDATED_AT}">
+<meta property="article:modified_time" content="${escapeHtml(atlas.generated_at || "2026-10-06")}">
 <meta property="og:title" content="${escapeHtml(title)} — VOCE Atlas">
 <meta property="og:description" content="${escapeHtml(summary)}">
 <meta property="og:url" content="${canonical}">
 <meta name="twitter:title" content="${escapeHtml(title)} — VOCE Atlas">
 <meta name="twitter:description" content="${escapeHtml(summary)}">
 <link rel="stylesheet" href="/styles.css">
-<link rel="stylesheet" href="/atlas-editorial.css?v=20261016">
 <script type="application/ld+json">${JSON.stringify(ld).replace(/</g,"\\u003c")}</script>
 </head>
 <body class="atlas-page">
