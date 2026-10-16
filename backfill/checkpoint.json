@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-15T21:09:53.718Z",
+  "updated_at": "2026-10-16T21:08:32.268584+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1624,11 +1624,20 @@
       ],
       "source": "authenticated_linkedin_browser",
       "coverage_complete": false
+    },
+    "2026-10-16": {
+      "status": "rows_returned",
+      "rows": 18,
+      "source_packets": [
+        "backfill/raw/2026-10-16.json"
+      ],
+      "source": "authenticated_linkedin_browser",
+      "coverage_complete": false
     }
   },
-  "retrieved_unique_publications": 1679,
-  "newly_archived": 16,
-  "academy_corpus_items": 1677,
+  "retrieved_unique_publications": 1697,
+  "newly_archived": 18,
+  "academy_corpus_items": 1695,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
@@ -1717,23 +1726,23 @@
     },
     "current_publication_ingest": {
       "dates": [
-        "2026-10-12",
         "2026-10-13",
         "2026-10-14",
-        "2026-10-15"
+        "2026-10-15",
+        "2026-10-16"
       ],
       "verified_source": "VOCE verified source packets with explicit platform provenance",
-      "items_processed": 65,
-      "corpus_items_after": 1677,
+      "items_processed": 66,
+      "corpus_items_after": 1695,
       "classification": "A editorial/archive",
-      "static_pages_verified_for_generation": 65,
+      "static_pages_verified_for_generation": 66,
       "daily_archives": [
-        "archive/2026-10-12.html",
         "archive/2026-10-13.html",
         "archive/2026-10-14.html",
-        "archive/2026-10-15.html"
+        "archive/2026-10-15.html",
+        "archive/2026-10-16.html"
       ],
-      "completed_at": "2026-10-15T21:04:00.474876+00:00"
+      "completed_at": "2026-10-16T21:08:32.969910+00:00"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",

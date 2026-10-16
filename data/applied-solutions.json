@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generated_at": "2026-10-15",
+  "generated_at": "2026-10-16",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
   "methodology": {
@@ -4012,6 +4012,161 @@
         "legal",
         "hr",
         "finance",
+        "banking",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7516845604593995777",
+      "date": "2026-10-16",
+      "title": "Accesso Passport: un musée peut internaliser sa billetterie sans reconstruire toute l'infrastructure",
+      "path": "/archive/2026/10/16/accesso-passport-un-musee-peut-internaliser-sa-billetterie-sans-reconstr-7516845604593995777",
+      "sectors": [
+        "culture",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7516739868908199936",
+      "date": "2026-10-16",
+      "title": "Deloitte trace la route vers le closing autonome. SAP en confie déjà des étapes à ses agents",
+      "path": "/archive/2026/10/16/deloitte-trace-la-route-vers-le-closing-autonome-sap-en-confie-deja-des-7516739868908199936",
+      "sectors": [
+        "legal",
+        "finance",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7516770096036450304",
+      "date": "2026-10-16",
+      "title": "Digits: plus de 96% de ses transactions sont désormais comptabilisées sans intervention manuelle",
+      "path": "/archive/2026/10/16/digits-plus-de-96-de-ses-transactions-sont-desormais-comptabilisees-sans-7516770096036450304",
+      "sectors": [
+        "legal",
+        "finance",
+        "banking",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7516815402128175104",
+      "date": "2026-10-16",
+      "title": "Google DeepMind: Co-Scientist retrouve en deux jours un mécanisme que les chercheurs n'avaient pas encore publié",
+      "path": "/archive/2026/10/16/google-deepmind-co-scientist-retrouve-en-deux-jours-un-mecanisme-que-les-7516815402128175104",
+      "sectors": [
+        "legal",
+        "healthops"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7516785203642642432",
+      "date": "2026-10-16",
+      "title": "Locus Array: le robot qui veut retirer plus de 90% des gestes manuels du picking",
+      "path": "/archive/2026/10/16/locus-array-le-robot-qui-veut-retirer-plus-de-90-des-gestes-manuels-du-p-7516785203642642432",
+      "sectors": [
+        "legal"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7516724789806403585",
+      "date": "2026-10-16",
+      "title": "Quand deux définitions de l'équité rendent la même IA juste et injuste",
+      "path": "/archive/2026/10/16/quand-deux-definitions-de-l-equite-rendent-la-meme-ia-juste-et-injuste-7516724789806403585",
+      "sectors": [
+        "banking"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7516709656199766016",
+      "date": "2026-10-16",
+      "title": "SAP Joule: l'ERP commence à organiser les décisions avant de les enregistrer",
+      "path": "/archive/2026/10/16/sap-joule-l-erp-commence-a-organiser-les-decisions-avant-de-les-enregist-7516709656199766016",
+      "sectors": [
+        "legal",
+        "hr",
+        "finance",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7516875800273494016",
+      "date": "2026-10-16",
+      "title": "Shopify Agentic Storefronts: ChatGPT peut devenir la première vitrine d'une marque",
+      "path": "/archive/2026/10/16/shopify-agentic-storefronts-chatgpt-peut-devenir-la-premiere-vitrine-d-u-7516875800273494016",
+      "sectors": [
+        "legal",
+        "culture",
+        "marketing"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7516694571146420224",
+      "date": "2026-10-16",
+      "title": "Une donnée synthétique peut révéler si l'original faisait partie des données d'entraînement",
+      "path": "/archive/2026/10/16/une-donnee-synthetique-peut-reveler-si-l-original-faisait-partie-des-don-7516694571146420224",
+      "sectors": [
+        "legal",
+        "banking"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7516755010119049218",
+      "date": "2026-10-16",
+      "title": "Votre fournisseur peut supprimer le modèle IA qui fait travailler vos agents",
+      "path": "/archive/2026/10/16/votre-fournisseur-peut-supprimer-le-modele-ia-qui-fait-travailler-vos-ag-7516755010119049218",
+      "sectors": [
+        "legal",
         "banking",
         "it"
       ],
