@@ -1,0 +1,3947 @@
+{
+  "version": "0.2.0",
+  "publication_date": "2026-10-17",
+  "courses": [
+    {
+      "id": "VOCE-AI-001",
+      "pillar": "AI",
+      "title": "Un modèle ne suffit pas à faire fonctionner un service",
+      "objective": "Cartographier composants, flux et points d’arrêt",
+      "competence_id": "VCLF-API-AI001",
+      "references": [
+        "VOCE16",
+        "NIST",
+        "NISTGEN",
+        "OWASP"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-13",
+      "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
+      "url": "https://voce.life/cours/modele-et-systeme",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-002",
+      "pillar": "AI",
+      "title": "Qui donne ses droits à un agent?",
+      "objective": "Définir une matrice de droits testable",
+      "competence_id": "VCLF-API-AI002",
+      "references": [
+        "VOCE16",
+        "NIST",
+        "NISTGEN",
+        "OWASP"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-13",
+      "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
+      "url": "https://voce.life/cours/permissions-agent",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-003",
+      "pillar": "AI",
+      "title": "Quelle preuve demander avant d’autoriser une action?",
+      "objective": "Relier un contrôle à une preuve observée",
+      "competence_id": "VCLF-GOV-AI003",
+      "references": [
+        "VOCE16",
+        "NIST",
+        "NISTGEN",
+        "OWASP"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-13",
+      "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
+      "url": "https://voce.life/cours/preuves-controle",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-004",
+      "pillar": "AI",
+      "title": "L’agent change: que faut-il vérifier à nouveau?",
+      "objective": "Définir les tests nécessaires après modification",
+      "competence_id": "VCLF-GOV-AI004",
+      "references": [
+        "VOCE16",
+        "NIST",
+        "NISTGEN",
+        "OWASP"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-13",
+      "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
+      "url": "https://voce.life/cours/reevaluer-agent",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-005",
+      "pillar": "AI",
+      "title": "Combien coûte une tâche vraiment terminée?",
+      "objective": "Calculer un coût complet par résultat accepté",
+      "competence_id": "VCLF-GOV-AI005",
+      "references": [
+        "VOCE16",
+        "NIST",
+        "NISTGEN",
+        "OWASP"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-13",
+      "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
+      "url": "https://voce.life/cours/cout-tache-terminee",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-006",
+      "pillar": "AI",
+      "title": "Si l’IA traite les dossiers simples, comment former les juniors?",
+      "objective": "Concevoir une progression pour les débutants",
+      "competence_id": "VCLF-GOV-AI006",
+      "references": [
+        "VOCE16",
+        "NIST",
+        "RETRIEVAL",
+        "UNESCOED",
+        "CLASSROOM"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-13",
+      "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
+      "url": "https://voce.life/cours/former-les-juniors",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-007",
+      "pillar": "AI",
+      "title": "À quel moment autoriser l’assistance?",
+      "objective": "Définir le moment et la fonction de l’assistance",
+      "competence_id": "VCLF-GOV-AI007",
+      "references": [
+        "VOCE16",
+        "NIST",
+        "RETRIEVAL",
+        "UNESCOED",
+        "CLASSROOM"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-13",
+      "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
+      "url": "https://voce.life/cours/quand-utiliser-assistance",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-008",
+      "pillar": "AI",
+      "title": "Cliquer sur approuver suffit-il à superviser?",
+      "objective": "Tester une supervision capable de refuser",
+      "competence_id": "VCLF-GOV-AI008",
+      "references": [
+        "VOCE16",
+        "NIST",
+        "AUTOBIAS",
+        "OWASP"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-13",
+      "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
+      "url": "https://voce.life/cours/supervision-humaine",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-009",
+      "pillar": "AI",
+      "title": "Que faut-il savoir pour reprendre sans l’outil?",
+      "objective": "Préparer la reprise des opérations incertaines",
+      "competence_id": "VCLF-API-AI009",
+      "references": [
+        "VOCE16",
+        "NIST",
+        "OFFLOAD",
+        "NISTGEN"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-13",
+      "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
+      "url": "https://voce.life/cours/reprendre-sans-outil",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-010",
+      "pillar": "AI",
+      "title": "Pouvez-vous remplacer votre fournisseur d’IA?",
+      "objective": "Tester la réversibilité du service complet",
+      "competence_id": "VCLF-API-AI010",
+      "references": [
+        "VOCE16",
+        "NIST",
+        "NISTGEN",
+        "OWASP"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-13",
+      "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
+      "url": "https://voce.life/cours/remplacer-fournisseur",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-011",
+      "pillar": "AI",
+      "title": "Tsinghua et AGIBOT: passer de la simulation à un robot au travail",
+      "objective": "Séparer réussite autonome et assistée",
+      "competence_id": "VCLF-AI-AI011",
+      "references": [
+        "VOCE16",
+        "TSINGHUA",
+        "VOCEINFRA"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-13",
+      "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
+      "url": "https://voce.life/cours/tsinghua-agibot-robot-production",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-012",
+      "pillar": "AI",
+      "title": "Shanghai Jiao Tong: comprendre un véhicule électrique au-delà de sa batterie",
+      "objective": "Comparer les véhicules selon la mission",
+      "competence_id": "VCLF-AI-AI012",
+      "references": [
+        "VOCE16",
+        "SJTU",
+        "DOE",
+        "VOCESOV"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-13",
+      "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
+      "url": "https://voce.life/cours/shanghai-jiao-tong-architecture-electrique",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-013",
+      "pillar": "AI",
+      "title": "Tsinghua et AGIBOT: choisir les données qui apprendront une tâche au robot",
+      "objective": "Séparer collecte et évaluation robotique",
+      "competence_id": "VCLF-AI-AI013",
+      "references": [
+        "VOCE16",
+        "TSINGHUA",
+        "ICENTER",
+        "NIST"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-13",
+      "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
+      "url": "https://voce.life/cours/tsinghua-agibot-donnees-robot",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-014",
+      "pillar": "AI",
+      "title": "Shanghai Jiao Tong: intégrer la température dans une décision de mobilité électrique",
+      "objective": "Définir un essai de disponibilité thermique",
+      "competence_id": "VCLF-AI-AI014",
+      "references": [
+        "VOCE16",
+        "SJTU",
+        "DOE",
+        "VOCESOV"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-13",
+      "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
+      "url": "https://voce.life/cours/shanghai-jiao-tong-gestion-thermique",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-015",
+      "pillar": "AI",
+      "title": "Tsinghua iCenter: le robot doit comprendre l’espace où vous l’installez",
+      "objective": "Définir le domaine d’environnement d’un robot",
+      "competence_id": "VCLF-AI-AI015",
+      "references": [
+        "VOCE16",
+        "TSINGHUA",
+        "ICENTER",
+        "NIST"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-13",
+      "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
+      "url": "https://voce.life/cours/tsinghua-icenter-environnement-robot",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-016",
+      "pillar": "AI",
+      "title": "Tsinghua: passer d’un matériau prometteur à une production conforme",
+      "objective": "Calculer cadence conforme et rendement",
+      "competence_id": "VCLF-AI-AI016",
+      "references": [
+        "VOCE16",
+        "MICHIGAN",
+        "TSINGMAT",
+        "FFB"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-13",
+      "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
+      "url": "https://voce.life/cours/tsinghua-materiaux-production-conforme",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-017",
+      "pillar": "AI",
+      "title": "Un jeton change le coût d'une langue",
+      "objective": "Calculer un écart de consommation de jetons et identifier les coûts non mesurés",
+      "competence_id": "VCLF-AI-AI017",
+      "references": [
+        "STANFORD"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-017",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-018",
+      "pillar": "AI",
+      "title": "L'attention et le prix du contexte",
+      "objective": "Estimer le coût d'une attention dense",
+      "competence_id": "VCLF-AI-AI018",
+      "references": [
+        "TRANSFORMER"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-018",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-019",
+      "pillar": "AI",
+      "title": "FlashAttention et la circulation des données",
+      "objective": "Distinguer réduction des transferts mémoire et approximation",
+      "competence_id": "VCLF-AI-AI019",
+      "references": [
+        "FLASH"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-019",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-020",
+      "pillar": "AI",
+      "title": "Adapter un modèle avec LoRA",
+      "objective": "Calculer les paramètres d'une adaptation de faible rang",
+      "competence_id": "VCLF-AI-AI020",
+      "references": [
+        "LORA"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-020",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-021",
+      "pillar": "AI",
+      "title": "La préférence humaine ne garantit pas la vérité",
+      "objective": "Construire une évaluation distincte de l'alignement",
+      "competence_id": "VCLF-AI-AI021",
+      "references": [
+        "DPO"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-021",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-022",
+      "pillar": "AI",
+      "title": "DeepSeek-R1: ce que récompense un raisonnement",
+      "objective": "Auditer la vérifiabilité d'une récompense",
+      "competence_id": "VCLF-AI-AI022",
+      "references": [
+        "R1"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-022",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-023",
+      "pillar": "AI",
+      "title": "Un modèle quantifié peut changer une décision",
+      "objective": "Préparer une comparaison de précision numérique",
+      "competence_id": "VCLF-AI-AI023",
+      "references": [
+        "NISTGEN"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-023",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-024",
+      "pillar": "AI",
+      "title": "RAG: retrouver ne suffit pas à répondre",
+      "objective": "Séparer erreur de recherche et erreur de génération",
+      "competence_id": "VCLF-AI-AI024",
+      "references": [
+        "RAG"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-024",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-025",
+      "pillar": "AI",
+      "title": "La version d'un document est une condition de réponse",
+      "objective": "Concevoir une règle documentaire temporelle",
+      "competence_id": "VCLF-GOV-AI025",
+      "references": [
+        "RAG",
+        "RGPD"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-025",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-026",
+      "pillar": "AI",
+      "title": "L'injection d'instructions dans les documents",
+      "objective": "Construire un test de frontière de confiance",
+      "competence_id": "VCLF-API-AI026",
+      "references": [
+        "OWASP",
+        "OWASPINJ"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-026",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-027",
+      "pillar": "AI",
+      "title": "Un connecteur MCP ne décide pas des droits",
+      "objective": "Décrire la séparation entre protocole et politique métier",
+      "competence_id": "VCLF-API-AI027",
+      "references": [
+        "MCP"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-027",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-028",
+      "pillar": "AI",
+      "title": "Le jeton destiné au mauvais service",
+      "objective": "Vérifier l'audience d'une autorisation",
+      "competence_id": "VCLF-API-AI028",
+      "references": [
+        "MCP"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-028",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-029",
+      "pillar": "AI",
+      "title": "Un remboursement ne doit pas être exécuté deux fois",
+      "objective": "Concevoir une reprise idempotente",
+      "competence_id": "VCLF-API-AI029",
+      "references": [
+        "NISTGEN",
+        "STRIPEIDEM"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-029",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-030",
+      "pillar": "AI",
+      "title": "Une réponse structurée peut être fausse",
+      "objective": "Définir un contrat de validation métier",
+      "competence_id": "VCLF-API-AI030",
+      "references": [
+        "NISTGEN"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-030",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-031",
+      "pillar": "AI",
+      "title": "Une chaîne d'agents multiplie les frontières",
+      "objective": "Établir un budget d'autorité partagé",
+      "competence_id": "VCLF-API-AI031",
+      "references": [
+        "OWASP"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-031",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-032",
+      "pillar": "AI",
+      "title": "La mémoire d'un agent peut contaminer demain",
+      "objective": "Définir une politique de persistance",
+      "competence_id": "VCLF-API-AI032",
+      "references": [
+        "NISTGEN"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-032",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-033",
+      "pillar": "AI",
+      "title": "Les journaux doivent reconstruire une décision",
+      "objective": "Concevoir une trace utile à l'audit",
+      "competence_id": "VCLF-API-AI033",
+      "references": [
+        "NISTGEN",
+        "RGPD"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-033",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-034",
+      "pillar": "AI",
+      "title": "Tester un agent sur des cas qu'il n'a pas vus",
+      "objective": "Préparer un ensemble d'évaluation indépendant",
+      "competence_id": "VCLF-AI-AI034",
+      "references": [
+        "NISTGEN"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-034",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-035",
+      "pillar": "AI",
+      "title": "Une moyenne masque les erreurs rares",
+      "objective": "Construire une évaluation par gravité",
+      "competence_id": "VCLF-AI-AI035",
+      "references": [
+        "NISTGEN"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-035",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-036",
+      "pillar": "AI",
+      "title": "Quand l'agent doit s'abstenir",
+      "objective": "Définir un compromis entre couverture et risque",
+      "competence_id": "VCLF-AI-AI036",
+      "references": [
+        "NISTGEN"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-036",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-037",
+      "pillar": "AI",
+      "title": "Une nouvelle source peut modifier la décision",
+      "objective": "Construire un contrôle de changement",
+      "competence_id": "VCLF-GOV-AI037",
+      "references": [
+        "NIST"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-037",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-038",
+      "pillar": "AI",
+      "title": "L'AI Act commence par un usage précis",
+      "objective": "Préparer une qualification réglementaire documentée",
+      "competence_id": "VCLF-GOV-AI038",
+      "references": [
+        "AIACT",
+        "AIACT26"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-038",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-039",
+      "pillar": "AI",
+      "title": "L'alphabétisation IA doit correspondre au travail",
+      "objective": "Construire une analyse de besoins vérifiable",
+      "competence_id": "VCLF-GOV-AI039",
+      "references": [
+        "AIACT26",
+        "DIGCOMP"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-039",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-040",
+      "pillar": "AI",
+      "title": "Une norme de management n'est pas un test du modèle",
+      "objective": "Délimiter la portée d'ISO 42001",
+      "competence_id": "VCLF-GOV-AI040",
+      "references": [
+        "ISO42001"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-040",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-041",
+      "pillar": "AI",
+      "title": "Le risque résiduel doit avoir un responsable",
+      "objective": "Rédiger une décision d'acceptation de risque",
+      "competence_id": "VCLF-GOV-AI041",
+      "references": [
+        "ISO23894"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-041",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-042",
+      "pillar": "AI",
+      "title": "Les données personnelles circulent avec la tâche",
+      "objective": "Établir une carte de traitement",
+      "competence_id": "VCLF-GOV-AI042",
+      "references": [
+        "RGPD"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-042",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-043",
+      "pillar": "AI",
+      "title": "La sécurité du système dépend de ses exceptions",
+      "objective": "Décrire un périmètre de sécurité cohérent",
+      "competence_id": "VCLF-GOV-AI043",
+      "references": [
+        "ISO27001"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-043",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-044",
+      "pillar": "AI",
+      "title": "Un incident exige une chronologie exploitable",
+      "objective": "Préparer une procédure d'arrêt et de reprise",
+      "competence_id": "VCLF-GOV-AI044",
+      "references": [
+        "NISTGEN",
+        "RGPD"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-044",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-045",
+      "pillar": "AI",
+      "title": "Acheter une IA avec des critères de réception",
+      "objective": "Rédiger une clause technique mesurable",
+      "competence_id": "VCLF-GOV-AI045",
+      "references": [
+        "NIST"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-045",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-046",
+      "pillar": "AI",
+      "title": "LI!GHT WORKFORCE ©: compter les tâches avant les postes",
+      "objective": "Construire une décomposition du travail",
+      "competence_id": "VCLF-GOV-AI046",
+      "references": [
+        "VOCE16"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-046",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-047",
+      "pillar": "AI",
+      "title": "Le travail humain se concentre dans les exceptions",
+      "objective": "Mesurer une charge résiduelle non proportionnelle",
+      "competence_id": "VCLF-GOV-AI047",
+      "references": [
+        "VOCE16"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-047",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-048",
+      "pillar": "AI",
+      "title": "La file d'attente absorbe le gain annoncé",
+      "objective": "Évaluer capacité et délai",
+      "competence_id": "VCLF-AI-AI048",
+      "references": [
+        "VOCE16"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-048",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-049",
+      "pillar": "AI",
+      "title": "Une économie calculée sur des dossiers acceptés",
+      "objective": "Construire une sensibilité économique",
+      "competence_id": "VCLF-GOV-AI049",
+      "references": [
+        "VOCE16"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-049",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-050",
+      "pillar": "AI",
+      "title": "Comparer un pilote à un contrefactuel crédible",
+      "objective": "Préparer une mesure d'impact",
+      "competence_id": "VCLF-GOV-AI050",
+      "references": [
+        "CONSORT"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-050",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-051",
+      "pillar": "AI",
+      "title": "Le contrôle interne d'un agent comptable",
+      "objective": "Séparer préparation et validation d'écriture",
+      "competence_id": "VCLF-GOV-AI051",
+      "references": [
+        "OWASP",
+        "NIST"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-051",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-052",
+      "pillar": "AI",
+      "title": "Un agent RH doit permettre la contestation",
+      "objective": "Préparer un dossier de décision examinable",
+      "competence_id": "VCLF-GOV-AI052",
+      "references": [
+        "RGPD",
+        "AIACT"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-052",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-053",
+      "pillar": "AI",
+      "title": "Un agent commercial peut engager l'entreprise",
+      "objective": "Définir des limites de négociation",
+      "competence_id": "VCLF-GOV-AI053",
+      "references": [
+        "OWASP"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-053",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-054",
+      "pillar": "AI",
+      "title": "Un agent juridique doit exposer le texte applicable",
+      "objective": "Évaluer une chaîne de sources juridiques",
+      "competence_id": "VCLF-GOV-AI054",
+      "references": [
+        "AIACT26"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-054",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-055",
+      "pillar": "AI",
+      "title": "Un robot réussi en laboratoire peut échouer au poste",
+      "objective": "Établir un domaine d'essai",
+      "competence_id": "VCLF-AI-AI055",
+      "references": [
+        "TSINGHUA"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-055",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-056",
+      "pillar": "AI",
+      "title": "La simulation laisse des inconnues au réel",
+      "objective": "Documenter le transfert simulation-terrain",
+      "competence_id": "VCLF-AI-AI056",
+      "references": [
+        "TSINGHUA"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-056",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-057",
+      "pillar": "AI",
+      "title": "Les données de téléopération portent des choix humains",
+      "objective": "Auditer un corpus de gestes",
+      "competence_id": "VCLF-AI-AI057",
+      "references": [
+        "TSINGHUA"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-057",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-058",
+      "pillar": "AI",
+      "title": "Une gigafactory vend des cellules conformes",
+      "objective": "Relier rendement et coût industriel",
+      "competence_id": "VCLF-AI-AI058",
+      "references": [
+        "MICHIGAN",
+        "VOCE16"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-058",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-059",
+      "pillar": "AI",
+      "title": "La mobilité électrique se juge sur le service rendu",
+      "objective": "Construire un protocole de disponibilité",
+      "competence_id": "VCLF-AI-AI059",
+      "references": [
+        "SJTU",
+        "DOE"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-059",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-AI-060",
+      "pillar": "AI",
+      "title": "Le comité de décision reçoit un dossier contradictoire",
+      "objective": "Assembler une décision de déploiement",
+      "competence_id": "VCLF-GOV-AI060",
+      "references": [
+        "NIST",
+        "VOCE16"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-ai-060",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-001",
+      "pillar": "ART",
+      "title": "Attribuer une œuvre sans effacer l'incertitude",
+      "objective": "Distinguer auteur, atelier et attribution",
+      "competence_id": "VCLF-ART-ART001",
+      "references": [
+        "GETTYVOC",
+        "NGTECH"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-001",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-002",
+      "pillar": "ART",
+      "title": "La provenance raconte des transferts documentés",
+      "objective": "Construire une chronologie de propriété",
+      "competence_id": "VCLF-ART-ART002",
+      "references": [
+        "GETTYPROV"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-002",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-003",
+      "pillar": "ART",
+      "title": "Un inventaire décrit aussi les catégories d'une époque",
+      "objective": "Comparer les mots d'archive et les catégories actuelles",
+      "competence_id": "VCLF-ART-ART003",
+      "references": [
+        "GETTYPROV",
+        "GETTYVOC"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-003",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-004",
+      "pillar": "ART",
+      "title": "Le cadre modifie l'histoire visible d'un tableau",
+      "objective": "Analyser l'objet dans son dispositif de présentation",
+      "competence_id": "VCLF-ART-ART004",
+      "references": [
+        "METFRAMES"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-004",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-005",
+      "pillar": "ART",
+      "title": "La commande artistique laisse des traces économiques",
+      "objective": "Interpréter un paiement sans réduire l'œuvre à son prix",
+      "competence_id": "VCLF-ART-ART005",
+      "references": [
+        "GETTYPROV"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-005",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-006",
+      "pillar": "ART",
+      "title": "Lire une peinture par ses couches",
+      "objective": "Distinguer support, préparation et surface",
+      "competence_id": "VCLF-ART-ART006",
+      "references": [
+        "NGTECH"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-006",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-007",
+      "pillar": "ART",
+      "title": "L'infrarouge révèle une autre étape du travail",
+      "objective": "Interpréter une image technique",
+      "competence_id": "VCLF-ART-ART007",
+      "references": [
+        "NGTECH"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-007",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-008",
+      "pillar": "ART",
+      "title": "Un pigment ne signe pas une œuvre",
+      "objective": "Évaluer la portée d'un indice matériel",
+      "competence_id": "VCLF-ART-ART008",
+      "references": [
+        "NGTECH"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-008",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-009",
+      "pillar": "ART",
+      "title": "Le nettoyage change ce que le public peut voir",
+      "objective": "Évaluer un dossier d'intervention",
+      "competence_id": "VCLF-ART-ART009",
+      "references": [
+        "ICCROM",
+        "NGTECH"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-009",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-010",
+      "pillar": "ART",
+      "title": "Une exposition est un budget d'exposition à la lumière",
+      "objective": "Calculer une dose lumineuse simple",
+      "competence_id": "VCLF-ART-ART010",
+      "references": [
+        "CCILIGHT"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-010",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-011",
+      "pillar": "ART",
+      "title": "Le climat d'une vitrine doit être mesuré dans le temps",
+      "objective": "Lire une série environnementale",
+      "competence_id": "VCLF-ART-ART011",
+      "references": [
+        "CCI"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-011",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-012",
+      "pillar": "ART",
+      "title": "L'état d'une œuvre doit survivre à son transport",
+      "objective": "Construire un constat comparatif",
+      "competence_id": "VCLF-ART-ART012",
+      "references": [
+        "CCI",
+        "ICCROM"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-012",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-013",
+      "pillar": "ART",
+      "title": "Les collections perdent aussi leurs identités",
+      "objective": "Prévenir la dissociation documentaire",
+      "competence_id": "VCLF-ART-ART013",
+      "references": [
+        "CCIDISS",
+        "CIDOC"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-013",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-014",
+      "pillar": "ART",
+      "title": "CIDOC CRM décrit des événements reliés",
+      "objective": "Modéliser une acquisition sans confondre les rôles",
+      "competence_id": "VCLF-ART-ART014",
+      "references": [
+        "CIDOC"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-014",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-015",
+      "pillar": "ART",
+      "title": "Europeana sépare l'objet de sa représentation numérique",
+      "objective": "Préparer une notice interopérable",
+      "competence_id": "VCLF-ART-ART015",
+      "references": [
+        "EDM"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-015",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-016",
+      "pillar": "ART",
+      "title": "Un vocabulaire contrôlé préserve les variantes",
+      "objective": "Construire une indexation multilingue",
+      "competence_id": "VCLF-ART-ART016",
+      "references": [
+        "GETTYVOC"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-016",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-017",
+      "pillar": "ART",
+      "title": "IIIF organise une consultation reproductible",
+      "objective": "Décrire un objet numérique composé",
+      "competence_id": "VCLF-ART-ART017",
+      "references": [
+        "IIIF"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-017",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-018",
+      "pillar": "ART",
+      "title": "Une image libre ne rend pas tout usage libre",
+      "objective": "Examiner la chaîne des droits",
+      "competence_id": "VCLF-ART-ART018",
+      "references": [
+        "METOA"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-018",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-019",
+      "pillar": "ART",
+      "title": "La couleur d'un écran n'est pas celle de l'objet",
+      "objective": "Définir les limites d'une reproduction",
+      "competence_id": "VCLF-ART-ART019",
+      "references": [
+        "NGTECH",
+        "IIIF"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-019",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-020",
+      "pillar": "ART",
+      "title": "Un détail recadré peut changer le récit",
+      "objective": "Analyser l'effet documentaire du cadrage",
+      "competence_id": "VCLF-ART-ART020",
+      "references": [
+        "IIIF",
+        "GETTYVOC"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-020",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-021",
+      "pillar": "ART",
+      "title": "L'iconographie exige des comparaisons datées",
+      "objective": "Construire une hypothèse de lecture",
+      "competence_id": "VCLF-ART-ART021",
+      "references": [
+        "GETTYVOC"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-021",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-022",
+      "pillar": "ART",
+      "title": "La copie révèle une circulation des formes",
+      "objective": "Distinguer copie, version et attribution",
+      "competence_id": "VCLF-ART-ART022",
+      "references": [
+        "NGTECH",
+        "GETTYPROV"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-022",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-023",
+      "pillar": "ART",
+      "title": "Un objet liturgique change de fonction au musée",
+      "objective": "Analyser le déplacement de contexte",
+      "competence_id": "VCLF-ART-ART023",
+      "references": [
+        "METFRAMES",
+        "CIDOC"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-023",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-024",
+      "pillar": "ART",
+      "title": "Restituer une œuvre exige une histoire vérifiable",
+      "objective": "Préparer un dossier documentaire contradictoire",
+      "competence_id": "VCLF-ART-ART024",
+      "references": [
+        "GETTYPROV",
+        "CIDOC"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-024",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-025",
+      "pillar": "ART",
+      "title": "Le patrimoine immatériel ne tient pas dans un fichier",
+      "objective": "Décrire une pratique et ses détenteurs",
+      "competence_id": "VCLF-ART-ART025",
+      "references": [
+        "UNESCO2003",
+        "CIDOC"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-025",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-026",
+      "pillar": "ART",
+      "title": "Une exposition numérique doit pouvoir être relue",
+      "objective": "Conserver les choix éditoriaux et leurs versions",
+      "competence_id": "VCLF-ART-ART026",
+      "references": [
+        "CIDOC",
+        "IIIF"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-026",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-027",
+      "pillar": "ART",
+      "title": "Un musée doit pouvoir quitter son prestataire numérique",
+      "objective": "Préparer une réversibilité documentaire",
+      "competence_id": "VCLF-ART-ART027",
+      "references": [
+        "EDM",
+        "IIIF"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-027",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-028",
+      "pillar": "ART",
+      "title": "Une reconstitution par IA doit montrer ses inventions",
+      "objective": "Définir une légende de transparence",
+      "competence_id": "VCLF-ART-ART028",
+      "references": [
+        "CIDOC",
+        "NISTGEN"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-028",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-029",
+      "pillar": "ART",
+      "title": "La valeur patrimoniale demande un argument public",
+      "objective": "Rédiger une justification documentée",
+      "competence_id": "VCLF-ART-ART029",
+      "references": [
+        "UNESCO"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-029",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-ART-030",
+      "pillar": "ART",
+      "title": "Un dossier d'œuvre qui résiste à la contradiction",
+      "objective": "Assembler un dossier scientifique de collection",
+      "competence_id": "VCLF-ART-ART030",
+      "references": [
+        "CIDOC",
+        "GETTYPROV",
+        "METOA"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-art-030",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-001",
+      "pillar": "COG",
+      "title": "Une association cérébrale ne démontre pas une cause",
+      "objective": "Identifier une inférence causale excessive",
+      "competence_id": "VCLF-COG-COG001",
+      "references": [
+        "STROBE"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-001",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-002",
+      "pillar": "COG",
+      "title": "Une différence significative peut être négligeable",
+      "objective": "Interpréter taille d'effet et incertitude",
+      "competence_id": "VCLF-COG-COG002",
+      "references": [
+        "COCHRANE"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-002",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-003",
+      "pillar": "COG",
+      "title": "Un petit échantillon rend le résultat fragile",
+      "objective": "Examiner la précision d'une estimation",
+      "competence_id": "VCLF-COG-COG003",
+      "references": [
+        "POWER"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-003",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-004",
+      "pillar": "COG",
+      "title": "Chercher cent effets augmente les fausses alertes",
+      "objective": "Reconnaître la multiplicité des analyses",
+      "competence_id": "VCLF-COG-COG004",
+      "references": [
+        "COS"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-004",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-005",
+      "pillar": "COG",
+      "title": "Préenregistrer ce qui pourrait contredire l'hypothèse",
+      "objective": "Rédiger un plan d'analyse vérifiable",
+      "competence_id": "VCLF-COG-COG005",
+      "references": [
+        "COS"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-005",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-006",
+      "pillar": "COG",
+      "title": "Une revue systématique peut manquer des études",
+      "objective": "Auditer une stratégie de recherche",
+      "competence_id": "VCLF-COG-COG006",
+      "references": [
+        "PRISMA"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-006",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-007",
+      "pillar": "COG",
+      "title": "Une méta-analyse réunit des différences réelles",
+      "objective": "Interpréter l'hétérogénéité",
+      "competence_id": "VCLF-COG-COG007",
+      "references": [
+        "COCHRANE"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-007",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-008",
+      "pillar": "COG",
+      "title": "L'IRM fonctionnelle ne photographie pas une pensée",
+      "objective": "Limiter l'inférence à partir d'une activation",
+      "competence_id": "VCLF-COG-COG008",
+      "references": [
+        "REVERSE"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-008",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-009",
+      "pillar": "COG",
+      "title": "Un résultat de groupe ne prédit pas une personne",
+      "objective": "Distinguer association et prédiction individuelle",
+      "competence_id": "VCLF-COG-COG009",
+      "references": [
+        "BWAS"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-009",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-010",
+      "pillar": "COG",
+      "title": "Un test répété peut mesurer l'apprentissage du test",
+      "objective": "Séparer changement cognitif et familiarisation",
+      "competence_id": "VCLF-COG-COG010",
+      "references": [
+        "MITPSY",
+        "CONSORT"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-010",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-011",
+      "pillar": "COG",
+      "title": "Le rappel actif change l'évaluation d'un apprentissage",
+      "objective": "Concevoir un exercice de récupération",
+      "competence_id": "VCLF-COG-COG011",
+      "references": [
+        "RETRIEVAL",
+        "VOCE16"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-011",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-012",
+      "pillar": "COG",
+      "title": "Espacer la pratique oblige à retrouver",
+      "objective": "Planifier un apprentissage distribué",
+      "competence_id": "VCLF-COG-COG012",
+      "references": [
+        "SPACING"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-012",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-013",
+      "pillar": "COG",
+      "title": "La mémoire de travail impose un coût aux interfaces",
+      "objective": "Réduire une charge évitable",
+      "competence_id": "VCLF-COG-COG013",
+      "references": [
+        "MITPSY"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-013",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-014",
+      "pillar": "COG",
+      "title": "L'attention se mesure dans une tâche précise",
+      "objective": "Définir un indicateur d'attention interprétable",
+      "competence_id": "VCLF-COG-COG014",
+      "references": [
+        "MITPSY"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-014",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-015",
+      "pillar": "COG",
+      "title": "Une interruption laisse un travail de reprise",
+      "objective": "Évaluer le retour à une tâche",
+      "competence_id": "VCLF-COG-COG015",
+      "references": [
+        "MITPSY"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-015",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-016",
+      "pillar": "COG",
+      "title": "La confiance dans sa réponse doit être calibrée",
+      "objective": "Mesurer l'écart entre certitude et exactitude",
+      "competence_id": "VCLF-COG-COG016",
+      "references": [
+        "OFFLOAD"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-016",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-017",
+      "pillar": "COG",
+      "title": "Externaliser la mémoire exige un chemin de retour",
+      "objective": "Évaluer un outil de soutien cognitif",
+      "competence_id": "VCLF-COG-COG017",
+      "references": [
+        "OFFLOAD",
+        "VOCE16"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-017",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-018",
+      "pillar": "COG",
+      "title": "L'automatisation peut déplacer la vigilance",
+      "objective": "Tester la capacité à contredire l'outil",
+      "competence_id": "VCLF-COG-COG018",
+      "references": [
+        "AUTOBIAS",
+        "VOCE16"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-018",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-019",
+      "pillar": "COG",
+      "title": "L'expertise a besoin de cas qui résistent",
+      "objective": "Concevoir une progression après automatisation",
+      "competence_id": "VCLF-COG-COG019",
+      "references": [
+        "VOCE16",
+        "RETRIEVAL"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-019",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-020",
+      "pillar": "COG",
+      "title": "Le sommeil déclaré ne suffit pas à expliquer une performance",
+      "objective": "Critiquer une mesure observationnelle",
+      "competence_id": "VCLF-COG-COG020",
+      "references": [
+        "STROBE"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-020",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-021",
+      "pillar": "COG",
+      "title": "Le stress ne se résume pas à un biomarqueur",
+      "objective": "Définir le construit avant de mesurer",
+      "competence_id": "VCLF-COG-COG021",
+      "references": [
+        "STROBE"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-021",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-022",
+      "pillar": "COG",
+      "title": "Le trauma demande des définitions précises",
+      "objective": "Distinguer exposition, symptômes et diagnostic",
+      "competence_id": "VCLF-COG-COG022",
+      "references": [
+        "STROBE",
+        "CONSORT"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-022",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-023",
+      "pillar": "COG",
+      "title": "La solitude et l'isolement ne mesurent pas la même chose",
+      "objective": "Construire une comparaison conceptuelle",
+      "competence_id": "VCLF-COG-COG023",
+      "references": [
+        "STROBE"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-023",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-024",
+      "pillar": "COG",
+      "title": "Une émotion racontée dépend de la question posée",
+      "objective": "Examiner les conditions d'une autoévaluation",
+      "competence_id": "VCLF-COG-COG024",
+      "references": [
+        "STROBE"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-024",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-025",
+      "pillar": "COG",
+      "title": "Une décision dépend aussi des taux de base",
+      "objective": "Appliquer un raisonnement bayésien simple",
+      "competence_id": "VCLF-COG-COG025",
+      "references": [
+        "COCHRANE"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-025",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-026",
+      "pillar": "COG",
+      "title": "Les participants d'une étude ne représentent pas le monde",
+      "objective": "Délimiter la généralisation",
+      "competence_id": "VCLF-COG-COG026",
+      "references": [
+        "STROBE",
+        "MITPSY"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-026",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-027",
+      "pillar": "COG",
+      "title": "Une donnée pseudonymisée reste souvent personnelle",
+      "objective": "Préparer un partage de données de recherche",
+      "competence_id": "VCLF-COG-COG027",
+      "references": [
+        "RGPD",
+        "FAIR"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-027",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-028",
+      "pillar": "COG",
+      "title": "Reproduire une analyse exige plus qu'un graphique",
+      "objective": "Construire un paquet de recherche examinable",
+      "competence_id": "VCLF-COG-COG028",
+      "references": [
+        "FAIR",
+        "COS"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-028",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-029",
+      "pillar": "COG",
+      "title": "Une promesse de neurotechnologie doit survivre à un contrôle",
+      "objective": "Construire une grille de preuves",
+      "competence_id": "VCLF-COG-COG029",
+      "references": [
+        "CONSORT",
+        "COCHRANE"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-029",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    },
+    {
+      "id": "VOCE-COG-030",
+      "pillar": "COG",
+      "title": "Un protocole pédagogique qui peut échouer",
+      "objective": "Assembler une évaluation des acquis",
+      "competence_id": "VCLF-COG-COG030",
+      "references": [
+        "VOCE16",
+        "CONSORT"
+      ],
+      "version": "0.2.0",
+      "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
+      "source_date": "2026-10-17",
+      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "url": "https://voce.life/cours/voce-cog-030",
+      "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
+      "independent_expert_validated": false
+    }
+  ],
+  "references": [
+    {
+      "id": "VOCE16",
+      "title": "COURS VOCE® Démonstrateur pédagogique",
+      "version": "2026-10-13",
+      "nature": "document VOCE",
+      "url": "https://voce.life/cours",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Lecture intégrale du PDF de 43 pages conservé, version 1; site détaillé non relu Nouvelle revue: accès direct incomplet ou en échec le 17 octobre 2026.",
+      "applicability": "cas professionnels, exercices et critères des 16 cours",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-001",
+        "VOCE-AI-002",
+        "VOCE-AI-003",
+        "VOCE-AI-004",
+        "VOCE-AI-005",
+        "VOCE-AI-006",
+        "VOCE-AI-007",
+        "VOCE-AI-008",
+        "VOCE-AI-009",
+        "VOCE-AI-010",
+        "VOCE-AI-011",
+        "VOCE-AI-012",
+        "VOCE-AI-013",
+        "VOCE-AI-014",
+        "VOCE-AI-015",
+        "VOCE-AI-016",
+        "VOCE-AI-046",
+        "VOCE-AI-047",
+        "VOCE-AI-048",
+        "VOCE-AI-049",
+        "VOCE-AI-058",
+        "VOCE-AI-060",
+        "VOCE-COG-011",
+        "VOCE-COG-017",
+        "VOCE-COG-018",
+        "VOCE-COG-019",
+        "VOCE-COG-030"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Accès incomplet ou en échec; ne pas assimiler la notice antérieure à une lecture intégrale",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "NIST",
+      "title": "NIST AI Risk Management Framework",
+      "version": "1.0, 2023",
+      "nature": "cadre volontaire",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page officielle consultée; révision en cours signalée",
+      "applicability": "organisation du risque et dossier de décision",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-001",
+        "VOCE-AI-002",
+        "VOCE-AI-003",
+        "VOCE-AI-004",
+        "VOCE-AI-005",
+        "VOCE-AI-006",
+        "VOCE-AI-007",
+        "VOCE-AI-008",
+        "VOCE-AI-009",
+        "VOCE-AI-010",
+        "VOCE-AI-013",
+        "VOCE-AI-015",
+        "VOCE-AI-037",
+        "VOCE-AI-045",
+        "VOCE-AI-051",
+        "VOCE-AI-060"
+      ],
+      "alternate_url": "https://doi.org/10.6028/NIST.AI.100-1",
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "NISTGEN",
+      "title": "NIST Generative AI Profile",
+      "version": "NIST AI 600-1, 2024",
+      "nature": "cadre volontaire",
+      "url": "https://doi.org/10.6028/NIST.AI.600-1",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Notice officielle NIST consultée; sections détaillées à relire avant validation",
+      "applicability": "tests, traçabilité et limites des systèmes génératifs",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-001",
+        "VOCE-AI-002",
+        "VOCE-AI-003",
+        "VOCE-AI-004",
+        "VOCE-AI-005",
+        "VOCE-AI-009",
+        "VOCE-AI-010",
+        "VOCE-AI-023",
+        "VOCE-AI-029",
+        "VOCE-AI-030",
+        "VOCE-AI-032",
+        "VOCE-AI-033",
+        "VOCE-AI-034",
+        "VOCE-AI-035",
+        "VOCE-AI-036",
+        "VOCE-AI-044",
+        "VOCE-ART-028"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "TRANSFORMER",
+      "title": "Vaswani et al., Attention Is All You Need",
+      "version": "2017, arXiv 1706.03762",
+      "nature": "article de recherche",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Notice primaire consultée",
+      "applicability": "attention et représentation en séquences",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-018"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "RAG",
+      "title": "Lewis et al., Retrieval-Augmented Generation",
+      "version": "2020, arXiv 2005.11401",
+      "nature": "article de recherche",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Notice primaire consultée",
+      "applicability": "séparation recherche documentaire et génération",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-024",
+        "VOCE-AI-025"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "FLASH",
+      "title": "Dao et al., FlashAttention",
+      "version": "2022, arXiv 2205.14135",
+      "nature": "article de recherche",
+      "url": "https://arxiv.org/abs/2205.14135",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Notice primaire consultée",
+      "applicability": "entrées-sorties et attention exacte",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-019"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "LORA",
+      "title": "Hu et al., LoRA",
+      "version": "2021, arXiv 2106.09685",
+      "nature": "article de recherche",
+      "url": "https://arxiv.org/abs/2106.09685",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Notice primaire consultée",
+      "applicability": "adaptation de faible rang",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-020"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "DPO",
+      "title": "Rafailov et al., Direct Preference Optimization",
+      "version": "2023, arXiv 2305.18290",
+      "nature": "article de recherche",
+      "url": "https://arxiv.org/abs/2305.18290",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Notice primaire consultée",
+      "applicability": "optimisation sur préférences",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-021"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "R1",
+      "title": "DeepSeek-AI, DeepSeek-R1",
+      "version": "2025, arXiv 2501.12948",
+      "nature": "rapport de recherche",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Notice primaire consultée",
+      "applicability": "récompenses et raisonnement, sans affiliation VOCE",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-022"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "MCP",
+      "title": "Model Context Protocol, Authorization",
+      "version": "2025-06-18, édition étudiée",
+      "nature": "spécification technique",
+      "url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Section officielle consultée; pas déclarée dernière version",
+      "applicability": "autorisation HTTP et validation d'audience",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-027",
+        "VOCE-AI-028"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "OWASP",
+      "title": "OWASP LLM06 Excessive Agency",
+      "version": "2025",
+      "nature": "référentiel sécurité",
+      "url": "https://genai.owasp.org/llmrisk/llm062025-excessive-agency/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page officielle consultée",
+      "applicability": "droits, portée des outils, autonomie excessive",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-001",
+        "VOCE-AI-002",
+        "VOCE-AI-003",
+        "VOCE-AI-004",
+        "VOCE-AI-005",
+        "VOCE-AI-008",
+        "VOCE-AI-010",
+        "VOCE-AI-026",
+        "VOCE-AI-031",
+        "VOCE-AI-051",
+        "VOCE-AI-053"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "AIACT",
+      "title": "Règlement (UE) 2024/1689",
+      "version": "2024; consolidation à vérifier disposition par disposition",
+      "nature": "règlement UE",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Texte de base identifié; consolidation non auditée intégralement Nouvelle revue: accès direct incomplet ou en échec le 17 octobre 2026.",
+      "applicability": "qualification de l'usage; aucune conclusion de conformité délivrée",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-038",
+        "VOCE-AI-052"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Accès incomplet ou en échec; ne pas assimiler la notice antérieure à une lecture intégrale",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "AIACT26",
+      "title": "Règlement (UE) 2026/1744",
+      "version": "8 juillet 2026, JO 24 juillet 2026",
+      "nature": "règlement modificatif UE",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Texte officiel consulté; dates d'application à analyser par disposition Nouvelle revue: accès direct incomplet ou en échec le 17 octobre 2026.",
+      "applicability": "mise à jour du dossier AI Act",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-038",
+        "VOCE-AI-039",
+        "VOCE-AI-054"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Accès incomplet ou en échec; ne pas assimiler la notice antérieure à une lecture intégrale",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "RGPD",
+      "title": "Règlement (UE) 2016/679",
+      "version": "2016, version applicable à vérifier",
+      "nature": "règlement UE",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Référence identifiée; audit juridique détaillé non réalisé Nouvelle revue: accès direct incomplet ou en échec le 17 octobre 2026.",
+      "applicability": "données personnelles uniquement lorsque présentes",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-025",
+        "VOCE-AI-033",
+        "VOCE-AI-042",
+        "VOCE-AI-044",
+        "VOCE-AI-052",
+        "VOCE-COG-027"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Accès incomplet ou en échec; ne pas assimiler la notice antérieure à une lecture intégrale",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "ISO42001",
+      "title": "ISO/IEC 42001",
+      "version": "2023",
+      "nature": "norme sous licence",
+      "url": "https://www.iso.org/standard/42001",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Notice ISO consultée; clauses sous licence non auditées Notice uniquement; aucune vérification des clauses sous licence.",
+      "applicability": "management de l'IA, pas validation de chaque sortie",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-040"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "ISO23894",
+      "title": "ISO/IEC 23894",
+      "version": "2023",
+      "nature": "norme sous licence",
+      "url": "https://www.iso.org/standard/77304.html",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Notice ISO consultée; clauses sous licence non auditées Notice uniquement; aucune vérification des clauses sous licence.",
+      "applicability": "management des risques IA",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-041"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "ISO27001",
+      "title": "ISO/IEC 27001",
+      "version": "2022",
+      "nature": "norme sous licence",
+      "url": "https://www.iso.org/standard/27001",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Notice ISO consultée; clauses sous licence non auditées Notice uniquement; aucune vérification des clauses sous licence.",
+      "applicability": "sécurité de l'information",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-043"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "ISO21001",
+      "title": "ISO 21001",
+      "version": "2025",
+      "nature": "norme sous licence",
+      "url": "https://www.iso.org/standard/21001",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Notice officielle identifiée; clauses sous licence non auditées Notice uniquement; aucune vérification des clauses sous licence.",
+      "applicability": "cadre volontaire de management pédagogique",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "DIGCOMP",
+      "title": "JRC, DigComp",
+      "version": "3.0",
+      "nature": "cadre européen de compétences",
+      "url": "https://joint-research-centre.ec.europa.eu/scientific-activities/key-competences-lifelong-learning/digital-competence-framework-digcomp/digcomp-30_en",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page officielle consultée",
+      "applicability": "correspondances pédagogiques proposées, pas reconnaissance",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-039"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "ECF",
+      "title": "CEN, European e-Competence Framework",
+      "version": "EN 16234-1:2019",
+      "nature": "norme sous licence",
+      "url": "https://www.cencenelec.eu/news-events/news/2023/brief-news/2023-06-30-ai-and-ict-professionalism-standardization/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Référence CEN vérifiée; correspondances détaillées à instruire",
+      "applicability": "métiers TIC uniquement",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "ESCO",
+      "title": "Commission européenne, ESCO",
+      "version": "version de jeu de données non figée",
+      "nature": "classification",
+      "url": "https://esco.ec.europa.eu/en",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Portail officiel consulté; aucun URI métier inventé",
+      "applicability": "rapprochements métier à valider",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "EQF",
+      "title": "Cadre européen des certifications",
+      "version": "recommandation 2017",
+      "nature": "cadre européen",
+      "url": "https://europass.europa.eu/en/european-qualifications-framework-eqf",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page officielle consultée",
+      "applicability": "connaissances, aptitudes, responsabilité/autonomie; pas de niveau attribué",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "MICRO",
+      "title": "Recommandation du Conseil sur les microcertifications",
+      "version": "16 juin 2022, 2022/C 243/02",
+      "nature": "recommandation UE",
+      "url": "https://op.europa.eu/en/publication-detail/-/publication/f877d7a7-f5b2-11ec-b976-01aa75ed71a1/language-en",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Référence officielle vérifiée",
+      "applicability": "transparence de l'émetteur, acquis, charge et évaluation",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "RNQ26",
+      "title": "Décret n° 2026-728",
+      "version": "1er août 2026; effet 1er novembre 2026",
+      "nature": "décret français",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054608509",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Existence et extraits indexés officiels vérifiés; annexe complète et guide courant non récupérés Nouvelle revue: accès direct incomplet ou en échec le 17 octobre 2026.",
+      "applicability": "matrice prospective de 33 indicateurs, validation des libellés encore ouverte",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Accès incomplet ou en échec; ne pas assimiler la notice antérieure à une lecture intégrale",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE",
+      "title": "Guide de lecture Qualiopi",
+      "version": "édition applicable non confirmée",
+      "nature": "guide officiel",
+      "url": "https://travail-emploi.gouv.fr/referentiel-national-qualite-guide-de-lecture-qualiopi",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Accès bloqué par vérification de sécurité Nouvelle revue: accès direct incomplet ou en échec le 17 octobre 2026.",
+      "applicability": "interprétation à compléter avant audit",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Accès incomplet ou en échec; ne pas assimiler la notice antérieure à une lecture intégrale",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "TSINGHUA",
+      "title": "Tsinghua, laboratoire pédagogique avec AGIBOT",
+      "version": "14 septembre 2026",
+      "nature": "annonce universitaire",
+      "url": "https://www.ee.tsinghua.edu.cn/info/1076/5393.htm",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page primaire consultée",
+      "applicability": "repère chinois pour simulation, collecte, déploiement; aucun partenariat",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-011",
+        "VOCE-AI-013",
+        "VOCE-AI-015",
+        "VOCE-AI-055",
+        "VOCE-AI-056",
+        "VOCE-AI-057"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "ICENTER",
+      "title": "Tsinghua iCenter, intelligence incarnée",
+      "version": "3 juin 2026",
+      "nature": "annonce universitaire",
+      "url": "https://www.icenter.tsinghua.edu.cn/info/1025/1848.htm",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page primaire consultée",
+      "applicability": "scénarios de perception et navigation",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-013",
+        "VOCE-AI-015"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "SJTU",
+      "title": "Shanghai Jiao Tong, BWA Power to Evolve",
+      "version": "fiche 2024 citée par VOCE",
+      "nature": "programme universitaire",
+      "url": "https://gjzs.sjtu.edu.cn/home/course/bwa-power-to-evolve-china-program/26",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Programme primaire consulté; admission et disponibilité à confirmer",
+      "applicability": "électrification et gestion thermique",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-012",
+        "VOCE-AI-014",
+        "VOCE-AI-059"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "DOE",
+      "title": "US Department of Energy, all-electric vehicles",
+      "version": "page évolutive",
+      "nature": "documentation officielle",
+      "url": "https://afdc.energy.gov/vehicles/how-do-all-electric-cars-work",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Référence du démonstrateur; nouvelle lecture technique requise",
+      "applicability": "architecture de véhicule électrique",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-012",
+        "VOCE-AI-014",
+        "VOCE-AI-059"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "MICHIGAN",
+      "title": "University of Michigan, Battery Cell Manufacturing, Testing, and Design",
+      "version": "programme 2026",
+      "nature": "programme universitaire",
+      "url": "https://evworkforce.umich.edu/training-programs/2026/battery-cell-manufacturing-testing-and-design",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Programme primaire consulté; conditions actuelles à confirmer avant annonce commerciale",
+      "applicability": "repère américain de fabrication et essais",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-016",
+        "VOCE-AI-058"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "STANFORD",
+      "title": "Stanford CS336, Language Modeling from Scratch",
+      "version": "Spring 2025, archive",
+      "nature": "programme universitaire",
+      "url": "https://cs336.stanford.edu/spring2025/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Programme officiel consulté",
+      "applicability": "repère de niveau technique, pas équivalence de diplôme",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-017"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "CIDOC",
+      "title": "CIDOC CRM et ISO 21127",
+      "version": "ISO 21127:2023; version CRM à figer pour implémentation",
+      "nature": "modèle conceptuel et norme",
+      "url": "https://cidoc-crm.org/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Site officiel consulté; correspondance ISO confirmée par le site",
+      "applicability": "relations patrimoniales et événements",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-ART-013",
+        "VOCE-ART-014",
+        "VOCE-ART-023",
+        "VOCE-ART-024",
+        "VOCE-ART-025",
+        "VOCE-ART-026",
+        "VOCE-ART-028",
+        "VOCE-ART-030"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "EDM",
+      "title": "Europeana Data Model",
+      "version": "version technique à figer",
+      "nature": "modèle de données",
+      "url": "https://pro.europeana.eu/page/edm-documentation",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Redirection documentaire inaccessible; revue détaillée requise Nouvelle revue: accès direct incomplet ou en échec le 17 octobre 2026.",
+      "applicability": "distinction objet et ressources numériques",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-ART-015",
+        "VOCE-ART-027"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Accès incomplet ou en échec; ne pas assimiler la notice antérieure à une lecture intégrale",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "GETTYVOC",
+      "title": "Getty Vocabularies",
+      "version": "ressources évolutives",
+      "nature": "vocabulaires institutionnels",
+      "url": "https://www.getty.edu/research-conservation/tools-databases/vocabularies/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page officielle consultée",
+      "applicability": "termes, concepts et identifiants",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-ART-001",
+        "VOCE-ART-003",
+        "VOCE-ART-016",
+        "VOCE-ART-020",
+        "VOCE-ART-021"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "GETTYPROV",
+      "title": "Getty Provenance Index",
+      "version": "ressource évolutive, consultée 2026",
+      "nature": "base archivistique",
+      "url": "https://www.getty.edu/research-conservation/tools-databases/provenance/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page officielle consultée",
+      "applicability": "provenance et portée des archives; les cas VOCE sont fictifs",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-ART-002",
+        "VOCE-ART-003",
+        "VOCE-ART-005",
+        "VOCE-ART-022",
+        "VOCE-ART-024",
+        "VOCE-ART-030"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "METFRAMES",
+      "title": "Bisacca et Kanter, Italian Renaissance Frames",
+      "version": "1 octobre 2008",
+      "nature": "essai de musée",
+      "url": "https://www.metmuseum.org/essays/italian-renaissance-frames",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page et notices associées consultées",
+      "applicability": "cadres et contexte de présentation",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-ART-004",
+        "VOCE-ART-023"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "NGTECH",
+      "title": "National Gallery Technical Bulletin",
+      "version": "collection de publications; article précis à sélectionner pour chaque approfondissement",
+      "nature": "recherche muséale",
+      "url": "https://www.nationalgallery.org.uk/research/publications/technical-bulletin",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Point d'entrée contrôlé; articles spécialisés à choisir avant validation scientifique",
+      "applicability": "méthodes d'analyse matérielle; source d'approfondissement, pas preuve d'une attribution",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-ART-001",
+        "VOCE-ART-006",
+        "VOCE-ART-007",
+        "VOCE-ART-008",
+        "VOCE-ART-009",
+        "VOCE-ART-019",
+        "VOCE-ART-022"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "CCI",
+      "title": "Institut canadien de conservation, Agents of deterioration",
+      "version": "ressource évolutive",
+      "nature": "guide institutionnel",
+      "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration.html",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page officielle consultée",
+      "applicability": "risques de conservation et dissociation; cas et calculs VOCE originaux",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-ART-011",
+        "VOCE-ART-012"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "ICCROM",
+      "title": "ICCROM, Preventive conservation",
+      "version": "ressource évolutive",
+      "nature": "guide institutionnel",
+      "url": "https://www.iccrom.org/section/preventive-conservation",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Point d'entrée contrôlé; ressource détaillée à préciser Nouvelle revue: accès direct incomplet ou en échec le 17 octobre 2026.",
+      "applicability": "analyse des risques de conservation",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-ART-009",
+        "VOCE-ART-012"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Accès incomplet ou en échec; ne pas assimiler la notice antérieure à une lecture intégrale",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "IIIF",
+      "title": "IIIF Presentation API",
+      "version": "3.0",
+      "nature": "spécification",
+      "url": "https://iiif.io/api/presentation/3.0/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Spécification officielle consultée",
+      "applicability": "présentation, ressources et annotations",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-ART-017",
+        "VOCE-ART-019",
+        "VOCE-ART-020",
+        "VOCE-ART-026",
+        "VOCE-ART-027"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "METOA",
+      "title": "Metropolitan Museum, Open Access",
+      "version": "politique courante consultée le 17 octobre 2026",
+      "nature": "politique institutionnelle",
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page officielle consultée",
+      "applicability": "vérification des droits de chaque ressource",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-ART-018",
+        "VOCE-ART-030"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "UNESCO",
+      "title": "UNESCO, Operational Guidelines for World Heritage",
+      "version": "édition courante à figer",
+      "nature": "guide institutionnel",
+      "url": "https://whc.unesco.org/en/guidelines/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Point d'entrée contrôlé; ne couvre pas à lui seul le patrimoine immatériel",
+      "applicability": "valeur et statut patrimoniaux; pour ART025 ajouter cadre UNESCO 2003 avant validation",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-ART-029"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "STROBE",
+      "title": "STROBE Statement",
+      "version": "2007 et extensions à sélectionner",
+      "nature": "recommandation de compte rendu",
+      "url": "https://www.strobe-statement.org/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page officielle consultée Nouvelle revue: accès direct incomplet ou en échec le 17 octobre 2026.",
+      "applicability": "transparence observationnelle, pas score de qualité",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-COG-001",
+        "VOCE-COG-020",
+        "VOCE-COG-021",
+        "VOCE-COG-022",
+        "VOCE-COG-023",
+        "VOCE-COG-024",
+        "VOCE-COG-026"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Accès incomplet ou en échec; ne pas assimiler la notice antérieure à une lecture intégrale",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "CONSORT",
+      "title": "CONSORT et SPIRIT",
+      "version": "2025",
+      "nature": "recommandations de compte rendu",
+      "url": "https://www.consort-spirit.org/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page officielle consultée",
+      "applicability": "plans et rapports d'essais; adaptation pédagogique explicitement non clinique",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-050",
+        "VOCE-COG-010",
+        "VOCE-COG-022",
+        "VOCE-COG-029",
+        "VOCE-COG-030"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "PRISMA",
+      "title": "PRISMA Statement",
+      "version": "2020",
+      "nature": "recommandation de compte rendu",
+      "url": "https://www.prisma-statement.org/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page officielle consultée",
+      "applicability": "transparence des revues systématiques",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-COG-006"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "COS",
+      "title": "Center for Open Science, Preregistration",
+      "version": "ressource évolutive",
+      "nature": "méthode scientifique",
+      "url": "https://www.cos.io/initiatives/prereg",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page officielle consultée",
+      "applicability": "séparer analyses prévues et exploratoires",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-COG-004",
+        "VOCE-COG-005",
+        "VOCE-COG-028"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "MITPSY",
+      "title": "MIT OCW, Introduction to Psychology",
+      "version": "9.00SC, Fall 2011",
+      "nature": "cours universitaire ouvert",
+      "url": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Programme officiel consulté; études propres à chaque module à compléter",
+      "applicability": "repère pédagogique de cognition, pas source récente ni exclusivité américaine",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-COG-010",
+        "VOCE-COG-013",
+        "VOCE-COG-014",
+        "VOCE-COG-015",
+        "VOCE-COG-026"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "POWER",
+      "title": "Button et al., Power failure: why small sample size undermines the reliability of neuroscience",
+      "version": "2013; DOI 10.1038/nrn3475",
+      "nature": "revue méthodologique",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23571845/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Notice, auteurs, DOI et résumé PubMed vérifiés; erratum signalé, texte de l’erratum non lu",
+      "applicability": "puissance et fiabilité, sans seuil universel",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-COG-003"
+      ],
+      "correction": "Ancienne URL nn.3428 retirée: ne correspondait pas au DOI de cet article",
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "BWAS",
+      "title": "Marek et al., Reproducible brain-wide association studies",
+      "version": "Nature, 2022",
+      "nature": "article original",
+      "url": "https://www.nature.com/articles/s41586-022-04492-9",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Notice primaire contrôlée Nouvelle revue: accès direct incomplet ou en échec le 17 octobre 2026.",
+      "applicability": "reproductibilité des associations cerveau-comportement",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-COG-009"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Accès incomplet ou en échec; ne pas assimiler la notice antérieure à une lecture intégrale",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "RETRIEVAL",
+      "title": "Roediger et Karpicke, Test-enhanced learning",
+      "version": "2006",
+      "nature": "article original",
+      "url": "https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.2006.01693.x/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Résumé original APS consulté; deux expériences, rappel sans feedback et tests différés; ne prouve pas le bénéfice propre du corrigé VOCE",
+      "applicability": "rappel actif; relecture intégrale requise",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-006",
+        "VOCE-AI-007",
+        "VOCE-COG-011",
+        "VOCE-COG-019"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "OFFLOAD",
+      "title": "Risko et Dunn, Storing information in-the-world",
+      "version": "2015, doi 10.1016/j.concog.2015.05.014",
+      "nature": "article original",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26092219/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Résumé primaire consulté Nouvelle revue: accès direct incomplet ou en échec le 17 octobre 2026.",
+      "applicability": "décharge cognitive et jugements métacognitifs",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-009",
+        "VOCE-COG-016",
+        "VOCE-COG-017"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Accès incomplet ou en échec; ne pas assimiler la notice antérieure à une lecture intégrale",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "AUTOBIAS",
+      "title": "Kupfer et al., Check the box! How to deal with automation bias in AI-based personnel selection",
+      "version": "5 avril 2023; DOI 10.3389/fpsyg.2023.1118723",
+      "nature": "article original",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1118723/full",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Article primaire accessible; passage des résultats contrôlé. Généralisation au paiement non établie",
+      "applicability": "biais d'automatisation",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-AI-008",
+        "VOCE-COG-018"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "COCHRANE",
+      "title": "Cochrane Handbook for Systematic Reviews of Interventions",
+      "version": "6.5, 2024",
+      "nature": "manuel méthodologique",
+      "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Version et sommaire officiels vérifiés; chapitre adapté à chaque objectif encore à sélectionner",
+      "applicability": "effet, biais et synthèse; pas conseil clinique",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-COG-002",
+        "VOCE-COG-007",
+        "VOCE-COG-025",
+        "VOCE-COG-029"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "FAIR",
+      "title": "FAIR principles",
+      "version": "principes 2016; page actuelle",
+      "nature": "principes de gestion de données",
+      "url": "https://www.gofair.foundation/fair-principles",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page consultée",
+      "applicability": "documentation, accès et réutilisation sous conditions",
+      "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
+      "course_ids": [
+        "VOCE-COG-027",
+        "VOCE-COG-028"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "OWASPINJ",
+      "title": "OWASP LLM01:2025 Prompt Injection",
+      "version": "2025",
+      "nature": "guide de sécurité",
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page officielle retrouvée; mécanisme général, pas audit de sécurité du cours",
+      "applicability": "Injection documentaire du cours AI026",
+      "license_note": "Respecter les droits de la source; aucun texte intégral reproduit",
+      "course_ids": [
+        "VOCE-AI-026"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "STRIPEIDEM",
+      "title": "Stripe, Idempotent requests",
+      "version": "Documentation évolutive consultée le 17 octobre 2026",
+      "nature": "documentation fournisseur",
+      "url": "https://docs.stripe.com/api/idempotent_requests",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Passage sur la répétition des requêtes avec clé consulté; contrat complet à tester",
+      "applicability": "Exemple de mécanisme pour AI029, non norme universelle",
+      "license_note": "Respecter les droits de la source; aucun texte intégral reproduit",
+      "course_ids": [
+        "VOCE-AI-029"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "CCILIGHT",
+      "title": "Institut canadien de conservation, Light, ultraviolet and infrared",
+      "version": "Page évolutive",
+      "nature": "guide institutionnel",
+      "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/light.html",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Section Measuring Light and its Exposure lue: dose = éclairement × durée",
+      "applicability": "Calcul de lux-heures ART010; pas seuil universel de conservation",
+      "license_note": "Respecter les droits de la source; aucun texte intégral reproduit",
+      "course_ids": [
+        "VOCE-ART-010"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "CCIDISS",
+      "title": "Institut canadien de conservation, Dissociation",
+      "version": "Page évolutive",
+      "nature": "guide institutionnel",
+      "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/dissociation.html",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page officielle retrouvée, thème directement pertinent",
+      "applicability": "Dissociation documentaire ART013",
+      "license_note": "Respecter les droits de la source; aucun texte intégral reproduit",
+      "course_ids": [
+        "VOCE-ART-013"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "UNESCO2003",
+      "title": "UNESCO, Convention pour la sauvegarde du patrimoine culturel immatériel",
+      "version": "Adoptée le 17 octobre 2003",
+      "nature": "convention internationale",
+      "url": "https://www.unesco.org/fr/legal-affairs/convention-safeguarding-intangible-cultural-heritage",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Texte accessible; articles 2 et 15 ciblés; application nationale non auditée",
+      "applicability": "Pratique vivante et participation des communautés ART025; ne règle pas tous les droits de captation",
+      "license_note": "Respecter les droits de la source; aucun texte intégral reproduit",
+      "course_ids": [
+        "VOCE-ART-025"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "SPACING",
+      "title": "Cepeda et al., Distributed practice in verbal recall tasks: A review and quantitative synthesis",
+      "version": "2006; DOI 10.1037/0033-2909.132.3.354",
+      "nature": "synthèse quantitative",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16719566/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Notice indexée retrouvée; ouverture directe inexploitable; texte intégral non lu Nouvelle revue: accès direct incomplet ou en échec le 17 octobre 2026.",
+      "applicability": "Pratique distribuée COG012; pas calendrier optimal universel",
+      "license_note": "Respecter les droits de la source; aucun texte intégral reproduit",
+      "course_ids": [
+        "VOCE-COG-012"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Accès incomplet ou en échec; ne pas assimiler la notice antérieure à une lecture intégrale",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "REVERSE",
+      "title": "Poldrack, Can cognitive processes be inferred from neuroimaging data?",
+      "version": "2006; DOI à vérifier avant export bibliographique",
+      "nature": "article méthodologique",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16406760/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Notice et résumé indexés retrouvés; ouverture directe inexploitable Nouvelle revue: accès direct incomplet ou en échec le 17 octobre 2026.",
+      "applicability": "Inférence inverse COG008; texte intégral requis pour approfondissement",
+      "license_note": "Respecter les droits de la source; aucun texte intégral reproduit",
+      "course_ids": [
+        "VOCE-COG-008"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Accès incomplet ou en échec; ne pas assimiler la notice antérieure à une lecture intégrale",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "TSINGMAT",
+      "title": "Tsinghua, formation continue en technologies des matériaux",
+      "version": "Date non revalidée",
+      "nature": "programme universitaire",
+      "url": "https://xm.sce.tsinghua.edu.cn/info/1054/2132.htm",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Lien du démonstrateur; accès en échec pendant cette revue Nouvelle revue: accès direct incomplet ou en échec le 17 octobre 2026.",
+      "applicability": "Contexte revendiqué par AI016 à confirmer; ne pas présenter comme vérifié",
+      "license_note": "Respecter les droits de la source; aucun texte intégral reproduit",
+      "course_ids": [
+        "VOCE-AI-016"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Accès incomplet ou en échec; ne pas assimiler la notice antérieure à une lecture intégrale",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "UNESCOED",
+      "title": "Miao et Holmes, Guidance for generative AI in education and research",
+      "version": "2023; page mise à jour le 16 janvier 2026",
+      "nature": "guide institutionnel",
+      "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Notice officielle et auteurs vérifiés; guide intégral non relu",
+      "applicability": "Contexte pédagogique AI006/007; pas preuve d’efficacité de leur exercice",
+      "license_note": "Respecter les droits de la source; aucun texte intégral reproduit",
+      "course_ids": [
+        "VOCE-AI-006",
+        "VOCE-AI-007"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "CLASSROOM",
+      "title": "McDaniel, Roediger et McDermott, Generalizing test-enhanced learning from the laboratory to the classroom",
+      "version": "2007, référence issue du démonstrateur",
+      "nature": "article original",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17694901/",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Ouverture inexploitable; référence non revalidée au-delà du document source Nouvelle revue: accès direct incomplet ou en échec le 17 octobre 2026.",
+      "applicability": "AI006/007, référence historique conservée avec réserve",
+      "license_note": "Respecter les droits de la source; aucun texte intégral reproduit",
+      "course_ids": [
+        "VOCE-AI-006",
+        "VOCE-AI-007"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Accès incomplet ou en échec; ne pas assimiler la notice antérieure à une lecture intégrale",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "FFB",
+      "title": "Fraunhofer FFB, Battery Cell Manufacturing Training for Professionals",
+      "version": "Page évolutive",
+      "nature": "programme de formation",
+      "url": "https://www.ffb.fraunhofer.de/en/ellb_training/battery_cell_manufacturing.html",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Page institutionnelle retrouvée; modalités d’admission non auditées",
+      "applicability": "Repère européen déjà cité dans AI016; exclut toute affirmation de thème réservé Chine/USA",
+      "license_note": "Respecter les droits de la source; aucun texte intégral reproduit",
+      "course_ids": [
+        "VOCE-AI-016"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Page ou notice primaire accessible; aucune validation intégrale automatique",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "VOCEINFRA",
+      "title": "VOCE, Agent Infrastructure",
+      "version": "Version publique non récupérée",
+      "nature": "contenu VOCE",
+      "url": "https://voce.life/fr/agent-infrastructure",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Référence du démonstrateur; nouvel accès en échec Nouvelle revue: accès direct incomplet ou en échec le 17 octobre 2026.",
+      "applicability": "Provenance interne AI011; ne constitue pas une validation indépendante",
+      "license_note": "Respecter les droits de la source; aucun texte intégral reproduit",
+      "course_ids": [
+        "VOCE-AI-011"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Accès incomplet ou en échec; ne pas assimiler la notice antérieure à une lecture intégrale",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    },
+    {
+      "id": "VOCESOV",
+      "title": "VOCE, Sovereignty",
+      "version": "Version publique non récupérée",
+      "nature": "contenu VOCE",
+      "url": "https://voce.life/sovereignty",
+      "verification_date": "2026-10-17",
+      "verification_scope": "Référence du démonstrateur; nouvel accès en échec Nouvelle revue: accès direct incomplet ou en échec le 17 octobre 2026.",
+      "applicability": "Provenance interne AI012/014",
+      "license_note": "Respecter les droits de la source; aucun texte intégral reproduit",
+      "course_ids": [
+        "VOCE-AI-012",
+        "VOCE-AI-014"
+      ],
+      "recheck_date": "2026-10-17",
+      "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
+      "recheck_result": "Accès incomplet ou en échec; ne pas assimiler la notice antérieure à une lecture intégrale",
+      "full_text_review": "NON_EXHAUSTIF",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "revision": "0.2.0",
+          "change": "Revue documentaire et portée précisées"
+        }
+      ]
+    }
+  ]
+}
