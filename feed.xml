@@ -1,5 +1,1073 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>VOCE Academy</title><link>https://voce.life/archive</link><description>The 50 latest VOCE publications, with full original text and permanent URLs. The complete corpus remains available at https://voce.life/data/corpus.json and https://voce.life/data/corpus.ndjson.</description><language>fr</language><lastBuildDate>Fri, 16 Oct 2026 21:08:32 +0000</lastBuildDate><item><title>Votre fournisseur peut supprimer le modèle IA qui fait travailler vos agents</title><link>https://voce.life/archive/2026/10/16/votre-fournisseur-peut-supprimer-le-modele-ia-qui-fait-travailler-vos-ag-7516755010119049218</link><guid isPermaLink="true">https://voce.life/archive/2026/10/16/votre-fournisseur-peut-supprimer-le-modele-ia-qui-fait-travailler-vos-ag-7516755010119049218</guid><author>VOCE Association</author><description>Votre fournisseur peut supprimer le modèle IA qui fait travailler vos agents
+<rss version="2.0"><channel><title>VOCE Academy</title><link>https://voce.life/archive</link><description>The 50 latest VOCE publications, with full original text and permanent URLs. The complete corpus remains available at https://voce.life/data/corpus.json and https://voce.life/data/corpus.ndjson.</description><language>fr</language><lastBuildDate>Sat, 17 Oct 2026 21:09:19 +0000</lastBuildDate><item><title>Un souvenir oublié peut revenir faux: l'expérience qui sépare mémoire silencieuse et reconstruction</title><link>https://voce.life/archive/2026/10/17/un-souvenir-oublie-peut-revenir-faux-l-experience-qui-separe-memoire-sil-7517268359571337216</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/un-souvenir-oublie-peut-revenir-faux-l-experience-qui-separe-memoire-sil-7517268359571337216</guid><author>VOCE Association</author><description>Un souvenir oublié peut revenir faux: l'expérience qui sépare mémoire silencieuse et reconstruction
+
+30 juillet 2026.
+
+Wenbin Yang, Benedetta Zattera, Miguel Pavão-Delgado, Johannes Felsenberg et leurs collègues publient dans Nature Neuroscience une expérience sur la drosophile.
+
+Les mouches apprennent qu'une odeur annonce un choc électrique.
+
+Vingt-quatre heures plus tard, elles ne l'évitent plus.
+
+Le souvenir paraît perdu.
+
+Pourtant, dans les corps pédonculés, structures centrales de la mémoire olfactive, une trace persiste dans des neurones de sortie appelés MBON-α2sc.
+
+Elle est silencieuse: elle ne suffit plus à produire le comportement appris.
+
+Les chercheurs présentent alors des indices de rappel.
+
+L'évitement revient.
+
+Le rappel rétablit aussi une trace active dans d'autres MBON, ceux qui participent directement à l'expression du comportement d'évitement.
+
+Puis l'équipe modifie le rappel.
+
+Au lieu de représenter l'odeur initialement associée au choc, elle utilise comme indice l'odeur qui n'avait pas été punie.
+
+Les mouches peuvent alors apprendre à éviter cette mauvaise odeur.
+
+Un faux souvenir comportemental apparaît à partir d'une information oubliée.
+
+Ce résultat dépend du contexte vécu pendant l'apprentissage. Modifier certains éléments du contexte initial empêche la distorsion.
+
+Surtout, les circuits dopaminergiques ne sont pas les mêmes.
+
+La récupération fidèle dépend notamment de neurones PPL1-α'2α2. La formation du faux souvenir dépend de PPL1-α3/α'3.
+
+Retrouver et reconstruire ne sont donc pas, chez la drosophile, deux versions d'un même mécanisme.
+
+ULTRA® 
+
+OUBLIER N'EST PAS FORCÉMENT EFFACER
+
+L'étude sépare trois propriétés que nous confondons souvent: conservation, accessibilité et exactitude.
+
+Une information peut persister dans le circuit tout en devenant inaccessible au comportement.
+
+Un rappel peut restaurer son expression.
+
+Un rappel trompeur peut aussi utiliser ce qui reste pour construire une réponse fausse.
+
+Cela ne démontre pas qu'un souvenir autobiographique humain oublié puisse être récupéré ou implanté de la même manière.
+
+Mais le principe est puissant: la récupération n'est pas toujours la simple lecture d'une archive intacte. Elle peut être une reconstruction qui combine une trace ancienne avec une expérience récente.
+
+La conviction de se souvenir ne constitue donc jamais, à elle seule, une preuve historique.
+
+DON GIOVANNI
+
+Le passé ne revient pas toujours tel qu'il a été conservé. Il peut revenir tel que le présent l'a réveillé.
+
+Sources 2026
+
+Yang et al., Nature Neuroscience, 30 juillet
+Israel &amp; Parnas, Nature Neuroscience, News &amp; Views, 30 juillet
+
+#Memoire #Neurosciences #FauxSouvenirs #Dopamine #Neurobiologie #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517268359571337216/">Linkedin</source></item><item><title>Schrödinger et Columbia découvrent que jusqu'à 40% des ions lithium se regroupent dans l'électrolyte</title><link>https://voce.life/archive/2026/10/17/schrodinger-et-columbia-decouvrent-que-jusqu-a-40-des-ions-lithium-se-re-7517162648900403200</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/schrodinger-et-columbia-decouvrent-que-jusqu-a-40-des-ions-lithium-se-re-7517162648900403200</guid><author>VOCE Association</author><description>Schrödinger et Columbia découvrent que jusqu'à 40% des ions lithium se regroupent dans l'électrolyte
+
+14 octobre 2026.
+
+Dans une batterie lithium-ion, on imagine les ions Li+ dispersés dans l'électrolyte, entourés de solvant et d'anions.
+
+Une étude publiée dans Nature montre une organisation plus étrange.
+
+James Stevenson, Garvit Agarwal, Sibali Debnath et leurs collègues de Schrödinger et Columbia combinent simulations atomistiques par apprentissage automatique, RMN et calculs quantiques.
+
+Dans un électrolyte LiPF6/carbonate d'éthylène, ils découvrent des complexes contenant plusieurs ions Li+ sans anion directement lié.
+
+Jusqu'à 40% des ions lithium peuvent appartenir à ces agrégats. Leur fréquence augmente avec la concentration en sel.
+
+Les calculs quantiques montrent ensuite qu'ils se réduisent plus facilement que les complexes lithium-solvant isolés.
+
+C'est là que la découverte rejoint la batterie réelle.
+
+Lors des premiers cycles, l'électrolyte se décompose partiellement sur l'anode et forme la SEI, couche qui laisse circuler Li+ tout en limitant les réactions parasites.
+
+Les auteurs proposent que les agrégats multi-Li+ soient des intermédiaires importants de cette chimie et donnent ainsi une explication atomique au succès du carbonate d'éthylène.
+
+L'industrie connaissait l'efficacité du solvant.
+
+Elle commence à voir son mécanisme.
+
+ULTRA® 
+
+6.000 ATOMES RECONSTRUITS À PARTIR DE CALCULS QUANTIQUES
+
+Le champ de force n'a pas été ajusté directement sur les propriétés expérimentales du liquide.
+
+Il est construit à partir de calculs quantiques sur de petits amas moléculaires, puis utilisé pour simuler environ 6.000 atomes pendant plusieurs nanosecondes.
+
+Le modèle reproduit pourtant de nombreuses données expérimentales de phase condensée.
+
+Cette méthode pourrait permettre de sélectionner solvants, sels ou additifs selon les structures qu'ils favorisent avant de fabriquer toutes les formulations.
+
+La limite reste nette: l'étude décrit surtout l'électrolyte en volume. Elle ne reproduit pas toute la chimie de l'interface électrode-électrolyte ni la formation complète de la SEI.
+
+FINVOCE ©
+
+Gates Ventures finance le travail principal. Une partie expérimentale est soutenue par l'Energy Storage Research Alliance du Department of Energy américain.
+
+Schrödinger, cotée au Nasdaq, applique ici à la science des matériaux une plateforme de simulation moléculaire.
+
+Si cette approche réduit le nombre de formulations à fabriquer avant d'identifier les meilleures, la simulation commence à supprimer des expériences.
+
+PARSIFAL
+
+Nous utilisions déjà le lithium. Nous commencions seulement à voir comment il s'organise réellement.
+
+Sources 2026
+
+Stevenson et al., Nature, 14 octobre
+Columbia University, 14 octobre
+Schrödinger, 14 octobre
+
+#LithiumIon #Batteries #Schrodinger #EnergyStorage #FINVOCE #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517162648900403200/">Linkedin</source></item><item><title>Lionsgate investit dans Runway. La France finance ses films, la technologie qui en réduira le coût se construit ailleurs</title><link>https://voce.life/archive/2026/10/17/lionsgate-investit-dans-runway-la-france-finance-ses-films-la-technologi-7517072044904321024</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/lionsgate-investit-dans-runway-la-france-finance-ses-films-la-technologi-7517072044904321024</guid><author>VOCE Association</author><description>Lionsgate investit dans Runway. La France finance ses films, la technologie qui en réduira le coût se construit ailleurs
+
+En septembre 2024, Lionsgate ouvre son catalogue à Runway.
+
+Objectif: entraîner un modèle génératif personnalisé sur ses films et séries, puis l'utiliser en préproduction et postproduction.
+
+Le 11 juin 2026, le studio va plus loin: il prend une participation dans Runway et lance avec elle un programme de nouvelles œuvres mêlant ses franchises et les modèles de la société.
+
+Pendant ce temps, la France produit beaucoup.
+
+Le CNC compte 290 films agréés en 2025 pour 1,37 milliard d'euros d'investissements.
+
+Mais l'IGF rappelle qu'en 2022, près de 72% des films français ont réalisé moins de 200.000 entrées.
+
+L'exception culturelle protège une capacité de production remarquable.
+
+Elle ne garantit pas que la couche technologique qui transformera le coût de fabrication des images soit française ou européenne.
+
+Runway développe des modèles capables de générer et transformer des séquences, décors et références visuelles.
+
+Un producteur finance une œuvre.
+
+Une plateforme peut être rémunérée sur des milliers d'œuvres.
+
+ULTRA® 
+
+LA VALEUR PEUT QUITTER LE FILM POUR ENTRER DANS L'OUTIL
+
+Supposons un film de 5 millions d'euros dont 25% du budget relève de la postproduction.
+
+Réduire cette dépense de 20% économise 250.000 euros. Si 100.000 euros repartent en licences et calcul, le gain net tombe à 150.000.
+
+Scénario hypothétique.
+
+Mais la structure économique est réelle: l'économie est ponctuelle pour le film; le revenu du fournisseur peut devenir récurrent sur toute l'industrie.
+
+La dépendance porte alors sur les modèles, le calcul, les droits d'entraînement et la capacité à reproduire ailleurs le même pipeline créatif.
+
+FINVOCE ©
+
+Runway lève 315 millions de dollars en février 2026 lors d'une Series E menée par General Atlantic, avec NVIDIA, Fidelity, Adobe Ventures, AMD Ventures, AllianceBernstein, Mirae Asset, Felicis et Premji Invest.
+
+Valorisation: 5,3 milliards. Total levé annoncé: environ 860 millions.
+
+Le 11 juin, Lionsgate devient lui-même actionnaire. Le montant n'est pas public.
+
+Le proxy 2026 de Lionsgate Studios cite notamment MHR/Mark Rachesky 12,7%, Liberty 77 12,6%, BlackRock 6,8%, Jericho 6,3% et Fidelity 5,0%. Le groupe dispose aussi d'une ligne de crédit de 800 millions, extensible à 1,2 milliard.
+
+Le studio ne se contente plus d'acheter l'outil.
+
+Il prend une part de la société qui le construit.
+
+PROSPERO
+
+Une nation peut préserver ses artistes et perdre la maîtrise industrielle des machines avec lesquelles ils travailleront.
+
+Sources
+
+Lionsgate / Runway, 11 juin; partenariat initial, 18 septembre 2024
+CNC, production 2025
+IGF, aides au cinéma
+Runway, Series E, 10 février
+Lionsgate Studios, Proxy Statement 2026
+
+#CinemaFrancais #Lionsgate #Runway #FINVOCE #IntelligenceArtificielle #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517072044904321024/">Linkedin</source></item><item><title>Le Normand qui inventa le crayon moderne quand le blocus anglais coupa la France du graphite</title><link>https://voce.life/archive/2026/10/17/le-normand-qui-inventa-le-crayon-moderne-quand-le-blocus-anglais-coupa-l-7517132490118144000</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/le-normand-qui-inventa-le-crayon-moderne-quand-le-blocus-anglais-coupa-l-7517132490118144000</guid><author>VOCE Association</author><description>Le Normand qui inventa le crayon moderne quand le blocus anglais coupa la France du graphite
+
+Saint-Céneri-près-Sées, Orne.
+
+Nicolas-Jacques Conté y naît en 1755.
+
+Peintre, mécanicien, physicien, il gagne Paris grâce à ses portraits puis travaille sur les aérostats militaires de la jeune République.
+
+En 1794, la guerre lui impose un problème beaucoup plus banal.
+
+Le crayon manque.
+
+La France subit le blocus maritime britannique. La plombagine de haute qualité utilisée pour les mines vient notamment du Cumberland anglais. Ingénieurs, topographes, artisans et dessinateurs commencent à manquer d'un outil élémentaire.
+
+L'Agence des mines demande à Conté de trouver une mine ne dépendant plus des matières premières anglaises.
+
+Il ne cherche pas une nouvelle mine.
+
+Il fabrique une nouvelle matière.
+
+Conté broie du graphite ordinaire, le mélange à de l'argile puis cuit la pâte. En faisant varier la proportion des deux composants et la cuisson, il obtient des mines aux propriétés différentes.
+
+Le 3 janvier 1795, il dépose un brevet de dix ans pour des "crayons artificiels".
+
+La rupture est considérable.
+
+La qualité du crayon ne dépend plus seulement de la pureté exceptionnelle d'un gisement naturel.
+
+Elle devient réglable.
+
+Le graphite ordinaire peut désormais être transformé industriellement, puis enfermé entre deux demi-pièces de bois.
+
+En moins d'un an, Conté crée sa manufacture. Ses crayons sont distingués lors de l'Exposition des produits de l'industrie française de 1798.
+
+Plus de deux siècles plus tard, le principe graphite-argile-cuisson reste au cœur du crayon moderne.
+
+ULTRA® 
+
+LA PÉNURIE A CRÉÉ UN MATÉRIAU PROGRAMMABLE
+
+L'invention de Conté ne consiste pas seulement à remplacer un graphite anglais devenu inaccessible.
+
+Elle change la logique de la matière.
+
+Avant lui, certaines qualités du crayon dépendaient fortement de ce que la géologie avait fourni.
+
+Avec son procédé, la dureté et le comportement de la mine peuvent être ajustés par formulation et cuisson.
+
+Une ressource imparfaite devient un produit calibré.
+
+C'est une leçon de souveraineté industrielle qui dépasse le crayon.
+
+Posséder la meilleure matière première n'est pas toujours décisif si l'on sait transformer une ressource plus commune en matériau aux propriétés contrôlées.
+
+Le blocus britannique avait créé une dépendance.
+
+Conté répond en supprimant une partie de cette dépendance par le procédé lui-même.
+
+BÉNÉDICT
+
+Une pénurie devient parfois une invention lorsque quelqu'un cesse d'attendre le retour de ce qui manque.
+
+Sources
+
+INPI, "Conté ou l'art du crayon (1795)"
+Conservatoire national des arts et métiers, Nicolas-Jacques Conté
+BnF, notice Nicolas-Jacques Conté, 1755-1805
+
+#Normandie #Conte #Crayon #Innovation #Industrie #Patrimoine #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517132490118144000/">Linkedin</source></item><item><title>Le magenta n'existe pas dans l'arc-en-ciel. Pourtant, votre cerveau le voit.</title><link>https://voce.life/archive/2026/10/17/le-magenta-n-existe-pas-dans-l-arc-en-ciel-pourtant-votre-cerveau-le-voi-7517253295275663360</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/le-magenta-n-existe-pas-dans-l-arc-en-ciel-pourtant-votre-cerveau-le-voi-7517253295275663360</guid><author>VOCE Association</author><description>Le magenta n'existe pas dans l'arc-en-ciel. Pourtant, votre cerveau le voit.
+
+Lyon, 1858.
+
+François-Emmanuel Verguin chauffe de l'aniline avec du tétrachlorure d'étain et obtient un rouge violacé d'une intensité exceptionnelle.
+
+Il dépose son brevet le 2 février 1858. L'année suivante, les frères Renard acquièrent le procédé et industrialisent la fuchsine à Lyon.
+
+Mais cette couleur possède une propriété déroutante.
+
+Cherchez le magenta dans un arc-en-ciel.
+
+Vous ne le trouverez pas.
+
+Un prisme ordonne la lumière visible selon sa longueur d'onde. Rouge à une extrémité, violet à l'autre. Entre les deux, aucune bande magenta.
+
+Aucune longueur d'onde unique ne produit cette sensation.
+
+Le magenta est une couleur non spectrale.
+
+Notre rétine possède trois classes de cônes, L, M et S, dont les sensibilités se chevauchent. Le cerveau compare ensuite leurs réponses dans plusieurs circuits chromatiques.
+
+Une stimulation combinant fortement les extrémités du spectre, relativement au milieu, peut être perçue comme pourpre ou magenta.
+
+La couleur n'est donc pas la copie directe d'une longueur d'onde. Elle résulte des réponses relatives de nos photorécepteurs et de leur traitement neuronal.
+
+En 2023, Dragos Rezeanu, Maureen Neitz et Jay Neitz publient dans JOSA A un modèle reliant rapports entre cônes, normalisation antagoniste et adaptation à l'apparence des teintes fondamentales.
+
+ULTRA® 
+
+DEUX SPECTRES DIFFÉRENTS PEUVENT AVOIR LA MÊME COULEUR
+
+Deux distributions spectrales différentes peuvent provoquer des réponses suffisamment proches dans les trois classes de cônes pour paraître identiques.
+
+Ce sont des métamères.
+
+Sous un autre éclairage, l'équivalence peut disparaître.
+
+Une étoffe, un cuir ou un packaging peuvent sembler parfaitement assortis en boutique puis diverger à la lumière du jour.
+
+Un écran produit le magenta en combinant principalement rouge et bleu. Une encre magenta agit autrement: elle absorbe certaines longueurs d'onde et en réfléchit d'autres.
+
+Même apparence recherchée. Physique différente.
+
+Voilà pourquoi un code RGB, CMYK ou hexadécimal ne suffit pas à garantir une couleur sur plusieurs matériaux.
+
+Le luxe doit aussi maîtriser illuminant, spectre de réflectance, pigments, supports et métamérie.
+
+La fidélité chromatique n'est pas seulement esthétique.
+
+C'est une performance d'ingénierie.
+
+TURANDOT
+
+Certaines couleurs n'existent pas comme longueur d'onde unique. Elles existent parce que notre système visuel sait les construire.
+
+Sources
+
+Bibliothèque municipale de Lyon, "La saga des colorants à Lyon au XIXe siècle"
+Rezeanu, M. Neitz &amp; J. Neitz, JOSA A, 2023
+Royal Society of Chemistry
+CIE, colorimétrie et métamérie
+
+#Neurosciences #Vision #Couleurs #Colorimetrie #Luxe #Textile #Innovation #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517253295275663360/">Linkedin</source></item><item><title>Le cofondateur de Rho Bio teste un gel sous le cuir chevelu contre le gliome chez la souris</title><link>https://voce.life/archive/2026/10/17/le-cofondateur-de-rho-bio-teste-un-gel-sous-le-cuir-chevelu-contre-le-gl-7517087148517421057</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/le-cofondateur-de-rho-bio-teste-un-gel-sous-le-cuir-chevelu-contre-le-gl-7517087148517421057</guid><author>VOCE Association</author><description>Le cofondateur de Rho Bio teste un gel sous le cuir chevelu contre le gliome chez la souris
+
+19 août 2026.
+
+À Washington University, Jang Hyun Park, Jonathan Kipnis et leurs collègues révèlent dans Nature une défense immunitaire cachée dans la moelle du crâne.
+
+Chez la souris, ils y trouvent des structures proches de centres germinatifs associant lymphocytes B et T.
+
+Des canaux microscopiques relient cette moelle aux méninges. Des antigènes cérébraux peuvent donc atteindre cette niche immunitaire.
+
+Dans des modèles de gliome, les chercheurs perturbent localement ces structures avec un hydrogel injecté sous le cuir chevelu contenant un anticorps anti-CD40L.
+
+La survie diminue.
+
+Ils font ensuite l'inverse.
+
+Un hydrogel associe un agoniste CD40, l'interleukine-21 et l'interféron gamma. Les réponses immunitaires du crâne augmentent, davantage de cellules infiltrent la tumeur et les souris vivent plus longtemps.
+
+Le gel ne touche pas directement la tumeur: il stimule l'immunité contenue dans l'os qui l'entoure.
+
+Mais l'agoniste CD40 utilisé seul provoque une mortalité plus précoce. Activer davantage n'est donc pas nécessairement mieux.
+
+Des cellules T comparables ont été identifiées dans la moelle crânienne humaine. Aucun bénéfice de cet hydrogel n'est démontré chez des patients.
+
+ULTRA® 
+
+LE CRÂNE DEVIENT UNE CIBLE IMMUNOLOGIQUE
+
+L'intérêt vient de la localisation.
+
+Administré sous le scalp, l'hydrogel concentre son effet dans la moelle crânienne beaucoup plus que dans les tissus périphériques étudiés.
+
+Cela ouvre une logique différente de l'immunothérapie systémique: intervenir sur une niche immunitaire anatomiquement proche du cerveau.
+
+L'expérience montre déjà la difficulté: la combinaison des signaux peut déterminer si l'effet protège ou aggrave.
+
+FINVOCE ©
+
+Jonathan Kipnis est cofondateur de Rho Bio, mais cette étude Nature n'est pas un programme Rho Bio.
+
+Son financement déclaré vient du NIH, du Cure Alzheimer's Fund, du BJC Investigators Program, de la National Research Foundation of Korea et de ChadTough Defeat DIPG Foundation.
+
+Rho Bio développe séparément LS-VEGF-C, un activateur lymphatique issu de travaux de Yale et WashU.
+
+Mission BioCapital lui a apporté un financement d'amorçage via son Platinum Program. Connecticut Innovations classe Rho Bio dans son portefeuille. Une présentation Yale mentionne aussi 300.000 dollars de financement non dilutif.
+
+En avril 2026, ARPA-H sélectionne Rho Bio dans GLIDE pour développer une stratégie d'activation lymphatique contre le lymphœdème. Le montant attribué n'est pas public.
+
+PARSIFAL
+
+Le crâne n'est peut-être pas seulement ce qui protège le cerveau. Il participe aussi à sa surveillance.
+
+Sources 2026
+
+Park et al., Nature, 19 août
+Rho Bio
+ARPA-H GLIDE
+Yale Ventures
+Mission BioCapital
+Connecticut Innovations
+
+#RhoBio #Gliome #Immunotherapie #Neurosciences #FINVOCE #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517087148517421057/">Linkedin</source></item><item><title>KAUST: une membrane de 97,5 nanomètres rejette 99,8% du sel marin</title><link>https://voce.life/archive/2026/10/17/kaust-une-membrane-de-97-5-nanometres-rejette-99-8-du-sel-marin-7517223077714460672</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/kaust-une-membrane-de-97-5-nanometres-rejette-99-8-du-sel-marin-7517223077714460672</guid><author>VOCE Association</author><description>KAUST: une membrane de 97,5 nanomètres rejette 99,8% du sel marin
+
+Arabie saoudite, 10 janvier 2026.
+
+À KAUST, Mohamed Obaid, Sofiane Soukane, Noreddine Ghaffour et leurs collègues publient dans Nature Communications une membrane dont la couche active la plus performante mesure environ 97,5 nanomètres.
+
+Moins d'un dixième de micromètre.
+
+Ses pores sont inférieurs au nanomètre.
+
+Dans l'eau de mer, elle rejette 99,8% du sel et 100% du bore dans les conditions étudiées.
+
+Mais elle ne fonctionne pas comme un filtre ordinaire.
+
+La surface est superhydrophobe: l'eau liquide ne mouille pas les pores. À l'interface, elle passe en vapeur, traverse le film puis se condense de l'autre côté. Les sels ne s'évaporent pas.
+
+À 25°C, le flux atteint 40 litres par mètre carré et par heure. À 60°C: 238 litres.
+
+Avec une véritable saumure issue d'osmose inverse, le flux reste de 12 litres à 25°C.
+
+La géométrie est fabriquée par chimie.
+
+Un trichlorosilane fluoré réagit avec une diamine à l'interface de deux phases. En une minute, la polymérisation forme un film dont l'épaisseur et la densité peuvent être réglées.
+
+ULTRA® | 97,5 NANOMÈTRES CHANGENT LA PHYSIQUE DU DESSALEMENT
+
+L'épaisseur compte énormément.
+
+Dans le modèle des chercheurs, passer de 120 nanomètres à 1 micromètre divise le flux de vapeur par huit.
+
+Les pores subnanométriques, la faible épaisseur et la superhydrophobie modifient ensemble la pression de vapeur au ménisque et réduisent la résistance au transport.
+
+Mais les chiffres énergétiques demandent prudence.
+
+À 25°C, l'étude calcule 1,88 kWh/m³ dans sa configuration expérimentale. À 60°C, malgré le flux supérieur, elle obtient 20,65 kWh/m³ car il faut fournir davantage de chaleur.
+
+Ce n'est donc pas encore la preuve qu'une usine utilisant cette membrane battra l'osmose inverse en coût énergétique global.
+
+Vieillissement, colmatage, récupération thermique, grandes surfaces et impact des solvants restent à démontrer.
+
+FINVOCE ©
+
+L'étude est financée directement par KAUST et sa Water Desalination and Reuse Platform.
+
+Le papier prévoyait encore une validation sur une surface plus grande. Le 29 janvier, KAUST annonce que la technologie est désormais testée dans une installation pilote sur son campus et que plusieurs partenaires industriels s'y intéressent.
+
+Leurs noms et leurs investissements ne sont pas publics.
+
+Aramco a séparément engagé jusqu'à 100 millions de dollars sur dix ans pour des programmes de recherche avec KAUST. Aucun financement direct de cette membrane par Aramco n'est documenté.
+
+La prochaine valeur ne se jouera plus au nanomètre.
+
+Elle se jouera au mètre carré.
+
+MIME
+
+La matière devient une machine lorsqu'elle décide sous quelle forme l'eau peut la traverser.
+
+Sources 2026
+
+Obaid, Soukane et al., Nature Communications, 10 janvier.
+KAUST, 29 janvier
+
+#KAUST #Desalination #Membranes #Nanotechnology #MaterialsScience #FINVOCE #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517223077714460672/">Linkedin</source></item><item><title>Hengrui et HRS-7535: la Chine freine une fuite rénale que les diabétiques ne sentent pas</title><link>https://voce.life/archive/2026/10/17/hengrui-et-hrs-7535-la-chine-freine-une-fuite-renale-que-les-diabetiques-7517147568066469888</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/hengrui-et-hrs-7535-la-chine-freine-une-fuite-renale-que-les-diabetiques-7517147568066469888</guid><author>VOCE Association</author><description>Hengrui et HRS-7535: la Chine freine une fuite rénale que les diabétiques ne sentent pas
+
+Hangzhou, Chine.
+
+Le diabète peut abîmer le rein longtemps avant la dialyse.
+
+L'un de ses premiers signaux est presque invisible: l'albumine, normalement retenue dans le sang, commence à passer dans les urines.
+
+Le 9 juillet 2026, l'essai SOLID-DKD paraît dans eClinicalMedicine.
+
+Dans 72 centres chinois, 281 adultes atteints de maladie rénale diabétique reçoivent placebo ou HRS-7535, un agoniste du récepteur GLP-1 développé par Jiangsu Hengrui Pharmaceuticals.
+
+Sa particularité: ce n'est pas un peptide injectable, mais une petite molécule prise par voie orale.
+
+Après 16 semaines, à 90 mg, le rapport albumine/créatinine urinaire baisse de 44% depuis le départ, contre 18% sous placebo.
+
+Réduction ajustée: 32%.
+
+Et ces patients étaient déjà fortement traités: 64,6% recevaient un inhibiteur SGLT2, 24,3% de la finérénone et 85,7% un traitement agissant sur le système rénine-angiotensine.
+
+L'HbA1c baisse également de 1,09 point supplémentaire face au placebo.
+
+Les effets indésirables sont surtout digestifs.
+
+Seize semaines ne démontrent ni prévention de la dialyse ni ralentissement durable de l'insuffisance rénale. HRS-7535 reste expérimental.
+
+ULTRA® 
+
+LA BATAILLE SE DÉPLACE VERS LA MOLÉCULE ET SA PROPRIÉTÉ
+
+Novo Nordisk avait déjà franchi une étape supérieure avec FLOW: 3.533 patients et une réduction de 24% du risque d'événements rénaux majeurs avec le sémaglutide injectable.
+
+Hengrui ne démontre donc aucune supériorité rénale.
+
+Son innovation est ailleurs.
+
+HRS-7535 est une petite molécule orale, non peptidique, conçue pour être prise sans contraintes strictes de repas ou d'horaire.
+
+Si les futurs essais confirment un bénéfice clinique rénal, la compétition portera aussi sur fabrication, coût, prise orale et capacité industrielle.
+
+FINVOCE ©
+
+En 2024, Hengrui concède à la future Kailera les droits de HRS-7535 et d'autres actifs GLP-1 hors Grande Chine.
+
+Conditions: 100 millions de dollars upfront, 10 millions de transfert technologique, participation au capital, jusqu'à 200 millions de milestones cliniques et réglementaires et 5,725 milliards de milestones commerciaux, plus royalties.
+
+En avril 2026, Kailera lève 718,8 millions lors de son IPO au Nasdaq.
+
+Bain Capital détient alors environ 20,3% du capital.
+
+Au 30 juin, Hengrui possède encore 8,9%.
+
+La Chine ne cède donc pas simplement une molécule aux États-Unis.
+
+Elle conserve une participation dans la société chargée de la développer à l'international.
+
+RIGOLETTO
+
+Le rein peut commencer à perdre ce qu'il devrait retenir longtemps avant que le patient ne sente qu'il perd quelque chose.
+
+Sources 2026
+
+Lv et al., eClinicalMedicine, 9 juillet
+Hengrui Pharmaceuticals
+Kailera Therapeutics, SEC
+FLOW, semaglutide et maladie rénale diabétique
+
+#Diabete #Nephrologie #Hengrui #HRS7535 #Biotechnologie #FINVOCE #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517147568066469888/">Linkedin</source></item><item><title>Frore Systems: 2,5 mm d'épaisseur pour produire un courant d'air sans ventilateur</title><link>https://voce.life/archive/2026/10/17/frore-systems-2-5-mm-d-epaisseur-pour-produire-un-courant-d-air-sans-ven-7517117367240413184</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/frore-systems-2-5-mm-d-epaisseur-pour-produire-un-courant-d-air-sans-ven-7517117367240413184</guid><author>VOCE Association</author><description>Frore Systems: 2,5 mm d'épaisseur pour produire un courant d'air sans ventilateur
+
+San José, Californie.
+
+En 2018, Seshu Madhavapeddy et Surya Ganti quittent l'univers des capteurs ultrasoniques de Qualcomm avec un problème: dans les appareils minces, le processeur peut être plus puissant que le système capable d'évacuer sa chaleur.
+
+Quatre ans plus tard, Frore Systems présente AirJet.
+
+Pas de rotor ni d'hélice.
+
+Des membranes MEMS piézoélectriques vibrent à fréquence ultrasonore. Elles aspirent l'air puis créent des jets pulsés contre une surface métallique reliée au processeur.
+
+La chaleur est emportée avec l'air expulsé.
+
+En 2023, Zotac intègre deux AirJet Mini dans son ZBOX pico PI430AJ de 0,21 litre.
+
+Notebookcheck le teste en janvier 2024. Le refroidissement fonctionne, mais ses limites apparaissent: le Core i3-N300 reste autour de 7 W en charge prolongée et le boîtier atteint 69,5°C.
+
+En mai 2025, Frore présente AirJet Mini G2.
+
+Épaisseur: 2,5 mm.
+Chaleur évacuée: 7,5 W.
+Contre-pression: 1.750 Pa.
+Bruit annoncé: 21 dBA.
+
+Cette pression permet d'aspirer l'air à travers des passages étroits et des filtres.
+
+Le 3 septembre 2026, Lenovo dévoile à Berlin AeroBlade, un concept 14 pouces utilisant AirJet: moins de 10 mm d'épaisseur et moins de 830 g.
+
+Mais une technologie présentée en 2022 fonctionne déjà dans un mini-PC vendu et entre désormais dans un prototype Lenovo.
+
+ULTRA®
+
+LA FRONTIÈRE THERMIQUE DEVIENT UNE ARCHITECTURE
+
+Les jets pulsés frappent le dissipateur dans un espace interne minuscule et perturbent la couche limite d'air qui ralentit normalement l'échange thermique.
+
+La performance dépend donc du couplage entre silicium, interface thermique, dissipateur, circulation de l'air et résistance du boîtier.
+
+Supprimer le ventilateur ne supprime ni la résistance thermique ni l'énergie nécessaire au pompage.
+
+Mais cela permet moins d'épaisseur, davantage de pression statique et un air filtré sans rotor.
+
+FINVOCE ©
+
+En mai 2024, Fidelity mène une Series C de 80 millions de dollars. Prosperity7, fonds d'Aramco Ventures, participe avec Qualcomm Ventures, Mayfield et d'autres investisseurs.
+
+En mars 2026, MVP Ventures dirige une Series D de 143 millions.
+
+Valorisation: 1,64 milliard de dollars.
+
+Capital cumulé annoncé: environ 340 millions.
+
+Frore développe désormais aussi LiquidJet pour les data centers.
+
+La thèse financière devient plus large: à mesure que la puissance de calcul augmente, la gestion thermique devient elle-même une couche stratégique de l'infrastructure.
+
+CALAF
+
+Pendant des décennies, nous avons déplacé l'air avec des pales. Frore essaie de le faire avec quelques millimètres de matière vibrante.
+
+Sources
+
+Frore Systems, AirJet, 2022-2026
+Notebookcheck, ZBOX pico PI430AJ, janvier 2024
+Lenovo Innovation World, 3 septembre 2026
+Data Center Dynamics, 19 mars 2026
+
+#FroreSystems #AirJet #MEMS #ThermalEngineering #DeepTech #FINVOCE #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517117367240413184/">Linkedin</source></item><item><title>Fibrillation auriculaire: plus de 500.000 ablations par champs pulsés sans fistule œsophagienne rapportée</title><link>https://voce.life/archive/2026/10/17/fibrillation-auriculaire-plus-de-500-000-ablations-par-champs-pulses-san-7517177769160736768</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/fibrillation-auriculaire-plus-de-500-000-ablations-par-champs-pulses-san-7517177769160736768</guid><author>VOCE Association</author><description>Fibrillation auriculaire: plus de 500.000 ablations par champs pulsés sans fistule œsophagienne rapportée
+
+Cleveland, avril 2026.
+
+Quelques millimètres derrière l'oreillette gauche passe l'œsophage.
+
+Traiter une fibrillation auriculaire consiste souvent à détruire localement du tissu pour isoler des circuits électriques anormaux autour des veines pulmonaires.
+
+La radiofréquence chauffe. La cryoablation gèle.
+
+Une lésion thermique peut exceptionnellement atteindre l'œsophage. La complication la plus redoutée est la fistule atrio-œsophagienne, rare mais souvent mortelle.
+
+Le 12 avril 2026, cinq sociétés internationales publient dans Europace un constat spectaculaire.
+
+Plus de 500.000 procédures ont été réalisées avec le cathéter PFA pentaspline sans qu'une seule fistule atrio-œsophagienne ait été rapportée.
+
+Cela ne signifie pas que le risque est nul. Cela révèle une différence de physique.
+
+La pulsed field ablation utilise des impulsions électriques très brèves qui provoquent une électroporation irréversible. La membrane des cardiomyocytes perd son intégrité sans que la destruction repose principalement sur la chaleur.
+
+Puis vient AVANT GUARD.
+
+Oussama Wazni et ses collègues randomisent 310 patients atteints de fibrillation auriculaire persistante entre PFA et médicaments antiarythmiques. Tous reçoivent un moniteur implantable.
+
+À douze mois, le critère composite de succès est atteint chez 56,0% des patients PFA contre 30,1% sous médicaments.
+
+Mais six événements neurologiques surviennent parmi les premiers patients traités. L'essai est interrompu, le protocole modifié, puis reprend. Aucun AVC ni AIT n'est observé chez les 74 patients PFA suivants.
+
+L'électricité réduit certains risques thermiques.
+
+Elle ne supprime pas le risque médical.
+
+ULTRA® 
+
+DEUX TISSUS VOISINS, DEUX VULNÉRABILITÉS ÉLECTRIQUES
+
+L'électroporation dépend du champ appliqué, de la durée des impulsions, de la géométrie cellulaire et du potentiel transmembranaire.
+
+Les cardiomyocytes sont particulièrement sensibles aux paramètres utilisés, tandis que l'œsophage, les vaisseaux et certains nerfs sont relativement mieux préservés.
+
+La sélectivité n'est pas absolue: spasme coronaire, hémolyse, embolie et lésions non ciblées restent possibles.
+
+En février, ADVENT-LTO suit 364 patients pendant environ 3,6 ans. Succès estimé: 72,8% avec PFA contre 64,3% avec ablation thermique, différence non significative. Les nouvelles ablations sont moins fréquentes: 10,4% contre 17,7%.
+
+La PFA n'est pas une ablation "sans danger". Elle change surtout la manière de choisir ce que l'énergie détruit et épargne.
+
+ORFEO
+
+La maîtrise d'une force commence lorsqu'on sait précisément ce qu'elle ne doit pas toucher.
+
+Sources 2026
+
+Kühne et al., Europace, 12 avril
+Wazni et al., New England Journal of Medicine, 25 avril
+Reddy et al., Nature Medicine, 6 février
+
+#FibrillationAuriculaire #Cardiologie #Electroporation #PFA #Bioelectricite #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517177769160736768/">Linkedin</source></item><item><title>En amour, ce qui rassure l'un peut laisser l'autre à distance</title><link>https://voce.life/archive/2026/10/17/en-amour-ce-qui-rassure-l-un-peut-laisser-l-autre-a-distance-7517283449838133248</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/en-amour-ce-qui-rassure-l-un-peut-laisser-l-autre-a-distance-7517283449838133248</guid><author>VOCE Association</author><description>En amour, ce qui rassure l'un peut laisser l'autre à distance
+
+Toronto, 2026.
+
+Une soirée familière. Le même restaurant, les mêmes gestes, la certitude de retrouver l'autre demain.
+
+Pour certaines personnes, cette prévisibilité rapproche.
+
+Pour d'autres, ce sont les expériences nouvelles qui rendent la relation plus vivante.
+
+Kristina Schrage, Emily Impett, Mustafa Anil Topal, Cheryl Harasymchuk et Amy Muise ont étudié cette différence dans trois études quotidiennes portant sur 390 couples.
+
+Pendant 21 jours, les partenaires décrivent séparément leurs activités partagées, leur satisfaction relationnelle et leur vécu quotidien.
+
+Les chercheurs examinent ensuite deux dimensions de l'attachement: anxiété d'abandon et évitement de l'intimité.
+
+Le résultat, publié le 21 janvier 2026 dans Social Psychological and Personality Science, montre deux profils différents.
+
+Chez les personnes plus anxieuses, les journées comportant davantage d'expériences familières et rassurantes qu'à leur habitude effacent statistiquement le déficit de satisfaction associé à cette anxiété.
+
+La nouveauté ne produit pas cet effet.
+
+Chez les personnes plus évitantes, c'est l'inverse.
+
+Les journées plus nouvelles et stimulantes atténuent leur moindre satisfaction relationnelle. Les activités familières ne la compensent pas.
+
+Pour les personnes fortement anxieuses, le lien entre familiarité et satisfaction atteint sr=0,19, contre 0,08 chez les personnes peu anxieuses.
+
+Chez les personnes fortement évitantes, le lien entre nouveauté et satisfaction atteint sr=0,10, contre 0,07 chez les personnes peu évitantes.
+
+Les effets sont modestes mais leur direction est claire.
+
+Deux partenaires peuvent chercher sincèrement à se rapprocher et proposer précisément ce qui fonctionne le moins bien pour l'autre.
+
+ULTRA® 
+
+LA MÊME PROXIMITÉ N'A PAS LA MÊME VALEUR
+
+Chez les personnes évitantes, la nouveauté augmente en partie ce que les chercheurs appellent la "relationship reward": sentiment d'intimité, de connexion et de plaisir relationnel.
+
+Chez les personnes anxieuses, en revanche, les auteurs ne trouvent pas le mécanisme attendu: ni la baisse de la menace relationnelle ni l'augmentation de la récompense n'expliquent statistiquement l'effet de la familiarité.
+
+Cette asymétrie est importante.
+
+L'étude ne dit pas que les anxieux ont besoin de routine et les évitants d'aventure comme deux catégories fixes.
+
+Elle montre que, certains jours, une expérience correspondant davantage à leurs besoins d'attachement est associée à une meilleure satisfaction.
+
+Et elle reste corrélationnelle: elle ne prouve pas qu'organiser volontairement ces activités transformera la relation.
+
+CUPIDO E GLI INGANNI DEL CUORE
+
+Nous offrons souvent à l'autre la forme de proximité qui nous rassurerait nous-mêmes.
+
+Sources 2026
+
+Schrage et al., Social Psychological and Personality Science, 21 janvier
+
+#Amour #Attachement #Couple #Psychologie #Relations #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517283449838133248/">Linkedin</source></item><item><title>En 536, des éruptions inconnues ont plongé l'Europe dans un été sans soleil</title><link>https://voce.life/archive/2026/10/17/en-536-des-eruptions-inconnues-ont-plonge-l-europe-dans-un-ete-sans-sole-7517192859796770816</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/en-536-des-eruptions-inconnues-ont-plonge-l-europe-dans-un-ete-sans-sole-7517192859796770816</guid><author>VOCE Association</author><description>En 536, des éruptions inconnues ont plongé l'Europe dans un été sans soleil
+
+Constantinople, 536.
+
+Procope observe un phénomène qu'il ne sait pas expliquer.
+
+Pendant des mois, écrit-il, le Soleil donne sa lumière "sans éclat", presque comme lors d'une éclipse.
+
+En Italie, Cassiodore décrit un disque bleuté et des ombres presque absentes à midi.
+
+Aucune chronique européenne ne raconte l'éruption.
+
+Mais la glace et les arbres l'ont enregistrée.
+
+En 2015, Michael Sigl et une équipe internationale analysent des carottes du Groenland et de l'Antarctique. Deux anomalies de sulfate volcanique apparaissent en 536 et 540.
+
+Le signal de 536 correspond à une ou plusieurs éruptions de l'hémisphère Nord encore non identifiées. Celle de 540 est attribuée à une très grande éruption tropicale.
+
+Les aérosols soufrés injectés dans la stratosphère réfléchissent une partie du rayonnement solaire.
+
+Les reconstructions indiquent alors pour l'été européen de 536 un refroidissement d'environ 1,6 à 2,5°C.
+
+En Laponie finlandaise, Samuli Helama et ses collègues trouvent une preuve presque physique du choc.
+
+Dans des pins subfossiles, le cerne de 536 porte des lésions provoquées par un gel survenu pendant la croissance estivale.
+
+Probablement en juillet.
+
+Le froid avait frappé assez brutalement pour endommager les cellules d'arbres vivants.
+
+Chroniqueurs, glaces polaires et bois fossiles racontent ainsi le même événement sans avoir jamais partagé la même archive.
+
+Puis une nouvelle éruption majeure survient en 540.
+
+La peste justinienne apparaît en 541. Les volcans ne peuvent pas être présentés comme sa cause directe. Mais elle frappe des sociétés déjà soumises à plusieurs années de perturbations climatiques.
+
+ULTRA® 
+
+L'ERREUR DE SEPT ANS CORRIGÉE PAR UNE TEMPÊTE COSMIQUE
+
+L'une des plus belles pièces de cette enquête vient de l'année 775.
+
+Cette année-là, une brusque hausse du carbone 14 apparaît dans les cernes d'arbres du monde entier, produite par un événement cosmique extrême.
+
+Le même épisode laisse une pointe de béryllium 10 dans les glaces polaires.
+
+En alignant les deux signatures, Sigl et ses collègues découvrent que la chronologie volcanique des carottes était décalée de sept ans.
+
+Une fois corrigée, l'anomalie de sulfate rejoint précisément les témoignages de 536.
+
+Un événement venu de l'espace, 239 ans plus tard, fournit donc l'horloge qui permet de dater une catastrophe terrestre.
+
+Et la source de 536 reste inconnue.
+
+Des analyses récentes indiquent que les cendres pourraient provenir d'au moins trois sources volcaniques distinctes.
+
+ORFEO
+
+Le temps conserve parfois des preuves que les hommes n'avaient aucun moyen de recueillir.
+
+Sources
+
+Sigl et al., Nature, 2015
+Büntgen et al., Nature Geoscience, 2016
+Helama et al., Quaternary Science Reviews, 2019
+Plunkett et al., Quaternary Science Reviews, 2023
+
+#Volcans #Climat #Histoire #Dendrochronologie #ArcheologieDuCiel #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517192859796770816/">Linkedin</source></item><item><title>Elles veulent rentrer seules. Alors elles acceptent d'être suivies</title><link>https://voce.life/archive/2026/10/17/elles-veulent-rentrer-seules-alors-elles-acceptent-d-etre-suivies-7517298574725095424</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/elles-veulent-rentrer-seules-alors-elles-acceptent-d-etre-suivies-7517298574725095424</guid><author>VOCE Association</author><description>Elles veulent rentrer seules. Alors elles acceptent d'être suivies
+
+Danemark.
+
+Une adolescente quitte une soirée et rentre seule.
+
+Mais sur le téléphone de ses amies, un point continue d'avancer.
+
+En mai 2026, Kristian Haulund Jensen publie une étude fondée sur cinq groupes de discussion réunissant 38 adolescentes danoises de 15 à 17 ans.
+
+Snap Map fait partie de leurs pratiques de sortie: trouver une fête, rejoindre des amis, mais aussi vérifier qu'une amie est rentrée.
+
+Si elle ne répond pas, elles regardent sa localisation, son dernier passage en ligne, appellent ou demandent un partage en direct.
+
+Le téléphone devient une infrastructure informelle de care.
+
+Être seule ne signifie plus nécessairement être sans témoin.
+
+Quelques semaines plus tôt, Louise Barkhuus, John S. Seberger, Jorge P. Campos et Anouk Mols publient une seconde étude sur 15 étudiants de 18 à 22 ans à New York utilisant notamment Apple Find My et Life360.
+
+Pendant deux semaines, entretiens et mini-questionnaires montrent trois usages: organiser la vie sociale, gérer l'appartenance au groupe et produire un "sense of safety".
+
+Tous les participants évoquent la sécurité.
+
+Mais les auteurs apportent une nuance décisive: ils n'observent aucun cas où le partage de localisation a démontré qu'il empêchait réellement un dommage.
+
+Ce qu'il produit avec certitude est un sentiment de sécurité.
+
+ULTRA® | LA SURVEILLANCE DEVIENT ACCEPTABLE LORSQU'ELLE RESSEMBLE À DU CARE
+
+Les recherches plus anciennes supposaient souvent que les utilisateurs voudraient contrôler finement qui peut voir leur position, pendant combien de temps et avec quelle précision.
+
+Chez ces étudiants, le partage est souvent continu.
+
+Les règles portent surtout sur les personnes autorisées, pas sur une durée ou une granularité précise. Certains partagent même encore leur position avec d'anciens amis qu'ils ne fréquentent plus.
+
+Le coût existe: plusieurs participants décrivent le sentiment d'être observés.
+
+Mais ils l'acceptent parce que cette visibilité est associée à la confiance, au soin et à la possibilité d'être retrouvé.
+
+Le déplacement culturel est considérable.
+
+La sécurité n'exige plus seulement qu'une technologie protège l'utilisateur.
+
+Elle peut conduire l'utilisateur à rendre volontairement sa position disponible en permanence.
+
+Cela ne prouve ni que cette pratique augmente objectivement la sécurité, ni qu'elle soit sans risque de contrôle ou d'abus.
+
+Elle montre que la frontière de la vie privée peut se déplacer lorsque la surveillance est vécue comme réciproque et protectrice.
+
+VIOLETTA
+
+La liberté urbaine pourrait ne plus signifier "personne ne sait où je suis", mais "je peux aller où je veux parce que quelqu'un sait où je suis".
+
+Sources 2026
+
+Jensen, Information, Communication &amp; Society, 11 mai
+Barkhuus et al., Computer Supported Cooperative Work, 25 avril
+
+#Privacy #Surveillance #GenerationZ #DigitalSociety #YoungWomen #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517298574725095424/">Linkedin</source></item><item><title>Ceux qui disent que Soulages ne peignait que du noir ignorent ce que leur cerveau y ajoute</title><link>https://voce.life/archive/2026/10/17/ceux-qui-disent-que-soulages-ne-peignait-que-du-noir-ignorent-ce-que-leu-7517238159114608640</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/ceux-qui-disent-que-soulages-ne-peignait-que-du-noir-ignorent-ce-que-leu-7517238159114608640</guid><author>VOCE Association</author><description>Ceux qui disent que Soulages ne peignait que du noir ignorent ce que leur cerveau y ajoute
+
+Janvier 1979.
+
+Pierre Soulages travaille depuis des heures sur une toile entièrement noire.
+
+Il ajoute de la matière, la retire, recommence. Épuisé, il quitte l'atelier.
+
+Deux heures plus tard, il revient.
+
+Le pigment n'a pas changé.
+
+La lumière, oui.
+
+Selon que la surface est lisse, striée ou raclée, le même noir renvoie la lumière différemment. Quand le spectateur se déplace, l'œuvre change avec lui.
+
+Soulages appellera bientôt cela "outrenoir".
+
+Au musée Fabre, "Peinture 162 × 127 cm, 14 avril 1979", premier véritable outrenoir, montre ce principe: un seul pigment noir, plusieurs lumières.
+
+Dire "ce n'est que du noir" revient donc déjà à manquer une partie physique du tableau.
+
+Puis vient le cerveau.
+
+Le 7 avril 2025, Celia Durkin, Marc Apicella, Christopher Baldassano, Eric Kandel et Daphna Shohamy publient dans PNAS une expérience sur 164 peintures: 82 figuratives et 82 abstraites, choisies chez des artistes ayant pratiqué les deux.
+
+Trente participants décrivent chaque œuvre en 280 caractères maximum.
+
+Vingt-neuf autres regardent les mêmes tableaux dans une IRM fonctionnelle.
+
+Les œuvres abstraites produisent des descriptions plus divergentes.
+
+Les réponses cérébrales aussi.
+
+Mais pas dans les premières aires visuelles.
+
+La variabilité apparaît surtout dans des régions associatives d'ordre supérieur, notamment le default mode network, associé notamment à la mémoire autobiographique et aux processus tournés vers soi.
+
+Deux personnes peuvent donc recevoir une information visuelle comparable et construire des expériences mentales beaucoup moins comparables.
+
+ULTRA® 
+
+LE TABLEAU NE S'ARRÊTE PAS À LA RÉTINE
+
+L'étude ne portait pas sur Soulages et ne démontre pas qu'une œuvre abstraite "fait davantage travailler le cerveau".
+
+Elle montre quelque chose de plus précis.
+
+À mesure que l'abstraction augmente, la variabilité des réponses entre individus augmente aussi: r=0,32 pour les réponses cérébrales globales, p&lt;0,001.
+
+Les différences ne viennent pas principalement d'une vision élémentaire différente.
+
+Elles émergent plus haut dans la hiérarchie cognitive, là où perception, souvenirs et associations personnelles commencent à fabriquer du sens.
+
+Eric Kandel appelle cette idée "the beholder's share": la part du spectateur.
+
+Soulages avait construit une peinture où le déplacement physique transforme déjà la lumière reçue.
+
+La neuroscience ajoute une seconde mobilité.
+
+Même immobile devant la même toile, chaque spectateur n'y apporte pas exactement le même cerveau.
+
+CARAVAGGIO
+
+Le regard le plus sûr de lui est parfois celui qui a cessé de chercher.
+
+Sources
+
+Durkin et al., PNAS, 7 avril 2025
+Musée Fabre, "Peinture 162 × 127 cm, 14 avril 1979"
+Musée Soulages, histoire de l'Outrenoir
+
+#Soulages #Neurosciences #Neuroesthetique #ArtAbstrait #Perception #Culture #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517238159114608640/">Linkedin</source></item><item><title>Asthme des enfants: aux Pays-Bas, rénover les logements fait baisser de 3,76% les médicaments respiratoires</title><link>https://voce.life/archive/2026/10/17/asthme-des-enfants-aux-pays-bas-renover-les-logements-fait-baisser-de-3-7517102259625865216</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/asthme-des-enfants-aux-pays-bas-renover-les-logements-fait-baisser-de-3-7517102259625865216</guid><author>VOCE Association</author><description>Asthme des enfants: aux Pays-Bas, rénover les logements fait baisser de 3,76% les médicaments respiratoires
+
+Mars 2026.
+
+Aux Pays-Bas, des chercheurs suivent deux millions de personnes pendant dix ans.
+
+Ils ne testent pas un médicament.
+
+Ils observent ce qui se passe lorsque des logements sociaux mal isolés reçoivent isolation et ventilation mécanique.
+
+Entre 2012 et 2021, les rénovations sont programmées selon des critères techniques liés au bâtiment, pas selon la santé des habitants. Les chercheurs comparent 180.000 occupants de logements rénovés à ceux dont les travaux n'ont pas encore commencé, à partir des données individuelles des assureurs maladie.
+
+Chez les moins de 18 ans, l'utilisation de médicaments respiratoires diminue de 3,76% après rénovation.
+
+p=0,0067.
+
+Cinq ans plus tard, les médicaments contre l'asthme sont inférieurs de 6,91%. Cette estimation manque de peu le seuil statistique conventionnel: p=0,051.
+
+L'étude ne mesure ni les moisissures dans chaque logement ni les crises d'asthme directement.
+
+Elle montre quelque chose de plus rare: modifier le bâtiment est suivi d'une baisse mesurable de l'usage de médicaments respiratoires chez les enfants.
+
+ULTRA® 
+
+L'HUMIDITÉ PEUT COMPTER SANS ALLERGIE AUX MOISISSURES
+
+Un an plus tôt, en France, l'étude CHAMPIASTHMA examine 424 enfants de 1 à 17 ans suivis pour wheezing récidivant ou asthme.
+
+Dans les logements où les parents signalent humidité ou moisissures, 45% des enfants ont un asthme insuffisamment contrôlé, contre 33% dans les autres logements.
+
+Les consultations non programmées concernent 45% des enfants exposés, contre 32%.
+
+Puis vient le résultat le plus intéressant.
+
+Parmi 341 enfants testés, 42 seulement, soit 12%, sont sensibilisés aux moisissures. Cette proportion ne diffère pas entre logements exposés et non exposés.
+
+L'association entre habitat humide et mauvais contrôle de l'asthme ne se résume donc pas à une allergie fongique détectable.
+
+CHAMPIASTHMA reste observationnelle. L'expérience naturelle néerlandaise apporte une couche différente: lorsque le logement change, l'usage de médicaments respiratoires change aussi.
+
+Elle ne prouve pas quel mécanisme agit. Humidité, qualité de l'air, température, ventilation et exposition aux allergènes peuvent évoluer ensemble.
+
+Mais elle déplace la frontière du soin.
+
+Chez certains enfants asthmatiques, le problème à examiner n'est peut-être pas seulement dans les bronches.
+
+Il peut aussi être dans les murs.
+
+AIDA
+
+Un enfant peut recevoir le bon traitement et continuer à respirer dans un logement qui mérite lui aussi d'être examiné.
+
+Sources
+
+Roberdel et al., The Lancet Public Health, 12 mars 2026
+Sauvere et al., Journal of Allergy and Clinical Immunology: Global, 17 janvier 2025
+
+#Asthme #Pneumologie #Habitat #SantéEnvironnementale #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517102259625865216/">Linkedin</source></item><item><title>Après un traumatisme relationnel, un signal de sécurité peut encore être traité comme une menace</title><link>https://voce.life/archive/2026/10/17/apres-un-traumatisme-relationnel-un-signal-de-securite-peut-encore-etre-7517313635166187522</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/apres-un-traumatisme-relationnel-un-signal-de-securite-peut-encore-etre-7517313635166187522</guid><author>VOCE Association</author><description>Après un traumatisme relationnel, un signal de sécurité peut encore être traité comme une menace
+
+Une personne vous traite avec douceur.
+
+Elle respecte vos limites. Elle ne vous menace pas.
+
+Pourtant, votre corps reste en alerte.
+
+En février 2025, Franziska Kausche et ses collègues publient dans Neuroscience &amp; Biobehavioral Reviews une méta-analyse de 77 études réunissant 5.310 personnes.
+
+Les expériences utilisent un principe simple.
+
+Un signal, CS+, annonce parfois quelque chose de désagréable.
+
+Un autre, CS-, annonce la sécurité.
+
+Chez les personnes présentant PTSD, troubles anxieux ou TOC, les réponses au signal de sécurité restent plus élevées que chez les témoins, pendant l'apprentissage, l'extinction et même son rappel.
+
+Le système ne manque donc pas seulement de détecter le danger.
+
+Il peut aussi avoir davantage de difficulté à traiter certains indices comme réellement sûrs.
+
+Cette donnée n'explique pas toutes les difficultés amoureuses.
+
+Mais après certaines expériences traumatiques relationnelles, elle aide à comprendre un phénomène déroutant: désirer la proximité tout en ressentant une alarme lorsque cette proximité devient réelle.
+
+Le présent peut être sûr.
+
+Le système d'anticipation peut continuer à fonctionner avec des règles apprises ailleurs.
+
+ULTRA® 
+
+LA SÉCURITÉ DOIT ELLE AUSSI ÊTRE APPRISE
+
+Lors de l'extinction, le cerveau n'efface pas nécessairement l'association ancienne entre un signal et une menace.
+
+Il apprend une nouvelle relation: ce signal peut désormais ne plus annoncer le danger.
+
+Les deux apprentissages peuvent donc coexister.
+
+Selon le contexte, l'ancien peut réapparaître.
+
+Hippocampe, amygdale et régions préfrontales participent à cette discrimination entre contexte, menace et sécurité, mais la méta-analyse ne permet pas de réduire le phénomène à une région unique.
+
+En 2025, une revue coréenne consacrée aux interventions psychologiques du trauma complexe ne trouve que six études répondant à ses critères.
+
+Les résultats sont encourageants, mais les preuves spécifiquement consacrées au CPTSD restent limitées.
+
+L'objectif clinique n'est donc pas d'apprendre à quelqu'un à "faire confiance" ou à entrer dans une relation.
+
+Il est de permettre au système de distinguer plus justement ce qui appartient au danger ancien de ce qui se déroule maintenant.
+
+ELEKTRA
+
+Le passé ne disparaît pas toujours. Mais il peut apprendre qu'il n'est plus le présent.
+
+Sources
+
+Kausche et al., Neuroscience &amp; Biobehavioral Reviews, février 2025
+Ahn, Hong &amp; Han, Journal of Korean Medical Science, 2025
+Huynh et al., Psychiatry Research, septembre 2025
+
+#Trauma #PTSD #Neurosciences #Psychologie #Attachement #Psychotherapie #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517313635166187522/">Linkedin</source></item><item><title>À 5 cm/s, une caresse change d'effet selon qui vous touche</title><link>https://voce.life/archive/2026/10/17/a-5-cm-s-une-caresse-change-d-effet-selon-qui-vous-touche-7517207993202044929</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/a-5-cm-s-une-caresse-change-d-effet-selon-qui-vous-touche-7517207993202044929</guid><author>VOCE Association</author><description>À 5 cm/s, une caresse change d'effet selon qui vous touche
+
+Septembre 2026.
+
+En Hongrie, Veronika Erdélyi et ses collègues réunissent 110 adultes engagés dans une relation amoureuse.
+
+Ils commencent par provoquer un état émotionnel négatif à l'aide d'images.
+
+Puis l'avant-bras reçoit une caresse lente à 5 cm/s.
+
+Elle vient soit du partenaire amoureux, soit d'un expérimentateur. Dans une troisième condition, le participant porte simplement son attention sur sa peau.
+
+Les chercheurs mesurent le plaisir tactile, l'état émotionnel, la fréquence cardiaque, sa variabilité et la respiration.
+
+La vitesse est la même.
+
+L'expérience ne l'est pas.
+
+La caresse du partenaire est jugée significativement plus agréable et entraîne une amélioration plus importante de la valence émotionnelle que celle de l'expérimentateur ou l'attention portée à la peau.
+
+Mais le cœur et la respiration racontent autre chose.
+
+Aucune différence significative n'apparaît entre partenaire et expérimentateur pour la fréquence cardiaque, sa variabilité ou la fréquence respiratoire.
+
+Le cerveau peut donc attribuer une valeur affective différente à deux stimulations tactiles très proches sans produire, à court terme, une signature autonome périphérique permettant de savoir qui a touché.
+
+ULTRA® 
+
+LA PEAU ENVOIE LE SIGNAL, LE CONTEXTE EN CHANGE LA VALEUR
+
+Une vitesse de 5 cm/s se situe dans la plage de 1 à 10 cm/s à laquelle les afférences C tactiles répondent particulièrement bien.
+
+Ces fibres non myélinisées de la peau pileuse participent au toucher affectif. Leur activité est associée à la sensation agréable des effleurements lents.
+
+Mais elles n'encodent pas "mon partenaire".
+
+L'étude 2026 ne mesure d'ailleurs aucune activité cérébrale et ne permet pas d'attribuer directement l'effet à l'insula ou à une région particulière.
+
+Elle montre quelque chose de plus précis: une stimulation périphérique comparable change de valeur selon l'identité de celui qui la délivre.
+
+Les chercheurs ont aussi mesuré style d'attachement, satisfaction relationnelle et conscience corporelle. Aucun de ces questionnaires n'explique significativement la douceur ressentie.
+
+Un travail de la même équipe publié en 2025 avait déjà montré un autre décalage: les attentes prédisent le plaisir ressenti et l'amélioration subjective de l'humeur, mais pas les changements physiologiques réellement enregistrés.
+
+Le toucher possède donc au moins deux histoires simultanées.
+
+Celle du corps mesuré.
+
+Et celle de l'expérience vécue.
+
+ISOLDE
+
+La peau reçoit un contact. La relation contribue à décider de ce qu'il devient.
+
+Sources 
+
+Erdélyi et al., International Journal of Psychophysiology, septembre 2026
+Köteles et al., Biological Psychology, novembre 2025
+Nature Reviews Neuroscience, "Affective tactile comfort", 2025
+
+#ToucherAffectif #Neurosciences #Intimite #Cognition #Neurobiologie #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517207993202044929/">Linkedin</source></item><item><title>Votre fournisseur peut supprimer le modèle IA qui fait travailler vos agents</title><link>https://voce.life/archive/2026/10/16/votre-fournisseur-peut-supprimer-le-modele-ia-qui-fait-travailler-vos-ag-7516755010119049218</link><guid isPermaLink="true">https://voce.life/archive/2026/10/16/votre-fournisseur-peut-supprimer-le-modele-ia-qui-fait-travailler-vos-ag-7516755010119049218</guid><author>VOCE Association</author><description>Votre fournisseur peut supprimer le modèle IA qui fait travailler vos agents
 
 14 octobre 2026.
 
@@ -1798,909 +2866,4 @@ Reuters, 26-27 février et 5 août 2026
 Mizuho, cité par The Block, 6 août 2026
 Block, Proxy Statement 2026
 
-#Block #AgenticAI #FinTech #FINVOCE #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516498338977001473/">Linkedin</source></item><item><title>À Pékin, une horloge obéit désormais au noyau d'un atome radioactif</title><link>https://voce.life/archive/2026/10/15/a-pekin-une-horloge-obeit-desormais-au-noyau-d-un-atome-radioactif-7516407725489274880</link><guid isPermaLink="true">https://voce.life/archive/2026/10/15/a-pekin-une-horloge-obeit-desormais-au-noyau-d-un-atome-radioactif-7516407725489274880</guid><author>VOCE Association</author><description>À Pékin, une horloge obéit désormais au noyau d'un atome radioactif
-
-7 octobre 2026.
-
-Les horloges atomiques utilisent les transitions des électrons.
-
-À Tsinghua, Beichen Huang, Gaowei Yan, Qi Xiao et l'équipe de Shiqian Ding ferment une boucle d'horloge sur une transition située dans le noyau du thorium-229.
-
-Leur source commence dans un four à cadmium chauffé à 600 °C. Deux lasers à 375 et 710 nm y produisent, par mélange à quatre ondes, 10 µW d'ultraviolet à 148,4 nm.
-
-Cette lumière traverse un cristal de fluorure de calcium contenant 1,4 µg de thorium-229.
-
-Lorsque la fréquence dérive, l'absorption nucléaire change. Le signal corrige alors le laser.
-
-L'oscillateur obéit au noyau.
-
-Instabilité fractionnaire: 5 × 10⁻¹³/√τ. Deux cristaux fabriqués indépendamment donnent des fréquences concordant au niveau de 10⁻¹³.
-
-Le même jour, Nature publie une seconde horloge nucléaire, construite à Vienne par l'équipe de Thorsten Schumm. Son architecture atteint 3 × 10⁻¹²/√τ et approche 10⁻¹⁵ après une journée.
-
-Ces dispositifs ne dépassent pas encore les meilleures horloges optiques.
-
-La rupture est ailleurs: le thorium-229 n'est plus seulement un objet de spectroscopie. Son noyau fonctionne comme référence active d'une horloge.
-
-ULTRA® | POURQUOI LE NOYAU CHANGE LA MÉTROLOGIE
-
-Le noyau est beaucoup plus petit que le nuage électronique et devrait être moins sensible à certaines perturbations extérieures.
-
-Cela ouvre la voie à des références de fréquence robustes et à des capteurs sensibles à d'éventuelles variations de constantes fondamentales.
-
-L'équipe viennoise a déjà utilisé son horloge pour contraindre certains modèles de matière noire ultralégère.
-
-La Chine apporte ici un autre avantage: un cristal solide contenant un grand nombre de noyaux pourrait favoriser des dispositifs plus compacts que certaines horloges à ions piégés.
-
-Rien n'est encore industriel. Il faut simplifier la source VUV, stabiliser les cristaux et démontrer précision et reproductibilité sur de longues périodes.
-
-FINVOCE © | QUI TRANSFORMERA CETTE PHYSIQUE EN PRODUIT?
-
-Le prototype chinois est soutenu par Tsinghua, la Beijing Academy of Quantum Information Sciences et des programmes publics chinois.
-
-À Vienne, le financement associe ERC, fonds autrichiens, programmes européens et DARPA.
-
-Microchip commercialise déjà des horloges atomiques miniatures pour le spatial. Safran développe avec l'ESA de nouvelles références atomiques.
-
-Aucune n'est nucléaire.
-
-La course industrielle commencera lorsque cette physique pourra quitter la table optique.
-
-PARSIFAL
-
-Pour mesurer une seconde, l'humanité vient d'apprendre à demander l'heure à un noyau.
-
-Sources
-
-Huang et al., Nature, 7 octobre 2026
-Toscani De Col et al., Nature, 7 octobre 2026
-TU Wien, 8 octobre 2026
-Microchip Technology, 13 août 2026
-ESA, Safran Timing Technologies, 2026
-
-#HorlogeNucleaire #Thorium229 #Quantique #DeepTech #FINVOCE #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516407725489274880/">Linkedin</source></item><item><title>Sollicitations sexuelles en ligne: plus d'un adolescent sur deux n'en parle pas à ses parents</title><link>https://voce.life/archive/2026/10/14/sollicitations-sexuelles-en-ligne-plus-d-un-adolescent-sur-deux-n-en-par-7516120838291787777</link><guid isPermaLink="true">https://voce.life/archive/2026/10/14/sollicitations-sexuelles-en-ligne-plus-d-un-adolescent-sur-deux-n-en-par-7516120838291787777</guid><author>VOCE Association</author><description>Sollicitations sexuelles en ligne: plus d'un adolescent sur deux n'en parle pas à ses parents
-
-Un adolescent reçoit un message sexuel qu'il n'a jamais demandé.
-
-Il le trouve dérangeant. Pourtant, ses parents risquent de ne jamais en entendre parler.
-
-En janvier 2026, Barbora Lisztwan Honusová, Lenka Dědková et Vojtěch Mýlek publient dans Children and Youth Services Review une étude menée auprès de 1.500 adolescents tchèques de 13 à 18 ans.
-
-57,7% déclarent avoir reçu une sollicitation sexuelle en ligne non désirée au cours des deux années précédentes.
-
-Parmi ceux concernés, seuls 43,6% en parlent à leurs parents.
-
-Les chercheurs analysent ensuite 1.397 réponses ouvertes et identifient 25 raisons de garder le silence.
-
-Certaines concernent la honte ou la vie privée. D'autres la peur que les parents se mettent en colère, accusent l'adolescent, dramatisent ou restreignent son téléphone et son accès à Internet.
-
-Le silence ne signifie donc pas nécessairement absence de confiance.
-
-Il peut aussi protéger une autonomie que l'adolescent pense menacée par la confidence.
-
-Une seconde étude publiée en janvier 2026 suit 1.215 adolescents de huit pays à 13, 15 puis 16 ans.
-
-Le contrôle psychologique parental prédit davantage de sentiment de surcontrôle. Ce sentiment prédit ensuite moins de divulgation aux parents.
-
-Les règles parentales, elles, ne prédisent pas globalement moins de confidences. Et lorsque les chercheurs isolent la divulgation volontaire des comportements de secret, les questions parentales prédisent même davantage de confidences.
-
-ULTRA® 
-
-LE COÛT ANTICIPÉ DE LA CONFIDENCE
-
-Révéler une expérience en ligne impose à l'adolescent d'évaluer deux risques: celui de l'incident lui-même et celui de la réaction parentale.
-
-Si parler peut entraîner confiscation du téléphone, surveillance accrue ou reproches, le coût anticipé de la divulgation augmente.
-
-Cette logique éclaire une difficulté de prévention: renforcer le contrôle peut parfois réduire précisément l'information dont les parents ont besoin pour protéger.
-
-Ces études ne démontrent pas qu'une réaction parentale donnée provoquera toujours le silence, ni que les résultats se généralisent à tous les contextes culturels.
-
-Elles montrent cependant qu'un "non, rien ne s'est passé" ne constitue pas une mesure fiable de l'absence d'incident.
-
-PAMINA
-
-La confiance se mesure aussi à ce qu'un adolescent ose raconter lorsqu'il craint les conséquences de l'avoir dit.
-
-Sources 2026
-
-Lisztwan Honusová, Dědková &amp; Mýlek, Children and Youth Services Review
-Journal of Youth and Adolescence
-
-#Adolescence #SécuritéNumérique #Parentalité #ProtectionEnfance #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516120838291787777/">Linkedin</source></item><item><title>Sanfilippo: Fayuvi pourrait préserver les acquis cognitifs d'enfants condamnés à les perdre</title><link>https://voce.life/archive/2026/10/14/sanfilippo-fayuvi-pourrait-preserver-les-acquis-cognitifs-d-enfants-cond-7516045312646508545</link><guid isPermaLink="true">https://voce.life/archive/2026/10/14/sanfilippo-fayuvi-pourrait-preserver-les-acquis-cognitifs-d-enfants-cond-7516045312646508545</guid><author>VOCE Association</author><description>Sanfilippo: Fayuvi pourrait préserver les acquis cognitifs d'enfants condamnés à les perdre
-
-Un enfant apprend des mots, reconnaît ses parents, commence l'école. Puis certaines capacités disparaissent.
-
-Dans le syndrome de Sanfilippo de type A, ce déclin commence par un défaut du recyclage lysosomal.
-
-Le 17 septembre 2026, la FDA autorise Fayuvi, première thérapie approuvée contre cette maladie neurodégénérative pédiatrique.
-
-Le gène SGSH fonctionne mal. Les cellules manquent de sulfamidase, enzyme nécessaire à la dégradation du sulfate d'héparane. Celui-ci s'accumule dans les lysosomes et contribue progressivement aux lésions neuronales.
-
-Fayuvi utilise un vecteur AAV9 administré une seule fois par voie intraveineuse pour apporter une copie fonctionnelle de SGSH.
-
-Dans Transpher A, 17 enfants traités sont comparés à 27 enfants issus d'une cohorte d'histoire naturelle. Entre 24 et 60 mois, le score cognitif Bayley-III augmente en moyenne de 16,0 points chez les enfants traités et diminue de 7,6 points chez les témoins.
-
-Écart: 23,5 points.
-
-Le résultat ne signifie ni guérison ni récupération des fonctions déjà perdues. L'étude n'était pas randomisée et utilisait un comparateur externe.
-
-La FDA a néanmoins accordé une approbation standard complète aux enfants conservant une fonction neurodéveloppementale.
-
-Prix catalogue américain: 3,95 millions de dollars pour une perfusion.
-
-ULTRA® | LA FENÊTRE NEUROLOGIQUE
-
-Le sulfate d'héparane n'est pas une toxine étrangère. C'est un glycosaminoglycane physiologique. L'anomalie vient de son catabolisme incomplet lorsque la sulfamidase manque.
-
-Après Fayuvi, sa concentration dans le liquide céphalorachidien chute rapidement et reste abaissée au suivi.
-
-Le point critique est temporel. L'AAV9 peut restaurer une production enzymatique, mais il ne reconstruit pas automatiquement les réseaux neuronaux déjà détruits.
-
-Autre limite: Fayuvi n'est pas recommandé si le titre d'anticorps anti-AAV9 atteint 1:100 ou plus. Or la FDA précise qu'aucun test autorisé par elle pour cette mesure n'est actuellement disponible.
-
-Une thérapie génique à 3,95 millions de dollars dépend donc encore d'une métrologie biologique imparfaitement standardisée.
-
-La surveillance reste prolongée: risque de microangiopathie thrombotique, atteinte hépatique et risque théorique à long terme lié à l'intégration du matériel génétique.
-
-Pour la pédiatrie, quelques mois de diagnostic peuvent désormais modifier ce qu'il restera possible de préserver.
-
-IPPOLITO
-
-La mémoire d'un enfant dépend parfois de ce que ses cellules parviennent à éliminer avant qu'il ne soit trop tard.
-
-Sources
-
-FDA, Fayuvi, 17 septembre 2026
-FDA, Summary Basis for Regulatory Action
-Ultragenyx, Transpher A, septembre 2026
-Nationwide Children's Hospital, 22 septembre 2026
-
-#MaladiesRares #Sanfilippo #Fayuvi #ThérapieGénique #NeurologiePédiatrique #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516045312646508545/">Linkedin</source></item><item><title>Retraites: 62% des montants de la majoration pour trois enfants vont aux hommes</title><link>https://voce.life/archive/2026/10/14/retraites-62-des-montants-de-la-majoration-pour-trois-enfants-vont-aux-h-7516196319993016322</link><guid isPermaLink="true">https://voce.life/archive/2026/10/14/retraites-62-des-montants-de-la-majoration-pour-trois-enfants-vont-aux-h-7516196319993016322</guid><author>VOCE Association</author><description>Retraites: 62% des montants de la majoration pour trois enfants vont aux hommes
-
-LEONORE E L'UGUAGLIANZA CHE RIPRODUCE LO SCARTO
-
-En France, la majoration de pension pour trois enfants ou plus paraît parfaitement neutre.
-
-Chaque parent éligible reçoit 10% de pension supplémentaire.
-
-Mais 10% d'une petite pension et 10% d'une grande pension ne produisent pas la même compensation.
-
-En 2020, ce dispositif représentait 8,4 milliards d'euros. Le nombre de bénéficiaires était presque équilibré entre femmes et hommes.
-
-Pourtant, 62% des montants versés allaient aux pères.
-
-La raison tient au calcul lui-même.
-
-Parmi les bénéficiaires, la majoration atteignait en moyenne 136 euros par mois pour les hommes contre 77 euros pour les femmes.
-
-Or l'effet professionnel des enfants est précisément plus marqué chez les mères. La DREES rappelle qu'il apparaît dès le premier enfant sur l'activité et les salaires, alors qu'il n'est pas visible de la même manière chez les hommes.
-
-Le dispositif reproduit donc une partie de l'écart qu'il pourrait contribuer à compenser.
-
-Avec la majoration, la pension moyenne des femmes représentait 62,8% de celle des hommes en 2020.
-
-Sans elle: 63,0%.
-
-L'écart ne se réduit pas. Il augmente légèrement.
-
-ULTRA® | QUAND L'ÉGALITÉ DE RÈGLE CONSERVE L'INÉGALITÉ DE DÉPART
-
-La DREES a simulé plusieurs architectures avec son modèle Trajectoire.
-
-La plus redistributive remplace le pourcentage par un forfait progressif, versé aux femmes dès le premier enfant.
-
-Pour la génération 1978, le ratio de pension moyenne femmes-hommes passerait de 84,9% à 90,9%, soit six points.
-
-Dans le premier cinquième de pensions, 51,1% des femmes gagneraient au moins 20%.
-
-Ces chiffres sont des simulations, pas une réforme adoptée. Les scénarios sont calibrés pour conserver globalement la dépense à court terme; leurs trajectoires financières divergent ensuite.
-
-La leçon dépasse les retraites.
-
-Une règle identique appliquée à des revenus déjà inégaux peut reproduire l'inégalité avec une parfaite neutralité apparente.
-
-En entreprise, une prime proportionnelle au salaire peut produire exactement le même effet.
-
-LEONORE
-
-Une règle peut traiter tout le monde pareil et distribuer pourtant l'avantage là où il était déjà le plus grand.
-
-Sources
-
-DREES, Les Dossiers de la DREES n°128, 13 mars 2025
-DREES, Les Dossiers de la DREES n°130, 10 avril 2025
-DREES, données retraites 2024, publiées en 2026
-
-#Retraites #EgaliteFemmesHommes #PolitiquesPubliques #Economie #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516196319993016322/">Linkedin</source></item><item><title>Retard de marche chez l'enfant: l'oreille interne peut être en cause même si son audition paraît normale</title><link>https://voce.life/archive/2026/10/14/retard-de-marche-chez-l-enfant-l-oreille-interne-peut-etre-en-cause-meme-7516135969692069888</link><guid isPermaLink="true">https://voce.life/archive/2026/10/14/retard-de-marche-chez-l-enfant-l-oreille-interne-peut-etre-en-cause-meme-7516135969692069888</guid><author>VOCE Association</author><description>Retard de marche chez l'enfant: l'oreille interne peut être en cause même si son audition paraît normale
-
-Un enfant entend les voix, reconnaît ses parents, réagit aux sons. Pourtant, à 18 mois, il ne marche toujours pas.
-
-La cause peut parfois se trouver dans une autre fonction de l'oreille interne: l'équilibre.
-
-En mai 2026, Marta Campi, Sylvette Wiener-Vacher, Audrey Maudoux et Hung Thai-Van publient une prépublication portant sur 411 enfants ayant bénéficié d'examens vestibulaires.
-
-Ils distinguent les canaux semi-circulaires, sensibles aux rotations de la tête, des organes otolithiques, qui renseignent notamment sur la gravité et les accélérations linéaires.
-
-L'aréflexie des canaux est associée à un retard ajusté de 7,0 mois pour la marche autonome.
-
-L'effet attribué aux otolithes est environ trois fois plus faible.
-
-Après correction pour comparaisons multiples, seule la contribution canalaire reste significative.
-
-Le vestibule fournit au cerveau des informations nécessaires pour stabiliser le regard et contrôler la posture lorsque la tête bouge.
-
-Un test auditif ordinaire n'évalue pas cette fonction.
-
-Un consensus international publié fin 2025 recommande justement un dépistage vestibulaire précoce chez les nourrissons à risque, notamment en cas de surdité neurosensorielle.
-
-ULTRA® 
-
-SEPT MOIS NE SIGNIFIENT PAS SEPT MOIS CAUSÉS
-
-L'étude est rétrospective et porte sur une population clinique sélectionnée. Elle démontre une association, pas une causalité individuelle.
-
-Les atteintes canalaires et otolithiques coexistent souvent. Parmi 135 enfants présentant une aréflexie otolithique, seuls trois avaient une fonction canalaire normale. Isoler statistiquement leurs contributions reste donc difficile.
-
-Autre limite: les canaux sont explorés par vHIT, épreuves caloriques et fauteuil rotatoire, couvrant plusieurs fréquences du réflexe vestibulo-oculaire. Les otolithes reposent surtout sur les cVEMP, qui évaluent principalement la voie sacculo-colliculaire.
-
-La hiérarchie observée peut donc refléter en partie les instruments utilisés.
-
-Le résultat clinique reste important: un retard de marche ne doit pas être automatiquement attribué aux muscles, au cerveau ou au développement général.
-
-Il peut aussi justifier une exploration vestibulaire spécialisée.
-
-Cela ne fait jamais du retard de marche un diagnostic vestibulaire. Les causes neurologiques, musculaires, génétiques et développementales doivent rester recherchées.
-
-La prochaine étape sera prospective: mesurer la fonction vestibulaire avant la marche et déterminer si une anomalie précoce prédit un retard modifiable par une prise en charge adaptée.
-
-ORFEO
-
-Avant de traverser une pièce, un enfant doit d'abord apprendre à maintenir le monde stable lorsque sa tête bouge.
-
-Sources 
-
-Campi et al., medRxiv, mai 2026
-Yang et al., European Archives of Oto-Rhino-Laryngology, 2025
-
-#Enfance #DéveloppementMoteur #OreilleInterne #Pédiatrie #Neurosciences #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516135969692069888/">Linkedin</source></item><item><title>Prématurité: le même bébé peut perdre 1,2 écart-type ou seulement 0,4 selon la courbe utilisée</title><link>https://voce.life/archive/2026/10/14/prematurite-le-meme-bebe-peut-perdre-1-2-ecart-type-ou-seulement-0-4-sel-7516151053134929922</link><guid isPermaLink="true">https://voce.life/archive/2026/10/14/prematurite-le-meme-bebe-peut-perdre-1-2-ecart-type-ou-seulement-0-4-sel-7516151053134929922</guid><author>VOCE Association</author><description>Prématurité: le même bébé peut perdre 1,2 écart-type ou seulement 0,4 selon la courbe utilisée
-
-Un bébé naît à 29 semaines avec un poids de 810 grammes.
-
-À 36 semaines, ses mesures sont exactement les mêmes quel que soit le médecin qui les examine.
-
-Pourtant, son histoire statistique change.
-
-Avec les courbes Fenton 2013, son poids a chuté de 1,2 écart-type depuis la naissance.
-
-Avec les nouvelles courbes Fenton 2025: seulement 0,4.
-
-Le bébé n'a pas changé.
-
-La référence, oui.
-
-En avril 2026, Tanis Fenton, Nicholas Embleton, Marc Beltempo et quatre spécialistes de nutrition néonatale publient dans Seminars in Perinatology des recommandations qui remettent en cause un réflexe clinique ancien: vouloir ramener chaque prématuré vers un percentile fixé à la naissance.
-
-Les nouvelles courbes Fenton reposent sur 4,8 millions de naissances dans 15 pays et excluent davantage de situations associées à une croissance fœtale anormale.
-
-Cette sélection modifie surtout les percentiles de poids les plus bas entre 26 et 35 semaines.
-
-Même chez les enfants nés à terme, traverser des couloirs n'est pas exceptionnel: 32% franchissent deux grands percentiles de taille entre la naissance et six mois.
-
-Une trajectoire peut donc s'écarter d'une courbe sans être pathologique.
-
-ULTRA® 
-
-LA COURBE N'EST PAS LE TISSU
-
-Un percentile est un rang. Un z-score mesure une distance à une population de référence.
-
-Ni l'un ni l'autre ne mesure directement la masse maigre, la graisse, l'eau ou la santé neurologique.
-
-Chez le prématuré, les auteurs décrivent trois phases: perte pondérale postnatale, croissance approximativement parallèle aux courbes, puis éventuel rattrapage. Ils refusent donc de fixer un percentile ou une variation de z-score comme objectif universel.
-
-Une étude publiée en 2026 dans Early Human Development le confirme sur le temps long: parmi des enfants nés extrêmement prématurément, environ 74% de ceux nés petits pour l'âge gestationnel avaient rattrapé leur retard statural à six ans, contre 93% des autres.
-
-Le rattrapage existe. Il n'est ni automatique ni une échéance identique pour tous.
-
-Pour les systèmes d'IA hospitaliers, le problème devient concret. Un algorithme utilisant les courbes 2013 peut changer de classification lorsqu'il passe aux références 2025 sans qu'aucune donnée patient ne change.
-
-Toute migration devrait donc tester les seuils d'alerte, les reclassements et les décisions nutritionnelles qu'ils déclenchent.
-
-La précision du calcul ne garantit jamais la pertinence de la référence.
-
-ESCULAPIO
-
-Une courbe ne raconte pas ce qu'est un enfant. Elle raconte où nous avons choisi de le comparer.
-
-Sources 
-
-Fenton et al., Paediatric and Perinatal Epidemiology, 2025
-Fenton et al., Seminars in Perinatology, 2026
-Seya et al., Early Human Development, 2026
-
-#Prématurité #Néonatologie #Croissance #Pédiatrie #NutritionInfantile #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516151053134929922/">Linkedin</source></item><item><title>OpenAI chat-latest: votre modèle peut changer sans que votre code change</title><link>https://voce.life/archive/2026/10/14/openai-chat-latest-votre-modele-peut-changer-sans-que-votre-code-change-7516000003052675072</link><guid isPermaLink="true">https://voce.life/archive/2026/10/14/openai-chat-latest-votre-modele-peut-changer-sans-que-votre-code-change-7516000003052675072</guid><author>VOCE Association</author><description>OpenAI chat-latest: votre modèle peut changer sans que votre code change
-
-Le 7 octobre 2026, OpenAI met à jour `chat-latest`.
-
-Pour l'application, l'identifiant reste identique.
-
-Le système servi derrière cet identifiant peut évoluer.
-
-OpenAI le documente: `chat-latest` pointe vers le modèle Instant le plus récent utilisé dans ChatGPT et son snapshot sous-jacent est régulièrement mis à jour. Pour la production API, OpenAI recommande la famille GPT-6.
-
-Ce détail crée un problème d'assurance.
-
-Une banque valide en septembre un assistant après plusieurs centaines de tests. Le comité risque autorise le déploiement.
-
-En octobre, le snapshot derrière l'alias change.
-
-Aucune ligne de code n'a bougé. Le nom du modèle non plus.
-
-Mais l'objet évalué peut ne plus être exactement celui qui répond.
-
-Sophia Abraham et Ben Bucknall ont étudié ce problème dans "Silent Updates", accepté à AIES 2026.
-
-Ils examinent neuf fournisseurs d'API de première partie et sept hébergeurs d'inférence. Aucun fournisseur de leur échantillon ne permet à un tiers de vérifier de bout en bout que l'artefact servi est bien celui auquel se rapporte l'évaluation publiée.
-
-Le risque dépasse les poids du modèle.
-
-Ajustement fin, classifieur de sécurité, prompt système, récupération documentaire ou routage peuvent modifier le comportement observable sans changer l'identifiant public.
-
-Une gouvernance qui enregistre seulement "GPT-6", "Claude" ou "Gemini" peut donc conserver une identité administrative stable alors que son objet technique a changé.
-
-ULTRA® 
-
-LA PREUVE DOIT SUIVRE L'INFÉRENCE
-
-Le point difficile est le seuil de réévaluation.
-
-Tout changement fournisseur ne justifie pas un audit complet. Abraham et Bucknall proposent trois déclencheurs: changement de capacité, dérive comportementale mesurable et modification d'un composant susceptible d'affecter le risque.
-
-Pour un système critique, le registre devrait conserver la version évaluée, les tests associés et les changements fournisseur détectés. Une régression significative doit pouvoir déclencher une nouvelle validation.
-
-OpenAI illustre l'autre cas avec un cycle de vie explicite. Le 1er octobre, l'entreprise a annoncé l'arrêt de GPT-5.1, GPT-5.3-Codex et GPT-5.4-Nano au 1er avril 2027, avec modèles de remplacement recommandés.
-
-Ici, la migration possède une date.
-
-Avec un alias mouvant, le changement peut intervenir sans modification de l'identifiant utilisé par l'application.
-
-Pour un board, un test n'est une preuve que si l'organisation peut encore relier cette preuve au système qui répond aujourd'hui.
-
-La date de déploiement ne suffit plus.
-
-Il faut une chaîne de garde entre évaluation et inférence.
-
-Sources 
-
-OpenAI API Changelog, 7 octobre 2026
-OpenAI API, `chat-latest` model documentation
-OpenAI API Deprecations, 1er octobre 2026
-Abraham &amp; Bucknall, "Silent Updates: Measuring and Closing the Post-Deployment Disclosure Gap", AIES 2026
-
-#VOCEAssociation #AIGovernance #AIAssurance #ModelRisk</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516000003052675072/">Linkedin</source></item><item><title>Myélome multiple: Blenrep, l'anticancéreux né d'une toxine marine, retiré puis réautorisé en Europe</title><link>https://voce.life/archive/2026/10/14/myelome-multiple-blenrep-l-anticancereux-ne-d-une-toxine-marine-retire-p-7516015124885876736</link><guid isPermaLink="true">https://voce.life/archive/2026/10/14/myelome-multiple-blenrep-l-anticancereux-ne-d-une-toxine-marine-retire-p-7516015124885876736</guid><author>VOCE Association</author><description>Myélome multiple: Blenrep, l'anticancéreux né d'une toxine marine, retiré puis réautorisé en Europe
-
-En février 2024, l'Union européenne ne renouvelle pas l'autorisation conditionnelle de Blenrep.
-
-En monothérapie, son bénéfice n'avait pas été suffisamment confirmé face aux risques.
-
-Dix-sept mois plus tard, il revient en Europe, cette fois en combinaison.
-
-L'histoire commence pourtant dans l'océan.
-
-La dolastatine 10 fut isolée chez le lièvre de mer Dolabella auricularia. Des travaux ultérieurs l'ont retrouvée chez des cyanobactéries marines et, en 2024, son groupe de gènes biosynthétiques a été identifié chez Caldora penicillata.
-
-Cette molécule bloque les microtubules indispensables à la division cellulaire. Trop toxique pour devenir directement un médicament, elle a fourni une architecture chimique aux auristatines.
-
-Blenrep, de GSK, utilise la monométhyl auristatine F, ou MMAF.
-
-Elle est reliée par un linker non clivable à un anticorps dirigé contre BCMA, fortement exprimé par les cellules du myélome. Après internalisation et dégradation intracellulaire de l'anticorps, la charge perturbe les microtubules.
-
-DREAMM-7 change la trajectoire du médicament.
-
-Avec bortézomib et dexaméthasone, Blenrep atteint 36,6 mois de survie médiane sans progression contre 13,4 mois avec une association utilisant le daratumumab.
-
-Après 39,4 mois de suivi médian, l'analyse de survie publiée en 2025 rapporte un hazard ratio de 0,58, soit une réduction relative de 42% du risque de décès pendant le suivi.
-
-Le 23 juillet 2025, l'Union européenne autorise Blenrep dans deux associations thérapeutiques. La FDA approuve l'association avec bortézomib et dexaméthasone le 23 octobre.
-
-ULTRA® 
-
-UNE TOXINE GUIDÉE NE DEVIENT PAS INOFFENSIVE
-
-La toxicité cornéenne révèle la limite du ciblage.
-
-Une étude de 2026 sur des cellules cornéennes humaines montre que le belantamab mafodotin peut y entrer indépendamment de BCMA, notamment par macropinocytose. Après internalisation, la MMAF désorganise les microtubules et favorise la mort cellulaire.
-
-C'est une explication mécanistique importante des atteintes oculaires qui imposent surveillance et adaptations de dose.
-
-Le retour de Blenrep ne signifie pas que l'Europe s'était trompée en 2024.
-
-La monothérapie n'avait pas apporté la confirmation attendue. De nouveaux essais, dans de nouvelles associations, ont ensuite modifié les preuves disponibles et donc le rapport bénéfice-risque.
-
-La leçon dépasse ce médicament: une autorisation réglementaire porte toujours sur une indication, un schéma thérapeutique et un état des preuves.
-
-THÉTIS
-
-La science avance aussi lorsqu'une preuve nouvelle oblige à rouvrir un dossier que l'on croyait fermé.
-
-Sources
-
-EMA, Blenrep, 23 février 2024 et 23 juillet 2025
-Hungria et al., The Lancet Oncology, 2025
-Kallifidas et al., Organic Letters, 2024
-FDA, Blenrep, 23 octobre 2025
-Cell Biology and Toxicology, 2026
-
-#VOCEAssociation #Blenrep #GSK #MyélomeMultiple #Oncologie #PharmacologieMarine</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516015124885876736/">Linkedin</source></item><item><title>Maia 300: Microsoft veut déployer jusqu'à un million de puces IA maison pour réduire sa dépendance à Nvidia</title><link>https://voce.life/archive/2026/10/14/maia-300-microsoft-veut-deployer-jusqu-a-un-million-de-puces-ia-maison-p-7516075556489113600</link><guid isPermaLink="true">https://voce.life/archive/2026/10/14/maia-300-microsoft-veut-deployer-jusqu-a-un-million-de-puces-ia-maison-p-7516075556489113600</guid><author>VOCE Association</author><description>Maia 300: Microsoft veut déployer jusqu'à un million de puces IA maison pour réduire sa dépendance à Nvidia
-
-Le 12 octobre 2026, Microsoft dévoile Maia 300.
-
-Le groupe prévoit des déploiements "multi-gigawatts" dès 2027 et évoque potentiellement plus d'un million de puces.
-
-Maia vise notamment l'inférence, lorsque le modèle répond, code ou exécute une tâche.
-
-Son architecture s'écarte du GPU monolithique. Les fonctions de calcul sont réparties entre des puces élémentaires gravées en 2 nm par TSMC. D'autres blocs, dédiés aux mouvements de données, utilisent du 3 nm moins coûteux.
-
-Un rack réunit 96 Maia 300 pour environ 167 kW. Le GB300 de Nvidia associe 72 GPU pour environ 142 kW.
-
-Comparer seulement les watts serait trompeur.
-
-Microsoft affirme que Maia 300 fournit environ 40% de calcul utile supplémentaire par mégawatt face aux principaux systèmes GPU.
-
-Cette avance reste une déclaration du constructeur. Microsoft ne nomme pas le système de référence et aucune évaluation indépendante ne la confirme encore.
-
-Le prédécesseur de Maia 300 exécute déjà des modèles internes Microsoft et des modèles OpenAI servis sur Azure. À l'échelle d'un million d'accélérateurs, quelques points d'efficacité deviennent une variable directe du coût de l'IA.
-
-Microsoft prévoit environ 175 milliards de dollars d'investissements sur l'année civile 2026.
-
-ULTRA® 
-
-LA DÉPENDANCE SE DÉPLACE VERS LE FONDEUR
-
-Maia permet à Microsoft de concevoir davantage du silicium qui exécute ses propres services au lieu d'acheter chaque accélérateur à Nvidia.
-
-Les puces les plus avancées restent pourtant fabriquées par TSMC à Taïwan.
-
-Le 8 octobre, TSMC a annoncé 1.490 milliards de dollars taïwanais de chiffre d'affaires trimestriel, +50% sur un an. Sa capitalisation avoisine 2.100 milliards de dollars.
-
-La géopolitique entre ainsi dans le schéma électrique du datacenter.
-
-Les grands opérateurs cloud internalisent l'architecture des accélérateurs pour contrôler leur économie. La fabrication aux nœuds les plus avancés reste concentrée chez très peu de fondeurs.
-
-Microsoft ne quitte pas Nvidia: Azure prépare aussi des systèmes Rubin.
-
-Maia doit absorber davantage de charges internes lorsque son économie devient favorable, tandis que Nvidia reste présent pour d'autres besoins.
-
-Pour les entreprises clientes, le sujet dépasse la puce.
-
-Le coût futur d'un agent dépendra aussi du nombre de requêtes qu'un mégawatt et un dollar de silicium permettent réellement de servir.
-
-MIME
-
-Une intelligence industrielle commence avant le premier mot qu'elle produit: dans la machine construite pour le calculer.
-
-Sources 
-
-Reuters, 12 octobre 2026
-Microsoft Azure, Maia
-Microsoft FY2026 Q4 Earnings
-TSMC, résultats T3 2026
-
-#Maia300 #Microsoft #Nvidia #TSMC #Semiconducteurs #Datacenters #Geopolitique #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516075556489113600/">Linkedin</source></item><item><title>Le toucher d'un tissu laisse une signature ultrasonore que le frottement seul ne révèle pas</title><link>https://voce.life/archive/2026/10/14/le-toucher-d-un-tissu-laisse-une-signature-ultrasonore-que-le-frottement-7516211411694280705</link><guid isPermaLink="true">https://voce.life/archive/2026/10/14/le-toucher-d-un-tissu-laisse-une-signature-ultrasonore-que-le-frottement-7516211411694280705</guid><author>VOCE Association</author><description>Le toucher d'un tissu laisse une signature ultrasonore que le frottement seul ne révèle pas
-
-Birmingham, 14 janvier 2026.
-
-Un doigt glisse sur trois tissus. Leur coefficient de frottement ne suffit pas à les distinguer clairement.
-
-Mais ils n'émettent pas la même signature acoustique.
-
-Laure Kyriazis et ses collègues, à l'université de Birmingham, enregistrent simultanément la force de frottement et les émissions acoustiques produites par le contact doigt-matière.
-
-Le capteur écoute entre 100 et 900 kHz. L'analyse fait apparaître une zone informative entre 120 et 160 kHz, très au-delà de l'audition humaine.
-
-Sur les trois textiles testés, coton éponge, coton tissé et maille polyester-coton, les coefficients de frottement ne les séparent pas significativement. Les émissions acoustiques, elles, les différencient.
-
-Le toucher possède donc une information mécanique que la mesure moyenne du frottement peut manquer.
-
-Le phénomène dépend de la déformation des fibres, des contacts microscopiques, de la charge appliquée et de l'état de la peau. Huit adultes seulement participent à l'étude: c'est une preuve de méthode, pas un classement universel des textiles.
-
-Pour le luxe, le point devient stratégique.
-
-Deux étoffes peuvent paraître proches sur un indicateur mécanique tout en produisant des interactions peau-matière distinctes.
-
-ULTRA® 
-
-QUAND L'IA COMMENCE À PRÉDIRE LE TOUCHER
-
-En novembre 2025, Hyung-Tak Lee et ses collègues mesurent 12 propriétés mécaniques sur 50 fibres synthétiques. Trente-sept participants évaluent leur douceur et leur rugosité.
-
-Parmi six modèles, la régression par processus gaussien atteint R²=0,71 en validation croisée.
-
-Cela ne signifie pas que l'algorithme comprend 71% du luxe. Il prédit une part importante de l'évaluation douceur-rugosité dans cet ensemble expérimental.
-
-Pour une maison textile, l'enjeu serait de relier filature, finition, frottement, émission acoustique et perception afin de réduire les prototypes sans transformer la préférence moyenne en norme esthétique.
-
-LI!GHT WORKFORCE ©
-
-Des agents pourraient comparer les lots, détecter une dérive après lavage ou finition et proposer des réglages industriels. Le KPI décisif resterait humain: la concordance entre mesure instrumentale et identité sensorielle voulue par la maison.
-
-L'irrégularité d'un lin ou la résistance d'un tweed peuvent être précisément ce qu'un modèle chercherait à corriger.
-
-À mesure que le toucher devient prévisible, le savoir-faire pourrait consister à préserver ce qui ne doit pas être optimisé.
-
-ORFEO
-
-La matière devient précieuse lorsqu'elle conserve ce que la machine voudrait lisser.
-
-Sources
-
-Kyriazis et al., Tribology Letters, 14 janvier 2026
-Lee et al., Scientific Reports, 27 novembre 2025
-Infante et al., Scientific Reports, 22 mars 2025
-
-#Luxe #Textile #Tribologie #IA #LightWorkforce #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516211411694280705/">Linkedin</source></item><item><title>Le poignet peut faire perdre jusqu'à 54% de force transmissible sans que les muscles aient changé</title><link>https://voce.life/archive/2026/10/14/le-poignet-peut-faire-perdre-jusqu-a-54-de-force-transmissible-sans-que-7516181213452169216</link><guid isPermaLink="true">https://voce.life/archive/2026/10/14/le-poignet-peut-faire-perdre-jusqu-a-54-de-force-transmissible-sans-que-7516181213452169216</guid><author>VOCE Association</author><description>Le poignet peut faire perdre jusqu'à 54% de force transmissible sans que les muscles aient changé
-
-Cambridge, Massachusetts.
-
-Neuf volontaires poussent de toutes leurs forces sur un dispositif relié à un robot.
-
-Federico Tessari et Neville Hogan, du MIT, ne modifient ni les muscles ni la consigne. Ils modifient l'interface entre la main et l'appareil.
-
-Un cardan permet de verrouiller ou libérer trois rotations du poignet: flexion-extension, déviation ulno-radiale et pronation-supination.
-
-Quand tout est bloqué, le poignet transmet une poussée stable.
-
-À mesure que les degrés de liberté sont libérés, la force maximale chute.
-
-Entre la configuration la plus stable et la plus instable, la perte moyenne atteint 37,7%. Selon les participants, elle varie de 23,1 à 53,7%.
-
-L'étude, publiée le 16 juin 2026 dans Nature Communications, montre ainsi qu'une partie de notre force utilisable dépend moins de la puissance musculaire disponible que de la capacité à stabiliser mécaniquement l'interaction.
-
-Les chercheurs testent aussi deux positions très différentes du bras. Leur influence existe, mais reste faible comparée à celle de l'instabilité du poignet.
-
-Un outil peut donc rendre une personne "moins forte" sans que ses muscles aient changé.
-
-ULTRA® 
-
-LA RAIDEUR STABILISATRICE DEVIENT LE FACTEUR LIMITANT
-
-Pour pousser, le poignet ne doit pas seulement produire une force linéaire. Il doit aussi générer des couples capables de résister aux petites rotations provoquées par l'appui.
-
-Cette résistance locale est la stiffness stabilisatrice.
-
-Lorsque le cardan libère un axe, le sujet ne peut plus transmettre le couple nécessaire dans cette direction. La force maximale diminue alors progressivement, avec une tendance proche de l'exponentielle lorsque les degrés de liberté inutilisables augmentent.
-
-Les auteurs ont mesuré la force externe, pas l'activité électromyographique. Ils ne démontrent donc pas directement comment la commande musculaire se réorganise.
-
-Le résultat est néanmoins important pour l'ergonomie, les orthèses, la robotique d'assistance et les interfaces industrielles: augmenter la puissance disponible ne sert à rien si l'utilisateur ne peut pas stabiliser le point où cette puissance doit passer.
-
-Un manche, une articulation ou un exosquelette mal contraint peut ainsi devenir le véritable plafond de performance.
-
-MANRICO
-
-La force ne réside pas seulement dans le muscle. Elle dépend du point d'appui qui lui permet d'exister.
-
-Sources
-
-Tessari &amp; Hogan, Nature Communications, 16 juin 2026
-
-#Biomécanique #Ergonomie #Robotique #Poignet #Ingénierie #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516181213452169216/">Linkedin</source></item><item><title>Harcèlement scolaire: en Corée, former les enseignants change ce que font les témoins</title><link>https://voce.life/archive/2026/10/14/harcelement-scolaire-en-coree-former-les-enseignants-change-ce-que-font-7516105737375330305</link><guid isPermaLink="true">https://voce.life/archive/2026/10/14/harcelement-scolaire-en-coree-former-les-enseignants-change-ce-que-font-7516105737375330305</guid><author>VOCE Association</author><description>Harcèlement scolaire: en Corée, former les enseignants change ce que font les témoins
-
-Une humiliation scolaire ne se joue pas seulement entre un agresseur et sa victime.
-
-Autour, il y a les autres.
-
-En juin 2025, Sung Hyeon Cheon, Johnmarshall Reeve et leurs collègues publient dans Journal of School Psychology un essai randomisé en grappes mené en Corée du Sud.
-
-Trente-huit enseignants sont répartis entre intervention et contrôle. Les 19 enseignants formés apprennent à soutenir davantage l'autonomie des élèves et à réduire les pratiques inutilement contrôlantes.
-
-Pendant une année scolaire, 1.084 adolescents sont évalués à trois reprises.
-
-Les enseignants formés créent un climat de classe plus soutenant (β=0,55). Ce climat est ensuite associé à davantage de défense des victimes (β=0,55), moins de passivité (β=-0,52) et moins de comportements renforçant l'agresseur (β=-0,40).
-
-Une seconde étude sur 629 élèves, observationnelle, retrouve le même schéma à partir d'évaluations réalisées par les enseignants.
-
-Le témoin n'est donc pas un décor.
-
-Son comportement peut rendre l'humiliation socialement coûteuse ou, au contraire, la renforcer.
-
-Une autre expérimentation coréenne, publiée dans Motivation and Emotion, suit 2.491 adolescents dans 86 classes pendant 18 semaines. L'enseignement soutenant l'autonomie réduit la culture collective favorable au harcèlement et augmente la satisfaction du besoin d'autonomie. Les deux mécanismes prédisent ensuite moins de harcèlement individuel.
-
-ULTRA® | LE TRAUMATISME NE SE LIMITE PAS À L'ÉPISODE
-
-En 2026, une étude longitudinale de cinq ans suit 156 adolescents exposés à des événements potentiellement traumatiques.
-
-Parmi ceux présentant un TSPT complexe à la dernière évaluation, dysrégulation affective et difficultés relationnelles restent élevées au fil du temps.
-
-Une autre étude longitudinale de 2025, menée auprès de jeunes ayant subi du harcèlement durant l'enfance, montre que les symptômes de TSPT complexe prédisent ensuite plus fortement dépression et anxiété que l'inverse.
-
-Ces travaux ne démontrent pas que former les enseignants prévient le TSPT complexe.
-
-Ils montrent pourquoi empêcher la répétition compte.
-
-Le cerveau social apprend aussi à anticiper. Quand l'humiliation devient prévisible, les signaux ambigus peuvent être lus sous l'angle de la menace.
-
-Pour une école, un indicateur mérite autant d'attention que le nombre d'incidents: que font les témoins lorsque l'adulte n'est plus là?
-
-CHERUBINO
-
-Protéger un enfant, c'est aussi empêcher que la peur des autres devienne sa manière d'habiter le monde.
-
-Sources
-
-Cheon et al., Journal of School Psychology, 2025
-Yoo, Cheon &amp; Reeve, Motivation and Emotion, 2025
-Kairyte et al., European Journal of Psychotraumatology, 2026
-Liu et al., Depression and Anxiety, 2025
-
-#HarcèlementScolaire #Adolescence #Education #Psychotraumatologie #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516105737375330305/">Linkedin</source></item><item><title>GitHub Copilot Computer Use: votre vieux logiciel devient pilotable sans API</title><link>https://voce.life/archive/2026/10/14/github-copilot-computer-use-votre-vieux-logiciel-devient-pilotable-sans-7515984885552021504</link><guid isPermaLink="true">https://voce.life/archive/2026/10/14/github-copilot-computer-use-votre-vieux-logiciel-devient-pilotable-sans-7515984885552021504</guid><author>VOCE Association</author><description>GitHub Copilot Computer Use: votre vieux logiciel devient pilotable sans API
-
-Une entreprise utilise encore un logiciel Windows installé il y a quinze ans.
-
-Pas d'API. Pas de CLI. Pas d'intégration MCP.
-
-Jusqu'ici, l'automatiser exigeait une intégration spécifique ou une RPA reproduisant des actions prévues à l'avance.
-
-Depuis le 1er octobre 2026, GitHub Copilot ouvre une autre voie.
-
-Computer Use, disponible en public preview dans Copilot CLI et l'application Copilot sur macOS et Windows, peut lire le contenu accessible et le contexte visuel d'une application, cliquer, saisir du texte, utiliser le clavier, faire défiler l'écran et naviguer entre logiciels.
-
-GitHub vise explicitement les applications legacy et GUI-only dépourvues d'interface programmable.
-
-La frontière avec MCP est importante.
-
-Avec MCP, le logiciel expose une fonction structurée à l'agent.
-
-Avec Computer Use, l'application cible peut ne rien exposer du tout. Copilot utilise son interface graphique comme le ferait un utilisateur.
-
-Un agent peut donc récupérer une donnée dans un navigateur, ouvrir un logiciel interne ancien, remplir un formulaire puis reporter le résultat ailleurs sans disposer d'une fonction "create_report".
-
-ULTRA® | LE LOGICIEL N'A PLUS BESOIN D'ÊTRE AGENT-READY
-
-GitHub lance en parallèle les Dynamic Workflows.
-
-L'orchestration est écrite en code. Certaines étapes restent déterministes. D'autres appellent un ou plusieurs agents, séquentiellement ou en parallèle, puis transmettent leurs résultats structurés à l'étape suivante.
-
-Pour un incident informatique, le workflow peut collecter logs et télémétrie, répartir l'analyse entre plusieurs agents puis reconstruire une chronologie et une cause racine.
-
-Cette architecture limite un problème classique de l'agent entièrement libre: le processus reste explicite et observable.
-
-Computer Use intervient là où aucune interface programmable n'existe.
-
-La différence avec une API reste fondamentale. Une interface graphique peut changer, afficher une fenêtre inattendue ou présenter une ambiguïté visuelle. Le contrôle par permissions, les droits Accessibility et Screen Recording sur macOS, ainsi que les politiques administrateur font donc partie de l'architecture de sécurité.
-
-LI!GHT WORKFORCE ©
-
-GitHub, propriété de Microsoft, étend ainsi l'automatisation à une catégorie immense de logiciels que les agents modernes ne pouvaient exploiter sans projet d'intégration.
-
-Saisie, transfert d'informations, consultation de logiciels legacy et certaines opérations administratives deviennent automatisables avant même la modernisation du système.
-
-L'humain reste nécessaire pour les exceptions et les opérations sensibles.
-
-Le changement économique est ailleurs: une entreprise peut commencer à automatiser un logiciel ancien sans attendre qu'il devienne moderne.
-
-Sources 
-
-GitHub Changelog, "Dynamic workflows in Copilot CLI and the Copilot app", 1er octobre 2026
-
-#VOCEAssociation #GitHub #Copilot #AgentsIA #Automation #EnterpriseSoftware</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7515984885552021504/">Linkedin</source></item><item><title>EBRO FOODS, KRBL, AMAZON: L'ARSENIC DU RIZ DEVIENT UN RISQUE SANITAIRE ET CONTENTIEUX</title><link>https://voce.life/archive/2026/10/14/ebro-foods-krbl-amazon-l-arsenic-du-riz-devient-un-risque-sanitaire-et-c-7516030210933174272</link><guid isPermaLink="true">https://voce.life/archive/2026/10/14/ebro-foods-krbl-amazon-l-arsenic-du-riz-devient-un-risque-sanitaire-et-c-7516030210933174272</guid><author>VOCE Association</author><description>EBRO FOODS, KRBL, AMAZON: L'ARSENIC DU RIZ DEVIENT UN RISQUE SANITAIRE ET CONTENTIEUX
-
-Le riz complet est souvent présenté comme nutritionnellement supérieur.
-
-Mais conserver le son signifie aussi conserver davantage d'arsenic inorganique.
-
-Dans les rizières inondées, l'arsenic du sol devient plus mobile. Le riz l'absorbe et une partie se concentre dans les couches externes du grain, éliminées par le polissage.
-
-L'EFSA juge l'exposition chronique préoccupante, notamment pour les cancers de la peau, de la vessie et du poumon. Les jeunes enfants sont plus exposés.
-
-L'Inde est désormais le premier producteur mondial devant la Chine.
-
-En mai 2025, une action collective proposée contre Amazon a contesté l'absence d'information sur des métaux lourds dans 18 références, dont Ben's Original et 365 Whole Foods Market.
-
-Amazon a demandé le rejet du dossier. Le 29 décembre, le juge James Robart a refusé.
-
-Cela ne prouve ni dépassement réglementaire ni responsabilité finale d'Amazon. Mais l'affaire montre qu'un contentieux peut avancer sur l'information au consommateur sans dépassement de seuil établi.
-
-Ebro Foods et KRBL ne sont pas mis en cause dans cette procédure.
-
-Ils illustrent l'enjeu pour la filière. Fin 2025, Ebro Foods comptait Corporación Financiera Alba à 14,52%, Damm à 11,73% et la SEPI espagnole à 10,36% parmi ses principaux actionnaires. KRBL, propriétaire d'India Gate, reste majoritairement contrôlé par ses familles promotrices.
-
-Pour les investisseurs, le risque devient aussi documentaire: origine des lots, concentration, méthode analytique, garanties fournisseurs et information commerciale.
-
-Le bio ne supprime pas l'arsenic naturellement présent dans le sol.
-
-ULTRA®
-
-L'EFSA utilise une BMDL05 de 0,06 µg/kg de poids corporel par jour comme point de référence pour le cancer cutané. Ce n'est pas un seuil d'innocuité.
-
-La mesure de l'arsenic total ne suffit pas. La HPLC-ICP-MS sépare notamment As(III), As(V) et les formes organiques pour estimer la fraction inorganique pertinente.
-
-Dans l'UE, la limite est de 0,15 mg/kg pour le riz blanc non étuvé et de 0,25 mg/kg pour le riz décortiqué ou étuvé.
-
-Le risque financier peut donc précéder toute condamnation: contrôles, retraits éventuels et litiges.
-
-Pour Alba, Damm, la SEPI et les investisseurs exposés, l'arsenic devient un sujet de due diligence.
-
-Conseil VOCE
-
-La FDA recommande de varier les céréales. Une cuisson dans 6 à 10 volumes d'eau puis égouttage peut réduire de 40 à 60% l'arsenic inorganique selon le riz, avec une perte possible de nutriments dans les produits enrichis.
-
-DEMETRA
-
-La terre peut respecter les normes et conserver un risque que la marque devra prouver qu'elle maîtrise.
-
-Sources 
-
-EFSA Journal, 2024
-Règlement (UE) 2023/915, version consolidée 2026
-FDA
-Blum v. Amazon.com Inc., 2025
-Ebro Foods, gouvernance 2025
-KRBL, Annual Report 2025-26
-USDA, Rice Outlook 2026
-
-#Arsenic #SantéPublique #EbroFoods #KRBL #Amazon #SécuritéAlimentaire #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516030210933174272/">Linkedin</source></item><item><title>Chez les enfants qui doutent d'eux, un compliment exagéré peut faire choisir la facilité</title><link>https://voce.life/archive/2026/10/14/chez-les-enfants-qui-doutent-d-eux-un-compliment-exagere-peut-faire-choi-7516226514670120961</link><guid isPermaLink="true">https://voce.life/archive/2026/10/14/chez-les-enfants-qui-doutent-d-eux-un-compliment-exagere-peut-faire-choi-7516226514670120961</guid><author>VOCE Association</author><description>Chez les enfants qui doutent d'eux, un compliment exagéré peut faire choisir la facilité
-
-Aux Pays-Bas, 240 enfants de 8 à 12 ans recopient Wild Roses de Vincent van Gogh.
-
-Ils reçoivent une note attribuée à un peintre professionnel. Certains lisent:"Tu as fait un beau dessin." D'autres:"Tu as fait un dessin incroyablement beau." Un troisième groupe ne reçoit aucun compliment.
-
-Puis vient le vrai test.
-
-Les enfants choisissent entre des dessins faciles et des dessins difficiles, où ils risquent davantage d'échouer mais peuvent progresser.
-
-Chez ceux ayant une faible estime d'eux-mêmes, l'éloge exagéré réduit le choix de la difficulté. Chez les enfants ayant déjà une estime de soi élevée, l'effet s'inverse.
-
-Le compliment destiné à rassurer peut donc devenir une norme à maintenir.
-
-Une seconde étude observe 114 parents pendant des exercices de mathématiques. Environ un quart des compliments sont exagérés. Les enfants ayant la plus faible estime d'eux-mêmes en reçoivent davantage.
-
-En 2017, une étude longitudinale sur 120 familles retrouve le signal dans le temps: les compliments excessifs prédisent une baisse ultérieure de l'estime de soi. Chez les enfants qui partent avec une estime de soi élevée, ils prédisent aussi davantage de traits narcissiques.
-
-Une cohorte de 565 enfants distingue alors deux mécanismes. La survalorisation parentale, présenter son enfant comme supérieur aux autres, prédit davantage de narcissisme. La chaleur affective prédit une meilleure estime de soi.
-
-ULTRA® 
-
-QUAND LE COMPLIMENT DEVIENT UNE RÉCOMPENSE À RECHERCHER
-
-En 2026, Eddie Brummelman, Stathis Grapsas et Reinout Wiers étudient 221 enfants de 7 à 13 ans.
-
-Ils décrivent une "praise addiction": recherche répétée de compliments, priorité donnée à leur obtention et détresse lorsqu'ils disparaissent.
-
-Les niveaux moyens sont faibles, mais les différences individuelles sont réelles. Les enfants les plus dépendants du compliment ont une estime de soi plus basse, davantage de sensibilité à la récompense et fournissent plus d'effort pour obtenir un compliment même lorsque son coût augmente.
-
-Ce profil est aussi associé à davantage de survalorisation parentale et moins de chaleur affective.
-
-L'étude ne montre pas qu'un compliment crée cette dépendance. Elle révèle qu'une validation externe peut devenir, chez certains enfants, un objectif comportemental en soi.
-
-Pour les parents, la distinction est fine. "Tu es un génie" juge l'enfant. "Tu as repris cette partie et essayé autrement" décrit ce qu'il a réellement fait.
-
-L'affection, elle, n'a pas besoin d'être méritée.
-
-PAPAGENO
-
-On ose davantage échouer quand l'affection n'a rien à perdre.
-
-Sources
-
-Brummelman et al., Psychological Science, 2014
-Brummelman et al., PNAS, 2015
-Brummelman et al., Child Development, 2017
-Brummelman, Grapsas &amp; Wiers, Developmental Psychology, 2026
-
-#Psychologie #Parents #Enfants #EstimeDeSoi #Education #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516226514670120961/">Linkedin</source></item><item><title>Après des antibiotiques, Malassezia, le champignon des pellicules, prolifère dans l'intestin de bébés</title><link>https://voce.life/archive/2026/10/14/apres-des-antibiotiques-malassezia-le-champignon-des-pellicules-prolifer-7516166228848271360</link><guid isPermaLink="true">https://voce.life/archive/2026/10/14/apres-des-antibiotiques-malassezia-le-champignon-des-pellicules-prolifer-7516166228848271360</guid><author>VOCE Association</author><description>Après des antibiotiques, Malassezia, le champignon des pellicules, prolifère dans l'intestin de bébés
-
-Calgary. Quarante-sept nourrissons de moins de six mois reçoivent des antibiotiques.
-
-Les chercheurs prélèvent leurs selles dans les six heures suivant la première dose, puis dans les 24 heures après la dernière.
-
-Le 23 juin 2026, Erik van Tilburg Bernardes, Thaís Glatthardt, Marie-Claire Arrieta et leurs collègues publient dans Nature Communications un résultat inattendu.
-
-La biomasse bactérienne diminue. La biomasse fongique augmente.
-
-Parmi les champignons qui gagnent du terrain se trouve Malassezia, surtout connue pour vivre sur la peau et contribuer aux pellicules. L'augmentation absolue est significative chez les nourrissons traités plus de trois jours.
-
-Les chercheurs passent alors à des souris gnotobiotiques colonisées avec douze bactéries définies, avec ou sans Malassezia restricta.
-
-Avec la levure, l'écosystème intestinal change. Les éosinophiles, macrophages CD64+, lymphocytes Th2 et Th17 augmentent.
-
-Puis les souris sont exposées à des allergènes d'acariens.
-
-Celles porteuses de M. restricta développent davantage d'inflammation des voies respiratoires.
-
-Le lien causal intestin-poumon est démontré chez la souris, pas chez l'enfant.
-
-Le même jour, une seconde étude analyse 2.256 selles de 1.409 enfants canadiens. Durant la première année, l'abondance relative de Malassezia chute en moyenne d'un facteur 48. Une maturation fongique retardée à un an est associée à davantage de dermatite atopique et d'allergie alimentaire diagnostiquées à cinq ans.
-
-Ces résultats ne justifient ni antifongique préventif ni renoncement aux antibiotiques nécessaires.
-
-Ils corrigent une intuition: un antibiotique n'agit pas seulement sur ce qu'il détruit. Il modifie aussi l'espace écologique laissé à ce qu'il épargne.
-
-ULTRA® 
-
-L'ÉCOLOGIE INTER-RÈGNES
-
-Les chercheurs quantifient bactéries et champignons par qPCR 16S et ITS, puis caractérisent les communautés par séquençage. L'expansion absolue de Malassezia est donc distinguée d'un simple effet de proportion.
-
-Dans le modèle Oligo-MM12, M. restricta modifie 7 des 122 métabolites caractérisés. L'oléate chute d'un facteur 6,56.
-
-Chez des souris ΔdblGATA1 dépourvues d'éosinophiles, plusieurs réponses myéloïdes liées à Malassezia s'atténuent, tandis que les réponses Th2/Th17 persistent. L'éosinophile participe donc au mécanisme sans l'expliquer seul.
-
-La conséquence clinique est méthodologique: la sécurité immunologique des antibiotiques précoces ne peut plus être étudiée uniquement à travers le microbiome bactérien.
-
-GALENO
-
-Le vivant ne répond jamais seulement à ce que nous décidons de supprimer.
-
-Sources 2026
-
-van Tilburg Bernardes et al., Nature Communications
-Hoskinson et al., Nature Communications
-
-#Antibiotiques #Pédiatrie #Microbiote #Mycobiome #Malassezia #Immunologie #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516166228848271360/">Linkedin</source></item><item><title>APOLLO E IL PRIVATE CREDIT CHE ORA HA UN PREZZO OGNI GIORNO</title><link>https://voce.life/archive/2026/10/14/apollo-e-il-private-credit-che-ora-ha-un-prezzo-ogni-giorno-7515969795943686144</link><guid isPermaLink="true">https://voce.life/archive/2026/10/14/apollo-e-il-private-credit-che-ora-ha-un-prezzo-ogni-giorno-7515969795943686144</guid><author>VOCE Association</author><description>APOLLO E IL PRIVATE CREDIT CHE ORA HA UN PREZZO OGNI GIORNO
-
-ATTO I
-
-Une entreprise peut emprunter à une banque, émettre une obligation ou obtenir directement son financement auprès d'un fonds.
-
-C'est le private credit.
-
-Le marché mondial dépasse désormais 2.000 milliards de dollars d'actifs sous gestion. Mais beaucoup de prêts privés s'échangent rarement. Leur valeur existe sans qu'une transaction quotidienne vienne la tester.
-
-Apollo veut réduire cette zone d'ombre.
-
-Le 1er octobre, le groupe a étendu son "Daily Pricing" à son activité crédit de 850 milliards de dollars, notamment au direct lending et à l'asset-backed finance.
-
-Son desk secondaire, lancé en 2024, avait dépassé 30 milliards de dollars de transactions. Le 7 octobre, John Cortese indiquait plus de 35 milliards, environ 500 actifs et 160 contreparties.
-
-ATTO II
-
-Imaginez un prêt privé de 100 millions de dollars.
-
-Six mois plus tard, l'entreprise se dégrade. Combien vaut la créance?
-
-Sur une obligation liquide, les transactions donnent rapidement une réponse.
-
-Sur un prêt privé, plusieurs mois peuvent passer sans échange.
-
-Avec ICE, plus de 5.000 instruments disposent désormais d'identifiants persistants. Les transactions secondaires produisent des prix observés. Apollo ajoute des estimations quotidiennes de juste valeur, calculées selon sa méthodologie interne et comparées à des références du marché public.
-
-La distinction est essentielle.
-
-Un prix quotidien n'est pas un prix d'exécution. Apollo précise qu'il ne s'agit pas d'un "market-clearing price".
-
-La liquidité n'existe que lorsqu'un acheteur accepte réellement l'actif.
-
-ATTO III
-
-Pour un assureur ou un fonds de pension, cette infrastructure change la mesure du risque.
-
-Une dégradation peut apparaître plus tôt et les portefeuilles privés deviennent plus comparables au crédit coté.
-
-Mais une autre chose disparaît: une partie de la stabilité apparente du private credit.
-
-Un actif valorisé trimestriellement semble mécaniquement moins volatil qu'un actif dont le prix bouge chaque jour. Davantage de transparence peut donc augmenter la volatilité mesurée sans que le risque économique ait soudain augmenté.
-
-Apollo ne transforme pas le private credit en marché liquide.
-
-Il rapproche sa mesure, ses identifiants et son marché secondaire de l'infrastructure du crédit coté.
-
-FINALE
-
-Dans "Faust", Mefistofele connaît la valeur du contrat avant que Faust n'en découvre le coût.
-
-Le private credit connaissait ses contrats.
-
-Il connaissait beaucoup moins précisément le prix auquel quelqu'un accepterait de les reprendre aujourd'hui.
-
-Apollo commence à rendre cette réponse visible.
-
-Sources 
-
-Apollo Global Management, 1er octobre 2026.
-ICE Private Credit Intelligence, 2026.
-Bloomberg, John Cortese, 7 octobre 2026.
-PwC, Global Private Credit Fund Survey 2026.
-
-#PrivateCredit #Apollo #Finance #AssetManagement #RiskManagement #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7515969795943686144/">Linkedin</source></item></channel></rss>
+#Block #AgenticAI #FinTech #FINVOCE #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516498338977001473/">Linkedin</source></item></channel></rss>
