@@ -67,6 +67,12 @@ const CORE_FILES = [
   "atlas.html",
   "fr/atlas.html",
   "it/atlas.html",
+  "applied/post-saas.html",
+  "fr/applied/post-saas.html",
+  "it/applied/post-saas.html",
+  "assets/post-saas/calculator.mjs",
+  "assets/post-saas/main.mjs",
+  "assets/post-saas/post-saas.css",
   "applied.html",
   "fr/applied.html",
   "it/applied.html",
@@ -1808,6 +1814,15 @@ const app = {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     const pathname = url.pathname.length > 1 ? url.pathname.replace(/\/+$/, "") : url.pathname;
+    // Financial assumptions stay in browser memory. Do not inject analytics/audio.
+    if (/^\/(?:fr\/|it\/)?applied\/post-saas(?:\.html)?$/.test(pathname)) {
+      if (!['GET', 'HEAD'].includes(request.method)) return new Response('Method not allowed', {status:405,headers:{Allow:'GET, HEAD'}});
+      const response = await env.ASSETS.fetch(request);
+      const headers = new Headers(response.headers);
+      headers.set('referrer-policy', 'no-referrer');
+      headers.set('content-security-policy', "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; form-action 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'");
+      return new Response(response.body, {status:response.status,headers});
+    }
     // The public access-to-rights pathway processes its form only in the browser.
     // Keep it free of shared analytics/audio injections and block case submissions.
     if (pathname === '/en/legis/help') return Response.redirect('https://voce.life/legis/help', 308);

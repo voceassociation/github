@@ -1091,3 +1091,28 @@ html[lang="it"] .atlas-panel:before{content:"Vista documentale mobile"}
 .voce-consent-footer a{font-size:.66rem;color:var(--muted);text-decoration:underline;text-underline-offset:3px}
 .voce-consent-footer a:hover{color:var(--forest)}
 .voce-consent-footer a:focus-visible{outline:2px solid var(--forest);outline-offset:4px}
+
+/* Shared navigation: visible language controls and wrapping chapter links.
+   Overrides page-specific single-line mobile menus, which hid controls off-screen. */
+@media(max-width:1200px){
+ body header .nav{height:auto;min-height:78px;flex-wrap:wrap;gap:12px;padding-top:16px;padding-bottom:16px}
+ body header .nav .menu{width:100%;min-width:0;display:flex;flex-wrap:wrap;overflow:visible;white-space:normal;gap:8px 18px;line-height:1.35}
+ body header .nav .menu>a{flex:0 0 auto;white-space:nowrap}
+ body header .nav .menu .lang{flex:0 0 auto;flex-wrap:nowrap;white-space:nowrap;margin-left:0}
+}
+@media(max-width:760px){
+ body header .nav .menu{gap:6px 14px}
+ body header .nav .menu a,body header .nav .menu button{min-height:32px;display:inline-flex!important;align-items:center}
+ body header .nav .menu .lang{gap:10px}
+ body header .nav .menu .lang a,body header .nav .menu .lang button{min-width:28px;justify-content:center}
+ body .topic-title,body .applied-display{overflow-wrap:anywhere}
+}
+/* Narrow screens: long translated headings must not enlarge grid tracks. */
+@media(max-width:760px){
+ .section-grid>*,.applied-split>*,.applied-intro-grid>*,.pathway>*,.voce-courses .courses-section-top>*{min-width:0}
+ .display,.voce-courses h2,.applied-actions a{overflow-wrap:anywhere}
+}
+@media(max-width:760px){
+ .pathway .explore{white-space:normal;overflow-wrap:anywhere;max-width:100%}
+ .paper-signature .voce-mark{font-size:clamp(3.8rem,17vw,6.2rem)}
+}
