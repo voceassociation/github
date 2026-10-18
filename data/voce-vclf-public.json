@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "publication_date": "2026-10-17",
   "courses": [
     {
@@ -12,9 +12,10 @@
         "VOCE16",
         "NIST",
         "NISTGEN",
-        "OWASP"
+        "OWASP",
+        "STRIPEIDEM"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -51,8 +52,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-002",
@@ -66,7 +73,7 @@
         "NISTGEN",
         "OWASP"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -103,8 +110,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-003",
@@ -118,7 +131,7 @@
         "NISTGEN",
         "OWASP"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -155,8 +168,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-004",
@@ -170,7 +189,7 @@
         "NISTGEN",
         "OWASP"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -207,8 +226,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-005",
@@ -222,7 +247,7 @@
         "NISTGEN",
         "OWASP"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -259,8 +284,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-006",
@@ -275,7 +306,7 @@
         "UNESCOED",
         "CLASSROOM"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -312,8 +343,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-007",
@@ -328,7 +365,7 @@
         "UNESCOED",
         "CLASSROOM"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -365,8 +402,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-008",
@@ -380,7 +423,7 @@
         "AUTOBIAS",
         "OWASP"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -417,8 +460,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-009",
@@ -432,7 +481,7 @@
         "OFFLOAD",
         "NISTGEN"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -469,8 +518,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-010",
@@ -484,7 +539,7 @@
         "NISTGEN",
         "OWASP"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -521,8 +576,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-011",
@@ -535,7 +596,7 @@
         "TSINGHUA",
         "VOCEINFRA"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -572,8 +633,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-012",
@@ -587,7 +654,7 @@
         "DOE",
         "VOCESOV"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -624,8 +691,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-013",
@@ -639,7 +712,7 @@
         "ICENTER",
         "NIST"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -676,8 +749,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-014",
@@ -691,7 +770,7 @@
         "DOE",
         "VOCESOV"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -728,8 +807,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-015",
@@ -743,7 +828,7 @@
         "ICENTER",
         "NIST"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -780,8 +865,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-016",
@@ -795,7 +886,7 @@
         "TSINGMAT",
         "FFB"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -832,8 +923,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-017",
@@ -844,7 +941,7 @@
       "references": [
         "STANFORD"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -874,8 +971,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-018",
@@ -886,7 +989,7 @@
       "references": [
         "TRANSFORMER"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -916,8 +1019,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-019",
@@ -928,7 +1037,7 @@
       "references": [
         "FLASH"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -958,8 +1067,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-020",
@@ -970,7 +1085,7 @@
       "references": [
         "LORA"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1000,8 +1115,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-021",
@@ -1012,7 +1133,7 @@
       "references": [
         "DPO"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1042,8 +1163,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-022",
@@ -1054,7 +1181,7 @@
       "references": [
         "R1"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1084,8 +1211,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-023",
@@ -1096,7 +1229,7 @@
       "references": [
         "NISTGEN"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1126,8 +1259,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-024",
@@ -1138,7 +1277,7 @@
       "references": [
         "RAG"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1168,8 +1307,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-025",
@@ -1181,7 +1326,7 @@
         "RAG",
         "RGPD"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1211,8 +1356,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-026",
@@ -1224,7 +1375,7 @@
         "OWASP",
         "OWASPINJ"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1254,8 +1405,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-027",
@@ -1266,7 +1423,7 @@
       "references": [
         "MCP"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1296,8 +1453,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-028",
@@ -1308,7 +1471,7 @@
       "references": [
         "MCP"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1338,8 +1501,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-029",
@@ -1351,7 +1520,7 @@
         "NISTGEN",
         "STRIPEIDEM"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1381,8 +1550,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-030",
@@ -1393,7 +1568,7 @@
       "references": [
         "NISTGEN"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1423,8 +1598,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-031",
@@ -1435,7 +1616,7 @@
       "references": [
         "OWASP"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1465,8 +1646,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-032",
@@ -1477,7 +1664,7 @@
       "references": [
         "NISTGEN"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1507,8 +1694,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-033",
@@ -1520,7 +1713,7 @@
         "NISTGEN",
         "RGPD"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1550,8 +1743,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-034",
@@ -1562,7 +1761,7 @@
       "references": [
         "NISTGEN"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1592,8 +1791,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-035",
@@ -1604,7 +1809,7 @@
       "references": [
         "NISTGEN"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1634,8 +1839,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-036",
@@ -1646,7 +1857,7 @@
       "references": [
         "NISTGEN"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1676,8 +1887,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-037",
@@ -1688,7 +1905,7 @@
       "references": [
         "NIST"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1718,8 +1935,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-038",
@@ -1731,7 +1954,7 @@
         "AIACT",
         "AIACT26"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1761,8 +1984,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-039",
@@ -1774,7 +2003,7 @@
         "AIACT26",
         "DIGCOMP"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1804,8 +2033,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-040",
@@ -1814,9 +2049,10 @@
       "objective": "Délimiter la portée d'ISO 42001",
       "competence_id": "VCLF-GOV-AI040",
       "references": [
-        "ISO42001"
+        "ISO42001",
+        "ISO23894"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1846,8 +2082,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-041",
@@ -1856,9 +2098,10 @@
       "objective": "Rédiger une décision d'acceptation de risque",
       "competence_id": "VCLF-GOV-AI041",
       "references": [
-        "ISO23894"
+        "ISO23894",
+        "NIST"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1888,8 +2131,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-042",
@@ -1900,7 +2149,7 @@
       "references": [
         "RGPD"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1930,8 +2179,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-043",
@@ -1942,7 +2197,7 @@
       "references": [
         "ISO27001"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1972,8 +2227,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-044",
@@ -1985,7 +2246,7 @@
         "NISTGEN",
         "RGPD"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2015,8 +2276,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-045",
@@ -2025,9 +2292,10 @@
       "objective": "Rédiger une clause technique mesurable",
       "competence_id": "VCLF-GOV-AI045",
       "references": [
-        "NIST"
+        "NIST",
+        "NISTGEN"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2057,8 +2325,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-046",
@@ -2067,9 +2341,10 @@
       "objective": "Construire une décomposition du travail",
       "competence_id": "VCLF-GOV-AI046",
       "references": [
-        "VOCE16"
+        "VOCE16",
+        "NIST"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2099,8 +2374,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-047",
@@ -2109,9 +2390,10 @@
       "objective": "Mesurer une charge résiduelle non proportionnelle",
       "competence_id": "VCLF-GOV-AI047",
       "references": [
-        "VOCE16"
+        "VOCE16",
+        "NIST"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2141,8 +2423,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-048",
@@ -2151,9 +2439,10 @@
       "objective": "Évaluer capacité et délai",
       "competence_id": "VCLF-AI-AI048",
       "references": [
-        "VOCE16"
+        "VOCE16",
+        "NIST"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2183,8 +2472,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-049",
@@ -2193,9 +2488,10 @@
       "objective": "Construire une sensibilité économique",
       "competence_id": "VCLF-GOV-AI049",
       "references": [
-        "VOCE16"
+        "VOCE16",
+        "NIST"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2225,8 +2521,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-050",
@@ -2235,9 +2537,10 @@
       "objective": "Préparer une mesure d'impact",
       "competence_id": "VCLF-GOV-AI050",
       "references": [
-        "CONSORT"
+        "CONSORT",
+        "STROBE"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2267,8 +2570,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-051",
@@ -2278,9 +2587,10 @@
       "competence_id": "VCLF-GOV-AI051",
       "references": [
         "OWASP",
-        "NIST"
+        "NIST",
+        "NISTGEN"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2310,8 +2620,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-052",
@@ -2323,7 +2639,7 @@
         "RGPD",
         "AIACT"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2353,8 +2669,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-053",
@@ -2363,9 +2685,10 @@
       "objective": "Définir des limites de négociation",
       "competence_id": "VCLF-GOV-AI053",
       "references": [
-        "OWASP"
+        "OWASP",
+        "NISTGEN"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2395,8 +2718,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-054",
@@ -2405,9 +2734,10 @@
       "objective": "Évaluer une chaîne de sources juridiques",
       "competence_id": "VCLF-GOV-AI054",
       "references": [
-        "AIACT26"
+        "AIACT26",
+        "AIACT"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2437,8 +2767,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-055",
@@ -2447,9 +2783,10 @@
       "objective": "Établir un domaine d'essai",
       "competence_id": "VCLF-AI-AI055",
       "references": [
-        "TSINGHUA"
+        "TSINGHUA",
+        "NIST"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2479,8 +2816,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-056",
@@ -2491,7 +2834,7 @@
       "references": [
         "TSINGHUA"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2521,8 +2864,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-057",
@@ -2531,9 +2880,10 @@
       "objective": "Auditer un corpus de gestes",
       "competence_id": "VCLF-AI-AI057",
       "references": [
-        "TSINGHUA"
+        "TSINGHUA",
+        "ICENTER"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2563,8 +2913,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-058",
@@ -2574,9 +2930,10 @@
       "competence_id": "VCLF-AI-AI058",
       "references": [
         "MICHIGAN",
-        "VOCE16"
+        "VOCE16",
+        "FFB"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2606,8 +2963,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-059",
@@ -2619,7 +2982,7 @@
         "SJTU",
         "DOE"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2649,8 +3012,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-AI-060",
@@ -2662,7 +3031,7 @@
         "NIST",
         "VOCE16"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2692,8 +3061,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/ai-depth.txt"
     },
     {
       "id": "VOCE-ART-001",
@@ -2703,9 +3078,10 @@
       "competence_id": "VCLF-ART-ART001",
       "references": [
         "GETTYVOC",
-        "NGTECH"
+        "NGTECH",
+        "GETTYPROV"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2735,8 +3111,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-002",
@@ -2747,7 +3129,7 @@
       "references": [
         "GETTYPROV"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2777,8 +3159,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-003",
@@ -2790,7 +3178,7 @@
         "GETTYPROV",
         "GETTYVOC"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2820,8 +3208,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-004",
@@ -2832,7 +3226,7 @@
       "references": [
         "METFRAMES"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2862,8 +3256,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-005",
@@ -2874,7 +3274,7 @@
       "references": [
         "GETTYPROV"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2904,8 +3304,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-006",
@@ -2916,7 +3322,7 @@
       "references": [
         "NGTECH"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2946,8 +3352,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-007",
@@ -2958,7 +3370,7 @@
       "references": [
         "NGTECH"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2988,8 +3400,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-008",
@@ -3000,7 +3418,7 @@
       "references": [
         "NGTECH"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3030,8 +3448,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-009",
@@ -3043,7 +3467,7 @@
         "ICCROM",
         "NGTECH"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3073,8 +3497,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-010",
@@ -3085,7 +3515,7 @@
       "references": [
         "CCILIGHT"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3115,8 +3545,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-011",
@@ -3127,7 +3563,7 @@
       "references": [
         "CCI"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3157,8 +3593,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-012",
@@ -3170,7 +3612,7 @@
         "CCI",
         "ICCROM"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3200,8 +3642,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-013",
@@ -3213,7 +3661,7 @@
         "CCIDISS",
         "CIDOC"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3243,8 +3691,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-014",
@@ -3255,7 +3709,7 @@
       "references": [
         "CIDOC"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3285,8 +3739,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-015",
@@ -3297,7 +3757,7 @@
       "references": [
         "EDM"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3327,8 +3787,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-016",
@@ -3339,7 +3805,7 @@
       "references": [
         "GETTYVOC"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3369,8 +3835,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-017",
@@ -3381,7 +3853,7 @@
       "references": [
         "IIIF"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3411,8 +3883,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-018",
@@ -3423,7 +3901,7 @@
       "references": [
         "METOA"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3453,8 +3931,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-019",
@@ -3466,7 +3950,7 @@
         "NGTECH",
         "IIIF"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3496,8 +3980,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-020",
@@ -3509,7 +3999,7 @@
         "IIIF",
         "GETTYVOC"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3539,8 +4029,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-021",
@@ -3551,7 +4047,7 @@
       "references": [
         "GETTYVOC"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3581,8 +4077,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-022",
@@ -3594,7 +4096,7 @@
         "NGTECH",
         "GETTYPROV"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3624,8 +4126,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-023",
@@ -3637,7 +4145,7 @@
         "METFRAMES",
         "CIDOC"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3667,8 +4175,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-024",
@@ -3680,7 +4194,7 @@
         "GETTYPROV",
         "CIDOC"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3710,8 +4224,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-025",
@@ -3723,7 +4243,7 @@
         "UNESCO2003",
         "CIDOC"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3753,8 +4273,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-026",
@@ -3764,9 +4290,10 @@
       "competence_id": "VCLF-ART-ART026",
       "references": [
         "CIDOC",
-        "IIIF"
+        "IIIF",
+        "EDM"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3796,8 +4323,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-027",
@@ -3807,9 +4340,10 @@
       "competence_id": "VCLF-ART-ART027",
       "references": [
         "EDM",
-        "IIIF"
+        "IIIF",
+        "CIDOC"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3839,8 +4373,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-028",
@@ -3852,7 +4392,7 @@
         "CIDOC",
         "NISTGEN"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3882,8 +4422,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-029",
@@ -3894,7 +4440,7 @@
       "references": [
         "UNESCO"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3924,8 +4470,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-ART-030",
@@ -3938,7 +4490,7 @@
         "GETTYPROV",
         "METOA"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3968,8 +4520,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/art-depth.txt"
     },
     {
       "id": "VOCE-COG-001",
@@ -3980,7 +4538,7 @@
       "references": [
         "STROBE"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4010,8 +4568,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-002",
@@ -4022,7 +4586,7 @@
       "references": [
         "COCHRANE"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4052,8 +4616,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-003",
@@ -4064,7 +4634,7 @@
       "references": [
         "POWER"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4094,8 +4664,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-004",
@@ -4106,7 +4682,7 @@
       "references": [
         "COS"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4136,8 +4712,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-005",
@@ -4148,7 +4730,7 @@
       "references": [
         "COS"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4178,8 +4760,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-006",
@@ -4190,7 +4778,7 @@
       "references": [
         "PRISMA"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4220,8 +4808,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-007",
@@ -4232,7 +4826,7 @@
       "references": [
         "COCHRANE"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4262,8 +4856,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-008",
@@ -4274,7 +4874,7 @@
       "references": [
         "REVERSE"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4304,8 +4904,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-009",
@@ -4316,7 +4922,7 @@
       "references": [
         "BWAS"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4346,8 +4952,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-010",
@@ -4359,7 +4971,7 @@
         "MITPSY",
         "CONSORT"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4389,8 +5001,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-011",
@@ -4400,9 +5018,10 @@
       "competence_id": "VCLF-COG-COG011",
       "references": [
         "RETRIEVAL",
-        "VOCE16"
+        "VOCE16",
+        "RETRIEVAL25"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4432,8 +5051,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-012",
@@ -4442,9 +5067,10 @@
       "objective": "Planifier un apprentissage distribué",
       "competence_id": "VCLF-COG-COG012",
       "references": [
-        "SPACING"
+        "SPACING",
+        "RETRIEVAL25"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4474,8 +5100,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-013",
@@ -4486,7 +5118,7 @@
       "references": [
         "MITPSY"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4516,8 +5148,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-014",
@@ -4528,7 +5166,7 @@
       "references": [
         "MITPSY"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4558,8 +5196,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-015",
@@ -4570,7 +5214,7 @@
       "references": [
         "MITPSY"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4600,8 +5244,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-016",
@@ -4610,9 +5260,10 @@
       "objective": "Mesurer l'écart entre certitude et exactitude",
       "competence_id": "VCLF-COG-COG016",
       "references": [
-        "OFFLOAD"
+        "OFFLOAD",
+        "METACOG"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4642,8 +5293,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-017",
@@ -4655,7 +5312,7 @@
         "OFFLOAD",
         "VOCE16"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4685,8 +5342,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-018",
@@ -4698,7 +5361,7 @@
         "AUTOBIAS",
         "VOCE16"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4728,8 +5391,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-019",
@@ -4741,7 +5410,7 @@
         "VOCE16",
         "RETRIEVAL"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4771,8 +5440,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-020",
@@ -4783,7 +5458,7 @@
       "references": [
         "STROBE"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4813,8 +5488,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-021",
@@ -4825,7 +5506,7 @@
       "references": [
         "STROBE"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4855,8 +5536,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-022",
@@ -4868,7 +5555,7 @@
         "STROBE",
         "CONSORT"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4898,8 +5585,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-023",
@@ -4910,7 +5603,7 @@
       "references": [
         "STROBE"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4940,8 +5633,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-024",
@@ -4952,7 +5651,7 @@
       "references": [
         "STROBE"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -4982,8 +5681,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-025",
@@ -4994,7 +5699,7 @@
       "references": [
         "COCHRANE"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -5024,8 +5729,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-026",
@@ -5037,7 +5748,7 @@
         "STROBE",
         "MITPSY"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -5067,8 +5778,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-027",
@@ -5080,7 +5797,7 @@
         "RGPD",
         "FAIR"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -5110,8 +5827,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-028",
@@ -5123,7 +5846,7 @@
         "FAIR",
         "COS"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -5153,8 +5876,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-029",
@@ -5166,7 +5895,7 @@
         "CONSORT",
         "COCHRANE"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -5196,8 +5925,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     },
     {
       "id": "VOCE-COG-030",
@@ -5209,7 +5944,7 @@
         "VOCE16",
         "CONSORT"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -5239,8 +5974,14 @@
           "version": "0.3.0",
           "date": "2026-10-18",
           "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        },
+        {
+          "version": "0.4.0",
+          "date": "2026-10-18",
+          "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
         }
-      ]
+      ],
+      "depth_source": "content/courses/cog-depth.txt"
     }
   ],
   "references": [
@@ -5321,7 +6062,13 @@
         "VOCE-AI-037",
         "VOCE-AI-045",
         "VOCE-AI-051",
-        "VOCE-AI-060"
+        "VOCE-AI-060",
+        "VOCE-AI-041",
+        "VOCE-AI-046",
+        "VOCE-AI-047",
+        "VOCE-AI-048",
+        "VOCE-AI-049",
+        "VOCE-AI-055"
       ],
       "alternate_url": "https://doi.org/10.6028/NIST.AI.100-1",
       "recheck_date": "2026-10-17",
@@ -5363,7 +6110,10 @@
         "VOCE-AI-035",
         "VOCE-AI-036",
         "VOCE-AI-044",
-        "VOCE-ART-028"
+        "VOCE-ART-028",
+        "VOCE-AI-045",
+        "VOCE-AI-051",
+        "VOCE-AI-053"
       ],
       "recheck_date": "2026-10-17",
       "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
@@ -5601,7 +6351,8 @@
       "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
       "course_ids": [
         "VOCE-AI-038",
-        "VOCE-AI-052"
+        "VOCE-AI-052",
+        "VOCE-AI-054"
       ],
       "recheck_date": "2026-10-17",
       "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
@@ -5708,7 +6459,8 @@
       "applicability": "management des risques IA",
       "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
       "course_ids": [
-        "VOCE-AI-041"
+        "VOCE-AI-041",
+        "VOCE-AI-040"
       ],
       "recheck_date": "2026-10-17",
       "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
@@ -5975,7 +6727,8 @@
       "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
       "course_ids": [
         "VOCE-AI-013",
-        "VOCE-AI-015"
+        "VOCE-AI-015",
+        "VOCE-AI-057"
       ],
       "recheck_date": "2026-10-17",
       "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
@@ -6112,7 +6865,8 @@
         "VOCE-ART-025",
         "VOCE-ART-026",
         "VOCE-ART-028",
-        "VOCE-ART-030"
+        "VOCE-ART-030",
+        "VOCE-ART-027"
       ],
       "recheck_date": "2026-10-17",
       "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
@@ -6138,7 +6892,8 @@
       "license_note": "Consulter la licence; aucune reproduction intégrale de norme",
       "course_ids": [
         "VOCE-ART-015",
-        "VOCE-ART-027"
+        "VOCE-ART-027",
+        "VOCE-ART-026"
       ],
       "recheck_date": "2026-10-17",
       "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
@@ -6197,7 +6952,8 @@
         "VOCE-ART-005",
         "VOCE-ART-022",
         "VOCE-ART-024",
-        "VOCE-ART-030"
+        "VOCE-ART-030",
+        "VOCE-ART-001"
       ],
       "recheck_date": "2026-10-17",
       "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
@@ -6417,7 +7173,8 @@
         "VOCE-COG-022",
         "VOCE-COG-023",
         "VOCE-COG-024",
-        "VOCE-COG-026"
+        "VOCE-COG-026",
+        "VOCE-AI-050"
       ],
       "recheck_date": "2026-10-17",
       "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
@@ -6763,7 +7520,8 @@
       "applicability": "Exemple de mécanisme pour AI029, non norme universelle",
       "license_note": "Respecter les droits de la source; aucun texte intégral reproduit",
       "course_ids": [
-        "VOCE-AI-029"
+        "VOCE-AI-029",
+        "VOCE-AI-001"
       ],
       "recheck_date": "2026-10-17",
       "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
@@ -6990,7 +7748,8 @@
       "applicability": "Repère européen déjà cité dans AI016; exclut toute affirmation de thème réservé Chine/USA",
       "license_note": "Respecter les droits de la source; aucun texte intégral reproduit",
       "course_ids": [
-        "VOCE-AI-016"
+        "VOCE-AI-016",
+        "VOCE-AI-058"
       ],
       "recheck_date": "2026-10-17",
       "recheck_method": "Recherche ou ouverture de la source primaire; évaluation de la portée séparée de l’accessibilité",
@@ -7053,6 +7812,35 @@
           "revision": "0.2.0",
           "change": "Revue documentaire et portée précisées"
         }
+      ]
+    },
+    {
+      "id": "METACOG",
+      "title": "Fleming & Lau — How to measure metacognition",
+      "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00443/full",
+      "version": "2014",
+      "nature": "article scientifique",
+      "verification_date": "2026-10-18",
+      "verification_scope": "Résumé, introduction et section sur les jugements de probabilité consultés; calibration et discrimination distinguées.",
+      "applicability": "Lecture méthodologique ciblée; ne valide pas les situations fictives VOCE.",
+      "full_text_review": "PARTIEL",
+      "course_ids": [
+        "VOCE-COG-016"
+      ]
+    },
+    {
+      "id": "RETRIEVAL25",
+      "title": "Franzoi et al. — Retrieval practice enhances learning in real primary school settings, whether distributed or not",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1632206/full",
+      "version": "2025",
+      "nature": "article scientifique",
+      "verification_date": "2026-10-18",
+      "verification_scope": "Résumé et méthode consultés: 33 élèves italiens, rappel avec feedback et relecture; absence d’effet significatif de l’espacement dans ce dispositif, sans généralisation universelle.",
+      "applicability": "Lecture méthodologique ciblée; ne valide pas les situations fictives VOCE.",
+      "full_text_review": "PARTIEL",
+      "course_ids": [
+        "VOCE-COG-011",
+        "VOCE-COG-012"
       ]
     }
   ],

@@ -1,0 +1,93 @@
+{
+  "references": [
+    {
+      "id": "METACOG",
+      "title": "Fleming & Lau — How to measure metacognition",
+      "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00443/full",
+      "version": "2014",
+      "nature": "article scientifique",
+      "verification_date": "2026-10-18",
+      "verification_scope": "Résumé, introduction et section sur les jugements de probabilité consultés; calibration et discrimination distinguées.",
+      "applicability": "Lecture méthodologique ciblée; ne valide pas les situations fictives VOCE.",
+      "full_text_review": "PARTIEL",
+      "course_ids": []
+    },
+    {
+      "id": "RETRIEVAL25",
+      "title": "Franzoi et al. — Retrieval practice enhances learning in real primary school settings, whether distributed or not",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1632206/full",
+      "version": "2025",
+      "nature": "article scientifique",
+      "verification_date": "2026-10-18",
+      "verification_scope": "Résumé et méthode consultés: 33 élèves italiens, rappel avec feedback et relecture; absence d’effet significatif de l’espacement dans ce dispositif, sans généralisation universelle.",
+      "applicability": "Lecture méthodologique ciblée; ne valide pas les situations fictives VOCE.",
+      "full_text_review": "PARTIEL",
+      "course_ids": []
+    }
+  ],
+  "course_additions": {
+    "VOCE-AI-001": [
+      "STRIPEIDEM"
+    ],
+    "VOCE-AI-040": [
+      "ISO23894"
+    ],
+    "VOCE-AI-041": [
+      "NIST"
+    ],
+    "VOCE-AI-045": [
+      "NISTGEN"
+    ],
+    "VOCE-AI-046": [
+      "NIST"
+    ],
+    "VOCE-AI-047": [
+      "NIST"
+    ],
+    "VOCE-AI-048": [
+      "NIST"
+    ],
+    "VOCE-AI-049": [
+      "NIST"
+    ],
+    "VOCE-AI-050": [
+      "STROBE"
+    ],
+    "VOCE-AI-051": [
+      "NISTGEN"
+    ],
+    "VOCE-AI-053": [
+      "NISTGEN"
+    ],
+    "VOCE-AI-054": [
+      "AIACT"
+    ],
+    "VOCE-AI-055": [
+      "NIST"
+    ],
+    "VOCE-AI-057": [
+      "ICENTER"
+    ],
+    "VOCE-AI-058": [
+      "FFB"
+    ],
+    "VOCE-ART-001": [
+      "GETTYPROV"
+    ],
+    "VOCE-ART-026": [
+      "EDM"
+    ],
+    "VOCE-ART-027": [
+      "CIDOC"
+    ],
+    "VOCE-COG-011": [
+      "RETRIEVAL25"
+    ],
+    "VOCE-COG-012": [
+      "RETRIEVAL25"
+    ],
+    "VOCE-COG-016": [
+      "METACOG"
+    ]
+  }
+}
