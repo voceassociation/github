@@ -21,6 +21,23 @@
       "url": "https://voce.life/cours/modele-et-systeme",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "historical_written_course",
+      "seo_description": "Cartographier composants, flux et points d’arrêt. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "indexing_policy": {
+        "eligible": true,
+        "robots": "index,follow",
+        "reason": "historical_written_course_available"
+      },
+      "available_languages": [
+        "fr",
+        "en",
+        "it"
+      ],
+      "localized_urls": {
+        "fr": "https://voce.life/cours/modele-et-systeme",
+        "en": "https://voce.life/en/cours/modele-et-systeme",
+        "it": "https://voce.life/it/cours/modele-et-systeme"
+      },
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -56,6 +73,23 @@
       "url": "https://voce.life/cours/permissions-agent",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "historical_written_course",
+      "seo_description": "Définir une matrice de droits testable. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "indexing_policy": {
+        "eligible": true,
+        "robots": "index,follow",
+        "reason": "historical_written_course_available"
+      },
+      "available_languages": [
+        "fr",
+        "en",
+        "it"
+      ],
+      "localized_urls": {
+        "fr": "https://voce.life/cours/permissions-agent",
+        "en": "https://voce.life/en/cours/permissions-agent",
+        "it": "https://voce.life/it/cours/permissions-agent"
+      },
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -91,6 +125,23 @@
       "url": "https://voce.life/cours/preuves-controle",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "historical_written_course",
+      "seo_description": "Relier un contrôle à une preuve observée. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "indexing_policy": {
+        "eligible": true,
+        "robots": "index,follow",
+        "reason": "historical_written_course_available"
+      },
+      "available_languages": [
+        "fr",
+        "en",
+        "it"
+      ],
+      "localized_urls": {
+        "fr": "https://voce.life/cours/preuves-controle",
+        "en": "https://voce.life/en/cours/preuves-controle",
+        "it": "https://voce.life/it/cours/preuves-controle"
+      },
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -126,6 +177,23 @@
       "url": "https://voce.life/cours/reevaluer-agent",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "historical_written_course",
+      "seo_description": "Définir les tests nécessaires après modification. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "indexing_policy": {
+        "eligible": true,
+        "robots": "index,follow",
+        "reason": "historical_written_course_available"
+      },
+      "available_languages": [
+        "fr",
+        "en",
+        "it"
+      ],
+      "localized_urls": {
+        "fr": "https://voce.life/cours/reevaluer-agent",
+        "en": "https://voce.life/en/cours/reevaluer-agent",
+        "it": "https://voce.life/it/cours/reevaluer-agent"
+      },
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -161,6 +229,23 @@
       "url": "https://voce.life/cours/cout-tache-terminee",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "historical_written_course",
+      "seo_description": "Calculer un coût complet par résultat accepté. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "indexing_policy": {
+        "eligible": true,
+        "robots": "index,follow",
+        "reason": "historical_written_course_available"
+      },
+      "available_languages": [
+        "fr",
+        "en",
+        "it"
+      ],
+      "localized_urls": {
+        "fr": "https://voce.life/cours/cout-tache-terminee",
+        "en": "https://voce.life/en/cours/cout-tache-terminee",
+        "it": "https://voce.life/it/cours/cout-tache-terminee"
+      },
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -197,6 +282,23 @@
       "url": "https://voce.life/cours/former-les-juniors",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "historical_written_course",
+      "seo_description": "Concevoir une progression pour les débutants. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "indexing_policy": {
+        "eligible": true,
+        "robots": "index,follow",
+        "reason": "historical_written_course_available"
+      },
+      "available_languages": [
+        "fr",
+        "en",
+        "it"
+      ],
+      "localized_urls": {
+        "fr": "https://voce.life/cours/former-les-juniors",
+        "en": "https://voce.life/en/cours/former-les-juniors",
+        "it": "https://voce.life/it/cours/former-les-juniors"
+      },
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -233,6 +335,23 @@
       "url": "https://voce.life/cours/quand-utiliser-assistance",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "historical_written_course",
+      "seo_description": "Définir le moment et la fonction de l’assistance. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "indexing_policy": {
+        "eligible": true,
+        "robots": "index,follow",
+        "reason": "historical_written_course_available"
+      },
+      "available_languages": [
+        "fr",
+        "en",
+        "it"
+      ],
+      "localized_urls": {
+        "fr": "https://voce.life/cours/quand-utiliser-assistance",
+        "en": "https://voce.life/en/cours/quand-utiliser-assistance",
+        "it": "https://voce.life/it/cours/quand-utiliser-assistance"
+      },
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -268,6 +387,23 @@
       "url": "https://voce.life/cours/supervision-humaine",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "historical_written_course",
+      "seo_description": "Tester une supervision capable de refuser. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "indexing_policy": {
+        "eligible": true,
+        "robots": "index,follow",
+        "reason": "historical_written_course_available"
+      },
+      "available_languages": [
+        "fr",
+        "en",
+        "it"
+      ],
+      "localized_urls": {
+        "fr": "https://voce.life/cours/supervision-humaine",
+        "en": "https://voce.life/en/cours/supervision-humaine",
+        "it": "https://voce.life/it/cours/supervision-humaine"
+      },
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -303,6 +439,23 @@
       "url": "https://voce.life/cours/reprendre-sans-outil",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "historical_written_course",
+      "seo_description": "Préparer la reprise des opérations incertaines. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "indexing_policy": {
+        "eligible": true,
+        "robots": "index,follow",
+        "reason": "historical_written_course_available"
+      },
+      "available_languages": [
+        "fr",
+        "en",
+        "it"
+      ],
+      "localized_urls": {
+        "fr": "https://voce.life/cours/reprendre-sans-outil",
+        "en": "https://voce.life/en/cours/reprendre-sans-outil",
+        "it": "https://voce.life/it/cours/reprendre-sans-outil"
+      },
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -338,6 +491,23 @@
       "url": "https://voce.life/cours/remplacer-fournisseur",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "historical_written_course",
+      "seo_description": "Tester la réversibilité du service complet. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "indexing_policy": {
+        "eligible": true,
+        "robots": "index,follow",
+        "reason": "historical_written_course_available"
+      },
+      "available_languages": [
+        "fr",
+        "en",
+        "it"
+      ],
+      "localized_urls": {
+        "fr": "https://voce.life/cours/remplacer-fournisseur",
+        "en": "https://voce.life/en/cours/remplacer-fournisseur",
+        "it": "https://voce.life/it/cours/remplacer-fournisseur"
+      },
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -372,6 +542,23 @@
       "url": "https://voce.life/cours/tsinghua-agibot-robot-production",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "historical_written_course",
+      "seo_description": "Séparer réussite autonome et assistée. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "indexing_policy": {
+        "eligible": true,
+        "robots": "index,follow",
+        "reason": "historical_written_course_available"
+      },
+      "available_languages": [
+        "fr",
+        "en",
+        "it"
+      ],
+      "localized_urls": {
+        "fr": "https://voce.life/cours/tsinghua-agibot-robot-production",
+        "en": "https://voce.life/en/cours/tsinghua-agibot-robot-production",
+        "it": "https://voce.life/it/cours/tsinghua-agibot-robot-production"
+      },
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -407,6 +594,23 @@
       "url": "https://voce.life/cours/shanghai-jiao-tong-architecture-electrique",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "historical_written_course",
+      "seo_description": "Comparer les véhicules selon la mission. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "indexing_policy": {
+        "eligible": true,
+        "robots": "index,follow",
+        "reason": "historical_written_course_available"
+      },
+      "available_languages": [
+        "fr",
+        "en",
+        "it"
+      ],
+      "localized_urls": {
+        "fr": "https://voce.life/cours/shanghai-jiao-tong-architecture-electrique",
+        "en": "https://voce.life/en/cours/shanghai-jiao-tong-architecture-electrique",
+        "it": "https://voce.life/it/cours/shanghai-jiao-tong-architecture-electrique"
+      },
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -442,6 +646,23 @@
       "url": "https://voce.life/cours/tsinghua-agibot-donnees-robot",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "historical_written_course",
+      "seo_description": "Séparer collecte et évaluation robotique. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "indexing_policy": {
+        "eligible": true,
+        "robots": "index,follow",
+        "reason": "historical_written_course_available"
+      },
+      "available_languages": [
+        "fr",
+        "en",
+        "it"
+      ],
+      "localized_urls": {
+        "fr": "https://voce.life/cours/tsinghua-agibot-donnees-robot",
+        "en": "https://voce.life/en/cours/tsinghua-agibot-donnees-robot",
+        "it": "https://voce.life/it/cours/tsinghua-agibot-donnees-robot"
+      },
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -477,6 +698,23 @@
       "url": "https://voce.life/cours/shanghai-jiao-tong-gestion-thermique",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "historical_written_course",
+      "seo_description": "Définir un essai de disponibilité thermique. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "indexing_policy": {
+        "eligible": true,
+        "robots": "index,follow",
+        "reason": "historical_written_course_available"
+      },
+      "available_languages": [
+        "fr",
+        "en",
+        "it"
+      ],
+      "localized_urls": {
+        "fr": "https://voce.life/cours/shanghai-jiao-tong-gestion-thermique",
+        "en": "https://voce.life/en/cours/shanghai-jiao-tong-gestion-thermique",
+        "it": "https://voce.life/it/cours/shanghai-jiao-tong-gestion-thermique"
+      },
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -512,6 +750,23 @@
       "url": "https://voce.life/cours/tsinghua-icenter-environnement-robot",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "historical_written_course",
+      "seo_description": "Définir le domaine d’environnement d’un robot. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "indexing_policy": {
+        "eligible": true,
+        "robots": "index,follow",
+        "reason": "historical_written_course_available"
+      },
+      "available_languages": [
+        "fr",
+        "en",
+        "it"
+      ],
+      "localized_urls": {
+        "fr": "https://voce.life/cours/tsinghua-icenter-environnement-robot",
+        "en": "https://voce.life/en/cours/tsinghua-icenter-environnement-robot",
+        "it": "https://voce.life/it/cours/tsinghua-icenter-environnement-robot"
+      },
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -547,6 +802,23 @@
       "url": "https://voce.life/cours/tsinghua-materiaux-production-conforme",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "historical_written_course",
+      "seo_description": "Calculer cadence conforme et rendement. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "indexing_policy": {
+        "eligible": true,
+        "robots": "index,follow",
+        "reason": "historical_written_course_available"
+      },
+      "available_languages": [
+        "fr",
+        "en",
+        "it"
+      ],
+      "localized_urls": {
+        "fr": "https://voce.life/cours/tsinghua-materiaux-production-conforme",
+        "en": "https://voce.life/en/cours/tsinghua-materiaux-production-conforme",
+        "it": "https://voce.life/it/cours/tsinghua-materiaux-production-conforme"
+      },
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -579,6 +851,16 @@
       "url": "https://voce.life/cours/voce-ai-017",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Calculer un écart de consommation de jetons et identifier les coûts non mesurés. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -611,6 +893,16 @@
       "url": "https://voce.life/cours/voce-ai-018",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Estimer le coût d'une attention dense. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -643,6 +935,16 @@
       "url": "https://voce.life/cours/voce-ai-019",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Distinguer réduction des transferts mémoire et approximation. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -675,6 +977,16 @@
       "url": "https://voce.life/cours/voce-ai-020",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Calculer les paramètres d'une adaptation de faible rang. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -707,6 +1019,16 @@
       "url": "https://voce.life/cours/voce-ai-021",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Construire une évaluation distincte de l'alignement. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -739,6 +1061,16 @@
       "url": "https://voce.life/cours/voce-ai-022",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Auditer la vérifiabilité d'une récompense. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -771,6 +1103,16 @@
       "url": "https://voce.life/cours/voce-ai-023",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Préparer une comparaison de précision numérique. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -803,6 +1145,16 @@
       "url": "https://voce.life/cours/voce-ai-024",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Séparer erreur de recherche et erreur de génération. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -836,6 +1188,16 @@
       "url": "https://voce.life/cours/voce-ai-025",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Concevoir une règle documentaire temporelle. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -869,6 +1231,16 @@
       "url": "https://voce.life/cours/voce-ai-026",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Construire un test de frontière de confiance. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -901,6 +1273,16 @@
       "url": "https://voce.life/cours/voce-ai-027",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Décrire la séparation entre protocole et politique métier. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -933,6 +1315,16 @@
       "url": "https://voce.life/cours/voce-ai-028",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Vérifier l'audience d'une autorisation. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -966,6 +1358,16 @@
       "url": "https://voce.life/cours/voce-ai-029",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Concevoir une reprise idempotente. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -998,6 +1400,16 @@
       "url": "https://voce.life/cours/voce-ai-030",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Définir un contrat de validation métier. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1030,6 +1442,16 @@
       "url": "https://voce.life/cours/voce-ai-031",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Établir un budget d'autorité partagé. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1062,6 +1484,16 @@
       "url": "https://voce.life/cours/voce-ai-032",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Définir une politique de persistance. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1095,6 +1527,16 @@
       "url": "https://voce.life/cours/voce-ai-033",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Concevoir une trace utile à l'audit. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1127,6 +1569,16 @@
       "url": "https://voce.life/cours/voce-ai-034",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Préparer un ensemble d'évaluation indépendant. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1159,6 +1611,16 @@
       "url": "https://voce.life/cours/voce-ai-035",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Construire une évaluation par gravité. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1191,6 +1653,16 @@
       "url": "https://voce.life/cours/voce-ai-036",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Définir un compromis entre couverture et risque. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1223,6 +1695,16 @@
       "url": "https://voce.life/cours/voce-ai-037",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Construire un contrôle de changement. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1256,6 +1738,16 @@
       "url": "https://voce.life/cours/voce-ai-038",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Préparer une qualification réglementaire documentée. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1289,6 +1781,16 @@
       "url": "https://voce.life/cours/voce-ai-039",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Construire une analyse de besoins vérifiable. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1321,6 +1823,16 @@
       "url": "https://voce.life/cours/voce-ai-040",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Délimiter la portée d'ISO 42001. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1353,6 +1865,16 @@
       "url": "https://voce.life/cours/voce-ai-041",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Rédiger une décision d'acceptation de risque. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1385,6 +1907,16 @@
       "url": "https://voce.life/cours/voce-ai-042",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Établir une carte de traitement. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1417,6 +1949,16 @@
       "url": "https://voce.life/cours/voce-ai-043",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Décrire un périmètre de sécurité cohérent. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1450,6 +1992,16 @@
       "url": "https://voce.life/cours/voce-ai-044",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Préparer une procédure d'arrêt et de reprise. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1482,6 +2034,16 @@
       "url": "https://voce.life/cours/voce-ai-045",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Rédiger une clause technique mesurable. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1514,6 +2076,16 @@
       "url": "https://voce.life/cours/voce-ai-046",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Construire une décomposition du travail. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1546,6 +2118,16 @@
       "url": "https://voce.life/cours/voce-ai-047",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Mesurer une charge résiduelle non proportionnelle. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1578,6 +2160,16 @@
       "url": "https://voce.life/cours/voce-ai-048",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Évaluer capacité et délai. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1610,6 +2202,16 @@
       "url": "https://voce.life/cours/voce-ai-049",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Construire une sensibilité économique. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1642,6 +2244,16 @@
       "url": "https://voce.life/cours/voce-ai-050",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Préparer une mesure d'impact. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1675,6 +2287,16 @@
       "url": "https://voce.life/cours/voce-ai-051",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Séparer préparation et validation d'écriture. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1708,6 +2330,16 @@
       "url": "https://voce.life/cours/voce-ai-052",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Préparer un dossier de décision examinable. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1740,6 +2372,16 @@
       "url": "https://voce.life/cours/voce-ai-053",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Définir des limites de négociation. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1772,6 +2414,16 @@
       "url": "https://voce.life/cours/voce-ai-054",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Évaluer une chaîne de sources juridiques. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1804,6 +2456,16 @@
       "url": "https://voce.life/cours/voce-ai-055",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Établir un domaine d'essai. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1836,6 +2498,16 @@
       "url": "https://voce.life/cours/voce-ai-056",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Documenter le transfert simulation-terrain. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1868,6 +2540,16 @@
       "url": "https://voce.life/cours/voce-ai-057",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Auditer un corpus de gestes. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1901,6 +2583,16 @@
       "url": "https://voce.life/cours/voce-ai-058",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Relier rendement et coût industriel. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1934,6 +2626,16 @@
       "url": "https://voce.life/cours/voce-ai-059",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Construire un protocole de disponibilité. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -1967,6 +2669,16 @@
       "url": "https://voce.life/cours/voce-ai-060",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Assembler une décision de déploiement. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2000,6 +2712,16 @@
       "url": "https://voce.life/cours/voce-art-001",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Distinguer auteur, atelier et attribution. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2032,6 +2754,16 @@
       "url": "https://voce.life/cours/voce-art-002",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Construire une chronologie de propriété. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2065,6 +2797,16 @@
       "url": "https://voce.life/cours/voce-art-003",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Comparer les mots d'archive et les catégories actuelles. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2097,6 +2839,16 @@
       "url": "https://voce.life/cours/voce-art-004",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Analyser l'objet dans son dispositif de présentation. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2129,6 +2881,16 @@
       "url": "https://voce.life/cours/voce-art-005",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Interpréter un paiement sans réduire l'œuvre à son prix. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2161,6 +2923,16 @@
       "url": "https://voce.life/cours/voce-art-006",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Distinguer support, préparation et surface. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2193,6 +2965,16 @@
       "url": "https://voce.life/cours/voce-art-007",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Interpréter une image technique. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2225,6 +3007,16 @@
       "url": "https://voce.life/cours/voce-art-008",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Évaluer la portée d'un indice matériel. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2258,6 +3050,16 @@
       "url": "https://voce.life/cours/voce-art-009",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Évaluer un dossier d'intervention. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2290,6 +3092,16 @@
       "url": "https://voce.life/cours/voce-art-010",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Calculer une dose lumineuse simple. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2322,6 +3134,16 @@
       "url": "https://voce.life/cours/voce-art-011",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Lire une série environnementale. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2355,6 +3177,16 @@
       "url": "https://voce.life/cours/voce-art-012",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Construire un constat comparatif. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2388,6 +3220,16 @@
       "url": "https://voce.life/cours/voce-art-013",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Prévenir la dissociation documentaire. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2420,6 +3262,16 @@
       "url": "https://voce.life/cours/voce-art-014",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Modéliser une acquisition sans confondre les rôles. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2452,6 +3304,16 @@
       "url": "https://voce.life/cours/voce-art-015",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Préparer une notice interopérable. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2484,6 +3346,16 @@
       "url": "https://voce.life/cours/voce-art-016",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Construire une indexation multilingue. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2516,6 +3388,16 @@
       "url": "https://voce.life/cours/voce-art-017",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Décrire un objet numérique composé. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2548,6 +3430,16 @@
       "url": "https://voce.life/cours/voce-art-018",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Examiner la chaîne des droits. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2581,6 +3473,16 @@
       "url": "https://voce.life/cours/voce-art-019",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Définir les limites d'une reproduction. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2614,6 +3516,16 @@
       "url": "https://voce.life/cours/voce-art-020",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Analyser l'effet documentaire du cadrage. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2646,6 +3558,16 @@
       "url": "https://voce.life/cours/voce-art-021",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Construire une hypothèse de lecture. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2679,6 +3601,16 @@
       "url": "https://voce.life/cours/voce-art-022",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Distinguer copie, version et attribution. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2712,6 +3644,16 @@
       "url": "https://voce.life/cours/voce-art-023",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Analyser le déplacement de contexte. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2745,6 +3687,16 @@
       "url": "https://voce.life/cours/voce-art-024",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Préparer un dossier documentaire contradictoire. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2778,6 +3730,16 @@
       "url": "https://voce.life/cours/voce-art-025",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Décrire une pratique et ses détenteurs. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2811,6 +3773,16 @@
       "url": "https://voce.life/cours/voce-art-026",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Conserver les choix éditoriaux et leurs versions. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2844,6 +3816,16 @@
       "url": "https://voce.life/cours/voce-art-027",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Préparer une réversibilité documentaire. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2877,6 +3859,16 @@
       "url": "https://voce.life/cours/voce-art-028",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Définir une légende de transparence. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2909,6 +3901,16 @@
       "url": "https://voce.life/cours/voce-art-029",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Rédiger une justification documentée. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2943,6 +3945,16 @@
       "url": "https://voce.life/cours/voce-art-030",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Assembler un dossier scientifique de collection. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -2975,6 +3987,16 @@
       "url": "https://voce.life/cours/voce-cog-001",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Identifier une inférence causale excessive. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3007,6 +4029,16 @@
       "url": "https://voce.life/cours/voce-cog-002",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Interpréter taille d'effet et incertitude. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3039,6 +4071,16 @@
       "url": "https://voce.life/cours/voce-cog-003",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Examiner la précision d'une estimation. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3071,6 +4113,16 @@
       "url": "https://voce.life/cours/voce-cog-004",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Reconnaître la multiplicité des analyses. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3103,6 +4155,16 @@
       "url": "https://voce.life/cours/voce-cog-005",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Rédiger un plan d'analyse vérifiable. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3135,6 +4197,16 @@
       "url": "https://voce.life/cours/voce-cog-006",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Auditer une stratégie de recherche. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3167,6 +4239,16 @@
       "url": "https://voce.life/cours/voce-cog-007",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Interpréter l'hétérogénéité. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3199,6 +4281,16 @@
       "url": "https://voce.life/cours/voce-cog-008",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Limiter l'inférence à partir d'une activation. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3231,6 +4323,16 @@
       "url": "https://voce.life/cours/voce-cog-009",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Distinguer association et prédiction individuelle. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3264,6 +4366,16 @@
       "url": "https://voce.life/cours/voce-cog-010",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Séparer changement cognitif et familiarisation. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3297,6 +4409,16 @@
       "url": "https://voce.life/cours/voce-cog-011",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Concevoir un exercice de récupération. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3329,6 +4451,16 @@
       "url": "https://voce.life/cours/voce-cog-012",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Planifier un apprentissage distribué. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3361,6 +4493,16 @@
       "url": "https://voce.life/cours/voce-cog-013",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Réduire une charge évitable. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3393,6 +4535,16 @@
       "url": "https://voce.life/cours/voce-cog-014",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Définir un indicateur d'attention interprétable. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3425,6 +4577,16 @@
       "url": "https://voce.life/cours/voce-cog-015",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Évaluer le retour à une tâche. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3457,6 +4619,16 @@
       "url": "https://voce.life/cours/voce-cog-016",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Mesurer l'écart entre certitude et exactitude. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3490,6 +4662,16 @@
       "url": "https://voce.life/cours/voce-cog-017",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Évaluer un outil de soutien cognitif. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3523,6 +4705,16 @@
       "url": "https://voce.life/cours/voce-cog-018",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Tester la capacité à contredire l'outil. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3556,6 +4748,16 @@
       "url": "https://voce.life/cours/voce-cog-019",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Concevoir une progression après automatisation. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3588,6 +4790,16 @@
       "url": "https://voce.life/cours/voce-cog-020",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Critiquer une mesure observationnelle. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3620,6 +4832,16 @@
       "url": "https://voce.life/cours/voce-cog-021",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Définir le construit avant de mesurer. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3653,6 +4875,16 @@
       "url": "https://voce.life/cours/voce-cog-022",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Distinguer exposition, symptômes et diagnostic. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3685,6 +4917,16 @@
       "url": "https://voce.life/cours/voce-cog-023",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Construire une comparaison conceptuelle. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3717,6 +4959,16 @@
       "url": "https://voce.life/cours/voce-cog-024",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Examiner les conditions d'une autoévaluation. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3749,6 +5001,16 @@
       "url": "https://voce.life/cours/voce-cog-025",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Appliquer un raisonnement bayésien simple. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3782,6 +5044,16 @@
       "url": "https://voce.life/cours/voce-cog-026",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Délimiter la généralisation. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3815,6 +5087,16 @@
       "url": "https://voce.life/cours/voce-cog-027",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Préparer un partage de données de recherche. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3848,6 +5130,16 @@
       "url": "https://voce.life/cours/voce-cog-028",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Construire un paquet de recherche examinable. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3881,6 +5173,16 @@
       "url": "https://voce.life/cours/voce-cog-029",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Construire une grille de preuves. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -3914,6 +5216,16 @@
       "url": "https://voce.life/cours/voce-cog-030",
       "publication_status": "PUBLIC_VERSION_DE_TRAVAIL",
       "independent_expert_validated": false,
+      "resource_type": "introductory_capsule",
+      "seo_description": "Assembler une évaluation des acquis. Capsule VOCE® en développement, avec exercice corrigé et références.",
+      "indexing_policy": {
+        "eligible": false,
+        "robots": "noindex,follow",
+        "reason": "introductory_capsule_in_development"
+      },
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-18",
       "planned_learning_minutes": {
         "min": 35,
@@ -5744,5 +7056,11 @@
       ]
     }
   ],
+  "discovery_policy": {
+    "updated_at": "2026-10-18",
+    "indexable_historical_courses": 16,
+    "development_capsules_noindex": 104,
+    "description": "Development capsules remain accessible but are excluded from search until editorial completion. Independent scientific validation is a separate, unverified status."
+  },
   "revision_date": "2026-10-18"
 }

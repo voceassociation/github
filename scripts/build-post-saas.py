@@ -1,5 +1,6 @@
 from pathlib import Path
 import json,re,html
+from learning_discovery import POST_DESCRIPTIONS
 root=Path(__file__).resolve().parents[1]
 data={
 'fr':{
@@ -151,9 +152,9 @@ for lang,d in data.items():
  main+=section('engagement',d['end'],p(d['endText'])+f'<a href="{mail}">{d["contact"]} →</a>')+'</div></main>'
  url='https://voce.life'+prefix+'/applied/post-saas'
  title='Post-SaaS | '+d['title']+' | VOCE Applied'
- head=f'<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}</title><meta name="description" content="{esc(d["deck"])}"><meta name="robots" content="index,follow"><link rel="canonical" href="{url}">'
+ head=f'<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}</title><meta name="description" content="{esc(POST_DESCRIPTIONS[lang])}"><meta name="robots" content="index,follow"><link rel="canonical" href="{url}">'
  for l,pre in [('en',''),('fr','/fr'),('it','/it'),('x-default','')]:head+=f'<link rel="alternate" hreflang="{l}" href="https://voce.life{pre}/applied/post-saas">'
- head+=f'<meta property="og:type" content="website"><meta property="og:site_name" content="VOCE"><meta property="og:title" content="{title}"><meta property="og:description" content="{esc(d["deck"])}"><meta property="og:url" content="{url}"><meta property="og:image" content="https://voce.life/voce-og.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{title}"><meta name="twitter:description" content="{esc(d["deck"])}"><meta name="twitter:image" content="https://voce.life/voce-og.jpg"><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/assets/post-saas/post-saas.css"></head><body class="applied-page post-saas-page">'
+ head+=f'<meta property="og:type" content="website"><meta property="og:site_name" content="VOCE"><meta property="og:title" content="{title}"><meta property="og:description" content="{esc(POST_DESCRIPTIONS[lang])}"><meta property="og:url" content="{url}"><meta property="og:image" content="https://voce.life/voce-og.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{title}"><meta name="twitter:description" content="{esc(POST_DESCRIPTIONS[lang])}"><meta name="twitter:image" content="https://voce.life/voce-og.jpg"><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/assets/post-saas/post-saas.css"></head><body class="applied-page post-saas-page">'
  output=head+skip+header+main+footer+f'<script id="ps-copy" type="application/json">{json.dumps(d,ensure_ascii=False)}</script><script type="module" src="/assets/post-saas/main.mjs"></script></body></html>'
  path=root/(prefix.strip('/')+'/applied/post-saas.html' if prefix else 'applied/post-saas.html');path.parent.mkdir(parents=True,exist_ok=True);path.write_text(output.replace('><', '>\n<'))
  # Only the ERP/CRM practice receives the contextual link.

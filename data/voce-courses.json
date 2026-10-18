@@ -16,7 +16,8 @@
         10,
         12
       ],
-      "seo_description": "Calculer un coût opérationnel par dossier accepté, avec un périmètre explicite. Cours VOCE® D05 en accès libre, avec cas pratique et exercice corrigé."
+      "seo_description": "Calculer un coût complet par résultat accepté. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "vclf_id": "VOCE-AI-005"
     },
     {
       "id": "D06",
@@ -31,7 +32,8 @@
         10,
         12
       ],
-      "seo_description": "Conserver une activité qui développe une compétence professionnelle utile. Cours VOCE® D06 en accès libre, avec cas pratique et exercice corrigé."
+      "seo_description": "Concevoir une progression pour les débutants. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "vclf_id": "VOCE-AI-006"
     },
     {
       "id": "D01",
@@ -46,7 +48,8 @@
         10,
         12
       ],
-      "seo_description": "Distinguer le modèle des composants qui permettent au service de consulter des informations et d'agir. Cours VOCE® D01 en accès libre, avec cas pratique et exercice corrigé."
+      "seo_description": "Cartographier composants, flux et points d’arrêt. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "vclf_id": "VOCE-AI-001"
     },
     {
       "id": "D02",
@@ -61,7 +64,8 @@
         10,
         12
       ],
-      "seo_description": "Définir les accès nécessaires à une tâche et distinguer accès technique et autorisation métier. Cours VOCE® D02 en accès libre, avec cas pratique et exercice corrigé."
+      "seo_description": "Définir une matrice de droits testable. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "vclf_id": "VOCE-AI-002"
     },
     {
       "id": "D03",
@@ -76,7 +80,8 @@
         10,
         12
       ],
-      "seo_description": "Transformer une affirmation générale en vérification adaptée à un usage précis. Cours VOCE® D03 en accès libre, avec cas pratique et exercice corrigé."
+      "seo_description": "Relier un contrôle à une preuve observée. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "vclf_id": "VOCE-AI-003"
     },
     {
       "id": "D07",
@@ -91,7 +96,8 @@
         10,
         12
       ],
-      "seo_description": "Organiser l'accès à l'outil selon la compétence que l'activité cherche à développer. Cours VOCE® D07 en accès libre, avec cas pratique et exercice corrigé."
+      "seo_description": "Définir le moment et la fonction de l’assistance. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "vclf_id": "VOCE-AI-007"
     },
     {
       "id": "D04",
@@ -106,7 +112,8 @@
         10,
         12
       ],
-      "seo_description": "Relier une modification aux contrôles qu'elle peut affecter. Cours VOCE® D04 en accès libre, avec cas pratique et exercice corrigé."
+      "seo_description": "Définir les tests nécessaires après modification. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "vclf_id": "VOCE-AI-004"
     },
     {
       "id": "D10",
@@ -121,7 +128,8 @@
         10,
         12
       ],
-      "seo_description": "Vérifier une possibilité de remplacement sur le service complet. Cours VOCE® D10 en accès libre, avec cas pratique et exercice corrigé."
+      "seo_description": "Tester la réversibilité du service complet. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "vclf_id": "VOCE-AI-010"
     },
     {
       "id": "D09",
@@ -136,7 +144,8 @@
         10,
         12
       ],
-      "seo_description": "Identifier une capacité minimale de continuité et la vérifier dans un exercice. Cours VOCE® D09 en accès libre, avec cas pratique et exercice corrigé."
+      "seo_description": "Préparer la reprise des opérations incertaines. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "vclf_id": "VOCE-AI-009"
     },
     {
       "id": "D12",
@@ -151,7 +160,8 @@
         10,
         12
       ],
-      "seo_description": "Relier la batterie, la propulsion et les commandes aux questions d’évaluation d’un projet de mobilité. Cours VOCE® D12 en accès libre, avec cas pratique et exercice corrigé."
+      "seo_description": "Comparer les véhicules selon la mission. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "vclf_id": "VOCE-AI-012"
     },
     {
       "id": "D14",
@@ -166,7 +176,8 @@
         10,
         12
       ],
-      "seo_description": "Préparer une comparaison opérationnelle tenant compte des conditions thermiques sans poser un diagnostic technique. Cours VOCE® D14 en accès libre, avec cas pratique et exercice corrigé."
+      "seo_description": "Définir un essai de disponibilité thermique. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "vclf_id": "VOCE-AI-014"
     },
     {
       "id": "D08",
@@ -181,7 +192,8 @@
         10,
         12
       ],
-      "seo_description": "Concevoir une approbation qui permet un examen réel de l'action proposée. Cours VOCE® D08 en accès libre, avec cas pratique et exercice corrigé."
+      "seo_description": "Tester une supervision capable de refuser. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "vclf_id": "VOCE-AI-008"
     },
     {
       "id": "D13",
@@ -196,7 +208,8 @@
         10,
         12
       ],
-      "seo_description": "Définir un jeu de situations d’apprentissage et un jeu d’essai distincts pour une tâche robotique. Cours VOCE® D13 en accès libre, avec cas pratique et exercice corrigé."
+      "seo_description": "Séparer collecte et évaluation robotique. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "vclf_id": "VOCE-AI-013"
     },
     {
       "id": "D11",
@@ -211,7 +224,8 @@
         10,
         12
       ],
-      "seo_description": "Définir ce qui doit être vérifié avant d’utiliser une tâche robotique dans un environnement réel. Cours VOCE® D11 en accès libre, avec cas pratique et exercice corrigé."
+      "seo_description": "Séparer réussite autonome et assistée. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "vclf_id": "VOCE-AI-011"
     },
     {
       "id": "D15",
@@ -226,7 +240,8 @@
         10,
         12
       ],
-      "seo_description": "Identifier les conditions d’environnement à examiner avant d’élargir une tâche robotique. Cours VOCE® D15 en accès libre, avec cas pratique et exercice corrigé."
+      "seo_description": "Définir le domaine d’environnement d’un robot. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "vclf_id": "VOCE-AI-015"
     },
     {
       "id": "D16",
@@ -241,7 +256,8 @@
         10,
         12
       ],
-      "seo_description": "Comparer une capacité de production annoncée au volume accepté dans un cas industriel. Cours VOCE® D16 en accès libre, avec cas pratique et exercice corrigé."
+      "seo_description": "Calculer cadence conforme et rendement. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+      "vclf_id": "VOCE-AI-016"
     }
   ],
   "future_training": [
@@ -350,7 +366,8 @@
           10,
           12
         ],
-        "seo_description": "Calculer un coût opérationnel par dossier accepté, avec un périmètre explicite. Cours VOCE® D05 en accès libre, avec cas pratique et exercice corrigé."
+        "seo_description": "Calculer un coût complet par résultat accepté. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+        "vclf_id": "VOCE-AI-005"
       },
       {
         "id": "D06",
@@ -365,7 +382,8 @@
           10,
           12
         ],
-        "seo_description": "Conserver une activité qui développe une compétence professionnelle utile. Cours VOCE® D06 en accès libre, avec cas pratique et exercice corrigé."
+        "seo_description": "Concevoir une progression pour les débutants. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+        "vclf_id": "VOCE-AI-006"
       },
       {
         "id": "D01",
@@ -380,7 +398,8 @@
           10,
           12
         ],
-        "seo_description": "Distinguer le modèle des composants qui permettent au service de consulter des informations et d'agir. Cours VOCE® D01 en accès libre, avec cas pratique et exercice corrigé."
+        "seo_description": "Cartographier composants, flux et points d’arrêt. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+        "vclf_id": "VOCE-AI-001"
       },
       {
         "id": "D02",
@@ -395,7 +414,8 @@
           10,
           12
         ],
-        "seo_description": "Définir les accès nécessaires à une tâche et distinguer accès technique et autorisation métier. Cours VOCE® D02 en accès libre, avec cas pratique et exercice corrigé."
+        "seo_description": "Définir une matrice de droits testable. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+        "vclf_id": "VOCE-AI-002"
       },
       {
         "id": "D03",
@@ -410,7 +430,8 @@
           10,
           12
         ],
-        "seo_description": "Transformer une affirmation générale en vérification adaptée à un usage précis. Cours VOCE® D03 en accès libre, avec cas pratique et exercice corrigé."
+        "seo_description": "Relier un contrôle à une preuve observée. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+        "vclf_id": "VOCE-AI-003"
       },
       {
         "id": "D07",
@@ -425,7 +446,8 @@
           10,
           12
         ],
-        "seo_description": "Organiser l'accès à l'outil selon la compétence que l'activité cherche à développer. Cours VOCE® D07 en accès libre, avec cas pratique et exercice corrigé."
+        "seo_description": "Définir le moment et la fonction de l’assistance. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+        "vclf_id": "VOCE-AI-007"
       },
       {
         "id": "D04",
@@ -440,7 +462,8 @@
           10,
           12
         ],
-        "seo_description": "Relier une modification aux contrôles qu'elle peut affecter. Cours VOCE® D04 en accès libre, avec cas pratique et exercice corrigé."
+        "seo_description": "Définir les tests nécessaires après modification. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+        "vclf_id": "VOCE-AI-004"
       },
       {
         "id": "D10",
@@ -455,7 +478,8 @@
           10,
           12
         ],
-        "seo_description": "Vérifier une possibilité de remplacement sur le service complet. Cours VOCE® D10 en accès libre, avec cas pratique et exercice corrigé."
+        "seo_description": "Tester la réversibilité du service complet. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+        "vclf_id": "VOCE-AI-010"
       },
       {
         "id": "D09",
@@ -470,7 +494,8 @@
           10,
           12
         ],
-        "seo_description": "Identifier une capacité minimale de continuité et la vérifier dans un exercice. Cours VOCE® D09 en accès libre, avec cas pratique et exercice corrigé."
+        "seo_description": "Préparer la reprise des opérations incertaines. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+        "vclf_id": "VOCE-AI-009"
       },
       {
         "id": "D12",
@@ -485,7 +510,8 @@
           10,
           12
         ],
-        "seo_description": "Relier la batterie, la propulsion et les commandes aux questions d’évaluation d’un projet de mobilité. Cours VOCE® D12 en accès libre, avec cas pratique et exercice corrigé."
+        "seo_description": "Comparer les véhicules selon la mission. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+        "vclf_id": "VOCE-AI-012"
       },
       {
         "id": "D14",
@@ -500,7 +526,8 @@
           10,
           12
         ],
-        "seo_description": "Préparer une comparaison opérationnelle tenant compte des conditions thermiques sans poser un diagnostic technique. Cours VOCE® D14 en accès libre, avec cas pratique et exercice corrigé."
+        "seo_description": "Définir un essai de disponibilité thermique. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+        "vclf_id": "VOCE-AI-014"
       },
       {
         "id": "D08",
@@ -515,7 +542,8 @@
           10,
           12
         ],
-        "seo_description": "Concevoir une approbation qui permet un examen réel de l'action proposée. Cours VOCE® D08 en accès libre, avec cas pratique et exercice corrigé."
+        "seo_description": "Tester une supervision capable de refuser. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+        "vclf_id": "VOCE-AI-008"
       },
       {
         "id": "D13",
@@ -530,7 +558,8 @@
           10,
           12
         ],
-        "seo_description": "Définir un jeu de situations d’apprentissage et un jeu d’essai distincts pour une tâche robotique. Cours VOCE® D13 en accès libre, avec cas pratique et exercice corrigé."
+        "seo_description": "Séparer collecte et évaluation robotique. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+        "vclf_id": "VOCE-AI-013"
       },
       {
         "id": "D11",
@@ -545,7 +574,8 @@
           10,
           12
         ],
-        "seo_description": "Définir ce qui doit être vérifié avant d’utiliser une tâche robotique dans un environnement réel. Cours VOCE® D11 en accès libre, avec cas pratique et exercice corrigé."
+        "seo_description": "Séparer réussite autonome et assistée. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+        "vclf_id": "VOCE-AI-011"
       },
       {
         "id": "D15",
@@ -560,7 +590,8 @@
           10,
           12
         ],
-        "seo_description": "Identifier les conditions d’environnement à examiner avant d’élargir une tâche robotique. Cours VOCE® D15 en accès libre, avec cas pratique et exercice corrigé."
+        "seo_description": "Définir le domaine d’environnement d’un robot. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+        "vclf_id": "VOCE-AI-015"
       },
       {
         "id": "D16",
@@ -575,7 +606,8 @@
           10,
           12
         ],
-        "seo_description": "Comparer une capacité de production annoncée au volume accepté dans un cas industriel. Cours VOCE® D16 en accès libre, avec cas pratique et exercice corrigé."
+        "seo_description": "Calculer cadence conforme et rendement. Cours VOCE® en accès libre, avec exercice corrigé. Revue indépendante en attente.",
+        "vclf_id": "VOCE-AI-016"
       }
     ],
     "en": [
@@ -1062,5 +1094,13 @@
         "seo_description": "Confrontare una capacità di produzione annunciata con il volume accettato in un caso industriale. Corso VOCE® D16 ad accesso libero, con caso pratico, esercizio e soluzione commentata."
       }
     ]
+  },
+  "catalogue_scope": {
+    "type": "historical_course_translations",
+    "course_count": 16,
+    "full_french_catalogue": "https://voce.life/cours",
+    "full_registry": "https://voce.life/data/voce-vclf-public.json",
+    "full_french_module_count": 120,
+    "additional_capsules_translated": false
   }
 }

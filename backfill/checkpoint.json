@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T21:34:35.363Z",
+  "updated_at": "2026-10-18T07:40:40.883312+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -4886,6 +4886,23 @@
       "coverage_complete": false,
       "historical_conflicts_preserved": 334,
       "report": "backfill/reports/linkedin-catchup-progress-2026-10-17.json"
+    },
+    "learning_seo_consolidation_2026_10_18": {
+      "report": "backfill/reports/learning-seo-consolidation-2026-10-18.json",
+      "status": "deployed_verified",
+      "checked_at": "2026-10-18T07:40:40.883312+00:00",
+      "source_commit": "24cb186359b35a752b784be4b316f00300b8563e",
+      "corpus_items": 1712,
+      "development_noindex": 104,
+      "historical_fr_indexable": 16,
+      "sitemap_urls": 2531,
+      "live_modules_verified": 120,
+      "all_lesson_main_content_unchanged": true,
+      "google_sitemap_read_at": "2026-10-18T07:34:11.177Z",
+      "google_sitemap_errors": 0,
+      "google_sitemap_warnings": 0,
+      "daily_archive_policy_updated": true,
+      "resume": "Preserve current VCLF maturity/indexing/language policy during backfill and course regeneration. Recheck Search Console after later crawls; never infer actual indexing from sitemap or IndexNow acceptance. Promote a capsule only after an explicit editorial maturity decision."
     }
   },
   "facebook_daily_scans": {},

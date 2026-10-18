@@ -30,3 +30,7 @@ Targeted source checks for course mechanisms: NIST AI RMF, MCP authorization ver
 Submit as a draft pull request for review. No production deployment is performed by this change. Proposed production paths are recorded in the PR; they must not be reported as live before merge, deployment and HTTP/content verification.
 
 No changes to Post-SaaS implementation, LÉGIS, the standards definitions or scheduled tasks are included in this branch. The daily automation was separately re-enabled at the user's explicit request with the 30-minute active-learning requirement.
+
+## Concurrent SEO update preserved
+
+Merged main 0e16baed212c5d740a7e36b763b822b8dd295a7b. Preserved the eligibility policy, noindex on development modules, historical-course metadata, sitemap exclusions and current discovery changes. Educational updates do not promote those modules to indexed/validated status. The six new concept pages have their own sitemap entries.

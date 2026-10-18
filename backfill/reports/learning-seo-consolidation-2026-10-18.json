@@ -1,0 +1,218 @@
+{
+  "schema": "voce.learning-seo-consolidation.v1",
+  "checked_at": "2026-10-18T07:40:40.883312+00:00",
+  "status": "deployed_verified",
+  "baseline_commit": "afb0e878fc6a6ff58cbed7be131e3f882f557101",
+  "academy": {
+    "corpus_items": 1712,
+    "current_public_counter": 1712,
+    "reported_mismatch_not_reproduced": true,
+    "existing_ingestion_counter_guard_passed": true
+  },
+  "modules": {
+    "total": 120,
+    "historical_indexable_fr": 16,
+    "development_noindex_follow": 104,
+    "all_120_lesson_bodies_unchanged": true,
+    "all_permanent_urls_unchanged": true,
+    "all_existing_registry_fields_and_review_states_preserved": true,
+    "metadata_descriptions_og_twitter_explicit": true,
+    "scientific_validation_not_claimed": true
+  },
+  "languages": {
+    "fr_modules": 120,
+    "en_historical_courses": 16,
+    "it_historical_courses": 16,
+    "coverage_notices_added": true
+  },
+  "post_saas": {
+    "metadata_only": true,
+    "descriptions_characters": {
+      "en": 138,
+      "fr": 146,
+      "it": 135
+    },
+    "bodies_calculator_privacy_worker_unchanged": true
+  },
+  "sitemap": {
+    "before": 2635,
+    "after": 2531,
+    "removed_only_development_capsules": 104,
+    "no_url_deleted_from_site": true
+  },
+  "machine_discovery": {
+    "llms_expanded_registry_added": true,
+    "historical_registry_scope_explicit": true,
+    "vclf_maturity_indexing_and_languages_explicit": true
+  },
+  "preserved": [
+    "Original corpus JSON and NDJSON",
+    "Article routes",
+    "Academy HTML",
+    "RSS limited to 50 full-text entries",
+    "Worker and security/privacy controls",
+    "Lesson bodies and permanent URLs",
+    "Post-SaaS calculator and page bodies"
+  ],
+  "validation": {
+    "learning_policy_tests": 2,
+    "discovery_indexnow_tests": 8,
+    "facebook_integrity_tests": 4,
+    "post_saas_tests": 10,
+    "all_passed": true
+  },
+  "remaining": [
+    "Effective search-result inclusion or exclusion depends on the engines' later crawls and indexing decisions; sitemap acceptance is not proof of indexing.",
+    "No exhaustive broken-link or orphan-page certification across the whole site was performed.",
+    "Historic archive conflict records remain preserved; this learning SEO consolidation does not certify full historical backfill completeness."
+  ],
+  "concurrent_entrypoint_commit_preserved": "363cb9042b35ac28b010c384f858ed5c9d3aa744",
+  "deployment": {
+    "source_commit": "24cb186359b35a752b784be4b316f00300b8563e",
+    "cloudflare_build": "4bdcbd08-66c9-4a93-89c4-57edd94eab1e",
+    "outcome": "success",
+    "indexnow_workflow": {
+      "id": 39108021001,
+      "status": "completed",
+      "conclusion": "success"
+    },
+    "targeted_cache_purge": {
+      "urls": 131,
+      "batches": 7,
+      "accepted": true
+    }
+  },
+  "live_validation": {
+    "checked_at": "2026-10-18T07:35:52.992910+00:00",
+    "all_modules_pass": true,
+    "development_noindex": 104,
+    "all_drafts_absent_sitemap": true,
+    "all_historical_in_sitemap": true,
+    "sitemap_urls": 2531,
+    "sitemap_unique_urls": 2531,
+    "corpus_items": 1712,
+    "all_corpus_canonicals_in_sitemap": true,
+    "academy_counts": [
+      "1712",
+      "1712",
+      "1712",
+      "1712"
+    ],
+    "academy_matches_corpus": true,
+    "expanded_registry_in_llms": true,
+    "live_registry_maturity_present": true,
+    "rss_items": 50,
+    "post_saas": [
+      {
+        "path": "/applied/post-saas",
+        "status": 200,
+        "description_characters": 138,
+        "main_content_unchanged": true,
+        "main_content_characters": 19392
+      },
+      {
+        "path": "/fr/applied/post-saas",
+        "status": 200,
+        "description_characters": 146,
+        "main_content_unchanged": true,
+        "main_content_characters": 21128
+      },
+      {
+        "path": "/it/applied/post-saas",
+        "status": 200,
+        "description_characters": 135,
+        "main_content_unchanged": true,
+        "main_content_characters": 20576
+      }
+    ],
+    "catalogue_notices": [
+      {
+        "path": "/cours",
+        "status": 200,
+        "notice_present": true
+      },
+      {
+        "path": "/en/cours",
+        "status": 200,
+        "notice_present": true
+      },
+      {
+        "path": "/it/cours",
+        "status": 200,
+        "notice_present": true
+      }
+    ],
+    "r2": {
+      "status": "ok",
+      "owner": "VOCE Association",
+      "bucket": "voce-sovereign-corpus",
+      "private": true,
+      "synced_at": "2026-10-18T07:34:35.347Z",
+      "article_routes": 1712,
+      "corpus_items": 1712,
+      "article_routes_synced": 1712,
+      "source_snapshot_complete": true,
+      "backup_cursor": 80,
+      "backup_batch_size": 40,
+      "backup_complete": true,
+      "last_complete_sync_at": "2026-10-18T07:34:35.347Z",
+      "total_objects_target": 1835,
+      "objects_synced": 1835,
+      "derived_backup_complete": true,
+      "derived_cursor": 80,
+      "total_derived_objects": 1824,
+      "derived_objects_synced": 1824,
+      "derived_article_pages_synced": 1712,
+      "source_objects_touched_in_last_sync": 11,
+      "derived_objects_touched_in_last_sync": 40,
+      "changed_in_last_sync": 0
+    },
+    "main_verification_progress": {
+      "checked": 123,
+      "total": 123
+    },
+    "main_verified_at": "2026-10-18T07:40:40.883312+00:00",
+    "runtime_chrome_note": "Existing Worker injects navigation/footer/privacy controls and Cloudflare analytics outside main. Whole-body byte comparison is therefore inappropriate; main content compared exactly for all 120 lessons and 3 Post-SaaS pages.",
+    "all_post_saas_main_unchanged": true,
+    "module_checks": {
+      "policy_matches": 120,
+      "description_matches": 120,
+      "og_title": 120,
+      "og_description": 120,
+      "canonical_matches": 120,
+      "main_content_unchanged": 120
+    },
+    "modules_checked": 120
+  },
+  "google_search_console": {
+    "property": "sc-domain:voce.life",
+    "sitemap_submission_confirmed_in_ui_and_independent_api": true,
+    "sitemap": {
+      "path": "https://voce.life/sitemap.xml",
+      "lastSubmitted": "2026-10-18T07:34:10.074Z",
+      "isPending": false,
+      "isSitemapsIndex": false,
+      "type": "sitemap",
+      "lastDownloaded": "2026-10-18T07:34:11.177Z",
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "2531",
+          "indexed": "0"
+        }
+      ]
+    },
+    "indexation_not_measured_by_sitemap_submission": true
+  },
+  "daily_archive": {
+    "automation_id": "6abb72f5e1108191961956e6e3738fea",
+    "enabled": true,
+    "time": "23:00",
+    "timezone": "Europe/Podgorica",
+    "linkedin_direct": true,
+    "selective_learning_policy_added_to_existing_prompt": true,
+    "no_new_automation": true
+  }
+}

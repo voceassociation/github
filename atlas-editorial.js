@@ -1,5 +1,5 @@
 // Editorial presentation is dated separately from the underlying graph.
-export const ATLAS_PRESENTATION_UPDATED_AT = '2026-10-16';
+export const ATLAS_PRESENTATION_UPDATED_AT = '2026-10-18';
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const root = lang => lang === 'en' ? '/atlas' : `/${lang}/atlas`;
 const label = (node, lang) => node?.i18n?.[lang]?.label || node?.label || '';
@@ -7,13 +7,13 @@ const summary = (node, lang) => node?.i18n?.[lang]?.summary || node?.summary || 
 
 export const ATLAS_EDITORIAL_COPY = {
   fr: {
-    title:'VOCE Atlas · Sources et lecture des systèmes',
-    description:'Explorez les relations documentées entre IA, cognition, santé et culture. Parcours de lecture, sources et limites d’inférence pour préparer une revue professionnelle.',
-    kicker:'VOCE Atlas · Sources et lecture des systèmes',
-    heading:'Relier les preuves aux décisions.',
-    deck:'Une carte pour examiner les dépendances techniques, les mécanismes et leurs conséquences humaines. Chaque relation reste liée à son dossier et à ce que la preuve permet de conclure.',
-    eyebrow:'Parcours de lecture', dossiers:'Préparer une revue. Garder les sources.',
-    intro:'Choisissez une question de départ. Le parcours expose les relations documentées à examiner, sans transformer un chemin dans le graphe en démonstration causale.',
+    title:"VOCE Atlas | Voir les liens qui éclairent vos décisions.",
+    description:"Explorez les relations entre intelligence artificielle, travail, santé et culture. Atlas rassemble les connaissances VOCE dans une carte documentée: partez d’une question, suivez les liens et retrouvez les sources qui permettent d’approfondir votre réflexion.",
+    kicker:"VOCE Atlas · Cartographie des savoirs",
+    heading:"Voir les liens qui éclairent vos décisions.",
+    deck:"Explorez les relations entre intelligence artificielle, travail, santé et culture. Atlas rassemble les connaissances VOCE dans une carte documentée: partez d’une question, suivez les liens et retrouvez les sources qui permettent d’approfondir votre réflexion.",
+    eyebrow:'Parcours de lecture', dossiers:"Une question. Un parcours pour l’examiner.",
+    intro:"Choisir un système d’IA, comprendre son pouvoir d’action, examiner les effets sur le travail ou la perception du luxe: choisissez votre point de départ. Chaque parcours donne accès aux relations documentées et à leurs sources.",
     open:'Examiner le parcours →',
     paths:[
       ['procurement','permissions','Gouvernance et achat d’IA','Du choix d’un système à ses autorisations: quels éléments demander au fournisseur, puis vérifier dans le déploiement ?'],
@@ -34,12 +34,12 @@ export const ATLAS_EDITORIAL_COPY = {
     }
   },
   en: {
-    title:'VOCE Atlas · Evidence and systems',
-    description:'Explore documented relationships across AI, cognition, health and culture. Reading paths, sources and inference boundaries for professional review.',
-    kicker:'VOCE Atlas · Evidence and systems', heading:'Connect evidence to decisions.',
-    deck:'A map for examining technical dependencies, mechanisms and human consequences. Every relation remains attached to its record and to what the evidence supports.',
-    eyebrow:'Reading paths', dossiers:'Prepare a review. Keep the sources.',
-    intro:'Choose a starting question. Each path exposes documented relations to examine; a route through the graph does not establish causality.', open:'Examine the path →',
+    title:"VOCE Atlas | See the connections behind your decisions.",
+    description:"Explore the relationships between artificial intelligence, work, health and culture. Atlas brings VOCE knowledge into a documented map: start with a question, follow the connections and return to the sources that deepen your understanding.",
+    kicker:"VOCE Atlas · Mapping knowledge", heading:"See the connections behind your decisions.",
+    deck:"Explore the relationships between artificial intelligence, work, health and culture. Atlas brings VOCE knowledge into a documented map: start with a question, follow the connections and return to the sources that deepen your understanding.",
+    eyebrow:'Reading paths', dossiers:"A question. A path to explore it.",
+    intro:"Choose an AI system, understand its authority, examine effects on work or the perception of luxury: select your starting point. Each path opens documented relationships and their sources.", open:'Examine the path →',
     paths:[
       ['procurement','permissions','AI governance and procurement','From choosing a system to its permissions: what should a supplier document, and what should the deployment demonstrate?'],
       ['agents','identity','Identity and action','Which documented relation connects an agent to its technical identity? Identify the dependency before examining the controls.'],
@@ -59,12 +59,12 @@ export const ATLAS_EDITORIAL_COPY = {
     }
   },
   it: {
-    title:'VOCE Atlas · Fonti e lettura dei sistemi',
-    description:'Esplora relazioni documentate tra IA, cognizione, salute e cultura. Percorsi di lettura, fonti e limiti di inferenza per una revisione professionale.',
-    kicker:'VOCE Atlas · Fonti e lettura dei sistemi', heading:'Collegare le prove alle decisioni.',
-    deck:'Una mappa per esaminare dipendenze tecniche, meccanismi e conseguenze umane. Ogni relazione resta collegata al suo dossier e a ciò che le prove consentono di concludere.',
-    eyebrow:'Percorsi di lettura', dossiers:'Preparare una revisione. Conservare le fonti.',
-    intro:'Scegli una domanda iniziale. Il percorso espone le relazioni documentate da esaminare; un cammino nel grafo non dimostra causalità.', open:'Esamina il percorso →',
+    title:"VOCE Atlas | Vedere i legami che illuminano le vostre decisioni.",
+    description:"Esplorate le relazioni tra intelligenza artificiale, lavoro, salute e cultura. Atlas riunisce i saperi VOCE in una mappa documentata: partite da una domanda, seguite i collegamenti e ritrovate le fonti per approfondire la riflessione.",
+    kicker:"VOCE Atlas · Cartografia dei saperi", heading:"Vedere i legami che illuminano le vostre decisioni.",
+    deck:"Esplorate le relazioni tra intelligenza artificiale, lavoro, salute e cultura. Atlas riunisce i saperi VOCE in una mappa documentata: partite da una domanda, seguite i collegamenti e ritrovate le fonti per approfondire la riflessione.",
+    eyebrow:'Percorsi di lettura', dossiers:"Una domanda. Un percorso per esaminarla.",
+    intro:"Scegliere un sistema IA, comprenderne il potere d’azione, esaminare gli effetti sul lavoro o sulla percezione del lusso: scegliete il punto di partenza. Ogni percorso apre relazioni documentate e le relative fonti.", open:'Esamina il percorso →',
     paths:[
       ['procurement','permissions','Governance e acquisto di IA','Dalla scelta di un sistema alle sue autorizzazioni: cosa deve documentare il fornitore e cosa deve dimostrare l’implementazione?'],
       ['agents','identity','Identità e capacità di azione','Quale relazione documentata collega un agente alla sua identità tecnica? Individuare la dipendenza prima di esaminare i controlli.'],
