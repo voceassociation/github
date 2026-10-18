@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "VOCE-AI-001",
+    "url": "https://voce.life/cours/modele-et-systeme",
+    "words_rendered": 1600,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "c754784e48f3ed9c90fd5d93b448678af2f54b86acd6015cf143c03577224119"
+  },
+  {
+    "id": "VOCE-AI-002",
+    "url": "https://voce.life/cours/permissions-agent",
+    "words_rendered": 1571,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "16ca5865c20d8e5801d7002015cde93ac41fe20314db741fa16df7d9cff4ec03"
+  },
+  {
+    "id": "VOCE-AI-003",
+    "url": "https://voce.life/cours/preuves-controle",
+    "words_rendered": 1565,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "f5ae358aeb8686a8e48edbc5fcb2f9b86b213366989913a3cb44247b4e78ed6b"
+  },
+  {
+    "id": "VOCE-AI-004",
+    "url": "https://voce.life/cours/reevaluer-agent",
+    "words_rendered": 1557,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "1ba150d234b13c15156cd716e6c806370857aa93988bddb6ffc769dd91c6a1fc"
+  },
+  {
+    "id": "VOCE-AI-005",
+    "url": "https://voce.life/cours/cout-tache-terminee",
+    "words_rendered": 1591,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "b9b8745525327473bab3c4ab6da505b735bbe7a7aba62d6a0667dcfdae5cbe37"
+  },
+  {
+    "id": "VOCE-AI-006",
+    "url": "https://voce.life/cours/former-les-juniors",
+    "words_rendered": 1642,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "3a26deb532ff2a0cb2d1095a61d988b7ebd2dd917f01e789b668a5b33da88ccb"
+  },
+  {
+    "id": "VOCE-AI-007",
+    "url": "https://voce.life/cours/quand-utiliser-assistance",
+    "words_rendered": 1627,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "e5879879fa70dac13ec4cac6050f6f0c23155ad1841bd0d29a7363bcc7cb786a"
+  },
+  {
+    "id": "VOCE-AI-008",
+    "url": "https://voce.life/cours/supervision-humaine",
+    "words_rendered": 1539,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "fed37fc1ffe1f1bf81fa974423c8de4814d9c7783a884668802ae9ae729d28e5"
+  },
+  {
+    "id": "VOCE-AI-009",
+    "url": "https://voce.life/cours/reprendre-sans-outil",
+    "words_rendered": 1559,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "3156bd1b243d45bd8a7b186e1a5aad8b597f6480ef66fd5735aab43a6ef78021"
+  },
+  {
+    "id": "VOCE-AI-010",
+    "url": "https://voce.life/cours/remplacer-fournisseur",
+    "words_rendered": 1530,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "858a28e84eccfe7a6f0fa7fb78fd00ff08122e1afb46f978dbdb80ec7aa869f8"
+  },
+  {
+    "id": "VOCE-AI-011",
+    "url": "https://voce.life/cours/tsinghua-agibot-robot-production",
+    "words_rendered": 1560,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "d2180ee907acd3f46cefce7512073f067465c60246637842a998778e74643a75"
+  },
+  {
+    "id": "VOCE-AI-012",
+    "url": "https://voce.life/cours/shanghai-jiao-tong-architecture-electrique",
+    "words_rendered": 1574,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "714ded40bfba9b851c41b7a87cd685c45f723da64c969812eb0c5ce14e24dff4"
+  },
+  {
+    "id": "VOCE-AI-013",
+    "url": "https://voce.life/cours/tsinghua-agibot-donnees-robot",
+    "words_rendered": 1546,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "ff6b53b9d2cecdd8b5701b60760ea8a91ab38b35fe5b236f9bf2ad44ff717150"
+  },
+  {
+    "id": "VOCE-AI-014",
+    "url": "https://voce.life/cours/shanghai-jiao-tong-gestion-thermique",
+    "words_rendered": 1579,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "39c44a6b3f38eaccfe0de32b5e066428dbc12caf609b56068b1d59feebfa1740"
+  },
+  {
+    "id": "VOCE-AI-015",
+    "url": "https://voce.life/cours/tsinghua-icenter-environnement-robot",
+    "words_rendered": 1557,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "74e49b46dcc470e2d3d0170721cea1a3ce3db804758ae3b85d8afb21654743d5"
+  },
+  {
+    "id": "VOCE-AI-016",
+    "url": "https://voce.life/cours/tsinghua-materiaux-production-conforme",
+    "words_rendered": 1574,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "0f0b9bfa592ccba931e9dfac2991faa5a075aa34322ed0868246301284e64aa4"
+  },
+  {
+    "id": "VOCE-AI-017",
+    "url": "https://voce.life/cours/voce-ai-017",
+    "words_rendered": 1307,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "10f23b766cf11ea2e3e63d05e3a827885b128dc40c84d4bc13fc984c72f607f6"
+  },
+  {
+    "id": "VOCE-AI-018",
+    "url": "https://voce.life/cours/voce-ai-018",
+    "words_rendered": 1276,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "ac28a7aafc9c814c1e5caedfec76b961aad4a19d7ddee12052cd1f0ac51a00da"
+  },
+  {
+    "id": "VOCE-AI-019",
+    "url": "https://voce.life/cours/voce-ai-019",
+    "words_rendered": 1284,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "ce2c4c3b4946875266a744d3c19e500c8986f57a5b3ba85447327cd709ac06ae"
+  },
+  {
+    "id": "VOCE-AI-020",
+    "url": "https://voce.life/cours/voce-ai-020",
+    "words_rendered": 1300,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "3b29ed4fefb28bed17d72952076f924a9f4e367da1b01b6ca8329213dcbd961e"
+  },
+  {
+    "id": "VOCE-AI-021",
+    "url": "https://voce.life/cours/voce-ai-021",
+    "words_rendered": 1256,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "78198681e074b78960631130fef7567c1f0e80cfceb3016f8791253a6cbee03d"
+  },
+  {
+    "id": "VOCE-AI-022",
+    "url": "https://voce.life/cours/voce-ai-022",
+    "words_rendered": 1248,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "84717c82469998c9caa546376b77dd1c4058bd81375231704132fe6a1fe41034"
+  },
+  {
+    "id": "VOCE-AI-023",
+    "url": "https://voce.life/cours/voce-ai-023",
+    "words_rendered": 1269,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "6cc135861a44002ddd652ebfa44b1c7034dbc42120396b3e872b16f096738457"
+  },
+  {
+    "id": "VOCE-AI-024",
+    "url": "https://voce.life/cours/voce-ai-024",
+    "words_rendered": 1289,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "0f0b3c77c301b7ebc1cbdc47393979073e9b8a1acab0398db32e38e6907d415a"
+  },
+  {
+    "id": "VOCE-AI-025",
+    "url": "https://voce.life/cours/voce-ai-025",
+    "words_rendered": 1302,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "06fa95c17c27988d7a4005bbd4294d7b31790ae117c63e4b252505c8b6535c92"
+  },
+  {
+    "id": "VOCE-AI-026",
+    "url": "https://voce.life/cours/voce-ai-026",
+    "words_rendered": 1293,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "1b94c3d4c269f0d33096ae8485dbd25f1d2ccb0030e56349d8e795417014dfa1"
+  },
+  {
+    "id": "VOCE-AI-027",
+    "url": "https://voce.life/cours/voce-ai-027",
+    "words_rendered": 1260,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "528858df38594fc0e8b8825e956b1de5dc859643073f00ee61e9e4222f359840"
+  },
+  {
+    "id": "VOCE-AI-028",
+    "url": "https://voce.life/cours/voce-ai-028",
+    "words_rendered": 1246,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "ae8f36f0312de9d584ae1da48a352850fa290b7da31554ffc16156b28af3939a"
+  },
+  {
+    "id": "VOCE-AI-029",
+    "url": "https://voce.life/cours/voce-ai-029",
+    "words_rendered": 1307,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "9a13f6338a92bc8e178f00931a54f61908928f4117ba53da24dc9dfe661c7a04"
+  },
+  {
+    "id": "VOCE-AI-030",
+    "url": "https://voce.life/cours/voce-ai-030",
+    "words_rendered": 1261,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "076b6d444509f64804226d05d721e971b6262afdc07ba5e6f8643c078ba5e0c4"
+  },
+  {
+    "id": "VOCE-AI-031",
+    "url": "https://voce.life/cours/voce-ai-031",
+    "words_rendered": 1247,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "d8618c380f4e41bba830dffeb21fa7d52f7920ea5f729de498ea8f456aca6068"
+  },
+  {
+    "id": "VOCE-AI-032",
+    "url": "https://voce.life/cours/voce-ai-032",
+    "words_rendered": 1238,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "ec9977b28cb66ec64e173102585941b7a4be09c495011e3f2f00b66e3b4537e1"
+  },
+  {
+    "id": "VOCE-AI-033",
+    "url": "https://voce.life/cours/voce-ai-033",
+    "words_rendered": 1300,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "0bd8f6b19eaca82f2e754daadf67a1d1d95793f032dd8d3625367e3c8535e8ef"
+  },
+  {
+    "id": "VOCE-AI-034",
+    "url": "https://voce.life/cours/voce-ai-034",
+    "words_rendered": 1267,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "0decef54697d9e6049bad6272ae98e0189fa24472afc70e1613d86eee86b7b76"
+  },
+  {
+    "id": "VOCE-AI-035",
+    "url": "https://voce.life/cours/voce-ai-035",
+    "words_rendered": 1254,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "4492bffb6422c35025d7dd8f77faa1e0e32bf152d22cbecc4c62b7c1200ba4fe"
+  },
+  {
+    "id": "VOCE-AI-036",
+    "url": "https://voce.life/cours/voce-ai-036",
+    "words_rendered": 1263,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "d49dc2f993ce3232bf1bc8585defcec1a74dd2215e5118625a72e0a7c3923853"
+  },
+  {
+    "id": "VOCE-AI-037",
+    "url": "https://voce.life/cours/voce-ai-037",
+    "words_rendered": 1245,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "8ac9cc9ed6cacce982c849f31665ffd6c0405fb32b3df651636d69df4264017a"
+  },
+  {
+    "id": "VOCE-AI-038",
+    "url": "https://voce.life/cours/voce-ai-038",
+    "words_rendered": 1332,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "a90b242dc8e6aeda52e705323870ac61d082ceafc9897fd685298cd3b503cdef"
+  },
+  {
+    "id": "VOCE-AI-039",
+    "url": "https://voce.life/cours/voce-ai-039",
+    "words_rendered": 1307,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "db6bc46e7a15318c868eb04e36c4dae28c5568519bea9244fc524a4b065e2db7"
+  },
+  {
+    "id": "VOCE-AI-040",
+    "url": "https://voce.life/cours/voce-ai-040",
+    "words_rendered": 1264,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "0ac5810f04290391956a4c6b9c4ad8fb308452a12851bc2b1d4f5233d0032c3f"
+  },
+  {
+    "id": "VOCE-AI-041",
+    "url": "https://voce.life/cours/voce-ai-041",
+    "words_rendered": 1255,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "da6218967aa75e31593bd93ab71d6fb706de06ae3b9014112817892aa953c52d"
+  },
+  {
+    "id": "VOCE-AI-042",
+    "url": "https://voce.life/cours/voce-ai-042",
+    "words_rendered": 1264,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "8ac983c5d0ef9380b76f3c5f0c6bd2c396c2e204b3d5c49dec15bcb533749265"
+  },
+  {
+    "id": "VOCE-AI-043",
+    "url": "https://voce.life/cours/voce-ai-043",
+    "words_rendered": 1243,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "78fa53c692bf4619ebe24bde62d3865878c4d4a38996c60c54370f36876e9627"
+  },
+  {
+    "id": "VOCE-AI-044",
+    "url": "https://voce.life/cours/voce-ai-044",
+    "words_rendered": 1303,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "cde6f4dc68d7feffb0e2a4850337adf2bb7707d60567d48117d0bc791897e9c6"
+  },
+  {
+    "id": "VOCE-AI-045",
+    "url": "https://voce.life/cours/voce-ai-045",
+    "words_rendered": 1254,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "46515a12cf2c8e0bc1364839f4e32c7306060a66e78c9ec1a131417af4998827"
+  },
+  {
+    "id": "VOCE-AI-046",
+    "url": "https://voce.life/cours/voce-ai-046",
+    "words_rendered": 1280,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "64f5695e22fb6bf29659709e61fd40a0d69eda69a9c465031c6706bd0ea5782f"
+  },
+  {
+    "id": "VOCE-AI-047",
+    "url": "https://voce.life/cours/voce-ai-047",
+    "words_rendered": 1298,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "405ad5ee75e23b1a8056a89adaf987da5b0dde6126e835d70a54b52f9087076c"
+  },
+  {
+    "id": "VOCE-AI-048",
+    "url": "https://voce.life/cours/voce-ai-048",
+    "words_rendered": 1282,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "f9c3c87bbff72bfb86ab2fe4970cf1be94351770a7acb4d728b35cd5c80ee365"
+  },
+  {
+    "id": "VOCE-AI-049",
+    "url": "https://voce.life/cours/voce-ai-049",
+    "words_rendered": 1273,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "821ba8096ba3fc518fa3e8507ac3e7b51bdbddf70c76a716ffd9d0c4fc9b57dc"
+  },
+  {
+    "id": "VOCE-AI-050",
+    "url": "https://voce.life/cours/voce-ai-050",
+    "words_rendered": 1260,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "1aa5aeb2d69879f9b6b2e6fb7c5ad1a78b1fd51addae59ace7144def226701fd"
+  },
+  {
+    "id": "VOCE-AI-051",
+    "url": "https://voce.life/cours/voce-ai-051",
+    "words_rendered": 1280,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "a1c52afe6897830e3c95fa31c350050721ed34330bdceee03a3a8961cdbcf18f"
+  },
+  {
+    "id": "VOCE-AI-052",
+    "url": "https://voce.life/cours/voce-ai-052",
+    "words_rendered": 1320,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "9f4536806fa3f721283c1608180e3aeb4feb59a2edb75a71ecd042779469dc86"
+  },
+  {
+    "id": "VOCE-AI-053",
+    "url": "https://voce.life/cours/voce-ai-053",
+    "words_rendered": 1245,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "aedf6c0efca514862ed02f3687c03242955b18d0f99b3b8c2015654233cf08d0"
+  },
+  {
+    "id": "VOCE-AI-054",
+    "url": "https://voce.life/cours/voce-ai-054",
+    "words_rendered": 1269,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "7edaf245734890a11183395351636dc9ddabc1fb86669db3a63871a21de1f807"
+  },
+  {
+    "id": "VOCE-AI-055",
+    "url": "https://voce.life/cours/voce-ai-055",
+    "words_rendered": 1245,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "fccd0e173ca2f7126fd71a07fd29e6f3a7e85c225bdd91473d8d768fecae4348"
+  },
+  {
+    "id": "VOCE-AI-056",
+    "url": "https://voce.life/cours/voce-ai-056",
+    "words_rendered": 1243,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "e05b45e98d0b7c9ee74d25745078bdd804e8a3632fde8897a262fdd03e9bcb28"
+  },
+  {
+    "id": "VOCE-AI-057",
+    "url": "https://voce.life/cours/voce-ai-057",
+    "words_rendered": 1248,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "60b8db5fec43ebcea59a7ec8b39edccc3c8a16a27c00186eb4d4eefef6ab6728"
+  },
+  {
+    "id": "VOCE-AI-058",
+    "url": "https://voce.life/cours/voce-ai-058",
+    "words_rendered": 1318,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "11c2c95e952e5271c9aa68faed11679a64ab74087cab6fadbec32fde93ee6221"
+  },
+  {
+    "id": "VOCE-AI-059",
+    "url": "https://voce.life/cours/voce-ai-059",
+    "words_rendered": 1307,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "d934ab576e48c8297768b39ebac6b391924b7553e9093f547c8a4cf577b42e31"
+  },
+  {
+    "id": "VOCE-AI-060",
+    "url": "https://voce.life/cours/voce-ai-060",
+    "words_rendered": 1321,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "e97a2b0b1d57ca0a73f9dc2081609ec4ab4e5886e8d5df1259dd0ab463ba83be"
+  },
+  {
+    "id": "VOCE-ART-001",
+    "url": "https://voce.life/cours/voce-art-001",
+    "words_rendered": 1284,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "a93a6b515556d4d3853ed369311d09dbfc6685e7a12a6cef0fcaa8a4aa5e991a"
+  },
+  {
+    "id": "VOCE-ART-002",
+    "url": "https://voce.life/cours/voce-art-002",
+    "words_rendered": 1250,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "920cf3ac39b5de84048fd4338e813204788a34d59bc77f15f11ff2f1b811c41b"
+  },
+  {
+    "id": "VOCE-ART-003",
+    "url": "https://voce.life/cours/voce-art-003",
+    "words_rendered": 1265,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "0ccfd123aaf34a8ee635ad6c67c73af55c7796bdc0bf9e2f887f7150de360a00"
+  },
+  {
+    "id": "VOCE-ART-004",
+    "url": "https://voce.life/cours/voce-art-004",
+    "words_rendered": 1236,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "e4e8ba540a6d4c6ea606a78774cbee25d4bcf49ea1eb7261a53f58eb57e6eb7c"
+  },
+  {
+    "id": "VOCE-ART-005",
+    "url": "https://voce.life/cours/voce-art-005",
+    "words_rendered": 1246,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "2706dc2152176d3be0595c21e2565002bfc06d6c9345cc6d1198c4a8e94b36fa"
+  },
+  {
+    "id": "VOCE-ART-006",
+    "url": "https://voce.life/cours/voce-art-006",
+    "words_rendered": 1241,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "b8b65c7188d48d47fab7aff1879f3195b6485c51d9904227774e7d6f81d9da3f"
+  },
+  {
+    "id": "VOCE-ART-007",
+    "url": "https://voce.life/cours/voce-art-007",
+    "words_rendered": 1244,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "c5b622db942aa6a74f6113f6d0e8763b319a3015872f9d0865b42336c39744f4"
+  },
+  {
+    "id": "VOCE-ART-008",
+    "url": "https://voce.life/cours/voce-art-008",
+    "words_rendered": 1237,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "d6db60e389b4ba14f0c39ba9138ee624db8b04ea8211a00290970779f7075b83"
+  },
+  {
+    "id": "VOCE-ART-009",
+    "url": "https://voce.life/cours/voce-art-009",
+    "words_rendered": 1295,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "210c27b6180144474ec22a2c5a5899110703bb5116821951376aa3b602c239d6"
+  },
+  {
+    "id": "VOCE-ART-010",
+    "url": "https://voce.life/cours/voce-art-010",
+    "words_rendered": 1241,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "4863d792884210feca23535cd425b0c5a17cab416e50036bf55523141555909d"
+  },
+  {
+    "id": "VOCE-ART-011",
+    "url": "https://voce.life/cours/voce-art-011",
+    "words_rendered": 1234,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "98960bb59997cc5e770a125ea71a98d37d1f911bfb75106a61ee985434828af1"
+  },
+  {
+    "id": "VOCE-ART-012",
+    "url": "https://voce.life/cours/voce-art-012",
+    "words_rendered": 1273,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "98a23192c78b8c1331ccd734a3e4bde9c4d4575e5768a035e994f16ec72a029c"
+  },
+  {
+    "id": "VOCE-ART-013",
+    "url": "https://voce.life/cours/voce-art-013",
+    "words_rendered": 1258,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "8f839d668da5c1b8dc4ae357fedb7ff63b52a9c4a6779f2b14074b3ecdbeb721"
+  },
+  {
+    "id": "VOCE-ART-014",
+    "url": "https://voce.life/cours/voce-art-014",
+    "words_rendered": 1236,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "6a239a0dca90a0c76db4d3ebea82ebd3c459a4b8dbb62f081460ebf6c332ce27"
+  },
+  {
+    "id": "VOCE-ART-015",
+    "url": "https://voce.life/cours/voce-art-015",
+    "words_rendered": 1238,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "04038498c6cadd6cf0b34ae5c222e4987e2610483ed2a096e3efd9b4a77e81e2"
+  },
+  {
+    "id": "VOCE-ART-016",
+    "url": "https://voce.life/cours/voce-art-016",
+    "words_rendered": 1197,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "b05b85641e1fb83a2ae807530187453db4a329504e03dcc66d21f86b8c75642b"
+  },
+  {
+    "id": "VOCE-ART-017",
+    "url": "https://voce.life/cours/voce-art-017",
+    "words_rendered": 1209,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "2225a58bace48caee8e484fec7e226834fec994f446f36e22b6aac5f8608fd11"
+  },
+  {
+    "id": "VOCE-ART-018",
+    "url": "https://voce.life/cours/voce-art-018",
+    "words_rendered": 1236,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "c44b1ca6ac74c2006495faa7c9a566626803208e7ac04515a79748c4105e13ba"
+  },
+  {
+    "id": "VOCE-ART-019",
+    "url": "https://voce.life/cours/voce-art-019",
+    "words_rendered": 1257,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "ae18020e38dce085b33f75cf867202acfdf0e2f6db2093fee4d4adecf9222d43"
+  },
+  {
+    "id": "VOCE-ART-020",
+    "url": "https://voce.life/cours/voce-art-020",
+    "words_rendered": 1232,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "9ca1d099078d1effd4f58d4f536d8df55161e6bd0450049212e764bb33fef9f8"
+  },
+  {
+    "id": "VOCE-ART-021",
+    "url": "https://voce.life/cours/voce-art-021",
+    "words_rendered": 1180,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "e1d70173b74bfe5311867f7d06caa51cb18511bf7bcb7b62a4c3f3b5f5d46ef4"
+  },
+  {
+    "id": "VOCE-ART-022",
+    "url": "https://voce.life/cours/voce-art-022",
+    "words_rendered": 1245,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "3e25348df6a1828f045370647176dc85a9ca02216a462462e3d66d2c0b525be3"
+  },
+  {
+    "id": "VOCE-ART-023",
+    "url": "https://voce.life/cours/voce-art-023",
+    "words_rendered": 1243,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "bf0044c86a6cd7b0bdaa83fec91e72641bfaa413ad68fb1528d1f634c6612f10"
+  },
+  {
+    "id": "VOCE-ART-024",
+    "url": "https://voce.life/cours/voce-art-024",
+    "words_rendered": 1253,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "56bf8a6b3ca033379f779df3df6af78aa1916da2aa970f7abd45e332d987f1cd"
+  },
+  {
+    "id": "VOCE-ART-025",
+    "url": "https://voce.life/cours/voce-art-025",
+    "words_rendered": 1280,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "286f1018041d8acadc9b43f4d5f4b900245a46e2e34864ee48641ba0f9745b62"
+  },
+  {
+    "id": "VOCE-ART-026",
+    "url": "https://voce.life/cours/voce-art-026",
+    "words_rendered": 1244,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "fe7c195a7b8bfbaf89fcc98b2f994e955cc656a77ddb9a3ae5330fda02663cb5"
+  },
+  {
+    "id": "VOCE-ART-027",
+    "url": "https://voce.life/cours/voce-art-027",
+    "words_rendered": 1244,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "0f7bb51244553de7d9fdf94984c81c9badcc9a9750e7d85a5b60492017cc8396"
+  },
+  {
+    "id": "VOCE-ART-028",
+    "url": "https://voce.life/cours/voce-art-028",
+    "words_rendered": 1254,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "44f18e15fa06775dfd3941952b567795fc6fb1b82614f80cfea623e3b1865db9"
+  },
+  {
+    "id": "VOCE-ART-029",
+    "url": "https://voce.life/cours/voce-art-029",
+    "words_rendered": 1223,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "2918a5b4f984c2d5e5c90d18c35f25cc4287b2f9fce72a078021de2094771c75"
+  },
+  {
+    "id": "VOCE-ART-030",
+    "url": "https://voce.life/cours/voce-art-030",
+    "words_rendered": 1294,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "dc4c595e9028f8d54b976c80452ae76c30c290b2f5ed73f78577103d738e4383"
+  },
+  {
+    "id": "VOCE-COG-001",
+    "url": "https://voce.life/cours/voce-cog-001",
+    "words_rendered": 1227,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "af270d1d75446831156242fc6b20ceafb6807e5d0f350f4fa3810e61f307ddd0"
+  },
+  {
+    "id": "VOCE-COG-002",
+    "url": "https://voce.life/cours/voce-cog-002",
+    "words_rendered": 1233,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "bc9c0112f60552f66fc76d9e977c1703af0da1c1ba576db5be75b95e0ae8f416"
+  },
+  {
+    "id": "VOCE-COG-003",
+    "url": "https://voce.life/cours/voce-cog-003",
+    "words_rendered": 1240,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "17484ca3db8e59b4cbb489119baa77cd9c2bb0e93c64f29abf36cc87f4a0231a"
+  },
+  {
+    "id": "VOCE-COG-004",
+    "url": "https://voce.life/cours/voce-cog-004",
+    "words_rendered": 1221,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "792170ed5055a653b78cb7c14f7c72f31229c284e698b155d0032fcd5a735bd6"
+  },
+  {
+    "id": "VOCE-COG-005",
+    "url": "https://voce.life/cours/voce-cog-005",
+    "words_rendered": 1207,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "2c867b577afa7e26492fbeab6a7fbfa2681a97a8d57dc0ef3ddc1c59928c22cb"
+  },
+  {
+    "id": "VOCE-COG-006",
+    "url": "https://voce.life/cours/voce-cog-006",
+    "words_rendered": 1223,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "bea943f2b7a056b559d4be173408e790aaeca048fc4b8c5b44e94c8487d89ea5"
+  },
+  {
+    "id": "VOCE-COG-007",
+    "url": "https://voce.life/cours/voce-cog-007",
+    "words_rendered": 1225,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "dee8d8ec0d21690faa170d88da4db352330e8098fd68d5372974f349c5495bb8"
+  },
+  {
+    "id": "VOCE-COG-008",
+    "url": "https://voce.life/cours/voce-cog-008",
+    "words_rendered": 1241,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "82baa5ad82bdf2e8678e782d904b900ef24213eb2ba16b80054bb207c4d0cabc"
+  },
+  {
+    "id": "VOCE-COG-009",
+    "url": "https://voce.life/cours/voce-cog-009",
+    "words_rendered": 1226,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "16389a836dd2bc0561097461ddc6a84a7069e21340a2d15e4174921ce15f54f2"
+  },
+  {
+    "id": "VOCE-COG-010",
+    "url": "https://voce.life/cours/voce-cog-010",
+    "words_rendered": 1266,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "bc94950ee1f6690e7fe30b21d9576b7df3151d903fd27eb01b0cf20394edac6d"
+  },
+  {
+    "id": "VOCE-COG-011",
+    "url": "https://voce.life/cours/voce-cog-011",
+    "words_rendered": 1311,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "333958063227619a73fdfcd018d6c8e93d843720e950e3992f29f679e02d97be"
+  },
+  {
+    "id": "VOCE-COG-012",
+    "url": "https://voce.life/cours/voce-cog-012",
+    "words_rendered": 1233,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "35c2d2758b112b1a51188448185ece60b27cc6199e6666934b37e01b5d3969cd"
+  },
+  {
+    "id": "VOCE-COG-013",
+    "url": "https://voce.life/cours/voce-cog-013",
+    "words_rendered": 1219,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "b66a9a2975be7250b2f3ab8d6ebf2d213e06a80a8bd1795d99a08cbf76a6712b"
+  },
+  {
+    "id": "VOCE-COG-014",
+    "url": "https://voce.life/cours/voce-cog-014",
+    "words_rendered": 1217,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "33c70cfc3a6b66d60a4cfec89baf091e8378c00170cb5e1c7e0511187617fe11"
+  },
+  {
+    "id": "VOCE-COG-015",
+    "url": "https://voce.life/cours/voce-cog-015",
+    "words_rendered": 1228,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "ac77d309cefbd6e31d94229123b8207d17aa7701b1d79a6b6b4f3c114b63d9dd"
+  },
+  {
+    "id": "VOCE-COG-016",
+    "url": "https://voce.life/cours/voce-cog-016",
+    "words_rendered": 1227,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "cd6070ad96d7d047da628244533dfb77cbeec0a0be3b25d61452fb2e8aef3d96"
+  },
+  {
+    "id": "VOCE-COG-017",
+    "url": "https://voce.life/cours/voce-cog-017",
+    "words_rendered": 1278,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "46d280586895a6621f04fb58969cc23e966adbce173a255e8cf02e8083fec561"
+  },
+  {
+    "id": "VOCE-COG-018",
+    "url": "https://voce.life/cours/voce-cog-018",
+    "words_rendered": 1289,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "8b2bab236faf1f6900d11a1fb928b75531eab88fb4bf0a8f9fb1c1923b548fc5"
+  },
+  {
+    "id": "VOCE-COG-019",
+    "url": "https://voce.life/cours/voce-cog-019",
+    "words_rendered": 1274,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "d0e331978a0af6e38376d0c566163270651c943fdd631b0f61f60cdcf55b0678"
+  },
+  {
+    "id": "VOCE-COG-020",
+    "url": "https://voce.life/cours/voce-cog-020",
+    "words_rendered": 1212,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "4854a520c25112769b94b3093ed46149099d6a9772835f67fd7483b4d7649afb"
+  },
+  {
+    "id": "VOCE-COG-021",
+    "url": "https://voce.life/cours/voce-cog-021",
+    "words_rendered": 1208,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "3ab60be9ab25d59e06cfdbe12cb280efb5ed13d41cdd66f18db5c2283a2a1657"
+  },
+  {
+    "id": "VOCE-COG-022",
+    "url": "https://voce.life/cours/voce-cog-022",
+    "words_rendered": 1244,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "3bf76d193e3c0e563724d7834d9ad9d7711f4e8c69fc0641be4b2f2a11d092f3"
+  },
+  {
+    "id": "VOCE-COG-023",
+    "url": "https://voce.life/cours/voce-cog-023",
+    "words_rendered": 1207,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "ef472742c079b50ed46a578949d4c28343d512fd32019ef48403cd8c04886b5f"
+  },
+  {
+    "id": "VOCE-COG-024",
+    "url": "https://voce.life/cours/voce-cog-024",
+    "words_rendered": 1210,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "56912c8ec0a6e2eda4a0b58bf552101ab8590be6500535408ce8b4969b2a85b4"
+  },
+  {
+    "id": "VOCE-COG-025",
+    "url": "https://voce.life/cours/voce-cog-025",
+    "words_rendered": 1208,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "33c9294c6295fb696a245448b3852fceb95ee50c2e9355c15996925aba534b1d"
+  },
+  {
+    "id": "VOCE-COG-026",
+    "url": "https://voce.life/cours/voce-cog-026",
+    "words_rendered": 1264,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "9ddcb791b7f94f28fa9480ed40a88c1f13a36d838c7b96aa5f1f3c6623646325"
+  },
+  {
+    "id": "VOCE-COG-027",
+    "url": "https://voce.life/cours/voce-cog-027",
+    "words_rendered": 1242,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "96ba23565f4e6b214a83390e219c69554b12de2d40b63dd0a1208d45b5851138"
+  },
+  {
+    "id": "VOCE-COG-028",
+    "url": "https://voce.life/cours/voce-cog-028",
+    "words_rendered": 1230,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "716d92da1a9e1bebaf8010935069a637c3e262cdc9398cd2ac32d64d0c853def"
+  },
+  {
+    "id": "VOCE-COG-029",
+    "url": "https://voce.life/cours/voce-cog-029",
+    "words_rendered": 1241,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "39d6826d3a461d837123183f9ab66eb6a56b3d2376781ec1075877e778826fc7"
+  },
+  {
+    "id": "VOCE-COG-030",
+    "url": "https://voce.life/cours/voce-cog-030",
+    "words_rendered": 1258,
+    "planned_minutes": [
+      35,
+      45
+    ],
+    "timing_validated": false,
+    "reference_review": "existing scope preserved",
+    "sha256": "3e714717d1c6b53dceabda1ffd1ca6bb424b1494af82f11f9ce7d3b1e0880e5b"
+  }
+]

@@ -143,3 +143,14 @@ Six original VOCE lessons use documented Chinese programmes as reference points.
 French: https://voce.life/cours
 English: https://voce.life/en/cours
 Italian: https://voce.life/it/cours
+
+## Education programmes in concept development
+- Virtual Faculty (EN): https://voce.life/academy/virtual-faculty
+- Virtual Faculty (FR): https://voce.life/fr/academy/virtual-faculty
+- Virtual Faculty (IT): https://voce.life/it/academy/virtual-faculty
+- Education Systems (EN): https://voce.life/applied/education-systems
+- Education Systems (FR): https://voce.life/fr/applied/education-systems
+- Education Systems (IT): https://voce.life/it/applied/education-systems
+These pages describe proposed programmes and architecture, not operational virtual teachers or awarded degrees.
+- 120-module public registry: https://voce.life/data/voce-vclf-public.json
+Learning sequences include written practical work and correction; estimated durations are not observed learner timings.
