@@ -24,7 +24,7 @@ for c in registry['courses']:
  assert c['url']==old[c['id']]['url']
  assert c['publication_status']==old[c['id']]['publication_status']
  assert c['competence_id']==old[c['id']]['competence_id']
- assert c['references']==old[c['id']]['references']
+ assert c['references']==list(dict.fromkeys(old[c['id']]['references']+json.loads((R/'content/courses/reference-additions.json').read_text())['course_additions'].get(c['id'],[])))
  p=R/(urlsplit(c['url']).path.lstrip('/')+'.html');s=p.read_text();parsed=Page(s)
  if parsed.h1!=1:errors.append((str(p),'H1'))
  if parsed.canonical!=[c['url']]:errors.append((str(p),'canonical'))
