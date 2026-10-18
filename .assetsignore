@@ -12,3 +12,4 @@ migrations
 wrangler.jsonc
 backfill
 docs
+content

@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "publication_date": "2026-10-17",
   "courses": [
     {
@@ -14,7 +14,7 @@
         "NISTGEN",
         "OWASP"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -37,7 +37,22 @@
         "fr": "https://voce.life/cours/modele-et-systeme",
         "en": "https://voce.life/en/cours/modele-et-systeme",
         "it": "https://voce.life/it/cours/modele-et-systeme"
-      }
+      },
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-001-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-002",
@@ -51,7 +66,7 @@
         "NISTGEN",
         "OWASP"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -74,7 +89,22 @@
         "fr": "https://voce.life/cours/permissions-agent",
         "en": "https://voce.life/en/cours/permissions-agent",
         "it": "https://voce.life/it/cours/permissions-agent"
-      }
+      },
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-002-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-003",
@@ -88,7 +118,7 @@
         "NISTGEN",
         "OWASP"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -111,7 +141,22 @@
         "fr": "https://voce.life/cours/preuves-controle",
         "en": "https://voce.life/en/cours/preuves-controle",
         "it": "https://voce.life/it/cours/preuves-controle"
-      }
+      },
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-003-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-004",
@@ -125,7 +170,7 @@
         "NISTGEN",
         "OWASP"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -148,7 +193,22 @@
         "fr": "https://voce.life/cours/reevaluer-agent",
         "en": "https://voce.life/en/cours/reevaluer-agent",
         "it": "https://voce.life/it/cours/reevaluer-agent"
-      }
+      },
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-004-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-005",
@@ -162,7 +222,7 @@
         "NISTGEN",
         "OWASP"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -185,7 +245,22 @@
         "fr": "https://voce.life/cours/cout-tache-terminee",
         "en": "https://voce.life/en/cours/cout-tache-terminee",
         "it": "https://voce.life/it/cours/cout-tache-terminee"
-      }
+      },
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-005-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-006",
@@ -200,7 +275,7 @@
         "UNESCOED",
         "CLASSROOM"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -223,7 +298,22 @@
         "fr": "https://voce.life/cours/former-les-juniors",
         "en": "https://voce.life/en/cours/former-les-juniors",
         "it": "https://voce.life/it/cours/former-les-juniors"
-      }
+      },
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-006-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-007",
@@ -238,7 +328,7 @@
         "UNESCOED",
         "CLASSROOM"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -261,7 +351,22 @@
         "fr": "https://voce.life/cours/quand-utiliser-assistance",
         "en": "https://voce.life/en/cours/quand-utiliser-assistance",
         "it": "https://voce.life/it/cours/quand-utiliser-assistance"
-      }
+      },
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-007-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-008",
@@ -275,7 +380,7 @@
         "AUTOBIAS",
         "OWASP"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -298,7 +403,22 @@
         "fr": "https://voce.life/cours/supervision-humaine",
         "en": "https://voce.life/en/cours/supervision-humaine",
         "it": "https://voce.life/it/cours/supervision-humaine"
-      }
+      },
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-008-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-009",
@@ -312,7 +432,7 @@
         "OFFLOAD",
         "NISTGEN"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -335,7 +455,22 @@
         "fr": "https://voce.life/cours/reprendre-sans-outil",
         "en": "https://voce.life/en/cours/reprendre-sans-outil",
         "it": "https://voce.life/it/cours/reprendre-sans-outil"
-      }
+      },
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-009-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-010",
@@ -349,7 +484,7 @@
         "NISTGEN",
         "OWASP"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -372,7 +507,22 @@
         "fr": "https://voce.life/cours/remplacer-fournisseur",
         "en": "https://voce.life/en/cours/remplacer-fournisseur",
         "it": "https://voce.life/it/cours/remplacer-fournisseur"
-      }
+      },
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-010-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-011",
@@ -385,7 +535,7 @@
         "TSINGHUA",
         "VOCEINFRA"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -408,7 +558,22 @@
         "fr": "https://voce.life/cours/tsinghua-agibot-robot-production",
         "en": "https://voce.life/en/cours/tsinghua-agibot-robot-production",
         "it": "https://voce.life/it/cours/tsinghua-agibot-robot-production"
-      }
+      },
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-011-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-012",
@@ -422,7 +587,7 @@
         "DOE",
         "VOCESOV"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -445,7 +610,22 @@
         "fr": "https://voce.life/cours/shanghai-jiao-tong-architecture-electrique",
         "en": "https://voce.life/en/cours/shanghai-jiao-tong-architecture-electrique",
         "it": "https://voce.life/it/cours/shanghai-jiao-tong-architecture-electrique"
-      }
+      },
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-012-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-013",
@@ -459,7 +639,7 @@
         "ICENTER",
         "NIST"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -482,7 +662,22 @@
         "fr": "https://voce.life/cours/tsinghua-agibot-donnees-robot",
         "en": "https://voce.life/en/cours/tsinghua-agibot-donnees-robot",
         "it": "https://voce.life/it/cours/tsinghua-agibot-donnees-robot"
-      }
+      },
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-013-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-014",
@@ -496,7 +691,7 @@
         "DOE",
         "VOCESOV"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -519,7 +714,22 @@
         "fr": "https://voce.life/cours/shanghai-jiao-tong-gestion-thermique",
         "en": "https://voce.life/en/cours/shanghai-jiao-tong-gestion-thermique",
         "it": "https://voce.life/it/cours/shanghai-jiao-tong-gestion-thermique"
-      }
+      },
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-014-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-015",
@@ -533,7 +743,7 @@
         "ICENTER",
         "NIST"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -556,7 +766,22 @@
         "fr": "https://voce.life/cours/tsinghua-icenter-environnement-robot",
         "en": "https://voce.life/en/cours/tsinghua-icenter-environnement-robot",
         "it": "https://voce.life/it/cours/tsinghua-icenter-environnement-robot"
-      }
+      },
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-015-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-016",
@@ -570,7 +795,7 @@
         "TSINGMAT",
         "FFB"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
@@ -593,7 +818,22 @@
         "fr": "https://voce.life/cours/tsinghua-materiaux-production-conforme",
         "en": "https://voce.life/en/cours/tsinghua-materiaux-production-conforme",
         "it": "https://voce.life/it/cours/tsinghua-materiaux-production-conforme"
-      }
+      },
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-016-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-017",
@@ -604,7 +844,7 @@
       "references": [
         "STANFORD"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -620,6 +860,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-017-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -631,7 +886,7 @@
       "references": [
         "TRANSFORMER"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -647,6 +902,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-018-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -658,7 +928,7 @@
       "references": [
         "FLASH"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -674,6 +944,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-019-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -685,7 +970,7 @@
       "references": [
         "LORA"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -701,6 +986,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-020-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -712,7 +1012,7 @@
       "references": [
         "DPO"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -728,6 +1028,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-021-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -739,7 +1054,7 @@
       "references": [
         "R1"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -755,6 +1070,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-022-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -766,7 +1096,7 @@
       "references": [
         "NISTGEN"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -782,6 +1112,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-023-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -793,7 +1138,7 @@
       "references": [
         "RAG"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -809,6 +1154,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-024-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -821,7 +1181,7 @@
         "RAG",
         "RGPD"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -837,6 +1197,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-025-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -849,7 +1224,7 @@
         "OWASP",
         "OWASPINJ"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -865,6 +1240,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-026-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -876,7 +1266,7 @@
       "references": [
         "MCP"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -892,6 +1282,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-027-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -903,7 +1308,7 @@
       "references": [
         "MCP"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -919,6 +1324,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-028-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -931,7 +1351,7 @@
         "NISTGEN",
         "STRIPEIDEM"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -947,6 +1367,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-029-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -958,7 +1393,7 @@
       "references": [
         "NISTGEN"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -974,6 +1409,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-030-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -985,7 +1435,7 @@
       "references": [
         "OWASP"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1001,6 +1451,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-031-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1012,7 +1477,7 @@
       "references": [
         "NISTGEN"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1028,6 +1493,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-032-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1040,7 +1520,7 @@
         "NISTGEN",
         "RGPD"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1056,6 +1536,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-033-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1067,7 +1562,7 @@
       "references": [
         "NISTGEN"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1083,6 +1578,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-034-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1094,7 +1604,7 @@
       "references": [
         "NISTGEN"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1110,6 +1620,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-035-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1121,7 +1646,7 @@
       "references": [
         "NISTGEN"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1137,6 +1662,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-036-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1148,7 +1688,7 @@
       "references": [
         "NIST"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1164,6 +1704,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-037-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1176,7 +1731,7 @@
         "AIACT",
         "AIACT26"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1192,6 +1747,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-038-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1204,7 +1774,7 @@
         "AIACT26",
         "DIGCOMP"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1220,6 +1790,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-039-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1231,7 +1816,7 @@
       "references": [
         "ISO42001"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1247,6 +1832,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-040-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1258,7 +1858,7 @@
       "references": [
         "ISO23894"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1274,6 +1874,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-041-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1285,7 +1900,7 @@
       "references": [
         "RGPD"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1301,6 +1916,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-042-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1312,7 +1942,7 @@
       "references": [
         "ISO27001"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1328,6 +1958,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-043-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1340,7 +1985,7 @@
         "NISTGEN",
         "RGPD"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1356,6 +2001,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-044-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1367,7 +2027,7 @@
       "references": [
         "NIST"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1383,6 +2043,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-045-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1394,7 +2069,7 @@
       "references": [
         "VOCE16"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1410,6 +2085,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-046-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1421,7 +2111,7 @@
       "references": [
         "VOCE16"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1437,6 +2127,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-047-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1448,7 +2153,7 @@
       "references": [
         "VOCE16"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1464,6 +2169,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-048-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1475,7 +2195,7 @@
       "references": [
         "VOCE16"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1491,6 +2211,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-049-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1502,7 +2237,7 @@
       "references": [
         "CONSORT"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1518,6 +2253,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-050-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1530,7 +2280,7 @@
         "OWASP",
         "NIST"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1546,6 +2296,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-051-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1558,7 +2323,7 @@
         "RGPD",
         "AIACT"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1574,6 +2339,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-052-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1585,7 +2365,7 @@
       "references": [
         "OWASP"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1601,6 +2381,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-053-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1612,7 +2407,7 @@
       "references": [
         "AIACT26"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1628,6 +2423,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-054-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1639,7 +2449,7 @@
       "references": [
         "TSINGHUA"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1655,6 +2465,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-055-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1666,7 +2491,7 @@
       "references": [
         "TSINGHUA"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1682,6 +2507,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-056-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1693,7 +2533,7 @@
       "references": [
         "TSINGHUA"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1709,6 +2549,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-057-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1721,7 +2576,7 @@
         "MICHIGAN",
         "VOCE16"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1737,6 +2592,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-058-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1749,7 +2619,7 @@
         "SJTU",
         "DOE"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1765,6 +2635,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-059-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1777,7 +2662,7 @@
         "NIST",
         "VOCE16"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1793,6 +2678,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-AI-060-CASE-20261018",
+      "content_source": "content/courses/ai-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1805,7 +2705,7 @@
         "GETTYVOC",
         "NGTECH"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1821,6 +2721,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-001-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1832,7 +2747,7 @@
       "references": [
         "GETTYPROV"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1848,6 +2763,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-002-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1860,7 +2790,7 @@
         "GETTYPROV",
         "GETTYVOC"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1876,6 +2806,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-003-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1887,7 +2832,7 @@
       "references": [
         "METFRAMES"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1903,6 +2848,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-004-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1914,7 +2874,7 @@
       "references": [
         "GETTYPROV"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1930,6 +2890,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-005-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1941,7 +2916,7 @@
       "references": [
         "NGTECH"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1957,6 +2932,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-006-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1968,7 +2958,7 @@
       "references": [
         "NGTECH"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -1984,6 +2974,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-007-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -1995,7 +3000,7 @@
       "references": [
         "NGTECH"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2011,6 +3016,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-008-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2023,7 +3043,7 @@
         "ICCROM",
         "NGTECH"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2039,6 +3059,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-009-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2050,7 +3085,7 @@
       "references": [
         "CCILIGHT"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2066,6 +3101,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-010-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2077,7 +3127,7 @@
       "references": [
         "CCI"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2093,6 +3143,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-011-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2105,7 +3170,7 @@
         "CCI",
         "ICCROM"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2121,6 +3186,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-012-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2133,7 +3213,7 @@
         "CCIDISS",
         "CIDOC"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2149,6 +3229,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-013-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2160,7 +3255,7 @@
       "references": [
         "CIDOC"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2176,6 +3271,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-014-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2187,7 +3297,7 @@
       "references": [
         "EDM"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2203,6 +3313,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-015-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2214,7 +3339,7 @@
       "references": [
         "GETTYVOC"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2230,6 +3355,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-016-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2241,7 +3381,7 @@
       "references": [
         "IIIF"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2257,6 +3397,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-017-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2268,7 +3423,7 @@
       "references": [
         "METOA"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2284,6 +3439,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-018-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2296,7 +3466,7 @@
         "NGTECH",
         "IIIF"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2312,6 +3482,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-019-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2324,7 +3509,7 @@
         "IIIF",
         "GETTYVOC"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2340,6 +3525,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-020-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2351,7 +3551,7 @@
       "references": [
         "GETTYVOC"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2367,6 +3567,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-021-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2379,7 +3594,7 @@
         "NGTECH",
         "GETTYPROV"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2395,6 +3610,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-022-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2407,7 +3637,7 @@
         "METFRAMES",
         "CIDOC"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2423,6 +3653,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-023-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2435,7 +3680,7 @@
         "GETTYPROV",
         "CIDOC"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2451,6 +3696,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-024-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2463,7 +3723,7 @@
         "UNESCO2003",
         "CIDOC"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2479,6 +3739,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-025-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2491,7 +3766,7 @@
         "CIDOC",
         "IIIF"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2507,6 +3782,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-026-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2519,7 +3809,7 @@
         "EDM",
         "IIIF"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2535,6 +3825,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-027-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2547,7 +3852,7 @@
         "CIDOC",
         "NISTGEN"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2563,6 +3868,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-028-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2574,7 +3894,7 @@
       "references": [
         "UNESCO"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2590,6 +3910,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-029-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2603,7 +3938,7 @@
         "GETTYPROV",
         "METOA"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2619,6 +3954,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-ART-030-CASE-20261018",
+      "content_source": "content/courses/art-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2630,7 +3980,7 @@
       "references": [
         "STROBE"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2646,6 +3996,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-001-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2657,7 +4022,7 @@
       "references": [
         "COCHRANE"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2673,6 +4038,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-002-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2684,7 +4064,7 @@
       "references": [
         "POWER"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2700,6 +4080,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-003-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2711,7 +4106,7 @@
       "references": [
         "COS"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2727,6 +4122,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-004-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2738,7 +4148,7 @@
       "references": [
         "COS"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2754,6 +4164,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-005-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2765,7 +4190,7 @@
       "references": [
         "PRISMA"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2781,6 +4206,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-006-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2792,7 +4232,7 @@
       "references": [
         "COCHRANE"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2808,6 +4248,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-007-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2819,7 +4274,7 @@
       "references": [
         "REVERSE"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2835,6 +4290,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-008-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2846,7 +4316,7 @@
       "references": [
         "BWAS"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2862,6 +4332,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-009-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2874,7 +4359,7 @@
         "MITPSY",
         "CONSORT"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2890,6 +4375,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-010-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2902,7 +4402,7 @@
         "RETRIEVAL",
         "VOCE16"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2918,6 +4418,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-011-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2929,7 +4444,7 @@
       "references": [
         "SPACING"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2945,6 +4460,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-012-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2956,7 +4486,7 @@
       "references": [
         "MITPSY"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2972,6 +4502,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-013-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -2983,7 +4528,7 @@
       "references": [
         "MITPSY"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -2999,6 +4544,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-014-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -3010,7 +4570,7 @@
       "references": [
         "MITPSY"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3026,6 +4586,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-015-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -3037,7 +4612,7 @@
       "references": [
         "OFFLOAD"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3053,6 +4628,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-016-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -3065,7 +4655,7 @@
         "OFFLOAD",
         "VOCE16"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3081,6 +4671,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-017-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -3093,7 +4698,7 @@
         "AUTOBIAS",
         "VOCE16"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3109,6 +4714,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-018-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -3121,7 +4741,7 @@
         "VOCE16",
         "RETRIEVAL"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3137,6 +4757,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-019-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -3148,7 +4783,7 @@
       "references": [
         "STROBE"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3164,6 +4799,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-020-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -3175,7 +4825,7 @@
       "references": [
         "STROBE"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3191,6 +4841,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-021-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -3203,7 +4868,7 @@
         "STROBE",
         "CONSORT"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3219,6 +4884,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-022-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -3230,7 +4910,7 @@
       "references": [
         "STROBE"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3246,6 +4926,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-023-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -3257,7 +4952,7 @@
       "references": [
         "STROBE"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3273,6 +4968,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-024-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -3284,7 +4994,7 @@
       "references": [
         "COCHRANE"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3300,6 +5010,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-025-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -3312,7 +5037,7 @@
         "STROBE",
         "MITPSY"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3328,6 +5053,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-026-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -3340,7 +5080,7 @@
         "RGPD",
         "FAIR"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3356,6 +5096,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-027-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -3368,7 +5123,7 @@
         "FAIR",
         "COS"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3384,6 +5139,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-028-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -3396,7 +5166,7 @@
         "CONSORT",
         "COCHRANE"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3412,6 +5182,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-029-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     },
     {
@@ -3424,7 +5209,7 @@
         "VOCE16",
         "CONSORT"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "review_status": "REVUE_IA_EFFECTUEE / EXPERT_INDEPENDANT_NON_VALIDE",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
@@ -3440,6 +5225,21 @@
       },
       "available_languages": [
         "fr"
+      ],
+      "date_modified": "2026-10-18",
+      "planned_learning_minutes": {
+        "min": 35,
+        "max": 45,
+        "basis": "Learning design estimate, not observed duration; includes written work and correction"
+      },
+      "assessment_id": "VOCE-COG-030-CASE-20261018",
+      "content_source": "content/courses/cog-workshops.txt",
+      "history": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-18",
+          "change": "Professional case, transfer task, explicit deliverable and formative rubric; stable URL and status"
+        }
       ]
     }
   ],
@@ -5261,5 +7061,6 @@
     "indexable_historical_courses": 16,
     "development_capsules_noindex": 104,
     "description": "Development capsules remain accessible but are excluded from search until editorial completion. Independent scientific validation is a separate, unverified status."
-  }
+  },
+  "revision_date": "2026-10-18"
 }
