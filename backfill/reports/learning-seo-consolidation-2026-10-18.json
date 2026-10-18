@@ -1,0 +1,69 @@
+{
+  "schema": "voce.learning-seo-consolidation.v1",
+  "checked_at": "2026-10-18T07:30:17.539727+00:00",
+  "status": "tested_pending_deployment",
+  "baseline_commit": "afb0e878fc6a6ff58cbed7be131e3f882f557101",
+  "academy": {
+    "corpus_items": 1712,
+    "current_public_counter": 1712,
+    "reported_mismatch_not_reproduced": true,
+    "existing_ingestion_counter_guard_passed": true
+  },
+  "modules": {
+    "total": 120,
+    "historical_indexable_fr": 16,
+    "development_noindex_follow": 104,
+    "all_120_lesson_bodies_unchanged": true,
+    "all_permanent_urls_unchanged": true,
+    "all_existing_registry_fields_and_review_states_preserved": true,
+    "metadata_descriptions_og_twitter_explicit": true,
+    "scientific_validation_not_claimed": true
+  },
+  "languages": {
+    "fr_modules": 120,
+    "en_historical_courses": 16,
+    "it_historical_courses": 16,
+    "coverage_notices_added": true
+  },
+  "post_saas": {
+    "metadata_only": true,
+    "descriptions_characters": {
+      "en": 138,
+      "fr": 146,
+      "it": 135
+    },
+    "bodies_calculator_privacy_worker_unchanged": true
+  },
+  "sitemap": {
+    "before": 2635,
+    "after": 2531,
+    "removed_only_development_capsules": 104,
+    "no_url_deleted_from_site": true
+  },
+  "machine_discovery": {
+    "llms_expanded_registry_added": true,
+    "historical_registry_scope_explicit": true,
+    "vclf_maturity_indexing_and_languages_explicit": true
+  },
+  "preserved": [
+    "Original corpus JSON and NDJSON",
+    "Article routes",
+    "Academy HTML",
+    "RSS limited to 50 full-text entries",
+    "Worker and security/privacy controls",
+    "Lesson bodies and permanent URLs",
+    "Post-SaaS calculator and page bodies"
+  ],
+  "validation": {
+    "learning_policy_tests": 2,
+    "discovery_indexnow_tests": 8,
+    "facebook_integrity_tests": 4,
+    "post_saas_tests": 10,
+    "all_passed": true
+  },
+  "remaining": [
+    "Verify deployment, live capsule noindex and course metadata, sitemap and R2.",
+    "Google effective indexation/removal depends on a later crawl; no instant indexing claim."
+  ],
+  "concurrent_entrypoint_commit_preserved": "363cb9042b35ac28b010c384f858ed5c9d3aa744"
+}

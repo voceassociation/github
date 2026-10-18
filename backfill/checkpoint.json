@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T21:34:35.363Z",
+  "updated_at": "2026-10-18T07:30:17.539727+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -4886,6 +4886,14 @@
       "coverage_complete": false,
       "historical_conflicts_preserved": 334,
       "report": "backfill/reports/linkedin-catchup-progress-2026-10-17.json"
+    },
+    "learning_seo_consolidation_2026_10_18": {
+      "report": "backfill/reports/learning-seo-consolidation-2026-10-18.json",
+      "status": "tested_pending_deployment",
+      "corpus_items": 1712,
+      "development_noindex": 104,
+      "sitemap_urls": 2531,
+      "resume": "Verify deployed learning metadata and indexing policy; preserve original lessons and permanent URLs."
     }
   },
   "facebook_daily_scans": {},

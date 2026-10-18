@@ -143,3 +143,10 @@ Six original VOCE lessons use documented Chinese programmes as reference points.
 French: https://voce.life/cours
 English: https://voce.life/en/cours
 Italian: https://voce.life/it/cours
+
+## VCLF expanded learning registry and maturity
+
+Full French catalogue: https://voce.life/cours
+Full public learning registry: https://voce.life/data/voce-vclf-public.json
+Historical translations registry (16 courses, not the full catalogue): https://voce.life/data/voce-courses.json
+The French catalogue contains 120 resources: 16 historical written courses and 104 introductory capsules in development. English and Italian currently cover the 16 historical courses. Development capsules remain accessible at permanent URLs with noindex,follow and are excluded from the search sitemap until editorial completion. Read resource_type, indexing_policy and available_languages in the registry. Independent expert/scientific validation and educational pilots are not established; no certification or university partnership is implied.
