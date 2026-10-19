@@ -263,14 +263,14 @@ function injectPrivacyDefault(response) {
     })
     .on("body", {
       element(element) {
-        coursesHeader = (element.getAttribute("class") || "").split(/\\s+/).includes("voce-courses");
+        coursesHeader = (element.getAttribute("class") || "").split(/\s+/).includes("voce-courses");
       }
     })
     .on("header nav.menu > a", {
       element(element) {
         const href = element.getAttribute("href") || "";
         const names = courseHeaderLabels[headerLanguage] || courseHeaderLabels.en;
-        if (/\\/cours$/.test(href)) {
+        if (/\/cours$/.test(href)) {
           headerHasCoursesLink = true;
           if (coursesHeader) element.setInnerContent("COURS VOCE®");
         }
@@ -281,7 +281,7 @@ function injectPrivacyDefault(response) {
             {html:true}
           );
         }
-        if (/\\/(?:fr\\/|it\\/)?atlas$/.test(href)) {
+        if (/\/(?:fr\/|it\/)?atlas$/.test(href)) {
           if (!headerHasCoursesLink) {
             const courseHref = headerLanguage === "it" ? "/it/cours" : headerLanguage === "fr" ? "/cours" : "/en/cours";
             element.before('<a href="' + courseHref + '">COURS VOCE®</a>', {html:true});
@@ -292,7 +292,7 @@ function injectPrivacyDefault(response) {
           }
         }
         if (!coursesHeader) return;
-        if (/\\/governance$/.test(href) || href.endsWith("#campus")) {
+        if (/\/governance$/.test(href) || href.endsWith("#campus")) {
           element.remove();
         } else if (href === "/about") {
           const appliedHref = headerLanguage === "fr" ? "/fr/applied" : headerLanguage === "it" ? "/it/applied" : "/applied";
