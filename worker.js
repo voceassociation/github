@@ -347,7 +347,7 @@ function injectPrivacyDefault(response) {
           if (!hasTwitterDescription && ogDescription) {
             pageSpecific += `\n<meta name="twitter:description" content="${escapeHtml(ogDescription)}">`;
           }
-          endTag.before(VOCE_PRIVACY_CONTROLS + (hasSocialImage ? '<meta name="twitter:card" content="summary_large_image">' : VOCE_SOCIAL_META) + VOCE_AUDIO_ASSETS + pageSpecific, { html: true });
+          endTag.before(VOCE_PRIVACY_CONTROLS + '<script src="/voce-mobile-nav.js" defer></script>' + (hasSocialImage ? '<meta name="twitter:card" content="summary_large_image">' : VOCE_SOCIAL_META) + VOCE_AUDIO_ASSETS + pageSpecific, { html: true });
         });
       }
     })
