@@ -1,4 +1,5 @@
 import { handleLegis } from './legis-worker.js';
+import { handleArtVault, isArtVaultPath } from './art-vault-worker.js';
 import { serveCachedPublicPage } from './public-page-cache.js';
 import { ATLAS_PRESENTATION_UPDATED_AT, renderAtlasRelationContext } from './atlas-editorial.js';
 
@@ -1874,6 +1875,7 @@ const app = {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     const pathname = url.pathname.length > 1 ? url.pathname.replace(/\/+$/, "") : url.pathname;
+    if (isArtVaultPath(url.pathname)) return handleArtVault(request, env);
     // Financial assumptions stay in browser memory. Do not inject analytics/audio.
     if (/^\/(?:fr\/|it\/)?applied\/post-saas(?:\.html)?$/.test(pathname)) {
       if (!['GET', 'HEAD'].includes(request.method)) return new Response('Method not allowed', {status:405,headers:{Allow:'GET, HEAD'}});
@@ -1939,16 +1941,6 @@ const app = {
     if (pathname === "/academy") {
       return Response.redirect("https://voce.life/archive", 308);
     }
-
-    if (pathname === "/art/vault" || pathname.startsWith("/art/vault/")) {
-      const response = await env.ASSETS.fetch(request);
-      const headers = new Headers(response.headers);
-      headers.set("x-robots-tag", "noindex, nofollow, noarchive, nosnippet, noimageindex");
-      headers.set("cache-control", "private, no-store");
-      headers.set("referrer-policy", "no-referrer");
-      return injectPrivacyDefault(new Response(response.body, { status: response.status, headers }));
-    }
-
 
     const cognitiveControlMatch = pathname.match(/^\/(?:(fr|it)\/)?human-cognitive-assurance\/controls\/(cog-[0-9]{2})$/);
     if (cognitiveControlMatch) {

@@ -4,6 +4,7 @@
 node_modules
 worker.js
 legis-worker.js
+art-vault-worker.js
 public-page-cache.js
 atlas-editorial.js
 scripts
