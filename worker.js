@@ -245,8 +245,68 @@ function injectPrivacyDefault(response) {
   let hasTwitterTitle = false;
   let hasTwitterDescription = false;
   let hasSocialImage = false;
+  let headerLanguage = "en";
+  let coursesHeader = false;
+  let headerHasCoursesLink = false;
+  const courseHeaderLabels = {
+    fr: {themes:"Thèmes",research:"Recherche",standards:"Normes",publications:"Publications",art:"Art",applied:"Applied"},
+    en: {themes:"Themes",research:"Research",standards:"Standards",publications:"Publications",art:"Art",applied:"Applied"},
+    it: {themes:"Temi",research:"Ricerca",standards:"Standard",publications:"Pubblicazioni",art:"Art",applied:"Applied"}
+  };
 
   return new HTMLRewriter()
+    .on("html", {
+      element(element) {
+        const language = (element.getAttribute("lang") || "en").toLowerCase();
+        headerLanguage = language.startsWith("fr") ? "fr" : language.startsWith("it") ? "it" : "en";
+      }
+    })
+    .on("body", {
+      element(element) {
+        coursesHeader = (element.getAttribute("class") || "").split(/\\s+/).includes("voce-courses");
+      }
+    })
+    .on("header nav.menu > a", {
+      element(element) {
+        const href = element.getAttribute("href") || "";
+        const names = courseHeaderLabels[headerLanguage] || courseHeaderLabels.en;
+        if (/\\/cours$/.test(href)) {
+          headerHasCoursesLink = true;
+          if (coursesHeader) element.setInnerContent("COURS VOCE®");
+        }
+        if (coursesHeader && href === "/archive") {
+          element.before(
+            '<a href="/#themes">' + names.themes + '</a>' +
+            '<a href="/research">' + names.research + '</a>',
+            {html:true}
+          );
+        }
+        if (/\\/(?:fr\\/|it\\/)?atlas$/.test(href)) {
+          if (!headerHasCoursesLink) {
+            const courseHref = headerLanguage === "it" ? "/it/cours" : headerLanguage === "fr" ? "/cours" : "/en/cours";
+            element.before('<a href="' + courseHref + '">COURS VOCE®</a>', {html:true});
+            headerHasCoursesLink = true;
+          }
+          if (coursesHeader && headerLanguage !== "en") {
+            element.setAttribute("href", "/" + headerLanguage + "/atlas");
+          }
+        }
+        if (!coursesHeader) return;
+        if (/\\/governance$/.test(href) || href.endsWith("#campus")) {
+          element.remove();
+        } else if (href === "/about") {
+          const appliedHref = headerLanguage === "fr" ? "/fr/applied" : headerLanguage === "it" ? "/it/applied" : "/applied";
+          element.before(
+            '<a href="' + appliedHref + '">' + names.applied + '</a>' +
+            '<a href="/standards">' + names.standards + '</a>' +
+            '<a href="/publications">' + names.publications + '</a>' +
+            '<a href="/art" class="keep">' + names.art + '</a>',
+            {html:true}
+          );
+          element.setAttribute("class", "keep");
+        }
+      }
+    })
     .on('meta[property="og:title"]', {
       element(element) { ogTitle = element.getAttribute("content") || ""; }
     })
