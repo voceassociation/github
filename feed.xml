@@ -1,5 +1,1329 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>VOCE Academy</title><link>https://voce.life/archive</link><description>The 50 latest VOCE publications, with full original text and permanent URLs. The complete corpus remains available at https://voce.life/data/corpus.json and https://voce.life/data/corpus.ndjson.</description><language>fr</language><lastBuildDate>Sat, 17 Oct 2026 21:09:19 +0000</lastBuildDate><item><title>Un souvenir oublié peut revenir faux: l'expérience qui sépare mémoire silencieuse et reconstruction</title><link>https://voce.life/archive/2026/10/17/un-souvenir-oublie-peut-revenir-faux-l-experience-qui-separe-memoire-sil-7517268359571337216</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/un-souvenir-oublie-peut-revenir-faux-l-experience-qui-separe-memoire-sil-7517268359571337216</guid><author>VOCE Association</author><description>Un souvenir oublié peut revenir faux: l'expérience qui sépare mémoire silencieuse et reconstruction
+<rss version="2.0"><channel><title>VOCE Academy</title><link>https://voce.life/archive</link><description>The 50 latest VOCE publications, with full original text and permanent URLs. The complete corpus remains available at https://voce.life/data/corpus.json and https://voce.life/data/corpus.ndjson.</description><language>fr</language><lastBuildDate>Mon, 19 Oct 2026 21:04:54 +0000</lastBuildDate><item><title>Workday Trusted Agent Platform: l'agent peut agir dans la paie sans devenir administrateur</title><link>https://voce.life/archive/2026/10/19/workday-trusted-agent-platform-l-agent-peut-agir-dans-la-paie-sans-deven-7517796811013648384</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/workday-trusted-agent-platform-l-agent-peut-agir-dans-la-paie-sans-deven-7517796811013648384</guid><author>VOCE Association</author><description>Workday Trusted Agent Platform: l'agent peut agir dans la paie sans devenir administrateur
+
+13 octobre 2026.
+
+Workday rend généralement disponible sa Trusted Agent Platform pour permettre à des agents d'agir dans les workflows RH et finance sans contourner les règles du tenant.
+
+Le risque visé est simple.
+
+Donner à un agent un compte de service trop puissant facilite l'intégration, mais lui accorde souvent davantage de droits que l'utilisateur assisté.
+
+Copier les données Workday dans un data lake transporte les lignes, pas forcément les permissions, hiérarchies et approbations qui leur donnent sens.
+
+Workday veut garder l'action contre l'état réel du système.
+
+Tous les agents exécutés sur la plateforme, qu'ils viennent de Workday, du client ou d'un tiers, passent par Agent Harness.
+
+Cette couche fournit identité, rôle, ligne hiérarchique, droits, politiques et processus applicables. Elle gouverne ensuite l'action et peut choisir le modèle selon coût et performance.
+
+Le modèle devient interchangeable.
+
+Le contrôle reste dans Workday.
+
+Sovereign Routing maintient certaines données dans des frontières régionales ou sur l'infrastructure Workday. Evals et Traces mesurent les agents et reconstruisent leurs actions.
+
+Les modèles peuvent venir d'Anthropic, Google ou OpenAI, ainsi que de familles ouvertes de NVIDIA, Meta ou Mistral.
+
+Deux briques arrivent ensuite.
+
+Agent Context Service doit préinjecter le contexte utile avant le raisonnement, afin de réduire appels, tokens et exposition de données sensibles. Accès anticipé fin 2026.
+
+Grounded Reasoning doit vérifier une action proposée contre les politiques, processus et données vivantes du tenant avant exécution. Accès anticipé début 2027.
+
+Agent Passport est séparé: il associe à chaque agent des attestations signées indiquant ce qui a été testé, par qui et selon quel standard.
+
+ULTRA®
+
+Un agent externe peut utiliser Claude, Gemini, GPT ou un modèle open-weight tout en héritant des permissions et règles transactionnelles du système de référence.
+
+L'enjeu n'est donc plus de connecter un LLM à l'ERP.
+
+Il est d'éviter que chaque nouvel agent recrée à côté de l'ERP son propre système de sécurité.
+
+LI!GHT WORKFORCE ©
+
+TRAVAIL ABSORBÉ: recherche RH/finance, préparation d'actions, exécution de workflows autorisés, tâches administratives multi-étapes.
+
+TRAVAIL HUMAIN QUI RESTE: politiques, séparation des tâches, exceptions, approbations sensibles, responsabilité.
+
+EFFET ORGANISATIONNEL: l'ERP devient lui-même la frontière d'autorisation de la workforce logicielle.
+
+Lire un solde de congés est facile.
+
+Modifier une rémunération ou déclencher un paiement sans casser permissions, approbations et audit est beaucoup plus difficile.
+
+Workday cherche précisément à industrialiser cette seconde catégorie.
+
+Sources
+
+Workday, Trusted Agent Platform, 13 octobre 2026
+Workday, Agent Passport, 2 juin 2026
+
+#Workday #AIAgents #HRTech #Finance #AIInfrastructure #LightWorkforce #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517796811013648384/">Linkedin</source></item><item><title>Utiliser davantage l'IA peut rendre un décideur plus vulnérable aux biais</title><link>https://voce.life/archive/2026/10/19/utiliser-davantage-l-ia-peut-rendre-un-decideur-plus-vulnerable-aux-biai-7518023337604710401</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/utiliser-davantage-l-ia-peut-rendre-un-decideur-plus-vulnerable-aux-biai-7518023337604710401</guid><author>VOCE Association</author><description>Utiliser davantage l'IA peut rendre un décideur plus vulnérable aux biais
+
+26 mai 2026.
+
+Matteo Cristofaro, Pier Luigi Giardino et Mie-Sophia Augier publient dans Strategic Organization une expérience menée auprès de 273 professionnels.
+
+Leur tâche: décider d'une entrée sur un marché sous contrainte de temps et forte incertitude.
+
+Les chercheurs mesurent trois biais: ancrage, confirmation et excès de confiance.
+
+Le résultat n'est pas linéaire.
+
+Une utilisation intermédiaire de l'IA générative est associée à un traitement cognitif plus approfondi et à moins de biais.
+
+À faible usage, les bénéfices restent limités. À usage élevé, ils se dégradent également.
+
+Le point décisif n'est donc pas seulement combien l'IA est utilisée.
+
+C'est comment ses réponses sont traitées.
+
+Lorsque les participants confrontent les sorties et comparent les alternatives, l'IA soutient davantage la délibération.
+
+Lorsqu'ils acceptent les réponses avec peu d'examen critique, cet avantage s'affaiblit.
+
+L'étude ne démontre pas qu'il existe un nombre d'heures ou de requêtes au-delà duquel l'IA rendrait un dirigeant moins lucide.
+
+Elle montre quelque chose de plus précis: augmenter l'usage ne garantit pas une amélioration du jugement.
+
+ULTRA®
+
+Imaginez un comité d'investissement devant une acquisition de 400 millions d'euros.
+
+L'IA produit une valorisation, trois scénarios, une cartographie concurrentielle et une synthèse des risques.
+
+Le dossier paraît plus riche.
+
+Mais la quantité d'analyse produite ne dit rien du nombre d'hypothèses réellement contestées.
+
+Il ne suffit plus de mesurer combien d'analyse l'IA ajoute. Il faut mesurer combien de désaccord intellectuel elle préserve.
+
+Dans une architecture de décision robuste, les hypothèses formulées avant consultation devraient rester visibles, les preuves indépendantes séparées des estimations générées et les contradictions conservées.
+
+LI!GHT WORKFORCE ©
+
+Quand des agents préparent analyses financières, dossiers juridiques et recommandations commerciales, la capacité déplacée vers la machine n'est plus seulement la production de documents.
+
+C'est une partie de la préparation du jugement.
+
+Le contrôle humain utile ne consiste donc pas à relire une synthèse parfaite.
+
+Il consiste à pouvoir remonter aux données, contester une hypothèse, conserver un désaccord et identifier qui assume finalement la décision.
+
+Une organisation peut automatiser davantage tout en devenant intellectuellement plus fragile.
+
+La bonne métrique n'est pas seulement le temps gagné.
+
+C'est ce qu'elle reste capable de remettre en cause.
+
+SCARPIA
+
+Le pouvoir devient fragile lorsqu'il ne rencontre plus de résistance, même dans ses propres raisonnements.
+
+Sources
+
+Cristofaro, Giardino &amp; Augier, Strategic Organization, 26 mai 2026
+
+#Gouvernance #Leadership #IA #Strategie #DecisionMaking #LightWorkforce #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7518023337604710401/">Linkedin</source></item><item><title>Une IA chinoise peut travailler en France sans pouvoir y être déployée librement</title><link>https://voce.life/archive/2026/10/19/une-ia-chinoise-peut-travailler-en-france-sans-pouvoir-y-etre-deployee-l-7517842161095196672</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/une-ia-chinoise-peut-travailler-en-france-sans-pouvoir-y-etre-deployee-l-7517842161095196672</guid><author>VOCE Association</author><description>Une IA chinoise peut travailler en France sans pouvoir y être déployée librement
+
+Pékin, 16 octobre 2026.
+
+La Chine propose d’ajouter 40 technologies à son catalogue d’exportations contrôlées: 23 liées à l’IA, 12 au solaire et cinq aux biotechnologies.
+
+Quatorze seraient interdites à l’exportation. Vingt-six soumises à restriction.
+
+Sont visés certains grands modèles, agents et systèmes de calcul.
+
+Mais Pékin trace une frontière précise.
+
+L’accès depuis l’étranger par API, application ou SaaS resterait en principe possible.
+
+Transférer, reproduire ou déployer localement certaines technologies sous-jacentes pourrait exiger une autorisation.
+
+Une entreprise française peut donc utiliser une IA chinoise sans acquérir le droit de l’exploiter seule.
+
+La consultation court jusqu’au 15 novembre. Un enregistrement préalable s’applique déjà à certains transferts.
+
+ULTRA®
+
+Une API vend une fonction.
+
+L’autonomie exige davantage: poids, moteur d’inférence, droits de déploiement, correctifs, contrôle des versions et capacité à continuer sans le fournisseur.
+
+Le projet chinois ne vise pas indistinctement Qwen, DeepSeek ou toutes les IA ouvertes. Il distingue service, technologie, transfert de savoir-faire et déploiement.
+
+Pour un comité d’investissement, le prix par million de jetons devient insuffisant.
+
+Il faut aussi mesurer: possibilité de changer de modèle, récupération des traces, hébergement local, continuité sans API et coût d’une migration testée.
+
+Une IA peut être excellente tout en laissant l’entreprise dépendante de son infrastructure.
+
+LI!GHT WORKFORCE ©
+
+Prenons un agent d’achats utilisant Qwen d’Alibaba ou DeepSeek.
+
+Il peut lire des devis, comparer les prix, préparer une commande et pousser une proposition dans SAP ou Oracle.
+
+La capacité qui quitte l’équipe humaine n’est plus seulement la saisie. C’est une partie de la lecture, de la comparaison et de la préparation de décision.
+
+Le travail humain reste sur les exceptions, arbitrages fournisseurs, validations sensibles et responsabilité finale.
+
+Si l’agent dépend d’une API étrangère non déployable librement en Europe, une partie de cette capacité sort aussi de l’entreprise.
+
+Les métriques utiles deviennent: heures humaines retirées par transaction, taux d’exception, coût logiciel par processus, dépendance au fournisseur et temps réel de migration.
+
+Une organisation peut alléger sa workforce humaine tout en augmentant sa dépendance envers une workforce logicielle qu’elle ne possède pas pleinement.
+
+WOTAN | L’Or du Rhin
+
+Chez Wagner, le maître des contrats découvre que le pouvoir tient parfois dans une clause secondaire.
+
+“La liberté d’une organisation se mesure aussi au fournisseur qu’elle peut quitter.”
+
+Sources
+
+Ministère chinois du Commerce et ministère des Sciences et Technologies, avis n°48, 16 octobre 2026
+Reuters, 16 octobre 2026
+Associated Press, 17 octobre 2026
+
+#AgentsIA #Souverainete #Europe #Gouvernance #LightWorkforce #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517842161095196672/">Linkedin</source></item><item><title>TOOL DRIFT: L'OUTIL CHANGE, L'AGENT CONTINUE AVEC UNE CARTE PÉRIMÉE</title><link>https://voce.life/archive/2026/10/19/tool-drift-l-outil-change-l-agent-continue-avec-une-carte-perimee-7517902571626188801</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/tool-drift-l-outil-change-l-agent-continue-avec-une-carte-perimee-7517902571626188801</guid><author>VOCE Association</author><description>TOOL DRIFT: L'OUTIL CHANGE, L'AGENT CONTINUE AVEC UNE CARTE PÉRIMÉE
+
+Un agent dispose de centaines d'outils MCP.
+
+Pour choisir lequel appeler, il ne relit pas nécessairement tout le catalogue à chaque requête. Les noms, descriptions, paramètres et capacités peuvent être encodés dans un index sémantique.
+
+Puis le catalogue évolue.
+
+Un outil est renommé.
+Un paramètre change.
+Une capacité disparaît.
+Une description prend un autre sens.
+
+L'API peut toujours répondre.
+
+Mais l'agent raisonne avec une représentation devenue obsolète.
+
+En août 2026, Sai Kiran Paidi et Venkata Rama Krishna Bonagiri formalisent ce problème à IEEE SmartIoT sous le nom de "tool drift".
+
+Ils distinguent trois dérives: schéma, sémantique et capacité.
+
+Puis ils construisent ToolDriftBench: 150 tâches, trois domaines d'entreprise et six niveaux de dérive allant jusqu'à 60%.
+
+À ce niveau maximal, le taux de réussite tombe à 39,2%.
+
+Le modèle n'a pourtant pas nécessairement changé.
+
+Le prompt non plus.
+
+C'est la carte des outils qui ne correspond plus au territoire.
+
+ULTRA®
+
+Leur réponse, ToolDriftGuard, évite de reconstruire tout l'index après chaque modification.
+
+Le système surveille les manifests MCP, identifie les entrées modifiées, caractérise leur dérive puis ne ré-encode que les vecteurs concernés dans l'index FAISS.
+
+À 60% de dérive, le taux de réussite remonte de 39,2% à 83,6%, à 6,4 points d'une reconstruction complète.
+
+La latence de réindexation diminue de 93 à 99%.
+
+Mais une limite compte pour les systèmes critiques.
+
+Si une API conserve exactement le même schéma et la même description tout en changeant silencieusement son comportement réel, surveiller le manifest ne suffit pas.
+
+Il faut ajouter une seconde couche: des tests comportementaux sur des appels sentinelles et leurs résultats attendus.
+
+Une description d'outil devient ainsi un contrat versionné.
+
+Son comportement doit aussi devenir testable.
+
+LI!GHT WORKFORCE ©
+
+Plus une organisation délègue d'actions à des agents, plus la maintenance du catalogue d'outils devient une fonction d'infrastructure.
+
+Le travail humain se déplace vers le versionnage, les tests de non-régression, les permissions et le traitement des exceptions.
+
+Un agent peut appeler parfaitement la bonne fonction avec les bons paramètres et prendre malgré tout une mauvaise décision.
+
+La compatibilité syntaxique n'est plus une preuve de compatibilité opérationnelle.
+
+ARGOS
+
+Un agent n'est fiable que tant que la carte qu'il utilise décrit encore le territoire où il agit.
+
+Sources
+
+Paidi &amp; Bonagiri, "ToolDriftBench: Detecting and Recovering from MCP Tool Index Staleness in Agentic Systems", IEEE SmartIoT 2026
+
+#AIAgents #MCP #AIInfrastructure #LLMOps #AIGovernance #LightWorkforce #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517902571626188801/">Linkedin</source></item><item><title>Sur les réseaux, vouloir être original peut suffire à rendre une conversation plus négative</title><link>https://voce.life/archive/2026/10/19/sur-les-reseaux-vouloir-etre-original-peut-suffire-a-rendre-une-conversa-7517993158732025856</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/sur-les-reseaux-vouloir-etre-original-peut-suffire-a-rendre-une-conversa-7517993158732025856</guid><author>VOCE Association</author><description>Sur les réseaux, vouloir être original peut suffire à rendre une conversation plus négative
+
+Juin 2026.
+
+Hongkai Mao, Yuan Chang Leong et leurs collègues publient dans PNAS une analyse de 2,05 milliards de commentaires issus de 2.150 communautés Reddit.
+
+Ils observent une dérive régulière.
+
+À mesure qu'une conversation avance, les commentaires deviennent plus négatifs.
+
+L'effet est particulièrement marqué lorsque les premiers échanges sont positifs.
+
+Pourquoi?
+
+Les chercheurs mesurent une variable rarement étudiée: la différenciation sémantique.
+
+Plus une discussion progresse, plus il devient difficile d'apporter une contribution positive réellement nouvelle.
+
+La critique, elle, offre davantage de façons de se distinguer.
+
+Pour tester ce mécanisme, l'équipe construit une expérience simulant des discussions en ligne auprès de 3.685 participants.
+
+Certains sont incités à produire des contributions originales.
+
+Chez eux, la dérive vers la négativité apparaît nettement, surtout lorsque la conversation commence positivement.
+
+Chez les autres, elle n'apparaît pas de la même manière.
+
+La négativité peut donc émerger sans intention initiale d'agresser.
+
+Une communauté où chacun veut apporter quelque chose de différent peut progressivement rendre la contradiction plus rentable socialement que l'accord.
+
+ULTRA®
+
+Une autre étude PNAS publiée en août 2026 ajoute une couche plus inquiétante.
+
+Ziv Epstein, Farnaz Jahanbakhsh, Michael Bernstein et leurs collègues étudient 715 utilisateurs américains de X.
+
+Les contenus provenant des comptes suivis restent positivement alignés avec les valeurs déclarées des utilisateurs.
+
+Mais l'alignement entre ces valeurs et les contenus amplifiés par le fil "For You" devient négatif: corrélation moyenne -0,150.
+
+La mécanique semble liée aux formes d'engagement.
+
+Aimer ou republier tend à concerner des contenus plus alignés avec les valeurs personnelles.
+
+Répondre est différent.
+
+Les réponses ne représentent que 6,8% des interactions observées, mais elles sont moins alignées avec les valeurs déclarées. Or X peut pondérer fortement les réponses prédites dans son classement.
+
+Les auteurs parlent d'un mécanisme plausible, pas d'une causalité démontrée.
+
+Le problème institutionnel devient précis.
+
+Une plateforme peut apprendre davantage de ce qui nous fait réagir que de ce que nous voulons réellement voir.
+
+La première étude montre comment la recherche de singularité peut produire de la négativité.
+
+La seconde montre comment une infrastructure d'engagement peut ensuite lui donner davantage de portée.
+
+EGLANTINE
+
+Il suffit parfois de vouloir être différent pour que le désaccord devienne la forme la plus visible de l'existence.
+
+Sources
+
+Mao, Leong, Jiang et al., PNAS, 22 juin 2026
+Epstein, Jahanbakhsh, Piccardi et al., PNAS, août 2026
+
+#PsychologieSociale #ReseauxSociaux #Algorithmes #ComportementHumain #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517993158732025856/">Linkedin</source></item><item><title>Shég' Xdaltth'í': 80.000 vestiges montrent qu'il y a 13.800 ans, la Béringie était déjà un territoire habité</title><link>https://voce.life/archive/2026/10/19/sheg-xdaltth-i-80-000-vestiges-montrent-qu-il-y-a-13-800-ans-la-beringie-7517887468378140672</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/sheg-xdaltth-i-80-000-vestiges-montrent-qu-il-y-a-13-800-ans-la-beringie-7517887468378140672</guid><author>VOCE Association</author><description>Shég' Xdaltth'í': 80.000 vestiges montrent qu'il y a 13.800 ans, la Béringie était déjà un territoire habité
+
+Alaska, 14 octobre 2026.
+
+Sur une hauteur dominant la rivière Tanana, des humains ont laissé beaucoup plus que les traces d'un passage.
+
+Dans Science Advances, Kelly Graf et ses collègues décrivent Shég' Xdaltth'í', étudié depuis 2016.
+
+Le site conserve trois occupations datées d'environ 13.800, 13.000 et 12.700 ans.
+
+La plus ancienne a livré plus de 80.000 vestiges.
+
+Outils de pierre et d'os, aiguilles, zones d'activité préservées, foyers et restes de bison des steppes, cheval, mammouth et caribou.
+
+Près d'une grande enclume de pierre, des os de bison fracturés et des percuteurs indiquent même le traitement des carcasses pour récupérer moelle et graisse.
+
+Ce n'est pas l'image d'un groupe traversant rapidement un corridor.
+
+C'est celle d'un camp de base.
+
+À cette époque, la Béringie relie encore l'Asie et l'Amérique du Nord. Nous la représentons souvent comme une route empruntée par les populations gagnant les Amériques.
+
+Shég' Xdaltth'í' montre qu'une route migratoire pouvait déjà devenir un lieu où l'on s'installait, travaillait, chassait et revenait.
+
+La pierre révèle même une connexion plus lointaine.
+
+Le site possède des bifaces emmanchés en forme de losange inconnus ailleurs en Alaska à cette époque.
+
+Des formes contemporaines apparaissent de l'autre côté de l'ancien pont terrestre, notamment dans le nord-est sibérien.
+
+Les auteurs y voient un lien culturel transbéringien.
+
+ULTRA®
+
+La découverte ne repousse pas simplement une date.
+
+Elle change l'échelle du récit.
+
+Une migration apparaît facilement sur une carte comme une flèche allant d'Asie vers l'Amérique.
+
+L'archéologie de Shég' Xdaltth'í' restitue ce que la flèche efface: des lieux où l'on s'arrête suffisamment longtemps pour construire des zones de travail, transformer des animaux, fabriquer des outils et transmettre des gestes techniques.
+
+Le site constitue la plus ancienne occupation connue du complexe Nenana à l'est de l'ancien pont terrestre.
+
+Et ses bifaces possèdent des équivalents contemporains à l'ouest.
+
+La continuité entre Asie et Amérique apparaît donc aussi dans une manière de tailler et d'emmancher la pierre.
+
+Pas seulement dans la géographie.
+
+Le nom athabascan Shég' Xdaltth'í' signifie "ils étaient là".
+
+13.800 ans plus tard, 80.000 vestiges donnent enfin une épaisseur à ce "là".
+
+ULISSE
+
+Une migration devient une histoire humaine aux endroits où elle cesse, un moment, d'être un déplacement.
+
+Sources
+
+Graf et al., Science Advances, 14 octobre 2026
+University of Kansas, 14 octobre 2026
+
+#Archeologie #Alaska #Beringie #Prehistoire #Ameriques #Migration #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517887468378140672/">Linkedin</source></item><item><title>Oxford: le cerveau d'une mouche produit déjà le rythme du sommeil pendant qu'elle est éveillée</title><link>https://voce.life/archive/2026/10/19/oxford-le-cerveau-d-une-mouche-produit-deja-le-rythme-du-sommeil-pendant-7518008276861612032</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/oxford-le-cerveau-d-une-mouche-produit-deja-le-rythme-du-sommeil-pendant-7518008276861612032</guid><author>VOCE Association</author><description>Oxford: le cerveau d'une mouche produit déjà le rythme du sommeil pendant qu'elle est éveillée
+
+Oxford, 15 octobre 2026.
+
+En 1911, Thomas Graham Brown propose qu'un mouvement rythmé puisse naître de deux groupes neuronaux qui s'inhibent alternativement.
+
+Ce principe deviendra classique dans l'étude de la locomotion.
+
+Cent quinze ans plus tard, l'équipe de Gero Miesenböck, à Oxford, retrouve cette architecture dans un endroit inattendu.
+
+Le sommeil.
+
+Peter Hasenhuetl, Raffaele Sarnataro et leurs collègues étudient des neurones de drosophile projetant vers le corps en éventail dorsal.
+
+Deux ensembles situés dans les hémisphères opposés s'inhibent mutuellement.
+
+Quand l'un devient actif, l'autre ralentit.
+
+Puis les rôles s'inversent.
+
+Cette compétition produit des oscillations lentes.
+
+Mais elles ne commencent pas quand la mouche s'endort.
+
+Elles existent déjà lorsqu'elle est éveillée.
+
+Après douze heures de privation de sommeil, leur puissance augmente. Pendant la récupération, elle diminue progressivement.
+
+Le circuit porte donc une trace électrique du temps que l'animal doit encore dormir.
+
+Les chercheurs reproduisent ensuite artificiellement ces oscillations par optogénétique.
+
+Les mouches s'endorment davantage.
+
+Lorsqu'ils perturbent les connexions inhibitrices entre les deux groupes neuronaux, le sommeil spontané et le rebond après privation sont altérés.
+
+Le rythme ne signale donc pas seulement la fatigue.
+
+Il participe à sa conversion en sommeil.
+
+ULTRA®
+
+Le détail le plus étrange est temporel.
+
+Chez cette mouche éveillée, le cerveau ne semble pas attendre le sommeil pour produire son rythme.
+
+Il commence à le construire pendant que l'animal continue à bouger.
+
+Plus la dette de sommeil augmente, plus cette oscillation devient puissante.
+
+Le sommeil possède donc ici une sorte d'avant-scène électrique.
+
+Des travaux antérieurs de l'équipe montrent que le temps passé éveillé laisse aussi une trace dans les mitochondries de ces neurones, via l'état d'oxydation et des canaux potassiques sensibles à cette chimie.
+
+L'étude de 2026 relie désormais cette accumulation silencieuse à un rythme neuronal mesurable.
+
+Le mystère se déplace alors.
+
+Comment une grandeur qui augmente progressivement pendant des heures finit-elle par provoquer un basculement brutal entre deux états: éveillé ou endormi?
+
+Chez l'humain, aucun circuit équivalent n'est démontré.
+
+Mais chez la drosophile, une idée devient difficile à oublier:
+
+le sommeil commence peut-être bien avant le moment où l'on s'endort.
+
+PAPAGENO
+
+Le vivant peut déjà préparer son repos pendant qu'il continue encore à traverser le monde.
+
+Sources
+
+Hasenhuetl, Sarnataro et al., Nature Neuroscience, 15 octobre 2026
+Sarnataro et al., Nature, 2025
+
+#Sommeil #Neurosciences #Oxford #Neurobiologie #Drosophile #Recherche #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7518008276861612032/">Linkedin</source></item><item><title>OPÉRA VOCE - Pékin place une frontière à l'intérieur du modèle</title><link>https://voce.life/archive/2026/10/19/opera-voce-pekin-place-une-frontiere-a-l-interieur-du-modele-7517781723804385280</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/opera-voce-pekin-place-une-frontiere-a-l-interieur-du-modele-7517781723804385280</guid><author>VOCE Association</author><description>OPÉRA VOCE - Pékin place une frontière à l'intérieur du modèle
+
+ATTO I
+
+16 octobre 2026.
+
+La Chine ouvre une consultation sur 40 technologies à ajouter à son catalogue d'exportations contrôlées. Vingt-trois concernent l'IA: grands modèles, agents, clusters de calcul et traitement de l'information.
+
+La règle distingue plusieurs formes d'exportation.
+
+Utiliser depuis l'étranger un modèle chinois via API, site, application ou SaaS reste hors du champ principal du projet.
+
+Transférer la technologie permettant de le reproduire, le déployer hors de Chine ou en céder la propriété peut entrer dans le contrôle.
+
+Depuis le 16 octobre, certaines opérations doivent déjà être enregistrées avant export, dans l'attente du texte final.
+
+La frontière peut donc traverser une licence ou un déploiement.
+
+ATTO II
+
+Un modèle d'IA n'est pas un objet unique.
+
+On peut acheter son accès sans recevoir ses poids. Obtenir ses poids sans disposer de la recette d'entraînement. Connaître son architecture sans posséder le post-training, les logiciels de cluster ou les données nécessaires à sa reproduction.
+
+Le projet chinois sépare ces couches.
+
+Les technologies déjà rendues publiques par open source ou publication scientifique sont exclues. Pékin prévoit aussi des procédures simplifiées parfois.
+
+L'arbitrage est stratégique.
+
+Laisser un modèle accessible par API permet revenus, utilisateurs et influence internationale.
+
+Limiter le transfert du savoir-faire conserve davantage de capacité industrielle sur le territoire.
+
+API accessible ne signifie donc pas technologie exportée.
+
+ATTO III
+
+La règle devient ici une architecture de souveraineté.
+
+Les États-Unis contrôlent déjà certains GPU et équipements avancés, mais aussi certaines catégories de poids de modèles et l'usage de certains compute sensibles.
+
+La Chine construit sa propre logique: contrôler certaines technologies permettant de fabriquer, entraîner ou déployer l'intelligence elle-même.
+
+Pour Alibaba, DeepSeek ou ByteDance, l'internationalisation devra distinguer service, propriété intellectuelle, déploiement local et transfert technologique.
+
+Pour une entreprise en Europe, l'enjeu devient contractuel.
+
+Que reçoit-on lorsqu'on "achète" une IA chinoise?
+
+Un accès API?
+Les poids?
+Le droit de fine-tuner?
+Le droit de déployer localement?
+Le droit de transférer la technologie?
+
+La souveraineté commence dans cette liste.
+
+FINALE
+
+Dans Don Carlo, Rodrigo découvre qu'une frontière politique peut traverser les idées avant de traverser les hommes.
+
+L'intelligence artificielle entre dans cette époque.
+
+Le prochain contrôle à l'exportation pourra tenir dans des téraoctets.
+
+Et la souveraineté dans ce qu'un contrat autorise réellement à emporter.
+
+Sources
+
+Ministère chinois du Commerce et ministère des Sciences et Technologies, annonce n°48, 16 octobre 2026
+Reuters, 16 octobre 2026
+U.S. Bureau of Industry and Security, EAR Parts 740, 742 et 748
+
+#IA #Chine #Souverainete #ExportControls #DeepSeek #Alibaba #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517781723804385280/">Linkedin</source></item><item><title>NARA: un prompt peut devenir une archive fédérale</title><link>https://voce.life/archive/2026/10/19/nara-un-prompt-peut-devenir-une-archive-federale-7517811929009008643</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/nara-un-prompt-peut-devenir-une-archive-federale-7517811929009008643</guid><author>VOCE Association</author><description>NARA: un prompt peut devenir une archive fédérale
+
+21 août 2026.
+
+La National Archives and Records Administration publie ses premières instructions détaillées sur l'application du Federal Records Act aux matériaux liés à l'intelligence artificielle.
+
+Le principe est plus subtil qu'il n'y paraît.
+
+Une conversation avec ChatGPT ou Claude ne devient pas automatiquement une archive fédérale.
+
+Elle peut le devenir lorsque l'administration la crée, la conserve ou l'utilise pour conduire ses affaires, prendre une décision ou documenter une procédure.
+
+La NARA cite un cas très concret.
+
+Un agent public utilise une IA pour rechercher des documents dans le cadre d'une demande FOIA. L'agence peut décider de conserver les prompts utilisés pour la recherche afin de démontrer ensuite comment celle-ci a été conduite.
+
+Le champ dépasse donc le document final.
+
+Entrées, sorties, données, traces d'audit, logiciels et autres matériaux liés à l'IA peuvent relever du Federal Records Act selon leur usage.
+
+Le 15 octobre, Reuters décrit la conséquence pour les entreprises privées.
+
+Un rapport produit avec une IA peut subsister alors que sa chaîne de provenance a disparu.
+
+Le prompt a été effacé.
+Les documents RAG ont changé.
+Le modèle a été remplacé.
+Les instructions système ont évolué.
+Un collaborateur a modifié le résultat sans conserver les étapes intermédiaires.
+
+Relancer la même requête ne reconstitue pas nécessairement la preuve.
+
+Le système peut produire autre chose.
+
+ULTRA®
+
+Le problème technique n'est donc pas seulement l'archivage.
+
+C'est la reproductibilité.
+
+Conserver le prompt ne suffit pas. Le résultat peut dépendre de la version du modèle, des documents disponibles au moment de la requête, des instructions système, des politiques de la plateforme et des appels d'outils exécutés pendant le workflow.
+
+Dans un système agentique, cette trace peut être répartie entre plusieurs bases, API et services tiers. Aucun composant ne détient nécessairement l'histoire complète.
+
+Pour une décision réglementaire, une investigation interne, une recommandation financière ou un rapport de conformité, la provenance doit donc être conçue avant l'incident ou le contentieux.
+
+La pièce finale peut exister.
+
+La chaîne qui permet de la défendre peut avoir disparu.
+
+C'est là que l'IA change la gouvernance documentaire: un fichier n'est plus toujours une preuve suffisante de sa propre histoire.
+
+ARGOS
+
+Une organisation ne maîtrise pas seulement ce qu'elle conserve.
+
+Elle maîtrise ce qu'elle est encore capable d'expliquer.
+
+Sources
+
+NARA, Guidance on Applying the Federal Records Act to Artificial Intelligence Materials, 21 août 2026
+Reuters Legal, Nicole Marie Gill, 15 octobre 2026
+
+#AIGovernance #AIRecords #InformationGovernance #Compliance #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517811929009008643/">Linkedin</source></item><item><title>MISE À JOUR SILENCIEUSE: VOTRE APPLICATION PEUT CHANGER SANS QUE VOTRE CODE AIT BOUGÉ</title><link>https://voce.life/archive/2026/10/19/mise-a-jour-silencieuse-votre-application-peut-changer-sans-que-votre-co-7517872341599637505</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/mise-a-jour-silencieuse-votre-application-peut-changer-sans-que-votre-co-7517872341599637505</guid><author>VOCE Association</author><description>MISE À JOUR SILENCIEUSE: VOTRE APPLICATION PEUT CHANGER SANS QUE VOTRE CODE AIT BOUGÉ
+
+Une banque utilise depuis six mois le même endpoint pour analyser des réclamations.
+
+Le prompt n'a pas changé.
+Le code non plus.
+Le nom du modèle reste identique.
+
+Pourtant, son comportement peut évoluer.
+
+Poids, quantification, moteur d'inférence, paramètres d'échantillonnage, routage ou matériel peuvent changer derrière un service qui paraît stable.
+
+En mai 2026, Jonah Leshin, Manish Shah, Ian Timmis et Daniel Kang publient à l'ACM Conference on AI and Agentic Systems une méthode pour détecter cette dérive.
+
+Stability Monitor interroge régulièrement un endpoint avec un ensemble fixe de prompts puis compare statistiquement les distributions de sorties dans le temps.
+
+Il ne demande pas au fournisseur si le modèle a changé.
+
+Il cherche si son identité comportementale a changé.
+
+En validation contrôlée, la méthode détecte des changements de famille de modèle, version, pile d'inférence, quantification et paramètres comportementaux.
+
+Le problème devient celui de la preuve.
+
+Une entreprise peut avoir validé en janvier un système de classification ou de conseil.
+
+Si l'artefact réellement servi change en mars, cette validation ne décrit plus nécessairement le système utilisé en production.
+
+En août 2026, Sophia Abraham et Ben Bucknall documentent ce vide dans "Silent Updates".
+
+Sur neuf fournisseurs d'API de première partie et sept hébergeurs tiers, aucun ne publiait de mécanisme permettant à un observateur externe de vérifier que l'artefact servi était bien celui décrit par sa documentation.
+
+ULTRA®
+
+Comparer quelques réponses ne suffit pas.
+
+Stability Monitor construit une empreinte à partir de distributions de sorties sur un corpus fixe, puis utilise une distance énergétique agrégée et des tests par permutation pour détecter un changement statistiquement significatif.
+
+Aucun accès aux poids n'est nécessaire.
+
+Pour une organisation dépendante d'API externes, cela suggère une pratique concrète: conserver un corpus de sentinelles couvrant refus, formats structurés, cas limites, décisions métier et appels d'outils, puis le rejouer périodiquement sur l'endpoint de production.
+
+L'uptime peut rester à 100%.
+La latence peut rester stable.
+Toutes les requêtes peuvent répondre HTTP 200.
+
+Et pourtant, le système validé peut avoir changé.
+
+Pour une IA, "le service fonctionne" et "le même comportement est toujours servi" sont deux affirmations différentes.
+
+ARGOS
+
+Une gouvernance sérieuse ne doit pas seulement savoir quel modèle elle a acheté.
+
+Elle doit pouvoir détecter quand celui qu'elle utilise a cessé d'être comportementalement le même.
+
+Sources
+
+Leshin, Shah, Timmis &amp; Kang, ACM CAIS, mai 2026
+Abraham &amp; Bucknall, "Silent Updates", AIES 2026
+
+#AIGovernance #ModelRisk #LLMOps #AIInfrastructure #OperationalRisk #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517872341599637505/">Linkedin</source></item><item><title>L'ikigai à quatre cercles n'est pas japonais: il a été assemblé en Europe</title><link>https://voce.life/archive/2026/10/19/l-ikigai-a-quatre-cercles-n-est-pas-japonais-il-a-ete-assemble-en-europe-7517962976922976257</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/l-ikigai-a-quatre-cercles-n-est-pas-japonais-il-a-ete-assemble-en-europe-7517962976922976257</guid><author>VOCE Association</author><description>L'ikigai à quatre cercles n'est pas japonais: il a été assemblé en Europe
+
+Quatre cercles.
+
+Ce que vous aimez.
+Ce que vous savez faire.
+Ce dont le monde a besoin.
+Ce pour quoi vous pouvez être payé.
+
+Au centre: "ikigai".
+
+Ce schéma est présenté dans d'innombrables formations comme une sagesse japonaise.
+
+Il ne l'est pas.
+
+En 2014, Marc Winn, entrepreneur à Guernesey, publie "What is your ikigai?". Il reprend un diagramme créé par l'Espagnol Andrés Zuzunaga et place le mot japonais au centre.
+
+Winn le reconnaît désormais: le diagramme n'est pas de lui. Son apport fut d'y associer l'ikigai.
+
+L'histoire japonaise est tout autre.
+
+En 1966, la psychiatre Mieko Kamiya publie "Ikigai ni tsuite", nourri notamment par son travail auprès de personnes atteintes de la maladie de Hansen à Nagashima Aiseien.
+
+Pour elle, l'ikigai ne suppose ni carrière exceptionnelle ni rémunération. Il désigne ce qui rend la vie digne d'être vécue.
+
+En 2008, Toshimasa Sone et ses collègues suivent 43.391 adultes pendant sept ans. 3.048 meurent.
+
+Les personnes déclarant ne pas avoir d'ikigai présentent un risque de mortalité toutes causes supérieur de 50% après ajustement: HR 1,50.
+
+L'association est particulièrement nette pour la mortalité cardiovasculaire.
+
+Aucune causalité n'est démontrée.
+
+En 2022, une cohorte de 71.501 Japonais suivis pendant 19,1 ans produit un résultat encore plus dérangeant pour les lectures managériales.
+
+L'association entre ikigai élevé et moindre mortalité cardiovasculaire apparaît surtout chez les personnes sans emploi.
+
+Pas chez les actifs.
+
+Ce que l'Occident a transformé en outil de carrière pourrait donc compter précisément lorsque la carrière disparaît.
+
+ULTRA®
+
+Le contresens occidental ne consiste pas seulement à simplifier un mot.
+
+Il ajoute au concept une condition qui n'en est pas constitutive: être payé.
+
+Les travaux japonais étudient l'ikigai comme sens de la vie, engagement ou raison de vivre, pas comme optimisation professionnelle.
+
+En 2025, Andrew Stickley et ses collègues analysent 3.701 adultes japonais avec le GAD-7.
+
+L'absence d'ikigai est associée à des cotes d'anxiété probable 2,04 fois plus élevées, et 2,97 fois chez les 35-59 ans.
+
+Étude transversale: aucune causalité.
+
+Pour les RH, la limite est nette.
+
+Ces recherches ne valident ni coaching, ni matrice de carrière, ni programme de productivité.
+
+Transformer l'ikigai en obligation professionnelle revient peut-être à retirer du concept précisément ce qu'il protège: la possibilité qu'une vie ait de la valeur en dehors de sa valeur marchande.
+
+FALSTAFF
+
+Une existence peut trouver sa grandeur dans ce qui ne produit aucun revenu.
+
+Sources
+
+Marc Winn, "What is your ikigai?", 2014, note d'attribution
+Kamiya, Ikigai ni tsuite, 1966
+Sone et al., Psychosomatic Medicine, 2008
+Miyazaki et al., BMJ Open, 2022
+Stickley et al., Journal of Affective Disorders, 2025
+
+#Ikigai #Japon #Psychologie #Longévité #RessourcesHumaines #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517962976922976257/">Linkedin</source></item><item><title>Dangote: la raffinerie nigériane à 20 milliards de dollars fournit désormais l'Europe en carburants</title><link>https://voce.life/archive/2026/10/19/dangote-la-raffinerie-nigeriane-a-20-milliards-de-dollars-fournit-desorm-7517978133069963264</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/dangote-la-raffinerie-nigeriane-a-20-milliards-de-dollars-fournit-desorm-7517978133069963264</guid><author>VOCE Association</author><description>Dangote: la raffinerie nigériane à 20 milliards de dollars fournit désormais l'Europe en carburants
+
+Nigeria, 2026.
+
+Pendant des décennies, le schéma était familier: exporter du brut, importer des carburants raffinés.
+
+À Lagos, la raffinerie Dangote déplace cette géographie.
+
+Construite pour environ 20 milliards de dollars et opérationnelle depuis 2024, elle traite désormais jusqu'à 700.000 barils par jour après l'extension achevée en février 2026.
+
+Le basculement apparaît dans les cargaisons.
+
+Le 24 août, l'Energy Information Administration américaine publie des données Vortexa.
+
+Au deuxième trimestre 2026, les exportations maritimes nigérianes de produits pétroliers vers l'Europe atteignent 130.000 barils par jour.
+
+En 2023: 15.000.
+
+Dans le même temps, les importations maritimes du Nigeria chutent de près de 400.000 à moins de 130.000 barils par jour.
+
+Un pays longtemps dépendant de carburants raffinés ailleurs commence donc à fournir ceux qui l'approvisionnaient.
+
+Pour les raffineurs européens, un débouché africain se contracte tandis qu'un concurrent africain arrive sur leur marché.
+
+ULTRA®
+
+Le déplacement décisif n'est pas géologique.
+
+Le pétrole était déjà au Nigeria.
+
+Ce qui change est l'endroit où sa valeur industrielle est créée.
+
+Exporter du brut puis importer essence, diesel ou kérosène laisse une partie de la marge de raffinage, des emplois industriels et des revenus logistiques à l'extérieur.
+
+Transformer localement déplace cette chaîne de valeur.
+
+Mais 700.000 barils par jour restent une capacité, pas une garantie de production constante. La rentabilité dépend du brut, des marges de raffinage, des arrêts techniques et des marchés d'exportation.
+
+L'Afrique ne modifie donc pas sa position mondiale en possédant davantage de ressources.
+
+Elle la modifie lorsqu'elle possède davantage de transformation.
+
+FINVOCE ©
+
+Le financement raconte la même histoire.
+
+Le 31 mars 2026, Afreximbank souscrit 2,5 milliards de dollars dans un prêt syndiqué senior de 4 milliards destiné à refinancer et renforcer la raffinerie.
+
+C'est de la dette, pas du capital.
+
+En juillet, Dangote lève séparément 2,5 milliards de dollars en private placement. Africa Finance Corporation mène le groupe d'investisseurs; Reuters indique que l'opération valorise alors la raffinerie autour de 40 milliards de dollars.
+
+Quelques mois plus tard, l'IPO nigériane vise encore 1,6 milliard de dollars.
+
+Dette bancaire africaine, investisseurs institutionnels puis marché actions: l'outil industriel n'est plus seulement africain par sa localisation.
+
+Une part croissante de son financement l'est aussi.
+
+AMONASRO
+
+Nous reconnaissons parfois le déplacement du pouvoir industriel seulement lorsque ses produits arrivent dans nos ports.
+
+Sources 2026
+
+U.S. EIA, données Vortexa, 24 août
+Afreximbank, 31 mars
+Africa Finance Corporation, 13 août
+Reuters, 13 octobre
+
+#Afrique #Dangote #Industrie #Energie #Geopolitique #FINVOCE #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517978133069963264/">Linkedin</source></item><item><title>Daejeon, 29 avril 2026.</title><link>https://voce.life/archive/2026/10/19/daejeon-29-avril-2026-7517947871795507200</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/daejeon-29-avril-2026-7517947871795507200</guid><author>VOCE Association</author><description>Daejeon, 29 avril 2026.
+
+Une souris apprend qu'un endroit est associé à une certaine conséquence.
+
+Puis les chercheurs modifient cet apprentissage.
+
+Son comportement change.
+
+Mais qu'est devenue la première mémoire?
+
+Mujun Kim, Jin-Hee Han et leurs collègues du KAIST publient dans Nature Neuroscience une expérience montrant que le cerveau peut privilégier une mémoire mise à jour tout en conservant l'accès à l'ancienne.
+
+Ils identifient une projection GABAergique reliant le septum médian au cortex entorhinal médian.
+
+Après le nouvel apprentissage, ce circuit devient particulièrement actif pendant le rappel.
+
+Les chercheurs l'inhibent alors par optogénétique.
+
+Les souris recommencent à se comporter selon leur première mémoire.
+
+Le nouvel apprentissage n'a pourtant pas été supprimé.
+
+Dans CA1, région de l'hippocampe, les configurations d'activité neuronale reviennent elles aussi vers celles observées avant la mise à jour.
+
+Le basculement est donc comportemental et neuronal.
+
+Un contrôle rend le résultat plus intéressant encore.
+
+Lorsque le même circuit est inhibé pendant le nouvel apprentissage, les souris peuvent ensuite exprimer la mémoire mise à jour.
+
+Le circuit n'est donc pas indispensable pour encoder la nouvelle information.
+
+Il intervient surtout lorsqu'il faut sélectionner laquelle des représentations concurrentes guidera le comportement.
+
+Après la mise à jour, les chercheurs identifient également des états d'activité du circuit dont la durée est corrélée à de meilleures performances de rappel.
+
+La mémoire apparaît moins comme un fichier remplacé que comme un système capable de conserver plusieurs versions et d'en sélectionner une.
+
+ULTRA®
+
+Cette distinction change la manière de penser l'oubli.
+
+Ne plus utiliser une ancienne information ne signifie pas nécessairement qu'elle a été détruite.
+
+Dans cette expérience, inhiber MS-GABA→MEC suffit à faire réapparaître un comportement antérieur et une configuration hippocampique proche de celle qui le précédait.
+
+Le défaut peut donc se situer dans la sélection au moment du rappel, et non uniquement dans le stockage.
+
+Cela ne signifie pas que cette voie explique Alzheimer.
+
+L'étude porte exclusivement sur des souris mâles et KAIST présente les applications aux troubles cognitifs comme une perspective de recherche, pas comme un traitement établi.
+
+Mais elle introduit une distinction expérimentale puissante: perdre une mémoire et perdre la capacité de choisir celle qui convient peuvent être deux défaillances différentes.
+
+Votre ancien mot de passe qui surgit avant le nouveau devient alors une image moins triviale.
+
+Deux réponses peuvent encore exister.
+
+Le problème est parfois de donner la priorité à la bonne.
+
+ORFEO
+
+La mémoire ne détruit pas toujours le passé.
+
+Elle doit parfois simplement empêcher qu'il reprenne la place du présent.
+
+Sources 
+
+Kim, Suh, So et al., Nature Neuroscience, 29 avril 2026
+KAIST, 18 mai 2026
+
+#Memoire #Neurosciences #KAIST #Hippocampe #Neurobiologie #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517947871795507200/">Linkedin</source></item><item><title>Chicago: l'IA tente de séparer les peintures cachées sous les Van Gogh</title><link>https://voce.life/archive/2026/10/19/chicago-l-ia-tente-de-separer-les-peintures-cachees-sous-les-van-gogh-7517932763002355712</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/chicago-l-ia-tente-de-separer-les-peintures-cachees-sous-les-van-gogh-7517932763002355712</guid><author>VOCE Association</author><description>Chicago: l'IA tente de séparer les peintures cachées sous les Van Gogh
+
+Chicago, 15 octobre 2026.
+
+Depuis plus d'un siècle, les rayons X révèlent sous certaines peintures des compositions abandonnées.
+
+Mais une radiographie superpose couche visible, peinture sous-jacente, préparation, toile et châssis.
+
+On sait qu'une autre image existe sans toujours savoir quelle trace appartient à quelle couche.
+
+À Northwestern University, Aggelos Katsaggelos et Maria Kokkori développent avec l'Art Institute of Chicago et le Van Gogh Museum une IA destinée à résoudre ce problème.
+
+Le projet s'appelle "Hidden Paintings, Layered Histories".
+
+Un simulateur reproduira la manière dont pigments et couches picturales produisent des signaux sous différentes techniques d'imagerie. Ces données entraîneront des modèles contraints par la physique des matériaux.
+
+Le système ne devra pas produire "la" peinture cachée.
+
+Lorsque plusieurs structures sont compatibles avec les mesures, il devra proposer plusieurs reconstructions physiquement plausibles et quantifier leur incertitude.
+
+Une image convaincante n'est pas une preuve matérielle.
+
+Les œuvres de Van Gogh serviront de cas d'essai grâce aux données techniques des deux musées.
+
+Le financement révèle aussi un déplacement institutionnel.
+
+Le 14 octobre, Schmidt Sciences annonce 10 millions de dollars pour 19 équipes de son Humanities and AI Virtual Institute, choisies parmi 501 propositions de 42 pays.
+
+Les outils, codes, poids de modèles et jeux de référence développés doivent être partagés ouvertement.
+
+ULTRA®
+
+Le problème relève des "problèmes inverses": reconstruire une structure cachée à partir de signaux incomplets.
+
+Deux stratigraphies différentes peuvent produire des mesures proches. Une reconstruction crédible visuellement peut donc être scientifiquement fausse.
+
+La réponse de Northwestern consiste à combiner plusieurs modalités, la physique des pigments et une estimation explicite de l'incertitude.
+
+Pour les musées, cela change le dossier.
+
+Une œuvre pourrait être documentée non seulement par son image visible, sa provenance et ses restaurations, mais par un modèle probabiliste de ses états antérieurs.
+
+Attribution, conservation et histoire du geste pourraient en être enrichies.
+
+Mais le projet reste au stade du développement. Aucune peinture cachée nouvelle n'a encore été authentifiée grâce à cette architecture.
+
+L'Europe possède une concentration exceptionnelle d'œuvres et d'archives matérielles.
+
+La valeur scientifique future dépendra aussi de ceux qui maîtrisent les modèles, les données d'imagerie, les standards de preuve et la reproductibilité permettant de les interpréter.
+
+STENDHAL
+
+Un tableau peut avoir une histoire plus profonde que sa surface.
+
+Sources
+
+Northwestern Engineering, 15 octobre 2026
+Schmidt Sciences, Humanities and AI Virtual Institute, 14 octobre 2026
+
+#Museums #ArtConservation #ArtificialIntelligence #ArtHistory #ScientificImaging #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517932763002355712/">Linkedin</source></item><item><title>Cancer du rhinopharynx: un médicament de 30 ans réduit de 47% le risque relatif de décès</title><link>https://voce.life/archive/2026/10/19/cancer-du-rhinopharynx-un-medicament-de-30-ans-reduit-de-47-le-risque-re-7517827039442411520</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/cancer-du-rhinopharynx-un-medicament-de-30-ans-reduit-de-47-le-risque-re-7517827039442411520</guid><author>VOCE Association</author><description>Cancer du rhinopharynx: un médicament de 30 ans réduit de 47% le risque relatif de décès
+
+Guangzhou, Chine.
+
+Après une chimioradiothérapie intensive, 406 patients atteints d'un carcinome du rhinopharynx localement avancé entrent dans un essai de phase III.
+
+204 reçoivent pendant un an de la capécitabine à faible dose: 650 mg/m², deux fois par jour.
+
+202 restent sous surveillance.
+
+La capécitabine existe depuis près de trente ans. Dans l'organisme, elle est transformée en fluorouracile, qui perturbe notamment la synthèse de l'ADN.
+
+L'originalité est ailleurs.
+
+Au lieu de fortes doses espacées, les chercheurs maintiennent une exposition prolongée à faible dose.
+
+C'est la chimiothérapie métronomique.
+
+En 2021, le premier résultat était déjà net: à trois ans, la survie sans échec atteignait 85,3% sous capécitabine contre 75,7% sous surveillance.
+
+Mais retarder une récidive ne signifie pas nécessairement prolonger la vie.
+
+Le 30 juin 2026, Nature Cancer publie le suivi prolongé.
+
+Après 71,3 mois de suivi médian, le hazard de décès est inférieur de 47% dans le groupe capécitabine: HR 0,53, IC95% 0,31-0,91, p=0,019.
+
+Le bénéfice de survie globale apparaît donc à long terme.
+
+Il possède un coût.
+
+Des événements indésirables de grade 3 touchent 17% des patients évaluables sous capécitabine contre 6% sous surveillance. Un cas de neutropénie de grade 4 est rapporté.
+
+L'étude est ouverte, réalisée dans 14 hôpitaux chinois et concerne une population précisément sélectionnée.
+
+Elle ne s'applique pas à tous les cancers ORL.
+
+ULTRA®
+
+L'analyse de 2026 révèle quelque chose de plus subtil que "plus de chimiothérapie".
+
+Les patients ayant terminé l'année prévue présentent une meilleure survie.
+
+Mais, dans l'analyse post hoc, ni les réductions de dose ni l'intensité relative reçue ne sont associées à la survie.
+
+Cela ne prouve pas qu'une dose réduite soit équivalente: les patients capables de terminer le traitement peuvent simplement être en meilleur état.
+
+Mais cela déplace l'attention vers une variable souvent moins spectaculaire que la dose maximale: la durée pendant laquelle une pression thérapeutique peut être maintenue.
+
+Autre signal: les patients présentant après radiothérapie un rapport neutrophiles/lymphocytes plus élevé semblent tirer davantage de bénéfice de la capécitabine.
+
+Ce biomarqueur reste exploratoire.
+
+La biologie complète du bénéfice n'est donc pas encore démontrée.
+
+Le résultat clinique, lui, l'est davantage.
+
+Un médicament ancien, administré autrement et assez longtemps, peut encore modifier la survie.
+
+NABUCCO
+
+Certaines victoires thérapeutiques viennent moins d'une nouvelle arme que d'une nouvelle manière de tenir le temps.
+
+Sources
+
+Tao, Wu, Zhou et al., Nature Cancer, 30 juin 2026
+Institut national du cancer, veille scientifique, 6 juillet 2026
+
+#CancerDuRhinopharynx #Capecitabine #Oncologie #RechercheClinique #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517827039442411520/">Linkedin</source></item><item><title>Voir un geste suffit à modifier le vôtre dans 22 pays</title><link>https://voce.life/archive/2026/10/18/voir-un-geste-suffit-a-modifier-le-votre-dans-22-pays-7517660954848034816</link><guid isPermaLink="true">https://voce.life/archive/2026/10/18/voir-un-geste-suffit-a-modifier-le-votre-dans-22-pays-7517660954848034816</guid><author>VOCE Association</author><description>Voir un geste suffit à modifier le vôtre dans 22 pays
+
+Vous levez l'index.
+
+Sur l'écran, une autre main lève le même doigt.
+
+Votre geste part légèrement plus vite.
+
+Si elle lève le majeur, quelques millisecondes se perdent.
+
+Personne ne vous demande de l'imiter.
+
+Pourtant, le mouvement observé est déjà entré dans le vôtre.
+
+Le 14 octobre 2026, Oliver Genschow et ses collègues publient dans Communications Psychology l'une des plus vastes études interculturelles consacrées à cette imitation automatique.
+
+Ils commencent par comparer Vietnam et États-Unis.
+
+Puis ils élargissent l'expérience à 22 pays choisis pour leurs différences d'individualisme et de collectivisme.
+
+Devant chaque participant apparaît une main.
+
+Un chiffre indique quel doigt soulever tandis que la main observée effectue simultanément un geste compatible ou incompatible.
+
+Lorsque les gestes correspondent, la réponse est plus rapide.
+
+Lorsqu'ils diffèrent, l'autre mouvement interfère.
+
+Et l'effet apparaît dans les 22 pays étudiés.
+
+Les chercheurs avaient pourtant formulé une prédiction précise: les sociétés plus collectivistes, supposées orienter davantage l'attention vers autrui, devraient présenter une imitation automatique plus forte.
+
+Ils ne trouvent pas de preuve convaincante de cette relation.
+
+Cela ne signifie pas que Colombiens, Américains ou Vietnamiens bougent de la même manière.
+
+Les cultures façonnent profondément nos gestes sociaux.
+
+Mais lorsqu'une action étrangère apparaît exactement au moment où nous préparons la nôtre, une petite partie de ces différences semble peser beaucoup moins.
+
+ULTRA®
+
+Le protocole évite un piège essentiel.
+
+Un mouvement peut accélérer notre réponse simplement parce qu'il apparaît du même côté de l'espace.
+
+Les chercheurs dissocient donc compatibilité spatiale et compatibilité véritablement imitative.
+
+L'effet d'imitation subsiste.
+
+Sa taille est faible, mais sa répétition dans 22 pays est précisément ce qui le rend intéressant.
+
+Il ne décrit ni une décision sociale ni une imitation consciente.
+
+Il apparaît dans le délai nécessaire pour convertir une instruction en mouvement.
+
+L'étude ne démontre donc pas que l'imitation automatique soit absolument universelle.
+
+Les auteurs eux-mêmes restent prudents: leurs analyses ne donnent pas une preuve forte d'une absence complète d'effet culturel.
+
+Elles rendent en revanche difficile l'idée qu'individualisme et collectivisme suffisent à expliquer de grandes différences dans ce mécanisme.
+
+La culture modèle ce que nous décidons de faire.
+
+Elle semble moins capable d'empêcher totalement le geste d'autrui d'entrer, quelques millisecondes, dans la préparation du nôtre.
+
+CHERUBINO
+
+Entre deux corps, l'imitation peut commencer avant que l'un ait décidé de devenir le modèle de l'autre.
+
+Sources
+
+Genschow, Westfal, Dorrough et al., Communications Psychology, 14 octobre 2026
+
+#CorpoESilenzio #Cognition #Imitation #ComportementHumain #Culture #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517660954848034816/">Linkedin</source></item><item><title>Saint-Pierre de Rome: la coupole de Michel-Ange tient aussi grâce à des chaînes de fer</title><link>https://voce.life/archive/2026/10/18/saint-pierre-de-rome-la-coupole-de-michel-ange-tient-aussi-grace-a-des-c-7517615672932343808</link><guid isPermaLink="true">https://voce.life/archive/2026/10/18/saint-pierre-de-rome-la-coupole-de-michel-ange-tient-aussi-grace-a-des-c-7517615672932343808</guid><author>VOCE Association</author><description>Saint-Pierre de Rome: la coupole de Michel-Ange tient aussi grâce à des chaînes de fer
+
+Rome, 1742.
+
+La coupole de Saint-Pierre inquiète.
+
+Des fissures méridiennes montent du tambour presque jusqu'à la lanterne. Benoît XIV ne convoque pas seulement des architectes. Il appelle trois mathématiciens: Thomas Le Seur, François Jacquier et Ruggero Boscovich.
+
+Leur avis, présenté en janvier 1743, recommande cinq grands cerclages de fer.
+
+Le pape consulte ensuite Giovanni Poleni, professeur à Padoue. Son diagnostic est moins alarmiste: les poussées horizontales doivent surtout être mieux contenues.
+
+Avec Luigi Vanvitelli, il dirige le renforcement.
+
+Entre 1743 et 1744, cinq grands anneaux de fer forgé sont installés dans la coupole. En 1748, un sixième est ajouté après que Vanvitelli a constaté la rupture de l'un des deux cerclages anciens intégrés lors de la construction.
+
+Ils travaillent comme les cercles d'un tonneau gigantesque: lorsque la maçonnerie tend à s'écarter, le fer reprend une traction circonférentielle opposée.
+
+Mais Poleni ne fait pas confiance au métal sur parole.
+
+À Padoue, il utilise une "macchina divulsoria", inspirée des travaux de Pieter van Musschenbroek, pour charger des échantillons de fer jusqu'à rupture et relier leur section à leur résistance.
+
+Il emploie aussi un pyromètre pour étudier le comportement de matériaux soumis aux variations thermiques.
+
+Au XVIIIe siècle, Saint-Pierre devient aussi un laboratoire de résistance des matériaux.
+
+ULTRA®
+
+La sophistication de Poleni apparaît surtout dans sa manière de lire les fissures.
+
+Lorsque la maçonnerie se fissure suivant des lignes méridiennes, la coupole perd une partie de son comportement de coque continue. Ses portions tendent davantage à fonctionner comme des arcs qui poussent vers l'extérieur.
+
+Les chaînes apportent la traction que la maçonnerie maîtrise mal.
+
+Chaque anneau est constitué de dizaines de barres assemblées. Des clavettes martelées dans les jonctions permettent de fermer et de tendre le cerclage.
+
+Poleni utilise aussi le principe du fil renversé associé à Robert Hooke: une chaîne suspendue adopte une forme d'équilibre sous son poids; renversée, cette géométrie devient une ligne de compression.
+
+Il compare ainsi la forme réelle de la coupole à une ligne théorique des forces.
+
+Et il documente précisément les fissures pour que leur évolution puisse être comparée dans le temps.
+
+Bien avant les capteurs numériques, un monument commence à être suivi comme une structure dont l'histoire mécanique peut être mesurée.
+
+VITELLIA
+
+Ce que l'on croit immobile devient intelligible lorsqu'on mesure sa lente déformation.
+
+Sources
+
+Poleni, Memorie istoriche della gran cupola del Tempio Vaticano, 1748
+Le Seur, Jacquier &amp; Boscovich, Parere di tre matematici, 1742-1743
+Treccani, Giovanni Poleni
+La sfida della cupola
+
+#SanPietro #Michelangelo #Poleni #Boscovich #Vanvitelli #Ingegneria #Patrimonio #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517615672932343808/">Linkedin</source></item><item><title>Le tissu "africain" de Shonibare raconte une route qui commence en Indonésie</title><link>https://voce.life/archive/2026/10/18/le-tissu-africain-de-shonibare-raconte-une-route-qui-commence-en-indones-7517645851205369856</link><guid isPermaLink="true">https://voce.life/archive/2026/10/18/le-tissu-africain-de-shonibare-raconte-une-route-qui-commence-en-indones-7517645851205369856</guid><author>VOCE Association</author><description>Le tissu "africain" de Shonibare raconte une route qui commence en Indonésie
+
+Londres, 15 octobre 2026.
+
+Pour la première fois, la National Gallery place face à face deux œuvres séparées par près de 250 ans.
+
+Vers 1750, Thomas Gainsborough peint Robert et Frances Andrews devant leurs terres du Suffolk.
+
+Robert possède alors près de 3.000 acres.
+
+Le paysage occupe presque autant de place que le couple: champs, pâturages, fusil, propriété. La National Gallery parle d'un possible "triple portrait": l'homme, la femme et leur terre.
+
+En 1998, Yinka Shonibare reprend cette image.
+
+Il retire le paysage, décapite les deux figures et les habille de tissus wax associés à l'Afrique de l'Ouest.
+
+C'est là que l'œuvre devient plus dérangeante.
+
+Ce textile n'a pas une origine simplement "africaine".
+
+Au XIXe siècle, des industriels néerlandais adaptent à la production mécanique des techniques inspirées du batik indonésien. Les étoffes trouvent ensuite en Afrique de l'Ouest et centrale des marchés qui les réinterprètent profondément.
+
+Les motifs reçoivent des noms, des usages, des significations.
+
+L'objet change culturellement de propriétaire.
+
+La National Gallery expose désormais "Mr. and Mrs. Andrews without their Heads" à côté du Gainsborough qui l'a inspiré, du 15 octobre 2026 au 7 février 2027.
+
+Le rapprochement est brutal.
+
+Chez Gainsborough, le statut s'inscrit dans la possession de la terre.
+
+Chez Shonibare, il passe aussi par une matière dont l'histoire relie Indonésie, industrie néerlandaise, commerce colonial et appropriation culturelle africaine.
+
+Une identité visuelle que nous croyons locale peut donc être le résultat d'une circulation mondiale vieille de près de deux siècles.
+
+ULTRA®
+
+Vlisco, fondée aux Pays-Bas en 1846, reconnaît elle-même cette généalogie: technique issue du batik indonésien, industrialisation néerlandaise, puis adoption et réinterprétation par des femmes d'Afrique de l'Ouest et centrale.
+
+C'est là que l'œuvre dépasse l'histoire du textile.
+
+Une entreprise peut fabriquer un produit, posséder ses machines et contrôler sa marque.
+
+Elle ne contrôle pas entièrement la signification que d'autres sociétés lui donnent.
+
+Le wax illustre une dissociation rare entre origine industrielle et appartenance culturelle.
+
+Sa valeur ne réside plus seulement dans celui qui l'a produit, mais dans celles et ceux qui l'ont nommé, porté, codifié et transmis.
+
+Shonibare place ainsi deux formes de propriété face à face.
+
+Chez Gainsborough: posséder la terre.
+
+Dans le wax: posséder beaucoup moins facilement le sens.
+
+TOSCA
+
+Les frontières culturelles paraissent nettes surtout lorsqu'on oublie de regarder les routes commerciales.
+
+Sources 2026
+
+National Gallery, Yinka Shonibare and Thomas Gainsborough: A Conversation
+National Gallery, Mr and Mrs Andrews
+Vlisco, Our Story
+
+#YinkaShonibare #Gainsborough #NationalGallery #Culture #Textile #Mondialisation #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517645851205369856/">Linkedin</source></item><item><title>Chez la souris, l'effort augmente la dopamine d'une récompense pourtant identique</title><link>https://voce.life/archive/2026/10/18/chez-la-souris-l-effort-augmente-la-dopamine-d-une-recompense-pourtant-i-7517585453106176000</link><guid isPermaLink="true">https://voce.life/archive/2026/10/18/chez-la-souris-l-effort-augmente-la-dopamine-d-une-recompense-pourtant-i-7517585453106176000</guid><author>VOCE Association</author><description>Chez la souris, l'effort augmente la dopamine d'une récompense pourtant identique
+
+Stanford, 28 janvier 2026.
+
+Gavin Touponse, Matthew Pomrenze, Robert Malenka, Neir Eshel et leurs collègues publient dans Nature une expérience sur le prix de l'effort.
+
+Des souris doivent travailler pour obtenir une même goutte de solution sucrée.
+
+La récompense ne change pas.
+
+Mais son coût augmente.
+
+Selon les essais, une réponse avec le museau suffit. Dans d'autres, il faut répéter le geste jusqu'à 46 fois.
+
+Par photométrie à fibre optique, les chercheurs enregistrent la dopamine dans le noyau accumbens.
+
+Résultat: plus l'effort préalable est élevé, plus la dopamine libérée au moment de la récompense augmente.
+
+Le sucre est pourtant identique.
+
+L'équipe cherche alors où cette amplification se construit.
+
+Dans le noyau accumbens, des interneurones cholinergiques s'activent davantage lorsque l'effort augmente. Leur acétylcholine agit sur des récepteurs nicotiniques des terminaisons dopaminergiques.
+
+Quand les chercheurs bloquent ces récepteurs, l'amplification liée aux récompenses coûteuses s'atténue fortement.
+
+Le mécanisme est local: l'effort passé modifie la manière dont une récompense identique est chimiquement signalée.
+
+L'expérience ne montre pas que souffrir rend heureux.
+
+Elle montre que le cerveau de la souris encode l'effort jusque dans la réponse neurochimique à la récompense.
+
+En juillet 2026, Eva Periche-Tomas, Masud Husain et leurs collègues replacent ce résultat dans un système plus large.
+
+Dopamine, acétylcholine, adénosine et autres systèmes neuromodulateurs participent à l'arbitrage entre coût et bénéfice.
+
+Dans la dépression ou la maladie de Parkinson, la mobilisation de l'effort peut s'altérer même lorsque la sensibilité à la récompense reste préservée.
+
+ULTRA®
+
+La donnée la plus importante n'est pas que "plus d'effort produit plus de dopamine".
+
+C'est l'endroit où l'effet se construit.
+
+L'activité des corps cellulaires dopaminergiques de l'aire tegmentale ventrale n'explique pas à elle seule l'amplification observée.
+
+Une partie du calcul est effectuée localement, au niveau des terminaisons dopaminergiques du noyau accumbens, sous contrôle cholinergique.
+
+La dopamine n'arrive donc pas comme un signal unique et intact.
+
+La valeur neurochimique d'un résultat peut être retravaillée au point d'arrivée selon l'effort qui l'a précédé.
+
+Chez l'humain, cette étude ne prouve pas que nous valorisons davantage tout ce qui nous coûte.
+
+Mais elle fournit un mécanisme crédible à une intuition ancienne: une récompense identique peut ne pas être identique pour le cerveau selon le chemin emprunté pour l'obtenir.
+
+DON GIOVANNI
+
+Nous finissons parfois par mesurer nos conquêtes à la dépense qu'elles ont exigée.
+
+Sources
+
+Touponse et al., Nature, 28 janvier 2026
+Periche-Tomas et al., Neuroscience &amp; Biobehavioral Reviews, juillet 2026
+Hauber, Reviews in the Neurosciences, juin 2026
+
+#Neurosciences #Dopamine #Motivation #Cognition #Effort #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517585453106176000/">Linkedin</source></item><item><title>Au Honduras, une information de santé a réorganisé les amitiés et les prêts pendant trois ans</title><link>https://voce.life/archive/2026/10/18/au-honduras-une-information-de-sante-a-reorganise-les-amities-et-les-pre-7517630772430794752</link><guid isPermaLink="true">https://voce.life/archive/2026/10/18/au-honduras-une-information-de-sante-a-reorganise-les-amities-et-les-pre-7517630772430794752</guid><author>VOCE Association</author><description>Au Honduras, une information de santé a réorganisé les amitiés et les prêts pendant trois ans
+
+110 villages isolés du Honduras.
+
+8.331 personnes.
+
+Pendant vingt-deux mois, certains foyers reçoivent régulièrement des informations de santé. Rien, au départ, ne cherche à modifier leurs relations sociales.
+
+Le 14 octobre 2026, Marios Papamichalis, Laura Forastiere, Edoardo Airoldi, Nicholas Christakis et leurs collègues publient dans Nature ce qui s'est pourtant produit.
+
+Dans les villages où seulement 5 à 30% des foyers reçoivent l'intervention, les participants traités rompent davantage certains liens avec des habitants non traités auxquels ils demandaient auparavant des conseils de santé.
+
+Ils forment ou conservent davantage de liens avec ceux qui ont reçu la même intervention.
+
+Lorsque 50 à 100% des foyers sont concernés, la dynamique change: les participants traités augmentent leurs liens.
+
+L'information n'a donc pas seulement modifié ce que les habitants savaient.
+
+Elle a modifié avec qui ils restaient liés.
+
+Et l'effet déborde la santé.
+
+Trois ans après la fin du programme, une partie de cette réorganisation persiste dans les amitiés et les relations financières.
+
+Le détail est considérable pour une entreprise, une administration ou une organisation internationale.
+
+Former 10% d'un groupe et en former 80% ne produit peut-être pas deux intensités du même programme.
+
+Cela peut produire deux architectures sociales différentes.
+
+ULTRA®
+
+La découverte centrale est un effet de dosage.
+
+À faible diffusion, une information nouvelle crée une asymétrie à l'intérieur du groupe. Les personnes qui l'ont reçue trouvent davantage de valeur dans les liens avec ceux qui partagent désormais le même référentiel, tandis que certains liens avec les non-traités se dissolvent.
+
+À forte diffusion, cette séparation s'atténue. Le nouveau savoir cesse d'identifier une minorité et devient davantage une infrastructure commune.
+
+L'analyse de médiation des auteurs va dans ce sens: l'absorption de l'information de santé augmente la probabilité de formation et de persistance de certains liens.
+
+Le plus surprenant est ailleurs.
+
+La distribution globale du nombre de liens dans les villages reste relativement stable.
+
+Le réseau peut donc conserver son apparence générale tout en changeant de personnes à l'intérieur.
+
+Pour un dirigeant, c'est une alerte précise: une transformation culturelle, réglementaire ou technologique peut réussir individuellement tout en déplaçant les circuits informels de confiance, d'influence et d'entraide.
+
+Le programme ne change pas seulement les compétences.
+
+Il peut changer qui parle à qui.
+
+TOCQUEVILLE
+
+Une société peut conserver sa forme tandis que ses liens changent silencieusement de direction.
+
+Sources
+
+Papamichalis, Forastiere, Airoldi et al., Nature, 14 octobre 2026
+Human Nature Lab, Yale University
+
+#Leadership #Gouvernance #Transformation #Societe #ReseauxSociaux #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517630772430794752/">Linkedin</source></item><item><title>Un souvenir oublié peut revenir faux: l'expérience qui sépare mémoire silencieuse et reconstruction</title><link>https://voce.life/archive/2026/10/17/un-souvenir-oublie-peut-revenir-faux-l-experience-qui-separe-memoire-sil-7517268359571337216</link><guid isPermaLink="true">https://voce.life/archive/2026/10/17/un-souvenir-oublie-peut-revenir-faux-l-experience-qui-separe-memoire-sil-7517268359571337216</guid><author>VOCE Association</author><description>Un souvenir oublié peut revenir faux: l'expérience qui sépare mémoire silencieuse et reconstruction
 
 30 juillet 2026.
 
@@ -1755,1115 +3079,4 @@ Sources 2026
 Gottweis et al., Nature, 19 mai
 Google DeepMind, Co-Scientist, 19 mai
 
-#AgenticAI #ResearchIntegrity #ScientificGovernance #AIGovernance #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516815402128175104/">Linkedin</source></item><item><title>Digits: plus de 96% de ses transactions sont désormais comptabilisées sans intervention manuelle</title><link>https://voce.life/archive/2026/10/16/digits-plus-de-96-de-ses-transactions-sont-desormais-comptabilisees-sans-7516770096036450304</link><guid isPermaLink="true">https://voce.life/archive/2026/10/16/digits-plus-de-96-de-ses-transactions-sont-desormais-comptabilisees-sans-7516770096036450304</guid><author>VOCE Association</author><description>Digits: plus de 96% de ses transactions sont désormais comptabilisées sans intervention manuelle
-
-8 juin 2026.
-
-Digits présente "Agentic Close", une architecture où le grand livre ne se contente plus d'attendre le comptable.
-
-Il travaille en continu.
-
-Flux bancaires, fournisseurs, catégories, rapprochements et contrôles sont traités au fil de l'eau. Les cas incertains remontent à l'humain.
-
-En septembre, Digits indique que plus de 96% des transactions de ses livres clients sont devenues des "Zero-Touch Transactions": elles sont catégorisées et comptabilisées sans action comptable manuelle.
-
-C'est une mesure publiée par Digits, pas un audit indépendant. Elle ne signifie pas que 96% d'une comptabilité annuelle est autonome.
-
-Mais elle mesure déjà autre chose qu'une simple suggestion IA.
-
-Digits affirme avoir entraîné ses modèles spécialisés sur 180 millions de transactions représentant près de 1.000 milliards de dollars d'activité financière.
-
-Son Agentic General Ledger agit directement dans le système de tenue des comptes. Les opérations à forte confiance sont enregistrées; les exceptions sont dirigées vers le professionnel.
-
-Le close devient un flux permanent d'exécution et de contrôle.
-
-ULTRA® 
-
-96% D'AUTOMATISATION N'EST PAS 97,8% DE PRÉCISION
-
-Les deux chiffres mesurent des choses différentes.
-
-Les plus de 96% correspondent aux transactions réelles traitées sans intervention manuelle.
-
-Le benchmark 2026 à 97,8% mesure uniquement la précision de catégorisation face à une vérité terrain établie par des comptables américains appliquant les GAAP.
-
-Digits combine modèles spécialisés, contexte propre au client et au cabinet, agents de secours et vérification intégrée. Certaines écritures complexes conservent une approbation humaine.
-
-Intuit suit une direction voisine dans QuickBooks: Accounting AI peut poster automatiquement certaines transactions jugées suffisamment sûres et aider au rapprochement.
-
-La concurrence porte désormais sur la quantité de travail exécutée avant qu'un humain n'intervienne.
-
-LI!GHT WORKFORCE ©
-
-Pour un cabinet, l'effet économique est direct.
-
-Si catégorisation, rapprochement, vérification et posting deviennent continus, un même professionnel peut superviser davantage de dossiers.
-
-Le KPI décisif n'est pourtant pas le nombre de transactions automatisées, mais le coût complet par dossier correctement tenu après exceptions et supervision.
-
-Digits reste limité aux entreprises américaines utilisant des banques américaines et le dollar.
-
-La light workforce comptable existe donc déjà, dans un périmètre précis.
-
-SCARPIA
-
-Le travail change réellement lorsque le logiciel passe l'écriture et ne demande l'humain qu'en cas d'exception.
-
-Sources 2026
-
-Digits, "Introducing the Agentic Close", 8 juin
-Digits, Zero-Touch Transactions, septembre
-Digits, benchmark AGL, 5 octobre
-Intuit, Accounting AI, 9 octobre
-
-#Digits #Accounting #AgenticAI #LightWorkforce #FinanceTransformation #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516770096036450304/">Linkedin</source></item><item><title>Digits automatise déjà 96% des écritures comptables sans intervention humaine</title><link>https://voce.life/archive/2026/10/16/digits-automatise-deja-96-des-ecritures-comptables-sans-intervention-hum-7516770095608750080</link><guid isPermaLink="true">https://voce.life/archive/2026/10/16/digits-automatise-deja-96-des-ecritures-comptables-sans-intervention-hum-7516770095608750080</guid><author>VOCE Association</author><description>Digits automatise déjà 96% des écritures comptables sans intervention humaine
-
-En juin 2026, une entreprise américaine, Digits, présente un logiciel qui remet en question l'organisation même des services comptables.
-
-Son produit, "Agentic Close", ne se contente plus d'assister un comptable dans son travail.
-
-Il réalise une partie de ce travail sans attendre qu'on le lui demande.
-
-Le système récupère les transactions bancaires, identifie les fournisseurs, sélectionne les comptes comptables et rapproche les opérations avec leurs justificatifs.
-
-Selon Digits, plus de 96% des transactions sont comptabilisées sans intervention manuelle.
-
-Derrière ce résultat se trouve une architecture inhabituelle.
-
-Digits a entraîné ses modèles spécialisés sur 180 millions de transactions représentant près de 1.000 milliards de dollars d'activité financière.
-
-Contrairement aux assistants conversationnels qui interprètent des instructions, son "Agentic General Ledger" travaille directement à l'intérieur du grand livre comptable.
-
-Lorsqu'une facture arrive, le logiciel peut identifier la dépense, enregistrer l'opération et vérifier sa cohérence avec les mouvements bancaires.
-
-Les contrôles s'exécutent continuellement.
-
-L'entreprise n'attend plus la fin du mois pour découvrir les écarts accumulés.
-
-Le comptable reçoit principalement les opérations incertaines ou inhabituelles.
-
-Cette évolution intervient alors qu'Intuit déploie également son "Accounting AI" dans QuickBooks, avec des fonctions de catégorisation automatique, de rapprochement et de détection des anomalies.
-
-La concurrence commence ainsi à porter sur la quantité de travail comptable que le logiciel peut exécuter sans assistance.
-
-Pour une petite entreprise, la conséquence économique pourrait devenir considérable: une comptabilité courante largement automatisée, avec un professionnel intervenant ponctuellement pour les contrôles, la fiscalité et les décisions complexes.
-
-Digits reste toutefois limité aux comptes bancaires américains et au dollar. Sa technologie ne dispense pas des obligations comptables ou fiscales nationales.</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516770095608750080/">Linkedin</source></item><item><title>Deloitte trace la route vers le closing autonome. SAP en confie déjà des étapes à ses agents</title><link>https://voce.life/archive/2026/10/16/deloitte-trace-la-route-vers-le-closing-autonome-sap-en-confie-deja-des-7516739868908199936</link><guid isPermaLink="true">https://voce.life/archive/2026/10/16/deloitte-trace-la-route-vers-le-closing-autonome-sap-en-confie-deja-des-7516739868908199936</guid><author>VOCE Association</author><description>Deloitte trace la route vers le closing autonome. SAP en confie déjà des étapes à ses agents
-
-Pendant des décennies, la finance a vécu avec une anomalie devenue normale.
-
-L'entreprise fonctionne chaque jour. Mais ses comptes ne deviennent réellement lisibles qu'après une compression en fin de période: rapprochements, provisions, intercompany, écritures, contrôles.
-
-Le 24 septembre 2026, Deloitte consacre un programme à "The Intelligent Close". La destination affichée va au-delà de l'automatisation: un "autonomous close ecosystem".
-
-SAP en matérialise déjà certaines briques.
-
-Son Financial Closing Assistant orchestre des agents capables de rapprocher créances et dettes, comptabiliser des provisions, détecter des anomalies d'actifs, revoir le grand livre, rapprocher l'intercompany et préparer certaines écritures.
-
-L'utilisateur choisit encore leur niveau d'engagement.
-
-Le logiciel comptable n'enregistre plus seulement le travail du comptable. Il commence à organiser et exécuter une partie du closing.
-
-PwC décrit le passage du reporting périodique à la "continuous intelligence": les agents exécutent, les humains gouvernent et la décision devient auditable plus près de l'événement économique.
-
-ULTRA® 
-
-LE CONTRÔLE DOIT SUIVRE L'ACTION
-
-Le risque apparaît lorsque le même environnement peut détecter une anomalie, recommander la correction puis participer à son exécution.
-
-Les architectures de contrôle séparaient précisément ces pouvoirs.
-
-SAP annonce des agents pour le financial close, la trésorerie, le billing, la fiscalité et les créances. Plusieurs restent en déploiement ou prévus pour 2027.
-
-Oracle pousse la même logique avec son Payables Period Close Workspace: l'application agentique identifie les blocages, hiérarchise les exceptions, propose l'étape suivante et peut faire progresser la clôture selon procédures, droits et confirmations définis par l'entreprise.
-
-"Human in the loop" ne suffit donc plus.
-
-Il faut savoir quelle identité peut observer, proposer, comptabiliser, approuver, exécuter ou bloquer.
-
-LI!GHT WORKFORCE ©
-
-Le closing concentre historiquement beaucoup de travail humain sur quelques jours.
-
-Si les anomalies sont surveillées et résolues en continu, ce pic peut diminuer.
-
-La light workforce finance ne vient pas seulement d'une écriture automatisée. Elle vient de la réduction progressive de la main-d'œuvre nécessaire pour absorber les exceptions.
-
-La finance devient plus légère dans l'exécution et plus exigeante dans le contrôle.
-
-SCARPIA
-
-Le pouvoir financier ne sera plus seulement de produire le chiffre, mais de prouver qui l'a produit, pourquoi et avec quelle autorité.
-
-Sources 2026
-
-Deloitte, "The Intelligent Close", 24 septembre
-SAP, Financial Closing Assistant, 11 mai
-SAP Connect, octobre
-PwC, "Finance function reimagined and trust in AI", 5 août
-Oracle Fusion Cloud Financials 26D
-
-#Finance #CFO #AgenticAI #Accounting #AIGovernance #LightWorkforce #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516739868908199936/">Linkedin</source></item><item><title>Accesso Passport: un musée peut internaliser sa billetterie sans reconstruire toute l'infrastructure</title><link>https://voce.life/archive/2026/10/16/accesso-passport-un-musee-peut-internaliser-sa-billetterie-sans-reconstr-7516845604593995777</link><guid isPermaLink="true">https://voce.life/archive/2026/10/16/accesso-passport-un-musee-peut-internaliser-sa-billetterie-sans-reconstr-7516845604593995777</guid><author>VOCE Association</author><description>Accesso Passport: un musée peut internaliser sa billetterie sans reconstruire toute l'infrastructure
-
-Un musée ne doit plus nécessairement confier toute sa relation visiteur à une seule société de billetterie.
-
-Accesso Passport montre pourquoi.
-
-Développé par accesso Technology Group, société britannique cotée à Londres, Passport est une plateforme SaaS qui gère tickets, pass, parking, prix et capacités.
-
-En 2026, un détail devient stratégique: Passport dispose d'une Open API complète permettant de construire des boutiques et applications mobiles personnalisées.
-
-L'institution peut donc conserver sa propre interface tandis que Passport fonctionne derrière elle comme moteur transactionnel.
-
-Pour les musées, l'écosystème accesso relie admissions, memberships, donations, retail et restauration. Ingresso distribue l'inventaire vers des OTA tout en synchronisant prix et disponibilités.
-
-La billetterie cesse d'être nécessairement la vitrine.
-
-Elle devient une couche.
-
-Le 30 mars 2026, accesso rachète Dexibit et lance accesso Intelligence, qui agrège les données de ticketing, memberships, F&amp;B, retail, parking et opérations.
-
-Le 22 septembre, cette couche devient agentique: un responsable peut demander de surveiller une performance, rechercher une variation, construire une prévision ou générer un rapport, puis transformer cette demande en workflow récurrent.
-
-ULTRA® 
-
-LE MARCHÉ PEUT ÊTRE DÉCOMPOSÉ
-
-En février, accesso renforce aussi son partenariat avec Adyen pour intégrer le paiement à son écosystème, tout en laissant aux clients la possibilité d'utiliser d'autres prestataires.
-
-Interface, moteur de vente, distribution, paiement et intelligence peuvent donc devenir des briques distinctes.
-
-Pour un musée, la question devient: quelles couches voulons-nous posséder, lesquelles acheter et lesquelles doivent rester substituables?
-
-Pour une institution publique, les règles de commande publique subsistent. Mais l'objet du marché peut changer si l'établissement conserve lui-même certaines couches de l'architecture.
-
-LI!GHT WORKFORCE ©
-
-accesso Intelligence déplace aussi le back-office.
-
-Surveiller les ventes, détecter une anomalie, produire une prévision ou distribuer un reporting peut devenir un workflow récurrent exécuté par un agent.
-
-La light workforce apparaît lorsqu'une partie du travail intermédiaire de revenue management, ticketing et opérations devient une capacité logicielle permanente.
-
-FIGARO
-
-La souveraineté ne consiste pas à tout construire soi-même. Elle commence lorsqu'aucun fournisseur ne possède à lui seul l'interface, la donnée et la décision.
-
-Sources 2026
-
-accesso Technology Group, Annual Report &amp; Accounts 2025
-accesso, acquisition de Dexibit, 30 mars
-accesso Intelligence, Agentic AI, 22 septembre
-accesso, Museums; Passport; Ingresso
-accesso-Adyen, 10 février
-
-#Ticketing #Museums #CulturalInstitutions #AgenticAI #LightWorkforce #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516845604593995777/">Linkedin</source></item><item><title>À Bengola, une rivière actionnait déjà le marteau d'une forge au XIIIe siècle</title><link>https://voce.life/archive/2026/10/16/a-bengola-une-riviere-actionnait-deja-le-marteau-d-une-forge-au-xiiie-si-7516936207981989888</link><guid isPermaLink="true">https://voce.life/archive/2026/10/16/a-bengola-une-riviere-actionnait-deja-le-marteau-d-une-forge-au-xiiie-si-7516936207981989888</guid><author>VOCE Association</author><description>À Bengola, une rivière actionnait déjà le marteau d'une forge au XIIIe siècle
-
-Gerrikaitz, Biscaye.
-
-Sous un ancien moulin, les archéologues retrouvent un atelier médiéval: foyer de réduction, enclume, sols de scories et fondation d'un petit martinet relié à une installation hydraulique.
-
-La datation place cette première ferrerie dans le dernier quart du XIIIe siècle.
-
-C'est, à ce jour, la plus ancienne preuve archéologique connue au Pays basque de l'emploi de l'énergie hydraulique dans la métallurgie.
-
-Le détail change l'image du forgeron médiéval.
-
-À Bengola, le bras humain n'assure déjà plus chaque frappe.
-
-L'eau est captée, conduite vers une roue, puis son mouvement transmis à un arbre à cames qui soulève le marteau avant de le laisser retomber sur le fer incandescent.
-
-La puissance musculaire devient infrastructure.
-
-Mais la fouille révèle une transition plus rare encore.
-
-Dans ce premier atelier, les archéologues identifient le martinet hydraulique, mais aucune trace certaine des installations associées aux soufflets.
-
-De l'autre côté du canal, une seconde ferrerie datée de la seconde moitié du XVe ou du début du XVIe siècle possède un nouveau martinet, un four et l'espace très remanié où se trouvaient les soufflets.
-
-Les chercheurs proposent donc une mécanisation progressive: d'abord le marteau, puis probablement l'air nécessaire au four.
-
-La sidérurgie change alors de géographie.
-
-Les anciennes haizeolak travaillaient sur les hauteurs. Les ferreries hydrauliques descendent vers les cours d'eau.
-
-Le minerai et le charbon peuvent être transportés. La force de la rivière, elle, impose l'emplacement de l'atelier.
-
-En 1328, le Fuero de Ferrerías d'Oiartzun et Irun mentionne déjà barrages, roues et moulins associés aux ferreries.
-
-La technologie est devenue assez importante pour entrer dans le droit.
-
-ULTRA® 
-
-L'AUTOMATISATION COMMENCE AVANT L'USINE
-
-Bengola montre une forme d'automatisation vieille de plus de sept siècles.
-
-Pas parce que la machine remplace le forgeron.
-
-Parce qu'un geste humain cesse d'être nécessaire à chaque cycle.
-
-Une fois l'eau captée, la roue tourne, l'arbre transmet l'énergie et le martinet frappe à nouveau.
-
-L'effort quitte le corps et devient une propriété du site.
-
-Le travail humain se déplace vers le foyer, le contrôle du métal, l'entretien de la machine et l'organisation du flux.
-
-L'industrie ne naît peut-être pas lorsque l'homme travaille plus vite.
-
-Elle commence lorsqu'une partie du travail continue sans que son corps fournisse chaque mouvement.
-
-SIEGFRIED
-
-Une invention change d'époque lorsqu'elle commence à déplacer les ateliers, les métiers et les cartes.
-
-Sources
-
-Iñaki García Camino, Kobie, Diputación Foral de Bizkaia, 2026
-Gobierno Vasco, Ferrería-Museo de Bengolea
-Luis María Bilbao Bilbao, Studia Historica: Historia Moderna
-Fuero de Ferrerías d'Oiartzun et Irun, 1328
-
-#PaysBasque #Archeologie #Metallurgie #Histoire #Innovation #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516936207981989888/">Linkedin</source></item><item><title>SWOT révèle des vagues internes qui déplacent la thermocline de 80 mètres</title><link>https://voce.life/archive/2026/10/15/swot-revele-des-vagues-internes-qui-deplacent-la-thermocline-de-80-metre-7516513431454179328</link><guid isPermaLink="true">https://voce.life/archive/2026/10/15/swot-revele-des-vagues-internes-qui-deplacent-la-thermocline-de-80-metre-7516513431454179328</guid><author>VOCE Association</author><description>SWOT révèle des vagues internes qui déplacent la thermocline de 80 mètres
-
-À la surface de l'Atlantique, quelques centimètres peuvent cacher un déplacement de 80 mètres en profondeur.
-
-Le 31 janvier 2026, V. Cheshm Siyahi, V. Kudryavtsev, Bertrand Chapron et Fabrice Collard publient dans Earth and Space Science une analyse des mesures du satellite franco-américain SWOT.
-
-Au large de l'Amazone, dans les mers indonésiennes et près des Mascareignes, SWOT détecte des ondes internes longues de 3 à 50 km. Leur signature de hauteur de mer atteint plusieurs centimètres, parfois près de 20.
-
-À partir de cette déformation minuscule et d'un modèle de stratification à trois couches, les chercheurs reconstruisent des déplacements de thermocline atteignant 80 mètres.
-
-Le satellite ne mesure pas directement ces 80 mètres.
-
-Il observe la surface et en déduit ce qui se passe dessous.
-
-Le 17 février, une seconde étude suit des ondes internes au large du plateau amazonien.
-
-Lorsqu'elles rencontrent un tourbillon cyclonique, leur trajectoire peut dévier d'environ 50°. Près d'un tourbillon anticyclonique, elles peuvent se séparer en deux branches.
-
-L'océan profond possède donc une géométrie mobile capable de rediriger des vagues invisibles depuis un navire.
-
-ULTRA® | QUAND UNE VAGUE DEVIENT DU MÉLANGE
-
-Les ondes internes naissent notamment lorsque marées ou courants rencontrent un relief sous-marin dans un océan stratifié.
-
-SWOT utilise KaRIn, un radar interférométrique dont deux antennes séparées par un mât de 10 mètres mesurent la topographie de surface avec une résolution inhabituelle.
-
-Mais l'enjeu climatique apparaît lorsque l'énergie des ondes se dissipe.
-
-En mai 2026, Dinora Garcia Santacruz et ses collègues analysent la turbulence dans l'Atlantique Nord.
-
-Près de la dorsale médio-atlantique, les taux de dissipation atteignent environ 10⁻⁸ W/kg, jusqu'à deux ordres de grandeur au-dessus de valeurs typiques de l'intérieur océanique.
-
-Le modèle IDEMIX reproduit mieux certaines observations profondes lorsqu'il inclut les ondes de sillage créées par les courants sur la topographie.
-
-Cela ne signifie pas que les ondes internes accélèrent globalement le réchauffement.
-
-Elles participent au brassage qui redistribue chaleur, nutriments et énergie, et dont la représentation reste imparfaite dans les modèles.
-
-Le défi est de savoir où l'énergie d'une onde devient réellement turbulence.
-
-PROSERPINA
-
-Nous croyons connaître la mer parce que nous voyons sa surface.
-
-Sources 2026
-
-Cheshm Siyahi et al., Earth and Space Science, 31 janvier
-Goret et al., Ocean Science, 17 février
-Garcia Santacruz et al., JGR: Oceans, 10 mai
-CNES/NASA, mission SWOT
-
-#SWOT #Oceanographie #Climat #OndesInternes #Science #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516513431454179328/">Linkedin</source></item><item><title>Schiaparelli: quand le luxe immobilise 8.000 heures de travail dans une seule robe</title><link>https://voce.life/archive/2026/10/15/schiaparelli-quand-le-luxe-immobilise-8-000-heures-de-travail-dans-une-s-7516558695875440640</link><guid isPermaLink="true">https://voce.life/archive/2026/10/15/schiaparelli-quand-le-luxe-immobilise-8-000-heures-de-travail-dans-une-s-7516558695875440640</guid><author>VOCE Association</author><description>Schiaparelli: quand le luxe immobilise 8.000 heures de travail dans une seule robe
-
-Londres.
-
-En 1938, Elsa Schiaparelli présente une robe noire dont le squelette semble sortir du corps.
-
-Les côtes ne sont pas imprimées. Elles sont construites dans le vêtement.
-
-La Skeleton Dress, conçue avec Salvador Dalí, est aujourd'hui exposée au V&amp;A dans "Schiaparelli: Fashion Becomes Art", première exposition britannique entièrement consacrée à la maison.
-
-Un an plus tôt, Schiaparelli travaille avec Jean Cocteau sur un manteau du soir.
-
-Au dos, deux profils féminins se font face. Maison Lesage traduit le dessin en broderie. Selon l'endroit où l'œil se fixe, les visages deviennent aussi une urne remplie de roses.
-
-Le manteau appartenait à Doris Castlerosse, figure de la haute société britannique liée à Winston Churchill.
-
-Schiaparelli avait compris une mécanique que le luxe cherche toujours à maîtriser: l'objet reste en mémoire lorsqu'il oblige le regard à vérifier ce qu'il vient de voir.
-
-La maison actuelle pousse cette logique jusqu'au temps de fabrication.
-
-Pour la haute couture printemps-été 2026, une robe noire reçoit 65.000 plumes de soie sauvage brodées dans 27 nuances de bleu.
-
-Temps de travail annoncé: environ 8.000 heures.
-
-Une autre robe associe cristaux fumés et 690 coquillages naturels.
-
-Plus de 4.000 heures de broderie.
-
-ULTRA® 
-
-LE LUXE COMME CAPACITÉ INDUSTRIELLE RARE
-
-À ce niveau, 8.000 heures ne sont pas seulement un coût.
-
-Elles constituent une contrainte de capacité.
-
-La Fédération de la Haute Couture et de la Mode lie explicitement l'agrément Haute Couture à "l'intelligence de la main", à la personnalisation et au savoir-faire des ateliers.
-
-On peut augmenter un budget média ou ouvrir une boutique plus vite qu'on ne forme les personnes capables d'exécuter cette couture.
-
-C'est une différence économique majeure avec les catégories produites en volumes supérieurs.
-
-La rareté la plus défendable n'est alors pas celle que la marque décrète. Elle naît du nombre limité de mains capables de reproduire le geste, du temps qu'elles immobilisent et de la transmission nécessaire pour qu'elles existent encore demain.
-
-La technologie peut aider à prévoir, documenter ou organiser cette capacité. Elle ne raccourcit pas automatiquement les gestes sans modifier l'objet qu'ils produisent.
-
-Schiaparelli rappelle ainsi une règle simple du luxe: certaines valeurs cessent d'exister dès qu'on cherche à les industrialiser trop vite.
-
-TOSCA
-
-Le vrai luxe commence parfois là où l'accélération détruirait précisément ce que l'on cherche à vendre.
-
-Sources
-
-Victoria and Albert Museum, "Schiaparelli: Fashion Becomes Art".
-Schiaparelli, Haute Couture printemps-été 2026, Looks 19 et 26
-Fédération de la Haute Couture et de la Mode
-
-#Schiaparelli #HauteCouture #Luxe #SavoirFaire #VAMuseum #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516558695875440640/">Linkedin</source></item><item><title>Salesforce Agentforce: l'assuré peut déclarer un sinistre sans qu'aucun salarié ne prenne l'appel</title><link>https://voce.life/archive/2026/10/15/salesforce-agentforce-l-assure-peut-declarer-un-sinistre-sans-qu-aucun-s-7516347283248951296</link><guid isPermaLink="true">https://voce.life/archive/2026/10/15/salesforce-agentforce-l-assure-peut-declarer-un-sinistre-sans-qu-aucun-s-7516347283248951296</guid><author>VOCE Association</author><description>Salesforce Agentforce: l'assuré peut déclarer un sinistre sans qu'aucun salarié ne prenne l'appel
-
-Un automobiliste appelle après un accident.
-
-Personne ne décroche.
-
-Le 12 octobre 2026, Salesforce lance Winter '27. Une fonction doit commencer son déploiement la semaine du 19 octobre: Claims Service Customer Assistance.
-
-Cet agent vocal permet à un assuré d'effectuer le First Notice of Loss, la déclaration initiale qui ouvre le traitement du sinistre, sans conseiller au téléphone.
-
-Il vérifie l'identité, valide les données de police, recueille les circonstances puis crée automatiquement les enregistrements claim et case. Il peut proposer l'envoi d'un récapitulatif par e-mail.
-
-Salesforce annonce le dispositif sur six lignes d'assurance.
-
-Le changement dépasse le chatbot.
-
-L'IA ne se contente plus d'expliquer une procédure. Elle écrit dans les objets métier qui déclenchent la suite du processus.
-
-ULTRA® 
-
-LE LLM COMPREND, LE WORKFLOW EXÉCUTE
-
-L'architecture sépare deux fonctions.
-
-Agentforce Voice interprète un récit libre comme:"J'ai heurté une voiture en sortant du parking."
-
-La couche assurance et les actions Salesforce vérifient ensuite les données disponibles et exécutent les opérations prévues par le workflow.
-
-Cette frontière est essentielle. Comprendre une phrase est probabiliste. Créer un dossier conforme au modèle de données, aux permissions et aux règles de l'assureur doit rester contrôlé.
-
-L'humain n'est pas supprimé du parcours. L'assuré peut demander un rappel à tout moment. Après création du sinistre, l'agent propose encore un callback avant de terminer.
-
-Salesforce facture Agentforce à l'usage: 100.000 Flex Credits coûtent 500 € au tarif affiché en Europe. Une action standard consomme 20 crédits, une action Voice 30. Le coût réel d'un FNOL dépend donc du nombre d'actions exécutées, pas seulement de la durée de l'appel.
-
-LI!GHT WORKFORCE ©
-
-AGENT: Claims Service Customer Assistance
-SOCIÉTÉ: Salesforce
-PLATEFORME: Agentforce for Financial Services
-
-Le travail absorbé concerne l'identification, la collecte initiale, la validation des données de police et la création du dossier.
-
-Restent aux humains les situations où l'incertitude devient métier: fraude, responsabilité, expertise, litiges, exceptions et relation avec un assuré en détresse.
-
-Pour l'assureur, le FNOL cesse progressivement d'être une capacité de centre d'appels disponible seulement lorsqu'un salarié prend la ligne.
-
-Il devient un workflow logiciel accessible 24/7, avec escalade humaine intégrée.
-
-Sources
-
-Salesforce, Winter '27 Release, 12 octobre 2026
-Salesforce Help, "Simplify Claim Filing for Policyholders with an AI Agent"
-Salesforce, Agentforce Pricing, octobre 2026
-
-#Salesforce #Insurance #Agentforce #AgentsIA #FutureOfWork #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516347283248951296/">Linkedin</source></item><item><title>Quand un choix nous avantage, son coût pour les autres nous paraît plus faible</title><link>https://voce.life/archive/2026/10/15/quand-un-choix-nous-avantage-son-cout-pour-les-autres-nous-parait-plus-f-7516573823346008064</link><guid isPermaLink="true">https://voce.life/archive/2026/10/15/quand-un-choix-nous-avantage-son-cout-pour-les-autres-nous-parait-plus-f-7516573823346008064</guid><author>VOCE Association</author><description>Quand un choix nous avantage, son coût pour les autres nous paraît plus faible
-
-Vous devez choisir entre deux options.
-
-La première vous rapporte davantage. La seconde vous coûte quelque chose mais bénéficie davantage à une autre personne.
-
-Votre propre gain est certain.
-
-Ce que l'autre recevra reste donné sous forme d'intervalle.
-
-En octobre 2026, Marius Vollberg et Jörg Gross publient dans Nature Human Behaviour neuf expériences préenregistrées réunissant 8.769 adultes, principalement aux États-Unis.
-
-Le résultat est inconfortable.
-
-Les participants qui choisissent l'option la plus avantageuse pour eux tendent ensuite à rapprocher les conséquences sociales des deux options. Le coût de leur choix pour l'autre paraît moindre.
-
-Dans l'expérience 1a, l'écart atteint b=0,24, IC95%:0,14-0,34.
-
-Les participants prosociaux déforment eux aussi les conséquences, mais dans l'autre direction: leur décision leur paraît relativement plus bénéfique pour autrui et leur sacrifice plus important.
-
-On pourrait y voir une justification après coup.
-
-Les chercheurs testent précisément cette hypothèse.
-
-La distorsion apparaît déjà lorsque les conséquences sont estimées avant le choix. Elle persiste aussi lorsque le choix est imposé.
-
-La préférence semble donc pouvoir influencer l'interprétation avant même qu'une décision ait besoin d'être défendue.
-
-ULTRA® 
-
-QUAND UNE PRÉFÉRENCE DEVIENT UNE VERSION DU RÉEL
-
-L'architecture expérimentale sépare volontairement deux informations.
-
-Le gain personnel est connu exactement. L'effet sur autrui reste incertain.
-
-Cette ambiguïté crée un espace où la préférence sociale peut influencer l'estimation sans qu'aucun mensonge explicite soit nécessaire.
-
-L'expérience 6 ajoute un mécanisme collectif.
-
-De nouveaux participants découvrent l'interprétation formulée par quelqu'un d'autre. Lorsqu'elle minimise le coût social d'un choix intéressé, ils l'adoptent davantage et deviennent eux-mêmes plus susceptibles de choisir l'option égoïste.
-
-Face à l'absence de distorsion, l'effet sur le choix atteint b=0,49, IC95%:0,10-0,88.
-
-La distorsion prosociale ne produit pas d'effet comportemental symétrique.
-
-Pour une organisation, le risque devient considérable.
-
-Une hypothèse avantageuse peut entrer dans une note, être reprise dans une présentation puis devenir la prémisse du décideur suivant.
-
-Elle finit par ressembler à une propriété du réel alors qu'elle est née dans l'incertitude d'une préférence.
-
-La préférence individuelle a quitté l'individu.
-
-Elle est devenue infrastructure cognitive.
-
-IAGO
-
-Une décision peut commencer à nous appartenir avant même que nous ayons fini de regarder ce qu'elle fera aux autres.
-
-Sources
-
-Vollberg &amp; Gross, Nature Human Behaviour, 1er octobre 2026
-Nature Human Behaviour, Research Briefing, 12 octobre 2026
-
-#Cognition #Decision #Psychologie #Gouvernance #ComportementHumain #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516573823346008064/">Linkedin</source></item><item><title>PyroThin: l'aérogel à 97% d'air qui ralentit la propagation du feu dans une batterie</title><link>https://voce.life/archive/2026/10/15/pyrothin-l-aerogel-a-97-d-air-qui-ralentit-la-propagation-du-feu-dans-un-7516392619040546816</link><guid isPermaLink="true">https://voce.life/archive/2026/10/15/pyrothin-l-aerogel-a-97-d-air-qui-ralentit-la-propagation-du-feu-dans-un-7516392619040546816</guid><author>VOCE Association</author><description>PyroThin: l'aérogel à 97% d'air qui ralentit la propagation du feu dans une batterie
-
-Dans une batterie électrique, quelques millimètres d'une matière presque vide peuvent empêcher une cellule en feu d'entraîner ses voisines.
-
-Aspen Aerogels commercialise cette barrière sous le nom PyroThin.
-
-Son cœur utilise un aérogel de silice: une structure dont environ 97% du volume est constitué d'air piégé dans un réseau nanoporeux.
-
-Lorsqu'une cellule lithium-ion entre en emballement thermique, elle libère brutalement chaleur et gaz. Si cette énergie atteint les cellules adjacentes, la défaillance peut se propager au module puis au pack.
-
-PyroThin s'intercale entre les cellules pour ralentir ce transfert.
-
-Aspen fournit aujourd'hui des pièces de série à General Motors, Toyota et Automotive Cells Company, coentreprise de Stellantis, Mercedes-Benz et Saft-TotalEnergies. Le groupe a aussi signé des programmes avec Scania, Audi et Volvo Truck.
-
-Le matériau remplit une seconde fonction: absorber les variations d'épaisseur des cellules pendant les cycles de charge et leur vieillissement.
-
-ULTRA® 
-
-97% D'AIR NE SIGNIFIE PAS 97% POUR CHAQUE PIÈCE
-
-Le chiffre de 97% décrit l'aérogel de silice, pas nécessairement l'ensemble composite PyroThin.
-
-Dans les nanopores, les molécules gazeuses transportent difficilement la chaleur. La faible quantité de solide limite aussi la conduction.
-
-Cette architecture permet une barrière mince sans rendre la batterie ininflammable. L'objectif est de contenir ou retarder la propagation d'un emballement thermique.
-
-La performance dépend donc du pack complet: chimie des cellules, géométrie, refroidissement, chemins conducteurs et évacuation des gaz.
-
-FINVOCE © 
-
-LA TECHNOLOGIE A RÉUSSI, LE MARCHÉ RESTE VOLATIL
-
-Aspen Aerogels est cotée au NYSE sous le symbole ASPN.
-
-Les ventes de PyroThin sont passées de 110,1 M$ en 2023 à 306,8 M$ en 2024, puis 168,9 M$ en 2025, principalement auprès de GM.
-
-En 2022, Koch Strategic Platforms avait investi 150 M$ pour soutenir cette activité. Le 23 septembre 2026, son véhicule Wood River Capital a vendu ses 12,28 millions d'actions restantes pour 58,1 M$ et quitté le capital.
-
-Aspen avait déjà arrêté en 2025 son projet de deuxième usine en Géorgie. Son financement comprend une facilité MidCap avec 125 M$ de term loan et jusqu'à 100 M$ de revolving.
-
-La technologie a donc franchi la production automobile de série. Son économie reste dépendante du rythme réel d'électrification et des volumes commandés par quelques grands constructeurs.
-
-BRÜNNHILDE
-
-Dans une matière presque vide, l'ingénierie a construit du temps entre une cellule qui brûle et celle qui pourrait suivre.
-
-Sources
-
-Aspen Aerogels, 10-K/10-Q et documentation PyroThin
-SEC, Wood River Capital, septembre 2026
-Aspen Aerogels, Koch Strategic Platforms, 2022
-
-#PyroThin #Aerogel #Batteries #Materiaux #FINVOCE #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516392619040546816/">Linkedin</source></item><item><title>NVIDIA E HUAWEI: LA CINA CAMBIA IL METRO DEL CALCOLO</title><link>https://voce.life/archive/2026/10/15/nvidia-e-huawei-la-cina-cambia-il-metro-del-calcolo-7516332190344036352</link><guid isPermaLink="true">https://voce.life/archive/2026/10/15/nvidia-e-huawei-la-cina-cambia-il-metro-del-calcolo-7516332190344036352</guid><author>VOCE Association</author><description>NVIDIA E HUAWEI: LA CINA CAMBIA IL METRO DEL CALCOLO
-
-ATTO I
-
-13 octobre 2026.
-
-IDC publie un chiffre qui change la lecture de la guerre des puces.
-
-Au premier semestre, Nvidia représente 34% des accélérateurs IA livrés aux centres de données chinois. Huawei atteint 28%.
-
-Nvidia en livre 678.000, -44% sur un an. Huawei atteint 572.000 unités.
-
-Les restrictions américaines ont réduit l'accès de Nvidia au marché chinois avec ses puces les plus avancées.
-
-Mais le déplacement le plus important apparaît ailleurs.
-
-ATTO II
-
-Sur 2,008 millions d'accélérateurs livrés en Chine, les GPU reculent de 26%, à 991.000 unités.
-
-Les architectures non-GPU progressent de 80% et deviennent majoritaires.
-
-Cette catégorie regroupe plusieurs technologies. Elle ne signifie pas qu'un standard unique remplace le GPU.
-
-IDC observe surtout que les acheteurs chinois regardent davantage la performance du système complet que celle d'une puce isolée.
-
-Un cluster dépend de la mémoire et de l'interconnexion. Son rendement dépend aussi du logiciel et du taux réel d'utilisation des accélérateurs.
-
-Une puce moins puissante individuellement peut rester compétitive si des milliers d'unités travaillent efficacement ensemble.
-
-Huawei pousse cette logique avec Ascend, CANN et ses SuperPoD, conçus pour rapprocher calcul et mémoire à l'échelle du système.
-
-CUDA conserve à Nvidia un avantage logiciel majeur.
-
-FINALE
-
-Dans "Turandot", Calaf comprend que résoudre l'énigme ne suffit pas à posséder le royaume.
-
-Le meilleur processeur compte.
-
-Le système capable de fonctionner sans lui peut compter davantage.
-
-ULTRA® 
-
-LE FLOP NE SUFFIT PLUS
-
-Pour l'entraînement, la puissance théorique doit être confrontée à l'utilisation réelle du calcul et au coût des communications entre puces.
-
-Pour l'inférence, coût par token, débit et consommation deviennent plus révélateurs que le pic annoncé d'un accélérateur.
-
-Les données IDC montrent parallèlement la progression de Huawei, Alibaba T-Head, Cambricon, Baidu Kunlunxin et Hygon.
-
-Elles ne prouvent pas que les contrôles américains ont créé cette substitution à eux seuls. Elles montrent qu'un marché contraint réorganise rapidement ses architectures autour du matériel réellement disponible.
-
-Pour un investisseur ou un industriel, comparer Nvidia et Huawei exige donc de mesurer le système déployé: combien de calcul utile obtient-on, à quel coût, avec quelle disponibilité?
-
-Sources
-
-IDC, marché chinois des accélérateurs IA, S1 2026
-Reuters, 13 octobre 2026
-Huawei, Atlas SuperPoD et CANN, 2026
-
-#Nvidia #Huawei #Semiconducteurs #Chine #IA #Geopolitique #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516332190344036352/">Linkedin</source></item><item><title>Notre-Dame de Paris: au XIIe siècle, la pierre était déjà liée par du fer</title><link>https://voce.life/archive/2026/10/15/notre-dame-de-paris-au-xiie-siecle-la-pierre-etait-deja-liee-par-du-fer-7516528545842647040</link><guid isPermaLink="true">https://voce.life/archive/2026/10/15/notre-dame-de-paris-au-xiie-siecle-la-pierre-etait-deja-liee-par-du-fer-7516528545842647040</guid><author>VOCE Association</author><description>Notre-Dame de Paris: au XIIe siècle, la pierre était déjà liée par du fer
-
-Après l'incendie du 15 avril 2019, les chercheurs accèdent à des parties de Notre-Dame restées presque invisibles pendant huit siècles.
-
-Ils y trouvent des centaines d'agrafes de fer intégrées à la maçonnerie.
-
-Dans les tribunes de la nef et du chœur, 170 sont repérées. En tenant compte de celles cachées sous les murs et les sols, leur nombre est estimé à 300 à 400.
-
-Plus haut, sous l'ancienne charpente, un autre réseau apparaît: deux lignes d'agrafes traversent les sommets des murs.
-
-La question devient historique.
-
-S'agit-il de consolidations tardives?
-
-Six agrafes sont datées par radiocarbone grâce au carbone incorporé au fer lors de sa fabrication.
-
-Celles des tribunes remontent aux premières campagnes du chantier, probablement au début des années 1160.
-
-Notre-Dame devient ainsi la première cathédrale gothique connue où le fer est utilisé massivement comme matériau de construction dès le projet initial, environ quarante ans avant les armatures de Chartres ou Bourges jusque-là considérées comme pionnières.
-
-Dans les tribunes, les agrafes maintiennent les pierres au-dessus des arcs alors que les étages supérieurs n'exercent pas encore leur poids.
-
-Au sommet des murs, celles du XIIIe siècle contribuent à résister aux poussées latérales de la charpente.
-
-Même certaines colonnes de 16 mètres, apparemment monolithiques, sont composées de cinq ou six blocs. Un détecteur de métaux a révélé les agrafes qui les relient à la maçonnerie.
-
-Sous la cathédrale de pierre existait donc une architecture de fer.
-
-ULTRA® 
-
-UNE AGRAFE CONSERVE AUSSI L'ÉCONOMIE DU CHANTIER
-
-Douze agrafes ont été étudiées par métallographie.
-
-Dix sur douze ont été forgées en soudant plusieurs pièces de fer. Neuf présentent des compositions d'inclusions différentes entre leurs parties.
-
-L'analyse des inclusions de laitier identifie au moins six provenances de fer.
-
-Les chercheurs avaient envisagé le recyclage. Mais une autre hypothèse est particulièrement révélatrice: les forgerons recevaient des barres d'environ 1 à 2 kg provenant de plusieurs approvisionnements et les soudaient pour fabriquer des agrafes de 3 à 4 kg.
-
-Les fragments assemblés semblent parfois contemporains.
-
-La soudure pourrait donc enregistrer moins le recyclage que l'organisation du marché du fer parisien.
-
-Entre le XIIe et le début du XIIIe siècle, les sources d'approvisionnement se diversifient fortement.
-
-Une pièce cachée dans un mur devient ainsi une archive de logistique médiévale.
-
-VULCANO
-
-La pierre raconte la forme du monument. Le fer conserve la trace de ceux qui l'ont rendu possible.
-
-Sources
-
-L'Héritier et al., PLOS ONE, 15 mars 2023
-CNRS, Chantier scientifique Notre-Dame de Paris, groupe Métal
-Laboratoire de Recherche des Monuments Historiques
-
-#NotreDameDeParis #ArchitectureGothique #Archeometallurgie #Patrimoine #Paris #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516528545842647040/">Linkedin</source></item><item><title>Mogu: en Italie, des résidus de coton deviennent des panneaux acoustiques grâce au mycélium</title><link>https://voce.life/archive/2026/10/15/mogu-en-italie-des-residus-de-coton-deviennent-des-panneaux-acoustiques-7516468105296965632</link><guid isPermaLink="true">https://voce.life/archive/2026/10/15/mogu-en-italie-des-residus-de-coton-deviennent-des-panneaux-acoustiques-7516468105296965632</guid><author>VOCE Association</author><description>Mogu: en Italie, des résidus de coton deviennent des panneaux acoustiques grâce au mycélium
-
-Inarzo, Lombardie.
-
-Des fibres de coton trop courtes ou poussiéreuses pour devenir du fil peuvent encore devenir un matériau d'intérieur.
-
-Mogu, marque de SQIM, les associe au mycélium, le réseau de filaments des champignons, pour fabriquer des panneaux acoustiques.
-
-Pendant la croissance, le mycélium colonise le substrat et contribue à former un composite léger. Un résidu textile sans débouché industriel devient ainsi un matériau destiné à réduire la réverbération dans les bureaux, restaurants ou commerces.
-
-Il ne s'agit pas d'insonorisation. Le panneau absorbe une partie de l'énergie sonore dans la pièce; il n'empêche pas le bruit de traverser un mur.
-
-Mogu indique aussi que ses panneaux ne sont pas destinés aux environnements très humides.
-
-ULTRA® | L'ACOUSTIQUE DÉPEND AUSSI DE LA FINITION
-
-Dans un matériau poreux, l'onde met l'air en mouvement à travers les pores. Une partie de l'énergie acoustique se dissipe par frottement et échanges thermiques.
-
-La géométrie, l'épaisseur, la pose et la finition modifient donc le résultat.
-
-Mogu annonce un NRC de 0,6 pour ses panneaux naturels non traités. Certaines finitions peuvent réduire cette performance de 0,1 à 0,2 point.
-
-Un panneau biosourcé ne possède donc pas une performance acoustique abstraite: elle appartient à une configuration précise.
-
-La même prudence vaut pour le carbone. Employer un résidu et du mycélium ne suffit pas, à lui seul, à démontrer un avantage climatique. Il faut mesurer énergie de fabrication, transport, durée de vie et fin de vie du produit.
-
-FINVOCE © | LE LUXE FINANCE AUSSI LA BIOÉCONOMIE INDUSTRIELLE
-
-En janvier 2024, SQIM lève 11 millions d'euros en Série A.
-
-CDP Venture Capital mène le tour, co-dirigé avec l'European Circular Bioeconomy Fund. Kering Ventures participe avec Progress Tech Transfer, déjà actionnaire.
-
-L'argent doit financer notamment une usine de démonstration, l'industrialisation et la R&amp;D.
-
-SQIM exploite la même plateforme technologique sur plusieurs marchés: Mogu pour l'intérieur, EPHEA pour la mode, avec des ambitions également dans l'automobile.
-
-Kering n'investit donc pas seulement dans un panneau acoustique. Le groupe prend position dans une plateforme de biomatériaux susceptible de servir plusieurs industries où matière, esthétique et empreinte environnementale deviennent stratégiques.
-
-Pour l'Italie, l'enjeu est là: transformer une biotechnologie de laboratoire en capacité industrielle, puis prouver qu'elle peut produire des lots réguliers, compétitifs et documentés à grande échelle.
-
-FAFNER
-
-La valeur d'une matière commence parfois là où l'industrie avait cessé de la regarder.
-
-Sources 
-
-Mogu, Acoustic Collection et FAQ
-CDP Venture Capital, 9 janvier 2024
-
-#VOCEAssociation #FINVOCE #Biomateriaux #Biotechnologies #Construction #Italie #Kering</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516468105296965632/">Linkedin</source></item><item><title>Google Agent Gateway: l'agent peut demander un virement de 2.000 $, l'infrastructure peut dire non</title><link>https://voce.life/archive/2026/10/15/google-agent-gateway-l-agent-peut-demander-un-virement-de-2-000-l-infras-7516362421037506561</link><guid isPermaLink="true">https://voce.life/archive/2026/10/15/google-agent-gateway-l-agent-peut-demander-un-virement-de-2-000-l-infras-7516362421037506561</guid><author>VOCE Association</author><description>Google Agent Gateway: l'agent peut demander un virement de 2.000 $, l'infrastructure peut dire non
-
-Un agent bancaire reçoit l'ordre de transférer 2.000 dollars.
-
-L'utilisateur confirme. L'agent prépare correctement l'appel MCP.
-
-L'argent ne part pas.
-
-Dans un codelab publié le 12 octobre 2026, Google place Agent Gateway entre l'agent et un serveur bancaire MCP. Une Semantic Governance Policy cible l'outil `transfer_to_phone` avec une règle en langage naturel:
-
-"Block any transfer value exceeding USD 1000."
-
-L'agent tente 2.000 dollars. Le moteur renvoie DENY.
-
-Le serveur MCP n'est jamais atteint.
-
-Le changement est architectural.
-
-Une instruction placée dans le prompt système reste dans le raisonnement du modèle. Agent Gateway applique ici la politique sur le chemin d'exécution, après la décision de l'agent mais avant l'outil.
-
-L'agent peut donc conclure qu'une action est pertinente sans posséder l'autorité finale pour l'exécuter.
-
-Google applique ce principe à un serveur de démonstration exposant quatre opérations bancaires: consulter un compte, identifier un client, transférer de l'argent et payer une facture.
-
-Chaque évaluation est enregistrée dans Cloud Logging avec l'action, le verdict et sa justification.
-
-ULTRA® | L'AUTORISATION DEVIENT UNE COUCHE INDÉPENDANTE
-
-Agent Gateway comprend les interactions avec des outils MCP et peut appliquer IAM, Model Armor, politiques sémantiques ou moteurs d'autorisation externes avant de transmettre la requête.
-
-Le détail le plus important est `failOpen: false`.
-
-Si le gateway ne peut pas joindre le moteur de politique, l'appel est refusé. Une panne du contrôle ne devient donc pas une permission implicite.
-
-Les Semantic Governance Policies utilisent cependant un LLM-as-judge. Google recommande de les tester d'abord en dry run car ce juge peut se tromper.
-
-Pour une limite numérique aussi simple que 1.000 dollars, une règle déterministe reste plus facile à prouver. L'intérêt du langage naturel augmente lorsque l'autorisation dépend du contexte, de la combinaison d'outils ou de la nature de la ressource.
-
-LI!GHT WORKFORCE ©
-
-AGENT: agent bancaire ADK
-SOCIÉTÉ: Google Cloud
-CONTRÔLE: Agent Gateway + Semantic Governance Policy
-
-L'effet organisationnel est majeur: le salarié n'est plus le seul endroit où réside l'autorisation. Une partie des séparations de fonctions peut être inscrite dans l'infrastructure et appliquée à plusieurs agents sans modifier leur code.
-
-La gouvernance ne demande plus seulement:"que pense l'agent?"
-
-Elle demande:"qui peut encore l'empêcher d'agir?"
-
-Sources
-
-Google Cloud Codelab, "Governing Autonomous AI Agents with Agent Gateway and Semantic Governance Policies", 12 octobre 2026
-Google Cloud, Agent Gateway et Semantic Governance Policies
-
-#AIGovernance #AgenticAI #MCP #FinancialServices #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516362421037506561/">Linkedin</source></item><item><title>France, octobre 2026: comment l'anticipation de la violence nourrit l'escalade</title><link>https://voce.life/archive/2026/10/15/france-octobre-2026-comment-l-anticipation-de-la-violence-nourrit-l-esca-7516543602962014208</link><guid isPermaLink="true">https://voce.life/archive/2026/10/15/france-octobre-2026-comment-l-anticipation-de-la-violence-nourrit-l-esca-7516543602962014208</guid><author>VOCE Association</author><description>France, octobre 2026: comment l'anticipation de la violence nourrit l'escalade
-
-Des lycéens et étudiants manifestent en France.
-
-Beaucoup défilent sans incident majeur. Ailleurs, des établissements sont dégradés et des affrontements éclatent.
-
-Puis viennent les blessures.
-
-À Lens, un adolescent de 15 ans perd une main après l'explosion d'une grenade assourdissante. Un garçon de 14 ans est grièvement blessé au visage par une grenade lacrymogène. L'IGPN examine 24 dossiers liés aux manifestations.
-
-Le 7 octobre, le gouvernement suspend l'usage des grenades assourdissantes. Les syndicats policiers défendent des moyens qu'ils jugent nécessaires face aux violences subies par les forces de l'ordre.
-
-René Girard aurait probablement observé moins deux camps que le mécanisme qui les relie.
-
-Un groupe anticipe le geste de l'autre et se prépare davantage. Cette préparation devient pour l'autre un signe de menace supplémentaire. Chaque réaction peut alors fournir au geste suivant sa justification.
-
-Cela n'efface aucune responsabilité.
-
-En droit français, la police exerce au nom de l'État une contrainte que le citoyen ne possède pas. L'usage de la force doit rester nécessaire et proportionné. En juin 2026, le Défenseur des droits a conclu à des usages non nécessaires ou disproportionnés dans plusieurs dossiers.
-
-Mais la violence française ne se limite pas aux manifestations.
-
-Sur les douze mois précédant juin 2026, les violences physiques enregistrées augmentent de 7%. En 2025, 473.000 victimes avaient été enregistrées, dont 114.500 mineures. Plus de la moitié relevaient du cadre familial.
-
-Attendre l'hostilité peut modifier la manière de lire le geste suivant.
-
-ULTRA® | LE CERVEAU ANTICIPE AVANT LE CONFLIT
-
-La cognition sociale ne reçoit pas les signaux de façon neutre. Lorsqu'une menace est attendue, un geste ambigu peut être interprété plus vite comme hostile. La préparation défensive augmente avant même que l'intention adverse soit certaine.
-
-Dans le maintien de l'ordre, cette dynamique rencontre une asymétrie juridique décisive: l'État possède davantage de moyens coercitifs et doit donc supporter un niveau supérieur de contrôle et de justification.
-
-Girard ajoute une idée plus inconfortable.
-
-Une société devient plus difficile à pacifier lorsque chaque groupe peut présenter sa propre violence comme la conséquence nécessaire de celle qu'il attend de l'autre.
-
-L'enjeu institutionnel est alors d'empêcher qu'un geste fournisse au suivant sa légitimité.
-
-RENÉ GIRARD
-
-La violence promet souvent de répondre à celle d'en face. Elle peut surtout lui apprendre à revenir.
-
-Sources
-
-Reuters, 7 et 10 octobre 2026
-SSMSI, point à mi-année 2026; violences physiques enregistrées en 2025
-Défenseur des droits, déontologie de la sécurité, juin 2026
-
-#ReneGirard #Violence #France #Police #Societe #Neuropsychologie #Institutions #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516543602962014208/">Linkedin</source></item><item><title>DRT10: une défense antivirale bactérienne révèle un ancêtre possible de la télomérase</title><link>https://voce.life/archive/2026/10/15/drt10-une-defense-antivirale-bacterienne-revele-un-ancetre-possible-de-l-7516437895814115328</link><guid isPermaLink="true">https://voce.life/archive/2026/10/15/drt10-une-defense-antivirale-bacterienne-revele-un-ancetre-possible-de-l-7516437895814115328</guid><author>VOCE Association</author><description>DRT10: une défense antivirale bactérienne révèle un ancêtre possible de la télomérase
-
-Le 12 octobre 2026, Stephen Tang, Josephine Ramirez, Qixiang He et leurs collègues publient dans Nature un résultat inattendu.
-
-Ils décrivent DRT10, un système bactérien composé d'une transcriptase inverse, d'un ARN non codant et d'une protéine SLATT.
-
-Chez Escherichia coli, trois variantes protègent contre plusieurs bactériophages. Si le site catalytique de la transcriptase est muté ou si SLATT disparaît, la protection s'effondre.
-
-Mais DRT10 ne se contente pas de détecter le virus.
-
-Il écrit de l'ADN.
-
-Dans une variante, l'enzyme lit une courte matrice ARN et fabrique un motif de neuf nucléotides répété en tandem. La majorité des lectures contiennent au moins 15 répétitions consécutives.
-
-La synthèse démarre directement sur une sérine terminale de l'enzyme, S456. L'ADN reste donc amorcé par la protéine elle-même.
-
-La cryomicroscopie électronique révèle ensuite une architecture 2:1: deux transcriptases inverses encadrent un ARN pseudo-symétrique. Chacune lit son propre segment, mais une seule produit le long ADN répétitif.
-
-C'est là que la télomérase entre dans l'histoire.
-
-Elle utilise elle aussi une courte matrice ARN, ajoute un motif d'ADN, repositionne le produit puis recommence pour allonger les télomères.
-
-ULTRA® 
-
-UNE MÉCANIQUE BACTÉRIENNE AVANT LES CHROMOSOMES EUCARYOTES
-
-Les chercheurs comparent 6.734 transcriptases inverses issues des trois domaines du vivant.
-
-TERT, la sous-unité catalytique de la télomérase, tombe dans un clade monophylétique avec la famille DRT, avec un support local de 0,987.
-
-La similarité n'est donc pas seulement fonctionnelle.
-
-Pour tester jusqu'où va cette parenté, l'équipe remplace la matrice ARN de DRT10 par des séquences de télomérase de Trypanosoma, Neurospora et Homo sapiens.
-
-DRT10 produit alors les répétitions télomériques correspondantes. Avec la matrice humaine, il synthétise aussi TTAGGG dans des cellules HEK293T.
-
-Cela ne prouve pas que la télomérase moderne descend directement de DRT10, ni que son ancêtre servait nécessairement à combattre des virus.
-
-Le rôle exact de l'ADN répétitif produit pendant l'infection reste lui-même non résolu.
-
-Mais le résultat rend plausible une histoire plus ancienne: la logique de synthèse répétitive qui protège aujourd'hui les extrémités de nos chromosomes pourrait avoir émergé chez des bactéries bien avant l'apparition des animaux.
-
-GURNEMANZ
-
-Nos chromosomes pourraient conserver la trace moléculaire d'une guerre commencée bien avant eux.
-
-Sources
-
-Tang et al., Nature, 12 octobre 2026
-Columbia University Irving Medical Center, 12 octobre 2026
-
-#DRT10 #Telomerase #Bacteriophages #Evolution #Genetique #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516437895814115328/">Linkedin</source></item><item><title>COURS VOCE® 044 | AUTORISATION PÉRIMÉE: UN "OUI" PEUT DEVENIR FAUX AVANT L'EXÉCUTION</title><link>https://voce.life/archive/2026/10/15/cours-voce-044-autorisation-perimee-un-oui-peut-devenir-faux-avant-l-exe-7516453017093701632</link><guid isPermaLink="true">https://voce.life/archive/2026/10/15/cours-voce-044-autorisation-perimee-un-oui-peut-devenir-faux-avant-l-exe-7516453017093701632</guid><author>VOCE Association</author><description>COURS VOCE® 044 | AUTORISATION PÉRIMÉE: UN "OUI" PEUT DEVENIR FAUX AVANT L'EXÉCUTION
-
-Un agent prépare l'achat de 400 serveurs.
-
-À 10h02, le budget disponible suffit. La politique contrôle l'opération et répond ALLOW.
-
-L'achat n'est exécuté qu'à 10h05.
-
-Entre-temps, un autre processus a engagé une partie du budget.
-
-L'autorisation était correcte lorsqu'elle a été accordée.
-
-Elle est fausse lorsqu'elle devient réelle.
-
-C'est une variante d'un problème ancien des systèmes informatiques: TOCTOU, "time of check to time of use".
-
-Les agents lui donnent une nouvelle ampleur.
-
-Ils planifient, attendent une approbation humaine, délèguent, passent par des files d'attente, réessaient après erreur et peuvent exécuter longtemps après la décision initiale.
-
-Pendant cet intervalle, budget, droits, risque, contrat ou propriétaire d'une ressource peuvent changer.
-
-En août 2026, Yuxiang Peng et Xiaodi Wu nomment ce problème "stale authorization".
-
-Ils proposent une exigence plus forte: un effet engagé doit pouvoir être expliqué comme autorisé par l'état de la politique immédiatement avant qu'il se produise.
-
-Ils appellent cela "policy-state serializability".
-
-Le contrôle ne porte donc plus seulement sur la décision de l'agent.
-
-Il doit suivre l'action jusqu'au moment où elle devient irréversible.
-
-ULTRA® 
-
-UNE APPROBATION HUMAINE PEUT ELLE AUSSI EXPIRER
-
-Un dirigeant approuve lundi un achat parfaitement légitime.
-
-Vendredi, le budget, le fournisseur ou la politique de risque a changé.
-
-Conserver la preuve du "oui" ne démontre plus que l'opération reste autorisée.
-
-Réduire la durée d'un token ne suffit pas toujours. Une requête peut avoir franchi un service avant révocation puis produire son effet après celle-ci.
-
-Un Internet-Draft publié en septembre 2026 décrit une défense appelée "generation fencing".
-
-L'autorisation peut porter:
-
-policy_generation = 44
-
-Au moment du commit, l'état protégé indique:
-
-policy_generation = 45
-
-Résultat: DENY.
-
-Le document ajoute aussi génération de révocation, expiration, nonce et autorité à usage unique. Il reste un projet informatif, pas une norme IETF.
-
-Pour paiements, achats, suppressions ou changements de privilèges, le dernier contrôle doit donc être placé au plus près du point où l'effet ne peut plus être empêché.
-
-Un journal peut dire avec exactitude:"autorisé à 10h02".
-
-Et documenter pourtant une opération qui n'aurait plus dû avoir lieu à 10h05.
-
-Le temps fait partie de l'autorisation.
-
-Sources
-
-Peng &amp; Wu, "Stateful Governance for Concurrent Agentic Systems", août 2026
-IETF Internet-Draft, "Adaptive Authorization for Agentic AI", 23 septembre 2026
-
-#AIGovernance #AgenticAI #Authorization #Cybersecurity #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516453017093701632/">Linkedin</source></item><item><title>COURS VOCE® 043 | DATA POISONING: LES BONNES ÉTIQUETTES PEUVENT CACHER UNE PORTE DÉROBÉE</title><link>https://voce.life/archive/2026/10/15/cours-voce-043-data-poisoning-les-bonnes-etiquettes-peuvent-cacher-une-p-7516422800333664256</link><guid isPermaLink="true">https://voce.life/archive/2026/10/15/cours-voce-043-data-poisoning-les-bonnes-etiquettes-peuvent-cacher-une-p-7516422800333664256</guid><author>VOCE Association</author><description>COURS VOCE® 043 | DATA POISONING: LES BONNES ÉTIQUETTES PEUVENT CACHER UNE PORTE DÉROBÉE
-
-Une entreprise entraîne un modèle à reconnaître des images.
-
-Chaque image possède la bonne étiquette. Le contrôle qualité ne détecte aucune classe falsifiée.
-
-Le modèle peut pourtant apprendre un comportement caché.
-
-C'est le clean-label poisoning.
-
-L'attaquant ne remplace pas nécessairement "chat" par "avion". Il modifie des exemples tout en conservant une paire image-texte cohérente avec la tâche officielle.
-
-À ICML 2026, Ji Guo et cinq chercheurs présentent CBV, une attaque contre les modèles vision-langage qui utilise un modèle de diffusion pour produire des exemples empoisonnés naturels.
-
-CBV modifie le processus de génération afin d'introduire des caractéristiques servant de déclencheur. Grad-CAM concentre les changements sur des régions visuellement importantes.
-
-Sur MSCOCO et VQA v2, l'attaque dépasse 80% de réussite sur quatre modèles testés tout en préservant leur fonctionnement normal sur les données propres.
-
-C'est le danger d'une backdoor.
-
-Le modèle peut réussir ses benchmarks habituels et ne changer de comportement que lorsqu'un déclencheur particulier apparaît.
-
-Vérifier les étiquettes et la précision moyenne ne suffit donc pas.
-
-La chaîne d'entraînement est elle-même une surface d'attaque.
-
-ULTRA® | QUAND LE POISON DEVIENT PRESQUE INVISIBLE
-
-Une seconde étude ICML 2026, de Diego Granziol et Ulugbek Abdimanabov, examine pourquoi certaines attaques échappent aux défenses spectrales.
-
-Dans leur analyse, des poisons regroupés peuvent créer une signature géométrique détectable dans la courbure du modèle.
-
-Mais avec des noyaux non linéaires apparaît un régime "near-clone": l'efficacité du poison reste importante alors que la signature de courbure tend vers zéro.
-
-L'attaque devient alors, dans leur modèle théorique, spectralement indétectable.
-
-Ce travail ne porte ni sur les mêmes VLM ni sur l'attaque CBV. Il révèle une difficulté plus générale: plus un poison ressemble aux données légitimes, moins certaines défenses statistiques disposent d'un signal évident.
-
-Les auteurs montrent aussi un compromis. La régularisation des gradients d'entrée peut réduire les modes associés au poison, mais elle réduit également la capacité du modèle à ajuster finement les données.
-
-Pour une organisation, provenance, hachage et historique de transformation deviennent donc des contrôles de sécurité. Après entraînement, il faut aussi tester les comportements conditionnels et déclencheurs rares.
-
-Un modèle à 98% sur son test normal peut encore contenir une fonction que ce test n'a jamais essayé d'activer.
-
-La performance propre n'est pas une preuve d'entraînement propre.
-
-Sources
-
-Guo et al., ICML 2026, "CBV: Clean-label Backdoor Attacks on Vision Language Models via Diffusion Models"
-Granziol &amp; Abdimanabov, ICML 2026, "Safety-Efficacy Trade Off: Robustness against Data-Poisoning"
-
-#AIGovernance #AISecurity #DataPoisoning #Backdoor #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516422800333664256/">Linkedin</source></item><item><title>Cancer des voies biliaires: le lirafugratinib fait régresser la tumeur chez 46% des patients avec fusion ou réarrangement FGFR2</title><link>https://voce.life/archive/2026/10/15/cancer-des-voies-biliaires-le-lirafugratinib-fait-regresser-la-tumeur-ch-7516377503230492672</link><guid isPermaLink="true">https://voce.life/archive/2026/10/15/cancer-des-voies-biliaires-le-lirafugratinib-fait-regresser-la-tumeur-ch-7516377503230492672</guid><author>VOCE Association</author><description>Cancer des voies biliaires: le lirafugratinib fait régresser la tumeur chez 46% des patients avec fusion ou réarrangement FGFR2
-
-Une cellule des voies biliaires peut devenir cancéreuse après un événement minuscule: deux fragments d'ADN fusionnent et créent un FGFR2 anormalement actif.
-
-Le signal de croissance reste allumé.
-
-Le 23 septembre 2026, la FDA autorise le lirafugratinib, commercialisé sous le nom Lyrfigtu, chez des adultes déjà traités présentant un cholangiocarcinome avancé avec fusion ou autre réarrangement de FGFR2.
-
-Le médicament est oral et irréversible. Il se lie de façon covalente à FGFR2 et a été conçu pour épargner davantage FGFR1 et FGFR4.
-
-Dans REFOCUS, 116 patients reçoivent 70 mg par jour.
-
-Le comité indépendant observe une réponse objective chez 46% d'entre eux. Trois obtiennent une réponse complète.
-
-Durée médiane de réponse: 11,8 mois.
-Survie médiane sans progression: 11,3 mois.
-
-L'essai est ouvert et sans groupe contrôle. Il démontre une activité antitumorale, pas un gain de survie face à un autre traitement.
-
-La précision moléculaire n'élimine pas la toxicité. Les événements de grade 3 ou plus comprennent notamment le syndrome mains-pieds chez 32,8% des patients et la stomatite chez 12,1%.
-
-ULTRA® 
-
-UNE MÊME CIBLE, DEUX SERRURES MOLÉCULAIRES
-
-En 2026, une équipe incluant Gustave Roussy analyse 30 patients atteints de cancers dépendants de FGFR2 traités par lirafugratinib.
-
-Chez 16 patients ayant développé une résistance acquise, 11 présentent des mutations aux positions M538 et/ou L618.
-
-La tumeur n'abandonne donc pas forcément FGFR2. Elle modifie la structure qui permettait au médicament de le bloquer.
-
-Le futibatinib est lui aussi irréversible, mais son interaction avec FGFR2 diffère. Dans des modèles cellulaires et des xénogreffes dérivées de patients, il conserve une activité contre certaines mutations M538 et L618 résistantes au lirafugratinib.
-
-Trois patients traités par futibatinib après progression sous lirafugratinib ont ensuite présenté un bénéfice prolongé.
-
-Trois patients ne valident pas une stratégie thérapeutique.
-
-Ils montrent pourquoi l'ADN tumoral circulant peut devenir décisif à la progression: identifier la mutation apparue pourrait guider le prochain médicament et, à terme, l'ordre des inhibiteurs.
-
-La médecine de précision entre alors dans une seconde étape.
-
-Il ne suffit plus d'identifier le moteur initial du cancer.
-
-Il faut suivre la manière dont ce moteur se transforme sous la pression du traitement.
-
-WOTAN
-
-Connaître la faiblesse d'un adversaire ne suffit pas lorsque cette faiblesse apprend à changer de forme.
-
-Sources
-
-FDA, Lyrfigtu, 23 septembre 2026
-Hollebecque et al., Journal of Clinical Oncology, 2026
-Facchinetti et al., Clinical Cancer Research, 2026
-
-#Cholangiocarcinome #FGFR2 #Lirafugratinib #Oncologie #MedecineDePrecision #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516377503230492672/">Linkedin</source></item><item><title>Block supprime 4.000 postes, mais ses dépenses remontent: l'angle mort du light workforce</title><link>https://voce.life/archive/2026/10/15/block-supprime-4-000-postes-mais-ses-depenses-remontent-l-angle-mort-du-7516498338977001473</link><guid isPermaLink="true">https://voce.life/archive/2026/10/15/block-supprime-4-000-postes-mais-ses-depenses-remontent-l-angle-mort-du-7516498338977001473</guid><author>VOCE Association</author><description>Block supprime 4.000 postes, mais ses dépenses remontent: l'angle mort du light workforce
-
-RASTIGNAC E IL COSTO DELLA MACCHINA
-
-26 février 2026.
-
-Jack Dorsey annonce que Block, propriétaire de Square et Cash App, va passer de plus de 10.000 salariés à moins de 6.000.
-
-L'action bondit d'environ 25% après la clôture.
-
-Block a créé Goose, framework d'agents open source et indépendant du modèle. Builderbot, construit dessus, recherche dans les dépôts, écrit du code, ouvre les pull requests et suit la CI.
-
-En juin, Block annonce plus de 200.000 opérations quotidiennes, 1.500 pull requests fusionnées par semaine et environ 15% des changements de code de production réalisés via Builderbot.
-
-En août, l'entreprise indique que l'IA intervient désormais dans presque chaque changement ou revue de code. Les changements par ingénieur ont progressé de 150% depuis janvier.
-
-Puis apparaît un chiffre moins intuitif.
-
-Au T2, Block atteint 3,17 milliards de dollars de bénéfice brut, +25%, et 864 millions de résultat opérationnel ajusté.
-
-Mais Mizuho estime, à partir des prévisions de l'entreprise, que les charges opérationnelles ajustées pourraient passer de 4,48 milliards de dollars au premier semestre à 4,56 milliards au second.
-
-C'est une prévision, pas un résultat.
-
-ULTRA® 
-
-LE SALAIRE DISPARAÎT, LE COÛT SE DÉPLACE
-
-Une organisation agentique remplace une partie des coûts humains par inférence, stockage, sécurité, évaluations, infrastructure et supervision.
-
-Goose n'est pas un modèle mais une couche d'exécution multi-modèles. Builderbot orchestre ensuite les tâches de développement.
-
-Le +150% de changements par ingénieur mesure une production technique. Il ne mesure ni la valeur de chaque changement, ni son coût complet, ni le risque introduit.
-
-Un board doit donc suivre effectifs, coût total d'exploitation, incidents, retours arrière et valeur livrée.
-
-LI!GHT WORKFORCE ©
-
-Block fournit un cas rare où réduction d'effectifs et agentification deviennent visibles dans le même P&amp;L.
-
-Le point n'est pas "4.000 salariés remplacés par l'IA". Block ne démontre pas cette équivalence.
-
-Il montre qu'une entreprise peut devenir beaucoup plus légère en effectifs tout en réinvestissant assez dans technologie, produits et distribution pour que ses dépenses ne baissent pas au même rythme.
-
-FINVOCE ©
-
-Block (NYSE: XYZ) compte Vanguard, T. Rowe Price et BlackRock parmi ses principaux actionnaires institutionnels. Le proxy 2026 attribue à Jack Dorsey 42,2% des droits de vote.
-
-La rentabilité durable dépendra du coût complet de l'organisation qui la remplace.
-
-RASTIGNAC
-
-Supprimer un salaire est immédiat. Prouver qu'une machine coûte réellement moins cher demande plusieurs exercices.
-
-Sources
-
-Block, résultats T1/T2 et Builderbot
-Reuters, 26-27 février et 5 août 2026
-Mizuho, cité par The Block, 6 août 2026
-Block, Proxy Statement 2026
-
-#Block #AgenticAI #FinTech #FINVOCE #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516498338977001473/">Linkedin</source></item></channel></rss>
+#AgenticAI #ResearchIntegrity #ScientificGovernance #AIGovernance #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7516815402128175104/">Linkedin</source></item></channel></rss>

@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generated_at": "2026-10-16",
+  "generated_at": "2026-10-19",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
   "methodology": {
@@ -4168,6 +4168,67 @@
       "sectors": [
         "legal",
         "banking",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7517902571626188801",
+      "date": "2026-10-19",
+      "title": "TOOL DRIFT: L'OUTIL CHANGE, L'AGENT CONTINUE AVEC UNE CARTE PÉRIMÉE",
+      "path": "/archive/2026/10/19/tool-drift-l-outil-change-l-agent-continue-avec-une-carte-perimee-7517902571626188801",
+      "sectors": [
+        "legal",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7517842161095196672",
+      "date": "2026-10-19",
+      "title": "Une IA chinoise peut travailler en France sans pouvoir y être déployée librement",
+      "path": "/archive/2026/10/19/une-ia-chinoise-peut-travailler-en-france-sans-pouvoir-y-etre-deployee-l-7517842161095196672",
+      "sectors": [
+        "legal",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7518023337604710401",
+      "date": "2026-10-19",
+      "title": "Utiliser davantage l'IA peut rendre un décideur plus vulnérable aux biais",
+      "path": "/archive/2026/10/19/utiliser-davantage-l-ia-peut-rendre-un-decideur-plus-vulnerable-aux-biai-7518023337604710401",
+      "sectors": [
+        "legal"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7517796811013648384",
+      "date": "2026-10-19",
+      "title": "Workday Trusted Agent Platform: l'agent peut agir dans la paie sans devenir administrateur",
+      "path": "/archive/2026/10/19/workday-trusted-agent-platform-l-agent-peut-agir-dans-la-paie-sans-deven-7517796811013648384",
+      "sectors": [
+        "legal",
+        "finance",
+        "culture",
         "it"
       ],
       "themes": [

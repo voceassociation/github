@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-18T07:40:40.883312+00:00",
+  "updated_at": "2026-10-19T21:04:53.863430+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1642,11 +1642,29 @@
       ],
       "source": "authenticated_linkedin_browser",
       "coverage_complete": false
+    },
+    "2026-10-18": {
+      "status": "rows_returned",
+      "rows": 5,
+      "source_packets": [
+        "backfill/raw/2026-10-18.json"
+      ],
+      "source": "authenticated_linkedin_browser",
+      "coverage_complete": false
+    },
+    "2026-10-19": {
+      "status": "rows_returned",
+      "rows": 15,
+      "source_packets": [
+        "backfill/raw/2026-10-19.json"
+      ],
+      "source": "authenticated_linkedin_browser",
+      "coverage_complete": false
     }
   },
-  "retrieved_unique_publications": 1714,
-  "newly_archived": 17,
-  "academy_corpus_items": 1712,
+  "retrieved_unique_publications": 1734,
+  "newly_archived": 20,
+  "academy_corpus_items": 1732,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
@@ -1735,23 +1753,23 @@
     },
     "current_publication_ingest": {
       "dates": [
-        "2026-10-14",
-        "2026-10-15",
         "2026-10-16",
-        "2026-10-17"
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19"
       ],
       "verified_source": "VOCE verified source packets with explicit platform provenance",
-      "items_processed": 68,
-      "corpus_items_after": 1712,
+      "items_processed": 55,
+      "corpus_items_after": 1732,
       "classification": "A editorial/archive",
-      "static_pages_verified_for_generation": 68,
+      "static_pages_verified_for_generation": 55,
       "daily_archives": [
-        "archive/2026-10-14.html",
-        "archive/2026-10-15.html",
         "archive/2026-10-16.html",
-        "archive/2026-10-17.html"
+        "archive/2026-10-17.html",
+        "archive/2026-10-18.html",
+        "archive/2026-10-19.html"
       ],
-      "completed_at": "2026-10-17T21:09:19.567796+00:00"
+      "completed_at": "2026-10-19T21:04:54.593312+00:00"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",
