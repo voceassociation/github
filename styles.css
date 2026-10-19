@@ -1116,3 +1116,125 @@ html[lang="it"] .atlas-panel:before{content:"Vista documentale mobile"}
  .pathway .explore{white-space:normal;overflow-wrap:anywhere;max-width:100%}
  .paper-signature .voce-mark{font-size:clamp(3.8rem,17vw,6.2rem)}
 }
+
+
+/* Uniform accessible mobile header for VOCE and all COURS VOCE® pages.
+   No-JS visitors retain the original crawlable navigation links. */
+.voce-mobile-toggle{display:none}
+@media (max-width:760px){
+  body header.voce-mobile-ready .nav{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+    column-gap:12px;
+    row-gap:0;
+    min-height:70px;
+    height:auto;
+    padding-top:12px;
+    padding-bottom:12px;
+  }
+  body header.voce-mobile-ready .nav>.voce-mark{
+    flex:0 0 auto;
+    font-size:2.05rem;
+    line-height:1;
+  }
+  body header.voce-mobile-ready .voce-mobile-toggle{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    min-width:93px;
+    min-height:44px;
+    margin-left:auto;
+    padding:8px 12px;
+    background:transparent;
+    border:1px solid var(--line);
+    border-radius:0;
+    color:var(--forest);
+    font:600 .66rem var(--sans);
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    cursor:pointer;
+  }
+  body header.voce-mobile-ready .voce-mobile-toggle:focus-visible{
+    outline:2px solid var(--forest);
+    outline-offset:3px;
+  }
+  .voce-mobile-toggle-icon{
+    display:block;
+    position:relative;
+    width:17px;
+    height:12px;
+    border-top:1.5px solid currentColor;
+    border-bottom:1.5px solid currentColor;
+  }
+  .voce-mobile-toggle-icon::after{
+    content:"";
+    position:absolute;
+    left:0;
+    right:0;
+    top:4px;
+    border-top:1.5px solid currentColor;
+  }
+  body header.voce-mobile-ready .nav .menu[hidden]{
+    display:none!important;
+  }
+  body header.voce-mobile-ready .nav .menu:not([hidden]){
+    display:grid!important;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    width:100%;
+    min-width:0;
+    margin-top:14px;
+    padding:13px 0 3px;
+    border-top:1px solid var(--line);
+    gap:0 17px;
+    white-space:normal;
+    overflow:visible;
+  }
+  body header.voce-mobile-ready .nav .menu>a{
+    display:flex!important;
+    flex:initial;
+    align-items:center;
+    min-width:0;
+    min-height:47px;
+    margin:0;
+    padding:11px 0;
+    border-bottom:1px solid var(--line);
+    font-size:.66rem;
+    line-height:1.25;
+    white-space:normal;
+    overflow-wrap:break-word;
+  }
+  body header.voce-mobile-ready .nav .menu>a.active{
+    color:var(--forest);
+    border-bottom-color:var(--forest);
+    font-weight:700;
+  }
+  body header.voce-mobile-ready .nav .menu>.lang{
+    display:flex;
+    grid-column:1/-1;
+    align-items:center;
+    flex-wrap:wrap;
+    margin:13px 0 0;
+    padding:10px 0 2px;
+    border-left:0;
+    border-top:1px solid var(--line);
+    gap:15px;
+  }
+  body header.voce-mobile-ready .nav .menu>.lang a,
+  body header.voce-mobile-ready .nav .menu>.lang button{
+    min-height:35px;
+    min-width:35px;
+    display:inline-flex!important;
+    align-items:center;
+    justify-content:center;
+    font-size:.7rem;
+  }
+  body header.voce-mobile-ready .nav .menu>.lang a[aria-current="page"],
+  body header.voce-mobile-ready .nav .menu>.lang button.active{
+    color:var(--forest);
+    border-bottom:1px solid var(--forest);
+    font-weight:700;
+  }
+}
