@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T21:04:53.863430+00:00",
+  "updated_at": "2026-10-19T21:08:52.000Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -4921,6 +4921,111 @@
       "google_sitemap_warnings": 0,
       "daily_archive_policy_updated": true,
       "resume": "Preserve current VCLF maturity/indexing/language policy during backfill and course regeneration. Recheck Search Console after later crawls; never infer actual indexing from sitemap or IndexNow acceptance. Promote a capsule only after an explicit editorial maturity decision."
+    },
+    "linkedin_nightly_2026_10_19_2300": {
+      "status": "deployed_verified_partial_coverage",
+      "checked_at": "2026-10-19T21:08:52.000Z",
+      "access_status": "normal",
+      "access_run": "ab5535b6-8eed-49b2-9437-16d01c30b097",
+      "boundary_target": "urn:li:ugcPost:7517313635166187522",
+      "boundary_seen": false,
+      "verified_posts": 20,
+      "verified_by_date": {
+        "2026-10-18": 5,
+        "2026-10-19": 15
+      },
+      "pending_candidates": [
+        "urn:li:ugcPost:7517056921168844800"
+      ],
+      "raw_packets": [
+        "backfill/raw/2026-10-18.json",
+        "backfill/raw/2026-10-19.json"
+      ],
+      "source_commits": [
+        "4debcb1407cae4ef6c7fc34d25aa6f692b566ab2",
+        "328b86dee9fe832bf3d39ee509d2360d9fdd8dde"
+      ],
+      "generated_commit": "eba2831f801ea52db9fc91872c8b30ffbdd2c534",
+      "report_commit": "3a73669d1b87f2171b191b3f29b7abe63c6962cb",
+      "workflow": {
+        "run_id": 39324573223,
+        "job_id": 118307058077,
+        "conclusion": "success"
+      },
+      "validation": {
+        "corpus_items": 1732,
+        "canonical_routes": 1732,
+        "redirects": 2,
+        "unique_ids": true,
+        "unique_full_texts": true,
+        "alternate_ids_not_reimported": true,
+        "new_conflicts": 0,
+        "preexisting_conflicts_preserved": 334,
+        "rss_items": 50,
+        "discovery_validation_passed": true,
+        "sitemap_urls": 2559,
+        "vault_routes_in_sitemap": 0
+      },
+      "live_verification": {
+        "academy_counter": 1732,
+        "article_url": "https://voce.life/archive/2026/10/19/utiliser-davantage-l-ia-peut-rendre-un-decideur-plus-vulnerable-aux-biai-7518023337604710401",
+        "self_canonical": true,
+        "robots_index_follow": true,
+        "body_after_title_exact_after_safe_html_whitespace_normalization": true,
+        "original_link_present": true,
+        "og_image": "https://voce.life/voce-og.jpg",
+        "daily_archive_count": 15,
+        "sitemap_entry_present": true,
+        "rss_latest_present": true,
+        "guide_top_source_exact": true
+      },
+      "indexnow": {
+        "key": "9e4c71d85a2f4b6cb3098f21d7a56e40",
+        "ownership_key_verified": true,
+        "http_status": 200,
+        "submitted_url_count": 59,
+        "scope": "current four-day publication batch",
+        "indexing_claimed": false
+      },
+      "r2": {
+        "checked_at": "2026-10-19T21:07:53.919Z",
+        "status": "ok",
+        "bucket": "voce-sovereign-corpus",
+        "private": true,
+        "article_routes": 1732,
+        "corpus_items": 1732,
+        "article_routes_synced": 1732,
+        "source_snapshot_complete": true,
+        "backup_complete": true,
+        "total_objects_target": 1857,
+        "objects_synced": 1857,
+        "derived_backup_complete": true,
+        "total_derived_objects": 1846,
+        "derived_objects_synced": 1846,
+        "derived_article_pages_synced": 1732
+      },
+      "drive_research_registry": {
+        "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
+        "checked": true,
+        "formal_records": 2,
+        "unchanged": true
+      },
+      "learning_policy": {
+        "public_catalog": "data/voce-vclf-public.json",
+        "historical_translations": "data/voce-courses.json",
+        "resources_checked": 120,
+        "historical_indexable": 16,
+        "development_noindex": 104,
+        "eligible_localized_urls_in_sitemap": 48,
+        "development_urls_in_sitemap": 0,
+        "required_fields_present": true
+      },
+      "facebook_paused": true,
+      "media_downloaded": false,
+      "editorial_selection_changed": false,
+      "coverage_complete": false,
+      "historical_conflicts_preserved": 334,
+      "report": "backfill/reports/linkedin-catchup-progress-2026-10-19.json"
     }
   },
   "facebook_daily_scans": {},
