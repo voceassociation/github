@@ -1,0 +1,148 @@
+{
+  "schema": "voce.linkedin-nightly-report.v1",
+  "checked_at": "2026-10-19T21:08:52.000Z",
+  "status": "deployed_verified_partial_coverage",
+  "baseline_main_commit": "c17d6d2bf570e6f650cd83d3f785d573229ca6bd",
+  "source": {
+    "platform": "linkedin",
+    "profile": "voce-association-0030763b6",
+    "browser_profile_id": "prof_236917ff0f01402f",
+    "access_run": "ab5535b6-8eed-49b2-9437-16d01c30b097",
+    "access_status": "normal",
+    "boundary_target": "urn:li:ugcPost:7517313635166187522",
+    "boundary_seen": false,
+    "observed_posts": 20,
+    "oldest_observed": "urn:li:ugcPost:7517585453106176000",
+    "coverage_complete": false,
+    "reason": "The bounded authenticated activity read exposed only the first 20 recent posts and did not reach the previously archived boundary. No absence or exhaustive four-day coverage is claimed."
+  },
+  "ingestion": {
+    "raw_packets": [
+      "backfill/raw/2026-10-18.json",
+      "backfill/raw/2026-10-19.json"
+    ],
+    "source_commits": [
+      "4debcb1407cae4ef6c7fc34d25aa6f692b566ab2",
+      "328b86dee9fe832bf3d39ee509d2360d9fdd8dde"
+    ],
+    "verified_posts_by_date": {
+      "2026-10-18": 5,
+      "2026-10-19": 15
+    },
+    "verified_posts_total": 20,
+    "pending_candidates": [
+      {
+        "linkedin_id": "urn:li:ugcPost:7517056921168844800",
+        "status": "pending_full_text_and_structured_datetime",
+        "blocker": "Exact public permalink again exposed only LinkedIn sign-in/cold-join content, with no authored description or structured publication datetime. Not published."
+      }
+    ],
+    "generated_commit": "eba2831f801ea52db9fc91872c8b30ffbdd2c534",
+    "workflow": {
+      "run_id": 39324573223,
+      "job_id": 118307058077,
+      "conclusion": "success"
+    },
+    "superseded_concurrent_run": {
+      "run_id": 39324570285,
+      "job_id": 118306953647,
+      "conclusion": "failure",
+      "reason": "Its generated five-post commit was rejected non-fast-forward after the second raw packet advanced main. The succeeding run from the later commit included both packets and published all twenty verified posts."
+    }
+  },
+  "validation": {
+    "corpus_items": 1732,
+    "canonical_routes": 1732,
+    "redirects": 2,
+    "unique_ids": true,
+    "unique_full_texts": true,
+    "alternate_ids_not_reimported": true,
+    "new_conflicts": 0,
+    "preexisting_conflicts_preserved": 334,
+    "rss_items": 50,
+    "rss_latest_present": true,
+    "sitemap_urls": 2559,
+    "latest_canonical_in_sitemap": true,
+    "vault_routes_in_sitemap": 0,
+    "discovery_validation_passed": true
+  },
+  "live_verification": {
+    "checked_at": "2026-10-19T21:08:00.000Z",
+    "academy_counter": 1732,
+    "article_url": "https://voce.life/archive/2026/10/19/utiliser-davantage-l-ia-peut-rendre-un-decideur-plus-vulnerable-aux-biai-7518023337604710401",
+    "self_canonical": true,
+    "robots": "index,follow,max-snippet:-1,max-image-preview:large",
+    "full_title_and_all_original_paragraphs_visible": true,
+    "ultra_sources_hashtags_visible": true,
+    "original_link_present": true,
+    "og_image": "https://voce.life/voce-og.jpg",
+    "daily_archive_count": 15,
+    "guide_query": "Utiliser davantage l'IA peut rendre un décideur plus vulnérable aux biais",
+    "guide_top_source_exact": true
+  },
+  "indexnow": {
+    "http_status": 200,
+    "ownership_key_verified": "https://voce.life/9e4c71d85a2f4b6cb3098f21d7a56e40.txt",
+    "submitted_url_count": 59,
+    "run_id": 39324573223,
+    "job_id": 118307058077,
+    "scope": "canonical article URLs and daily archives for the four most recent source dates",
+    "indexing_claimed": false
+  },
+  "r2": {
+    "checked_at": "2026-10-19T21:07:53.919Z",
+    "status": "ok",
+    "bucket": "voce-sovereign-corpus",
+    "private": true,
+    "article_routes": 1732,
+    "corpus_items": 1732,
+    "article_routes_synced": 1732,
+    "source_snapshot_complete": true,
+    "backup_complete": true,
+    "total_objects_target": 1857,
+    "objects_synced": 1857,
+    "derived_backup_complete": true,
+    "total_derived_objects": 1846,
+    "derived_objects_synced": 1846,
+    "derived_article_pages_synced": 1732
+  },
+  "learning_discovery": {
+    "reference": "data/voce-vclf-public.json",
+    "courses_reference": "data/voce-courses.json",
+    "courses_total": 120,
+    "indexable_historical_courses": 16,
+    "development_capsules_noindex_follow": 104,
+    "eligible_language_urls_in_sitemap": 48,
+    "missing_eligible_urls": 0,
+    "development_urls_in_sitemap": 0,
+    "required_fields_preserved": true
+  },
+  "drive_research_registry": {
+    "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
+    "checked": true,
+    "formal_records": 2,
+    "unchanged": true,
+    "records": [
+      {
+        "type": "Preprint",
+        "creator": "Cano, Giovanni",
+        "issued": "2026-03-23",
+        "doi": "10.5281/zenodo.19189281",
+        "voce_url": "https://voce.life/research/introspective-technoference"
+      },
+      {
+        "type": "Report",
+        "creator": "VOCE Association",
+        "issued": "2026-03-19",
+        "doi": "10.5281/zenodo.19114381",
+        "voce_url": "https://voce.life/research/parental-technoference-language-development"
+      }
+    ]
+  },
+  "facebook_paused": true,
+  "metricool_used": false,
+  "media_downloaded": false,
+  "adobe_provenance_asserted": false,
+  "editorial_selection_changed": false,
+  "historical_coverage_complete": false
+}
