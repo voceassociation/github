@@ -3,7 +3,7 @@ const PREFIX = '/art/vault';
 const SAFE_NAME = /^[a-z0-9][a-z0-9-]{0,63}$/;
 const encoder = new TextEncoder();
 const POLICY = {
-  'cache-control': 'private, no-store, max-age=0',
+  'cache-control': 'private, no-store, max-age=0, no-transform',
   'cdn-cache-control': 'no-store',
   'x-robots-tag': 'noindex, nofollow, noarchive, nosnippet, noimageindex',
   'referrer-policy': 'no-referrer',
