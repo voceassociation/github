@@ -51,12 +51,12 @@ test('language selection honours explicit files, language choice and weighted br
   }
 });
 test('all three languages apply to denied access, private index and default dossier routing',async()=>{
-  for(const [lang,message,title] of [['fr','Acc u00e8s r u00e9serv u00e9','Dossiers ouverts'],['en','Access is restricted','Dossiers available'],['it','Accesso riservato','Dossier disponibili']]) {
+  for(const [lang,message,title] of [['fr','personnes autoris','Dossiers ouverts'],['en','Access is restricted','Dossiers available'],['it','Accesso riservato','Dossier disponibili']]) {
     const f=fixture();const url='https://voce.life/art/vault?lang='+lang;
     const denied=await handleArtVault(new Request(url),f.env);
     assert.equal(denied.status,401);assert.equal(denied.headers.get('content-language'),lang);assert.ok((await denied.text()).includes(message));assert.deepEqual(f.reads,[]);
     const allowed=await handleArtVault(new Request(url,{headers:{authorization:auth()}}),f.env);
-    const body=await allowed.text();assert.ok(body.includes(` x3chtml lang="${lang}">`));assert.ok(body.includes(title));assert.ok(body.includes(`/seguso/${lang}.html`));
+    const body=await allowed.text();assert.ok(body.includes(String.fromCharCode(60)+`html lang="${lang}">`));assert.ok(body.includes(title));assert.ok(body.includes(`/seguso/${lang}.html`));
     await handleArtVault(new Request('https://voce.life/art/vault/seguso?lang='+lang,{headers:{authorization:auth()}}),f.env);
     assert.deepEqual(f.reads,[`art-vault/seguso/${lang}.html`]);
   }
