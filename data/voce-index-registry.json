@@ -2570,6 +2570,27 @@
         "urn:li:ugcPost:7517796811013648384",
         "urn:li:ugcPost:7517781723804385280"
       ]
+    },
+    "2026-10-20": {
+      "count": 14,
+      "source": "linkedin",
+      "page": "/archive/2026-10-20",
+      "post_ids": [
+        "urn:li:ugcPost:7518385737113993216",
+        "urn:li:ugcPost:7518370650441449473",
+        "urn:li:ugcPost:7518355559423848448",
+        "urn:li:ugcPost:7518340457743929345",
+        "urn:li:ugcPost:7518325360648708098",
+        "urn:li:ugcPost:7518310291068145664",
+        "urn:li:ugcPost:7518280086874378240",
+        "urn:li:ugcPost:7518264963308765185",
+        "urn:li:ugcPost:7518234753016254464",
+        "urn:li:ugcPost:7518204548210110465",
+        "urn:li:ugcPost:7518189456299020288",
+        "urn:li:ugcPost:7518174324617371648",
+        "urn:li:ugcPost:7518159220870152193",
+        "urn:li:ugcPost:7518144122684215296"
+      ]
     }
   },
   "pipeline": {

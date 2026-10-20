@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generated_at": "2026-10-19",
+  "generated_at": "2026-10-20",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
   "methodology": {
@@ -4230,6 +4230,35 @@
         "finance",
         "culture",
         "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7518159220870152193",
+      "date": "2026-10-20",
+      "title": "Arcade Tool Recommendation: un agent peut atteindre 8.000 outils sans les charger dans son contexte",
+      "path": "/archive/2026/10/20/arcade-tool-recommendation-un-agent-peut-atteindre-8-000-outils-sans-les-7518159220870152193",
+      "sectors": [
+        "legal",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7518174324617371648",
+      "date": "2026-10-20",
+      "title": "NIST, NSA, CISA: un agent peut provoquer un incident sans être piraté",
+      "path": "/archive/2026/10/20/nist-nsa-cisa-un-agent-peut-provoquer-un-incident-sans-etre-pirate-7518174324617371648",
+      "sectors": [
+        "cross"
       ],
       "themes": [
         "LI!GHT WORKFORCE ©",
