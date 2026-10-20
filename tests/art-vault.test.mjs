@@ -57,6 +57,7 @@ test('all three languages apply to denied access, private index and default doss
     assert.equal(denied.status,401);assert.equal(denied.headers.get('content-language'),lang);assert.ok((await denied.text()).includes(message));assert.deepEqual(f.reads,[]);
     const allowed=await handleArtVault(new Request(url,{headers:{authorization:auth()}}),f.env);
     const body=await allowed.text();assert.ok(body.includes(String.fromCharCode(60)+`html lang="${lang}">`));assert.ok(body.includes(title));assert.ok(body.includes(`/seguso/${lang}.html`));
+    f.reads.length=0;
     await handleArtVault(new Request('https://voce.life/art/vault/seguso?lang='+lang,{headers:{authorization:auth()}}),f.env);
     assert.deepEqual(f.reads,[`art-vault/seguso/${lang}.html`]);
   }
@@ -73,4 +74,44 @@ test('storage and rate-limit failures return closed responses',async()=>{
   assert.equal((await handleArtVault(req('/seguso',auth()),f.env)).status,503);
   const g=fixture();g.env.ART_VAULT_LOGIN_LIMITER={limit:async()=>({success:false})};
   assert.equal((await handleArtVault(req('/seguso',auth()),g.env)).status,429);assert.deepEqual(g.reads,[]);
+});
+
+
+test('Zono routing is trilingual and permissions remain per dossier',async()=>{
+  for(const lang of ['fr','en','it']) {
+    const f=fixture([{...account,dossiers:['seguso','domenico-zono']}]);
+    const index=await handleArtVault(req('?lang='+lang,auth()),f.env);
+    const body=await index.text();
+    assert.ok(body.includes('domenico zono'));
+    assert.ok(body.includes(`/domenico-zono/${lang}.html`));
+    assert.ok(body.includes(`/seguso/${lang}.html`));
+    f.reads.length=0;
+    assert.equal((await handleArtVault(req('/domenico-zono?lang='+lang,auth()),f.env)).status,200);
+    assert.deepEqual(f.reads,[`art-vault/domenico-zono/${lang}.html`]);
+  }
+  const f=fixture();
+  assert.equal((await handleArtVault(req('/domenico-zono/fr.html',auth()),f.env)).status,404);
+  assert.deepEqual(f.reads,[]);
+});
+
+
+test('all collection entries route in three languages without changing other permissions',async()=>{
+  for(const id of ['tassi','faberge-nephrite','faberge-lilies','faberge-tsesarevich','composition-01']) {
+    for(const lang of ['fr','en','it']) {
+      const f=fixture([{...account,dossiers:[id]}]);
+      assert.equal((await handleArtVault(req('/'+id+'?lang='+lang,auth()),f.env)).status,200);
+      assert.deepEqual(f.reads,[`art-vault/${id}/${lang}.html`]);
+      const g=fixture();
+      assert.equal((await handleArtVault(req('/'+id+'/'+lang+'.html',auth()),g.env)).status,404);
+      assert.deepEqual(g.reads,[]);
+    }
+  }
+});
+
+test('private catalogue metadata is escaped and preview paths are restricted',async()=>{
+  const f=fixture();f.env.VOCE_CORPUS.get=async key=>({json:async()=>({title:{fr:'<script>bad</script>'},artist:{fr:'A & B'},thumbnail:'../escape.jpg'})});
+  const res=await handleArtVault(req('?lang=fr',auth()),f.env);
+  const body=await res.text();assert.equal(res.status,200);
+  assert.ok(body.includes('&lt;script&gt;bad&lt;/script&gt;'));
+  assert.ok(body.includes('A &amp; B'));assert.ok(!body.includes('../escape.jpg'));
 });
