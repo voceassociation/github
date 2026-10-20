@@ -1,0 +1,122 @@
+{
+  "schema": "voce.linkedin-catchup-report.v1",
+  "status": "deployed_verified",
+  "date": "2026-10-20",
+  "checked_at": "2026-10-20T21:44:54.185Z",
+  "source": {
+    "kind": "authenticated_linkedin_browser_and_verified_public_html",
+    "profile": "voce-association-0030763b6",
+    "browser_profile": "prof_236917ff0f01402f",
+    "access_run_id": "4116dc5b-1a69-4d8b-902e-1586a82f38da",
+    "access_status": "normal",
+    "blocked": false,
+    "challenged": false,
+    "card_pairing_trusted": false,
+    "verification_method": "Every discovered UGC identifier was independently verified on its exact LinkedIn permalink before ingestion."
+  },
+  "coverage": {
+    "timezone": "Europe/Podgorica",
+    "publication_date": "2026-10-20",
+    "previous_boundary_linkedin_id": "7518023337604710401",
+    "boundary_reached": true,
+    "coverage_complete": true,
+    "verified_posts": 14,
+    "candidate_posts": 1,
+    "media_downloaded": false,
+    "facebook_status": "paused",
+    "metricool_used": false
+  },
+  "verified_linkedin_ids": [
+    "7518385737113993216",
+    "7518370650441449473",
+    "7518355559423848448",
+    "7518340457743929345",
+    "7518325360648708098",
+    "7518310291068145664",
+    "7518280086874378240",
+    "7518264963308765185",
+    "7518234753016254464",
+    "7518204548210110465",
+    "7518189456299020288",
+    "7518174324617371648",
+    "7518159220870152193",
+    "7518144122684215296"
+  ],
+  "pending_candidates": [
+    {
+      "linkedin_id": "7517056921168844800",
+      "status": "unpublished",
+      "reason": "Exact permalink still redirected to LinkedIn cold-join and exposed neither authored text nor a structured publication datetime; no reconstruction was attempted."
+    }
+  ],
+  "raw_packet": {
+    "path": "backfill/raw/2026-10-20.json",
+    "schema": "voce.linkedin-browser-source.v1",
+    "source_commit": "63367f601f810ee759cc5141f60ad160d87321a7"
+  },
+  "deployment": {
+    "generated_commit": "cbcb91044944a2f90770a40ee4665f8cb7d2b5bd",
+    "ingest_workflow_run": "39498562543",
+    "ingest_workflow_job": "118889879021",
+    "workflow_conclusion": "success",
+    "corpus_items": 1746,
+    "canonical_routes": 1746,
+    "redirects": 2,
+    "retrieved_unique_publications": 1748,
+    "newly_archived": 14,
+    "unique_linkedin_ids": true,
+    "unique_texts": true,
+    "new_conflicts": 0,
+    "preserved_historical_conflicts": 334
+  },
+  "production_validation": {
+    "latest_article_url": "https://voce.life/archive/2026/10/20/pourquoi-un-lieu-qui-change-legerement-nous-ralentit-il-autant-7518385737113993216",
+    "latest_article_canonical_self": true,
+    "latest_article_text_matches_source": true,
+    "original_linkedin_link_present": true,
+    "daily_archive_url": "https://voce.life/archive/2026-10-20",
+    "daily_archive_count": 14,
+    "academy_counter": 1746,
+    "guide_exact_title_result": true,
+    "rss_url": "https://voce.life/feed.xml",
+    "rss_entries": 50,
+    "rss_latest_present": true,
+    "sitemap_url": "https://voce.life/sitemap.xml",
+    "sitemap_urls": 2574,
+    "sitemap_latest_present": true,
+    "private_vault_exposed": false,
+    "discovery_validation": "passed"
+  },
+  "indexnow": {
+    "ownership_key_verified": true,
+    "http_status": 200,
+    "submitted_urls": 55,
+    "scope": "current four-day batch",
+    "indexing_claimed": false,
+    "note": "HTTP 200 confirms receipt only, not search-engine indexing."
+  },
+  "r2_backup": {
+    "endpoint": "https://voce.life/.well-known/voce-corpus-backup",
+    "owner": "VOCE Association",
+    "bucket": "voce-sovereign-corpus",
+    "private": true,
+    "synced_at": "2026-10-20T21:44:54.185Z",
+    "article_routes": 1746,
+    "corpus_items": 1746,
+    "article_routes_synced": 1746,
+    "source_snapshot_complete": true,
+    "backup_complete": true,
+    "total_objects_target": 1872,
+    "objects_synced": 1872,
+    "derived_backup_complete": true,
+    "total_derived_objects": 1861,
+    "derived_objects_synced": 1861,
+    "derived_article_pages_synced": 1746
+  },
+  "google_drive_registry": {
+    "file_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
+    "sheet": "Scholar Registry",
+    "formal_records": 2,
+    "changed": false
+  }
+}
