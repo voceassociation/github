@@ -84,11 +84,25 @@ export function vaultLanguage(request) {
   return requested[0]?.lang || 'en';
 }
 
-function indexPage(user, lang) {
+// Artwork labels and previews are private R2 metadata, never public repository assets.
+async function indexPage(user, lang, env) {
   const m = COPY[lang];
-  const links = user.dossiers.map(id => `${String.fromCharCode(60)}li>${String.fromCharCode(60)}a href="${PREFIX}/${id}${id === 'seguso' ? `/${lang}.html` : ''}">${id === 'seguso' ? `Livio Seguso - ${m.dossier}` : escape(id)}${String.fromCharCode(60)}/a>${String.fromCharCode(60)}/li>`).join('');
+  const records = await Promise.all(user.dossiers.map(async id => {
+    let record = {};
+    try {
+      const object = await env.VOCE_CORPUS.get(`art-vault/${id}/catalogue.json`);
+      if (object?.json) record = await object.json();
+    } catch { /* Retain a usable link if optional catalogue metadata is absent. */ }
+    const fallback = id === 'seguso' ? 'Livio Seguso' : id.replace(/-/g,' ');
+    const label = typeof record?.title?.[lang] === 'string' ? record.title[lang].slice(0,200) : fallback;
+    const artist = typeof record?.artist?.[lang] === 'string' ? record.artist[lang].slice(0,200) : m.dossier;
+    const thumbnail = typeof record?.thumbnail === 'string' && /^assets\/[a-z0-9_.-]+\.(?:jpg|jpeg|png|webp)$/.test(record.thumbnail) ? record.thumbnail : '';
+    return {id,label,artist,thumbnail};
+  }));
+  const tag = String.fromCharCode(60);
+  const links = records.map(r => `${tag}li style="list-style:none;border-top:1px solid #cbbd9c;padding:24px 0">${tag}a href="${PREFIX}/${r.id}/${lang}.html" style="display:block;text-decoration:none">${r.thumbnail ? `${tag}img src="${PREFIX}/${r.id}/${r.thumbnail}" alt="" style="display:block;width:100%;height:260px;object-fit:contain;margin-bottom:20px" loading="lazy">` : ''}${tag}small>${escape(r.artist)}${tag}/small>${tag}h2 style="font-size:25px;line-height:1.3;font-weight:400">${escape(r.label)}${tag}/h2>${tag}/a>${tag}/li>`).join('');
   const languages = ['fr','en','it'].map(code => `${String.fromCharCode(60)}a href="${PREFIX}?lang=${code}" lang="${code}" hreflang="${code}"${lang === code ? ' aria-current="page"' : ''}>${code.toUpperCase()}${String.fromCharCode(60)}/a>`).join(' - ');
-  return `${String.fromCharCode(60)}!doctype html>${String.fromCharCode(60)}html lang="${lang}">${String.fromCharCode(60)}head>${String.fromCharCode(60)}meta charset="utf-8">${String.fromCharCode(60)}meta name="viewport" content="width=device-width,initial-scale=1">${String.fromCharCode(60)}meta name="robots" content="noindex,nofollow">${String.fromCharCode(60)}title>Private Art Vault | VOCE${String.fromCharCode(60)}/title>${String.fromCharCode(60)}link rel="stylesheet" href="/styles.css">${String.fromCharCode(60)}/head>${String.fromCharCode(60)}body>${String.fromCharCode(60)}header>${String.fromCharCode(60)}div class="wrap nav">${String.fromCharCode(60)}a href="/art">VOCE / ARTE${String.fromCharCode(60)}/a>${String.fromCharCode(60)}nav aria-label="${m.languages}">${languages}${String.fromCharCode(60)}/nav>${String.fromCharCode(60)}/div>${String.fromCharCode(60)}/header>${String.fromCharCode(60)}main class="wrap longform" style="padding:80px 24px">${String.fromCharCode(60)}p>VOCE Art - ${m.private}${String.fromCharCode(60)}/p>${String.fromCharCode(60)}h1>Private Art Vault.${String.fromCharCode(60)}/h1>${String.fromCharCode(60)}p>${m.intro}${String.fromCharCode(60)}/p>${String.fromCharCode(60)}ul>${links}${String.fromCharCode(60)}/ul>${String.fromCharCode(60)}p>${String.fromCharCode(60)}a href="/art">${m.back}${String.fromCharCode(60)}/a>${String.fromCharCode(60)}/p>${String.fromCharCode(60)}/main>${String.fromCharCode(60)}/body>${String.fromCharCode(60)}/html>`;
+  return `${String.fromCharCode(60)}!doctype html>${String.fromCharCode(60)}html lang="${lang}">${String.fromCharCode(60)}head>${String.fromCharCode(60)}meta charset="utf-8">${String.fromCharCode(60)}meta name="viewport" content="width=device-width,initial-scale=1">${String.fromCharCode(60)}meta name="robots" content="noindex,nofollow">${String.fromCharCode(60)}title>Private Art Vault | VOCE${String.fromCharCode(60)}/title>${String.fromCharCode(60)}link rel="stylesheet" href="/styles.css">${String.fromCharCode(60)}/head>${String.fromCharCode(60)}body>${String.fromCharCode(60)}header>${String.fromCharCode(60)}div class="wrap nav">${String.fromCharCode(60)}a href="/art">VOCE / ARTE${String.fromCharCode(60)}/a>${String.fromCharCode(60)}nav aria-label="${m.languages}">${languages}${String.fromCharCode(60)}/nav>${String.fromCharCode(60)}/div>${String.fromCharCode(60)}/header>${String.fromCharCode(60)}main class="wrap longform" style="padding:80px 24px">${String.fromCharCode(60)}p>VOCE Art - ${m.private}${String.fromCharCode(60)}/p>${String.fromCharCode(60)}h1>Private Art Vault.${String.fromCharCode(60)}/h1>${String.fromCharCode(60)}p>${m.intro}${String.fromCharCode(60)}/p>${String.fromCharCode(60)}ul style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:36px;padding:0">${links}${String.fromCharCode(60)}/ul>${String.fromCharCode(60)}p>${String.fromCharCode(60)}a href="/art">${m.back}${String.fromCharCode(60)}/a>${String.fromCharCode(60)}/p>${String.fromCharCode(60)}/main>${String.fromCharCode(60)}/body>${String.fromCharCode(60)}/html>`;
 }
 
 const TYPES = {html:'text/html; charset=utf-8',json:'application/json; charset=utf-8',jpg:'image/jpeg',jpeg:'image/jpeg',png:'image/png',webp:'image/webp',pdf:'application/pdf'};
@@ -121,10 +135,10 @@ export async function handleArtVault(request, env) {
   const user = users.find(entry => entry.username === supplied.username);
   const correct = await sameSecret(supplied.password, user?.password || 'invalid-account-placeholder-password');
   if (!user || !correct || (user.expiresAt && Date.now() >= Date.parse(user.expiresAt))) return reject();
-  if (!route[1]) return reply(request.method === 'HEAD' ? null : indexPage(user,lang),200,{'content-type':TYPES.html});
+  if (!route[1]) return reply(request.method === 'HEAD' ? null : await indexPage(user,lang,env),200,{'content-type':TYPES.html});
   const dossier = route[1];
   if (!user.dossiers.includes(dossier)) return reply(m.missing,404);
-  let file = route[2] || (dossier === 'seguso' ? `${lang}.html` : 'index.html');
+  let file = route[2] || `${lang}.html`;
   if (!/^[A-Za-z0-9_./-]+$/.test(file) || file.includes('..') || file.includes('//')) return reply(m.missing,404);
   const extension = file.split('.').pop().toLowerCase();
   if (!TYPES[extension]) return reply(m.missing,404);
