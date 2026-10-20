@@ -18,7 +18,7 @@ function voceZipDirectory(buffer) {
   const name=dec.decode(a.slice(p+46,p+46+n));
   if(flags%2===1)throw Error('Encrypted ZIP unsupported');
   if(name.startsWith('/'))throw Error('Unsafe path');
-  if(name.includes(' '))throw Error('Unsafe path');
+  if(name.includes(String.fromCharCode(92)))throw Error('Unsafe path');
   if(name.split('/').includes('..'))throw Error('Unsafe path');
   if(!name.endsWith('/'))files.push({name:name,size:size,compressed:compressed,method:method,local:local});
   p+=46+n+extra+comment;
