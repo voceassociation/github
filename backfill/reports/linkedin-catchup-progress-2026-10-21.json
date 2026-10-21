@@ -1,0 +1,165 @@
+{
+  "schema": "voce.linkedin-catchup-report.v1",
+  "status": "deployed_verified",
+  "date": "2026-10-21",
+  "checked_at": "2026-10-21T21:48:54.504Z",
+  "source": "linkedin_direct",
+  "access": {
+    "status": "normal",
+    "profile_id": "prof_236917ff0f01402f",
+    "run_id": "9aefb295-68a0-4c7e-8d49-f02117802c3c",
+    "profile_url": "https://www.linkedin.com/in/voce-association-0030763b6/recent-activity/all/",
+    "browser_profile": "lite",
+    "proxy_used": false,
+    "vault_used": false,
+    "blocked": false,
+    "challenge": false,
+    "captcha": false
+  },
+  "coverage": {
+    "timezone": "Europe/Podgorica",
+    "publication_date": "2026-10-21",
+    "boundary_target": "urn:li:ugcPost:7518385737113993216",
+    "boundary_seen": true,
+    "coverage_complete": true,
+    "verified_posts": 13,
+    "verified_by_date": {
+      "2026-10-21": 13
+    },
+    "notes": [
+      "The Posts tab was used and the exact prior boundary was reached.",
+      "Activity-card title/link pairings were not trusted; each UGC permalink was verified independently.",
+      "Eleven posts had structured published_date metadata. Two posts used a day-only date because the full possible relative-time interval remained inside 2026-10-21 Europe/Podgorica; no exact hour was invented."
+    ]
+  },
+  "identifiers": [
+    "urn:li:ugcPost:7518763197596803072",
+    "urn:li:ugcPost:7518748117131853824",
+    "urn:li:ugcPost:7518733047345790978",
+    "urn:li:ugcPost:7518717928825880577",
+    "urn:li:ugcPost:7518702834184466432",
+    "urn:li:ugcPost:7518687756043239425",
+    "urn:li:ugcPost:7518657539228741632",
+    "urn:li:ugcPost:7518627358153646080",
+    "urn:li:ugcPost:7518597146980298752",
+    "urn:li:ugcPost:7518566983978721280",
+    "urn:li:ugcPost:7518551808634519553",
+    "urn:li:ugcPost:7518536721496727552",
+    "urn:li:ugcPost:7518521602175762432"
+  ],
+  "pending_candidates": [
+    {
+      "linkedin_id": "urn:li:ugcPost:7517056921168844800",
+      "status": "unpublished",
+      "reason": "Exact permalink still redirected to LinkedIn cold-join and exposed neither full authored text nor structured publication datetime; no reconstruction was attempted."
+    }
+  ],
+  "raw_packet": "backfill/raw/2026-10-21.json",
+  "source_base_commit": "ae8b8cf5af24695f5a144789385ecfbe161fd4c8",
+  "raw_commits": [
+    "13356fb67662860da84c35e055131c4c2a5d28e3",
+    "36a96a1cfd72187a9a0e50d0a97febabe7412c6f"
+  ],
+  "generated_commit": "8b3af0b2977e7bae1e7125f64a7b1cc2888f1214",
+  "workflow": {
+    "run_id": 39676038570,
+    "job_id": 119486009085,
+    "conclusion": "success"
+  },
+  "validation": {
+    "retrieved_unique_publications": 1761,
+    "newly_archived": 13,
+    "corpus_items": 1759,
+    "canonical_routes": 1759,
+    "redirects": 2,
+    "unique_ids": true,
+    "unique_full_texts": true,
+    "alternate_ids_not_reimported": true,
+    "new_conflicts": 0,
+    "preexisting_conflicts_preserved": 334,
+    "discovery_validation_passed": true,
+    "rss_items": 50,
+    "rss_full_original_text": true,
+    "rss_latest_present": true,
+    "sitemap_urls": 2591,
+    "sitemap_latest_present": true,
+    "vault_routes_in_rss": 0,
+    "vault_routes_in_sitemap": 0
+  },
+  "live_verification": {
+    "academy_counter": 1759,
+    "daily_archive_url": "https://voce.life/archive/2026-10-21",
+    "daily_archive_count": 13,
+    "article_url": "https://voce.life/archive/2026/10/21/madagascar-25-feuilles-envoyees-par-la-poste-ont-change-le-traitement-de-7518763197596803072",
+    "self_canonical": true,
+    "robots_index_follow": true,
+    "body_after_title_exact_after_safe_html_whitespace_normalization": true,
+    "source_text_characters": 2762,
+    "source_body_characters": 2665,
+    "original_link_present": true,
+    "og_image": "https://voce.life/voce-og.jpg",
+    "sitemap_entry_present": true,
+    "rss_latest_present": true,
+    "guide_query": "Madagascar: 25 feuilles envoyées par la poste ont changé le traitement des leucémies infantiles",
+    "guide_top_source_exact": true,
+    "guide_position": 1
+  },
+  "indexnow": {
+    "key": "9e4c71d85a2f4b6cb3098f21d7a56e40",
+    "ownership_key_verified": true,
+    "http_status": 200,
+    "submitted_url_count": 51,
+    "run_id": 39676038570,
+    "job_id": 119486009085,
+    "scope": "current four-day publication batch",
+    "indexing_claimed": false
+  },
+  "r2": {
+    "checked_at": "2026-10-21T21:48:54.504Z",
+    "status": "ok",
+    "bucket": "voce-sovereign-corpus",
+    "private": true,
+    "article_routes": 1759,
+    "corpus_items": 1759,
+    "article_routes_synced": 1759,
+    "source_snapshot_complete": true,
+    "backup_complete": true,
+    "total_objects_target": 1886,
+    "objects_synced": 1886,
+    "derived_backup_complete": true,
+    "total_derived_objects": 1875,
+    "derived_objects_synced": 1875,
+    "derived_article_pages_synced": 1759
+  },
+  "drive_research_registry": {
+    "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
+    "sheet": "Scholar Registry",
+    "checked": true,
+    "formal_records": 2,
+    "unchanged": true,
+    "records": [
+      {
+        "type": "Preprint",
+        "creator": "Cano, Giovanni",
+        "doi": "10.5281/zenodo.19189281",
+        "voce_url": "https://voce.life/research/introspective-technoference"
+      },
+      {
+        "type": "Report",
+        "creator": "VOCE Association",
+        "doi": "10.5281/zenodo.19114381",
+        "voce_url": "https://voce.life/research/parental-technoference-language-development"
+      }
+    ]
+  },
+  "safeguards": {
+    "facebook_paused": true,
+    "facebook_data_preserved": true,
+    "metricool_used": false,
+    "media_downloaded": false,
+    "catchup_py_run": false,
+    "editorial_selection_changed": false,
+    "learning_policy_preserved": true,
+    "historical_exhaustiveness_claimed": false
+  }
+}
