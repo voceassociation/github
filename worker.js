@@ -249,6 +249,7 @@ function injectPrivacyDefault(response) {
   let headerLanguage = "en";
   let coursesHeader = false;
   let headerHasCoursesLink = false;
+  let headerHasPhilanthropyLink = false;
   const courseHeaderLabels = {
     fr: {themes:"Thèmes",research:"Recherche",standards:"Normes",publications:"Publications",art:"Art",applied:"Applied"},
     en: {themes:"Themes",research:"Research",standards:"Standards",publications:"Publications",art:"Art",applied:"Applied"},
@@ -271,6 +272,7 @@ function injectPrivacyDefault(response) {
       element(element) {
         const href = element.getAttribute("href") || "";
         const names = courseHeaderLabels[headerLanguage] || courseHeaderLabels.en;
+        if (/\/philanthropy$/.test(href)) headerHasPhilanthropyLink = true;
         if (/\/cours$/.test(href)) {
           headerHasCoursesLink = true;
           if (coursesHeader) element.setInnerContent("COURS VOCE®");
@@ -328,6 +330,12 @@ function injectPrivacyDefault(response) {
     })
     .on("span.lang", {
       element(element) {
+        if (!headerHasPhilanthropyLink) {
+          const labels = {en:"Philanthropy",fr:"Philanthropie",it:"Filantropia"};
+          const href = headerLanguage === "en" ? "/philanthropy" : "/" + headerLanguage + "/philanthropy";
+          element.before('<a class="voce-philanthropy-nav" href="' + href + '">' + labels[headerLanguage] + '</a>', {html:true});
+          headerHasPhilanthropyLink = true;
+        }
         element.before('<a class="voce-guide-nav" href="/#guide">Guide</a>', { html: true });
       }
     })
