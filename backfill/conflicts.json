@@ -2337,6 +2337,58 @@
       "existing_sha256": "b64b8f2e7b6b15b81bde55c3d63fdf6095941c686c4df6b461ed491987d6406d",
       "retrieved_sha256": "cfa1da777181a3d93d7a1f2cf9d5d666c1a135169bf34cce9e00de1042991a9a",
       "resolution": "existing_text_preserved_pending_review"
+    },
+    {
+      "id": "linkedin:7518763197596803072",
+      "reason": "invalid_identifier_or_url"
+    },
+    {
+      "id": "linkedin:7518748117131853824",
+      "reason": "invalid_identifier_or_url"
+    },
+    {
+      "id": "linkedin:7518733047345790978",
+      "reason": "invalid_identifier_or_url"
+    },
+    {
+      "id": "linkedin:7518717928825880577",
+      "reason": "invalid_identifier_or_url"
+    },
+    {
+      "id": "linkedin:7518702834184466432",
+      "reason": "invalid_identifier_or_url"
+    },
+    {
+      "id": "linkedin:7518687756043239425",
+      "reason": "invalid_identifier_or_url"
+    },
+    {
+      "id": "linkedin:7518657539228741632",
+      "reason": "invalid_identifier_or_url"
+    },
+    {
+      "id": "linkedin:7518627358153646080",
+      "reason": "invalid_identifier_or_url"
+    },
+    {
+      "id": "linkedin:7518597146980298752",
+      "reason": "invalid_identifier_or_url"
+    },
+    {
+      "id": "linkedin:7518566983978721280",
+      "reason": "invalid_identifier_or_url"
+    },
+    {
+      "id": "linkedin:7518551808634519553",
+      "reason": "invalid_identifier_or_url"
+    },
+    {
+      "id": "linkedin:7518536721496727552",
+      "reason": "invalid_identifier_or_url"
+    },
+    {
+      "id": "linkedin:7518521602175762432",
+      "reason": "invalid_identifier_or_url"
     }
   ]
 }
