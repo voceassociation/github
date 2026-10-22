@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generated_at": "2026-10-20",
+  "generated_at": "2026-10-22",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
   "methodology": {
@@ -4259,6 +4259,37 @@
       "path": "/archive/2026/10/20/nist-nsa-cisa-un-agent-peut-provoquer-un-incident-sans-etre-pirate-7518174324617371648",
       "sectors": [
         "cross"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7518899105113473024",
+      "date": "2026-10-22",
+      "title": "Mayer Brown: résilier un agent ne coupe pas forcément son pouvoir d'agir",
+      "path": "/archive/2026/10/22/mayer-brown-resilier-un-agent-ne-coupe-pas-forcement-son-pouvoir-d-agir-7518899105113473024",
+      "sectors": [
+        "legal",
+        "finance",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7518914231048683520",
+      "date": "2026-10-22",
+      "title": "SentinelOne Singularity ADR: l'agent peut être arrêté au milieu d'une action",
+      "path": "/archive/2026/10/22/sentinelone-singularity-adr-l-agent-peut-etre-arrete-au-milieu-d-une-act-7518914231048683520",
+      "sectors": [
+        "legal",
+        "it"
       ],
       "themes": [
         "LI!GHT WORKFORCE ©",

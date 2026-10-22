@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-21T21:48:54.504Z",
+  "updated_at": "2026-10-22T21:17:15.719554+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1671,20 +1671,28 @@
       "coverage_complete": true
     },
     "2026-10-21": {
-      "status": "verified_linkedin_direct_complete",
-      "rows": 13,
-      "source": "authenticated_linkedin_browser",
+      "status": "rows_returned",
+      "rows": 14,
       "source_packets": [
-        "backfill/raw/2026-10-21.json"
+        "backfill/raw/2026-10-21.json",
+        "backfill/raw/browser/2026-10-21.json"
       ],
-      "coverage_complete": true,
-      "boundary_seen": true,
-      "boundary_target": "urn:li:ugcPost:7518385737113993216"
+      "source": "historical_connector_and_authenticated_linkedin_browser",
+      "coverage_complete": false
+    },
+    "2026-10-22": {
+      "status": "rows_returned",
+      "rows": 16,
+      "source_packets": [
+        "backfill/raw/2026-10-22.json"
+      ],
+      "source": "authenticated_linkedin_browser",
+      "coverage_complete": true
     }
   },
-  "retrieved_unique_publications": 1761,
-  "newly_archived": 13,
-  "academy_corpus_items": 1759,
+  "retrieved_unique_publications": 1778,
+  "newly_archived": 17,
+  "academy_corpus_items": 1776,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
@@ -1773,23 +1781,23 @@
     },
     "current_publication_ingest": {
       "dates": [
-        "2026-10-18",
         "2026-10-19",
         "2026-10-20",
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ],
       "verified_source": "VOCE verified source packets with explicit platform provenance",
-      "items_processed": 47,
-      "corpus_items_after": 1759,
+      "items_processed": 59,
+      "corpus_items_after": 1776,
       "classification": "A editorial/archive",
-      "static_pages_verified_for_generation": 47,
+      "static_pages_verified_for_generation": 59,
       "daily_archives": [
-        "archive/2026-10-18.html",
         "archive/2026-10-19.html",
         "archive/2026-10-20.html",
-        "archive/2026-10-21.html"
+        "archive/2026-10-21.html",
+        "archive/2026-10-22.html"
       ],
-      "completed_at": "2026-10-21T21:06:35.564559+00:00"
+      "completed_at": "2026-10-22T21:17:16.264669+00:00"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",
@@ -5249,11 +5257,5 @@
     }
   },
   "facebook_daily_scans": {},
-  "facebook_text_conflicts": 0,
-  "metrics": {
-    "retrieved_unique_publications": 1761,
-    "newly_archived": 13,
-    "academy_corpus_items": 1759,
-    "text_conflicts": 334
-  }
+  "facebook_text_conflicts": 0
 }

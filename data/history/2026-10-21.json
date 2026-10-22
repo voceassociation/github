@@ -3,7 +3,7 @@
   "owner": "VOCE Association",
   "source": "LinkedIn authenticated browser",
   "date": "2026-10-21",
-  "item_count": 13,
+  "item_count": 14,
   "items": [
     {
       "id": "linkedin:7518763197596803072",
@@ -29,7 +29,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-21T21:06:35.564559+00:00",
+        "reviewed_at": "2026-10-22T21:17:16.264669+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -57,7 +57,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-21T21:06:35.564559+00:00",
+        "reviewed_at": "2026-10-22T21:17:16.264669+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -85,7 +85,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-21T21:06:35.564559+00:00",
+        "reviewed_at": "2026-10-22T21:17:16.264669+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -113,7 +113,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-21T21:06:35.564559+00:00",
+        "reviewed_at": "2026-10-22T21:17:16.264669+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -141,7 +141,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-21T21:06:35.564559+00:00",
+        "reviewed_at": "2026-10-22T21:17:16.264669+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -169,7 +169,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-21T21:06:35.564559+00:00",
+        "reviewed_at": "2026-10-22T21:17:16.264669+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -197,7 +197,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-21T21:06:35.564559+00:00",
+        "reviewed_at": "2026-10-22T21:17:16.264669+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -225,7 +225,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-21T21:06:35.564559+00:00",
+        "reviewed_at": "2026-10-22T21:17:16.264669+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -253,7 +253,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-21T21:06:35.564559+00:00",
+        "reviewed_at": "2026-10-22T21:17:16.264669+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -281,7 +281,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-21T21:06:35.564559+00:00",
+        "reviewed_at": "2026-10-22T21:17:16.264669+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -309,7 +309,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-21T21:06:35.564559+00:00",
+        "reviewed_at": "2026-10-22T21:17:16.264669+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -337,7 +337,7 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-21T21:06:35.564559+00:00",
+        "reviewed_at": "2026-10-22T21:17:16.264669+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     },
@@ -365,7 +365,35 @@
       "academy_classification": {
         "class": "A",
         "label": "editorial/archive",
-        "reviewed_at": "2026-10-21T21:06:35.564559+00:00",
+        "reviewed_at": "2026-10-22T21:17:16.264669+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7518778298177425410",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7518778298177425410",
+      "date_published": "2026-10-21",
+      "title": "Ce que vous ressentez avant de dormir peut changer la couleur d'un souvenir",
+      "slug": "ce-que-vous-ressentez-avant-de-dormir-peut-changer-la-couleur-d-un-souve-7518778298177425410",
+      "canonical_url": "https://voce.life/archive/2026/10/21/ce-que-vous-ressentez-avant-de-dormir-peut-changer-la-couleur-d-un-souve-7518778298177425410",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518778298177425410/",
+      "language": "fr",
+      "text": "Ce que vous ressentez avant de dormir peut changer la couleur d'un souvenir\n\n23h.\n\nUne journée a été difficile.\n\nUne conversation blessante, puis quelques heures plus tard un moment plus doux.\n\nQue restera-t-il demain?\n\nEn 2026, Yan Cheuk Tsang, Tao Xia, William Leung et Xiaoqing Hu publient dans Learning & Memory une expérience menée auprès de 120 adultes.\n\nLes participants apprennent des associations entre des pseudo-mots et des images émotionnelles.\n\nUn même mot est d'abord associé à une image négative puis positive. Pour d'autres mots, l'ordre est inversé.\n\nSoixante participants dorment ensuite une nuit. Soixante restent éveillés pendant douze heures.\n\nAu retour, les chercheurs leur demandent d'évaluer à nouveau la tonalité émotionnelle des mots.\n\nLe sommeil favorise la valence de l'expérience la plus proche du coucher.\n\nLorsque le positif vient après le négatif, le sommeil préserve davantage cette tonalité positive.\n\nLorsque le négatif vient après le positif, les mots restent au contraire plus négatifs après la nuit que dans le groupe éveillé.\n\nLa reconnaissance des mots ne change pas de la même manière.\n\nLe souvenir d'une information et la couleur affective qui lui reste attachée peuvent donc évoluer séparément.\n\nL'expérience ne porte ni sur des journées entières ni sur des souvenirs autobiographiques.\n\nElle montre quelque chose de plus précis: l'ordre temporel des expériences émotionnelles peut modifier ce que le sommeil stabilise ensuite.\n\nULTRA®\n\nLe résultat corrige une image trop simple du sommeil.\n\nIl ne consolide pas uniformément tout ce qui a été vécu.\n\nDans cette expérience, la proximité temporelle avec l'endormissement modifie la valence qui résiste douze heures plus tard.\n\nLes auteurs contrôlent la valence évaluée immédiatement après l'apprentissage. Dans la condition positif→négatif, le groupe sommeil juge ensuite les indices plus négativement que le groupe éveillé.\n\nDans la condition négatif→positif, le sommeil protège surtout la mise à jour positive contre la dérive négative observée pendant l'éveil.\n\nCela ne prouve pas que finir sa journée sur une expérience agréable réparera un souvenir douloureux.\n\nMais cela donne une base expérimentale à une idée plus subtile: le dernier état émotionnel associé à une expérience peut disposer d'un avantage particulier lorsqu'il précède le sommeil.\n\nCe soir, tout n'a pas besoin d'être résolu.\n\nLe dernier instant possède simplement, lui aussi, une place dans ce que la mémoire conservera.\n\nMIMÌ\n\nNous ne pouvons pas toujours changer ce qui nous est arrivé. Mais la nuit ne reçoit pas toutes nos émotions à la même distance.\n\nSources 2026\n\nTsang, Xia, Leung & Hu, Learning & Memory\n\n#Psychologie #Sommeil #MemoireEmotionnelle #VieInterieure #VOCEAssociation",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "date_precision": "day",
+      "provenance": {
+        "source": "authenticated_linkedin_browser",
+        "retrieved_at": "2026-10-22T21:15:17.112Z",
+        "visible_relative_time": "1 j",
+        "date_basis": "LinkedIn structured published_date; converted to Europe/Podgorica civil date."
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-22T21:17:16.264669+00:00",
         "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
       }
     }
