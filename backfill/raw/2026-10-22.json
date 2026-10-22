@@ -382,29 +382,6 @@
         "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7518868921131761665",
         "sources_and_hashtags_retained": true
       }
-    },
-    {
-      "linkedin_id": "urn:li:ugcPost:7518778298177425410",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518778298177425410/",
-      "text": "Ce que vous ressentez avant de dormir peut changer la couleur d'un souvenir\n\n23h.\n\nUne journée a été difficile.\n\nUne conversation blessante, puis quelques heures plus tard un moment plus doux.\n\nQue restera-t-il demain?\n\nEn 2026, Yan Cheuk Tsang, Tao Xia, William Leung et Xiaoqing Hu publient dans Learning & Memory une expérience menée auprès de 120 adultes.\n\nLes participants apprennent des associations entre des pseudo-mots et des images émotionnelles.\n\nUn même mot est d'abord associé à une image négative puis positive. Pour d'autres mots, l'ordre est inversé.\n\nSoixante participants dorment ensuite une nuit. Soixante restent éveillés pendant douze heures.\n\nAu retour, les chercheurs leur demandent d'évaluer à nouveau la tonalité émotionnelle des mots.\n\nLe sommeil favorise la valence de l'expérience la plus proche du coucher.\n\nLorsque le positif vient après le négatif, le sommeil préserve davantage cette tonalité positive.\n\nLorsque le négatif vient après le positif, les mots restent au contraire plus négatifs après la nuit que dans le groupe éveillé.\n\nLa reconnaissance des mots ne change pas de la même manière.\n\nLe souvenir d'une information et la couleur affective qui lui reste attachée peuvent donc évoluer séparément.\n\nL'expérience ne porte ni sur des journées entières ni sur des souvenirs autobiographiques.\n\nElle montre quelque chose de plus précis: l'ordre temporel des expériences émotionnelles peut modifier ce que le sommeil stabilise ensuite.\n\nULTRA®\n\nLe résultat corrige une image trop simple du sommeil.\n\nIl ne consolide pas uniformément tout ce qui a été vécu.\n\nDans cette expérience, la proximité temporelle avec l'endormissement modifie la valence qui résiste douze heures plus tard.\n\nLes auteurs contrôlent la valence évaluée immédiatement après l'apprentissage. Dans la condition positif→négatif, le groupe sommeil juge ensuite les indices plus négativement que le groupe éveillé.\n\nDans la condition négatif→positif, le sommeil protège surtout la mise à jour positive contre la dérive négative observée pendant l'éveil.\n\nCela ne prouve pas que finir sa journée sur une expérience agréable réparera un souvenir douloureux.\n\nMais cela donne une base expérimentale à une idée plus subtile: le dernier état émotionnel associé à une expérience peut disposer d'un avantage particulier lorsqu'il précède le sommeil.\n\nCe soir, tout n'a pas besoin d'être résolu.\n\nLe dernier instant possède simplement, lui aussi, une place dans ce que la mémoire conservera.\n\nMIMÌ\n\nNous ne pouvons pas toujours changer ce qui nous est arrivé. Mais la nuit ne reçoit pas toutes nos émotions à la même distance.\n\nSources 2026\n\nTsang, Xia, Leung & Hu, Learning & Memory\n\n#Psychologie #Sommeil #MemoireEmotionnelle #VieInterieure #VOCEAssociation",
-      "author": "Voce Association",
-      "retrieved_at": "2026-10-22T21:15:17.112Z",
-      "visible_relative_time": "1 j",
-      "url_resolved": true,
-      "linebreaks_preserved": true,
-      "publication_date": "2026-10-21",
-      "date_precision": "day",
-      "source": "linkedin-public-html",
-      "source_publication_datetime": "2026-10-21T21:00:44.170Z",
-      "date_basis": "LinkedIn structured published_date; converted to Europe/Podgorica civil date.",
-      "verification": {
-        "method": "literal_public_post_full_metadata_description_corroborated_by_visible_commentary",
-        "commentary_words_and_punctuation_match_html": true,
-        "original_newlines_retained_from_full_source_metadata": true,
-        "author_profile_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_psychologie-sommeil-memoireemotionnelle-activity-7518778322252640256-x9o9",
-        "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7518778322252640256",
-        "sources_and_hashtags_retained": true
-      }
     }
   ],
   "candidate_posts": [
@@ -426,5 +403,6 @@
   "metricool_used": false,
   "author_url": "https://www.linkedin.com/in/voce-association-0030763b6/",
   "source": "verified_linkedin_public_html",
-  "access_run": "8694a601-6bc0-4c9c-8b6e-2076bdbd63dc"
+  "access_run": "8694a601-6bc0-4c9c-8b6e-2076bdbd63dc",
+  "date_partition_note": "One independently verified late publication belongs to the 2026-10-21 civil day and is preserved in backfill/raw/browser/2026-10-21.json."
 }
