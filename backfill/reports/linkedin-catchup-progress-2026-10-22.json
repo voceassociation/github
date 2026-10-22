@@ -2,8 +2,8 @@
   "schema": "voce.linkedin-catchup-report.v1",
   "date": "2026-10-22",
   "timezone": "Europe/Podgorica",
-  "status": "deployment_recovery_pending",
-  "checked_at": "2026-10-22T21:20:30.000Z",
+  "status": "deployed_verified",
+  "checked_at": "2026-10-22T21:31:30.000Z",
   "summary": {
     "verified_posts": 17,
     "verified_by_date": {
@@ -82,11 +82,13 @@
     }
   ],
   "deployment": {
-    "status": "recovery_pending",
-    "observed_public_corpus_items": 1759,
+    "status": "recovered_and_verified_live",
+    "active_deployment_id": "b51fef96-cbe1-403f-84a0-2f312f3d8044",
+    "active_version": "a689c1b2-8cdb-42f8-998a-eb4dd26ab1fb",
+    "recovery_commit": "3111fd637cf6a49fa36d162e0bb1a9063e92ad8e",
+    "observed_public_corpus_items": 1776,
     "expected_public_corpus_items": 1776,
-    "cloudflare_active_version_observed": "05c055a8-2483-4be4-a0d9-72fac1c89a0f",
-    "reason": "Concurrent Cloudflare deployments left the older 1759-item asset version active after the 1776-item generated commit."
+    "reason": "A changed report/checkpoint commit deployed the already-generated 1776-item tree after the earlier deployment race."
   },
   "safeguards": {
     "facebook_used": false,
@@ -96,5 +98,56 @@
     "triggers_modified": false,
     "permissions_modified": false,
     "waf_modified": false
+  },
+  "live_verification": {
+    "academy_counter": 1776,
+    "daily_archives": {
+      "2026-10-21": {
+        "count": 14,
+        "late_article_present": true
+      },
+      "2026-10-22": {
+        "count": 16,
+        "latest_article_present": true
+      }
+    },
+    "article_url": "https://voce.life/archive/2026/10/22/les-marshallais-detectaient-des-iles-invisibles-a-50-kilometres-7519110507199467520",
+    "late_article_url": "https://voce.life/archive/2026/10/21/ce-que-vous-ressentez-avant-de-dormir-peut-changer-la-couleur-d-un-souve-7518778298177425410",
+    "self_canonical": true,
+    "robots_index_follow": true,
+    "body_after_title_exact_after_safe_html_whitespace_normalization": true,
+    "source_text_characters": 2956,
+    "source_body_characters": 2891,
+    "original_link_present": true,
+    "og_image": "https://voce.life/voce-og.jpg",
+    "sitemap_urls": 2609,
+    "sitemap_latest_present": true,
+    "sitemap_late_present": true,
+    "rss_items": 50,
+    "rss_full_original_text": true,
+    "rss_latest_present": true,
+    "rss_late_present": true,
+    "guide_query": "Les Marshallais détectaient des îles invisibles à 50 kilomètres",
+    "guide_top_source_exact": true,
+    "guide_top_url": "https://voce.life/archive/2026/10/22/les-marshallais-detectaient-des-iles-invisibles-a-50-kilometres-7519110507199467520",
+    "guide_run_id": "7bedabd6-03bb-403d-a119-9397dec8058f"
+  },
+  "r2": {
+    "checked_at": "2026-10-22T21:31:30.000Z",
+    "status": "ok",
+    "bucket": "voce-sovereign-corpus",
+    "private": true,
+    "synced_at": "2026-10-22T21:27:53.801Z",
+    "article_routes": 1776,
+    "corpus_items": 1776,
+    "article_routes_synced": 1776,
+    "source_snapshot_complete": true,
+    "backup_complete": true,
+    "total_objects_target": 1904,
+    "objects_synced": 1904,
+    "derived_backup_complete": true,
+    "total_derived_objects": 1893,
+    "derived_objects_synced": 1893,
+    "derived_article_pages_synced": 1776
   }
 }
