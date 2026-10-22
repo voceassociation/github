@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-22T21:17:15.719554+00:00",
+  "updated_at": "2026-10-22T21:20:30.000Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -5254,6 +5254,82 @@
       "coverage_complete": true,
       "historical_conflicts_preserved": 334,
       "report": "backfill/reports/linkedin-catchup-progress-2026-10-21.json"
+    },
+    "linkedin_nightly_2026_10_22_2300": {
+      "status": "deployment_recovery_pending",
+      "checked_at": "2026-10-22T21:20:30.000Z",
+      "access_status": "normal",
+      "access_run": "8694a601-6bc0-4c9c-8b6e-2076bdbd63dc",
+      "boundary_target": "urn:li:ugcPost:7518763197596803072",
+      "boundary_seen": true,
+      "verified_posts": 17,
+      "verified_by_date": {
+        "2026-10-21": 1,
+        "2026-10-22": 16
+      },
+      "pending_candidates": [
+        "urn:li:ugcPost:7517056921168844800"
+      ],
+      "raw_packets": [
+        "backfill/raw/browser/2026-10-21.json",
+        "backfill/raw/2026-10-22.json"
+      ],
+      "source_commits": [
+        "d81a6467debe8920bafa4daad8537117fbd0a6cd",
+        "8d6600ca9d46b32db4688f197736ab07ab7e9301"
+      ],
+      "generated_commit": "453845f9be5f0aa8662570e776a61d60808218f8",
+      "workflow": {
+        "initial_run_id": 39855752662,
+        "initial_conclusion": "failure",
+        "initial_cause": "Browser packet date mismatch",
+        "run_id": 39855988748,
+        "job_id": 120094206076,
+        "conclusion": "success"
+      },
+      "validation": {
+        "retrieved_unique_publications": 1778,
+        "newly_archived": 17,
+        "corpus_items": 1776,
+        "canonical_routes": 1776,
+        "redirects": 2,
+        "unique_ids": true,
+        "unique_full_texts": true,
+        "alternate_ids_not_reimported": true,
+        "new_conflicts": 0,
+        "preexisting_conflicts_preserved": 334,
+        "discovery_validation_passed": true,
+        "rss_items": 50,
+        "vault_routes_in_rss": 0,
+        "vault_routes_in_sitemap": 0
+      },
+      "deployment_recovery": {
+        "reason": "Concurrent Cloudflare deployments left the older 1759-item asset version active after the 1776-item generated commit.",
+        "active_version_observed": "05c055a8-2483-4be4-a0d9-72fac1c89a0f",
+        "redeploy_commit": "4dcd382d1a46d888d2bbc110d102472bcd958bf4",
+        "triggers_modified": false,
+        "permissions_modified": false
+      },
+      "indexnow": {
+        "http_status": 200,
+        "run_id": 39855988748,
+        "job_id": 120094206076,
+        "scope": "current four-day publication batch",
+        "indexing_claimed": false
+      },
+      "drive_research_registry": {
+        "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
+        "checked": true,
+        "formal_records": 2,
+        "unchanged": true
+      },
+      "facebook_paused": true,
+      "metricool_used": false,
+      "media_downloaded": false,
+      "editorial_selection_changed": false,
+      "coverage_complete": true,
+      "historical_conflicts_preserved": 334,
+      "report": "backfill/reports/linkedin-catchup-progress-2026-10-22.json"
     }
   },
   "facebook_daily_scans": {},
