@@ -1,5 +1,1053 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>VOCE Academy</title><link>https://voce.life/archive</link><description>The 50 latest VOCE publications, with full original text and permanent URLs. The complete corpus remains available at https://voce.life/data/corpus.json and https://voce.life/data/corpus.ndjson.</description><language>fr</language><lastBuildDate>Thu, 22 Oct 2026 21:17:16 +0000</lastBuildDate><item><title>Votre IA se souvient de vous. Sait-elle que vous avez changé?</title><link>https://voce.life/archive/2026/10/22/votre-ia-se-souvient-de-vous-sait-elle-que-vous-avez-change-7518944433497812994</link><guid isPermaLink="true">https://voce.life/archive/2026/10/22/votre-ia-se-souvient-de-vous-sait-elle-que-vous-avez-change-7518944433497812994</guid><author>VOCE Association</author><description>Votre IA se souvient de vous. Sait-elle que vous avez changé?
+<rss version="2.0"><channel><title>VOCE Academy</title><link>https://voce.life/archive</link><description>The 50 latest VOCE publications, with full original text and permanent URLs. The complete corpus remains available at https://voce.life/data/corpus.json and https://voce.life/data/corpus.ndjson.</description><language>fr</language><lastBuildDate>Fri, 23 Oct 2026 21:06:42 +0000</lastBuildDate><item><title>Un cheval thrace mort il y a 2.800 ans porte encore la marque de son travail</title><link>https://voce.life/archive/2026/10/23/un-cheval-thrace-mort-il-y-a-2-800-ans-porte-encore-la-marque-de-son-tra-7519457803447488512</link><guid isPermaLink="true">https://voce.life/archive/2026/10/23/un-cheval-thrace-mort-il-y-a-2-800-ans-porte-encore-la-marque-de-son-tra-7519457803447488512</guid><author>VOCE Association</author><description>Un cheval thrace mort il y a 2.800 ans porte encore la marque de son travail
+
+Près de Chirpan, dans la vallée thrace, des archéologues ont retrouvé le squelette presque complet d’une jument morte au VIIIe siècle avant notre ère.
+
+En 2026, Nadezhda Karastoyanova et ses collègues l’examinent macroscopiquement, puis utilisent radiographie et tomodensitométrie sur les zones pathologiques.
+
+Elle mesurait environ 1,33 m au garrot.
+
+Ses prémolaires supérieures et inférieures présentent une usure prononcée compatible avec l’usage d’un mors.
+
+Ses vertèbres thoraciques et certaines côtes montrent des altérations dégénératives. Les phalanges proximales portent aussi des proliférations périostées.
+
+La distribution de ces lésions conduit les chercheurs à une interprétation précise: des contraintes mécaniques prolongées et répétées, compatibles avec traction et portage de charges.
+
+Après 2.800 ans, son squelette conserve donc une histoire du travail.
+
+Cette lecture déplace l’image familière du cheval thrace.
+
+Les tombes aristocratiques montrent surtout l’animal du prestige.
+
+En 2024, près de Kapitan Petko Voyvoda, dans la région de Topolovgrad, les archéologues découvrent la tombe d’un guerrier-aristocrate thrace de l’époque hellénistique, incinéré avec un cheval.
+
+Trois brides de fer et des ornements de harnais accompagnaient les restes. Certains éléments en bronze doré représentent des scènes d’Héraclès. Un frontal massif en or porte un serpent.
+
+À Chirpan, aucune parure n’est nécessaire.
+
+Une dent suffit.
+
+Elle révèle que le cheval appartenait aussi à l’infrastructure matérielle de la société: déplacer, porter, tirer, parcourir.
+
+ULTRA®
+
+La paléopathologie transforme ici le squelette en archive économique.
+
+Une prémolaire peut enregistrer le contact répété d’un mors. Une vertèbre peut conserver les effets d’une charge mécanique. Une phalange peut révéler la répétition d’un effort.
+
+Mais ces traces ne racontent pas seules une profession exacte.
+
+Les auteurs parlent de travail soutenu compatible avec traction et portage. La mauvaise conservation du crâne limite aussi l’évaluation d’éventuels traumatismes.
+
+C’est précisément ce qui rend l’étude forte.
+
+Les objets funéraires documentent la représentation sociale du cheval.
+
+Le corps de cette jument documente son utilisation.
+
+Deux archives différentes d’une même civilisation.
+
+Et, soudain, la Thrace quitte le tombeau.
+
+Elle recommence à bouger.
+
+RADAMÈS
+
+L’opéra conserve le prestige du retour. L’os conserve le prix physique du mouvement.
+
+Le pouvoir laisse ses emblèmes. Le travail laisse ses traces.
+
+Sources
+
+Karastoyanova et al., International Journal of Paleopathology, 2026
+National Archaeological Institute with Museum, Bulgarian Academy of Sciences, 2025
+Archaeology Magazine, 11 août 2025
+
+#VOCEAssociation #Thraces #Archeologie #Paleopathologie #Balkans</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519457803447488512/">Linkedin</source></item><item><title>Skild AI: un robot apprend une tâche inconnue avec une seule vidéo</title><link>https://voce.life/archive/2026/10/23/skild-ai-un-robot-apprend-une-tache-inconnue-avec-une-seule-video-7519382305212203009</link><guid isPermaLink="true">https://voce.life/archive/2026/10/23/skild-ai-un-robot-apprend-une-tache-inconnue-avec-une-seule-video-7519382305212203009</guid><author>VOCE Association</author><description>Skild AI: un robot apprend une tâche inconnue avec une seule vidéo
+
+18 août 2026.
+
+Skild AI présente S1, un modèle fondation robotique conçu pour exécuter une tâche nouvelle à partir d’une seule démonstration vidéo, sans modifier ses poids ni effectuer de post-entraînement spécifique.
+
+Sur des tâches inédites allant jusqu’à dix minutes, Skild rapporte 66% de réussite avec l’apprentissage en contexte, contre 9% pour un VLA commandé par langage à volume de préentraînement comparable.
+
+Pour atteindre ce niveau, le VLA nécessiterait environ 380 démonstrations supplémentaires, soit 50 à 100 heures de téléopération selon l’entreprise.
+
+Le mécanisme rappelle le prompting.
+
+La vidéo entre dans le contexte. Le robot infère le comportement puis le transpose à son propre corps. Les poids restent inchangés.
+
+Skild montre des tâches absentes du préentraînement: rempoter une plante, préparer un café ou retourner une crêpe.
+
+Une démonstration devient une instruction physique.
+
+Le résultat reste publié par Skild et n’a pas encore de validation indépendante.
+
+Mais l’enjeu industriel est considérable.
+
+Le 10 septembre, Skild déclare plus de 60 clients payants et plus de 100 millions de dollars de revenu annuel récurrent. Avec NVIDIA et Foxconn, le Skild Brain est déployé sur des manipulateurs à deux bras pour l’assemblage de systèmes Blackwell.
+
+ULTRA®
+
+Un robot peut changer de compétence sans changer de modèle.
+
+Deux exécutions utilisant les mêmes poids peuvent produire des comportements différents si la vidéo de démonstration change.
+
+Le contrôle de version du modèle ne suffit plus.
+
+Il faut conserver la démonstration, le robot, l’état initial de la scène, les limites de mouvement, les reprises après erreur et le résultat physique.
+
+La traçabilité descend jusqu’au geste.
+
+La démonstration devient un artefact critique de production.
+
+LI!GHT WORKFORCE ©
+
+Skild ne publie pas le prix de S1.
+
+Un UR10e de Universal Robots, partenaire de Skild, est affiché à 44.636 $ par Electromate. Standard Bots affiche son bras Core à partir de 39.500 $.
+
+Ces montants ne représentent pas une cellule complète et les systèmes ne sont pas équivalents.
+
+Le changement économique se situe dans le coût de la compétence.
+
+Si une nouvelle opération exige une vidéo plutôt que 50 à 100 heures de téléopération ou une reprogrammation dédiée, le coût marginal d’adaptation chute.
+
+La light workforce peut alors toucher aussi l’intégration robotique, les méthodes et la programmation de cellules.
+
+OLYMPIA
+
+L’usine autonome commencera peut-être le jour où montrer un geste coûtera moins cher que le programmer.
+
+Sources 2026
+
+Skild AI, S1, 18 août
+Skild AI, The Hidden Pillar of Robotics, 10 septembre
+NVIDIA, Skild AI S1, 10 septembre
+Electromate; Standard Bots
+
+#VOCEAssociation #PhysicalAI #Robotics #EmbodiedAI #LightWorkforce</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519382305212203009/">Linkedin</source></item><item><title>ServiceNow et NVIDIA: révoquer un agent jusque dans le silicium</title><link>https://voce.life/archive/2026/10/23/servicenow-et-nvidia-revoquer-un-agent-jusque-dans-le-silicium-7519216187508064256</link><guid isPermaLink="true">https://voce.life/archive/2026/10/23/servicenow-et-nvidia-revoquer-un-agent-jusque-dans-le-silicium-7519216187508064256</guid><author>VOCE Association</author><description>ServiceNow et NVIDIA: révoquer un agent jusque dans le silicium
+
+21 octobre 2026, GTC Berlin.
+
+ServiceNow rend Arc disponible. Cet agent peut poursuivre une tâche pendant des minutes ou des jours, utiliser des applications, écrire du code et construire une intégration.
+
+NVIDIA lance aussi OpenShell Reference Architecture.
+
+OpenShell exécute chaque agent dans un bac à sable isolé et place l'autorité hors de son processus. L'agent ne décide donc pas seul quels fichiers, réseaux, modèles ou outils il peut atteindre.
+
+NVIDIA ajoute une seconde frontière: BlueField-4.
+
+Cette DPU possède un domaine de confiance séparé du système hôte. NVIDIA Sentry y observe les communications et l'état d'exécution, puis peut appliquer une politique même si le logiciel hébergeant l'agent est compromis.
+
+DOCA Flow impose le pare-feu réseau. DOCA Tower inspecte les communications autorisées au niveau applicatif. Open Policy Agent évalue localement les règles en Rego.
+
+DOCA Argus ajoute une preuve indépendante en inspectant certaines zones de mémoire du système hôte depuis BlueField.
+
+Le contrôle ne dépend donc plus uniquement de ce que l'agent déclare sur lui-même.
+
+ServiceNow veut relier cette couche à AI Passport. Chaque agent recevrait une identité et un périmètre d'autorité que l'infrastructure pourrait faire respecter pendant l'exécution.
+
+ServiceNow annonce qu'une révocation pourra se propager en environ une seconde et couper le trafic du seul agent concerné.
+
+Mais la chronologie compte.
+
+Arc et OpenShell Reference Architecture sont disponibles. L'intégration complète d'AI Passport avec OpenShell et BlueField viendra plus tard. NVIDIA prévoit Sentry début 2027.
+
+Une partie essentielle de l'enforcement matériel reste donc à industrialiser.
+
+ULTRA®
+
+L'intérêt de BlueField tient à sa position hors bande.
+
+Si le contrôle partage l'OS ou l'espace d'exécution de l'agent, une compromission sévère peut atteindre le workload et son superviseur.
+
+BlueField conserve une capacité d'observation et d'enforcement indépendante du host.
+
+Le matériel peut bloquer une communication ou isoler un workload. Il ne sait pas seul si une décision métier était légitime.
+
+Cette légitimité reste définie par les politiques, l'identité, les droits délégués et le contexte d'entreprise.
+
+La gouvernance devient donc une chaîne vérifiable allant de la règle métier à l'enforcement matériel et à sa trace.
+
+LI!GHT WORKFORCE ©
+
+Arc montre ce qui change lorsque l'agent devient un travailleur logiciel: objectif, outils, exécution longue, autonomie partielle.
+
+Le travail humain se déplace vers l'attribution des capacités, les exceptions et la révocation.
+
+Le KPI critique n'est plus seulement le nombre d'agents actifs.
+
+C'est le temps nécessaire pour retirer effectivement leur pouvoir d'agir.
+
+Sources
+
+ServiceNow, 21 octobre 2026
+NVIDIA, OpenShell Reference Architecture, 21 octobre 2026
+NVIDIA Technical Blog, Sentry, 21 octobre 2026
+
+#VOCEAssociation #AIGovernance #AgenticAI #AIInfrastructure</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519216187508064256/">Linkedin</source></item><item><title>ServiceNow Arc: l’agent personnel peut travailler plusieurs jours et fabriquer ses propres intégrations</title><link>https://voce.life/archive/2026/10/23/servicenow-arc-lagent-personnel-peut-travailler-plusieurs-jours-et-fabri-7519246379295182848</link><guid isPermaLink="true">https://voce.life/archive/2026/10/23/servicenow-arc-lagent-personnel-peut-travailler-plusieurs-jours-et-fabri-7519246379295182848</guid><author>VOCE Association</author><description>ServiceNow Arc: l’agent personnel peut travailler plusieurs jours et fabriquer ses propres intégrations
+
+21 octobre 2026.
+
+ServiceNow rend Arc généralement disponible dans EmployeeWorks.
+
+Un salarié lui confie un objectif lundi. Arc peut encore y travailler mercredi.
+
+L’agent planifie la mission, utilise ServiceNow, l’e-mail, Teams et d’autres outils, vérifie son travail puis ajuste son plan jusqu’à l’objectif.
+
+Une tâche qui survit plusieurs jours doit conserver état, mémoire, permissions et contexte sans dépendre d’une session ouverte.
+
+Arc peut fonctionner dans un runtime NVIDIA OpenShell isolé ou sur le poste de l’employé.
+
+Lorsqu’une intégration manque, il peut aussi en construire une à la volée.
+
+Le code produit reste exécuté dans la frontière OpenShell. L’agent peut donc créer une capacité sans recevoir automatiquement un accès général au réseau ou aux systèmes internes.
+
+Le Super Intelligence Control Tower définit systèmes, API et données accessibles. OpenShell applique ces politiques pendant l’exécution.
+
+Le raisonnement peut rester probabiliste.
+
+L’autorité d’exécution reste extérieure au modèle.
+
+Arc peut utiliser des modèles locaux sur NVIDIA RTX Spark pour les tâches courantes et appeler des modèles frontier pour les travaux plus exigeants, afin de réduire coût d’inférence et circulation des données.
+
+Il peut aussi détecter du travail: tâches en retard, validations en attente ou suivis issus d’e-mails, réunions et conversations.
+
+L’assistant attend.
+
+Arc possède un backlog.
+
+ULTRA®
+
+Le point technique le plus intéressant apparaît lorsqu’Arc fabrique sa propre intégration.
+
+Le nouveau code n’est pas considéré comme fiable parce que l’agent l’a écrit. Il reste enfermé dans la même frontière d’exécution et soumis aux politiques de l’entreprise.
+
+C’est une séparation entre capacité et autorité.
+
+Arc et OpenShell sont disponibles aujourd’hui. AI Passport, qui doit transporter l’autorité vers OpenShell puis NVIDIA Sentry sur BlueField, reste prévu pour une version future.
+
+ServiceNow annonce alors une révocation propagée en environ une seconde. Cette couche matérielle n’est donc pas encore disponible.
+
+LI!GHT WORKFORCE ©
+
+AGENT: Arc
+SOCIÉTÉ: ServiceNow
+RUNTIME: NVIDIA OpenShell
+
+Arc absorbe le suivi de tâches longues, la coordination multi-applications, la détection proactive d’actions et la création d’intégrations manquantes.
+
+L’humain conserve priorités, exceptions, validation des actions sensibles et responsabilité.
+
+Une partie de la continuité opérationnelle quitte le salarié pour devenir infrastructure logicielle persistante.
+
+Le KPI utile sera le nombre d’heures humaines retirées du suivi, le taux d’exceptions et le coût d’inférence par tâche terminée.
+
+Sources
+
+ServiceNow, Arc et NVIDIA OpenShell, 21 octobre 2026
+ServiceNow, EmployeeWorks, octobre 2026
+
+#VOCEAssociation #ServiceNow #NVIDIA #AIAgents #AIInfrastructure</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519246379295182848/">Linkedin</source></item><item><title>Seats.io: le plan de salle peut sortir du lot "billetterie" des appels d'offres</title><link>https://voce.life/archive/2026/10/23/seats-io-le-plan-de-salle-peut-sortir-du-lot-billetterie-des-appels-d-of-7519442782848131073</link><guid isPermaLink="true">https://voce.life/archive/2026/10/23/seats-io-le-plan-de-salle-peut-sortir-du-lot-billetterie-des-appels-d-of-7519442782848131073</guid><author>VOCE Association</author><description>Seats.io: le plan de salle peut sortir du lot "billetterie" des appels d'offres
+
+22 septembre 2026.
+
+Seats.io met en production son choix de places en 3D.
+
+Le spectateur peut explorer une salle puis sélectionner son siège dans un composant intégré au site de l'institution.
+
+La société qui le produit est Seats.io bv, basée en Belgique.
+
+Et elle ne cherche pas à devenir une billetterie complète.
+
+Son produit isole une fonction longtemps enfermée dans ces plateformes: plan de salle, disponibilité, sélection et réservation des places.
+
+Le paiement, le billet et le reste du parcours peuvent rester dans les systèmes choisis par l'organisateur.
+
+L'intégration repose sur un renderer côté interface et des API côté serveur.
+
+En octobre 2026, Seats.io gère notamment les canaux de vente, les configurations "for sale", les saisons, la revente de places et l'attribution automatique "Best Available".
+
+Une fonction critique devient donc une brique indépendante.
+
+Le prix rend le déplacement concret.
+
+Le plan Silver annuel coûte 450 € pour 2.500 sièges utilisés. Le Gold annuel facture 7.200 € pour 60.000 sièges, puis 0,12 € par siège supplémentaire. Les embeds peuvent fonctionner en marque blanche.
+
+Un opéra n'a donc plus besoin de choisir tout son système de billetterie pour obtenir un bon plan de salle.
+
+Un stade peut dissocier cette couche du paiement.
+
+Un musée peut l'intégrer à son propre parcours numérique.
+
+ULTRA®
+
+La rupture n'est pas que logicielle.
+
+Elle touche le périmètre même d'un appel d'offres.
+
+Si le plan de salle, l'inventaire et la sélection des sièges existent comme composant autonome, ils peuvent être spécifiés, évalués et remplacés séparément du paiement ou de l'émission du billet.
+
+Le verrou fournisseur se déplace alors du produit complet vers les interfaces entre composants.
+
+La vraie exigence devient: API documentées, portabilité des données, SLA, sécurité, accessibilité et capacité à remplacer une brique sans reconstruire tout le parcours.
+
+Seats.io ne supprime donc pas la billetterie.
+
+Il rend une de ses fonctions dissociable.
+
+LI!GHT WORKFORCE ©
+
+Le Designer permet aux équipes de construire les plans. Event Manager permet de modifier directement les statuts. Best Available automatise l'affectation des meilleures places. Les canaux pilotent l'inventaire sans retraitement manuel permanent.
+
+Une partie du travail autrefois renvoyée au fournisseur peut revenir à une équipe interne plus légère, équipée d'un logiciel spécialisé.
+
+FIGARO
+
+Figaro aurait aimé cette architecture: elle ne détruit pas la maison, elle découvre que certaines de ses clés pouvaient être achetées séparément.
+
+Une dépendance devient visible le jour où quelqu'un transforme en composant ce que l'on croyait indivisible.
+
+Sources 2026
+
+Seats.io, Changelog, septembre-octobre 2026
+Seats.io, Developer Hub
+Seats.io, Pricing
+Seats.io bv, informations légales
+
+#VOCEAssociation #Ticketing #Museums #Opera #Stadiums #AudienceSovereignty</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519442782848131073/">Linkedin</source></item><item><title>Salesforce paie 3,6 milliards pour Fin. Gartner: les clients passent déjà par d'autres IA</title><link>https://voce.life/archive/2026/10/23/salesforce-paie-3-6-milliards-pour-fin-gartner-les-clients-passent-deja-7519503081382801408</link><guid isPermaLink="true">https://voce.life/archive/2026/10/23/salesforce-paie-3-6-milliards-pour-fin-gartner-les-clients-passent-deja-7519503081382801408</guid><author>VOCE Association</author><description>Salesforce paie 3,6 milliards pour Fin. Gartner: les clients passent déjà par d'autres IA
+
+10 septembre 2026.
+
+Salesforce finalise l'acquisition de Fin, anciennement Intercom, pour environ 3,6 milliards de dollars.
+
+Fin traite les demandes par chat, e-mail, WhatsApp, SMS, voix ou Slack. Salesforce annonce 76% de résolutions autonomes en moyenne.
+
+Chiffre du fournisseur.
+
+Deux mois plus tôt, Gartner publie une enquête auprès de 3.566 clients B2B et B2C.
+
+Lors de leur dernière interaction avec un service client, ils ont utilisé environ trois fois plus souvent des IA tierces comme ChatGPT, Gemini ou Copilot que les chatbots de l'entreprise concernée.
+
+L'usage des IA externes a presque doublé en un an. Celui des chatbots des marques reste inchangé depuis 2022.
+
+Le service client commence donc parfois avant que l'entreprise ne voie le client.
+
+Un assuré peut exposer son problème à ChatGPT, préparer sa réclamation puis n'envoyer à l'assureur que la transaction finale.
+
+L'entreprise conserve le dossier mais perd une partie de la conversation qui révélait peut-être une hésitation ou une intention de départ.
+
+En août, Gartner observe un autre déplacement: les dépenses IA des services clients progressent de 38%, contre 2% pour leurs budgets globaux.
+
+Dans un échantillon distinct de 1.303 dirigeants, seuls 24% démontrent des retours financiers positifs sur leurs usages de l'IA.
+
+ULTRA®
+
+Un contact évité n'est pas une résolution vérifiée.
+
+L'agent externe peut préparer une demande sans pouvoir modifier le contrat. L'agent interne peut exécuter l'action s'il possède identité, API et permissions.
+
+Le board doit suivre le coût par dossier clos, les réouvertures, les erreurs reprises et la part des parcours commencés hors de ses canaux.
+
+LI!GHT WORKFORCE ©
+
+Fin facture 0,99 dollar par outcome. Agentforce propose notamment 2 dollars par conversation.
+
+Deux unités économiques différentes.
+
+Le coût du service quitte progressivement le siège humain pour devenir une dépense à l'usage.
+
+Mais 87% des clients jugent essentiel de pouvoir atteindre un humain lorsqu'une entreprise utilise la GenAI, selon Gartner.
+
+L'humain reste nécessaire pour les exceptions, conflits et dossiers mal résolus.
+
+FINVOCE ©
+
+Salesforce paie 3,6 milliards de dollars pour une société comptant plus de 30.000 entreprises clientes.
+
+La transaction valorise une couche capable de résoudre, agir et s'intégrer au système de service.
+
+Mais Gartner révèle le risque inverse: si le client commence dans ChatGPT, Gemini ou Copilot, une partie de son intention et de son contexte échappe déjà au CRM.
+
+RASTIGNAC
+
+Le jour où le client parle d'abord à une machine extérieure, l'entreprise peut conserver son contrat tout en perdant le début de sa relation.
+
+Sources 2026
+
+Salesforce, acquisition de Fin, 10 septembre
+Gartner, 8 juillet, 4 août et 26 août
+Fin, pricing Outcomes
+
+#VOCEAssociation #Agentforce #CRM #CustomerService #LightWorkforce</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519503081382801408/">Linkedin</source></item><item><title>Ricehouse: l'enveloppe du grain de riz devient un isolant pour les bâtiments italiens</title><link>https://voce.life/archive/2026/10/23/ricehouse-l-enveloppe-du-grain-de-riz-devient-un-isolant-pour-les-batime-7519306824106496003</link><guid isPermaLink="true">https://voce.life/archive/2026/10/23/ricehouse-l-enveloppe-du-grain-de-riz-devient-un-isolant-pour-les-batime-7519306824106496003</guid><author>VOCE Association</author><description>Ricehouse: l'enveloppe du grain de riz devient un isolant pour les bâtiments italiens
+
+Biella, Piémont.
+
+Le riz entre dans un bâtiment après que sa partie comestible en est sortie.
+
+Fondée en 2016 par l'architecte Tiziana Monterisi et le géologue Alessio Colombo, Ricehouse transforme notamment la balle de riz, l'enveloppe retirée lors du décorticage, en matériau de construction.
+
+RH-L est une biomasse isolante composée de balle de riz séchée et dépoussiérée, sans liant ni eau, insufflée ou versée dans les cavités.
+
+Ricehouse annonce une conductivité thermique de 0,051 W/(m·K) et une densité de 120 à 140 kg/m³.
+
+À 15 cm d'épaisseur, cela correspond théoriquement à une résistance thermique d'environ 2,94 m²·K/W, hors ponts thermiques et autres couches de la paroi.
+
+Un résidu agricole devient donc une performance calculable.
+
+À Milan, les Torri RISOrsa de via Russoli montrent le passage à l'échelle du bâtiment existant.
+
+La rénovation de 16.120 m² utilise plusieurs matériaux Ricehouse: balle de riz insufflée, panneaux de paille de riz, enduits et finitions, associés à d'autres solutions comme le liège, le verre cellulaire et le photovoltaïque.
+
+Le bâtiment atteint la classe énergétique A2.
+
+Impossible toutefois d'attribuer ce résultat au riz seul.
+
+ULTRA®
+
+Le matériau paraît simple. Sa prescription ne l'est pas.
+
+À 120-140 kg/m³, une couche de 15 cm représente environ 18 à 21 kg/m².
+
+La structure doit reprendre cette masse et la cavité doit être remplie sans zones vides.
+
+La faible conductivité du matériau ne garantit pas non plus l'absence de condensation. Celle-ci dépend de la paroi complète, des températures, de la vapeur d'eau et des éventuelles infiltrations.
+
+Ricehouse demande d'ailleurs de vérifier l'absence d'humidité avant insufflation.
+
+La vraie unité de performance n'est donc pas le grain de riz.
+
+C'est la paroi correctement conçue et posée.
+
+FINVOCE ©
+
+En 2021, Ricehouse lève 600.000 euros. Entrent alors notamment Boost Heroes, Impact Hub, a|impact, Riso Gallo et Jean-Sébastien Decaux.
+
+Le lien avec Riso Gallo est stratégique: un industriel agroalimentaire finance un débouché pour un sous-produit de sa propre filière.
+
+Le rapport d'impact publié en 2025 précise qu'Avanzi Etica Sicaf EuVECA est sorti du capital début 2025 au profit de Martino Cortese.
+
+Une levée historique ne décrit donc pas l'actionnariat actuel.
+
+La valeur de Ricehouse ne réside pas seulement dans un matériau. Elle dépend aussi de la capacité à organiser collecte, transformation, logistique et prescription architecturale autour d'un résidu agricole local.
+
+FAFNER
+
+Nous appelons déchet ce dont nous n'avons pas encore appris à calculer la valeur.
+
+Sources
+
+Ricehouse, fiche RH-L et rapport d'impact 2024 publié en 2025
+Impact Hub Milano, augmentation de capital 2021
+
+#Ricehouse #MateriauxBiosources #Construction #Italie #FINVOCE #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519306824106496003/">Linkedin</source></item><item><title>OPÉRA VOCE - Unione Europea: il credito torna a viaggiare</title><link>https://voce.life/archive/2026/10/23/opera-voce-unione-europea-il-credito-torna-a-viaggiare-7519185985776058368</link><guid isPermaLink="true">https://voce.life/archive/2026/10/23/opera-voce-unione-europea-il-credito-torna-a-viaggiare-7519185985776058368</guid><author>VOCE Association</author><description>OPÉRA VOCE - Unione Europea: il credito torna a viaggiare
+
+ATTO I
+
+21 octobre 2026.
+
+Le Conseil et le Parlement européens concluent un accord provisoire pour relancer la titrisation.
+
+Le mécanisme est simple: une banque regroupe des prêts et transfère tout ou partie de leur risque à des investisseurs.
+
+Elle peut alors réduire le capital réglementaire immobilisé face à ces expositions et retrouver de la capacité de crédit.
+
+Après 2008, l'Europe avait durci ce marché pour réduire opacité et levier.
+
+Elle cherche désormais à le rouvrir sans abandonner cette discipline.
+
+ATTO II
+
+L'accord crée une nouvelle catégorie de titrisations dites "résilientes".
+
+Associée au label STS, pour "simple, transparent et standardisé", elle doit permettre des exigences de capital plus faibles pour les opérations répondant aux critères de risque les plus stricts.
+
+Autre évolution: assureurs et réassureurs pourront davantage participer aux titrisations synthétiques.
+
+Dans ce cas, les prêts restent au bilan de la banque.
+
+Ce qui voyage est le risque de crédit, transféré par garantie ou instrument dérivé.
+
+La mécanique devient stratégique.
+
+Si une banque réduit le capital mobilisé par un portefeuille existant, elle peut redéployer cette capacité vers de nouveaux prêts.
+
+PME, ménages, infrastructures et projets avant leur phase opérationnelle sont explicitement visés par la réforme.
+
+ATTO III
+
+Le point VVIC se trouve dans la circulation du risque.
+
+La titrisation ne supprime rien.
+
+Elle redistribue.
+
+Pour un assureur, un fonds ou un CIO, l'analyse descend jusqu'au pool de prêts, aux probabilités de défaut, aux corrélations, à la subordination et aux scénarios de stress.
+
+Pour la banque, le bénéfice dépendra du traitement prudentiel final, du prix demandé par les investisseurs et de la qualité réelle des actifs.
+
+Pour l'Europe, l'ambition est plus large: transformer davantage de son épargne en capacité de financement sans reconstruire les angles morts d'avant 2008.
+
+Le marché devient alors une infrastructure de transmission.
+
+L'épargne ne finance pas directement l'usine, le logement ou le réseau.
+
+Elle absorbe une partie du risque qui permet à une banque de financer le suivant.
+
+FINALE
+
+Dans "Rigoletto", chacun croit savoir qui porte réellement le danger.
+
+Puis le risque change de main.
+
+La finance européenne organise aujourd'hui ce déplacement avec davantage de règles.
+
+Le crédit reste dans l'économie.
+
+Son risque recommence à voyager.
+
+Sources
+
+Conseil de l'Union européenne, accord provisoire sur la titrisation, 21 octobre 2026
+Commission européenne, Savings and Investments Union
+
+#Titrisation #Banques #Assurance #CapitalMarkets #Europe #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519185985776058368/">Linkedin</source></item><item><title>NIO ES9: le volant n'est plus mécaniquement relié aux roues</title><link>https://voce.life/archive/2026/10/23/nio-es9-le-volant-n-est-plus-mecaniquement-relie-aux-roues-7519261476231192576</link><guid isPermaLink="true">https://voce.life/archive/2026/10/23/nio-es9-le-volant-n-est-plus-mecaniquement-relie-aux-roues-7519261476231192576</guid><author>VOCE Association</author><description>NIO ES9: le volant n'est plus mécaniquement relié aux roues
+
+Pékin, 27 mai 2026.
+
+NIO lance l'ES9, un SUV de 5,365 mètres équipé d'une direction sans liaison mécanique entre le volant et les roues avant.
+
+Le conducteur tourne toujours le volant.
+
+Mais son geste devient un signal électrique transmis à un actionneur qui oriente les roues. Le retour d'effort ressenti dans les mains est lui aussi recréé par un actionneur.
+
+C'est le steer-by-wire.
+
+NIO annonce un rapport de direction variable de 6:1 à 14:1. À faible vitesse, moins de rotation du volant suffit. À vitesse élevée, la réponse peut devenir moins directe.
+
+L'ES9 combine cette direction à des roues arrière directrices jusqu'à 8,4°. Malgré ses 5,365 mètres, son rayon de braquage annoncé tombe à 5,4 mètres.
+
+Le système appartient au châssis SkyRide, qui intègre aussi une suspension hydraulique entièrement active en 48 V.
+
+NIO annonce qu'elle ajuste rigidité, amortissement et hauteur de caisse en quelques millisecondes afin de limiter tangage et roulis.
+
+Le déplacement industriel est plus profond qu'un gain de confort.
+
+Lorsque la colonne mécanique disparaît, le logiciel devient une partie directe de la chaîne qui transforme une intention humaine en trajectoire.
+
+ULTRA®
+
+Une direction steer-by-wire sépare deux boucles physiques.
+
+Côté conducteur, un actionneur mesure le geste et produit le retour d'effort.
+
+Côté chaussée, un second actionneur positionne les roues.
+
+Entre les deux: capteurs, calculateurs, réseau électrique et logiciel.
+
+Cette séparation permet de filtrer certains chocs, de modifier le rapport de direction par logiciel et d'intégrer plus directement les fonctions automatisées.
+
+Mais elle supprime aussi l'ancien recours mécanique.
+
+La sécurité dépend donc de redondances électroniques, électriques et logicielles. NIO affirme que l'ES9 possède sept couches de redondance couvrant notamment direction, alimentation, calcul et communication.
+
+ZF, qui industrialise déjà le steer-by-wire avec NIO, décrit la même exigence: sans liaison mécanique, les fonctions critiques doivent rester contrôlables malgré la défaillance d'une partie du système.
+
+La conduite automatisée gagne ainsi une interface d'exécution native.
+
+Percevoir correctement la route ne suffit plus. Il faut aussi garantir que la commande calculée atteindra physiquement les roues.
+
+TANNHÄUSER
+
+La confiance change de nature lorsque le lien entre notre geste et le mouvement devient invisible.
+
+Sources 2026
+
+NIO, lancement ES9, 27 mai
+NIO, SkyRide Intelligent Chassis
+ZF, Steer-by-Wire
+
+#NIO #AutomobileChinoise #SteerByWire #IngenierieAutomobile #Mobilite #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519261476231192576/">Linkedin</source></item><item><title>L’IA vous dit comment être accepté. Puis elle déplace la ligne d’arrivée.</title><link>https://voce.life/archive/2026/10/23/lia-vous-dit-comment-etre-accepte-puis-elle-deplace-la-ligne-darrivee-7519321923739308032</link><guid isPermaLink="true">https://voce.life/archive/2026/10/23/lia-vous-dit-comment-etre-accepte-puis-elle-deplace-la-ligne-darrivee-7519321923739308032</guid><author>VOCE Association</author><description>L’IA vous dit comment être accepté. Puis elle déplace la ligne d’arrivée.
+
+Un crédit est refusé.
+
+L’IA indique quoi changer pour devenir éligible.
+
+Vous suivez la recommandation.
+
+Vous revenez.
+
+Vous êtes encore refusé.
+
+Le 30 septembre 2026, Shahin Jabbari formalise une faille de l’algorithmic recourse: la plupart des méthodes calculent un chemin vers une décision favorable comme si la règle restait fixe pendant que l’individu agit.
+
+Or, lorsque plusieurs personnes se disputent une ressource limitée, le seuil peut bouger même si le modèle de scoring ne change pas.
+
+Un score de 72 suffisait. Les candidats améliorent leur situation. La distribution monte. Le seuil passe à 76.
+
+Le recours était valide au calcul.
+
+Il ne l’est plus à l’exécution.
+
+Jabbari propose de calculer ensemble qui reçoit un recours et quel score cible doit être atteint. Les cibles personnalisées augmentent la validité après déplacement du seuil, mais demandent davantage d’effort.
+
+En juillet 2026, Srikanth Avasarala et ses collègues montrent une seconde faille.
+
+Un recours conçu uniquement pour inverser une prédiction peut améliorer le score sans améliorer la qualification réelle. Il encourage alors le gaming du classifieur et peut perdre son efficacité après réentraînement.
+
+La contestabilité rencontre donc deux problèmes: la frontière peut se déplacer, et l’action recommandée peut optimiser le modèle plutôt que la réalité qu’il mesure.
+
+ULTRA®
+
+Un recours sérieux doit être auditable dans le temps: version du modèle, seuil appliqué, variables actionnables, coût de l’action et état du système lors du réexamen.
+
+L’article 86 de l’AI Act prévoit, dans son champ, une explication claire et significative du rôle du système d’IA dans la décision et de ses principaux éléments.
+
+Mais une explication fidèle d’hier peut devenir insuffisante si le seuil d’acceptation a changé demain.
+
+La gouvernance doit donc conserver pourquoi une décision a été prise et dans quelles conditions le recours pouvait réellement réussir.
+
+LI!GHT WORKFORCE ©
+
+Dans une organisation agentique, cette difficulté devient opérationnelle.
+
+Un agent de crédit, un ATS ou un moteur d’underwriting peut scorer, réclamer des pièces, recalculer puis fermer un dossier avant qu’un humain ne voie toute la trajectoire.
+
+La capacité qui quitte l’équipe humaine n’est pas seulement l’évaluation. C’est aussi l’application dynamique du seuil.
+
+L’humain reste nécessaire pour les exceptions, les recours contestés et la validation des changements de seuil.
+
+KPI: recours encore valides au réexamen, changements de seuil, escalades humaines, décisions renversées.
+
+PORTIA
+
+Un recours n’existe vraiment que si la porte reste au même endroit lorsque nous l’atteignons.
+
+Sources
+
+Jabbari, “Algorithmic Recourse Under Competition”, 30 septembre 2026
+Avasarala et al., “The Role of Causality in Algorithmic Recourse”, juillet 2026
+AI Act, article 86
+
+#VOCEAssociation #AIGovernance #AlgorithmicRecourse #ContestableAI</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519321923739308032/">Linkedin</source></item><item><title>L’IA vous dit comment être accepté. Puis elle déplace la ligne d’arrivée.</title><link>https://voce.life/archive/2026/10/23/lia-vous-dit-comment-etre-accepte-puis-elle-deplace-la-ligne-darrivee-7519291695939620864</link><guid isPermaLink="true">https://voce.life/archive/2026/10/23/lia-vous-dit-comment-etre-accepte-puis-elle-deplace-la-ligne-darrivee-7519291695939620864</guid><author>VOCE Association</author><description>L’IA vous dit comment être accepté. Puis elle déplace la ligne d’arrivée.
+
+Un crédit est refusé.
+
+L’IA indique quoi changer pour devenir éligible.
+
+Vous suivez la recommandation.
+
+Vous revenez.
+
+Vous êtes encore refusé.
+
+Le 30 septembre 2026, Shahin Jabbari formalise une faille de l’algorithmic recourse: la plupart des méthodes calculent un chemin vers une décision favorable comme si la règle restait fixe pendant que l’individu agit.
+
+Or, lorsque plusieurs personnes se disputent une ressource limitée, le seuil peut bouger même si le modèle de scoring ne change pas.
+
+Un score de 72 suffisait. Les candidats améliorent leur situation. La distribution monte. Le seuil passe à 76.
+
+Le recours était valide au calcul.
+
+Il ne l’est plus à l’exécution.
+
+Jabbari propose de calculer ensemble qui reçoit un recours et quel score cible doit être atteint. Les cibles personnalisées augmentent la validité après déplacement du seuil, mais demandent davantage d’effort.
+
+En juillet 2026, Srikanth Avasarala et ses collègues montrent une seconde faille.
+
+Un recours conçu uniquement pour inverser une prédiction peut améliorer le score sans améliorer la qualification réelle. Il encourage alors le gaming du classifieur et peut perdre son efficacité après réentraînement.
+
+La contestabilité rencontre donc deux problèmes: la frontière peut se déplacer, et l’action recommandée peut optimiser le modèle plutôt que la réalité qu’il mesure.
+
+ULTRA®
+
+Un recours sérieux doit être auditable dans le temps: version du modèle, seuil appliqué, variables actionnables, coût de l’action et état du système lors du réexamen.
+
+L’article 86 de l’AI Act prévoit, dans son champ, une explication claire et significative du rôle du système d’IA dans la décision et de ses principaux éléments.
+
+Mais une explication fidèle d’hier peut devenir insuffisante si le seuil d’acceptation a changé demain.
+
+La gouvernance doit donc conserver pourquoi une décision a été prise et dans quelles conditions le recours pouvait réellement réussir.
+
+LI!GHT WORKFORCE ©
+
+Dans une organisation agentique, cette difficulté devient opérationnelle.
+
+Un agent de crédit, un ATS ou un moteur d’underwriting peut scorer, réclamer des pièces, recalculer puis fermer un dossier avant qu’un humain ne voie toute la trajectoire.
+
+La capacité qui quitte l’équipe humaine n’est pas seulement l’évaluation. C’est aussi l’application dynamique du seuil.
+
+L’humain reste nécessaire pour les exceptions, les recours contestés et la validation des changements de seuil.
+
+KPI: recours encore valides au réexamen, changements de seuil, escalades humaines, décisions renversées.
+
+PORTIA
+
+Un recours n’existe vraiment que si la porte reste au même endroit lorsque nous l’atteignons.
+
+Sources 2026
+
+Jabbari, “Algorithmic Recourse Under Competition”, 30 septembre
+Avasarala et al., “The Role of Causality in Algorithmic Recourse”, juillet
+AI Act, article 86
+
+#VOCEAssociation #AIGovernance #AlgorithmicRecourse #ContestableAI</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519291695939620864/">Linkedin</source></item><item><title>Gorgias Shopping Assistant: 80% du revenu attribué à l’IA ne prouve pas son influence sur l’achat</title><link>https://voce.life/archive/2026/10/23/gorgias-shopping-assistant-80-du-revenu-attribue-a-lia-ne-prouve-pas-son-7519472900186427393</link><guid isPermaLink="true">https://voce.life/archive/2026/10/23/gorgias-shopping-assistant-80-du-revenu-attribue-a-lia-ne-prouve-pas-son-7519472900186427393</guid><author>VOCE Association</author><description>Gorgias Shopping Assistant: 80% du revenu attribué à l’IA ne prouve pas son influence sur l’achat
+
+9 juin 2026.
+
+Gorgias analyse les transactions de marchands utilisant Shopping Assistant.
+
+Les commandes attribuées à l’agent atteignent 181 dollars en moyenne, contre 123 dollars pour les autres commandes des mêmes boutiques: +47%.
+
+Une conversation sur sept est suivie d’un achat attribué dans les trois jours.
+
+Puis la méthodologie change la lecture.
+
+Environ 80% du chiffre d’affaires dit "influencé" repose sur le signal le plus faible: le client a parlé à l’agent puis commandé dans les trois jours.
+
+Rien ne relie davantage la conversation au produit acheté.
+
+Environ 18% repose sur un signal plus précis: l’agent a recommandé un produit retrouvé dans la commande. Les 2% restants correspondent notamment à des clics ou ajouts au panier.
+
+Même cette recommandation suivie d’un achat ne démontre pas que la vente n’aurait pas eu lieu sans l’agent.
+
+Gorgias le reconnaît: les clients qui sollicitent l’assistant peuvent déjà avoir une intention d’achat supérieure.
+
+L’effet varie aussi selon les catégories. Il est plus fort pour l’électronique, le mobilier ou l’équipement. Dans l’alimentaire, le panier associé est légèrement inférieur.
+
+Gorgias signale enfin un possible taux de remboursement supérieur aux commandes assistées par un humain, sans pouvoir encore le quantifier.
+
+Le chiffre à regarder n’est donc pas seulement "+47%".
+
+C’est la fenêtre d’attribution.
+
+ULTRA®
+
+Pour un comité d’investissement, revenu attribué et revenu incrémental sont deux objets différents.
+
+Si un marchand réalise 10 millions d’euros en ligne et reproduit le taux moyen Gorgias de 1,9%, 190.000 euros seraient classés comme "influencés".
+
+Avec la répartition publiée, environ 152.000 euros reposeraient sur la seule proximité temporelle conversation→achat.
+
+Ce revenu est réel.
+
+Sa causalité ne l’est pas encore.
+
+La mesure robuste exige un groupe comparable sans Shopping Assistant, puis le calcul de la marge additionnelle nette des retours, promotions, coût logiciel, intégration et interventions humaines.
+
+Le KPI utile est le profit incrémental net.
+
+LI!GHT WORKFORCE ©
+
+Gorgias AI Agent combine Shopping Assistant et Support Agent.
+
+Il peut recommander avant l’achat puis, selon ses permissions, traiter certaines annulations ou retours.
+
+La capacité qui quitte l’équipe humaine concerne une partie du conseil produit, des réponses répétitives et de l’exécution post-achat.
+
+L’humain conserve exceptions, litiges et contrôle des actions.
+
+KPI: marge incrémentale, retours, remises injustifiées, escalades humaines.
+
+FIGARO
+
+Le commerce commence avec une promesse. La rentabilité commence avec une preuve.
+
+Sources
+
+Gorgias, Alessandro Montelli, 9 juin 2026
+Gorgias Help Center, AI Agent explained, 8 septembre 2026
+Gorgias Help Center, How metrics are calculated
+
+#VOCEAssociation #AgenticCommerce #Gorgias #RetailAI #RevenueIntelligence</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519472900186427393/">Linkedin</source></item><item><title>Google Research: son agent de laboratoire a fait monter le score en dégradant l'expérience</title><link>https://voce.life/archive/2026/10/23/google-research-son-agent-de-laboratoire-a-fait-monter-le-score-en-degra-7519412518126067712</link><guid isPermaLink="true">https://voce.life/archive/2026/10/23/google-research-son-agent-de-laboratoire-a-fait-monter-le-score-en-degra-7519412518126067712</guid><author>VOCE Association</author><description>Google Research: son agent de laboratoire a fait monter le score en dégradant l'expérience
+
+16 octobre 2026.
+
+Google Research publie une expérience au cœur de la gouvernance scientifique des agents.
+
+Des agents conçoivent des aptamères, courts fragments d'ADN capables de se lier à des protéines. Les molécules sont synthétisées, testées, puis les résultats reviennent à l'IA pour préparer le cycle suivant.
+
+Sur la myoglobine, le deuxième cycle paraît meilleur.
+
+Les agents privilégient des motifs G-quadruplexes: 63% des conceptions. Le signal brut augmente.
+
+Mais beaucoup sont "collants": ils adhèrent aussi aux protéines hors cible et aux billes magnétiques du test.
+
+La spécificité chute de 75% à 19,1%.
+
+Le taux de succès corrigé tombe de 10,2% à 3,7%.
+
+L'agent avait amélioré la métrique visible tout en dégradant l'expérience.
+
+Au cycle suivant, il modifie ses règles, limite les motifs promiscuous et se détourne des structures G4. La spécificité remonte à 72,4% et le taux de succès à 33,5%.
+
+Sur l'alpha-thrombine, un autre défaut produit 0% de molécules fonctionnelles au premier cycle: des séquences ajoutées pour l'amplification perturbent le repliement. Après correction, le taux atteint 42,1%, avec 98,5% de spécificité.
+
+ULTRA®
+
+Une IA peut parfaitement réussir la mauvaise expérience.
+
+Une métrique scientifique reste un proxy.
+
+Dans une boucle fermée, l'agent choisit, teste, observe puis décide de l'expérience suivante. Si l'objectif favorise un artefact, le système peut renforcer lui-même son erreur.
+
+Google développe aussi VERID, un jumeau numérique sémantique du laboratoire.
+
+Il suit géométrie des robots, volumes, réactifs et embouts. Les protocoles sont simulés avant exécution et les commandes physiquement impossibles peuvent être bloquées.
+
+Mais VERID ne résout pas, à lui seul, le problème de la mauvaise métrique.
+
+La traçabilité doit conserver ce que l'agent cherchait à optimiser, ce que l'instrument a mesuré et pourquoi le cycle suivant a été choisi.
+
+LI!GHT WORKFORCE ©
+
+L'agent quitte l'écran.
+
+Il peut concevoir des candidats, proposer un protocole, piloter une chaîne robotisée et exploiter les mesures du cycle précédent.
+
+Google maintient une supervision humaine: validation des séquences, vérification des protocoles et surveillance des runs.
+
+Le travail humain se déplace vers les objectifs, les anomalies, la calibration et l'autorisation de poursuivre.
+
+Une light workforce scientifique peut accélérer les cycles. Sans gouvernance des métriques, elle peut aussi industrialiser un artefact.
+
+DULCAMARA
+
+La science devient fragile lorsqu'elle confond la réussite d'une mesure avec la vérité du phénomène.
+
+Sources 2026
+
+Google Research, "Grounding AI agents in biological reality", 16 octobre 2026
+Google Research, "Aptamers as a sandbox for lab-in-the-loop agentic molecular discovery"
+Google Research, VERID
+
+#VOCEAssociation #AIGovernance #ResearchIntegrity #ScientificGovernance #AgenticAI</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519412518126067712/">Linkedin</source></item><item><title>Deltares: un marais résiste à 21 heures de vagues, les digues peuvent en profiter</title><link>https://voce.life/archive/2026/10/23/deltares-un-marais-resiste-a-21-heures-de-vagues-les-digues-peuvent-en-p-7519337004044754945</link><guid isPermaLink="true">https://voce.life/archive/2026/10/23/deltares-un-marais-resiste-a-21-heures-de-vagues-les-digues-peuvent-en-p-7519337004044754945</guid><author>VOCE Association</author><description>Deltares: un marais résiste à 21 heures de vagues, les digues peuvent en profiter
+
+306 m² de marais ont été découpés dans la réserve de Peazemerlannen, sur la mer des Wadden, transportés à Delft puis installés dans le Delta Flume de Deltares.
+
+Les chercheurs l'ont soumis à des vagues croissantes jusqu'à deux mètres de hauteur significative. Après 21 heures, la surface du marais ne s'était abaissée que de 7 mm en moyenne.
+
+Publiée le 21 octobre 2026 dans Nature, l'étude de Pim Willemsen et ses collègues transforme cette résistance en donnée d'ingénierie: quelle part de la charge sur une digue peut réellement être absorbée par le paysage situé devant elle?
+
+Le socle surélevé du marais modifie la propagation des vagues. Les plantes ajoutent une résistance à l'écoulement, mais leur contribution diminue à mesure qu'elles sont endommagées.
+
+Avec des vagues de 75 cm, la végétation apporte 6 à 22% d'atténuation supplémentaire. À deux mètres, elle ne dépasse plus 6%.
+
+À l'échelle globale, l'effet dépasse 10%, jusqu'à 50%, surtout pour des vagues inférieures à un mètre.
+
+ULTRA®
+
+Les 7 mm racontent la stabilité de la plateforme, pas l'invulnérabilité du marais.
+
+Le dispositif comportait à son bord marin une digue de branchages couramment utilisée aux Pays-Bas. Une étude complémentaire du même dispositif montre que l'érosion significative se concentre justement sur le front du marais et que cette protection n'empêche pas son recul.
+
+Une plateforme peut donc conserver son altitude tout en perdre de la largeur.
+
+Pour dimensionner une protection hybride en France, il faudrait suivre aussi la stabilité du front, la largeur disponible, l'alimentation en sédiments et l'évolution du marais dans le temps.
+
+La donnée d'infrastructure n'est pas seulement: combien la végétation amortit aujourd'hui?
+
+C'est: quelle protection existera encore lors de la tempête de référence?
+
+FINVOCE ©
+
+L'expérience a été commandée par Wetterskip Fryslân et financée par le programme néerlandais HWBP.
+
+Paul Buring indique que les propriétés désormais mesurées des marais ont déjà permis des économies de plusieurs millions d'euros sur le renforcement Koehool-Lauwersmeer: certaines parties du revêtement peuvent être conservées ou conçues avec une résistance moindre.
+
+Le chantier couvre environ 47 km de digue.
+
+Ces économies ne sont pas transposables mécaniquement ailleurs.
+
+Elles montrent autre chose: lorsqu'un service écologique devient quantifiable, il peut entrer dans le calcul d'un ouvrage public et modifier son CAPEX.
+
+NEPTUNE
+
+Une frontière tient parfois grâce à l'espace que nous avons accepté de lui laisser.
+
+Sources
+
+Willemsen et al., Nature, 21 octobre 2026
+Deltares, 21 octobre 2026
+University of Twente, 21 octobre 2026
+
+#VOCEAssociation #Ingenierie #Littoral #Infrastructures #AdaptationClimatique</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519337004044754945/">Linkedin</source></item><item><title>Claude Code, Codex et Copilot peuvent déjà travailler dans votre entreprise sans être recensés</title><link>https://voce.life/archive/2026/10/23/claude-code-codex-et-copilot-peuvent-deja-travailler-dans-votre-entrepri-7519352103648153601</link><guid isPermaLink="true">https://voce.life/archive/2026/10/23/claude-code-codex-et-copilot-peuvent-deja-travailler-dans-votre-entrepri-7519352103648153601</guid><author>VOCE Association</author><description>Claude Code, Codex et Copilot peuvent déjà travailler dans votre entreprise sans être recensés
+
+19 octobre 2026.
+
+Microsoft documente un problème que beaucoup d'entreprises ne savent encore ni mesurer ni budgéter.
+
+Un agent IA peut être créé sur une plateforme interne, ajouté par un partenaire, installé via un SDK ou introduit localement sans déploiement central.
+
+Microsoft étend désormais sa découverte à 60 types d'agents locaux, dont Claude Code, OpenAI Codex et GitHub Copilot.
+
+Une entreprise peut donc dépendre d'agents absents de son inventaire informatique.
+
+Un développeur installe un agent de code. Une équipe ajoute un serveur MCP. Un métier connecte un assistant à sa messagerie.
+
+Ces systèmes obtiennent ensuite des jetons, des accès API, des identités et parfois des droits hérités de leurs utilisateurs.
+
+Le 14 mai, Microsoft révélait un autre signal: 15% des serveurs MCP distants observés par Defender for Cloud étaient sévèrement mal sécurisés et permettaient un accès non authentifié à des données ou capacités internes sensibles.
+
+La supply chain de l'IA commence donc avant le contrat fournisseur.
+
+Elle inclut chaque agent, outil, serveur MCP et dépendance auxquels l'entreprise a déjà ouvert une porte.
+
+ULTRA®
+
+Un SBOM inventorie les composants logiciels.
+
+Une infrastructure agentique exige aussi un inventaire de l'autorité: agent, propriétaire, fournisseur, modèle, outils MCP, identité, permissions, secrets accessibles et agents auxquels il peut déléguer.
+
+Microsoft recommande une identité propre à chaque agent, distincte de celle de l'utilisateur. Les permissions peuvent alors être limitées à une tâche et une durée.
+
+Le 19 octobre, Microsoft pousse cette logique plus loin avec Dynamic Permissions: l'agent reçoit seulement l'autorité nécessaire au travail approuvé.
+
+Le registre doit suivre l'exécution réelle, pas seulement les déploiements déclarés.
+
+LI!GHT WORKFORCE ©
+
+La light workforce fait apparaître une population nouvelle d'acteurs numériques.
+
+Claude Code, Codex, Copilot ou un serveur MCP peuvent écrire du code, interroger une base, modifier un ticket ou déclencher une action sans figurer dans l'organigramme ni dans le CMDB traditionnel.
+
+La capacité qui quitte l'humain est aussi une capacité d'accès et d'action.
+
+L'entreprise doit donc savoir qui possède chaque agent, quelle autorité il détient, quelles dépendances il appelle et comment le révoquer.
+
+KPI: agents découverts, agents sans propriétaire, permissions permanentes, serveurs MCP non authentifiés, délai de révocation.
+
+WOTAN
+
+Wotan pensait connaître tous ses pactes. Son pouvoir commence à lui échapper lorsque leurs conséquences deviennent plus nombreuses que les contrats eux-mêmes.
+
+La première dépendance invisible est celle que personne n'a inventoriée.
+
+Sources 2026
+
+Microsoft Security, 19 octobre
+Microsoft Security, 14 mai
+Microsoft Security, 16 juillet
+NSA, MCP Security Design Considerations, 20 mai
+
+#VOCEAssociation #AIGovernance #AISupplyChain #AgenticAI</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519352103648153601/">Linkedin</source></item><item><title>Cancer du pancréas: VCN-01 utilise un virus pour ouvrir la barrière qui protège la tumeur</title><link>https://voce.life/archive/2026/10/23/cancer-du-pancreas-vcn-01-utilise-un-virus-pour-ouvrir-la-barriere-qui-p-7519276587440250880</link><guid isPermaLink="true">https://voce.life/archive/2026/10/23/cancer-du-pancreas-vcn-01-utilise-un-virus-pour-ouvrir-la-barriere-qui-p-7519276587440250880</guid><author>VOCE Association</author><description>Cancer du pancréas: VCN-01 utilise un virus pour ouvrir la barrière qui protège la tumeur
+
+Madrid, 30 septembre 2026.
+
+Le cancer du pancréas est entouré d'un stroma dense, riche notamment en acide hyaluronique, qui peut limiter la pénétration des traitements.
+
+Dans VIRAGE, Rocío García-Carbonero, Manuel Hidalgo et leurs collègues testent une stratégie inattendue: injecter un adénovirus oncolytique capable de produire une hyaluronidase.
+
+VCN-01, ou zabilugene almadenorepvec, est conçu pour se répliquer préférentiellement dans certaines cellules tumorales et exprimer PH20, une enzyme qui dégrade l'acide hyaluronique.
+
+L'essai randomisé de phase IIb publié dans Nature Medicine inclut 101 patients atteints d'adénocarcinome pancréatique métastatique.
+
+Tous devaient recevoir gemcitabine et nab-paclitaxel. Le groupe expérimental recevait aussi deux perfusions de VCN-01.
+
+Dans la population en intention de traiter, la survie médiane atteint 10,6 mois avec VCN-01 contre 8,6 mois avec chimiothérapie seule.
+
+Mais la différence n'est pas statistiquement significative: HR 0,69; p=0,196.
+
+La survie sans progression passe de 4,6 à 5,6 mois: HR 0,63; p=0,046.
+
+La durée médiane des réponses tumorales atteint surtout 11,2 mois contre 5,4.
+
+Le taux de réponse objective, lui, n'augmente pas significativement.
+
+La toxicité compte: fièvre, syndrome grippal, élévation des enzymes hépatiques et baisse des plaquettes sont plus fréquents. Des événements graves liés à VCN-01 surviennent chez 22,6% des patients.
+
+VCN-01 reste expérimental. Une phase III est nécessaire.
+
+ULTRA®
+
+Le détail le plus intéressant apparaît avec la seconde perfusion, quatorze semaines après la première.
+
+Les patients possèdent alors des anticorps neutralisants contre l'adénovirus.
+
+Pourtant, les chercheurs détectent encore des génomes viraux circulants après la seconde administration, compatibles avec une bioactivité persistante du vecteur.
+
+Cela ne prouve pas une réplication productive dans chaque tumeur.
+
+Mais cela montre qu'une immunisation contre le virus n'annule pas nécessairement toute activité lors d'une nouvelle exposition.
+
+Autre signal: les réponses ne sont pas beaucoup plus nombreuses, mais elles durent plus longtemps.
+
+La piste mécanistique est claire: dégrader l'acide hyaluronique pourrait modifier le microenvironnement tumoral et faciliter l'action des traitements déjà présents.
+
+La phase III devra déterminer si cette logique se traduit par un bénéfice de survie robuste.
+
+PARSIFAL
+
+Certaines forteresses résistent longtemps parce que nous attaquons leurs occupants sans comprendre leurs murs.
+
+Sources
+
+García-Carbonero et al., Nature Medicine, 30 septembre 2026
+ClinicalTrials.gov, NCT05673811
+AACR, VIRAGE, 2026
+
+#CancerDuPancreas #VCN01 #Virotherapie #Oncologie #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519276587440250880/">Linkedin</source></item><item><title>4H-SiC: un atome manquant transforme le cristal des Tesla en capteur quantique</title><link>https://voce.life/archive/2026/10/23/4h-sic-un-atome-manquant-transforme-le-cristal-des-tesla-en-capteur-quan-7519427604534272001</link><guid isPermaLink="true">https://voce.life/archive/2026/10/23/4h-sic-un-atome-manquant-transforme-le-cristal-des-tesla-en-capteur-quan-7519427604534272001</guid><author>VOCE Association</author><description>4H-SiC: un atome manquant transforme le cristal des Tesla en capteur quantique
+
+Depuis 2018, la Tesla Model 3 utilise du carbure de silicium dans son onduleur de traction.
+
+STMicroelectronics a fourni les premiers modules SiC de cette architecture. Leur intérêt: commuter de fortes puissances avec moins de pertes que certaines solutions au silicium.
+
+Le 1er octobre 2026, Physical Review Applied publie une autre utilisation du même matériau.
+
+Une équipe réunissant Infineon, l'Université de Stuttgart et l'Académie autrichienne des sciences fabrique un magnétomètre quantique en 4H-SiC.
+
+Cette fois, le composant actif est un défaut.
+
+Dans le cristal, certains sites de silicium sont vacants. Ces centres V2 possèdent des états de spin sensibles au champ magnétique.
+
+Les chercheurs les intègrent dans un guide d'onde planaire en SiC. La lumière excite un grand ensemble de défauts et leur fluorescence permet d'en lire l'état.
+
+Le prototype atteint une limite de sensibilité d'environ 30 nT/√Hz, soit selon les auteurs deux à trois ordres de grandeur mieux que des approches SiC confocales plus complexes.
+
+Surtout, la fabrication utilise des procédés wafer-scale.
+
+ULTRA®
+
+Dans l'industrie des semi-conducteurs, un défaut cristallin est normalement quelque chose que l'on cherche à éliminer.
+
+Ici, la lacune devient la fonction.
+
+Cela ne signifie pas que les Tesla embarquent déjà un magnétomètre quantique. Elles n'en embarquent pas.
+
+Le 4H-SiC porte simplement deux usages qui commencent à se rejoindre.
+
+Dans l'automobile, on valorise son large gap, sa tenue en tension et ses faibles pertes de commutation.
+
+Dans le capteur quantique, on exploite les spins associés à certains défauts du même cristal.
+
+Le prototype reste loin d'une production automobile de masse et sa sensibilité demeure inférieure aux meilleurs magnétomètres diamant NV.
+
+Mais il montre qu'un capteur quantique peut être conçu autour d'un matériau déjà industrialisé sur wafer.
+
+FINVOCE ©
+
+À Catane, STMicroelectronics développe un campus SiC représentant 5 milliards d'euros d'investissement, soutenu par environ 2 milliards d'euros d'aide publique italienne autorisée par la Commission européenne.
+
+Le 15 octobre 2026, Infineon signe avec Wolfspeed un accord pluriannuel pour sécuriser des wafers SiC de 200 mm et accélérer sa transition depuis le 150 mm.
+
+Le même matériau relie traction électrique, politique industrielle européenne et capteurs quantiques.
+
+Sa valeur dépend d'une maîtrise apparemment contradictoire: supprimer les défauts lorsqu'ils dégradent la puissance, les fabriquer lorsqu'ils deviennent utiles.
+
+MIME
+
+Dans un cristal, l'absence d'un atome peut finir par valoir davantage que sa présence.
+
+Sources 2025-2026
+
+Stuermer et al., Physical Review Applied, 1er octobre 2026
+Infineon, 15 octobre 2026
+STMicroelectronics
+Commission européenne
+HKUST Li &amp; Fung Supply Chain Institute
+
+#4HSiC #PhysiqueQuantique #SemiConducteurs #IndustrieEuropeenne #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519427604534272001/">Linkedin</source></item><item><title>Votre IA se souvient de vous. Sait-elle que vous avez changé?</title><link>https://voce.life/archive/2026/10/22/votre-ia-se-souvient-de-vous-sait-elle-que-vous-avez-change-7518944433497812994</link><guid isPermaLink="true">https://voce.life/archive/2026/10/22/votre-ia-se-souvient-de-vous-sait-elle-que-vous-avez-change-7518944433497812994</guid><author>VOCE Association</author><description>Votre IA se souvient de vous. Sait-elle que vous avez changé?
 
 Vous avez longtemps demandé des conseils pour progresser dans votre métier.
 
@@ -2117,1106 +3165,4 @@ Sources
 
 NIST CAISSI, NSA SISC &amp; CISA, Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation, 16 octobre 2026
 
-#AIGovernance #AgenticAI #AIIncidentResponse #LightWorkforce #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7518174324617371648/">Linkedin</source></item><item><title>LAIKA: l’industrie cachée du stop-motion</title><link>https://voce.life/archive/2026/10/20/laika-lindustrie-cachee-du-stop-motion-7518370650441449473</link><guid isPermaLink="true">https://voce.life/archive/2026/10/20/laika-lindustrie-cachee-du-stop-motion-7518370650441449473</guid><author>VOCE Association</author><description>LAIKA: l’industrie cachée du stop-motion
-
-Londres, 2026.
-
-Au Design Museum, "LAIKA presents Wildwood: The Exhibition" montre jusqu’au 10 janvier 2027 les marionnettes, décors, costumes et outils de fabrication du nouveau film du studio de Portland.
-
-Mais l’histoire la plus intéressante est industrielle.
-
-Pour Coraline, LAIKA imprime environ 20.000 visages de remplacement.
-
-ParaNorman en utilise 40.000.
-The Boxtrolls: 56.000.
-Kubo and the Two Strings: 64.000.
-
-Chaque visage permet de modifier très légèrement bouche, joues, sourcils ou regard entre deux images.
-
-Le stop-motion reste physique.
-
-Mais une partie du jeu d’acteur devient imprimable.
-
-Avec Stratasys, LAIKA fait évoluer cette chaîne de fabrication. Sur Kubo, le studio utilise la J750, imprimante 3D couleur multi-matériaux capable de produire environ 360.000 combinaisons de couleurs.
-
-Puis le contrôle au niveau du voxel permet d’agir localement sur la matière imprimée elle-même.
-
-La couleur n’est plus seulement peinte après fabrication.
-
-Elle peut être définie avant l’impression, dans le fichier.
-
-En 2016, Brian McLean et Martin Meunier reçoivent un Scientific and Engineering Award de l’Academy pour avoir développé cette utilisation du rapid prototyping dans l’animation de personnages.
-
-Le détail change la lecture du film.
-
-Une expression qui n’existera que pendant quelques images peut être conçue numériquement, imprimée, montée sur la marionnette puis photographiée image par image.
-
-La fabrication additive devient une extension du jeu d’acteur.
-
-ULTRA®
-
-Dans une usine classique, la répétabilité sert à fabriquer le même objet avec moins de variation.
-
-Chez LAIKA, elle sert presque à l’inverse.
-
-Plus la fabrication devient précise et reproductible, plus le studio peut produire de variations contrôlées.
-
-C’est là que la technologie change réellement le métier.
-
-L’imprimante ne décide pas si un regard doit durer une image de plus.
-
-Elle ne sait pas si une bouche s’ouvre trop tôt pour que l’émotion fonctionne.
-
-Elle retire une partie du travail de fabrication répétitive afin que l’animateur consacre davantage de temps à ces décisions.
-
-La machine ne supprime donc pas la lenteur du stop-motion.
-
-Elle rend cette lenteur beaucoup plus expressive.
-
-"Wildwood" pousse cette logique encore plus loin: plus de 140.000 masques faciaux ont été fabriqués pour le film. L’exposition retrace précisément cette chaîne, de la recherche visuelle au rapid prototyping et à l’animation.
-
-Le progrès industriel ne consiste pas ici à produire moins d’objets.
-
-Il consiste à rendre économiquement possible une quantité de variations auparavant inimaginable.
-
-TOSCA
-
-Chez LAIKA, l’automatisation n’a pas remplacé l’acteur.
-
-Elle a donné davantage de visages à une marionnette.
-
-Sources 2026
-
-Design Museum London, LAIKA presents Wildwood
-Stratasys, The New Faces of LAIKA
-Academy of Motion Picture Arts and Sciences, Scientific &amp; Technical Awards
-
-#LAIKA #Wildwood #DesignMuseum #Impression3D #Innovation #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7518370650441449473/">Linkedin</source></item><item><title>JOUR 19 - DES CHERCHEURS RETROUVENT 60% DU CALCUL D’UNE RÉPONSE DANS 1,3% DES CONNEXIONS</title><link>https://voce.life/archive/2026/10/20/jour-19-des-chercheurs-retrouvent-60-du-calcul-dune-reponse-dans-1-3-des-7518325360648708098</link><guid isPermaLink="true">https://voce.life/archive/2026/10/20/jour-19-des-chercheurs-retrouvent-60-du-calcul-dune-reponse-dans-1-3-des-7518325360648708098</guid><author>VOCE Association</author><description>JOUR 19 - DES CHERCHEURS RETROUVENT 60% DU CALCUL D’UNE RÉPONSE DANS 1,3% DES CONNEXIONS
-
-Un modèle de langage peut mobiliser des centaines de milliers de connexions internes pour répondre à une seule question.
-
-Mais les utilise-t-il toutes de la même manière?
-
-En juillet 2026, à l’International Conference on Machine Learning, Tung-Yu Wu et Fazl Barez, de l’Université d’Oxford, publient une expérience consacrée à cette question.
-
-Ils cherchent non pas le circuit général permettant à un modèle de faire des mathématiques ou de répondre à des questions, mais le sous-réseau mobilisé par une demande précise.
-
-Ils l’appellent un "query circuit".
-
-Sur Llama 3.2 1B Instruct, le modèle comporte 386.713 connexions prises en compte par leur méthode.
-
-Pour des questions du benchmark universitaire MMLU, les chercheurs parviennent à sélectionner seulement 5.000 de ces connexions.
-
-1,3%.
-
-Ce circuit réduit récupère pourtant en moyenne environ 60% du comportement du modèle complet selon leur métrique de fidélité, appelée Normalized Deviation Faithfulness.
-
-Cela ne signifie pas que 1,3% du modèle "connaît" la réponse.
-
-Ni que les 98,7% restants sont inutiles.
-
-Le résultat est beaucoup plus précis: pour une requête donnée, une petite partie du réseau peut suffire à préserver une fraction importante du calcul qui conduit le modèle vers sa décision.
-
-Pour retrouver ces chemins, Wu et Barez ne se contentent pas d’observer quelles connexions s’activent le plus.
-
-Ils utilisent plusieurs reformulations de la même question.
-
-Si certaines connexions restent importantes malgré ces changements de formulation, elles deviennent de meilleurs candidats pour appartenir au circuit réellement utile.
-
-Cette méthode produit un résultat spectaculaire.
-
-Avec une approche fondée sur une seule requête, il fallait environ 200.000 connexions, soit 51,7% du réseau considéré, pour atteindre une fidélité comparable.
-
-Avec leur méthode utilisant plusieurs paraphrases: 5.000.
-
-Nous avions vu au Jour 4 que les cartes d’attention permettent d’observer où circule une partie de l’information.
-
-Mais regarder une activation ne suffit pas à démontrer qu’elle participe causalement à une réponse.
-
-Les "query circuits" cherchent précisément à franchir cette étape: isoler un sous-réseau, puis vérifier combien du comportement original subsiste lorsqu’on ne conserve que lui.
-
-La méthode reste expérimentale. Les circuits varient selon les requêtes, ne constituent pas une explication complète du raisonnement et leur fidélité reste partielle.
-
-Mais quelque chose change.
-
-Jusqu’ici, nous demandions souvent à l’IA d’expliquer elle-même pourquoi elle avait répondu.
-
-Les chercheurs commencent maintenant à chercher la réponse ailleurs.
-
-Directement dans les chemins qu’elle a réellement utilisés.
-
-Et demain, nous verrons ce qui devient possible lorsqu’un de ces chemins n’est plus seulement observé.
-
-Mais modifié.</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7518325360648708098/">Linkedin</source></item><item><title>Halomonas: la Chine produit des bioplastiques sans stériliser ses cuves</title><link>https://voce.life/archive/2026/10/20/halomonas-la-chine-produit-des-bioplastiques-sans-steriliser-ses-cuves-7518264963308765185</link><guid isPermaLink="true">https://voce.life/archive/2026/10/20/halomonas-la-chine-produit-des-bioplastiques-sans-steriliser-ses-cuves-7518264963308765185</guid><author>VOCE Association</author><description>Halomonas: la Chine produit des bioplastiques sans stériliser ses cuves
-
-Xinjiang, 2009.
-
-Dans le lac salé d'Aydingkol, des chercheurs isolent Halomonas bluephagenesis.
-
-Elle prospère dans des milieux salés et alcalins où beaucoup de microbes survivent mal.
-
-Pour une usine de fermentation, cette propriété change l'équation.
-
-Les procédés classiques dépensent énergie et temps pour stériliser cuves et conduites. L'équipe de Guo-Qiang Chen, à Tsinghua, développe au contraire un organisme capable de produire dans un environnement hostile aux contaminants.
-
-En 2026, une souche modifiée est portée jusqu'à un fermenteur de 5.000 litres.
-
-Elle atteint 71 g/L de biomasse contenant 61% de P(3HB-co-4HB), un polyester biodégradable.
-
-Ses gènes de production restent stables sans antibiotique.
-
-Quelques mois plus tard, l'équipe réduit un autre coût: le sel.
-
-Après ingénierie génétique et évolution adaptative, Halomonas pousse en culture ouverte non stérile avec seulement 0,5% de NaCl.
-
-Dans un réacteur de 7 litres, elle atteint 76 g/L de biomasse, dont 86% de PHB, en 44 heures.
-
-La rupture industrielle tient donc aussi à ce qui disparaît du procédé: moins de stérilisation, moins de sel, pas d'antibiotique pour maintenir le système génétique.
-
-ULTRA®
-
-L'actif stratégique n'est pas seulement le bioplastique.
-
-C'est la cellule-usine.
-
-Une même plateforme microbienne peut être reprogrammée pour fabriquer différents PHA et d'autres molécules.
-
-L'avantage potentiel se déplace vers les souches propriétaires, les voies métaboliques et le savoir-faire de scale-up.
-
-Le seuil décisif reste industriel.
-
-Un pilote de 5.000 litres ne démontre ni coût compétitif à grande échelle ni avantage carbone. Substrats, purification, effluents et continuité d'exploitation décideront de l'économie réelle.
-
-Halomonas inverse pourtant une logique classique de la fermentation: au lieu de protéger toujours davantage le microbe, on choisit un microbe qui rend certaines protections moins nécessaires.
-
-FINVOCE ©
-
-En février 2023, PhaBuilder lève 359 millions de yuans lors d'un tour A+ mené par CNPC Kunlun Capital.
-
-Participent notamment Sequoia China, le China State-owned Enterprise Mixed Ownership Reform Fund, Shanghai FTZ Fund et Sino Biological.
-
-Le financement doit accélérer le passage à l'échelle industrielle des PHA.
-
-Le signal est stratégique: un investisseur lié au pétrole finance une plateforme biologique susceptible de concurrencer certains polymères pétrochimiques.
-
-La création de valeur dépendra du coût de fermentation, de la purification et du prix des plastiques conventionnels.
-
-DAFNE
-
-Un milieu hostile devient un avantage industriel lorsque l'on sait choisir le vivant capable de l'habiter.
-
-Sources 2026
-
-Wen et al., Metabolic Engineering
-Sun et al., Trends in Biotechnology
-Scientific Data, Halomonas bluephagenesis
-
-#Biotechnologies #Halomonas #BioManufacturing #Chine #Bioeconomy #FINVOCE #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7518264963308765185/">Linkedin</source></item><item><title>En automne, vos yeux transmettent au cerveau une lumière que vous ne voyez pas</title><link>https://voce.life/archive/2026/10/20/en-automne-vos-yeux-transmettent-au-cerveau-une-lumiere-que-vous-ne-voye-7518204548210110465</link><guid isPermaLink="true">https://voce.life/archive/2026/10/20/en-automne-vos-yeux-transmettent-au-cerveau-une-lumiere-que-vous-ne-voye-7518204548210110465</guid><author>VOCE Association</author><description>En automne, vos yeux transmettent au cerveau une lumière que vous ne voyez pas
-
-Amsterdam, 27 février 2026.
-
-Au NEMO Science Museum, Gijs van der Zwet, Zoë Bor et leurs collègues de l'université de Leyde étudient 433 visiteurs: 269 adultes et 164 enfants.
-
-L'expérience se déroule entre le 21 décembre 2024 et le 5 janvier 2025, au cœur de l'hiver néerlandais.
-
-Après cinq minutes dans une pièce presque noire, chaque participant reçoit dans l'œil droit un flash rouge d'une seconde puis, une minute plus tard, un flash bleu.
-
-Une caméra infrarouge filme la pupille à 60 images par seconde.
-
-Les chercheurs regardent ce qui se passe après l'extinction.
-
-Car notre rétine ne sert pas uniquement à voir.
-
-Elle contient des cellules ganglionnaires intrinsèquement photosensibles, les ipRGC, qui expriment la mélanopsine. Elles participent à la mesure de la lumière ambiante utilisée pour synchroniser l'horloge biologique.
-
-Après le flash bleu, la pupille reste contractée plusieurs secondes.
-
-L'équipe mesure cette réponse tardive entre cinq et sept secondes après extinction.
-
-Le résultat est inattendu.
-
-Chez les jeunes hommes, une réponse mélanopsinique plus forte est associée à un chronotype plus tardif.
-
-Chez les femmes plus âgées, l'association s'inverse: une réponse plus forte accompagne un chronotype plus matinal.
-
-Chez les enfants, aucune relation comparable n'apparaît.
-
-La sensibilité de cette voie lumineuse n'entretient donc pas une relation unique avec nos horaires biologiques.
-
-L'étude est observationnelle. Elle ne montre pas que cette réponse détermine l'heure du sommeil.
-
-ULTRA®
-
-Le plus étrange est que cette lumière n'a pas besoin de devenir une image consciente pour compter biologiquement.
-
-Les ipRGC sont particulièrement sensibles aux courtes longueurs d'onde et projettent notamment vers les noyaux suprachiasmatiques, principaux coordinateurs circadiens.
-
-Elles participent à la synchronisation de la mélatonine, du sommeil et de l'éveil.
-
-Une étude de l'université de Bâle avait déjà montré en 2023 que la réponse du système mélanopsinique à la lumière du soir varie selon la saison.
-
-La lumière reçue auparavant modifie donc la manière dont l'organisme répond à celle qui arrive ensuite.
-
-Nos yeux transportent ainsi deux mondes lumineux en parallèle.
-
-L'un construit les couleurs, les formes et les paysages que nous voyons.
-
-L'autre renseigne silencieusement le cerveau sur l'heure biologique du monde extérieur.
-
-En automne, les jours raccourcissent devant nous.
-
-Mais ils raccourcissent aussi à l'intérieur de notre physiologie.
-
-PERSEPHONE
-
-Chaque automne, la lumière disparaît un peu plus tôt. Une partie de notre rétine en tient déjà le compte.
-
-Sources
-
-Van der Zwet et al., Sleep, 27 février 2026
-Schöllhorn et al., Clocks &amp; Sleep, 2023
-CIE S 026/E:2018
-
-#Neurosciences #Chronobiologie #Melanopsine #Sommeil #Automne #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7518204548210110465/">Linkedin</source></item><item><title>Deux secondes de latence peuvent suffire à réduire ce qu'un élève apprend</title><link>https://voce.life/archive/2026/10/20/deux-secondes-de-latence-peuvent-suffire-a-reduire-ce-qu-un-eleve-appren-7518355559423848448</link><guid isPermaLink="true">https://voce.life/archive/2026/10/20/deux-secondes-de-latence-peuvent-suffire-a-reduire-ce-qu-un-eleve-appren-7518355559423848448</guid><author>VOCE Association</author><description>Deux secondes de latence peuvent suffire à réduire ce qu'un élève apprend
-
-Deux secondes.
-
-À peine le temps de remarquer qu'une page tarde à s'ouvrir.
-
-Le 8 octobre 2026, Asaf Mazar, Geoff Tomaino, Angela Duckworth et leurs collègues publient dans Nature Human Behaviour deux études de terrain portant sur plus de 80.000 apprenants.
-
-Chez 26.707 élèves américains travaillant les mathématiques en ligne, des microdélais de seulement une à deux secondes sont associés à moins d'exercices terminés, davantage de distraction pendant la tâche, plus de temps nécessaire et de moins bons scores.
-
-L'expérience se répète ailleurs.
-
-55.184 personnes apprenant à programmer, principalement en Amérique latine, restent moins longtemps engagées lorsque les pages ralentissent, multitâchent davantage et terminent moins de leçons.
-
-Aucune panne.
-
-Aucun écran noir.
-
-Une seconde ici. Deux secondes là.
-
-Les chercheurs exploitent surtout un détail méthodologique puissant: ils comparent les variations de temps de chargement vécues par une même personne.
-
-Quand son propre environnement ralentit, son comportement d'apprentissage change.
-
-Paul Virilio avait compris que la technologie transforme aussi notre rapport au temps.
-
-Cette étude donne à cette intuition une mesure brutale.
-
-Deux élèves peuvent posséder le même ordinateur, recevoir le même exercice et être officiellement "connectés".
-
-L'un d'eux doit pourtant traverser, plusieurs centaines de fois, une petite interruption supplémentaire.
-
-L'égalité d'accès reste visible.
-
-L'inégalité d'expérience l'est beaucoup moins.
-
-ULTRA®
-
-L'étude déplace la frontière de la fracture numérique.
-
-Elle ne commence plus seulement entre connecté et non connecté.
-
-Elle peut commencer après le clic.
-
-Pour une école, une université ou une administration, mesurer le nombre d'appareils ou la couverture réseau ne suffit donc pas.
-
-Il faut aussi mesurer la latence réellement vécue pendant l'usage.
-
-Car l'infrastructure entre dans le comportement.
-
-Le site fonctionne.
-La page finit par s'ouvrir.
-Le service reste officiellement disponible.
-
-Et pourtant, quelques secondes répétées peuvent réduire engagement, persistance et performance.
-
-Le résultat est important pour les politiques publiques.
-
-Deux populations ayant accès au même service numérique peuvent supporter des coûts cognitifs différents simplement parce que l'une attend davantage entre chaque action.
-
-La vitesse devient alors autre chose qu'un confort technique.
-
-Elle devient une condition silencieuse d'apprentissage.
-
-PAUL VIRILIO
-
-L'inégalité numérique commence parfois après le clic, pendant une seconde que personne ne compte.
-
-Sources
-
-Mazar, Tomaino, Siedahmed et al., Nature Human Behaviour, 8 octobre 2026
-
-#Education #Cognition #Infrastructure #Numerique #Inegalites #PaulVirilio #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7518355559423848448/">Linkedin</source></item><item><title>Dakhla: le Maroc construit un port en mer pour redessiner le commerce du Sahel</title><link>https://voce.life/archive/2026/10/20/dakhla-le-maroc-construit-un-port-en-mer-pour-redessiner-le-commerce-du-7518234753016254464</link><guid isPermaLink="true">https://voce.life/archive/2026/10/20/dakhla-le-maroc-construit-un-port-en-mer-pour-redessiner-le-commerce-du-7518234753016254464</guid><author>VOCE Association</author><description>Dakhla: le Maroc construit un port en mer pour redessiner le commerce du Sahel
-
-Dakhla, 2026.
-
-Un pont de 1.330 mètres avance depuis le désert vers un port construit en mer.
-
-Le 9 octobre, Nisrine Iouzzi, directrice du suivi du chantier, annonce 74% d’avancement. Livraison globale prévue fin 2028.
-
-Le projet comprend 7,5 km d’ouvrages de protection, plus de 2.300 mètres de quais et jusqu’à 18 mètres de profondeur. SOCOTEC contrôle le chantier; SGTM-SOMAGEC réalise les ouvrages maritimes.
-
-La finalité dépasse Dakhla.
-
-Le Maroc veut faire du port un débouché atlantique supplémentaire pour le Mali, le Niger et le Burkina Faso, via les corridors terrestres de l’Initiative atlantique lancée en 2023.
-
-Mais un port profond ne crée pas un corridor rentable.
-
-Distances, frontières, sécurité et continuité logistique détermineront sa compétitivité face aux ports du golfe de Guinée.
-
-Et le chantier se situe au Sahara occidental, territoire toujours inscrit par l’ONU sur la liste des territoires non autonomes.
-
-Le 4 octobre 2024, la CJUE a jugé que les accords commerciaux UE-Maroc de 2019 applicables au Sahara occidental avaient été conclus sans le consentement requis du peuple sahraoui.
-
-Cet arrêt ne juge pas la construction du port.
-
-Mais il rappelle qu’une infrastructure peut être techniquement achevée avant que l’environnement juridique de certaines chaînes commerciales soit stabilisé.
-
-ULTRA®
-
-Le vrai actif n’est pas seulement le quai.
-
-C’est le corridor complet.
-
-Pour un investisseur, Dakhla n’a de valeur que si le fret traverse effectivement le Sahel, franchit les frontières, atteint le port à coût acceptable et repart vers les marchés mondiaux.
-
-La performance doit donc être mesurée en coût logistique porte-à-port, temps de transit, disponibilité des routes, volumes captés et stabilité réglementaire.
-
-Un port peut avoir 18 mètres de profondeur et rester économiquement peu profond si les marchandises n’arrivent pas jusqu’à lui.
-
-FINVOCE ©
-
-Le financement révèle la stratégie.
-
-L’Oxford Handbook of the Moroccan Economy indique qu’à fin 2025 Dakhla Atlantique représentait environ 1,2 milliard d’euros d’investissement, financé à 100% par le secteur public.
-
-À Tanger Med, près de 60% du financement est privé.
-
-À Dakhla, l’État assume donc d’abord le risque de construction et d’amorçage. Les futurs espaces privés se situeront surtout dans les concessions de terminaux, la logistique et les implantations industrielles.
-
-SGTM et SOMAGEC construisent. Elles ne financent pas le port comme investisseurs.
-
-Financer aujourd’hui l’infrastructure qui doit rendre demain un corridor sahélien commercialement crédible.
-
-DÉDALE
-
-Un port peut ouvrir une route sans résoudre la frontière qui la traverse.
-
-Sources
-
-H24Info, 9 octobre 2026
-SOCOTEC, Nouveau port de Dakhla Atlantique
-Oxford Handbook of the Moroccan Economy, 2026
-CJUE, C-779/21 P et C-799/21 P, 4 octobre 2024
-
-#Dakhla #Sahel #Infrastructure #Investissement #Geopolitique #FINVOCE #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7518234753016254464/">Linkedin</source></item><item><title>Cancer du sang: le rusfertide réduit les saignées en bloquant l’accès au fer</title><link>https://voce.life/archive/2026/10/20/cancer-du-sang-le-rusfertide-reduit-les-saignees-en-bloquant-lacces-au-f-7518189456299020288</link><guid isPermaLink="true">https://voce.life/archive/2026/10/20/cancer-du-sang-le-rusfertide-reduit-les-saignees-en-bloquant-lacces-au-f-7518189456299020288</guid><author>VOCE Association</author><description>Cancer du sang: le rusfertide réduit les saignées en bloquant l’accès au fer
-
-13 octobre 2026.
-
-Dans la polyglobulie de Vaquez, la moelle osseuse produit trop de globules rouges, le plus souvent sous l’effet d’une mutation JAK2.
-
-Pour maintenir l’hématocrite sous 45%, certains patients doivent encore subir des saignées thérapeutiques répétées.
-
-L’essai VERIFY teste une autre stratégie.
-
-Ne plus retirer régulièrement l’excès de globules rouges.
-
-Réduire la quantité de fer disponible pour les fabriquer.
-
-Le rusfertide, développé par Protagonist Therapeutics et Takeda, mime l’hepcidine, hormone qui régule le fer. Il agit sur la ferroportine, le transporteur qui permet à certaines cellules de libérer leur fer dans la circulation.
-
-Moins de fer circulant signifie moins de matière première disponible pour produire l’hémoglobine.
-
-Dans VERIFY, 293 patients dont l’hématocrite restait insuffisamment contrôlé malgré les soins habituels sont randomisés.
-
-147 reçoivent une injection sous-cutanée hebdomadaire de rusfertide.
-146 un placebo.
-
-Entre les semaines 20 et 32, 76,9% des patients sous rusfertide n’atteignent pas les critères nécessitant une saignée, contre 32,9% sous placebo.
-
-Sur les 32 premières semaines, le nombre moyen de saignées tombe à 0,5 contre 1,8.
-
-Et 62,6% maintiennent leur hématocrite sous 45% pendant toute la période, contre 14,4%.
-
-Fatigue et charge symptomatique s’améliorent également.
-
-Le 28 août 2026, la FDA autorise Mimrylo pour traiter l’érythrocytose chez les adultes atteints de polyglobulie de Vaquez.
-
-Mais le médicament ne fait pas disparaître le cancer.
-
-VERIFY n’a pas été conçu pour démontrer une réduction des thromboses, une disparition du clone JAK2 ou un gain de survie.
-
-ULTRA®
-
-La découverte la plus intéressante concerne le fer lui-même.
-
-Le rusfertide ne retire pas le fer du corps.
-
-Il modifie son accessibilité.
-
-En bloquant la ferroportine, il réduit le fer circulant utilisable par la moelle alors que les réserves peuvent se reconstituer.
-
-C’est une distinction biologique majeure chez des patients dont les saignées répétées peuvent épuiser les stocks de fer.
-
-Mais cette redistribution possède un autre effet à surveiller.
-
-La documentation américaine indique qu’au cours des quatre premières semaines, les plaquettes augmentent en moyenne de 31%. Chez 36% des patients, elles dépassent 600 × 10⁹/L.
-
-Le traitement contrôle donc efficacement l’érythrocytose, tout en modifiant d’autres paramètres sanguins.
-
-Sa logique est remarquable: contenir une prolifération pathologique non pas en détruisant directement les cellules qui la produisent, mais en limitant l’accès à une ressource dont elles dépendent.
-
-RIGOLETTO
-
-Un organisme ne dépend pas seulement de ce qu’il possède, mais de ce à quoi il peut accéder.
-
-Sources
-
-Kuykendall et al., Journal of Clinical Oncology, 13 octobre 2026
-FDA, Mimrylo, 28 août 2026
-DailyMed, rusfertide, 2026
-
-#CancerDuSang #PolyglobulieDeVaquez #Rusfertide #Hematologie #Oncologie #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7518189456299020288/">Linkedin</source></item><item><title>Arcade Tool Recommendation: un agent peut atteindre 8.000 outils sans les charger dans son contexte</title><link>https://voce.life/archive/2026/10/20/arcade-tool-recommendation-un-agent-peut-atteindre-8-000-outils-sans-les-7518159220870152193</link><guid isPermaLink="true">https://voce.life/archive/2026/10/20/arcade-tool-recommendation-un-agent-peut-atteindre-8-000-outils-sans-les-7518159220870152193</guid><author>VOCE Association</author><description>Arcade Tool Recommendation: un agent peut atteindre 8.000 outils sans les charger dans son contexte
-
-15 octobre 2026.
-
-Une entreprise connecte son agent à Salesforce, Jira, GitHub, Slack et ses applications internes.
-
-Chaque intégration augmente ses capacités.
-Elle augmente aussi ce que le modèle doit lire avant d’agir.
-
-Chez Arcade.dev, le catalogue dépasse 8.000 outils, soit environ 1,76 million de tokens s’ils étaient tous chargés.
-
-Tool Recommendation change l’architecture.
-
-Au lieu d’envoyer tout le catalogue au LLM, le MCP Gateway expose quelques méta-outils, dont Arcade_SelectTools et Arcade_UseTool.
-
-L’agent décrit son besoin. Arcade_SelectTools recherche les fonctions pertinentes et ne renvoie que leurs schémas.
-
-Identité, OAuth, politiques d’accès et audit restent appliqués lors de l’exécution.
-
-Arcade annonce jusqu’à 91% de tokens d’entrée en moins sur dix tours, mais ce chiffre concerne les définitions d’outils et les réponses de recommandation, pas toute la conversation.
-
-Sur 408 sessions et 64 workflows avec Codex et Claude Code: -7,6% de coût total input + output en moyenne, IC95% 2,5%-12,6%, sans baisse du taux de complétion.
-
-Sous 25 à 28 outils, une liste fixe peut rester moins chère.
-
-Autre détail décisif: le matching utilise le nom de l’outil et la première ligne de sa description, pas ses paramètres.
-
-Une mauvaise description devient donc une erreur d’infrastructure.
-
-ULTRA®
-
-Le vrai déplacement consiste à découpler la croissance du catalogue de celle du prompt.
-
-Avec une liste fixe, chaque nouvel outil augmente ce que le modèle doit lire à chaque tour.
-
-Avec Tool Recommendation, le catalogue devient un index interrogé à la demande.
-
-Il faut donc mesurer: bon outil retrouvé au premier appel, tokens par workflow, latence et taux d’erreur après sélection.
-
-À grande échelle, la question devient: combien d’outils l’agent doit-il lire avant de choisir correctement?
-
-LI!GHT WORKFORCE ©
-
-LOGICIEL: Arcade Tool Recommendation
-SOCIÉTÉ: Arcade.dev
-
-La capacité déplacée concerne une partie du travail des équipes plateforme: maintenir pour chaque agent ses listes d’outils et ses règles de routage.
-
-Avec un index partagé, cette curation devient infrastructure.
-
-Le travail humain reste sur la conception, les descriptions, les politiques d’accès, les tests de retrieval et les exceptions sensibles.
-
-Le gain se mesure en temps de maintenance par agent, coût par workflow, taux de mauvais routage et interventions humaines.
-
-Une équipe peut ainsi ouvrir davantage de capacités sans faire croître proportionnellement le contexte.
-
-ARGOS
-
-Une infrastructure d’agents devient scalable quand ses capacités augmentent sans que chaque modèle doive tout connaître.
-
-Sources
-
-Arcade.dev, “Introducing Tool Recommendation”, 15 octobre 2026
-Arcade Docs, Tool Recommendation; Contextual Access
-
-#Arcade #MCP #AIAgents #AIInfrastructure #LightWorkforce #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7518159220870152193/">Linkedin</source></item><item><title>Amenhotep III: son tombeau rouvre à Louxor pendant que Turin réapprend à lire sa matière</title><link>https://voce.life/archive/2026/10/20/amenhotep-iii-son-tombeau-rouvre-a-louxor-pendant-que-turin-reapprend-a-7518340457743929345</link><guid isPermaLink="true">https://voce.life/archive/2026/10/20/amenhotep-iii-son-tombeau-rouvre-a-louxor-pendant-que-turin-reapprend-a-7518340457743929345</guid><author>VOCE Association</author><description>Amenhotep III: son tombeau rouvre à Louxor pendant que Turin réapprend à lire sa matière
-
-Louxor, 2026.
-
-Pendant plus de vingt ans, KV22, la tombe d'Amenhotep III, a été un chantier scientifique.
-
-Elle a rouvert au public le 4 octobre 2025. Le 10 mars 2026, l'UNESCO annonce l'achèvement de la troisième phase de conservation menée avec l'Égypte et le Japon.
-
-Le travail donne la mesure du problème.
-
-Des piliers fracturés ont été stabilisés. Des fragments de calcaire ont été réadhérés. Le couvercle en granite rouge du sarcophage, retrouvé brisé en plus de 200 morceaux, a été reconstitué.
-
-Mais la restauration n'est plus le dernier acte.
-
-L'UNESCO demande désormais un suivi environnemental continu, des réévaluations périodiques par documentation 3D et une gestion précise des visiteurs.
-
-Le tombeau devient un système observé dans le temps.
-
-Chaque variation d'humidité, de température ou de fréquentation peut être comparée à un état de référence.
-
-À 2.500 kilomètres de là, Turin raconte la même histoire autrement.
-
-Au Museo Egizio, une statue de Ptah porte le visage officiel d'Amenhotep III: joues pleines, large sourire, grands yeux allongés.
-
-Un bélier d'Amon protège entre ses pattes Amenhotep III sous la forme d'Osiris. L'objet pourrait avoir été créé pour Soleb, en Nubie, puis déplacé à Karnak plusieurs siècles plus tard.
-
-Et Anen, frère de la reine Tiyi, apparaît avec une peau de léopard dont les taches deviennent des étoiles. Son inscription le nomme "celui qui connaît la procession du ciel".
-
-ULTRA®
-
-Le lien entre Louxor et Turin tient dans une révolution discrète: le patrimoine cesse d'être seulement regardé.
-
-Il devient mesuré.
-
-À KV22, une documentation 3D répétée peut révéler une déformation imperceptible à l'œil. Une série d'humidité ou de température devient plus informative qu'une valeur isolée.
-
-La conservation devient une science des écarts.
-
-Turin applique la même logique à l'objet.
-
-Depuis le 5 octobre 2024, "Materia. Forma del Tempo" expose sur 700 m² environ 6.000 objets issus des réserves pour raconter bois, pigments, céramiques et pierre comme des sources historiques.
-
-La matière révèle ce que l'image seule ne dit pas: origine d'un matériau, technique de fabrication, réemploi, déplacement, restauration.
-
-Un objet vieux de trois mille ans peut donc encore produire de l'information nouvelle sans qu'on découvre quoi que ce soit de "nouveau" à sa surface.
-
-La matière n'est plus seulement le support de l'histoire.
-
-Elle devient l'une de ses archives.
-
-OSIRIDE
-
-Le temps n'efface pas toujours les traces; il change l'endroit où il faut apprendre à les lire.
-
-Sources
-
-UNESCO, KV22, 10 mars 2026
-Museo Egizio Torino, collections Amenhotep III et Anen
-Museo Egizio Torino, Materia. Forma del Tempo
-
-#AmenhotepIII #KV22 #MuseoEgizio #Egyptologie #Conservation #HeritageScience #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7518340457743929345/">Linkedin</source></item><item><title>7 octobre 2026.</title><link>https://voce.life/archive/2026/10/20/7-octobre-2026-7518280086874378240</link><guid isPermaLink="true">https://voce.life/archive/2026/10/20/7-octobre-2026-7518280086874378240</guid><author>VOCE Association</author><description>7 octobre 2026.
-
-Anta Sports devient le premier actionnaire de Puma.
-
-Le groupe chinois verse 1.505,5 millions d'euros à Artémis, holding de la famille Pinault, pour 29,06% du groupe allemand.
-
-Le chiffre décisif tient à deux décimales.
-
-29,06%.
-
-En Allemagne, atteindre 30% des droits de vote constitue normalement une prise de contrôle au sens du droit des offres publiques et déclenche une offre obligatoire aux autres actionnaires.
-
-Anta reste juste dessous.
-
-Il devient donc actionnaire de référence sans prendre juridiquement le contrôle de Puma.
-
-Le groupe demande néanmoins une représentation au conseil de surveillance et entend apporter son expérience du retail, des opérations et du développement international.
-
-Puma reste basé à Herzogenaurach et conserve, selon les deux groupes, son autonomie de gouvernance.
-
-Anta connaît déjà cette mécanique internationale: il est le premier actionnaire d'Amer Sports, propriétaire notamment de Salomon, Arc'teryx, Wilson et Atomic.
-
-ULTRA®
-
-L'opération montre qu'une marque européenne peut changer de centre de gravité sans changer de nationalité.
-
-Anta n'achète ni le siège ni le contrôle juridique.
-
-Il achète une position suffisamment importante pour peser sur la gouvernance, accéder à une relation stratégique avec le management et participer au redressement d'une marque distribuée dans plus de 120 pays.
-
-Le test sera particulièrement visible en Chine, qui ne représentait qu'environ 7% des ventes mondiales de Puma début 2026.
-
-L'actif n'est donc pas seulement le logo.
-
-Ce sont les réseaux de distribution, les contrats sportifs, la propriété intellectuelle et la possibilité de reconnecter une marque européenne à une infrastructure commerciale asiatique beaucoup plus puissante.
-
-FINVOCE ©
-
-À 35 euros par action, Anta paie une prime de 62% par rapport au cours précédant l'annonce de janvier.
-
-Mais les 1,505 milliard d'euros vont à Artémis.
-
-Puma ne reçoit aucun capital nouveau.
-
-Pour la famille Pinault, la vente réduit l'exposition à une participation minoritaire alors qu'Artémis cherche à diminuer son endettement et à concentrer ses ressources sur des actifs contrôlés.
-
-La négociation comporte aussi une protection inhabituelle.
-
-Si, dans les quinze mois suivant la clôture, une offre supérieure intervient ou Puma est retiré de la cote, Artémis peut recevoir un complément de prix.
-
-La famille vend donc aujourd'hui tout en conservant une protection contre une revalorisation rapide demain.
-
-Pour Anta, le problème inverse commence.
-
-1,5 milliard d'euros sont immobilisés dans une participation qui donne de l'influence, mais pas le pouvoir d'imposer seul une restructuration.
-
-Le rendement dépendra désormais de la capacité à redresser Puma sans en détenir le contrôle.
-
-MERCURIO
-
-Le capital peut traverser les frontières bien avant que les marques ne changent de visage.
-
-Sources
-
-Anta Sports, 27 janvier et 7 octobre 2026
-Puma, 7 octobre 2026
-Reuters, 27 janvier et 3 février 2026
-
-#Puma #Anta #Geopolitique #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7518280086874378240/">Linkedin</source></item><item><title>22,2 °C d'écart sous le même soleil: la vitre qui contrôle une lumière invisible</title><link>https://voce.life/archive/2026/10/20/22-2-c-d-ecart-sous-le-meme-soleil-la-vitre-qui-controle-une-lumiere-inv-7518310291068145664</link><guid isPermaLink="true">https://voce.life/archive/2026/10/20/22-2-c-d-ecart-sous-le-meme-soleil-la-vitre-qui-controle-une-lumiere-inv-7518310291068145664</guid><author>VOCE Association</author><description>22,2 °C d'écart sous le même soleil: la vitre qui contrôle une lumière invisible
-
-Nankin, 25 août 2024.
-
-Quatre petites enceintes isolées restent au soleil. Leurs couvercles diffèrent: verre ordinaire, low-e, vitrage électrochrome et prototype expérimental.
-
-À midi, celle équipée du prototype atteint jusqu'à 22,2 °C de moins que celle couverte de verre ordinaire.
-
-Ce ne sont pas des bureaux grandeur nature. Les chambres ne mesurent que quelques dizaines de centimètres.
-
-Le 21 juillet 2026, Jian Chen, Jianwei Hu, Jia Zhu, Yan Jin et leurs collègues publient dans Nature Communications le mécanisme.
-
-Une fenêtre reçoit deux lumières thermiquement différentes.
-
-Le Soleil apporte visible et proche infrarouge. Le bâtiment chaud émet, lui, dans l'infrarouge thermique.
-
-Les vitrages intelligents savent déjà moduler la lumière entrante. Celui de Nankin cherche aussi à contrôler ce que la façade émet vers l'extérieur.
-
-Sous environ 1 V, du cuivre et du bismuth se déposent sur une électrode transparente. La transmission solaire peut presque être annulée.
-
-Puis l'architecture change l'orientation des faces: en été, forte émissivité vers l'extérieur pour évacuer davantage de chaleur; en hiver, faible émissivité vers l'extérieur afin de limiter les pertes radiatives.
-
-Dans les essais nocturnes hivernaux, l'écart atteint jusqu'à +1,5 °C face au verre ordinaire.
-
-Les simulations sur différentes zones climatiques prédisent aussi des économies annuelles d'énergie. Ce sont des simulations, pas des performances déjà observées sur une tour.
-
-ULTRA®
-
-Le "wow" n'est pas que la vitre devient sombre.
-
-C'est qu'elle traite séparément deux flux que l'œil confond dans un même objet.
-
-Le rayonnement solaire entre.
-
-Le rayonnement thermique du bâtiment sort.
-
-Une fenêtre classique possède des propriétés relativement fixes pour les deux. Le prototype chinois module séparément transmission solaire et émissivité infrarouge.
-
-C'est cette seconde variable qui change la logique.
-
-SageGlass de Saint-Gobain équipe déjà plus de 1.500 bâtiments avec du vitrage électrochrome capable de moduler l'ensoleillement. Le dispositif de Nankin ajoute une autre frontière: rendre également dynamique la manière dont la fenêtre échange sa propre chaleur par rayonnement.
-
-Le prototype reste loin d'une façade commerciale. Il faut démontrer durabilité, étanchéité, passage à grande surface, intégration mécanique et coût industriel.
-
-Mais la prochaine génération de vitrage intelligent pourrait ne plus seulement décider combien de lumière laisser entrer.
-
-Elle pourrait décider combien de chaleur laisser repartir.
-
-LUCIA
-
-Une fenêtre nous montre le monde. Demain, elle pourrait aussi choisir la chaleur qu'elle lui rend.
-
-Sources
-
-Chen et al., Nature Communications, 21 juillet 2026
-Saint-Gobain, SageGlass
-
-#Lumiere #Photonique #Architecture #SmartGlass #Energie #BuildingTechnology #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7518310291068145664/">Linkedin</source></item><item><title>Workday Trusted Agent Platform: l'agent peut agir dans la paie sans devenir administrateur</title><link>https://voce.life/archive/2026/10/19/workday-trusted-agent-platform-l-agent-peut-agir-dans-la-paie-sans-deven-7517796811013648384</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/workday-trusted-agent-platform-l-agent-peut-agir-dans-la-paie-sans-deven-7517796811013648384</guid><author>VOCE Association</author><description>Workday Trusted Agent Platform: l'agent peut agir dans la paie sans devenir administrateur
-
-13 octobre 2026.
-
-Workday rend généralement disponible sa Trusted Agent Platform pour permettre à des agents d'agir dans les workflows RH et finance sans contourner les règles du tenant.
-
-Le risque visé est simple.
-
-Donner à un agent un compte de service trop puissant facilite l'intégration, mais lui accorde souvent davantage de droits que l'utilisateur assisté.
-
-Copier les données Workday dans un data lake transporte les lignes, pas forcément les permissions, hiérarchies et approbations qui leur donnent sens.
-
-Workday veut garder l'action contre l'état réel du système.
-
-Tous les agents exécutés sur la plateforme, qu'ils viennent de Workday, du client ou d'un tiers, passent par Agent Harness.
-
-Cette couche fournit identité, rôle, ligne hiérarchique, droits, politiques et processus applicables. Elle gouverne ensuite l'action et peut choisir le modèle selon coût et performance.
-
-Le modèle devient interchangeable.
-
-Le contrôle reste dans Workday.
-
-Sovereign Routing maintient certaines données dans des frontières régionales ou sur l'infrastructure Workday. Evals et Traces mesurent les agents et reconstruisent leurs actions.
-
-Les modèles peuvent venir d'Anthropic, Google ou OpenAI, ainsi que de familles ouvertes de NVIDIA, Meta ou Mistral.
-
-Deux briques arrivent ensuite.
-
-Agent Context Service doit préinjecter le contexte utile avant le raisonnement, afin de réduire appels, tokens et exposition de données sensibles. Accès anticipé fin 2026.
-
-Grounded Reasoning doit vérifier une action proposée contre les politiques, processus et données vivantes du tenant avant exécution. Accès anticipé début 2027.
-
-Agent Passport est séparé: il associe à chaque agent des attestations signées indiquant ce qui a été testé, par qui et selon quel standard.
-
-ULTRA®
-
-Un agent externe peut utiliser Claude, Gemini, GPT ou un modèle open-weight tout en héritant des permissions et règles transactionnelles du système de référence.
-
-L'enjeu n'est donc plus de connecter un LLM à l'ERP.
-
-Il est d'éviter que chaque nouvel agent recrée à côté de l'ERP son propre système de sécurité.
-
-LI!GHT WORKFORCE ©
-
-TRAVAIL ABSORBÉ: recherche RH/finance, préparation d'actions, exécution de workflows autorisés, tâches administratives multi-étapes.
-
-TRAVAIL HUMAIN QUI RESTE: politiques, séparation des tâches, exceptions, approbations sensibles, responsabilité.
-
-EFFET ORGANISATIONNEL: l'ERP devient lui-même la frontière d'autorisation de la workforce logicielle.
-
-Lire un solde de congés est facile.
-
-Modifier une rémunération ou déclencher un paiement sans casser permissions, approbations et audit est beaucoup plus difficile.
-
-Workday cherche précisément à industrialiser cette seconde catégorie.
-
-Sources
-
-Workday, Trusted Agent Platform, 13 octobre 2026
-Workday, Agent Passport, 2 juin 2026
-
-#Workday #AIAgents #HRTech #Finance #AIInfrastructure #LightWorkforce #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517796811013648384/">Linkedin</source></item><item><title>Utiliser davantage l'IA peut rendre un décideur plus vulnérable aux biais</title><link>https://voce.life/archive/2026/10/19/utiliser-davantage-l-ia-peut-rendre-un-decideur-plus-vulnerable-aux-biai-7518023337604710401</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/utiliser-davantage-l-ia-peut-rendre-un-decideur-plus-vulnerable-aux-biai-7518023337604710401</guid><author>VOCE Association</author><description>Utiliser davantage l'IA peut rendre un décideur plus vulnérable aux biais
-
-26 mai 2026.
-
-Matteo Cristofaro, Pier Luigi Giardino et Mie-Sophia Augier publient dans Strategic Organization une expérience menée auprès de 273 professionnels.
-
-Leur tâche: décider d'une entrée sur un marché sous contrainte de temps et forte incertitude.
-
-Les chercheurs mesurent trois biais: ancrage, confirmation et excès de confiance.
-
-Le résultat n'est pas linéaire.
-
-Une utilisation intermédiaire de l'IA générative est associée à un traitement cognitif plus approfondi et à moins de biais.
-
-À faible usage, les bénéfices restent limités. À usage élevé, ils se dégradent également.
-
-Le point décisif n'est donc pas seulement combien l'IA est utilisée.
-
-C'est comment ses réponses sont traitées.
-
-Lorsque les participants confrontent les sorties et comparent les alternatives, l'IA soutient davantage la délibération.
-
-Lorsqu'ils acceptent les réponses avec peu d'examen critique, cet avantage s'affaiblit.
-
-L'étude ne démontre pas qu'il existe un nombre d'heures ou de requêtes au-delà duquel l'IA rendrait un dirigeant moins lucide.
-
-Elle montre quelque chose de plus précis: augmenter l'usage ne garantit pas une amélioration du jugement.
-
-ULTRA®
-
-Imaginez un comité d'investissement devant une acquisition de 400 millions d'euros.
-
-L'IA produit une valorisation, trois scénarios, une cartographie concurrentielle et une synthèse des risques.
-
-Le dossier paraît plus riche.
-
-Mais la quantité d'analyse produite ne dit rien du nombre d'hypothèses réellement contestées.
-
-Il ne suffit plus de mesurer combien d'analyse l'IA ajoute. Il faut mesurer combien de désaccord intellectuel elle préserve.
-
-Dans une architecture de décision robuste, les hypothèses formulées avant consultation devraient rester visibles, les preuves indépendantes séparées des estimations générées et les contradictions conservées.
-
-LI!GHT WORKFORCE ©
-
-Quand des agents préparent analyses financières, dossiers juridiques et recommandations commerciales, la capacité déplacée vers la machine n'est plus seulement la production de documents.
-
-C'est une partie de la préparation du jugement.
-
-Le contrôle humain utile ne consiste donc pas à relire une synthèse parfaite.
-
-Il consiste à pouvoir remonter aux données, contester une hypothèse, conserver un désaccord et identifier qui assume finalement la décision.
-
-Une organisation peut automatiser davantage tout en devenant intellectuellement plus fragile.
-
-La bonne métrique n'est pas seulement le temps gagné.
-
-C'est ce qu'elle reste capable de remettre en cause.
-
-SCARPIA
-
-Le pouvoir devient fragile lorsqu'il ne rencontre plus de résistance, même dans ses propres raisonnements.
-
-Sources
-
-Cristofaro, Giardino &amp; Augier, Strategic Organization, 26 mai 2026
-
-#Gouvernance #Leadership #IA #Strategie #DecisionMaking #LightWorkforce #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7518023337604710401/">Linkedin</source></item><item><title>Une IA chinoise peut travailler en France sans pouvoir y être déployée librement</title><link>https://voce.life/archive/2026/10/19/une-ia-chinoise-peut-travailler-en-france-sans-pouvoir-y-etre-deployee-l-7517842161095196672</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/une-ia-chinoise-peut-travailler-en-france-sans-pouvoir-y-etre-deployee-l-7517842161095196672</guid><author>VOCE Association</author><description>Une IA chinoise peut travailler en France sans pouvoir y être déployée librement
-
-Pékin, 16 octobre 2026.
-
-La Chine propose d’ajouter 40 technologies à son catalogue d’exportations contrôlées: 23 liées à l’IA, 12 au solaire et cinq aux biotechnologies.
-
-Quatorze seraient interdites à l’exportation. Vingt-six soumises à restriction.
-
-Sont visés certains grands modèles, agents et systèmes de calcul.
-
-Mais Pékin trace une frontière précise.
-
-L’accès depuis l’étranger par API, application ou SaaS resterait en principe possible.
-
-Transférer, reproduire ou déployer localement certaines technologies sous-jacentes pourrait exiger une autorisation.
-
-Une entreprise française peut donc utiliser une IA chinoise sans acquérir le droit de l’exploiter seule.
-
-La consultation court jusqu’au 15 novembre. Un enregistrement préalable s’applique déjà à certains transferts.
-
-ULTRA®
-
-Une API vend une fonction.
-
-L’autonomie exige davantage: poids, moteur d’inférence, droits de déploiement, correctifs, contrôle des versions et capacité à continuer sans le fournisseur.
-
-Le projet chinois ne vise pas indistinctement Qwen, DeepSeek ou toutes les IA ouvertes. Il distingue service, technologie, transfert de savoir-faire et déploiement.
-
-Pour un comité d’investissement, le prix par million de jetons devient insuffisant.
-
-Il faut aussi mesurer: possibilité de changer de modèle, récupération des traces, hébergement local, continuité sans API et coût d’une migration testée.
-
-Une IA peut être excellente tout en laissant l’entreprise dépendante de son infrastructure.
-
-LI!GHT WORKFORCE ©
-
-Prenons un agent d’achats utilisant Qwen d’Alibaba ou DeepSeek.
-
-Il peut lire des devis, comparer les prix, préparer une commande et pousser une proposition dans SAP ou Oracle.
-
-La capacité qui quitte l’équipe humaine n’est plus seulement la saisie. C’est une partie de la lecture, de la comparaison et de la préparation de décision.
-
-Le travail humain reste sur les exceptions, arbitrages fournisseurs, validations sensibles et responsabilité finale.
-
-Si l’agent dépend d’une API étrangère non déployable librement en Europe, une partie de cette capacité sort aussi de l’entreprise.
-
-Les métriques utiles deviennent: heures humaines retirées par transaction, taux d’exception, coût logiciel par processus, dépendance au fournisseur et temps réel de migration.
-
-Une organisation peut alléger sa workforce humaine tout en augmentant sa dépendance envers une workforce logicielle qu’elle ne possède pas pleinement.
-
-WOTAN | L’Or du Rhin
-
-Chez Wagner, le maître des contrats découvre que le pouvoir tient parfois dans une clause secondaire.
-
-“La liberté d’une organisation se mesure aussi au fournisseur qu’elle peut quitter.”
-
-Sources
-
-Ministère chinois du Commerce et ministère des Sciences et Technologies, avis n°48, 16 octobre 2026
-Reuters, 16 octobre 2026
-Associated Press, 17 octobre 2026
-
-#AgentsIA #Souverainete #Europe #Gouvernance #LightWorkforce #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517842161095196672/">Linkedin</source></item><item><title>TOOL DRIFT: L'OUTIL CHANGE, L'AGENT CONTINUE AVEC UNE CARTE PÉRIMÉE</title><link>https://voce.life/archive/2026/10/19/tool-drift-l-outil-change-l-agent-continue-avec-une-carte-perimee-7517902571626188801</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/tool-drift-l-outil-change-l-agent-continue-avec-une-carte-perimee-7517902571626188801</guid><author>VOCE Association</author><description>TOOL DRIFT: L'OUTIL CHANGE, L'AGENT CONTINUE AVEC UNE CARTE PÉRIMÉE
-
-Un agent dispose de centaines d'outils MCP.
-
-Pour choisir lequel appeler, il ne relit pas nécessairement tout le catalogue à chaque requête. Les noms, descriptions, paramètres et capacités peuvent être encodés dans un index sémantique.
-
-Puis le catalogue évolue.
-
-Un outil est renommé.
-Un paramètre change.
-Une capacité disparaît.
-Une description prend un autre sens.
-
-L'API peut toujours répondre.
-
-Mais l'agent raisonne avec une représentation devenue obsolète.
-
-En août 2026, Sai Kiran Paidi et Venkata Rama Krishna Bonagiri formalisent ce problème à IEEE SmartIoT sous le nom de "tool drift".
-
-Ils distinguent trois dérives: schéma, sémantique et capacité.
-
-Puis ils construisent ToolDriftBench: 150 tâches, trois domaines d'entreprise et six niveaux de dérive allant jusqu'à 60%.
-
-À ce niveau maximal, le taux de réussite tombe à 39,2%.
-
-Le modèle n'a pourtant pas nécessairement changé.
-
-Le prompt non plus.
-
-C'est la carte des outils qui ne correspond plus au territoire.
-
-ULTRA®
-
-Leur réponse, ToolDriftGuard, évite de reconstruire tout l'index après chaque modification.
-
-Le système surveille les manifests MCP, identifie les entrées modifiées, caractérise leur dérive puis ne ré-encode que les vecteurs concernés dans l'index FAISS.
-
-À 60% de dérive, le taux de réussite remonte de 39,2% à 83,6%, à 6,4 points d'une reconstruction complète.
-
-La latence de réindexation diminue de 93 à 99%.
-
-Mais une limite compte pour les systèmes critiques.
-
-Si une API conserve exactement le même schéma et la même description tout en changeant silencieusement son comportement réel, surveiller le manifest ne suffit pas.
-
-Il faut ajouter une seconde couche: des tests comportementaux sur des appels sentinelles et leurs résultats attendus.
-
-Une description d'outil devient ainsi un contrat versionné.
-
-Son comportement doit aussi devenir testable.
-
-LI!GHT WORKFORCE ©
-
-Plus une organisation délègue d'actions à des agents, plus la maintenance du catalogue d'outils devient une fonction d'infrastructure.
-
-Le travail humain se déplace vers le versionnage, les tests de non-régression, les permissions et le traitement des exceptions.
-
-Un agent peut appeler parfaitement la bonne fonction avec les bons paramètres et prendre malgré tout une mauvaise décision.
-
-La compatibilité syntaxique n'est plus une preuve de compatibilité opérationnelle.
-
-ARGOS
-
-Un agent n'est fiable que tant que la carte qu'il utilise décrit encore le territoire où il agit.
-
-Sources
-
-Paidi &amp; Bonagiri, "ToolDriftBench: Detecting and Recovering from MCP Tool Index Staleness in Agentic Systems", IEEE SmartIoT 2026
-
-#AIAgents #MCP #AIInfrastructure #LLMOps #AIGovernance #LightWorkforce #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517902571626188801/">Linkedin</source></item><item><title>Sur les réseaux, vouloir être original peut suffire à rendre une conversation plus négative</title><link>https://voce.life/archive/2026/10/19/sur-les-reseaux-vouloir-etre-original-peut-suffire-a-rendre-une-conversa-7517993158732025856</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/sur-les-reseaux-vouloir-etre-original-peut-suffire-a-rendre-une-conversa-7517993158732025856</guid><author>VOCE Association</author><description>Sur les réseaux, vouloir être original peut suffire à rendre une conversation plus négative
-
-Juin 2026.
-
-Hongkai Mao, Yuan Chang Leong et leurs collègues publient dans PNAS une analyse de 2,05 milliards de commentaires issus de 2.150 communautés Reddit.
-
-Ils observent une dérive régulière.
-
-À mesure qu'une conversation avance, les commentaires deviennent plus négatifs.
-
-L'effet est particulièrement marqué lorsque les premiers échanges sont positifs.
-
-Pourquoi?
-
-Les chercheurs mesurent une variable rarement étudiée: la différenciation sémantique.
-
-Plus une discussion progresse, plus il devient difficile d'apporter une contribution positive réellement nouvelle.
-
-La critique, elle, offre davantage de façons de se distinguer.
-
-Pour tester ce mécanisme, l'équipe construit une expérience simulant des discussions en ligne auprès de 3.685 participants.
-
-Certains sont incités à produire des contributions originales.
-
-Chez eux, la dérive vers la négativité apparaît nettement, surtout lorsque la conversation commence positivement.
-
-Chez les autres, elle n'apparaît pas de la même manière.
-
-La négativité peut donc émerger sans intention initiale d'agresser.
-
-Une communauté où chacun veut apporter quelque chose de différent peut progressivement rendre la contradiction plus rentable socialement que l'accord.
-
-ULTRA®
-
-Une autre étude PNAS publiée en août 2026 ajoute une couche plus inquiétante.
-
-Ziv Epstein, Farnaz Jahanbakhsh, Michael Bernstein et leurs collègues étudient 715 utilisateurs américains de X.
-
-Les contenus provenant des comptes suivis restent positivement alignés avec les valeurs déclarées des utilisateurs.
-
-Mais l'alignement entre ces valeurs et les contenus amplifiés par le fil "For You" devient négatif: corrélation moyenne -0,150.
-
-La mécanique semble liée aux formes d'engagement.
-
-Aimer ou republier tend à concerner des contenus plus alignés avec les valeurs personnelles.
-
-Répondre est différent.
-
-Les réponses ne représentent que 6,8% des interactions observées, mais elles sont moins alignées avec les valeurs déclarées. Or X peut pondérer fortement les réponses prédites dans son classement.
-
-Les auteurs parlent d'un mécanisme plausible, pas d'une causalité démontrée.
-
-Le problème institutionnel devient précis.
-
-Une plateforme peut apprendre davantage de ce qui nous fait réagir que de ce que nous voulons réellement voir.
-
-La première étude montre comment la recherche de singularité peut produire de la négativité.
-
-La seconde montre comment une infrastructure d'engagement peut ensuite lui donner davantage de portée.
-
-EGLANTINE
-
-Il suffit parfois de vouloir être différent pour que le désaccord devienne la forme la plus visible de l'existence.
-
-Sources
-
-Mao, Leong, Jiang et al., PNAS, 22 juin 2026
-Epstein, Jahanbakhsh, Piccardi et al., PNAS, août 2026
-
-#PsychologieSociale #ReseauxSociaux #Algorithmes #ComportementHumain #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517993158732025856/">Linkedin</source></item><item><title>Shég' Xdaltth'í': 80.000 vestiges montrent qu'il y a 13.800 ans, la Béringie était déjà un territoire habité</title><link>https://voce.life/archive/2026/10/19/sheg-xdaltth-i-80-000-vestiges-montrent-qu-il-y-a-13-800-ans-la-beringie-7517887468378140672</link><guid isPermaLink="true">https://voce.life/archive/2026/10/19/sheg-xdaltth-i-80-000-vestiges-montrent-qu-il-y-a-13-800-ans-la-beringie-7517887468378140672</guid><author>VOCE Association</author><description>Shég' Xdaltth'í': 80.000 vestiges montrent qu'il y a 13.800 ans, la Béringie était déjà un territoire habité
-
-Alaska, 14 octobre 2026.
-
-Sur une hauteur dominant la rivière Tanana, des humains ont laissé beaucoup plus que les traces d'un passage.
-
-Dans Science Advances, Kelly Graf et ses collègues décrivent Shég' Xdaltth'í', étudié depuis 2016.
-
-Le site conserve trois occupations datées d'environ 13.800, 13.000 et 12.700 ans.
-
-La plus ancienne a livré plus de 80.000 vestiges.
-
-Outils de pierre et d'os, aiguilles, zones d'activité préservées, foyers et restes de bison des steppes, cheval, mammouth et caribou.
-
-Près d'une grande enclume de pierre, des os de bison fracturés et des percuteurs indiquent même le traitement des carcasses pour récupérer moelle et graisse.
-
-Ce n'est pas l'image d'un groupe traversant rapidement un corridor.
-
-C'est celle d'un camp de base.
-
-À cette époque, la Béringie relie encore l'Asie et l'Amérique du Nord. Nous la représentons souvent comme une route empruntée par les populations gagnant les Amériques.
-
-Shég' Xdaltth'í' montre qu'une route migratoire pouvait déjà devenir un lieu où l'on s'installait, travaillait, chassait et revenait.
-
-La pierre révèle même une connexion plus lointaine.
-
-Le site possède des bifaces emmanchés en forme de losange inconnus ailleurs en Alaska à cette époque.
-
-Des formes contemporaines apparaissent de l'autre côté de l'ancien pont terrestre, notamment dans le nord-est sibérien.
-
-Les auteurs y voient un lien culturel transbéringien.
-
-ULTRA®
-
-La découverte ne repousse pas simplement une date.
-
-Elle change l'échelle du récit.
-
-Une migration apparaît facilement sur une carte comme une flèche allant d'Asie vers l'Amérique.
-
-L'archéologie de Shég' Xdaltth'í' restitue ce que la flèche efface: des lieux où l'on s'arrête suffisamment longtemps pour construire des zones de travail, transformer des animaux, fabriquer des outils et transmettre des gestes techniques.
-
-Le site constitue la plus ancienne occupation connue du complexe Nenana à l'est de l'ancien pont terrestre.
-
-Et ses bifaces possèdent des équivalents contemporains à l'ouest.
-
-La continuité entre Asie et Amérique apparaît donc aussi dans une manière de tailler et d'emmancher la pierre.
-
-Pas seulement dans la géographie.
-
-Le nom athabascan Shég' Xdaltth'í' signifie "ils étaient là".
-
-13.800 ans plus tard, 80.000 vestiges donnent enfin une épaisseur à ce "là".
-
-ULISSE
-
-Une migration devient une histoire humaine aux endroits où elle cesse, un moment, d'être un déplacement.
-
-Sources
-
-Graf et al., Science Advances, 14 octobre 2026
-University of Kansas, 14 octobre 2026
-
-#Archeologie #Alaska #Beringie #Prehistoire #Ameriques #Migration #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7517887468378140672/">Linkedin</source></item></channel></rss>
+#AIGovernance #AgenticAI #AIIncidentResponse #LightWorkforce #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7518174324617371648/">Linkedin</source></item></channel></rss>

@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generated_at": "2026-10-22",
+  "generated_at": "2026-10-23",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
   "methodology": {
@@ -4290,6 +4290,159 @@
       "sectors": [
         "legal",
         "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7519352103648153601",
+      "date": "2026-10-23",
+      "title": "Claude Code, Codex et Copilot peuvent déjà travailler dans votre entreprise sans être recensés",
+      "path": "/archive/2026/10/23/claude-code-codex-et-copilot-peuvent-deja-travailler-dans-votre-entrepri-7519352103648153601",
+      "sectors": [
+        "legal",
+        "culture",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7519412518126067712",
+      "date": "2026-10-23",
+      "title": "Google Research: son agent de laboratoire a fait monter le score en dégradant l'expérience",
+      "path": "/archive/2026/10/23/google-research-son-agent-de-laboratoire-a-fait-monter-le-score-en-degra-7519412518126067712",
+      "sectors": [
+        "cross"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7519472900186427393",
+      "date": "2026-10-23",
+      "title": "Gorgias Shopping Assistant: 80% du revenu attribué à l’IA ne prouve pas son influence sur l’achat",
+      "path": "/archive/2026/10/23/gorgias-shopping-assistant-80-du-revenu-attribue-a-lia-ne-prouve-pas-son-7519472900186427393",
+      "sectors": [
+        "legal",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7519321923739308032",
+      "date": "2026-10-23",
+      "title": "L’IA vous dit comment être accepté. Puis elle déplace la ligne d’arrivée.",
+      "path": "/archive/2026/10/23/lia-vous-dit-comment-etre-accepte-puis-elle-deplace-la-ligne-darrivee-7519321923739308032",
+      "sectors": [
+        "legal"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7519291695939620864",
+      "date": "2026-10-23",
+      "title": "L’IA vous dit comment être accepté. Puis elle déplace la ligne d’arrivée.",
+      "path": "/archive/2026/10/23/lia-vous-dit-comment-etre-accepte-puis-elle-deplace-la-ligne-darrivee-7519291695939620864",
+      "sectors": [
+        "legal"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7519503081382801408",
+      "date": "2026-10-23",
+      "title": "Salesforce paie 3,6 milliards pour Fin. Gartner: les clients passent déjà par d'autres IA",
+      "path": "/archive/2026/10/23/salesforce-paie-3-6-milliards-pour-fin-gartner-les-clients-passent-deja-7519503081382801408",
+      "sectors": [
+        "legal",
+        "finance",
+        "marketing",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7519442782848131073",
+      "date": "2026-10-23",
+      "title": "Seats.io: le plan de salle peut sortir du lot \"billetterie\" des appels d'offres",
+      "path": "/archive/2026/10/23/seats-io-le-plan-de-salle-peut-sortir-du-lot-billetterie-des-appels-d-of-7519442782848131073",
+      "sectors": [
+        "legal",
+        "finance",
+        "culture",
+        "marketing",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7519246379295182848",
+      "date": "2026-10-23",
+      "title": "ServiceNow Arc: l’agent personnel peut travailler plusieurs jours et fabriquer ses propres intégrations",
+      "path": "/archive/2026/10/23/servicenow-arc-lagent-personnel-peut-travailler-plusieurs-jours-et-fabri-7519246379295182848",
+      "sectors": [
+        "legal",
+        "hr",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7519216187508064256",
+      "date": "2026-10-23",
+      "title": "ServiceNow et NVIDIA: révoquer un agent jusque dans le silicium",
+      "path": "/archive/2026/10/23/servicenow-et-nvidia-revoquer-un-agent-jusque-dans-le-silicium-7519216187508064256",
+      "sectors": [
+        "legal",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7519382305212203009",
+      "date": "2026-10-23",
+      "title": "Skild AI: un robot apprend une tâche inconnue avec une seule vidéo",
+      "path": "/archive/2026/10/23/skild-ai-un-robot-apprend-une-tache-inconnue-avec-une-seule-video-7519382305212203009",
+      "sectors": [
+        "legal"
       ],
       "themes": [
         "LI!GHT WORKFORCE ©",

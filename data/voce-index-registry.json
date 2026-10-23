@@ -2635,6 +2635,30 @@
         "urn:li:ugcPost:7518883997616160768",
         "urn:li:ugcPost:7518868890756583424"
       ]
+    },
+    "2026-10-23": {
+      "count": 17,
+      "source": "linkedin",
+      "page": "/archive/2026-10-23",
+      "post_ids": [
+        "urn:li:ugcPost:7519503081382801408",
+        "urn:li:ugcPost:7519472900186427393",
+        "urn:li:ugcPost:7519457803447488512",
+        "urn:li:ugcPost:7519442782848131073",
+        "urn:li:ugcPost:7519427604534272001",
+        "urn:li:ugcPost:7519412518126067712",
+        "urn:li:ugcPost:7519382305212203009",
+        "urn:li:ugcPost:7519352103648153601",
+        "urn:li:ugcPost:7519337004044754945",
+        "urn:li:ugcPost:7519321923739308032",
+        "urn:li:ugcPost:7519306824106496003",
+        "urn:li:ugcPost:7519291695939620864",
+        "urn:li:ugcPost:7519276587440250880",
+        "urn:li:ugcPost:7519261476231192576",
+        "urn:li:ugcPost:7519246379295182848",
+        "urn:li:ugcPost:7519216187508064256",
+        "urn:li:ugcPost:7519185985776058368"
+      ]
     }
   },
   "pipeline": {
