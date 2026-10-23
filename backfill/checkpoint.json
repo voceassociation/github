@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-23T21:06:41.704946+00:00",
+  "updated_at": "2026-10-23T21:33:57.396Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -5393,6 +5393,145 @@
         "total_derived_objects": 1893,
         "derived_objects_synced": 1893,
         "derived_article_pages_synced": 1776
+      }
+    },
+    "linkedin_nightly_2026_10_23_2300": {
+      "status": "deployed_verified",
+      "checked_at": "2026-10-23T21:33:57.396Z",
+      "access_status": "normal",
+      "access_run": "3cdf34b9-b9f9-4a4b-bb9d-ee8d8c19eac2",
+      "boundary_target": "urn:li:ugcPost:7519110507199467520",
+      "boundary_seen": true,
+      "verified_posts": 17,
+      "verified_by_date": {
+        "2026-10-23": 17
+      },
+      "verified_linkedin_ids": [
+        "urn:li:ugcPost:7519503081382801408",
+        "urn:li:ugcPost:7519472900186427393",
+        "urn:li:ugcPost:7519457803447488512",
+        "urn:li:ugcPost:7519442782848131073",
+        "urn:li:ugcPost:7519427604534272001",
+        "urn:li:ugcPost:7519412518126067712",
+        "urn:li:ugcPost:7519382305212203009",
+        "urn:li:ugcPost:7519352103648153601",
+        "urn:li:ugcPost:7519337004044754945",
+        "urn:li:ugcPost:7519321923739308032",
+        "urn:li:ugcPost:7519306824106496003",
+        "urn:li:ugcPost:7519291695939620864",
+        "urn:li:ugcPost:7519276587440250880",
+        "urn:li:ugcPost:7519261476231192576",
+        "urn:li:ugcPost:7519246379295182848",
+        "urn:li:ugcPost:7519216187508064256",
+        "urn:li:ugcPost:7519185985776058368"
+      ],
+      "pending_candidates": [
+        "urn:li:ugcPost:7517056921168844800"
+      ],
+      "raw_packets": [
+        "backfill/raw/2026-10-23.json"
+      ],
+      "source_commits": [
+        "3ad52127810b446a9cea06c300e8d6e1cbe03e4f"
+      ],
+      "generated_commit": "d167284fdef0e9c151725f2a51e59f9b60f3f7b7",
+      "report_commit": "05b68778f51aa55c128ac61b00dfe84b8dcb109c",
+      "workflow": {
+        "run_id": 40024314842,
+        "job_id": 120656513590,
+        "conclusion": "success"
+      },
+      "validation": {
+        "retrieved_unique_publications": 1795,
+        "newly_archived": 17,
+        "corpus_items": 1793,
+        "canonical_routes": 1793,
+        "redirects": 2,
+        "unique_ids": true,
+        "unique_full_texts": true,
+        "all_17_source_texts_exact_in_live_corpus": true,
+        "all_17_source_urls_exact": true,
+        "alternate_ids_not_reimported": true,
+        "new_conflicts": 0,
+        "preexisting_conflicts_preserved": 334,
+        "discovery_validation_passed": true,
+        "rss_items": 50,
+        "rss_full_original_text": true,
+        "rss_latest_present": true,
+        "sitemap_urls": 2627,
+        "sitemap_latest_present": true,
+        "vault_routes_in_rss": 0,
+        "vault_routes_in_sitemap": 0
+      },
+      "deployment": {
+        "active_deployment_id": "2b505051-f0af-4267-b058-7577fcd77e36",
+        "active_version": "1c1397be-f8e6-4a53-ad09-8f085cc3e96e",
+        "status": "verified_live",
+        "triggers_modified": false,
+        "permissions_modified": false
+      },
+      "indexnow": {
+        "key": "9e4c71d85a2f4b6cb3098f21d7a56e40",
+        "ownership_key_verified": true,
+        "http_status": 200,
+        "submitted_url_count": 65,
+        "run_id": 40024314842,
+        "job_id": 120656513590,
+        "scope": "current four-day publication batch",
+        "indexing_claimed": false
+      },
+      "drive_research_registry": {
+        "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
+        "sheet": "Scholar Registry",
+        "range": "A1:K20",
+        "checked": true,
+        "formal_records": 2,
+        "unchanged": true
+      },
+      "facebook_paused": true,
+      "metricool_used": false,
+      "media_downloaded": false,
+      "editorial_selection_changed": false,
+      "coverage_complete": true,
+      "historical_conflicts_preserved": 334,
+      "report": "backfill/reports/linkedin-catchup-progress-2026-10-23.json",
+      "live_verification": {
+        "academy_counter": 1793,
+        "daily_archive_url": "https://voce.life/archive/2026-10-23",
+        "daily_archive_count": 17,
+        "article_url": "https://voce.life/archive/2026/10/23/salesforce-paie-3-6-milliards-pour-fin-gartner-les-clients-passent-deja-7519503081382801408",
+        "self_canonical": true,
+        "robots_index_follow": true,
+        "all_17_corpus_texts_exact": true,
+        "original_link_present": true,
+        "og_image": "https://voce.life/voce-og.jpg",
+        "sitemap_urls": 2627,
+        "sitemap_latest_present": true,
+        "rss_items": 50,
+        "rss_full_original_text": true,
+        "rss_latest_present": true,
+        "guide_query": "Salesforce paie 3,6 milliards pour Fin. Gartner: les clients passent déjà par d'autres IA",
+        "guide_top_source_exact": true,
+        "guide_top_url": "https://voce.life/archive/2026/10/23/salesforce-paie-3-6-milliards-pour-fin-gartner-les-clients-passent-deja-7519503081382801408",
+        "guide_run_id": "3e90a42b-02ea-4f91-9042-73c3ba0d1e6a"
+      },
+      "r2": {
+        "checked_at": "2026-10-23T21:33:57.396Z",
+        "status": "ok",
+        "bucket": "voce-sovereign-corpus",
+        "private": true,
+        "synced_at": "2026-10-23T21:32:53.915Z",
+        "article_routes": 1793,
+        "corpus_items": 1793,
+        "article_routes_synced": 1793,
+        "source_snapshot_complete": true,
+        "backup_complete": true,
+        "total_objects_target": 1922,
+        "objects_synced": 1922,
+        "derived_backup_complete": true,
+        "total_derived_objects": 1911,
+        "derived_objects_synced": 1911,
+        "derived_article_pages_synced": 1793
       }
     }
   },
