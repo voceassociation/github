@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "date": "2026-10-24",
+  "timezone": "Europe/Podgorica",
+  "status": "completed_verified_and_deployed",
+  "checked_at": "2026-10-24T21:29:10.815Z",
+  "summary": {
+    "verified_posts": 13,
+    "verified_by_date": {
+      "2026-10-24": 13
+    },
+    "newly_archived": 13,
+    "corpus_items": 1806,
+    "coverage_complete": true
+  },
+  "access": {
+    "profile_id": "prof_236917ff0f01402f",
+    "run_id": "61d41546-d50e-4744-8c4c-43f315913052",
+    "status": "available_authenticated_no_block_or_challenge",
+    "block_or_challenge_observed": false,
+    "boundary_reached": "urn:li:ugcPost:7519503081382801408"
+  },
+  "traversed_linkedin_ids": [
+    "urn:li:ugcPost:7519850353794842624",
+    "urn:li:ugcPost:7519820160946323456",
+    "urn:li:ugcPost:7519790013203619840",
+    "urn:li:ugcPost:7519759796061974528",
+    "urn:li:ugcPost:7519729606275497985",
+    "urn:li:ugcPost:7519699394200481792",
+    "urn:li:ugcPost:7519669171509592064",
+    "urn:li:ugcPost:7519654090411454464",
+    "urn:li:ugcPost:7519638975947456512",
+    "urn:li:ugcPost:7519623862444027904",
+    "urn:li:ugcPost:7519608768599363584",
+    "urn:li:ugcPost:7519578568306126848",
+    "urn:li:ugcPost:7519548380822511616"
+  ],
+  "packets": [
+    "backfill/raw/2026-10-24.json"
+  ],
+  "commits": {
+    "baseline": "efb6f395a0b43e5af0aae03f9b7ba6c6e65d93c5",
+    "source": "6335ea114b1ac66c0d340b39debb5da395c34777",
+    "generated": "c93327860a434774d3c20dd3f25e256c305c01ce"
+  },
+  "ingestion": {
+    "run_id": 40132579170,
+    "job_id": 120987248832,
+    "conclusion": "success",
+    "exact_source_text_preserved": true
+  },
+  "validation": {
+    "retrieved_unique_publications": 1808,
+    "newly_archived": 13,
+    "corpus_items": 1806,
+    "canonical_routes": 1806,
+    "redirects": 2,
+    "unique_ids": true,
+    "unique_full_texts": true,
+    "all_13_source_texts_exact_in_live_corpus": true,
+    "all_13_source_urls_exact": true,
+    "alternate_ids_not_reimported": true,
+    "new_conflicts": 0,
+    "preexisting_conflicts_preserved": 334,
+    "discovery_validation_passed": true,
+    "rss_items": 50,
+    "rss_full_original_text": true,
+    "rss_latest_present": true,
+    "sitemap_urls": 2641,
+    "sitemap_latest_present": true,
+    "vault_routes_in_rss": 0,
+    "vault_routes_in_sitemap": 0
+  },
+  "indexnow": {
+    "key": "9e4c71d85a2f4b6cb3098f21d7a56e40",
+    "ownership_key_verified": true,
+    "http_status": 200,
+    "submitted_url_count": 64,
+    "run_id": 40132579170,
+    "job_id": 120987248832,
+    "scope": "current four-day publication batch",
+    "indexing_claimed": false
+  },
+  "drive_research_registry": {
+    "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
+    "sheet": "Scholar Registry",
+    "range": "A1:K20",
+    "checked": true,
+    "formal_records": 2,
+    "unchanged": true
+  },
+  "candidate_posts": [
+    {
+      "linkedin_id": "urn:li:ugcPost:7517056921168844800",
+      "status": "pending_unverified",
+      "published": false,
+      "reason": "Preserved from the earlier packet; exact authored text and structured publication datetime remain unverified. No reconstruction attempted."
+    }
+  ],
+  "deployment": {
+    "status": "verified_live",
+    "active_deployment_id": "b005f032-4167-462a-8dcb-b0f92ce14a35",
+    "active_version": "e9d85ba0-07ac-4ba0-80ec-a236199ec8ff",
+    "observed_public_corpus_items": 1806,
+    "expected_public_corpus_items": 1806,
+    "triggers_modified": false,
+    "permissions_modified": false
+  },
+  "safeguards": {
+    "facebook_used": false,
+    "metricool_used": false,
+    "media_downloaded": false,
+    "source_texts_reconstructed": false,
+    "waf_modified": false,
+    "editorial_selection_changed": false
+  },
+  "live_verification": {
+    "academy_counter": 1806,
+    "daily_archive_url": "https://voce.life/archive/2026-10-24",
+    "daily_archive_count": 13,
+    "article_url": "https://voce.life/archive/2026/10/24/les-papillons-de-nuit-entendent-les-plantes-que-nous-croyons-silencieuse-7519850353794842624",
+    "self_canonical": true,
+    "robots_index_follow": true,
+    "all_13_corpus_texts_exact": true,
+    "original_link_present": true,
+    "og_image": "https://voce.life/voce-og.jpg",
+    "sitemap_urls": 2641,
+    "sitemap_latest_present": true,
+    "rss_items": 50,
+    "rss_full_original_text": true,
+    "rss_latest_present": true,
+    "guide_query": "Les papillons de nuit entendent les plantes que nous croyons silencieuses",
+    "guide_top_source_exact": true,
+    "guide_top_url": "https://voce.life/archive/2026/10/24/les-papillons-de-nuit-entendent-les-plantes-que-nous-croyons-silencieuse-7519850353794842624",
+    "guide_run_id": "b5d03a48-b804-41b2-8d68-8f9d7d5351fe"
+  },
+  "r2": {
+    "checked_at": "2026-10-24T21:27:54.355Z",
+    "status": "ok",
+    "bucket": "voce-sovereign-corpus",
+    "private": true,
+    "synced_at": "2026-10-24T21:27:54.355Z",
+    "article_routes": 1806,
+    "corpus_items": 1806,
+    "article_routes_synced": 1806,
+    "source_snapshot_complete": true,
+    "backup_complete": true,
+    "total_objects_target": 1936,
+    "objects_synced": 1936,
+    "derived_backup_complete": true,
+    "total_derived_objects": 1925,
+    "derived_objects_synced": 1925,
+    "derived_article_pages_synced": 1806
+  }
+}
