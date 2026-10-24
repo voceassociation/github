@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-24T21:04:16.680037+00:00",
+  "updated_at": "2026-10-24T21:29:10.815Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1738,26 +1738,19 @@
       "owner": "VOCE Association",
       "bucket": "voce-sovereign-corpus",
       "private": true,
-      "synced_at": "2026-10-12T12:31:18.003Z",
-      "article_routes": 1622,
-      "corpus_items": 1622,
-      "article_routes_synced": 1622,
+      "synced_at": "2026-10-24T21:27:54.355Z",
+      "article_routes": 1806,
+      "corpus_items": 1806,
+      "article_routes_synced": 1806,
       "source_snapshot_complete": true,
-      "backup_cursor": 1160,
-      "backup_batch_size": 40,
       "backup_complete": true,
-      "last_complete_sync_at": "2026-10-12T12:31:18.003Z",
-      "total_objects_target": 1740,
-      "objects_synced": 1171,
-      "derived_backup_complete": false,
-      "derived_cursor": 1160,
-      "total_derived_objects": 1729,
-      "derived_objects_synced": 1160,
-      "derived_article_pages_synced": 1053,
-      "source_objects_touched_in_last_sync": 11,
-      "derived_objects_touched_in_last_sync": 40,
-      "changed_in_last_sync": 0,
-      "checked_at": "2026-10-12T12:35:34.885Z"
+      "total_objects_target": 1936,
+      "objects_synced": 1936,
+      "derived_backup_complete": true,
+      "total_derived_objects": 1925,
+      "derived_objects_synced": 1925,
+      "derived_article_pages_synced": 1806,
+      "checked_at": "2026-10-24T21:27:54.355Z"
     },
     "research_registry": {
       "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
@@ -1767,7 +1760,7 @@
         "https://voce.life/research/introspective-technoference",
         "https://voce.life/research/parental-technoference-language-development"
       ],
-      "last_verified_at": "2026-10-15T21:09:53.718Z",
+      "last_verified_at": "2026-10-24T21:29:10.815Z",
       "status": "Google Drive registry verified unchanged: the two authoritative DOI records and canonical VOCE Academy research targets remain exact; no new formal output added."
     },
     "facebook": {
@@ -1879,16 +1872,18 @@
       "redirects": 2
     },
     "indexnow_latest": {
-      "run_id": 37994097432,
-      "job_id": 114035546779,
       "endpoint": "https://www.bing.com/indexnow",
-      "status": 200,
-      "submitted_url_count": 61,
-      "scope": "current four-day canonical publication batch",
-      "observed_at": "2026-10-09T21:33:01.596Z",
-      "key_location": "https://voce.life/9e4c71d85a2f4b6cb3098f21d7a56e40.txt",
-      "global_submission_repeated": false,
-      "interpretation": "accepted_not_guarantee_of_indexing"
+      "status": "accepted_200",
+      "http_status": 200,
+      "accepted_at": "2026-10-24T21:04:22.461Z",
+      "run_id": 40132579170,
+      "job_id": 120987248832,
+      "workflow_url": "https://github.com/voceassociation/github/actions/runs/40132579170",
+      "submitted_url_count": 64,
+      "keyLocation": "https://voce.life/9e4c71d85a2f4b6cb3098f21d7a56e40.txt",
+      "interpretation": "Search engine received the URLs; no claim of indexing or ranking.",
+      "scope": "current four-day publication batch",
+      "global_submission_repeated": false
     },
     "r2_repair_2026_10_06": {
       "cause_verified": "Cloudflare scheduled syncCorpus failed fetching absent static archive/2026-06-27.html (404), screenshot 16:57:34 Europe/Podgorica",
@@ -2039,30 +2034,16 @@
     "indexnow_current_submission": {
       "endpoint": "https://www.bing.com/indexnow",
       "status": "accepted_200",
-      "workflow_run": "https://github.com/voceassociation/github/actions/runs/37994097432",
-      "submitted_scope": "current four-day canonical publication batch",
-      "global_submission_repeated": false,
-      "prior_global_success_run": "https://github.com/voceassociation/github/actions/runs/37480606608",
-      "prior_global_status": 200,
       "http_status": 200,
-      "accepted_at": "2026-10-09T21:33:01.596Z",
-      "run_id": 37994097432,
-      "job_id": 114035546779,
-      "workflow_url": "https://github.com/voceassociation/github/actions/runs/37994097432",
-      "submitted_url_count": 61,
+      "accepted_at": "2026-10-24T21:04:22.461Z",
+      "run_id": 40132579170,
+      "job_id": 120987248832,
+      "workflow_url": "https://github.com/voceassociation/github/actions/runs/40132579170",
+      "submitted_url_count": 64,
       "keyLocation": "https://voce.life/9e4c71d85a2f4b6cb3098f21d7a56e40.txt",
       "interpretation": "Search engine received the URLs; no claim of indexing or ranking.",
-      "scope": "current four-day canonical publication batch",
-      "previous_failure": {
-        "endpoint": "https://www.bing.com/indexnow",
-        "status": "failed_403_key_verification",
-        "workflow_run": "https://github.com/voceassociation/github/actions/runs/37535330356",
-        "submitted_scope": "current four-day window only",
-        "global_submission_repeated": false,
-        "prior_global_success_run": "https://github.com/voceassociation/github/actions/runs/37480606608",
-        "prior_global_status": 200
-      },
-      "corrected_commit": "d109c255616d65f4ea3eb4c6efbd6cda3a5ca008"
+      "scope": "current four-day publication batch",
+      "global_submission_repeated": false
     },
     "nightly_backfill_morning_verification_2026_10_07": {
       "checked_at": "2026-10-07T07:05:55.169Z",
@@ -5542,6 +5523,32 @@
         "derived_objects_synced": 1911,
         "derived_article_pages_synced": 1793
       }
+    },
+    "linkedin_nightly_2026_10_24_2300": {
+      "status": "completed_verified_and_deployed",
+      "report": "backfill/reports/linkedin-catchup-progress-2026-10-24.json",
+      "source_packet": "backfill/raw/2026-10-24.json",
+      "access_run": "61d41546-d50e-4744-8c4c-43f315913052",
+      "source_commit": "6335ea114b1ac66c0d340b39debb5da395c34777",
+      "generated_commit": "c93327860a434774d3c20dd3f25e256c305c01ce",
+      "report_commit": "a21f93069effa62609e349ee86e88fe372e95cf8",
+      "verified_posts": 13,
+      "newly_archived": 13,
+      "corpus_items": 1806,
+      "coverage_complete": true,
+      "boundary_reached": "urn:li:ugcPost:7519503081382801408",
+      "historical_conflicts_preserved": 334,
+      "new_conflicts": 0,
+      "r2_source_snapshot_complete": true,
+      "r2_derived_backup_complete": true,
+      "indexnow_http_status": 200,
+      "indexnow_submitted_url_count": 64,
+      "indexing_claimed": false,
+      "pending_unverified_linkedin_id": "urn:li:ugcPost:7517056921168844800",
+      "facebook_used": false,
+      "metricool_used": false,
+      "media_downloaded": false,
+      "checked_at": "2026-10-24T21:29:10.815Z"
     }
   },
   "facebook_daily_scans": {},
