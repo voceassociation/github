@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-10-25",
+  "branch": "fix/course-acceptance-75000",
+  "pull_request": 39,
+  "base_head_read": "82a8564aafc71eb8abdefaa1de7938427f633d4d",
+  "publication": {
+    "allowed_now": false,
+    "condition": "120 cours réécrits et contrôlés",
+    "main_merge_performed": false,
+    "deployment_performed": false
+  },
+  "counts": {
+    "total": 120,
+    "rewritten_editions": 1,
+    "fully_reviewed": 0,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 118
+  },
+  "prior_course": {
+    "id": "VOCE-AI-001",
+    "lesson_characters": 91018,
+    "basis": "Manifest, audit et PR 39 lus sur la branche ; laboratoire non réexécuté dans ce lot",
+    "open_checks": [
+      "relecture indépendante",
+      "contrôle visuel"
+    ]
+  },
+  "current_course": {
+    "id": "VOCE-AI-002",
+    "title": "Qui donne ses droits à un agent?",
+    "status": "partial_source_only_not_for_publication",
+    "files_recorded_in_this_batch": [
+      "content/courses/engineering/VOCE-AI-002/01-calcul-autorite.html",
+      "content/courses/engineering/VOCE-AI-002/02-delegation-services.html",
+      "content/courses/engineering/VOCE-AI-002/README.md",
+      "content/courses/engineering/VOCE-AI-002/check_draft.py",
+      "content/courses/engineering/VOCE-AI-002/checks-2026-10-25.json",
+      "content/courses/engineering/VOCE-AI-002/course.json",
+      "content/courses/engineering/VOCE-AI-002/references.html",
+      "content/courses/engineering/VOCE-AI-002/render.py",
+      "docs/education/rewrite-progress.json"
+    ],
+    "lesson_characters": 27348,
+    "minimum_lesson_characters": 75000,
+    "measurement": "Counter de scripts/audit-course-volume.py ; concaténation ordonnée des chapitres dans article ; texte des seuls blocs lesson, espaces normalisés ; aucun texte de la page historique ajouté",
+    "chapters_written": [
+      "01-calcul-autorite.html",
+      "02-delegation-services.html"
+    ],
+    "chapters_remaining": [
+      "03-approbation-version-transaction : liaison de l'approbation aux paramètres, normalisation, contrôle de version et atomicité",
+      "04-politiques-objets-relations : rôles, attributs et relations, cloisonnement multi-organisation et recherche",
+      "05-revocation-distribuee : délais, caches, files et choix de cohérence",
+      "06-outils-et-injection : frontières de confiance, restrictions des outils, données hostiles et contrôle des effets",
+      "07-preuves-et-exploitation : traces minimales, modes dégradés, délégations d'urgence et revue de droits",
+      "08-laboratoire-et-analyse : enseigner le modèle exécutable complet et analyser ses limites ; code, exercices et corrigés exclus du volume"
+    ],
+    "sources_consulted": [
+      {
+        "url": "https://www.rfc-editor.org/rfc/rfc8693.html",
+        "sections": [
+          "1.1",
+          "2.1",
+          "4.1"
+        ],
+        "consulted_on": "2026-10-25"
+      },
+      {
+        "url": "https://www.rfc-editor.org/rfc/rfc9700.html",
+        "sections": [
+          "2.1.1",
+          "2.2.1"
+        ],
+        "consulted_on": "2026-10-25"
+      },
+      {
+        "url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization",
+        "sections": [
+          "Resource Parameter Implementation",
+          "Token Handling",
+          "Token Audience Binding and Validation"
+        ],
+        "consulted_on": "2026-10-25"
+      }
+    ],
+    "checks_executed": {
+      "command": "python content/courses/engineering/VOCE-AI-002/check_draft.py",
+      "result": "passed",
+      "report": "content/courses/engineering/VOCE-AI-002/checks-2026-10-25.json",
+      "scope": [
+        "deterministic rendering",
+        "production destination blocked",
+        "Counter agrees between sources and preview",
+        "one H1",
+        "obsolete JSON-LD removed",
+        "noindex preview",
+        "unique chapter ids",
+        "no exact paragraph duplicates within lot or against AI-001 core/engineering",
+        "five arithmetic assertion groups"
+      ]
+    },
+    "limits": [
+      "Cours incomplet : 27 348 caractères, seuil non atteint",
+      "Laboratoire complet, exercices et corrigés non écrits",
+      "Relecture indépendante et contrôle visuel non réalisés",
+      "Rendu de prévisualisation uniquement ; aucun changement de la page historique ni du catalogue",
+      "Détection des répétitions limitée aux paragraphes identiques et aux sources AI-001 core/engineering ; ne prouve pas la qualité pédagogique"
+    ],
+    "next_action": "Rédiger content/courses/engineering/VOCE-AI-002/03-approbation-version-transaction.html : liaison approbation-commande, normalisation, contrôle de version, fenêtre contrôle-effet et admission transactionnelle ; consulter les sources primaires utiles ; ajouter le chapitre à course.json, adapter les libellés partiels du renderer, mesurer, vérifier et sauvegarder. Ne pas commencer AI-003."
+  }
+}
