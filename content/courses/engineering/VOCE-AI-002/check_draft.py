@@ -57,6 +57,8 @@ def check():
     assert 125000 + 80000 == 205000 and 205000 - 200000 == 5000
     assert 125000 + 75000 == 200000
     assert 125000 + 50000 <= 200000 and 125000 + 2 * 50000 == 225000
+    assert 2 * 125000 == 250000 and 250000 - 200000 == 50000
+    assert 200000 - 125000 == 75000
     return {
         'course': metadata['id'], 'lesson_characters': lesson,
         'chapters': len(metadata['chapters']), 'paragraphs': len(paragraphs),
@@ -66,7 +68,7 @@ def check():
                    'Counter agrees between sources and preview', 'one H1',
                    'obsolete JSON-LD removed', 'noindex preview', 'unique chapter ids',
                    'no exact paragraph duplicates within lot or against AI-001 core/engineering',
-                   'five arithmetic assertion groups'],
+                   'seven arithmetic assertion groups'],
         'quality_validated': False,
         'not_performed': ['independent review', 'browser visual review',
                           'complete authorization laboratory', 'learner pilot']
