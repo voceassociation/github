@@ -1,0 +1,846 @@
+{
+  "minimum_lesson_characters": 75000,
+  "quality_validated": false,
+  "courses": [
+    {
+      "id": "VOCE-AI-001",
+      "url": "https://voce.life/cours/modele-et-systeme",
+      "article_characters_including_extras": 89627,
+      "marked_lesson_characters": null,
+      "status": "unsegmented_requires_review"
+    },
+    {
+      "id": "VOCE-AI-002",
+      "url": "https://voce.life/cours/permissions-agent",
+      "article_characters_including_extras": 81514,
+      "marked_lesson_characters": null,
+      "status": "unsegmented_requires_review"
+    },
+    {
+      "id": "VOCE-AI-003",
+      "url": "https://voce.life/cours/preuves-controle",
+      "article_characters_including_extras": 85071,
+      "marked_lesson_characters": null,
+      "status": "unsegmented_requires_review"
+    },
+    {
+      "id": "VOCE-AI-004",
+      "url": "https://voce.life/cours/reevaluer-agent",
+      "article_characters_including_extras": 11776,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-005",
+      "url": "https://voce.life/cours/cout-tache-terminee",
+      "article_characters_including_extras": 12006,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-006",
+      "url": "https://voce.life/cours/former-les-juniors",
+      "article_characters_including_extras": 12767,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-007",
+      "url": "https://voce.life/cours/quand-utiliser-assistance",
+      "article_characters_including_extras": 12561,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-008",
+      "url": "https://voce.life/cours/supervision-humaine",
+      "article_characters_including_extras": 11830,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-009",
+      "url": "https://voce.life/cours/reprendre-sans-outil",
+      "article_characters_including_extras": 12063,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-010",
+      "url": "https://voce.life/cours/remplacer-fournisseur",
+      "article_characters_including_extras": 11841,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-011",
+      "url": "https://voce.life/cours/tsinghua-agibot-robot-production",
+      "article_characters_including_extras": 12002,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-012",
+      "url": "https://voce.life/cours/shanghai-jiao-tong-architecture-electrique",
+      "article_characters_including_extras": 12016,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-013",
+      "url": "https://voce.life/cours/tsinghua-agibot-donnees-robot",
+      "article_characters_including_extras": 11912,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-014",
+      "url": "https://voce.life/cours/shanghai-jiao-tong-gestion-thermique",
+      "article_characters_including_extras": 12089,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-015",
+      "url": "https://voce.life/cours/tsinghua-icenter-environnement-robot",
+      "article_characters_including_extras": 11951,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-016",
+      "url": "https://voce.life/cours/tsinghua-materiaux-production-conforme",
+      "article_characters_including_extras": 12118,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-017",
+      "url": "https://voce.life/cours/voce-ai-017",
+      "article_characters_including_extras": 10043,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-018",
+      "url": "https://voce.life/cours/voce-ai-018",
+      "article_characters_including_extras": 9939,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-019",
+      "url": "https://voce.life/cours/voce-ai-019",
+      "article_characters_including_extras": 9930,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-020",
+      "url": "https://voce.life/cours/voce-ai-020",
+      "article_characters_including_extras": 9970,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-021",
+      "url": "https://voce.life/cours/voce-ai-021",
+      "article_characters_including_extras": 9928,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-022",
+      "url": "https://voce.life/cours/voce-ai-022",
+      "article_characters_including_extras": 9944,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-023",
+      "url": "https://voce.life/cours/voce-ai-023",
+      "article_characters_including_extras": 9998,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-024",
+      "url": "https://voce.life/cours/voce-ai-024",
+      "article_characters_including_extras": 9967,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-025",
+      "url": "https://voce.life/cours/voce-ai-025",
+      "article_characters_including_extras": 10222,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-026",
+      "url": "https://voce.life/cours/voce-ai-026",
+      "article_characters_including_extras": 10075,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-027",
+      "url": "https://voce.life/cours/voce-ai-027",
+      "article_characters_including_extras": 9933,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-028",
+      "url": "https://voce.life/cours/voce-ai-028",
+      "article_characters_including_extras": 9753,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-029",
+      "url": "https://voce.life/cours/voce-ai-029",
+      "article_characters_including_extras": 10171,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-030",
+      "url": "https://voce.life/cours/voce-ai-030",
+      "article_characters_including_extras": 9758,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-031",
+      "url": "https://voce.life/cours/voce-ai-031",
+      "article_characters_including_extras": 9770,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-032",
+      "url": "https://voce.life/cours/voce-ai-032",
+      "article_characters_including_extras": 9709,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-033",
+      "url": "https://voce.life/cours/voce-ai-033",
+      "article_characters_including_extras": 10300,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-034",
+      "url": "https://voce.life/cours/voce-ai-034",
+      "article_characters_including_extras": 9906,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-035",
+      "url": "https://voce.life/cours/voce-ai-035",
+      "article_characters_including_extras": 9734,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-036",
+      "url": "https://voce.life/cours/voce-ai-036",
+      "article_characters_including_extras": 9728,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-037",
+      "url": "https://voce.life/cours/voce-ai-037",
+      "article_characters_including_extras": 9691,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-038",
+      "url": "https://voce.life/cours/voce-ai-038",
+      "article_characters_including_extras": 10471,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-039",
+      "url": "https://voce.life/cours/voce-ai-039",
+      "article_characters_including_extras": 10184,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-040",
+      "url": "https://voce.life/cours/voce-ai-040",
+      "article_characters_including_extras": 10237,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-041",
+      "url": "https://voce.life/cours/voce-ai-041",
+      "article_characters_including_extras": 10054,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-042",
+      "url": "https://voce.life/cours/voce-ai-042",
+      "article_characters_including_extras": 9993,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-043",
+      "url": "https://voce.life/cours/voce-ai-043",
+      "article_characters_including_extras": 9684,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-044",
+      "url": "https://voce.life/cours/voce-ai-044",
+      "article_characters_including_extras": 10109,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-045",
+      "url": "https://voce.life/cours/voce-ai-045",
+      "article_characters_including_extras": 10014,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-046",
+      "url": "https://voce.life/cours/voce-ai-046",
+      "article_characters_including_extras": 10209,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-047",
+      "url": "https://voce.life/cours/voce-ai-047",
+      "article_characters_including_extras": 10260,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-048",
+      "url": "https://voce.life/cours/voce-ai-048",
+      "article_characters_including_extras": 10067,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-049",
+      "url": "https://voce.life/cours/voce-ai-049",
+      "article_characters_including_extras": 10155,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-050",
+      "url": "https://voce.life/cours/voce-ai-050",
+      "article_characters_including_extras": 10295,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-051",
+      "url": "https://voce.life/cours/voce-ai-051",
+      "article_characters_including_extras": 10349,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-052",
+      "url": "https://voce.life/cours/voce-ai-052",
+      "article_characters_including_extras": 10370,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-053",
+      "url": "https://voce.life/cours/voce-ai-053",
+      "article_characters_including_extras": 9992,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-054",
+      "url": "https://voce.life/cours/voce-ai-054",
+      "article_characters_including_extras": 10334,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-055",
+      "url": "https://voce.life/cours/voce-ai-055",
+      "article_characters_including_extras": 9955,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-056",
+      "url": "https://voce.life/cours/voce-ai-056",
+      "article_characters_including_extras": 9784,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-057",
+      "url": "https://voce.life/cours/voce-ai-057",
+      "article_characters_including_extras": 10127,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-058",
+      "url": "https://voce.life/cours/voce-ai-058",
+      "article_characters_including_extras": 10640,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-059",
+      "url": "https://voce.life/cours/voce-ai-059",
+      "article_characters_including_extras": 10107,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-AI-060",
+      "url": "https://voce.life/cours/voce-ai-060",
+      "article_characters_including_extras": 10350,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-001",
+      "url": "https://voce.life/cours/voce-art-001",
+      "article_characters_including_extras": 10612,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-002",
+      "url": "https://voce.life/cours/voce-art-002",
+      "article_characters_including_extras": 9823,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-003",
+      "url": "https://voce.life/cours/voce-art-003",
+      "article_characters_including_extras": 10093,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-004",
+      "url": "https://voce.life/cours/voce-art-004",
+      "article_characters_including_extras": 9783,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-005",
+      "url": "https://voce.life/cours/voce-art-005",
+      "article_characters_including_extras": 9766,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-006",
+      "url": "https://voce.life/cours/voce-art-006",
+      "article_characters_including_extras": 9891,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-007",
+      "url": "https://voce.life/cours/voce-art-007",
+      "article_characters_including_extras": 9791,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-008",
+      "url": "https://voce.life/cours/voce-art-008",
+      "article_characters_including_extras": 9758,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-009",
+      "url": "https://voce.life/cours/voce-art-009",
+      "article_characters_including_extras": 10220,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-010",
+      "url": "https://voce.life/cours/voce-art-010",
+      "article_characters_including_extras": 9579,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-011",
+      "url": "https://voce.life/cours/voce-art-011",
+      "article_characters_including_extras": 9594,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-012",
+      "url": "https://voce.life/cours/voce-art-012",
+      "article_characters_including_extras": 9908,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-013",
+      "url": "https://voce.life/cours/voce-art-013",
+      "article_characters_including_extras": 9944,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-014",
+      "url": "https://voce.life/cours/voce-art-014",
+      "article_characters_including_extras": 9647,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-015",
+      "url": "https://voce.life/cours/voce-art-015",
+      "article_characters_including_extras": 9729,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-016",
+      "url": "https://voce.life/cours/voce-art-016",
+      "article_characters_including_extras": 9535,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-017",
+      "url": "https://voce.life/cours/voce-art-017",
+      "article_characters_including_extras": 9489,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-018",
+      "url": "https://voce.life/cours/voce-art-018",
+      "article_characters_including_extras": 9616,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-019",
+      "url": "https://voce.life/cours/voce-art-019",
+      "article_characters_including_extras": 9934,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-020",
+      "url": "https://voce.life/cours/voce-art-020",
+      "article_characters_including_extras": 9730,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-021",
+      "url": "https://voce.life/cours/voce-art-021",
+      "article_characters_including_extras": 9481,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-022",
+      "url": "https://voce.life/cours/voce-art-022",
+      "article_characters_including_extras": 9937,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-023",
+      "url": "https://voce.life/cours/voce-art-023",
+      "article_characters_including_extras": 9862,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-024",
+      "url": "https://voce.life/cours/voce-art-024",
+      "article_characters_including_extras": 10096,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-025",
+      "url": "https://voce.life/cours/voce-art-025",
+      "article_characters_including_extras": 10102,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-026",
+      "url": "https://voce.life/cours/voce-art-026",
+      "article_characters_including_extras": 10290,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-027",
+      "url": "https://voce.life/cours/voce-art-027",
+      "article_characters_including_extras": 10227,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-028",
+      "url": "https://voce.life/cours/voce-art-028",
+      "article_characters_including_extras": 9981,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-029",
+      "url": "https://voce.life/cours/voce-art-029",
+      "article_characters_including_extras": 9665,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-ART-030",
+      "url": "https://voce.life/cours/voce-art-030",
+      "article_characters_including_extras": 10339,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-001",
+      "url": "https://voce.life/cours/voce-cog-001",
+      "article_characters_including_extras": 9860,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-002",
+      "url": "https://voce.life/cours/voce-cog-002",
+      "article_characters_including_extras": 9731,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-003",
+      "url": "https://voce.life/cours/voce-cog-003",
+      "article_characters_including_extras": 9878,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-004",
+      "url": "https://voce.life/cours/voce-cog-004",
+      "article_characters_including_extras": 9650,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-005",
+      "url": "https://voce.life/cours/voce-cog-005",
+      "article_characters_including_extras": 9705,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-006",
+      "url": "https://voce.life/cours/voce-cog-006",
+      "article_characters_including_extras": 9604,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-007",
+      "url": "https://voce.life/cours/voce-cog-007",
+      "article_characters_including_extras": 9655,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-008",
+      "url": "https://voce.life/cours/voce-cog-008",
+      "article_characters_including_extras": 9900,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-009",
+      "url": "https://voce.life/cours/voce-cog-009",
+      "article_characters_including_extras": 9851,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-010",
+      "url": "https://voce.life/cours/voce-cog-010",
+      "article_characters_including_extras": 9939,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-011",
+      "url": "https://voce.life/cours/voce-cog-011",
+      "article_characters_including_extras": 10711,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-012",
+      "url": "https://voce.life/cours/voce-cog-012",
+      "article_characters_including_extras": 10177,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-013",
+      "url": "https://voce.life/cours/voce-cog-013",
+      "article_characters_including_extras": 9623,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-014",
+      "url": "https://voce.life/cours/voce-cog-014",
+      "article_characters_including_extras": 9481,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-015",
+      "url": "https://voce.life/cours/voce-cog-015",
+      "article_characters_including_extras": 9579,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-016",
+      "url": "https://voce.life/cours/voce-cog-016",
+      "article_characters_including_extras": 10081,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-017",
+      "url": "https://voce.life/cours/voce-cog-017",
+      "article_characters_including_extras": 10010,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-018",
+      "url": "https://voce.life/cours/voce-cog-018",
+      "article_characters_including_extras": 10067,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-019",
+      "url": "https://voce.life/cours/voce-cog-019",
+      "article_characters_including_extras": 9984,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-020",
+      "url": "https://voce.life/cours/voce-cog-020",
+      "article_characters_including_extras": 9609,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-021",
+      "url": "https://voce.life/cours/voce-cog-021",
+      "article_characters_including_extras": 9641,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-022",
+      "url": "https://voce.life/cours/voce-cog-022",
+      "article_characters_including_extras": 9905,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-023",
+      "url": "https://voce.life/cours/voce-cog-023",
+      "article_characters_including_extras": 9631,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-024",
+      "url": "https://voce.life/cours/voce-cog-024",
+      "article_characters_including_extras": 9754,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-025",
+      "url": "https://voce.life/cours/voce-cog-025",
+      "article_characters_including_extras": 9517,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-026",
+      "url": "https://voce.life/cours/voce-cog-026",
+      "article_characters_including_extras": 9991,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-027",
+      "url": "https://voce.life/cours/voce-cog-027",
+      "article_characters_including_extras": 9865,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-028",
+      "url": "https://voce.life/cours/voce-cog-028",
+      "article_characters_including_extras": 9861,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-029",
+      "url": "https://voce.life/cours/voce-cog-029",
+      "article_characters_including_extras": 9956,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    },
+    {
+      "id": "VOCE-COG-030",
+      "url": "https://voce.life/cours/voce-cog-030",
+      "article_characters_including_extras": 10051,
+      "marked_lesson_characters": null,
+      "status": "below_minimum_even_with_extras"
+    }
+  ]
+}
