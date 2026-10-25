@@ -8392,6 +8392,21 @@
         "VOCE-COG-011",
         "VOCE-COG-012"
       ]
+    },
+    {
+      "id": "CEPEDA2008-COG012",
+      "title": "Cepeda et al. — Spacing Effects in Learning: A Temporal Ridgeline of Optimal Retention",
+      "version": "2008; DOI 10.1111/j.1467-9280.2008.02209.x",
+      "nature": "original research",
+      "url": "https://www.yorku.ca/ncepeda/publications/CVRWP2008.pdf",
+      "verification_date": "2026-10-25",
+      "verification_scope": "Targeted method, table1, results and discussion; no empirical reanalysis or expert validation",
+      "applicability": "Joint variation of study gap and final-test delay; no universal professional spacing schedule",
+      "full_text_review": "PARTIEL",
+      "course_ids": [
+        "VOCE-COG-012"
+      ],
+      "license_note": "Original VOCE analysis; third-party work attributed and not reproduced in full"
     }
   ],
   "discovery_policy": {
