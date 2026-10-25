@@ -3,7 +3,7 @@
   "updated_on": "2026-10-25",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "45870a49888af3b6b040cc7db92629312ccdcd62",
+  "base_head_read": "1a272d463903707ac211e0cb52dcb076df223759",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -37,24 +37,25 @@
     "title": "Qui donne ses droits à un agent?",
     "status": "partial_source_only_not_for_publication",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-002/03-approbation-version-transaction.html",
+      "content/courses/engineering/VOCE-AI-002/04-politiques-objets-relations.html",
+      "content/courses/engineering/VOCE-AI-002/policy_model.py",
+      "content/courses/engineering/VOCE-AI-002/test_policy_model.py",
       "content/courses/engineering/VOCE-AI-002/course.json",
       "content/courses/engineering/VOCE-AI-002/render.py",
       "content/courses/engineering/VOCE-AI-002/references.html",
-      "content/courses/engineering/VOCE-AI-002/check_draft.py",
       "content/courses/engineering/VOCE-AI-002/checks-2026-10-25.json",
       "docs/education/rewrite-progress.json"
     ],
-    "lesson_characters": 46122,
+    "lesson_characters": 66501,
     "minimum_lesson_characters": 75000,
     "measurement": "Counter de scripts/audit-course-volume.py ; concaténation ordonnée des chapitres dans article ; texte des seuls blocs lesson, espaces normalisés ; aucun texte de la page historique ajouté",
     "chapters_written": [
       "01-calcul-autorite.html",
       "02-delegation-services.html",
-      "03-approbation-version-transaction.html"
+      "03-approbation-version-transaction.html",
+      "04-politiques-objets-relations.html"
     ],
     "chapters_remaining": [
-      "04-politiques-objets-relations : rôles, attributs et relations, cloisonnement multi-organisation et recherche",
       "05-revocation-distribuee : délais, caches, files et choix de cohérence",
       "06-outils-et-injection : frontières de confiance, restrictions des outils, données hostiles et contrôle des effets",
       "07-preuves-et-exploitation : traces minimales, modes dégradés, délégations d'urgence et revue de droits",
@@ -103,6 +104,21 @@
           "13.2.1"
         ],
         "consulted_on": "2026-10-25"
+      },
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/162/upd2/final",
+        "scope": "notice et résumé ABAC seulement",
+        "consulted_on": "2026-10-25"
+      },
+      {
+        "url": "https://www.postgresql.org/docs/18/ddl-rowsecurity.html",
+        "scope": "5.9, exceptions RLS et combinaison des politiques",
+        "consulted_on": "2026-10-25"
+      },
+      {
+        "url": "https://openfga.dev/docs/modeling/parent-child",
+        "scope": "introduction héritage parent-enfant",
+        "consulted_on": "2026-10-25"
       }
     ],
     "checks_executed": {
@@ -122,13 +138,19 @@
       ]
     },
     "limits": [
-      "Cours incomplet : 46 122 caractères, seuil non atteint",
-      "Laboratoire complet, exercices et corrigés non écrits",
+      "Cours incomplet : 66 501 caractères, seuil non atteint",
+      "Modèle de politique partiel testé ; laboratoire transactionnel complet, exercices et corrigés encore à écrire",
       "Relecture indépendante et contrôle visuel non réalisés",
       "Rendu de prévisualisation uniquement ; aucun changement de la page historique ni du catalogue",
       "Détection des répétitions limitée aux paragraphes identiques et aux sources AI-001 core/engineering ; ne prouve pas la qualité pédagogique"
     ],
-    "next_action": "Rédiger 04-politiques-objets-relations.html : comparer RBAC, ABAC et relations sur le cas financier, enseigner isolation organisationnelle, chemins de recherche et autorisation des objets ; consulter les sources primaires ; ajouter au rendu, contrôler puis sauvegarder. Ensuite chapitres 05 à 08, laboratoire, exercices et corrigés. Ne pas commencer AI-003.",
-    "batch_new_lesson_characters": 18774
+    "next_action": "Rédiger 05-revocation-distribuee.html : révocation des délégations et relations, caches, délais bornés, files, contrôle à admission et envoi, compromis de cohérence ; consulter sources primaires puis mesurer et sauvegarder. Ensuite chapitres 06 à 08 et laboratoire complet. Ne pas déclarer le cours prêt au seul franchissement de 75 000 caractères.",
+    "batch_new_lesson_characters": 20379,
+    "policy_model_checks": {
+      "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-002 -p test_policy_model.py -v",
+      "result": "6 tests passed",
+      "matrix_cases": 256,
+      "scope": "Modèle en mémoire : périmètre, habilitations, relations, résolution identifiants et recherche ; aucune intégration PostgreSQL ou OpenFGA"
+    }
   }
 }
