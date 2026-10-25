@@ -15,8 +15,8 @@
         "OWASP",
         "STRIPEIDEM"
       ],
-      "version": "0.5.1",
-      "review_status": "PUBLIC_RENDER_AND_VOLUME_CHECKED / INDEPENDENT_REVIEW_NOT_PERFORMED",
+      "version": "0.6.0",
+      "review_status": "VOLUME_AND_LOCAL_LAB_CHECKED / INDEPENDENT_REVIEW_NOT_PERFORMED",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
       "url": "https://voce.life/cours/modele-et-systeme",
@@ -40,12 +40,12 @@
       },
       "date_modified": "2026-10-25",
       "planned_learning_minutes": {
-        "min": 210,
-        "max": 210,
-        "basis": "Pedagogical estimate for full new reader and activities; not measured with learners"
+        "min": 360,
+        "max": 480,
+        "basis": "Pedagogical estimate; not measured with learners"
       },
       "assessment_id": "VOCE-AI-001-CASE-20261018",
-      "content_source": "content/courses/ai-workshops.txt",
+      "content_source": "content/courses/engineering/VOCE-AI-001",
       "history": [
         {
           "version": "0.3.0",
@@ -72,7 +72,7 @@
         "it": "under_reconstruction"
       },
       "listed_in_active_catalogue": true,
-      "eligible_pedagogical_characters": 75696,
+      "eligible_pedagogical_characters": 91018,
       "minimum_pedagogical_characters": 75000
     },
     {

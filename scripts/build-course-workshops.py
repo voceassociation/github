@@ -2,6 +2,9 @@
 from pathlib import Path
 import json,re,html,hashlib
 R=Path(__file__).resolve().parents[1]
+# Hand-authored long editions must never be overwritten by the historical capsule renderer.
+if (R/'content/courses/engineering/manifest.json').exists():
+ raise SystemExit('Stopped before writes: engineered editions exist. Use scripts/build-engineering-course.py for VOCE-AI-001; migrate other courses explicitly. The legacy 0.4 renderer would overwrite reviewed content.')
 E=html.escape
 registry=json.loads((R/'data/voce-vclf-public.json').read_text())
 units={}

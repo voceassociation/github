@@ -1,0 +1,10 @@
+{
+  "courses": {
+    "VOCE-AI-001": {
+      "route": "cours/modele-et-systeme.html",
+      "source": "content/courses/engineering/VOCE-AI-001",
+      "version": "0.6.0",
+      "review": "engineering revision; independent review pending"
+    }
+  }
+}
