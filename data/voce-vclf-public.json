@@ -5530,7 +5530,7 @@
         "CEPEDA2008-COG012",
         "RETRIEVAL25"
       ],
-      "version": "0.5.0",
+      "version": "0.5.1",
       "review_status": "PUBLIC_RENDER_AND_VOLUME_CHECKED / INDEPENDENT_REVIEW_NOT_PERFORMED",
       "source_date": "2026-10-17",
       "author": "VOCE Association, rédaction avec assistance IA",
@@ -5571,6 +5571,11 @@
           "version": "0.5.0",
           "date": "2026-10-25",
           "change": "Full reconstruction, two corrected fictional cases, verified public text"
+        },
+        {
+          "version": "0.5.1",
+          "date": "2026-10-25",
+          "change": "Use established VOCE heading typography; eligible pedagogical body unchanged; rendered version rechecked"
         }
       ],
       "depth_source": "content/courses/cog-depth.txt",
