@@ -1,5 +1,5 @@
 {
-  "version": "0.5.0",
+  "version": "0.5.1",
   "publication_date": "2026-10-17",
   "courses": [
     {
@@ -72,7 +72,8 @@
         "it": "under_reconstruction"
       },
       "listed_in_active_catalogue": true,
-      "eligible_pedagogical_characters": 75696
+      "eligible_pedagogical_characters": 75696,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-002",
@@ -87,14 +88,14 @@
         "OWASP"
       ],
       "version": "0.5.1",
-      "review_status": "PUBLIC_RENDER_AND_VOLUME_CHECKED / INDEPENDENT_REVIEW_NOT_PERFORMED",
+      "review_status": "LATEST_TECHNICAL_75000_GATE_NOT_MET",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
       "url": "https://voce.life/cours/permissions-agent",
-      "publication_status": "PUBLIC_FULL_READER_VERIFIED",
+      "publication_status": "PUBLIC_REWRITTEN_READER_REQUIRES_TECHNICAL_THRESHOLD_EXTENSION",
       "independent_expert_validated": false,
       "resource_type": "developed_written_course",
-      "seo_description": "Définir une matrice de droits testable. Cours approfondi en français, cas et transfert corrigés ; relecture indépendante non réalisée.",
+      "seo_description": "Version réécrite accessible; approfondissement requis pour le nouveau plancher technique de 75 000 caractères. Promotion suspendue.",
       "indexing_policy": {
         "eligible": true,
         "robots": "index,follow",
@@ -138,12 +139,13 @@
       "learner_pilot": "not_performed",
       "social_release_authorized": false,
       "language_revision_status": {
-        "fr": "public_full_reader_verified",
+        "fr": "substantive_extension_required_75000",
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": true,
-      "eligible_pedagogical_characters": 62816
+      "listed_in_active_catalogue": false,
+      "eligible_pedagogical_characters": 62816,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-003",
@@ -158,14 +160,14 @@
         "OWASP"
       ],
       "version": "0.5.0",
-      "review_status": "PUBLIC_RENDER_AND_VOLUME_CHECKED / INDEPENDENT_REVIEW_NOT_PERFORMED",
+      "review_status": "LATEST_TECHNICAL_75000_GATE_NOT_MET",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
       "url": "https://voce.life/cours/preuves-controle",
-      "publication_status": "PUBLIC_FULL_READER_VERIFIED",
+      "publication_status": "PUBLIC_REWRITTEN_READER_REQUIRES_TECHNICAL_THRESHOLD_EXTENSION",
       "independent_expert_validated": false,
       "resource_type": "developed_written_course",
-      "seo_description": "Relier un contrôle à une preuve observée. Cours approfondi en français, cas et transfert corrigés ; relecture indépendante non réalisée.",
+      "seo_description": "Version réécrite accessible; approfondissement requis pour le nouveau plancher technique de 75 000 caractères. Promotion suspendue.",
       "indexing_policy": {
         "eligible": true,
         "robots": "index,follow",
@@ -209,12 +211,13 @@
       "learner_pilot": "not_performed",
       "social_release_authorized": false,
       "language_revision_status": {
-        "fr": "public_full_reader_verified",
+        "fr": "substantive_extension_required_75000",
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": true,
-      "eligible_pedagogical_characters": 73678
+      "listed_in_active_catalogue": false,
+      "eligible_pedagogical_characters": 73678,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-004",
@@ -5524,27 +5527,33 @@
       "objective": "Planifier un apprentissage distribué",
       "competence_id": "VCLF-COG-COG012",
       "references": [
-        "SPACING",
+        "CEPEDA2008-COG012",
         "RETRIEVAL25"
       ],
-      "version": "0.4.0",
-      "review_status": "OLD_VERSION_NOT_A_COMPLETE_COURSE",
+      "version": "0.5.0",
+      "review_status": "PUBLIC_RENDER_AND_VOLUME_CHECKED / INDEPENDENT_REVIEW_NOT_PERFORMED",
       "source_date": "2026-10-17",
-      "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
+      "author": "VOCE Association, rédaction avec assistance IA",
       "url": "https://voce.life/cours/voce-cog-012",
-      "publication_status": "UNDER_SUBSTANTIVE_RECONSTRUCTION",
+      "publication_status": "PUBLIC_FULL_READER_VERIFIED",
       "independent_expert_validated": false,
-      "resource_type": "historical_resource_under_reconstruction",
-      "seo_description": "Planifier un apprentissage distribué. Sujet en reconstruction ; ancienne version exclue du catalogue actif des cours complets.",
+      "resource_type": "developed_written_course",
+      "seo_description": "Concevoir un apprentissage distribué : calendriers, mesure différée, deux cas corrigés, absences et assistance IA. Cours approfondi gratuit.",
       "indexing_policy": {
-        "eligible": false,
-        "robots": "noindex,follow",
-        "reason": "introductory_capsule_in_development",
-        "status_note": "Historical policy retained; no robots, canonical or sitemap change performed by this catalogue update."
+        "eligible": true,
+        "robots": "index,follow,max-image-preview:large",
+        "reason": "full_new_reader_publicly_verified",
+        "status_note": "No effective indexing asserted; sitemap not checked."
       },
-      "available_languages": [],
+      "available_languages": [
+        "fr"
+      ],
       "date_modified": "2026-10-25",
-      "planned_learning_minutes": null,
+      "planned_learning_minutes": {
+        "min": 180,
+        "max": 180,
+        "basis": "Estimate, no learner pilot"
+      },
       "assessment_id": "VOCE-COG-012-CASE-20261018",
       "content_source": "content/courses/cog-workshops.txt",
       "history": [
@@ -5557,6 +5566,11 @@
           "version": "0.4.0",
           "date": "2026-10-18",
           "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
+        },
+        {
+          "version": "0.5.0",
+          "date": "2026-10-25",
+          "change": "Full reconstruction, two corrected fictional cases, verified public text"
         }
       ],
       "depth_source": "content/courses/cog-depth.txt",
@@ -5566,9 +5580,12 @@
       "learner_pilot": "not_performed",
       "social_release_authorized": false,
       "language_revision_status": {
-        "fr": "under_reconstruction"
+        "fr": "public_full_reader_verified"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": true,
+      "eligible_pedagogical_characters": 67159,
+      "minimum_pedagogical_characters": 60000,
+      "content_hash": "8d2c84a034cc843db81cdc78fe409245bad7f7edeccf3277d24e34040fae89fd"
     },
     {
       "id": "VOCE-COG-013",
@@ -8387,13 +8404,13 @@
   "active_catalogue": {
     "course_ids": [
       "VOCE-AI-001",
-      "VOCE-AI-002",
-      "VOCE-AI-003",
-      "VOCE-NP-002"
+      "VOCE-NP-002",
+      "VOCE-COG-012"
     ],
     "full_text_languages": [
       "fr"
     ],
-    "additional_course_note": "VOCE-NP-002 is a distinct additional course at https://voce.life/cours/voce-np-002; not equivalent to historical VOCE-COG-011."
+    "additional_course_note": "VOCE-NP-002 is a distinct additional course at https://voce.life/cours/voce-np-002; not equivalent to historical VOCE-COG-011.",
+    "technical_threshold_note": "25 October clarification: 75000 eligible characters for all technical courses. AI002 and AI003 remain public rewritten drafts awaiting substantive extension and are excluded from active catalogue."
   }
 }
