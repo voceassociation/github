@@ -1,5 +1,5 @@
 {
-  "version": "0.5.1",
+  "version": "0.5.2",
   "publication_date": "2026-10-17",
   "courses": [
     {
@@ -157,17 +157,21 @@
         "VOCE16",
         "NIST",
         "NISTGEN",
-        "OWASP"
+        "OWASP",
+        "BERKELEY-AGENTS-SP25-AI003",
+        "STANFORD-CS329A-AU25-AI003",
+        "SJTU-20251010-AI003",
+        "ZJU-20250929-AI003"
       ],
-      "version": "0.5.0",
-      "review_status": "LATEST_TECHNICAL_75000_GATE_NOT_MET",
+      "version": "0.5.1",
+      "review_status": "PUBLIC_RENDER_VOLUME_CHECKED; MOBILE_VISUAL_PENDING; INDEPENDENT_REVIEW_NOT_PERFORMED",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
       "url": "https://voce.life/cours/preuves-controle",
-      "publication_status": "PUBLIC_REWRITTEN_READER_REQUIRES_TECHNICAL_THRESHOLD_EXTENSION",
+      "publication_status": "PUBLIC_REWRITTEN_READER_VERIFIED",
       "independent_expert_validated": false,
       "resource_type": "developed_written_course",
-      "seo_description": "Version réécrite accessible; approfondissement requis pour le nouveau plancher technique de 75 000 caractères. Promotion suspendue.",
+      "seo_description": "Preuves de contrôle, réception et fiabilité du vérificateur: cas complets et corrigés.225minutes estimées; relecture indépendante non réalisée.",
       "indexing_policy": {
         "eligible": true,
         "robots": "index,follow",
@@ -184,9 +188,9 @@
       },
       "date_modified": "2026-10-25",
       "planned_learning_minutes": {
-        "min": 195,
-        "max": 195,
-        "basis": "Pedagogical estimate for full new reader and activities; not measured with learners"
+        "min": 225,
+        "max": 225,
+        "basis": "Pedagogical estimate; no learner pilot"
       },
       "assessment_id": "VOCE-AI-003-CASE-20261018",
       "content_source": "content/courses/ai-workshops.txt",
@@ -200,6 +204,11 @@
           "version": "0.4.0",
           "date": "2026-10-18",
           "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
+        },
+        {
+          "version": "0.5.1",
+          "date": "2026-10-25",
+          "change": "Substantive verifier extension and scoped international mappings; universal75000minimum"
         }
       ],
       "depth_source": "content/courses/ai-depth.txt",
@@ -211,13 +220,14 @@
       "learner_pilot": "not_performed",
       "social_release_authorized": false,
       "language_revision_status": {
-        "fr": "substantive_extension_required_75000",
+        "fr": "public_reader_verified_mobile_visual_pending",
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false,
-      "eligible_pedagogical_characters": 73678,
-      "minimum_pedagogical_characters": 75000
+      "listed_in_active_catalogue": true,
+      "eligible_pedagogical_characters": 82019,
+      "minimum_pedagogical_characters": 75000,
+      "content_hash": "e073480f1e4993792eeba72bb37f01f8f6a645f579cabea523f0fc2c65ff3078"
     },
     {
       "id": "VOCE-AI-004",
@@ -281,7 +291,8 @@
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-005",
@@ -345,7 +356,8 @@
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-006",
@@ -410,7 +422,8 @@
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-007",
@@ -475,7 +488,8 @@
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-008",
@@ -539,7 +553,8 @@
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-009",
@@ -603,7 +618,8 @@
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-010",
@@ -667,7 +683,8 @@
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-011",
@@ -730,7 +747,8 @@
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-012",
@@ -794,7 +812,8 @@
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-013",
@@ -858,7 +877,8 @@
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-014",
@@ -922,7 +942,8 @@
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-015",
@@ -986,7 +1007,8 @@
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-016",
@@ -1050,7 +1072,8 @@
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-017",
@@ -1102,7 +1125,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-018",
@@ -1154,7 +1178,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-019",
@@ -1206,7 +1231,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-020",
@@ -1258,7 +1284,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-021",
@@ -1310,7 +1337,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-022",
@@ -1362,7 +1390,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-023",
@@ -1414,7 +1443,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-024",
@@ -1466,7 +1496,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-025",
@@ -1519,7 +1550,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-026",
@@ -1572,7 +1604,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-027",
@@ -1624,7 +1657,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-028",
@@ -1676,7 +1710,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-029",
@@ -1729,7 +1764,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-030",
@@ -1781,7 +1817,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-031",
@@ -1833,7 +1870,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-032",
@@ -1885,7 +1923,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-033",
@@ -1938,7 +1977,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-034",
@@ -1990,7 +2030,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-035",
@@ -2042,7 +2083,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-036",
@@ -2094,7 +2136,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-037",
@@ -2146,7 +2189,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-038",
@@ -2199,7 +2243,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-039",
@@ -2252,7 +2297,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-040",
@@ -2305,7 +2351,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-041",
@@ -2358,7 +2405,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-042",
@@ -2410,7 +2458,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-043",
@@ -2462,7 +2511,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-044",
@@ -2515,7 +2565,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-045",
@@ -2568,7 +2619,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-046",
@@ -2621,7 +2673,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-047",
@@ -2674,7 +2727,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-048",
@@ -2727,7 +2781,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-049",
@@ -2780,7 +2835,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-050",
@@ -2833,7 +2889,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-051",
@@ -2887,7 +2944,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-052",
@@ -2940,7 +2998,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-053",
@@ -2993,7 +3052,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-054",
@@ -3046,7 +3106,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-055",
@@ -3099,7 +3160,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-056",
@@ -3151,7 +3213,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-057",
@@ -3204,7 +3267,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-058",
@@ -3258,7 +3322,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-059",
@@ -3311,7 +3376,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-AI-060",
@@ -3364,7 +3430,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-001",
@@ -3418,7 +3485,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-002",
@@ -3470,7 +3538,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-003",
@@ -3523,7 +3592,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-004",
@@ -3575,7 +3645,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-005",
@@ -3627,7 +3698,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-006",
@@ -3679,7 +3751,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-007",
@@ -3731,7 +3804,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-008",
@@ -3783,7 +3857,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-009",
@@ -3836,7 +3911,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-010",
@@ -3888,7 +3964,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-011",
@@ -3940,7 +4017,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-012",
@@ -3993,7 +4071,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-013",
@@ -4046,7 +4125,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-014",
@@ -4098,7 +4178,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-015",
@@ -4150,7 +4231,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-016",
@@ -4202,7 +4284,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-017",
@@ -4254,7 +4337,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-018",
@@ -4306,7 +4390,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-019",
@@ -4359,7 +4444,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-020",
@@ -4412,7 +4498,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-021",
@@ -4464,7 +4551,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-022",
@@ -4517,7 +4605,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-023",
@@ -4570,7 +4659,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-024",
@@ -4623,7 +4713,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-025",
@@ -4676,7 +4767,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-026",
@@ -4730,7 +4822,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-027",
@@ -4784,7 +4877,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-028",
@@ -4837,7 +4931,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-029",
@@ -4889,7 +4984,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-ART-030",
@@ -4943,7 +5039,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-001",
@@ -4995,7 +5092,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-002",
@@ -5047,7 +5145,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-003",
@@ -5099,7 +5198,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-004",
@@ -5151,7 +5251,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-005",
@@ -5203,7 +5304,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-006",
@@ -5255,7 +5357,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-007",
@@ -5307,7 +5410,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-008",
@@ -5359,7 +5463,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-009",
@@ -5411,7 +5516,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-010",
@@ -5464,7 +5570,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-011",
@@ -5518,7 +5625,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-012",
@@ -5531,11 +5639,11 @@
         "RETRIEVAL25"
       ],
       "version": "0.5.1",
-      "review_status": "PUBLIC_RENDER_AND_VOLUME_CHECKED / INDEPENDENT_REVIEW_NOT_PERFORMED",
+      "review_status": "NEW_UNIVERSAL_75000_GATE_NOT_MET",
       "source_date": "2026-10-17",
       "author": "VOCE Association, rédaction avec assistance IA",
       "url": "https://voce.life/cours/voce-cog-012",
-      "publication_status": "PUBLIC_FULL_READER_VERIFIED",
+      "publication_status": "PUBLIC_REWRITTEN_READER_REQUIRES_EXTENSION_TO_UNIVERSAL_75000",
       "independent_expert_validated": false,
       "resource_type": "developed_written_course",
       "seo_description": "Concevoir un apprentissage distribué : calendriers, mesure différée, deux cas corrigés, absences et assistance IA. Cours approfondi gratuit.",
@@ -5585,11 +5693,11 @@
       "learner_pilot": "not_performed",
       "social_release_authorized": false,
       "language_revision_status": {
-        "fr": "public_full_reader_verified"
+        "fr": "substantive_extension_required_75000"
       },
-      "listed_in_active_catalogue": true,
+      "listed_in_active_catalogue": false,
       "eligible_pedagogical_characters": 67159,
-      "minimum_pedagogical_characters": 60000,
+      "minimum_pedagogical_characters": 75000,
       "content_hash": "8d2c84a034cc843db81cdc78fe409245bad7f7edeccf3277d24e34040fae89fd"
     },
     {
@@ -5642,7 +5750,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-014",
@@ -5694,7 +5803,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-015",
@@ -5746,7 +5856,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-016",
@@ -5799,7 +5910,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-017",
@@ -5852,7 +5964,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-018",
@@ -5905,7 +6018,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-019",
@@ -5958,7 +6072,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-020",
@@ -6010,7 +6125,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-021",
@@ -6062,7 +6178,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-022",
@@ -6115,7 +6232,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-023",
@@ -6167,7 +6285,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-024",
@@ -6219,7 +6338,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-025",
@@ -6271,7 +6391,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-026",
@@ -6324,7 +6445,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-027",
@@ -6377,7 +6499,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-028",
@@ -6430,7 +6553,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-029",
@@ -6483,7 +6607,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     },
     {
       "id": "VOCE-COG-030",
@@ -6536,7 +6661,8 @@
       "language_revision_status": {
         "fr": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false
+      "listed_in_active_catalogue": false,
+      "minimum_pedagogical_characters": 75000
     }
   ],
   "references": [
@@ -8412,6 +8538,62 @@
         "VOCE-COG-012"
       ],
       "license_note": "Original VOCE analysis; third-party work attributed and not reproduced in full"
+    },
+    {
+      "id": "BERKELEY-AGENTS-SP25-AI003",
+      "title": "CS294/194-280 Advanced Large Language Model Agents",
+      "institution": "UC Berkeley RDI",
+      "version": "Spring2025",
+      "url": "https://rdi.berkeley.edu/adv-llm-agents/sp25",
+      "nature": "institutional course or announcement, not effectiveness trial",
+      "verification_date": "2026-10-25",
+      "verification_scope": "description and syllabus, security session28April; no protected slides reproduced",
+      "course_ids": [
+        "VOCE-AI-003"
+      ],
+      "official_equivalence": false
+    },
+    {
+      "id": "STANFORD-CS329A-AU25-AI003",
+      "title": "CS329A Self-Improving AI Agents",
+      "institution": "Stanford",
+      "version": "Autumn2025",
+      "url": "https://cs329a.stanford.edu/",
+      "nature": "institutional course or announcement, not effectiveness trial",
+      "verification_date": "2026-10-25",
+      "verification_scope": "overview, Robust Verification29September and assessment; linked papers not all read",
+      "course_ids": [
+        "VOCE-AI-003"
+      ],
+      "official_equivalence": false
+    },
+    {
+      "id": "SJTU-20251010-AI003",
+      "title": "Embodied intelligence edge/cloud training announcement",
+      "institution": "Shanghai Jiao Tong",
+      "version": "2025-10-10",
+      "url": "https://news.sjtu.edu.cn/jdyw/20251010/215075.html",
+      "nature": "institutional course or announcement, not effectiveness trial",
+      "verification_date": "2026-10-25",
+      "verification_scope": "institutional announcement text; not detailed syllabus",
+      "course_ids": [
+        "VOCE-AI-003"
+      ],
+      "official_equivalence": false
+    },
+    {
+      "id": "ZJU-20250929-AI003",
+      "title": "AI training resources and practical platform",
+      "institution": "Zhejiang University",
+      "version": "displayed2025-09-29",
+      "url": "https://ai.zju.edu.cn/2026/0112/c89504a3127571/page.htm",
+      "nature": "institutional course or announcement, not effectiveness trial",
+      "verification_date": "2026-10-25",
+      "verification_scope": "resources, project support and automated assessment sections; platform not used",
+      "course_ids": [
+        "VOCE-AI-003"
+      ],
+      "official_equivalence": false
     }
   ],
   "discovery_policy": {
@@ -8424,13 +8606,32 @@
   "active_catalogue": {
     "course_ids": [
       "VOCE-AI-001",
-      "VOCE-NP-002",
-      "VOCE-COG-012"
+      "VOCE-AI-003"
     ],
     "full_text_languages": [
       "fr"
     ],
     "additional_course_note": "VOCE-NP-002 is a distinct additional course at https://voce.life/cours/voce-np-002; not equivalent to historical VOCE-COG-011.",
-    "technical_threshold_note": "25 October clarification: 75000 eligible characters for all technical courses. AI002 and AI003 remain public rewritten drafts awaiting substantive extension and are excluded from active catalogue."
-  }
+    "technical_threshold_note": "Superseded: universal75000 eligible pedagogical characters per course and per language, all disciplines, Giovanni mandate25October2026.",
+    "minimum_eligible_characters": 75000
+  },
+  "additional_courses": [
+    {
+      "id": "VOCE-NP-002",
+      "title": "Rappel actif : concevoir une évaluation qui résiste au délai",
+      "url": "https://voce.life/cours/voce-np-002",
+      "version": "1.1.1",
+      "languages": [
+        "fr"
+      ],
+      "eligible_pedagogical_characters": 69904,
+      "minimum_pedagogical_characters": 75000,
+      "publication_status": "PUBLIC_REWRITTEN_READER_REQUIRES_EXTENSION_TO_UNIVERSAL_75000",
+      "listed_in_active_catalogue": false,
+      "independent_expert_validated": false,
+      "learner_pilot": "not_performed",
+      "social_release_authorized": false,
+      "identity_note": "Additional distinct course, not equivalent to historicalCOG011"
+    }
+  ]
 }
