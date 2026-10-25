@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generated_at": "2026-10-23",
+  "generated_at": "2026-10-25",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
   "methodology": {
@@ -4443,6 +4443,22 @@
       "path": "/archive/2026/10/23/skild-ai-un-robot-apprend-une-tache-inconnue-avec-une-seule-video-7519382305212203009",
       "sectors": [
         "legal"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7520197689477799936",
+      "date": "2026-10-25",
+      "title": "Light workforce: chez Sanofi, trois jours deviennent cinq minutes",
+      "path": "/archive/2026/10/25/light-workforce-chez-sanofi-trois-jours-deviennent-cinq-minutes-7520197689477799936",
+      "sectors": [
+        "legal",
+        "hr",
+        "it"
       ],
       "themes": [
         "LI!GHT WORKFORCE ©",
