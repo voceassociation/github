@@ -1,5 +1,5 @@
 {
-  "version": "0.5.2",
+  "version": "0.5.3",
   "publication_date": "2026-10-17",
   "courses": [
     {
@@ -87,15 +87,15 @@
         "NISTGEN",
         "OWASP"
       ],
-      "version": "0.5.1",
-      "review_status": "LATEST_TECHNICAL_75000_GATE_NOT_MET",
+      "version": "0.5.2",
+      "review_status": "PUBLIC_RENDER_AND_VOLUME_CHECKED / INDEPENDENT_REVIEW_NOT_PERFORMED",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
       "url": "https://voce.life/cours/permissions-agent",
-      "publication_status": "PUBLIC_REWRITTEN_READER_REQUIRES_TECHNICAL_THRESHOLD_EXTENSION",
+      "publication_status": "PUBLIC_FULL_READER_VERIFIED",
       "independent_expert_validated": false,
       "resource_type": "developed_written_course",
-      "seo_description": "Version réécrite accessible; approfondissement requis pour le nouveau plancher technique de 75 000 caractères. Promotion suspendue.",
+      "seo_description": "Permissions, délégation entre services et réservations concurrentes. Trois cas fictifs corrigés;255minutes estimées;relecture indépendante non réalisée.",
       "indexing_policy": {
         "eligible": true,
         "robots": "index,follow",
@@ -112,9 +112,9 @@
       },
       "date_modified": "2026-10-25",
       "planned_learning_minutes": {
-        "min": 180,
-        "max": 180,
-        "basis": "Pedagogical estimate for full new reader and activities; not measured with learners"
+        "min": 255,
+        "max": 255,
+        "basis": "Pedagogical estimate; no learner pilot"
       },
       "assessment_id": "VOCE-AI-002-CASE-20261018",
       "content_source": "content/courses/ai-workshops.txt",
@@ -128,6 +128,11 @@
           "version": "0.4.0",
           "date": "2026-10-18",
           "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
+        },
+        {
+          "version": "0.5.2",
+          "date": "2026-10-25",
+          "change": "Three substantive chapters, reservation case and source comparisons; public NFC volume85683 verified; no social release yet"
         }
       ],
       "depth_source": "content/courses/ai-depth.txt",
@@ -139,13 +144,14 @@
       "learner_pilot": "not_performed",
       "social_release_authorized": false,
       "language_revision_status": {
-        "fr": "substantive_extension_required_75000",
+        "fr": "public_extended_reader_verified_mobile_media_pending",
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false,
-      "eligible_pedagogical_characters": 62816,
-      "minimum_pedagogical_characters": 75000
+      "listed_in_active_catalogue": true,
+      "eligible_pedagogical_characters": 85683,
+      "minimum_pedagogical_characters": 75000,
+      "content_hash": "a1dbc53c9ab779ca94f88faf7e83c8cd3697060bc8edf9618a2f9635034fcb85"
     },
     {
       "id": "VOCE-AI-003",
@@ -8606,7 +8612,8 @@
   "active_catalogue": {
     "course_ids": [
       "VOCE-AI-001",
-      "VOCE-AI-003"
+      "VOCE-AI-003",
+      "VOCE-AI-002"
     ],
     "full_text_languages": [
       "fr"
