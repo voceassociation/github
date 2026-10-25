@@ -1,10 +1,10 @@
 {
   "course": "VOCE-AI-002",
-  "lesson_characters": 46122,
-  "chapters": 3,
-  "paragraphs": 74,
+  "lesson_characters": 66501,
+  "chapters": 4,
+  "paragraphs": 105,
   "python": "3.12.14",
-  "preview_sha256": "f14ae385bbe73cb9d3cdb2d71c84c5e30d4d32adfe162d82c6eecb8af6029dca",
+  "preview_sha256": "e76fca711979f75084ba5b40e78d4a2d443dd9a1b435a5187c8031108ddd8d24",
   "checks": [
     "deterministic rendering",
     "production destination blocked",
