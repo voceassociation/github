@@ -6,7 +6,7 @@
       "id": "VOCE-AI-001",
       "pillar": "AI",
       "title": "Un modèle ne suffit pas à faire fonctionner un service",
-      "objective": "Cartographier composants, flux et points d’arrêt",
+      "objective": "Spécifier et tester les invariants d'un service IA : transaction, idempotence, réconciliation et reprise après panne",
       "competence_id": "VCLF-API-AI001",
       "references": [
         "VOCE16",
@@ -15,15 +15,15 @@
         "OWASP",
         "STRIPEIDEM"
       ],
-      "version": "0.5.1",
-      "review_status": "PUBLIC_RENDER_AND_VOLUME_CHECKED / INDEPENDENT_REVIEW_NOT_PERFORMED",
+      "version": "0.6.0",
+      "review_status": "ENGINEERING_DRAFT_VOLUME_AND_LOCAL_TESTS_CHECKED",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
       "url": "https://voce.life/cours/modele-et-systeme",
       "publication_status": "PUBLIC_FULL_READER_VERIFIED",
       "independent_expert_validated": false,
       "resource_type": "developed_written_course",
-      "seo_description": "Cartographier composants, flux et points d’arrêt. Cours approfondi en français, cas et transfert corrigés ; relecture indépendante non réalisée.",
+      "seo_description": "Architecture des services IA pour ingénieurs : transactions, idempotence, reprise après panne et laboratoire Python testé.",
       "indexing_policy": {
         "eligible": true,
         "robots": "index,follow",
@@ -40,12 +40,12 @@
       },
       "date_modified": "2026-10-25",
       "planned_learning_minutes": {
-        "min": 210,
-        "max": 210,
-        "basis": "Pedagogical estimate for full new reader and activities; not measured with learners"
+        "min": 360,
+        "max": 480,
+        "basis": "Engineering course and executable lab; design estimate, not learner-measured"
       },
-      "assessment_id": "VOCE-AI-001-CASE-20261018",
-      "content_source": "content/courses/ai-workshops.txt",
+      "assessment_id": "VOCE-AI-001-ENGINEERING-20261025",
+      "content_source": "content/courses/engineering/VOCE-AI-001/core.html",
       "history": [
         {
           "version": "0.3.0",
@@ -56,9 +56,14 @@
           "version": "0.4.0",
           "date": "2026-10-18",
           "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
+        },
+        {
+          "version": "0.6.0",
+          "date": "2026-10-25",
+          "change": "Engineering edition: 91018 teaching characters excluding practice and references, local two-database Python simulator and nine tests. Draft PR; no claim of independent validation."
         }
       ],
-      "depth_source": "content/courses/ai-depth.txt",
+      "depth_source": "content/courses/engineering/VOCE-AI-001/engineering.html",
       "historical_languages": [
         "fr",
         "en",
@@ -72,7 +77,7 @@
         "it": "under_reconstruction"
       },
       "listed_in_active_catalogue": true,
-      "eligible_pedagogical_characters": 75696
+      "eligible_pedagogical_characters": 91018
     },
     {
       "id": "VOCE-AI-002",
