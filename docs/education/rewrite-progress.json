@@ -3,12 +3,18 @@
   "updated_on": "2026-10-25",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "82a8564aafc71eb8abdefaa1de7938427f633d4d",
+  "base_head_read": "45870a49888af3b6b040cc7db92629312ccdcd62",
   "publication": {
-    "allowed_now": false,
-    "condition": "120 cours réécrits et contrôlés",
-    "main_merge_performed": false,
-    "deployment_performed": false
+    "allowed_now": true,
+    "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
+    "main_merge_performed_in_this_batch": false,
+    "deployment_performed_in_this_batch": false,
+    "prior_delivery": {
+      "course": "VOCE-AI-001",
+      "pr": 40,
+      "commit": "41dcb989b7889afe4a9d258974ba62ab5cb30c41",
+      "basis": "Livraison et vérification publique rapportées dans la conversation ; manifeste main relu dans ce lot ; URL publique non revérifiée ici"
+    }
   },
   "counts": {
     "total": 120,
@@ -31,25 +37,23 @@
     "title": "Qui donne ses droits à un agent?",
     "status": "partial_source_only_not_for_publication",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-002/01-calcul-autorite.html",
-      "content/courses/engineering/VOCE-AI-002/02-delegation-services.html",
-      "content/courses/engineering/VOCE-AI-002/README.md",
+      "content/courses/engineering/VOCE-AI-002/03-approbation-version-transaction.html",
+      "content/courses/engineering/VOCE-AI-002/course.json",
+      "content/courses/engineering/VOCE-AI-002/render.py",
+      "content/courses/engineering/VOCE-AI-002/references.html",
       "content/courses/engineering/VOCE-AI-002/check_draft.py",
       "content/courses/engineering/VOCE-AI-002/checks-2026-10-25.json",
-      "content/courses/engineering/VOCE-AI-002/course.json",
-      "content/courses/engineering/VOCE-AI-002/references.html",
-      "content/courses/engineering/VOCE-AI-002/render.py",
       "docs/education/rewrite-progress.json"
     ],
-    "lesson_characters": 27348,
+    "lesson_characters": 46122,
     "minimum_lesson_characters": 75000,
     "measurement": "Counter de scripts/audit-course-volume.py ; concaténation ordonnée des chapitres dans article ; texte des seuls blocs lesson, espaces normalisés ; aucun texte de la page historique ajouté",
     "chapters_written": [
       "01-calcul-autorite.html",
-      "02-delegation-services.html"
+      "02-delegation-services.html",
+      "03-approbation-version-transaction.html"
     ],
     "chapters_remaining": [
-      "03-approbation-version-transaction : liaison de l'approbation aux paramètres, normalisation, contrôle de version et atomicité",
       "04-politiques-objets-relations : rôles, attributs et relations, cloisonnement multi-organisation et recherche",
       "05-revocation-distribuee : délais, caches, files et choix de cohérence",
       "06-outils-et-injection : frontières de confiance, restrictions des outils, données hostiles et contrôle des effets",
@@ -82,6 +86,23 @@
           "Token Audience Binding and Validation"
         ],
         "consulted_on": "2026-10-25"
+      },
+      {
+        "url": "https://www.rfc-editor.org/rfc/rfc8785",
+        "sections": [
+          "Abstract",
+          "Introduction"
+        ],
+        "consulted_on": "2026-10-25"
+      },
+      {
+        "url": "https://www.postgresql.org/docs/current/transaction-iso.html",
+        "version_read": "18",
+        "sections": [
+          "13.2",
+          "13.2.1"
+        ],
+        "consulted_on": "2026-10-25"
       }
     ],
     "checks_executed": {
@@ -97,16 +118,17 @@
         "noindex preview",
         "unique chapter ids",
         "no exact paragraph duplicates within lot or against AI-001 core/engineering",
-        "five arithmetic assertion groups"
+        "seven arithmetic assertion groups"
       ]
     },
     "limits": [
-      "Cours incomplet : 27 348 caractères, seuil non atteint",
+      "Cours incomplet : 46 122 caractères, seuil non atteint",
       "Laboratoire complet, exercices et corrigés non écrits",
       "Relecture indépendante et contrôle visuel non réalisés",
       "Rendu de prévisualisation uniquement ; aucun changement de la page historique ni du catalogue",
       "Détection des répétitions limitée aux paragraphes identiques et aux sources AI-001 core/engineering ; ne prouve pas la qualité pédagogique"
     ],
-    "next_action": "Rédiger content/courses/engineering/VOCE-AI-002/03-approbation-version-transaction.html : liaison approbation-commande, normalisation, contrôle de version, fenêtre contrôle-effet et admission transactionnelle ; consulter les sources primaires utiles ; ajouter le chapitre à course.json, adapter les libellés partiels du renderer, mesurer, vérifier et sauvegarder. Ne pas commencer AI-003."
+    "next_action": "Rédiger 04-politiques-objets-relations.html : comparer RBAC, ABAC et relations sur le cas financier, enseigner isolation organisationnelle, chemins de recherche et autorisation des objets ; consulter les sources primaires ; ajouter au rendu, contrôler puis sauvegarder. Ensuite chapitres 05 à 08, laboratoire, exercices et corrigés. Ne pas commencer AI-003.",
+    "batch_new_lesson_characters": 18774
   }
 }
