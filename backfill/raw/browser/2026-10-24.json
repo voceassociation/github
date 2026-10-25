@@ -1,0 +1,47 @@
+{
+  "schema": "voce.linkedin-browser-source.v1",
+  "timezone": "Europe/Podgorica",
+  "retrieved_at": "2026-10-25T21:58:42.000Z",
+  "author_url": "https://www.linkedin.com/in/voce-association-0030763b6/",
+  "source_page": "https://www.linkedin.com/in/voce-association-0030763b6/recent-activity/all/",
+  "browser_profile_id": "prof_236917ff0f01402f",
+  "access_run_id": "73c625b3-802a-45cc-82c0-cae29cf20cf9",
+  "access_status": "normal_read_only",
+  "access_verified": true,
+  "block_or_challenge_observed": false,
+  "card_pairing_trusted": false,
+  "candidate_posts": [],
+  "session_secrets_saved": false,
+  "media_downloaded": false,
+  "facebook_used": false,
+  "metricool_used": false,
+  "date": "2026-10-24",
+  "source": "verified_linkedin_public_html_supplement",
+  "discovery_method": "Late publication independently verified during the 2026-10-25 authenticated catch-up; partitioned by verified Europe/Podgorica publication date.",
+  "coverage_complete": false,
+  "verified_posts": [
+    {
+      "linkedin_id": "urn:li:ugcPost:7519865451342991360",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7519865451342991360/",
+      "text": "Venise, 1262: l'État transforme une dette forcée en actif négociable\n\nVenise, 12 mars 1262.\n\nLa République finance une guerre contre l'Empire byzantin de Michel VIII Paléologue et ses alliés génois.\n\nLes citoyens aisés sont soumis aux prestiti: des prêts obligatoires proportionnels à leur patrimoine.\n\nLe Grand Conseil fixe alors un mécanisme qui change leur nature.\n\nLes créanciers reçoivent 5% d'intérêt annuel, payé deux fois par an grâce à des recettes fiscales affectées. Entre 1262 et 1264, les dettes sont consolidées dans un fonds qui sera plus tard appelé Monte Vecchio.\n\nMais surtout, les créances peuvent être transférées.\n\nUn Vénitien peut vendre son droit à un autre. La Camera degli Imprestiti inscrit le changement de propriétaire dans ses registres.\n\nLa dette publique devient un patrimoine négociable.\n\nAu plus tard vers 1320, un marché secondaire existe. Les titres circulent à des prix inférieurs ou proches de leur valeur nominale selon l'état des finances publiques.\n\nLa confiance possède désormais un prix.\n\nEn 1363, Venise suspend les remboursements ordinaires du principal. En 1375, elle remplace officiellement le remboursement à la valeur nominale par des rachats volontaires au prix du marché.\n\nL'État peut devoir 100 ducats et racheter sa dette moins cher si le marché la valorise 80.\n\nLa sophistication ne doit pas masquer l'origine du système.\n\nLes citoyens n'avaient pas choisi de prêter.\n\nVenise avait transformé une contrainte fiscale en créance transmissible.\n\nULTRA®\n\nC'est ici que naît une mécanique familière à tout marché obligataire moderne.\n\nUne promesse juridique de remboursement possède une valeur nominale.\n\nLe marché lui attribue une autre valeur.\n\nSi le risque perçu augmente, l'acheteur exige davantage de rendement. Pour une créance à intérêt fixe, son prix baisse.\n\nÀ Venise, les prestiti se négocient entre environ 75% et le pair lorsque les intérêts sont servis régulièrement. Lorsque la dette grossit, les cours reculent.\n\nLe pouvoir pouvait imposer le prêt.\n\nIl ne pouvait pas imposer le prix auquel deux particuliers accepteraient ensuite de l'échanger.\n\nFINVOCE ©\n\nL'innovation de 1262 va donc au-delà de l'emprunt.\n\nElle sépare trois choses: la décision politique de créer la dette, la fiscalité qui finance ses intérêts et le jugement du marché sur sa valeur.\n\nCette séparation transforme une obligation envers l'État en actif financier.\n\nElle révèle aussi une règle qui n'a pas disparu.\n\nUn gouvernement peut organiser juridiquement sa dette. Il ne décide jamais seul du rendement que les détenteurs exigeront pour la conserver.\n\nSHYLOCK\n\nLe pouvoir peut obtenir l'obéissance. La confiance, elle, se négocie.\n\nSources\n\nLuciano Pezzolo, Oxford University Press, 2005\nTreccani, Storia di Venezia, finanza pubblica\nJohn H. Munro, travaux sur les prestiti vénitiens\nArchivio di Stato di Venezia, Ufficiali agli imprestiti\n\n#Venise #DettePublique #Finance #HistoireEconomique #VOCEAssociation",
+      "author": "Voce Association",
+      "retrieved_at": "2026-10-25T21:58:42.000Z",
+      "visible_relative_time": "1 j",
+      "url_resolved": true,
+      "linebreaks_preserved": true,
+      "publication_date": "2026-10-24",
+      "date_precision": "day",
+      "source": "linkedin-public-html",
+      "source_publication_datetime": "2026-10-24T21:00:41.987Z",
+      "date_basis": "LinkedIn structured published_date 2026-10-24T21:00:41.987Z; converted to the 2026-10-24 Europe/Podgorica civil day.",
+      "verification": {
+        "method": "literal_public_post_full_metadata_description_corroborated_by_visible_commentary",
+        "commentary_words_and_punctuation_match_html": true,
+        "original_newlines_retained_from_full_source_metadata": true,
+        "author_profile_canonical": "https://fr.linkedin.com/posts/voce-association-0030763b6_venise-dettepublique-finance-activity-7519865476697686016-qdQ8",
+        "source_activity_url": "https://www.linkedin.com/feed/update/urn:li:activity:7519865476697686016",
+        "sources_and_hashtags_retained": true
+      }
+    }
+  ]
+}
