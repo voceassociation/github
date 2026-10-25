@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "date": "2026-10-25",
+  "timezone": "Europe/Podgorica",
+  "status": "completed_verified_and_deployed",
+  "checked_at": "2026-10-25T22:09:00.000Z",
+  "summary": {
+    "verified_posts": 13,
+    "verified_by_date": {
+      "2026-10-24": 1,
+      "2026-10-25": 12
+    },
+    "newly_archived": 13,
+    "corpus_items": 1819,
+    "coverage_complete": true
+  },
+  "access": {
+    "profile_id": "prof_236917ff0f01402f",
+    "run_id": "73c625b3-802a-45cc-82c0-cae29cf20cf9",
+    "status": "available_authenticated_no_block_or_challenge",
+    "block_or_challenge_observed": false,
+    "boundary_reached": "urn:li:ugcPost:7519850353794842624"
+  },
+  "traversed_linkedin_ids": [
+    "urn:li:ugcPost:7520227865070587905",
+    "urn:li:ugcPost:7520197689477799936",
+    "urn:li:ugcPost:7520167475578150913",
+    "urn:li:ugcPost:7520137282599686144",
+    "urn:li:ugcPost:7520107063109361664",
+    "urn:li:ugcPost:7520076875868798976",
+    "urn:li:ugcPost:7520046672106889216",
+    "urn:li:ugcPost:7520031568896303104",
+    "urn:li:ugcPost:7520016454881038336",
+    "urn:li:ugcPost:7519986246279106560",
+    "urn:li:ugcPost:7519956061508870144",
+    "urn:li:ugcPost:7519910759410278400",
+    "urn:li:ugcPost:7519865451342991360",
+    "urn:li:ugcPost:7519850353794842624"
+  ],
+  "packets": [
+    "backfill/raw/browser/2026-10-24.json",
+    "backfill/raw/2026-10-25.json"
+  ],
+  "commits": {
+    "baseline": "ff23da87b3aefffc141c58e2bdb488cc80f65487",
+    "late_source": "1686f7387bd90df303d668a1c09ec12ec3e86bd7",
+    "source": "ae9e8c56d46e8299af88f0d501e12f251e678cb7",
+    "generated": "c43ba1d5ec3f39d83465fc90d7c216dd32b36fc3"
+  },
+  "ingestion": {
+    "run_id": 40238535018,
+    "job_id": 121305200604,
+    "conclusion": "success",
+    "exact_source_text_preserved": true
+  },
+  "validation": {
+    "retrieved_unique_publications": 1821,
+    "newly_archived": 13,
+    "corpus_items": 1819,
+    "canonical_routes": 1819,
+    "redirects": 2,
+    "unique_ids": true,
+    "unique_full_texts": true,
+    "all_13_source_bodies_exact_in_live_articles_after_safe_html_whitespace_normalization": true,
+    "all_13_source_urls_exact": true,
+    "alternate_ids_not_reimported": true,
+    "new_conflicts": 0,
+    "preexisting_conflicts_preserved": 334,
+    "discovery_validation_passed": true,
+    "rss_items": 50,
+    "rss_full_original_text": true,
+    "rss_latest_present": true,
+    "sitemap_urls": 2655,
+    "sitemap_latest_present": true,
+    "sitemap_late_present": true,
+    "vault_routes_in_rss": 0,
+    "vault_routes_in_sitemap": 0
+  },
+  "indexnow": {
+    "key": "9e4c71d85a2f4b6cb3098f21d7a56e40",
+    "ownership_key_verified": true,
+    "http_status": 200,
+    "submitted_url_count": 63,
+    "run_id": 40238535018,
+    "job_id": 121305200604,
+    "scope": "current four-day publication batch",
+    "indexing_claimed": false
+  },
+  "drive_research_registry": {
+    "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
+    "sheet": "Scholar Registry",
+    "range": "A1:K20",
+    "checked": true,
+    "formal_records": 2,
+    "unchanged": true
+  },
+  "candidate_posts": [
+    {
+      "linkedin_id": "urn:li:ugcPost:7517056921168844800",
+      "status": "pending_unverified",
+      "published": false,
+      "reason": "Preserved from the earlier packet; exact authored text and structured publication datetime remain unverified. No reconstruction attempted."
+    }
+  ],
+  "deployment": {
+    "status": "verified_live",
+    "active_deployment_id": "cfaf023c-49e4-4cd3-8327-b80d0981e56f",
+    "active_version": "33d58875-e482-4fbc-b690-c23bb6c269f1",
+    "observed_public_corpus_items": 1819,
+    "expected_public_corpus_items": 1819,
+    "triggers_modified": false,
+    "permissions_modified": false
+  },
+  "safeguards": {
+    "facebook_used": false,
+    "metricool_used": false,
+    "media_downloaded": false,
+    "source_texts_reconstructed": false,
+    "waf_modified": false,
+    "editorial_selection_changed": false
+  },
+  "live_verification": {
+    "academy_counter": 1819,
+    "daily_archive_urls": [
+      "https://voce.life/archive/2026-10-24",
+      "https://voce.life/archive/2026-10-25"
+    ],
+    "daily_archive_counts": {
+      "2026-10-24": 14,
+      "2026-10-25": 12
+    },
+    "article_url": "https://voce.life/archive/2026/10/25/le-royaume-normand-ou-larabe-etait-une-langue-du-pouvoir-7520227865070587905",
+    "self_canonical": true,
+    "robots_index_follow": true,
+    "all_13_source_bodies_exact_after_safe_html_whitespace_normalization": true,
+    "all_13_original_links_present": true,
+    "og_image": "https://voce.life/voce-og.jpg",
+    "sitemap_urls": 2655,
+    "sitemap_latest_present": true,
+    "rss_items": 50,
+    "rss_full_original_text": true,
+    "rss_latest_present": true,
+    "guide_query": "Le royaume normand où l’arabe était une langue du pouvoir",
+    "guide_top_source_exact": true,
+    "guide_top_url": "https://voce.life/archive/2026/10/25/le-royaume-normand-ou-larabe-etait-une-langue-du-pouvoir-7520227865070587905",
+    "guide_run_id": "a450c752-ea32-426c-8ed1-b8a9fb2dd358"
+  },
+  "r2": {
+    "checked_at": "2026-10-25T22:08:54.264Z",
+    "status": "ok",
+    "bucket": "voce-sovereign-corpus",
+    "private": true,
+    "synced_at": "2026-10-25T22:08:54.264Z",
+    "article_routes": 1819,
+    "corpus_items": 1819,
+    "article_routes_synced": 1819,
+    "source_snapshot_complete": true,
+    "backup_complete": true,
+    "total_objects_target": 1950,
+    "objects_synced": 1950,
+    "derived_backup_complete": true,
+    "total_derived_objects": 1939,
+    "derived_objects_synced": 1939,
+    "derived_article_pages_synced": 1819
+  }
+}
