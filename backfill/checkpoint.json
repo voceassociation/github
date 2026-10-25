@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-25T22:05:37.324996+00:00",
+  "updated_at": "2026-10-25T22:09:00.000Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1735,7 +1735,7 @@
     "pull_request": 3,
     "merge_commit": "cb66dce1c40f07282b275482f801e8a350dc5f0a",
     "indexnow_check": "accepted_200",
-    "live_deployment": "1622_unique_articles_live_source_backup_complete",
+    "live_deployment": "1819_unique_articles_live_source_and_derived_backup_complete",
     "linkedin_browser_session": "authenticated_direct_access_verified_2026_10_12",
     "static_pages_generated": 1622,
     "academy_catalogue": "existing_curated_selection_plus_guide_no_bulk_listing",
@@ -1748,19 +1748,19 @@
       "owner": "VOCE Association",
       "bucket": "voce-sovereign-corpus",
       "private": true,
-      "synced_at": "2026-10-24T21:27:54.355Z",
-      "article_routes": 1806,
-      "corpus_items": 1806,
-      "article_routes_synced": 1806,
+      "synced_at": "2026-10-25T22:08:54.264Z",
+      "article_routes": 1819,
+      "corpus_items": 1819,
+      "article_routes_synced": 1819,
       "source_snapshot_complete": true,
       "backup_complete": true,
-      "total_objects_target": 1936,
-      "objects_synced": 1936,
+      "total_objects_target": 1950,
+      "objects_synced": 1950,
       "derived_backup_complete": true,
-      "total_derived_objects": 1925,
-      "derived_objects_synced": 1925,
-      "derived_article_pages_synced": 1806,
-      "checked_at": "2026-10-24T21:27:54.355Z"
+      "total_derived_objects": 1939,
+      "derived_objects_synced": 1939,
+      "derived_article_pages_synced": 1819,
+      "checked_at": "2026-10-25T22:08:54.264Z"
     },
     "research_registry": {
       "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
@@ -1770,7 +1770,7 @@
         "https://voce.life/research/introspective-technoference",
         "https://voce.life/research/parental-technoference-language-development"
       ],
-      "last_verified_at": "2026-10-24T21:29:10.815Z",
+      "last_verified_at": "2026-10-25T22:09:00.000Z",
       "status": "Google Drive registry verified unchanged: the two authoritative DOI records and canonical VOCE Academy research targets remain exact; no new formal output added."
     },
     "facebook": {
@@ -1885,11 +1885,11 @@
       "endpoint": "https://www.bing.com/indexnow",
       "status": "accepted_200",
       "http_status": 200,
-      "accepted_at": "2026-10-24T21:04:22.461Z",
-      "run_id": 40132579170,
-      "job_id": 120987248832,
-      "workflow_url": "https://github.com/voceassociation/github/actions/runs/40132579170",
-      "submitted_url_count": 64,
+      "accepted_at": "2026-10-25T22:05:43.432Z",
+      "run_id": 40238535018,
+      "job_id": 121305200604,
+      "workflow_url": "https://github.com/voceassociation/github/actions/runs/40238535018",
+      "submitted_url_count": 63,
       "keyLocation": "https://voce.life/9e4c71d85a2f4b6cb3098f21d7a56e40.txt",
       "interpretation": "Search engine received the URLs; no claim of indexing or ranking.",
       "scope": "current four-day publication batch",
@@ -2045,11 +2045,11 @@
       "endpoint": "https://www.bing.com/indexnow",
       "status": "accepted_200",
       "http_status": 200,
-      "accepted_at": "2026-10-24T21:04:22.461Z",
-      "run_id": 40132579170,
-      "job_id": 120987248832,
-      "workflow_url": "https://github.com/voceassociation/github/actions/runs/40132579170",
-      "submitted_url_count": 64,
+      "accepted_at": "2026-10-25T22:05:43.432Z",
+      "run_id": 40238535018,
+      "job_id": 121305200604,
+      "workflow_url": "https://github.com/voceassociation/github/actions/runs/40238535018",
+      "submitted_url_count": 63,
       "keyLocation": "https://voce.life/9e4c71d85a2f4b6cb3098f21d7a56e40.txt",
       "interpretation": "Search engine received the URLs; no claim of indexing or ranking.",
       "scope": "current four-day publication batch",
@@ -5559,6 +5559,119 @@
       "metricool_used": false,
       "media_downloaded": false,
       "checked_at": "2026-10-24T21:29:10.815Z"
+    },
+    "linkedin_nightly_2026_10_25_2300": {
+      "status": "completed_verified_and_deployed",
+      "checked_at": "2026-10-25T22:09:00.000Z",
+      "access_status": "normal",
+      "access_run": "73c625b3-802a-45cc-82c0-cae29cf20cf9",
+      "boundary_target": "urn:li:ugcPost:7519850353794842624",
+      "boundary_seen": true,
+      "verified_posts": 13,
+      "verified_by_date": {
+        "2026-10-24": 1,
+        "2026-10-25": 12
+      },
+      "pending_candidates": [
+        "urn:li:ugcPost:7517056921168844800"
+      ],
+      "raw_packets": [
+        "backfill/raw/browser/2026-10-24.json",
+        "backfill/raw/2026-10-25.json"
+      ],
+      "source_commits": [
+        "1686f7387bd90df303d668a1c09ec12ec3e86bd7",
+        "ae9e8c56d46e8299af88f0d501e12f251e678cb7"
+      ],
+      "generated_commit": "c43ba1d5ec3f39d83465fc90d7c216dd32b36fc3",
+      "report_commit": "3ee55ed53998ed1c01618e0ae6419eaa0cde6e58",
+      "workflow": {
+        "run_id": 40238535018,
+        "job_id": 121305200604,
+        "conclusion": "success"
+      },
+      "validation": {
+        "retrieved_unique_publications": 1821,
+        "newly_archived": 13,
+        "corpus_items": 1819,
+        "canonical_routes": 1819,
+        "redirects": 2,
+        "unique_ids": true,
+        "unique_full_texts": true,
+        "alternate_ids_not_reimported": true,
+        "new_conflicts": 0,
+        "preexisting_conflicts_preserved": 334,
+        "discovery_validation_passed": true,
+        "rss_items": 50,
+        "rss_full_original_text": true,
+        "sitemap_urls": 2655,
+        "vault_routes_in_rss": 0,
+        "vault_routes_in_sitemap": 0
+      },
+      "deployment": {
+        "active_deployment_id": "cfaf023c-49e4-4cd3-8327-b80d0981e56f",
+        "active_version": "33d58875-e482-4fbc-b690-c23bb6c269f1",
+        "status": "verified_live",
+        "triggers_modified": false,
+        "permissions_modified": false
+      },
+      "live_verification": {
+        "academy_counter": 1819,
+        "daily_archive_counts": {
+          "2026-10-24": 14,
+          "2026-10-25": 12
+        },
+        "article_url": "https://voce.life/archive/2026/10/25/le-royaume-normand-ou-larabe-etait-une-langue-du-pouvoir-7520227865070587905",
+        "self_canonical": true,
+        "robots_index_follow": true,
+        "all_13_source_bodies_exact_after_safe_html_whitespace_normalization": true,
+        "all_13_original_links_present": true,
+        "sitemap_urls": 2655,
+        "rss_items": 50,
+        "rss_full_original_text": true,
+        "guide_top_source_exact": true,
+        "guide_run_id": "a450c752-ea32-426c-8ed1-b8a9fb2dd358"
+      },
+      "indexnow": {
+        "key": "9e4c71d85a2f4b6cb3098f21d7a56e40",
+        "ownership_key_verified": true,
+        "http_status": 200,
+        "submitted_url_count": 63,
+        "scope": "current four-day publication batch",
+        "indexing_claimed": false
+      },
+      "r2": {
+        "status": "ok",
+        "owner": "VOCE Association",
+        "bucket": "voce-sovereign-corpus",
+        "private": true,
+        "synced_at": "2026-10-25T22:08:54.264Z",
+        "article_routes": 1819,
+        "corpus_items": 1819,
+        "article_routes_synced": 1819,
+        "source_snapshot_complete": true,
+        "backup_complete": true,
+        "total_objects_target": 1950,
+        "objects_synced": 1950,
+        "derived_backup_complete": true,
+        "total_derived_objects": 1939,
+        "derived_objects_synced": 1939,
+        "derived_article_pages_synced": 1819,
+        "checked_at": "2026-10-25T22:08:54.264Z"
+      },
+      "drive_research_registry": {
+        "spreadsheet_id": "1IF-x5MpAIOjjaStyerbPX9rzdPP1Y-zTQXhLMKC5M8M",
+        "checked": true,
+        "formal_records": 2,
+        "unchanged": true
+      },
+      "facebook_paused": true,
+      "metricool_used": false,
+      "media_downloaded": false,
+      "editorial_selection_changed": false,
+      "coverage_complete": true,
+      "historical_conflicts_preserved": 334,
+      "report": "backfill/reports/linkedin-catchup-progress-2026-10-25.json"
     }
   },
   "facebook_daily_scans": {},
