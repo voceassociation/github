@@ -2,8 +2,8 @@
   "id": "VOCE-AI-002",
   "title": "Qui donne ses droits à un agent?",
   "route": "cours/permissions-agent.html",
-  "draft_version": "0.6.0-partial-06",
-  "status": "partial_source_only_not_for_publication",
+  "draft_version": "0.7.0-review-pending",
+  "status": "draft_complete_review_pending_not_for_publication",
   "audience": "Ingénieurs logiciels, architectes IAM et responsables de sécurité des systèmes agentiques",
   "prerequisites": "Prédicats et ensembles, HTTP, notions OAuth, transactions SQL et concurrence",
   "chapters": [
@@ -13,11 +13,10 @@
     "04-politiques-objets-relations.html",
     "05-revocation-distribuee.html",
     "06-outils-et-injection.html",
-    "07-preuves-et-exploitation.html"
+    "07-preuves-et-exploitation.html",
+    "08-laboratoire-et-analyse.html"
   ],
-  "remaining_chapters": [
-    "08-laboratoire-et-analyse : enseigner le modèle exécutable complet et analyser ses limites ; code, exercices et corrigés exclus du volume"
-  ],
+  "remaining_chapters": [],
   "review": {
     "independent": "not_performed",
     "visual": "not_performed",
