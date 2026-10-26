@@ -3,7 +3,7 @@
   "updated_on": "2026-10-26",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "3b7512321819a52e658b2b32cbe18ea1fb7e8d87",
+  "base_head_read": "dff5b9c863fee4720cfa39d3f56718b70497c204",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -35,17 +35,21 @@
   "current_course": {
     "id": "VOCE-AI-002",
     "title": "Qui donne ses droits à un agent?",
-    "status": "partial_source_only_not_for_publication",
+    "status": "draft_complete_review_pending_not_for_publication",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-002/07-preuves-et-exploitation.html",
-      "content/courses/engineering/VOCE-AI-002/test_audit_projection.py",
+      "content/courses/engineering/VOCE-AI-002/transaction_lab.py",
+      "content/courses/engineering/VOCE-AI-002/test_transaction_lab.py",
+      "content/courses/engineering/VOCE-AI-002/08-laboratoire-et-analyse.html",
+      "content/courses/engineering/VOCE-AI-002/exercises.html",
       "content/courses/engineering/VOCE-AI-002/course.json",
       "content/courses/engineering/VOCE-AI-002/render.py",
       "content/courses/engineering/VOCE-AI-002/references.html",
+      "content/courses/engineering/VOCE-AI-002/check_draft.py",
       "content/courses/engineering/VOCE-AI-002/checks-2026-10-26.json",
+      "content/courses/engineering/VOCE-AI-002/README.md",
       "docs/education/rewrite-progress.json"
     ],
-    "lesson_characters": 111458,
+    "lesson_characters": 124799,
     "minimum_lesson_characters": 75000,
     "measurement": "Counter de scripts/audit-course-volume.py ; concaténation ordonnée des chapitres dans article ; texte des seuls blocs lesson, espaces normalisés ; aucun texte de la page historique ajouté",
     "chapters_written": [
@@ -55,11 +59,10 @@
       "04-politiques-objets-relations.html",
       "05-revocation-distribuee.html",
       "06-outils-et-injection.html",
-      "07-preuves-et-exploitation.html"
+      "07-preuves-et-exploitation.html",
+      "08-laboratoire-et-analyse.html"
     ],
-    "chapters_remaining": [
-      "08-laboratoire-et-analyse : enseigner le modèle exécutable complet et analyser ses limites ; code, exercices et corrigés exclus du volume"
-    ],
+    "chapters_remaining": [],
     "sources_consulted": [
       {
         "url": "https://www.rfc-editor.org/rfc/rfc8693.html",
@@ -148,6 +151,16 @@
         "url": "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html",
         "scope": "Event attributes, Data to exclude, Event collection",
         "consulted_on": "2026-10-26"
+      },
+      {
+        "url": "https://www.sqlite.org/lang_transaction.html",
+        "scope": "sections 2 à 3, BEGIN IMMEDIATE, écrivain unique, rollback",
+        "consulted_on": "2026-10-26"
+      },
+      {
+        "url": "https://docs.python.org/3/library/sqlite3.html",
+        "scope": "tutoriel : connexion, paramètres SQL et réouverture ; programme testé sous Python 3.12.14",
+        "consulted_on": "2026-10-26"
       }
     ],
     "checks_executed": {
@@ -167,14 +180,14 @@
       ]
     },
     "limits": [
-      "111 458 caractères pédagogiques ; laboratoire final et évaluations incomplets, non prêt à publier",
-      "Modèles de politique et de révocation testés ; laboratoire transactionnel complet, exercices et corrigés encore à écrire",
-      "Relecture indépendante et contrôle visuel non réalisés",
-      "Rendu de prévisualisation uniquement ; aucun changement de la page historique ni du catalogue",
-      "Détection des répétitions limitée aux paragraphes identiques et aux sources AI-001 core/engineering ; ne prouve pas la qualité pédagogique"
+      "Huit chapitres, laboratoire et évaluations rédigés ; revue de livraison complète non effectuée, non publié",
+      "Relecture indépendante, contrôle visuel desktop/mobile et pilote apprenant non effectués",
+      "Modèle local : identité de confiance, devise unique, fournisseur simulé à déduplication persistante ; aucune résistance aux pannes matérielles démontrée",
+      "Rendu de prévisualisation uniquement ; aucune modification de route publique, catalogue, sitemap ou métadonnées de production",
+      "Détection des répétitions limitée aux paragraphes identiques et à AI-001 ; ne démontre pas la qualité pédagogique"
     ],
-    "next_action": "Construire le laboratoire transactionnel AI-002 sur SQLite durable : proposition immuable et versionnée, approbation liée à empreinte, mandat actif, budget réservé atomiquement, consommation unique, outbox et événement admission dans même transaction ; tests connexions concurrentes, rollback, réponse perdue et reprise. Consulter documentation SQLite/Python. Rédiger 08-laboratoire-et-analyse à partir du code réellement testé, puis exercices et corrigés séparés du volume. Revue complète et rendu avant livraison ciblée depuis main. Pas de texte supplémentaire pour atteindre un seuil déjà dépassé.",
-    "batch_new_lesson_characters": 14192,
+    "next_action": "AI-002 : aucun chapitre supplémentaire requis. Relire les huit chapitres et les exercices/corrigés pour cohérence des hypothèses, sources et code ; corriger les écarts. Préparer une livraison ciblée depuis main récent avec rendu publiable, manifeste et métadonnées officiels. Effectuer contrôle visuel desktop/mobile, liens/catalogue/sitemap et tests du laboratoire. Fusionner et déployer une fois prêt puis vérifier Cloudflare et URL publique. Conserver explicitement les limites de revue indépendante/pilote. Ne pas fusionner PR39 en bloc. Après livraison vérifiée, commencer AI-003.",
+    "batch_new_lesson_characters": 13341,
     "policy_model_checks": {
       "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-002 -p test_policy_model.py -v",
       "result": "6 tests passed",
@@ -183,9 +196,14 @@
     },
     "model_checks_this_batch": {
       "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-002 -p 'test_*.py'",
-      "result": "21 tests passed",
-      "new_tests": 4,
-      "scope": "Projection positive des champs, encodage des retours ligne, champ obligatoire et calcul de capacité ; tests précédents réexécutés. Aucun collecteur réel ni garantie transactionnelle testés dans ce lot."
+      "result": "29 tests passed",
+      "new_tests": 8,
+      "scope": "SQLite sur fichiers temporaires, connexions concurrentes, budget, rollback injecté, empreinte et immutabilité, périmètre, déduplication, révocation avant/après admission, réponse perdue et réouverture fournisseur. Fournisseur simulé, aucune intégration OAuth ou réseau."
+    },
+    "delivery_states": {
+      "saved": "source batch saved via GitHub; see branch history",
+      "controlled": "29 model tests plus structural/determinism/volume checks; full delivery review pending",
+      "published": false
     }
   }
 }
