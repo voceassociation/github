@@ -3,7 +3,7 @@
   "updated_on": "2026-10-26",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "dff5b9c863fee4720cfa39d3f56718b70497c204",
+  "base_head_read": "4215b296ef8a7913cdc81a1af70fd1e3ebc0629a",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -35,21 +35,27 @@
   "current_course": {
     "id": "VOCE-AI-002",
     "title": "Qui donne ses droits à un agent?",
-    "status": "draft_complete_review_pending_not_for_publication",
+    "status": "engineering_edition_local_checks_passed_delivery_pending",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-002/transaction_lab.py",
-      "content/courses/engineering/VOCE-AI-002/test_transaction_lab.py",
+      "content/courses/engineering/VOCE-AI-002/01-calcul-autorite.html",
+      "content/courses/engineering/VOCE-AI-002/02-delegation-services.html",
+      "content/courses/engineering/VOCE-AI-002/03-approbation-version-transaction.html",
+      "content/courses/engineering/VOCE-AI-002/05-revocation-distribuee.html",
+      "content/courses/engineering/VOCE-AI-002/06-outils-et-injection.html",
+      "content/courses/engineering/VOCE-AI-002/07-preuves-et-exploitation.html",
       "content/courses/engineering/VOCE-AI-002/08-laboratoire-et-analyse.html",
-      "content/courses/engineering/VOCE-AI-002/exercises.html",
-      "content/courses/engineering/VOCE-AI-002/course.json",
-      "content/courses/engineering/VOCE-AI-002/render.py",
-      "content/courses/engineering/VOCE-AI-002/references.html",
-      "content/courses/engineering/VOCE-AI-002/check_draft.py",
-      "content/courses/engineering/VOCE-AI-002/checks-2026-10-26.json",
       "content/courses/engineering/VOCE-AI-002/README.md",
+      "content/courses/engineering/VOCE-AI-002/checks-2026-10-26.json",
+      "content/courses/engineering/VOCE-AI-002/course.json",
+      "content/courses/engineering/VOCE-AI-002/exercises.html",
+      "content/courses/engineering/VOCE-AI-002/references.html",
+      "content/courses/engineering/VOCE-AI-002/render_release.py",
+      "content/courses/engineering/VOCE-AI-002/review-2026-10-26.json",
+      "content/courses/engineering/VOCE-AI-002/shell.html",
+      "content/courses/engineering/VOCE-AI-002/test_transaction_lab.py",
       "docs/education/rewrite-progress.json"
     ],
-    "lesson_characters": 124799,
+    "lesson_characters": 130369,
     "minimum_lesson_characters": 75000,
     "measurement": "Counter de scripts/audit-course-volume.py ; concaténation ordonnée des chapitres dans article ; texte des seuls blocs lesson, espaces normalisés ; aucun texte de la page historique ajouté",
     "chapters_written": [
@@ -161,6 +167,11 @@
         "url": "https://docs.python.org/3/library/sqlite3.html",
         "scope": "tutoriel : connexion, paramètres SQL et réouverture ; programme testé sous Python 3.12.14",
         "consulted_on": "2026-10-26"
+      },
+      {
+        "url": "https://europass.europa.eu/en/description-eight-eqf-levels",
+        "scope": "learning outcome categories (knowledge, skills, responsibility/autonomy), official search extraction; direct reopen returned 403",
+        "consulted_on": "2026-10-26"
       }
     ],
     "checks_executed": {
@@ -177,17 +188,17 @@
         "unique chapter ids",
         "no exact paragraph duplicates within lot or against AI-001 core/engineering",
         "seven arithmetic assertion groups"
-      ]
+      ],
+      "release_report": "content/courses/engineering/VOCE-AI-002/review-2026-10-26.json"
     },
     "limits": [
-      "Huit chapitres, laboratoire et évaluations rédigés ; revue de livraison complète non effectuée, non publié",
-      "Relecture indépendante, contrôle visuel desktop/mobile et pilote apprenant non effectués",
-      "Modèle local : identité de confiance, devise unique, fournisseur simulé à déduplication persistante ; aucune résistance aux pannes matérielles démontrée",
-      "Rendu de prévisualisation uniquement ; aucune modification de route publique, catalogue, sitemap ou métadonnées de production",
-      "Détection des répétitions limitée aux paragraphes identiques et à AI-001 ; ne démontre pas la qualité pédagogique"
+      "Relecture de cohérence effectuée ; revue indépendante et pilote apprenant non réalisés",
+      "Rendu échantillonné desktop/mobile via Cloudflare ; interactions et accessibilité non exhaustives",
+      "Modèles séparés sans intégration OAuth ou prestataire réel ; restrictions enseignées explicitement",
+      "Fusion ciblée et déploiement encore à effectuer ; aucune publication AI-002 constatée"
     ],
-    "next_action": "AI-002 : aucun chapitre supplémentaire requis. Relire les huit chapitres et les exercices/corrigés pour cohérence des hypothèses, sources et code ; corriger les écarts. Préparer une livraison ciblée depuis main récent avec rendu publiable, manifeste et métadonnées officiels. Effectuer contrôle visuel desktop/mobile, liens/catalogue/sitemap et tests du laboratoire. Fusionner et déployer une fois prêt puis vérifier Cloudflare et URL publique. Conserver explicitement les limites de revue indépendante/pilote. Ne pas fusionner PR39 en bloc. Après livraison vérifiée, commencer AI-003.",
-    "batch_new_lesson_characters": 13341,
+    "next_action": "Livrer uniquement AI-002 via branche release/ai002-engineering-20261026 depuis main 0e4537bd : sources, rendu, manifeste et entrée catalogue. Contrôler build Cloudflare puis version publique et liens. Ne pas fusionner PR39. Ensuite démarrer AI-003.",
+    "batch_new_lesson_characters": 5570,
     "policy_model_checks": {
       "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-002 -p test_policy_model.py -v",
       "result": "6 tests passed",
@@ -196,13 +207,13 @@
     },
     "model_checks_this_batch": {
       "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-002 -p 'test_*.py'",
-      "result": "29 tests passed",
-      "new_tests": 8,
-      "scope": "SQLite sur fichiers temporaires, connexions concurrentes, budget, rollback injecté, empreinte et immutabilité, périmètre, déduplication, révocation avant/après admission, réponse perdue et réouverture fournisseur. Fournisseur simulé, aucune intégration OAuth ou réseau."
+      "result": "32 tests passed",
+      "new_tests": 3,
+      "scope": "same approval concurrency, exact budget equality, SQL admission trace failure and rollback; prior cases rerun"
     },
     "delivery_states": {
-      "saved": "source batch saved via GitHub; see branch history",
-      "controlled": "29 model tests plus structural/determinism/volume checks; full delivery review pending",
+      "saved": "GitHub working branch batch",
+      "controlled": "32 tests, source/release volume, schema/anchors, sampled screenshots; independent review pending",
       "published": false
     }
   }
