@@ -1,0 +1,26 @@
+{
+  "course": "VOCE-AI-002",
+  "lesson_characters": 97266,
+  "chapters": 6,
+  "paragraphs": 153,
+  "python": "3.12.14",
+  "preview_sha256": "244f1a8957fa7d2d0932205aae90e0aba352fdcfc2909b17112066c865bbd6b9",
+  "checks": [
+    "deterministic rendering",
+    "production destination blocked",
+    "Counter agrees between sources and preview",
+    "one H1",
+    "obsolete JSON-LD removed",
+    "noindex preview",
+    "unique chapter ids",
+    "no exact paragraph duplicates within lot or against AI-001 core/engineering",
+    "seven arithmetic assertion groups"
+  ],
+  "quality_validated": false,
+  "not_performed": [
+    "independent review",
+    "browser visual review",
+    "complete authorization laboratory",
+    "learner pilot"
+  ]
+}
