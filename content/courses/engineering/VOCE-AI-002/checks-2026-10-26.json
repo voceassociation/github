@@ -4,7 +4,7 @@
   "chapters": 8,
   "paragraphs": 200,
   "python": "3.12.14",
-  "preview_sha256": "a83dc1fe7182f8f398b6c0a857e40e464a094903a6bbf117b499db623208410f",
+  "preview_sha256": "d4957d4899c75c91b2fd9045b004af920ed1379cec524f6f1195cf375357c834",
   "checks": [
     "deterministic rendering",
     "production destination blocked",
