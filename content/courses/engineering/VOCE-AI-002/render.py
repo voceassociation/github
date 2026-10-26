@@ -19,7 +19,7 @@ def render(output):
     content = (
         '<h1>' + html.escape(metadata['title']) + '</h1>'
         '<section data-voce-count="metadata"><p>VOCE-AI-002 · Édition ingénieur en rédaction · '
-        'Six chapitres, cours incomplet, diffusion non autorisée.</p><p>Public : '
+        'Sept chapitres, cours incomplet, diffusion non autorisée.</p><p>Public : '
         + html.escape(metadata['audience']) + '.</p><p>Prérequis : '
         + html.escape(metadata['prerequisites']) + '.</p></section>'
         + ''.join((HERE / name).read_text() for name in metadata['chapters'])
@@ -33,7 +33,7 @@ def render(output):
         raise ValueError('Expected one course article in the current official shell.')
     source, count = re.subn(
         r'(<aside\b[^>]*>).*?(</aside>)',
-        lambda match: match[1] + '<h2>Édition en préparation</h2><p>Chapitres 1 à 6 rédigés. '
+        lambda match: match[1] + '<h2>Édition en préparation</h2><p>Chapitres 1 à 7 rédigés. '
         'Rédaction, laboratoire complet et contrôles de livraison encore incomplets. Relecture indépendante et contrôle visuel '
         'non réalisés. Aucun temps de formation validé.</p>' + match[2],
         source, count=1, flags=re.S
