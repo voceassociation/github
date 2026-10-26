@@ -19,7 +19,9 @@ La revue de cohérence du 26 octobre a corrigé les divergences entre architectu
 Le rendu publiable ciblé utilise le gabarit capturé depuis main, sans modifier les autres cours :
 
 ```sh
-python content/courses/engineering/VOCE-AI-002/render_release.py --output cours/permissions-agent.html
+python content/courses/engineering/VOCE-AI-002/render_release.py --output cours/permissions-agent.html --lab-output assets/course-labs/VOCE-AI-002
 ```
 
 La publication suit une PR ciblée issue de main ; le checkpoint distingue sauvegarde, fusion et vérification publique. Le rendu de travail render.py reste protégé contre une écriture en production.
+
+Les fichiers .py.txt du laboratoire sont des copies publiques exactes des sources Python. Les liens download proposent les noms .py. Le dossier content est exclu des actifs Cloudflare ; ne pas créer de liens de téléchargement public vers ce dossier.
