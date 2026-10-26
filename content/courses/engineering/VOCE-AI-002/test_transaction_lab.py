@@ -81,4 +81,44 @@ class Transactions(unittest.TestCase):
         for value in (True,0,-1,1.5):
             with self.assertRaises(ValueError): propose(self.path,'bad','A',1,value,'r')
 
+    def test_same_approval_concurrent(self):
+        barrier = Barrier(2)
+        def run(operation):
+            barrier.wait()
+            try:
+                return admit(self.path,'A','p1',operation)
+            except PermissionError:
+                return 'denied'
+        with ThreadPoolExecutor(2) as pool:
+            results = list(pool.map(run,('same-a','same-b')))
+        self.assertCountEqual(results,['admitted','denied'])
+        self.assertEqual(self.scalar('SELECT count(*) FROM outbox'),1)
+        self.assertEqual(self.scalar('SELECT count(*) FROM admission'),1)
+        self.assertEqual(self.scalar('SELECT consumed FROM approval'),1)
+        self.assertEqual(self.scalar("SELECT budget FROM mandate WHERE tenant='A'"),30)
+
+    def test_exact_budget_concurrent(self):
+        self.make('p2',50)
+        self.make('p3',50)
+        barrier = Barrier(2)
+        def run(i):
+            barrier.wait()
+            return admit(self.path,'A','p'+str(i),'o'+str(i))
+        with ThreadPoolExecutor(2) as pool:
+            self.assertEqual(list(pool.map(run,(2,3))),['admitted','admitted'])
+        self.assertEqual(self.scalar("SELECT budget FROM mandate WHERE tenant='A'"),0)
+        self.assertEqual(self.scalar('SELECT count(*) FROM admission'),2)
+
+    def test_failed_admission_trace_rolls_back_outbox(self):
+        import sqlite3
+        with connection(self.path) as db:
+            db.execute("CREATE TRIGGER fail_trace BEFORE INSERT ON admission BEGIN SELECT RAISE(ABORT,'injected trace failure'); END")
+        with self.assertRaises(sqlite3.IntegrityError):
+            admit(self.path,'A','p1','o1')
+        self.assertEqual(self.scalar("SELECT budget FROM mandate WHERE tenant='A'"),100)
+        self.assertEqual(self.scalar('SELECT consumed FROM approval'),0)
+        for table in ('outbox','admission'):
+            self.assertEqual(self.scalar('SELECT count(*) FROM '+table),0)
+
+
 if __name__ == '__main__': unittest.main()
