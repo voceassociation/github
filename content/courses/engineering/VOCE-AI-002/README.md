@@ -1,17 +1,17 @@
-# VOCE-AI-002 : réécriture ingénieur en cours
+# VOCE-AI-002 : édition ingénieur, revue de livraison à effectuer
 
-Les fichiers 01 et 02 sont une rédaction nouvelle et spécifique. Ils ne reprennent pas les paragraphes de VOCE-AI-001. Le cours reste incomplet ; les anciennes pages, URL, statuts du catalogue et composants officiels ne sont pas modifiés par ce lot. Le volume n'est pas complété avec le contenu historique non révisé.
+Huit chapitres rédigés. Le laboratoire transactionnel utilise deux bases SQLite locales, sans dépendance externe ; le fournisseur est simulé. Les exercices et corrigés sont dans exercises.html, exclus du volume pédagogique comme le code et la bibliographie. Les scénarios sont fictifs. Les modèles de politiques, révocation, outils et traces complètent le laboratoire ; ils ne constituent pas une intégration IAM réelle.
 
-Les sources HTML balisent uniquement l'enseignement avec `data-voce-count="lesson"`. Introduction, bibliographie et futur laboratoire restent hors de ces blocs. `course.json` impose l'ordre des chapitres. Le compteur de référence est `scripts/audit-course-volume.py`, classe `Counter`, appliquée aux chapitres sous un élément article. Le checkpoint global conserve le résultat mesuré.
-
-Rendu de travail déterministe, depuis la racine du dépôt, avec Python 3.10+ :
+Depuis la racine du dépôt, avec Python 3.12 ou supérieur :
 
 ```sh
+python -m unittest discover -s content/courses/engineering/VOCE-AI-002 -p 'test_*.py' -v
+python content/courses/engineering/VOCE-AI-002/check_draft.py
 python content/courses/engineering/VOCE-AI-002/render.py --output /tmp/voce-ai002-preview.html
 ```
 
-Le rendu reprend les composants de la page officielle de cette révision du dépôt, remplace l'article et les repères, retire les anciens JSON-LD et ajoute noindex. Il refuse une destination dans le dépôt pour empêcher qu'un cours partiel remplace une route publique. Les liens absolus vers les ressources du site exigent un serveur approprié pour une inspection visuelle complète ; un contrôle structurel du HTML ne constitue pas cette inspection.
+Les tests créent et suppriment des bases temporaires. Aucun paiement ni appel réseau. Le laboratoire suppose un appelant de confiance, une seule unité monétaire et un fournisseur conservant les clés d'idempotence. L'admission est le point d'engagement : une révocation ultérieure n'annule pas cette commande. Consulter le chapitre 8 pour les propriétés réellement testées et les limites.
 
-Prochain chapitre : `03-approbation-version-transaction.html`. Enseigner la liaison entre approbation et commande, la normalisation des paramètres, la vérification des versions et la fenêtre entre contrôle et effet. Les chapitres restants figurent dans `course.json`. Développer ensuite un laboratoire d'autorisation propre à ce cours, sans réutiliser le laboratoire de paiement du cours 001 comme substitut pédagogique.
+Le compteur de référence est Counter dans scripts/audit-course-volume.py. Seuls les blocs lesson des chapitres contribuent au volume. Le rendu déterministe conserve le gabarit officiel mais retire les anciennes données structurées et impose noindex pour la prévisualisation ; il refuse toute destination dans le dépôt. Cette protection ne doit être levée que dans une livraison ciblée issue du main récent, avec métadonnées et contrôles de publication adaptés.
 
-Les sources de protocole consultées sont limitées aux éléments décrits dans `references.html`. Les scénarios et calculs sont fictifs. Pas de relecture indépendante, de pilote apprenant, de mesure de charge ni de contrôle visuel à ce stade. Aucune publication avant réécriture et contrôle des 120 cours.
+Prochaine action : revue technique et documentaire des huit chapitres, vérification exercices/corrigés, inspection visuelle desktop/mobile du rendu avec les ressources officielles, puis livraison ciblée. La publication progressive est autorisée dès que le cours est prêt et contrôlé ; il ne faut pas attendre les 120 cours. Aucune publication AI-002 n'est constatée à ce stade. Relecture indépendante et pilote apprenant non effectués.
