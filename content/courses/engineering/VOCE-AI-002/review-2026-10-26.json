@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-26",
+  "course": "VOCE-AI-002",
+  "lesson_characters": 130369,
+  "tests_passed": 32,
+  "new_tests": [
+    "same approval concurrent",
+    "exact budget concurrent",
+    "admission trace failure rolls back outbox"
+  ],
+  "review": "Author consistency review, not independent review",
+  "corrected": [
+    "architecture versus implemented revocation",
+    "policy version and expiry not implemented",
+    "separate models not end-to-end integrated",
+    "minimal admission trace versus complete audit schema",
+    "proposal identity included in hash"
+  ],
+  "render_checks": [
+    "deterministic preview",
+    "release lesson count equals source",
+    "one H1 and unique IDs",
+    "internal anchors resolve",
+    "Course schema 0.8.0 without stale timeRequired",
+    "existing catalogue and sitemap contain permanent URL"
+  ],
+  "visual": {
+    "method": "Cloudflare Browser Rendering HTML with official public styles",
+    "samples": [
+      "preview desktop 1000x600",
+      "preview mobile 390x650",
+      "release mobile header 390x650",
+      "release mobile body sample"
+    ],
+    "limitations": [
+      "scroll-to-chapter capture did not reach requested chapter; observed body sample only",
+      "no exhaustive interaction/accessibility audit",
+      "local Playwright installation failed: truncated browser archive"
+    ]
+  },
+  "european_framework": "Europass EQF learning-outcome categories used as design framework only; no EQF level or accreditation asserted",
+  "publication_verified": false,
+  "pending": [
+    "targeted merge and deployment",
+    "served content verification",
+    "independent expert review",
+    "learner pilot"
+  ]
+}
