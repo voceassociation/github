@@ -3,7 +3,7 @@
   "updated_on": "2026-10-26",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "076a03cca1074dad2d953b0a47c51e0f070d4277",
+  "base_head_read": "3b7512321819a52e658b2b32cbe18ea1fb7e8d87",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -37,15 +37,15 @@
     "title": "Qui donne ses droits à un agent?",
     "status": "partial_source_only_not_for_publication",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-002/06-outils-et-injection.html",
-      "content/courses/engineering/VOCE-AI-002/test_tool_boundary.py",
+      "content/courses/engineering/VOCE-AI-002/07-preuves-et-exploitation.html",
+      "content/courses/engineering/VOCE-AI-002/test_audit_projection.py",
       "content/courses/engineering/VOCE-AI-002/course.json",
       "content/courses/engineering/VOCE-AI-002/render.py",
       "content/courses/engineering/VOCE-AI-002/references.html",
       "content/courses/engineering/VOCE-AI-002/checks-2026-10-26.json",
       "docs/education/rewrite-progress.json"
     ],
-    "lesson_characters": 97266,
+    "lesson_characters": 111458,
     "minimum_lesson_characters": 75000,
     "measurement": "Counter de scripts/audit-course-volume.py ; concaténation ordonnée des chapitres dans article ; texte des seuls blocs lesson, espaces normalisés ; aucun texte de la page historique ajouté",
     "chapters_written": [
@@ -54,10 +54,10 @@
       "03-approbation-version-transaction.html",
       "04-politiques-objets-relations.html",
       "05-revocation-distribuee.html",
-      "06-outils-et-injection.html"
+      "06-outils-et-injection.html",
+      "07-preuves-et-exploitation.html"
     ],
     "chapters_remaining": [
-      "07-preuves-et-exploitation : traces minimales, modes dégradés, délégations d'urgence et revue de droits",
       "08-laboratoire-et-analyse : enseigner le modèle exécutable complet et analyser ses limites ; code, exercices et corrigés exclus du volume"
     ],
     "sources_consulted": [
@@ -143,6 +143,11 @@
         "url": "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html",
         "scope": "Agent-Specific Defenses, Secure Implementation Pipeline",
         "consulted_on": "2026-10-26"
+      },
+      {
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html",
+        "scope": "Event attributes, Data to exclude, Event collection",
+        "consulted_on": "2026-10-26"
       }
     ],
     "checks_executed": {
@@ -162,14 +167,14 @@
       ]
     },
     "limits": [
-      "97 266 caractères pédagogiques ; cours incomplet, non prêt à publier",
+      "111 458 caractères pédagogiques ; laboratoire final et évaluations incomplets, non prêt à publier",
       "Modèles de politique et de révocation testés ; laboratoire transactionnel complet, exercices et corrigés encore à écrire",
       "Relecture indépendante et contrôle visuel non réalisés",
       "Rendu de prévisualisation uniquement ; aucun changement de la page historique ni du catalogue",
       "Détection des répétitions limitée aux paragraphes identiques et aux sources AI-001 core/engineering ; ne prouve pas la qualité pédagogique"
     ],
-    "next_action": "Rédiger 07-preuves-et-exploitation : événements de décision et effets, minimisation et intégrité des traces, rapprochement, accès urgence et revue de droits. Puis réaliser laboratoire transactionnel complet et 08-laboratoire-et-analyse, exercices et corrigés, contrôles de livraison et publication ciblée depuis main. Ne pas ajouter du texte pour le compteur.",
-    "batch_new_lesson_characters": 11494,
+    "next_action": "Construire le laboratoire transactionnel AI-002 sur SQLite durable : proposition immuable et versionnée, approbation liée à empreinte, mandat actif, budget réservé atomiquement, consommation unique, outbox et événement admission dans même transaction ; tests connexions concurrentes, rollback, réponse perdue et reprise. Consulter documentation SQLite/Python. Rédiger 08-laboratoire-et-analyse à partir du code réellement testé, puis exercices et corrigés séparés du volume. Revue complète et rendu avant livraison ciblée depuis main. Pas de texte supplémentaire pour atteindre un seuil déjà dépassé.",
+    "batch_new_lesson_characters": 14192,
     "policy_model_checks": {
       "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-002 -p test_policy_model.py -v",
       "result": "6 tests passed",
@@ -178,9 +183,9 @@
     },
     "model_checks_this_batch": {
       "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-002 -p 'test_*.py'",
-      "result": "17 tests passed",
-      "new_tests": 6,
-      "scope": "Adaptateur déterministe testé avec propositions non fiables ; modèles précédents réexécutés ; aucun test avec modèle réel ou services externes"
+      "result": "21 tests passed",
+      "new_tests": 4,
+      "scope": "Projection positive des champs, encodage des retours ligne, champ obligatoire et calcul de capacité ; tests précédents réexécutés. Aucun collecteur réel ni garantie transactionnelle testés dans ce lot."
     }
   }
 }
