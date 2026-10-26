@@ -5,6 +5,13 @@
       "source": "content/courses/engineering/VOCE-AI-001",
       "version": "0.6.0",
       "review": "engineering revision; independent review pending"
+    },
+    "VOCE-AI-002": {
+      "route": "cours/permissions-agent.html",
+      "source": "content/courses/engineering/VOCE-AI-002",
+      "version": "0.8.0",
+      "renderer": "content/courses/engineering/VOCE-AI-002/render_release.py",
+      "review": "technical consistency and local tests checked; independent review pending"
     }
   }
 }

@@ -79,7 +79,7 @@
       "id": "VOCE-AI-002",
       "pillar": "AI",
       "title": "Qui donne ses droits à un agent?",
-      "objective": "Définir une matrice de droits testable",
+      "objective": "Spécifier et tester les droits des agents : délégation, approbation liée au contenu, révocation et admission transactionnelle",
       "competence_id": "VCLF-API-AI002",
       "references": [
         "VOCE16",
@@ -87,15 +87,15 @@
         "NISTGEN",
         "OWASP"
       ],
-      "version": "0.5.2",
-      "review_status": "PUBLIC_RENDER_AND_VOLUME_CHECKED / INDEPENDENT_REVIEW_NOT_PERFORMED",
+      "version": "0.8.0",
+      "review_status": "ENGINEERING_LOCAL_TESTS_AND_SAMPLED_RENDER_CHECKED / INDEPENDENT_REVIEW_NOT_PERFORMED",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
       "url": "https://voce.life/cours/permissions-agent",
       "publication_status": "PUBLIC_FULL_READER_VERIFIED",
       "independent_expert_validated": false,
       "resource_type": "developed_written_course",
-      "seo_description": "Permissions, délégation entre services et réservations concurrentes. Trois cas fictifs corrigés;255minutes estimées;relecture indépendante non réalisée.",
+      "seo_description": "Droits des agents IA pour ingénieurs : délégation, approbation, révocation et laboratoire transactionnel SQLite avec exercices corrigés.",
       "indexing_policy": {
         "eligible": true,
         "robots": "index,follow",
@@ -110,14 +110,14 @@
         "en": "https://voce.life/en/cours/permissions-agent",
         "it": "https://voce.life/it/cours/permissions-agent"
       },
-      "date_modified": "2026-10-25",
+      "date_modified": "2026-10-26",
       "planned_learning_minutes": {
-        "min": 255,
-        "max": 255,
-        "basis": "Pedagogical estimate; no learner pilot"
+        "min": 360,
+        "max": 540,
+        "basis": "Estimation de lecture, programmation et correction ; non mesurée auprès des apprenants"
       },
       "assessment_id": "VOCE-AI-002-CASE-20261018",
-      "content_source": "content/courses/ai-workshops.txt",
+      "content_source": "content/courses/engineering/VOCE-AI-002",
       "history": [
         {
           "version": "0.3.0",
@@ -133,6 +133,11 @@
           "version": "0.5.2",
           "date": "2026-10-25",
           "change": "Three substantive chapters, reservation case and source comparisons; public NFC volume85683 verified; no social release yet"
+        },
+        {
+          "version": "0.8.0",
+          "date": "2026-10-26",
+          "change": "Huit chapitres ingénieur, laboratoire SQLite, 32 tests locaux et exercices corrigés ; mêmes URL et statut"
         }
       ],
       "depth_source": "content/courses/ai-depth.txt",
@@ -149,9 +154,8 @@
         "it": "under_reconstruction"
       },
       "listed_in_active_catalogue": true,
-      "eligible_pedagogical_characters": 85683,
-      "minimum_pedagogical_characters": 20000,
-      "content_hash": "a1dbc53c9ab779ca94f88faf7e83c8cd3697060bc8edf9618a2f9635034fcb85"
+      "eligible_pedagogical_characters": 130369,
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-003",
