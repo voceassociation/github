@@ -1,5 +1,5 @@
 {
-  "version": "0.5.3",
+  "version": "0.5.4",
   "publication_date": "2026-10-17",
   "courses": [
     {
@@ -73,7 +73,7 @@
       },
       "listed_in_active_catalogue": true,
       "eligible_pedagogical_characters": 91018,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-002",
@@ -150,7 +150,7 @@
       },
       "listed_in_active_catalogue": true,
       "eligible_pedagogical_characters": 85683,
-      "minimum_pedagogical_characters": 75000,
+      "minimum_pedagogical_characters": 20000,
       "content_hash": "a1dbc53c9ab779ca94f88faf7e83c8cd3697060bc8edf9618a2f9635034fcb85"
     },
     {
@@ -232,7 +232,7 @@
       },
       "listed_in_active_catalogue": true,
       "eligible_pedagogical_characters": 82019,
-      "minimum_pedagogical_characters": 75000,
+      "minimum_pedagogical_characters": 20000,
       "content_hash": "e073480f1e4993792eeba72bb37f01f8f6a645f579cabea523f0fc2c65ff3078"
     },
     {
@@ -247,29 +247,35 @@
         "NISTGEN",
         "OWASP"
       ],
-      "version": "0.4.0",
-      "review_status": "OLD_VERSION_NOT_A_COMPLETE_COURSE",
+      "version": "0.5.1",
+      "review_status": "PUBLIC_RENDER_AND_VOLUME_CHECKED / INDEPENDENT_REVIEW_NOT_PERFORMED",
       "source_date": "2026-10-13",
       "author": "VOCE Association; auteurs individuels non indiqués dans le démonstrateur",
       "url": "https://voce.life/cours/reevaluer-agent",
-      "publication_status": "UNDER_SUBSTANTIVE_RECONSTRUCTION",
+      "publication_status": "PUBLIC_FULL_READER_VERIFIED",
       "independent_expert_validated": false,
       "resource_type": "historical_resource_under_reconstruction",
-      "seo_description": "Définir les tests nécessaires après modification. Sujet en reconstruction ; ancienne version exclue du catalogue actif des cours complets.",
+      "seo_description": "Réévaluer un agent après changement : tables appariées, régressions sensibles et retour de version ; deux cas fictifs corrigés ;120minutes estimées.",
       "indexing_policy": {
         "eligible": true,
         "robots": "index,follow",
         "reason": "historical_written_course_available",
         "status_note": "Historical policy retained; no robots, canonical or sitemap change performed by this catalogue update."
       },
-      "available_languages": [],
+      "available_languages": [
+        "fr"
+      ],
       "localized_urls": {
         "fr": "https://voce.life/cours/reevaluer-agent",
         "en": "https://voce.life/en/cours/reevaluer-agent",
         "it": "https://voce.life/it/cours/reevaluer-agent"
       },
-      "date_modified": "2026-10-25",
-      "planned_learning_minutes": null,
+      "date_modified": "2026-10-26",
+      "planned_learning_minutes": {
+        "min": 120,
+        "max": 120,
+        "basis": "Pedagogical estimate; no learner pilot"
+      },
       "assessment_id": "VOCE-AI-004-CASE-20261018",
       "content_source": "content/courses/ai-workshops.txt",
       "history": [
@@ -282,6 +288,11 @@
           "version": "0.4.0",
           "date": "2026-10-18",
           "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
+        },
+        {
+          "version": "0.5.1",
+          "date": "2026-10-26",
+          "change": "Historical reader individually reconstructed, minimum20000; public29660NFC checked; longer readers untouched"
         }
       ],
       "depth_source": "content/courses/ai-depth.txt",
@@ -293,12 +304,14 @@
       "learner_pilot": "not_performed",
       "social_release_authorized": false,
       "language_revision_status": {
-        "fr": "under_reconstruction",
+        "fr": "public_reader_verified",
         "en": "under_reconstruction",
         "it": "under_reconstruction"
       },
-      "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "listed_in_active_catalogue": true,
+      "minimum_pedagogical_characters": 20000,
+      "eligible_pedagogical_characters": 29660,
+      "content_hash": "0e84301a03e836077950dc983b7f562a5e7f74854384528f6ce56da6008d907a"
     },
     {
       "id": "VOCE-AI-005",
@@ -363,7 +376,7 @@
         "it": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-006",
@@ -429,7 +442,7 @@
         "it": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-007",
@@ -495,7 +508,7 @@
         "it": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-008",
@@ -560,7 +573,7 @@
         "it": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-009",
@@ -625,7 +638,7 @@
         "it": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-010",
@@ -690,7 +703,7 @@
         "it": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-011",
@@ -754,7 +767,7 @@
         "it": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-012",
@@ -819,7 +832,7 @@
         "it": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-013",
@@ -884,7 +897,7 @@
         "it": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-014",
@@ -949,7 +962,7 @@
         "it": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-015",
@@ -1014,7 +1027,7 @@
         "it": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-016",
@@ -1079,7 +1092,7 @@
         "it": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-017",
@@ -1132,7 +1145,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-018",
@@ -1185,7 +1198,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-019",
@@ -1238,7 +1251,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-020",
@@ -1291,7 +1304,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-021",
@@ -1344,7 +1357,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-022",
@@ -1397,7 +1410,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-023",
@@ -1450,7 +1463,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-024",
@@ -1503,7 +1516,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-025",
@@ -1557,7 +1570,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-026",
@@ -1611,7 +1624,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-027",
@@ -1664,7 +1677,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-028",
@@ -1717,7 +1730,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-029",
@@ -1771,7 +1784,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-030",
@@ -1824,7 +1837,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-031",
@@ -1877,7 +1890,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-032",
@@ -1930,7 +1943,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-033",
@@ -1984,7 +1997,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-034",
@@ -2037,7 +2050,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-035",
@@ -2090,7 +2103,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-036",
@@ -2143,7 +2156,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-037",
@@ -2196,7 +2209,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-038",
@@ -2250,7 +2263,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-039",
@@ -2304,7 +2317,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-040",
@@ -2358,7 +2371,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-041",
@@ -2412,7 +2425,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-042",
@@ -2465,7 +2478,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-043",
@@ -2518,7 +2531,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-044",
@@ -2572,7 +2585,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-045",
@@ -2626,7 +2639,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-046",
@@ -2680,7 +2693,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-047",
@@ -2734,7 +2747,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-048",
@@ -2788,7 +2801,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-049",
@@ -2842,7 +2855,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-050",
@@ -2896,7 +2909,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-051",
@@ -2951,7 +2964,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-052",
@@ -3005,7 +3018,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-053",
@@ -3059,7 +3072,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-054",
@@ -3113,7 +3126,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-055",
@@ -3167,7 +3180,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-056",
@@ -3220,7 +3233,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-057",
@@ -3274,7 +3287,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-058",
@@ -3329,7 +3342,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-059",
@@ -3383,7 +3396,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-AI-060",
@@ -3437,7 +3450,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-001",
@@ -3492,7 +3505,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-002",
@@ -3545,7 +3558,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-003",
@@ -3599,7 +3612,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-004",
@@ -3652,7 +3665,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-005",
@@ -3705,7 +3718,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-006",
@@ -3758,7 +3771,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-007",
@@ -3811,7 +3824,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-008",
@@ -3864,7 +3877,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-009",
@@ -3918,7 +3931,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-010",
@@ -3971,7 +3984,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-011",
@@ -4024,7 +4037,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-012",
@@ -4078,7 +4091,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-013",
@@ -4132,7 +4145,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-014",
@@ -4185,7 +4198,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-015",
@@ -4238,7 +4251,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-016",
@@ -4291,7 +4304,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-017",
@@ -4344,7 +4357,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-018",
@@ -4397,7 +4410,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-019",
@@ -4451,7 +4464,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-020",
@@ -4505,7 +4518,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-021",
@@ -4558,7 +4571,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-022",
@@ -4612,7 +4625,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-023",
@@ -4666,7 +4679,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-024",
@@ -4720,7 +4733,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-025",
@@ -4774,7 +4787,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-026",
@@ -4829,7 +4842,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-027",
@@ -4884,7 +4897,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-028",
@@ -4938,7 +4951,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-029",
@@ -4991,7 +5004,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-ART-030",
@@ -5046,7 +5059,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-001",
@@ -5099,7 +5112,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-002",
@@ -5152,7 +5165,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-003",
@@ -5205,7 +5218,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-004",
@@ -5258,7 +5271,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-005",
@@ -5311,7 +5324,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-006",
@@ -5364,7 +5377,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-007",
@@ -5417,7 +5430,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-008",
@@ -5470,7 +5483,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-009",
@@ -5523,7 +5536,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-010",
@@ -5577,7 +5590,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-011",
@@ -5632,7 +5645,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-012",
@@ -5703,7 +5716,7 @@
       },
       "listed_in_active_catalogue": false,
       "eligible_pedagogical_characters": 67159,
-      "minimum_pedagogical_characters": 75000,
+      "minimum_pedagogical_characters": 20000,
       "content_hash": "8d2c84a034cc843db81cdc78fe409245bad7f7edeccf3277d24e34040fae89fd"
     },
     {
@@ -5757,7 +5770,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-014",
@@ -5810,7 +5823,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-015",
@@ -5863,7 +5876,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-016",
@@ -5917,7 +5930,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-017",
@@ -5971,7 +5984,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-018",
@@ -6025,7 +6038,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-019",
@@ -6079,7 +6092,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-020",
@@ -6132,7 +6145,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-021",
@@ -6185,7 +6198,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-022",
@@ -6239,7 +6252,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-023",
@@ -6292,7 +6305,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-024",
@@ -6345,7 +6358,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-025",
@@ -6398,7 +6411,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-026",
@@ -6452,7 +6465,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-027",
@@ -6506,7 +6519,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-028",
@@ -6560,7 +6573,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-029",
@@ -6614,7 +6627,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     },
     {
       "id": "VOCE-COG-030",
@@ -6668,7 +6681,7 @@
         "fr": "under_reconstruction"
       },
       "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 75000
+      "minimum_pedagogical_characters": 20000
     }
   ],
   "references": [
@@ -8613,14 +8626,15 @@
     "course_ids": [
       "VOCE-AI-001",
       "VOCE-AI-003",
-      "VOCE-AI-002"
+      "VOCE-AI-002",
+      "VOCE-AI-004"
     ],
     "full_text_languages": [
       "fr"
     ],
     "additional_course_note": "VOCE-NP-002 is a distinct additional course at https://voce.life/cours/voce-np-002; not equivalent to historical VOCE-COG-011.",
-    "technical_threshold_note": "Superseded: universal75000 eligible pedagogical characters per course and per language, all disciplines, Giovanni mandate25October2026.",
-    "minimum_eligible_characters": 75000
+    "technical_threshold_note": "Giovanni26October: historical readers minimum20000, longer editions preserved; new courses paused, future new course minimum75000.",
+    "minimum_eligible_characters": 20000
   },
   "additional_courses": [
     {
@@ -8632,7 +8646,7 @@
         "fr"
       ],
       "eligible_pedagogical_characters": 69904,
-      "minimum_pedagogical_characters": 75000,
+      "minimum_pedagogical_characters": 20000,
       "publication_status": "PUBLIC_REWRITTEN_READER_REQUIRES_EXTENSION_TO_UNIVERSAL_75000",
       "listed_in_active_catalogue": false,
       "independent_expert_validated": false,
