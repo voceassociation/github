@@ -3,7 +3,7 @@
   "updated_on": "2026-10-26",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "f000423679195e1d162775170de492a720145a6e",
+  "base_head_read": "0d96818eb05ca7eeaa56494f08ab6d0fe26d00ed",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -77,24 +77,22 @@
   "current_course": {
     "id": "VOCE-AI-003",
     "title": "Quelle preuve demander avant d’autoriser une action?",
-    "status": "in_progress_chapter_01_saved",
+    "status": "in_progress_chapters_01_02_saved",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-003/01-contrat-de-preuve.html",
-      "content/courses/engineering/VOCE-AI-003/README.md",
-      "content/courses/engineering/VOCE-AI-003/oracle.py",
+      "content/courses/engineering/VOCE-AI-003/02-scenarios-et-mutations.html",
+      "content/courses/engineering/VOCE-AI-003/test_scenarios.py",
       "content/courses/engineering/VOCE-AI-003/references.html",
-      "content/courses/engineering/VOCE-AI-003/render.py",
-      "content/courses/engineering/VOCE-AI-003/test_oracle.py",
-      "content/courses/engineering/VOCE-AI-003/checks-2026-10-26.json",
+      "content/courses/engineering/VOCE-AI-003/README.md",
+      "content/courses/engineering/VOCE-AI-003/checks-2026-10-26-ch02.json",
       "docs/education/rewrite-progress.json"
     ],
-    "lesson_characters": 22740,
-    "measurement": "Texte du seul fichier 01-contrat-de-preuve.html, espaces normalisés, titres pédagogiques inclus. Références, README, métadonnées, code et tests exclus. Ne comprend pas les 82019 caractères déclarés par l’édition existante main.",
+    "lesson_characters": 43320,
+    "measurement": "Texte normalisé des deux fichiers de chapitres, titres pédagogiques inclus. Références, README, métadonnées, code et tests exclus. Édition concurrente de main non additionnée.",
     "chapters_written": [
-      "01 — Contrat de preuve, propriété sur les transitions, observation projetée, oracle à trois verdicts, fermeture, trace corrigée et bornes descriptives (8 sections)"
+      "01 — Contrat de preuve, propriété sur les transitions, observation projetée, oracle à trois verdicts, fermeture, trace corrigée et bornes descriptives (8 sections)",
+      "02 — Partitions, frontières, couverture par paires, ordre concurrent, mutations des pièces et séparation construction/réception (8 sections)"
     ],
     "chapters_remaining": [
-      "02 — Sélection des scénarios : partitions et frontières, mutations de l’instrumentation, jeux de construction et de réception",
       "03 — Provenance et causalité des traces, collecte minimisée et preuve de couverture",
       "04 — Quantification de l’incertitude et décision de réception",
       "05 — Argument d’assurance, révision des hypothèses et dossier de livraison",
@@ -105,12 +103,17 @@
         "url": "https://airc.nist.gov/airmf-resources/playbook/measure/",
         "date": "2026-10-26",
         "scope": "MEASURE 1.1, 1.2, 1.3, 2.1 ; discipline documentaire seulement"
+      },
+      {
+        "url": "https://csrc.nist.gov/projects/automated-combinatorial-testing-for-software",
+        "date": "2026-10-26",
+        "scope": "Présentation ACTS, mise à jour 2026-06-08 ; interactions de facteurs et couverture. Publications liées non lues intégralement."
       }
     ],
     "checks_executed": [
-      "11 tests unitaires de l’oracle synthétique réussis",
-      "Deux rendus déterministes identiques par cmp",
-      "Volume mesuré : 22740 caractères pédagogiques"
+      "18 tests réussis, dont 7 nouveaux scénarios de couverture et mutations",
+      "Deux rendus identiques comparés par cmp",
+      "43320 caractères pédagogiques, dont 20580 ajoutés"
     ],
     "limits": [
       "Cours sous le seuil de 75000 ; aucune édition terminée supplémentaire",
@@ -120,12 +123,12 @@
       "Le document Lamport tenté est inaccessible et non utilisé"
     ],
     "states": {
-      "saved": "Source et checkpoint préparés pour commit atomique GitHub ; confirmation par le commit de ce lot",
-      "controlled": "Quantité, 11 tests locaux, déterminisme ; contrôles partiels",
+      "saved": "Lot atomique sur la branche de travail ; identité du commit dans historique GitHub",
+      "controlled": "Volume, 18 tests synthétiques, déterminisme ; contrôle partiel",
       "published": false
     },
     "main_baseline": "c670945dd61c4329c744f3548f66290ebe0d6528",
-    "next_action": "Rédiger le chapitre 02 : choisir les scénarios de contrôle par partitions et frontières, construire des mutations de l’instrumentation, séparer jeux de construction et réception. Lire les sections 4 à 8 de l’édition récente main avant intégration pour éviter les répétitions. Conserver les sources du chapitre 01 et le laboratoire, sauvegarder le lot sur fix/course-acceptance-75000. Ne pas publier AI-003 tant que le cours complet et ses contrôles ne sont pas prêts ; livraison ciblée depuis main, jamais fusion aveugle PR39."
+    "next_action": "Rédiger le chapitre 03 : provenance et causalité des traces, collecte minimisée, liaison entre événement et source autoritative, preuve de couverture. Traiter la limite du faux certificat mise en évidence au chapitre 02. Lire les sections 9 à 14 de main pour réconcilier le contenu existant sans répétition. Sauvegarder les sources et le checkpoint. AI-003 incomplet : aucune livraison publique ; préparer ultérieurement une livraison ciblée depuis main récent."
   },
   "completed_courses": {
     "VOCE-AI-002": {

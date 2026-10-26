@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-26",
+  "course": "VOCE-AI-003",
+  "base": "0d96818eb05ca7eeaa56494f08ab6d0fe26d00ed",
+  "main_read": "c670945dd61c4329c744f3548f66290ebe0d6528",
+  "lesson_characters": 43320,
+  "chapters": [
+    "01-contrat-de-preuve.html",
+    "02-scenarios-et-mutations.html"
+  ],
+  "sha256": "f3c801d0221c0f929fb8df237899a0811e6e84f87627ad7ffe68031f118ad246",
+  "added_characters": 20580,
+  "tests_passed": 18,
+  "new_tests": 7,
+  "command": "python -m unittest discover -v -s content/courses/engineering/VOCE-AI-003",
+  "determinism": "Two outputs equal with cmp",
+  "limits": [
+    "Synthetic data only; no concurrency or ACTS execution",
+    "Forged coverage remains an explicitly tested blind spot",
+    "No visual or independent review"
+  ],
+  "published": false
+}
