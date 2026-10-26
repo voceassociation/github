@@ -7,7 +7,7 @@ import re
 HERE=Path(__file__).resolve().parent
 DESCRIPTION='Droits des agents IA pour ingénieurs : délégation, approbation, révocation et laboratoire transactionnel SQLite avec exercices corrigés.'
 
-def render(output):
+def render(output, lab_output=None):
     meta=json.loads((HERE/'course.json').read_text())
     chapters=''.join((HERE/name).read_text() for name in meta['chapters'])
     headings=re.findall(r'<section[^>]+id="([^"]+)"[^>]*>\s*<h2>(.*?)</h2>',chapters,re.S)
@@ -25,8 +25,13 @@ def render(output):
     s=re.sub(r'(<meta (?:name="description"|property="og:description"|name="twitter:description") content=")[^"]*(")',lambda m:m[1]+html.escape(DESCRIPTION,quote=True)+m[2],s)
     s=s.replace('</head>','<style>.course-written pre{max-width:100%;overflow-x:auto}.course-written code{overflow-wrap:anywhere}.course-written nav{margin-block:2rem}</style></head>')
     output=Path(output);output.parent.mkdir(parents=True,exist_ok=True);output.write_text(s)
+    if lab_output is not None:
+        lab_output=Path(lab_output);lab_output.mkdir(parents=True,exist_ok=True)
+        for name in ("transaction_lab.py", "test_transaction_lab.py"):
+            (lab_output/(name+".txt")).write_text((HERE/name).read_text())
     return s
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--output',required=True,type=Path)
-    render(parser.parse_args().output)
+    parser.add_argument('--lab-output',type=Path)
+    args=parser.parse_args();render(args.output,args.lab_output)
