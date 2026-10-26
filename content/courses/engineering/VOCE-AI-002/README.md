@@ -1,4 +1,4 @@
-# VOCE-AI-002 : édition ingénieur, revue de livraison à effectuer
+# VOCE-AI-002 : édition ingénieur 0.8.0
 
 Huit chapitres rédigés. Le laboratoire transactionnel utilise deux bases SQLite locales, sans dépendance externe ; le fournisseur est simulé. Les exercices et corrigés sont dans exercises.html, exclus du volume pédagogique comme le code et la bibliographie. Les scénarios sont fictifs. Les modèles de politiques, révocation, outils et traces complètent le laboratoire ; ils ne constituent pas une intégration IAM réelle.
 
@@ -14,4 +14,12 @@ Les tests créent et suppriment des bases temporaires. Aucun paiement ni appel r
 
 Le compteur de référence est Counter dans scripts/audit-course-volume.py. Seuls les blocs lesson des chapitres contribuent au volume. Le rendu déterministe conserve le gabarit officiel mais retire les anciennes données structurées et impose noindex pour la prévisualisation ; il refuse toute destination dans le dépôt. Cette protection ne doit être levée que dans une livraison ciblée issue du main récent, avec métadonnées et contrôles de publication adaptés.
 
-Prochaine action : revue technique et documentaire des huit chapitres, vérification exercices/corrigés, inspection visuelle desktop/mobile du rendu avec les ressources officielles, puis livraison ciblée. La publication progressive est autorisée dès que le cours est prêt et contrôlé ; il ne faut pas attendre les 120 cours. Aucune publication AI-002 n'est constatée à ce stade. Relecture indépendante et pilote apprenant non effectués.
+La revue de cohérence du 26 octobre a corrigé les divergences entre architecture complète et laboratoire réduit, notamment révocation, version de politique, échéances et journalisation. 32 tests locaux passent, dont 11 transactionnels. Le rendu a été échantillonné sur ordinateur et mobile via Cloudflare ; aucune revue indépendante ni pilote apprenant n'a été effectué.
+
+Le rendu publiable ciblé utilise le gabarit capturé depuis main, sans modifier les autres cours :
+
+```sh
+python content/courses/engineering/VOCE-AI-002/render_release.py --output cours/permissions-agent.html
+```
+
+La publication suit une PR ciblée issue de main ; le checkpoint distingue sauvegarde, fusion et vérification publique. Le rendu de travail render.py reste protégé contre une écriture en production.
