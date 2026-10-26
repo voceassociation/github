@@ -1,0 +1,42 @@
+{
+  "course": "VOCE-AI-002",
+  "date": "2026-10-26",
+  "prs": [
+    41,
+    42
+  ],
+  "merge_commits": [
+    "aa7398d4119d3acd03f90eb06780df6fcbc34003",
+    "c670945dd61c4329c744f3548f66290ebe0d6528"
+  ],
+  "url": "https://voce.life/cours/permissions-agent",
+  "version": "0.8.0",
+  "lesson_characters": 130369,
+  "tests_passed": 32,
+  "cloudflare": {
+    "worker": "github",
+    "build_id": "75302297-03bf-4578-89a8-2449f3acb1a2",
+    "outcome": "success",
+    "stopped_on": "2026-10-26T07:09:05.730Z"
+  },
+  "public_checks": {
+    "method": "Cloudflare Browser Rendering URL content requests; local HTTP returned 403",
+    "edition_marker": true,
+    "chapter_8_8": true,
+    "canonical": true,
+    "course_schema_version": "0.8.0",
+    "catalogue_link": true,
+    "sitemap_route": true,
+    "public_catalogue_json_version": true,
+    "transaction_lab_download_content": true,
+    "test_lab_download_content": true,
+    "download_fix": "content excluded by .assetsignore; .py.txt copies published under assets/course-labs/VOCE-AI-002"
+  },
+  "limits": [
+    "Independent expert review not performed",
+    "Learner pilot not performed",
+    "Visual checks sampled, not exhaustive accessibility/interaction audit",
+    "Models separate; simulated provider and no real OAuth integration"
+  ],
+  "release_source_sha256": "c813c5fbe927b8afeef594bb556491622f40350f842ce2c008c1d796a287c1be"
+}
