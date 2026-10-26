@@ -3,7 +3,7 @@
   "updated_on": "2026-10-26",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "22efbcb036698923ba0cf5d7d249cc04b2cfc0b6",
+  "base_head_read": "a7a3191e0da6dcc1e455050df0cd8caed6873332",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -77,25 +77,25 @@
   "current_course": {
     "id": "VOCE-AI-003",
     "title": "Quelle preuve demander avant d’autoriser une action?",
-    "status": "in_progress_chapters_01_02_03_saved",
+    "status": "in_progress_chapters_01_to_04_volume_met",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-003/03-provenance-et-couverture.html",
-      "content/courses/engineering/VOCE-AI-003/provenance.py",
-      "content/courses/engineering/VOCE-AI-003/test_provenance.py",
+      "content/courses/engineering/VOCE-AI-003/04-incertitude-et-decision.html",
+      "content/courses/engineering/VOCE-AI-003/uncertainty.py",
+      "content/courses/engineering/VOCE-AI-003/test_uncertainty.py",
       "content/courses/engineering/VOCE-AI-003/references.html",
       "content/courses/engineering/VOCE-AI-003/README.md",
-      "content/courses/engineering/VOCE-AI-003/checks-2026-10-26-ch03.json",
+      "content/courses/engineering/VOCE-AI-003/checks-2026-10-26-ch04.json",
       "docs/education/rewrite-progress.json"
     ],
-    "lesson_characters": 62931,
-    "measurement": "Texte normalisé des trois fichiers de chapitres, titres pédagogiques inclus. Références, README, métadonnées, code et tests exclus. Édition concurrente de main non additionnée.",
+    "lesson_characters": 81137,
+    "measurement": "Texte normalisé des quatre fichiers de chapitres, titres pédagogiques inclus. Références, README, métadonnées, code et tests exclus. Édition concurrente de main non additionnée.",
     "chapters_written": [
       "01 — Contrat de preuve, propriété sur les transitions, observation projetée, oracle à trois verdicts, fermeture, trace corrigée et bornes descriptives (8 sections)",
       "02 — Partitions, frontières, couverture par paires, ordre concurrent, mutations des pièces et séparation construction/réception (8 sections)",
-      "03 — Frontière de confiance, manifeste, séquences, source transactionnelle, causalité, minimisation et limites cryptographiques (8 sections)"
+      "03 — Frontière de confiance, manifeste, séquences, source transactionnelle, causalité, minimisation et limites cryptographiques (8 sections)",
+      "04 — Population, borne zéro événement, dépendance, détection, strates, coûts et comparaisons multiples (7 sections)"
     ],
     "chapters_remaining": [
-      "04 — Quantification de l’incertitude et décision de réception",
       "05 — Argument d’assurance, révision des hypothèses et dossier de livraison",
       "06 — Laboratoire intégré, exercices et corrigés hors volume pédagogique"
     ],
@@ -114,15 +114,20 @@
         "url": "https://www.rfc-editor.org/rfc/rfc9162.html",
         "date": "2026-10-26",
         "scope": "RFC9162, décembre2021, Experimental : introduction et statut ; garanties des journaux et vues divergentes, lecture ciblée seulement."
+      },
+      {
+        "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm",
+        "date": "2026-10-26",
+        "scope": "NIST/SEMATECH section7.2.4.1 : intervalles de proportion et construction binomiale exacte. Référence fondamentale ; cas unilatéral zéro événement dérivé dans le cours."
       }
     ],
     "checks_executed": [
-      "28 tests réussis, dont 10 nouveaux tests de provenance",
+      "35 tests réussis, dont 7 nouveaux tests de calcul et cas limites",
       "Deux rendus identiques comparés par cmp",
-      "62931 caractères pédagogiques, dont 19611 ajoutés"
+      "81137 caractères pédagogiques, dont 18206 ajoutés"
     ],
     "limits": [
-      "Cours sous le seuil de 75000 ; aucune édition terminée supplémentaire",
+      "Seuil de volume atteint mais cours incomplet : chapitres05/06, exercices et contrôles de livraison restants",
       "Oracle local sur traces fictives ; couverture et authenticité supposées, aucun fournisseur réel testé",
       "Relecture indépendante et contrôle visuel non effectués",
       "Édition concurrente 0.5.1 de main conservée ; sections pertinentes examinées, réconciliation éditoriale complète restante",
@@ -130,11 +135,11 @@
     ],
     "states": {
       "saved": "Lot atomique sur la branche de travail ; identité du commit dans historique GitHub",
-      "controlled": "Volume, 28 tests synthétiques, déterminisme ; contrôle partiel",
+      "controlled": "Volume, 35 tests synthétiques et numériques, déterminisme ; contrôle partiel",
       "published": false
     },
     "main_baseline": "c670945dd61c4329c744f3548f66290ebe0d6528",
-    "next_action": "Rédiger le chapitre 04 : quantification de l’incertitude et décision de réception, population et échantillonnage, dépendances entre essais, bornes et coût des erreurs. Conserver les limites des oracles et du manifeste. AI-003 reste sous 75000 et incomplet ; poursuivre chapitres 05 et 06, exercices et contrôles avant livraison ciblée depuis main récent. Réconciliation éditoriale complète avec l’édition existante encore nécessaire."
+    "next_action": "Rédiger le chapitre 05 : argument d’assurance, dépendances entre revendications et preuves, objections, révision des hypothèses et décision de livraison. Puis terminer chapitre06, laboratoire intégré et exercices corrigés. Ne pas publier sur la seule base du seuil de81137 caractères. Réconcilier l’édition existante de main, effectuer contrôles techniques, documentaires et rendu avant une PR ciblée depuis main récent."
   },
   "completed_courses": {
     "VOCE-AI-002": {

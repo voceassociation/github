@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-26",
+  "course": "VOCE-AI-003",
+  "base": "a7a3191e0da6dcc1e455050df0cd8caed6873332",
+  "main_read": "c670945dd61c4329c744f3548f66290ebe0d6528",
+  "lesson_characters": 81137,
+  "chapters": [
+    "01-contrat-de-preuve.html",
+    "02-scenarios-et-mutations.html",
+    "03-provenance-et-couverture.html",
+    "04-incertitude-et-decision.html"
+  ],
+  "sha256": "2f0a0bf4fee3629647d5e6d026ee631725985f35ac9797eda2afeecbc5712a98",
+  "added_characters": 18206,
+  "tests_passed": 35,
+  "new_tests": 7,
+  "command": "python -m unittest discover -v -s content/courses/engineering/VOCE-AI-003",
+  "determinism": "Two outputs equal with cmp",
+  "limits": [
+    "Planning formulas under stated assumptions, no empirical risk estimate",
+    "No visual or independent review",
+    "Chapters 05 and 06 and exercises unfinished"
+  ],
+  "published": false
+}
