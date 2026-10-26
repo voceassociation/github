@@ -3,7 +3,7 @@
   "updated_on": "2026-10-26",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "0f42527fcfa8304dc243c113ced91d54e86c9b80",
+  "base_head_read": "f460f5d60d0ce7b6e85501ed9002f0812c9a8317",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 113,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 112,
     "preserved_by_selection": 7,
     "eligible_under_20000": 113
   },
@@ -77,56 +77,50 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-006",
-    "title": "Si l’IA traite les dossiers simples, comment former les juniors?",
-    "status": "preserved_draft_above_selection_threshold_not_complete",
-    "lesson_characters": 33862,
-    "measurement": "Sum of normalized chapter fragments only; headings included; bibliography, code and old page excluded.",
+    "id": "VOCE-AI-007",
+    "title": "À quel moment autoriser l’assistance?",
+    "status": "in_progress_chapter_01",
+    "lesson_characters": 14487,
+    "measurement": "Normalized chapter 01 text only, headings included; references and code excluded; old page not added.",
     "chapters_written": [
-      "01-exposition-et-competence.html",
-      "02-diagnostic-et-transfert.html"
+      "01-politique-assistance.html"
     ],
     "chapters_remaining": [
-      "03 — Mesure autonome, délai et interprétation des résultats",
-      "04 — Instrumentation et limites du pilote",
-      "Évaluations et corrigés spécifiques"
+      "02 — Exports, aides complètes, correction et transfert",
+      "03 — Contrôle des contenus révélés et protocole de mesure",
+      "Évaluations spécifiques"
+    ],
+    "files_recorded_in_this_batch": [
+      "content/courses/engineering/VOCE-AI-007/README.md",
+      "content/courses/engineering/VOCE-AI-007/check_model.py",
+      "content/courses/engineering/VOCE-AI-007/01-politique-assistance.html",
+      "content/courses/engineering/VOCE-AI-007/references.html",
+      "content/courses/engineering/VOCE-AI-007/checks-2026-10-26.json"
     ],
     "sources_consulted": [
       {
-        "url": "https://doi.org/10.1093/qje/qjae044",
+        "url": "https://pact.cs.cmu.edu/pubs/Koedinger%20Aleven%2007.pdf",
         "date": "2026-10-26",
-        "scope": "abstract and introduction"
-      },
-      {
-        "url": "https://doi.org/10.1073/pnas.2422633122",
-        "date": "2026-10-26",
-        "scope": "abstract, introduction and beginning of experimental design; not supplements"
+        "scope": "abstract and metadata via search extraction, not full experimental review"
       }
     ],
     "checks_executed": [
-      "11 tests passed: 4 allocation and 7 diagnostic tests; 8 boolean combinations",
-      "No exact duplicate paragraph across chapters 01 and 02",
-      "Chapter-by-chapter normalized character count"
+      "6 local tests passed",
+      "Normalized text count",
+      "No exact duplicate paragraphs within chapter"
     ],
     "states": {
-      "saved": "This commit on work branch",
-      "controlled": "Counts, synthetic diagnostic cases and arithmetic; no independent review",
+      "saved": "This branch commit",
+      "controlled": "Text count, toy classifier and numerical example only",
       "published": false
     },
     "limits": [
-      "Incomplete course",
-      "Independent review not performed",
-      "No learner pilot",
+      "Classifier assumes trusted event list; no distributed persistence or unknown-event validation",
+      "No learner pilot or independent review",
+      "Course incomplete",
       "Full-page visual check not performed"
     ],
-    "next_action": "Preserve AI006 sources now above 20k, without further expansion. Read main and sources for AI007 and select only if below 20k. Do not publish the incomplete AI006 draft as complete.",
-    "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-006/02-diagnostic-et-transfert.html",
-      "content/courses/engineering/VOCE-AI-006/diagnostic_cases.py",
-      "content/courses/engineering/VOCE-AI-006/test_diagnostic_cases.py",
-      "content/courses/engineering/VOCE-AI-006/checks-2026-10-26-ch02.json",
-      "content/courses/engineering/VOCE-AI-006/README.md"
-    ]
+    "next_action": "Recheck main and saved sources against 20k. If eligible, write chapter 02 with complete synthetic exports, hint content and transfer. Preserve AI006 and all other >=20k courses."
   },
   "completed_courses": {
     "VOCE-AI-002": {

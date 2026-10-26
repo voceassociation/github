@@ -1,0 +1,13 @@
+{
+  "lesson_characters": 14487,
+  "tests_passed": 6,
+  "exact_duplicate_paragraphs": 0,
+  "quality_validated": false,
+  "visual_check": false,
+  "published": false,
+  "limitations": [
+    "Classifier assumes trusted event list; no distributed persistence or unknown-event validation",
+    "No learner pilot or independent review",
+    "Course incomplete"
+  ]
+}
