@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-10-25",
+  "updated_on": "2026-10-26",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "a1229c1d01cd77e0ea0286e456dced7668e67cd2",
+  "base_head_read": "076a03cca1074dad2d953b0a47c51e0f070d4277",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -37,15 +37,15 @@
     "title": "Qui donne ses droits à un agent?",
     "status": "partial_source_only_not_for_publication",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-002/05-revocation-distribuee.html",
-      "content/courses/engineering/VOCE-AI-002/test_revocation_model.py",
+      "content/courses/engineering/VOCE-AI-002/06-outils-et-injection.html",
+      "content/courses/engineering/VOCE-AI-002/test_tool_boundary.py",
       "content/courses/engineering/VOCE-AI-002/course.json",
       "content/courses/engineering/VOCE-AI-002/render.py",
       "content/courses/engineering/VOCE-AI-002/references.html",
-      "content/courses/engineering/VOCE-AI-002/checks-2026-10-25.json",
+      "content/courses/engineering/VOCE-AI-002/checks-2026-10-26.json",
       "docs/education/rewrite-progress.json"
     ],
-    "lesson_characters": 85772,
+    "lesson_characters": 97266,
     "minimum_lesson_characters": 75000,
     "measurement": "Counter de scripts/audit-course-volume.py ; concaténation ordonnée des chapitres dans article ; texte des seuls blocs lesson, espaces normalisés ; aucun texte de la page historique ajouté",
     "chapters_written": [
@@ -53,10 +53,10 @@
       "02-delegation-services.html",
       "03-approbation-version-transaction.html",
       "04-politiques-objets-relations.html",
-      "05-revocation-distribuee.html"
+      "05-revocation-distribuee.html",
+      "06-outils-et-injection.html"
     ],
     "chapters_remaining": [
-      "06-outils-et-injection : frontières de confiance, restrictions des outils, données hostiles et contrôle des effets",
       "07-preuves-et-exploitation : traces minimales, modes dégradés, délégations d'urgence et revue de droits",
       "08-laboratoire-et-analyse : enseigner le modèle exécutable complet et analyser ses limites ; code, exercices et corrigés exclus du volume"
     ],
@@ -133,12 +133,22 @@
         "url": "https://openfga.dev/docs/interacting/consistency",
         "scope": "modes de cohérence et cache",
         "consulted_on": "2026-10-25"
+      },
+      {
+        "url": "https://modelcontextprotocol.io/specification/2025-06-18/server/tools",
+        "scope": "Tool definitions, annotations",
+        "consulted_on": "2026-10-26"
+      },
+      {
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html",
+        "scope": "Agent-Specific Defenses, Secure Implementation Pipeline",
+        "consulted_on": "2026-10-26"
       }
     ],
     "checks_executed": {
       "command": "python content/courses/engineering/VOCE-AI-002/check_draft.py",
       "result": "passed",
-      "report": "content/courses/engineering/VOCE-AI-002/checks-2026-10-25.json",
+      "report": "content/courses/engineering/VOCE-AI-002/checks-2026-10-26.json",
       "scope": [
         "deterministic rendering",
         "production destination blocked",
@@ -152,14 +162,14 @@
       ]
     },
     "limits": [
-      "85 772 caractères : seuil de volume atteint, cours encore incomplet, non prêt à publier",
+      "97 266 caractères pédagogiques ; cours incomplet, non prêt à publier",
       "Modèles de politique et de révocation testés ; laboratoire transactionnel complet, exercices et corrigés encore à écrire",
       "Relecture indépendante et contrôle visuel non réalisés",
       "Rendu de prévisualisation uniquement ; aucun changement de la page historique ni du catalogue",
       "Détection des répétitions limitée aux paragraphes identiques et aux sources AI-001 core/engineering ; ne prouve pas la qualité pédagogique"
     ],
-    "next_action": "Rédiger 06-outils-et-injection.html : propositions non fiables du modèle, schémas outils, contrôle des paramètres et destinations, prévention des effets induits par documents hostiles ; consulter sources primaires. Puis 07-preuves-et-exploitation et 08-laboratoire-et-analyse, laboratoire transactionnel complet avec tests, exercices et corrigés, revue de livraison et publication ciblée depuis main. Le seuil de longueur est déjà franchi : ne pas ajouter de texte pour le compteur.",
-    "batch_new_lesson_characters": 19271,
+    "next_action": "Rédiger 07-preuves-et-exploitation : événements de décision et effets, minimisation et intégrité des traces, rapprochement, accès urgence et revue de droits. Puis réaliser laboratoire transactionnel complet et 08-laboratoire-et-analyse, exercices et corrigés, contrôles de livraison et publication ciblée depuis main. Ne pas ajouter du texte pour le compteur.",
+    "batch_new_lesson_characters": 11494,
     "policy_model_checks": {
       "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-002 -p test_policy_model.py -v",
       "result": "6 tests passed",
@@ -167,10 +177,10 @@
       "scope": "Modèle en mémoire : périmètre, habilitations, relations, résolution identifiants et recherche ; aucune intégration PostgreSQL ou OpenFGA"
     },
     "model_checks_this_batch": {
-      "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-002 -p 'test_*model.py' -v",
-      "result": "11 tests passed",
-      "new_tests": 5,
-      "scope": "Temps logique, cache fixe, retard réplique, ordre événements et indisponibilité ; modèle de politique réexécuté ; aucune intégration OAuth/OpenFGA/SQL"
+      "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-002 -p 'test_*.py'",
+      "result": "17 tests passed",
+      "new_tests": 6,
+      "scope": "Adaptateur déterministe testé avec propositions non fiables ; modèles précédents réexécutés ; aucun test avec modèle réel ou services externes"
     }
   }
 }
