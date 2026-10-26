@@ -3,12 +3,12 @@
   "updated_on": "2026-10-26",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "4215b296ef8a7913cdc81a1af70fd1e3ebc0629a",
+  "base_head_read": "f000423679195e1d162775170de492a720145a6e",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
-    "main_merge_performed_in_this_batch": true,
-    "deployment_performed_in_this_batch": true,
+    "main_merge_performed_in_this_batch": false,
+    "deployment_performed_in_this_batch": false,
     "prior_delivery": {
       "course": "VOCE-AI-001",
       "pr": 40,
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 118
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 117
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -77,20 +77,55 @@
   "current_course": {
     "id": "VOCE-AI-003",
     "title": "Quelle preuve demander avant d’autoriser une action?",
-    "status": "not_started_in_this_rewrite",
-    "files_recorded_in_this_batch": [],
-    "lesson_characters": null,
-    "measurement": "Non mesuré dans ce chantier ; main possède une édition concurrente à lire et préserver",
-    "chapters_written": [],
+    "status": "in_progress_chapter_01_saved",
+    "files_recorded_in_this_batch": [
+      "content/courses/engineering/VOCE-AI-003/01-contrat-de-preuve.html",
+      "content/courses/engineering/VOCE-AI-003/README.md",
+      "content/courses/engineering/VOCE-AI-003/oracle.py",
+      "content/courses/engineering/VOCE-AI-003/references.html",
+      "content/courses/engineering/VOCE-AI-003/render.py",
+      "content/courses/engineering/VOCE-AI-003/test_oracle.py",
+      "content/courses/engineering/VOCE-AI-003/checks-2026-10-26.json",
+      "docs/education/rewrite-progress.json"
+    ],
+    "lesson_characters": 22740,
+    "measurement": "Texte du seul fichier 01-contrat-de-preuve.html, espaces normalisés, titres pédagogiques inclus. Références, README, métadonnées, code et tests exclus. Ne comprend pas les 82019 caractères déclarés par l’édition existante main.",
+    "chapters_written": [
+      "01 — Contrat de preuve, propriété sur les transitions, observation projetée, oracle à trois verdicts, fermeture, trace corrigée et bornes descriptives (8 sections)"
+    ],
     "chapters_remaining": [
-      "01 : revendication de contrôle, périmètre de preuve et oracle observable ; définir après lecture de main"
+      "02 — Sélection des scénarios : partitions et frontières, mutations de l’instrumentation, jeux de construction et de réception",
+      "03 — Provenance et causalité des traces, collecte minimisée et preuve de couverture",
+      "04 — Quantification de l’incertitude et décision de réception",
+      "05 — Argument d’assurance, révision des hypothèses et dossier de livraison",
+      "06 — Laboratoire intégré, exercices et corrigés hors volume pédagogique"
     ],
-    "sources_consulted": [],
-    "checks_executed": [],
+    "sources_consulted": [
+      {
+        "url": "https://airc.nist.gov/airmf-resources/playbook/measure/",
+        "date": "2026-10-26",
+        "scope": "MEASURE 1.1, 1.2, 1.3, 2.1 ; discipline documentaire seulement"
+      }
+    ],
+    "checks_executed": [
+      "11 tests unitaires de l’oracle synthétique réussis",
+      "Deux rendus déterministes identiques par cmp",
+      "Volume mesuré : 22740 caractères pédagogiques"
+    ],
     "limits": [
-      "Aucun nouveau chapitre AI-003 rédigé dans ce lot"
+      "Cours sous le seuil de 75000 ; aucune édition terminée supplémentaire",
+      "Oracle local sur traces fictives ; couverture et authenticité supposées, aucun fournisseur réel testé",
+      "Relecture indépendante et contrôle visuel non effectués",
+      "Édition concurrente 0.5.1 de main conservée ; sections pertinentes examinées, réconciliation éditoriale complète restante",
+      "Le document Lamport tenté est inaccessible et non utilisé"
     ],
-    "next_action": "AI-002 livré via PR41 et PR42. Commencer VOCE-AI-003 en lisant main et la branche ; main contient une édition concurrente (82 019 caractères déclarés) à préserver. Lire le texte et ses sources avant de réconcilier, sans remplacer automatiquement cette édition par celle de la branche ancienne. Préparer des sources spécifiques et un chapitre substantiel sur la construction des preuves de contrôle ; sauvegarder le lot. Ne pas recommencer AI-002 ni fusionner PR39."
+    "states": {
+      "saved": "Source et checkpoint préparés pour commit atomique GitHub ; confirmation par le commit de ce lot",
+      "controlled": "Quantité, 11 tests locaux, déterminisme ; contrôles partiels",
+      "published": false
+    },
+    "main_baseline": "c670945dd61c4329c744f3548f66290ebe0d6528",
+    "next_action": "Rédiger le chapitre 02 : choisir les scénarios de contrôle par partitions et frontières, construire des mutations de l’instrumentation, séparer jeux de construction et réception. Lire les sections 4 à 8 de l’édition récente main avant intégration pour éviter les répétitions. Conserver les sources du chapitre 01 et le laboratoire, sauvegarder le lot sur fix/course-acceptance-75000. Ne pas publier AI-003 tant que le cours complet et ses contrôles ne sont pas prêts ; livraison ciblée depuis main, jamais fusion aveugle PR39."
   },
   "completed_courses": {
     "VOCE-AI-002": {

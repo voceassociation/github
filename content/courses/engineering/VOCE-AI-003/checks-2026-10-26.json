@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-26",
+  "course": "VOCE-AI-003",
+  "working_base": "f000423679195e1d162775170de492a720145a6e",
+  "main_read": "c670945dd61c4329c744f3548f66290ebe0d6528",
+  "lesson_characters": 22740,
+  "chapters": [
+    "01-contrat-de-preuve.html"
+  ],
+  "sha256": "0f6a7b1652a452816b515d9adbe93fd5b230ea5d142809f4587b557b955cc00e",
+  "tests": {
+    "command": "python -m unittest -v test_oracle.py",
+    "passed": 11
+  },
+  "determinism": "Two render runs compared byte-for-byte with cmp; equal",
+  "scope": "Only first chapter; source references and Python annex excluded",
+  "visual_review": "not performed",
+  "independent_review": "not performed",
+  "public_files_changed": false,
+  "publication": "not attempted; incomplete draft"
+}
