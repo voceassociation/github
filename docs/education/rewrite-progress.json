@@ -3,7 +3,7 @@
   "updated_on": "2026-10-26",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "0d96818eb05ca7eeaa56494f08ab6d0fe26d00ed",
+  "base_head_read": "22efbcb036698923ba0cf5d7d249cc04b2cfc0b6",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -77,23 +77,24 @@
   "current_course": {
     "id": "VOCE-AI-003",
     "title": "Quelle preuve demander avant d’autoriser une action?",
-    "status": "in_progress_chapters_01_02_saved",
+    "status": "in_progress_chapters_01_02_03_saved",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-003/02-scenarios-et-mutations.html",
-      "content/courses/engineering/VOCE-AI-003/test_scenarios.py",
+      "content/courses/engineering/VOCE-AI-003/03-provenance-et-couverture.html",
+      "content/courses/engineering/VOCE-AI-003/provenance.py",
+      "content/courses/engineering/VOCE-AI-003/test_provenance.py",
       "content/courses/engineering/VOCE-AI-003/references.html",
       "content/courses/engineering/VOCE-AI-003/README.md",
-      "content/courses/engineering/VOCE-AI-003/checks-2026-10-26-ch02.json",
+      "content/courses/engineering/VOCE-AI-003/checks-2026-10-26-ch03.json",
       "docs/education/rewrite-progress.json"
     ],
-    "lesson_characters": 43320,
-    "measurement": "Texte normalisé des deux fichiers de chapitres, titres pédagogiques inclus. Références, README, métadonnées, code et tests exclus. Édition concurrente de main non additionnée.",
+    "lesson_characters": 62931,
+    "measurement": "Texte normalisé des trois fichiers de chapitres, titres pédagogiques inclus. Références, README, métadonnées, code et tests exclus. Édition concurrente de main non additionnée.",
     "chapters_written": [
       "01 — Contrat de preuve, propriété sur les transitions, observation projetée, oracle à trois verdicts, fermeture, trace corrigée et bornes descriptives (8 sections)",
-      "02 — Partitions, frontières, couverture par paires, ordre concurrent, mutations des pièces et séparation construction/réception (8 sections)"
+      "02 — Partitions, frontières, couverture par paires, ordre concurrent, mutations des pièces et séparation construction/réception (8 sections)",
+      "03 — Frontière de confiance, manifeste, séquences, source transactionnelle, causalité, minimisation et limites cryptographiques (8 sections)"
     ],
     "chapters_remaining": [
-      "03 — Provenance et causalité des traces, collecte minimisée et preuve de couverture",
       "04 — Quantification de l’incertitude et décision de réception",
       "05 — Argument d’assurance, révision des hypothèses et dossier de livraison",
       "06 — Laboratoire intégré, exercices et corrigés hors volume pédagogique"
@@ -108,12 +109,17 @@
         "url": "https://csrc.nist.gov/projects/automated-combinatorial-testing-for-software",
         "date": "2026-10-26",
         "scope": "Présentation ACTS, mise à jour 2026-06-08 ; interactions de facteurs et couverture. Publications liées non lues intégralement."
+      },
+      {
+        "url": "https://www.rfc-editor.org/rfc/rfc9162.html",
+        "date": "2026-10-26",
+        "scope": "RFC9162, décembre2021, Experimental : introduction et statut ; garanties des journaux et vues divergentes, lecture ciblée seulement."
       }
     ],
     "checks_executed": [
-      "18 tests réussis, dont 7 nouveaux scénarios de couverture et mutations",
+      "28 tests réussis, dont 10 nouveaux tests de provenance",
       "Deux rendus identiques comparés par cmp",
-      "43320 caractères pédagogiques, dont 20580 ajoutés"
+      "62931 caractères pédagogiques, dont 19611 ajoutés"
     ],
     "limits": [
       "Cours sous le seuil de 75000 ; aucune édition terminée supplémentaire",
@@ -124,11 +130,11 @@
     ],
     "states": {
       "saved": "Lot atomique sur la branche de travail ; identité du commit dans historique GitHub",
-      "controlled": "Volume, 18 tests synthétiques, déterminisme ; contrôle partiel",
+      "controlled": "Volume, 28 tests synthétiques, déterminisme ; contrôle partiel",
       "published": false
     },
     "main_baseline": "c670945dd61c4329c744f3548f66290ebe0d6528",
-    "next_action": "Rédiger le chapitre 03 : provenance et causalité des traces, collecte minimisée, liaison entre événement et source autoritative, preuve de couverture. Traiter la limite du faux certificat mise en évidence au chapitre 02. Lire les sections 9 à 14 de main pour réconcilier le contenu existant sans répétition. Sauvegarder les sources et le checkpoint. AI-003 incomplet : aucune livraison publique ; préparer ultérieurement une livraison ciblée depuis main récent."
+    "next_action": "Rédiger le chapitre 04 : quantification de l’incertitude et décision de réception, population et échantillonnage, dépendances entre essais, bornes et coût des erreurs. Conserver les limites des oracles et du manifeste. AI-003 reste sous 75000 et incomplet ; poursuivre chapitres 05 et 06, exercices et contrôles avant livraison ciblée depuis main récent. Réconciliation éditoriale complète avec l’édition existante encore nécessaire."
   },
   "completed_courses": {
     "VOCE-AI-002": {

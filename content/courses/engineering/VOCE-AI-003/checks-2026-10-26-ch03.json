@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-26",
+  "course": "VOCE-AI-003",
+  "base": "22efbcb036698923ba0cf5d7d249cc04b2cfc0b6",
+  "main_read": "c670945dd61c4329c744f3548f66290ebe0d6528",
+  "lesson_characters": 62931,
+  "chapters": [
+    "01-contrat-de-preuve.html",
+    "02-scenarios-et-mutations.html",
+    "03-provenance-et-couverture.html"
+  ],
+  "sha256": "c92e32950473b6594dfc3d9bf20b654340117ffdea72b8e45e22b50be59f4387",
+  "added_characters": 19611,
+  "tests_passed": 28,
+  "new_tests": 10,
+  "command": "python -m unittest discover -v -s content/courses/engineering/VOCE-AI-003",
+  "determinism": "Two outputs equal with cmp",
+  "limits": [
+    "Synthetic envelope and trusted reference only",
+    "No signatures, Merkle proofs, real transaction collection or causal graph implementation",
+    "False initial reference remains undetectable",
+    "No visual or independent review"
+  ],
+  "published": false
+}
