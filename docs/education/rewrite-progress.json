@@ -3,7 +3,7 @@
   "updated_on": "2026-10-26",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "54b9efe76ce4a8a8afdff8bf1b4b8eefda1d2c2f",
+  "base_head_read": "0f42527fcfa8304dc243c113ced91d54e86c9b80",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 113,
-    "preserved_by_selection": 6,
-    "eligible_under_20000": 114
+    "preserved_by_selection": 7,
+    "eligible_under_20000": 113
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,14 +79,14 @@
   "current_course": {
     "id": "VOCE-AI-006",
     "title": "Si l’IA traite les dossiers simples, comment former les juniors?",
-    "status": "in_progress_chapter_01",
-    "lesson_characters": 19215,
-    "measurement": "Normalized text of chapter 01 only, headings included, bibliography and check code excluded; historical edition not added.",
+    "status": "preserved_draft_above_selection_threshold_not_complete",
+    "lesson_characters": 33862,
+    "measurement": "Sum of normalized chapter fragments only; headings included; bibliography, code and old page excluded.",
     "chapters_written": [
-      "01-exposition-et-competence.html"
+      "01-exposition-et-competence.html",
+      "02-diagnostic-et-transfert.html"
     ],
     "chapters_remaining": [
-      "02 — Incident logiciel, pièces, indices gradués et transfert",
       "03 — Mesure autonome, délai et interprétation des résultats",
       "04 — Instrumentation et limites du pilote",
       "Évaluations et corrigés spécifiques"
@@ -104,12 +104,13 @@
       }
     ],
     "checks_executed": [
-      "4 allocation arithmetic tests passed",
-      "Selection report compares all 120 main/branch pages and saved numbered chapters"
+      "11 tests passed: 4 allocation and 7 diagnostic tests; 8 boolean combinations",
+      "No exact duplicate paragraph across chapters 01 and 02",
+      "Chapter-by-chapter normalized character count"
     ],
     "states": {
-      "saved": "Files included in this Git commit; see repository history",
-      "controlled": "Arithmetic and text count only",
+      "saved": "This commit on work branch",
+      "controlled": "Counts, synthetic diagnostic cases and arithmetic; no independent review",
       "published": false
     },
     "limits": [
@@ -118,11 +119,12 @@
       "No learner pilot",
       "Full-page visual check not performed"
     ],
-    "next_action": "Recheck main and saved sources against the 20k preservation threshold. If still eligible, draft chapter 02 with complete synthetic evidence and graduated hints. Preserve AI001–005 and COG012; do not resume AI003.",
+    "next_action": "Preserve AI006 sources now above 20k, without further expansion. Read main and sources for AI007 and select only if below 20k. Do not publish the incomplete AI006 draft as complete.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-006/check_calculations.py",
-      "content/courses/engineering/VOCE-AI-006/01-exposition-et-competence.html",
-      "content/courses/engineering/VOCE-AI-006/references.html",
+      "content/courses/engineering/VOCE-AI-006/02-diagnostic-et-transfert.html",
+      "content/courses/engineering/VOCE-AI-006/diagnostic_cases.py",
+      "content/courses/engineering/VOCE-AI-006/test_diagnostic_cases.py",
+      "content/courses/engineering/VOCE-AI-006/checks-2026-10-26-ch02.json",
       "content/courses/engineering/VOCE-AI-006/README.md"
     ]
   },
@@ -381,6 +383,58 @@
       },
       "main_baseline": "c670945dd61c4329c744f3548f66290ebe0d6528",
       "next_action": "Conserver les chapitres existants et la version de main; aucune extension ni fusion de ce brouillon incomplet."
+    },
+    "VOCE-AI-006": {
+      "id": "VOCE-AI-006",
+      "title": "Si l’IA traite les dossiers simples, comment former les juniors?",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 33862,
+      "measurement": "Sum of normalized chapter fragments only; headings included; bibliography, code and old page excluded.",
+      "chapters_written": [
+        "01-exposition-et-competence.html",
+        "02-diagnostic-et-transfert.html"
+      ],
+      "chapters_remaining": [
+        "03 — Mesure autonome, délai et interprétation des résultats",
+        "04 — Instrumentation et limites du pilote",
+        "Évaluations et corrigés spécifiques"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://doi.org/10.1093/qje/qjae044",
+          "date": "2026-10-26",
+          "scope": "abstract and introduction"
+        },
+        {
+          "url": "https://doi.org/10.1073/pnas.2422633122",
+          "date": "2026-10-26",
+          "scope": "abstract, introduction and beginning of experimental design; not supplements"
+        }
+      ],
+      "checks_executed": [
+        "11 tests passed: 4 allocation and 7 diagnostic tests; 8 boolean combinations",
+        "No exact duplicate paragraph across chapters 01 and 02",
+        "Chapter-by-chapter normalized character count"
+      ],
+      "states": {
+        "saved": "This commit on work branch",
+        "controlled": "Counts, synthetic diagnostic cases and arithmetic; no independent review",
+        "published": false
+      },
+      "limits": [
+        "Incomplete course",
+        "Independent review not performed",
+        "No learner pilot",
+        "Full-page visual check not performed"
+      ],
+      "next_action": "Preserve AI006 sources now above 20k, without further expansion. Read main and sources for AI007 and select only if below 20k. Do not publish the incomplete AI006 draft as complete.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-006/02-diagnostic-et-transfert.html",
+        "content/courses/engineering/VOCE-AI-006/diagnostic_cases.py",
+        "content/courses/engineering/VOCE-AI-006/test_diagnostic_cases.py",
+        "content/courses/engineering/VOCE-AI-006/checks-2026-10-26-ch02.json",
+        "content/courses/engineering/VOCE-AI-006/README.md"
+      ]
     }
   },
   "selection_policy": {
@@ -393,9 +447,10 @@
       "VOCE-AI-003",
       "VOCE-AI-004",
       "VOCE-AI-005",
-      "VOCE-COG-012"
+      "VOCE-COG-012",
+      "VOCE-AI-006"
     ],
-    "eligible_count": 114,
+    "eligible_count": 113,
     "main_read": "614b55591dcc11f84c13518cf105d93ecebe787b",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }

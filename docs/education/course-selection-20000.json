@@ -66,9 +66,10 @@
       "counts": {
         "main": 9200,
         "branch": 9200,
-        "saved_chapters": 19215
+        "saved_chapters": 33862
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "note": "Crossed threshold during chapter 02; incomplete source retained, not published. Main unchanged at 614b555."
     },
     {
       "id": "VOCE-AI-007",
