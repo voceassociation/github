@@ -71,7 +71,7 @@ def check():
                    'seven arithmetic assertion groups'],
         'quality_validated': False,
         'not_performed': ['independent review', 'browser visual review',
-                          'complete authorization laboratory', 'learner pilot']
+                          'external IAM and real provider integration', 'learner pilot']
     }
 
 
