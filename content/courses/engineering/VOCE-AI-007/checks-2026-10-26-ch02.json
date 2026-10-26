@@ -1,0 +1,16 @@
+{
+  "chapter_counts": {
+    "01-politique-assistance.html": 14487,
+    "02-donnees-aides-transfert.html": 10348
+  },
+  "lesson_characters": 24835,
+  "exercise_characters_excluded": 2710,
+  "tests_passed": 11,
+  "new_tests": 5,
+  "deterministic_preview": true,
+  "one_h1": true,
+  "visual_check": false,
+  "published": false,
+  "quality_validated": false,
+  "new_sources": "No new external assertions: synthetic data and original pedagogical construction"
+}

@@ -3,7 +3,7 @@
   "updated_on": "2026-10-26",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "f460f5d60d0ce7b6e85501ed9002f0812c9a8317",
+  "base_head_read": "24ffeb145e8527b42b1d2890fe8bcc5d88dc923c",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 112,
-    "preserved_by_selection": 7,
-    "eligible_under_20000": 113
+    "preserved_by_selection": 8,
+    "eligible_under_20000": 112
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,23 +79,23 @@
   "current_course": {
     "id": "VOCE-AI-007",
     "title": "À quel moment autoriser l’assistance?",
-    "status": "in_progress_chapter_01",
-    "lesson_characters": 14487,
+    "status": "preserved_draft_above_selection_threshold_not_complete",
+    "lesson_characters": 24835,
     "measurement": "Normalized chapter 01 text only, headings included; references and code excluded; old page not added.",
     "chapters_written": [
-      "01-politique-assistance.html"
+      "01-politique-assistance.html",
+      "02-donnees-aides-transfert.html"
     ],
     "chapters_remaining": [
-      "02 — Exports, aides complètes, correction et transfert",
-      "03 — Contrôle des contenus révélés et protocole de mesure",
-      "Évaluations spécifiques"
+      "03 — Contrôle des contenus révélés et protocole de mesure; non rédigé, conservation prioritaire"
     ],
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-007/README.md",
-      "content/courses/engineering/VOCE-AI-007/check_model.py",
-      "content/courses/engineering/VOCE-AI-007/01-politique-assistance.html",
-      "content/courses/engineering/VOCE-AI-007/references.html",
-      "content/courses/engineering/VOCE-AI-007/checks-2026-10-26.json"
+      "content/courses/engineering/VOCE-AI-007/02-donnees-aides-transfert.html",
+      "content/courses/engineering/VOCE-AI-007/exercises.html",
+      "content/courses/engineering/VOCE-AI-007/test_reconciliation.py",
+      "content/courses/engineering/VOCE-AI-007/render_draft.py",
+      "content/courses/engineering/VOCE-AI-007/checks-2026-10-26-ch02.json",
+      "content/courses/engineering/VOCE-AI-007/README.md"
     ],
     "sources_consulted": [
       {
@@ -105,13 +105,14 @@
       }
     ],
     "checks_executed": [
-      "6 local tests passed",
-      "Normalized text count",
-      "No exact duplicate paragraphs within chapter"
+      "11 tests passed",
+      "Deterministic preview and one H1",
+      "Counts separate teaching from exercises",
+      "No exact duplicate teaching paragraphs"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Text count, toy classifier and numerical example only",
+      "controlled": "Local tests and structural preview checks only",
       "published": false
     },
     "limits": [
@@ -120,7 +121,8 @@
       "Course incomplete",
       "Full-page visual check not performed"
     ],
-    "next_action": "Recheck main and saved sources against 20k. If eligible, write chapter 02 with complete synthetic exports, hint content and transfer. Preserve AI006 and all other >=20k courses."
+    "next_action": "Preserve AI007 now above 20k, without extending it to 75k. Check current main and saved sources for AI008; select only if below 20k. Incomplete drafts remain separate from finished published courses.",
+    "exercise_characters_excluded": 2710
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -429,6 +431,54 @@
         "content/courses/engineering/VOCE-AI-006/checks-2026-10-26-ch02.json",
         "content/courses/engineering/VOCE-AI-006/README.md"
       ]
+    },
+    "VOCE-AI-007": {
+      "id": "VOCE-AI-007",
+      "title": "À quel moment autoriser l’assistance?",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 24835,
+      "measurement": "Normalized chapter 01 text only, headings included; references and code excluded; old page not added.",
+      "chapters_written": [
+        "01-politique-assistance.html",
+        "02-donnees-aides-transfert.html"
+      ],
+      "chapters_remaining": [
+        "03 — Contrôle des contenus révélés et protocole de mesure; non rédigé, conservation prioritaire"
+      ],
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-007/02-donnees-aides-transfert.html",
+        "content/courses/engineering/VOCE-AI-007/exercises.html",
+        "content/courses/engineering/VOCE-AI-007/test_reconciliation.py",
+        "content/courses/engineering/VOCE-AI-007/render_draft.py",
+        "content/courses/engineering/VOCE-AI-007/checks-2026-10-26-ch02.json",
+        "content/courses/engineering/VOCE-AI-007/README.md"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://pact.cs.cmu.edu/pubs/Koedinger%20Aleven%2007.pdf",
+          "date": "2026-10-26",
+          "scope": "abstract and metadata via search extraction, not full experimental review"
+        }
+      ],
+      "checks_executed": [
+        "11 tests passed",
+        "Deterministic preview and one H1",
+        "Counts separate teaching from exercises",
+        "No exact duplicate teaching paragraphs"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Local tests and structural preview checks only",
+        "published": false
+      },
+      "limits": [
+        "Classifier assumes trusted event list; no distributed persistence or unknown-event validation",
+        "No learner pilot or independent review",
+        "Course incomplete",
+        "Full-page visual check not performed"
+      ],
+      "next_action": "Preserve AI007 now above 20k, without extending it to 75k. Check current main and saved sources for AI008; select only if below 20k. Incomplete drafts remain separate from finished published courses.",
+      "exercise_characters_excluded": 2710
     }
   },
   "selection_policy": {
@@ -442,9 +492,10 @@
       "VOCE-AI-004",
       "VOCE-AI-005",
       "VOCE-COG-012",
-      "VOCE-AI-006"
+      "VOCE-AI-006",
+      "VOCE-AI-007"
     ],
-    "eligible_count": 113,
+    "eligible_count": 112,
     "main_read": "614b55591dcc11f84c13518cf105d93ecebe787b",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }

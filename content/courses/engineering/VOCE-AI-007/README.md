@@ -7,3 +7,9 @@ Six contrôles locaux passent: demande versus exposition, conservation de l'expo
 Référence historique: résumé consulté, portée consignée dans references.html. Aucun nouveau résultat empirique revendiqué. Relecture indépendante, rendu complet et pilote non effectués.
 
 Prochaine étape: vérifier main et les sources avant toute reprise. Si toujours sous 20 000 caractères, construire le chapitre 2 avec les exports fictifs en centimes/euros, les textes complets des aides, la correction et une variante de transfert. Sinon préserver les sources. Ne pas publier comme cours terminé.
+
+## Chapitre 2 et exercices
+
+Chapitre 2: 10348 caractères; total pédagogique 24835. Exercices et corrections: 2710 caractères, exclus du total. Onze tests passent. Aperçu déterministe utilisant la structure existante; un H1 et noindex. Pas de contrôle visuel. Aucune donnée d’ouverture des corrigés collectée par cette page statique.
+
+Le seuil de conservation est maintenant dépassé: préserver les sources et passer au prochain cours éligible après vérification de main. La revue complète et le protocole de mesure restent ouverts; ne pas publier ce brouillon comme cours terminé.
