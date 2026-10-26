@@ -1,5 +1,5 @@
 {
-  "version": "0.5.4",
+  "version": "0.5.5",
   "publication_date": "2026-10-17",
   "courses": [
     {
@@ -244,8 +244,8 @@
       "references": [
         "VOCE16",
         "NIST",
-        "NISTGEN",
-        "OWASP"
+        "OWASP",
+        "NISTPLAYBOOK-MEASURE-AI004"
       ],
       "version": "0.5.1",
       "review_status": "PUBLIC_RENDER_AND_VOLUME_CHECKED / INDEPENDENT_REVIEW_NOT_PERFORMED",
@@ -254,7 +254,7 @@
       "url": "https://voce.life/cours/reevaluer-agent",
       "publication_status": "PUBLIC_FULL_READER_VERIFIED",
       "independent_expert_validated": false,
-      "resource_type": "historical_resource_under_reconstruction",
+      "resource_type": "developed_written_course",
       "seo_description": "Réévaluer un agent après changement : tables appariées, régressions sensibles et retour de version ; deux cas fictifs corrigés ;120minutes estimées.",
       "indexing_policy": {
         "eligible": true,
@@ -277,7 +277,7 @@
         "basis": "Pedagogical estimate; no learner pilot"
       },
       "assessment_id": "VOCE-AI-004-CASE-20261018",
-      "content_source": "content/courses/ai-workshops.txt",
+      "content_source": "cours/reevaluer-agent.html",
       "history": [
         {
           "version": "0.3.0",
@@ -295,7 +295,6 @@
           "change": "Historical reader individually reconstructed, minimum20000; public29660NFC checked; longer readers untouched"
         }
       ],
-      "depth_source": "content/courses/ai-depth.txt",
       "historical_languages": [
         "fr",
         "en",
@@ -311,7 +310,8 @@
       "listed_in_active_catalogue": true,
       "minimum_pedagogical_characters": 20000,
       "eligible_pedagogical_characters": 29660,
-      "content_hash": "0e84301a03e836077950dc983b7f562a5e7f74854384528f6ce56da6008d907a"
+      "content_hash": "0e84301a03e836077950dc983b7f562a5e7f74854384528f6ce56da6008d907a",
+      "source_maintenance": "hand-authored HTML; legacy renderer guarded by engineering manifest"
     },
     {
       "id": "VOCE-AI-005",
@@ -8613,6 +8613,17 @@
         "VOCE-AI-003"
       ],
       "official_equivalence": false
+    },
+    {
+      "id": "NISTPLAYBOOK-MEASURE-AI004",
+      "title": "NIST AI RMF Playbook — Measure",
+      "url": "https://airc.nist.gov/airmf-resources/playbook/measure/",
+      "version": "AI RMF1.0 Playbook page current2026-10-26",
+      "verification_date": "2026-10-26",
+      "verification_scope": "MEASURE1.1,1.2,2.1 targeted; suggestions not certification",
+      "course_ids": [
+        "VOCE-AI-004"
+      ]
     }
   ],
   "discovery_policy": {
