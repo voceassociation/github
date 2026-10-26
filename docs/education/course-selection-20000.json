@@ -1,0 +1,1328 @@
+{
+  "threshold": 20000,
+  "quality_validated": false,
+  "method": "Normalized article text excluding reference/source/provenance sections, administrative eyebrow, navigation and non-content tags. Saved numbered chapters measured separately. Versions never summed. Selection only; not strict lesson acceptance.",
+  "main_commit": "614b55591dcc11f84c13518cf105d93ecebe787b",
+  "courses": [
+    {
+      "id": "VOCE-AI-001",
+      "title": "Un modèle ne suffit pas à faire fonctionner un service",
+      "route": "cours/modele-et-systeme.html",
+      "counts": {
+        "main": 143394,
+        "branch": 143394,
+        "saved_chapters": 0
+      },
+      "selection": "preserved"
+    },
+    {
+      "id": "VOCE-AI-002",
+      "title": "Qui donne ses droits à un agent?",
+      "route": "cours/permissions-agent.html",
+      "counts": {
+        "main": 136130,
+        "branch": 81514,
+        "saved_chapters": 130362
+      },
+      "selection": "preserved"
+    },
+    {
+      "id": "VOCE-AI-003",
+      "title": "Quelle preuve demander avant d’autoriser une action?",
+      "route": "cours/preuves-controle.html",
+      "counts": {
+        "main": 98331,
+        "branch": 85071,
+        "saved_chapters": 81134
+      },
+      "selection": "preserved"
+    },
+    {
+      "id": "VOCE-AI-004",
+      "title": "L’agent change: que faut-il vérifier à nouveau?",
+      "route": "cours/reevaluer-agent.html",
+      "counts": {
+        "main": 34954,
+        "branch": 8878,
+        "saved_chapters": 0
+      },
+      "selection": "preserved"
+    },
+    {
+      "id": "VOCE-AI-005",
+      "title": "Combien coûte une tâche vraiment terminée?",
+      "route": "cours/cout-tache-terminee.html",
+      "counts": {
+        "main": 33004,
+        "branch": 9126,
+        "saved_chapters": 0
+      },
+      "selection": "preserved"
+    },
+    {
+      "id": "VOCE-AI-006",
+      "title": "Si l’IA traite les dossiers simples, comment former les juniors?",
+      "route": "cours/former-les-juniors.html",
+      "counts": {
+        "main": 9200,
+        "branch": 9200,
+        "saved_chapters": 19215
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-007",
+      "title": "À quel moment autoriser l’assistance?",
+      "route": "cours/quand-utiliser-assistance.html",
+      "counts": {
+        "main": 8965,
+        "branch": 8965,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-008",
+      "title": "Cliquer sur approuver suffit-il à superviser?",
+      "route": "cours/supervision-humaine.html",
+      "counts": {
+        "main": 8866,
+        "branch": 8866,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-009",
+      "title": "Que faut-il savoir pour reprendre sans l’outil?",
+      "route": "cours/reprendre-sans-outil.html",
+      "counts": {
+        "main": 9037,
+        "branch": 9037,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-010",
+      "title": "Pouvez-vous remplacer votre fournisseur d’IA?",
+      "route": "cours/remplacer-fournisseur.html",
+      "counts": {
+        "main": 8963,
+        "branch": 8963,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-011",
+      "title": "Tsinghua et AGIBOT: passer de la simulation à un robot au travail",
+      "route": "cours/tsinghua-agibot-robot-production.html",
+      "counts": {
+        "main": 9258,
+        "branch": 9258,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-012",
+      "title": "Shanghai Jiao Tong: comprendre un véhicule électrique au-delà de sa batterie",
+      "route": "cours/shanghai-jiao-tong-architecture-electrique.html",
+      "counts": {
+        "main": 9014,
+        "branch": 9014,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-013",
+      "title": "Tsinghua et AGIBOT: choisir les données qui apprendront une tâche au robot",
+      "route": "cours/tsinghua-agibot-donnees-robot.html",
+      "counts": {
+        "main": 9022,
+        "branch": 9022,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-014",
+      "title": "Shanghai Jiao Tong: intégrer la température dans une décision de mobilité électrique",
+      "route": "cours/shanghai-jiao-tong-gestion-thermique.html",
+      "counts": {
+        "main": 9088,
+        "branch": 9088,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-015",
+      "title": "Tsinghua iCenter: le robot doit comprendre l’espace où vous l’installez",
+      "route": "cours/tsinghua-icenter-environnement-robot.html",
+      "counts": {
+        "main": 9050,
+        "branch": 9050,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-016",
+      "title": "Tsinghua: passer d’un matériau prometteur à une production conforme",
+      "route": "cours/tsinghua-materiaux-production-conforme.html",
+      "counts": {
+        "main": 8888,
+        "branch": 8888,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-017",
+      "title": "Un jeton change le coût d'une langue",
+      "route": "cours/voce-ai-017.html",
+      "counts": {
+        "main": 8050,
+        "branch": 8050,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-018",
+      "title": "L'attention et le prix du contexte",
+      "route": "cours/voce-ai-018.html",
+      "counts": {
+        "main": 8012,
+        "branch": 8012,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-019",
+      "title": "FlashAttention et la circulation des données",
+      "route": "cours/voce-ai-019.html",
+      "counts": {
+        "main": 8001,
+        "branch": 8001,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-020",
+      "title": "Adapter un modèle avec LoRA",
+      "route": "cours/voce-ai-020.html",
+      "counts": {
+        "main": 7393,
+        "branch": 7393,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-021",
+      "title": "La préférence humaine ne garantit pas la vérité",
+      "route": "cours/voce-ai-021.html",
+      "counts": {
+        "main": 8020,
+        "branch": 8020,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-022",
+      "title": "DeepSeek-R1: ce que récompense un raisonnement",
+      "route": "cours/voce-ai-022.html",
+      "counts": {
+        "main": 8014,
+        "branch": 8014,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-023",
+      "title": "Un modèle quantifié peut changer une décision",
+      "route": "cours/voce-ai-023.html",
+      "counts": {
+        "main": 7991,
+        "branch": 7991,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-024",
+      "title": "RAG: retrouver ne suffit pas à répondre",
+      "route": "cours/voce-ai-024.html",
+      "counts": {
+        "main": 8031,
+        "branch": 8031,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-025",
+      "title": "La version d'un document est une condition de réponse",
+      "route": "cours/voce-ai-025.html",
+      "counts": {
+        "main": 7886,
+        "branch": 7886,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-026",
+      "title": "L'injection d'instructions dans les documents",
+      "route": "cours/voce-ai-026.html",
+      "counts": {
+        "main": 7886,
+        "branch": 7886,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-027",
+      "title": "Un connecteur MCP ne décide pas des droits",
+      "route": "cours/voce-ai-027.html",
+      "counts": {
+        "main": 7937,
+        "branch": 7937,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-028",
+      "title": "Le jeton destiné au mauvais service",
+      "route": "cours/voce-ai-028.html",
+      "counts": {
+        "main": 7786,
+        "branch": 7786,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-029",
+      "title": "Un remboursement ne doit pas être exécuté deux fois",
+      "route": "cours/voce-ai-029.html",
+      "counts": {
+        "main": 7811,
+        "branch": 7811,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-030",
+      "title": "Une réponse structurée peut être fausse",
+      "route": "cours/voce-ai-030.html",
+      "counts": {
+        "main": 7795,
+        "branch": 7795,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-031",
+      "title": "Une chaîne d'agents multiplie les frontières",
+      "route": "cours/voce-ai-031.html",
+      "counts": {
+        "main": 7875,
+        "branch": 7875,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-032",
+      "title": "La mémoire d'un agent peut contaminer demain",
+      "route": "cours/voce-ai-032.html",
+      "counts": {
+        "main": 7765,
+        "branch": 7765,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-033",
+      "title": "Les journaux doivent reconstruire une décision",
+      "route": "cours/voce-ai-033.html",
+      "counts": {
+        "main": 7965,
+        "branch": 7965,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-034",
+      "title": "Tester un agent sur des cas qu'il n'a pas vus",
+      "route": "cours/voce-ai-034.html",
+      "counts": {
+        "main": 7928,
+        "branch": 7928,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-035",
+      "title": "Une moyenne masque les erreurs rares",
+      "route": "cours/voce-ai-035.html",
+      "counts": {
+        "main": 7762,
+        "branch": 7762,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-036",
+      "title": "Quand l'agent doit s'abstenir",
+      "route": "cours/voce-ai-036.html",
+      "counts": {
+        "main": 7764,
+        "branch": 7764,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-037",
+      "title": "Une nouvelle source peut modifier la décision",
+      "route": "cours/voce-ai-037.html",
+      "counts": {
+        "main": 7783,
+        "branch": 7783,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-038",
+      "title": "L'AI Act commence par un usage précis",
+      "route": "cours/voce-ai-038.html",
+      "counts": {
+        "main": 7999,
+        "branch": 7999,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-039",
+      "title": "L'alphabétisation IA doit correspondre au travail",
+      "route": "cours/voce-ai-039.html",
+      "counts": {
+        "main": 7868,
+        "branch": 7868,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-040",
+      "title": "Une norme de management n'est pas un test du modèle",
+      "route": "cours/voce-ai-040.html",
+      "counts": {
+        "main": 7950,
+        "branch": 7950,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-041",
+      "title": "Le risque résiduel doit avoir un responsable",
+      "route": "cours/voce-ai-041.html",
+      "counts": {
+        "main": 7808,
+        "branch": 7808,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-042",
+      "title": "Les données personnelles circulent avec la tâche",
+      "route": "cours/voce-ai-042.html",
+      "counts": {
+        "main": 7951,
+        "branch": 7951,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-043",
+      "title": "La sécurité du système dépend de ses exceptions",
+      "route": "cours/voce-ai-043.html",
+      "counts": {
+        "main": 7701,
+        "branch": 7701,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-044",
+      "title": "Un incident exige une chronologie exploitable",
+      "route": "cours/voce-ai-044.html",
+      "counts": {
+        "main": 7791,
+        "branch": 7791,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-045",
+      "title": "Acheter une IA avec des critères de réception",
+      "route": "cours/voce-ai-045.html",
+      "counts": {
+        "main": 7772,
+        "branch": 7772,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-046",
+      "title": "LI!GHT WORKFORCE ©: compter les tâches avant les postes",
+      "route": "cours/voce-ai-046.html",
+      "counts": {
+        "main": 7899,
+        "branch": 7899,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-047",
+      "title": "Le travail humain se concentre dans les exceptions",
+      "route": "cours/voce-ai-047.html",
+      "counts": {
+        "main": 7952,
+        "branch": 7952,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-048",
+      "title": "La file d'attente absorbe le gain annoncé",
+      "route": "cours/voce-ai-048.html",
+      "counts": {
+        "main": 7755,
+        "branch": 7755,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-049",
+      "title": "Une économie calculée sur des dossiers acceptés",
+      "route": "cours/voce-ai-049.html",
+      "counts": {
+        "main": 7840,
+        "branch": 7840,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-050",
+      "title": "Comparer un pilote à un contrefactuel crédible",
+      "route": "cours/voce-ai-050.html",
+      "counts": {
+        "main": 8028,
+        "branch": 8028,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-051",
+      "title": "Le contrôle interne d'un agent comptable",
+      "route": "cours/voce-ai-051.html",
+      "counts": {
+        "main": 7859,
+        "branch": 7859,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-052",
+      "title": "Un agent RH doit permettre la contestation",
+      "route": "cours/voce-ai-052.html",
+      "counts": {
+        "main": 7915,
+        "branch": 7915,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-053",
+      "title": "Un agent commercial peut engager l'entreprise",
+      "route": "cours/voce-ai-053.html",
+      "counts": {
+        "main": 7784,
+        "branch": 7784,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-054",
+      "title": "Un agent juridique doit exposer le texte applicable",
+      "route": "cours/voce-ai-054.html",
+      "counts": {
+        "main": 7889,
+        "branch": 7889,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-055",
+      "title": "Un robot réussi en laboratoire peut échouer au poste",
+      "route": "cours/voce-ai-055.html",
+      "counts": {
+        "main": 7746,
+        "branch": 7746,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-056",
+      "title": "La simulation laisse des inconnues au réel",
+      "route": "cours/voce-ai-056.html",
+      "counts": {
+        "main": 7805,
+        "branch": 7805,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-057",
+      "title": "Les données de téléopération portent des choix humains",
+      "route": "cours/voce-ai-057.html",
+      "counts": {
+        "main": 7942,
+        "branch": 7942,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-058",
+      "title": "Une gigafactory vend des cellules conformes",
+      "route": "cours/voce-ai-058.html",
+      "counts": {
+        "main": 7831,
+        "branch": 7831,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-059",
+      "title": "La mobilité électrique se juge sur le service rendu",
+      "route": "cours/voce-ai-059.html",
+      "counts": {
+        "main": 7861,
+        "branch": 7861,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-AI-060",
+      "title": "Le comité de décision reçoit un dossier contradictoire",
+      "route": "cours/voce-ai-060.html",
+      "counts": {
+        "main": 8027,
+        "branch": 8027,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-001",
+      "title": "Attribuer une œuvre sans effacer l'incertitude",
+      "route": "cours/voce-art-001.html",
+      "counts": {
+        "main": 7981,
+        "branch": 7981,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-002",
+      "title": "La provenance raconte des transferts documentés",
+      "route": "cours/voce-art-002.html",
+      "counts": {
+        "main": 7893,
+        "branch": 7893,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-003",
+      "title": "Un inventaire décrit aussi les catégories d'une époque",
+      "route": "cours/voce-art-003.html",
+      "counts": {
+        "main": 7893,
+        "branch": 7893,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-004",
+      "title": "Le cadre modifie l'histoire visible d'un tableau",
+      "route": "cours/voce-art-004.html",
+      "counts": {
+        "main": 7837,
+        "branch": 7837,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-005",
+      "title": "La commande artistique laisse des traces économiques",
+      "route": "cours/voce-art-005.html",
+      "counts": {
+        "main": 7791,
+        "branch": 7791,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-006",
+      "title": "Lire une peinture par ses couches",
+      "route": "cours/voce-art-006.html",
+      "counts": {
+        "main": 7808,
+        "branch": 7808,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-007",
+      "title": "L'infrarouge révèle une autre étape du travail",
+      "route": "cours/voce-art-007.html",
+      "counts": {
+        "main": 7705,
+        "branch": 7705,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-008",
+      "title": "Un pigment ne signe pas une œuvre",
+      "route": "cours/voce-art-008.html",
+      "counts": {
+        "main": 7679,
+        "branch": 7679,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-009",
+      "title": "Le nettoyage change ce que le public peut voir",
+      "route": "cours/voce-art-009.html",
+      "counts": {
+        "main": 7772,
+        "branch": 7772,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-010",
+      "title": "Une exposition est un budget d'exposition à la lumière",
+      "route": "cours/voce-art-010.html",
+      "counts": {
+        "main": 7571,
+        "branch": 7571,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-011",
+      "title": "Le climat d'une vitrine doit être mesuré dans le temps",
+      "route": "cours/voce-art-011.html",
+      "counts": {
+        "main": 7653,
+        "branch": 7653,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-012",
+      "title": "L'état d'une œuvre doit survivre à son transport",
+      "route": "cours/voce-art-012.html",
+      "counts": {
+        "main": 7594,
+        "branch": 7594,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-013",
+      "title": "Les collections perdent aussi leurs identités",
+      "route": "cours/voce-art-013.html",
+      "counts": {
+        "main": 7666,
+        "branch": 7666,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-014",
+      "title": "CIDOC CRM décrit des événements reliés",
+      "route": "cours/voce-art-014.html",
+      "counts": {
+        "main": 7666,
+        "branch": 7666,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-015",
+      "title": "Europeana sépare l'objet de sa représentation numérique",
+      "route": "cours/voce-art-015.html",
+      "counts": {
+        "main": 7724,
+        "branch": 7724,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-016",
+      "title": "Un vocabulaire contrôlé préserve les variantes",
+      "route": "cours/voce-art-016.html",
+      "counts": {
+        "main": 7628,
+        "branch": 7628,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-017",
+      "title": "IIIF organise une consultation reproductible",
+      "route": "cours/voce-art-017.html",
+      "counts": {
+        "main": 7594,
+        "branch": 7594,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-018",
+      "title": "Une image libre ne rend pas tout usage libre",
+      "route": "cours/voce-art-018.html",
+      "counts": {
+        "main": 7678,
+        "branch": 7678,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-019",
+      "title": "La couleur d'un écran n'est pas celle de l'objet",
+      "route": "cours/voce-art-019.html",
+      "counts": {
+        "main": 7616,
+        "branch": 7616,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-020",
+      "title": "Un détail recadré peut changer le récit",
+      "route": "cours/voce-art-020.html",
+      "counts": {
+        "main": 7575,
+        "branch": 7575,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-021",
+      "title": "L'iconographie exige des comparaisons datées",
+      "route": "cours/voce-art-021.html",
+      "counts": {
+        "main": 7568,
+        "branch": 7568,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-022",
+      "title": "La copie révèle une circulation des formes",
+      "route": "cours/voce-art-022.html",
+      "counts": {
+        "main": 7565,
+        "branch": 7565,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-023",
+      "title": "Un objet liturgique change de fonction au musée",
+      "route": "cours/voce-art-023.html",
+      "counts": {
+        "main": 7611,
+        "branch": 7611,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-024",
+      "title": "Restituer une œuvre exige une histoire vérifiable",
+      "route": "cours/voce-art-024.html",
+      "counts": {
+        "main": 7785,
+        "branch": 7785,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-025",
+      "title": "Le patrimoine immatériel ne tient pas dans un fichier",
+      "route": "cours/voce-art-025.html",
+      "counts": {
+        "main": 7702,
+        "branch": 7702,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-026",
+      "title": "Une exposition numérique doit pouvoir être relue",
+      "route": "cours/voce-art-026.html",
+      "counts": {
+        "main": 7714,
+        "branch": 7714,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-027",
+      "title": "Un musée doit pouvoir quitter son prestataire numérique",
+      "route": "cours/voce-art-027.html",
+      "counts": {
+        "main": 7653,
+        "branch": 7653,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-028",
+      "title": "Une reconstitution par IA doit montrer ses inventions",
+      "route": "cours/voce-art-028.html",
+      "counts": {
+        "main": 7665,
+        "branch": 7665,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-029",
+      "title": "La valeur patrimoniale demande un argument public",
+      "route": "cours/voce-art-029.html",
+      "counts": {
+        "main": 7645,
+        "branch": 7645,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-ART-030",
+      "title": "Un dossier d'œuvre qui résiste à la contradiction",
+      "route": "cours/voce-art-030.html",
+      "counts": {
+        "main": 7732,
+        "branch": 7732,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-001",
+      "title": "Une association cérébrale ne démontre pas une cause",
+      "route": "cours/voce-cog-001.html",
+      "counts": {
+        "main": 7855,
+        "branch": 7855,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-002",
+      "title": "Une différence significative peut être négligeable",
+      "route": "cours/voce-cog-002.html",
+      "counts": {
+        "main": 7725,
+        "branch": 7725,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-003",
+      "title": "Un petit échantillon rend le résultat fragile",
+      "route": "cours/voce-cog-003.html",
+      "counts": {
+        "main": 7839,
+        "branch": 7839,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-004",
+      "title": "Chercher cent effets augmente les fausses alertes",
+      "route": "cours/voce-cog-004.html",
+      "counts": {
+        "main": 7708,
+        "branch": 7708,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-005",
+      "title": "Préenregistrer ce qui pourrait contredire l'hypothèse",
+      "route": "cours/voce-cog-005.html",
+      "counts": {
+        "main": 7801,
+        "branch": 7801,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-006",
+      "title": "Une revue systématique peut manquer des études",
+      "route": "cours/voce-cog-006.html",
+      "counts": {
+        "main": 7720,
+        "branch": 7720,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-007",
+      "title": "Une méta-analyse réunit des différences réelles",
+      "route": "cours/voce-cog-007.html",
+      "counts": {
+        "main": 7666,
+        "branch": 7666,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-008",
+      "title": "L'IRM fonctionnelle ne photographie pas une pensée",
+      "route": "cours/voce-cog-008.html",
+      "counts": {
+        "main": 7758,
+        "branch": 7758,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-009",
+      "title": "Un résultat de groupe ne prédit pas une personne",
+      "route": "cours/voce-cog-009.html",
+      "counts": {
+        "main": 7815,
+        "branch": 7815,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-010",
+      "title": "Un test répété peut mesurer l'apprentissage du test",
+      "route": "cours/voce-cog-010.html",
+      "counts": {
+        "main": 7640,
+        "branch": 7640,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-011",
+      "title": "Le rappel actif change l'évaluation d'un apprentissage",
+      "route": "cours/voce-cog-011.html",
+      "counts": {
+        "main": 7759,
+        "branch": 7759,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-012",
+      "title": "Espacer la pratique oblige à retrouver",
+      "route": "cours/voce-cog-012.html",
+      "counts": {
+        "main": 79065,
+        "branch": 7509,
+        "saved_chapters": 0
+      },
+      "selection": "preserved"
+    },
+    {
+      "id": "VOCE-COG-013",
+      "title": "La mémoire de travail impose un coût aux interfaces",
+      "route": "cours/voce-cog-013.html",
+      "counts": {
+        "main": 7631,
+        "branch": 7631,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-014",
+      "title": "L'attention se mesure dans une tâche précise",
+      "route": "cours/voce-cog-014.html",
+      "counts": {
+        "main": 7478,
+        "branch": 7478,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-015",
+      "title": "Une interruption laisse un travail de reprise",
+      "route": "cours/voce-cog-015.html",
+      "counts": {
+        "main": 7571,
+        "branch": 7571,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-016",
+      "title": "La confiance dans sa réponse doit être calibrée",
+      "route": "cours/voce-cog-016.html",
+      "counts": {
+        "main": 7647,
+        "branch": 7647,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-017",
+      "title": "Externaliser la mémoire exige un chemin de retour",
+      "route": "cours/voce-cog-017.html",
+      "counts": {
+        "main": 7593,
+        "branch": 7593,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-018",
+      "title": "L'automatisation peut déplacer la vigilance",
+      "route": "cours/voce-cog-018.html",
+      "counts": {
+        "main": 7641,
+        "branch": 7641,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-019",
+      "title": "L'expertise a besoin de cas qui résistent",
+      "route": "cours/voce-cog-019.html",
+      "counts": {
+        "main": 7553,
+        "branch": 7553,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-020",
+      "title": "Le sommeil déclaré ne suffit pas à expliquer une performance",
+      "route": "cours/voce-cog-020.html",
+      "counts": {
+        "main": 7601,
+        "branch": 7601,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-021",
+      "title": "Le stress ne se résume pas à un biomarqueur",
+      "route": "cours/voce-cog-021.html",
+      "counts": {
+        "main": 7624,
+        "branch": 7624,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-022",
+      "title": "Le trauma demande des définitions précises",
+      "route": "cours/voce-cog-022.html",
+      "counts": {
+        "main": 7622,
+        "branch": 7622,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-023",
+      "title": "La solitude et l'isolement ne mesurent pas la même chose",
+      "route": "cours/voce-cog-023.html",
+      "counts": {
+        "main": 7627,
+        "branch": 7627,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-024",
+      "title": "Une émotion racontée dépend de la question posée",
+      "route": "cours/voce-cog-024.html",
+      "counts": {
+        "main": 7726,
+        "branch": 7726,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-025",
+      "title": "Une décision dépend aussi des taux de base",
+      "route": "cours/voce-cog-025.html",
+      "counts": {
+        "main": 7497,
+        "branch": 7497,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-026",
+      "title": "Les participants d'une étude ne représentent pas le monde",
+      "route": "cours/voce-cog-026.html",
+      "counts": {
+        "main": 7656,
+        "branch": 7656,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-027",
+      "title": "Une donnée pseudonymisée reste souvent personnelle",
+      "route": "cours/voce-cog-027.html",
+      "counts": {
+        "main": 7579,
+        "branch": 7579,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-028",
+      "title": "Reproduire une analyse exige plus qu'un graphique",
+      "route": "cours/voce-cog-028.html",
+      "counts": {
+        "main": 7696,
+        "branch": 7696,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-029",
+      "title": "Une promesse de neurotechnologie doit survivre à un contrôle",
+      "route": "cours/voce-cog-029.html",
+      "counts": {
+        "main": 7667,
+        "branch": 7667,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    },
+    {
+      "id": "VOCE-COG-030",
+      "title": "Un protocole pédagogique qui peut échouer",
+      "route": "cours/voce-cog-030.html",
+      "counts": {
+        "main": 7718,
+        "branch": 7718,
+        "saved_chapters": 0
+      },
+      "selection": "eligible"
+    }
+  ]
+}

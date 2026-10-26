@@ -1,10 +1,14 @@
 # Critères de réception des cours VOCE
 
-Mandat confirmé le 25 octobre 2026 : réécrire les 120 cours pour un public VVIC et professionnel, avec un niveau ingénieur pour les cours techniques. Les URL, identifiants et statuts sont conservés. Ce document ne valide aucun contenu existant.
+Mandat initial du 25 octobre 2026, restreint le 26 octobre 2026 aux seuls cours éligibles : réécrire les cours sélectionnés pour un public VVIC et professionnel, avec un niveau ingénieur pour les cours techniques. Les URL, identifiants et statuts sont conservés. Ce document ne valide aucun contenu existant.
 
-## Volume
+## Sélection prioritaire du 26 octobre 2026
 
-Chaque cours doit comporter au minimum 75 000 caractères de corps pédagogique, espaces compris après normalisation des espaces. La bibliographie, les métadonnées, la navigation et les annexes sont exclues. Les exercices et leurs corrigés sont comptés séparément, par prudence. Les objectifs, le minutage et les déclarations de qualité ne remplacent pas le contenu enseigné.
+Préserver tout cours atteignant 20 000 caractères normalisés hors bibliographie, navigation et métadonnées. Comparer main récent et les sources sauvegardées; ne jamais additionner deux éditions. Appliquer ce contrôle même au cours en cours au checkpoint. Les cours préservés ne doivent pas être allongés vers 75 000 caractères. Conserver les chapitres déjà écrits sans les publier comme édition terminée. Le seuil sélectionne le travail; il ne certifie ni qualité ni publication. Le rapport course-selection-20000.json et son script distinguent cette sélection du contrôle strict du corps pédagogique.
+
+## Volume des réécritures éligibles
+
+Pour les cours effectivement sélectionnés, le mandat de rédaction antérieur prévoit au minimum 75 000 caractères de corps pédagogique, espaces compris après normalisation des espaces. La bibliographie, les métadonnées, la navigation et les annexes sont exclues. Les exercices et leurs corrigés sont comptés séparément, par prudence. Les objectifs, le minutage et les déclarations de qualité ne remplacent pas le contenu enseigné.
 
 Le corps pédagogique doit être explicitement balisé avec data-voce-count="lesson". Les éléments exclus ne doivent pas être placés dans ces blocs. Le contrôle automatique refuse toute validation en l'absence de ce balisage. Il fournit également un plafond conservateur incluant tout le texte de l'article : un article entier inférieur à 75 000 caractères ne peut pas satisfaire le mandat.
 
@@ -22,4 +26,4 @@ Les référentiels européens servent de cadre de conception. Ne pas inventer d'
 
 Distinguer : rédaction, contrôle quantitatif, revue technique et documentaire, vérification du rendu, publication vérifiée. Un test de présence HTML ou un déploiement réussi n'est pas une validation pédagogique. Aucun bilan global «120 cours finalisés» sans preuves individuelles. Les durées sont des estimations à réviser selon le contenu réel.
 
-La réécriture des 120 cours ne remplace pas l'ajout quotidien déjà demandé. Ne pas modifier les automatisations dans ce chantier de contrôle.
+La réécriture des cours éligibles ne remplace pas l'ajout quotidien déjà demandé. Ne pas modifier les automatisations dans ce chantier de contrôle.
