@@ -1,10 +1,10 @@
 {
   "course": "VOCE-AI-002",
-  "lesson_characters": 111458,
-  "chapters": 7,
-  "paragraphs": 175,
+  "lesson_characters": 124799,
+  "chapters": 8,
+  "paragraphs": 195,
   "python": "3.12.14",
-  "preview_sha256": "f38e86ec955702aff493290ddd9a51610f911e1c6221c4193699dfcff9c04dae",
+  "preview_sha256": "d3dcd47682d6da6ba9fb4598943e9a069bba7b572ea4e498e8efad0e803b65e7",
   "checks": [
     "deterministic rendering",
     "production destination blocked",
@@ -20,7 +20,7 @@
   "not_performed": [
     "independent review",
     "browser visual review",
-    "complete authorization laboratory",
+    "external IAM and real provider integration",
     "learner pilot"
   ]
 }
