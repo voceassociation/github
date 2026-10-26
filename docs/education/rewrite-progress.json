@@ -7,20 +7,62 @@
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
-    "main_merge_performed_in_this_batch": false,
-    "deployment_performed_in_this_batch": false,
+    "main_merge_performed_in_this_batch": true,
+    "deployment_performed_in_this_batch": true,
     "prior_delivery": {
       "course": "VOCE-AI-001",
       "pr": 40,
       "commit": "41dcb989b7889afe4a9d258974ba62ab5cb30c41",
       "basis": "Livraison et vérification publique rapportées dans la conversation ; manifeste main relu dans ce lot ; URL publique non revérifiée ici"
+    },
+    "current_delivery": {
+      "course": "VOCE-AI-002",
+      "date": "2026-10-26",
+      "prs": [
+        41,
+        42
+      ],
+      "merge_commits": [
+        "aa7398d4119d3acd03f90eb06780df6fcbc34003",
+        "c670945dd61c4329c744f3548f66290ebe0d6528"
+      ],
+      "url": "https://voce.life/cours/permissions-agent",
+      "version": "0.8.0",
+      "lesson_characters": 130369,
+      "tests_passed": 32,
+      "cloudflare": {
+        "worker": "github",
+        "build_id": "75302297-03bf-4578-89a8-2449f3acb1a2",
+        "outcome": "success",
+        "stopped_on": "2026-10-26T07:09:05.730Z"
+      },
+      "public_checks": {
+        "method": "Cloudflare Browser Rendering URL content requests; local HTTP returned 403",
+        "edition_marker": true,
+        "chapter_8_8": true,
+        "canonical": true,
+        "course_schema_version": "0.8.0",
+        "catalogue_link": true,
+        "sitemap_route": true,
+        "public_catalogue_json_version": true,
+        "transaction_lab_download_content": true,
+        "test_lab_download_content": true,
+        "download_fix": "content excluded by .assetsignore; .py.txt copies published under assets/course-labs/VOCE-AI-002"
+      },
+      "limits": [
+        "Independent expert review not performed",
+        "Learner pilot not performed",
+        "Visual checks sampled, not exhaustive accessibility/interaction audit",
+        "Models separate; simulated provider and no real OAuth integration"
+      ],
+      "release_source_sha256": "c813c5fbe927b8afeef594bb556491622f40350f842ce2c008c1d796a287c1be"
     }
   },
   "counts": {
     "total": 120,
-    "rewritten_editions": 1,
+    "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 118
   },
   "prior_course": {
@@ -33,188 +75,209 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-002",
-    "title": "Qui donne ses droits à un agent?",
-    "status": "engineering_edition_local_checks_passed_delivery_pending",
-    "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-002/01-calcul-autorite.html",
-      "content/courses/engineering/VOCE-AI-002/02-delegation-services.html",
-      "content/courses/engineering/VOCE-AI-002/03-approbation-version-transaction.html",
-      "content/courses/engineering/VOCE-AI-002/05-revocation-distribuee.html",
-      "content/courses/engineering/VOCE-AI-002/06-outils-et-injection.html",
-      "content/courses/engineering/VOCE-AI-002/07-preuves-et-exploitation.html",
-      "content/courses/engineering/VOCE-AI-002/08-laboratoire-et-analyse.html",
-      "content/courses/engineering/VOCE-AI-002/README.md",
-      "content/courses/engineering/VOCE-AI-002/checks-2026-10-26.json",
-      "content/courses/engineering/VOCE-AI-002/course.json",
-      "content/courses/engineering/VOCE-AI-002/exercises.html",
-      "content/courses/engineering/VOCE-AI-002/references.html",
-      "content/courses/engineering/VOCE-AI-002/render_release.py",
-      "content/courses/engineering/VOCE-AI-002/review-2026-10-26.json",
-      "content/courses/engineering/VOCE-AI-002/shell.html",
-      "content/courses/engineering/VOCE-AI-002/test_transaction_lab.py",
-      "docs/education/rewrite-progress.json"
+    "id": "VOCE-AI-003",
+    "title": "Quelle preuve demander avant d’autoriser une action?",
+    "status": "not_started_in_this_rewrite",
+    "files_recorded_in_this_batch": [],
+    "lesson_characters": null,
+    "measurement": "Non mesuré dans ce chantier ; main possède une édition concurrente à lire et préserver",
+    "chapters_written": [],
+    "chapters_remaining": [
+      "01 : revendication de contrôle, périmètre de preuve et oracle observable ; définir après lecture de main"
     ],
-    "lesson_characters": 130369,
-    "minimum_lesson_characters": 75000,
-    "measurement": "Counter de scripts/audit-course-volume.py ; concaténation ordonnée des chapitres dans article ; texte des seuls blocs lesson, espaces normalisés ; aucun texte de la page historique ajouté",
-    "chapters_written": [
-      "01-calcul-autorite.html",
-      "02-delegation-services.html",
-      "03-approbation-version-transaction.html",
-      "04-politiques-objets-relations.html",
-      "05-revocation-distribuee.html",
-      "06-outils-et-injection.html",
-      "07-preuves-et-exploitation.html",
-      "08-laboratoire-et-analyse.html"
-    ],
-    "chapters_remaining": [],
-    "sources_consulted": [
-      {
-        "url": "https://www.rfc-editor.org/rfc/rfc8693.html",
-        "sections": [
-          "1.1",
-          "2.1",
-          "4.1"
-        ],
-        "consulted_on": "2026-10-25"
-      },
-      {
-        "url": "https://www.rfc-editor.org/rfc/rfc9700.html",
-        "sections": [
-          "2.1.1",
-          "2.2.1"
-        ],
-        "consulted_on": "2026-10-25"
-      },
-      {
-        "url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization",
-        "sections": [
-          "Resource Parameter Implementation",
-          "Token Handling",
-          "Token Audience Binding and Validation"
-        ],
-        "consulted_on": "2026-10-25"
-      },
-      {
-        "url": "https://www.rfc-editor.org/rfc/rfc8785",
-        "sections": [
-          "Abstract",
-          "Introduction"
-        ],
-        "consulted_on": "2026-10-25"
-      },
-      {
-        "url": "https://www.postgresql.org/docs/current/transaction-iso.html",
-        "version_read": "18",
-        "sections": [
-          "13.2",
-          "13.2.1"
-        ],
-        "consulted_on": "2026-10-25"
-      },
-      {
-        "url": "https://csrc.nist.gov/pubs/sp/800/162/upd2/final",
-        "scope": "notice et résumé ABAC seulement",
-        "consulted_on": "2026-10-25"
-      },
-      {
-        "url": "https://www.postgresql.org/docs/18/ddl-rowsecurity.html",
-        "scope": "5.9, exceptions RLS et combinaison des politiques",
-        "consulted_on": "2026-10-25"
-      },
-      {
-        "url": "https://openfga.dev/docs/modeling/parent-child",
-        "scope": "introduction héritage parent-enfant",
-        "consulted_on": "2026-10-25"
-      },
-      {
-        "url": "https://www.rfc-editor.org/rfc/rfc7009.html",
-        "scope": "2.1 et 2.2, propagation et réponse",
-        "consulted_on": "2026-10-25"
-      },
-      {
-        "url": "https://www.rfc-editor.org/rfc/rfc7662.html",
-        "scope": "résumé et section 4, introspection et cache",
-        "consulted_on": "2026-10-25"
-      },
-      {
-        "url": "https://openfga.dev/docs/interacting/consistency",
-        "scope": "modes de cohérence et cache",
-        "consulted_on": "2026-10-25"
-      },
-      {
-        "url": "https://modelcontextprotocol.io/specification/2025-06-18/server/tools",
-        "scope": "Tool definitions, annotations",
-        "consulted_on": "2026-10-26"
-      },
-      {
-        "url": "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html",
-        "scope": "Agent-Specific Defenses, Secure Implementation Pipeline",
-        "consulted_on": "2026-10-26"
-      },
-      {
-        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html",
-        "scope": "Event attributes, Data to exclude, Event collection",
-        "consulted_on": "2026-10-26"
-      },
-      {
-        "url": "https://www.sqlite.org/lang_transaction.html",
-        "scope": "sections 2 à 3, BEGIN IMMEDIATE, écrivain unique, rollback",
-        "consulted_on": "2026-10-26"
-      },
-      {
-        "url": "https://docs.python.org/3/library/sqlite3.html",
-        "scope": "tutoriel : connexion, paramètres SQL et réouverture ; programme testé sous Python 3.12.14",
-        "consulted_on": "2026-10-26"
-      },
-      {
-        "url": "https://europass.europa.eu/en/description-eight-eqf-levels",
-        "scope": "learning outcome categories (knowledge, skills, responsibility/autonomy), official search extraction; direct reopen returned 403",
-        "consulted_on": "2026-10-26"
-      }
-    ],
-    "checks_executed": {
-      "command": "python content/courses/engineering/VOCE-AI-002/check_draft.py",
-      "result": "passed",
-      "report": "content/courses/engineering/VOCE-AI-002/checks-2026-10-26.json",
-      "scope": [
-        "deterministic rendering",
-        "production destination blocked",
-        "Counter agrees between sources and preview",
-        "one H1",
-        "obsolete JSON-LD removed",
-        "noindex preview",
-        "unique chapter ids",
-        "no exact paragraph duplicates within lot or against AI-001 core/engineering",
-        "seven arithmetic assertion groups"
-      ],
-      "release_report": "content/courses/engineering/VOCE-AI-002/review-2026-10-26.json"
-    },
+    "sources_consulted": [],
+    "checks_executed": [],
     "limits": [
-      "Relecture de cohérence effectuée ; revue indépendante et pilote apprenant non réalisés",
-      "Rendu échantillonné desktop/mobile via Cloudflare ; interactions et accessibilité non exhaustives",
-      "Modèles séparés sans intégration OAuth ou prestataire réel ; restrictions enseignées explicitement",
-      "Fusion ciblée et déploiement encore à effectuer ; aucune publication AI-002 constatée"
+      "Aucun nouveau chapitre AI-003 rédigé dans ce lot"
     ],
-    "next_action": "Livrer uniquement AI-002 via branche release/ai002-engineering-20261026 depuis main 0e4537bd : sources, rendu, manifeste et entrée catalogue. Contrôler build Cloudflare puis version publique et liens. Ne pas fusionner PR39. Ensuite démarrer AI-003.",
-    "batch_new_lesson_characters": 5570,
-    "policy_model_checks": {
-      "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-002 -p test_policy_model.py -v",
-      "result": "6 tests passed",
-      "matrix_cases": 256,
-      "scope": "Modèle en mémoire : périmètre, habilitations, relations, résolution identifiants et recherche ; aucune intégration PostgreSQL ou OpenFGA"
-    },
-    "model_checks_this_batch": {
-      "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-002 -p 'test_*.py'",
-      "result": "32 tests passed",
-      "new_tests": 3,
-      "scope": "same approval concurrency, exact budget equality, SQL admission trace failure and rollback; prior cases rerun"
-    },
-    "delivery_states": {
-      "saved": "GitHub working branch batch",
-      "controlled": "32 tests, source/release volume, schema/anchors, sampled screenshots; independent review pending",
-      "published": false
+    "next_action": "AI-002 livré via PR41 et PR42. Commencer VOCE-AI-003 en lisant main et la branche ; main contient une édition concurrente (82 019 caractères déclarés) à préserver. Lire le texte et ses sources avant de réconcilier, sans remplacer automatiquement cette édition par celle de la branche ancienne. Préparer des sources spécifiques et un chapitre substantiel sur la construction des preuves de contrôle ; sauvegarder le lot. Ne pas recommencer AI-002 ni fusionner PR39."
+  },
+  "completed_courses": {
+    "VOCE-AI-002": {
+      "id": "VOCE-AI-002",
+      "title": "Qui donne ses droits à un agent?",
+      "status": "published_verified_independent_review_pending",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-002/01-calcul-autorite.html",
+        "content/courses/engineering/VOCE-AI-002/02-delegation-services.html",
+        "content/courses/engineering/VOCE-AI-002/03-approbation-version-transaction.html",
+        "content/courses/engineering/VOCE-AI-002/05-revocation-distribuee.html",
+        "content/courses/engineering/VOCE-AI-002/06-outils-et-injection.html",
+        "content/courses/engineering/VOCE-AI-002/07-preuves-et-exploitation.html",
+        "content/courses/engineering/VOCE-AI-002/08-laboratoire-et-analyse.html",
+        "content/courses/engineering/VOCE-AI-002/README.md",
+        "content/courses/engineering/VOCE-AI-002/checks-2026-10-26.json",
+        "content/courses/engineering/VOCE-AI-002/course.json",
+        "content/courses/engineering/VOCE-AI-002/exercises.html",
+        "content/courses/engineering/VOCE-AI-002/references.html",
+        "content/courses/engineering/VOCE-AI-002/render_release.py",
+        "content/courses/engineering/VOCE-AI-002/review-2026-10-26.json",
+        "content/courses/engineering/VOCE-AI-002/shell.html",
+        "content/courses/engineering/VOCE-AI-002/test_transaction_lab.py",
+        "docs/education/rewrite-progress.json",
+        "docs/education/AI-002-delivery-2026-10-26.json"
+      ],
+      "lesson_characters": 130369,
+      "minimum_lesson_characters": 75000,
+      "measurement": "Counter de scripts/audit-course-volume.py ; concaténation ordonnée des chapitres dans article ; texte des seuls blocs lesson, espaces normalisés ; aucun texte de la page historique ajouté",
+      "chapters_written": [
+        "01-calcul-autorite.html",
+        "02-delegation-services.html",
+        "03-approbation-version-transaction.html",
+        "04-politiques-objets-relations.html",
+        "05-revocation-distribuee.html",
+        "06-outils-et-injection.html",
+        "07-preuves-et-exploitation.html",
+        "08-laboratoire-et-analyse.html"
+      ],
+      "chapters_remaining": [],
+      "sources_consulted": [
+        {
+          "url": "https://www.rfc-editor.org/rfc/rfc8693.html",
+          "sections": [
+            "1.1",
+            "2.1",
+            "4.1"
+          ],
+          "consulted_on": "2026-10-25"
+        },
+        {
+          "url": "https://www.rfc-editor.org/rfc/rfc9700.html",
+          "sections": [
+            "2.1.1",
+            "2.2.1"
+          ],
+          "consulted_on": "2026-10-25"
+        },
+        {
+          "url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization",
+          "sections": [
+            "Resource Parameter Implementation",
+            "Token Handling",
+            "Token Audience Binding and Validation"
+          ],
+          "consulted_on": "2026-10-25"
+        },
+        {
+          "url": "https://www.rfc-editor.org/rfc/rfc8785",
+          "sections": [
+            "Abstract",
+            "Introduction"
+          ],
+          "consulted_on": "2026-10-25"
+        },
+        {
+          "url": "https://www.postgresql.org/docs/current/transaction-iso.html",
+          "version_read": "18",
+          "sections": [
+            "13.2",
+            "13.2.1"
+          ],
+          "consulted_on": "2026-10-25"
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/sp/800/162/upd2/final",
+          "scope": "notice et résumé ABAC seulement",
+          "consulted_on": "2026-10-25"
+        },
+        {
+          "url": "https://www.postgresql.org/docs/18/ddl-rowsecurity.html",
+          "scope": "5.9, exceptions RLS et combinaison des politiques",
+          "consulted_on": "2026-10-25"
+        },
+        {
+          "url": "https://openfga.dev/docs/modeling/parent-child",
+          "scope": "introduction héritage parent-enfant",
+          "consulted_on": "2026-10-25"
+        },
+        {
+          "url": "https://www.rfc-editor.org/rfc/rfc7009.html",
+          "scope": "2.1 et 2.2, propagation et réponse",
+          "consulted_on": "2026-10-25"
+        },
+        {
+          "url": "https://www.rfc-editor.org/rfc/rfc7662.html",
+          "scope": "résumé et section 4, introspection et cache",
+          "consulted_on": "2026-10-25"
+        },
+        {
+          "url": "https://openfga.dev/docs/interacting/consistency",
+          "scope": "modes de cohérence et cache",
+          "consulted_on": "2026-10-25"
+        },
+        {
+          "url": "https://modelcontextprotocol.io/specification/2025-06-18/server/tools",
+          "scope": "Tool definitions, annotations",
+          "consulted_on": "2026-10-26"
+        },
+        {
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html",
+          "scope": "Agent-Specific Defenses, Secure Implementation Pipeline",
+          "consulted_on": "2026-10-26"
+        },
+        {
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html",
+          "scope": "Event attributes, Data to exclude, Event collection",
+          "consulted_on": "2026-10-26"
+        },
+        {
+          "url": "https://www.sqlite.org/lang_transaction.html",
+          "scope": "sections 2 à 3, BEGIN IMMEDIATE, écrivain unique, rollback",
+          "consulted_on": "2026-10-26"
+        },
+        {
+          "url": "https://docs.python.org/3/library/sqlite3.html",
+          "scope": "tutoriel : connexion, paramètres SQL et réouverture ; programme testé sous Python 3.12.14",
+          "consulted_on": "2026-10-26"
+        },
+        {
+          "url": "https://europass.europa.eu/en/description-eight-eqf-levels",
+          "scope": "learning outcome categories (knowledge, skills, responsibility/autonomy), official search extraction; direct reopen returned 403",
+          "consulted_on": "2026-10-26"
+        }
+      ],
+      "checks_executed": {
+        "command": "python content/courses/engineering/VOCE-AI-002/check_draft.py",
+        "result": "passed",
+        "report": "content/courses/engineering/VOCE-AI-002/checks-2026-10-26.json",
+        "scope": [
+          "deterministic rendering",
+          "production destination blocked",
+          "Counter agrees between sources and preview",
+          "one H1",
+          "obsolete JSON-LD removed",
+          "noindex preview",
+          "unique chapter ids",
+          "no exact paragraph duplicates within lot or against AI-001 core/engineering",
+          "seven arithmetic assertion groups"
+        ],
+        "release_report": "content/courses/engineering/VOCE-AI-002/review-2026-10-26.json"
+      },
+      "limits": [
+        "Independent expert review not performed",
+        "Learner pilot not performed",
+        "Visual checks sampled, not exhaustive accessibility/interaction audit",
+        "Models separate; simulated provider and no real OAuth integration"
+      ],
+      "next_action": "AI-002 livré via PR41 et PR42. Commencer VOCE-AI-003 en lisant main et la branche ; main contient une édition concurrente (82 019 caractères déclarés) à préserver. Lire le texte et ses sources avant de réconcilier, sans remplacer automatiquement cette édition par celle de la branche ancienne. Préparer des sources spécifiques et un chapitre substantiel sur la construction des preuves de contrôle ; sauvegarder le lot. Ne pas recommencer AI-002 ni fusionner PR39.",
+      "batch_new_lesson_characters": 5570,
+      "policy_model_checks": {
+        "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-002 -p test_policy_model.py -v",
+        "result": "6 tests passed",
+        "matrix_cases": 256,
+        "scope": "Modèle en mémoire : périmètre, habilitations, relations, résolution identifiants et recherche ; aucune intégration PostgreSQL ou OpenFGA"
+      },
+      "model_checks_this_batch": {
+        "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-002 -p 'test_*.py'",
+        "result": "32 tests passed",
+        "new_tests": 3,
+        "scope": "same approval concurrency, exact budget equality, SQL admission trace failure and rollback; prior cases rerun"
+      },
+      "delivery_states": {
+        "saved": true,
+        "controlled": "32 local tests, source/release count, consistency review, sampled desktop/mobile rendering, metadata/anchors and public routes verified",
+        "published": true
+      }
     }
   }
 }
