@@ -1,0 +1,12 @@
+{
+  "course": "VOCE-AI-013",
+  "lesson_characters": 13168,
+  "tests_passed": 9,
+  "command": "python content/courses/engineering/VOCE-AI-013/test_partitions.py",
+  "deterministic_preview": true,
+  "single_h1": true,
+  "exact_duplicate_paragraphs": 0,
+  "visual_review": false,
+  "independent_review": false,
+  "published": false
+}
