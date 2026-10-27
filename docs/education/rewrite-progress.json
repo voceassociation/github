@@ -3,7 +3,7 @@
   "updated_on": "2026-10-27",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "11097cda363f19c0b3341b093c3326398e468f86",
+  "base_head_read": "1c5f9482e91e630179f1b804953a0ea35809301b",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 106,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 105,
     "preserved_by_selection": 14,
     "eligible_under_20000": 106
   },
@@ -77,56 +77,57 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-013",
-    "title": "Tsinghua et AGIBOT: choisir les données qui apprendront une tâche au robot",
-    "status": "preserved_draft_above_selection_threshold_not_complete",
-    "lesson_characters": 24668,
-    "measurement": "Sum of normalized chapters 01 and 02; references, code and old page excluded.",
+    "id": "VOCE-AI-014",
+    "title": "Shanghai Jiao Tong: intégrer la température dans une décision de mobilité électrique",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 11060,
+    "measurement": "Normalized chapter 01 fragment; references, code and old page excluded.",
     "selection_before_write": {
-      "main": 9022,
-      "branch": 9022,
-      "saved_chapters": 13168
+      "main": 9088,
+      "branch": 9088,
+      "saved_chapters": 0
     },
     "chapters_written": [
-      "01-unites-et-partitions.html",
-      "02-collecte-et-horodatage.html"
+      "01-bilan-thermique.html"
     ],
     "chapters_remaining": [
-      "03 — Évaluation de la politique et dossier de réception; non rédigé, conservation prioritaire"
+      "02 — Missions successives, préconditionnement et énergie des auxiliaires",
+      "03 — Cas comparatif et protocole de réception"
     ],
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-013/02-collecte-et-horodatage.html",
-      "content/courses/engineering/VOCE-AI-013/test_collection.py",
-      "content/courses/engineering/VOCE-AI-013/checks-2026-10-27-ch02.json",
-      "content/courses/engineering/VOCE-AI-013/README.md",
+      "content/courses/engineering/VOCE-AI-014/01-bilan-thermique.html",
+      "content/courses/engineering/VOCE-AI-014/README.md",
+      "content/courses/engineering/VOCE-AI-014/checks-2026-10-27.json",
+      "content/courses/engineering/VOCE-AI-014/references.html",
+      "content/courses/engineering/VOCE-AI-014/render_draft.py",
+      "content/courses/engineering/VOCE-AI-014/test_thermal.py",
       "docs/education/course-selection-20000.json",
       "docs/education/rewrite-progress.json"
     ],
     "sources_consulted": [
       {
-        "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+        "url": "https://afdc.energy.gov/vehicles/how-do-all-electric-cars-work",
         "date": "2026-10-27",
-        "scope": "Introduction and Data transformation with held-out data"
+        "scope": "Key Components: Thermal system; architecture only"
       }
     ],
     "checks_executed": [
-      "18 local tests passed",
+      "8 local tests passed",
       "Deterministic preview and single H1",
       "No exact duplicate paragraphs"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Synthetic registry checks, count and structural preview only",
+      "controlled": "Synthetic thermal calculations, count and structural preview only",
       "published": false
     },
     "limits": [
       "Cours incomplet",
       "Relecture indépendante et contrôle visuel non effectués",
-      "Aucun robot, vidéo ou apprentissage de politique testé",
-      "Annonce Tsinghua inaccessible lors de cette tentative",
-      "ROS tutorial inaccessible; local causal pairing is not a ROS implementation test"
+      "Modèle à un nœud; aucune batterie réelle ou limite de sécurité validée",
+      "Programme SJTU non revérifié"
     ],
-    "next_action": "Preserve AI013 above 20k without further expansion or publication as complete. Check AI014 on main and saved sources; select only below 20k."
+    "next_action": "Remeasure main and saved sources. If below 20k, write chapter 02 on successive missions, preconditioning and auxiliary energy. Preserve chapter 01."
   },
   "completed_courses": {
     "VOCE-AI-002": {

@@ -1,0 +1,13 @@
+{
+  "course": "VOCE-AI-014",
+  "lesson_characters": 11060,
+  "tests_passed": 8,
+  "command": "python content/courses/engineering/VOCE-AI-014/test_thermal.py",
+  "deterministic_preview": true,
+  "single_h1": true,
+  "exact_duplicate_paragraphs": 0,
+  "visual_review": false,
+  "independent_review": false,
+  "published": false,
+  "scope": "Synthetic single-node model only; no real battery tested"
+}
