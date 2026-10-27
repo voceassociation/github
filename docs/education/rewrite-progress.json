@@ -3,7 +3,7 @@
   "updated_on": "2026-10-27",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "56d7a0999ef76076178a0e386da1ee2916efa3b2",
+  "base_head_read": "e7f79bbddf9c2b952ac6cd1ecd179ad7dfe114b8",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 108,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 107,
     "preserved_by_selection": 12,
     "eligible_under_20000": 108
   },
@@ -77,59 +77,58 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-011",
-    "title": "Tsinghua et AGIBOT: passer de la simulation à un robot au travail",
-    "status": "preserved_draft_above_selection_threshold_not_complete",
-    "lesson_characters": 20158,
-    "measurement": "Sum of normalized chapters 01 and 02, headings included; references, code and old page excluded.",
+    "id": "VOCE-AI-012",
+    "title": "Shanghai Jiao Tong: comprendre un véhicule électrique au-delà de sa batterie",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 10474,
+    "measurement": "Normalized chapter 01 fragment, headings included; references, code and old page excluded.",
     "selection_before_write": {
-      "main": 9258,
-      "branch": 9258,
-      "saved_chapters": 10047
+      "main": 9014,
+      "branch": 9014,
+      "saved_chapters": 0
     },
     "chapters_written": [
-      "01-unite-et-autonomie.html",
-      "02-comparaison-et-transfert.html"
+      "01-bilan-de-mission.html"
     ],
     "chapters_remaining": [
-      "03 — Protocole intégré et exercices corrigés; non rédigé, conservation prioritaire"
+      "02 — Recharge, contraintes de puissance et profils de mission",
+      "03 — Cas comparatif et protocole de réception"
     ],
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-011/02-comparaison-et-transfert.html",
-      "content/courses/engineering/VOCE-AI-011/test_design.py",
-      "content/courses/engineering/VOCE-AI-011/references.html",
-      "content/courses/engineering/VOCE-AI-011/checks-2026-10-27-ch02.json",
-      "content/courses/engineering/VOCE-AI-011/README.md"
+      "content/courses/engineering/VOCE-AI-012/01-bilan-de-mission.html",
+      "content/courses/engineering/VOCE-AI-012/README.md",
+      "content/courses/engineering/VOCE-AI-012/checks-2026-10-27.json",
+      "content/courses/engineering/VOCE-AI-012/references.html",
+      "content/courses/engineering/VOCE-AI-012/render_draft.py",
+      "content/courses/engineering/VOCE-AI-012/test_energy.py",
+      "docs/education/course-selection-20000.json",
+      "docs/education/rewrite-progress.json"
     ],
     "sources_consulted": [
       {
-        "url": "https://www.ee.tsinghua.edu.cn/info/1076/5393.htm",
+        "url": "https://afdc.energy.gov/vehicles/how-do-all-electric-cars-work",
         "date": "2026-10-27",
-        "scope": "Programme annoncé le 14 septembre 2026 et pilote pédagogique; aucun résultat industriel inféré"
-      },
-      {
-        "url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri332.htm",
-        "date": "2026-10-27",
-        "scope": "5.3.3.2, principle of blocking and nuisance factors; targeted reading"
+        "scope": "Key Components; architecture only, synthetic figures not sourced here"
       }
     ],
     "checks_executed": [
-      "16 local tests passed",
+      "8 local tests passed",
       "Deterministic preview and single H1",
-      "No exact duplicate paragraphs"
+      "Normalized count and no exact duplicate paragraphs"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Synthetic models, counts and structural preview only",
+      "controlled": "Synthetic energy calculations, count and structural preview only",
       "published": false
     },
     "limits": [
       "Cours incomplet",
       "Relecture indépendante et contrôle visuel non effectués",
-      "Données synthétiques et calculs descriptifs; aucune inférence statistique",
-      "Aucun robot réel, dispositif de protection ou pilote apprenant testé"
+      "Modèles énergétiques simplifiés; aucun véhicule réel testé",
+      "Fiche SJTU inaccessible lors de la tentative, non relue",
+      "Aucun pilote apprenant"
     ],
-    "next_action": "Preserve AI011 now above 20k without expansion or publication as complete. Check AI012 on current main and saved sources; select only below 20k."
+    "next_action": "Remeasure main and saved chapters before selection. If below 20k, write chapter 02 on charging power, duration and mission profiles. Preserve chapter 01."
   },
   "completed_courses": {
     "VOCE-AI-002": {

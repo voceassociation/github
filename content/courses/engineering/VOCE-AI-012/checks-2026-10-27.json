@@ -1,0 +1,17 @@
+{
+  "lesson_characters": 10474,
+  "tests_passed": 8,
+  "command": "python content/courses/engineering/VOCE-AI-012/test_energy.py",
+  "deterministic_preview": true,
+  "single_h1": true,
+  "exact_duplicate_paragraphs": 0,
+  "quality_validated": false,
+  "published": false,
+  "limitations": [
+    "Cours incomplet",
+    "Relecture indépendante et contrôle visuel non effectués",
+    "Modèles énergétiques simplifiés; aucun véhicule réel testé",
+    "Fiche SJTU inaccessible lors de la tentative, non relue",
+    "Aucun pilote apprenant"
+  ]
+}
