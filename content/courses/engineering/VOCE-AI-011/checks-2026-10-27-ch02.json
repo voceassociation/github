@@ -1,0 +1,21 @@
+{
+  "lesson_characters": 20158,
+  "chapters": {
+    "01-unite-et-autonomie.html": 10047,
+    "02-comparaison-et-transfert.html": 10111
+  },
+  "tests_passed": 16,
+  "new_tests": 7,
+  "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-011 -p 'test_*.py'",
+  "deterministic_preview": true,
+  "single_h1": true,
+  "exact_duplicate_paragraphs": 0,
+  "quality_validated": false,
+  "published": false,
+  "limitations": [
+    "Cours incomplet",
+    "Relecture indépendante et contrôle visuel non effectués",
+    "Données synthétiques et calculs descriptifs; aucune inférence statistique",
+    "Aucun robot réel, dispositif de protection ou pilote apprenant testé"
+  ]
+}
