@@ -1,0 +1,22 @@
+{
+  "lesson_characters": 23795,
+  "chapters": {
+    "01-rapprocher-avant-reprise.html": 12434,
+    "02-gel-et-retour.html": 11361
+  },
+  "tests_passed": 17,
+  "new_tests": 7,
+  "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-009 -p 'test_*.py'",
+  "deterministic_preview": true,
+  "single_h1": true,
+  "exact_duplicate_paragraphs": 0,
+  "new_external_sources": [],
+  "quality_validated": false,
+  "published": false,
+  "limitations": [
+    "Cours incomplet",
+    "Relecture indépendante et contrôle visuel non effectués",
+    "Modèle séquentiel: atomicité et identités fiables supposées, aucune persistance distante",
+    "Aucun exercice de reprise avec opérateurs réalisé"
+  ]
+}
