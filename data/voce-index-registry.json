@@ -2699,6 +2699,40 @@
         "urn:li:ugcPost:7519956061508870144",
         "urn:li:ugcPost:7519910759410278400"
       ]
+    },
+    "2026-10-26": {
+      "count": 11,
+      "source": "linkedin",
+      "page": "/archive/2026-10-26",
+      "post_ids": [
+        "urn:li:ugcPost:7520605361419067393",
+        "urn:li:ugcPost:7520590243964653568",
+        "urn:li:ugcPost:7520560085606055936",
+        "urn:li:ugcPost:7520545001483735041",
+        "urn:li:ugcPost:7520529883123355648",
+        "urn:li:ugcPost:7520514777253830656",
+        "urn:li:ugcPost:7520484590801702913",
+        "urn:li:ugcPost:7520454377095168002",
+        "urn:li:ugcPost:7520439264388579328",
+        "urn:li:ugcPost:7520424170443374593",
+        "urn:li:ugcPost:7520393958066130944"
+      ]
+    },
+    "2026-10-27": {
+      "count": 9,
+      "source": "linkedin",
+      "page": "/archive/2026-10-27",
+      "post_ids": [
+        "urn:li:ugcPost:7520801663692152833",
+        "urn:li:ugcPost:7520786552298459136",
+        "urn:li:ugcPost:7520756352722460672",
+        "urn:li:ugcPost:7520741247792345088",
+        "urn:li:ugcPost:7520726164269854720",
+        "urn:li:ugcPost:7520711036119928832",
+        "urn:li:ugcPost:7520695922037669889",
+        "urn:li:ugcPost:7520680828473950208",
+        "urn:li:ugcPost:7520650646245761024"
+      ]
     }
   },
   "pipeline": {

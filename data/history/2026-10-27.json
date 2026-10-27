@@ -1,0 +1,261 @@
+{
+  "schema": 1,
+  "owner": "VOCE Association",
+  "source": "LinkedIn authenticated browser",
+  "date": "2026-10-27",
+  "item_count": 9,
+  "items": [
+    {
+      "id": "linkedin:7520801663692152833",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7520801663692152833",
+      "date_published": "2026-10-27",
+      "title": "UACJ et Tohoku: une feuille d'aluminium-manganèse pourrait supprimer graphite et collecteur cuivre dans l'anode",
+      "slug": "uacj-et-tohoku-une-feuille-d-aluminium-manganese-pourrait-supprimer-grap-7520801663692152833",
+      "canonical_url": "https://voce.life/archive/2026/10/27/uacj-et-tohoku-une-feuille-d-aluminium-manganese-pourrait-supprimer-grap-7520801663692152833",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7520801663692152833/",
+      "language": "fr",
+      "text": "UACJ et Tohoku: une feuille d'aluminium-manganèse pourrait supprimer graphite et collecteur cuivre dans l'anode\n\nJapon, 23 octobre 2026.\n\nUne batterie lithium-ion classique utilise du graphite comme matériau actif, déposé sur une feuille de cuivre qui collecte le courant.\n\nUACJ et l'université de Tohoku testent une autre architecture: une seule feuille d'aluminium contenant 1% atomique de manganèse assure les deux fonctions.\n\nLe problème de l'aluminium apparaît lorsque le lithium doit ressortir.\n\nUne couche appauvrie en lithium se forme à la surface et freine l'extraction depuis l'intérieur. Des fissures créent alors de nouveaux passages, mais exposent aussi le métal à l'électrolyte et accélèrent sa dégradation.\n\nLe manganèse modifie cette mécanique.\n\nIl reste dispersé dans l'aluminium et empêche les domaines lithiés de grossir. Pendant les cycles, la microstructure s'affine jusqu'à former des grains d'environ 100 à 300 nanomètres.\n\nLeurs frontières multiplient les chemins courts permettant au lithium de sortir sans imposer la même destruction poreuse de l'électrode.\n\nEn demi-cellule, l'aluminium pur échoue avant 40 cycles. L'alliage Al-Mn conserve sa capacité au-delà de 85 cycles.\n\nSon rendement coulombique initial atteint 81%, contre 80% pour l'aluminium pur et 56% pour l'alliage Al-Si testé comme comparaison.\n\nUACJ avance une capacité théorique environ 2,7 fois supérieure à celle du graphite.\n\nCe chiffre concerne le matériau actif. Il ne signifie ni 2,7 fois plus d'autonomie ni 2,7 fois plus d'énergie au niveau d'une batterie complète.\n\nL'intérêt industriel est ailleurs: supprimer potentiellement graphite, cuivre, liant et certaines étapes de fabrication en faisant de la feuille métallique l'électrode elle-même.\n\nULTRA®\n\nLa cellule complète montre précisément ce qui reste à résoudre.\n\nAssociée à une cathode lithium-fer-phosphate, sans prélithiation, l'anode Al-Mn démarre autour de 0,9 mAh/cm² puis ne conserve qu'environ 0,25 mAh/cm² après 200 cycles.\n\nDans le même temps, son rendement coulombique moyen reste proche de 99,3%.\n\nIl n'y a aucune contradiction.\n\nLe rendement mesure la fraction de charge récupérée à chaque cycle. La capacité mesure la quantité totale que la cellule peut encore délivrer.\n\nAvec une réserve de lithium limitée, de petites pertes répétées finissent par retirer une part importante du stock disponible.\n\nLa percée de Tohoku et UACJ est donc métallurgique avant d'être commerciale: ils montrent comment rendre la délithiation profonde de l'aluminium beaucoup moins destructrice.\n\nL'étape suivante consiste à conserver davantage de capacité dans une cellule complète.\n\nALBERICH\n\nPosséder une ressource ne donne aucun pouvoir lorsque les chemins qui permettent de la retrouver disparaissent.\n\nSources 2026\n\nNakata et al., Communications Materials, 23 octobre\nUACJ, développement d'un alliage d'aluminium pour batteries lithium-ion de nouvelle génération\n\n#VOCEAssociation #Batteries #Aluminium #Métallurgie #Industrie",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "date_precision": "day",
+      "provenance": {
+        "source": "authenticated_linkedin_browser",
+        "retrieved_at": "2026-10-27T11:16:40Z",
+        "visible_relative_time": "8 min",
+        "date_basis": "Structured published_date on the exact observed LinkedIn post; independent of article body dates."
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-27T11:31:22.469178+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7520786552298459136",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7520786552298459136",
+      "date_published": "2026-10-27",
+      "title": "Canicules: en Italie, un mur stocke la chaleur au lieu de seulement la ralentir",
+      "slug": "canicules-en-italie-un-mur-stocke-la-chaleur-au-lieu-de-seulement-la-ral-7520786552298459136",
+      "canonical_url": "https://voce.life/archive/2026/10/27/canicules-en-italie-un-mur-stocke-la-chaleur-au-lieu-de-seulement-la-ral-7520786552298459136",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7520786552298459136/",
+      "language": "fr",
+      "text": "Canicules: en Italie, un mur stocke la chaleur au lieu de seulement la ralentir\n\nItalie du Sud, 2026.\n\nRosa Francesca De Masi, Valentino Festa et leurs collègues testent pendant cinq mois une paroi expérimentale.\n\nLe mur associe géopolymère, matériau à changement de phase, ou PCM, et façade végétalisée.\n\nÀ une température donnée, le PCM fond en absorbant de la chaleur. En refroidissant, il se solidifie et la restitue.\n\nLe mur devient une batterie thermique sans électricité.\n\nDans les conditions testées, le système réduit jusqu'à 4,8°C la température de surface extérieure et jusqu'à 3 W/m² le pic de flux thermique. Le PCM diminue de 16% la chaleur totale restituée vers l'intérieur.\n\nCe ne sont pas des économies annuelles garanties.\n\nEn septembre, Tolga Tamer, Hatice Duran et leurs collègues poussent le principe plus loin.\n\nIls combinent cendres volantes, laitier sidérurgique, graphite et microcapsules thermiques dans un géopolymère.\n\nLes mortiers conservent plus de 22,9 MPa de résistance à la compression après 28 jours.\n\nMais le résultat le plus utile concerne la position du PCM.\n\nLe graphite aide la chaleur à atteindre les capsules, mais augmente aussi les transferts hors changement de phase. Les simulations montrent qu'une couche riche en PCM près de la face intérieure peut obtenir un refroidissement comparable avec moins de matériau actif qu'une répartition uniforme.\n\nLe mur n'est donc plus seulement une épaisseur.\n\nIl devient une architecture thermique.\n\nULTRA®\n\nUn isolant ralentit la chaleur. Un PCM la stocke temporairement grâce à son enthalpie de fusion.\n\nUne capsule déjà liquide ne peut plus absorber de chaleur latente. Elle doit se resolidifier pour être utile le lendemain.\n\nTempérature de fusion, orientation, conductivité, épaisseur active et climat nocturne deviennent donc aussi importants que la résistance thermique.\n\nUne solution efficace à Milan peut perdre de son intérêt à Dubaï si les nuits restent trop chaudes pour permettre sa régénération.\n\nFINVOCE ©\n\nLa France prépare désormais ses bâtiments à une trajectoire de +4°C en 2100. Météo-France projette jusqu'à 120 nuits supérieures à 20°C par an sur le littoral méditerranéen.\n\nL'italien E-4E commercialise déjà Templok, un panneau PCM pour murs, plafonds et toitures, y compris en rénovation.\n\nLe choix industriel devient concret: continuer à concevoir l'enveloppe comme une barrière, ou apprendre aussi à décaler les pics de chaleur avant que la climatisation ne devienne la réponse par défaut.\n\nUn bâtiment construit aujourd'hui devra encore affronter les étés de 2050.\n\nVULCANO\n\nL'intelligence d'un bâtiment se mesure aussi à la chaleur qu'il sait différer.\n\nSources 2026\n\nDe Masi et al., Solar Energy, mars\nTamer et al., Construction and Building Materials, septembre\nMétéo-France, TRACC\nE-4E, Templok\n\n#VOCEAssociation #Architecture #Matériaux #ConstructionDurable #Climat #Ingénierie",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "date_precision": "day",
+      "provenance": {
+        "source": "authenticated_linkedin_browser",
+        "retrieved_at": "2026-10-27T11:16:40Z",
+        "visible_relative_time": "1 h",
+        "date_basis": "Structured published_date on the exact observed LinkedIn post; independent of article body dates."
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-27T11:31:22.469178+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7520756352722460672",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7520756352722460672",
+      "date_published": "2026-10-27",
+      "title": "CIR: près de 8 milliards d'euros, mais 1 € d'aide déclenche 1,40 € de R&D dans les petites entreprises et 0,40 € dans les grandes",
+      "slug": "cir-pres-de-8-milliards-d-euros-mais-1-d-aide-declenche-1-40-de-r-d-dans-7520756352722460672",
+      "canonical_url": "https://voce.life/archive/2026/10/27/cir-pres-de-8-milliards-d-euros-mais-1-d-aide-declenche-1-40-de-r-d-dans-7520756352722460672",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7520756352722460672/",
+      "language": "fr",
+      "text": "CIR: près de 8 milliards d'euros, mais 1 € d'aide déclenche 1,40 € de R&D dans les petites entreprises et 0,40 € dans les grandes\n\nParis, 30 juin 2026.\n\nLe crédit d'impôt recherche est l'un des dispositifs les plus généreux de l'OCDE.\n\nEn France, une entreprise peut déduire 30% de ses dépenses de R&D jusqu'à 100 millions d'euros, puis 5% au-delà.\n\nSon coût est passé de 1,8 milliard d'euros en 2007 à près de 8 milliards en 2024.\n\nMais l'OCDE pose une question plus importante: combien de recherche supplémentaire chaque euro public déclenche-t-il?\n\nLes travaux internationaux qu'elle reprend montrent un écart considérable.\n\nUn euro d'aide fiscale génère en moyenne 1,40 € de R&D supplémentaire dans les petites entreprises.\n\nDans les grandes: 0,40 €.\n\nCe ne sont pas des rendements mesurés directement sur le CIR français. Ils montrent pourquoi sa répartition mérite examen.\n\nLe Conseil d'analyse économique retrouve la même asymétrie sur les brevets: un million d'euros d'aide produit environ 1,2 brevet dans une microentreprise, contre 0,5 dans une grande.\n\nOr les grandes entreprises captent la plus grande part du dispositif.\n\nLes dépenses de R&D des entreprises françaises restent à 1,4% du PIB.\n\nEt près d'une entreprise de dix salariés ou plus sur deux utilise le cloud dans l'OCDE. En France, la proportion est environ deux fois plus faible.\n\nLa France sait financer la recherche.\n\nElle diffuse moins bien les technologies qui devraient en accroître la productivité.\n\nULTRA®\n\nLe CIR récompense une dépense éligible. Il ne mesure pas automatiquement ce qui aurait été investi sans aide publique.\n\nC'est l'additionnalité.\n\nL'OCDE recommande d'abaisser le seuil de 100 millions d'euros à partir duquel le taux tombe de 30% à 5%, afin de concentrer davantage l'incitation là où elle déclenche le plus d'investissement supplémentaire.\n\nL'évaluation devrait suivre les euros privés déclenchés, les brevets valorisés, les technologies industrialisées et les revenus conservés sur le territoire.\n\nLe 22 octobre, l'Insee relève des intentions d'investissement industriel plus favorables pour 2027.\n\nSignal positif. Pas encore preuve de productivité.\n\nLI!GHT WORKFORCE ©\n\nLOGICIEL: GitHub Copilot cloud agent\nSOCIÉTÉ: GitHub / Microsoft\n\nL'agent peut explorer un dépôt, planifier, modifier le code, corriger des bugs, améliorer les tests et ouvrir une pull request soumise à revue humaine.\n\nPour les entreprises bénéficiant du CIR, mesurer l'effort de R&D devra donc évoluer: moins compter uniquement les heures humaines, davantage mesurer les expérimentations validées, les défauts corrigés, les actifs logiciels produits et leur valeur économique.\n\nMERCURIO\n\nUne économie peut financer longtemps la recherche sans construire les entreprises qui en captureront les fruits.\n\nSources 2026\n\nOCDE, Études économiques de la France, 30 juin\nInsee, 22 octobre\nDirection générale des Entreprises\nGitHub Docs\n\n#VOCEAssociation #France #Recherche #Innovation #Productivité #Industrie",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "date_precision": "day",
+      "provenance": {
+        "source": "authenticated_linkedin_browser",
+        "retrieved_at": "2026-10-27T11:16:40Z",
+        "visible_relative_time": "3 h",
+        "date_basis": "Structured published_date on the exact observed LinkedIn post; independent of article body dates."
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-27T11:31:22.469178+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7520741247792345088",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7520741247792345088",
+      "date_published": "2026-10-27",
+      "title": "Cancer de l'estomac: le sonesitatug vedotin double la survie médiane après au moins deux lignes de traitement",
+      "slug": "cancer-de-l-estomac-le-sonesitatug-vedotin-double-la-survie-mediane-apre-7520741247792345088",
+      "canonical_url": "https://voce.life/archive/2026/10/27/cancer-de-l-estomac-le-sonesitatug-vedotin-double-la-survie-mediane-apre-7520741247792345088",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7520741247792345088/",
+      "language": "fr",
+      "text": "Cancer de l'estomac: le sonesitatug vedotin double la survie médiane après au moins deux lignes de traitement\n\nMadrid, 25 octobre 2026.\n\nUne protéine normalement cachée dans les jonctions de la muqueuse gastrique devient accessible lorsque l'architecture tumorale se désorganise.\n\nElle s'appelle CLDN18.2.\n\nLe sonesitatug vedotin exploite cette faille. Cet anticorps conjugué reconnaît CLDN18.2 et transporte de la monométhyl auristatine E, ou MMAE. Après internalisation, cette cargaison bloque les microtubules nécessaires à la division cellulaire.\n\nÀ l'ESMO 2026, Rui-Hua Xu présente CLARITY-Gastric01, essai international de phase III mené chez 532 patients atteints de cancers gastro-œsophagiens avancés, déjà traités.\n\nChez les 355 patients ayant reçu au moins deux lignes antérieures, la survie médiane atteint 10 mois avec le sonesitatug vedotin contre 5 mois avec le traitement choisi par l'oncologue.\n\nÀ douze mois: 38,1% sont vivants contre 18,1%.\n\nLe risque de décès est réduit de 53% pendant le suivi.\n\nDans l'ensemble des 532 patients, la survie médiane atteint 10,6 mois contre 6,4 mois, soit un risque de décès réduit de 42%.\n\nMais l'autre critère principal impose de rester précis.\n\nLa survie sans progression évaluée indépendamment passe de 3,8 à 4,2 mois. Avec p=0,053, le seuil statistique prévu n'est pas atteint.\n\nLe bénéfice de survie globale est donc démontré. La discordance avec la progression reste à comprendre.\n\nCôté tolérance, les effets indésirables liés au traitement de grade 3 ou plus concernent 36,4% des patients contre 44,8% avec le comparateur.\n\nLe médicament reste expérimental.\n\nULTRA®\n\nLe résultat le plus important pourrait être le seuil biologique.\n\nLe zolbétuximab, déjà autorisé en première ligne dans une autre situation clinique, utilise un seuil d'au moins 75% de cellules tumorales présentant une coloration membranaire modérée à forte.\n\nCLARITY-Gastric01 accepte dès 25% de cellules positives, quelle que soit l'intensité.\n\nDans le sous-groupe 25 à moins de 75%, le hazard ratio de survie est de 0,63. Le signal existe donc aussi chez des tumeurs qui auraient été classées sous le seuil du zolbétuximab.\n\nLe sonesitatug possède en outre, dans les modèles précliniques, un effet de proximité: la MMAE libérée peut atteindre des cellules voisines moins riches en CLDN18.2.\n\nCela pourrait aider face à l'hétérogénéité tumorale. Son rôle clinique exact reste à démontrer.\n\nLa médecine de précision dépend ainsi aussi du test utilisé, du seuil choisi et de la manière dont le pathologiste lit la membrane.\n\nAMNERIS\n\nLa connaissance progresse parfois lorsqu'elle découvre que la frontière était dans notre manière de regarder.\n\nSources 2026\n\nESMO, CLARITY-Gastric01, LBA7\nAstraZeneca, 25 octobre\nNCI, sonesitatug vedotin\nFDA / VENTANA CLDN18 RxDx\n\n#VOCEAssociation #CancerDeLEstomac #SonesitatugVedotin #Oncologie #MedecineDePrecision",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "date_precision": "day",
+      "provenance": {
+        "source": "authenticated_linkedin_browser",
+        "retrieved_at": "2026-10-27T11:16:40Z",
+        "visible_relative_time": "4 h",
+        "date_basis": "Structured published_date on the exact observed LinkedIn post; independent of article body dates."
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-27T11:31:22.469178+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7520726164269854720",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7520726164269854720",
+      "date_published": "2026-10-27",
+      "title": "Oracle FSCR: une partie du métier d'intégrateur ERP devient un dépôt GitHub",
+      "slug": "oracle-fscr-une-partie-du-metier-d-integrateur-erp-devient-un-depot-gith-7520726164269854720",
+      "canonical_url": "https://voce.life/archive/2026/10/27/oracle-fscr-une-partie-du-metier-d-integrateur-erp-devient-un-depot-gith-7520726164269854720",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7520726164269854720/",
+      "language": "fr",
+      "text": "Oracle FSCR: une partie du métier d'intégrateur ERP devient un dépôt GitHub\n\n26 octobre 2026.\n\nUne entreprise déploie Oracle Fusion.\n\nIl faut traduire ses processus, choisir les options, respecter les dépendances, configurer, tester puis valider.\n\nUne partie de ce savoir repose encore sur des consultants qui connaissent l'ordre exact des opérations.\n\nOracle vient d'en publier une partie sous une forme inhabituelle.\n\nFusion Setup and Configuration Registry, ou FSCR, est un dépôt GitHub public qui transforme l'expertise de configuration d'Oracle en skills lisibles et exécutables par des agents IA.\n\nOptions, dépendances, séquences, exécution, tests, validation: Oracle maintient cette connaissance parallèlement à Fusion Applications.\n\nUn agent peut convertir exigences métier, politiques internes ou configuration existante en runbook, exécuter les changements dans Fusion, tester puis soumettre le résultat à un expert.\n\nLe savoir d'implémentation devient versionné.\n\nL'architecture compte.\n\nLe modèle interprète la demande.\nFSCR fournit la connaissance produit.\nFusion reste le système transactionnel.\nL'expert conserve la revue et l'approbation.\n\nOracle précise ses limites: FSCR n'est pas couvert comme une fonctionnalité Fusion. Il exige un environnement autorisé, des permissions adaptées et une revue avant exécution.\n\nAI Success Navigator s'appuie sur cette base. Son Configuration Agent construit les configurations; le Testing Agent prépare les tests; l'Integration Agent peut définir l'architecture d'une intégration et produire son code.\n\nAccenture, Deloitte, Grant Thornton et PwC soutiennent l'initiative.\n\nLe signal économique est clair: les intégrateurs pourront bâtir leurs méthodes et solutions sectorielles au-dessus d'une base Oracle commune plutôt que reconstruire la configuration projet après projet.\n\nLexington Health affirme avoir réduit de 80% certains efforts de design et de configuration. Retour client, pas performance généralisable.\n\nULTRA®\n\nFSCR transforme une partie de la documentation produit en couche exécutable.\n\nLa connaissance de configuration peut désormais évoluer avec le logiciel, être versionnée, appelée par un agent puis contrôlée humainement.\n\nL'avantage concurrentiel des intégrateurs se déplace vers ce qu'Oracle ne peut pas encoder complètement: processus sectoriels, exceptions métier, architecture cible, gouvernance et conduite du changement.\n\nLI!GHT WORKFORCE ©\n\nLOGICIEL: Oracle FSCR + AI Success Navigator\nSOCIÉTÉ: Oracle\n\nTRAVAIL ABSORBÉ: runbooks, configuration standard, génération de tests, validation technique et une partie du code d'intégration.\n\nTRAVAIL HUMAIN QUI RESTE: arbitrages métier, architecture, exceptions, gouvernance, validation finale, conduite du changement.\n\nLe métier ne disparaît pas. Sa valeur remonte d'un étage.\n\nSources 2026\n\nOracle, 26 octobre 2026\nOracle FSCR, dépôt GitHub public\nOracle AI Success Navigator\n\n#VOCEAssociation #Oracle #ERP #AIAgents #SystemsIntegration #FutureOfWork",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "date_precision": "day",
+      "provenance": {
+        "source": "authenticated_linkedin_browser",
+        "retrieved_at": "2026-10-27T11:16:40Z",
+        "visible_relative_time": "5 h",
+        "date_basis": "Structured published_date on the exact observed LinkedIn post; independent of article body dates."
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-27T11:31:22.469178+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7520711036119928832",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7520711036119928832",
+      "date_published": "2026-10-27",
+      "title": "ChatGPT: jusqu'à +49 points de performance, sans gain mesurable de connaissances",
+      "slug": "chatgpt-jusqu-a-49-points-de-performance-sans-gain-mesurable-de-connaiss-7520711036119928832",
+      "canonical_url": "https://voce.life/archive/2026/10/27/chatgpt-jusqu-a-49-points-de-performance-sans-gain-mesurable-de-connaiss-7520711036119928832",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7520711036119928832/",
+      "language": "fr",
+      "text": "ChatGPT: jusqu'à +49 points de performance, sans gain mesurable de connaissances\n\n26 octobre 2026.\n\nNature Human Behaviour publie un essai randomisé mené auprès de 487 consultants de BCG.\n\nOn leur demande des tâches de data science hors de leur expertise: nettoyer des données en Python, construire un modèle prédictif, vérifier une analyse statistique.\n\nUne partie reçoit ChatGPT et une formation pour l'utiliser.\n\nRésultat: selon la tâche, les consultants assistés gagnent 49, 20 et 18 points de pourcentage face au groupe témoin.\n\nSur deux des trois exercices, ils approchent les performances de data scientists professionnels.\n\nPuis ChatGPT est retiré.\n\nLes chercheurs testent ce que les participants ont réellement appris.\n\nL'avantage disparaît.\n\nSans l'IA, ils ne répondent pas significativement mieux aux questions techniques.\n\nLa performance avait augmenté.\n\nLa connaissance autonome, non.\n\nEmma Wiles, Lisa Krayer et leurs collègues parlent d'un \"exosquelette\".\n\nL'image est précise: un exosquelette permet de soulever davantage sans transformer immédiatement les muscles de celui qui le porte.\n\nL'IA peut produire le même effet cognitif.\n\nUn salarié devient capable d'exécuter une tâche située au-delà de ses compétences indépendantes sans avoir nécessairement acquis les connaissances qui la rendent possible.\n\nPour l'entreprise, cela change la lecture de l'upskilling.\n\nVitesse, qualité des livrables et nombre de salariés formés peuvent donner l'impression d'une montée en compétence alors qu'une partie du gain dépend encore de l'outil.\n\nLa différence apparaît lorsque l'IA se trompe, devient indisponible ou rencontre un cas qu'elle gère mal.\n\nULTRA®\n\nLe résultat le plus important concerne le jugement.\n\nChatGPT augmente fortement la capacité de production, mais les auteurs rejettent l'hypothèse selon laquelle les consultants atteignent globalement le niveau des experts.\n\nUne organisation peut donc créer un écart nouveau: produire comme un spécialiste sans disposer de la même capacité à juger comme lui.\n\nPour les métiers à forte conséquence, la gouvernance devrait séparer deux mesures: ce qu'un collaborateur accomplit avec l'IA et ce qu'il sait encore expliquer, contrôler ou contester sans elle.\n\nSinon, la productivité peut masquer une dépendance de compétence.\n\nLI!GHT WORKFORCE ©\n\nUn effectif réduit peut couvrir davantage de tâches grâce à l'IA.\n\nMais si les compétences humaines de contrôle disparaissent au même rythme, l'entreprise externalise aussi une partie de sa capacité à détecter l'erreur.\n\nLe choix stratégique devient précis: quelles compétences peut-on déléguer à l'IA, et lesquelles l'organisation doit-elle continuer à posséder humainement?\n\nSources 2026\n\nWiles et al., Nature Human Behaviour, 26 octobre\nBCG Henderson Institute, expérimentation GenAI et data science\n\n#VOCEAssociation #AIGovernance #FutureOfWork #HumanCapital #LightWorkforce",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "date_precision": "day",
+      "provenance": {
+        "source": "authenticated_linkedin_browser",
+        "retrieved_at": "2026-10-27T11:16:40Z",
+        "visible_relative_time": "6 h",
+        "date_basis": "Structured published_date on the exact observed LinkedIn post; independent of article body dates."
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-27T11:31:22.469178+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7520695922037669889",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7520695922037669889",
+      "date_published": "2026-10-27",
+      "title": "OPÉRA VOCE - BCE: la tensione comincia nella cassa",
+      "slug": "opera-voce-bce-la-tensione-comincia-nella-cassa-7520695922037669889",
+      "canonical_url": "https://voce.life/archive/2026/10/27/opera-voce-bce-la-tensione-comincia-nella-cassa-7520695922037669889",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7520695922037669889/",
+      "language": "fr",
+      "text": "OPÉRA VOCE - BCE: la tensione comincia nella cassa\n\nATTO I\n\n26 octobre 2026.\n\nLa BCE interroge 12.822 entreprises de la zone euro.\n\nLe crédit se tend avant même que les comptes ne cassent.\n\nParmi les entreprises pour lesquelles le prêt bancaire est pertinent, 7% rencontrent désormais un obstacle pour l'obtenir, contre 5% au trimestre précédent.\n\nLe signal le plus précis vient pourtant de la trésorerie.\n\n11% net déclarent avoir davantage besoin de lignes de crédit. Leur disponibilité recule de 4% net.\n\n12% net demandent davantage de crédit fournisseur.\n\nLe besoin de liquidité augmente pendant que son accès devient moins confortable.\n\nATTO II\n\nUne entreprise peut vendre correctement et manquer de cash.\n\nElle paie salaires, énergie, stocks et fournisseurs avant d'avoir encaissé tous ses clients. Lorsque les coûts montent ou que les délais s'allongent, davantage d'argent reste immobilisé dans le cycle d'exploitation.\n\n38% des entreprises utilisent principalement leur financement pour les stocks et le besoin en fonds de roulement.\n\nLe crédit fournisseur devient alors une dette invisible dans la chaîne.\n\nAccorder 60 jours au lieu de 30 revient à financer gratuitement son client pendant un mois supplémentaire.\n\nDans le même temps, 46% net des entreprises signalent une hausse des taux bancaires. 14% net constatent un durcissement des exigences de garantie.\n\nLa tension peut donc voyager d'un bilan à l'autre avant d'apparaître dans les défauts.\n\nATTO III\n\nPour un investisseur, un fonds privé ou une banque, EBITDA et chiffre d'affaires ne suffisent pas.\n\nIl faut regarder cash conversion cycle, stocks, créances clients, délais fournisseurs, lignes revolving et couverture des intérêts.\n\nLa BCE fournit aussi une leçon méthodologique rare.\n\nLa majorité de l'échantillon est composée de nouveaux répondants. Dans l'ensemble de l'échantillon, les entreprises anticipent +7,1% sur leurs prix de vente à douze mois.\n\nChez celles interrogées deux trimestres de suite: +3,6%.\n\nMême enquête. Composition différente. Lecture radicalement différente.\n\nFINVOCE ©\n\nGIANNI SCHICCHI\n\nUn patrimoine ne vaut jamais exactement ce qu'en raconte le papier.\n\nPour l'entreprise, la tension financière commence souvent avant la perte.\n\nElle commence lorsque le cash met plus longtemps à revenir.\n\nSources\n\nBCE, Survey on the Access to Finance of Enterprises, 26 octobre 2026\n\n#VOCEAssociation #BCE #Crédit #Trésorerie #WorkingCapital #Entreprises",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "date_precision": "day",
+      "provenance": {
+        "source": "authenticated_linkedin_browser",
+        "retrieved_at": "2026-10-27T11:16:40Z",
+        "visible_relative_time": "7 h",
+        "date_basis": "Structured published_date on the exact observed LinkedIn post; independent of article body dates."
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-27T11:31:22.469178+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7520680828473950208",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7520680828473950208",
+      "date_published": "2026-10-27",
+      "title": "Les cadres français apprennent l'IA. Ils ne préparent pas leur vie sans poste.",
+      "slug": "les-cadres-francais-apprennent-l-ia-ils-ne-preparent-pas-leur-vie-sans-p-7520680828473950208",
+      "canonical_url": "https://voce.life/archive/2026/10/27/les-cadres-francais-apprennent-l-ia-ils-ne-preparent-pas-leur-vie-sans-p-7520680828473950208",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7520680828473950208/",
+      "language": "fr",
+      "text": "Les cadres français apprennent l'IA. Ils ne préparent pas leur vie sans poste.\n\nPrintemps 2026.\n\nChez Anthropic, une équipe écrit les phrases d'accueil de Claude.\n\n\"Hello night owl.\"\n\"Coffee and Claude time?\"\n\nPuis elle construit un système permettant à des agents d'IA de les produire.\n\nL'équipe bascule vers les prompts et l'évaluation des agents.\n\nLe 16 octobre, Anthropic publie ses données internes.\n\nEn août, les agents interactifs cumulent six heures d'exécution pour une heure humaine estimée.\n\nLa part des recrutements techniques juniors est passée de 27% à 9%.\n\nLes salariés présents depuis au moins un an changent de département 50% plus souvent qu'en 2025.\n\nAnthropic continue de croître.\n\nMais ses emplois ne grandissent plus comme l'entreprise.\n\nEn France, l'Apec constate que 55% des cadres managers utilisent l'IA chaque semaine.\n\nDans le même temps, 28% des cadres se sentent menacés par un licenciement et 58% jugent risqué de changer d'employeur.\n\nLa réponse habituelle tient en un mot: formation.\n\nElle est nécessaire. Elle ne garantit plus qu'un poste équivalent existera.\n\nUn directeur commercial de 52 ans peut posséder vingt-cinq années d'expérience et un réseau interne considérable.\n\nMais quelle part de ce capital reste réellement à lui lorsqu'il quitte l'organigramme?\n\nC'est la préparation qui manque.\n\nLes cadres apprennent à utiliser l'IA dans leur poste. Beaucoup moins à reconstruire une activité lorsque ce poste disparaît ou change de nature.\n\nRendre son expertise portable, construire des relations indépendantes du titre et exercer son jugement hors de l'entreprise deviennent des compétences de carrière.\n\nULTRA®\n\nL'étude d'Anthropic révèle un phénomène plus subtil que le remplacement.\n\nEnviron 80% du temps des sessions interactives des agents correspond à l'attente d'une intervention humaine.\n\nLa part des interactions consacrées au \"méta-travail\", organiser, superviser et contrôler les agents, est passée de 10% à 22%.\n\nLa machine accélère. L'attention humaine devient le goulet d'étranglement.\n\nPourtant, Gartner observe le 19 octobre que seuls 4% de 2.002 dirigeants technologiques interrogés disposent d'un plan de réorganisation des rôles entre humains et agents.\n\nUne entreprise peut automatiser plus vite qu'elle ne redessine les carrières.\n\nUn cadre peut devenir indispensable à trop de décisions, puis découvrir que ces décisions ont été absorbées par un système.\n\nPréparer le light workforce, ce n'est pas seulement apprendre les outils.\n\nC'est préparer des vies professionnelles capables de continuer lorsque l'organigramme cesse de les contenir.\n\nROBINSON E IL TEMPO SENZA LAVORO\n\nUne carrière peut remplir quarante années sans nous apprendre à habiter le premier lundi qui la suit.\n\nSources 2026\n\nAnthropic, 16 octobre\nGartner, 19 octobre\nApec, mai et août\n\n#VOCEAssociation #LightWorkforce #Cadres #Management #IntelligenceArtificielle",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "date_precision": "day",
+      "provenance": {
+        "source": "authenticated_linkedin_browser",
+        "retrieved_at": "2026-10-27T11:16:40Z",
+        "visible_relative_time": "8 h",
+        "date_basis": "Structured published_date on the exact observed LinkedIn post; independent of article body dates."
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-27T11:31:22.469178+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    },
+    {
+      "id": "linkedin:7520650646245761024",
+      "platform": "linkedin",
+      "platform_id": "urn:li:ugcPost:7520650646245761024",
+      "date_published": "2026-10-27",
+      "title": "En Chine, un implant cérébral est prescrit pour rendre une préhension assistée aux tétraplégiques",
+      "slug": "en-chine-un-implant-cerebral-est-prescrit-pour-rendre-une-prehension-ass-7520650646245761024",
+      "canonical_url": "https://voce.life/archive/2026/10/27/en-chine-un-implant-cerebral-est-prescrit-pour-rendre-une-prehension-ass-7520650646245761024",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7520650646245761024/",
+      "language": "fr",
+      "text": "En Chine, un implant cérébral est prescrit pour rendre une préhension assistée aux tétraplégiques\n\nShanghai, 13 juillet 2026.\n\nDix ans après un accident ayant paralysé ses quatre membres, un patient entre au Huashan Hospital de Fudan.\n\nIl reçoit NEO, développé par Neuracle.\n\nCe n'est plus un essai clinique.\n\nLe 13 mars, l'autorité chinoise NMPA a autorisé sa commercialisation. Quatre mois plus tard, Huashan réalise la première implantation après prescription.\n\nNEO est placé au-dessus de la dure-mère, sans pénétrer le cerveau. Huit électrodes enregistrent l'activité du cortex sensorimoteur lorsque le patient imagine saisir un objet.\n\nUn logiciel décode cette intention.\n\nUn gant pneumatique ferme les doigts.\n\nL'autorisation concerne certains patients de 18 à 60 ans atteints de tétraplégie après lésion cervicale de la moelle épinière.\n\nLe basculement est historique: une interface cerveau-machine invasive destinée à compenser la préhension est désormais utilisable hors essai clinique.\n\nUne autre entreprise chinoise montre déjà jusqu'où cette logique peut aller.\n\nXiaojia, ancien étudiant en animation devenu tétraplégique après un accident en 2021, reçoit en avril l'implant expérimental de NeuroXess.\n\nCinq mois plus tard, son activité cérébrale lui permet de piloter un ordinateur, esquisser un dessin puis utiliser une IA pour le transformer en modèle 3D imprimable.\n\nIl ne récupère pas biologiquement sa main.\n\nIl retrouve une chaîne d'action entre intention, machine et monde physique.\n\nLe capital suit. Selon le Financial Times, les entreprises mondiales d'interfaces cerveau-machine ont levé plus d'un milliard de dollars en 2026. Neuracle prépare son introduction en Bourse avec CITIC Securities.\n\nLa France possède une recherche avancée, au CEA-Leti de Grenoble. Mais BrainSync vise la rééducation post-AVC: ce n'est ni le même dispositif ni la même indication.\n\nEn Chine, un implant est déjà passé de l'essai clinique à la prescription.\n\nULTRA®\n\nAprès une lésion cervicale, le cerveau peut conserver l'intention du geste alors que la commande n'atteint plus correctement les muscles.\n\nL'interface ne répare pas la moelle. Elle crée une voie de sortie alternative entre activité cérébrale et dispositif externe.\n\nL'expérience de Xiaojia ajoute une autre dimension. Il ne déclenche pas seulement un mouvement programmé. Il choisit, modifie et fabrique un objet.\n\nEn neuropsychologie, cela touche au sentiment d'agentivité: l'expérience d'être l'auteur de son action.\n\nRestaurer cette capacité pourrait compter psychologiquement autant que le geste assisté lui-même.\n\nCette conséquence reste à mesurer.\n\nPARSIFAL\n\nLa liberté recommence parfois là où une intention retrouve un chemin vers le monde.\n\nSources\n\nNMPA, 13 mars 2026\nFudan University, juillet 2026\nNature Biotechnology, avril 2026\nNeuroXess, 30 septembre 2026\nFinancial Times, septembre 2026\nCEA-Leti, juin 2026\n\n#VOCEAssociation #Neurotechnologie #Chine #Neurosciences #Médecine #BrainComputerInterface",
+      "adobe_provenance": {
+        "status": "pending"
+      },
+      "date_precision": "day",
+      "provenance": {
+        "source": "authenticated_linkedin_browser",
+        "retrieved_at": "2026-10-27T11:16:40Z",
+        "visible_relative_time": "10 h",
+        "date_basis": "Structured published_date on the exact observed LinkedIn post; independent of article body dates."
+      },
+      "academy_classification": {
+        "class": "A",
+        "label": "editorial/archive",
+        "reviewed_at": "2026-10-27T11:31:22.469178+00:00",
+        "reason": "Published editorial or OPÉRA VOCE item; not a formal research output."
+      }
+    }
+  ]
+}

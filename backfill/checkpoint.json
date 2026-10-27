@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-27T11:16:40Z",
+  "updated_at": "2026-10-27T11:31:21.681621+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1716,18 +1716,33 @@
       ],
       "source": "authenticated_linkedin_browser",
       "coverage_complete": true
+    },
+    "2026-10-26": {
+      "status": "rows_returned",
+      "rows": 11,
+      "source_packets": [
+        "backfill/raw/2026-10-26.json"
+      ],
+      "source": "authenticated_linkedin_browser",
+      "coverage_complete": false
+    },
+    "2026-10-27": {
+      "status": "rows_returned",
+      "rows": 9,
+      "source_packets": [
+        "backfill/raw/2026-10-27.json"
+      ],
+      "source": "authenticated_linkedin_browser",
+      "coverage_complete": false
     }
   },
-  "retrieved_unique_publications": 1821,
-  "newly_archived": 13,
-  "academy_corpus_items": 1819,
+  "retrieved_unique_publications": 1841,
+  "newly_archived": 20,
+  "academy_corpus_items": 1839,
   "text_conflicts": 334,
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
   "resume": [
-    "Ingest the saved literal source captures with the existing validated pipeline, preserving concurrent work and original permanent routes.",
-    "Continue ordinary feed inspection back to the actual last archived boundary; 11 observed posts on 26 October are a confirmed minimum, not exhaustive coverage.",
-    "Verify live original texts, discovery outputs and R2 after publication.",
     "Obtain authenticated LinkedIn history for dates with no connector rows.",
     "Compare connector text against LinkedIn originals and review conflicts without overwriting.",
     "Verify Adobe provenance with exact publication/asset evidence.",
@@ -1805,23 +1820,23 @@
     },
     "current_publication_ingest": {
       "dates": [
-        "2026-10-22",
-        "2026-10-23",
         "2026-10-24",
-        "2026-10-25"
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27"
       ],
       "verified_source": "VOCE verified source packets with explicit platform provenance",
-      "items_processed": 59,
-      "corpus_items_after": 1819,
+      "items_processed": 46,
+      "corpus_items_after": 1839,
       "classification": "A editorial/archive",
-      "static_pages_verified_for_generation": 59,
+      "static_pages_verified_for_generation": 46,
       "daily_archives": [
-        "archive/2026-10-22.html",
-        "archive/2026-10-23.html",
         "archive/2026-10-24.html",
-        "archive/2026-10-25.html"
+        "archive/2026-10-25.html",
+        "archive/2026-10-26.html",
+        "archive/2026-10-27.html"
       ],
-      "completed_at": "2026-10-25T22:05:38.093735+00:00"
+      "completed_at": "2026-10-27T11:31:22.469178+00:00"
     },
     "catchup": {
       "checked_at": "2026-10-02T14:14:36.448689+00:00",

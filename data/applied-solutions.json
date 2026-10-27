@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generated_at": "2026-10-25",
+  "generated_at": "2026-10-27",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
   "methodology": {
@@ -4458,6 +4458,103 @@
       "sectors": [
         "legal",
         "hr",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7520545001483735041",
+      "date": "2026-10-26",
+      "title": "79% de la génération Z veut un travail utile: le problème commence quand personne ne voit à quoi il sert",
+      "path": "/archive/2026/10/26/79-de-la-generation-z-veut-un-travail-utile-le-probleme-commence-quand-p-7520545001483735041",
+      "sectors": [
+        "legal",
+        "hr"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7520514777253830656",
+      "date": "2026-10-26",
+      "title": "Retraites: 28,3% d'embauches de jeunes en moins dans les métiers les plus exposés à l'IA",
+      "path": "/archive/2026/10/26/retraites-28-3-d-embauches-de-jeunes-en-moins-dans-les-metiers-les-plus-7520514777253830656",
+      "sectors": [
+        "legal",
+        "hr",
+        "finance",
+        "culture",
+        "marketing",
+        "banking"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7520756352722460672",
+      "date": "2026-10-27",
+      "title": "CIR: près de 8 milliards d'euros, mais 1 € d'aide déclenche 1,40 € de R&D dans les petites entreprises et 0,40 € dans les grandes",
+      "path": "/archive/2026/10/27/cir-pres-de-8-milliards-d-euros-mais-1-d-aide-declenche-1-40-de-r-d-dans-7520756352722460672",
+      "sectors": [
+        "hr",
+        "finance",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7520711036119928832",
+      "date": "2026-10-27",
+      "title": "ChatGPT: jusqu'à +49 points de performance, sans gain mesurable de connaissances",
+      "path": "/archive/2026/10/27/chatgpt-jusqu-a-49-points-de-performance-sans-gain-mesurable-de-connaiss-7520711036119928832",
+      "sectors": [
+        "legal",
+        "hr",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7520680828473950208",
+      "date": "2026-10-27",
+      "title": "Les cadres français apprennent l'IA. Ils ne préparent pas leur vie sans poste.",
+      "path": "/archive/2026/10/27/les-cadres-francais-apprennent-l-ia-ils-ne-preparent-pas-leur-vie-sans-p-7520680828473950208",
+      "sectors": [
+        "legal",
+        "hr",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7520726164269854720",
+      "date": "2026-10-27",
+      "title": "Oracle FSCR: une partie du métier d'intégrateur ERP devient un dépôt GitHub",
+      "path": "/archive/2026/10/27/oracle-fscr-une-partie-du-metier-d-integrateur-erp-devient-un-depot-gith-7520726164269854720",
+      "sectors": [
+        "legal",
         "it"
       ],
       "themes": [
