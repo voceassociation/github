@@ -1,0 +1,16 @@
+{
+  "lesson_characters": 12392,
+  "tests_passed": 9,
+  "command": "python content/courses/engineering/VOCE-AI-010/test_manifest.py",
+  "deterministic_preview": true,
+  "single_h1": true,
+  "exact_duplicate_paragraphs": 0,
+  "quality_validated": false,
+  "published": false,
+  "limitations": [
+    "Cours incomplet",
+    "Relecture indépendante et contrôle visuel non effectués",
+    "Modèle local sans fournisseur réel, recherche vectorielle ni héritage de groupes",
+    "Aucun pilote apprenant"
+  ]
+}

@@ -3,7 +3,7 @@
   "updated_on": "2026-10-27",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "f63ba114db811573ff641b8fb145ad76c9a66ff4",
+  "base_head_read": "03848dfd39be70ef5a2af33241198df74faf6076",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 110,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 109,
     "preserved_by_selection": 10,
     "eligible_under_20000": 110
   },
@@ -77,53 +77,57 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-009",
-    "title": "Que faut-il savoir pour reprendre sans l'outil?",
-    "status": "preserved_draft_above_selection_threshold_not_complete",
-    "lesson_characters": 23795,
-    "measurement": "Sum of normalized chapters 01 and 02, headings included; bibliography, code and old page excluded.",
+    "id": "VOCE-AI-010",
+    "title": "Pouvez-vous remplacer votre fournisseur d'IA?",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 12392,
+    "measurement": "Normalized chapter 01 fragment, headings included; bibliography, code and old page excluded.",
     "selection_before_write": {
-      "main": 9037,
-      "branch": 9037,
-      "saved_chapters": 12434
+      "main": 8963,
+      "branch": 8963,
+      "saved_chapters": 0
     },
     "chapters_written": [
-      "01-rapprocher-avant-reprise.html",
-      "02-gel-et-retour.html"
+      "01-contrat-de-sortie.html"
     ],
     "chapters_remaining": [
-      "03 — Exercice intégré de panne et dossier de réception; non rédigé, conservation prioritaire"
+      "02 — Synchronisation des modifications, reconstruction de l'index et comparaison des résultats",
+      "03 — Exercice de bascule et retour arrière"
     ],
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-009/02-gel-et-retour.html",
-      "content/courses/engineering/VOCE-AI-009/test_recovery.py",
-      "content/courses/engineering/VOCE-AI-009/checks-2026-10-27-ch02.json",
-      "content/courses/engineering/VOCE-AI-009/README.md"
+      "content/courses/engineering/VOCE-AI-010/01-contrat-de-sortie.html",
+      "content/courses/engineering/VOCE-AI-010/README.md",
+      "content/courses/engineering/VOCE-AI-010/checks-2026-10-27.json",
+      "content/courses/engineering/VOCE-AI-010/references.html",
+      "content/courses/engineering/VOCE-AI-010/render_draft.py",
+      "content/courses/engineering/VOCE-AI-010/test_manifest.py",
+      "docs/education/course-selection-20000.json",
+      "docs/education/rewrite-progress.json"
     ],
     "sources_consulted": [
       {
-        "url": "https://www.rfc-editor.org/rfc/rfc9110.html#section-9.2.2",
+        "url": "https://www.w3.org/TR/prov-dm/",
         "date": "2026-10-27",
-        "scope": "Section 9.2.2, lecture ciblée"
+        "scope": "Résumé, 2.1.2, 5.2.1, 5.2.2; lecture ciblée"
       }
     ],
     "checks_executed": [
-      "17 local tests passed",
+      "9 local tests passed",
       "Deterministic preview and single H1",
-      "No exact duplicate paragraphs"
+      "Normalized count and no exact duplicate paragraphs"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Local models, count and structural preview only",
+      "controlled": "Local manifest checks, count and structural preview only",
       "published": false
     },
     "limits": [
       "Cours incomplet",
       "Relecture indépendante et contrôle visuel non effectués",
-      "Modèle séquentiel: atomicité et identités fiables supposées, aucune persistance distante",
-      "Aucun exercice de reprise avec opérateurs réalisé"
+      "Modèle local sans fournisseur réel, recherche vectorielle ni héritage de groupes",
+      "Aucun pilote apprenant"
     ],
-    "next_action": "Preserve AI009 now above 20k without further expansion or publishing as complete. Check AI010 on current main and saved sources; select only below 20k."
+    "next_action": "Remeasure main and saved chapters before selection. If still below 20k, write chapter 02 on update synchronization, index reconstruction and comparison. Preserve chapter 01."
   },
   "completed_courses": {
     "VOCE-AI-002": {
