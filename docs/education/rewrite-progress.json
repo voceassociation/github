@@ -3,7 +3,7 @@
   "updated_on": "2026-10-27",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "f50e3ee6cb5bd39d3c6b8d70b87043bc74f52bc7",
+  "base_head_read": "13bd44008df7a92b13ae54bc18e7c266eb355366",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 111,
-    "preserved_by_selection": 8,
-    "eligible_under_20000": 112
+    "preserved_by_selection": 9,
+    "eligible_under_20000": 111
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,30 +79,28 @@
   "current_course": {
     "id": "VOCE-AI-008",
     "title": "Cliquer sur approuver suffit-il à superviser?",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 12343,
-    "measurement": "Normalized chapter 01 fragment; headings included; bibliography, code, metadata and old page excluded.",
+    "status": "preserved_draft_above_selection_threshold_not_complete",
+    "lesson_characters": 22801,
+    "measurement": "Sum of normalized chapter 01 and 02 fragments; headings included; references, code and old page excluded.",
     "selection_before_write": {
       "main": 8866,
       "branch": 8866,
-      "saved_chapters": 0
+      "saved_chapters": 12343
     },
     "chapters_written": [
-      "01-mesurer-supervision.html"
+      "01-mesurer-supervision.html",
+      "02-recette-et-charge.html"
     ],
     "chapters_remaining": [
-      "02 — Recette du refus et charge de revue",
-      "03 — Protocole comparatif, limites et dossier de réception",
-      "Exercices et corrigés hors volume pédagogique"
+      "03 — Protocole comparatif, limites et dossier de réception; non rédigé, conservation prioritaire",
+      "Exercices et corrigés non rédigés"
     ],
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-008/01-mesurer-supervision.html",
-      "content/courses/engineering/VOCE-AI-008/README.md",
-      "content/courses/engineering/VOCE-AI-008/check_metrics.py",
-      "content/courses/engineering/VOCE-AI-008/checks-2026-10-27.json",
-      "content/courses/engineering/VOCE-AI-008/references.html",
-      "docs/education/rewrite-progress.json",
-      "docs/education/course-selection-20000.json"
+      "content/courses/engineering/VOCE-AI-008/02-recette-et-charge.html",
+      "content/courses/engineering/VOCE-AI-008/test_review.py",
+      "content/courses/engineering/VOCE-AI-008/render_draft.py",
+      "content/courses/engineering/VOCE-AI-008/checks-2026-10-27-ch02.json",
+      "content/courses/engineering/VOCE-AI-008/README.md"
     ],
     "sources_consulted": [
       {
@@ -112,22 +110,22 @@
       }
     ],
     "checks_executed": [
-      "6 arithmetic tests passed",
-      "No exact duplicate paragraphs within chapter",
-      "Normalized character count"
+      "16 local tests passed",
+      "Deterministic preview and single H1",
+      "No exact duplicate paragraphs across chapters"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Arithmetic and count only",
+      "controlled": "Local model tests, counts and structural preview only",
       "published": false
     },
     "limits": [
       "Cours incomplet",
-      "Relecture indépendante non effectuée",
-      "Contrôle visuel non effectué",
-      "Aucun pilote apprenant ni service réel testé"
+      "Relecture indépendante et contrôle visuel non effectués",
+      "Modèle local sans persistance ni concurrence distribuée",
+      "Aucune mesure de performance humaine ni pilote apprenant"
     ],
-    "next_action": "Remeasure main and saved chapters before selection. If still below 20k, write chapter 02: refusal effects, pending evidence and grouped arrivals; retain chapter 01. Do not publish incomplete draft."
+    "next_action": "Preserve AI008 sources now above 20k without extending toward 75k. Check AI009 on current main and saved sources; select only if below 20k. Do not publish incomplete AI008 draft."
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -484,6 +482,57 @@
       ],
       "next_action": "Preserve AI007 now above 20k, without extending it to 75k. Check current main and saved sources for AI008; select only if below 20k. Incomplete drafts remain separate from finished published courses.",
       "exercise_characters_excluded": 2710
+    },
+    "VOCE-AI-008": {
+      "id": "VOCE-AI-008",
+      "title": "Cliquer sur approuver suffit-il à superviser?",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 22801,
+      "measurement": "Sum of normalized chapter 01 and 02 fragments; headings included; references, code and old page excluded.",
+      "selection_before_write": {
+        "main": 8866,
+        "branch": 8866,
+        "saved_chapters": 12343
+      },
+      "chapters_written": [
+        "01-mesurer-supervision.html",
+        "02-recette-et-charge.html"
+      ],
+      "chapters_remaining": [
+        "03 — Protocole comparatif, limites et dossier de réception; non rédigé, conservation prioritaire",
+        "Exercices et corrigés non rédigés"
+      ],
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-008/02-recette-et-charge.html",
+        "content/courses/engineering/VOCE-AI-008/test_review.py",
+        "content/courses/engineering/VOCE-AI-008/render_draft.py",
+        "content/courses/engineering/VOCE-AI-008/checks-2026-10-27-ch02.json",
+        "content/courses/engineering/VOCE-AI-008/README.md"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://airc.nist.gov/airmf-resources/playbook/manage/",
+          "date": "2026-10-27",
+          "scope": "Lecture ciblée MANAGE 1.1 à 1.4; aucune certification déduite"
+        }
+      ],
+      "checks_executed": [
+        "16 local tests passed",
+        "Deterministic preview and single H1",
+        "No exact duplicate paragraphs across chapters"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Local model tests, counts and structural preview only",
+        "published": false
+      },
+      "limits": [
+        "Cours incomplet",
+        "Relecture indépendante et contrôle visuel non effectués",
+        "Modèle local sans persistance ni concurrence distribuée",
+        "Aucune mesure de performance humaine ni pilote apprenant"
+      ],
+      "next_action": "Preserve AI008 sources now above 20k without extending toward 75k. Check AI009 on current main and saved sources; select only if below 20k. Do not publish incomplete AI008 draft."
     }
   },
   "selection_policy": {
@@ -498,9 +547,10 @@
       "VOCE-AI-005",
       "VOCE-COG-012",
       "VOCE-AI-006",
-      "VOCE-AI-007"
+      "VOCE-AI-007",
+      "VOCE-AI-008"
     ],
-    "eligible_count": 112,
+    "eligible_count": 111,
     "main_read": "614b55591dcc11f84c13518cf105d93ecebe787b",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }

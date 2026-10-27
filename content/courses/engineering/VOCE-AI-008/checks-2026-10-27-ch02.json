@@ -1,0 +1,25 @@
+{
+  "lesson_characters": 22801,
+  "chapters": {
+    "01-mesurer-supervision.html": 12343,
+    "02-recette-et-charge.html": 10458
+  },
+  "tests_passed": 16,
+  "commands": [
+    "python content/courses/engineering/VOCE-AI-008/test_review.py",
+    "python content/courses/engineering/VOCE-AI-008/check_metrics.py"
+  ],
+  "exact_duplicate_paragraphs": 0,
+  "deterministic_preview": true,
+  "single_h1": true,
+  "quality_validated": false,
+  "visual_check": false,
+  "published": false,
+  "new_external_sources": [],
+  "limitations": [
+    "Cours incomplet",
+    "Relecture indépendante et contrôle visuel non effectués",
+    "Modèle local sans persistance ni concurrence distribuée",
+    "Aucune mesure de performance humaine ni pilote apprenant"
+  ]
+}

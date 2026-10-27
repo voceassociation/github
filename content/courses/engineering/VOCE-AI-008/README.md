@@ -1,11 +1,11 @@
 # VOCE-AI-008 — Cliquer sur approuver suffit-il à superviser?
 
-Brouillon incomplet conservé uniquement sur la branche de travail. Page historique inchangée. Aucun cours terminé publié dans ce lot.
+Deux chapitres sauvegardés: mesure de supervision; recette du refus et charge de revue. 22801 caractères pédagogiques normalisés, titres inclus, hors références, code et ancienne page. Le second chapitre ajoute 10458 caractères. Sélection avant ce lot: main 8 866, branche 8 866, sources 12 343. Sources désormais préservées au seuil de 20 000; aucune extension vers 75 000.
 
-Sélection: main et branche comptent chacun 8 866 caractères hors bibliographie. Aucun chapitre sauvegardé avant ce lot. Chapitre 01: 12343 caractères normalisés, titres inclus, références et code exclus. Les versions ne sont pas additionnées.
+Le brouillon reste incomplet et non publié. Chapitre 03 «Protocole comparatif, limites et dossier de réception» et évaluations non rédigés, sans poursuite autorisée par la règle de sélection actuelle. Aucune modification de la page publique ni du catalogue.
 
-Le chapitre enseigne la référence indépendante, les dénominateurs de la matrice de supervision, l'effet de prévalence, la capacité de revue et la vérification du pouvoir de refus. Six tests arithmétiques réussis avec `python content/courses/engineering/VOCE-AI-008/check_metrics.py`. Ils ne constituent pas une validation empirique de la supervision.
+Seize tests locaux réussis via check_metrics.py (6) et test_review.py (10). Le modèle de décision teste refus, attente, approbation périmée et exécution unique. La file déterministe teste arrivées groupées, espacées, dossier long et entrées invalides. Aucune conclusion sur la performance humaine réelle.
 
-Prochaine étape: relire main et les sources, remesurer avant sélection. Si toujours sous 20 000 caractères, rédiger le chapitre 02 «Recette du refus et charge de revue»: traces synthétiques, effet effectivement bloqué, reprise après pièce complémentaire, arrivées groupées et capacité. Conserver les chapitres existants. Ne pas publier ce brouillon comme cours terminé.
+Aperçu reproductible: `python content/courses/engineering/VOCE-AI-008/render_draft.py /tmp/ai008-preview.html`. Sortie obligatoirement hors dépôt, noindex; identité et composants de la page conservés. Déterminisme et H1 unique vérifiés, contrôle visuel non réalisé. La référence primaire du chapitre 01 reste dans references.html; chapitre 02 fondé sur des modèles synthétiques explicitement définis, sans nouvelle source externe.
 
-Limites: aucune relecture indépendante, aucun pilote, aucun contrôle visuel. Source primaire effectivement consultée et portée de lecture dans references.html. Aucun rendu de production ni catalogue modifié.
+Prochaine action: préserver les deux chapitres, vérifier AI-009 sur main récent et sources sauvegardées avant toute rédaction. Ne pas publier ce brouillon comme cours terminé.
