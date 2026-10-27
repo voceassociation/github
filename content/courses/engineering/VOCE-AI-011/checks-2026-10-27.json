@@ -1,0 +1,16 @@
+{
+  "lesson_characters": 10047,
+  "tests_passed": 9,
+  "command": "python content/courses/engineering/VOCE-AI-011/test_episodes.py",
+  "deterministic_preview": true,
+  "single_h1": true,
+  "exact_duplicate_paragraphs": 0,
+  "quality_validated": false,
+  "published": false,
+  "limitations": [
+    "Cours incomplet",
+    "Relecture indépendante et contrôle visuel non effectués",
+    "Traces synthétiques: verdict physique et complétude supposés",
+    "Aucun robot réel ni pilote apprenant testé"
+  ]
+}

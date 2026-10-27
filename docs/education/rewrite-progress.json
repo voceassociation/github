@@ -3,7 +3,7 @@
   "updated_on": "2026-10-27",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "4c08660ae2a4dfa3b75da1dc985098280ab8eace",
+  "base_head_read": "d42e6be81eaf19e08109ac9941454a83cbd6cfb5",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 109,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 108,
     "preserved_by_selection": 11,
     "eligible_under_20000": 109
   },
@@ -77,53 +77,57 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-010",
-    "title": "Pouvez-vous remplacer votre fournisseur d'IA?",
-    "status": "preserved_draft_above_selection_threshold_not_complete",
-    "lesson_characters": 23771,
-    "measurement": "Sum of normalized chapters 01 and 02, headings included; bibliography, code and old page excluded.",
+    "id": "VOCE-AI-011",
+    "title": "Tsinghua et AGIBOT: passer de la simulation à un robot au travail",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 10047,
+    "measurement": "Normalized chapter 01 fragment, headings included; references, code and old page excluded.",
     "selection_before_write": {
-      "main": 8963,
-      "branch": 8963,
-      "saved_chapters": 12392
+      "main": 9258,
+      "branch": 9258,
+      "saved_chapters": 0
     },
     "chapters_written": [
-      "01-contrat-de-sortie.html",
-      "02-synchronisation-et-index.html"
+      "01-unite-et-autonomie.html"
     ],
     "chapters_remaining": [
-      "03 — Exercice de bascule et retour arrière; non rédigé, conservation prioritaire"
+      "02 — Comparaison des conditions, répartition des épisodes et transfert simulation-réel",
+      "03 — Protocole intégré et exercices corrigés"
     ],
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-010/02-synchronisation-et-index.html",
-      "content/courses/engineering/VOCE-AI-010/test_sync.py",
-      "content/courses/engineering/VOCE-AI-010/checks-2026-10-27-ch02.json",
-      "content/courses/engineering/VOCE-AI-010/README.md"
+      "content/courses/engineering/VOCE-AI-011/01-unite-et-autonomie.html",
+      "content/courses/engineering/VOCE-AI-011/README.md",
+      "content/courses/engineering/VOCE-AI-011/checks-2026-10-27.json",
+      "content/courses/engineering/VOCE-AI-011/references.html",
+      "content/courses/engineering/VOCE-AI-011/render_draft.py",
+      "content/courses/engineering/VOCE-AI-011/test_episodes.py",
+      "docs/education/course-selection-20000.json",
+      "docs/education/rewrite-progress.json"
     ],
     "sources_consulted": [
       {
-        "url": "https://www.w3.org/TR/prov-dm/",
+        "url": "https://www.ee.tsinghua.edu.cn/info/1076/5393.htm",
         "date": "2026-10-27",
-        "scope": "Résumé, 2.1.2, 5.2.1, 5.2.2; lecture ciblée"
+        "scope": "Programme annoncé le 14 septembre 2026 et pilote pédagogique; aucun résultat industriel inféré"
       }
     ],
     "checks_executed": [
-      "16 local tests passed",
+      "9 local tests passed",
       "Deterministic preview and single H1",
-      "No exact duplicate paragraphs"
+      "Normalized count and no exact duplicate paragraphs"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Local models, count and structural preview only",
+      "controlled": "Synthetic episode classifier, arithmetic, count and structural preview only",
       "published": false
     },
     "limits": [
       "Cours incomplet",
       "Relecture indépendante et contrôle visuel non effectués",
-      "Modèle local: instantané cohérent et journal contigu supposés; pas de persistance ni index vectoriel",
-      "Aucun fournisseur réel, bascule de trafic ou pilote apprenant testé"
+      "Traces synthétiques: verdict physique et complétude supposés",
+      "Aucun robot réel ni pilote apprenant testé"
     ],
-    "next_action": "Preserve AI010 now above 20k without expansion or publishing as complete. Check AI011 on current main and saved sources; select only below 20k."
+    "next_action": "Remeasure main and saved chapters before selection. If still below 20k, write chapter 02 on comparison design and simulation-to-real transfer. Preserve chapter 01."
   },
   "completed_courses": {
     "VOCE-AI-002": {
