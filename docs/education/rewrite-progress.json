@@ -3,7 +3,7 @@
   "updated_on": "2026-10-27",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "1c5f9482e91e630179f1b804953a0ea35809301b",
+  "base_head_read": "3505f948735e476c3751e946aadb3e2323355f9a",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 105,
-    "preserved_by_selection": 14,
-    "eligible_under_20000": 106
+    "preserved_by_selection": 15,
+    "eligible_under_20000": 105
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,28 +79,26 @@
   "current_course": {
     "id": "VOCE-AI-014",
     "title": "Shanghai Jiao Tong: intégrer la température dans une décision de mobilité électrique",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 11060,
-    "measurement": "Normalized chapter 01 fragment; references, code and old page excluded.",
+    "status": "preserved_draft_above_selection_threshold_not_complete",
+    "lesson_characters": 21807,
+    "measurement": "Sum of normalized chapters 01 and 02; references, code and old page excluded.",
     "selection_before_write": {
       "main": 9088,
       "branch": 9088,
-      "saved_chapters": 0
+      "saved_chapters": 11060
     },
     "chapters_written": [
-      "01-bilan-thermique.html"
+      "01-bilan-thermique.html",
+      "02-missions-et-preconditionnement.html"
     ],
     "chapters_remaining": [
-      "02 — Missions successives, préconditionnement et énergie des auxiliaires",
-      "03 — Cas comparatif et protocole de réception"
+      "03 — Cas comparatif et protocole de réception; non rédigé, conservation prioritaire"
     ],
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-014/01-bilan-thermique.html",
+      "content/courses/engineering/VOCE-AI-014/02-missions-et-preconditionnement.html",
+      "content/courses/engineering/VOCE-AI-014/test_missions.py",
+      "content/courses/engineering/VOCE-AI-014/checks-2026-10-27-ch02.json",
       "content/courses/engineering/VOCE-AI-014/README.md",
-      "content/courses/engineering/VOCE-AI-014/checks-2026-10-27.json",
-      "content/courses/engineering/VOCE-AI-014/references.html",
-      "content/courses/engineering/VOCE-AI-014/render_draft.py",
-      "content/courses/engineering/VOCE-AI-014/test_thermal.py",
       "docs/education/course-selection-20000.json",
       "docs/education/rewrite-progress.json"
     ],
@@ -112,7 +110,7 @@
       }
     ],
     "checks_executed": [
-      "8 local tests passed",
+      "15 local tests passed",
       "Deterministic preview and single H1",
       "No exact duplicate paragraphs"
     ],
@@ -127,7 +125,7 @@
       "Modèle à un nœud; aucune batterie réelle ou limite de sécurité validée",
       "Programme SJTU non revérifié"
     ],
-    "next_action": "Remeasure main and saved sources. If below 20k, write chapter 02 on successive missions, preconditioning and auxiliary energy. Preserve chapter 01."
+    "next_action": "Preserve AI014 above 20k without expansion or publication as complete. Check AI015 on current main and saved sources; select only below 20k."
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -792,6 +790,57 @@
         "ROS tutorial inaccessible; local causal pairing is not a ROS implementation test"
       ],
       "next_action": "Preserve AI013 above 20k without further expansion or publication as complete. Check AI014 on main and saved sources; select only below 20k."
+    },
+    "VOCE-AI-014": {
+      "id": "VOCE-AI-014",
+      "title": "Shanghai Jiao Tong: intégrer la température dans une décision de mobilité électrique",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 21807,
+      "measurement": "Sum of normalized chapters 01 and 02; references, code and old page excluded.",
+      "selection_before_write": {
+        "main": 9088,
+        "branch": 9088,
+        "saved_chapters": 11060
+      },
+      "chapters_written": [
+        "01-bilan-thermique.html",
+        "02-missions-et-preconditionnement.html"
+      ],
+      "chapters_remaining": [
+        "03 — Cas comparatif et protocole de réception; non rédigé, conservation prioritaire"
+      ],
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-014/02-missions-et-preconditionnement.html",
+        "content/courses/engineering/VOCE-AI-014/test_missions.py",
+        "content/courses/engineering/VOCE-AI-014/checks-2026-10-27-ch02.json",
+        "content/courses/engineering/VOCE-AI-014/README.md",
+        "docs/education/course-selection-20000.json",
+        "docs/education/rewrite-progress.json"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://afdc.energy.gov/vehicles/how-do-all-electric-cars-work",
+          "date": "2026-10-27",
+          "scope": "Key Components: Thermal system; architecture only"
+        }
+      ],
+      "checks_executed": [
+        "15 local tests passed",
+        "Deterministic preview and single H1",
+        "No exact duplicate paragraphs"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Synthetic thermal calculations, count and structural preview only",
+        "published": false
+      },
+      "limits": [
+        "Cours incomplet",
+        "Relecture indépendante et contrôle visuel non effectués",
+        "Modèle à un nœud; aucune batterie réelle ou limite de sécurité validée",
+        "Programme SJTU non revérifié"
+      ],
+      "next_action": "Preserve AI014 above 20k without expansion or publication as complete. Check AI015 on current main and saved sources; select only below 20k."
     }
   },
   "selection_policy": {
@@ -812,9 +861,10 @@
       "VOCE-AI-010",
       "VOCE-AI-011",
       "VOCE-AI-012",
-      "VOCE-AI-013"
+      "VOCE-AI-013",
+      "VOCE-AI-014"
     ],
-    "eligible_count": 106,
+    "eligible_count": 105,
     "main_read": "614b55591dcc11f84c13518cf105d93ecebe787b",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }

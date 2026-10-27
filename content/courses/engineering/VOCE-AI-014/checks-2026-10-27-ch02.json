@@ -1,0 +1,19 @@
+{
+  "course": "VOCE-AI-014",
+  "lesson_characters": 21807,
+  "per_chapter": {
+    "01-bilan-thermique.html": 11060,
+    "02-missions-et-preconditionnement.html": 10747
+  },
+  "tests_passed": 15,
+  "new_tests": 7,
+  "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-014 -p 'test_*.py'",
+  "deterministic_preview": true,
+  "single_h1": true,
+  "exact_duplicate_paragraphs": 0,
+  "new_external_sources": [],
+  "visual_review": false,
+  "independent_review": false,
+  "published": false,
+  "scope": "Original synthetic thermal cycle calculations and hysteresis logic; no physical controller tested"
+}
