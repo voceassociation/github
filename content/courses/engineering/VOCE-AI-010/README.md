@@ -1,9 +1,11 @@
 # VOCE-AI-010 — Pouvez-vous remplacer votre fournisseur d'IA?
 
-Chapitre 01 sauvegardé: contrat de sortie documentaire, provenance, manifeste, rapprochement des citations et préservation des droits. 12392 caractères pédagogiques normalisés, titres inclus, hors références et code. Sélection: main et branche 8 963 chacun, aucune source longue préexistante. Versions non additionnées.
+Deux chapitres sauvegardés: contrat de sortie documentaire; synchronisation et reconstruction d'index. 23771 caractères pédagogiques normalisés, titres inclus, références et code exclus. Chapitre 02: 11379 caractères. Avant ce lot: main et branche 8 963, sources 12 392. Versions non additionnées.
 
-Neuf tests locaux réussis: manifeste, droits manquants, doublons, suppressions, citations interdites et versions exactes. Aucun fournisseur réel testé. Lecture primaire ciblée PROV-DM W3C enregistrée dans references.html; référence fondamentale utilisée sans revendication de conformité.
+Sources désormais préservées au seuil de 20 000, sans extension vers 75 000. Cours incomplet, non publié. Chapitre 03 «Exercice de bascule et retour arrière» non rédigé; conservation prioritaire. Page officielle et catalogue inchangés.
 
-Aperçu: `python content/courses/engineering/VOCE-AI-010/render_draft.py /tmp/ai010-preview.html`. Déterminisme et H1 unique vérifiés; pas de contrôle visuel ni relecture indépendante. Cours incomplet, non publié; page officielle et catalogue inchangés.
+Seize tests locaux réussis: neuf tests du manifeste et sept de synchronisation/recherche. Commande: `python -m unittest discover -s content/courses/engineering/VOCE-AI-010 -p 'test_*.py'`. Instantané cohérent et journal contigu supposés. Aucune garantie de persistance, qualité vectorielle ou bascule réelle. Chapitre 02: scénario synthétique et calculs explicitement définis, aucune nouvelle source externe. Référence primaire du chapitre 01 conservée.
 
-Prochaine étape: remesurer main et sources avant sélection; si toujours sous 20 000 caractères, rédiger le chapitre 02 «Synchronisation des modifications, reconstruction de l'index et comparaison des résultats». Préserver le chapitre 01.
+Aperçu: `python content/courses/engineering/VOCE-AI-010/render_draft.py /tmp/ai010-preview.html`. Déterminisme, H1 unique et absence de paragraphes identiques vérifiés; pas de contrôle visuel ni relecture indépendante.
+
+Prochaine action: préserver ces chapitres; vérifier AI-011 sur main récent et sources sauvegardées avant sélection.

@@ -1,0 +1,22 @@
+{
+  "lesson_characters": 23771,
+  "chapters": {
+    "01-contrat-de-sortie.html": 12392,
+    "02-synchronisation-et-index.html": 11379
+  },
+  "tests_passed": 16,
+  "new_tests": 7,
+  "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-010 -p 'test_*.py'",
+  "deterministic_preview": true,
+  "single_h1": true,
+  "exact_duplicate_paragraphs": 0,
+  "new_external_sources": [],
+  "quality_validated": false,
+  "published": false,
+  "limitations": [
+    "Cours incomplet",
+    "Relecture indépendante et contrôle visuel non effectués",
+    "Modèle local: instantané cohérent et journal contigu supposés; pas de persistance ni index vectoriel",
+    "Aucun fournisseur réel, bascule de trafic ou pilote apprenant testé"
+  ]
+}
