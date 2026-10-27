@@ -1,9 +1,13 @@
-# VOCE-AI-013 — Données et partitions robotiques
+# VOCE-AI-013 — Collecte et partitions robotiques
 
-Chapitre 01: unités de collecte, séparation des sessions, préparation sans fuite, couverture et interventions. 13168 caractères pédagogiques normalisés, références et code exclus. Sélection initiale: main et branche 9 022 chacun; aucune source longue préexistante. Versions non additionnées.
+Chapitres 01 et 02 sauvegardés: unités et partitions; budget de collecte, horodatage et annotations. 24668 caractères pédagogiques normalisés, dont 11500 au chapitre 02. Références, code et ancienne page exclus.
 
-Neuf tests locaux réussis: `python content/courses/engineering/VOCE-AI-013/test_partitions.py`. Contrôles d’un registre synthétique, pas de détection visuelle des doublons ni de robot réel.
+Avant sélection du lot: main et branche 9 022 chacun; sources sauvegardées 13 168. Versions non additionnées. Sources désormais préservées au seuil de 20 000, sans validation de complétude.
 
-Aperçu déterministe: `python content/courses/engineering/VOCE-AI-013/render_draft.py /tmp/ai013-preview.html`. H1 unique et absence de paragraphes exactement dupliqués vérifiés. Aucun contrôle visuel, aucune relecture indépendante. Cours incomplet, non publié.
+Dix-huit tests locaux réussis: `python -m unittest discover -s content/courses/engineering/VOCE-AI-013 -p 'test_*.py'`. Modèles synthétiques; aucun robot, réseau, entraînement ou algorithme ROS testé.
 
-Prochain chapitre: 02 — Budget de collecte, synchronisation des observations et contrôle des annotations. Remesurer main et sources avant sélection. Documentation scikit-learn consultée; annonce Tsinghua inaccessible lors de cette tentative.
+Aperçu: `python content/courses/engineering/VOCE-AI-013/render_draft.py /tmp/ai013-preview.html`. Déterminisme, H1 unique et absence de paragraphes exactement dupliqués contrôlés. Pas de contrôle visuel ni relecture indépendante. Cours incomplet, non publié.
+
+Chapitre 03 manquant: évaluation de la politique et dossier de réception. Conservation prioritaire; ne pas poursuivre l’allongement. Prochaine action: vérifier AI-014 sur main et dans les sources avant sélection.
+
+Documentation scikit-learn consultée au lot précédent. Dans ce lot, accès au tutoriel ROS bloqué; seul l’initialiseur du paquet a pu être lu, sans preuve sur les mécanismes de synchronisation. Le chapitre présente son propre modèle simplifié, sans citation technique attribuée à ROS.

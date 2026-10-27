@@ -1,0 +1,21 @@
+{
+  "course": "VOCE-AI-013",
+  "lesson_characters": 24668,
+  "per_chapter": {
+    "01-unites-et-partitions.html": 13168,
+    "02-collecte-et-horodatage.html": 11500
+  },
+  "tests_passed": 18,
+  "new_tests": 9,
+  "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-013 -p 'test_*.py'",
+  "deterministic_preview": true,
+  "single_h1": true,
+  "exact_duplicate_paragraphs": 0,
+  "visual_review": false,
+  "independent_review": false,
+  "published": false,
+  "source_access_limits": [
+    "ROS tutorial returned access-denied page; detailed implementation fetch failed. Package initializer inspected only, no algorithm assertion inferred."
+  ],
+  "model_scope": "Original synthetic arithmetic and causal pairing, not ROS validation"
+}
