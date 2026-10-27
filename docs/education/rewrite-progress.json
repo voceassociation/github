@@ -3,7 +3,7 @@
   "updated_on": "2026-10-27",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "13bd44008df7a92b13ae54bc18e7c266eb355366",
+  "base_head_read": "cfe3a545b78e405f4cb81699871ed1238555e952",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 111,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 110,
     "preserved_by_selection": 9,
     "eligible_under_20000": 111
   },
@@ -77,55 +77,57 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-008",
-    "title": "Cliquer sur approuver suffit-il à superviser?",
-    "status": "preserved_draft_above_selection_threshold_not_complete",
-    "lesson_characters": 22801,
-    "measurement": "Sum of normalized chapter 01 and 02 fragments; headings included; references, code and old page excluded.",
+    "id": "VOCE-AI-009",
+    "title": "Que faut-il savoir pour reprendre sans l'outil?",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 12434,
+    "measurement": "Normalized chapter 01 fragment, headings included; bibliography, code and old page excluded.",
     "selection_before_write": {
-      "main": 8866,
-      "branch": 8866,
-      "saved_chapters": 12343
+      "main": 9037,
+      "branch": 9037,
+      "saved_chapters": 0
     },
     "chapters_written": [
-      "01-mesurer-supervision.html",
-      "02-recette-et-charge.html"
+      "01-rapprocher-avant-reprise.html"
     ],
     "chapters_remaining": [
-      "03 — Protocole comparatif, limites et dossier de réception; non rédigé, conservation prioritaire",
-      "Exercices et corrigés non rédigés"
+      "02 — Gel des traitements, accès en mode dégradé et réconciliation du travail manuel",
+      "03 — Exercice intégré de panne et dossier de réception"
     ],
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-008/02-recette-et-charge.html",
-      "content/courses/engineering/VOCE-AI-008/test_review.py",
-      "content/courses/engineering/VOCE-AI-008/render_draft.py",
-      "content/courses/engineering/VOCE-AI-008/checks-2026-10-27-ch02.json",
-      "content/courses/engineering/VOCE-AI-008/README.md"
+      "content/courses/engineering/VOCE-AI-009/01-rapprocher-avant-reprise.html",
+      "content/courses/engineering/VOCE-AI-009/README.md",
+      "content/courses/engineering/VOCE-AI-009/checks-2026-10-27.json",
+      "content/courses/engineering/VOCE-AI-009/references.html",
+      "content/courses/engineering/VOCE-AI-009/render_draft.py",
+      "content/courses/engineering/VOCE-AI-009/test_reconcile.py",
+      "docs/education/course-selection-20000.json",
+      "docs/education/rewrite-progress.json"
     ],
     "sources_consulted": [
       {
-        "url": "https://airc.nist.gov/airmf-resources/playbook/manage/",
+        "url": "https://www.rfc-editor.org/rfc/rfc9110.html#section-9.2.2",
         "date": "2026-10-27",
-        "scope": "Lecture ciblée MANAGE 1.1 à 1.4; aucune certification déduite"
+        "scope": "Section 9.2.2, lecture ciblée"
       }
     ],
     "checks_executed": [
-      "16 local tests passed",
+      "10 local tests passed",
       "Deterministic preview and single H1",
-      "No exact duplicate paragraphs across chapters"
+      "Normalized count and no exact duplicate paragraphs"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Local model tests, counts and structural preview only",
+      "controlled": "Local classifier, count and structural preview only",
       "published": false
     },
     "limits": [
       "Cours incomplet",
       "Relecture indépendante et contrôle visuel non effectués",
-      "Modèle local sans persistance ni concurrence distribuée",
-      "Aucune mesure de performance humaine ni pilote apprenant"
+      "Preuves synthétiques supposées authentiques et structurées; aucun fournisseur réel",
+      "Aucun exercice de reprise avec opérateurs réalisé"
     ],
-    "next_action": "Preserve AI008 sources now above 20k without extending toward 75k. Check AI009 on current main and saved sources; select only if below 20k. Do not publish incomplete AI008 draft."
+    "next_action": "Remeasure main and saved sources before selection. If still below 20k, write chapter 02 on stopping old work, access dependencies and reconciliation of manual work. Preserve chapter 01."
   },
   "completed_courses": {
     "VOCE-AI-002": {

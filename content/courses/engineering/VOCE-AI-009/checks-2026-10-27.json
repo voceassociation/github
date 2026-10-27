@@ -1,0 +1,16 @@
+{
+  "lesson_characters": 12434,
+  "tests_passed": 10,
+  "command": "python content/courses/engineering/VOCE-AI-009/test_reconcile.py",
+  "exact_duplicate_paragraphs": 0,
+  "deterministic_preview": true,
+  "single_h1": true,
+  "quality_validated": false,
+  "published": false,
+  "limitations": [
+    "Cours incomplet",
+    "Relecture indépendante et contrôle visuel non effectués",
+    "Preuves synthétiques supposées authentiques et structurées; aucun fournisseur réel",
+    "Aucun exercice de reprise avec opérateurs réalisé"
+  ]
+}
