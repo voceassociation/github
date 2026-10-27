@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-27T11:31:21.681621+00:00",
+  "updated_at": "2026-10-27T11:46:39.686734+00:00",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -5692,7 +5692,7 @@
       "report": "backfill/reports/linkedin-catchup-progress-2026-10-25.json"
     },
     "linkedin_manual_recheck_2026_10_27": {
-      "status": "missing_posts_confirmed_sources_saved_pending_ingestion",
+      "status": "integrated_verified",
       "checked_at": "2026-10-27T11:16:40Z",
       "report": "backfill/reports/linkedin-recheck-2026-10-27.json",
       "source_captures": "backfill/reports/linkedin-recheck-sources-2026-10-27.json",
@@ -5704,11 +5704,57 @@
       "corpus_items": 1819,
       "boundary_seen": false,
       "coverage_complete": false,
-      "published": false,
+      "published": true,
       "resume": [
         "Ingest the saved literal source captures with the existing validated pipeline, preserving concurrent work and original permanent routes.",
         "Continue ordinary feed inspection back to the actual last archived boundary; 11 observed posts on 26 October are a confirmed minimum, not exhaustive coverage.",
         "Verify live original texts, discovery outputs and R2 after publication."
+      ],
+      "ingestion_report": "backfill/reports/linkedin-ingestion-2026-10-27.json"
+    },
+    "linkedin_manual_ingest_2026_10_27": {
+      "status": "published_live_full_r2_backup_verified",
+      "checked_at": "2026-10-27T11:46:39.686734+00:00",
+      "report": "backfill/reports/linkedin-ingestion-2026-10-27.json",
+      "added_count": 20,
+      "verified_by_date": {
+        "2026-10-26": 11,
+        "2026-10-27": 9
+      },
+      "corpus_items": 1839,
+      "source_packets": [
+        "backfill/raw/2026-10-26.json",
+        "backfill/raw/2026-10-27.json"
+      ],
+      "source_commit": "bf3dc0e1628ccddb9cb721fa541325eb032ea56f",
+      "provenance_completion_commit": "40f1d01e4d4f027fb39fb665250d7ef1467c234f",
+      "generated_commit": "593d1872bf854305461e6db5afb4936da8480b9f",
+      "workflow": {
+        "run_id": 40496757210,
+        "job_id": 122164039819,
+        "conclusion": "success",
+        "initial_run_id": 40496631030,
+        "initial_failure_cause": "Required observed visible_relative_time provenance field omitted from initial packets; repaired without altering original texts."
+      },
+      "all_20_live_texts_exact": true,
+      "all_previous_texts_and_canonicals_preserved": true,
+      "unique_ids": true,
+      "unique_full_texts": true,
+      "sitemap_urls": 2677,
+      "rss_items": 50,
+      "all_20_seo_markers_verified": true,
+      "ga4_enabled_under_stats_consent": true,
+      "ga4_real_event_delivery_tested": false,
+      "indexnow_http_status": 200,
+      "indexnow_submitted_url_count": 50,
+      "r2_source_snapshot_complete": true,
+      "r2_derived_backup_complete": true,
+      "r2_article_pages_synced": 1839,
+      "coverage_complete": false,
+      "previous_boundary_seen": false,
+      "resume": [
+        "Continue reading the ordinary authorized LinkedIn activity feed until the true last archived boundary is reached; this 20-post import is verified but does not certify complete daily or historical coverage.",
+        "Search-engine inclusion and actual GA4 event reception were not established by sitemap, tag configuration or IndexNow acceptance."
       ]
     }
   },

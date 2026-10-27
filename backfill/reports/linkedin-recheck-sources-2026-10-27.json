@@ -2,7 +2,7 @@
   "schema": "voce.linkedin-source-recheck.v1",
   "retrieved_at": "2026-10-27T11:16:40Z",
   "source_run_id": "1a91bf17-1b7b-4de8-a088-f90e37bd9e0a",
-  "status": "captured_pending_ingestion",
+  "status": "integrated_verified",
   "coverage_complete": false,
   "boundary_seen": false,
   "verified_posts": [
@@ -366,5 +366,7 @@
       "public_html_text_evidence": "<html>\n  <body>\n    <p>29.809 salariés: les femmes performent mieux, mais l'entreprise leur attribue moins de \"potentiel\" Février 2026. Alan Benson, Danielle Li et Kelly Shue publient dans l'American Economic Review une étude sur 29.809 salariés en trajectoire managériale dans une chaîne nord-américaine. L'entreprise évalue séparément deux choses. La performance: ce que la personne accomplit. Le potentiel: ce que son manager pense qu'elle pourra accomplir demain. Les femmes obtiennent de meilleures évaluations de performance. Mais des notes de potentiel sensiblement plus faibles. Cette prédiction subjective pèse lourd: les différences de potentiel expliquent environ la moitié de l'écart de promotion observé entre femmes et hommes. Les managers anticipent-ils simplement mieux l'avenir? Les chercheurs vérifient. À potentiel évalué identique, les femmes performent ensuite mieux que les hommes, en moyenne comme autour du seuil de promotion. Le jugement aurait donc dû se corriger. Il persiste. Même après avoir dépassé ce que leur note laissait prévoir, les femmes continuent à recevoir des évaluations de potentiel plus faibles. L'étude identifie deux mécanismes: stéréotypes de leadership et rétention stratégique. Les femmes quittent moins souvent l'entreprise. Les hommes sont davantage susceptibles de partir lorsqu'ils sont écartés d'une promotion. Une organisation peut donc avoir davantage intérêt à promouvoir celui qu'elle craint de perdre. La stabilité devient un levier de négociation plus faible. D'où une phrase de comité de carrière beaucoup moins innocente qu'elle n'en a l'air: \"Elle est excellente, mais je ne suis pas certain de son potentiel.\" Le mot \"potentiel\" peut révéler moins l'avenir d'une personne que le modèle de dirigeant que l'organisation s'attend encore à voir. ULTRA® La performance repose sur des faits observés. Le potentiel exige de projeter une personne dans une fonction qu'elle n'occupe pas encore. C'est là que les prototypes sociaux peuvent peser davantage: allure de l'autorité, assurance attendue, disponibilité supposée, ressemblance avec ceux qui ont historiquement occupé le poste. Le résultat le plus important est la résistance du jugement à l'information nouvelle. Les femmes surperforment ensuite la prédiction. Pourtant, leurs notes futures de potentiel restent inférieures. Pour l'entreprise, le problème devient mesurable: si un indicateur censé prévoir la performance future sous-estime systématiquement ceux qui performeront ensuite mieux, ce n'est plus seulement une question d'équité. C'est un mauvais instrument de décision. SEMIRAMIDE Le pouvoir commence souvent dans l'imagination de ceux qui décident qui pourra un jour le posséder. Sources Benson, Li, Shue, American Economic Review, vol. 116, n°2, février 2026 Harvard Kennedy School, Women and Public Policy Program, mars 2026 American Economic Association, données et réplication #VOCEAssociation #Leadership #Management #Gouvernance #Carrière</p>\n  </body>\n</html>",
       "additional_date_verification_url": null
     }
-  ]
+  ],
+  "integrated_at": "2026-10-27T11:46:39.686734+00:00",
+  "ingestion_report": "backfill/reports/linkedin-ingestion-2026-10-27.json"
 }
