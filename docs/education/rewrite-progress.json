@@ -3,7 +3,7 @@
   "updated_on": "2026-10-27",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "e7f79bbddf9c2b952ac6cd1ecd179ad7dfe114b8",
+  "base_head_read": "5b680cf5dc89151fa68de9b8d089e44307929f19",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 107,
-    "preserved_by_selection": 12,
-    "eligible_under_20000": 108
+    "preserved_by_selection": 13,
+    "eligible_under_20000": 107
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,28 +79,26 @@
   "current_course": {
     "id": "VOCE-AI-012",
     "title": "Shanghai Jiao Tong: comprendre un véhicule électrique au-delà de sa batterie",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 10474,
-    "measurement": "Normalized chapter 01 fragment, headings included; references, code and old page excluded.",
+    "status": "preserved_draft_above_selection_threshold_not_complete",
+    "lesson_characters": 22353,
+    "measurement": "Sum of normalized chapters 01 and 02, headings included; references, code and old page excluded.",
     "selection_before_write": {
       "main": 9014,
       "branch": 9014,
-      "saved_chapters": 0
+      "saved_chapters": 10474
     },
     "chapters_written": [
-      "01-bilan-de-mission.html"
+      "01-bilan-de-mission.html",
+      "02-recharge-et-profils.html"
     ],
     "chapters_remaining": [
-      "02 — Recharge, contraintes de puissance et profils de mission",
-      "03 — Cas comparatif et protocole de réception"
+      "03 — Cas comparatif et protocole de réception; non rédigé, conservation prioritaire"
     ],
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-012/01-bilan-de-mission.html",
+      "content/courses/engineering/VOCE-AI-012/02-recharge-et-profils.html",
+      "content/courses/engineering/VOCE-AI-012/test_charging.py",
+      "content/courses/engineering/VOCE-AI-012/checks-2026-10-27-ch02.json",
       "content/courses/engineering/VOCE-AI-012/README.md",
-      "content/courses/engineering/VOCE-AI-012/checks-2026-10-27.json",
-      "content/courses/engineering/VOCE-AI-012/references.html",
-      "content/courses/engineering/VOCE-AI-012/render_draft.py",
-      "content/courses/engineering/VOCE-AI-012/test_energy.py",
       "docs/education/course-selection-20000.json",
       "docs/education/rewrite-progress.json"
     ],
@@ -112,13 +110,13 @@
       }
     ],
     "checks_executed": [
-      "8 local tests passed",
+      "16 local tests passed",
       "Deterministic preview and single H1",
-      "Normalized count and no exact duplicate paragraphs"
+      "No exact duplicate paragraphs"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Synthetic energy calculations, count and structural preview only",
+      "controlled": "Synthetic energy and charging calculations, counts and structural preview only",
       "published": false
     },
     "limits": [
@@ -128,7 +126,7 @@
       "Fiche SJTU inaccessible lors de la tentative, non relue",
       "Aucun pilote apprenant"
     ],
-    "next_action": "Remeasure main and saved chapters before selection. If below 20k, write chapter 02 on charging power, duration and mission profiles. Preserve chapter 01."
+    "next_action": "Preserve AI012 now above 20k without expansion or publication as complete. Check AI013 on current main and saved sources; select only below 20k."
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -689,6 +687,58 @@
         "Aucun robot réel, dispositif de protection ou pilote apprenant testé"
       ],
       "next_action": "Preserve AI011 now above 20k without expansion or publication as complete. Check AI012 on current main and saved sources; select only below 20k."
+    },
+    "VOCE-AI-012": {
+      "id": "VOCE-AI-012",
+      "title": "Shanghai Jiao Tong: comprendre un véhicule électrique au-delà de sa batterie",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 22353,
+      "measurement": "Sum of normalized chapters 01 and 02, headings included; references, code and old page excluded.",
+      "selection_before_write": {
+        "main": 9014,
+        "branch": 9014,
+        "saved_chapters": 10474
+      },
+      "chapters_written": [
+        "01-bilan-de-mission.html",
+        "02-recharge-et-profils.html"
+      ],
+      "chapters_remaining": [
+        "03 — Cas comparatif et protocole de réception; non rédigé, conservation prioritaire"
+      ],
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-012/02-recharge-et-profils.html",
+        "content/courses/engineering/VOCE-AI-012/test_charging.py",
+        "content/courses/engineering/VOCE-AI-012/checks-2026-10-27-ch02.json",
+        "content/courses/engineering/VOCE-AI-012/README.md",
+        "docs/education/course-selection-20000.json",
+        "docs/education/rewrite-progress.json"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://afdc.energy.gov/vehicles/how-do-all-electric-cars-work",
+          "date": "2026-10-27",
+          "scope": "Key Components; architecture only, synthetic figures not sourced here"
+        }
+      ],
+      "checks_executed": [
+        "16 local tests passed",
+        "Deterministic preview and single H1",
+        "No exact duplicate paragraphs"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Synthetic energy and charging calculations, counts and structural preview only",
+        "published": false
+      },
+      "limits": [
+        "Cours incomplet",
+        "Relecture indépendante et contrôle visuel non effectués",
+        "Modèles énergétiques simplifiés; aucun véhicule réel testé",
+        "Fiche SJTU inaccessible lors de la tentative, non relue",
+        "Aucun pilote apprenant"
+      ],
+      "next_action": "Preserve AI012 now above 20k without expansion or publication as complete. Check AI013 on current main and saved sources; select only below 20k."
     }
   },
   "selection_policy": {
@@ -707,9 +757,10 @@
       "VOCE-AI-008",
       "VOCE-AI-009",
       "VOCE-AI-010",
-      "VOCE-AI-011"
+      "VOCE-AI-011",
+      "VOCE-AI-012"
     ],
-    "eligible_count": 108,
+    "eligible_count": 107,
     "main_read": "614b55591dcc11f84c13518cf105d93ecebe787b",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }

@@ -1,9 +1,11 @@
 # VOCE-AI-012 — Architecture électrique et mission
 
-Chapitre 01 sauvegardé: bilan énergétique de mission, frontières roues/batterie, unités, freinage et réserve. 10474 caractères pédagogiques normalisés, titres inclus, références et code exclus. Sélection: main et branche 9 014 chacun; aucune source longue préexistante. Versions non additionnées.
+Chapitres 01 et 02 sauvegardés: bilan énergétique de mission; recharge, puissance partagée et échéances. 22353 caractères pédagogiques normalisés, titres inclus, références et code exclus. Chapitre 01: 10474; chapitre 02: 11879.
 
-Huit tests locaux réussis: `python content/courses/engineering/VOCE-AI-012/test_energy.py`. Données fictives; aucune performance constructeur ou validation matérielle déduite. Documentation DOE consultée; accès SJTU en échec, disponibilité non affirmée.
+Avant ce lot: main et branche 9 014 caractères chacun; chapitre 01 sauvegardé 10 474. Versions non additionnées. Les sources dépassent désormais 20 000 caractères et sont préservées conformément à la consigne prioritaire. Cela ne valide pas un cours achevé.
 
-Aperçu: `python content/courses/engineering/VOCE-AI-012/render_draft.py /tmp/ai012-preview.html`. Déterminisme et H1 unique vérifiés; pas de contrôle visuel ni relecture indépendante. Cours incomplet, non publié.
+Seize tests locaux réussis: `python -m unittest discover -s content/courses/engineering/VOCE-AI-012 -p 'test_*.py'`. Données fictives; aucune performance constructeur ou validation matérielle déduite. Documentation DOE consultée au lot précédent; pas de nouvelle consultation dans ce lot. Accès SJTU précédemment en échec, disponibilité non affirmée.
 
-Prochain chapitre: 02 — Recharge, contraintes de puissance et profils de mission. Relire main et remesurer les sources avant sélection; préserver le chapitre 01.
+Aperçu: `python content/courses/engineering/VOCE-AI-012/render_draft.py /tmp/ai012-preview.html`. Déterminisme, H1 unique et absence de paragraphes exactement dupliqués vérifiés; pas de contrôle visuel ni relecture indépendante. Cours incomplet, non publié.
+
+Chapitre manquant: 03 — Cas comparatif et protocole de réception. Ne pas poursuivre son écriture au-delà du seuil de conservation. Prochaine action: vérifier AI-013 sur main et dans les sources sauvegardées avant toute sélection.

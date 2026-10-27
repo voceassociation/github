@@ -1,0 +1,23 @@
+{
+  "course": "VOCE-AI-012",
+  "date": "2026-10-27",
+  "lesson_characters": 22353,
+  "per_chapter": {
+    "01-bilan-de-mission.html": 10474,
+    "02-recharge-et-profils.html": 11879
+  },
+  "tests_passed": 16,
+  "new_tests": 8,
+  "command": "python -m unittest discover -s content/courses/engineering/VOCE-AI-012 -p 'test_*.py'",
+  "deterministic_preview": true,
+  "single_h1": true,
+  "exact_duplicate_paragraphs": 0,
+  "new_external_sources": [],
+  "quality_validated": false,
+  "visual_review": false,
+  "published": false,
+  "limits": [
+    "Synthetic calculations only; no vehicle or charging installation tested",
+    "Independent review and learner pilot not performed"
+  ]
+}
