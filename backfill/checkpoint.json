@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-25T22:09:00.000Z",
+  "updated_at": "2026-10-27T11:16:40Z",
   "complete": false,
   "window": {
     "from": "2026-03-01",
@@ -1725,6 +1725,9 @@
   "adobe_provenance_verified": 0,
   "adobe_provenance_status": "candidates_only",
   "resume": [
+    "Ingest the saved literal source captures with the existing validated pipeline, preserving concurrent work and original permanent routes.",
+    "Continue ordinary feed inspection back to the actual last archived boundary; 11 observed posts on 26 October are a confirmed minimum, not exhaustive coverage.",
+    "Verify live original texts, discovery outputs and R2 after publication.",
     "Obtain authenticated LinkedIn history for dates with no connector rows.",
     "Compare connector text against LinkedIn originals and review conflicts without overwriting.",
     "Verify Adobe provenance with exact publication/asset evidence.",
@@ -5672,6 +5675,26 @@
       "coverage_complete": true,
       "historical_conflicts_preserved": 334,
       "report": "backfill/reports/linkedin-catchup-progress-2026-10-25.json"
+    },
+    "linkedin_manual_recheck_2026_10_27": {
+      "status": "missing_posts_confirmed_sources_saved_pending_ingestion",
+      "checked_at": "2026-10-27T11:16:40Z",
+      "report": "backfill/reports/linkedin-recheck-2026-10-27.json",
+      "source_captures": "backfill/reports/linkedin-recheck-sources-2026-10-27.json",
+      "verified_by_date": {
+        "2026-10-27": 9,
+        "2026-10-26": 11
+      },
+      "observed_posts_missing_from_corpus": 20,
+      "corpus_items": 1819,
+      "boundary_seen": false,
+      "coverage_complete": false,
+      "published": false,
+      "resume": [
+        "Ingest the saved literal source captures with the existing validated pipeline, preserving concurrent work and original permanent routes.",
+        "Continue ordinary feed inspection back to the actual last archived boundary; 11 observed posts on 26 October are a confirmed minimum, not exhaustive coverage.",
+        "Verify live original texts, discovery outputs and R2 after publication."
+      ]
     }
   },
   "facebook_daily_scans": {},

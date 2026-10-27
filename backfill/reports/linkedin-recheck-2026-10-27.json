@@ -1,0 +1,44 @@
+{
+  "schema": "voce.linkedin-recheck.v1",
+  "checked_at": "2026-10-27T11:16:40Z",
+  "status": "missing_posts_confirmed_sources_saved_pending_ingestion",
+  "published_corpus_items": 1819,
+  "published_corpus_generated_at": "2026-10-25T22:05:38.093735+00:00",
+  "linkedin_access": "authenticated_normal_access_success",
+  "browser_run_id": "1a91bf17-1b7b-4de8-a088-f90e37bd9e0a",
+  "observed_posts": 20,
+  "confirmed_publication_dates": {
+    "2026-10-27": 9,
+    "2026-10-26": 11
+  },
+  "observed_posts_missing_from_corpus": 20,
+  "source_captures": "backfill/reports/linkedin-recheck-sources-2026-10-27.json",
+  "source_texts_include_original_linebreaks": true,
+  "ids_preserved_as_strings": true,
+  "dates_from_structured_metadata_not_article_body": true,
+  "browser_result_date_classifications_rejected": "The browser summary wrongly treated dates cited within article bodies as publication dates. All 20 calendar dates were independently established from public post structured metadata; Bristol used its observed canonical URL.",
+  "boundary_target": "urn:li:ugcPost:7520227865070587905",
+  "boundary_seen": false,
+  "coverage_complete": false,
+  "last_scheduled_run": {
+    "scheduled_for": "2026-10-26T22:00:00Z",
+    "recorded_status": "no_update",
+    "new_ingestion_record_found": false
+  },
+  "public_backup_check": {
+    "checked_at": "2026-10-27T09:56:26Z",
+    "corpus_items": 1819,
+    "source_snapshot_complete": true,
+    "derived_backup_complete": true,
+    "source_objects": "1950/1950",
+    "derived_objects": "1939/1939",
+    "note": "Completeness covers the already published corpus, not posts not yet ingested."
+  },
+  "archive_mutations_performed": false,
+  "remaining": [
+    "Ingest the saved literal source captures with the existing validated pipeline, preserving concurrent work and original permanent routes.",
+    "Continue ordinary feed inspection back to the actual last archived boundary; 11 observed posts on 26 October are a confirmed minimum, not exhaustive coverage.",
+    "Verify live original texts, discovery outputs and R2 after publication."
+  ],
+  "historical_conflicts_preserved": 334
+}
