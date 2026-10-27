@@ -1,0 +1,15 @@
+{
+  "lesson_characters": 12343,
+  "tests_passed": 6,
+  "command": "python content/courses/engineering/VOCE-AI-008/check_metrics.py",
+  "exact_duplicate_paragraphs": 0,
+  "quality_validated": false,
+  "visual_check": false,
+  "published": false,
+  "limitations": [
+    "Cours incomplet",
+    "Relecture indépendante non effectuée",
+    "Contrôle visuel non effectué",
+    "Aucun pilote apprenant ni service réel testé"
+  ]
+}
