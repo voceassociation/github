@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-10-27",
+  "updated_on": "2026-10-28",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "3505f948735e476c3751e946aadb3e2323355f9a",
+  "base_head_read": "866b5ae960a05c4cf1a4b9dbfbfd670bb06b0c6f",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 105,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 104,
     "preserved_by_selection": 15,
     "eligible_under_20000": 105
   },
@@ -77,55 +77,59 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-014",
-    "title": "Shanghai Jiao Tong: intégrer la température dans une décision de mobilité électrique",
-    "status": "preserved_draft_above_selection_threshold_not_complete",
-    "lesson_characters": 21807,
-    "measurement": "Sum of normalized chapters 01 and 02; references, code and old page excluded.",
+    "id": "VOCE-AI-015",
+    "title": "Tsinghua iCenter: le robot doit comprendre l’espace où vous l’installez",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 10339,
+    "measurement": "Normalized chapter-only Unicode text; bibliography and code excluded",
     "selection_before_write": {
-      "main": 9088,
-      "branch": 9088,
-      "saved_chapters": 11060
+      "main": 9050,
+      "branch": 9050,
+      "saved_chapters": 0,
+      "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
+      "verification": "Main file identical to branch measured before selection; recursive main tree has no saved AI015 sources"
     },
     "chapters_written": [
-      "01-bilan-thermique.html",
-      "02-missions-et-preconditionnement.html"
+      "01-reperes-et-emprise.html"
     ],
     "chapters_remaining": [
-      "03 — Cas comparatif et protocole de réception; non rédigé, conservation prioritaire"
+      "02 — Obstruction, preuve d’arrêt et conditions de reprise",
+      "03 — Modification du site et dossier de réception"
     ],
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-014/02-missions-et-preconditionnement.html",
-      "content/courses/engineering/VOCE-AI-014/test_missions.py",
-      "content/courses/engineering/VOCE-AI-014/checks-2026-10-27-ch02.json",
-      "content/courses/engineering/VOCE-AI-014/README.md",
-      "docs/education/course-selection-20000.json",
-      "docs/education/rewrite-progress.json"
+      "content/courses/engineering/VOCE-AI-015/01-reperes-et-emprise.html",
+      "content/courses/engineering/VOCE-AI-015/test_geometry.js",
+      "content/courses/engineering/VOCE-AI-015/render_draft.mjs",
+      "content/courses/engineering/VOCE-AI-015/references.html",
+      "content/courses/engineering/VOCE-AI-015/checks-2026-10-28.json",
+      "content/courses/engineering/VOCE-AI-015/README.md",
+      "docs/education/rewrite-progress.json",
+      "docs/education/course-selection-20000.json"
     ],
     "sources_consulted": [
       {
-        "url": "https://afdc.energy.gov/vehicles/how-do-all-electric-cars-work",
-        "date": "2026-10-27",
-        "scope": "Key Components: Thermal system; architecture only"
+        "url": "https://raw.githubusercontent.com/ros-infrastructure/rep/master/rep-0105.rst",
+        "date": "2026-10-28",
+        "scope": "Coordinate Frames and Relationship between Frames"
       }
     ],
     "checks_executed": [
-      "15 local tests passed",
-      "Deterministic preview and single H1",
+      "8 JavaScript geometry checks passed in tool runtime",
+      "Deterministic HTML transformation in memory and single H1",
       "No exact duplicate paragraphs"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Synthetic thermal calculations, count and structural preview only",
+      "controlled": "Synthetic geometry, count and in-memory structural rendering only",
       "published": false
     },
     "limits": [
-      "Cours incomplet",
-      "Relecture indépendante et contrôle visuel non effectués",
-      "Modèle à un nœud; aucune batterie réelle ou limite de sécurité validée",
-      "Programme SJTU non revérifié"
+      "Local exec runtime unavailable; CLI and filesystem renderer not executed",
+      "No visual or independent review",
+      "No physical robot tested",
+      "iCenter announcement not reread"
     ],
-    "next_action": "Preserve AI014 above 20k without expansion or publication as complete. Check AI015 on current main and saved sources; select only below 20k."
+    "next_action": "Remeasure main and saved sources; if below 20k, write chapter 02 on obstruction, stop evidence and restart conditions. Preserve chapter 01."
   },
   "completed_courses": {
     "VOCE-AI-002": {

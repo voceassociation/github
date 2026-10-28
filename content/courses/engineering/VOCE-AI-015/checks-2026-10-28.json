@@ -1,0 +1,17 @@
+{
+  "course": "VOCE-AI-015",
+  "lesson_characters": 10339,
+  "measurement": "HTML tags replaced by spaces, whitespace normalized, Unicode code points; chapter only, no entities present.",
+  "tests_passed": 8,
+  "test_execution": "JavaScript source evaluated in tool runtime; Node CLI not run",
+  "render": "Same string transformation executed twice in JavaScript memory; deterministic and one H1",
+  "duplicate_paragraphs": 0,
+  "local_renderer_executed": false,
+  "visual_review": false,
+  "independent_review": false,
+  "published": false,
+  "limits": [
+    "Local exec runtime unavailable",
+    "Synthetic geometry only; no robot tested"
+  ]
+}
