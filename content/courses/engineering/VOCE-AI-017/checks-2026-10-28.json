@@ -1,0 +1,24 @@
+{
+  "course": "VOCE-AI-017",
+  "date": "2026-10-28",
+  "lesson_characters": 14832,
+  "tests": 11,
+  "checks": [
+    "11 Node tests passed",
+    "Filesystem renderer executed twice; deterministic",
+    "Single H1; stale JSON-LD removed",
+    "Repository destination blocked",
+    "No exact duplicate paragraphs"
+  ],
+  "visual_review": false,
+  "independent_review": false,
+  "published": false,
+  "selection": {
+    "main": 8050,
+    "branch": 8050,
+    "saved_chapters": 0,
+    "historical_baseline": 634,
+    "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
+    "branch_commit": "7bf65549763433f5f054dd1b6e25f88a7a3c2649"
+  }
+}

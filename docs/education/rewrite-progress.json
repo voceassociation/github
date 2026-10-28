@@ -3,7 +3,7 @@
   "updated_on": "2026-10-28",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "0754f2a046236e8cb75879e7a65991ae78c08c7d",
+  "base_head_read": "7bf65549763433f5f054dd1b6e25f88a7a3c2649",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 103,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 102,
     "preserved_by_selection": 17,
     "eligible_under_20000": 103
   },
@@ -77,64 +77,66 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-016",
-    "title": "Tsinghua: passer d’un matériau prometteur à une production conforme",
-    "status": "preserved_draft_above_selection_threshold_not_complete",
-    "lesson_characters": 27359,
-    "measurement": "Repository counter on chapter-only HTML; references, code and old page excluded",
+    "id": "VOCE-AI-017",
+    "title": "Un jeton change le coût d'une langue",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 14832,
+    "measurement": "Repository selection counter on chapter-only HTML; references, code and historical page excluded",
     "selection_before_write": {
-      "main": 8888,
-      "branch": 8888,
-      "saved_chapters": 11951,
-      "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621"
+      "main": 8050,
+      "branch": 8050,
+      "saved_chapters": 0,
+      "historical_baseline": 634,
+      "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
+      "branch_commit": "7bf65549763433f5f054dd1b6e25f88a7a3c2649"
     },
     "chapters_written": [
-      "01-flux-et-rendement.html",
-      "02-lots-et-mesure.html"
+      "01-unites-et-couts.html"
     ],
     "chapters_remaining": [
-      "03 — Montée en cadence et dossier de réception ; non rédigé, conservation prioritaire"
-    ],
-    "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-016/02-lots-et-mesure.html",
-      "content/courses/engineering/VOCE-AI-016/references.html",
-      "content/courses/engineering/VOCE-AI-016/test_yield.js",
-      "content/courses/engineering/VOCE-AI-016/checks-2026-10-28-ch02.json",
-      "content/courses/engineering/VOCE-AI-016/README.md",
-      "docs/education/rewrite-progress.json",
-      "docs/education/course-selection-20000.json"
+      "02 — Corpus parallèle, normalisation et mesure reproductible de la tokenisation",
+      "03 — Budgets de contexte, latence et arbitrages à qualité contrôlée"
     ],
     "sources_consulted": [
       {
-        "url": "https://www.itl.nist.gov/div898/handbook/pmc/section1/pmc16.htm",
+        "url": "https://aclanthology.org/P16-1162.pdf",
         "date": "2026-10-28",
-        "scope": "Definition and Cp/Cpk formulas; assumptions"
+        "scope": "Abstract and introduction: subword representation and open vocabulary"
       },
       {
-        "url": "https://www.itl.nist.gov/div898/handbook/mpc/section4/mpc4.htm",
+        "url": "https://cs336.stanford.edu/spring2025/",
         "date": "2026-10-28",
-        "scope": "Landing page only: measurement variability and bias categories; subpages not consulted"
+        "scope": "Assignments: tokenizer in first assignment; no affiliation"
       }
     ],
     "checks_executed": [
-      "16 Node tests passed",
-      "Filesystem renderer deterministic; single H1",
+      "11 Node tests passed",
+      "Filesystem renderer executed twice; deterministic",
+      "Single H1; stale JSON-LD removed",
       "Repository destination blocked",
       "No exact duplicate paragraphs"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Synthetic balances, counts and structural rendering only",
+      "controlled": "Synthetic arithmetic, character count and structural rendering only",
       "published": false
     },
     "limits": [
       "Course incomplete",
       "No visual or independent review",
-      "No factory or material tested",
-      "Tsinghua programme not reread"
+      "No production tokenizer, model API, tariff or latency measured"
     ],
-    "next_action": "Preserve AI016 above 20k without expansion or publication as complete. Check AI017 on current main and saved sources; select only below 20k.",
-    "batch_new_lesson_characters": 15408
+    "next_action": "Remeasure main and saved sources. If below 20000, write chapter 02: parallel corpus, normalization and reproducible tokenizer measurement. Preserve chapter 01.",
+    "files_recorded_in_this_batch": [
+      "content/courses/engineering/VOCE-AI-017/01-unites-et-couts.html",
+      "content/courses/engineering/VOCE-AI-017/test_cost.js",
+      "content/courses/engineering/VOCE-AI-017/render_draft.mjs",
+      "content/courses/engineering/VOCE-AI-017/references.html",
+      "content/courses/engineering/VOCE-AI-017/checks-2026-10-28.json",
+      "content/courses/engineering/VOCE-AI-017/README.md",
+      "docs/education/rewrite-progress.json",
+      "docs/education/course-selection-20000.json"
+    ]
   },
   "completed_courses": {
     "VOCE-AI-002": {
