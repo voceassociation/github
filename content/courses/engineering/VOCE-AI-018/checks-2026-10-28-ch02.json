@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-28",
+  "course": "VOCE-AI-018",
+  "chapter_characters": [
+    12452,
+    12898
+  ],
+  "total": 25350,
+  "tests": 18,
+  "checks": [
+    "18 Node tests passed (10 attention, 8 cache)",
+    "Deterministic filesystem rendering; single H1",
+    "No exact duplicate paragraphs",
+    "Repository destination blocked"
+  ],
+  "visual_review": false,
+  "independent_review": false,
+  "published": false,
+  "scope": "Scalar attention/cache simulation and theoretical budgets; no GPU or model benchmark"
+}
