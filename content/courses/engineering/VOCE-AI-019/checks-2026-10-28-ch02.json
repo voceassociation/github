@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-28",
+  "course": "VOCE-AI-019",
+  "chapter_characters": {
+    "01-transferts-et-budgets.html": 11932,
+    "02-softmax-par-blocs.html": 16951
+  },
+  "lesson_characters": 28883,
+  "tests": {
+    "budget_assertion_groups": 9,
+    "softmax_node_tests": 12,
+    "passed": 21
+  },
+  "render": {
+    "deterministic": true,
+    "single_h1": true,
+    "duplicate_paragraphs": 0,
+    "repository_destination_rejected": true
+  },
+  "visual_review": false,
+  "independent_review": false,
+  "gpu_benchmark": false,
+  "published": false
+}

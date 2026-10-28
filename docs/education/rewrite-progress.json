@@ -3,7 +3,7 @@
   "updated_on": "2026-10-28",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "0a9e733a3633c238fcbecca638ae7c7e0eb32843",
+  "base_head_read": "dc5e9a13a0d82a383539526e78d69d205f2e7116",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 100,
-    "preserved_by_selection": 19,
-    "eligible_under_20000": 101
+    "preserved_by_selection": 20,
+    "eligible_under_20000": 100
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,40 +79,46 @@
   "current_course": {
     "id": "VOCE-AI-019",
     "title": "FlashAttention et la circulation des données",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 11932,
+    "status": "preserved_draft_above_selection_threshold_not_complete",
+    "lesson_characters": 28883,
     "measurement": "Repository counter on chapter-only HTML; bibliography, code and historical page excluded",
     "selection_before_write": {
       "main": 8001,
       "branch": 8001,
-      "saved_chapters": 0,
+      "saved_chapters": 11932,
       "historical_baseline": 635,
       "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
-      "branch_commit": "0a9e733a3633c238fcbecca638ae7c7e0eb32843"
+      "branch_commit": "dc5e9a13a0d82a383539526e78d69d205f2e7116"
     },
     "chapters_written": [
-      "01-transferts-et-budgets.html"
+      "01-transferts-et-budgets.html",
+      "02-softmax-par-blocs.html"
     ],
     "chapters_remaining": [
-      "02 — Softmax par blocs et invariants de normalisation",
-      "03 — Recalcul, gradients et protocole de mesure GPU"
+      "03 — Recalcul, gradients et protocole de mesure GPU; non rédigé, conservation prioritaire",
+      "Exercices et contrôles de livraison non réalisés"
     ],
     "sources_consulted": [
       {
         "url": "https://arxiv.org/pdf/2205.14135",
         "date": "2026-10-28",
         "scope": "Abstract, introduction and figure1; no reproduced benchmark"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2205.14135",
+        "date": "2026-10-28",
+        "scope": "Section 3.1 and Algorithm 1; targeted reading, scalar model only"
       }
     ],
     "checks_executed": [
-      "9 Node tests passed",
-      "Filesystem renderer executed twice; deterministic",
-      "Single H1; no duplicate paragraphs",
+      "21 local tests passed (9 budget groups, 12 softmax tests)",
+      "Filesystem renderer executed twice; deterministic and single H1",
+      "No exact duplicate paragraphs",
       "Repository destination blocked"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Theoretical budgets and structural rendering only",
+      "controlled": "Scalar numerical examples, theoretical budgets and structural rendering only",
       "published": false
     },
     "limits": [
@@ -120,17 +126,17 @@
       "No visual or independent review",
       "No FlashAttention kernel or GPU benchmark executed"
     ],
-    "next_action": "Remeasure main and saved sources. If below 20000, write chapter 02 on blockwise softmax and normalization invariants; preserve chapter 01.",
+    "next_action": "Preserve AI019 above 20000 without expansion or publication as complete. Check AI020 on recent main and saved sources; select only below 20000.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-019/01-transferts-et-budgets.html",
-      "content/courses/engineering/VOCE-AI-019/test_budgets.js",
-      "content/courses/engineering/VOCE-AI-019/render_draft.mjs",
+      "content/courses/engineering/VOCE-AI-019/02-softmax-par-blocs.html",
+      "content/courses/engineering/VOCE-AI-019/test_softmax.js",
       "content/courses/engineering/VOCE-AI-019/references.html",
-      "content/courses/engineering/VOCE-AI-019/checks-2026-10-28.json",
+      "content/courses/engineering/VOCE-AI-019/checks-2026-10-28-ch02.json",
       "content/courses/engineering/VOCE-AI-019/README.md",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
-    ]
+    ],
+    "batch_new_lesson_characters": 16951
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -1090,6 +1096,68 @@
         "docs/education/course-selection-20000.json"
       ],
       "batch_new_lesson_characters": 12898
+    },
+    "VOCE-AI-019": {
+      "id": "VOCE-AI-019",
+      "title": "FlashAttention et la circulation des données",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 28883,
+      "measurement": "Repository counter on chapter-only HTML; bibliography, code and historical page excluded",
+      "selection_before_write": {
+        "main": 8001,
+        "branch": 8001,
+        "saved_chapters": 11932,
+        "historical_baseline": 635,
+        "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
+        "branch_commit": "dc5e9a13a0d82a383539526e78d69d205f2e7116"
+      },
+      "chapters_written": [
+        "01-transferts-et-budgets.html",
+        "02-softmax-par-blocs.html"
+      ],
+      "chapters_remaining": [
+        "03 — Recalcul, gradients et protocole de mesure GPU; non rédigé, conservation prioritaire",
+        "Exercices et contrôles de livraison non réalisés"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://arxiv.org/pdf/2205.14135",
+          "date": "2026-10-28",
+          "scope": "Abstract, introduction and figure1; no reproduced benchmark"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2205.14135",
+          "date": "2026-10-28",
+          "scope": "Section 3.1 and Algorithm 1; targeted reading, scalar model only"
+        }
+      ],
+      "checks_executed": [
+        "21 local tests passed (9 budget groups, 12 softmax tests)",
+        "Filesystem renderer executed twice; deterministic and single H1",
+        "No exact duplicate paragraphs",
+        "Repository destination blocked"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Scalar numerical examples, theoretical budgets and structural rendering only",
+        "published": false
+      },
+      "limits": [
+        "Course incomplete",
+        "No visual or independent review",
+        "No FlashAttention kernel or GPU benchmark executed"
+      ],
+      "next_action": "Preserve AI019 above 20000 without expansion or publication as complete. Check AI020 on recent main and saved sources; select only below 20000.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-019/02-softmax-par-blocs.html",
+        "content/courses/engineering/VOCE-AI-019/test_softmax.js",
+        "content/courses/engineering/VOCE-AI-019/references.html",
+        "content/courses/engineering/VOCE-AI-019/checks-2026-10-28-ch02.json",
+        "content/courses/engineering/VOCE-AI-019/README.md",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ],
+      "batch_new_lesson_characters": 16951
     }
   },
   "selection_policy": {
@@ -1115,9 +1183,10 @@
       "VOCE-AI-015",
       "VOCE-AI-016",
       "VOCE-AI-017",
-      "VOCE-AI-018"
+      "VOCE-AI-018",
+      "VOCE-AI-019"
     ],
-    "eligible_count": 101,
+    "eligible_count": 100,
     "main_read": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }

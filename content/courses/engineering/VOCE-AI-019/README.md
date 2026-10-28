@@ -1,7 +1,11 @@
-# VOCE-AI-019 — Brouillon en cours
+# VOCE-AI-019 — Brouillon préservé
 
-Chapitre 01 : transferts mémoire, intensité arithmétique, bornes conditionnelles et propagation des gains. 11 932 caractères pédagogiques normalisés hors références et code.
+Chapitres 01 et 02 sauvegardés: 28 883 caractères pédagogiques (11 932 + 16 951), hors références, code et page historique. Le chapitre 01 est conservé sans modification.
 
-Neuf contrôles via `node test_budgets.js`. Aperçu via `node render_draft.mjs /tmp/ai019-preview.html`; rendu déterministe et destination dans le dépôt refusée. Aucune mesure GPU ou implémentation FlashAttention, inspection visuelle ou relecture indépendante.
+Le seuil prioritaire de 20 000 est dépassé: aucune extension vers 75 000. Cours incomplet, non publié. Chapitre 03 (recalcul, gradients et mesure GPU), exercices et contrôles de livraison non réalisés.
 
-Incomplet, non publié. Prochaine étape après remesure : chapitre 02, softmax par blocs et invariants de normalisation. Ne pas fusionner globalement PR39.
+Contrôles: 9 groupes de calculs budgétaires et 12 tests softmax réussis sous Node; rendu déterministe, H1 unique, absence de paragraphes exactement dupliqués, destination dans le dépôt refusée. Aucun benchmark GPU, contrôle visuel ou relecture indépendante.
+
+Exécuter `node --test content/courses/engineering/VOCE-AI-019/test*.js`. Le générateur `render_draft.mjs` exige un chemin de sortie hors dépôt. Les sources incomplètes ne remplacent pas la page officielle.
+
+Prochaine action: mesurer AI-020 sur main récent et dans les sources sauvegardées; ne sélectionner que si strictement sous 20 000.
