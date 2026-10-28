@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-28",
+  "course": "VOCE-AI-018",
+  "lesson_characters": 12452,
+  "tests": 10,
+  "checks": [
+    "10 Node tests passed",
+    "Renderer path corrected after initial ENOENT; rerun twice successfully and deterministic",
+    "Single H1; no duplicate paragraphs",
+    "Repository destination blocked"
+  ],
+  "visual_review": false,
+  "independent_review": false,
+  "published": false
+}
