@@ -3,7 +3,7 @@
   "updated_on": "2026-10-28",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "7864e5c47938fd2ab056f690f2dfc9e015ce1f7a",
+  "base_head_read": "0a9e733a3633c238fcbecca638ae7c7e0eb32843",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 101,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 100,
     "preserved_by_selection": 19,
     "eligible_under_20000": 101
   },
@@ -77,70 +77,60 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-018",
-    "title": "L'attention et le prix du contexte",
-    "status": "preserved_draft_above_selection_threshold_not_complete",
-    "lesson_characters": 25350,
-    "measurement": "Normalized chapter-only HTML using repository counter; references, code and old page excluded",
+    "id": "VOCE-AI-019",
+    "title": "FlashAttention et la circulation des données",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 11932,
+    "measurement": "Repository counter on chapter-only HTML; bibliography, code and historical page excluded",
     "selection_before_write": {
-      "main": 8012,
-      "branch": 8012,
-      "saved_chapters": 12452,
-      "historical_baseline": 640,
+      "main": 8001,
+      "branch": 8001,
+      "saved_chapters": 0,
+      "historical_baseline": 635,
       "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
-      "branch_commit": "7864e5c47938fd2ab056f690f2dfc9e015ce1f7a"
+      "branch_commit": "0a9e733a3633c238fcbecca638ae7c7e0eb32843"
     },
     "chapters_written": [
-      "01-attention-et-dimensions.html",
-      "02-cache-et-generation.html"
+      "01-transferts-et-budgets.html"
     ],
     "chapters_remaining": [
-      "03 — Mesure de latence et effets de concurrence ; non rédigé, conservation prioritaire"
+      "02 — Softmax par blocs et invariants de normalisation",
+      "03 — Recalcul, gradients et protocole de mesure GPU"
     ],
     "sources_consulted": [
       {
-        "url": "https://arxiv.org/html/1706.03762v7",
+        "url": "https://arxiv.org/pdf/2205.14135",
         "date": "2026-10-28",
-        "scope": "Section 3.2: scaled dot-product attention"
-      },
-      {
-        "url": "https://arxiv.org/abs/2205.14135",
-        "date": "2026-10-28",
-        "scope": "Abstract only: tiling and memory transfers; no reproduced benchmark"
-      },
-      {
-        "url": "https://huggingface.co/docs/transformers/cache_explanation",
-        "date": "2026-10-28",
-        "scope": "Attention matrices and Cache class; online unpinned documentation; no Transformers code executed"
+        "scope": "Abstract, introduction and figure1; no reproduced benchmark"
       }
     ],
     "checks_executed": [
-      "18 Node tests passed (10 attention, 8 cache)",
-      "Deterministic filesystem rendering; single H1",
-      "No exact duplicate paragraphs",
+      "9 Node tests passed",
+      "Filesystem renderer executed twice; deterministic",
+      "Single H1; no duplicate paragraphs",
       "Repository destination blocked"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Scalar numerical examples, theoretical budgets and structural rendering only",
+      "controlled": "Theoretical budgets and structural rendering only",
       "published": false
     },
     "limits": [
       "Course incomplete",
       "No visual or independent review",
-      "No GPU benchmark or FlashAttention implementation"
+      "No FlashAttention kernel or GPU benchmark executed"
     ],
-    "next_action": "Preserve AI018 above 20000 without expansion or publication as complete. Check AI019 on recent main and saved sources; select only below 20000.",
+    "next_action": "Remeasure main and saved sources. If below 20000, write chapter 02 on blockwise softmax and normalization invariants; preserve chapter 01.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-018/02-cache-et-generation.html",
-      "content/courses/engineering/VOCE-AI-018/test_cache.js",
-      "content/courses/engineering/VOCE-AI-018/references.html",
-      "content/courses/engineering/VOCE-AI-018/checks-2026-10-28-ch02.json",
-      "content/courses/engineering/VOCE-AI-018/README.md",
+      "content/courses/engineering/VOCE-AI-019/01-transferts-et-budgets.html",
+      "content/courses/engineering/VOCE-AI-019/test_budgets.js",
+      "content/courses/engineering/VOCE-AI-019/render_draft.mjs",
+      "content/courses/engineering/VOCE-AI-019/references.html",
+      "content/courses/engineering/VOCE-AI-019/checks-2026-10-28.json",
+      "content/courses/engineering/VOCE-AI-019/README.md",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
-    ],
-    "batch_new_lesson_characters": 12898
+    ]
   },
   "completed_courses": {
     "VOCE-AI-002": {

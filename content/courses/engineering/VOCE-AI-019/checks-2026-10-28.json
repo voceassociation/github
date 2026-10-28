@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-28",
+  "course": "VOCE-AI-019",
+  "lesson_characters": 11932,
+  "tests": 9,
+  "checks": [
+    "9 Node tests passed",
+    "Filesystem renderer executed twice; deterministic",
+    "Single H1; no duplicate paragraphs",
+    "Repository destination blocked"
+  ],
+  "visual_review": false,
+  "independent_review": false,
+  "published": false
+}
