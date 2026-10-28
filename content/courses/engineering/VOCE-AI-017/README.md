@@ -1,7 +1,7 @@
-# VOCE-AI-017 — Brouillon en cours
+# VOCE-AI-017 — Brouillon préservé
 
-Chapitre 01 : unités de tokenisation, coût par tentative et coût par résultat accepté. 14 832 caractères pédagogiques normalisés, hors références et code. Aucun contenu historique ajouté au décompte.
+Chapitres 01 et 02 : 28 326 caractères pédagogiques, hors bibliographie et code. Chapitre 01 conservé. Seuil prioritaire de 20 000 atteint : ne pas allonger vers 75 000. Chapitre 03 non rédigé. Incomplet, non publié.
 
-Exécuter `node test_cost.js` pour les onze contrôles arithmétiques fictifs et `node render_draft.mjs /tmp/ai017-preview.html` depuis le dépôt pour un aperçu déterministe hors dépôt. Aucun tokenizer commercial ni service externe testé ; aucune inspection visuelle ou relecture indépendante effectuée. Brouillon incomplet, non publié.
+Contrôles : `node test_cost.js` (11) et `node test_corpus.js` (8), Node v24.22.1 / Unicode 17.0. Rendu déterministe, H1 unique et destination dans le dépôt refusée. Aucun contrôle visuel ni relecture indépendante. Le tokenizer témoin compte les octets UTF-8, sans modèle commercial. Source UAX15 révision58 consultée; pas de certification de conformité Unicode.
 
-Reprise : remesurer main et les sources. Si toujours sous 20 000, écrire le chapitre 02 sur le corpus parallèle, la normalisation et la mesure reproductible. Ne pas fusionner globalement PR39.
+Reprise : vérifier AI-018 sur main récent et ses sources; sélectionner seulement sous 20 000. Conserver AI-017 sans publier comme terminé.

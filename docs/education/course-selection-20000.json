@@ -201,9 +201,9 @@
       "counts": {
         "main": 8050,
         "branch": 8050,
-        "saved_chapters": 14832
+        "saved_chapters": 28326
       },
-      "selection": "eligible",
+      "selection": "preserved",
       "checked_on": "2026-10-28",
       "main_commit_checked": "fedc7bb25540d69167a3df7f5cdfdbb42992e621"
     },

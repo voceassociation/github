@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-28",
+  "course": "VOCE-AI-017",
+  "chapter_characters": [
+    14832,
+    13494
+  ],
+  "total": 28326,
+  "tests": 19,
+  "node": "v24.22.1",
+  "runtime_unicode": "17.0",
+  "checks": [
+    "19 Node tests passed (11 cost, 8 corpus)",
+    "Filesystem renderer deterministic; single H1",
+    "Repository destination blocked",
+    "No exact duplicate paragraphs"
+  ],
+  "visual_review": false,
+  "independent_review": false,
+  "published": false,
+  "scope": "UTF-8 byte tokenizer only; synthetic texts, no model API or commercial tokenizer"
+}
