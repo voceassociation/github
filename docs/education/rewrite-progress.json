@@ -3,7 +3,7 @@
   "updated_on": "2026-10-28",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "bf86db700ffb64d76f95346e4eda6cf844de95b3",
+  "base_head_read": "71a217a06b647860280d88dab5f48ace53f81c08",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 104,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 103,
     "preserved_by_selection": 16,
     "eligible_under_20000": 104
   },
@@ -77,56 +77,59 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-015",
-    "title": "Tsinghua iCenter: le robot doit comprendre l’espace où vous l’installez",
-    "status": "preserved_draft_above_selection_threshold_not_complete",
-    "lesson_characters": 22472,
-    "measurement": "Sum of normalized chapter text; references, code and old page excluded",
+    "id": "VOCE-AI-016",
+    "title": "Tsinghua: passer d’un matériau prometteur à une production conforme",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 11951,
+    "measurement": "Repository counter on chapter-only HTML; references, code and old page excluded",
     "selection_before_write": {
-      "main": 9050,
-      "branch": 9050,
-      "saved_chapters": 10339,
+      "main": 8888,
+      "branch": 8888,
+      "saved_chapters": 0,
       "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621"
     },
     "chapters_written": [
-      "01-reperes-et-emprise.html",
-      "02-obstruction-et-reprise.html"
+      "01-flux-et-rendement.html"
     ],
     "chapters_remaining": [
-      "03 — Modification du site et dossier de réception; non rédigé, conservation prioritaire"
+      "02 — Comparaison des lots de matière et examen du système de mesure",
+      "03 — Montée en cadence et dossier de réception"
     ],
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-015/02-obstruction-et-reprise.html",
-      "content/courses/engineering/VOCE-AI-015/test_stop.js",
-      "content/courses/engineering/VOCE-AI-015/checks-2026-10-28-ch02.json",
-      "content/courses/engineering/VOCE-AI-015/README.md",
+      "content/courses/engineering/VOCE-AI-016/01-flux-et-rendement.html",
+      "content/courses/engineering/VOCE-AI-016/test_yield.js",
+      "content/courses/engineering/VOCE-AI-016/render_draft.mjs",
+      "content/courses/engineering/VOCE-AI-016/references.html",
+      "content/courses/engineering/VOCE-AI-016/checks-2026-10-28.json",
+      "content/courses/engineering/VOCE-AI-016/README.md",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ],
     "sources_consulted": [
       {
-        "url": "https://raw.githubusercontent.com/ros-infrastructure/rep/master/rep-0105.rst",
+        "url": "https://www.itl.nist.gov/div898/handbook/pmc/section1/pmc16.htm",
         "date": "2026-10-28",
-        "scope": "Coordinate Frames and Relationship between Frames"
+        "scope": "Definition and Cp/Cpk formulas; assumptions"
       }
     ],
     "checks_executed": [
-      "16 tests passed under Node",
-      "Filesystem renderer executed twice; deterministic and single H1",
+      "8 Node tests passed",
+      "Filesystem renderer deterministic; single H1",
       "Repository destination blocked",
       "No exact duplicate paragraphs"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Local Node tests, count and filesystem structural rendering only",
+      "controlled": "Synthetic balances, counts and structural rendering only",
       "published": false
     },
     "limits": [
+      "Course incomplete",
       "No visual or independent review",
-      "Sequential documentary model; no physical stop function or concurrency tested",
-      "iCenter announcement not reread"
+      "No factory or material tested",
+      "Tsinghua programme not reread"
     ],
-    "next_action": "Preserve AI015 above 20k without expansion or publication as complete. Check AI016 on current main and saved sources; select only below 20k."
+    "next_action": "Remeasure main and saved sources; if below 20k, write chapter 02 on material lot comparison and measurement system. Preserve chapter 01."
   },
   "completed_courses": {
     "VOCE-AI-002": {

@@ -1,0 +1,14 @@
+{
+  "course": "VOCE-AI-016",
+  "lesson_characters": 11951,
+  "tests_passed": 8,
+  "command": "node test_yield.js",
+  "deterministic_preview": true,
+  "single_h1": true,
+  "repository_destination_blocked": true,
+  "exact_duplicate_paragraphs": 0,
+  "visual_review": false,
+  "independent_review": false,
+  "published": false,
+  "scope": "Synthetic production balances and formulas; no factory or material tested"
+}
