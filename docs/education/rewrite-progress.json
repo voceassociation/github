@@ -3,7 +3,7 @@
   "updated_on": "2026-10-28",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "866b5ae960a05c4cf1a4b9dbfbfd670bb06b0c6f",
+  "base_head_read": "bf86db700ffb64d76f95346e4eda6cf844de95b3",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 104,
-    "preserved_by_selection": 15,
-    "eligible_under_20000": 105
+    "preserved_by_selection": 16,
+    "eligible_under_20000": 104
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,29 +79,26 @@
   "current_course": {
     "id": "VOCE-AI-015",
     "title": "Tsinghua iCenter: le robot doit comprendre l’espace où vous l’installez",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 10339,
-    "measurement": "Normalized chapter-only Unicode text; bibliography and code excluded",
+    "status": "preserved_draft_above_selection_threshold_not_complete",
+    "lesson_characters": 22472,
+    "measurement": "Sum of normalized chapter text; references, code and old page excluded",
     "selection_before_write": {
       "main": 9050,
       "branch": 9050,
-      "saved_chapters": 0,
-      "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
-      "verification": "Main file identical to branch measured before selection; recursive main tree has no saved AI015 sources"
+      "saved_chapters": 10339,
+      "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621"
     },
     "chapters_written": [
-      "01-reperes-et-emprise.html"
+      "01-reperes-et-emprise.html",
+      "02-obstruction-et-reprise.html"
     ],
     "chapters_remaining": [
-      "02 — Obstruction, preuve d’arrêt et conditions de reprise",
-      "03 — Modification du site et dossier de réception"
+      "03 — Modification du site et dossier de réception; non rédigé, conservation prioritaire"
     ],
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-015/01-reperes-et-emprise.html",
-      "content/courses/engineering/VOCE-AI-015/test_geometry.js",
-      "content/courses/engineering/VOCE-AI-015/render_draft.mjs",
-      "content/courses/engineering/VOCE-AI-015/references.html",
-      "content/courses/engineering/VOCE-AI-015/checks-2026-10-28.json",
+      "content/courses/engineering/VOCE-AI-015/02-obstruction-et-reprise.html",
+      "content/courses/engineering/VOCE-AI-015/test_stop.js",
+      "content/courses/engineering/VOCE-AI-015/checks-2026-10-28-ch02.json",
       "content/courses/engineering/VOCE-AI-015/README.md",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
@@ -114,22 +111,22 @@
       }
     ],
     "checks_executed": [
-      "8 JavaScript geometry checks passed in tool runtime",
-      "Deterministic HTML transformation in memory and single H1",
+      "16 tests passed under Node",
+      "Filesystem renderer executed twice; deterministic and single H1",
+      "Repository destination blocked",
       "No exact duplicate paragraphs"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Synthetic geometry, count and in-memory structural rendering only",
+      "controlled": "Local Node tests, count and filesystem structural rendering only",
       "published": false
     },
     "limits": [
-      "Local exec runtime unavailable; CLI and filesystem renderer not executed",
       "No visual or independent review",
-      "No physical robot tested",
+      "Sequential documentary model; no physical stop function or concurrency tested",
       "iCenter announcement not reread"
     ],
-    "next_action": "Remeasure main and saved sources; if below 20k, write chapter 02 on obstruction, stop evidence and restart conditions. Preserve chapter 01."
+    "next_action": "Preserve AI015 above 20k without expansion or publication as complete. Check AI016 on current main and saved sources; select only below 20k."
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -845,6 +842,58 @@
         "Programme SJTU non revérifié"
       ],
       "next_action": "Preserve AI014 above 20k without expansion or publication as complete. Check AI015 on current main and saved sources; select only below 20k."
+    },
+    "VOCE-AI-015": {
+      "id": "VOCE-AI-015",
+      "title": "Tsinghua iCenter: le robot doit comprendre l’espace où vous l’installez",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 22472,
+      "measurement": "Sum of normalized chapter text; references, code and old page excluded",
+      "selection_before_write": {
+        "main": 9050,
+        "branch": 9050,
+        "saved_chapters": 10339,
+        "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621"
+      },
+      "chapters_written": [
+        "01-reperes-et-emprise.html",
+        "02-obstruction-et-reprise.html"
+      ],
+      "chapters_remaining": [
+        "03 — Modification du site et dossier de réception; non rédigé, conservation prioritaire"
+      ],
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-015/02-obstruction-et-reprise.html",
+        "content/courses/engineering/VOCE-AI-015/test_stop.js",
+        "content/courses/engineering/VOCE-AI-015/checks-2026-10-28-ch02.json",
+        "content/courses/engineering/VOCE-AI-015/README.md",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://raw.githubusercontent.com/ros-infrastructure/rep/master/rep-0105.rst",
+          "date": "2026-10-28",
+          "scope": "Coordinate Frames and Relationship between Frames"
+        }
+      ],
+      "checks_executed": [
+        "16 tests passed under Node",
+        "Filesystem renderer executed twice; deterministic and single H1",
+        "Repository destination blocked",
+        "No exact duplicate paragraphs"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Local Node tests, count and filesystem structural rendering only",
+        "published": false
+      },
+      "limits": [
+        "No visual or independent review",
+        "Sequential documentary model; no physical stop function or concurrency tested",
+        "iCenter announcement not reread"
+      ],
+      "next_action": "Preserve AI015 above 20k without expansion or publication as complete. Check AI016 on current main and saved sources; select only below 20k."
     }
   },
   "selection_policy": {
@@ -866,9 +915,10 @@
       "VOCE-AI-011",
       "VOCE-AI-012",
       "VOCE-AI-013",
-      "VOCE-AI-014"
+      "VOCE-AI-014",
+      "VOCE-AI-015"
     ],
-    "eligible_count": 105,
+    "eligible_count": 104,
     "main_read": "614b55591dcc11f84c13518cf105d93ecebe787b",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }

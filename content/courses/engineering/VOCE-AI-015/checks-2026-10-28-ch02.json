@@ -1,0 +1,24 @@
+{
+  "course": "VOCE-AI-015",
+  "lesson_characters": 22472,
+  "per_chapter": {
+    "01-reperes-et-emprise.html": 10339,
+    "02-obstruction-et-reprise.html": 12133
+  },
+  "measurement": "Sum of chapter text with markup removed, whitespace normalized; references and code excluded",
+  "tests_passed": 16,
+  "commands": [
+    "node test_geometry.js",
+    "node test_stop.js",
+    "node render_draft.mjs /tmp/ai015-preview16.html"
+  ],
+  "deterministic_preview": true,
+  "single_h1": true,
+  "repository_destination_blocked": true,
+  "exact_duplicate_paragraphs": 0,
+  "visual_review": false,
+  "independent_review": false,
+  "published": false,
+  "new_external_sources": [],
+  "scope": "Sequential documentary model; no physical stop function, concurrency or safety validation"
+}

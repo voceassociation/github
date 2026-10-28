@@ -1,9 +1,11 @@
-# VOCE-AI-015 — Repères et emprise
+# VOCE-AI-015 — Environnement, obstruction et reprise
 
-Chapitre 01 sauvegardé: domaine d'emploi, transformations planes, emprise orientée, incertitudes et validité de carte. 10 339 caractères pédagogiques normalisés, références et code exclus. Avant sélection: main et branche 9 050 chacun; aucune source longue préexistante. Main du 28 octobre: fedc7bb25540d69167a3df7f5cdfdbb42992e621, page identique à celle mesurée le 27 octobre.
+Chapitres 01 et 02 sauvegardés: repères et emprise; événements d'arrêt, confirmations, invalidation par révision et reprise. 22 472 caractères pédagogiques, dont 12 133 au chapitre 02. Références, code et ancienne page exclus.
 
-Huit contrôles du fichier test_geometry.js exécutés dans le runtime JavaScript de l'outil. Commande reproductible: node test_geometry.js. Node CLI non exécuté, environnement local indisponible. Transformation HTML exécutée en mémoire deux fois; rendu déterministe, H1 unique, aucun paragraphe exactement dupliqué. Générateur disponible: node render_draft.mjs /tmp/ai015-preview.html; opérations fichier non exécutées dans ce lot.
+Avant le lot: main et branche 9 050 chacun; sources sauvegardées remesurées à 10 339. Main vérifié inchangé à fedc7bb25540d69167a3df7f5cdfdbb42992e621. Les sources dépassent désormais 20 000 et sont préservées; ce statut ne signifie pas cours achevé.
 
-REP 105 consultée le 28 octobre, portée limitée aux repères. Cours incomplet, non publié; pas de contrôle visuel, relecture indépendante ou essai matériel.
+Seize tests exécutés sous Node: node test_geometry.js et node test_stop.js. Générateur node render_draft.mjs /tmp/ai015-preview.html exécuté; déterminisme, H1 unique et refus d'une destination dans le dépôt vérifiés. L'indisponibilité locale du lot précédent est résolue. Aucun contrôle visuel ou examen indépendant effectué.
 
-Prochain chapitre: 02 — Obstruction, preuve d'arrêt et conditions de reprise. Remesurer main et les sources avant toute sélection; conserver le chapitre 01.
+Modèles fictifs et séquentiels; aucune commande matérielle, fonction de protection ni concurrence distribuée validée. Aucune nouvelle source externe dans ce lot. La REP 105 du chapitre 01 conserve sa portée sur les repères seulement.
+
+Cours incomplet, non publié. Chapitre manquant: 03 — Modification du site et dossier de réception. Conservation prioritaire, ne pas allonger. Prochaine action: vérifier AI-016 sur main et dans les sources sauvegardées avant sélection.
