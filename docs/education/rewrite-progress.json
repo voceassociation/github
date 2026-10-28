@@ -3,7 +3,7 @@
   "updated_on": "2026-10-28",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "71a217a06b647860280d88dab5f48ace53f81c08",
+  "base_head_read": "0754f2a046236e8cb75879e7a65991ae78c08c7d",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 103,
-    "preserved_by_selection": 16,
-    "eligible_under_20000": 104
+    "preserved_by_selection": 17,
+    "eligible_under_20000": 103
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,28 +79,27 @@
   "current_course": {
     "id": "VOCE-AI-016",
     "title": "Tsinghua: passer d’un matériau prometteur à une production conforme",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 11951,
+    "status": "preserved_draft_above_selection_threshold_not_complete",
+    "lesson_characters": 27359,
     "measurement": "Repository counter on chapter-only HTML; references, code and old page excluded",
     "selection_before_write": {
       "main": 8888,
       "branch": 8888,
-      "saved_chapters": 0,
+      "saved_chapters": 11951,
       "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621"
     },
     "chapters_written": [
-      "01-flux-et-rendement.html"
+      "01-flux-et-rendement.html",
+      "02-lots-et-mesure.html"
     ],
     "chapters_remaining": [
-      "02 — Comparaison des lots de matière et examen du système de mesure",
-      "03 — Montée en cadence et dossier de réception"
+      "03 — Montée en cadence et dossier de réception ; non rédigé, conservation prioritaire"
     ],
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-016/01-flux-et-rendement.html",
-      "content/courses/engineering/VOCE-AI-016/test_yield.js",
-      "content/courses/engineering/VOCE-AI-016/render_draft.mjs",
+      "content/courses/engineering/VOCE-AI-016/02-lots-et-mesure.html",
       "content/courses/engineering/VOCE-AI-016/references.html",
-      "content/courses/engineering/VOCE-AI-016/checks-2026-10-28.json",
+      "content/courses/engineering/VOCE-AI-016/test_yield.js",
+      "content/courses/engineering/VOCE-AI-016/checks-2026-10-28-ch02.json",
       "content/courses/engineering/VOCE-AI-016/README.md",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
@@ -110,10 +109,15 @@
         "url": "https://www.itl.nist.gov/div898/handbook/pmc/section1/pmc16.htm",
         "date": "2026-10-28",
         "scope": "Definition and Cp/Cpk formulas; assumptions"
+      },
+      {
+        "url": "https://www.itl.nist.gov/div898/handbook/mpc/section4/mpc4.htm",
+        "date": "2026-10-28",
+        "scope": "Landing page only: measurement variability and bias categories; subpages not consulted"
       }
     ],
     "checks_executed": [
-      "8 Node tests passed",
+      "16 Node tests passed",
       "Filesystem renderer deterministic; single H1",
       "Repository destination blocked",
       "No exact duplicate paragraphs"
@@ -129,7 +133,8 @@
       "No factory or material tested",
       "Tsinghua programme not reread"
     ],
-    "next_action": "Remeasure main and saved sources; if below 20k, write chapter 02 on material lot comparison and measurement system. Preserve chapter 01."
+    "next_action": "Preserve AI016 above 20k without expansion or publication as complete. Check AI017 on current main and saved sources; select only below 20k.",
+    "batch_new_lesson_characters": 15408
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -897,6 +902,66 @@
         "iCenter announcement not reread"
       ],
       "next_action": "Preserve AI015 above 20k without expansion or publication as complete. Check AI016 on current main and saved sources; select only below 20k."
+    },
+    "VOCE-AI-016": {
+      "id": "VOCE-AI-016",
+      "title": "Tsinghua: passer d’un matériau prometteur à une production conforme",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 27359,
+      "measurement": "Repository counter on chapter-only HTML; references, code and old page excluded",
+      "selection_before_write": {
+        "main": 8888,
+        "branch": 8888,
+        "saved_chapters": 11951,
+        "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621"
+      },
+      "chapters_written": [
+        "01-flux-et-rendement.html",
+        "02-lots-et-mesure.html"
+      ],
+      "chapters_remaining": [
+        "03 — Montée en cadence et dossier de réception ; non rédigé, conservation prioritaire"
+      ],
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-016/02-lots-et-mesure.html",
+        "content/courses/engineering/VOCE-AI-016/references.html",
+        "content/courses/engineering/VOCE-AI-016/test_yield.js",
+        "content/courses/engineering/VOCE-AI-016/checks-2026-10-28-ch02.json",
+        "content/courses/engineering/VOCE-AI-016/README.md",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://www.itl.nist.gov/div898/handbook/pmc/section1/pmc16.htm",
+          "date": "2026-10-28",
+          "scope": "Definition and Cp/Cpk formulas; assumptions"
+        },
+        {
+          "url": "https://www.itl.nist.gov/div898/handbook/mpc/section4/mpc4.htm",
+          "date": "2026-10-28",
+          "scope": "Landing page only: measurement variability and bias categories; subpages not consulted"
+        }
+      ],
+      "checks_executed": [
+        "16 Node tests passed",
+        "Filesystem renderer deterministic; single H1",
+        "Repository destination blocked",
+        "No exact duplicate paragraphs"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Synthetic balances, counts and structural rendering only",
+        "published": false
+      },
+      "limits": [
+        "Course incomplete",
+        "No visual or independent review",
+        "No factory or material tested",
+        "Tsinghua programme not reread"
+      ],
+      "next_action": "Preserve AI016 above 20k without expansion or publication as complete. Check AI017 on current main and saved sources; select only below 20k.",
+      "batch_new_lesson_characters": 15408
     }
   },
   "selection_policy": {
@@ -919,10 +984,11 @@
       "VOCE-AI-012",
       "VOCE-AI-013",
       "VOCE-AI-014",
-      "VOCE-AI-015"
+      "VOCE-AI-015",
+      "VOCE-AI-016"
     ],
-    "eligible_count": 104,
-    "main_read": "614b55591dcc11f84c13518cf105d93ecebe787b",
+    "eligible_count": 103,
+    "main_read": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }
 }

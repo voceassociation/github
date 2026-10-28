@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-28",
+  "course": "VOCE-AI-016",
+  "chapter_characters": [
+    11951,
+    15408
+  ],
+  "total_lesson_characters": 27359,
+  "tests": 16,
+  "checks": [
+    "16 Node tests passed",
+    "Filesystem renderer deterministic; single H1",
+    "Repository destination blocked",
+    "No exact duplicate paragraphs"
+  ],
+  "visual_review": false,
+  "independent_review": false,
+  "published": false,
+  "scope": "Synthetic calculations only; no industrial test"
+}
