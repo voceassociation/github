@@ -242,12 +242,13 @@
       "counts": {
         "main": 7393,
         "branch": 7393,
-        "saved_chapters": 14230
+        "saved_chapters": 28676
       },
-      "selection": "eligible",
-      "checked_on": "2026-10-28",
+      "selection": "preserved",
+      "checked_on": "2026-10-29",
       "main_commit_checked": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
-      "branch_commit_checked": "5d44d47f0fd346066dd067353c93c2ad16a5e1bc"
+      "branch_commit_checked": "b6374ade23a676aae99962c5d59a8aecc6dde898",
+      "note": "Incomplete chapters preserved; not published"
     },
     {
       "id": "VOCE-AI-021",

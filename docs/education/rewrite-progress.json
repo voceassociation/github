@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-10-28",
+  "updated_on": "2026-10-29",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "5d44d47f0fd346066dd067353c93c2ad16a5e1bc",
+  "base_head_read": "b6374ade23a676aae99962c5d59a8aecc6dde898",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 99,
-    "preserved_by_selection": 20,
-    "eligible_under_20000": 100
+    "preserved_by_selection": 21,
+    "eligible_under_20000": 99
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,34 +79,39 @@
   "current_course": {
     "id": "VOCE-AI-020",
     "title": "Adapter un modèle avec LoRA",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 14230,
+    "status": "preserved_draft_above_selection_threshold_not_complete",
+    "lesson_characters": 28676,
     "measurement": "Repository counter on chapter-only HTML; references, code and historical page excluded",
     "selection_before_write": {
       "main": 7393,
       "branch": 7393,
-      "saved_chapters": 0,
-      "historical_baseline": 564,
+      "saved_chapters": 14230,
       "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
-      "branch_commit": "5d44d47f0fd346066dd067353c93c2ad16a5e1bc"
+      "branch_commit": "b6374ade23a676aae99962c5d59a8aecc6dde898"
     },
     "chapters_written": [
-      "01-matrices-et-budget.html"
+      "01-matrices-et-budget.html",
+      "02-comparer-les-adaptations.html"
     ],
     "chapters_remaining": [
-      "02 — Choix des modules, comparaison des rangs et jeux d’évaluation distincts",
-      "03 — Artefacts, reprise d’entraînement et protocole de livraison"
+      "03 — Artefacts, reprise d’entraînement et protocole de livraison; non rédigé, conservation prioritaire",
+      "Exercices et contrôles de réception restants"
     ],
     "sources_consulted": [
       {
         "url": "https://arxiv.org/html/2106.09685v2",
         "date": "2026-10-28",
         "scope": "Sections 4.1 and 4.2; targeted reading, no reproduced empirical benchmark"
+      },
+      {
+        "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+        "date": "2026-10-29",
+        "scope": "3.1 introduction, training/validation/test distinction; displayed version 1.9.1; no sklearn executed"
       }
     ],
     "checks_executed": [
-      "10 Node tests passed",
-      "Filesystem renderer executed twice; deterministic and single H1",
+      "19 Node tests passed",
+      "Deterministic filesystem rendering; single H1",
       "No exact duplicate paragraphs",
       "Repository destination blocked"
     ],
@@ -120,17 +125,17 @@
       "No visual or independent review",
       "No language model training or GPU benchmark"
     ],
-    "next_action": "Remeasure AI020 on main and saved sources. If below 20000, write chapter 02 on module selection, rank comparisons and separate evaluation sets; preserve chapter 01.",
+    "next_action": "Preserve AI020 above 20000 without expansion or publication as complete. Check AI021 on recent main and saved sources; select only below 20000.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-020/01-matrices-et-budget.html",
-      "content/courses/engineering/VOCE-AI-020/test_lora.js",
-      "content/courses/engineering/VOCE-AI-020/render_draft.mjs",
+      "content/courses/engineering/VOCE-AI-020/02-comparer-les-adaptations.html",
+      "content/courses/engineering/VOCE-AI-020/test_comparison.js",
       "content/courses/engineering/VOCE-AI-020/references.html",
-      "content/courses/engineering/VOCE-AI-020/checks-2026-10-28.json",
+      "content/courses/engineering/VOCE-AI-020/checks-2026-10-29-ch02.json",
       "content/courses/engineering/VOCE-AI-020/README.md",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
-    ]
+    ],
+    "batch_new_lesson_characters": 14446
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -1152,6 +1157,67 @@
         "docs/education/course-selection-20000.json"
       ],
       "batch_new_lesson_characters": 16951
+    },
+    "VOCE-AI-020": {
+      "id": "VOCE-AI-020",
+      "title": "Adapter un modèle avec LoRA",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 28676,
+      "measurement": "Repository counter on chapter-only HTML; references, code and historical page excluded",
+      "selection_before_write": {
+        "main": 7393,
+        "branch": 7393,
+        "saved_chapters": 14230,
+        "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
+        "branch_commit": "b6374ade23a676aae99962c5d59a8aecc6dde898"
+      },
+      "chapters_written": [
+        "01-matrices-et-budget.html",
+        "02-comparer-les-adaptations.html"
+      ],
+      "chapters_remaining": [
+        "03 — Artefacts, reprise d’entraînement et protocole de livraison; non rédigé, conservation prioritaire",
+        "Exercices et contrôles de réception restants"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://arxiv.org/html/2106.09685v2",
+          "date": "2026-10-28",
+          "scope": "Sections 4.1 and 4.2; targeted reading, no reproduced empirical benchmark"
+        },
+        {
+          "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+          "date": "2026-10-29",
+          "scope": "3.1 introduction, training/validation/test distinction; displayed version 1.9.1; no sklearn executed"
+        }
+      ],
+      "checks_executed": [
+        "19 Node tests passed",
+        "Deterministic filesystem rendering; single H1",
+        "No exact duplicate paragraphs",
+        "Repository destination blocked"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Synthetic matrix operations, budgets, finite differences and structural rendering only",
+        "published": false
+      },
+      "limits": [
+        "Course incomplete",
+        "No visual or independent review",
+        "No language model training or GPU benchmark"
+      ],
+      "next_action": "Preserve AI020 above 20000 without expansion or publication as complete. Check AI021 on recent main and saved sources; select only below 20000.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-020/02-comparer-les-adaptations.html",
+        "content/courses/engineering/VOCE-AI-020/test_comparison.js",
+        "content/courses/engineering/VOCE-AI-020/references.html",
+        "content/courses/engineering/VOCE-AI-020/checks-2026-10-29-ch02.json",
+        "content/courses/engineering/VOCE-AI-020/README.md",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ],
+      "batch_new_lesson_characters": 14446
     }
   },
   "selection_policy": {
@@ -1178,9 +1244,10 @@
       "VOCE-AI-016",
       "VOCE-AI-017",
       "VOCE-AI-018",
-      "VOCE-AI-019"
+      "VOCE-AI-019",
+      "VOCE-AI-020"
     ],
-    "eligible_count": 100,
+    "eligible_count": 99,
     "main_read": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }

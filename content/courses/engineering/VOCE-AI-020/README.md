@@ -1,9 +1,11 @@
-# VOCE-AI-020 — Brouillon incomplet
+# VOCE-AI-020 — Brouillon préservé
 
-Chapitre 01: matrices, rang, paramètres, budget mémoire, gradients et fusion. 14 230 caractères pédagogiques, hors bibliographie, code et page historique.
+Chapitres 01 et 02: 28 676 caractères pédagogiques (14 230 + 14 446), hors références, code et page historique. Chapitre 01 conservé sans modification.
 
-10 tests Node réussis; rendu déterministe, H1 unique, aucun paragraphe exactement dupliqué, destination dans le dépôt refusée. Aucun entraînement de modèle, benchmark GPU, contrôle visuel ou relecture indépendante.
+Seuil prioritaire de 20 000 dépassé: aucune extension vers 75 000. Cours incomplet, non publié. Chapitre 03 sur les artefacts, la reprise et la livraison non rédigé; exercices et contrôles de réception restants.
 
-Exécuter `node --test content/courses/engineering/VOCE-AI-020/test_lora.js`. Pour un aperçu hors dépôt, utiliser `render_draft.mjs` avec un chemin de sortie explicite. Aucune page officielle remplacée.
+19 tests Node réussis; rendu déterministe, H1 unique, aucun paragraphe exactement dupliqué, destination dans le dépôt refusée. Aucun entraînement de modèle, benchmark GPU, contrôle visuel ou relecture indépendante.
 
-Prochaine étape: recontrôler main et les sources selon le seuil de 20 000, puis chapitre 02 sur le choix des modules, la comparaison des rangs et les jeux d’évaluation distincts. Chapitre 03 prévu: artefacts, reprise d’entraînement et protocole de livraison. Cours non terminé, non publié.
+Exécuter `node --test content/courses/engineering/VOCE-AI-020/test*.js`. Générer l’aperçu avec `render_draft.mjs` vers un chemin hors dépôt.
+
+Prochaine action: vérifier AI-021 sur main récent et ses sources, sélectionner uniquement si strictement sous 20 000.
