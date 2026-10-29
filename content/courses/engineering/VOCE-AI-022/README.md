@@ -1,9 +1,9 @@
-# VOCE-AI-022 — Brouillon incomplet
+# VOCE-AI-022 — Sources sauvegardées
 
-Chapitre 01: récompense, vérificateur, unités, tolérances, raccourcis et séparation format/exactitude. 13 158 caractères pédagogiques, hors références, code et page historique.
+Deux chapitres, 26 353 caractères pédagogiques normalisés hors bibliographie, code et page historique. Chapitre 1 conservé sans modification. Chapitre 2: avantages relatifs, variance nulle, clipping et coût des groupes.
 
-9 tests Node réussis; rendu déterministe, H1 unique, aucun paragraphe exactement dupliqué, destination dans le dépôt refusée. Aucun modèle DeepSeek exécuté ni entraînement RL. Relecture indépendante et contrôle visuel non effectués.
+Seuil de préservation de 20 000 atteint. Ne pas allonger vers 75 000; brouillon incomplet, non publié. Chapitre 3 (budget de génération, évaluation et transfert) non rédigé. Relecture indépendante et contrôle visuel ouverts. Aucun modèle DeepSeek exécuté ni entraînement RL réalisé.
 
-Exécuter `node --test content/courses/engineering/VOCE-AI-022/test_verifier.js`. Générer l’aperçu avec `render_draft.mjs` vers un chemin hors dépôt.
+Contrôles: 19 tests Node, comptage et rendu structurel déterministe. Exécuter `node --test test_verifier.js test_group.js`, puis `node render_draft.mjs /tmp/ai022-preview.html`. Le rendu refuse une destination dans le dépôt.
 
-Prochaine étape: recontrôler main et les sources selon le seuil de 20 000; si éligible, chapitre 02 sur les récompenses de groupe, avantages relatifs et variance nulle. Chapitre 03 prévu: budget de génération, évaluation et limites de transfert. Cours incomplet, non publié.
+Prochaine sélection: mesurer AI-023 sur main récent et dans les sources sauvegardées avant toute écriture.

@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-29",
+  "course": "VOCE-AI-022",
+  "selection_before_write": {
+    "main": 8014,
+    "branch": 8014,
+    "saved_chapters": 13158,
+    "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
+    "branch_commit": "d9d09a0337c840a40b4f1874bb14797fd91cf882"
+  },
+  "chapter_characters": {
+    "01-recompense-et-verificateur.html": 13158,
+    "02-avantages-relatifs.html": 13195
+  },
+  "lesson_characters": 26353,
+  "tests": {
+    "command": "node --test test_verifier.js test_group.js",
+    "passed": 19,
+    "failed": 0
+  },
+  "render": {
+    "deterministic": true,
+    "single_h1": true,
+    "duplicate_paragraphs": 0,
+    "repository_destination_blocked": true,
+    "visual_review": false
+  },
+  "publication": false,
+  "independent_review": false,
+  "model_execution": false,
+  "notes": "Scalar teaching examples, not a GRPO implementation or training reproduction. Preserve sources above 20k."
+}
