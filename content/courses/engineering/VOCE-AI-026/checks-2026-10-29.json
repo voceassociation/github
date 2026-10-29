@@ -1,0 +1,27 @@
+{
+  "course": "VOCE-AI-026",
+  "date": "2026-10-29",
+  "base_head": "168b310cb8c2471ea8dd0a48c71d878988dae5d5",
+  "selection_before": {
+    "main": 7886,
+    "branch": 7886,
+    "saved_chapters": 0,
+    "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
+    "branch_commit": "168b310cb8c2471ea8dd0a48c71d878988dae5d5"
+  },
+  "lesson_characters": 13156,
+  "tests_passed": 9,
+  "checks": [
+    "9 Node tests passed",
+    "Deterministic filesystem rendering; single H1",
+    "No exact duplicate paragraphs",
+    "Repository destination blocked"
+  ],
+  "limits": [
+    "Course incomplete",
+    "No visual or independent review",
+    "No language model or real connector tested; no empirical injection resistance measured"
+  ],
+  "quality_validated": false,
+  "published": false
+}

@@ -332,9 +332,12 @@
       "counts": {
         "main": 7886,
         "branch": 7886,
-        "saved_chapters": 0
+        "saved_chapters": 13156
       },
-      "selection": "eligible"
+      "selection": "eligible",
+      "checked_on": "2026-10-29",
+      "main_commit_checked": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
+      "branch_commit_checked": "168b310cb8c2471ea8dd0a48c71d878988dae5d5"
     },
     {
       "id": "VOCE-AI-027",
