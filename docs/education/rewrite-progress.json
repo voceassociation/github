@@ -3,7 +3,7 @@
   "updated_on": "2026-10-29",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "72824c25b2aedeba3776acf130006aba35fdc050",
+  "base_head_read": "a4c7764378050bc41aae056eda212835fed2ada6",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 94,
-    "preserved_by_selection": 25,
-    "eligible_under_20000": 95
+    "preserved_by_selection": 26,
+    "eligible_under_20000": 94
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,57 +79,63 @@
   "current_course": {
     "id": "VOCE-AI-025",
     "title": "La version d'un document est une condition de réponse",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 12696,
+    "status": "preserved_draft_above_selection_threshold_not_complete",
+    "lesson_characters": 26777,
     "measurement": "Repository counter on chapter-only HTML; bibliography, code and historical page excluded",
     "selection_before_write": {
       "main": 7886,
       "branch": 7886,
-      "saved_chapters": 0,
+      "saved_chapters": 12696,
       "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
-      "branch_commit": "72824c25b2aedeba3776acf130006aba35fdc050"
+      "branch_commit": "a4c7764378050bc41aae056eda212835fed2ada6"
     },
     "chapters_written": [
-      "01-deux-temps-documentaires.html"
+      "01-deux-temps-documentaires.html",
+      "02-index-et-caches.html"
     ],
     "chapters_remaining": [
-      "02 — Index temporels, clés de cache et invalidation après correction",
-      "03 — Concurrence, audit et protocole de réception"
+      "03 — Concurrence réelle, audit et protocole de réception; non rédigé, conservation prioritaire",
+      "Exercices et contrôles de livraison restants"
     ],
     "sources_consulted": [
       {
         "url": "https://www.postgresql.org/docs/current/rangetypes.html",
         "date": "2026-10-29",
         "scope": "Displayed PostgreSQL18 section8.17; temporal range types and inclusive/exclusive bounds; no server executed"
+      },
+      {
+        "url": "https://redis.io/docs/latest/develop/reference/client-side-caching/",
+        "date": "2026-10-29",
+        "scope": "Introduction and tracking/invalidation implementation; generation protocol is a separate pedagogical model; no Redis server executed"
       }
     ],
     "checks_executed": [
-      "11 Node tests passed",
+      "22 Node tests passed (11 temporal, 11 cache/index ordered-event checks)",
       "Deterministic filesystem rendering; single H1",
       "No exact duplicate paragraphs",
       "Repository destination blocked"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Synthetic temporal selection and overlap checks, counts and structural rendering only",
+      "controlled": "Synthetic temporal and ordered-event cache/index model, counts and structural rendering only",
       "published": false
     },
     "limits": [
       "Course incomplete",
       "No visual or independent review",
-      "No database, retrieval engine or generative model executed; no concurrency simulation"
+      "No Redis, database, retrieval engine or model executed; no real concurrent threads or distributed system tested"
     ],
-    "next_action": "Remeasure AI025 on main and saved sources. If below 20000, write chapter 02 on temporal indexes, cache keys and invalidation after correction; preserve chapter 01.",
+    "next_action": "Preserve AI025 above 20000 without expansion or publication as complete. Check AI026 on recent main and saved sources; select only below 20000.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-025/01-deux-temps-documentaires.html",
-      "content/courses/engineering/VOCE-AI-025/test_temporal.js",
-      "content/courses/engineering/VOCE-AI-025/render_draft.mjs",
+      "content/courses/engineering/VOCE-AI-025/02-index-et-caches.html",
+      "content/courses/engineering/VOCE-AI-025/test_cache.js",
       "content/courses/engineering/VOCE-AI-025/references.html",
       "content/courses/engineering/VOCE-AI-025/README.md",
-      "content/courses/engineering/VOCE-AI-025/checks-2026-10-29.json",
+      "content/courses/engineering/VOCE-AI-025/checks-2026-10-29-ch02.json",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
-    ]
+    ],
+    "batch_new_lesson_characters": 14081
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -1456,6 +1462,67 @@
         "docs/education/course-selection-20000.json"
       ],
       "batch_new_lesson_characters": 12291
+    },
+    "VOCE-AI-025": {
+      "id": "VOCE-AI-025",
+      "title": "La version d'un document est une condition de réponse",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 26777,
+      "measurement": "Repository counter on chapter-only HTML; bibliography, code and historical page excluded",
+      "selection_before_write": {
+        "main": 7886,
+        "branch": 7886,
+        "saved_chapters": 12696,
+        "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
+        "branch_commit": "a4c7764378050bc41aae056eda212835fed2ada6"
+      },
+      "chapters_written": [
+        "01-deux-temps-documentaires.html",
+        "02-index-et-caches.html"
+      ],
+      "chapters_remaining": [
+        "03 — Concurrence réelle, audit et protocole de réception; non rédigé, conservation prioritaire",
+        "Exercices et contrôles de livraison restants"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://www.postgresql.org/docs/current/rangetypes.html",
+          "date": "2026-10-29",
+          "scope": "Displayed PostgreSQL18 section8.17; temporal range types and inclusive/exclusive bounds; no server executed"
+        },
+        {
+          "url": "https://redis.io/docs/latest/develop/reference/client-side-caching/",
+          "date": "2026-10-29",
+          "scope": "Introduction and tracking/invalidation implementation; generation protocol is a separate pedagogical model; no Redis server executed"
+        }
+      ],
+      "checks_executed": [
+        "22 Node tests passed (11 temporal, 11 cache/index ordered-event checks)",
+        "Deterministic filesystem rendering; single H1",
+        "No exact duplicate paragraphs",
+        "Repository destination blocked"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Synthetic temporal and ordered-event cache/index model, counts and structural rendering only",
+        "published": false
+      },
+      "limits": [
+        "Course incomplete",
+        "No visual or independent review",
+        "No Redis, database, retrieval engine or model executed; no real concurrent threads or distributed system tested"
+      ],
+      "next_action": "Preserve AI025 above 20000 without expansion or publication as complete. Check AI026 on recent main and saved sources; select only below 20000.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-025/02-index-et-caches.html",
+        "content/courses/engineering/VOCE-AI-025/test_cache.js",
+        "content/courses/engineering/VOCE-AI-025/references.html",
+        "content/courses/engineering/VOCE-AI-025/README.md",
+        "content/courses/engineering/VOCE-AI-025/checks-2026-10-29-ch02.json",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ],
+      "batch_new_lesson_characters": 14081
     }
   },
   "selection_policy": {
@@ -1487,9 +1554,10 @@
       "VOCE-AI-021",
       "VOCE-AI-022",
       "VOCE-AI-023",
-      "VOCE-AI-024"
+      "VOCE-AI-024",
+      "VOCE-AI-025"
     ],
-    "eligible_count": 95,
+    "eligible_count": 94,
     "main_read": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }

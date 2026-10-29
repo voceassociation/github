@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-29",
+  "course": "VOCE-AI-025",
+  "base_head": "a4c7764378050bc41aae056eda212835fed2ada6",
+  "selection_before": {
+    "main": 7886,
+    "branch": 7886,
+    "saved_chapters": 12696,
+    "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
+    "branch_commit": "a4c7764378050bc41aae056eda212835fed2ada6"
+  },
+  "chapter_characters": {
+    "01-deux-temps-documentaires.html": 12696,
+    "02-index-et-caches.html": 14081
+  },
+  "lesson_characters": 26777,
+  "tests_passed": 22,
+  "checks": [
+    "22 Node tests passed (11 temporal, 11 cache/index ordered-event checks)",
+    "Deterministic filesystem rendering; single H1",
+    "No exact duplicate paragraphs",
+    "Repository destination blocked"
+  ],
+  "limits": [
+    "Course incomplete",
+    "No visual or independent review",
+    "No Redis, database, retrieval engine or model executed; no real concurrent threads or distributed system tested"
+  ],
+  "published": false,
+  "quality_validated": false
+}
