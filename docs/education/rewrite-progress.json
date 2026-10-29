@@ -3,7 +3,7 @@
   "updated_on": "2026-10-29",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "3e62e520a786552745cf5cb0a4c51b1c63d3a5d1",
+  "base_head_read": "668ee549a028598cf21372012796c6ac85c6cf47",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 95,
-    "preserved_by_selection": 24,
-    "eligible_under_20000": 96
+    "preserved_by_selection": 25,
+    "eligible_under_20000": 95
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,39 +79,45 @@
   "current_course": {
     "id": "VOCE-AI-024",
     "title": "RAG: retrouver ne suffit pas à répondre",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 14998,
+    "status": "preserved_draft_above_selection_threshold_not_complete",
+    "lesson_characters": 27289,
     "measurement": "Repository counter on chapter-only HTML; bibliography, code and historical page excluded",
     "selection_before_write": {
       "main": 8031,
       "branch": 8031,
-      "saved_chapters": 0,
+      "saved_chapters": 14998,
       "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
-      "branch_commit": "3e62e520a786552745cf5cb0a4c51b1c63d3a5d1"
+      "branch_commit": "668ee549a028598cf21372012796c6ac85c6cf47"
     },
     "chapters_written": [
-      "01-preuves-et-recherche.html"
+      "01-preuves-et-recherche.html",
+      "02-contexte-et-abstention.html"
     ],
     "chapters_remaining": [
-      "02 — Budget de contexte, troncature, versions contradictoires et abstention étayée",
-      "03 — Protocole expérimental avec moteur réel et réception"
+      "03 — Protocole expérimental avec moteur réel et réception; non rédigé, conservation prioritaire",
+      "Exercices et contrôles de livraison restants"
     ],
     "sources_consulted": [
       {
         "url": "https://arxiv.org/abs/2005.11401",
         "date": "2026-10-29",
         "scope": "Abstract and metadata of v4 only; no reproduced empirical results"
+      },
+      {
+        "url": "https://arxiv.org/abs/2307.03172",
+        "date": "2026-10-29",
+        "scope": "Abstract and metadata v3 only; positional sensitivity in studied models, no reproduced benchmark"
       }
     ],
     "checks_executed": [
-      "11 Node tests passed",
+      "20 Node tests passed (11 retrieval, 9 context)",
       "Deterministic filesystem rendering; single H1",
       "No exact duplicate paragraphs",
       "Repository destination blocked"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Synthetic retrieval metrics, probability decomposition, counts and structural rendering only",
+      "controlled": "Synthetic retrieval, context budget, intervals and abstention calculations; counts and structural rendering only",
       "published": false
     },
     "limits": [
@@ -119,17 +125,17 @@
       "No visual or independent review",
       "No retrieval engine or generative model executed"
     ],
-    "next_action": "Remeasure AI024 on main and saved sources. If below 20000, write chapter 02 on context budget, truncation, conflicting versions and evidence-based abstention; preserve chapter 01.",
+    "next_action": "Preserve AI024 above 20000 without expansion or publication as complete. Check AI025 on recent main and saved sources; select only below 20000.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-024/01-preuves-et-recherche.html",
-      "content/courses/engineering/VOCE-AI-024/test_retrieval.js",
-      "content/courses/engineering/VOCE-AI-024/render_draft.mjs",
+      "content/courses/engineering/VOCE-AI-024/02-contexte-et-abstention.html",
+      "content/courses/engineering/VOCE-AI-024/test_context.js",
       "content/courses/engineering/VOCE-AI-024/references.html",
       "content/courses/engineering/VOCE-AI-024/README.md",
-      "content/courses/engineering/VOCE-AI-024/checks-2026-10-29.json",
+      "content/courses/engineering/VOCE-AI-024/checks-2026-10-29-ch02.json",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
-    ]
+    ],
+    "batch_new_lesson_characters": 12291
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -1395,6 +1401,67 @@
         "docs/education/course-selection-20000.json"
       ],
       "batch_new_lesson_characters": 13160
+    },
+    "VOCE-AI-024": {
+      "id": "VOCE-AI-024",
+      "title": "RAG: retrouver ne suffit pas à répondre",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 27289,
+      "measurement": "Repository counter on chapter-only HTML; bibliography, code and historical page excluded",
+      "selection_before_write": {
+        "main": 8031,
+        "branch": 8031,
+        "saved_chapters": 14998,
+        "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
+        "branch_commit": "668ee549a028598cf21372012796c6ac85c6cf47"
+      },
+      "chapters_written": [
+        "01-preuves-et-recherche.html",
+        "02-contexte-et-abstention.html"
+      ],
+      "chapters_remaining": [
+        "03 — Protocole expérimental avec moteur réel et réception; non rédigé, conservation prioritaire",
+        "Exercices et contrôles de livraison restants"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://arxiv.org/abs/2005.11401",
+          "date": "2026-10-29",
+          "scope": "Abstract and metadata of v4 only; no reproduced empirical results"
+        },
+        {
+          "url": "https://arxiv.org/abs/2307.03172",
+          "date": "2026-10-29",
+          "scope": "Abstract and metadata v3 only; positional sensitivity in studied models, no reproduced benchmark"
+        }
+      ],
+      "checks_executed": [
+        "20 Node tests passed (11 retrieval, 9 context)",
+        "Deterministic filesystem rendering; single H1",
+        "No exact duplicate paragraphs",
+        "Repository destination blocked"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Synthetic retrieval, context budget, intervals and abstention calculations; counts and structural rendering only",
+        "published": false
+      },
+      "limits": [
+        "Course incomplete",
+        "No visual or independent review",
+        "No retrieval engine or generative model executed"
+      ],
+      "next_action": "Preserve AI024 above 20000 without expansion or publication as complete. Check AI025 on recent main and saved sources; select only below 20000.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-024/02-contexte-et-abstention.html",
+        "content/courses/engineering/VOCE-AI-024/test_context.js",
+        "content/courses/engineering/VOCE-AI-024/references.html",
+        "content/courses/engineering/VOCE-AI-024/README.md",
+        "content/courses/engineering/VOCE-AI-024/checks-2026-10-29-ch02.json",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ],
+      "batch_new_lesson_characters": 12291
     }
   },
   "selection_policy": {
@@ -1425,9 +1492,10 @@
       "VOCE-AI-020",
       "VOCE-AI-021",
       "VOCE-AI-022",
-      "VOCE-AI-023"
+      "VOCE-AI-023",
+      "VOCE-AI-024"
     ],
-    "eligible_count": 96,
+    "eligible_count": 95,
     "main_read": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }

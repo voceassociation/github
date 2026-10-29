@@ -1,9 +1,9 @@
-# VOCE-AI-024 — Brouillon ingénieur
+# VOCE-AI-024 — Sources préservées
 
-Chapitre 1 sauvegardé: chaîne documentaire, cas fictif Atlas, unités de preuve, précision/rappel, couverture complète, rang réciproque et séparation recherche/génération. 14 998 caractères pédagogiques normalisés hors bibliographie et code; ancienne page non additionnée.
+Deux chapitres, 27 289 caractères pédagogiques normalisés hors bibliographie, code et ancienne page. Chapitre 1 conservé; chapitre 2: budget de contexte, troncature, versions contradictoires et abstention étayée.
 
-Brouillon incomplet, non publié. Aucun moteur documentaire ni modèle génératif exécuté. Relecture indépendante et contrôle visuel ouverts.
+Seuil de préservation atteint: ne pas allonger vers 75 000. Brouillon incomplet, non publié. Chapitre 3 sur protocole expérimental et réception non rédigé. Aucun moteur documentaire ou modèle génératif exécuté. Contrôle visuel et relecture indépendante ouverts.
 
-Contrôles: `node --test test_retrieval.js` (11 tests). Prévisualisation déterministe: `node render_draft.mjs /tmp/ai024-preview.html`; sortie dans le dépôt interdite.
+Contrôles: `node --test test_retrieval.js test_context.js` (20 tests); `node render_draft.mjs /tmp/ai024-preview.html` (rendu structurel déterministe, sortie hors dépôt obligatoire).
 
-Prochaine étape: mesurer à nouveau main et les sources; si toujours sous 20 000, écrire le chapitre 2 sur budget de contexte, troncature, versions contradictoires et abstention étayée. Conserver le chapitre 1.
+Prochaine sélection: mesurer AI-025 sur main récent et dans les sources sauvegardées.

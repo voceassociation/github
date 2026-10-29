@@ -302,12 +302,13 @@
       "counts": {
         "main": 8031,
         "branch": 8031,
-        "saved_chapters": 14998
+        "saved_chapters": 27289
       },
-      "selection": "eligible",
+      "selection": "preserved",
       "checked_on": "2026-10-29",
       "main_commit_checked": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
-      "branch_commit_checked": "3e62e520a786552745cf5cb0a4c51b1c63d3a5d1"
+      "branch_commit_checked": "668ee549a028598cf21372012796c6ac85c6cf47",
+      "note": "Saved incomplete chapters exceed preservation threshold; not completed or published."
     },
     {
       "id": "VOCE-AI-025",

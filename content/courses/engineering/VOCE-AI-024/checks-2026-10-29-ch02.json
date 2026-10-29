@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-29",
+  "course": "VOCE-AI-024",
+  "selection_before_write": {
+    "main": 8031,
+    "branch": 8031,
+    "saved_chapters": 14998,
+    "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
+    "branch_commit": "668ee549a028598cf21372012796c6ac85c6cf47"
+  },
+  "lesson_characters": 27289,
+  "chapter_characters": {
+    "01-preuves-et-recherche.html": 14998,
+    "02-contexte-et-abstention.html": 12291
+  },
+  "tests": {
+    "passed": 20,
+    "failed": 0,
+    "command": "node --test test_retrieval.js test_context.js"
+  },
+  "render": {
+    "deterministic": true,
+    "single_h1": true,
+    "duplicate_paragraphs": 0,
+    "repository_destination_blocked": true,
+    "visual_review": false
+  },
+  "published": false,
+  "independent_review": false,
+  "limits": [
+    "Course incomplete",
+    "No visual or independent review",
+    "No retrieval engine or generative model executed"
+  ]
+}
