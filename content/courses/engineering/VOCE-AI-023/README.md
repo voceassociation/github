@@ -1,9 +1,9 @@
-# VOCE-AI-023 — Brouillon ingénieur
+# VOCE-AI-023 — Sources préservées
 
-Chapitre 1 sauvegardé: grille affine, arrondi au pair, saturation, marge de décision, propagation de l’erreur linéaire et budget mémoire. 14 141 caractères pédagogiques normalisés hors bibliographie et code. Ancienne page non additionnée.
+Deux chapitres sauvegardés, 27 301 caractères pédagogiques normalisés, hors bibliographie, code et ancienne page. Chapitre 1 inchangé; chapitre 2: calibration, séparation des ensembles, stabilité de l’argmax, comparaison appariée et réception.
 
-Brouillon incomplet, non publié. Aucun modèle, moteur ONNX ou matériel d’inférence testé. Contrôle visuel et relecture indépendante ouverts.
+Seuil de préservation atteint: ne pas allonger vers 75 000. Brouillon incomplet, non publié. Chapitre 3 sur accumulation, moteurs et réception non rédigé. Relecture indépendante et contrôle visuel ouverts. Aucun modèle ni moteur ONNX exécuté.
 
-Vérifier les exemples avec `node --test test_quantization.js`. Rendre une prévisualisation hors dépôt avec `node render_draft.mjs /tmp/ai023-preview.html`.
+Contrôles: `node --test test_quantization.js test_comparison.js` (22 tests); `node render_draft.mjs /tmp/ai023-preview.html` (rendu structurel déterministe, destination hors dépôt obligatoire).
 
-Prochaine étape: mesurer à nouveau main et les sources; si toujours sous 20 000, écrire le chapitre 2 sur la calibration, la comparaison appariée et la stabilité de l’argmax. Conserver le chapitre 1.
+Prochaine action: vérifier AI-024 sur main récent et dans les sources sauvegardées; sélectionner seulement sous 20 000.

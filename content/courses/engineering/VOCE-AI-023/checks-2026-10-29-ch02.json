@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-29",
+  "course": "VOCE-AI-023",
+  "selection_before_write": {
+    "main": 7991,
+    "branch": 7991,
+    "saved_chapters": 14141,
+    "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
+    "branch_commit": "2e59da1ca7a0e4cc50cc5c0079e4e35f5a6f9a44"
+  },
+  "chapter_characters": {
+    "01-grille-et-decision.html": 14141,
+    "02-calibration-et-comparaison.html": 13160
+  },
+  "lesson_characters": 27301,
+  "tests": {
+    "passed": 22,
+    "failed": 0,
+    "command": "node --test test_quantization.js test_comparison.js"
+  },
+  "render": {
+    "deterministic": true,
+    "single_h1": true,
+    "duplicate_paragraphs": 0,
+    "repository_destination_blocked": true,
+    "visual_review": false
+  },
+  "published": false,
+  "independent_review": false,
+  "limits": [
+    "Course incomplete",
+    "No visual or independent review",
+    "No model, ONNX Runtime or inference hardware executed"
+  ]
+}
