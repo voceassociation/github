@@ -1,9 +1,9 @@
-# VOCE-AI-026 — Brouillon incomplet
+# VOCE-AI-026 — Brouillon préservé
 
-Chapitre 01: frontière entre document, preuve et autorisation; modèle Orbe et passerelle déterministe. 13 156 caractères pédagogiques normalisés hors références et code. Avant sélection: main et branche 7 886 chacun; aucun chapitre sauvegardé. Les éditions ne sont pas additionnées.
+Deux chapitres: frontière de confiance puis évaluation des injections. 26 169 caractères pédagogiques normalisés (13 156 + 13 013), hors références et code. Mesure avant rédaction: page main et branche 7 886 chacune, sources sauvegardées 13 156. Éditions jamais additionnées.
 
-9 tests Node réussis; rendu déterministe exécuté deux fois, H1 unique, paragraphes sans doublon exact, sortie interne refusée. Aucun modèle ni connecteur réel testé. Relecture indépendante et contrôle visuel non effectués. Non publié.
+Seuil prioritaire atteint: conserver sans allongement. Brouillon incomplet, non publié. Chapitre 03, exercices, revue indépendante et contrôle visuel restent ouverts.
 
-Reproduction: `node --test test_boundary.js`; `node render_draft.mjs /tmp/ai026-preview.html` depuis ce dossier. Le rendu remplace l’article historique dans une copie hors dépôt, sans publication.
+20 tests Node réussis; rendu déterministe, H1 unique, paragraphes sans doublon exact et destination interne refusée. Aucun modèle réel ni benchmark de résistance exécuté. Les statistiques sont calculées sur des données fictives.
 
-Prochain chapitre: protocole d’évaluation avec témoins bénins, répétitions, dénominateurs et faux positifs, uniquement après nouvelle vérification du seuil de sélection.
+Reproduire depuis ce dossier: `node --test test_boundary.js test_metrics.js`; `node render_draft.mjs /tmp/ai026-preview.html`. Prochaine sélection: AI027 après lecture de main récent et des sources sauvegardées.
