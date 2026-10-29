@@ -3,7 +3,7 @@
   "updated_on": "2026-10-29",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "d9d09a0337c840a40b4f1874bb14797fd91cf882",
+  "base_head_read": "f57c8f45b0d8020ed81a519d8012a02d4df68816",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 97,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 96,
     "preserved_by_selection": 23,
     "eligible_under_20000": 97
   },
@@ -77,65 +77,59 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-022",
-    "title": "DeepSeek-R1: ce que récompense un raisonnement",
-    "status": "preserved_draft_above_selection_threshold_not_complete",
-    "lesson_characters": 26353,
-    "measurement": "Repository counter on chapter-only HTML; references, code and historical page excluded",
+    "id": "VOCE-AI-023",
+    "title": "Un modèle quantifié peut changer une décision",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 14141,
+    "measurement": "Repository counter on chapter-only HTML; bibliography, code and historical page excluded",
     "selection_before_write": {
-      "main": 8014,
-      "branch": 8014,
-      "saved_chapters": 13158,
+      "main": 7991,
+      "branch": 7991,
+      "saved_chapters": 0,
       "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
-      "branch_commit": "d9d09a0337c840a40b4f1874bb14797fd91cf882"
+      "branch_commit": "f57c8f45b0d8020ed81a519d8012a02d4df68816"
     },
     "chapters_written": [
-      "01-recompense-et-verificateur.html",
-      "02-avantages-relatifs.html"
+      "01-grille-et-decision.html"
     ],
     "chapters_remaining": [
-      "03 — Budget de génération, évaluation et limites de transfert; non rédigé, conservation prioritaire",
-      "Exercices et contrôles de livraison restants"
+      "02 — Calibration, comparaison appariée et stabilité de l’argmax",
+      "03 — Accumulation, moteurs d’exécution et protocole de réception"
     ],
     "sources_consulted": [
       {
-        "url": "https://arxiv.org/html/2501.12948v1",
+        "url": "https://onnxruntime.ai/docs/performance/model-optimizations/quantization.html",
         "date": "2026-10-29",
-        "scope": "Abstract and section 2.2.2: R1/R1-Zero and accuracy/format rewards; no reproduced benchmark"
-      },
-      {
-        "url": "https://arxiv.org/html/2501.12948v1",
-        "date": "2026-10-29",
-        "scope": "Section 2.2.1 equations 1–3; scalar derivations only, no training"
+        "scope": "Quantization Overview, Dynamic/Static Quantization and Quantization Debugging; unpinned documentation"
       }
     ],
     "checks_executed": [
-      "19 Node tests passed (9 verifier, 10 group calculations)",
+      "11 Node tests passed",
       "Deterministic filesystem rendering; single H1",
       "No exact duplicate paragraphs",
       "Repository destination blocked"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Scalar verifier and group arithmetic, normalized counts and structural rendering only",
+      "controlled": "Synthetic scalar calculations, normalized count and structural rendering only",
       "published": false
     },
     "limits": [
       "Course incomplete",
       "No visual or independent review",
-      "No DeepSeek execution or RL training"
+      "No model, ONNX Runtime or inference hardware executed"
     ],
-    "next_action": "Preserve AI022 above 20000 without expansion or publication as complete. Check AI023 on recent main and saved sources; select only below 20000.",
+    "next_action": "Remeasure AI023 on main and saved sources. If below 20000, write chapter 02 on calibration, paired evaluation and argmax stability; preserve chapter 01.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-022/02-avantages-relatifs.html",
-      "content/courses/engineering/VOCE-AI-022/test_group.js",
-      "content/courses/engineering/VOCE-AI-022/references.html",
-      "content/courses/engineering/VOCE-AI-022/checks-2026-10-29-ch02.json",
-      "content/courses/engineering/VOCE-AI-022/README.md",
+      "content/courses/engineering/VOCE-AI-023/01-grille-et-decision.html",
+      "content/courses/engineering/VOCE-AI-023/test_quantization.js",
+      "content/courses/engineering/VOCE-AI-023/render_draft.mjs",
+      "content/courses/engineering/VOCE-AI-023/references.html",
+      "content/courses/engineering/VOCE-AI-023/README.md",
+      "content/courses/engineering/VOCE-AI-023/checks-2026-10-29.json",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
-    ],
-    "batch_new_lesson_characters": 13195
+    ]
   },
   "completed_courses": {
     "VOCE-AI-002": {

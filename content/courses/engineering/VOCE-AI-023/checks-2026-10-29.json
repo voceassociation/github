@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-29",
+  "course": "VOCE-AI-023",
+  "lesson_characters": 14141,
+  "selection_before_write": {
+    "main": 7991,
+    "branch": 7991,
+    "saved_chapters": 0
+  },
+  "tests": {
+    "passed": 11,
+    "failed": 0,
+    "command": "node --test test_quantization.js"
+  },
+  "render": {
+    "deterministic": true,
+    "single_h1": true,
+    "duplicate_paragraphs": 0,
+    "repository_destination_blocked": true,
+    "visual_review": false
+  },
+  "published": false,
+  "independent_review": false,
+  "limits": [
+    "Synthetic scalar arithmetic only; no model or ONNX Runtime execution",
+    "Course incomplete"
+  ]
+}
