@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-29",
+  "course": "VOCE-AI-025",
+  "selection_before_write": {
+    "main": 7886,
+    "branch": 7886,
+    "saved_chapters": 0,
+    "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
+    "branch_commit": "72824c25b2aedeba3776acf130006aba35fdc050"
+  },
+  "lesson_characters": 12696,
+  "tests": {
+    "passed": 11,
+    "failed": 0,
+    "command": "node --test test_temporal.js"
+  },
+  "render": {
+    "deterministic": true,
+    "single_h1": true,
+    "duplicate_paragraphs": 0,
+    "repository_destination_blocked": true,
+    "visual_review": false
+  },
+  "published": false,
+  "independent_review": false,
+  "limits": [
+    "Course incomplete",
+    "No visual or independent review",
+    "No database, retrieval engine or generative model executed; no concurrency simulation"
+  ]
+}
