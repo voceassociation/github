@@ -3,7 +3,7 @@
   "updated_on": "2026-10-29",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "b6374ade23a676aae99962c5d59a8aecc6dde898",
+  "base_head_read": "dfef5b1b5678e9df4f50fff04fc990c3aec630d1",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 99,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 98,
     "preserved_by_selection": 21,
     "eligible_under_20000": 99
   },
@@ -77,65 +77,59 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-020",
-    "title": "Adapter un modèle avec LoRA",
-    "status": "preserved_draft_above_selection_threshold_not_complete",
-    "lesson_characters": 28676,
+    "id": "VOCE-AI-021",
+    "title": "La préférence humaine ne garantit pas la vérité",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 14707,
     "measurement": "Repository counter on chapter-only HTML; references, code and historical page excluded",
     "selection_before_write": {
-      "main": 7393,
-      "branch": 7393,
-      "saved_chapters": 14230,
+      "main": 8020,
+      "branch": 8020,
+      "saved_chapters": 0,
       "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
-      "branch_commit": "b6374ade23a676aae99962c5d59a8aecc6dde898"
+      "branch_commit": "dfef5b1b5678e9df4f50fff04fc990c3aec630d1"
     },
     "chapters_written": [
-      "01-matrices-et-budget.html",
-      "02-comparer-les-adaptations.html"
+      "01-preference-et-preuve.html"
     ],
     "chapters_remaining": [
-      "03 — Artefacts, reprise d’entraînement et protocole de livraison; non rédigé, conservation prioritaire",
-      "Exercices et contrôles de réception restants"
+      "02 — Objectif de préférence relatif au modèle de référence et limites factuelles",
+      "03 — Protocole d’annotation, arbitrage et réception"
     ],
     "sources_consulted": [
       {
-        "url": "https://arxiv.org/html/2106.09685v2",
-        "date": "2026-10-28",
-        "scope": "Sections 4.1 and 4.2; targeted reading, no reproduced empirical benchmark"
-      },
-      {
-        "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+        "url": "https://arxiv.org/abs/2203.02155",
         "date": "2026-10-29",
-        "scope": "3.1 introduction, training/validation/test distinction; displayed version 1.9.1; no sklearn executed"
+        "scope": "Primary abstract only; demonstrations, rankings, preference and residual errors; no reproduced empirical results"
       }
     ],
     "checks_executed": [
-      "19 Node tests passed",
+      "8 Node tests passed",
       "Deterministic filesystem rendering; single H1",
       "No exact duplicate paragraphs",
       "Repository destination blocked"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Synthetic matrix operations, budgets, finite differences and structural rendering only",
+      "controlled": "Synthetic logistic loss, contingency tables and structural rendering only",
       "published": false
     },
     "limits": [
       "Course incomplete",
       "No visual or independent review",
-      "No language model training or GPU benchmark"
+      "No human study or model training"
     ],
-    "next_action": "Preserve AI020 above 20000 without expansion or publication as complete. Check AI021 on recent main and saved sources; select only below 20000.",
+    "next_action": "Remeasure AI021 on main and saved sources. If below 20000, write chapter 02 on the reference-relative preference objective and factual limits; preserve chapter 01.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-020/02-comparer-les-adaptations.html",
-      "content/courses/engineering/VOCE-AI-020/test_comparison.js",
-      "content/courses/engineering/VOCE-AI-020/references.html",
-      "content/courses/engineering/VOCE-AI-020/checks-2026-10-29-ch02.json",
-      "content/courses/engineering/VOCE-AI-020/README.md",
+      "content/courses/engineering/VOCE-AI-021/01-preference-et-preuve.html",
+      "content/courses/engineering/VOCE-AI-021/test_preference.js",
+      "content/courses/engineering/VOCE-AI-021/render_draft.mjs",
+      "content/courses/engineering/VOCE-AI-021/references.html",
+      "content/courses/engineering/VOCE-AI-021/checks-2026-10-29.json",
+      "content/courses/engineering/VOCE-AI-021/README.md",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
-    ],
-    "batch_new_lesson_characters": 14446
+    ]
   },
   "completed_courses": {
     "VOCE-AI-002": {

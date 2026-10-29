@@ -1,0 +1,13 @@
+const test=require('node:test'),a=require('node:assert/strict');
+const sigmoid=x=>1/(1+Math.exp(-x));
+const loss=(f,p)=>{a.ok(p>0&&p<1);return-f*Math.log(p)-(1-f)*Math.log(1-p)};
+const rate=(n,d)=>{a.ok(Number.isInteger(n)&&Number.isInteger(d)&&n>=0&&d>=n);return d===0?null:n/d};
+const near=(x,y)=>a.ok(Math.abs(x-y)<1e-10);
+test('logistic score difference',()=>{near(sigmoid(0),.5);near(sigmoid(Math.log(3)),.75);near(sigmoid((10+100)-(9+100)),sigmoid(10-9))});
+test('vote frequency optimum and log odds',()=>{const f=130/200;near(sigmoid(Math.log(f/(1-f))),f);a.ok(loss(f,f)<loss(f,.5));const e=1e-6;near((loss(f,f+e)-loss(f,f-e))/(2*e),0)});
+test('preference and error cross table',()=>{near(rate(130,200),.65);near(rate(24,200),.12);near(rate(20,130),2/13);near(rate(110,200),.55);near(rate(24,200)/rate(12,200),2)});
+test('claim and response denominators reverse ranking',()=>{a.ok(rate(15,1000)<rate(10,500));a.ok(rate(15,100)>rate(10,100))});
+test('undetermined verification retains coverage',()=>{near(rate(8,100),.08);near(rate(8,80),.1);near(rate(80,100),.8);a.equal(72+8+20,100)});
+test('ties have explicit conventions',()=>{near(rate(60,100),.6);near(rate(60,90),2/3);near((60+10/2)/100,.65)});
+test('empty population is not zero error',()=>{a.equal(rate(0,0),null);a.throws(()=>rate(1,0));a.throws(()=>rate(-1,2))});
+test('loss rejects boundary probabilities',()=>{a.throws(()=>loss(.5,0));a.throws(()=>loss(.5,1))});
