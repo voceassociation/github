@@ -1,9 +1,11 @@
-# VOCE-AI-021 — Brouillon incomplet
+# VOCE-AI-021 — Brouillon préservé
 
-Chapitre 01: préférence, preuve documentaire, modèle logistique, tables croisées et dénominateurs. 14 707 caractères pédagogiques, hors références, code et page historique.
+Chapitres 01 et 02: 26 218 caractères pédagogiques (14 707 + 11 511), hors références, code et page historique. Chapitre 01 conservé.
 
-8 tests Node réussis; rendu déterministe, H1 unique, aucun paragraphe exactement dupliqué, destination dans le dépôt refusée. Aucun jugement humain recueilli, modèle entraîné, contrôle visuel ou relecture indépendante.
+Seuil prioritaire de 20 000 dépassé: aucune extension vers 75 000. Cours incomplet, non publié. Chapitre 03 (annotation, arbitrage et réception), exercices et contrôles de livraison restants.
 
-Exécuter `node --test content/courses/engineering/VOCE-AI-021/test_preference.js`. Le générateur `render_draft.mjs` exige une sortie hors dépôt. Aucune page officielle remplacée.
+17 tests Node réussis; rendu déterministe, H1 unique, aucun paragraphe exactement dupliqué, destination dans le dépôt refusée. Aucun jugement humain recueilli, modèle entraîné, contrôle visuel ou relecture indépendante.
 
-Prochaine étape: recontrôler main et les sources selon le seuil de 20 000; si éligible, chapitre 02 sur l’objectif de préférence relatif au modèle de référence et ses limites factuelles. Chapitre 03 prévu: protocole d’annotation, arbitrage et réception. Cours incomplet, non publié.
+Exécuter `node --test content/courses/engineering/VOCE-AI-021/test*.js`. Le générateur exige une destination hors dépôt.
+
+Prochaine action: vérifier AI-022 sur main récent et les sources, puis sélectionner uniquement sous 20 000.

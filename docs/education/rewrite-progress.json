@@ -3,7 +3,7 @@
   "updated_on": "2026-10-29",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "dfef5b1b5678e9df4f50fff04fc990c3aec630d1",
+  "base_head_read": "b1d594c8b37b363f45c5b34b9454553086ec4f03",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 98,
-    "preserved_by_selection": 21,
-    "eligible_under_20000": 99
+    "preserved_by_selection": 22,
+    "eligible_under_20000": 98
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,32 +79,38 @@
   "current_course": {
     "id": "VOCE-AI-021",
     "title": "La préférence humaine ne garantit pas la vérité",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 14707,
+    "status": "preserved_draft_above_selection_threshold_not_complete",
+    "lesson_characters": 26218,
     "measurement": "Repository counter on chapter-only HTML; references, code and historical page excluded",
     "selection_before_write": {
       "main": 8020,
       "branch": 8020,
-      "saved_chapters": 0,
+      "saved_chapters": 14707,
       "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
-      "branch_commit": "dfef5b1b5678e9df4f50fff04fc990c3aec630d1"
+      "branch_commit": "b1d594c8b37b363f45c5b34b9454553086ec4f03"
     },
     "chapters_written": [
-      "01-preference-et-preuve.html"
+      "01-preference-et-preuve.html",
+      "02-objectif-relatif.html"
     ],
     "chapters_remaining": [
-      "02 — Objectif de préférence relatif au modèle de référence et limites factuelles",
-      "03 — Protocole d’annotation, arbitrage et réception"
+      "03 — Protocole d’annotation, arbitrage et réception; non rédigé, conservation prioritaire",
+      "Exercices et contrôles de livraison restants"
     ],
     "sources_consulted": [
       {
         "url": "https://arxiv.org/abs/2203.02155",
         "date": "2026-10-29",
         "scope": "Primary abstract only; demonstrations, rankings, preference and residual errors; no reproduced empirical results"
+      },
+      {
+        "url": "https://arxiv.org/html/2305.18290v3",
+        "date": "2026-10-29",
+        "scope": "Sections 3 and 4, equation 7; targeted reading; no training or benchmarks"
       }
     ],
     "checks_executed": [
-      "8 Node tests passed",
+      "17 Node tests passed",
       "Deterministic filesystem rendering; single H1",
       "No exact duplicate paragraphs",
       "Repository destination blocked"
@@ -119,17 +125,17 @@
       "No visual or independent review",
       "No human study or model training"
     ],
-    "next_action": "Remeasure AI021 on main and saved sources. If below 20000, write chapter 02 on the reference-relative preference objective and factual limits; preserve chapter 01.",
+    "next_action": "Preserve AI021 above 20000 without expansion or publication as complete. Check AI022 on recent main and saved sources; select only below 20000.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-021/01-preference-et-preuve.html",
-      "content/courses/engineering/VOCE-AI-021/test_preference.js",
-      "content/courses/engineering/VOCE-AI-021/render_draft.mjs",
+      "content/courses/engineering/VOCE-AI-021/02-objectif-relatif.html",
+      "content/courses/engineering/VOCE-AI-021/test_relative.js",
       "content/courses/engineering/VOCE-AI-021/references.html",
-      "content/courses/engineering/VOCE-AI-021/checks-2026-10-29.json",
+      "content/courses/engineering/VOCE-AI-021/checks-2026-10-29-ch02.json",
       "content/courses/engineering/VOCE-AI-021/README.md",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
-    ]
+    ],
+    "batch_new_lesson_characters": 11511
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -1212,6 +1218,67 @@
         "docs/education/course-selection-20000.json"
       ],
       "batch_new_lesson_characters": 14446
+    },
+    "VOCE-AI-021": {
+      "id": "VOCE-AI-021",
+      "title": "La préférence humaine ne garantit pas la vérité",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 26218,
+      "measurement": "Repository counter on chapter-only HTML; references, code and historical page excluded",
+      "selection_before_write": {
+        "main": 8020,
+        "branch": 8020,
+        "saved_chapters": 14707,
+        "main_commit": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
+        "branch_commit": "b1d594c8b37b363f45c5b34b9454553086ec4f03"
+      },
+      "chapters_written": [
+        "01-preference-et-preuve.html",
+        "02-objectif-relatif.html"
+      ],
+      "chapters_remaining": [
+        "03 — Protocole d’annotation, arbitrage et réception; non rédigé, conservation prioritaire",
+        "Exercices et contrôles de livraison restants"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://arxiv.org/abs/2203.02155",
+          "date": "2026-10-29",
+          "scope": "Primary abstract only; demonstrations, rankings, preference and residual errors; no reproduced empirical results"
+        },
+        {
+          "url": "https://arxiv.org/html/2305.18290v3",
+          "date": "2026-10-29",
+          "scope": "Sections 3 and 4, equation 7; targeted reading; no training or benchmarks"
+        }
+      ],
+      "checks_executed": [
+        "17 Node tests passed",
+        "Deterministic filesystem rendering; single H1",
+        "No exact duplicate paragraphs",
+        "Repository destination blocked"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Synthetic logistic loss, contingency tables and structural rendering only",
+        "published": false
+      },
+      "limits": [
+        "Course incomplete",
+        "No visual or independent review",
+        "No human study or model training"
+      ],
+      "next_action": "Preserve AI021 above 20000 without expansion or publication as complete. Check AI022 on recent main and saved sources; select only below 20000.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-021/02-objectif-relatif.html",
+        "content/courses/engineering/VOCE-AI-021/test_relative.js",
+        "content/courses/engineering/VOCE-AI-021/references.html",
+        "content/courses/engineering/VOCE-AI-021/checks-2026-10-29-ch02.json",
+        "content/courses/engineering/VOCE-AI-021/README.md",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ],
+      "batch_new_lesson_characters": 11511
     }
   },
   "selection_policy": {
@@ -1239,9 +1306,10 @@
       "VOCE-AI-017",
       "VOCE-AI-018",
       "VOCE-AI-019",
-      "VOCE-AI-020"
+      "VOCE-AI-020",
+      "VOCE-AI-021"
     ],
-    "eligible_count": 99,
+    "eligible_count": 98,
     "main_read": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }
