@@ -250,6 +250,16 @@ function injectPrivacyDefault(response) {
   let coursesHeader = false;
   let headerHasCoursesLink = false;
   let headerHasPhilanthropyLink = false;
+  const headerLinkKeys = new Set();
+  const headerLinkKey = href => href.replace(/^\/(?:en|fr|it)\//, "/").replace(/\.html(?=[?#]|$)/, "");
+  function missingHeaderLinks(links) {
+    return links.filter(([href]) => {
+      const key = headerLinkKey(href);
+      if (headerLinkKeys.has(key)) return false;
+      headerLinkKeys.add(key);
+      return true;
+    }).map(([href, label]) => '<a href="' + href + '">' + label + '</a>').join("");
+  }
   const courseHeaderLabels = {
     fr: {themes:"Thèmes",research:"Recherche",standards:"Normes",publications:"Publications",art:"Art",applied:"Applied"},
     en: {themes:"Themes",research:"Research",standards:"Standards",publications:"Publications",art:"Art",applied:"Applied"},
@@ -272,6 +282,9 @@ function injectPrivacyDefault(response) {
       element(element) {
         const href = element.getAttribute("href") || "";
         const names = courseHeaderLabels[headerLanguage] || courseHeaderLabels.en;
+        const key = headerLinkKey(href);
+        if (headerLinkKeys.has(key)) { element.remove(); return; }
+        headerLinkKeys.add(key);
         if (/\/philanthropy$/.test(href)) headerHasPhilanthropyLink = true;
         if (/\/cours$/.test(href)) {
           headerHasCoursesLink = true;
@@ -279,15 +292,14 @@ function injectPrivacyDefault(response) {
         }
         if (coursesHeader && href === "/archive") {
           element.before(
-            '<a href="/#themes">' + names.themes + '</a>' +
-            '<a href="/research">' + names.research + '</a>',
+            missingHeaderLinks([["/#themes", names.themes], ["/research", names.research]]),
             {html:true}
           );
         }
         if (/\/(?:fr\/|it\/)?atlas$/.test(href)) {
           if (!headerHasCoursesLink) {
             const courseHref = headerLanguage === "it" ? "/it/cours" : headerLanguage === "fr" ? "/cours" : "/en/cours";
-            element.before('<a href="' + courseHref + '">COURS VOCE®</a>', {html:true});
+            element.before(missingHeaderLinks([[courseHref, "COURS VOCE®"]]), {html:true});
             headerHasCoursesLink = true;
           }
           if (coursesHeader && headerLanguage !== "en") {
@@ -300,10 +312,7 @@ function injectPrivacyDefault(response) {
         } else if (href === "/about") {
           const appliedHref = headerLanguage === "fr" ? "/fr/applied" : headerLanguage === "it" ? "/it/applied" : "/applied";
           element.before(
-            '<a href="' + appliedHref + '">' + names.applied + '</a>' +
-            '<a href="/standards">' + names.standards + '</a>' +
-            '<a href="/publications">' + names.publications + '</a>' +
-            '<a href="/art" class="keep">' + names.art + '</a>',
+            missingHeaderLinks([[appliedHref, names.applied], ["/standards", names.standards], ["/publications", names.publications], ["/art", names.art]]),
             {html:true}
           );
           element.setAttribute("class", "keep");
@@ -336,7 +345,10 @@ function injectPrivacyDefault(response) {
           element.before('<a class="voce-philanthropy-nav" href="' + href + '">' + labels[headerLanguage] + '</a>', {html:true});
           headerHasPhilanthropyLink = true;
         }
-        element.before('<a class="voce-guide-nav" href="/#guide">Guide</a>', { html: true });
+        if (!headerLinkKeys.has("/#guide")) {
+          element.before('<a class="voce-guide-nav" href="/#guide">Guide</a>', { html: true });
+          headerLinkKeys.add("/#guide");
+        }
       }
     })
     .on(".footer-right", {
