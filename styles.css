@@ -1238,3 +1238,12 @@ html[lang="it"] .atlas-panel:before{content:"Vista documentale mobile"}
     font-weight:700;
   }
 }
+
+/* Keep the full desktop navigation inside the header at laptop widths. */
+@media (min-width:761px){
+  body header .nav{height:auto;min-height:78px;padding-top:12px;padding-bottom:12px}
+  body header .nav>.voce-mark{flex:0 0 auto}
+  body header .nav .menu{min-width:0;flex:1;flex-wrap:wrap;justify-content:flex-end;gap:6px 18px}
+  body header .nav .menu>a{flex:0 0 auto;white-space:nowrap}
+  body header .nav .menu .lang{flex:0 0 auto;white-space:nowrap}
+}
