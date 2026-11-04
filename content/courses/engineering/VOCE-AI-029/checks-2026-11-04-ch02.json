@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-04",
+  "course": "VOCE-AI-029",
+  "lesson_characters": 26162,
+  "chapter02_characters": 12832,
+  "selection_before": {
+    "main": 7811,
+    "branch": 7811,
+    "saved_chapters": 13330,
+    "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
+    "branch_commit": "af31a251577d91c3e39a8a3a2077a5c11e8e42e6"
+  },
+  "tests_passed": 16,
+  "checks": [
+    "10 Node retry tests passed",
+    "6 SQLite tests passed: ceiling, duplicate rollback, injected failure rollback, reopen, two-connection writer contention, unknown reservation",
+    "Deterministic rendering; single H1; unique paragraphs",
+    "Repository output blocked",
+    "Chapter 01 unchanged against GitHub"
+  ],
+  "limits": [
+    "Course incomplete; preserved by selection threshold",
+    "No visual or independent review",
+    "SQLite local tests only; no payment API, webhook authentication, power-loss or distributed failure tests"
+  ],
+  "published": false
+}

@@ -1,11 +1,9 @@
-# VOCE-AI-029 — Brouillon incomplet
+# VOCE-AI-029 — Sources préservées
 
-Chapitre 01: intention immuable, reprise après réponse perdue, conflits de paramètres, portée et rétention des clés. 13 330 caractères pédagogiques normalisés, hors références et code. Page historique mesurée séparément: 7 811 caractères sur main et branche. Aucun chapitre développé préexistant.
+Chapitres 01 et 02: 26 162 caractères pédagogiques normalisés (13 330 + 12 832), hors bibliographie et code. Brouillon incomplet non publié; conservation prioritaire au seuil de 20 000, sans allongement.
 
-## Contrôles
+`node test_retry.js`: dix tests en mémoire. `python test_transaction.py`: six tests SQLite locaux, dont contention réelle entre deux connexions, retour arrière et réouverture. Aucun prestataire de paiement exécuté. Pas de test de panne électrique ou distribuée, ni de validation des notifications.
 
-`node test_retry.js`: dix tests réussis sur un prestataire fictif séquentiel en mémoire, dont deux contre-exemples de doublon. Aucun paiement, appel Stripe, stockage durable ou accès concurrent exécuté.
+`node render_draft.mjs /tmp/ai029-preview.html`: rendu déterministe, un H1, aucun paragraphe exactement répété; destination dans le dépôt refusée. Chapitre 01 inchangé. Aucun contrôle visuel ou revue indépendante.
 
-`node render_draft.mjs /tmp/ai029-preview.html`: rendu déterministe, un H1, paragraphes non répétés, destination dans le dépôt refusée. Aucun contrôle visuel ni revue indépendante.
-
-Prochaine étape: remesurer puis, si sous 20 000, rédiger le chapitre 02 sur transaction locale, concurrence et réconciliation. Chapitre 03 et réception réelle restent ouverts. Brouillon non publié; URL, catalogue et métadonnées publiques inchangés.
+Chapitre 03 et réception réelle non achevés. Prochaine sélection: AI-030 après mesure sur main et sources sauvegardées. Page publique, catalogue et manifeste inchangés.
