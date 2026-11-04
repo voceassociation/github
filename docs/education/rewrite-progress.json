@@ -3,7 +3,7 @@
   "updated_on": "2026-11-04",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "48544acd54031b59793e3244fa1437c8b6672d72",
+  "base_head_read": "6468519e16f91ef38ec7e9356482da8eee363fd9",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 91,
-    "preserved_by_selection": 28,
-    "eligible_under_20000": 92
+    "preserved_by_selection": 29,
+    "eligible_under_20000": 91
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,22 +79,23 @@
   "current_course": {
     "id": "VOCE-AI-028",
     "title": "Le jeton destiné au mauvais service",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 16392,
+    "status": "preserved_draft_above_selection_threshold_not_complete",
+    "lesson_characters": 30088,
     "measurement": "Normalized chapter-only HTML; bibliography and code excluded; historical editions never summed",
     "selection_before_write": {
       "main": 7786,
       "branch": 7786,
-      "saved_chapters": 0,
+      "saved_chapters": 16392,
       "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
-      "branch_commit": "48544acd54031b59793e3244fa1437c8b6672d72"
+      "branch_commit": "6468519e16f91ef38ec7e9356482da8eee363fd9"
     },
     "chapters_written": [
-      "01-destinataire-et-confiance.html"
+      "01-destinataire-et-confiance.html",
+      "02-decouverte-et-proxy.html"
     ],
     "chapters_remaining": [
-      "02 — Découverte des ressources, proxies et vérification des configurations",
-      "03 — Intégration cryptographique et protocole de réception"
+      "03 — Intégration cryptographique et protocole de réception; non rédigé, conservation prioritaire",
+      "Exercices et contrôles de livraison restants"
     ],
     "sources_consulted": [
       {
@@ -106,36 +107,41 @@
         "url": "https://www.rfc-editor.org/rfc/rfc8725.html",
         "date": "2026-11-04",
         "scope": "Sections 3.8, 3.9 and 3.12; issuer, audience and profile separation"
+      },
+      {
+        "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization",
+        "date": "2026-11-04",
+        "scope": "Authorization Server Location and Protected Resource Metadata Discovery Requirements"
       }
     ],
     "checks_executed": [
-      "12 Node tests passed including 9-case service matrix",
+      "23 Node tests passed (12 audience, 11 discovery/configuration/cache)",
       "Deterministic filesystem rendering; single H1",
-      "No exact duplicate paragraphs within chapter",
-      "Repository destination blocked"
+      "No exact duplicate paragraphs within both chapters",
+      "Repository destination blocked",
+      "Chapter 01 matches GitHub source byte-for-byte"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Synthetic verified-context admission predicates and structural rendering only",
+      "controlled": "Synthetic audience, discovery, configuration coherence and cache checks; counts and structural rendering only",
       "published": false
     },
     "limits": [
-      "Course incomplete",
+      "Course incomplete; preserved by selection threshold",
       "No visual or independent review",
-      "No JWT verification, OAuth or MCP server executed",
-      "Initial renderer path error corrected and checks rerun successfully"
+      "No JWT verification, HTTP discovery, TLS, proxy, OAuth or MCP server executed"
     ],
-    "next_action": "Remeasure AI028 on main and saved sources. If below 20000, write chapter 02 on resource discovery, proxies and configuration verification; preserve chapter 01.",
+    "next_action": "Preserve AI028 above 20000 without expansion or publication as complete. Check AI029 on recent main and saved sources; select only below 20000.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-028/01-destinataire-et-confiance.html",
-      "content/courses/engineering/VOCE-AI-028/test_audience.js",
-      "content/courses/engineering/VOCE-AI-028/render_draft.mjs",
+      "content/courses/engineering/VOCE-AI-028/02-decouverte-et-proxy.html",
+      "content/courses/engineering/VOCE-AI-028/test_discovery.js",
       "content/courses/engineering/VOCE-AI-028/references.html",
       "content/courses/engineering/VOCE-AI-028/README.md",
-      "content/courses/engineering/VOCE-AI-028/checks-2026-11-04.json",
+      "content/courses/engineering/VOCE-AI-028/checks-2026-11-04-ch02.json",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
-    ]
+    ],
+    "batch_new_lesson_characters": 13696
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -1651,6 +1657,73 @@
         "docs/education/course-selection-20000.json"
       ],
       "batch_new_lesson_characters": 17595
+    },
+    "VOCE-AI-028": {
+      "id": "VOCE-AI-028",
+      "title": "Le jeton destiné au mauvais service",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 30088,
+      "measurement": "Normalized chapter-only HTML; bibliography and code excluded; historical editions never summed",
+      "selection_before_write": {
+        "main": 7786,
+        "branch": 7786,
+        "saved_chapters": 16392,
+        "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
+        "branch_commit": "6468519e16f91ef38ec7e9356482da8eee363fd9"
+      },
+      "chapters_written": [
+        "01-destinataire-et-confiance.html",
+        "02-decouverte-et-proxy.html"
+      ],
+      "chapters_remaining": [
+        "03 — Intégration cryptographique et protocole de réception; non rédigé, conservation prioritaire",
+        "Exercices et contrôles de livraison restants"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://www.rfc-editor.org/rfc/rfc8707.html",
+          "date": "2026-11-04",
+          "scope": "Introduction and section 2; requested resource and audience mapping"
+        },
+        {
+          "url": "https://www.rfc-editor.org/rfc/rfc8725.html",
+          "date": "2026-11-04",
+          "scope": "Sections 3.8, 3.9 and 3.12; issuer, audience and profile separation"
+        },
+        {
+          "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization",
+          "date": "2026-11-04",
+          "scope": "Authorization Server Location and Protected Resource Metadata Discovery Requirements"
+        }
+      ],
+      "checks_executed": [
+        "23 Node tests passed (12 audience, 11 discovery/configuration/cache)",
+        "Deterministic filesystem rendering; single H1",
+        "No exact duplicate paragraphs within both chapters",
+        "Repository destination blocked",
+        "Chapter 01 matches GitHub source byte-for-byte"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Synthetic audience, discovery, configuration coherence and cache checks; counts and structural rendering only",
+        "published": false
+      },
+      "limits": [
+        "Course incomplete; preserved by selection threshold",
+        "No visual or independent review",
+        "No JWT verification, HTTP discovery, TLS, proxy, OAuth or MCP server executed"
+      ],
+      "next_action": "Preserve AI028 above 20000 without expansion or publication as complete. Check AI029 on recent main and saved sources; select only below 20000.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-028/02-decouverte-et-proxy.html",
+        "content/courses/engineering/VOCE-AI-028/test_discovery.js",
+        "content/courses/engineering/VOCE-AI-028/references.html",
+        "content/courses/engineering/VOCE-AI-028/README.md",
+        "content/courses/engineering/VOCE-AI-028/checks-2026-11-04-ch02.json",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ],
+      "batch_new_lesson_characters": 13696
     }
   },
   "selection_policy": {
@@ -1685,9 +1758,10 @@
       "VOCE-AI-024",
       "VOCE-AI-025",
       "VOCE-AI-026",
-      "VOCE-AI-027"
+      "VOCE-AI-027",
+      "VOCE-AI-028"
     ],
-    "eligible_count": 92,
+    "eligible_count": 91,
     "main_read": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }
