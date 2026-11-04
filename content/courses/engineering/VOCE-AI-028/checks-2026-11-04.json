@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-04",
+  "course": "VOCE-AI-028",
+  "lesson_characters": 16392,
+  "selection_before": {
+    "main": 7786,
+    "branch": 7786,
+    "saved_chapters": 0,
+    "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
+    "branch_commit": "48544acd54031b59793e3244fa1437c8b6672d72"
+  },
+  "tests_passed": 12,
+  "checks": [
+    "12 Node tests passed including 9-case service matrix",
+    "Deterministic filesystem rendering; single H1",
+    "No exact duplicate paragraphs within chapter",
+    "Repository destination blocked"
+  ],
+  "limits": [
+    "Course incomplete",
+    "No visual or independent review",
+    "No JWT verification, OAuth or MCP server executed",
+    "Initial renderer path error corrected and checks rerun successfully"
+  ],
+  "published": false
+}
