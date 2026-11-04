@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-04",
+  "lesson_characters": 17728,
+  "tests_passed": 12,
+  "validator": "jsonschema 4.26.0",
+  "deterministic_render": true,
+  "single_h1": true,
+  "unique_paragraphs_within_chapter": true,
+  "repository_destination_blocked": true,
+  "visual_review": false,
+  "independent_review": false,
+  "published": false,
+  "limits": [
+    "Synthetic reference in memory; no OCR, LLM, concurrency or payment integration",
+    "Course incomplete; chapter 02 pending"
+  ]
+}

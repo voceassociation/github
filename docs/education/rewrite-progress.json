@@ -3,7 +3,7 @@
   "updated_on": "2026-11-04",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "af31a251577d91c3e39a8a3a2077a5c11e8e42e6",
+  "base_head_read": "8ed42ff5bc9879c40aad61a7e365b8e71bebb81a",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 90,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 89,
     "preserved_by_selection": 30,
     "eligible_under_20000": 90
   },
@@ -77,66 +77,65 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-029",
-    "title": "Un remboursement ne doit pas être exécuté deux fois",
-    "status": "preserved_draft_above_selection_threshold_not_complete",
-    "lesson_characters": 26162,
-    "measurement": "Normalized chapter-only HTML; bibliography and code excluded; historical editions never summed",
+    "id": "VOCE-AI-030",
+    "title": "Une réponse structurée peut être fausse",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 17728,
+    "measurement": "Normalized teaching chapter only; references, code, metadata and historical editions excluded",
     "selection_before_write": {
-      "main": 7811,
-      "branch": 7811,
-      "saved_chapters": 13330,
+      "main": 7795,
+      "branch": 7795,
+      "baseline_main": 537,
+      "baseline_branch": 537,
+      "saved_chapters": 0,
       "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
-      "branch_commit": "af31a251577d91c3e39a8a3a2077a5c11e8e42e6"
+      "branch_commit": "8ed42ff5bc9879c40aad61a7e365b8e71bebb81a"
     },
     "chapters_written": [
-      "01-intention-et-reprise.html",
-      "02-transaction-et-reconciliation.html"
+      "01-contrat-et-verite.html"
     ],
     "chapters_remaining": [
-      "03 — Intégration prestataire et réception des incidents; non rédigé, conservation prioritaire",
-      "Exercices et revue indépendante restants"
+      "02 — Liaison documentaire, versions de référence et admission transactionnelle",
+      "03 — Réception intégrée, exercices et corrigés"
     ],
     "sources_consulted": [
       {
-        "url": "https://docs.stripe.com/api/idempotent_requests",
+        "url": "https://json-schema.org/draft/2020-12/json-schema-validation",
         "date": "2026-11-04",
-        "scope": "API v1/v2 distinction, saved responses, parameter conflicts and key retention; unpinned documentation"
+        "scope": "Structural validation vocabulary; required, numeric bounds and types; foundational 2022 draft"
       },
       {
-        "url": "https://www.sqlite.org/lang_transaction.html",
+        "url": "https://json-schema.org/understanding-json-schema/reference/object",
         "date": "2026-11-04",
-        "scope": "Sections 2.1 and 2.2; page updated 2026-02-18"
+        "scope": "Properties, Required Properties, Additional Properties"
       }
     ],
     "checks_executed": [
-      "10 Node retry tests passed",
-      "6 SQLite tests passed: ceiling, duplicate rollback, injected failure rollback, reopen, two-connection writer contention, unknown reservation",
-      "Deterministic rendering; single H1; unique paragraphs",
-      "Repository output blocked",
-      "Chapter 01 unchanged against GitHub"
+      "12 local Python tests passed with jsonschema 4.26.0",
+      "Deterministic rendering, single H1, unique paragraphs within chapter",
+      "Repository output blocked"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Sequential provider simulation plus six actual local SQLite transaction tests; structural rendering only",
+      "controlled": "Actual JSON Schema validator and synthetic arithmetic/reference checks; structural rendering only",
       "published": false
     },
     "limits": [
-      "Course incomplete; preserved by selection threshold",
-      "No visual or independent review",
-      "SQLite local tests only; no payment API, webhook authentication, power-loss or distributed failure tests"
+      "Course incomplete; no visual or independent review",
+      "No OCR, LLM, concurrent transaction or payment service tested"
     ],
-    "next_action": "Preserve AI029 above 20000 without expansion or publication as complete. Check AI030 on recent main and saved sources; select only below 20000.",
+    "next_action": "Remeasure AI030 on recent main and saved sources. If below 20000, write chapter 02 — Liaison documentaire, versions de référence et admission transactionnelle. Preserve if threshold reached.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-029/02-transaction-et-reconciliation.html",
-      "content/courses/engineering/VOCE-AI-029/test_transaction.py",
-      "content/courses/engineering/VOCE-AI-029/references.html",
-      "content/courses/engineering/VOCE-AI-029/README.md",
-      "content/courses/engineering/VOCE-AI-029/checks-2026-11-04-ch02.json",
+      "content/courses/engineering/VOCE-AI-030/test_contract.py",
+      "content/courses/engineering/VOCE-AI-030/render_draft.mjs",
+      "content/courses/engineering/VOCE-AI-030/01-contrat-et-verite.html",
+      "content/courses/engineering/VOCE-AI-030/README.md",
+      "content/courses/engineering/VOCE-AI-030/references.html",
+      "content/courses/engineering/VOCE-AI-030/checks-2026-11-04-ch01.json",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ],
-    "batch_new_lesson_characters": 12832
+    "batch_new_lesson_characters": 17728
   },
   "completed_courses": {
     "VOCE-AI-002": {
