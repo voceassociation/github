@@ -1,7 +1,11 @@
-# VOCE-AI-027 — Brouillon incomplet
+# VOCE-AI-027 — Sources préservées
 
-Chapitre 01: protocole et politique métier, cloisonnement des organisations et transition de clôture. 11 897 caractères pédagogiques normalisés, hors code et références. Page main et branche: 7 937 caractères chacune; aucun chapitre distant développé avant cette sauvegarde.
+Chapitres 01 et 02 sauvegardés, brouillon incomplet non publié. 29 492 caractères pédagogiques normalisés (11 897 + 17 595), hors références et code. La priorité du 26 octobre impose désormais la conservation sans allongement à 75 000.
 
-Dix tests Node réussis le 4 novembre 2026; rendu déterministe, H1 unique, paragraphes sans doublon exact, destination interne refusée. Aucun serveur MCP, flux OAuth ou validateur cryptographique exécuté. Contrôle visuel et revue indépendante ouverts. Non publié.
+Le chapitre 03, les exercices et la réception réelle restent absents. Le seuil ne prouve ni achèvement ni qualité.
 
-Reproduction depuis ce dossier: `node --test test_policy.js`; `node render_draft.mjs /tmp/ai027-preview.html`. Prochain chapitre après contrôle du seuil: délégation aval, révocation et cache de décisions.
+## Contrôles du lot
+
+`node test_policy.js`: 10 tests. `node test_delegation.js`: 13 tests synthétiques. Rendu déterministe avec `node render_draft.mjs /tmp/ai027-preview.html`; destination dans le dépôt refusée. Un H1; aucun paragraphe identique entre les deux chapitres. Pas de contrôle visuel, de revue indépendante, de serveur MCP, de protocole OAuth ou de concurrence réelle.
+
+Prochaine sélection: AI-028, après mesure de main récent et des sources sauvegardées. Aucun changement de page publique ni de manifeste de livraison.

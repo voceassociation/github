@@ -3,7 +3,7 @@
   "updated_on": "2026-11-04",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "6ccd7f9becf02f7e5eadc744862712e053471518",
+  "base_head_read": "d724024032ba21cc6a217892f2a244731cf7899e",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 92,
-    "preserved_by_selection": 27,
-    "eligible_under_20000": 93
+    "preserved_by_selection": 28,
+    "eligible_under_20000": 92
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,57 +79,69 @@
   "current_course": {
     "id": "VOCE-AI-027",
     "title": "Un connecteur MCP ne décide pas des droits",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 11897,
+    "status": "preserved_draft_above_selection_threshold_not_complete",
+    "lesson_characters": 29492,
     "measurement": "Normalized chapter-only HTML; bibliography and code excluded; historical editions never summed",
     "selection_before_write": {
       "main": 7937,
       "branch": 7937,
-      "saved_chapters": 0,
+      "saved_chapters": 11897,
       "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
-      "branch_commit": "6ccd7f9becf02f7e5eadc744862712e053471518"
+      "branch_commit": "d724024032ba21cc6a217892f2a244731cf7899e"
     },
     "chapters_written": [
-      "01-protocole-et-politique.html"
+      "01-protocole-et-politique.html",
+      "02-delegation-et-revocation.html"
     ],
     "chapters_remaining": [
-      "02 — Délégation vers les API aval, révocation et cache de décisions",
-      "03 — Transactions et réception d’une intégration réelle"
+      "03 — Transactions et réception d’une intégration réelle; non rédigé, conservation prioritaire",
+      "Exercices et contrôles de livraison restants"
     ],
     "sources_consulted": [
       {
         "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization",
         "date": "2026-10-29",
         "scope": "Purpose and Scope, Roles; pinned specification; no real MCP integration"
+      },
+      {
+        "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization",
+        "date": "2026-11-04",
+        "scope": "Token Handling, Error Handling, Access Token Privilege Restriction; pinned specification"
+      },
+      {
+        "url": "https://www.rfc-editor.org/rfc/rfc8693.html",
+        "date": "2026-11-04",
+        "scope": "Section 2.1 subject/actor and exchange example; no OAuth integration"
       }
     ],
     "checks_executed": [
-      "10 Node tests passed",
+      "23 Node tests passed (10 policy, 13 delegation/cache/sequential commit)",
       "Deterministic filesystem rendering; single H1",
-      "No exact duplicate paragraphs",
-      "Repository destination blocked"
+      "No exact duplicate paragraphs within saved chapters",
+      "Repository destination blocked",
+      "Chapter 01 matches GitHub source byte-for-byte"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Synthetic object authorization and sequential state transitions; counts and structural rendering only",
+      "controlled": "Synthetic permission intersection, expiration, cache dependency and sequential mutation checks; counts and structural rendering only",
       "published": false
     },
     "limits": [
-      "Course incomplete",
+      "Course incomplete; preserved by priority selection threshold",
       "No visual or independent review",
-      "No MCP server, OAuth flow or cryptographic token verification executed; no concurrency tested"
+      "No MCP server, OAuth exchange, cryptographic verification or concurrent database executed"
     ],
-    "next_action": "Remeasure AI027 on main and saved sources. If below 20000, write chapter 02 on downstream delegation, revocation and decision caches; preserve chapter 01.",
+    "next_action": "Preserve AI027 above 20000 without expansion or publication as complete. Check AI028 on recent main and saved sources; select only below 20000.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-027/01-protocole-et-politique.html",
-      "content/courses/engineering/VOCE-AI-027/test_policy.js",
-      "content/courses/engineering/VOCE-AI-027/render_draft.mjs",
+      "content/courses/engineering/VOCE-AI-027/02-delegation-et-revocation.html",
+      "content/courses/engineering/VOCE-AI-027/test_delegation.js",
       "content/courses/engineering/VOCE-AI-027/references.html",
       "content/courses/engineering/VOCE-AI-027/README.md",
-      "content/courses/engineering/VOCE-AI-027/checks-2026-11-04.json",
+      "content/courses/engineering/VOCE-AI-027/checks-2026-11-04-ch02.json",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
-    ]
+    ],
+    "batch_new_lesson_characters": 17595
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -1578,6 +1590,73 @@
         "docs/education/course-selection-20000.json"
       ],
       "batch_new_lesson_characters": 13013
+    },
+    "VOCE-AI-027": {
+      "id": "VOCE-AI-027",
+      "title": "Un connecteur MCP ne décide pas des droits",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 29492,
+      "measurement": "Normalized chapter-only HTML; bibliography and code excluded; historical editions never summed",
+      "selection_before_write": {
+        "main": 7937,
+        "branch": 7937,
+        "saved_chapters": 11897,
+        "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
+        "branch_commit": "d724024032ba21cc6a217892f2a244731cf7899e"
+      },
+      "chapters_written": [
+        "01-protocole-et-politique.html",
+        "02-delegation-et-revocation.html"
+      ],
+      "chapters_remaining": [
+        "03 — Transactions et réception d’une intégration réelle; non rédigé, conservation prioritaire",
+        "Exercices et contrôles de livraison restants"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization",
+          "date": "2026-10-29",
+          "scope": "Purpose and Scope, Roles; pinned specification; no real MCP integration"
+        },
+        {
+          "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization",
+          "date": "2026-11-04",
+          "scope": "Token Handling, Error Handling, Access Token Privilege Restriction; pinned specification"
+        },
+        {
+          "url": "https://www.rfc-editor.org/rfc/rfc8693.html",
+          "date": "2026-11-04",
+          "scope": "Section 2.1 subject/actor and exchange example; no OAuth integration"
+        }
+      ],
+      "checks_executed": [
+        "23 Node tests passed (10 policy, 13 delegation/cache/sequential commit)",
+        "Deterministic filesystem rendering; single H1",
+        "No exact duplicate paragraphs within saved chapters",
+        "Repository destination blocked",
+        "Chapter 01 matches GitHub source byte-for-byte"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Synthetic permission intersection, expiration, cache dependency and sequential mutation checks; counts and structural rendering only",
+        "published": false
+      },
+      "limits": [
+        "Course incomplete; preserved by priority selection threshold",
+        "No visual or independent review",
+        "No MCP server, OAuth exchange, cryptographic verification or concurrent database executed"
+      ],
+      "next_action": "Preserve AI027 above 20000 without expansion or publication as complete. Check AI028 on recent main and saved sources; select only below 20000.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-027/02-delegation-et-revocation.html",
+        "content/courses/engineering/VOCE-AI-027/test_delegation.js",
+        "content/courses/engineering/VOCE-AI-027/references.html",
+        "content/courses/engineering/VOCE-AI-027/README.md",
+        "content/courses/engineering/VOCE-AI-027/checks-2026-11-04-ch02.json",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ],
+      "batch_new_lesson_characters": 17595
     }
   },
   "selection_policy": {
@@ -1611,10 +1690,11 @@
       "VOCE-AI-023",
       "VOCE-AI-024",
       "VOCE-AI-025",
-      "VOCE-AI-026"
+      "VOCE-AI-026",
+      "VOCE-AI-027"
     ],
-    "eligible_count": 93,
-    "main_read": "fedc7bb25540d69167a3df7f5cdfdbb42992e621",
+    "eligible_count": 92,
+    "main_read": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }
 }
