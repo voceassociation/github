@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-04",
+  "lesson_characters": 15474,
+  "tests_passed": 12,
+  "deterministic_render": true,
+  "single_h1": true,
+  "unique_paragraphs_within_chapter": true,
+  "repository_output_blocked": true,
+  "visual_review": false,
+  "independent_review": false,
+  "published": false,
+  "limits": [
+    "Sequential in-memory model only; no concurrency, OAuth, LLM or provider integration",
+    "Course incomplete"
+  ]
+}
