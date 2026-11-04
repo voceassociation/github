@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-04",
+  "course": "VOCE-AI-027",
+  "base_head": "6ccd7f9becf02f7e5eadc744862712e053471518",
+  "selection_before": {
+    "main": 7937,
+    "branch": 7937,
+    "saved_chapters": 0,
+    "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
+    "branch_commit": "6ccd7f9becf02f7e5eadc744862712e053471518"
+  },
+  "lesson_characters": 11897,
+  "tests_passed": 10,
+  "checks": [
+    "10 Node tests passed",
+    "Deterministic filesystem rendering; single H1",
+    "No exact duplicate paragraphs",
+    "Repository destination blocked"
+  ],
+  "limits": [
+    "Course incomplete",
+    "No visual or independent review",
+    "No MCP server, OAuth flow or cryptographic token verification executed; no concurrency tested"
+  ],
+  "published": false,
+  "quality_validated": false
+}
