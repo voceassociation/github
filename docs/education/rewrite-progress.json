@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-04",
+  "updated_on": "2026-11-05",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "214e70addd79474d9d0e5b8e575f1e70a8734112",
+  "base_head_read": "f6e0fd76baf6f32d544c1569fe7dd2fdf78fa9e1",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 88,
-    "preserved_by_selection": 31,
-    "eligible_under_20000": 89
+    "preserved_by_selection": 32,
+    "eligible_under_20000": 88
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,58 +79,64 @@
   "current_course": {
     "id": "VOCE-AI-031",
     "title": "Une chaîne d'agents multiplie les frontières",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 15474,
+    "status": "preserved_draft_above_selection_threshold_not_complete",
+    "lesson_characters": 29288,
     "measurement": "Normalized teaching chapter only; references, code and historical editions excluded",
     "selection_before_write": {
       "main": 7875,
       "branch": 7875,
       "baseline_main": 564,
       "baseline_branch": 564,
-      "saved_chapters": 0,
+      "saved_chapters": 15474,
       "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
-      "branch_commit": "214e70addd79474d9d0e5b8e575f1e70a8734112"
+      "branch_commit": "f6e0fd76baf6f32d544c1569fe7dd2fdf78fa9e1"
     },
     "chapters_written": [
-      "01-delegation-et-budget.html"
+      "01-delegation-et-budget.html",
+      "02-reservation-et-revocation.html"
     ],
     "chapters_remaining": [
-      "02 — Réservations atomiques, révocation des branches et réconciliation des effets",
-      "03 — Réception intégrée, exercices et corrigés"
+      "03 — Réception intégrée, exercices et corrigés; non rédigé, conservation prioritaire"
     ],
     "sources_consulted": [
       {
         "url": "https://www.rfc-editor.org/rfc/rfc8693.html",
         "date": "2026-11-04",
         "scope": "Introduction and section 1.1; delegation versus impersonation; foundational 2020 source"
+      },
+      {
+        "url": "https://www.sqlite.org/lang_transaction.html",
+        "date": "2026-11-04",
+        "scope": "Sections 2.1 and 2.2; page updated 2026-02-18"
       }
     ],
     "checks_executed": [
-      "12 local Python tests passed",
-      "Deterministic rendering; single H1; unique paragraphs within chapter",
-      "Repository output blocked"
+      "20 local Python tests passed, including 8 SQLite budget/revocation tests; rerun 2026-11-05",
+      "Deterministic rendering; single H1; unique paragraphs within chapters",
+      "Repository output blocked",
+      "Chapter 01 unchanged against GitHub"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Sequential in-memory delegation and budget model; structural rendering only",
+      "controlled": "Sequential delegation model and actual local SQLite transactions; structural rendering only",
       "published": false
     },
     "limits": [
-      "Course incomplete; no visual or independent review",
-      "No concurrency, OAuth, LLM or provider integration; reconciliation role assumed trusted"
+      "Course incomplete; preserved by selection threshold",
+      "No visual or independent review",
+      "One mission and direct branches; trusted identities and reconciliation inputs; no provider, OAuth, dispatch integration or distributed failure test"
     ],
-    "next_action": "Remeasure AI031 on recent main and saved sources. If below 20000, write chapter 02 — Réservations atomiques, révocation des branches et réconciliation des effets. Preserve if threshold reached.",
+    "next_action": "Preserve AI031 above 20000 without expansion or publication as complete. Check AI032 on recent main and saved sources; select only below 20000.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-031/render_draft.mjs",
-      "content/courses/engineering/VOCE-AI-031/01-delegation-et-budget.html",
+      "content/courses/engineering/VOCE-AI-031/02-reservation-et-revocation.html",
+      "content/courses/engineering/VOCE-AI-031/test_atomic_budget.py",
       "content/courses/engineering/VOCE-AI-031/README.md",
       "content/courses/engineering/VOCE-AI-031/references.html",
-      "content/courses/engineering/VOCE-AI-031/test_budget.py",
-      "content/courses/engineering/VOCE-AI-031/checks-2026-11-04-ch01.json",
+      "content/courses/engineering/VOCE-AI-031/checks-2026-11-04-ch02.json",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ],
-    "batch_new_lesson_characters": 15474
+    "batch_new_lesson_characters": 13814
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -1842,6 +1848,68 @@
         "docs/education/course-selection-20000.json"
       ],
       "batch_new_lesson_characters": 14659
+    },
+    "VOCE-AI-031": {
+      "id": "VOCE-AI-031",
+      "title": "Une chaîne d'agents multiplie les frontières",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 29288,
+      "measurement": "Normalized teaching chapter only; references, code and historical editions excluded",
+      "selection_before_write": {
+        "main": 7875,
+        "branch": 7875,
+        "baseline_main": 564,
+        "baseline_branch": 564,
+        "saved_chapters": 15474,
+        "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
+        "branch_commit": "f6e0fd76baf6f32d544c1569fe7dd2fdf78fa9e1"
+      },
+      "chapters_written": [
+        "01-delegation-et-budget.html",
+        "02-reservation-et-revocation.html"
+      ],
+      "chapters_remaining": [
+        "03 — Réception intégrée, exercices et corrigés; non rédigé, conservation prioritaire"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://www.rfc-editor.org/rfc/rfc8693.html",
+          "date": "2026-11-04",
+          "scope": "Introduction and section 1.1; delegation versus impersonation; foundational 2020 source"
+        },
+        {
+          "url": "https://www.sqlite.org/lang_transaction.html",
+          "date": "2026-11-04",
+          "scope": "Sections 2.1 and 2.2; page updated 2026-02-18"
+        }
+      ],
+      "checks_executed": [
+        "20 local Python tests passed, including 8 SQLite budget/revocation tests; rerun 2026-11-05",
+        "Deterministic rendering; single H1; unique paragraphs within chapters",
+        "Repository output blocked",
+        "Chapter 01 unchanged against GitHub"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Sequential delegation model and actual local SQLite transactions; structural rendering only",
+        "published": false
+      },
+      "limits": [
+        "Course incomplete; preserved by selection threshold",
+        "No visual or independent review",
+        "One mission and direct branches; trusted identities and reconciliation inputs; no provider, OAuth, dispatch integration or distributed failure test"
+      ],
+      "next_action": "Preserve AI031 above 20000 without expansion or publication as complete. Check AI032 on recent main and saved sources; select only below 20000.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-031/02-reservation-et-revocation.html",
+        "content/courses/engineering/VOCE-AI-031/test_atomic_budget.py",
+        "content/courses/engineering/VOCE-AI-031/README.md",
+        "content/courses/engineering/VOCE-AI-031/references.html",
+        "content/courses/engineering/VOCE-AI-031/checks-2026-11-04-ch02.json",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ],
+      "batch_new_lesson_characters": 13814
     }
   },
   "selection_policy": {
@@ -1879,9 +1947,10 @@
       "VOCE-AI-027",
       "VOCE-AI-028",
       "VOCE-AI-029",
-      "VOCE-AI-030"
+      "VOCE-AI-030",
+      "VOCE-AI-031"
     ],
-    "eligible_count": 89,
+    "eligible_count": 88,
     "main_read": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }
