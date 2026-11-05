@@ -1,5 +1,5 @@
 {
-  "version": "0.5.6",
+  "version": "0.5.7",
   "publication_date": "2026-10-17",
   "courses": [
     {
@@ -4985,24 +4985,30 @@
         "OWASP",
         "NISTGEN"
       ],
-      "version": "0.4.0",
-      "review_status": "OLD_VERSION_NOT_A_COMPLETE_COURSE",
+      "version": "0.5.0",
+      "review_status": "PUBLIC_TEXT_HASH_AND_VOLUME_CHECKED / INDEPENDENT_REVIEW_NOT_PERFORMED",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
       "url": "https://voce.life/cours/voce-ai-053",
-      "publication_status": "UNDER_SUBSTANTIVE_RECONSTRUCTION",
+      "publication_status": "PUBLIC_REWRITTEN_READER_VERIFIED",
       "independent_expert_validated": false,
-      "resource_type": "historical_resource_under_reconstruction",
-      "seo_description": "Définir des limites de négociation. Sujet en reconstruction ; ancienne version exclue du catalogue actif des cours complets.",
+      "resource_type": "developed_written_course",
+      "seo_description": "Contrôler les engagements d'un agent commercial : concessions cumulées, stock, délégations, offre validée et anciennes promesses.",
       "indexing_policy": {
         "eligible": false,
         "robots": "noindex,follow",
         "reason": "introductory_capsule_in_development",
-        "status_note": "Historical policy retained; no robots, canonical or sitemap change performed by this catalogue update."
+        "status_note": "Historical noindex,follow retained. Reader replaced and publicly verified; search-engine indexing is not claimed."
       },
-      "available_languages": [],
-      "date_modified": "2026-10-25",
-      "planned_learning_minutes": null,
+      "available_languages": [
+        "fr"
+      ],
+      "date_modified": "2026-11-05",
+      "planned_learning_minutes": {
+        "min": 210,
+        "max": 210,
+        "basis": "Estimation pédagogique ; sans pilote apprenant"
+      },
       "assessment_id": "VOCE-AI-053-CASE-20261018",
       "content_source": "content/courses/ai-workshops.txt",
       "history": [
@@ -5015,6 +5021,11 @@
           "version": "0.4.0",
           "date": "2026-10-18",
           "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
+        },
+        {
+          "version": "0.5.0",
+          "date": "2026-11-05",
+          "change": "Lecteur français développé publié après autorisation explicite ; 25 851 caractères pédagogiques et article public intégral identiques au manuscrit. Relecture indépendante et pilote non réalisés."
         }
       ],
       "depth_source": "content/courses/ai-depth.txt",
@@ -5024,10 +5035,40 @@
       "learner_pilot": "not_performed",
       "social_release_authorized": false,
       "language_revision_status": {
-        "fr": "under_reconstruction"
+        "fr": "public_reader_text_verified_desktop_visual_checked_mobile_pending"
       },
-      "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 20000
+      "listed_in_active_catalogue": true,
+      "minimum_pedagogical_characters": 20000,
+      "eligible_pedagogical_characters": 25851,
+      "content_hash": "b4a5ebcd35e25606c19497b8a3d0a1e94610959960adbe8e6893ec4e4ee83b84",
+      "public_text_verification": {
+        "date": "2026-11-05",
+        "language": "fr",
+        "sha256": "b4a5ebcd35e25606c19497b8a3d0a1e94610959960adbe8e6893ec4e4ee83b84",
+        "characters": 25851
+      },
+      "source_references": [
+        {
+          "id": "S01",
+          "url": "https://genai.owasp.org/llmrisk/llm062025-excessive-agency/"
+        },
+        {
+          "id": "S02",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032040891/"
+        },
+        {
+          "id": "S03",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032041104/"
+        },
+        {
+          "id": "S04",
+          "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000032040810/"
+        },
+        {
+          "id": "S05",
+          "url": "https://docs.stripe.com/api/idempotent_requests"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-054",
@@ -10643,7 +10684,8 @@
       "VOCE-AI-051",
       "VOCE-AI-052",
       "VOCE-COG-012",
-      "VOCE-NP-002"
+      "VOCE-NP-002",
+      "VOCE-AI-053"
     ],
     "full_text_languages": [
       "fr"
