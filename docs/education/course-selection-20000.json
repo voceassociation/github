@@ -724,14 +724,15 @@
       "title": "Un agent juridique doit exposer le texte applicable",
       "route": "cours/voce-ai-054.html",
       "counts": {
-        "main": 7889,
+        "main": 27775,
         "branch": 7889,
         "saved_chapters": 7410
       },
-      "selection": "eligible",
-      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
-      "branch_commit_checked": "a45b86710b6e53b25ef1fafb2fd9665d1348600d",
-      "checked_on": "2026-11-05"
+      "selection": "preserved",
+      "main_commit_checked": "0d06a947dc9fe8febd5d1c8cfd94be2ccde816dc",
+      "branch_commit_checked": "ef6293378bd9bc7d828bbaaf9c61b6f91d31706a",
+      "checked_on": "2026-11-05",
+      "main_measurement": "17 numbered instructional sections; excludes administrative wrapper, Sources comparées and bibliography."
     },
     {
       "id": "VOCE-AI-055",
@@ -740,9 +741,12 @@
       "counts": {
         "main": 7746,
         "branch": 7746,
-        "saved_chapters": 0
+        "saved_chapters": 10214
       },
-      "selection": "eligible"
+      "selection": "eligible",
+      "main_commit_checked": "0d06a947dc9fe8febd5d1c8cfd94be2ccde816dc",
+      "branch_commit_checked": "ef6293378bd9bc7d828bbaaf9c61b6f91d31706a",
+      "checked_on": "2026-11-05"
     },
     {
       "id": "VOCE-AI-056",

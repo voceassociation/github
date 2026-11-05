@@ -3,7 +3,7 @@
   "updated_on": "2026-11-05",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "a45b86710b6e53b25ef1fafb2fd9665d1348600d",
+  "base_head_read": "ef6293378bd9bc7d828bbaaf9c61b6f91d31706a",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -63,9 +63,9 @@
     "rewritten_editions": 2,
     "fully_reviewed": 0,
     "in_progress": 1,
-    "not_started_in_this_rewrite": 65,
-    "preserved_by_selection": 54,
-    "eligible_under_20000": 66
+    "not_started_in_this_rewrite": 64,
+    "preserved_by_selection": 55,
+    "eligible_under_20000": 65
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -77,52 +77,53 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-054",
-    "title": "Un agent juridique doit exposer le texte applicable",
+    "id": "VOCE-AI-055",
+    "title": "Un robot réussi en laboratoire peut échouer au poste",
     "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 7410,
-    "batch_new_lesson_characters": 7410,
-    "measurement": "Normalized lesson fragment excluding references and code",
+    "lesson_characters": 10214,
+    "batch_new_lesson_characters": 10214,
+    "measurement": "Texte normalisé de la section lesson seule, espaces compris.",
     "selection_before_write": {
-      "main": 7889,
-      "branch": 7889,
-      "baseline_main": 560,
-      "baseline_branch": 560,
+      "main": 7746,
+      "branch": 7746,
+      "baseline_main": 548,
+      "baseline_branch": 548,
       "saved_chapters": 0,
-      "main_commit": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
-      "branch_commit": "a45b86710b6e53b25ef1fafb2fd9665d1348600d"
+      "main_commit": "0d06a947dc9fe8febd5d1c8cfd94be2ccde816dc",
+      "branch_commit": "ef6293378bd9bc7d828bbaaf9c61b6f91d31706a"
     },
     "chapters_written": [
-      "01-texte-date-et-rattachement.html"
+      "01-du-bac-au-logement.html"
     ],
     "chapters_remaining": [
-      "02 — Versions concurrentes, modifications et dispositions transitoires",
-      "03 — Réception par proposition et dossiers contradictoires, exercices et corrigés"
+      "02 — Fonds de bac, reprises et débit par équipe",
+      "03 — Qualification du changement de lot, exercices et corrigés"
     ],
     "sources_consulted": [
       {
-        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679",
+        "url": "https://www.nist.gov/publications/gauging-error-pose-acquired-vision-systems-bin-picking-applications",
         "date": "2026-11-05",
-        "scope": "Articles 3(1), 3(2), 99 and recital 23, original text for historical example"
+        "scope": "Résumé des auteurs, mesure de pose et symétrie axiale"
       }
     ],
     "checks_executed": [
-      "Normalized selection and lesson text measured",
-      "Two identical local renders; lesson and references separated"
+      "Mesures des deux pages, capsules et sources sauvegardées",
+      "Comparaison octet par octet de deux rendus locaux",
+      "Assertions Python sur le bilan de pièces et cycles, les deux déplacements géométriques et les deux taux par mélange"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Volume and deterministic structural rendering",
+      "controlled": "Volume, calculs et reproductibilité du rendu local",
       "published": false
     },
     "limits": [
-      "Incomplete; no agent evaluated; independent legal review and visual check open"
+      "Données fictives, aucun essai physique, revue métier et contrôle visuel ouverts."
     ],
-    "next_action": "Remesurer AI-054 sur main et dans les sources sauvegardées. Si éligible, rédiger 02 — Versions concurrentes, modifications et dispositions transitoires.",
+    "next_action": "Remesurer AI-055 sur main et dans les sources sauvegardées. Si éligible, rédiger le chapitre 02 — Fonds de bac, reprises et débit par équipe.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-054/01-texte-date-et-rattachement.html",
-      "content/courses/engineering/VOCE-AI-054/references.html",
-      "content/courses/engineering/VOCE-AI-054/render_draft.py",
+      "content/courses/engineering/VOCE-AI-055/01-du-bac-au-logement.html",
+      "content/courses/engineering/VOCE-AI-055/references.html",
+      "content/courses/engineering/VOCE-AI-055/render_draft.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
@@ -2203,6 +2204,64 @@
         "saved_chapters": 17951,
         "branch_commit": "a45b86710b6e53b25ef1fafb2fd9665d1348600d"
       }
+    },
+    "VOCE-AI-054": {
+      "id": "VOCE-AI-054",
+      "title": "Un agent juridique doit exposer le texte applicable",
+      "status": "preserved_draft_main_above_selection_threshold_not_complete",
+      "lesson_characters": 7410,
+      "batch_new_lesson_characters": 7410,
+      "measurement": "Normalized lesson fragment excluding references and code",
+      "selection_before_write": {
+        "main": 7889,
+        "branch": 7889,
+        "baseline_main": 560,
+        "baseline_branch": 560,
+        "saved_chapters": 0,
+        "main_commit": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+        "branch_commit": "a45b86710b6e53b25ef1fafb2fd9665d1348600d"
+      },
+      "chapters_written": [
+        "01-texte-date-et-rattachement.html"
+      ],
+      "chapters_remaining": [
+        "02 — Versions concurrentes, modifications et dispositions transitoires",
+        "03 — Réception par proposition et dossiers contradictoires, exercices et corrigés"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679",
+          "date": "2026-11-05",
+          "scope": "Articles 3(1), 3(2), 99 and recital 23, original text for historical example"
+        }
+      ],
+      "checks_executed": [
+        "Normalized selection and lesson text measured",
+        "Two identical local renders; lesson and references separated"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Volume and deterministic structural rendering",
+        "published": false
+      },
+      "limits": [
+        "Incomplete; no agent evaluated; independent legal review and visual check open"
+      ],
+      "next_action": "Conserver le brouillon. Aucun chapitre supplémentaire.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-054/01-texte-date-et-rattachement.html",
+        "content/courses/engineering/VOCE-AI-054/references.html",
+        "content/courses/engineering/VOCE-AI-054/render_draft.py",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ],
+      "preservation_check": {
+        "main": 27775,
+        "branch": 7889,
+        "saved_chapters": 7410,
+        "main_commit": "0d06a947dc9fe8febd5d1c8cfd94be2ccde816dc",
+        "branch_commit": "ef6293378bd9bc7d828bbaaf9c61b6f91d31706a"
+      }
     }
   },
   "selection_policy": {
@@ -2263,10 +2322,11 @@
       "VOCE-AI-050",
       "VOCE-AI-051",
       "VOCE-AI-052",
-      "VOCE-AI-053"
+      "VOCE-AI-053",
+      "VOCE-AI-054"
     ],
-    "eligible_count": 66,
-    "main_read": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+    "eligible_count": 65,
+    "main_read": "0d06a947dc9fe8febd5d1c8cfd94be2ccde816dc",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }
 }
