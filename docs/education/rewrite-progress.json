@@ -3,7 +3,7 @@
   "updated_on": "2026-11-05",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "5c47a07fe0a362622d50db5bc25ba3f450d644c9",
+  "base_head_read": "0249a7fdd86ceb7a9fbfaa989c098d04b6b28417",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 63,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 62,
     "preserved_by_selection": 57,
     "eligible_under_20000": 63
   },
@@ -78,8 +78,60 @@
   },
   "current_course": {
     "id": "VOCE-AI-057",
-    "status": "pending_selection",
-    "next_action": "Mesurer les pages et les sources sauvegardées de VOCE-AI-057 avant sélection."
+    "title": "Les données de téléopération portent des choix humains",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 10577,
+    "batch_new_lesson_characters": 10577,
+    "measurement": "Texte normalisé du bloc lesson, espaces compris.",
+    "selection_before_write": {
+      "main": 7942,
+      "branch": 7942,
+      "baseline_main": 577,
+      "baseline_branch": 577,
+      "saved_chapters": 0,
+      "main_commit": "0d06a947dc9fe8febd5d1c8cfd94be2ccde816dc",
+      "branch_commit": "0249a7fdd86ceb7a9fbfaa989c098d04b6b28417"
+    },
+    "chapters_written": [
+      "01-du-geste-a-la-cible.html"
+    ],
+    "chapters_remaining": [
+      "02 — Séparer opérateurs, sessions et familles de tiroirs dans les essais de transfert",
+      "03 — Réception des récupérations et des exclusions, exercices et corrigés"
+    ],
+    "sources_consulted": [
+      {
+        "url": "https://droid-dataset.github.io/",
+        "date": "2026-11-05",
+        "scope": "DROID, version des calibrations en avril 2025"
+      },
+      {
+        "url": "https://behavior.stanford.edu/challenge/archive/2025/dataset.html",
+        "date": "2026-11-05",
+        "scope": "BEHAVIOR 2025, efforts articulaires au rejeu"
+      }
+    ],
+    "checks_executed": [
+      "Mesures de sélection sur les deux branches et de la nouvelle section pédagogique",
+      "Assertions Python sur le limiteur, les deux appariements temporels, les minimiseurs quadratiques et le ratio sans reprise",
+      "Deux rendus locaux identiques octet par octet"
+    ],
+    "states": {
+      "saved": "This branch commit",
+      "controlled": "Volume, calculs et déterminisme du rendu",
+      "published": false
+    },
+    "limits": [
+      "Trajectoires fictives. Aucun essai de robot, contrôle visuel et revue indépendante ouverts."
+    ],
+    "next_action": "Remesurer AI-057 sur main et dans les sources sauvegardées. Si éligible, rédiger 02 — Séparer opérateurs, sessions et familles de tiroirs dans les essais de transfert.",
+    "files_recorded_in_this_batch": [
+      "content/courses/engineering/VOCE-AI-057/01-du-geste-a-la-cible.html",
+      "content/courses/engineering/VOCE-AI-057/references.html",
+      "content/courses/engineering/VOCE-AI-057/render_draft.py",
+      "docs/education/rewrite-progress.json",
+      "docs/education/course-selection-20000.json"
+    ]
   },
   "completed_courses": {
     "VOCE-AI-002": {
