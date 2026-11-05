@@ -3,7 +3,7 @@
   "updated_on": "2026-11-05",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "5214efd2dea247a39f0dd819d28874c850f75b0a",
+  "base_head_read": "1c26343f35c394474e39c0fb3a6ab4c72263fb42",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 64,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 63,
     "preserved_by_selection": 56,
     "eligible_under_20000": 64
   },
@@ -78,8 +78,55 @@
   },
   "current_course": {
     "id": "VOCE-AI-056",
-    "status": "pending_selection",
-    "next_action": "Mesurer les pages de VOCE-AI-056 et les sources sauvegardées avant toute sélection."
+    "title": "La simulation laisse des inconnues au réel",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 10256,
+    "batch_new_lesson_characters": 10256,
+    "measurement": "Texte normalisé du seul bloc lesson",
+    "selection_before_write": {
+      "main": 7805,
+      "branch": 7805,
+      "baseline_main": 566,
+      "baseline_branch": 566,
+      "saved_chapters": 0,
+      "main_commit": "0d06a947dc9fe8febd5d1c8cfd94be2ccde816dc",
+      "branch_commit": "1c26343f35c394474e39c0fb3a6ab4c72263fb42"
+    },
+    "chapters_written": [
+      "01-deux-modeles-un-point-arret.html"
+    ],
+    "chapters_remaining": [
+      "02 — Rejouer les traces de commande et distinguer retard fixe et gigue",
+      "03 — Réception du transfert sur des trajectoires réservées, exercices et corrigés"
+    ],
+    "sources_consulted": [
+      {
+        "url": "https://xbpeng.github.io/projects/SimToReal/SimToReal_2018.pdf",
+        "date": "2026-11-05",
+        "scope": "Randomisation des dynamiques pour une tâche de poussée"
+      }
+    ],
+    "checks_executed": [
+      "Mesures de sélection sur les deux branches",
+      "Assertions Python sur cinq distances d’arrêt, position intermédiaire, bornes de décélération et intégration à pas discret",
+      "Deux rendus locaux identiques octet par octet"
+    ],
+    "states": {
+      "saved": "This branch commit",
+      "controlled": "Volume, calculs et déterminisme du rendu",
+      "published": false
+    },
+    "limits": [
+      "Cas analytique fictif, aucun essai physique, relecture indépendante et contrôle visuel ouverts"
+    ],
+    "next_action": "Remesurer AI-056 sur main et dans les sources sauvegardées. Si éligible, rédiger 02 — Rejouer les traces de commande et distinguer retard fixe et gigue.",
+    "files_recorded_in_this_batch": [
+      "content/courses/engineering/VOCE-AI-056/01-deux-modeles-un-point-arret.html",
+      "content/courses/engineering/VOCE-AI-056/references.html",
+      "content/courses/engineering/VOCE-AI-056/render_draft.py",
+      "docs/education/rewrite-progress.json",
+      "docs/education/course-selection-20000.json"
+    ]
   },
   "completed_courses": {
     "VOCE-AI-002": {
