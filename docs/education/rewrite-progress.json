@@ -3,7 +3,7 @@
   "updated_on": "2026-11-05",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "229ccb973919cecab00a376b80d0463977407c8e",
+  "base_head_read": "ade6b07f4ecb8e8cd2120fd8dcdb9e8b907e371a",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 87,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 86,
     "preserved_by_selection": 33,
     "eligible_under_20000": 87
   },
@@ -77,66 +77,60 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-032",
-    "title": "La mémoire d'un agent peut contaminer demain",
-    "status": "preserved_draft_above_selection_threshold_not_complete",
-    "lesson_characters": 28621,
+    "id": "VOCE-AI-033",
+    "title": "Les journaux doivent reconstruire une décision",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 15188,
     "measurement": "Normalized teaching chapter only; references, code and historical editions excluded",
     "selection_before_write": {
-      "main": 7765,
-      "branch": 7765,
-      "baseline_main": 558,
-      "baseline_branch": 558,
-      "saved_chapters": 15388,
+      "main": 7965,
+      "branch": 7965,
+      "baseline_main": 583,
+      "baseline_branch": 583,
+      "saved_chapters": 0,
       "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
-      "branch_commit": "229ccb973919cecab00a376b80d0463977407c8e"
+      "branch_commit": "ade6b07f4ecb8e8cd2120fd8dcdb9e8b907e371a"
     },
     "chapters_written": [
-      "01-admission-et-provenance.html",
-      "02-retrait-et-derivations.html"
+      "01-evenements-et-preuves.html"
     ],
     "chapters_remaining": [
-      "03 — Réception des attaques persistantes, exercices et corrigés; non rédigé, conservation prioritaire"
+      "02 — Collecte durable, détection des trous et intégrité des traces",
+      "03 — Réception des reprises, exercices et corrigés"
     ],
     "sources_consulted": [
       {
-        "url": "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html",
         "date": "2026-11-05",
-        "scope": "Introduction and impacts; persistent manipulation across sessions; unpinned online documentation"
-      },
-      {
-        "url": "https://www.sqlite.org/isolation.html",
-        "date": "2026-11-05",
-        "scope": "Isolation Between Database Connections and Isolation And Concurrency; WAL snapshots; foundational documentation"
+        "scope": "Event attributes; interaction identifiers and event versus log time"
       }
     ],
     "checks_executed": [
-      "20 local Python tests passed, including 7 SQLite lifecycle tests",
-      "Deterministic rendering; single H1; unique paragraphs within chapters",
-      "Repository output blocked",
-      "Chapter 01 unchanged against GitHub"
+      "11 local Python tests passed",
+      "Deterministic rendering; single H1; unique paragraphs within chapter",
+      "Repository output blocked"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Admission predicates and actual local SQLite lifecycle/snapshot tests; structural rendering only",
+      "controlled": "Synthetic single-intention reconstruction and structural rendering",
       "published": false
     },
     "limits": [
-      "Course incomplete; preserved by selection threshold",
-      "No visual or independent review",
-      "Single-parent publication; no vector engine, LLM, backup restoration, remote session or power-loss test"
+      "Course incomplete; no visual or independent review",
+      "No authenticated producer, collector, durable storage or LLM tested"
     ],
-    "next_action": "Preserve AI032 above 20000 without expansion or publication as complete. Check AI033 on recent main and saved sources; select only below 20000.",
+    "next_action": "Remeasure AI033 on recent main and saved sources. If below 20000, write chapter 02 — Collecte durable, détection des trous et intégrité des traces. Preserve if threshold reached.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-032/02-retrait-et-derivations.html",
-      "content/courses/engineering/VOCE-AI-032/test_withdrawal.py",
-      "content/courses/engineering/VOCE-AI-032/README.md",
-      "content/courses/engineering/VOCE-AI-032/references.html",
-      "content/courses/engineering/VOCE-AI-032/checks-2026-11-05-ch02.json",
+      "content/courses/engineering/VOCE-AI-033/render_draft.mjs",
+      "content/courses/engineering/VOCE-AI-033/README.md",
+      "content/courses/engineering/VOCE-AI-033/01-evenements-et-preuves.html",
+      "content/courses/engineering/VOCE-AI-033/checks-2026-11-05-ch01.json",
+      "content/courses/engineering/VOCE-AI-033/references.html",
+      "content/courses/engineering/VOCE-AI-033/test_trace.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ],
-    "batch_new_lesson_characters": 13233
+    "batch_new_lesson_characters": 15188
   },
   "completed_courses": {
     "VOCE-AI-002": {

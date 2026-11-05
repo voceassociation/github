@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-05",
+  "lesson_characters": 15188,
+  "tests_passed": 11,
+  "deterministic_render": true,
+  "single_h1": true,
+  "unique_paragraphs_within_chapter": true,
+  "repository_output_blocked": true,
+  "visual_review": false,
+  "independent_review": false,
+  "published": false,
+  "limits": [
+    "Single-intention decoded synthetic events; no authentication, collector, persistence or LLM integration",
+    "Course incomplete"
+  ]
+}
