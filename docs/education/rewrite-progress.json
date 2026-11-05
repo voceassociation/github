@@ -3,7 +3,7 @@
   "updated_on": "2026-11-05",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "f6e0fd76baf6f32d544c1569fe7dd2fdf78fa9e1",
+  "base_head_read": "2959a904d1a6172615d753b95d4eb8b92cdc823b",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 88,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 87,
     "preserved_by_selection": 32,
     "eligible_under_20000": 88
   },
@@ -77,66 +77,60 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-031",
-    "title": "Une chaîne d'agents multiplie les frontières",
-    "status": "preserved_draft_above_selection_threshold_not_complete",
-    "lesson_characters": 29288,
+    "id": "VOCE-AI-032",
+    "title": "La mémoire d'un agent peut contaminer demain",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 15388,
     "measurement": "Normalized teaching chapter only; references, code and historical editions excluded",
     "selection_before_write": {
-      "main": 7875,
-      "branch": 7875,
-      "baseline_main": 564,
-      "baseline_branch": 564,
-      "saved_chapters": 15474,
+      "main": 7765,
+      "branch": 7765,
+      "baseline_main": 558,
+      "baseline_branch": 558,
+      "saved_chapters": 0,
       "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
-      "branch_commit": "f6e0fd76baf6f32d544c1569fe7dd2fdf78fa9e1"
+      "branch_commit": "2959a904d1a6172615d753b95d4eb8b92cdc823b"
     },
     "chapters_written": [
-      "01-delegation-et-budget.html",
-      "02-reservation-et-revocation.html"
+      "01-admission-et-provenance.html"
     ],
     "chapters_remaining": [
-      "03 — Réception intégrée, exercices et corrigés; non rédigé, conservation prioritaire"
+      "02 — Retrait concurrent, invalidation des résumés et reconstruction des index",
+      "03 — Réception des attaques persistantes, exercices et corrigés"
     ],
     "sources_consulted": [
       {
-        "url": "https://www.rfc-editor.org/rfc/rfc8693.html",
-        "date": "2026-11-04",
-        "scope": "Introduction and section 1.1; delegation versus impersonation; foundational 2020 source"
-      },
-      {
-        "url": "https://www.sqlite.org/lang_transaction.html",
-        "date": "2026-11-04",
-        "scope": "Sections 2.1 and 2.2; page updated 2026-02-18"
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html",
+        "date": "2026-11-05",
+        "scope": "Introduction and impacts; persistent manipulation across sessions; unpinned online documentation"
       }
     ],
     "checks_executed": [
-      "20 local Python tests passed, including 8 SQLite budget/revocation tests; rerun 2026-11-05",
-      "Deterministic rendering; single H1; unique paragraphs within chapters",
-      "Repository output blocked",
-      "Chapter 01 unchanged against GitHub"
+      "13 local Python tests passed",
+      "Deterministic rendering; single H1; unique paragraphs within chapter",
+      "Repository output blocked"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Sequential delegation model and actual local SQLite transactions; structural rendering only",
+      "controlled": "Synthetic admission and selection predicates; structural rendering only",
       "published": false
     },
     "limits": [
-      "Course incomplete; preserved by selection threshold",
-      "No visual or independent review",
-      "One mission and direct branches; trusted identities and reconciliation inputs; no provider, OAuth, dispatch integration or distributed failure test"
+      "Course incomplete; no visual or independent review",
+      "No LLM, vector engine, persistent storage or concurrent withdrawal tested"
     ],
-    "next_action": "Preserve AI031 above 20000 without expansion or publication as complete. Check AI032 on recent main and saved sources; select only below 20000.",
+    "next_action": "Remeasure AI032 on recent main and saved sources. If below 20000, write chapter 02 — Retrait concurrent, invalidation des résumés et reconstruction des index. Preserve if threshold reached.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-031/02-reservation-et-revocation.html",
-      "content/courses/engineering/VOCE-AI-031/test_atomic_budget.py",
-      "content/courses/engineering/VOCE-AI-031/README.md",
-      "content/courses/engineering/VOCE-AI-031/references.html",
-      "content/courses/engineering/VOCE-AI-031/checks-2026-11-04-ch02.json",
+      "content/courses/engineering/VOCE-AI-032/README.md",
+      "content/courses/engineering/VOCE-AI-032/01-admission-et-provenance.html",
+      "content/courses/engineering/VOCE-AI-032/test_memory.py",
+      "content/courses/engineering/VOCE-AI-032/references.html",
+      "content/courses/engineering/VOCE-AI-032/checks-2026-11-05-ch01.json",
+      "content/courses/engineering/VOCE-AI-032/render_draft.mjs",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ],
-    "batch_new_lesson_characters": 13814
+    "batch_new_lesson_characters": 15388
   },
   "completed_courses": {
     "VOCE-AI-002": {
