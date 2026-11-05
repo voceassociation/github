@@ -1,5 +1,990 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>VOCE Academy</title><link>https://voce.life/archive</link><description>The 50 latest VOCE publications, with full original text and permanent URLs. The complete corpus remains available at https://voce.life/data/corpus.json and https://voce.life/data/corpus.ndjson.</description><language>fr</language><lastBuildDate>Thu, 05 Nov 2026 22:12:37 +0000</lastBuildDate><item><title>La Chine dépasse l'Allemagne dans les machines-outils. L'Europe risque de perdre les machines qui fabriquent ses usines</title><link>https://voce.life/archive/2026/11/04/la-chine-depasse-l-allemagne-dans-les-machines-outils-l-europe-risque-de-7523836678365421568</link><guid isPermaLink="true">https://voce.life/archive/2026/11/04/la-chine-depasse-l-allemagne-dans-les-machines-outils-l-europe-risque-de-7523836678365421568</guid><author>VOCE Association</author><description>La Chine dépasse l'Allemagne dans les machines-outils. L'Europe risque de perdre les machines qui fabriquent ses usines
+<rss version="2.0"><channel><title>VOCE Academy</title><link>https://voce.life/archive</link><description>The 50 latest VOCE publications, with full original text and permanent URLs. The complete corpus remains available at https://voce.life/data/corpus.json and https://voce.life/data/corpus.ndjson.</description><language>fr</language><lastBuildDate>Thu, 05 Nov 2026 22:13:13 +0000</lastBuildDate><item><title>Workday: l’agent RH peut agir avant même l’ouverture du poste</title><link>https://voce.life/archive/2026/11/05/workday-lagent-rh-peut-agir-avant-meme-louverture-du-poste-7524108433646686208</link><guid isPermaLink="true">https://voce.life/archive/2026/11/05/workday-lagent-rh-peut-agir-avant-meme-louverture-du-poste-7524108433646686208</guid><author>VOCE Association</author><description>Workday: l’agent RH peut agir avant même l’ouverture du poste
+
+13 octobre 2026.
+
+Workday présente Talent Acquisition Agent et emploie un mot encore rare dans les logiciels RH: "autopilot".
+
+L’agent surveille les recrutements, détecte les postes dont le pipeline devient insuffisant, recherche des candidats, remonte qualifications et lacunes, prépare le sourcing, coordonne les entretiens et mémorise certaines préférences du recruteur.
+
+Workday indique même qu’il peut commencer avant l’ouverture d’un poste. Ces capacités sont en early access, avec disponibilité générale prévue début 2027.
+
+Six jours plus tôt, un autre dossier Workday avançait devant la justice californienne.
+
+Le 7 octobre, dans Mobley v. Workday, la magistrate Laurel Beeler autorise Workday à déposer 15 des 38 candidats ayant fourni des déclarations pour une demande de certification collective. Les plaignants soutiennent que des outils de screening de Workday ont défavorisé des candidats de 40 ans et plus.
+
+Les deux dossiers doivent être séparés.
+
+Talent Acquisition Agent n’est pas le système visé par cette procédure et aucune décision n’établit qu’il discrimine.
+
+Mais leur proximité révèle un déplacement majeur.
+
+L’algorithme RH ne sert plus seulement à évaluer celui qui postule. Un agent peut déterminer quels profils rechercher, lesquels faire remonter, dans quel ordre les présenter, quelles lacunes signaler et quand solliciter le recruteur.
+
+L’humain peut donc conserver le dernier mot tout en choisissant dans un univers que la machine a déjà construit.
+
+C’est là que l’audit change de nature.
+
+Comprendre pourquoi un candidat a été rejeté ne suffit plus. Il faut aussi reconstruire pourquoi d’autres n’ont jamais été proposés, quelles règles de ranking ont modifié leur visibilité, quelles préférences mémorisées ont influencé le sourcing et quels événements ont déclenché l’intervention humaine.
+
+ULTRA®
+
+Dans un recrutement agentique, l’objet d’audit devient une chaîne: retrieval des profils, filtres d’éligibilité, ranking, génération d’actions, mémoire utilisateur, orchestration et seuils d’escalade. Il faut donc journaliser non seulement la décision, mais les candidats considérés, exclus ou reclassés, la version des modèles et règles, les proxys utilisés, les changements de mémoire et le moment où l’humain reprend la main.
+
+Sans cette observabilité, une entreprise peut prouver qu’un recruteur a validé la décision finale sans pouvoir montrer comment son univers de choix a été construit.
+
+Le pouvoir algorithmique le plus difficile à contester n’est peut-être pas celui qui dit "non".
+
+C’est celui qui décide silencieusement qui aura la possibilité d’être vu.
+
+LI!GHT WORKFORCE ©
+
+L’autonomie se mesure aussi au périmètre de réalité préparé par l’agent avant l’intervention humaine.
+
+Sources
+
+Workday, 13 octobre 2026
+U.S. District Court, N.D. California, Mobley v. Workday, 7 octobre 2026
+
+#VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7524108433646686208/">Linkedin</source></item><item><title>Vos petits-enfants ne ressentiront peut-être pas vos souvenirs comme vous les avez vécus</title><link>https://voce.life/archive/2026/11/05/vos-petits-enfants-ne-ressentiront-peut-etre-pas-vos-souvenirs-comme-vou-7524214141251846145</link><guid isPermaLink="true">https://voce.life/archive/2026/11/05/vos-petits-enfants-ne-ressentiront-peut-etre-pas-vos-souvenirs-comme-vou-7524214141251846145</guid><author>VOCE Association</author><description>Vos petits-enfants ne ressentiront peut-être pas vos souvenirs comme vous les avez vécus
+
+En 2026, quatre chercheurs belges observent une différence troublante entre les histoires familiales racontées et celles que les générations suivantes disent retenir.
+
+David Baudet, Christine Bastin, Olivier Luminet et Aline Cordonnier publient dans Memory une recherche en trois études sur la transmission émotionnelle des souvenirs.
+
+Le protocole évite une illusion fréquente.
+
+Dans une première étude, 57 binômes parent-enfant participent. Dans une deuxième, 54 binômes grand-parent-petit-enfant. Les transmetteurs choisissent trois souvenirs importants déjà racontés à leur proche. Les receveurs sélectionnent indépendamment des histoires entendues de cette même personne.
+
+Les chercheurs ne suivent donc pas le même souvenir en train de se transformer.
+
+Ils comparent ce que chaque génération considère comme digne d'être transmis ou retenu.
+
+Un résultat apparaît dans les deux groupes: ceux qui ont vécu les événements leur attribuent davantage d'intensité émotionnelle que ceux qui les connaissent par récit.
+
+Puis la comparaison change d'échelle.
+
+Les grands-parents sélectionnent des histoires moins négatives que les parents. Les jeunes adultes qui se souviennent d'histoires de leurs grands-parents leur associent davantage d'admiration, de bonheur, de fierté et de respect que ceux qui se souviennent d'histoires parentales.
+
+Le troisième volet réunit les deux échantillons. Les familles ne sont pas les mêmes: il ne s'agit donc pas d'une chaîne grand-parent → parent → enfant suivie dans le temps.
+
+Une grand-mère peut raconter une période de privation en pensant transmettre l'épreuve. Son petit-enfant peut retenir surtout le courage.
+
+Cet exemple illustre le mécanisme; il n'est pas un cas rapporté dans l'étude.
+
+La mémoire familiale n'est donc pas une copie réduite de l'expérience originale.
+
+Elle est aussi une sélection opérée par celui qui écoute.
+
+ULTRA®
+
+La distinction technique est essentielle: cette recherche mesure une transmission sélective et une rétention sélective, pas la transformation causale d'un souvenir identique.
+
+Le protocole capture deux filtres. Le premier appartient au narrateur: parmi des milliers d'événements, lesquels choisit-il de raconter? Le second appartient au descendant: parmi les histoires entendues, lesquelles deviennent assez importantes pour être rappelées?
+
+L'émotion observée à l'arrivée combine donc expérience vécue, choix narratif et choix mnésique.
+
+C'est une limite pour les archives familiales numériques. Enregistrer chaque parole d'un grand-parent peut préserver le matériau, jamais garantir ce qui deviendra héritage.
+
+ANTIGONE
+
+Nous transmettons des histoires. Ceux qui viennent après nous décident lesquelles deviendront mémoire.
+
+Sources
+
+Baudet, Bastin, Luminet &amp; Cordonnier, Memory, 2026, "Lost in transmission? Comparing emotional profiles in transmitted vs. remembered family memories"
+
+#VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7524214141251846145/">Linkedin</source></item><item><title>Une matière vient de lire de l'ADN et de fabriquer elle-même son mouvement</title><link>https://voce.life/archive/2026/11/05/une-matiere-vient-de-lire-de-l-adn-et-de-fabriquer-elle-meme-son-mouveme-7523957439122255874</link><guid isPermaLink="true">https://voce.life/archive/2026/11/05/une-matiere-vient-de-lire-de-l-adn-et-de-fabriquer-elle-meme-son-mouveme-7523957439122255874</guid><author>VOCE Association</author><description>Une matière vient de lire de l'ADN et de fabriquer elle-même son mouvement
+
+8 octobre 2026.
+
+Au Weizmann Institute, une couche de microtubules de 3,3 millimètres reste d'abord immobile.
+
+Puis elle se plisse.
+
+Des cloques d'environ 50 micromètres apparaissent, se rompent, et le matériau commence à circuler sur lui-même.
+
+Aucun moteur n'a été ajouté au départ.
+
+Il vient d'être fabriqué à l'intérieur du matériau à partir d'une instruction ADN.
+
+Rochelle Silverman, Erez Zerbib, David Garenne, Vincent Noireaux, Alexandra Tayar et leurs collègues, entre Israël et l'University of Minnesota, combinent un réseau dense de microtubules avec un système acellulaire de transcription-traduction.
+
+L'ADN code une kinésine.
+
+À mesure que cette protéine est produite, les moteurs s'assemblent, relient des microtubules voisins et les font glisser les uns contre les autres.
+
+L'information génétique devient contrainte mécanique.
+
+La concentration d'ADN règle même le moment où la matière s'active: environ sept heures aux faibles concentrations, jusqu'à 45 minutes aux plus élevées.
+
+Puis les chercheurs programment son comportement.
+
+L'expression continue de kinésine produit un écoulement durable.
+
+L'ajout du réticulateur PRC1 peut conduire à une impulsion puis à l'arrêt.
+
+Enfin, une boucle génétique de rétroaction négative fait osciller production du moteur et mouvement avec une période proche de trente minutes.
+
+Le matériau n'est pas vivant.
+
+Il n'a ni cellule, ni cerveau, ni processeur.
+
+Mais son ADN fabrique une partie de la machinerie qui modifie ensuite son état mécanique.
+
+C'est le basculement.
+
+Dans une machine classique, le programme commande un moteur déjà construit.
+
+Ici, le programme contribue à fabriquer le moteur dans la matière elle-même.
+
+ULTRA®
+
+Le réseau passe d'une feuille passive à un flambage hors plan, puis à une turbulence active de 0,3 à 0,5 µm/s.
+
+Dans le circuit oscillant, une fusion kinésine-σ28 active le répresseur CI du phage λ. Les protéines portent un tag ssrA permettant leur dégradation par ClpXP.
+
+Le retard entre activation, répression et dégradation crée alors des cycles mécaniques d'environ trente minutes.
+
+Transcription, traduction et renouvellement protéique deviennent ainsi des paramètres de mécanique des matériaux.
+
+Ce travail ne démontre ni un robot autonome ni un implant adaptatif prêt à l'emploi.
+
+Il établit quelque chose de plus fondamental: un circuit génétique peut devenir une couche de contrôle d'une matière active.
+
+Le programme ne commande plus seulement la matière depuis l'extérieur.
+
+Une partie de la commande est fabriquée par elle.
+
+MEFISTOFELE 
+
+Après avoir appris à programmer les machines, nous commençons à écrire des instructions dans la matière qui les exécute.
+
+Sources 2026
+
+Silverman et al., Nature Materials, 8 octobre
+Yang &amp; Thomson, Nature Materials, 20 octobre
+
+#VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7523957439122255874/">Linkedin</source></item><item><title>Ticket Fairy CLI: la billetterie peut travailler pendant que l'équipe dort</title><link>https://voce.life/archive/2026/11/05/ticket-fairy-cli-la-billetterie-peut-travailler-pendant-que-l-equipe-dor-7524138678852698112</link><guid isPermaLink="true">https://voce.life/archive/2026/11/05/ticket-fairy-cli-la-billetterie-peut-travailler-pendant-que-l-equipe-dor-7524138678852698112</guid><author>VOCE Association</author><description>Ticket Fairy CLI: la billetterie peut travailler pendant que l'équipe dort
+
+26 août 2026.
+
+Ticket Fairy publie un outil inhabituel pour une société de billetterie: une ligne de commande.
+
+Avec Ticket Fairy CLI, un organisateur peut créer ou cloner un événement, modifier des billets, exporter commandes et clients ou lancer le même rapport chaque nuit depuis un serveur.
+
+Sans rouvrir le dashboard.
+
+Le même outil embarque un serveur MCP. Claude Code, Cursor ou un autre client compatible peut lire les ventes et agir avec les permissions de l'utilisateur. En mode standard, suppressions et annulations exigent une approbation humaine.
+
+En mars, Ticket Fairy avait déjà lancé Fai avec Ticket Fairy 3.0. Le système lit des emails, analyse contrats et riders, transforme des réunions en tâches et intervient dans plusieurs workflows.
+
+La société estime que Fai peut économiser plus de 1.000 heures d'administration. Estimation fournisseur, pas mesure indépendante.
+
+Le changement important est ailleurs.
+
+La billetterie ne se contente plus d'enregistrer une transaction. Elle expose le travail qui l'entoure à des scripts et à des agents.
+
+Pour un festival, une salle ou un musée, l'appel d'offres change de nature: acheter une prestation opérée par un intermédiaire, ou posséder une infrastructure programmable sur laquelle l'organisation garde ses accès, ses règles et ses automatisations.
+
+ULTRA®
+
+Le CLI est sous licence MIT. Il expose événements, billets, commandes, clients et webhooks. `ticketfairy mcp` transforme ces capacités en outils qu'un agent appelle sans interpréter une interface graphique.
+
+Le serveur MCP tourne localement, hérite du rôle de l'utilisateur et peut être lancé en lecture seule. Les actions destructrices disposent de garde-fous séparés.
+
+Le dashboard cesse d'être l'unique surface de travail.
+
+L'exploitation devient adressable par API, scripts, pipelines et agents.
+
+LI!GHT WORKFORCE ©
+
+Invitations, duplications d'événements, extractions nocturnes, contrôles de ventes et tâches répétitives peuvent sortir de la file humaine.
+
+La light workforce apparaît lorsque l'organisation n'achète plus seulement un logiciel, mais une couche capable d'exécuter une partie de son back-office.
+
+FINVOCE ©
+
+Ticket Fairy 3.0 ajoute Vault, pour les comptes multidevises, cartes et paiements, ainsi que Capital, qui peut financer des organisateurs éligibles jusqu'à 3 millions de dollars selon leurs ventes et leur historique.
+
+Si le logiciel réduit le travail administratif, la monétisation peut migrer vers paiements, trésorerie, financement et données transactionnelles.
+
+La société de ticketing perd alors une partie de son travail pendant que la plateforme gagne accès à son économie.
+
+FIGARO
+
+La vraie rupture commence lorsqu'un logiciel ne remplace plus l'outil, mais la demande adressée à celui qui devait l'utiliser.
+
+Sources
+
+Ticket Fairy, 16 mars et 26 août 2026
+Documentation CLI, MCP, Vault et Capital
+
+#VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7524138678852698112/">Linkedin</source></item><item><title>Tether et Circle: 200 milliards de dollars d'exposition au Trésor américain en cinq ans</title><link>https://voce.life/archive/2026/11/05/tether-et-circle-200-milliards-de-dollars-d-exposition-au-tresor-america-7524002742659493888</link><guid isPermaLink="true">https://voce.life/archive/2026/11/05/tether-et-circle-200-milliards-de-dollars-d-exposition-au-tresor-america-7524002742659493888</guid><author>VOCE Association</author><description>Tether et Circle: 200 milliards de dollars d'exposition au Trésor américain en cinq ans
+
+28 septembre 2026.
+
+La Fed de San Francisco publie un chiffre qui change la lecture des stablecoins.
+
+En cinq ans, les réserves de Tether et Circle exposées aux titres du Trésor américain ont augmenté d'environ 200 milliards de dollars.
+
+Soit plus de 40% de la baisse des avoirs chinois sur la même période.
+
+Le calcul inclut les bons du Trésor et les opérations de pension.
+
+Il ne signifie donc pas que Tether et Circle ont remplacé la Chine.
+
+Pékin a surtout réduit des titres de maturité plus longue. Les émetteurs de stablecoins privilégient les actifs courts et liquides.
+
+Mais le mécanisme mérite attention.
+
+Lorsqu'un utilisateur crée de nouveaux USDT ou USDC contre des dollars, l'émetteur doit constituer les réserves permettant le remboursement à parité.
+
+Une part importante finit en bons du Trésor ou en actifs du marché monétaire américain.
+
+Le détenteur possède un dollar numérique privé.
+
+L'émetteur conserve le rendement des réserves.
+
+Washington bénéficie d'une nouvelle demande pour sa dette.
+
+Acheter un stablecoin déjà en circulation ne déclenche évidemment pas à chaque fois un achat supplémentaire de Treasuries.
+
+L'effet dépend de la croissance nette de l'encours et de l'origine des fonds.
+
+Le 24 septembre, la Fed a proposé les règles d'application du GENIUS Act pour les émetteurs qu'elle supervise: couverture intégrale par des actifs admissibles, dont des bons du Trésor à court terme.
+
+La plomberie monétaire devient alors géopolitique.
+
+Une innovation conçue comme moyen de paiement peut transformer une demande mondiale de dollars en demande privée de dette publique américaine.
+
+ULTRA®
+
+Le point décisif est l'additionnalité.
+
+Si un épargnant convertit une monnaie locale en stablecoin dollar et que l'encours augmente, une nouvelle demande d'actifs de réserve américains peut apparaître.
+
+S'il déplace simplement des dollars déjà placés dans un fonds monétaire, le détenteur économique change davantage que le financement net du Trésor.
+
+La BRI montre en octobre que stablecoins et dépôts bancaires sont partiellement substituables: des taux de dépôt plus élevés précèdent une croissance plus faible des stablecoins, surtout pour USDC.
+
+Le stablecoin devient donc aussi un concurrent potentiel pour le financement bancaire.
+
+Pour l'Europe, l'enjeu n'est pas seulement monétaire.
+
+Si des règlements entre pays tiers basculent vers des stablecoins en dollars et font croître leur encours, l'infrastructure de paiement peut orienter une partie de l'épargne mondiale vers les actifs américains sans intervention d'une banque centrale.
+
+DAPERTUTTO
+
+Une monnaie peut circuler comme un logiciel et continuer à financer un État.
+
+Sources 2026
+
+Leduc, Oliveira &amp; Sawyer, Federal Reserve Bank of San Francisco, 28 septembre
+Federal Reserve Board, GENIUS Act, 24 septembre
+Ahmed &amp; Aldasoro, BRI, 13 octobre
+
+#VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7524002742659493888/">Linkedin</source></item><item><title>Pénicilline: l'Europe conserve sa dernière chaîne intégrée, mais 86% de ses importations viennent de Chine</title><link>https://voce.life/archive/2026/11/05/penicilline-l-europe-conserve-sa-derniere-chaine-integree-mais-86-de-ses-7524048072059027457</link><guid isPermaLink="true">https://voce.life/archive/2026/11/05/penicilline-l-europe-conserve-sa-derniere-chaine-integree-mais-86-de-ses-7524048072059027457</guid><author>VOCE Association</author><description>Pénicilline: l'Europe conserve sa dernière chaîne intégrée, mais 86% de ses importations viennent de Chine
+
+21 octobre 2026. Kundl, Autriche.
+
+Dans des cuves de fermentation, Sandoz produit encore la pénicilline depuis la culture biologique jusqu'au principe actif et au médicament fini.
+
+C'est la dernière grande chaîne intégrée de ce type en Europe.
+
+Trois ans après un investissement de 200 millions d'euros, dont 50 millions de fonds publics, son avenir économique reste pourtant incertain.
+
+Reuters relève un basculement brutal.
+
+En 2019, la Chine fournissait 44% des importations européennes de pénicillines et dérivés.
+
+En 2025: 86%.
+
+Il s'agit principalement de principes actifs en vrac, pas de 86% des antibiotiques consommés en Europe.
+
+Le problème est ailleurs.
+
+En 2023, la Commission a autorisé 28,8 millions d'euros d'aide publique autrichienne pour moderniser la production d'amoxicilline à Kundl. L'extension a accru les capacités d'environ 20%.
+
+Mais l'usine reste confrontée à des coûts que ses concurrents chinois supportent moins.
+
+En 2025, l'électricité des industries énergivores coûtait en moyenne près de 50% plus cher dans l'UE qu'en Chine.
+
+Et les achats publics européens privilégient encore fortement le prix.
+
+Sandoz affirme que ce modèle compromet la viabilité de sa production et a demandé en mars une enquête antidumping sur les principes actifs chinois d'amoxicilline. L'accusation reste à établir.
+
+La contradiction est désormais visible.
+
+L'Europe finance une capacité stratégique en amont, puis achète souvent le médicament selon une logique qui peut fragiliser cette même capacité.
+
+En France, 652 molécules figurent désormais sur la liste des médicaments essentiels.
+
+Une liste identifie une dépendance.
+
+Elle ne fabrique pas une molécule.
+
+ULTRA®
+
+Le verrou industriel se situe avant le comprimé.
+
+L'amoxicilline dépend du 6-APA, intermédiaire clé issu de la chaîne des pénicillines.
+
+Selon le Council on Foreign Relations, cinq groupes chinois contrôlent plus de quatre cinquièmes de la production mondiale de 6-APA.
+
+Une usine d'API située en Inde ou en Europe peut donc rester dépendante d'un précurseur chinois.
+
+L'audit de souveraineté doit remonter jusqu'aux matières de départ, mesurer les fournisseurs réellement substituables et intégrer les délais de qualification réglementaire.
+
+Une subvention peut sauver un équipement.
+
+Elle ne garantit pas les commandes nécessaires pour le faire tourner dix ans.
+
+Le coût d'un antibiotique ne se résume donc pas à son prix d'achat.
+
+Il inclut aussi le prix de l'option industrielle que l'Europe accepte ou non de conserver.
+
+DULCAMARA
+
+Une société découvre parfois le prix de son indépendance lorsqu'elle ne sait plus fabriquer ce qu'elle croyait simplement pouvoir acheter.
+
+Sources 2026
+
+Reuters, 21 octobre
+Council on Foreign Relations, octobre
+Ministère français de la Santé, liste des médicaments essentiels
+
+#VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7524048072059027457/">Linkedin</source></item><item><title>Paris: TP a perdu 78% en cinq ans et vend jusqu'à 75% de résolution sans humain</title><link>https://voce.life/archive/2026/11/05/paris-tp-a-perdu-78-en-cinq-ans-et-vend-jusqu-a-75-de-resolution-sans-hu-7524183930997035009</link><guid isPermaLink="true">https://voce.life/archive/2026/11/05/paris-tp-a-perdu-78-en-cinq-ans-et-vend-jusqu-a-75-de-resolution-sans-hu-7524183930997035009</guid><author>VOCE Association</author><description>Paris: TP a perdu 78% en cinq ans et vend jusqu'à 75% de résolution sans humain
+
+Paris, 30 juillet 2026.
+
+TP, ex-Teleperformance, publie 4,883 milliards d'euros de chiffre d'affaires semestriel: -4,5% publié, -1,7% à périmètre et change constants. Résultat net: 216 millions.
+
+Le groupe compte près de 490.000 collaborateurs. Au 3 novembre, son action a perdu environ 78% sur cinq ans, malgré un rebond proche de 31% en 2026.
+
+TP.ai FAB Connect revendique jusqu'à 75% des demandes simples ou intermédiaires résolues par l'IA sans escalade humaine. Certains clients auraient réduit leurs coûts jusqu'à 30%.
+
+FAB Collect annonce jusqu'à 45% de baisse du coût du recouvrement.
+
+Ce sont des performances présentées par TP, pas une moyenne de ses contrats.
+
+Pendant quarante ans, Teleperformance a construit son avantage sur sa capacité à mobiliser massivement des humains pour les clients des autres.
+
+Aujourd'hui, il commercialise aussi la technologie qui permet d'en mobiliser moins.
+
+Au 30 juin, TP déclarait plus de 1.100 projets IA en cours. Son programme d'efficacité vise 150 à 170 millions d'euros d'économies annuelles. Les restructurations devraient coûter 120 à 140 millions en 2026; 109 millions avaient déjà été comptabilisés au premier semestre.
+
+Dette nette: 4,013 milliards.
+
+L'IA n'explique pas seule la trajectoire boursière. Mais elle change l'équation: que vaut une entreprise historiquement rémunérée pour organiser du travail humain lorsque ses propres solutions réduisent les volumes d'heures achetées?
+
+ULTRA®
+
+FAB Connect orchestre agents IA, experts humains et workflows. Le taux de résolution doit donc être contrôlé après clôture: réouvertures, erreurs, reprises humaines, satisfaction et coût d'inférence.
+
+Un dossier fermé par l'agent peut rester ouvert pour le client.
+
+La rupture comptable apparaît lorsque la facturation par heure ou par poste migre vers la résolution. TP peut alors conserver une partie de la valeur créée par l'automatisation, ou la céder au client par une baisse de prix.
+
+LI!GHT WORKFORCE ©
+
+TP ne subit pas seulement la light workforce. Il la vend.
+
+L'indicateur stratégique devient le coût complet par problème réellement résolu, supervision comprise.
+
+FINVOCE ©
+
+En 2021, 61,61 millions d'euros de crédits de paiement sont rattachés au numéro vert de vaccination géré par Teleperformance. Marché public, pas subvention.
+
+En 2025, TP a comptabilisé 11,6 millions d'euros de subventions publiques pour le groupe mondial, contre 8,2 millions en 2024. La part française n'est pas isolée.
+
+Pour l'investisseur, le test est simple: les revenus et marges de l'IA progressent-ils plus vite que la valeur détruite dans les prestations humaines qu'elle automatise?
+
+RASTIGNAC
+
+Une entreprise peut automatiser le métier qui l'a rendue immense. Elle doit encore prouver qu'elle saura capter la valeur libérée.
+
+Sources
+
+TP, S1 2026
+TP.ai FAB
+URD 2025
+État français, programme 204
+MarketScreener, 2026
+
+#VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7524183930997035009/">Linkedin</source></item><item><title>Oracle annule un contrat IA de 7 milliards avec Tencent: un GPU peut fonctionner et devenir pourtant indisponible</title><link>https://voce.life/archive/2026/11/05/oracle-annule-un-contrat-ia-de-7-milliards-avec-tencent-un-gpu-peut-fonc-7524093342368862210</link><guid isPermaLink="true">https://voce.life/archive/2026/11/05/oracle-annule-un-contrat-ia-de-7-milliards-avec-tencent-un-gpu-peut-fonc-7524093342368862210</guid><author>VOCE Association</author><description>Oracle annule un contrat IA de 7 milliards avec Tencent: un GPU peut fonctionner et devenir pourtant indisponible
+
+4 novembre 2026.
+
+Un mois plus tôt, Tencent pensait avoir sécurisé cinq années de calcul.
+
+Selon le Financial Times, le groupe chinois avait conclu avec Oracle son plus important contrat cloud à l'étranger: environ 7 milliards de dollars pour louer jusqu'à 100.000 puces IA avancées dans plusieurs data centers d'Asie du Sud-Est.
+
+Le 4 novembre, le même journal révèle qu'Oracle a abandonné l'accord après des pressions de responsables américains. Reuters n'a pas vérifié indépendamment ces détails.
+
+Le mécanisme compte davantage que le montant.
+
+Tencent n'achetait pas les GPU.
+
+Il achetait le droit de les utiliser depuis l'étranger.
+
+Les puces pouvaient rester opérationnelles. Les centres de données aussi.
+
+Et la capacité contractée pouvait néanmoins disparaître.
+
+La veille, un second signal était apparu.
+
+Nvidia a demandé à ses partenaires de data centers que, dans leurs futurs contrats, au moins 51% de leurs services cloud soient destinés à des clients non chinois, selon le Financial Times.
+
+L'instruction aurait été communiquée verbalement.
+
+La dépendance au compute possède donc une dimension que les SLA décrivent mal: une ressource peut être techniquement disponible mais commercialement ou juridiquement révoquée.
+
+Pour l'Europe, le point n'est pas que Tencent soit chinois.
+
+C'est qu'un workload peut dépendre simultanément du cloud, de l'origine des accélérateurs, des règles d'exportation et de décisions prises hors de la juridiction du client.
+
+La souveraineté ne se résume donc pas à l'adresse du serveur.
+
+Elle dépend aussi de celui qui peut encore autoriser son calcul.
+
+ULTRA®
+
+Un plan de continuité classique modélise panne, latence, cyberattaque ou perte d'un fournisseur.
+
+Il doit désormais intégrer un autre scénario: le fournisseur fonctionne, mais n'est plus autorisé ou disposé à fournir la capacité.
+
+Un second cloud n'est pas un véritable fallback s'il utilise les mêmes GPU, dépend de la même juridiction ou peut recevoir la même restriction.
+
+La métrique utile devient alors le temps de récupération souveraine: combien de jours faut-il pour déplacer un workload critique vers une capacité qui ne partage pas le même point de révocation?
+
+LI!GHT WORKFORCE ©
+
+Pour les systèmes agentiques, le risque devient opérationnel.
+
+Une entreprise peut confier à des milliers d'agents des tâches auparavant humaines, puis découvrir que cette main-d'œuvre numérique dépend d'un même pool de GPU ou d'une même chaîne juridique.
+
+La perte de compute peut alors devenir une perte instantanée de capacité de travail, sans panne matérielle et sans licenciement.
+
+WOTAN
+
+Posséder un contrat ne signifie pas posséder les conditions qui permettent encore de l'exécuter.
+
+Sources 2026
+
+Financial Times, 3-4 novembre
+Reuters, 1er octobre et 4 novembre
+Financial Times, Nvidia et data centers, 3 novembre
+
+#VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7524093342368862210/">Linkedin</source></item><item><title>Matignon recrute pour connecter des agents IA à ses applications de gestion</title><link>https://voce.life/archive/2026/11/05/matignon-recrute-pour-connecter-des-agents-ia-a-ses-applications-de-gest-7523987617789583360</link><guid isPermaLink="true">https://voce.life/archive/2026/11/05/matignon-recrute-pour-connecter-des-agents-ia-a-ses-applications-de-gest-7523987617789583360</guid><author>VOCE Association</author><description>Matignon recrute pour connecter des agents IA à ses applications de gestion
+
+Octobre 2026.
+
+Au 20 avenue de Ségur, les services du Premier ministre recrutent un ingénieur.
+
+Pas pour tester un chatbot.
+
+Le poste doit automatiser des processus, développer des agents métiers et raccorder une IA aux applications, référentiels et documents internes.
+
+Le socle choisi est GenIAl, plateforme souveraine développée par le ministère des Armées.
+
+Fin 2025, elle comptait 100.000 utilisateurs. En janvier 2026, les Armées annonçaient 19 millions de requêtes annuelles et préparaient des fonctions agentiques pour réaliser des tâches complexes.
+
+À Matignon, le premier périmètre concerne 850 agents. Cible: 2.500 à 3.000 agents des services du Premier ministre.
+
+L'offre décrit le changement.
+
+Il faut développer des connecteurs et agents reliés aux applications de gestion, aux corpus documentaires et aux systèmes de droits d'accès.
+
+Le protocole MCP fait explicitement partie des compétences demandées.
+
+Deux chefs de projet produisent déjà du code avec assistance IA. Le nouvel ingénieur devra le relire, le tester et gérer ses dépendances.
+
+L'administration ne cherche donc plus seulement une IA qui rédige ou résume.
+
+Elle construit l'infrastructure permettant à des modèles de s'insérer dans des processus.
+
+Une classification peut déclencher une étape. Une recherche interne peut alimenter une décision proposée. Une automatisation peut transmettre une information entre applications.
+
+Le recrutement ne prouve pas que ces agents agissent déjà en autonomie.
+
+Il montre que l'État prépare techniquement cette possibilité.
+
+ULTRA®
+
+MCP standardise la manière dont un agent découvre et utilise des outils. Il ne décide pas, à lui seul, de ce que l'agent a le droit de faire.
+
+L'offre associe donc connecteurs, RAG, tests, authentification et habilitations.
+
+Le 30 octobre, l'ANSSI publie sept principes pour sécuriser les systèmes agentiques: cloisonnement, permissions limitées, approbation humaine des actions critiques, journalisation de la chaîne demande-autorisation-action-résultat et arrêt d'urgence.
+
+C'est le changement d'échelle.
+
+Une erreur de RAG produit une mauvaise réponse.
+
+Une erreur d'agent connecté peut devenir une mauvaise action.
+
+LI!GHT WORKFORCE ©
+
+Le programme ne documente aucune suppression de postes.
+
+Il déplace néanmoins la frontière du travail administratif: certaines opérations répétables peuvent passer du geste humain à l'orchestration logicielle, tandis que validation, exception et responsabilité restent humaines.
+
+Le coût pertinent ne sera pas celui d'une requête, mais d'un dossier correctement achevé, reprises humaines, erreurs et maintenance comprises.
+
+BORIS GODUNOV, Moussorgski. Il lavoro del potere.
+
+"Une institution change lorsque son autorité commence à circuler dans ses interfaces."
+
+Sources 2026
+
+Services du Premier ministre
+Ministère des Armées, 6 janvier
+ANSSI, 30 octobre
+
+#VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7523987617789583360/">Linkedin</source></item><item><title>Jusqu'à 62,9% de droits: Bruxelles enquête sur quatre nouvelles routes de contournement</title><link>https://voce.life/archive/2026/11/05/jusqu-a-62-9-de-droits-bruxelles-enquete-sur-quatre-nouvelles-routes-de-7524017849376604160</link><guid isPermaLink="true">https://voce.life/archive/2026/11/05/jusqu-a-62-9-de-droits-bruxelles-enquete-sur-quatre-nouvelles-routes-de-7524017849376604160</guid><author>VOCE Association</author><description>Jusqu'à 62,9% de droits: Bruxelles enquête sur quatre nouvelles routes de contournement
+
+6 août 2026.
+
+Depuis 2011, l'UE impose jusqu'à 62,9% de droits antidumping sur certains treillis en fibre de verre chinois utilisés notamment dans la construction.
+
+Quinze ans plus tard, elle enquête sur quatre nouvelles routes possibles: Kosovo, Moldavie, Macédoine du Nord et Serbie.
+
+La plainte vient de Tech-Fab Europe.
+
+Au Kosovo, les éléments transmis décrivent un possible transbordement.
+
+Dans les trois autres territoires, ils pointent des opérations d'assemblage ou de finition utilisant principalement des matières chinoises.
+
+Selon la plainte, les composants chinois dépassent 60% de la valeur des pièces assemblées, tandis que la valeur ajoutée locale reste inférieure à 25% du coût de fabrication.
+
+Ces deux seuils figurent dans l'article 13 du règlement antidumping pour les opérations d'assemblage.
+
+Et ce n'est pas la première fois.
+
+Après des enquêtes antérieures, l'UE a déjà étendu ces droits aux marchandises expédiées de Malaisie, Taïwan, Thaïlande, Inde et Indonésie.
+
+Cinq routes ont déjà conduit à des mesures.
+
+Quatre autres sont examinées.
+
+L'enquête actuelle ne démontre ni fraude ni contournement. Les entreprises peuvent répondre et demander une exemption.
+
+Mais depuis août, les importations visées sont enregistrées.
+
+Si le contournement est établi, l'extension des droits pourra prendre effet à partir de cette date.
+
+Le problème dépasse ce produit.
+
+En septembre, la Commission reconnaît que les méthodes deviennent plus complexes: transbordement, changement de classification et assemblage ou finition limités, parfois même dans l'Union.
+
+Fin 2025, l'UE comptait 232 mesures de défense commerciale, couvrant selon la Commission plus de 637.000 emplois industriels directs.
+
+La frontière commerciale européenne ne se trouve donc plus seulement au port.
+
+Elle traverse aussi les ateliers, les codes douaniers et la chaîne documentaire.
+
+ULTRA®
+
+Les seuils de 60% et 25% ne prouvent pas, seuls, un contournement.
+
+L'article 13 exige aussi un changement des flux commerciaux sans justification suffisante, un affaiblissement de l'effet du droit et des éléments de dumping.
+
+Le point stratégique est ailleurs: l'origine déclarée ne suffit pas à comprendre l'exposition.
+
+L'importateur doit savoir qui fabrique réellement, quelles pièces sont utilisées, où la valeur est ajoutée et sous quel code le produit circule.
+
+L'enregistrement transforme ce risque documentaire en risque financier: une extension décidée plus tard peut remonter à la date d'enregistrement.
+
+FILIPPO II
+
+Une frontière devient fragile lorsqu'elle protège sa ligne sans regarder les chemins qui la contournent.
+
+Sources 2026
+
+Commission européenne, règlement d'exécution (UE) 2026/1925
+Commission européenne, 44e rapport annuel sur les instruments de défense commerciale
+Règlement (UE) 2016/1036, article 13
+
+#VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7524017849376604160/">Linkedin</source></item><item><title>JD.com: 9 millions d'heures de vendeurs virtuels pour 144 RMB de ventes associées par heure</title><link>https://voce.life/archive/2026/11/05/jd-com-9-millions-d-heures-de-vendeurs-virtuels-pour-144-rmb-de-ventes-a-7524168873236152321</link><guid isPermaLink="true">https://voce.life/archive/2026/11/05/jd-com-9-millions-d-heures-de-vendeurs-virtuels-pour-144-rmb-de-ventes-a-7524168873236152321</guid><author>VOCE Association</author><description>JD.com: 9 millions d'heures de vendeurs virtuels pour 144 RMB de ventes associées par heure
+
+30 octobre 2026, 18 heures.
+
+JD.com arrête un premier bilan de son 11.11.
+
+Depuis le 12 octobre, ses présentateurs virtuels JoyAvatar ont cumulé plus de 9 millions d'heures de direct.
+
+Sur dix-huit jours, cela équivaut à environ 21.000 flux actifs en permanence.
+
+Plus de 100.000 marchands ont utilisé le système. JD.com associe ces diffusions à plus de 1,3 milliard RMB de ventes.
+
+1,3 milliard divisé par 9 millions représente environ 144 RMB de ventes par heure diffusée.
+
+Ce n'est ni une marge ni un ROI, mais une moyenne sur deux données fournisseur.
+
+Mais elle révèle la transformation.
+
+Le vendeur virtuel ne sert plus seulement à imiter un influenceur. Il rend possible une présence commerciale qu'aucune organisation humaine ne financerait.
+
+En décembre 2025, JD.com avait ouvert gratuitement le service à tous ses marchands. Pendant 618, la durée des directs et le GMV associés avaient plus que quadruplé. JD.com annonçait aussi +77% de conversion pour JoyStreamer, sans démonstration causale publique.
+
+Oxygen Vision étend la même logique aux images, vidéos et textes produits.
+
+La chaîne devient continue: contenu, présentation, interaction, transaction.
+
+ULTRA®
+
+Le KPI décisif n'est pas l'heure diffusée, mais la marge contributive incrémentale par heure autonome.
+
+Il faut retrancher remises, retours, commissions, coût d'inférence, modération et supervision, puis comparer à trafic équivalent trois conditions: humain, avatar et absence de live.
+
+Sans groupe témoin, les 1,3 milliard RMB ne disent pas combien de ventes JoyAvatar a réellement créées.
+
+L'architecture exige catalogue, prix et stocks synchronisés, base de connaissances contrôlée et journalisation des affirmations.
+
+Depuis le 1er février 2026, la réglementation chinoise impose que les personnages générés par IA utilisés en live commerce soient signalés en continu. En cas de contenu illégal, la responsabilité reste celle de l'opérateur du live.
+
+LI!GHT WORKFORCE ©
+
+JoyAvatar industrialise les heures de présentation; Oxygen Vision, une partie de la production créative.
+
+Les humains se déplacent vers sélection produit, stratégie et contrôle.
+
+FINVOCE ©
+
+L'avantage de JD.com est moins l'avatar que l'intégration: audience, catalogue, génération, diffusion, paiement et données de conversion.
+
+Une marque peut réduire son coût de présence tout en transférant davantage de sa capacité commerciale à la plateforme.
+
+Le prochain budget influence devrait contenir une ligne encore rarement mesurée en Europe: marge incrémentale par heure de présence commerciale.
+
+FIGARO
+
+Une présence infinie ne vaut rien tant qu'on ne sait pas ce qu'elle produit.
+
+Sources
+
+JD.com, 2026
+Ebrun, 1er novembre 2026
+SAMR/CAC, règlement applicable depuis le 1er février 2026
+
+#VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7524168873236152321/">Linkedin</source></item><item><title>Importer sa nourriture peut déplacer la pression sur l'eau chez les autres</title><link>https://voce.life/archive/2026/11/05/importer-sa-nourriture-peut-deplacer-la-pression-sur-l-eau-chez-les-autr-7523972533721665537</link><guid isPermaLink="true">https://voce.life/archive/2026/11/05/importer-sa-nourriture-peut-deplacer-la-pression-sur-l-eau-chez-les-autr-7523972533721665537</guid><author>VOCE Association</author><description>Importer sa nourriture peut déplacer la pression sur l'eau chez les autres
+
+27 avril 2026.
+
+SALIC, filiale du fonds souverain saoudien PIF, débourse 1,88 milliard de dollars pour acquérir 44,58% supplémentaires d'Olam Agri.
+
+Sa participation atteint 80,01%.
+
+Avec Olam Agri, SALIC contrôle alors un réseau d'origine, de transformation, de négoce et de logistique présent dans plus de 30 pays.
+
+Pour un État pauvre en eau, la sécurité alimentaire peut donc aussi se construire à l'étranger.
+
+Importer du blé, du riz ou du coton évite de consommer chez soi l'eau nécessaire à leur production.
+
+Cette eau utilisée hors du territoire porte un nom: l'eau virtuelle.
+
+Mais une étude publiée en 2026 par Han Su, Oleksandr Mialyk, Rick Hogeboom et Markus Berger, à l'université de Twente, inverse une intuition répandue.
+
+Les chercheurs reconstruisent trente années d'échanges pour 158 pays et territoires, 123 secteurs agricoles et 84 secteurs non agricoles.
+
+Résultat: 45% de l'eau virtuelle échangée est issue d'une consommation dépassant le niveau jugé soutenable.
+
+Et, pour la majorité des pays, l'eau importée est physiquement plus rare que celle consommée sur leur propre territoire.
+
+Seuls dix pays importent de façon constante une eau moins rare.
+
+L'importation peut donc soulager une ressource nationale tout en déplaçant la pression vers un bassin déjà surexploité.
+
+L'étude ne porte pas sur SALIC ni sur Olam Agri.
+
+Mais elle révèle une faiblesse de toute stratégie alimentaire pensée uniquement en tonnes, fournisseurs et prix.
+
+Diversifier ses origines ne diversifie pas nécessairement son risque hydrologique.
+
+Une facture indique le coût d'une récolte.
+
+Elle ne dit pas combien de temps la nappe qui l'a rendue possible peut encore tenir.
+
+ULTRA®
+
+La métrique de Twente ne mesure pas seulement un volume d'eau importé. Elle distingue la part consommée durablement de celle qui excède la disponibilité physique soutenable, puis la rattache aux chaînes commerciales internationales.
+
+Pour un investisseur, deux fournisseurs situés dans deux pays différents peuvent ainsi dépendre du même régime climatique, de nappes en déclin ou de restrictions d'exportation déclenchées simultanément.
+
+La due diligence doit donc descendre jusqu'au bassin, à la culture et à la saison de production.
+
+Une participation au capital sécurise des droits économiques.
+
+Elle ne garantit ni la recharge d'un aquifère, ni un droit de prélèvement futur, ni qu'un gouvernement laissera partir les récoltes pendant une crise.
+
+RUSALKA
+
+Nous pouvons déplacer nos achats beaucoup plus facilement que les conditions physiques qui les rendent possibles.
+
+Sources 2026
+
+Su et al., Water Research
+Olam Group, 27 avril
+PIF, 14 mai
+
+#VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7523972533721665537/">Linkedin</source></item><item><title>Endotest: la France finance jusqu'à 25.000 tests, une cohorte suisse mesure 33% de spécificité</title><link>https://voce.life/archive/2026/11/05/endotest-la-france-finance-jusqu-a-25-000-tests-une-cohorte-suisse-mesur-7524153807451176960</link><guid isPermaLink="true">https://voce.life/archive/2026/11/05/endotest-la-france-finance-jusqu-a-25-000-tests-une-cohorte-suisse-mesur-7524153807451176960</guid><author>VOCE Association</author><description>Endotest: la France finance jusqu'à 25.000 tests, une cohorte suisse mesure 33% de spécificité
+
+839 € par patiente.
+
+Depuis 2025, la France prend en charge Endotest dans le cadre du forfait innovation pour jusqu'à 25.000 femmes: 2.500 dans l'étude EndoBest et 22.500 supplémentaires.
+
+Plafond théorique: 20,975 millions d'euros.
+
+Le test de Ziwig mesure dans la salive 109 microARN sélectionnés par IA, avec séquençage haut débit et algorithme prédictif. Il vise des patientes symptomatiques dont l'imagerie est normale ou équivoque.
+
+La validation externe publiée sur 971 patientes rapporte 97,3% de sensibilité et 94,1% de spécificité. Prévalence de l'endométriose: 77%. Étude financée par Ziwig.
+
+Puis arrive une étude suisse de 2026.
+
+Au Kantonsspital Baden, 134 femmes adressées pour cœlioscopie sont incluses. 120 ont une endométriose confirmée. 116 disposent d'un Endotest préopératoire.
+
+Résultat: sensibilité 78%, spécificité 33%, exactitude 73%, AUC 0,56.
+
+Pour l'endométriose profonde, l'exactitude atteint 49%. Chez 84 patientes testées avant et après chirurgie, 18 résultats sont discordants.
+
+Cette étude ne réfute pas la précédente.
+
+Les auteurs précisent que la cohorte est extrêmement sélectionnée, avec 89,6% d'endométriose, et que l'usage testé ne correspond pas à l'indication approuvée. La spécificité de 33% repose sur peu de cas négatifs; son intervalle de confiance va de 10 à 65%.
+
+C'est précisément là que commence le vrai sujet.
+
+Une IA diagnostique ne possède pas une performance détachable de son contexte clinique.
+
+La HAS l'avait déjà écrit en 2024: les données disponibles ne démontraient pas encore un service attendu suffisant, faute d'études conçues pour établir l'utilité clinique pour les patientes. Le forfait innovation a été accordé pour produire cette preuve.
+
+ULTRA®
+
+Sensibilité et spécificité ne dépendent pas directement de la prévalence, contrairement aux valeurs prédictives. Mais elles peuvent varier avec le spectrum effect: stades, symptômes, comorbidités, traitements, critères d'inclusion et difficulté des cas.
+
+Avec un biomarqueur algorithmique s'ajoutent prélèvement, séquençage, preprocessing, version du modèle et seuil décisionnel.
+
+La gouvernance exige donc trois niveaux distincts: validité analytique, performance diagnostique externe, puis utilité clinique dans la population ciblée.
+
+La France veut désormais réduire jusqu'à 14 jours l'autorisation de certains essais précoces et intégrer davantage l'IA aux méthodologies de recherche clinique.
+
+Accélérer la preuve rend encore plus important de définir ce qui compte comme preuve.
+
+DULCAMARA
+
+La précision d'un chiffre ne dépasse jamais la population qui lui a donné naissance.
+
+Sources
+
+Journal officiel, 6 février 2025
+HAS, 17 octobre 2024
+NEJM Evidence, 2025
+Ormos et al., European Journal of Obstetrics &amp; Gynecology and Reproductive Biology, 2026
+Ministère de la Santé, 2026
+
+#VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7524153807451176960/">Linkedin</source></item><item><title>En Europe, une IA peut apprendre d'un article légalement puis enfreindre les droits de l'éditeur en le récupérant pour répondre</title><link>https://voce.life/archive/2026/11/05/en-europe-une-ia-peut-apprendre-d-un-article-legalement-puis-enfreindre-7524078217130000385</link><guid isPermaLink="true">https://voce.life/archive/2026/11/05/en-europe-une-ia-peut-apprendre-d-un-article-legalement-puis-enfreindre-7524078217130000385</guid><author>VOCE Association</author><description>En Europe, une IA peut apprendre d'un article légalement puis enfreindre les droits de l'éditeur en le récupérant pour répondre
+
+3 novembre 2026.
+
+La première affaire sur l'IA générative arrive devant la Cour de justice de l'Union européenne.
+
+Like Company, éditeur hongrois, attaque Google au sujet de Gemini.
+
+Maciej Szpunar, premier avocat général de la Cour, sépare deux opérations que le débat public confond souvent.
+
+D'abord, l'entraînement.
+
+Il propose de ne pas trancher cette partie du litige, faute de preuve que les articles de Like Company aient servi à entraîner Gemini.
+
+Mais il précise qu'en règle générale l'utilisation d'œuvres protégées pour entraîner un LLM peut relever de l'exception européenne de fouille de textes et de données.
+
+Puis vient une autre opération.
+
+Gemini peut rechercher un article en temps réel, le récupérer et l'utiliser pour produire une réponse.
+
+C'est le RAG.
+
+Et l'analyse juridique change.
+
+Selon Szpunar, les droits de l'éditeur peuvent être atteints si le système accède illicitement au contenu, par exemple en contournant un paywall ou une protection contre le scraping.
+
+Ils peuvent également l'être si la réponse réutilise de manière reconnaissable la forme d'expression de l'article au point de dispenser l'utilisateur de consulter l'original.
+
+Les faits eux-mêmes ne sont pas protégés.
+
+Leur expression peut l'être.
+
+Même modèle. Même article.
+
+Mais pas la même opération juridique.
+
+Pour une entreprise, la conséquence est considérable.
+
+Avoir le droit d'intégrer un corpus dans un processus d'entraînement ne signifie pas automatiquement avoir le droit de récupérer chaque document et d'en restituer la substance à chaque utilisateur.
+
+ULTRA®
+
+Une architecture RAG sépare au moins trois couches: corpus, retrieval et génération.
+
+La conformité doit donc pouvoir voyager avec le document.
+
+Licence, réservation TDM, territoire, identité de l'utilisateur, droits d'accès et conditions de restitution deviennent potentiellement des métadonnées exécutables.
+
+IAM ne suffit plus à répondre uniquement à "peut-il ouvrir ce fichier?".
+
+Il faut aussi pouvoir déterminer "que peut-il en faire dans cette réponse?".
+
+L'avis Szpunar n'est pas un arrêt et la Cour peut s'en écarter.
+
+Mais il introduit une distinction structurante: une œuvre peut être accessible à une étape du système sans être juridiquement réutilisable de la même manière à l'étape suivante.
+
+LI!GHT WORKFORCE ©
+
+Pour les agents, cette frontière devient opérationnelle.
+
+Un agent peut rechercher, ouvrir, résumer puis redistribuer un contenu sans nouvelle intervention humaine.
+
+Les permissions devront donc contrôler non seulement l'accès aux ressources, mais aussi certaines utilisations permises après leur récupération.
+
+CELLINI
+
+Pouvoir lire une œuvre n'a jamais signifié pouvoir parler à sa place.
+
+Sources 2026
+
+CJUE, C-250/25, Like Company, conclusions Szpunar, 3 novembre
+Reuters, 3 novembre
+
+#VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7524078217130000385/">Linkedin</source></item><item><title>Cancer du sang: une TEP ne voit rien. L'immuno-TEP révèle plus de 100 lésions</title><link>https://voce.life/archive/2026/11/05/cancer-du-sang-une-tep-ne-voit-rien-l-immuno-tep-revele-plus-de-100-lesi-7524063135729827840</link><guid isPermaLink="true">https://voce.life/archive/2026/11/05/cancer-du-sang-une-tep-ne-voit-rien-l-immuno-tep-revele-plus-de-100-lesi-7524063135729827840</guid><author>VOCE Association</author><description>Cancer du sang: une TEP ne voit rien. L'immuno-TEP révèle plus de 100 lésions
+
+3 novembre 2026.
+
+Un homme de 69 ans atteint de myélome multiple passe une TEP au 18F-FDG.
+
+Aucun foyer de maladie n'apparaît.
+
+Une seconde TEP révèle plus de 100 foyers dans ses os.
+
+La biopsie de l'os iliaque confirme un myélome actif CD38-positif.
+
+Ce n'est pas la même caméra qui devient soudain meilleure.
+
+C'est la propriété biologique recherchée qui change.
+
+Dans Radiology, Gary Ulaner, C. Ola Landgren et leurs collègues publient un essai prospectif de phase 2 chez 60 patients.
+
+La TEP conventionnelle utilise du glucose radioactif. Elle détecte les tissus dont la consommation de glucose est anormalement élevée.
+
+Mais certaines cellules du myélome ne sont pas suffisamment hypermétaboliques pour se détacher du bruit physiologique.
+
+L'équipe utilise alors le daratumumab, un anticorps reconnaissant CD38, protéine fortement exprimée par les cellules du myélome, et le marque au zirconium-89.
+
+L'image ne recherche plus d'abord un métabolisme anormal.
+
+Elle recherche un phénotype moléculaire.
+
+Chez huit patients sur 60, soit 13%, seule l'immuno-TEP montre une maladie active. Les biopsies confirment les huit cas.
+
+Mais l'expérience réserve une seconde surprise.
+
+Chez 17 patients, l'immuno-TEP révèle des sites ignorés par le FDG.
+
+Chez 13 autres, le FDG révèle au contraire des sites manqués par l'immuno-TEP.
+
+Au niveau du patient, les taux de détection sont finalement proches: 43% contre 47%, sans différence significative.
+
+La découverte n'est donc pas qu'un examen remplace l'autre.
+
+Elle montre qu'un résultat négatif dépend de ce que l'on a choisi de rendre visible.
+
+ULTRA®
+
+Le 89Zr-DFO-daratumumab associe un anticorps anti-CD38 au zirconium-89 via le chélateur DFO.
+
+Sa longue persistance permet à l'anticorps d'atteindre ses cibles, mais impose actuellement d'attendre près d'une semaine avant l'imagerie.
+
+Cette spécificité reste relative: l'étude observe aussi une fixation dans des adénomes surrénaliens bénins.
+
+CD38 n'est donc pas synonyme automatique de myélome.
+
+Les chercheurs développent des fragments d'anticorps plus petits afin de raccourcir ce délai.
+
+L'enjeu dépasse cette technique: une image médicale négative ne signifie jamais "absence absolue de maladie".
+
+Elle signifie absence de signal détectable par le mécanisme biologique que le traceur interroge.
+
+ORFEO
+
+Ce que nous appelons invisible dépend parfois moins de ce qui existe que de ce que nous avons choisi de chercher.
+
+Sources 2026
+
+Ulaner et al., Radiology, 3 novembre
+Sylvester Comprehensive Cancer Center, University of Miami, 3 novembre
+
+#VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7524063135729827840/">Linkedin</source></item><item><title>AgiBot G2: après 64.828 tâches, AgiBot veut mesurer l'heure de travail robotique</title><link>https://voce.life/archive/2026/11/05/agibot-g2-apres-64-828-taches-agibot-veut-mesurer-l-heure-de-travail-rob-7524123542213447680</link><guid isPermaLink="true">https://voce.life/archive/2026/11/05/agibot-g2-apres-64-828-taches-agibot-veut-mesurer-l-heure-de-travail-rob-7524123542213447680</guid><author>VOCE Association</author><description>AgiBot G2: après 64.828 tâches, AgiBot veut mesurer l'heure de travail robotique
+
+Huit robots G2. Une ligne de tablettes à Nanchang. Six jours filmés publiquement.
+
+Du 23 au 28 juin, Longcheer Technology les fait travailler sur la qualité d'une ligne de production.
+
+Bilan publié: plus de 64 heures d'activité, 64.828 opérations, 99,99% de réussite et une production cumulée de 17.625 tablettes.
+
+Le G2 ne marche pas. Il roule.
+
+C'est précisément ce qui compte: AgiBot ne cherche plus à démontrer qu'un humanoïde sait se déplacer. Il mesure ce qu'une machine produit dans un process industriel.
+
+Les chiffres restent ceux du fabricant et de son partenaire, sans audit indépendant. Mais ils décrivent déjà du débit, des cycles et des erreurs, plus seulement une démonstration.
+
+Le 29 octobre, AgiBot franchit une étape supplémentaire avec Worken.
+
+L'unité ne compte plus les robots vendus.
+
+Elle cherche à compter leur travail utile.
+
+ULTRA®
+
+Worken = robots actifs × heures autonomes × ratio d'efficacité productive.
+
+Une machine alimentée huit heures mais assistée toutes les vingt minutes ne produit donc pas huit heures d'autonomie. Deux flottes identiques peuvent générer des Worken très différents.
+
+Cette métrique déplace le benchmark du hardware vers quatre variables opérationnelles: autonomie réelle, intervention humaine, disponibilité et output accepté.
+
+Elle possède aussi une faiblesse: le ratio d'efficacité dépend du benchmark choisi pour chaque tâche. Sans définition commune, Worken reste une métrique proposée par AgiBot, pas encore un standard industriel.
+
+LI!GHT WORKFORCE ©
+
+Le G2 est déjà commercialisé en Europe.
+
+Delta Robots Allemagne affiche le corps à partir de 121.000 € HT; Generation Robots, 140.300 € HT.
+
+À 121.000 €, amortis sur cinq ans et 6.000 heures productives annuelles, le capital matériel représente environ 4 € par heure avant logiciel, énergie, maintenance, intégration et supervision.
+
+Ce n'est pas le coût du travail robotique.
+
+C'est le début de son dénominateur.
+
+FINVOCE ©
+
+AgiBot a déclaré 1,05 milliard RMB de revenus en 2025 et vise plus de 10 milliards en 2027. En octobre, une levée de 1 à 1,5 milliard RMB était rapportée autour d'une valorisation de 50 milliards RMB, chiffres non confirmés par l'entreprise.
+
+Pour l'investisseur, la donnée décisive devient alors moins spectaculaire que la vidéo: Worken par machine, taux d'utilisation, interventions humaines par heure, revenu logiciel et marge après maintenance.
+
+Un fabricant de robots peut ainsi commencer à être valorisé comme une capacité de travail installée.
+
+OLYMPIA
+
+Offenbach imaginait une machine que l'homme prenait pour une personne.
+
+L'industrie construit une machine dont il devient possible de comptabiliser le travail.
+
+"Une technologie change réellement l'économie lorsqu'elle cesse d'impressionner et commence à être comptée."
+
+Sources
+
+AgiBot, Longcheer Technology, Counterpoint Research, IDC, TechNode, Delta Robots, Generation Robots, 2026
+
+#VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7524123542213447680/">Linkedin</source></item><item><title>La Chine dépasse l'Allemagne dans les machines-outils. L'Europe risque de perdre les machines qui fabriquent ses usines</title><link>https://voce.life/archive/2026/11/04/la-chine-depasse-l-allemagne-dans-les-machines-outils-l-europe-risque-de-7523836678365421568</link><guid isPermaLink="true">https://voce.life/archive/2026/11/04/la-chine-depasse-l-allemagne-dans-les-machines-outils-l-europe-risque-de-7523836678365421568</guid><author>VOCE Association</author><description>La Chine dépasse l'Allemagne dans les machines-outils. L'Europe risque de perdre les machines qui fabriquent ses usines
 
 Juin 2026.
 
@@ -2165,946 +3150,4 @@ Journal officiel, arrêté du 24 mars 2026
 Assurance maladie, 3 septembre 2026
 Dexcom, résultats T2 2026
 
-#Diabete #Dexcom #Glycemie #MedTech #SantePublique #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7520167475578150913/">Linkedin</source></item><item><title>CorroCool: Hong Kong transforme le principe de la fourmi du Sahara en peinture anticorrosion</title><link>https://voce.life/archive/2026/10/25/corrocool-hong-kong-transforme-le-principe-de-la-fourmi-du-sahara-en-pei-7519910759410278400</link><guid isPermaLink="true">https://voce.life/archive/2026/10/25/corrocool-hong-kong-transforme-le-principe-de-la-fourmi-du-sahara-en-pei-7519910759410278400</guid><author>VOCE Association</author><description>CorroCool: Hong Kong transforme le principe de la fourmi du Sahara en peinture anticorrosion
-
-Hunan, Chine.
-
-À l’école Kuzhi Yucai, 830 m² de membrane de refroidissement passif sont posés sur les toits.
-
-Mesures annoncées: jusqu’à 21,6°C de moins en surface et 8,3°C de moins à l’intérieur.
-
-Pour comprendre le principe, il faut regarder une fourmi.
-
-En 2015, Norman Nan Shi, Nanfang Yu et leurs collègues montrent dans Science que Cataglyphis bombycina possède des poils triangulaires qui réfléchissent davantage le rayonnement solaire et favorisent l’émission thermique infrarouge.
-
-À Hong Kong, l’équipe d’Edwin Tso développe chez i2Cool une logique comparable: réfléchir le Soleil et émettre de la chaleur dans la fenêtre atmosphérique de 8 à 13 µm.
-
-Au Hong Kong Coliseum, 9.700 m² ont été traités. i2Cool estime l’économie annuelle à 300.000 kWh. C’est une projection, pas encore une mesure indépendante de long terme.
-
-En août 2026, i2Cool lance avec Kinte Materials Science and Technology CorroCool.
-
-Cette fois, la surface doit refroidir et protéger l’acier.
-
-Le revêtement utilise un système polymère riche en silane qui s’ancre au métal et forme une barrière contre humidité, sels et agents corrosifs.
-
-Le fabricant annonce au moins 92% de réflectance solaire, 95% d’émissivité dans la fenêtre atmosphérique, plus de 10 MPa d’adhérence et 1.440 heures de brouillard salin.
-
-Applications visées: toitures métalliques, réservoirs pétrochimiques, armoires télécoms et infrastructures côtières.
-
-ULTRA®
-
-CorroCool combine deux fonctions dans quelques centaines de micromètres: gestion radiative de la chaleur et protection anticorrosion.
-
-Mais 1.440 heures de brouillard salin ne signifient ni 1.440 heures de service ni une durée de vie garantie.
-
-ISO 12944-6 le précise: ses essais de laboratoire aident à sélectionner un système de peinture, ils ne prédisent pas directement sa durabilité réelle.
-
-Pour un port, une raffinerie ou une toiture industrielle, il faut encore suivre adhérence après vieillissement, encrassement, cycles thermiques, corrosion sous film et évolution de la réflectance.
-
-Même prudence pour le refroidissement.
-
-Une baisse de 21,6°C de la toiture ne signifie pas 21,6°C de moins dans le bâtiment. Isolation, ventilation, humidité et convection déterminent le gain réel.
-
-CorroCool vient seulement d’être lancé.
-
-La rupture est ailleurs: une enveloppe métallique n’est plus seulement un bouclier contre pluie et sel. Elle devient une surface conçue pour gérer aussi son échange thermique avec le ciel.
-
-LEONARDO
-
-La fourmi du Sahara portait déjà sur elle une idée que l’industrie commence à déposer sur l’acier.
-
-Sources
-
-Shi et al., Science, 2015
-i2Cool, Hong Kong Coliseum et projets scolaires, 2025-2026
-i2Cool &amp; Kinte, CorroCool, août 2026
-ISO 12944-6:2018
-
-#CorroCool #i2Cool #Architecture #Industrie #RefroidissementRadiatif #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519910759410278400/">Linkedin</source></item><item><title>57 centimètres viennent de trancher le mystère des églises basques</title><link>https://voce.life/archive/2026/10/25/57-centimetres-viennent-de-trancher-le-mystere-des-eglises-basques-7519956061508870144</link><guid isPermaLink="true">https://voce.life/archive/2026/10/25/57-centimetres-viennent-de-trancher-le-mystere-des-eglises-basques-7519956061508870144</guid><author>VOCE Association</author><description>57 centimètres viennent de trancher le mystère des églises basques
-
-Vallées du Gorbea.
-
-Levez les yeux dans San Bartolomé de Olarte.
-
-Au-dessus de la nef, le bois dessine une immense voûte courbe.
-
-Depuis longtemps, une explication paraît évidente: le Pays basque construisait des navires. Ses charpentiers maîtrisaient membrures, assemblages et grandes pièces courbes.
-
-Ces voûtes seraient donc des coques retournées.
-
-En 2026, Teresa Artola-Guijarro, de l’Université du Pays basque, et Alejandro Martínez de Arbulo, du Kyoto Institute of Technology, confrontent cette idée aux mesures.
-
-Ils étudient quatre églises des vallées du Gorbea avec un scanner laser Leica RTC360: San Lorenzo de Otzerimendi, San Pedro de Zaloa, San Bartolomé de Olarte et Santa María de Goikuria.
-
-Le détail décisif mesure 57,468 cm.
-
-C’est le "codo de ribera", unité utilisée par les charpentiers navals du nord de l’Espagne.
-
-Si les voûtes avaient été conçues avec leurs méthodes, leurs dimensions principales devraient s’exprimer naturellement dans cette unité.
-
-Ce n’est pas ce que trouvent les chercheurs.
-
-Les largeurs, rayons et hauteurs s’ajustent beaucoup mieux aux unités de la charpenterie du bâtiment: le pied et le codo castillans.
-
-À Olarte, le rayon correspond à 20 pieds.
-
-À Goikuria: 10 pieds.
-
-Les chercheurs comparent aussi les formes.
-
-Otzerimendi et Zaloa utilisent des profils semi-circulaires. Olarte adopte un arc brisé. Goikuria une courbe ovale composée de trois arcs tangents.
-
-Sous une ressemblance spectaculaire se cachent donc des systèmes de conception différents.
-
-ULTRA®
-
-L’étude ne prouve pas qu’aucun charpentier naval n’ait jamais travaillé sur une église.
-
-Elle démontre quelque chose de plus précis: les quatre voûtes portent la signature métrologique de la charpenterie architecturale.
-
-Le pied permet d’exprimer leurs dimensions par nombres entiers ou fractions simples.
-
-Le codo de ribera, non.
-
-La différence paraît minuscule.
-
-Elle sépare pourtant deux traditions techniques.
-
-Une même région pouvait partager le chêne, les outils, certains assemblages et les hommes, tout en conservant des règles de tracé différentes selon le métier.
-
-Les auteurs rapprochent aussi ces voûtes de traditions architecturales gothiques européennes plutôt que d’une simple transposition de coque.
-
-Le scanner laser vient ainsi de rendre visible ce que l’œil confondait depuis des siècles.
-
-Deux formes peuvent se ressembler.
-
-Leurs nombres racontent des métiers différents.
-
-DAEDALUS
-
-La ressemblance appartient au regard. La technique laisse ses preuves dans les mesures.
-
-Sources 2026
-
-Artola-Guijarro &amp; Martínez de Arbulo, Informes de la Construcción, 78(581), 7167
-Artola-Guijarro &amp; Martínez de Arbulo, International Journal of Architectural Heritage
-
-#PaysBasque #Architecture #Patrimoine #HistoireDesTechniques #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519956061508870144/">Linkedin</source></item><item><title>Venise, 1262: l'État transforme une dette forcée en actif négociable</title><link>https://voce.life/archive/2026/10/24/venise-1262-l-etat-transforme-une-dette-forcee-en-actif-negociable-7519865451342991360</link><guid isPermaLink="true">https://voce.life/archive/2026/10/24/venise-1262-l-etat-transforme-une-dette-forcee-en-actif-negociable-7519865451342991360</guid><author>VOCE Association</author><description>Venise, 1262: l'État transforme une dette forcée en actif négociable
-
-Venise, 12 mars 1262.
-
-La République finance une guerre contre l'Empire byzantin de Michel VIII Paléologue et ses alliés génois.
-
-Les citoyens aisés sont soumis aux prestiti: des prêts obligatoires proportionnels à leur patrimoine.
-
-Le Grand Conseil fixe alors un mécanisme qui change leur nature.
-
-Les créanciers reçoivent 5% d'intérêt annuel, payé deux fois par an grâce à des recettes fiscales affectées. Entre 1262 et 1264, les dettes sont consolidées dans un fonds qui sera plus tard appelé Monte Vecchio.
-
-Mais surtout, les créances peuvent être transférées.
-
-Un Vénitien peut vendre son droit à un autre. La Camera degli Imprestiti inscrit le changement de propriétaire dans ses registres.
-
-La dette publique devient un patrimoine négociable.
-
-Au plus tard vers 1320, un marché secondaire existe. Les titres circulent à des prix inférieurs ou proches de leur valeur nominale selon l'état des finances publiques.
-
-La confiance possède désormais un prix.
-
-En 1363, Venise suspend les remboursements ordinaires du principal. En 1375, elle remplace officiellement le remboursement à la valeur nominale par des rachats volontaires au prix du marché.
-
-L'État peut devoir 100 ducats et racheter sa dette moins cher si le marché la valorise 80.
-
-La sophistication ne doit pas masquer l'origine du système.
-
-Les citoyens n'avaient pas choisi de prêter.
-
-Venise avait transformé une contrainte fiscale en créance transmissible.
-
-ULTRA®
-
-C'est ici que naît une mécanique familière à tout marché obligataire moderne.
-
-Une promesse juridique de remboursement possède une valeur nominale.
-
-Le marché lui attribue une autre valeur.
-
-Si le risque perçu augmente, l'acheteur exige davantage de rendement. Pour une créance à intérêt fixe, son prix baisse.
-
-À Venise, les prestiti se négocient entre environ 75% et le pair lorsque les intérêts sont servis régulièrement. Lorsque la dette grossit, les cours reculent.
-
-Le pouvoir pouvait imposer le prêt.
-
-Il ne pouvait pas imposer le prix auquel deux particuliers accepteraient ensuite de l'échanger.
-
-FINVOCE ©
-
-L'innovation de 1262 va donc au-delà de l'emprunt.
-
-Elle sépare trois choses: la décision politique de créer la dette, la fiscalité qui finance ses intérêts et le jugement du marché sur sa valeur.
-
-Cette séparation transforme une obligation envers l'État en actif financier.
-
-Elle révèle aussi une règle qui n'a pas disparu.
-
-Un gouvernement peut organiser juridiquement sa dette. Il ne décide jamais seul du rendement que les détenteurs exigeront pour la conserver.
-
-SHYLOCK
-
-Le pouvoir peut obtenir l'obéissance. La confiance, elle, se négocie.
-
-Sources
-
-Luciano Pezzolo, Oxford University Press, 2005
-Treccani, Storia di Venezia, finanza pubblica
-John H. Munro, travaux sur les prestiti vénitiens
-Archivio di Stato di Venezia, Ufficiali agli imprestiti
-
-#Venise #DettePublique #Finance #HistoireEconomique #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519865451342991360/">Linkedin</source></item><item><title>Van Gogh: "La Nuit étoilée" pourrait conserver le ciel du 22 juillet 1889</title><link>https://voce.life/archive/2026/10/24/van-gogh-la-nuit-etoilee-pourrait-conserver-le-ciel-du-22-juillet-1889-7519699394200481792</link><guid isPermaLink="true">https://voce.life/archive/2026/10/24/van-gogh-la-nuit-etoilee-pourrait-conserver-le-ciel-du-22-juillet-1889-7519699394200481792</guid><author>VOCE Association</author><description>Van Gogh: "La Nuit étoilée" pourrait conserver le ciel du 22 juillet 1889
-
-22 octobre 2026.
-
-Le MoMA date toujours La Nuit étoilée de juin 1889.
-
-Une étude publiée dans Scientific Reports propose pourtant qu'une partie de son ciel corresponde au 22 juillet.
-
-Elijah Jeong-hyun Kim, Suna Kang, Jungwoo Song, Ho Jin et leurs collègues reconstruisent d'abord le champ de vision à partir d'un dessin de paysage de Van Gogh et de relevés topographiques.
-
-Le cadre obtenu est étroit: environ 18,4° en diagonale.
-
-Ils le confrontent ensuite au ciel de Saint-Rémy-de-Provence en 1889.
-
-Le 22 juillet vers 3h, en temps moyen local, la Lune décroissante, Vénus et les Hyades entrent ensemble dans ce cadre.
-
-La séparation Lune-Vénus atteint 18,6°. La fraction éclairée de la Lune est de 28,44%. L'inclinaison du V des Hyades correspond également à celle du groupe d'étoiles peint.
-
-Les auteurs testent aussi météo, chaleur estivale, activité des cigales et correspondance de Van Gogh.
-
-Leur conclusion reste prudente: le ciel autour du 22 juillet est celui qui correspond le mieux à l'ensemble des contraintes.
-
-Cela ne signifie pas que le tableau a été peint en une nuit.
-
-Le MoMA rappelle qu'il fut réalisé en plusieurs séances diurnes, à partir d'observations transformées. Le village n'est pas celui visible depuis la fenêtre et le cyprès a été rapproché.
-
-ULTRA®
-
-Une date résiste à cette nouvelle chronologie: le 18 juin 1889.
-
-Dans sa lettre 782 à Theo, Van Gogh mentionne déjà une "nouvelle étude de ciel étoilé".
-
-L'équipe doit donc envisager que la toile ait commencé en juin puis continué ou été reprise en juillet.
-
-Cette poursuite n'est pas démontrée.
-
-C'est la limite la plus intéressante de l'étude: un calcul astronomique peut être extrêmement précis sans dater à lui seul un coup de pinceau.
-
-Les auteurs le reconnaissent eux-mêmes. Le 22 juillet n'est pas présenté comme une certitude absolue, mais comme le meilleur ajustement d'un ensemble d'indices indépendants.
-
-La méthode ajoute néanmoins quelque chose de neuf à l'histoire de l'art: une hypothèse picturale devient testable par géométrie, astronomie, météorologie et archives.
-
-Le ciel de Van Gogh reste une construction.
-
-Mais une partie de cette construction pourrait avoir eu une date.
-
-TOSCA
-
-Une œuvre peut retenir plusieurs nuits dans un ciel que personne n'a vu d'un seul regard.
-
-Sources
-
-Kim et al., Scientific Reports, 22 octobre 2026
-Vincent van Gogh Letters, lettre 782, 18 juin 1889
-Museum of Modern Art, The Starry Night
-
-#VOCEAssociation #VanGogh #HistoireDeLArt #Astronomie #Patrimoine</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519699394200481792/">Linkedin</source></item><item><title>Rétinite pigmentaire: la Chine veut remplacer les photorécepteurs au lieu de corriger chaque mutation</title><link>https://voce.life/archive/2026/10/24/retinite-pigmentaire-la-chine-veut-remplacer-les-photorecepteurs-au-lieu-7519654090411454464</link><guid isPermaLink="true">https://voce.life/archive/2026/10/24/retinite-pigmentaire-la-chine-veut-remplacer-les-photorecepteurs-au-lieu-7519654090411454464</guid><author>VOCE Association</author><description>Rétinite pigmentaire: la Chine veut remplacer les photorécepteurs au lieu de corriger chaque mutation
-
-Septembre 2026.
-
-Plus de 100 gènes peuvent provoquer une rétinite pigmentaire.
-
-Pour la thérapie génique, cette diversité complique tout: corriger une mutation ne traite pas les autres.
-
-iRegene Therapeutics, en Chine, teste une autre logique.
-
-NouvSight001 est une thérapie cellulaire allogénique dérivée d’iPSC. Son objectif n’est pas de réparer chaque mutation, mais de remplacer des photorécepteurs perdus par des cellules produites à l’avance, standardisées et prêtes à l’emploi.
-
-La FDA a autorisé un essai de phase I/II aux États-Unis. La NMPA chinoise a autorisé un essai de phase I/III. En 2024, la FDA avait accordé au programme une désignation de médicament orphelin.
-
-Ce ne sont pas des autorisations de mise sur le marché.
-
-Les essais doivent encore établir sécurité, survie des cellules et efficacité visuelle.
-
-Car fabriquer un photorécepteur ne suffit pas.
-
-Il doit survivre, mûrir, s’intégrer dans une rétine dégénérée puis transmettre un signal aux circuits qui conduisent l’information vers le cerveau.
-
-Une cellule photosensible incapable d’entrer dans ce réseau ne rend pas la vue.
-
-ULTRA®
-
-Le verrou scientifique est synaptique autant que cellulaire.
-
-Dans une rétine dégénérée, les circuits survivants se réorganisent et l’inflammation peut modifier le microenvironnement.
-
-NouvSight001 ajoute une difficulté: les cellules sont allogéniques. Leur intérêt industriel est évident, mais leur tolérance immunologique devra être démontrée dans la durée.
-
-C’est aussi ce qui rend le programme stratégique.
-
-Une thérapie autologue fabrique pour un patient. Une thérapie allogénique "off-the-shelf" cherche à fabriquer pour une population.
-
-Si elle fonctionne, la médecine régénérative peut passer à une logique de lots, contrôle qualité, cryoconservation et distribution hospitalière.
-
-FINVOCE ©
-
-En juin puis juillet 2026, iRegene lève 210 puis 260 millions de yuans: 470 millions au total.
-
-Le tour C+ est mené par Chengdu Science and Technology Venture Capital, avec notamment CITIC Securities Capital et Hony Capital. GSR Ventures participe de nouveau.
-
-L’entreprise recrute aussi Tim Ruan, ancien executive director de Goldman Sachs Asia et vice-président de Morgan Stanley Asia, pour ses opérations de capital.
-
-Le même socle industriel sert déjà plusieurs programmes iPSC, notamment dans Parkinson et la rétine.
-
-La valeur ne viendra pourtant pas du nombre de cellules fabriquées.
-
-Elle dépendra d’une preuve beaucoup plus difficile: montrer chez des patients une amélioration visuelle mesurable, durable et reproductible.
-
-LUCIA
-
-Il existe une différence immense entre fabriquer la matière de la vie et lui rendre sa place dans le vivant.
-
-Sources
-
-iRegene Therapeutics, NouvSight001, septembre 2026
-FDA, Orphan Drug Designation
-iRegene Therapeutics, financements juin-juillet 2026
-
-#RetinitePigmentaire #Biotechnologie #iPSC #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519654090411454464/">Linkedin</source></item><item><title>Ménopause: vos os peuvent libérer le plomb de l'essence d'autrefois</title><link>https://voce.life/archive/2026/10/24/menopause-vos-os-peuvent-liberer-le-plomb-de-l-essence-d-autrefois-7519669171509592064</link><guid isPermaLink="true">https://voce.life/archive/2026/10/24/menopause-vos-os-peuvent-liberer-le-plomb-de-l-essence-d-autrefois-7519669171509592064</guid><author>VOCE Association</author><description>Ménopause: vos os peuvent libérer le plomb de l'essence d'autrefois
-
-En France, l'essence plombée a disparu des stations-service le 1er janvier 2000.
-
-Vingt-six ans plus tard, une partie du plomb absorbé autrefois peut encore être stockée dans le squelette.
-
-Et la ménopause peut contribuer à sa remise en circulation.
-
-Le 12 octobre 2026, Glen Pridham, Yoav Hayut, Noa Lavi-Shoseyov et Uri Alon publient dans Nature Medicine une analyse de plus de 300 millions de résultats biologiques provenant de plus d'un million de femmes aux États-Unis et en Israël.
-
-Leur méthode, YoGlen, réaligne statistiquement les données autour de la dernière menstruation, dont l'âge varie d'une femme à l'autre.
-
-Sur 90 paramètres étudiés, 52 présentent une rupture significative autour de la ménopause.
-
-Métabolisme osseux, foie, lipides, osmolalité: plusieurs systèmes changent brutalement. Chez les hommes du même âge, aucune rupture comparable n'apparaît.
-
-L'AMH accélère sa baisse environ 15 ans avant la ménopause. La FSH accélère sa hausse 14 ans avant, et l'estradiol sa baisse environ 12 ans avant.
-
-Ce sont des trajectoires moyennes, pas des calendriers individuels.
-
-Puis apparaît un résultat inattendu: le plomb sanguin augmente lui aussi autour de la ménopause.
-
-ULTRA®
-
-Le squelette stocke l'essentiel du plomb présent dans l'organisme adulte.
-
-Le métal peut rester des années dans l'os, puis repasser dans le sang lorsque la résorption osseuse augmente.
-
-Les auteurs décrivent bien un saut statistique du plomb sanguin et avancent le stockage osseux comme explication probable. Leur étude ne démontre cependant pas l'origine de chaque exposition.
-
-Une étude américaine de 2004 avait déjà trouvé des plombémies médianes ajustées supérieures de 25% après ménopause naturelle et de 30% après ménopause chirurgicale par rapport aux femmes préménopausées.
-
-Pendant une grande partie du XXe siècle, le plomb ajouté à l'essence a contaminé air, poussières et sols. L'Union européenne en a interdit la commercialisation à partir du 1er janvier 2000.
-
-Les pompes ont changé plus vite que les corps.
-
-Le plomb circulant est associé à des effets cardiovasculaires, rénaux et neurologiques. L'OMS rappelle qu'aucun niveau d'exposition n'est connu comme totalement dépourvu de risque.
-
-Mais cette étude ne démontre pas que le plomb explique les symptômes de la ménopause, ni qu'un dépistage systématique serait utile.
-
-Elle révèle quelque chose de plus profond: une transition hormonale peut remettre en circulation une exposition ancienne que l'environnement avait déjà oubliée.
-
-MÉLISANDE
-
-La date d'interdiction d'un polluant n'est pas celle de sa disparition biologique.
-
-Sources
-
-Pridham et al., Nature Medicine, 12 octobre 2026
-Nash et al., American Journal of Epidemiology, 2004
-OMS, Lead poisoning, 10 juin 2026
-Directive 98/70/CE
-
-#Menopause #Plomb #SanteDesFemmes #Toxicologie #NatureMedicine #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519669171509592064/">Linkedin</source></item><item><title>MASH: l'Europe peut désormais traiter sans biopsier le foie</title><link>https://voce.life/archive/2026/10/24/mash-l-europe-peut-desormais-traiter-sans-biopsier-le-foie-7519548380822511616</link><guid isPermaLink="true">https://voce.life/archive/2026/10/24/mash-l-europe-peut-desormais-traiter-sans-biopsier-le-foie-7519548380822511616</guid><author>VOCE Association</author><description>MASH: l'Europe peut désormais traiter sans biopsier le foie
-
-Berlin, septembre 2026.
-
-Pendant des décennies, décider précisément de l'état d'un foie malade pouvait nécessiter d'y introduire une aiguille.
-
-La biopsie reste précieuse, mais elle échantillonne une infime partie de l'organe et comporte variabilité de prélèvement, interprétation et risque procédural.
-
-Le 28 septembre 2026, EASL, EASD et EASO publient une nouvelle guidance présidée par Frank Tacke, de la Charité de Berlin.
-
-Pour de nombreux adultes atteints de MASH avec fibrose F2 ou F3 sans cirrhose, la biopsie n'est désormais plus requise avant un traitement.
-
-Les recommandations privilégient les tests non invasifs.
-
-Le FIB-4 sert au premier tri. Une élastographie VCTE entre 10 et 20 kPa, idéalement confirmée par un second test, une MRE entre 3,1 et 5,0 kPa ou un score ELF entre 9,8 et 11,3 peuvent identifier des patients à risque suffisamment élevé pour envisager une pharmacothérapie.
-
-Deux médicaments changent aussi le paysage européen.
-
-Le resmetirom, Rezdiffra, active sélectivement les récepteurs thyroïdiens bêta du foie.
-
-Le sémaglutide, autorisé dans cette indication en Europe sous le nom Kayshild, agit comme agoniste du GLP-1.
-
-Les deux peuvent être envisagés chez certains adultes avec MASH non cirrhotique et fibrose F2-F3, en complément des mesures de mode de vie.
-
-Le choix dépend du profil métabolique, cardiovasculaire, rénal, de la tolérance et des préférences du patient.
-
-ULTRA®
-
-Le changement le plus profond n'est pas seulement thérapeutique.
-
-Il est métrologique.
-
-La médecine accepte désormais qu'une décision de traitement puisse reposer sur plusieurs mesures indirectes concordantes plutôt que sur un fragment de tissu.
-
-Mais ces tests ne sont pas parfaits. Les seuils peuvent manquer certains patients F2 et en classer d'autres à tort. Une biopsie reste utile lorsque les résultats sont discordants, lorsqu'une autre maladie du foie est suspectée ou lorsqu'une cirrhose reste incertaine.
-
-Autre limite: ni le resmetirom ni le sémaglutide n'ont encore démontré, dans des essais randomisés de longue durée, une réduction des transplantations ou de la mortalité hépatique.
-
-Avec le sémaglutide, la guidance demande aussi de surveiller nutrition, activité physique et masse ou force musculaire, surtout lors d'une perte de poids rapide.
-
-Faire baisser le poids ne suffit pas si le patient perd en même temps une partie de sa réserve musculaire.
-
-La prochaine médecine du foie devra donc mesurer ce qu'elle évite d'enlever par biopsie, ce qu'elle réduit par traitement et ce que le corps doit absolument conserver.
-
-GOLAUD
-
-La médecine progresse lorsqu'elle apprend à intervenir avant que la cicatrice ne devienne irréversible.
-
-Sources
-
-EASL-EASD-EASO, Journal of Hepatology, 28 septembre 2026
-EMA, Rezdiffra et Kayshild
-GI &amp; Hepatology News, 22 octobre 2026
-
-#Hepatologie #MASH #Resmetirom #Semaglutide #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519548380822511616/">Linkedin</source></item><item><title>Les papillons de nuit entendent les plantes que nous croyons silencieuses</title><link>https://voce.life/archive/2026/10/24/les-papillons-de-nuit-entendent-les-plantes-que-nous-croyons-silencieuse-7519850353794842624</link><guid isPermaLink="true">https://voce.life/archive/2026/10/24/les-papillons-de-nuit-entendent-les-plantes-que-nous-croyons-silencieuse-7519850353794842624</guid><author>VOCE Association</author><description>Les papillons de nuit entendent les plantes que nous croyons silencieuses
-
-Tel-Aviv.
-
-Dans une chambre acoustiquement isolée, Rya Seltzer, Guy Zer Eshel et leurs collègues placent des femelles de Spodoptera littoralis devant deux zones de ponte.
-
-D’un côté, un haut-parleur diffuse les ultrasons enregistrés sur des plants de tomates privés d’eau.
-
-De l’autre, le silence.
-
-Les femelles pondent davantage du côté sonore.
-
-L’expérience est répétée avec un autre rythme de lecture. Le résultat persiste.
-
-Puis les chercheurs rendent les papillons sourds.
-
-La préférence disparaît.
-
-Le 5 janvier 2026, l’équipe de Lilach Hadany et Yossi Yovel publie dans eLife la première démonstration expérimentale qu’un insecte peut utiliser les émissions acoustiques d’une plante pour décider où pondre.
-
-Ces plantes déshydratées produisent des clics ultrasonores situés dans la plage auditive des papillons, au-delà de l’oreille humaine.
-
-Mais l’expérience suivante est encore plus intéressante.
-
-Les chercheurs placent cette fois deux véritables plants de tomates bien hydratés dans l’arène. L’un est accompagné de l’enregistrement d’une plante stressée.
-
-Les femelles préfèrent alors le plant silencieux: 1,8 amas d’œufs par nuit contre 1,1 près du son de stress.
-
-Le même signal produit donc deux choix différents selon le contexte.
-
-Sans plante visible, il peut indiquer qu’un végétal se trouve à proximité.
-
-Avec deux plantes présentes, il devient un indice possible de leur état hydrique.
-
-L’insecte n’entend pas une "parole".
-
-Il exploite une information physique.
-
-ULTRA®
-
-Une plante n’a besoin ni de cordes vocales ni d’intention pour produire un signal biologiquement utile.
-
-Sous stress hydrique, des phénomènes physiques dans ses tissus conducteurs peuvent générer des clics ultrasonores.
-
-Le point décisif est ailleurs: un autre organisme peut avoir évolué de manière à utiliser cette information.
-
-Pour une femelle papillon, choisir une plante détermine l’environnement dans lequel ses chenilles commenceront leur existence.
-
-L’étude ne montre pas encore quelle importance ces sons possèdent dans un champ réel, parmi odeurs, vent, végétation dense et bruit ambiant.
-
-Elle révèle cependant une couche du paysage que notre audition ignore.
-
-Une forêt, un potager ou un jardin ne sont pas silencieux simplement parce que nous n’entendons rien.
-
-TITANIA
-
-Il existe dans le silence du monde des conversations auxquelles nos sens ne nous ont jamais donné accès.
-
-Sources
-
-Seltzer, Zer Eshel et al., eLife, 5 janvier 2026
-Tel Aviv University, 2026
-
-#SciencesDuVivant #Perception #Bioacoustique #Nature #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519850353794842624/">Linkedin</source></item><item><title>Le radar chinois SYISR observe sept harmoniques d'ondes électroniques prédites depuis 1958</title><link>https://voce.life/archive/2026/10/24/le-radar-chinois-syisr-observe-sept-harmoniques-d-ondes-electroniques-pr-7519608768599363584</link><guid isPermaLink="true">https://voce.life/archive/2026/10/24/le-radar-chinois-syisr-observe-sept-harmoniques-d-ondes-electroniques-pr-7519608768599363584</guid><author>VOCE Association</author><description>Le radar chinois SYISR observe sept harmoniques d'ondes électroniques prédites depuis 1958
-
-24 juillet 2026.
-
-À Sanya, sur l'île de Hainan, le radar SYISR révèle une structure que la théorie des plasmas annonçait depuis des décennies sans que les radars terrestres puissent la résoudre dans l'ionosphère.
-
-Yonghui Wang, Xinan Yue et leurs collègues publient dans Nature Communications des observations d'ondes électroniques de Bernstein.
-
-Ces modes électrostatiques apparaissent dans un plasma magnétisé lorsque le mouvement collectif des électrons se structure autour de leur fréquence de gyration dans le champ magnétique.
-
-Le SYISR fonctionne entre 430 et 450 MHz, avec une puissance de crête supérieure à 4 MW.
-
-Le 7 juin 2024, son faisceau est pointé à 60° d'élévation, presque perpendiculairement au champ géomagnétique. Sur 100 à 1.000 km de distance oblique, l'angle reste inférieur à 6°.
-
-Cette géométrie réduit l'amortissement de Landau et permet de distinguer des signatures jusqu'au septième gyroharmonique électronique.
-
-Le radar n'écoute pas une émission radio des électrons. Il mesure la diffusion de son propre signal sur les fluctuations de densité du plasma.
-
-Les harmoniques deviennent alors une règle spectrale.
-
-Les chercheurs en déduisent la densité électronique et la température perpendiculaire des électrons, difficiles à extraire des méthodes classiques dans cette géométrie.
-
-ULTRA®
-
-Le détail le plus intéressant est métrologique.
-
-Les mêmes structures qui compliquent le spectre deviennent l'instrument de mesure.
-
-À 540 km de distance oblique, l'inversion fournit environ 1,02 × 10¹¹ électrons/m³ et une température perpendiculaire proche de 3.400 K. Le spectre théorique calculé avec ces paramètres reproduit les pics observés.
-
-Les auteurs attribuent aussi l'amplification des modes à des photoélectrons suprathermiques produits par le rayonnement ultraviolet extrême solaire.
-
-Le lien avec la fusion existe, mais doit rester précis.
-
-Dans les tokamaks, les ondes de Bernstein électroniques peuvent chauffer des plasmas trop denses pour certaines micro-ondes classiques. En 2007, l'EPFL démontrait sur TCV un chauffage par conversion O-X-B au-delà de cette limite.
-
-Sanya ne produit donc aucune percée énergétique.
-
-Il montre qu'une même physique peut servir de diagnostic naturel dans l'ionosphère et de mécanisme de chauffage dans un tokamak.
-
-Pour le GNSS, l'intérêt est indirect: mieux mesurer densité, température et perturbations ionosphériques améliore la compréhension d'une région traversée par les signaux satellitaires.
-
-ARIEL
-
-Il suffit parfois de changer l'angle pour qu'une loi ancienne devienne enfin visible.
-
-Sources
-
-Wang et al., Nature Communications, 24 juillet 2026
-Chinese Academy of Sciences, 2026
-Mueck et al., Physical Review Letters, 2007
-
-#VOCEAssociation #Ionosphere #PlasmaPhysics #BernsteinWaves #ChineseScience</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519608768599363584/">Linkedin</source></item><item><title>Le corse n’est pas un patois français. Le français est arrivé après.</title><link>https://voce.life/archive/2026/10/24/le-corse-nest-pas-un-patois-francais-le-francais-est-arrive-apres-7519623862444027904</link><guid isPermaLink="true">https://voce.life/archive/2026/10/24/le-corse-nest-pas-un-patois-francais-le-francais-est-arrive-apres-7519623862444027904</guid><author>VOCE Association</author><description>Le corse n’est pas un patois français. Le français est arrivé après.
-
-Ouvrez une carte linguistique de la France.
-
-Breton à l’ouest. Basque au sud-ouest. Alsacien à l’est. Occitan au sud.
-
-Puis la Corse.
-
-L’intuition française range encore souvent le corse parmi de vieux "patois" du français.
-
-L’histoire raconte autre chose.
-
-Le corse est une langue romane issue du latin, comme l’italien, le français, l’espagnol ou le portugais. Sa proximité avec les parlers toscans est ancienne et profonde.
-
-Pendant des siècles, le toscan puis l’italien occupent en Corse la fonction écrite, administrative et culturelle. Le corse reste la langue parlée de la vie quotidienne.
-
-Le français n’est donc pas au commencement de cette histoire.
-
-Il devient langue du pouvoir après la conquête française de 1768-1769.
-
-Et son implantation est lente.
-
-En 1880, plus d’un siècle après la conquête, un inspecteur primaire à Corte s’indigne encore que certains instituteurs utilisent l’italien en classe et que le corse domine les conversations et les familles.
-
-Les manuels français du XIXe siècle sont révélateurs.
-
-En 1852, Camille de Friess écrit: "On parle en Corse la langue italienne" et affirme qu’après la Toscane, la Romagne et Lucques, l’île est l’un des territoires où cet idiome serait parlé avec le plus de "pureté".
-
-En 1898, un autre manuel décrit encore le corse comme "un dialecte italien".
-
-L’école républicaine va progressivement changer cette hiérarchie linguistique.
-
-ULTRA®
-
-Le mot "patois" donne souvent l’illusion qu’une langue régionale serait une forme incomplète du français.
-
-La Corse détruit cette image.
-
-Le corse ne dérive pas du français. Il appartient à l’histoire romane, avec une proximité particulièrement forte avec l’italien central.
-
-Éduscol donne aujourd’hui des exemples presque transparents: latin vita, corse vita, français vie; latin capra, corse capra, français chèvre; latin petra, corse petra, français pierre.
-
-Même l’administration française du XIXe siècle documente la difficulté de franciser l’île.
-
-En 1896, des directives scolaires demandent aux maîtres de ne parler que français, jusque dans les récréations et, si possible, dans leurs propres familles.
-
-Une langue peut donc devenir "régionale" non parce qu’elle serait plus jeune ou moins structurée, mais parce qu’une autre langue acquiert l’État, l’école et l’administration.
-
-Le français n’a pas engendré le corse.
-
-Il l’a progressivement remplacé comme langue dominante de l’espace public.
-
-ULYSSE
-
-Une langue ne devient petite que lorsque l’histoire commence à être racontée dans celle d’un autre.
-
-Sources
-
-Éduscol, "Latin et corse: histoire d’une parenté linguistique"
-Università di Corsica, M3C, manuels scolaires français 1833-1938
-Pascal Ottavi, Le bilinguisme dans l’école de la République
-CNRS, Nouvel Atlas Linguistique de la Corse
-
-#Corse #Corsica #LangueCorse #Histoire #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519623862444027904/">Linkedin</source></item><item><title>La France perd ses investisseurs: JPMorgan chiffre le prix du décrochage</title><link>https://voce.life/archive/2026/10/24/la-france-perd-ses-investisseurs-jpmorgan-chiffre-le-prix-du-decrochage-7519820160946323456</link><guid isPermaLink="true">https://voce.life/archive/2026/10/24/la-france-perd-ses-investisseurs-jpmorgan-chiffre-le-prix-du-decrochage-7519820160946323456</guid><author>VOCE Association</author><description>La France perd ses investisseurs: JPMorgan chiffre le prix du décrochage
-
-Paris, octobre 2026.
-
-Selon la Banque de France, les investissements directs étrangers entrants tombent à 19,4 milliards d’euros en 2025, contre 38,4 milliards en 2024 et 78 milliards en 2022.
-
-Les groupes français investissent, eux, 50,6 milliards à l’étranger.
-
-Solde: 31 milliards d’euros de sorties nettes.
-
-Une part importante vient de restructurations intragroupes. Ce n’est donc pas une fuite générale des capitaux.
-
-Mais le marché obligataire envoie un signal plus brutal.
-
-Le 21 octobre, JPMorgan Asset Management mesure 146 à 150 points de base d’écart entre l’OAT française à dix ans et le Bund allemand. Rendement français: près de 4,93%.
-
-Le lendemain, Reuters observe près de 178 points et un rendement supérieur à 5%.
-
-La France paie une prime de risque qu’elle n’avait plus connue à cette échelle depuis la crise des dettes souveraines.
-
-JPMorgan cite trois forces: hausse mondiale des taux, débouclements techniques et risque fiscal et politique français.
-
-Déficit public: près de 5,5% du PIB.
-
-Chaque nouvelle émission plus chère remplace progressivement une dette ancienne moins coûteuse. La charge d’intérêts monte. La marge budgétaire baisse.
-
-Banques et entreprises finissent aussi par payer une partie de cette prime.
-
-ULTRA®
-
-Le signal le plus inquiétant est peut-être ailleurs: qui achète encore?
-
-Selon Deutsche Bank, citée par le Sénat, les investisseurs non européens absorbaient 36% des achats nets d’OAT en 2024.
-
-Au premier semestre 2025: 0%.
-
-Les banques de la zone euro ont comblé le vide.
-
-Cela ne signifie pas que les investisseurs étrangers ont vendu toute la France. Cela signifie que la géographie du financement marginal a changé.
-
-Eurostat place le PIB par habitant français à 98% de la moyenne de l’Union en 2025, au même niveau que Chypre.
-
-L’OCDE estime que les déficits de compétences expliquent une part importante du retard de productivité français.
-
-Le problème n’est donc plus seulement la dette.
-
-C’est de convaincre que le prochain euro de capital productif doit encore être investi ici.
-
-FINVOCE ©
-
-100 points de base supplémentaires sur 100 milliards d’euros de dette nouvellement émise représentent, à titre illustratif, un milliard d’euros d’intérêts annuels en plus.
-
-Ce milliard ne construit aucune usine, ne finance aucun laboratoire, ne forme aucun ingénieur.
-
-Il rémunère le risque perçu.
-
-Il commence lorsque le prochain investisseur exige davantage pour rester, puis construit ailleurs.
-
-RADAMÈS
-
-Une nation peut conserver les symboles de sa puissance longtemps après que le capital a commencé à choisir son avenir ailleurs.
-
-Sources
-
-Banque de France, investissements directs 2025
-JPMorgan Asset Management, France Update, 21 octobre
-Reuters, 22 octobre
-Sénat, Engagements financiers de l’État
-Eurostat, PIB par habitant 2025
-OCDE, France 2026
-
-#France #Investissement #DettePublique #Productivite #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519820160946323456/">Linkedin</source></item><item><title>Deux repas aux mêmes calories: le cerveau ne leur attribue pas la même valeur</title><link>https://voce.life/archive/2026/10/24/deux-repas-aux-memes-calories-le-cerveau-ne-leur-attribue-pas-la-meme-va-7519638975947456512</link><guid isPermaLink="true">https://voce.life/archive/2026/10/24/deux-repas-aux-memes-calories-le-cerveau-ne-leur-attribue-pas-la-meme-va-7519638975947456512</guid><author>VOCE Association</author><description>Deux repas aux mêmes calories: le cerveau ne leur attribue pas la même valeur
-
-Virginie, 5 octobre 2026.
-
-À Virginia Tech, Zach Hutelin, Alexandra DiFeliceantonio et leurs collègues publient dans Nature Metabolism une expérience qui isole une variable difficile à séparer: le degré de transformation d’un aliment.
-
-L’étude comprend 57 adultes de poids normal. Trente-deux participent aux deux sessions métaboliques, dans un protocole croisé randomisé, et 52 à l’IRM fonctionnelle.
-
-Les repas testés apportent environ 300 kcal et sont étroitement appariés pour le poids, l’énergie, la densité énergétique, les macronutriments, les glucides disponibles, la charge glycémique, les fibres, le sodium et l’eau.
-
-L’un est ultratransformé. L’autre ne l’est pas.
-
-Pourtant, le corps ne les traite pas de la même manière.
-
-Après le repas ultratransformé, la réponse insulinique et la dépense énergétique sont plus élevées. Les auteurs rapportent également une modification de l’oxydation des substrats, avec une réponse glucidique différente malgré l’appariement nutritionnel.
-
-Puis vient le cerveau.
-
-Les différences individuelles de pic d’oxydation des glucides sont associées à l’activation du striatum lorsque les participants regardent des images d’aliments.
-
-Et alors que leur valeur subjective ne diffère pas globalement entre les deux conditions, les réponses cérébrales liées à cette valorisation divergent dans le striatum et le cortex visuel.
-
-Deux repas qui se ressemblent sur l’étiquette peuvent donc produire des signaux métaboliques et neuronaux différents.
-
-L’étude ne démontre ni dépendance ni effet durable sur les préférences. Elle mesure des réponses aiguës.
-
-ULTRA®
-
-Le mécanisme étudié touche à l’apprentissage post-ingestif.
-
-Après avoir mangé, l’intestin et le métabolisme envoient au cerveau des informations sur ce qui a réellement été absorbé et utilisé.
-
-Ces signaux participent à l’apprentissage de la valeur d’un aliment.
-
-Ici, les auteurs ont réduit une grande partie des différences classiques entre repas pour tester ce qui restait lorsque calories et macronutriments étaient presque identiques.
-
-Le résultat déplace la question.
-
-La composition chimique ne suffit peut-être pas à décrire l’expérience biologique d’un aliment. Sa structure physique, sa matrice et la vitesse avec laquelle ses nutriments deviennent disponibles peuvent aussi modifier la réponse post-ingestive.
-
-Cela ne permet pas encore de conclure qu’un degré de transformation donné provoque l’obésité.
-
-Mais cela fournit un mécanisme expérimental plausible reliant transformation, métabolisme et circuits cérébraux de valorisation.
-
-ROSSINI
-
-Le corps peut apprendre d’un repas quelque chose que l’étiquette ne sait pas encore raconter.
-
-Sources
-
-Hutelin et al., Nature Metabolism, 5 octobre 2026
-ClinicalTrials.gov, NCT06017986
-
-#Neurosciences #NatureMetabolism #AlimentsUltratransformes #Cognition #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519638975947456512/">Linkedin</source></item><item><title>Des sous-vêtements contiennent des substances qui altèrent la peau humaine en laboratoire</title><link>https://voce.life/archive/2026/10/24/des-sous-vetements-contiennent-des-substances-qui-alterent-la-peau-humai-7519790013203619840</link><guid isPermaLink="true">https://voce.life/archive/2026/10/24/des-sous-vetements-contiennent-des-substances-qui-alterent-la-peau-humai-7519790013203619840</guid><author>VOCE Association</author><description>Des sous-vêtements contiennent des substances qui altèrent la peau humaine en laboratoire
-
-Septembre 2026.
-
-Preeti Borde, Emerson Aldridge, Ian Zammit et leurs collègues publient dans Environment International une étude sur une surface du corps rarement examinée par la toxicologie textile: la peau vulvaire.
-
-Ils analysent des sous-vêtements féminins en coton et en polyamide, puis recherchent des bisphénols et des phtalates.
-
-Plusieurs de ces substances sont détectées dans 100% des échantillons textiles. Le polyamide contient davantage de DMP, de DEP et de bisphénol S que le coton. Le DEHP domine dans les deux catégories.
-
-L’équipe prélève ensuite la surface cutanée des cuisses et de la vulve externe de femmes adultes.
-
-BPS, DEP, DEHP et DnDP sont détectés dans environ 50 à 100% des prélèvements. BPA et DMP, eux, ne sont pas détectés sur la peau.
-
-La présence cutanée est donc établie.
-
-Son origine exclusivement textile ne l’est pas.
-
-Puis les chercheurs reconstruisent en laboratoire un équivalent tridimensionnel de peau humaine à partir de kératinocytes et de fibroblastes.
-
-Exposés au BPA ou au DEHP, ces tissus présentent une diminution de l’épaisseur de l’épiderme.
-
-C’est le résultat le plus important.
-
-La peau n’est plus seulement un lieu où l’on retrouve des contaminants. Dans ce modèle expérimental, sa structure répond à leur présence.
-
-Mais l’étude ne démontre ni cancer, ni maladie vulvaire, ni effet clinique chez les femmes portant ces vêtements. Les expositions journalières estimées pour chaque substance restent sous les limites sanitaires établies.
-
-ULTRA®
-
-Le détail le plus intéressant concerne l’athleisure et les vêtements compressifs.
-
-Plus une matière synthétique reste longtemps au contact d’une zone chaude, humide et soumise au frottement, plus la question du transfert chimique devient pertinente.
-
-L’étude ne mesure toutefois pas directement l’effet de la sueur, du frottement ou de la durée réelle de port. Elle montre surtout que la composition fibreuse ne suffit pas à décrire l’exposition.
-
-Une étiquette indique coton ou polyamide.
-
-Elle ne renseigne pas nécessairement sur les résidus chimiques présents dans le produit fini.
-
-Le prochain verrou industriel sera donc analytique: caractériser ce qui migre réellement du textile vers la peau dans des conditions d’usage réalistes, puis relier cette exposition à des effets biologiques mesurables.
-
-La frontière scientifique vient d’être franchie, mais pas la frontière clinique.
-
-VIOLETTA
-
-Nous choisissons les matières qui touchent notre corps sans toujours connaître les molécules qui les accompagnent.
-
-Sources 2026
-
-Borde et al., Environment International, vol. 215, 110467
-DOI 10.1016/j.envint.2026.110467
-
-#Textile #Athleisure #SanteDesFemmes #Toxicologie #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519790013203619840/">Linkedin</source></item><item><title>Des cellules pulmonaires quittent les alvéoles pour reconstruire les bronches</title><link>https://voce.life/archive/2026/10/24/des-cellules-pulmonaires-quittent-les-alveoles-pour-reconstruire-les-bro-7519729606275497985</link><guid isPermaLink="true">https://voce.life/archive/2026/10/24/des-cellules-pulmonaires-quittent-les-alveoles-pour-reconstruire-les-bro-7519729606275497985</guid><author>VOCE Association</author><description>Des cellules pulmonaires quittent les alvéoles pour reconstruire les bronches
-
-7 octobre 2026.
-
-Une cellule pulmonaire peut quitter son territoire, franchir une frontière anatomique et changer d’identité pour réparer une autre région du poumon.
-
-Dans Nature, Kuo Liu, Zixin Liu, Xinfeng Meng et leurs collègues le démontrent chez la souris.
-
-La découverte concerne les pneumocytes de type II, ou AT2. Ces cellules produisent le surfactant et réparent normalement les alvéoles.
-
-Après une lésion des bronchioles, certaines AT2 voisines migrent pourtant vers les voies aériennes endommagées.
-
-Les chercheurs ont développé des systèmes de traçage génétique à deux recombinases pour distinguer spécifiquement ces cellules de progéniteurs voisins qui brouillaient les expériences précédentes.
-
-Les images montrent deux routes de migration: surtout par la jonction bronchio-alvéolaire, mais aussi par des ouvertures de la paroi bronchiolaire.
-
-Une fois arrivées, les AT2 passent par un état intermédiaire marqué par CLDN4, deviennent des cellules club puis, pour certaines, des cellules ciliées.
-
-Après la lésion, des cellules immunitaires sécrètent SPP1. Les AT2 perçoivent ce signal via l’intégrine ITGB1 et migrent vers la bronchiole.
-
-Sur place, les cellules ciliées restantes fournissent des ligands Notch, qui poussent les AT2 migrantes vers l’identité de cellule club.
-
-Bloquer SPP1 ou ITGB1 réduit la migration. Supprimer la signalisation Notch empêche la conversion.
-
-Le poumon ne répare donc pas nécessairement chaque compartiment avec ses seules cellules locales.
-
-ULTRA®
-
-Le résultat le plus fort n’est pas seulement la migration.
-
-C’est la reprogrammation stable.
-
-Les cellules AT2 devenues cellules club acquièrent progressivement des profils épigénétiques et fonctionnels proches des cellules natives. Certaines peuvent ensuite produire des cellules ciliées.
-
-Quand ITGB1 ou RBPJ, acteur essentiel de Notch, est perturbé, la récupération fonctionnelle des petites voies aériennes est elle aussi altérée.
-
-Cela relie la plasticité cellulaire à une conséquence physiologique, chez la souris.
-
-Les auteurs rappellent aussi que des AT2 humaines peuvent adopter in vitro des identités de voies aériennes et que des phénomènes comparables ont été observés chez le primate non humain. La démonstration causale de cette étude reste toutefois murine.
-
-Pour la BPCO, l’asthme, la pneumonie ou la bronchectasie, l’intérêt est donc une piste de recherche, pas un traitement.
-
-Et SPP1 n’est pas un bouton de réparation universel: cette protéine intervient aussi dans des contextes inflammatoires et fibrotiques.
-
-La question devient plus précise: peut-on mobiliser une réserve cellulaire située ailleurs sans activer les mêmes signaux dans le mauvais contexte?
-
-DESDÉMONE
-
-Le vivant conserve parfois, dans une région intacte, la possibilité de réparer ce qui souffre ailleurs.
-
-Sources
-
-Liu et al., Nature, 7 octobre 2026.
-
-#Pneumologie #Regeneration #CellulesSouches #Nature #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519729606275497985/">Linkedin</source></item><item><title>Adobe Firefly: ses faux visages inspirent plus confiance que les vrais</title><link>https://voce.life/archive/2026/10/24/adobe-firefly-ses-faux-visages-inspirent-plus-confiance-que-les-vrais-7519578568306126848</link><guid isPermaLink="true">https://voce.life/archive/2026/10/24/adobe-firefly-ses-faux-visages-inspirent-plus-confiance-que-les-vrais-7519578568306126848</guid><author>VOCE Association</author><description>Adobe Firefly: ses faux visages inspirent plus confiance que les vrais
-
-7 juillet 2026.
-
-Alexis McGuire, Maty Bohacek, Hany Farid, Paul Taylor et Sophie Nightingale publient dans Journal of Vision une expérience devenue très concrète: un visage artificiel peut-il paraître plus digne de confiance qu'un vrai?
-
-Les chercheurs constituent une banque de 1.200 portraits: 400 photographies réelles, 400 visages StyleGAN2 et 400 générés avec Adobe Firefly Image 2.
-
-Dans une première expérience, 169 participants doivent distinguer les images réelles des artificielles.
-
-Précision moyenne: 58,4%.
-
-Les visages StyleGAN2 sont les plus difficiles à détecter. Ceux de Firefly sont moins photoréalistes.
-
-Puis 87 autres participants évaluent la confiance inspirée par 96 visages, sur une échelle de 1 à 7.
-
-Visages réels: 4,03
-StyleGAN2: 4,36
-Adobe Firefly: 4,70
-
-Les visages Firefly, moins réalistes que les GAN, obtiennent pourtant la meilleure évaluation sociale.
-
-Le sourire n'explique pas l'écart: il apparaît dans environ 62 à 66% des portraits des trois catégories.
-
-Les auteurs envisagent une autre piste.
-
-StyleGAN2 est spécialisé dans les visages. Firefly Image 2 est un modèle de diffusion entraîné sur un univers visuel plus large, comprenant notamment Adobe Stock.
-
-Les conventions de la photographie commerciale pourraient favoriser certaines apparences jugées rassurantes.
-
-Hypothèse, pas causalité démontrée.
-
-ULTRA®
-
-Le résultat sépare deux mécanismes souvent confondus: réalisme et confiance.
-
-Une image peut être plus facile à identifier comme artificielle tout en produisant une meilleure impression sociale.
-
-Pour une institution, cela change la nature du risque.
-
-Les KPI de clic, d'engagement ou de conversion peuvent récompenser un portrait synthétique rassurant sans rien dire de l'identité, des compétences ou du mandat qu'il semble représenter.
-
-La gouvernance doit donc distinguer portrait illustratif et personne réelle, conserver l'origine du contenu et empêcher qu'une apparence synthétique serve de preuve implicite d'identité.
-
-Depuis le 2 août 2026, l'article 50 de l'AI Act impose des obligations de transparence pour certains contenus générés ou manipulés. Les deepfakes doivent notamment être signalés lorsqu'ils répondent à la définition du règlement.
-
-Tous les portraits synthétiques ne sont donc pas automatiquement des deepfakes.
-
-Cette étude ne démontre ni fraude ni hausse de conversion.
-
-Elle établit quelque chose de plus fondamental: la confiance humaine et le réalisme photographique ne progressent pas ensemble.
-
-COPPÉLIUS
-
-La confiance peut naître d'un visage que personne n'a jamais porté.
-
-Sources
-
-McGuire et al., Journal of Vision, 7 juillet 2026
-Adobe, documentation Firefly
-Commission européenne, Article 50, 20 juillet 2026
-
-#AdobeFirefly #SyntheticMedia #AITrust #AIGovernance #CognitiveScience #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519578568306126848/">Linkedin</source></item><item><title>Accouchements prématurés: des anticorps maternels peuvent fragiliser le placenta</title><link>https://voce.life/archive/2026/10/24/accouchements-prematures-des-anticorps-maternels-peuvent-fragiliser-le-p-7519759796061974528</link><guid isPermaLink="true">https://voce.life/archive/2026/10/24/accouchements-prematures-des-anticorps-maternels-peuvent-fragiliser-le-p-7519759796061974528</guid><author>VOCE Association</author><description>Accouchements prématurés: des anticorps maternels peuvent fragiliser le placenta
-
-14 octobre 2026.
-
-Le placenta possède une protection invisible à l’échographie.
-
-Aux jonctions des cellules qui tapissent ses vaisseaux s’accumule IL-1RA, une protéine qui freine l’interleukine-1β, signal inflammatoire capable de favoriser le travail prématuré.
-
-Dans Nature Immunology, Elze Rackaityte, Joseph DeRisi et leurs collègues à l’UCSF montrent que certaines femmes produisent des autoanticorps dirigés contre ce frein.
-
-Les chercheurs analysent 2.719 sérums de femmes enceintes, puis comparent dans huit cohortes 688 grossesses prématurées à 1.505 grossesses menées à terme.
-
-Avec PhIP-Seq, ils cartographient à grande échelle les protéines humaines reconnues par les anticorps circulants.
-
-Une signature auto-immune associée à la prématurité apparaît en moyenne 12 semaines avant l’accouchement.
-
-Parmi ses cibles: IL-1RA.
-
-Ces anticorps restent rares. Selon la méthode employée, leur prévalence varie fortement: 0,4% par PhIP-Seq, jusqu’à 16% dans un petit sous-échantillon analysé par IP-MS.
-
-Leur apparition précoce semble plus informative que leur simple présence.
-
-Chez la souris gestante, des anticorps anti-IL-1RA perturbent la régulation d’IL-1β, augmentent les résorptions fœtales et provoquent une mauvaise perfusion placentaire.
-
-Dans du placenta humain, IL-1RA se concentre aux jonctions des vaisseaux fœtaux. Des sérums maternels anti-IL-1RA positifs reconnaissent cette protéine sur le tissu.
-
-ULTRA®
-
-Le résultat dépasse un simple biomarqueur.
-
-Il suggère qu’une partie des prématurités pourrait relever d’un mécanisme auto-immun fonctionnel: le système immunitaire neutralise une molécule qui protège normalement la grossesse contre une inflammation excessive.
-
-Les auteurs proposent un modèle à deux coups: une activité inflammatoire IL-1β déjà élevée, puis des anticorps anti-IL-1RA qui retirent le frein.
-
-Cela n’explique qu’une minorité des naissances prématurées.
-
-Mais un médicament existe déjà sur cette voie: l’anakinra, forme recombinante d’IL-1RA utilisée contre plusieurs maladies inflammatoires.
-
-L’étude ne démontre pas qu’il prévient les accouchements prématurés. Les données de sécurité pendant la grossesse restent limitées et aucun dépistage anti-IL-1RA n’est validé en pratique clinique.
-
-La découverte déplace néanmoins la question: certaines grossesses à risque pourraient être identifiées dans le sang bien avant que le placenta ne révèle ses lésions.
-
-VIOLETTA
-
-Le plus fragile des liens dépend parfois d’une protection que personne n’avait encore appris à voir.
-
-Sources
-
-Rackaityte et al., Nature Immunology, 14 octobre 2026
-UCSF, 14 octobre 2026
-
-#SanteDesFemmes #Grossesse #Prematurite #Immunologie #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7519759796061974528/">Linkedin</source></item></channel></rss>
+#Diabete #Dexcom #Glycemie #MedTech #SantePublique #VOCEAssociation</description><source url="https://www.linkedin.com/feed/update/urn:li:ugcPost:7520167475578150913/">Linkedin</source></item></channel></rss>

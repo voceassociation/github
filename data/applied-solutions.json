@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generated_at": "2026-10-27",
+  "generated_at": "2026-11-05",
   "name": "VOCE Applied Solutions",
   "description": "A decision-oriented registry connecting VOCE research on agents and LI!GHT WORKFORCE © to deployable software, platforms and infrastructure. Inclusion is documentary, not an endorsement.",
   "methodology": {
@@ -4555,6 +4555,130 @@
       "path": "/archive/2026/10/27/oracle-fscr-une-partie-du-metier-d-integrateur-erp-devient-un-depot-gith-7520726164269854720",
       "sectors": [
         "legal",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7524123542213447680",
+      "date": "2026-11-05",
+      "title": "AgiBot G2: après 64.828 tâches, AgiBot veut mesurer l'heure de travail robotique",
+      "path": "/archive/2026/11/05/agibot-g2-apres-64-828-taches-agibot-veut-mesurer-l-heure-de-travail-rob-7524123542213447680",
+      "sectors": [
+        "legal",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7524078217130000385",
+      "date": "2026-11-05",
+      "title": "En Europe, une IA peut apprendre d'un article légalement puis enfreindre les droits de l'éditeur en le récupérant pour répondre",
+      "path": "/archive/2026/11/05/en-europe-une-ia-peut-apprendre-d-un-article-legalement-puis-enfreindre-7524078217130000385",
+      "sectors": [
+        "legal",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7524168873236152321",
+      "date": "2026-11-05",
+      "title": "JD.com: 9 millions d'heures de vendeurs virtuels pour 144 RMB de ventes associées par heure",
+      "path": "/archive/2026/11/05/jd-com-9-millions-d-heures-de-vendeurs-virtuels-pour-144-rmb-de-ventes-a-7524168873236152321",
+      "sectors": [
+        "legal",
+        "finance",
+        "marketing"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7523987617789583360",
+      "date": "2026-11-05",
+      "title": "Matignon recrute pour connecter des agents IA à ses applications de gestion",
+      "path": "/archive/2026/11/05/matignon-recrute-pour-connecter-des-agents-ia-a-ses-applications-de-gest-7523987617789583360",
+      "sectors": [
+        "legal",
+        "hr",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7524093342368862210",
+      "date": "2026-11-05",
+      "title": "Oracle annule un contrat IA de 7 milliards avec Tencent: un GPU peut fonctionner et devenir pourtant indisponible",
+      "path": "/archive/2026/11/05/oracle-annule-un-contrat-ia-de-7-milliards-avec-tencent-un-gpu-peut-fonc-7524093342368862210",
+      "sectors": [
+        "legal",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7524183930997035009",
+      "date": "2026-11-05",
+      "title": "Paris: TP a perdu 78% en cinq ans et vend jusqu'à 75% de résolution sans humain",
+      "path": "/archive/2026/11/05/paris-tp-a-perdu-78-en-cinq-ans-et-vend-jusqu-a-75-de-resolution-sans-hu-7524183930997035009",
+      "sectors": [
+        "legal",
+        "finance"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7524138678852698112",
+      "date": "2026-11-05",
+      "title": "Ticket Fairy CLI: la billetterie peut travailler pendant que l'équipe dort",
+      "path": "/archive/2026/11/05/ticket-fairy-cli-la-billetterie-peut-travailler-pendant-que-l-equipe-dor-7524138678852698112",
+      "sectors": [
+        "legal",
+        "finance",
+        "culture",
+        "it"
+      ],
+      "themes": [
+        "LI!GHT WORKFORCE ©",
+        "agents",
+        "work transformation"
+      ]
+    },
+    {
+      "id": "lw-auto-post-7524108433646686208",
+      "date": "2026-11-05",
+      "title": "Workday: l’agent RH peut agir avant même l’ouverture du poste",
+      "path": "/archive/2026/11/05/workday-lagent-rh-peut-agir-avant-meme-louverture-du-poste-7524108433646686208",
+      "sectors": [
+        "hr",
         "it"
       ],
       "themes": [
