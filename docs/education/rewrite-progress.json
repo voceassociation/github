@@ -3,7 +3,7 @@
   "updated_on": "2026-11-05",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "ef6293378bd9bc7d828bbaaf9c61b6f91d31706a",
+  "base_head_read": "5214efd2dea247a39f0dd819d28874c850f75b0a",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 64,
-    "preserved_by_selection": 55,
-    "eligible_under_20000": 65
+    "preserved_by_selection": 56,
+    "eligible_under_20000": 64
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -77,56 +77,9 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-055",
-    "title": "Un robot réussi en laboratoire peut échouer au poste",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 10214,
-    "batch_new_lesson_characters": 10214,
-    "measurement": "Texte normalisé de la section lesson seule, espaces compris.",
-    "selection_before_write": {
-      "main": 7746,
-      "branch": 7746,
-      "baseline_main": 548,
-      "baseline_branch": 548,
-      "saved_chapters": 0,
-      "main_commit": "0d06a947dc9fe8febd5d1c8cfd94be2ccde816dc",
-      "branch_commit": "ef6293378bd9bc7d828bbaaf9c61b6f91d31706a"
-    },
-    "chapters_written": [
-      "01-du-bac-au-logement.html"
-    ],
-    "chapters_remaining": [
-      "02 — Fonds de bac, reprises et débit par équipe",
-      "03 — Qualification du changement de lot, exercices et corrigés"
-    ],
-    "sources_consulted": [
-      {
-        "url": "https://www.nist.gov/publications/gauging-error-pose-acquired-vision-systems-bin-picking-applications",
-        "date": "2026-11-05",
-        "scope": "Résumé des auteurs, mesure de pose et symétrie axiale"
-      }
-    ],
-    "checks_executed": [
-      "Mesures des deux pages, capsules et sources sauvegardées",
-      "Comparaison octet par octet de deux rendus locaux",
-      "Assertions Python sur le bilan de pièces et cycles, les deux déplacements géométriques et les deux taux par mélange"
-    ],
-    "states": {
-      "saved": "This branch commit",
-      "controlled": "Volume, calculs et reproductibilité du rendu local",
-      "published": false
-    },
-    "limits": [
-      "Données fictives, aucun essai physique, revue métier et contrôle visuel ouverts."
-    ],
-    "next_action": "Remesurer AI-055 sur main et dans les sources sauvegardées. Si éligible, rédiger le chapitre 02 — Fonds de bac, reprises et débit par équipe.",
-    "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-055/01-du-bac-au-logement.html",
-      "content/courses/engineering/VOCE-AI-055/references.html",
-      "content/courses/engineering/VOCE-AI-055/render_draft.py",
-      "docs/education/rewrite-progress.json",
-      "docs/education/course-selection-20000.json"
-    ]
+    "id": "VOCE-AI-056",
+    "status": "pending_selection",
+    "next_action": "Mesurer les pages de VOCE-AI-056 et les sources sauvegardées avant toute sélection."
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -2262,6 +2215,62 @@
         "main_commit": "0d06a947dc9fe8febd5d1c8cfd94be2ccde816dc",
         "branch_commit": "ef6293378bd9bc7d828bbaaf9c61b6f91d31706a"
       }
+    },
+    "VOCE-AI-055": {
+      "id": "VOCE-AI-055",
+      "title": "Un robot réussi en laboratoire peut échouer au poste",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 20645,
+      "batch_new_lesson_characters": 10431,
+      "measurement": "Somme des textes normalisés des deux sections lesson sauvegardées, hors bibliographie.",
+      "selection_before_write": {
+        "main": 7746,
+        "branch": 7746,
+        "baseline_main": 548,
+        "baseline_branch": 548,
+        "saved_chapters": 10214,
+        "main_commit": "0d06a947dc9fe8febd5d1c8cfd94be2ccde816dc",
+        "branch_commit": "5214efd2dea247a39f0dd819d28874c850f75b0a"
+      },
+      "chapters_written": [
+        "01-du-bac-au-logement.html",
+        "02-fonds-de-bac-et-debit.html"
+      ],
+      "chapters_remaining": [
+        "03 — Qualification du changement de lot, exercices et corrigés"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://www.nist.gov/publications/gauging-error-pose-acquired-vision-systems-bin-picking-applications",
+          "date": "2026-11-05",
+          "scope": "Résumé des auteurs, mesure de pose et symétrie axiale"
+        },
+        {
+          "url": "https://www.nist.gov/publications/towards-understanding-robotic-bin-picking-throughput",
+          "date": "2026-11-05",
+          "scope": "Résumé NIST/ICRA 2025 sur la mesure de débit en dévracage."
+        }
+      ],
+      "checks_executed": [
+        "Comptage normalisé sur les deux pages, les deux capsules et les chapitres",
+        "Vérification Python des cadences, temps de reprise, accumulation, coût d’équilibre et débit pondéré",
+        "Deux rendus locaux successifs identiques octet pour octet"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Volume, calculs et reproductibilité du rendu local",
+        "published": false
+      },
+      "limits": [
+        "Données fictives, aucun essai physique, revue métier et contrôle visuel ouverts."
+      ],
+      "next_action": "Préserver les chapitres 01 et 02. Mesurer VOCE-AI-056 sur main, branche et sources avant sélection.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-055/02-fonds-de-bac-et-debit.html",
+        "content/courses/engineering/VOCE-AI-055/references.html",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ]
     }
   },
   "selection_policy": {
@@ -2323,9 +2332,10 @@
       "VOCE-AI-051",
       "VOCE-AI-052",
       "VOCE-AI-053",
-      "VOCE-AI-054"
+      "VOCE-AI-054",
+      "VOCE-AI-055"
     ],
-    "eligible_count": 65,
+    "eligible_count": 64,
     "main_read": "0d06a947dc9fe8febd5d1c8cfd94be2ccde816dc",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }
