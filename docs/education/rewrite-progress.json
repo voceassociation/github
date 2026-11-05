@@ -3,7 +3,7 @@
   "updated_on": "2026-11-05",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "348566257ede194b11ce8e05e6fff43a0810c309",
+  "base_head_read": "4a9958eef4f800f6d44347212cd032ec10c517f2",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 85,
-    "preserved_by_selection": 34,
-    "eligible_under_20000": 86
+    "preserved_by_selection": 35,
+    "eligible_under_20000": 85
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,24 +79,24 @@
   "current_course": {
     "id": "VOCE-AI-034",
     "title": "Tester un agent sur des cas qu'il n'a pas vus",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 10187,
-    "batch_new_lesson_characters": 10187,
-    "measurement": "Normalized lesson fragment only; references and laboratory excluded",
+    "status": "preserved_draft_above_selection_threshold_not_complete",
+    "lesson_characters": 20446,
+    "batch_new_lesson_characters": 10259,
+    "measurement": "Sum of normalized numbered lesson fragments; references, code and historical editions excluded",
     "selection_before_write": {
       "main": 7928,
       "branch": 7928,
       "baseline_main": 578,
       "baseline_branch": 578,
-      "saved_chapters": 0,
+      "saved_chapters": 10187,
       "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
-      "branch_commit": "348566257ede194b11ce8e05e6fff43a0810c309"
+      "branch_commit": "4a9958eef4f800f6d44347212cd032ec10c517f2"
     },
     "chapters_written": [
-      "01-lot-inconnu.html"
+      "01-lot-inconnu.html",
+      "02-trajectoires-et-incertitude.html"
     ],
     "chapters_remaining": [
-      "02 — Répéter les trajectoires et estimer l’incertitude par dossier",
       "03 — Réception prospective, exercices et corrigés"
     ],
     "sources_consulted": [
@@ -104,26 +104,30 @@
         "url": "https://openreview.net/pdf?id=roNSXZpUDN",
         "scope": "τ-bench, ICLR 2025, abstract and introduction; end-state evaluation",
         "date": "2026-11-05"
+      },
+      {
+        "url": "https://arxiv.org/abs/2406.12045",
+        "date": "2026-11-05",
+        "scope": "Authors' abstract; repeated-trial reliability metric"
       }
     ],
     "checks_executed": [
-      "5 local Python tests passed: roots, consent, compensated writes with notifications, collateral damage, numerical examples",
-      "Two identical local draft renders"
+      "10 local Python tests passed, including 5 new tests of repeated-trial reliability",
+      "Two identical draft renders containing both lesson sections"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Synthetic reservation oracle and chapter calculations",
+      "controlled": "Local synthetic oracle, exact combinatorial enumeration and structural draft rendering",
       "published": false
     },
     "limits": [
-      "Incomplete; no production agent evaluated, no visual or independent review"
+      "Course incomplete; no live agent evaluation, visual review or independent review"
     ],
-    "next_action": "Remesurer AI-034 sur main et dans les sources sauvegardées. Si éligible, rédiger 02 — Répéter les trajectoires et estimer l’incertitude par dossier.",
+    "next_action": "Préserver AI-034 sans poursuivre le chapitre 03. Mesurer AI-035 sur main et dans les sources sauvegardées avant sélection.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-034/01-lot-inconnu.html",
+      "content/courses/engineering/VOCE-AI-034/02-trajectoires-et-incertitude.html",
+      "content/courses/engineering/VOCE-AI-034/test_reliability.py",
       "content/courses/engineering/VOCE-AI-034/references.html",
-      "content/courses/engineering/VOCE-AI-034/render_draft.py",
-      "content/courses/engineering/VOCE-AI-034/test_reception.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
@@ -2022,6 +2026,62 @@
         "docs/education/course-selection-20000.json"
       ],
       "batch_new_lesson_characters": 9375
+    },
+    "VOCE-AI-034": {
+      "id": "VOCE-AI-034",
+      "title": "Tester un agent sur des cas qu'il n'a pas vus",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 20446,
+      "batch_new_lesson_characters": 10259,
+      "measurement": "Sum of normalized numbered lesson fragments; references, code and historical editions excluded",
+      "selection_before_write": {
+        "main": 7928,
+        "branch": 7928,
+        "baseline_main": 578,
+        "baseline_branch": 578,
+        "saved_chapters": 10187,
+        "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
+        "branch_commit": "4a9958eef4f800f6d44347212cd032ec10c517f2"
+      },
+      "chapters_written": [
+        "01-lot-inconnu.html",
+        "02-trajectoires-et-incertitude.html"
+      ],
+      "chapters_remaining": [
+        "03 — Réception prospective, exercices et corrigés"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://openreview.net/pdf?id=roNSXZpUDN",
+          "scope": "τ-bench, ICLR 2025, abstract and introduction; end-state evaluation",
+          "date": "2026-11-05"
+        },
+        {
+          "url": "https://arxiv.org/abs/2406.12045",
+          "date": "2026-11-05",
+          "scope": "Authors' abstract; repeated-trial reliability metric"
+        }
+      ],
+      "checks_executed": [
+        "10 local Python tests passed, including 5 new tests of repeated-trial reliability",
+        "Two identical draft renders containing both lesson sections"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Local synthetic oracle, exact combinatorial enumeration and structural draft rendering",
+        "published": false
+      },
+      "limits": [
+        "Course incomplete; no live agent evaluation, visual review or independent review"
+      ],
+      "next_action": "Préserver AI-034 sans poursuivre le chapitre 03. Mesurer AI-035 sur main et dans les sources sauvegardées avant sélection.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-034/02-trajectoires-et-incertitude.html",
+        "content/courses/engineering/VOCE-AI-034/test_reliability.py",
+        "content/courses/engineering/VOCE-AI-034/references.html",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ]
     }
   },
   "selection_policy": {
@@ -2062,9 +2122,10 @@
       "VOCE-AI-030",
       "VOCE-AI-031",
       "VOCE-AI-032",
-      "VOCE-AI-033"
+      "VOCE-AI-033",
+      "VOCE-AI-034"
     ],
-    "eligible_count": 86,
+    "eligible_count": 85,
     "main_read": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }
