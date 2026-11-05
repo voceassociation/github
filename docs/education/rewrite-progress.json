@@ -3,7 +3,7 @@
   "updated_on": "2026-11-05",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "87b02d2e4fbf290c7d8dd2f38598fb3538294962",
+  "base_head_read": "0fd6384f5f2837ca55cd1c83812ca08515db5721",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -80,23 +80,23 @@
     "id": "VOCE-AI-035",
     "title": "Une moyenne masque les erreurs rares",
     "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 8926,
-    "batch_new_lesson_characters": 8926,
-    "measurement": "Normalized lesson fragment excluding references and code",
+    "lesson_characters": 18566,
+    "batch_new_lesson_characters": 9640,
+    "measurement": "Sum of normalized numbered lesson fragments excluding references and code",
     "selection_before_write": {
       "main": 7762,
       "branch": 7762,
       "baseline_main": 570,
       "baseline_branch": 570,
-      "saved_chapters": 0,
+      "saved_chapters": 8926,
       "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
-      "branch_commit": "87b02d2e4fbf290c7d8dd2f38598fb3538294962"
+      "branch_commit": "0fd6384f5f2837ca55cd1c83812ca08515db5721"
     },
     "chapters_written": [
-      "01-denominateurs-et-risque.html"
+      "01-denominateurs-et-risque.html",
+      "02-gravite-et-reception.html"
     ],
     "chapters_remaining": [
-      "02 — Gravité, cas exclus et seuils de réception par catégorie",
       "03 — Surveillance des changements de population, exercices et corrigés"
     ],
     "sources_consulted": [
@@ -104,26 +104,30 @@
         "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm",
         "date": "2026-11-05",
         "scope": "Exact binomial inversion; one-sided zero-defect case derived in the chapter"
+      },
+      {
+        "url": "https://www.itl.nist.gov/div898/handbook/prc/section4/prc473.htm",
+        "date": "2026-11-05",
+        "scope": "Simultaneous Bonferroni coverage; union bound derived for binary outcomes in the chapter"
       }
     ],
     "checks_executed": [
-      "5 local Python tests passed on exposure, weighting, zero defects, minimum sample size and zero exposure",
-      "Two identical local draft renders"
+      "10 local Python tests passed, including 5 new tests on missing verdicts, acceptance boundaries, simultaneous bounds, severity and review capacity",
+      "Two identical local draft renders containing lessons 01 and 02"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Synthetic calculations and deterministic draft rendering",
+      "controlled": "Synthetic calculations and category-level acceptance tests; deterministic draft rendering",
       "published": false
     },
     "limits": [
       "Incomplete; no production data, visual review or independent review"
     ],
-    "next_action": "Remesurer AI-035 sur main et dans les sources sauvegardées. Si éligible, rédiger 02 — Gravité, cas exclus et seuils de réception par catégorie.",
+    "next_action": "Remesurer AI-035 sur main et dans les sources sauvegardées. Si éligible, rédiger le chapitre 03 — Surveillance des changements de population, exercices et corrigés. Séparer les exercices et corrigés du corps mesuré.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-035/01-denominateurs-et-risque.html",
+      "content/courses/engineering/VOCE-AI-035/02-gravite-et-reception.html",
+      "content/courses/engineering/VOCE-AI-035/test_reception.py",
       "content/courses/engineering/VOCE-AI-035/references.html",
-      "content/courses/engineering/VOCE-AI-035/render_draft.py",
-      "content/courses/engineering/VOCE-AI-035/test_risque.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
