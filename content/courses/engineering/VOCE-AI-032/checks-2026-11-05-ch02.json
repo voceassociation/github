@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-05",
+  "chapter_characters": 13233,
+  "total_lesson_characters": 28621,
+  "tests_passed": 20,
+  "sqlite_tests": 7,
+  "deterministic_render": true,
+  "single_h1": true,
+  "unique_paragraphs_within_chapters": true,
+  "repository_output_blocked": true,
+  "visual_review": false,
+  "independent_review": false,
+  "published": false,
+  "limits": [
+    "Single-parent local SQLite model; no vector engine, LLM, backup restoration, remote session or power-loss test",
+    "Incomplete course preserved above threshold"
+  ]
+}
