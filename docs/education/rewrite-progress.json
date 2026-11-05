@@ -3,7 +3,7 @@
   "updated_on": "2026-11-05",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "51ec0c5baf25eb2e889f93995a740abab8b50617",
+  "base_head_read": "a45b86710b6e53b25ef1fafb2fd9665d1348600d",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -63,9 +63,9 @@
     "rewritten_editions": 2,
     "fully_reviewed": 0,
     "in_progress": 1,
-    "not_started_in_this_rewrite": 83,
-    "preserved_by_selection": 36,
-    "eligible_under_20000": 84
+    "not_started_in_this_rewrite": 65,
+    "preserved_by_selection": 54,
+    "eligible_under_20000": 66
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -77,57 +77,52 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-036",
-    "title": "Quand l'agent doit s'abstenir",
+    "id": "VOCE-AI-054",
+    "title": "Un agent juridique doit exposer le texte applicable",
     "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 17951,
-    "batch_new_lesson_characters": 8647,
-    "measurement": "Sum of normalized numbered lesson fragments excluding references and code",
+    "lesson_characters": 7410,
+    "batch_new_lesson_characters": 7410,
+    "measurement": "Normalized lesson fragment excluding references and code",
     "selection_before_write": {
-      "main": 7764,
-      "branch": 7764,
-      "baseline_main": 546,
-      "baseline_branch": 546,
-      "saved_chapters": 9304,
-      "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
-      "branch_commit": "51ec0c5baf25eb2e889f93995a740abab8b50617"
+      "main": 7889,
+      "branch": 7889,
+      "baseline_main": 560,
+      "baseline_branch": 560,
+      "saved_chapters": 0,
+      "main_commit": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "branch_commit": "a45b86710b6e53b25ef1fafb2fd9665d1348600d"
     },
     "chapters_written": [
-      "01-decider-de-s-abstenir.html",
-      "02-calibration-et-file-de-revue.html"
+      "01-texte-date-et-rattachement.html"
     ],
     "chapters_remaining": [
-      "03 — Reprise après clarification, exercices et corrigés"
+      "02 — Versions concurrentes, modifications et dispositions transitoires",
+      "03 — Réception par proposition et dossiers contradictoires, exercices et corrigés"
     ],
     "sources_consulted": [
       {
-        "url": "https://proceedings.mlr.press/v97/geifman19a.html",
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679",
         "date": "2026-11-05",
-        "scope": "SelectiveNet, primary paper abstract, selective risk and coverage"
-      },
-      {
-        "url": "https://proceedings.mlr.press/v70/guo17a.html",
-        "date": "2026-11-05",
-        "scope": "Guo et al., primary paper abstract, temperature scaling of confidence estimates"
+        "scope": "Articles 3(1), 3(2), 99 and recital 23, original text for historical example"
       }
     ],
     "checks_executed": [
-      "10 local Python tests passed, including five new checks of calibration, reviewer workload and queue dynamics",
-      "Two identical local draft renders containing both chapters"
+      "Normalized selection and lesson text measured",
+      "Two identical local renders; lesson and references separated"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Synthetic calibration and review queue examples, deterministic rendering",
+      "controlled": "Volume and deterministic structural rendering",
       "published": false
     },
     "limits": [
-      "Incomplete; no production agent or reviewer evaluated; visual and independent reviews open"
+      "Incomplete; no agent evaluated; independent legal review and visual check open"
     ],
-    "next_action": "Remesurer AI-036 sur main et dans les sources sauvegardées. Si éligible, rédiger le chapitre 03 — Reprise après clarification, exercices et corrigés. Compter uniquement le corps pédagogique.",
+    "next_action": "Remesurer AI-054 sur main et dans les sources sauvegardées. Si éligible, rédiger 02 — Versions concurrentes, modifications et dispositions transitoires.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-036/02-calibration-et-file-de-revue.html",
-      "content/courses/engineering/VOCE-AI-036/references.html",
-      "content/courses/engineering/VOCE-AI-036/test_calibration.py",
+      "content/courses/engineering/VOCE-AI-054/01-texte-date-et-rattachement.html",
+      "content/courses/engineering/VOCE-AI-054/references.html",
+      "content/courses/engineering/VOCE-AI-054/render_draft.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
@@ -2145,6 +2140,69 @@
         "docs/education/rewrite-progress.json",
         "docs/education/course-selection-20000.json"
       ]
+    },
+    "VOCE-AI-036": {
+      "id": "VOCE-AI-036",
+      "title": "Quand l'agent doit s'abstenir",
+      "status": "preserved_draft_main_above_selection_threshold_not_complete",
+      "lesson_characters": 17951,
+      "batch_new_lesson_characters": 8647,
+      "measurement": "Sum of normalized numbered lesson fragments excluding references and code",
+      "selection_before_write": {
+        "main": 7764,
+        "branch": 7764,
+        "baseline_main": 546,
+        "baseline_branch": 546,
+        "saved_chapters": 9304,
+        "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
+        "branch_commit": "51ec0c5baf25eb2e889f93995a740abab8b50617"
+      },
+      "chapters_written": [
+        "01-decider-de-s-abstenir.html",
+        "02-calibration-et-file-de-revue.html"
+      ],
+      "chapters_remaining": [
+        "03 — Reprise après clarification, exercices et corrigés"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://proceedings.mlr.press/v97/geifman19a.html",
+          "date": "2026-11-05",
+          "scope": "SelectiveNet, primary paper abstract, selective risk and coverage"
+        },
+        {
+          "url": "https://proceedings.mlr.press/v70/guo17a.html",
+          "date": "2026-11-05",
+          "scope": "Guo et al., primary paper abstract, temperature scaling of confidence estimates"
+        }
+      ],
+      "checks_executed": [
+        "10 local Python tests passed, including five new checks of calibration, reviewer workload and queue dynamics",
+        "Two identical local draft renders containing both chapters"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Synthetic calibration and review queue examples, deterministic rendering",
+        "published": false
+      },
+      "limits": [
+        "Incomplete; no production agent or reviewer evaluated; visual and independent reviews open"
+      ],
+      "next_action": "Conserver les chapitres 01 et 02. Ne pas rédiger le chapitre 03.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-036/02-calibration-et-file-de-revue.html",
+        "content/courses/engineering/VOCE-AI-036/references.html",
+        "content/courses/engineering/VOCE-AI-036/test_calibration.py",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ],
+      "preservation_check": {
+        "main": 20795,
+        "main_commit": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+        "branch": 7764,
+        "saved_chapters": 17951,
+        "branch_commit": "a45b86710b6e53b25ef1fafb2fd9665d1348600d"
+      }
     }
   },
   "selection_policy": {
@@ -2187,10 +2245,28 @@
       "VOCE-AI-032",
       "VOCE-AI-033",
       "VOCE-AI-034",
-      "VOCE-AI-035"
+      "VOCE-AI-035",
+      "VOCE-AI-036",
+      "VOCE-AI-037",
+      "VOCE-AI-038",
+      "VOCE-AI-039",
+      "VOCE-AI-040",
+      "VOCE-AI-041",
+      "VOCE-AI-042",
+      "VOCE-AI-043",
+      "VOCE-AI-044",
+      "VOCE-AI-045",
+      "VOCE-AI-046",
+      "VOCE-AI-047",
+      "VOCE-AI-048",
+      "VOCE-AI-049",
+      "VOCE-AI-050",
+      "VOCE-AI-051",
+      "VOCE-AI-052",
+      "VOCE-AI-053"
     ],
-    "eligible_count": 84,
-    "main_read": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
+    "eligible_count": 66,
+    "main_read": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }
 }

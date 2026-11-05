@@ -471,201 +471,253 @@
       "title": "Quand l'agent doit s'abstenir",
       "route": "cours/voce-ai-036.html",
       "counts": {
-        "main": 7764,
+        "main": 20795,
         "branch": 7764,
         "saved_chapters": 17951
       },
-      "selection": "eligible",
-      "main_commit_checked": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
       "branch_commit_checked": "51ec0c5baf25eb2e889f93995a740abab8b50617",
-      "checked_on": "2026-11-05"
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-037",
       "title": "Une nouvelle source peut modifier la décision",
       "route": "cours/voce-ai-037.html",
       "counts": {
-        "main": 7783,
+        "main": 21426,
         "branch": 7783,
         "saved_chapters": 0
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-038",
       "title": "L'AI Act commence par un usage précis",
       "route": "cours/voce-ai-038.html",
       "counts": {
-        "main": 7999,
+        "main": 22941,
         "branch": 7999,
         "saved_chapters": 0
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-039",
       "title": "L'alphabétisation IA doit correspondre au travail",
       "route": "cours/voce-ai-039.html",
       "counts": {
-        "main": 7868,
+        "main": 22125,
         "branch": 7868,
         "saved_chapters": 0
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-040",
       "title": "Une norme de management n'est pas un test du modèle",
       "route": "cours/voce-ai-040.html",
       "counts": {
-        "main": 7950,
+        "main": 25562,
         "branch": 7950,
         "saved_chapters": 0
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-041",
       "title": "Le risque résiduel doit avoir un responsable",
       "route": "cours/voce-ai-041.html",
       "counts": {
-        "main": 7808,
+        "main": 24075,
         "branch": 7808,
         "saved_chapters": 0
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-042",
       "title": "Les données personnelles circulent avec la tâche",
       "route": "cours/voce-ai-042.html",
       "counts": {
-        "main": 7951,
+        "main": 33410,
         "branch": 7951,
         "saved_chapters": 0
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-043",
       "title": "La sécurité du système dépend de ses exceptions",
       "route": "cours/voce-ai-043.html",
       "counts": {
-        "main": 7701,
+        "main": 29660,
         "branch": 7701,
         "saved_chapters": 0
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-044",
       "title": "Un incident exige une chronologie exploitable",
       "route": "cours/voce-ai-044.html",
       "counts": {
-        "main": 7791,
+        "main": 27403,
         "branch": 7791,
         "saved_chapters": 0
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-045",
       "title": "Acheter une IA avec des critères de réception",
       "route": "cours/voce-ai-045.html",
       "counts": {
-        "main": 7772,
+        "main": 26134,
         "branch": 7772,
         "saved_chapters": 0
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-046",
       "title": "LI!GHT WORKFORCE ©: compter les tâches avant les postes",
       "route": "cours/voce-ai-046.html",
       "counts": {
-        "main": 7899,
+        "main": 26515,
         "branch": 7899,
         "saved_chapters": 0
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-047",
       "title": "Le travail humain se concentre dans les exceptions",
       "route": "cours/voce-ai-047.html",
       "counts": {
-        "main": 7952,
+        "main": 22780,
         "branch": 7952,
         "saved_chapters": 0
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-048",
       "title": "La file d'attente absorbe le gain annoncé",
       "route": "cours/voce-ai-048.html",
       "counts": {
-        "main": 7755,
+        "main": 27451,
         "branch": 7755,
         "saved_chapters": 0
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-049",
       "title": "Une économie calculée sur des dossiers acceptés",
       "route": "cours/voce-ai-049.html",
       "counts": {
-        "main": 7840,
+        "main": 21168,
         "branch": 7840,
         "saved_chapters": 0
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-050",
       "title": "Comparer un pilote à un contrefactuel crédible",
       "route": "cours/voce-ai-050.html",
       "counts": {
-        "main": 8028,
+        "main": 20835,
         "branch": 8028,
         "saved_chapters": 0
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-051",
       "title": "Le contrôle interne d'un agent comptable",
       "route": "cours/voce-ai-051.html",
       "counts": {
-        "main": 7859,
+        "main": 27019,
         "branch": 7859,
         "saved_chapters": 0
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-052",
       "title": "Un agent RH doit permettre la contestation",
       "route": "cours/voce-ai-052.html",
       "counts": {
-        "main": 7915,
+        "main": 24559,
         "branch": 7915,
         "saved_chapters": 0
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-053",
       "title": "Un agent commercial peut engager l'entreprise",
       "route": "cours/voce-ai-053.html",
       "counts": {
-        "main": 7784,
+        "main": 34466,
         "branch": 7784,
         "saved_chapters": 0
       },
-      "selection": "eligible"
+      "selection": "preserved",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "checked_on": "2026-11-05",
+      "main_measurement": "Normalized instructional sections of article; administrative wrapper, bibliography and source commentary excluded. Includes exercises for selection."
     },
     {
       "id": "VOCE-AI-054",
@@ -674,9 +726,12 @@
       "counts": {
         "main": 7889,
         "branch": 7889,
-        "saved_chapters": 0
+        "saved_chapters": 7410
       },
-      "selection": "eligible"
+      "selection": "eligible",
+      "main_commit_checked": "4a77ea3ab466abecbd62b3ca94f0e393465546d6",
+      "branch_commit_checked": "a45b86710b6e53b25ef1fafb2fd9665d1348600d",
+      "checked_on": "2026-11-05"
     },
     {
       "id": "VOCE-AI-055",
