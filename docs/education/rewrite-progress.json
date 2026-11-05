@@ -3,7 +3,7 @@
   "updated_on": "2026-11-05",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "92c613445cef0000fa0c61eafebea9952f3cc499",
+  "base_head_read": "27f8b8ad3bab1ad4a7c12bb410b1a4d3609ec15c",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 62,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 61,
     "preserved_by_selection": 58,
     "eligible_under_20000": 62
   },
@@ -78,8 +78,55 @@
   },
   "current_course": {
     "id": "VOCE-AI-058",
-    "status": "pending_selection",
-    "next_action": "Mesurer les pages et les sources de VOCE-AI-058 avant sélection."
+    "title": "Une gigafactory vend des cellules conformes",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 9976,
+    "batch_new_lesson_characters": 9976,
+    "measurement": "Texte normalisé du bloc lesson seul, espaces compris.",
+    "selection_before_write": {
+      "main": 7831,
+      "branch": 7831,
+      "baseline_main": 579,
+      "baseline_branch": 579,
+      "saved_chapters": 0,
+      "main_commit": "0d06a947dc9fe8febd5d1c8cfd94be2ccde816dc",
+      "branch_commit": "27f8b8ad3bab1ad4a7c12bb410b1a4d3609ec15c"
+    },
+    "chapters_written": [
+      "01-du-compteur-au-kwh-liberable.html"
+    ],
+    "chapters_remaining": [
+      "02 — Localiser les pertes par lot d’électrode et chiffrer le coût du rebut tardif",
+      "03 — Réception d’une montée en cadence, exercices et corrigés"
+    ],
+    "sources_consulted": [
+      {
+        "url": "https://www.anl.gov/sites/www/files/2024-11/GPRA2024_06Nov2024.pdf",
+        "date": "2026-11-05",
+        "scope": "Tableau Total Material Yields, rendements BatPaC par opération et composant"
+      }
+    ],
+    "checks_executed": [
+      "Mesures de sélection sur les deux branches et du chapitre balisé",
+      "Assertions Python sur les stocks, les essais répétés, les rendements, les kWh, la fausse acceptation et la capacité de banc",
+      "Deux rendus locaux identiques octet par octet"
+    ],
+    "states": {
+      "saved": "This branch commit",
+      "controlled": "Volume, calculs et déterminisme du rendu",
+      "published": false
+    },
+    "limits": [
+      "Données fictives, aucun relevé industriel. Revue indépendante et contrôle visuel ouverts."
+    ],
+    "next_action": "Remesurer AI-058 sur main et dans les sources sauvegardées. Si éligible, rédiger 02 — Localiser les pertes par lot d’électrode et chiffrer le coût du rebut tardif.",
+    "files_recorded_in_this_batch": [
+      "content/courses/engineering/VOCE-AI-058/01-du-compteur-au-kwh-liberable.html",
+      "content/courses/engineering/VOCE-AI-058/references.html",
+      "content/courses/engineering/VOCE-AI-058/render_draft.py",
+      "docs/education/rewrite-progress.json",
+      "docs/education/course-selection-20000.json"
+    ]
   },
   "completed_courses": {
     "VOCE-AI-002": {
