@@ -1,9 +1,7 @@
 # VOCE-AI-033 — Les journaux doivent reconstruire une décision
 
-Brouillon incomplet, non publié. Chapitre 01: pièces, identités, événements, causalité, versions et oracle à trois résultats. 15 188 caractères pédagogiques normalisés hors références et code.
+Brouillon préservé, non publié. Avant la sélection du chapitre 02, les pages de main et de la branche comptaient chacune 7 965 caractères, le chapitre 01 sauvegardé 15 188. Les versions sont mesurées séparément.
 
-Sélection avant rédaction: main et branche 7 965 caractères chacun; baseline 583 chacun; aucun chapitre développé sauvegardé. Versions non additionnées. Consigne de sélection déjà présente dans AGENTS.md et COURSE-ACCEPTANCE.md.
+Le chapitre 01 examine les pièces d’une décision. Le chapitre 02 traite de l’acquittement durable, des trous de séquence, des signatures et du dimensionnement de la collecte. Les chapitres comptent respectivement 15 188 et 9 375 caractères pédagogiques, soit 24 563 au total. Le seuil de préservation est atteint.
 
-Contrôles: `python test_trace.py`, 11 tests réussis. Une seule intention, événements synthétiques déjà décodés; aucun collecteur, producteur authentifié, stockage durable ou modèle réel. Rendu: `node content/courses/engineering/VOCE-AI-033/render_draft.mjs /tmp/ai033-preview.html`. Deux sorties identiques, un H1, paragraphes uniques et destination hors dépôt vérifiés. Relecture indépendante et contrôle visuel ouverts.
-
-Reprise: remesurer main et sources sauvegardées. Si sous 20 000, rédiger 02 — Collecte durable, détection des trous et intégrité des traces. Puis réception des reprises, exercices et corrigés. Si le seuil est atteint, préserver sans allongement ni publication comme cours terminé. Ce lot n'est pas une édition achevée à 75 000 caractères.
+Exécuter `python -m unittest discover` dans ce dossier pour les 14 tests, dont 3 essais SQLite de collecte. Le rendu de brouillon se vérifie avec `node render_draft.mjs /tmp/ai033-preview.html`. Aucune simulation de coupure électrique ni vérification cryptographique réelle. Contrôle visuel et relecture indépendante ouverts.
