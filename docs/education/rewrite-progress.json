@@ -3,7 +3,7 @@
   "updated_on": "2026-11-05",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "0fd6384f5f2837ca55cd1c83812ca08515db5721",
+  "base_head_read": "1ac58a02e62e0154f1d0cc0eff896b8fd3fe9d89",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 84,
-    "preserved_by_selection": 35,
-    "eligible_under_20000": 85
+    "preserved_by_selection": 36,
+    "eligible_under_20000": 84
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,26 +79,25 @@
   "current_course": {
     "id": "VOCE-AI-035",
     "title": "Une moyenne masque les erreurs rares",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 18566,
-    "batch_new_lesson_characters": 9640,
+    "status": "preserved_draft_above_selection_threshold_not_complete",
+    "lesson_characters": 25328,
+    "batch_new_lesson_characters": 6762,
     "measurement": "Sum of normalized numbered lesson fragments excluding references and code",
     "selection_before_write": {
       "main": 7762,
       "branch": 7762,
       "baseline_main": 570,
       "baseline_branch": 570,
-      "saved_chapters": 8926,
+      "saved_chapters": 18566,
       "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
-      "branch_commit": "0fd6384f5f2837ca55cd1c83812ca08515db5721"
+      "branch_commit": "1ac58a02e62e0154f1d0cc0eff896b8fd3fe9d89"
     },
     "chapters_written": [
       "01-denominateurs-et-risque.html",
-      "02-gravite-et-reception.html"
+      "02-gravite-et-reception.html",
+      "03-surveillance-des-populations.html"
     ],
-    "chapters_remaining": [
-      "03 — Surveillance des changements de population, exercices et corrigés"
-    ],
+    "chapters_remaining": [],
     "sources_consulted": [
       {
         "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm",
@@ -109,24 +108,32 @@
         "url": "https://www.itl.nist.gov/div898/handbook/prc/section4/prc473.htm",
         "date": "2026-11-05",
         "scope": "Simultaneous Bonferroni coverage; union bound derived for binary outcomes in the chapter"
+      },
+      {
+        "url": "https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc332.htm",
+        "date": "2026-11-05",
+        "scope": "Stable probability and independent observations for proportion control charts"
       }
     ],
     "checks_executed": [
-      "10 local Python tests passed, including 5 new tests on missing verdicts, acceptance boundaries, simultaneous bounds, severity and review capacity",
-      "Two identical local draft renders containing lessons 01 and 02"
+      "10 local tests passed",
+      "Numerical assertions on stratified variance, standardized rates and exercise 2",
+      "Two identical draft renders; verified 3 lesson blocks followed by separate exercises, solutions and references"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Synthetic calculations and category-level acceptance tests; deterministic draft rendering",
+      "controlled": "Synthetic calculations and structural render only",
       "published": false
     },
     "limits": [
-      "Incomplete; no production data, visual review or independent review"
+      "Below 75,000 lesson characters; preservation threshold reached; incomplete edition",
+      "No production data, visual or independent review"
     ],
-    "next_action": "Remesurer AI-035 sur main et dans les sources sauvegardées. Si éligible, rédiger le chapitre 03 — Surveillance des changements de population, exercices et corrigés. Séparer les exercices et corrigés du corps mesuré.",
+    "next_action": "Préserver AI-035 sans allongement. Mesurer AI-036 sur main et dans les sources sauvegardées avant sélection.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-035/02-gravite-et-reception.html",
-      "content/courses/engineering/VOCE-AI-035/test_reception.py",
+      "content/courses/engineering/VOCE-AI-035/03-surveillance-des-populations.html",
+      "content/courses/engineering/VOCE-AI-035/exercices.html",
+      "content/courses/engineering/VOCE-AI-035/render_draft.py",
       "content/courses/engineering/VOCE-AI-035/references.html",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
@@ -2082,6 +2089,69 @@
         "docs/education/rewrite-progress.json",
         "docs/education/course-selection-20000.json"
       ]
+    },
+    "VOCE-AI-035": {
+      "id": "VOCE-AI-035",
+      "title": "Une moyenne masque les erreurs rares",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 25328,
+      "batch_new_lesson_characters": 6762,
+      "measurement": "Sum of normalized numbered lesson fragments excluding references and code",
+      "selection_before_write": {
+        "main": 7762,
+        "branch": 7762,
+        "baseline_main": 570,
+        "baseline_branch": 570,
+        "saved_chapters": 18566,
+        "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
+        "branch_commit": "1ac58a02e62e0154f1d0cc0eff896b8fd3fe9d89"
+      },
+      "chapters_written": [
+        "01-denominateurs-et-risque.html",
+        "02-gravite-et-reception.html",
+        "03-surveillance-des-populations.html"
+      ],
+      "chapters_remaining": [],
+      "sources_consulted": [
+        {
+          "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm",
+          "date": "2026-11-05",
+          "scope": "Exact binomial inversion; one-sided zero-defect case derived in the chapter"
+        },
+        {
+          "url": "https://www.itl.nist.gov/div898/handbook/prc/section4/prc473.htm",
+          "date": "2026-11-05",
+          "scope": "Simultaneous Bonferroni coverage; union bound derived for binary outcomes in the chapter"
+        },
+        {
+          "url": "https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc332.htm",
+          "date": "2026-11-05",
+          "scope": "Stable probability and independent observations for proportion control charts"
+        }
+      ],
+      "checks_executed": [
+        "10 local tests passed",
+        "Numerical assertions on stratified variance, standardized rates and exercise 2",
+        "Two identical draft renders; verified 3 lesson blocks followed by separate exercises, solutions and references"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Synthetic calculations and structural render only",
+        "published": false
+      },
+      "limits": [
+        "Below 75,000 lesson characters; preservation threshold reached; incomplete edition",
+        "No production data, visual or independent review"
+      ],
+      "next_action": "Préserver AI-035 sans allongement. Mesurer AI-036 sur main et dans les sources sauvegardées avant sélection.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-035/03-surveillance-des-populations.html",
+        "content/courses/engineering/VOCE-AI-035/exercices.html",
+        "content/courses/engineering/VOCE-AI-035/render_draft.py",
+        "content/courses/engineering/VOCE-AI-035/references.html",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ]
     }
   },
   "selection_policy": {
@@ -2123,9 +2193,10 @@
       "VOCE-AI-031",
       "VOCE-AI-032",
       "VOCE-AI-033",
-      "VOCE-AI-034"
+      "VOCE-AI-034",
+      "VOCE-AI-035"
     ],
-    "eligible_count": 85,
+    "eligible_count": 84,
     "main_read": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }
