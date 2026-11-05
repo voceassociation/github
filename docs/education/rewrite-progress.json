@@ -3,7 +3,7 @@
   "updated_on": "2026-11-05",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "4107af81d03f009fd53c9afc46670b207352813c",
+  "base_head_read": "51ec0c5baf25eb2e889f93995a740abab8b50617",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -80,23 +80,23 @@
     "id": "VOCE-AI-036",
     "title": "Quand l'agent doit s'abstenir",
     "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 9304,
-    "batch_new_lesson_characters": 9304,
-    "measurement": "Normalized lesson fragment excluding references and code",
+    "lesson_characters": 17951,
+    "batch_new_lesson_characters": 8647,
+    "measurement": "Sum of normalized numbered lesson fragments excluding references and code",
     "selection_before_write": {
       "main": 7764,
       "branch": 7764,
       "baseline_main": 546,
       "baseline_branch": 546,
-      "saved_chapters": 0,
+      "saved_chapters": 9304,
       "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
-      "branch_commit": "4107af81d03f009fd53c9afc46670b207352813c"
+      "branch_commit": "51ec0c5baf25eb2e889f93995a740abab8b50617"
     },
     "chapters_written": [
-      "01-decider-de-s-abstenir.html"
+      "01-decider-de-s-abstenir.html",
+      "02-calibration-et-file-de-revue.html"
     ],
     "chapters_remaining": [
-      "02 — Calibrer le seuil et dimensionner la file de revue",
       "03 — Reprise après clarification, exercices et corrigés"
     ],
     "sources_consulted": [
@@ -104,26 +104,30 @@
         "url": "https://proceedings.mlr.press/v97/geifman19a.html",
         "date": "2026-11-05",
         "scope": "SelectiveNet, primary paper abstract, selective risk and coverage"
+      },
+      {
+        "url": "https://proceedings.mlr.press/v70/guo17a.html",
+        "date": "2026-11-05",
+        "scope": "Guo et al., primary paper abstract, temperature scaling of confidence estimates"
       }
     ],
     "checks_executed": [
-      "5 synthetic Python tests passed on risk, coverage, total abstention, review cost and expected benefit",
-      "Two identical local renders; heading and chapter ID checked"
+      "10 local Python tests passed, including five new checks of calibration, reviewer workload and queue dynamics",
+      "Two identical local draft renders containing both chapters"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Synthetic calculations and deterministic draft rendering",
+      "controlled": "Synthetic calibration and review queue examples, deterministic rendering",
       "published": false
     },
     "limits": [
       "Incomplete; no production agent or reviewer evaluated; visual and independent reviews open"
     ],
-    "next_action": "Remesurer AI-036 sur main et dans les sources sauvegardées. Si éligible, rédiger 02 — Calibrer le seuil et dimensionner la file de revue.",
+    "next_action": "Remesurer AI-036 sur main et dans les sources sauvegardées. Si éligible, rédiger le chapitre 03 — Reprise après clarification, exercices et corrigés. Compter uniquement le corps pédagogique.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-036/01-decider-de-s-abstenir.html",
+      "content/courses/engineering/VOCE-AI-036/02-calibration-et-file-de-revue.html",
       "content/courses/engineering/VOCE-AI-036/references.html",
-      "content/courses/engineering/VOCE-AI-036/render_draft.py",
-      "content/courses/engineering/VOCE-AI-036/test_selection.py",
+      "content/courses/engineering/VOCE-AI-036/test_calibration.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
