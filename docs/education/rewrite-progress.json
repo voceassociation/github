@@ -3,7 +3,7 @@
   "updated_on": "2026-11-05",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "4e1a502386b2f27b790fd3aea014663709ad987c",
+  "base_head_read": "348566257ede194b11ce8e05e6fff43a0810c309",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 86,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 85,
     "preserved_by_selection": 34,
     "eligible_under_20000": 86
   },
@@ -77,64 +77,56 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-033",
-    "title": "Les journaux doivent reconstruire une décision",
-    "status": "preserved_draft_above_selection_threshold_not_complete",
-    "lesson_characters": 24563,
-    "measurement": "Sum of normalized numbered lesson fragments; references and code excluded",
+    "id": "VOCE-AI-034",
+    "title": "Tester un agent sur des cas qu'il n'a pas vus",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 10187,
+    "batch_new_lesson_characters": 10187,
+    "measurement": "Normalized lesson fragment only; references and laboratory excluded",
     "selection_before_write": {
-      "main": 7965,
-      "branch": 7965,
-      "baseline_main": 583,
-      "baseline_branch": 583,
-      "saved_chapters": 15188,
+      "main": 7928,
+      "branch": 7928,
+      "baseline_main": 578,
+      "baseline_branch": 578,
+      "saved_chapters": 0,
       "main_commit": "2115899cb778dcd044f615eee6e620f7bbc9edb2",
-      "branch_commit": "4e1a502386b2f27b790fd3aea014663709ad987c"
+      "branch_commit": "348566257ede194b11ce8e05e6fff43a0810c309"
     },
     "chapters_written": [
-      "01-evenements-et-preuves.html",
-      "02-collecte-durable.html"
+      "01-lot-inconnu.html"
     ],
     "chapters_remaining": [
-      "03 — Réception des reprises, exercices et corrigés"
+      "02 — Répéter les trajectoires et estimer l’incertitude par dossier",
+      "03 — Réception prospective, exercices et corrigés"
     ],
     "sources_consulted": [
       {
-        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html",
-        "date": "2026-11-05",
-        "scope": "Event attributes; interaction identifiers and event versus log time"
-      },
-      {
-        "url": "https://www.rfc-editor.org/rfc/rfc5848",
-        "date": "2026-11-05",
-        "scope": "Signature blocks and grouped messages, sections 1 and 4"
+        "url": "https://openreview.net/pdf?id=roNSXZpUDN",
+        "scope": "τ-bench, ICLR 2025, abstract and introduction; end-state evaluation",
+        "date": "2026-11-05"
       }
     ],
     "checks_executed": [
-      "14 local tests passed",
-      "Identical preview on two renders; chapter 02 present and single H1",
-      "Capacity, drain time and saturation calculations verified",
-      "Chapter 01 and both route pages compared with pinned GitHub copies"
+      "5 local Python tests passed: roots, consent, compensated writes with notifications, collateral damage, numerical examples",
+      "Two identical local draft renders"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "14 local tests including 3 SQLite collection scenarios; deterministic render and capacity arithmetic verified",
+      "controlled": "Synthetic reservation oracle and chapter calculations",
       "published": false
     },
     "limits": [
-      "Course incomplete; visual and independent review open",
-      "No production collector, authenticated transport, signature or power-loss test"
+      "Incomplete; no production agent evaluated, no visual or independent review"
     ],
-    "next_action": "Préserver AI-033. Mesurer AI-034 sur main et dans les sources sauvegardées avant sélection.",
+    "next_action": "Remesurer AI-034 sur main et dans les sources sauvegardées. Si éligible, rédiger 02 — Répéter les trajectoires et estimer l’incertitude par dossier.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-033/02-collecte-durable.html",
-      "content/courses/engineering/VOCE-AI-033/test_collection.py",
-      "content/courses/engineering/VOCE-AI-033/references.html",
-      "content/courses/engineering/VOCE-AI-033/README.md",
+      "content/courses/engineering/VOCE-AI-034/01-lot-inconnu.html",
+      "content/courses/engineering/VOCE-AI-034/references.html",
+      "content/courses/engineering/VOCE-AI-034/render_draft.py",
+      "content/courses/engineering/VOCE-AI-034/test_reception.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
-    ],
-    "batch_new_lesson_characters": 9375
+    ]
   },
   "completed_courses": {
     "VOCE-AI-002": {
