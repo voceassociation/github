@@ -3,7 +3,7 @@
   "updated_on": "2026-11-05",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "1c26343f35c394474e39c0fb3a6ab4c72263fb42",
+  "base_head_read": "5c47a07fe0a362622d50db5bc25ba3f450d644c9",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 63,
-    "preserved_by_selection": 56,
-    "eligible_under_20000": 64
+    "preserved_by_selection": 57,
+    "eligible_under_20000": 63
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -77,56 +77,9 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-056",
-    "title": "La simulation laisse des inconnues au réel",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 10256,
-    "batch_new_lesson_characters": 10256,
-    "measurement": "Texte normalisé du seul bloc lesson",
-    "selection_before_write": {
-      "main": 7805,
-      "branch": 7805,
-      "baseline_main": 566,
-      "baseline_branch": 566,
-      "saved_chapters": 0,
-      "main_commit": "0d06a947dc9fe8febd5d1c8cfd94be2ccde816dc",
-      "branch_commit": "1c26343f35c394474e39c0fb3a6ab4c72263fb42"
-    },
-    "chapters_written": [
-      "01-deux-modeles-un-point-arret.html"
-    ],
-    "chapters_remaining": [
-      "02 — Rejouer les traces de commande et distinguer retard fixe et gigue",
-      "03 — Réception du transfert sur des trajectoires réservées, exercices et corrigés"
-    ],
-    "sources_consulted": [
-      {
-        "url": "https://xbpeng.github.io/projects/SimToReal/SimToReal_2018.pdf",
-        "date": "2026-11-05",
-        "scope": "Randomisation des dynamiques pour une tâche de poussée"
-      }
-    ],
-    "checks_executed": [
-      "Mesures de sélection sur les deux branches",
-      "Assertions Python sur cinq distances d’arrêt, position intermédiaire, bornes de décélération et intégration à pas discret",
-      "Deux rendus locaux identiques octet par octet"
-    ],
-    "states": {
-      "saved": "This branch commit",
-      "controlled": "Volume, calculs et déterminisme du rendu",
-      "published": false
-    },
-    "limits": [
-      "Cas analytique fictif, aucun essai physique, relecture indépendante et contrôle visuel ouverts"
-    ],
-    "next_action": "Remesurer AI-056 sur main et dans les sources sauvegardées. Si éligible, rédiger 02 — Rejouer les traces de commande et distinguer retard fixe et gigue.",
-    "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-056/01-deux-modeles-un-point-arret.html",
-      "content/courses/engineering/VOCE-AI-056/references.html",
-      "content/courses/engineering/VOCE-AI-056/render_draft.py",
-      "docs/education/rewrite-progress.json",
-      "docs/education/course-selection-20000.json"
-    ]
+    "id": "VOCE-AI-057",
+    "status": "pending_selection",
+    "next_action": "Mesurer les pages et les sources sauvegardées de VOCE-AI-057 avant sélection."
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -2318,6 +2271,62 @@
         "docs/education/rewrite-progress.json",
         "docs/education/course-selection-20000.json"
       ]
+    },
+    "VOCE-AI-056": {
+      "id": "VOCE-AI-056",
+      "title": "La simulation laisse des inconnues au réel",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 20313,
+      "batch_new_lesson_characters": 10057,
+      "measurement": "Somme des textes normalisés des deux blocs lesson, hors bibliographie.",
+      "selection_before_write": {
+        "main": 7805,
+        "branch": 7805,
+        "baseline_main": 566,
+        "baseline_branch": 566,
+        "saved_chapters": 10256,
+        "main_commit": "0d06a947dc9fe8febd5d1c8cfd94be2ccde816dc",
+        "branch_commit": "5c47a07fe0a362622d50db5bc25ba3f450d644c9"
+      },
+      "chapters_written": [
+        "01-deux-modeles-un-point-arret.html",
+        "02-rejeu-retard-et-gigue.html"
+      ],
+      "chapters_remaining": [
+        "03 — Réception du transfert sur des trajectoires réservées, exercices et corrigés"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://xbpeng.github.io/projects/SimToReal/SimToReal_2018.pdf",
+          "date": "2026-11-05",
+          "scope": "Randomisation des dynamiques pour une tâche de poussée"
+        },
+        {
+          "url": "https://mcap.dev/spec",
+          "date": "2026-11-05",
+          "scope": "MCAP Message 0x05, sémantique des horodatages et du numéro de séquence"
+        }
+      ],
+      "checks_executed": [
+        "Mesures de sélection et du corps pédagogique",
+        "Assertions Python sur les arrivées en bord de cycle, les positions, la moyenne, le verdict de centrage et deux séquences de correction",
+        "Deux rendus locaux identiques octet par octet"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Volume, calculs et déterminisme du rendu",
+        "published": false
+      },
+      "limits": [
+        "Cas analytique fictif, aucun essai physique, relecture indépendante et contrôle visuel ouverts"
+      ],
+      "next_action": "Préserver le brouillon AI-056. Mesurer AI-057 sur les deux branches et dans les sources avant sélection.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-056/02-rejeu-retard-et-gigue.html",
+        "content/courses/engineering/VOCE-AI-056/references.html",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ]
     }
   },
   "selection_policy": {
@@ -2380,9 +2389,10 @@
       "VOCE-AI-052",
       "VOCE-AI-053",
       "VOCE-AI-054",
-      "VOCE-AI-055"
+      "VOCE-AI-055",
+      "VOCE-AI-056"
     ],
-    "eligible_count": 64,
+    "eligible_count": 63,
     "main_read": "0d06a947dc9fe8febd5d1c8cfd94be2ccde816dc",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }
