@@ -1,5 +1,5 @@
 {
-  "version": "0.5.7",
+  "version": "0.5.8",
   "publication_date": "2026-10-17",
   "courses": [
     {
@@ -5080,24 +5080,30 @@
         "AIACT26",
         "AIACT"
       ],
-      "version": "0.4.0",
-      "review_status": "OLD_VERSION_NOT_A_COMPLETE_COURSE",
+      "version": "0.5.0",
+      "review_status": "PUBLIC_TEXT_HASH_AND_VOLUME_CHECKED / INDEPENDENT_REVIEW_NOT_PERFORMED",
       "source_date": "2026-10-17",
       "author": "Brouillon original préparé avec assistance IA pour VOCE; responsable et relecteur à désigner",
       "url": "https://voce.life/cours/voce-ai-054",
-      "publication_status": "UNDER_SUBSTANTIVE_RECONSTRUCTION",
+      "publication_status": "PUBLIC_REWRITTEN_READER_VERIFIED",
       "independent_expert_validated": false,
-      "resource_type": "historical_resource_under_reconstruction",
-      "seo_description": "Évaluer une chaîne de sources juridiques. Sujet en reconstruction ; ancienne version exclue du catalogue actif des cours complets.",
+      "resource_type": "developed_written_course",
+      "seo_description": "Relier une conclusion juridique au texte applicable, à sa version, à sa date et à son champ, avec un cas temporel et un transfert multilingue corrigés.",
       "indexing_policy": {
         "eligible": false,
         "robots": "noindex,follow",
         "reason": "introductory_capsule_in_development",
-        "status_note": "Historical policy retained; no robots, canonical or sitemap change performed by this catalogue update."
+        "status_note": "Historical noindex,follow retained. Reader replaced and publicly verified; search-engine indexing is not claimed."
       },
-      "available_languages": [],
-      "date_modified": "2026-10-25",
-      "planned_learning_minutes": null,
+      "available_languages": [
+        "fr"
+      ],
+      "date_modified": "2026-11-05",
+      "planned_learning_minutes": {
+        "min": 280,
+        "max": 280,
+        "basis": "Estimation pédagogique ; sans pilote apprenant"
+      },
       "assessment_id": "VOCE-AI-054-CASE-20261018",
       "content_source": "content/courses/ai-workshops.txt",
       "history": [
@@ -5110,6 +5116,11 @@
           "version": "0.4.0",
           "date": "2026-10-18",
           "change": "Distinct worked demonstration, specific transfer correction and success criterion, targeted source guidance; stable URL and status"
+        },
+        {
+          "version": "0.5.0",
+          "date": "2026-11-05",
+          "change": "Lecteur français développé publié ; 26 981 caractères pédagogiques et article public comparé au manuscrit. Relecture juridique indépendante et pilote non réalisés."
         }
       ],
       "depth_source": "content/courses/ai-depth.txt",
@@ -5119,10 +5130,56 @@
       "learner_pilot": "not_performed",
       "social_release_authorized": false,
       "language_revision_status": {
-        "fr": "under_reconstruction"
+        "fr": "public_reader_text_verified_desktop_visual_checked_mobile_pending"
       },
-      "listed_in_active_catalogue": false,
-      "minimum_pedagogical_characters": 20000
+      "listed_in_active_catalogue": true,
+      "minimum_pedagogical_characters": 20000,
+      "eligible_pedagogical_characters": 26981,
+      "content_hash": "2b9f2ad1127fe6aa4c01458977d7864367dfae5afa69246594e8858ea8c1b549",
+      "public_text_verification": {
+        "date": "2026-11-05",
+        "language": "fr",
+        "sha256": "2b9f2ad1127fe6aa4c01458977d7864367dfae5afa69246594e8858ea8c1b549",
+        "characters": 26981
+      },
+      "source_references": [
+        {
+          "id": "S01",
+          "url": "https://eur-lex.europa.eu/content/welcome/about.html?locale=fr"
+        },
+        {
+          "id": "S02",
+          "url": "https://eur-lex.europa.eu/collection/eu-law/consleg.html?locale=fr"
+        },
+        {
+          "id": "S03",
+          "url": "https://eur-lex.europa.eu/content/help/eurlex-content/eli.html?locale=fr"
+        },
+        {
+          "id": "S04",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006419280/"
+        },
+        {
+          "id": "S05",
+          "url": "https://www.legifrance.gouv.fr/contenu/Media/files/autour-de-la-loi/guide-de-legistique/2024_09_04_fiche_1.4.1_sources_documentaires.pdf"
+        },
+        {
+          "id": "S06",
+          "url": "https://www.legifrance.gouv.fr/contenu/Media/files/autour-de-la-loi/guide-de-legistique/2023_12_28_fiche_1.2.2_application_dans_le_temps.pdf"
+        },
+        {
+          "id": "S07",
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:61981CJ0283"
+        },
+        {
+          "id": "S08",
+          "url": "https://curia.europa.eu/site/jcms/qua1_6243/fr/politique-de-multilinguisme"
+        },
+        {
+          "id": "S09",
+          "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02024R1689-20260727"
+        }
+      ]
     },
     {
       "id": "VOCE-AI-055",
@@ -10685,7 +10742,8 @@
       "VOCE-AI-052",
       "VOCE-COG-012",
       "VOCE-NP-002",
-      "VOCE-AI-053"
+      "VOCE-AI-053",
+      "VOCE-AI-054"
     ],
     "full_text_languages": [
       "fr"
