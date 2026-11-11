@@ -3,7 +3,7 @@
   "updated_on": "2026-11-11",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "3c4988d00ccc92694db243d79a1de2db0c5805f8",
+  "base_head_read": "9b3ff777626d6974471c57e2fe13a85b2e588249",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 60,
-    "preserved_by_selection": 59,
-    "eligible_under_20000": 61
+    "preserved_by_selection": 60,
+    "eligible_under_20000": 60
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -77,63 +77,9 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-059",
-    "title": "La mobilité électrique se juge sur le service rendu",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 13337,
-    "batch_new_lesson_characters": 13337,
-    "measurement": "Texte du bloc lesson, balisage retiré, espaces normalisés ; bibliographie exclue. Éditions non additionnées.",
-    "selection_before_write": {
-      "main": 7861,
-      "branch": 7861,
-      "baseline_main": 565,
-      "baseline_branch": 565,
-      "saved_chapters": 0,
-      "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
-      "branch_commit": "3c4988d00ccc92694db243d79a1de2db0c5805f8"
-    },
-    "chapters_written": [
-      "01-pret-au-depart.html"
-    ],
-    "chapters_remaining": [
-      "02 — Rejouer les journées de service et les indisponibilités de recharge",
-      "03 — Réception du protocole, exercices et corrigés"
-    ],
-    "sources_consulted": [
-      {
-        "url": "https://afdc.energy.gov/vehicles/electric-fleets",
-        "date": "2026-11-11",
-        "scope": "Introduction et Charging EVs : fonctionnement de la flotte et recharge"
-      },
-      {
-        "url": "https://www.energy.gov/cmei/femp/best-practices-measuring-and-reporting-electricity-use-federal-fleet-electric-vehicles",
-        "date": "2026-11-11",
-        "scope": "Données télématiques et transactions par session et véhicule"
-      }
-    ],
-    "checks_executed": [
-      "Mesures des pages et baselines sur main et branche ; absence de source ingénieur AI-059 vérifiée dans les arbres",
-      "Assertions Python sur énergie de mission, cibles, temps de charge, déficit au départ et taux de missions",
-      "Deux rendus locaux identiques octet par octet"
-    ],
-    "states": {
-      "saved": "This branch commit",
-      "controlled": "Volume, calculs et déterminisme du rendu",
-      "published": false
-    },
-    "limits": [
-      "Cas fictif ; pas d’essai de flotte ni validation constructeur.",
-      "Relecture indépendante, contrôle visuel et essai auprès d’apprenants ouverts.",
-      "Brouillon incomplet, non publié."
-    ],
-    "next_action": "Remesurer AI-059 sur main et dans les chapitres sauvegardés. Si encore éligible, rédiger le chapitre 02 — Rejouer les journées de service et les indisponibilités de recharge.",
-    "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-059/01-pret-au-depart.html",
-      "content/courses/engineering/VOCE-AI-059/references.html",
-      "content/courses/engineering/VOCE-AI-059/render_draft.py",
-      "docs/education/rewrite-progress.json",
-      "docs/education/course-selection-20000.json"
-    ]
+    "id": "VOCE-AI-060",
+    "status": "pending_selection",
+    "next_action": "Mesurer AI-060 sur main récent et dans les sources sauvegardées avant toute rédaction."
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -2500,6 +2446,71 @@
         "docs/education/rewrite-progress.json",
         "docs/education/course-selection-20000.json"
       ]
+    },
+    "VOCE-AI-059": {
+      "id": "VOCE-AI-059",
+      "title": "La mobilité électrique se juge sur le service rendu",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 23427,
+      "batch_new_lesson_characters": 10090,
+      "measurement": "Texte du bloc lesson, balisage retiré, espaces normalisés ; bibliographie exclue. Éditions non additionnées.",
+      "selection_before_write": {
+        "main": 7861,
+        "branch": 7861,
+        "baseline_main": 565,
+        "baseline_branch": 565,
+        "saved_chapters": 13337,
+        "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
+        "branch_commit": "9b3ff777626d6974471c57e2fe13a85b2e588249"
+      },
+      "chapters_written": [
+        "01-pret-au-depart.html",
+        "02-rejouer-les-journees.html"
+      ],
+      "chapters_remaining": [
+        "03 — Réception du protocole, exercices et corrigés"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://afdc.energy.gov/vehicles/electric-fleets",
+          "date": "2026-11-11",
+          "scope": "Introduction et Charging EVs : fonctionnement de la flotte et recharge"
+        },
+        {
+          "url": "https://www.energy.gov/cmei/femp/best-practices-measuring-and-reporting-electricity-use-federal-fleet-electric-vehicles",
+          "date": "2026-11-11",
+          "scope": "Données télématiques et transactions par session et véhicule"
+        },
+        {
+          "url": "https://www.pge.com/en/clean-energy/electric-vehicles/ev-fleet-program/resilient-electric-vehicle-fleets-implementation.html",
+          "date": "2026-11-11",
+          "scope": "Préparation aux interruptions et vérifications de recharge hors site ; scénarios chiffrés originaux fictifs"
+        }
+      ],
+      "checks_executed": [
+        "Remesure main et sources sauvegardées avant rédaction",
+        "Assertions Python : états énergétiques, panne et déficit, détour de recharge, ratios de missions et de journées",
+        "Deux rendus locaux identiques octet par octet",
+        "Lecture du guide primaire PG&E"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Volume, calculs et déterminisme du rendu",
+        "published": false
+      },
+      "limits": [
+        "Cas fictif ; pas d’essai de flotte ni validation constructeur.",
+        "Relecture indépendante, contrôle visuel et essai auprès d’apprenants ouverts.",
+        "Brouillon incomplet, non publié.",
+        "Seuil de préservation atteint ; édition incomplète, sans réception à 75 000 caractères."
+      ],
+      "next_action": "Préserver AI-059 à 23 427 caractères, sans rédiger le chapitre 3. Mesurer AI-060 sur main et sources sauvegardées.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-059/02-rejouer-les-journees.html",
+        "content/courses/engineering/VOCE-AI-059/references.html",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ]
     }
   },
   "selection_policy": {
@@ -2565,9 +2576,10 @@
       "VOCE-AI-055",
       "VOCE-AI-056",
       "VOCE-AI-057",
-      "VOCE-AI-058"
+      "VOCE-AI-058",
+      "VOCE-AI-059"
     ],
-    "eligible_count": 61,
+    "eligible_count": 60,
     "main_read": "42234611fa98b8b4642c4e882dee2db61a7bafab",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }
