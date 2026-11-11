@@ -811,11 +811,11 @@
       "counts": {
         "main": 8027,
         "branch": 8027,
-        "saved_chapters": 12262
+        "saved_chapters": 24418
       },
-      "selection": "eligible",
+      "selection": "preserved",
       "main_commit_checked": "42234611fa98b8b4642c4e882dee2db61a7bafab",
-      "branch_commit_checked": "c5ee0ad14580880f79d82f99cc69c3f5d3306f4d",
+      "branch_commit_checked": "12f58c272d65854b8056b9507eb3860a0faa006e",
       "checked_on": "2026-11-11"
     },
     {
