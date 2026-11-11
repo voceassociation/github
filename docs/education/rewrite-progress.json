@@ -3,7 +3,7 @@
   "updated_on": "2026-11-11",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "347f1c93085e33891c8519756034dc2d2cb8d243",
+  "base_head_read": "ba09078d041036c0ad9666c6fe871353770d0f21",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 57,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 56,
     "preserved_by_selection": 63,
     "eligible_under_20000": 57
   },
@@ -77,70 +77,69 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-ART-002",
-    "title": "La provenance raconte des transferts documentés",
-    "status": "preserved_incomplete_no_further_rewrite",
-    "lesson_characters": 27270,
-    "batch_new_lesson_characters": 11140,
-    "measurement": "Texte normalisé du bloc lesson, espaces compris; bibliographie exclue, éditions non additionnées.",
+    "id": "VOCE-ART-003",
+    "title": "Un inventaire décrit aussi les catégories d'une époque",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 12574,
+    "batch_new_lesson_characters": 12574,
+    "measurement": "Bloc lesson normalisé, espaces compris, hors références; éditions non additionnées.",
     "selection_before_write": {
       "main": 7893,
       "branch": 7893,
-      "baseline_main": 580,
-      "baseline_branch": 580,
-      "saved_chapters": 16130,
+      "baseline_main": 587,
+      "baseline_branch": 587,
+      "saved_chapters": 0,
       "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
-      "branch_commit": "347f1c93085e33891c8519756034dc2d2cb8d243"
+      "branch_commit": "ba09078d041036c0ad9666c6fe871353770d0f21"
     },
     "chapters_written": [
-      "01-identifier-et-relier.html",
-      "02-marques-et-depots.html"
+      "01-mots-et-categories.html"
     ],
     "chapters_remaining": [
-      "03 — Dossier contradictoire, notice publique, exercices et corrigés (non rédigé; allongement suspendu car seuil de préservation atteint)"
+      "02 — Comparer des inventaires aux catégories et unités différentes",
+      "03 — Édition commentée, exercices et corrigés"
     ],
     "sources_consulted": [
       {
-        "url": "https://www.getty.edu/research-conservation/tools-databases/provenance/",
-        "scope": "Présentation et couverture des ensembles, lecture ciblée",
-        "date": "2026-11-11"
-      },
-      {
-        "url": "https://www.getty.edu/museum/provenance/",
-        "scope": "Présentation de la recherche, lecture ciblée",
-        "date": "2026-11-11"
-      },
-      {
-        "url": "https://www.smb.museum/en/museums-institutions/zentralarchiv/research/provenance-research/information-system-for-auction-consignments/",
-        "scope": "Présentation des codes de déposants et partage de recherche",
-        "date": "2026-11-11"
-      },
-      {
-        "url": "https://www.getty.edu/research/collections/static/pdf/2012.M.54.pdf",
+        "url": "https://www.archives.gov/research/catalog/lcdrg/contribution/transcription",
+        "scope": "Définition de la transcription",
         "date": "2026-11-11",
-        "scope": "Extraits du résultat de recherche: séries de numéros et photographies d’œuvres proposées mais non acquises; instrument non lu intégralement."
+        "access": "Extrait du résultat de recherche; lecture ciblée"
+      },
+      {
+        "url": "https://transcription.si.edu/instructions/transcribe",
+        "scope": "Abréviations et notes",
+        "date": "2026-11-11",
+        "access": "Extrait du résultat de recherche; lecture ciblée"
+      },
+      {
+        "url": "https://www.getty.edu/publications/vocabularies-editorial-guidelines/aat-guidelines/3_editorial_rules/3.4/",
+        "scope": "Portée des concepts et homographes",
+        "date": "2026-11-11",
+        "access": "Extrait du résultat de recherche; lecture ciblée"
       }
     ],
     "checks_executed": [
-      "Arbres main et branche relus; pages 7893 chacune, baselines 580 chacune, chapitre sauvegardé 16130 avant sélection",
-      "Chapitre 02 mesuré: 11140; total des chapitres 27270; éditions non additionnées",
-      "Deux rendus locaux identiques octet par octet",
-      "Contrôle rédactionnel de la chronologie fictive: dépôt, sortie temporaire, retour et facture annulée distingués d’une acquisition"
+      "Arbres et sources main/branche relus; pages 7893 chacune, baselines 587; aucun chapitre développé sauvegardé",
+      "Mesure pédagogique 12574",
+      "Deux rendus identiques octet par octet",
+      "Calcul 1+6+4=11 vérifié; contrôle rédactionnel distinguant lignes, lots et objets identifiés"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Volume et déterminisme; contrôle rédactionnel de portée des preuves",
+      "controlled": "Volume, calcul et déterminisme; contrôle rédactionnel",
       "published": false
     },
     "limits": [
-      "Aucun document d’archive individuel ni œuvre réelle examiné; cas fictif.",
+      "Cas fictif; aucun manuscrit ni objet réel examiné.",
       "Relecture indépendante en histoire de l’art et contrôle visuel ouverts.",
-      "Cours incomplet, non publié."
+      "Cours incomplet non publié."
     ],
-    "next_action": "Préserver ART-002 sans allongement. Mesurer VOCE-ART-003 sur main et sources sauvegardées avant sélection et rédaction du premier chapitre.",
+    "next_action": "Remesurer ART-003 sur main et sources sauvegardées. Si éligible, rédiger 02 — Comparer des inventaires aux catégories et unités différentes.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-002/02-marques-et-depots.html",
-      "content/courses/engineering/VOCE-ART-002/references.html",
+      "content/courses/engineering/VOCE-ART-003/01-mots-et-categories.html",
+      "content/courses/engineering/VOCE-ART-003/references.html",
+      "content/courses/engineering/VOCE-ART-003/render_draft.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
