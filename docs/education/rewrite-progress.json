@@ -3,7 +3,7 @@
   "updated_on": "2026-11-11",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "ae0510c642355a106ee50a626df8750923fd68dc",
+  "base_head_read": "3c4988d00ccc92694db243d79a1de2db0c5805f8",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 61,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 60,
     "preserved_by_selection": 59,
     "eligible_under_20000": 61
   },
@@ -78,8 +78,62 @@
   },
   "current_course": {
     "id": "VOCE-AI-059",
-    "status": "pending_selection",
-    "next_action": "Mesurer AI-059 sur main récent et dans les sources sauvegardées ; rédiger son prochain chapitre uniquement si les éditions restent sous 20 000 caractères."
+    "title": "La mobilité électrique se juge sur le service rendu",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 13337,
+    "batch_new_lesson_characters": 13337,
+    "measurement": "Texte du bloc lesson, balisage retiré, espaces normalisés ; bibliographie exclue. Éditions non additionnées.",
+    "selection_before_write": {
+      "main": 7861,
+      "branch": 7861,
+      "baseline_main": 565,
+      "baseline_branch": 565,
+      "saved_chapters": 0,
+      "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
+      "branch_commit": "3c4988d00ccc92694db243d79a1de2db0c5805f8"
+    },
+    "chapters_written": [
+      "01-pret-au-depart.html"
+    ],
+    "chapters_remaining": [
+      "02 — Rejouer les journées de service et les indisponibilités de recharge",
+      "03 — Réception du protocole, exercices et corrigés"
+    ],
+    "sources_consulted": [
+      {
+        "url": "https://afdc.energy.gov/vehicles/electric-fleets",
+        "date": "2026-11-11",
+        "scope": "Introduction et Charging EVs : fonctionnement de la flotte et recharge"
+      },
+      {
+        "url": "https://www.energy.gov/cmei/femp/best-practices-measuring-and-reporting-electricity-use-federal-fleet-electric-vehicles",
+        "date": "2026-11-11",
+        "scope": "Données télématiques et transactions par session et véhicule"
+      }
+    ],
+    "checks_executed": [
+      "Mesures des pages et baselines sur main et branche ; absence de source ingénieur AI-059 vérifiée dans les arbres",
+      "Assertions Python sur énergie de mission, cibles, temps de charge, déficit au départ et taux de missions",
+      "Deux rendus locaux identiques octet par octet"
+    ],
+    "states": {
+      "saved": "This branch commit",
+      "controlled": "Volume, calculs et déterminisme du rendu",
+      "published": false
+    },
+    "limits": [
+      "Cas fictif ; pas d’essai de flotte ni validation constructeur.",
+      "Relecture indépendante, contrôle visuel et essai auprès d’apprenants ouverts.",
+      "Brouillon incomplet, non publié."
+    ],
+    "next_action": "Remesurer AI-059 sur main et dans les chapitres sauvegardés. Si encore éligible, rédiger le chapitre 02 — Rejouer les journées de service et les indisponibilités de recharge.",
+    "files_recorded_in_this_batch": [
+      "content/courses/engineering/VOCE-AI-059/01-pret-au-depart.html",
+      "content/courses/engineering/VOCE-AI-059/references.html",
+      "content/courses/engineering/VOCE-AI-059/render_draft.py",
+      "docs/education/rewrite-progress.json",
+      "docs/education/course-selection-20000.json"
+    ]
   },
   "completed_courses": {
     "VOCE-AI-002": {
