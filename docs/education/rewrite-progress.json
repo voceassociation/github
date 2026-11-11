@@ -3,7 +3,7 @@
   "updated_on": "2026-11-11",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "9b3ff777626d6974471c57e2fe13a85b2e588249",
+  "base_head_read": "c5ee0ad14580880f79d82f99cc69c3f5d3306f4d",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 60,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 59,
     "preserved_by_selection": 60,
     "eligible_under_20000": 60
   },
@@ -78,8 +78,57 @@
   },
   "current_course": {
     "id": "VOCE-AI-060",
-    "status": "pending_selection",
-    "next_action": "Mesurer AI-060 sur main récent et dans les sources sauvegardées avant toute rédaction."
+    "title": "Le comité de décision reçoit un dossier contradictoire",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 12262,
+    "batch_new_lesson_characters": 12262,
+    "measurement": "Texte normalisé du bloc lesson, espaces compris ; hors bibliographie. Éditions non additionnées.",
+    "selection_before_write": {
+      "main": 8027,
+      "branch": 8027,
+      "baseline_main": 575,
+      "baseline_branch": 575,
+      "saved_chapters": 0,
+      "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
+      "branch_commit": "c5ee0ad14580880f79d82f99cc69c3f5d3306f4d"
+    },
+    "chapters_written": [
+      "01-du-resultat-a-la-decision.html"
+    ],
+    "chapters_remaining": [
+      "02 — Éprouver les conditions d’arrêt et la reprise des transactions en cours",
+      "03 — Réception du dossier contradictoire, exercices et corrigés"
+    ],
+    "sources_consulted": [
+      {
+        "url": "https://airc.nist.gov/airmf-resources/playbook/manage/",
+        "date": "2026-11-11",
+        "scope": "MANAGE 1.1 à 1.4 ; poursuite du déploiement, risques et réserves"
+      }
+    ],
+    "checks_executed": [
+      "Mesure des pages et baselines main et branche ; absence de chapitre ingénieur vérifiée",
+      "Assertions Python sur temps humain, coût incrémental, borne binomiale et taille minimale d’échantillon",
+      "Deux rendus locaux identiques octet par octet"
+    ],
+    "states": {
+      "saved": "This branch commit",
+      "controlled": "Volume, calculs et déterminisme du rendu",
+      "published": false
+    },
+    "limits": [
+      "Cas fictif, pas d’essai sur une plateforme de paiement réelle.",
+      "Relecture indépendante et contrôle visuel ouverts.",
+      "Édition incomplète, non publiée ; aucune validation réglementaire."
+    ],
+    "next_action": "Remesurer AI-060 sur main et dans les sources sauvegardées. Si encore éligible, rédiger le chapitre 02 — Éprouver les conditions d’arrêt et la reprise des transactions en cours.",
+    "files_recorded_in_this_batch": [
+      "content/courses/engineering/VOCE-AI-060/01-du-resultat-a-la-decision.html",
+      "content/courses/engineering/VOCE-AI-060/references.html",
+      "content/courses/engineering/VOCE-AI-060/render_draft.py",
+      "docs/education/rewrite-progress.json",
+      "docs/education/course-selection-20000.json"
+    ]
   },
   "completed_courses": {
     "VOCE-AI-002": {
