@@ -3,7 +3,7 @@
   "updated_on": "2026-11-11",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "7fcb823aa3671b599ecbc2ebfbdf529b08f65405",
+  "base_head_read": "2758f90add1d1dacd4ffbfda5700b20c690601dd",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 58,
-    "preserved_by_selection": 61,
-    "eligible_under_20000": 59
+    "preserved_by_selection": 62,
+    "eligible_under_20000": 58
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,25 +79,25 @@
   "current_course": {
     "id": "VOCE-ART-001",
     "title": "Attribuer une œuvre sans effacer l'incertitude",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 13199,
-    "batch_new_lesson_characters": 13199,
+    "status": "preserved_incomplete_no_further_rewrite",
+    "lesson_characters": 26236,
+    "batch_new_lesson_characters": 13037,
     "measurement": "Texte normalisé du bloc lesson, espaces compris, hors bibliographie ; éditions non additionnées.",
     "selection_before_write": {
       "main": 7981,
       "branch": 7981,
       "baseline_main": 606,
       "baseline_branch": 606,
-      "saved_chapters": 0,
+      "saved_chapters": 13199,
       "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
-      "branch_commit": "7fcb823aa3671b599ecbc2ebfbdf529b08f65405"
+      "branch_commit": "2758f90add1d1dacd4ffbfda5700b20c690601dd"
     },
     "chapters_written": [
-      "01-construire-attribution.html"
+      "01-construire-attribution.html",
+      "02-avis-et-chronologie.html"
     ],
     "chapters_remaining": [
-      "02 — Confronter des avis divergents et une chronologie matérielle",
-      "03 — Rédiger une notice argumentée, exercices et corrigés"
+      "03 — Rédiger une notice argumentée, exercices et corrigés (non rédigé; allongement suspendu car seuil de préservation atteint)"
     ],
     "sources_consulted": [
       {
@@ -109,17 +109,37 @@
         "url": "https://www.nationalgallery.org.uk/paintings/glossary/pentimento",
         "date": "2026-11-11",
         "scope": "Définition du repentir et imagerie ; texte du glossaire consulté dans le résultat de recherche"
+      },
+      {
+        "url": "https://www.nationalgallery.org.uk/paintings/glossary/dendrochronology",
+        "scope": "Définition, résultat de recherche",
+        "date": "2026-11-11"
+      },
+      {
+        "url": "https://www.npg.org.uk/collections/research/programmes/making-art-in-tudor-britain/case-studies/matb-case-study-5/case-study-5-question-3",
+        "scope": "Extrait sur le réemploi; ouverture directe 403",
+        "date": "2026-11-11"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12629980/",
+        "scope": "Résumé, introduction et résultats historiques, lecture ciblée",
+        "date": "2026-11-11"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13372665/",
+        "scope": "Résumé, introduction et début des résultats; annexes non lues",
+        "date": "2026-11-11"
       }
     ],
     "checks_executed": [
-      "Mesures main et branche avant sélection ; absence de chapitres sauvegardés vérifiée dans les arbres",
-      "Mesure du bloc pédagogique",
+      "Arbres main et branche relus; pages 7981 chacune, baselines 606 chacune, chapitre sauvegardé 13199 avant sélection",
+      "Chapitre 02: 13037 caractères normalisés; total chapitres 26236, éditions non additionnées",
       "Deux rendus locaux identiques octet par octet",
-      "Contrôle rédactionnel : cas identifié comme fictif, observations distinguées des inférences"
+      "Contrôle rédactionnel des événements datés et des hypothèses du cas fictif; aucune analyse matérielle réelle"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Volume, cohérence du cas et déterminisme du rendu",
+      "controlled": "Volume, cohérence chronologique et déterminisme du rendu; revue indépendante et visuelle ouvertes",
       "published": false
     },
     "limits": [
@@ -127,11 +147,10 @@
       "Relecture indépendante en histoire de l’art et contrôle visuel ouverts.",
       "Brouillon incomplet, non publié."
     ],
-    "next_action": "Remesurer ART-001 sur main et sources sauvegardées. Si éligible, rédiger le chapitre 02 — Confronter des avis divergents et une chronologie matérielle.",
+    "next_action": "Préserver ART-001 sans allongement. Mesurer VOCE-ART-002 sur main et sources sauvegardées avant sélection et rédaction du premier chapitre.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-001/01-construire-attribution.html",
+      "content/courses/engineering/VOCE-ART-001/02-avis-et-chronologie.html",
       "content/courses/engineering/VOCE-ART-001/references.html",
-      "content/courses/engineering/VOCE-ART-001/render_draft.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
@@ -2624,6 +2643,85 @@
       "files_recorded_in_this_batch": [
         "content/courses/engineering/VOCE-AI-060/02-arreter-et-reprendre.html",
         "content/courses/engineering/VOCE-AI-060/references.html",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ]
+    },
+    "VOCE-ART-001": {
+      "id": "VOCE-ART-001",
+      "title": "Attribuer une œuvre sans effacer l'incertitude",
+      "status": "preserved_incomplete_no_further_rewrite",
+      "lesson_characters": 26236,
+      "batch_new_lesson_characters": 13037,
+      "measurement": "Texte normalisé du bloc lesson, espaces compris, hors bibliographie ; éditions non additionnées.",
+      "selection_before_write": {
+        "main": 7981,
+        "branch": 7981,
+        "baseline_main": 606,
+        "baseline_branch": 606,
+        "saved_chapters": 13199,
+        "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
+        "branch_commit": "2758f90add1d1dacd4ffbfda5700b20c690601dd"
+      },
+      "chapters_written": [
+        "01-construire-attribution.html",
+        "02-avis-et-chronologie.html"
+      ],
+      "chapters_remaining": [
+        "03 — Rédiger une notice argumentée, exercices et corrigés (non rédigé; allongement suspendu car seuil de préservation atteint)"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://www.getty.edu/publications/categories-description-works-art/categories/object-architecture-group/4/",
+          "date": "2026-11-11",
+          "scope": "CDWA 4.1.2, qualificatifs d’attribution ; passage consulté dans le résultat de recherche"
+        },
+        {
+          "url": "https://www.nationalgallery.org.uk/paintings/glossary/pentimento",
+          "date": "2026-11-11",
+          "scope": "Définition du repentir et imagerie ; texte du glossaire consulté dans le résultat de recherche"
+        },
+        {
+          "url": "https://www.nationalgallery.org.uk/paintings/glossary/dendrochronology",
+          "scope": "Définition, résultat de recherche",
+          "date": "2026-11-11"
+        },
+        {
+          "url": "https://www.npg.org.uk/collections/research/programmes/making-art-in-tudor-britain/case-studies/matb-case-study-5/case-study-5-question-3",
+          "scope": "Extrait sur le réemploi; ouverture directe 403",
+          "date": "2026-11-11"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12629980/",
+          "scope": "Résumé, introduction et résultats historiques, lecture ciblée",
+          "date": "2026-11-11"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13372665/",
+          "scope": "Résumé, introduction et début des résultats; annexes non lues",
+          "date": "2026-11-11"
+        }
+      ],
+      "checks_executed": [
+        "Arbres main et branche relus; pages 7981 chacune, baselines 606 chacune, chapitre sauvegardé 13199 avant sélection",
+        "Chapitre 02: 13037 caractères normalisés; total chapitres 26236, éditions non additionnées",
+        "Deux rendus locaux identiques octet par octet",
+        "Contrôle rédactionnel des événements datés et des hypothèses du cas fictif; aucune analyse matérielle réelle"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Volume, cohérence chronologique et déterminisme du rendu; revue indépendante et visuelle ouvertes",
+        "published": false
+      },
+      "limits": [
+        "Aucune œuvre réelle examinée ; cas pédagogique fictif.",
+        "Relecture indépendante en histoire de l’art et contrôle visuel ouverts.",
+        "Brouillon incomplet, non publié."
+      ],
+      "next_action": "Préserver ART-001 sans allongement. Mesurer VOCE-ART-002 sur main et sources sauvegardées avant sélection et rédaction du premier chapitre.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-ART-001/02-avis-et-chronologie.html",
+        "content/courses/engineering/VOCE-ART-001/references.html",
         "docs/education/rewrite-progress.json",
         "docs/education/course-selection-20000.json"
       ]
