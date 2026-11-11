@@ -3,7 +3,7 @@
   "updated_on": "2026-11-11",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "2758f90add1d1dacd4ffbfda5700b20c690601dd",
+  "base_head_read": "2cb760ce00bca10a6bbd930c0318ba281f1dc31b",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 58,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 57,
     "preserved_by_selection": 62,
     "eligible_under_20000": 58
   },
@@ -77,80 +77,66 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-ART-001",
-    "title": "Attribuer une œuvre sans effacer l'incertitude",
-    "status": "preserved_incomplete_no_further_rewrite",
-    "lesson_characters": 26236,
-    "batch_new_lesson_characters": 13037,
-    "measurement": "Texte normalisé du bloc lesson, espaces compris, hors bibliographie ; éditions non additionnées.",
+    "id": "VOCE-ART-002",
+    "title": "La provenance raconte des transferts documentés",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 16130,
+    "batch_new_lesson_characters": 16130,
+    "measurement": "Texte normalisé du bloc lesson, espaces compris; bibliographie exclue, éditions non additionnées.",
     "selection_before_write": {
-      "main": 7981,
-      "branch": 7981,
-      "baseline_main": 606,
-      "baseline_branch": 606,
-      "saved_chapters": 13199,
+      "main": 7893,
+      "branch": 7893,
+      "baseline_main": 580,
+      "baseline_branch": 580,
+      "saved_chapters": 0,
       "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
-      "branch_commit": "2758f90add1d1dacd4ffbfda5700b20c690601dd"
+      "branch_commit": "2cb760ce00bca10a6bbd930c0318ba281f1dc31b"
     },
     "chapters_written": [
-      "01-construire-attribution.html",
-      "02-avis-et-chronologie.html"
+      "01-identifier-et-relier.html"
     ],
     "chapters_remaining": [
-      "03 — Rédiger une notice argumentée, exercices et corrigés (non rédigé; allongement suspendu car seuil de préservation atteint)"
+      "02 — Relier marques au revers, dépôts et registres de marchand",
+      "03 — Dossier contradictoire, notice publique, exercices et corrigés"
     ],
     "sources_consulted": [
       {
-        "url": "https://www.getty.edu/publications/categories-description-works-art/categories/object-architecture-group/4/",
-        "date": "2026-11-11",
-        "scope": "CDWA 4.1.2, qualificatifs d’attribution ; passage consulté dans le résultat de recherche"
-      },
-      {
-        "url": "https://www.nationalgallery.org.uk/paintings/glossary/pentimento",
-        "date": "2026-11-11",
-        "scope": "Définition du repentir et imagerie ; texte du glossaire consulté dans le résultat de recherche"
-      },
-      {
-        "url": "https://www.nationalgallery.org.uk/paintings/glossary/dendrochronology",
-        "scope": "Définition, résultat de recherche",
+        "url": "https://www.getty.edu/research-conservation/tools-databases/provenance/",
+        "scope": "Présentation et couverture des ensembles, lecture ciblée",
         "date": "2026-11-11"
       },
       {
-        "url": "https://www.npg.org.uk/collections/research/programmes/making-art-in-tudor-britain/case-studies/matb-case-study-5/case-study-5-question-3",
-        "scope": "Extrait sur le réemploi; ouverture directe 403",
+        "url": "https://www.getty.edu/museum/provenance/",
+        "scope": "Présentation de la recherche, lecture ciblée",
         "date": "2026-11-11"
       },
       {
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12629980/",
-        "scope": "Résumé, introduction et résultats historiques, lecture ciblée",
-        "date": "2026-11-11"
-      },
-      {
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13372665/",
-        "scope": "Résumé, introduction et début des résultats; annexes non lues",
+        "url": "https://www.smb.museum/en/museums-institutions/zentralarchiv/research/provenance-research/information-system-for-auction-consignments/",
+        "scope": "Présentation des codes de déposants et partage de recherche",
         "date": "2026-11-11"
       }
     ],
     "checks_executed": [
-      "Arbres main et branche relus; pages 7981 chacune, baselines 606 chacune, chapitre sauvegardé 13199 avant sélection",
-      "Chapitre 02: 13037 caractères normalisés; total chapitres 26236, éditions non additionnées",
+      "Arbres main et branche relus: aucun chapitre développé ART-002; sources historiques art-workshops et art-depth consultées",
+      "Pages mesurées à 7893 caractères chacune, baselines à 580; chapitre nouveau 16130",
       "Deux rendus locaux identiques octet par octet",
-      "Contrôle rédactionnel des événements datés et des hypothèses du cas fictif; aucune analyse matérielle réelle"
+      "Contrôle rédactionnel: cas fictif, identification de l’objet séparée des relations de propriété et des rôles commerciaux"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Volume, cohérence chronologique et déterminisme du rendu; revue indépendante et visuelle ouvertes",
+      "controlled": "Volume et déterminisme; contrôle rédactionnel de portée des preuves",
       "published": false
     },
     "limits": [
-      "Aucune œuvre réelle examinée ; cas pédagogique fictif.",
+      "Aucun document d’archive individuel ni œuvre réelle examiné; cas fictif.",
       "Relecture indépendante en histoire de l’art et contrôle visuel ouverts.",
-      "Brouillon incomplet, non publié."
+      "Cours incomplet, non publié."
     ],
-    "next_action": "Préserver ART-001 sans allongement. Mesurer VOCE-ART-002 sur main et sources sauvegardées avant sélection et rédaction du premier chapitre.",
+    "next_action": "Remesurer ART-002 sur main et sources sauvegardées. Si toujours éligible, rédiger 02 — Relier marques au revers, dépôts et registres de marchand.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-001/02-avis-et-chronologie.html",
-      "content/courses/engineering/VOCE-ART-001/references.html",
+      "content/courses/engineering/VOCE-ART-002/references.html",
+      "content/courses/engineering/VOCE-ART-002/render_draft.py",
+      "content/courses/engineering/VOCE-ART-002/01-identifier-et-relier.html",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
