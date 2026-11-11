@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-05",
+  "updated_on": "2026-11-11",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "27f8b8ad3bab1ad4a7c12bb410b1a4d3609ec15c",
+  "base_head_read": "ae0510c642355a106ee50a626df8750923fd68dc",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 61,
-    "preserved_by_selection": 58,
-    "eligible_under_20000": 62
+    "preserved_by_selection": 59,
+    "eligible_under_20000": 61
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -77,56 +77,9 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-AI-058",
-    "title": "Une gigafactory vend des cellules conformes",
-    "status": "draft_incomplete_under_selection_threshold",
-    "lesson_characters": 9976,
-    "batch_new_lesson_characters": 9976,
-    "measurement": "Texte normalisé du bloc lesson seul, espaces compris.",
-    "selection_before_write": {
-      "main": 7831,
-      "branch": 7831,
-      "baseline_main": 579,
-      "baseline_branch": 579,
-      "saved_chapters": 0,
-      "main_commit": "0d06a947dc9fe8febd5d1c8cfd94be2ccde816dc",
-      "branch_commit": "27f8b8ad3bab1ad4a7c12bb410b1a4d3609ec15c"
-    },
-    "chapters_written": [
-      "01-du-compteur-au-kwh-liberable.html"
-    ],
-    "chapters_remaining": [
-      "02 — Localiser les pertes par lot d’électrode et chiffrer le coût du rebut tardif",
-      "03 — Réception d’une montée en cadence, exercices et corrigés"
-    ],
-    "sources_consulted": [
-      {
-        "url": "https://www.anl.gov/sites/www/files/2024-11/GPRA2024_06Nov2024.pdf",
-        "date": "2026-11-05",
-        "scope": "Tableau Total Material Yields, rendements BatPaC par opération et composant"
-      }
-    ],
-    "checks_executed": [
-      "Mesures de sélection sur les deux branches et du chapitre balisé",
-      "Assertions Python sur les stocks, les essais répétés, les rendements, les kWh, la fausse acceptation et la capacité de banc",
-      "Deux rendus locaux identiques octet par octet"
-    ],
-    "states": {
-      "saved": "This branch commit",
-      "controlled": "Volume, calculs et déterminisme du rendu",
-      "published": false
-    },
-    "limits": [
-      "Données fictives, aucun relevé industriel. Revue indépendante et contrôle visuel ouverts."
-    ],
-    "next_action": "Remesurer AI-058 sur main et dans les sources sauvegardées. Si éligible, rédiger 02 — Localiser les pertes par lot d’électrode et chiffrer le coût du rebut tardif.",
-    "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-AI-058/01-du-compteur-au-kwh-liberable.html",
-      "content/courses/engineering/VOCE-AI-058/references.html",
-      "content/courses/engineering/VOCE-AI-058/render_draft.py",
-      "docs/education/rewrite-progress.json",
-      "docs/education/course-selection-20000.json"
-    ]
+    "id": "VOCE-AI-059",
+    "status": "pending_selection",
+    "next_action": "Mesurer AI-059 sur main récent et dans les sources sauvegardées ; rédiger son prochain chapitre uniquement si les éditions restent sous 20 000 caractères."
   },
   "completed_courses": {
     "VOCE-AI-002": {
@@ -2435,6 +2388,64 @@
         "docs/education/rewrite-progress.json",
         "docs/education/course-selection-20000.json"
       ]
+    },
+    "VOCE-AI-058": {
+      "id": "VOCE-AI-058",
+      "title": "Une gigafactory vend des cellules conformes",
+      "status": "preserved_draft_above_selection_threshold_not_complete",
+      "lesson_characters": 21240,
+      "batch_new_lesson_characters": 11264,
+      "measurement": "Texte normalisé du bloc lesson seul, espaces compris.",
+      "selection_before_write": {
+        "main": 7831,
+        "branch": 7831,
+        "baseline_main": 579,
+        "baseline_branch": 579,
+        "saved_chapters": 9976,
+        "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
+        "branch_commit": "ae0510c642355a106ee50a626df8750923fd68dc"
+      },
+      "chapters_written": [
+        "01-du-compteur-au-kwh-liberable.html",
+        "02-du-rouleau-au-rebut.html"
+      ],
+      "chapters_remaining": [
+        "03 — Réception d’une montée en cadence, exercices et corrigés"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://www.anl.gov/sites/www/files/2024-11/GPRA2024_06Nov2024.pdf",
+          "date": "2026-11-05",
+          "scope": "Tableau Total Material Yields, rendements BatPaC par opération et composant"
+        },
+        {
+          "url": "https://doi.org/10.1002/ente.202301221",
+          "date": "2026-11-11",
+          "scope": "Résumé et section 4 : liaison des feuilles aux empilements et aux cellules ; cas chiffrés du chapitre fictifs."
+        }
+      ],
+      "checks_executed": [
+        "Remesure de main et de la branche actuels ; chapitre 1 inchangé",
+        "Assertions Python : intersections, coût du tri idéal et imparfait, coût unitaire, budget d’expertise",
+        "Deux rendus locaux identiques octet par octet",
+        "Lecture de la source primaire, résumé et section 4"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Volume, calculs et déterminisme du rendu",
+        "published": false
+      },
+      "limits": [
+        "Données fictives, aucun relevé industriel. Revue indépendante et contrôle visuel ouverts.",
+        "Édition incomplète préservée au seuil de sélection ; ni réception à 75 000 caractères ni publication."
+      ],
+      "next_action": "Préserver AI-058 à 21 240 caractères ; ne pas rédiger le chapitre 3. Mesurer AI-059 avant sélection.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-AI-058/02-du-rouleau-au-rebut.html",
+        "content/courses/engineering/VOCE-AI-058/references.html",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ]
     }
   },
   "selection_policy": {
@@ -2499,10 +2510,11 @@
       "VOCE-AI-054",
       "VOCE-AI-055",
       "VOCE-AI-056",
-      "VOCE-AI-057"
+      "VOCE-AI-057",
+      "VOCE-AI-058"
     ],
-    "eligible_count": 62,
-    "main_read": "0d06a947dc9fe8febd5d1c8cfd94be2ccde816dc",
+    "eligible_count": 61,
+    "main_read": "42234611fa98b8b4642c4e882dee2db61a7bafab",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }
 }
