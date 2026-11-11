@@ -3,7 +3,7 @@
   "updated_on": "2026-11-11",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "12f58c272d65854b8056b9507eb3860a0faa006e",
+  "base_head_read": "7fcb823aa3671b599ecbc2ebfbdf529b08f65405",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 59,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 58,
     "preserved_by_selection": 61,
     "eligible_under_20000": 59
   },
@@ -78,8 +78,63 @@
   },
   "current_course": {
     "id": "VOCE-ART-001",
-    "status": "pending_selection",
-    "next_action": "Mesurer VOCE-ART-001 sur main récent et sources sauvegardées avant sélection ; conserver l’exigence disciplinaire en histoire de l’art."
+    "title": "Attribuer une œuvre sans effacer l'incertitude",
+    "status": "draft_incomplete_under_selection_threshold",
+    "lesson_characters": 13199,
+    "batch_new_lesson_characters": 13199,
+    "measurement": "Texte normalisé du bloc lesson, espaces compris, hors bibliographie ; éditions non additionnées.",
+    "selection_before_write": {
+      "main": 7981,
+      "branch": 7981,
+      "baseline_main": 606,
+      "baseline_branch": 606,
+      "saved_chapters": 0,
+      "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
+      "branch_commit": "7fcb823aa3671b599ecbc2ebfbdf529b08f65405"
+    },
+    "chapters_written": [
+      "01-construire-attribution.html"
+    ],
+    "chapters_remaining": [
+      "02 — Confronter des avis divergents et une chronologie matérielle",
+      "03 — Rédiger une notice argumentée, exercices et corrigés"
+    ],
+    "sources_consulted": [
+      {
+        "url": "https://www.getty.edu/publications/categories-description-works-art/categories/object-architecture-group/4/",
+        "date": "2026-11-11",
+        "scope": "CDWA 4.1.2, qualificatifs d’attribution ; passage consulté dans le résultat de recherche"
+      },
+      {
+        "url": "https://www.nationalgallery.org.uk/paintings/glossary/pentimento",
+        "date": "2026-11-11",
+        "scope": "Définition du repentir et imagerie ; texte du glossaire consulté dans le résultat de recherche"
+      }
+    ],
+    "checks_executed": [
+      "Mesures main et branche avant sélection ; absence de chapitres sauvegardés vérifiée dans les arbres",
+      "Mesure du bloc pédagogique",
+      "Deux rendus locaux identiques octet par octet",
+      "Contrôle rédactionnel : cas identifié comme fictif, observations distinguées des inférences"
+    ],
+    "states": {
+      "saved": "This branch commit",
+      "controlled": "Volume, cohérence du cas et déterminisme du rendu",
+      "published": false
+    },
+    "limits": [
+      "Aucune œuvre réelle examinée ; cas pédagogique fictif.",
+      "Relecture indépendante en histoire de l’art et contrôle visuel ouverts.",
+      "Brouillon incomplet, non publié."
+    ],
+    "next_action": "Remesurer ART-001 sur main et sources sauvegardées. Si éligible, rédiger le chapitre 02 — Confronter des avis divergents et une chronologie matérielle.",
+    "files_recorded_in_this_batch": [
+      "content/courses/engineering/VOCE-ART-001/01-construire-attribution.html",
+      "content/courses/engineering/VOCE-ART-001/references.html",
+      "content/courses/engineering/VOCE-ART-001/render_draft.py",
+      "docs/education/rewrite-progress.json",
+      "docs/education/course-selection-20000.json"
+    ]
   },
   "completed_courses": {
     "VOCE-AI-002": {
