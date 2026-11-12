@@ -3,7 +3,7 @@
   "updated_on": "2026-11-12",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "6a6faab1a46b16e4f28c040aa1e1d4ffc0d2b41c",
+  "base_head_read": "785f22eeda181d8f0672873c8f5938abd5c7cf34",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 50,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 49,
     "preserved_by_selection": 70,
     "eligible_under_20000": 50
   },
@@ -77,71 +77,57 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-ART-009",
-    "title": "Le nettoyage change ce que le public peut voir",
-    "status": "preserved_incomplete_no_further_rewrite",
-    "lesson_characters": 32424,
-    "batch_new_lesson_characters": 17044,
-    "measurement": "Texte du bloc lesson normalisé, espaces compris; références et ancienne édition exclues.",
+    "id": "VOCE-ART-010",
+    "title": "Une exposition est un budget d'exposition à la lumière",
+    "status": "draft_in_progress_not_published",
+    "lesson_characters": 12860,
+    "batch_new_lesson_characters": 12860,
+    "measurement": "Texte du bloc lesson normalisé, espaces compris; références, métadonnées et anciennes éditions exclues.",
     "selection_before_write": {
-      "main": 7772,
-      "branch": 7772,
-      "baseline_main": 578,
-      "baseline_branch": 578,
-      "saved_chapters": 15380,
+      "main": 7571,
+      "branch": 7571,
+      "baseline_main": 553,
+      "baseline_branch": 553,
+      "saved_chapters": 0,
       "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
-      "branch_commit": "6a6faab1a46b16e4f28c040aa1e1d4ffc0d2b41c"
+      "branch_commit": "785f22eeda181d8f0672873c8f5938abd5c7cf34"
     },
     "chapters_written": [
-      "01-evaluer-nettoyage.html",
-      "02-decision-nettoyage-partiel.html"
+      "01-bilan-lumineux.html"
     ],
     "chapters_remaining": [
-      "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
+      "02 — Comparer les calendriers de rotation et organiser le suivi des écarts au budget lumineux",
+      "03 — Exercices et corrigés"
     ],
     "sources_consulted": [
       {
-        "url": "https://mci.si.edu/Does-my-painting-need-be-cleaned",
-        "scope": "Extrait de recherche; ouverture échouée par délai d'accès",
-        "date": "2026-11-12"
-      },
-      {
-        "url": "https://www.nationalgallery.org.uk/technical-bulletin/dunkerton_white2000",
-        "scope": "Résumé de Dunkerton et White 2000, pas le PDF",
-        "date": "2026-11-12"
-      },
-      {
-        "url": "https://community.culturalheritage.org/conservation-at-work/uphold-professional-standards/code",
-        "scope": "Principes sur page; non-intervention et documentation dans extrait de recherche",
-        "date": "2026-11-12"
-      },
-      {
-        "url": "https://community.culturalheritage.org/conservation-at-work/uphold-professional-standards/code",
+        "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/light.html",
         "date": "2026-11-12",
-        "scope": "Extrait Treatment Plan: préparation du plan après examen et avant traitement; modèle P9 original et fictif"
+        "scope": "Quantifying Light, UV and IR; Measuring Light and its Exposure; lecture ciblée"
       }
     ],
     "checks_executed": [
-      "Arbres main/branche: page et baseline identiques; page 7772, baseline 578, chapitre sauvegardé remesuré 15380",
-      "Chapitre 02: 17044; total 32424 hors références et anciennes éditions",
+      "Arbres main et branche: mêmes blobs page et baseline; aucun chapitre développé ART-010",
+      "Page remesurée 7571, baseline 553; chapitre 12860",
       "Deux rendus identiques octet par octet; identifiants uniques",
-      "Trois assertions arithmétiques: surfaces 4800 cm²; essai 0,0625 % de R1; périmètre nominal 75 %",
-      "Contrôle rédactionnel: options, régions et décision fictives; pas de recette de traitement; limites d'inférence explicites"
+      "Sept assertions arithmétiques réussies: moyenne pondérée, programme complet, incident, bornes de lacune et cumuls locaux",
+      "Contrôle rédactionnel: cas fictif, absence de seuil universel, distinction cumul photométrique et effet matériel"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Volume, calculs, déterminisme, identifiants et contrôle rédactionnel",
+      "controlled": "Volume, calculs, déterminisme et identifiants; contrôle rédactionnel",
       "published": false
     },
     "limits": [
       "Cours incomplet non publié",
       "Relecture indépendante en conservation et contrôle visuel ouverts",
-      "Aucune œuvre réelle examinée; consultation documentaire partielle explicitée"
+      "Aucune œuvre réelle ni série de capteur examinée"
     ],
-    "next_action": "Préserver ART-009 sans allongement. Mesurer VOCE-ART-010 sur main et sources sauvegardées avant sélection et rédaction.",
+    "next_action": "Remesurer ART-010 sur main et sources sauvegardées. Si toujours sous 20000, rédiger chapitre 02 — Comparer les calendriers de rotation et organiser le suivi des écarts au budget lumineux; sinon préserver sans allongement.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-009/02-decision-nettoyage-partiel.html",
-      "content/courses/engineering/VOCE-ART-009/references.html",
+      "content/courses/engineering/VOCE-ART-010/01-bilan-lumineux.html",
+      "content/courses/engineering/VOCE-ART-010/references.html",
+      "content/courses/engineering/VOCE-ART-010/render.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
