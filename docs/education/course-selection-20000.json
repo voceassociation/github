@@ -909,9 +909,12 @@
       "counts": {
         "main": 7705,
         "branch": 7705,
-        "saved_chapters": 0
+        "saved_chapters": 16888
       },
-      "selection": "eligible"
+      "selection": "eligible",
+      "main_commit_checked": "42234611fa98b8b4642c4e882dee2db61a7bafab",
+      "branch_commit_checked": "bb733e775ede4954baec0668ac755de9500dbece",
+      "checked_on": "2026-11-12"
     },
     {
       "id": "VOCE-ART-008",
