@@ -3,7 +3,7 @@
   "updated_on": "2026-11-12",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "67004d57a16f3e2eacd6227e8889bfbf53f6a445",
+  "base_head_read": "43f7d6c24d67178c44860b328f57a3fc17ee787c",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 54,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 53,
     "preserved_by_selection": 66,
     "eligible_under_20000": 54
   },
@@ -77,76 +77,67 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-ART-005",
-    "title": "La commande artistique laisse des traces économiques",
-    "status": "preserved_incomplete_no_further_rewrite",
-    "lesson_characters": 30584,
-    "batch_new_lesson_characters": 14948,
-    "measurement": "Corps lesson normalisé, espaces compris; références, métadonnées et anciennes éditions exclus.",
+    "id": "VOCE-ART-006",
+    "title": "Lire une peinture par ses couches",
+    "status": "draft_in_progress_not_published",
+    "lesson_characters": 14891,
+    "batch_new_lesson_characters": 14891,
+    "measurement": "Corps lesson normalisé, espaces compris; références et anciennes éditions exclues.",
     "selection_before_write": {
-      "main": 7791,
-      "branch": 7791,
-      "baseline_main": 570,
-      "baseline_branch": 570,
-      "saved_chapters": 15636,
+      "main": 7808,
+      "branch": 7808,
+      "baseline_main": 598,
+      "baseline_branch": 598,
+      "saved_chapters": 0,
       "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
-      "branch_commit": "67004d57a16f3e2eacd6227e8889bfbf53f6a445"
+      "branch_commit": "43f7d6c24d67178c44860b328f57a3fc17ee787c"
     },
     "chapters_written": [
-      "01-prix-et-versements.html",
-      "02-comparer-commandes.html"
+      "01-coupe-et-ordre-local.html"
     ],
     "chapters_remaining": [
-      "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
+      "02 — Confronter deux coupes et relier des chronologies locales",
+      "03 — Exercices et corrigés; contrôles disciplinaires et de rendu"
     ],
     "sources_consulted": [
       {
-        "url": "https://www.nationalgallery.org.uk/paintings/glossary/contract",
+        "url": "https://www.nationalgallery.org.uk/paintings/glossary/cross-section",
         "date": "2026-11-12",
-        "scope": "Extrait de recherche: clauses possibles des contrats"
+        "scope": "Extrait de recherche: définition de la coupe"
       },
       {
-        "url": "https://www.getty.edu/research-conservation/tools-databases/provenance/whats-covered/",
+        "url": "https://www.nationalgallery.org.uk/research/publications/studying-raphael/studying-raphael-pigments-and-medium",
         "date": "2026-11-12",
-        "scope": "Extrait de recherche: couverture selon région, période et document"
+        "scope": "Extrait: couches et exemple vert sous architecture grise"
       },
       {
-        "url": "https://www.getty.edu/research-conservation/tools-databases/provenance/",
+        "url": "https://doi.org/10.5092/jhna.2022.14.2.1",
         "date": "2026-11-12",
-        "scope": "Extrait de recherche: ressource Payments to Artists distincte; pas de dépouillement individuel"
-      },
-      {
-        "url": "https://www.nationalgallery.org.uk/paintings/glossary/contract",
-        "date": "2026-11-12",
-        "scope": "Ouverture directe: part du travail, matériaux et rémunération"
-      },
-      {
-        "url": "https://www.getty.edu/research-conservation/tools-databases/provenance/whats-covered/",
-        "date": "2026-11-12",
-        "scope": "Ouverture directe: introduction et liste des ressources, couverture de Payments to Artists"
+        "scope": "Extrait méthodologique: microscopie et analyses complémentaires"
       }
     ],
     "checks_executed": [
-      "Arbres main/branche: mêmes blobs page et baseline; chapitre sauvegardé remesuré 15636, page 7791, baseline 570",
-      "Chapitre 02: 14948; total pédagogique 30584, éditions non additionnées",
-      "Deux rendus identiques octet par octet et identifiants uniques",
-      "Cinq assertions arithmétiques réussies: enveloppe 110, règlement 80, ratios 10% et 22%, variante 108",
-      "Contrôle rédactionnel: engagement, trésorerie, fourniture et extinction d’obligation distingués; variantes fictives identifiées"
+      "Arbres main et branche comparés: mêmes blobs page et baseline; aucun chapitre ART-006 sauvegardé",
+      "Compteur exécuté: page 7808, baseline 598, nouveau chapitre 14891",
+      "Deux rendus locaux identiques octet par octet",
+      "Quatre assertions: échelle 0,25 micromètre/pixel, épaisseur 30, borne de lecture 1, projection environ 26 micromètres",
+      "Contrôle rédactionnel: observation, identification, chronologie et échantillonnage distingués; cas fictif"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Volume, calculs, déterminisme et identifiants; contrôle rédactionnel",
+      "controlled": "Volume, calculs et déterminisme contrôlés",
       "published": false
     },
     "limits": [
       "Cours incomplet non publié",
-      "Relecture indépendante en histoire économique de l’art et contrôle visuel ouverts",
-      "Aucune archive historique individuelle examinée; exemples fictifs"
+      "Relecture indépendante en conservation et contrôle visuel ouverts",
+      "Aucun échantillon réel examiné; sources consultées par extraits"
     ],
-    "next_action": "Préserver ART-005 sans allongement. Mesurer VOCE-ART-006 sur main et sources sauvegardées avant sélection et rédaction.",
+    "next_action": "Mesurer de nouveau ART-006 sur main et sources sauvegardées. Si toujours sous 20000, rédiger le chapitre 02 — Confronter deux coupes et relier des chronologies locales.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-005/02-comparer-commandes.html",
-      "content/courses/engineering/VOCE-ART-005/references.html",
+      "content/courses/engineering/VOCE-ART-006/01-coupe-et-ordre-local.html",
+      "content/courses/engineering/VOCE-ART-006/references.html",
+      "content/courses/engineering/VOCE-ART-006/render_draft.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
