@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-11",
+  "updated_on": "2026-11-12",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "ec0e466bbce4de47da48958c991b76920b6efd88",
+  "base_head_read": "b2d6b368da9522b16f090829f053568c5a5c41d5",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 56,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 55,
     "preserved_by_selection": 64,
     "eligible_under_20000": 56
   },
@@ -77,74 +77,62 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-ART-003",
-    "title": "Un inventaire décrit aussi les catégories d'une époque",
-    "status": "preserved_incomplete_no_further_rewrite",
-    "lesson_characters": 25110,
-    "batch_new_lesson_characters": 12536,
-    "measurement": "Bloc lesson normalisé, espaces compris, hors références; éditions non additionnées.",
+    "id": "VOCE-ART-004",
+    "title": "Le cadre modifie l'histoire visible d'un tableau",
+    "status": "draft_in_progress_not_published",
+    "lesson_characters": 15995,
+    "batch_new_lesson_characters": 15995,
+    "measurement": "Texte normalisé du seul chapitre lesson, espaces compris; bibliographie exclue; éditions non additionnées.",
     "selection_before_write": {
-      "main": 7893,
-      "branch": 7893,
-      "baseline_main": 587,
-      "baseline_branch": 587,
-      "saved_chapters": 12574,
+      "main": 7837,
+      "branch": 7837,
+      "baseline_main": 549,
+      "baseline_branch": 549,
+      "saved_chapters": 0,
       "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
-      "branch_commit": "ec0e466bbce4de47da48958c991b76920b6efd88"
+      "branch_commit": "b2d6b368da9522b16f090829f053568c5a5c41d5"
     },
     "chapters_written": [
-      "01-mots-et-categories.html",
-      "02-comparer-inventaires.html"
+      "01-dater-association.html"
     ],
     "chapters_remaining": [
-      "03 — Édition commentée, exercices et corrigés (non rédigé; allongement suspendu car seuil de préservation atteint)"
+      "02 — Comparer deux présentations: dossier de décision, désaccords, restitution et cartel",
+      "03 — Exercices et corrigés; contrôles disciplinaires et de rendu"
     ],
     "sources_consulted": [
       {
-        "url": "https://www.archives.gov/research/catalog/lcdrg/contribution/transcription",
-        "scope": "Définition de la transcription",
-        "date": "2026-11-11",
-        "access": "Extrait du résultat de recherche; lecture ciblée"
+        "url": "https://www.metmuseum.org/essays/italian-renaissance-frames",
+        "date": "2026-11-12",
+        "scope": "Introduction et début Structure and Design; lecture ciblée"
       },
       {
-        "url": "https://transcription.si.edu/instructions/transcribe",
-        "scope": "Abréviations et notes",
-        "date": "2026-11-11",
-        "access": "Extrait du résultat de recherche; lecture ciblée"
-      },
-      {
-        "url": "https://www.getty.edu/publications/vocabularies-editorial-guidelines/aat-guidelines/3_editorial_rules/3.4/",
-        "scope": "Portée des concepts et homographes",
-        "date": "2026-11-11",
-        "access": "Extrait du résultat de recherche; lecture ciblée"
-      },
-      {
-        "url": "https://www.getty.edu/publications/categories-description-works-art/categories/object-architecture-group/1/",
-        "date": "2026-11-11",
-        "scope": "Niveau de catalogage et composants; extrait du résultat de recherche"
+        "url": "https://www.vam.ac.uk/articles/framing-botticelli",
+        "date": "2026-11-12",
+        "scope": "Ouverture et imitations du XIXe siècle; page actualisée le 17 avril 2024"
       }
     ],
     "checks_executed": [
-      "Arbres et fichiers main/branche relus: pages 7893 chacune, baselines 587, chapitre sauvegardé 12574 avant sélection",
-      "Chapitre 02: 12536; total 25110 hors bibliographie, éditions non additionnées",
+      "Arbres main et branche: mêmes blobs de page et baseline; aucun chapitre ART-004 sauvegardé",
+      "Compteur: page 7837, baseline 549; chapitre nouveau 15995",
       "Deux rendus locaux identiques octet par octet",
-      "Calculs vérifiés: 11 unités; 8 entrées; 1/3=33,3%, 1/8=12,5%, 4/11=36,4% après arrondi",
-      "Contrôle rédactionnel: couverture des relevés, identité et quantité distinguées; cas explicitement fictif"
+      "Six assertions arithmétiques réussies: surfaces, gain et dénominateurs",
+      "Contrôle rédactionnel: dates de fabrication et association distinctes, zones masquées non inventées, cas explicitement fictif"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Volume, calcul et déterminisme; contrôle rédactionnel",
+      "controlled": "Volume, calculs et déterminisme contrôlés",
       "published": false
     },
     "limits": [
-      "Cas fictif; aucun manuscrit ni objet réel examiné.",
-      "Relecture indépendante en histoire de l’art et contrôle visuel ouverts.",
-      "Cours incomplet non publié."
+      "Cours incomplet, non publié",
+      "Relecture indépendante en histoire de l’art et contrôle visuel ouverts",
+      "Aucun objet réel examiné; documents et mesures du cas fictifs"
     ],
-    "next_action": "Préserver ART-003 sans allongement. Mesurer VOCE-ART-004 sur main et sources sauvegardées avant sélection et rédaction.",
+    "next_action": "Mesurer de nouveau ART-004 sur main et sources sauvegardées. Si toujours sous 20000, rédiger le chapitre 02 — Comparer deux présentations: dossier de décision, désaccords, restitution et cartel.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-003/02-comparer-inventaires.html",
-      "content/courses/engineering/VOCE-ART-003/references.html",
+      "content/courses/engineering/VOCE-ART-004/01-dater-association.html",
+      "content/courses/engineering/VOCE-ART-004/references.html",
+      "content/courses/engineering/VOCE-ART-004/render_draft.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
