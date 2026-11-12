@@ -3,7 +3,7 @@
   "updated_on": "2026-11-12",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "1a8225e02e15900ad8692127a18285c94b3f1e07",
+  "base_head_read": "61ca5a47964325f71a9ae7dd892d53256c7f6b08",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 52,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 51,
     "preserved_by_selection": 68,
     "eligible_under_20000": 52
   },
@@ -77,86 +77,62 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-ART-007",
-    "title": "L'infrarouge révèle une autre étape du travail",
-    "status": "preserved_incomplete_no_further_rewrite",
-    "lesson_characters": 34022,
-    "batch_new_lesson_characters": 17134,
-    "measurement": "Somme des textes lesson normalisés des deux chapitres, espaces compris; références et anciennes éditions exclues.",
+    "id": "VOCE-ART-008",
+    "title": "Un pigment ne signe pas une œuvre",
+    "status": "draft_in_progress_not_published",
+    "lesson_characters": 17142,
+    "batch_new_lesson_characters": 17142,
+    "measurement": "Texte lesson normalisé, espaces compris; références et ancienne édition exclues.",
     "selection_before_write": {
-      "main": 7705,
-      "branch": 7705,
-      "baseline_main": 546,
-      "baseline_branch": 546,
-      "saved_chapters": 16888,
+      "main": 7679,
+      "branch": 7679,
+      "baseline_main": 567,
+      "baseline_branch": 567,
+      "saved_chapters": 0,
       "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
-      "branch_commit": "1a8225e02e15900ad8692127a18285c94b3f1e07"
+      "branch_commit": "61ca5a47964325f71a9ae7dd892d53256c7f6b08"
     },
     "chapters_written": [
-      "01-signal-et-interpretation.html",
-      "02-comparer-acquisitions.html"
+      "01-pigment-couche-attribution.html"
     ],
     "chapters_remaining": [
-      "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
+      "02 — Comparer une retouche localisée et une incompatibilité répartie dans la composition",
+      "03 — Exercices et corrigés"
     ],
     "sources_consulted": [
       {
-        "url": "https://mci.si.edu/infrared-and-ultraviolet-imaging",
-        "scope": "Texte des sections imagerie réfléchie et réflectographie",
-        "date": "2026-11-12"
+        "url": "https://cameo.mfa.org/wiki/More_on_the_data",
+        "date": "2026-11-12",
+        "scope": "Introduction et section XRF"
       },
       {
-        "url": "https://www.nationalgallery.org.uk/paintings/glossary/infrared",
-        "scope": "Texte du glossaire fourni dans le résultat de recherche",
-        "date": "2026-11-12"
-      },
-      {
-        "url": "https://www.rct.uk/collection/conservation/conserving-the-man-in-red/infrared-reflectography",
-        "scope": "Texte sur les jarretières supprimées et interprétations alternatives",
-        "date": "2026-11-12"
-      },
-      {
-        "url": "https://www.nationalgalleries.org/art-and-artists/features/art-conservation-gwen-john-looking-beneath-surface",
-        "scope": "Texte du 29 juillet 2026 sur les deux peintures, sans analyse indépendante des images",
-        "date": "2026-11-12"
-      },
-      {
-        "url": "https://www.repository.cam.ac.uk/items/f8d1a8c5-2f5c-41e7-88d9-2d559f4c7d1c",
-        "scope": "Résumé détaillé Delaney et al. 2017; pas le PDF complet",
-        "date": "2026-11-12"
-      },
-      {
-        "url": "https://hammershoi.smk.dk/glossary/",
-        "scope": "Entrée Image registration",
-        "date": "2026-11-12"
-      },
-      {
-        "url": "https://doi.org/10.1186/s40494-022-00696-4",
-        "scope": "Extrait de recherche sur complémentarité des méthodes; texte intégral inaccessible par redirection",
-        "date": "2026-11-12"
+        "url": "https://www.getty.edu/publications/getty-research-journal/21/the-getty-peacock-fresco/",
+        "date": "2026-11-12",
+        "scope": "Résumé et introduction; extrait de recherche Painted Surface"
       }
     ],
     "checks_executed": [
-      "Arbres main/branche: mêmes blobs page et baseline; page remesurée 7705, baseline 546, chapitre 01 remesuré 16888",
-      "Chapitre 02: 17134; total pédagogique 34022 hors références",
-      "Deux rendus identiques octet par octet; identifiants uniques",
-      "Quatre contrôles arithmétiques: contrastes 0,25/0,50; décalage 0,20; dilution 650 et 0,1875; résidu moyen 0,6 mm",
-      "Contrôle rédactionnel: acquisitions fictives, valeurs descriptives et limites matérielles explicites"
+      "Page main/branche mêmes blobs et mesure 7679; baseline 567; absence de chapitres sauvegardés dans les arbres",
+      "Chapitre 01: 17142 caractères hors références",
+      "Deux rendus identiques; identifiants uniques",
+      "Deux calculs vérifiés: 0,9 puissance 5 et puissance 20, arrondis 59,0 % et 12,2 %",
+      "Contrôle rédactionnel: matériau et date fictifs, identification distincte de détection, borne localisée à la couche"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Volume, calculs, déterminisme, identifiants et contrôle rédactionnel",
+      "controlled": "Volume, déterminisme, identifiants et calculs; contrôle rédactionnel",
       "published": false
     },
     "limits": [
       "Cours incomplet non publié",
       "Relecture indépendante en conservation et contrôle visuel ouverts",
-      "Aucun fichier d'acquisition réel examiné; source 2022 consultée par extrait seulement"
+      "Aucun échantillon réel examiné"
     ],
-    "next_action": "Préserver ART-007 sans allongement. Mesurer VOCE-ART-008 sur main et sources sauvegardées avant sélection et rédaction.",
+    "next_action": "Remesurer ART-008 sur main et sources sauvegardées. Si toujours sous 20000, rédiger chapitre 02 — Comparer une retouche localisée et une incompatibilité répartie dans la composition; sinon préserver sans allongement.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-007/02-comparer-acquisitions.html",
-      "content/courses/engineering/VOCE-ART-007/references.html",
+      "content/courses/engineering/VOCE-ART-008/01-pigment-couche-attribution.html",
+      "content/courses/engineering/VOCE-ART-008/references.html",
+      "content/courses/engineering/VOCE-ART-008/render.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
