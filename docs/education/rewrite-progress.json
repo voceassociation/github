@@ -3,7 +3,7 @@
   "updated_on": "2026-11-12",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "dfa2a3f9a1f574a441b364952d166817d566add2",
+  "base_head_read": "d301cd9c2a44d0c648c101c42f2308a46a02d673",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 55,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 54,
     "preserved_by_selection": 65,
     "eligible_under_20000": 55
   },
@@ -77,66 +77,67 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-ART-004",
-    "title": "Le cadre modifie l'histoire visible d'un tableau",
-    "status": "preserved_incomplete_no_further_rewrite",
-    "lesson_characters": 31879,
-    "batch_new_lesson_characters": 15884,
-    "measurement": "Texte normalisé du seul chapitre lesson, espaces compris; bibliographie exclue; éditions non additionnées.",
+    "id": "VOCE-ART-005",
+    "title": "La commande artistique laisse des traces économiques",
+    "status": "draft_in_progress_not_published",
+    "lesson_characters": 15636,
+    "batch_new_lesson_characters": 15636,
+    "measurement": "Corps lesson normalisé, espaces compris; références, métadonnées et anciennes éditions exclus.",
     "selection_before_write": {
-      "main": 7837,
-      "branch": 7837,
-      "baseline_main": 549,
-      "baseline_branch": 549,
-      "saved_chapters": 15995,
+      "main": 7791,
+      "branch": 7791,
+      "baseline_main": 570,
+      "baseline_branch": 570,
+      "saved_chapters": 0,
       "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
-      "branch_commit": "dfa2a3f9a1f574a441b364952d166817d566add2"
+      "branch_commit": "d301cd9c2a44d0c648c101c42f2308a46a02d673"
     },
     "chapters_written": [
-      "01-dater-association.html",
-      "02-decision-presentation.html"
+      "01-prix-et-versements.html"
     ],
     "chapters_remaining": [
-      "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
+      "02 — Comparer des commandes: fournitures du commanditaire, formes de paiement et budgets",
+      "03 — Exercices et corrigés; contrôles disciplinaires et de rendu"
     ],
     "sources_consulted": [
       {
-        "url": "https://www.metmuseum.org/essays/italian-renaissance-frames",
+        "url": "https://www.nationalgallery.org.uk/paintings/glossary/contract",
         "date": "2026-11-12",
-        "scope": "Introduction et début Structure and Design; lecture ciblée"
+        "scope": "Extrait de recherche: clauses possibles des contrats"
       },
       {
-        "url": "https://www.vam.ac.uk/articles/framing-botticelli",
+        "url": "https://www.getty.edu/research-conservation/tools-databases/provenance/whats-covered/",
         "date": "2026-11-12",
-        "scope": "Ouverture et imitations du XIXe siècle; page actualisée le 17 avril 2024"
+        "scope": "Extrait de recherche: couverture selon région, période et document"
       },
       {
-        "url": "https://www.iccrom.org/sites/default/files/2022-02/icom_cc_resolution_on_terminology_english.pdf",
+        "url": "https://www.getty.edu/research-conservation/tools-databases/provenance/",
         "date": "2026-11-12",
-        "scope": "Extrait du résultat de recherche: décision documentée et investigation; PDF non lu intégralement"
+        "scope": "Extrait de recherche: ressource Payments to Artists distincte; pas de dépouillement individuel"
       }
     ],
     "checks_executed": [
-      "Arbres main/branche: mêmes blobs de page et baseline; source chapitre 01 relue et mesurée 15995; page 7837, baseline 549",
-      "Chapitre 02 mesuré 15884; somme pédagogique 31879 hors références",
-      "Deux rendus identiques octet par octet; identifiants uniques",
-      "Gain géométrique 442×590−430×576=13100 confirmé",
-      "Contrôle rédactionnel: options, conditions matérielles, preuves historiques, projets non réalisés et désaccords distingués"
+      "Arbres main et branche comparés: pages et baselines identiques, aucun chapitre ART-005 sauvegardé",
+      "Compteur exécuté: page 7791, baseline 570, nouveau chapitre 15636",
+      "Deux rendus locaux identiques octet par octet",
+      "Six assertions arithmétiques réussies: versements, double compte, différence documentaire, ventilation et sous-unités",
+      "Contrôle rédactionnel: engagements, transferts, matériaux et acceptation distingués; cas explicitement fictif"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Volume, déterminisme, identifiants et calcul; contrôle rédactionnel",
+      "controlled": "Volume, calculs et déterminisme contrôlés",
       "published": false
     },
     "limits": [
-      "Cours incomplet, non publié",
-      "Relecture indépendante en histoire de l’art et contrôle visuel ouverts",
-      "Aucun objet réel examiné; documents et mesures du cas fictifs"
+      "Cours incomplet non publié",
+      "Relecture indépendante en histoire économique de l’art et contrôle visuel ouverts",
+      "Aucune archive historique individuelle examinée; exemples fictifs"
     ],
-    "next_action": "Préserver ART-004 sans allongement. Mesurer VOCE-ART-005 sur main et sources sauvegardées avant sélection et rédaction.",
+    "next_action": "Mesurer de nouveau ART-005 sur main et sources sauvegardées. Si toujours sous 20000, rédiger le chapitre 02 — Comparer des commandes: fournitures du commanditaire, formes de paiement et budgets.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-004/02-decision-presentation.html",
-      "content/courses/engineering/VOCE-ART-004/references.html",
+      "content/courses/engineering/VOCE-ART-005/01-prix-et-versements.html",
+      "content/courses/engineering/VOCE-ART-005/references.html",
+      "content/courses/engineering/VOCE-ART-005/render_draft.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
