@@ -3,7 +3,7 @@
   "updated_on": "2026-11-12",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "d301cd9c2a44d0c648c101c42f2308a46a02d673",
+  "base_head_read": "67004d57a16f3e2eacd6227e8889bfbf53f6a445",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 54,
-    "preserved_by_selection": 65,
-    "eligible_under_20000": 55
+    "preserved_by_selection": 66,
+    "eligible_under_20000": 54
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,25 +79,25 @@
   "current_course": {
     "id": "VOCE-ART-005",
     "title": "La commande artistique laisse des traces économiques",
-    "status": "draft_in_progress_not_published",
-    "lesson_characters": 15636,
-    "batch_new_lesson_characters": 15636,
+    "status": "preserved_incomplete_no_further_rewrite",
+    "lesson_characters": 30584,
+    "batch_new_lesson_characters": 14948,
     "measurement": "Corps lesson normalisé, espaces compris; références, métadonnées et anciennes éditions exclus.",
     "selection_before_write": {
       "main": 7791,
       "branch": 7791,
       "baseline_main": 570,
       "baseline_branch": 570,
-      "saved_chapters": 0,
+      "saved_chapters": 15636,
       "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
-      "branch_commit": "d301cd9c2a44d0c648c101c42f2308a46a02d673"
+      "branch_commit": "67004d57a16f3e2eacd6227e8889bfbf53f6a445"
     },
     "chapters_written": [
-      "01-prix-et-versements.html"
+      "01-prix-et-versements.html",
+      "02-comparer-commandes.html"
     ],
     "chapters_remaining": [
-      "02 — Comparer des commandes: fournitures du commanditaire, formes de paiement et budgets",
-      "03 — Exercices et corrigés; contrôles disciplinaires et de rendu"
+      "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
     ],
     "sources_consulted": [
       {
@@ -114,18 +114,28 @@
         "url": "https://www.getty.edu/research-conservation/tools-databases/provenance/",
         "date": "2026-11-12",
         "scope": "Extrait de recherche: ressource Payments to Artists distincte; pas de dépouillement individuel"
+      },
+      {
+        "url": "https://www.nationalgallery.org.uk/paintings/glossary/contract",
+        "date": "2026-11-12",
+        "scope": "Ouverture directe: part du travail, matériaux et rémunération"
+      },
+      {
+        "url": "https://www.getty.edu/research-conservation/tools-databases/provenance/whats-covered/",
+        "date": "2026-11-12",
+        "scope": "Ouverture directe: introduction et liste des ressources, couverture de Payments to Artists"
       }
     ],
     "checks_executed": [
-      "Arbres main et branche comparés: pages et baselines identiques, aucun chapitre ART-005 sauvegardé",
-      "Compteur exécuté: page 7791, baseline 570, nouveau chapitre 15636",
-      "Deux rendus locaux identiques octet par octet",
-      "Six assertions arithmétiques réussies: versements, double compte, différence documentaire, ventilation et sous-unités",
-      "Contrôle rédactionnel: engagements, transferts, matériaux et acceptation distingués; cas explicitement fictif"
+      "Arbres main/branche: mêmes blobs page et baseline; chapitre sauvegardé remesuré 15636, page 7791, baseline 570",
+      "Chapitre 02: 14948; total pédagogique 30584, éditions non additionnées",
+      "Deux rendus identiques octet par octet et identifiants uniques",
+      "Cinq assertions arithmétiques réussies: enveloppe 110, règlement 80, ratios 10% et 22%, variante 108",
+      "Contrôle rédactionnel: engagement, trésorerie, fourniture et extinction d’obligation distingués; variantes fictives identifiées"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Volume, calculs et déterminisme contrôlés",
+      "controlled": "Volume, calculs, déterminisme et identifiants; contrôle rédactionnel",
       "published": false
     },
     "limits": [
@@ -133,11 +143,10 @@
       "Relecture indépendante en histoire économique de l’art et contrôle visuel ouverts",
       "Aucune archive historique individuelle examinée; exemples fictifs"
     ],
-    "next_action": "Mesurer de nouveau ART-005 sur main et sources sauvegardées. Si toujours sous 20000, rédiger le chapitre 02 — Comparer des commandes: fournitures du commanditaire, formes de paiement et budgets.",
+    "next_action": "Préserver ART-005 sans allongement. Mesurer VOCE-ART-006 sur main et sources sauvegardées avant sélection et rédaction.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-005/01-prix-et-versements.html",
+      "content/courses/engineering/VOCE-ART-005/02-comparer-commandes.html",
       "content/courses/engineering/VOCE-ART-005/references.html",
-      "content/courses/engineering/VOCE-ART-005/render_draft.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
@@ -2916,6 +2925,81 @@
       "files_recorded_in_this_batch": [
         "content/courses/engineering/VOCE-ART-004/02-decision-presentation.html",
         "content/courses/engineering/VOCE-ART-004/references.html",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ]
+    },
+    "VOCE-ART-005": {
+      "id": "VOCE-ART-005",
+      "title": "La commande artistique laisse des traces économiques",
+      "status": "preserved_incomplete_no_further_rewrite",
+      "lesson_characters": 30584,
+      "batch_new_lesson_characters": 14948,
+      "measurement": "Corps lesson normalisé, espaces compris; références, métadonnées et anciennes éditions exclus.",
+      "selection_before_write": {
+        "main": 7791,
+        "branch": 7791,
+        "baseline_main": 570,
+        "baseline_branch": 570,
+        "saved_chapters": 15636,
+        "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
+        "branch_commit": "67004d57a16f3e2eacd6227e8889bfbf53f6a445"
+      },
+      "chapters_written": [
+        "01-prix-et-versements.html",
+        "02-comparer-commandes.html"
+      ],
+      "chapters_remaining": [
+        "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://www.nationalgallery.org.uk/paintings/glossary/contract",
+          "date": "2026-11-12",
+          "scope": "Extrait de recherche: clauses possibles des contrats"
+        },
+        {
+          "url": "https://www.getty.edu/research-conservation/tools-databases/provenance/whats-covered/",
+          "date": "2026-11-12",
+          "scope": "Extrait de recherche: couverture selon région, période et document"
+        },
+        {
+          "url": "https://www.getty.edu/research-conservation/tools-databases/provenance/",
+          "date": "2026-11-12",
+          "scope": "Extrait de recherche: ressource Payments to Artists distincte; pas de dépouillement individuel"
+        },
+        {
+          "url": "https://www.nationalgallery.org.uk/paintings/glossary/contract",
+          "date": "2026-11-12",
+          "scope": "Ouverture directe: part du travail, matériaux et rémunération"
+        },
+        {
+          "url": "https://www.getty.edu/research-conservation/tools-databases/provenance/whats-covered/",
+          "date": "2026-11-12",
+          "scope": "Ouverture directe: introduction et liste des ressources, couverture de Payments to Artists"
+        }
+      ],
+      "checks_executed": [
+        "Arbres main/branche: mêmes blobs page et baseline; chapitre sauvegardé remesuré 15636, page 7791, baseline 570",
+        "Chapitre 02: 14948; total pédagogique 30584, éditions non additionnées",
+        "Deux rendus identiques octet par octet et identifiants uniques",
+        "Cinq assertions arithmétiques réussies: enveloppe 110, règlement 80, ratios 10% et 22%, variante 108",
+        "Contrôle rédactionnel: engagement, trésorerie, fourniture et extinction d’obligation distingués; variantes fictives identifiées"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Volume, calculs, déterminisme et identifiants; contrôle rédactionnel",
+        "published": false
+      },
+      "limits": [
+        "Cours incomplet non publié",
+        "Relecture indépendante en histoire économique de l’art et contrôle visuel ouverts",
+        "Aucune archive historique individuelle examinée; exemples fictifs"
+      ],
+      "next_action": "Préserver ART-005 sans allongement. Mesurer VOCE-ART-006 sur main et sources sauvegardées avant sélection et rédaction.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-ART-005/02-comparer-commandes.html",
+        "content/courses/engineering/VOCE-ART-005/references.html",
         "docs/education/rewrite-progress.json",
         "docs/education/course-selection-20000.json"
       ]
