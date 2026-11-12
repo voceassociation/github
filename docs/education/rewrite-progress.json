@@ -3,7 +3,7 @@
   "updated_on": "2026-11-12",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "61ca5a47964325f71a9ae7dd892d53256c7f6b08",
+  "base_head_read": "a5eb34bc867688a86aad18afafc578b4ac63e9ac",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 51,
-    "preserved_by_selection": 68,
-    "eligible_under_20000": 52
+    "preserved_by_selection": 69,
+    "eligible_under_20000": 51
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,25 +79,25 @@
   "current_course": {
     "id": "VOCE-ART-008",
     "title": "Un pigment ne signe pas une œuvre",
-    "status": "draft_in_progress_not_published",
-    "lesson_characters": 17142,
-    "batch_new_lesson_characters": 17142,
-    "measurement": "Texte lesson normalisé, espaces compris; références et ancienne édition exclues.",
+    "status": "preserved_incomplete_no_further_rewrite",
+    "lesson_characters": 32067,
+    "batch_new_lesson_characters": 14925,
+    "measurement": "Somme des textes lesson normalisés des deux chapitres; espaces compris, références et ancienne édition exclues.",
     "selection_before_write": {
       "main": 7679,
       "branch": 7679,
       "baseline_main": 567,
       "baseline_branch": 567,
-      "saved_chapters": 0,
+      "saved_chapters": 17142,
       "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
-      "branch_commit": "61ca5a47964325f71a9ae7dd892d53256c7f6b08"
+      "branch_commit": "a5eb34bc867688a86aad18afafc578b4ac63e9ac"
     },
     "chapters_written": [
-      "01-pigment-couche-attribution.html"
+      "01-pigment-couche-attribution.html",
+      "02-repartition-et-retouches.html"
     ],
     "chapters_remaining": [
-      "02 — Comparer une retouche localisée et une incompatibilité répartie dans la composition",
-      "03 — Exercices et corrigés"
+      "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
     ],
     "sources_consulted": [
       {
@@ -109,30 +109,34 @@
         "url": "https://www.getty.edu/publications/getty-research-journal/21/the-getty-peacock-fresco/",
         "date": "2026-11-12",
         "scope": "Résumé et introduction; extrait de recherche Painted Surface"
+      },
+      {
+        "url": "https://www.getty.edu/publications/getty-research-journal/21/the-getty-peacock-fresco/",
+        "date": "2026-11-12",
+        "scope": "Section The Painted Surface, discussion du zinc et des couches rouges"
       }
     ],
     "checks_executed": [
-      "Page main/branche mêmes blobs et mesure 7679; baseline 567; absence de chapitres sauvegardés dans les arbres",
-      "Chapitre 01: 17142 caractères hors références",
-      "Deux rendus identiques; identifiants uniques",
-      "Deux calculs vérifiés: 0,9 puissance 5 et puissance 20, arrondis 59,0 % et 12,2 %",
-      "Contrôle rédactionnel: matériau et date fictifs, identification distincte de détection, borne localisée à la couche"
+      "Arbres main/branche: mêmes blobs page et baseline, un seul chapitre développé avant rédaction",
+      "Page remesurée 7679; chapitre 01 remesuré 17142; chapitre 02 14925; total 32067",
+      "Deux rendus identiques octet par octet; identifiants uniques",
+      "Calculs vérifiés: 2/6 soit 33,3 %; (4+36)/100 soit 40 %, périmètres explicitement distincts",
+      "Contrôle rédactionnel: régions et archives fictives, distinction identification/signal/indétermination, relations locales entre couches"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Volume, déterminisme, identifiants et calculs; contrôle rédactionnel",
+      "controlled": "Volume, calculs, déterminisme, identifiants et contrôle rédactionnel",
       "published": false
     },
     "limits": [
       "Cours incomplet non publié",
       "Relecture indépendante en conservation et contrôle visuel ouverts",
-      "Aucun échantillon réel examiné"
+      "Aucun échantillon ou fichier analytique réel examiné"
     ],
-    "next_action": "Remesurer ART-008 sur main et sources sauvegardées. Si toujours sous 20000, rédiger chapitre 02 — Comparer une retouche localisée et une incompatibilité répartie dans la composition; sinon préserver sans allongement.",
+    "next_action": "Préserver ART-008 sans allongement. Mesurer VOCE-ART-009 sur main et sources sauvegardées avant sélection et rédaction.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-008/01-pigment-couche-attribution.html",
+      "content/courses/engineering/VOCE-ART-008/02-repartition-et-retouches.html",
       "content/courses/engineering/VOCE-ART-008/references.html",
-      "content/courses/engineering/VOCE-ART-008/render.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
@@ -3141,6 +3145,71 @@
       "files_recorded_in_this_batch": [
         "content/courses/engineering/VOCE-ART-007/02-comparer-acquisitions.html",
         "content/courses/engineering/VOCE-ART-007/references.html",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ]
+    },
+    "VOCE-ART-008": {
+      "id": "VOCE-ART-008",
+      "title": "Un pigment ne signe pas une œuvre",
+      "status": "preserved_incomplete_no_further_rewrite",
+      "lesson_characters": 32067,
+      "batch_new_lesson_characters": 14925,
+      "measurement": "Somme des textes lesson normalisés des deux chapitres; espaces compris, références et ancienne édition exclues.",
+      "selection_before_write": {
+        "main": 7679,
+        "branch": 7679,
+        "baseline_main": 567,
+        "baseline_branch": 567,
+        "saved_chapters": 17142,
+        "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
+        "branch_commit": "a5eb34bc867688a86aad18afafc578b4ac63e9ac"
+      },
+      "chapters_written": [
+        "01-pigment-couche-attribution.html",
+        "02-repartition-et-retouches.html"
+      ],
+      "chapters_remaining": [
+        "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://cameo.mfa.org/wiki/More_on_the_data",
+          "date": "2026-11-12",
+          "scope": "Introduction et section XRF"
+        },
+        {
+          "url": "https://www.getty.edu/publications/getty-research-journal/21/the-getty-peacock-fresco/",
+          "date": "2026-11-12",
+          "scope": "Résumé et introduction; extrait de recherche Painted Surface"
+        },
+        {
+          "url": "https://www.getty.edu/publications/getty-research-journal/21/the-getty-peacock-fresco/",
+          "date": "2026-11-12",
+          "scope": "Section The Painted Surface, discussion du zinc et des couches rouges"
+        }
+      ],
+      "checks_executed": [
+        "Arbres main/branche: mêmes blobs page et baseline, un seul chapitre développé avant rédaction",
+        "Page remesurée 7679; chapitre 01 remesuré 17142; chapitre 02 14925; total 32067",
+        "Deux rendus identiques octet par octet; identifiants uniques",
+        "Calculs vérifiés: 2/6 soit 33,3 %; (4+36)/100 soit 40 %, périmètres explicitement distincts",
+        "Contrôle rédactionnel: régions et archives fictives, distinction identification/signal/indétermination, relations locales entre couches"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Volume, calculs, déterminisme, identifiants et contrôle rédactionnel",
+        "published": false
+      },
+      "limits": [
+        "Cours incomplet non publié",
+        "Relecture indépendante en conservation et contrôle visuel ouverts",
+        "Aucun échantillon ou fichier analytique réel examiné"
+      ],
+      "next_action": "Préserver ART-008 sans allongement. Mesurer VOCE-ART-009 sur main et sources sauvegardées avant sélection et rédaction.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-ART-008/02-repartition-et-retouches.html",
+        "content/courses/engineering/VOCE-ART-008/references.html",
         "docs/education/rewrite-progress.json",
         "docs/education/course-selection-20000.json"
       ]
