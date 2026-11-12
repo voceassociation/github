@@ -3,7 +3,7 @@
   "updated_on": "2026-11-12",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "e5c387e3ac73d5af38122f11d70ab9a052df1b83",
+  "base_head_read": "6a6faab1a46b16e4f28c040aa1e1d4ffc0d2b41c",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 50,
-    "preserved_by_selection": 69,
-    "eligible_under_20000": 51
+    "preserved_by_selection": 70,
+    "eligible_under_20000": 50
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,25 +79,25 @@
   "current_course": {
     "id": "VOCE-ART-009",
     "title": "Le nettoyage change ce que le public peut voir",
-    "status": "draft_in_progress_not_published",
-    "lesson_characters": 15380,
-    "batch_new_lesson_characters": 15380,
+    "status": "preserved_incomplete_no_further_rewrite",
+    "lesson_characters": 32424,
+    "batch_new_lesson_characters": 17044,
     "measurement": "Texte du bloc lesson normalisé, espaces compris; références et ancienne édition exclues.",
     "selection_before_write": {
       "main": 7772,
       "branch": 7772,
       "baseline_main": 578,
       "baseline_branch": 578,
-      "saved_chapters": 0,
+      "saved_chapters": 15380,
       "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
-      "branch_commit": "e5c387e3ac73d5af38122f11d70ab9a052df1b83"
+      "branch_commit": "6a6faab1a46b16e4f28c040aa1e1d4ffc0d2b41c"
     },
     "chapters_written": [
-      "01-evaluer-nettoyage.html"
+      "01-evaluer-nettoyage.html",
+      "02-decision-nettoyage-partiel.html"
     ],
     "chapters_remaining": [
-      "02 — Comparer les options de présentation et documenter une décision de nettoyage partiel",
-      "03 — Exercices et corrigés"
+      "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
     ],
     "sources_consulted": [
       {
@@ -114,14 +114,19 @@
         "url": "https://community.culturalheritage.org/conservation-at-work/uphold-professional-standards/code",
         "scope": "Principes sur page; non-intervention et documentation dans extrait de recherche",
         "date": "2026-11-12"
+      },
+      {
+        "url": "https://community.culturalheritage.org/conservation-at-work/uphold-professional-standards/code",
+        "date": "2026-11-12",
+        "scope": "Extrait Treatment Plan: préparation du plan après examen et avant traitement; modèle P9 original et fictif"
       }
     ],
     "checks_executed": [
-      "Arbres main/branche: mêmes blobs page et baseline; aucun chapitre ART-009 sauvegardé",
-      "Page remesurée 7772, baseline 578; nouveau chapitre 15380",
+      "Arbres main/branche: page et baseline identiques; page 7772, baseline 578, chapitre sauvegardé remesuré 15380",
+      "Chapitre 02: 17044; total 32424 hors références et anciennes éditions",
       "Deux rendus identiques octet par octet; identifiants uniques",
-      "Calculs vérifiés: surface 4800 cm², essai 0,0208 %; variations 35 %/20 % et rapports 0,80/0,90",
-      "Contrôle rédactionnel: cas fictif, aucune recette, portée locale des essais et critères de réexamen explicites"
+      "Trois assertions arithmétiques: surfaces 4800 cm²; essai 0,0625 % de R1; périmètre nominal 75 %",
+      "Contrôle rédactionnel: options, régions et décision fictives; pas de recette de traitement; limites d'inférence explicites"
     ],
     "states": {
       "saved": "This branch commit",
@@ -133,11 +138,10 @@
       "Relecture indépendante en conservation et contrôle visuel ouverts",
       "Aucune œuvre réelle examinée; consultation documentaire partielle explicitée"
     ],
-    "next_action": "Remesurer ART-009 sur main et sources sauvegardées. Si toujours sous 20000, rédiger chapitre 02 — Comparer les options de présentation et documenter une décision de nettoyage partiel; sinon préserver sans allongement.",
+    "next_action": "Préserver ART-009 sans allongement. Mesurer VOCE-ART-010 sur main et sources sauvegardées avant sélection et rédaction.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-009/01-evaluer-nettoyage.html",
+      "content/courses/engineering/VOCE-ART-009/02-decision-nettoyage-partiel.html",
       "content/courses/engineering/VOCE-ART-009/references.html",
-      "content/courses/engineering/VOCE-ART-009/render.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
@@ -3214,6 +3218,76 @@
         "docs/education/rewrite-progress.json",
         "docs/education/course-selection-20000.json"
       ]
+    },
+    "VOCE-ART-009": {
+      "id": "VOCE-ART-009",
+      "title": "Le nettoyage change ce que le public peut voir",
+      "status": "preserved_incomplete_no_further_rewrite",
+      "lesson_characters": 32424,
+      "batch_new_lesson_characters": 17044,
+      "measurement": "Texte du bloc lesson normalisé, espaces compris; références et ancienne édition exclues.",
+      "selection_before_write": {
+        "main": 7772,
+        "branch": 7772,
+        "baseline_main": 578,
+        "baseline_branch": 578,
+        "saved_chapters": 15380,
+        "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
+        "branch_commit": "6a6faab1a46b16e4f28c040aa1e1d4ffc0d2b41c"
+      },
+      "chapters_written": [
+        "01-evaluer-nettoyage.html",
+        "02-decision-nettoyage-partiel.html"
+      ],
+      "chapters_remaining": [
+        "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://mci.si.edu/Does-my-painting-need-be-cleaned",
+          "scope": "Extrait de recherche; ouverture échouée par délai d'accès",
+          "date": "2026-11-12"
+        },
+        {
+          "url": "https://www.nationalgallery.org.uk/technical-bulletin/dunkerton_white2000",
+          "scope": "Résumé de Dunkerton et White 2000, pas le PDF",
+          "date": "2026-11-12"
+        },
+        {
+          "url": "https://community.culturalheritage.org/conservation-at-work/uphold-professional-standards/code",
+          "scope": "Principes sur page; non-intervention et documentation dans extrait de recherche",
+          "date": "2026-11-12"
+        },
+        {
+          "url": "https://community.culturalheritage.org/conservation-at-work/uphold-professional-standards/code",
+          "date": "2026-11-12",
+          "scope": "Extrait Treatment Plan: préparation du plan après examen et avant traitement; modèle P9 original et fictif"
+        }
+      ],
+      "checks_executed": [
+        "Arbres main/branche: page et baseline identiques; page 7772, baseline 578, chapitre sauvegardé remesuré 15380",
+        "Chapitre 02: 17044; total 32424 hors références et anciennes éditions",
+        "Deux rendus identiques octet par octet; identifiants uniques",
+        "Trois assertions arithmétiques: surfaces 4800 cm²; essai 0,0625 % de R1; périmètre nominal 75 %",
+        "Contrôle rédactionnel: options, régions et décision fictives; pas de recette de traitement; limites d'inférence explicites"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Volume, calculs, déterminisme, identifiants et contrôle rédactionnel",
+        "published": false
+      },
+      "limits": [
+        "Cours incomplet non publié",
+        "Relecture indépendante en conservation et contrôle visuel ouverts",
+        "Aucune œuvre réelle examinée; consultation documentaire partielle explicitée"
+      ],
+      "next_action": "Préserver ART-009 sans allongement. Mesurer VOCE-ART-010 sur main et sources sauvegardées avant sélection et rédaction.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-ART-009/02-decision-nettoyage-partiel.html",
+        "content/courses/engineering/VOCE-ART-009/references.html",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ]
     }
   },
   "selection_policy": {
@@ -3226,7 +3300,6 @@
       "VOCE-AI-003",
       "VOCE-AI-004",
       "VOCE-AI-005",
-      "VOCE-COG-012",
       "VOCE-AI-006",
       "VOCE-AI-007",
       "VOCE-AI-008",
@@ -3281,9 +3354,19 @@
       "VOCE-AI-057",
       "VOCE-AI-058",
       "VOCE-AI-059",
-      "VOCE-AI-060"
+      "VOCE-AI-060",
+      "VOCE-ART-001",
+      "VOCE-ART-002",
+      "VOCE-ART-003",
+      "VOCE-ART-004",
+      "VOCE-ART-005",
+      "VOCE-ART-006",
+      "VOCE-ART-007",
+      "VOCE-ART-008",
+      "VOCE-ART-009",
+      "VOCE-COG-012"
     ],
-    "eligible_count": 59,
+    "eligible_count": 50,
     "main_read": "42234611fa98b8b4642c4e882dee2db61a7bafab",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }
