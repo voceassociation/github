@@ -3,7 +3,7 @@
   "updated_on": "2026-11-12",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "b2d6b368da9522b16f090829f053568c5a5c41d5",
+  "base_head_read": "dfa2a3f9a1f574a441b364952d166817d566add2",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 55,
-    "preserved_by_selection": 64,
-    "eligible_under_20000": 56
+    "preserved_by_selection": 65,
+    "eligible_under_20000": 55
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,25 +79,25 @@
   "current_course": {
     "id": "VOCE-ART-004",
     "title": "Le cadre modifie l'histoire visible d'un tableau",
-    "status": "draft_in_progress_not_published",
-    "lesson_characters": 15995,
-    "batch_new_lesson_characters": 15995,
+    "status": "preserved_incomplete_no_further_rewrite",
+    "lesson_characters": 31879,
+    "batch_new_lesson_characters": 15884,
     "measurement": "Texte normalisé du seul chapitre lesson, espaces compris; bibliographie exclue; éditions non additionnées.",
     "selection_before_write": {
       "main": 7837,
       "branch": 7837,
       "baseline_main": 549,
       "baseline_branch": 549,
-      "saved_chapters": 0,
+      "saved_chapters": 15995,
       "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
-      "branch_commit": "b2d6b368da9522b16f090829f053568c5a5c41d5"
+      "branch_commit": "dfa2a3f9a1f574a441b364952d166817d566add2"
     },
     "chapters_written": [
-      "01-dater-association.html"
+      "01-dater-association.html",
+      "02-decision-presentation.html"
     ],
     "chapters_remaining": [
-      "02 — Comparer deux présentations: dossier de décision, désaccords, restitution et cartel",
-      "03 — Exercices et corrigés; contrôles disciplinaires et de rendu"
+      "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
     ],
     "sources_consulted": [
       {
@@ -109,18 +109,23 @@
         "url": "https://www.vam.ac.uk/articles/framing-botticelli",
         "date": "2026-11-12",
         "scope": "Ouverture et imitations du XIXe siècle; page actualisée le 17 avril 2024"
+      },
+      {
+        "url": "https://www.iccrom.org/sites/default/files/2022-02/icom_cc_resolution_on_terminology_english.pdf",
+        "date": "2026-11-12",
+        "scope": "Extrait du résultat de recherche: décision documentée et investigation; PDF non lu intégralement"
       }
     ],
     "checks_executed": [
-      "Arbres main et branche: mêmes blobs de page et baseline; aucun chapitre ART-004 sauvegardé",
-      "Compteur: page 7837, baseline 549; chapitre nouveau 15995",
-      "Deux rendus locaux identiques octet par octet",
-      "Six assertions arithmétiques réussies: surfaces, gain et dénominateurs",
-      "Contrôle rédactionnel: dates de fabrication et association distinctes, zones masquées non inventées, cas explicitement fictif"
+      "Arbres main/branche: mêmes blobs de page et baseline; source chapitre 01 relue et mesurée 15995; page 7837, baseline 549",
+      "Chapitre 02 mesuré 15884; somme pédagogique 31879 hors références",
+      "Deux rendus identiques octet par octet; identifiants uniques",
+      "Gain géométrique 442×590−430×576=13100 confirmé",
+      "Contrôle rédactionnel: options, conditions matérielles, preuves historiques, projets non réalisés et désaccords distingués"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Volume, calculs et déterminisme contrôlés",
+      "controlled": "Volume, déterminisme, identifiants et calcul; contrôle rédactionnel",
       "published": false
     },
     "limits": [
@@ -128,11 +133,10 @@
       "Relecture indépendante en histoire de l’art et contrôle visuel ouverts",
       "Aucun objet réel examiné; documents et mesures du cas fictifs"
     ],
-    "next_action": "Mesurer de nouveau ART-004 sur main et sources sauvegardées. Si toujours sous 20000, rédiger le chapitre 02 — Comparer deux présentations: dossier de décision, désaccords, restitution et cartel.",
+    "next_action": "Préserver ART-004 sans allongement. Mesurer VOCE-ART-005 sur main et sources sauvegardées avant sélection et rédaction.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-004/01-dater-association.html",
+      "content/courses/engineering/VOCE-ART-004/02-decision-presentation.html",
       "content/courses/engineering/VOCE-ART-004/references.html",
-      "content/courses/engineering/VOCE-ART-004/render_draft.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
@@ -2846,6 +2850,71 @@
       "files_recorded_in_this_batch": [
         "content/courses/engineering/VOCE-ART-003/02-comparer-inventaires.html",
         "content/courses/engineering/VOCE-ART-003/references.html",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ]
+    },
+    "VOCE-ART-004": {
+      "id": "VOCE-ART-004",
+      "title": "Le cadre modifie l'histoire visible d'un tableau",
+      "status": "preserved_incomplete_no_further_rewrite",
+      "lesson_characters": 31879,
+      "batch_new_lesson_characters": 15884,
+      "measurement": "Texte normalisé du seul chapitre lesson, espaces compris; bibliographie exclue; éditions non additionnées.",
+      "selection_before_write": {
+        "main": 7837,
+        "branch": 7837,
+        "baseline_main": 549,
+        "baseline_branch": 549,
+        "saved_chapters": 15995,
+        "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
+        "branch_commit": "dfa2a3f9a1f574a441b364952d166817d566add2"
+      },
+      "chapters_written": [
+        "01-dater-association.html",
+        "02-decision-presentation.html"
+      ],
+      "chapters_remaining": [
+        "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://www.metmuseum.org/essays/italian-renaissance-frames",
+          "date": "2026-11-12",
+          "scope": "Introduction et début Structure and Design; lecture ciblée"
+        },
+        {
+          "url": "https://www.vam.ac.uk/articles/framing-botticelli",
+          "date": "2026-11-12",
+          "scope": "Ouverture et imitations du XIXe siècle; page actualisée le 17 avril 2024"
+        },
+        {
+          "url": "https://www.iccrom.org/sites/default/files/2022-02/icom_cc_resolution_on_terminology_english.pdf",
+          "date": "2026-11-12",
+          "scope": "Extrait du résultat de recherche: décision documentée et investigation; PDF non lu intégralement"
+        }
+      ],
+      "checks_executed": [
+        "Arbres main/branche: mêmes blobs de page et baseline; source chapitre 01 relue et mesurée 15995; page 7837, baseline 549",
+        "Chapitre 02 mesuré 15884; somme pédagogique 31879 hors références",
+        "Deux rendus identiques octet par octet; identifiants uniques",
+        "Gain géométrique 442×590−430×576=13100 confirmé",
+        "Contrôle rédactionnel: options, conditions matérielles, preuves historiques, projets non réalisés et désaccords distingués"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Volume, déterminisme, identifiants et calcul; contrôle rédactionnel",
+        "published": false
+      },
+      "limits": [
+        "Cours incomplet, non publié",
+        "Relecture indépendante en histoire de l’art et contrôle visuel ouverts",
+        "Aucun objet réel examiné; documents et mesures du cas fictifs"
+      ],
+      "next_action": "Préserver ART-004 sans allongement. Mesurer VOCE-ART-005 sur main et sources sauvegardées avant sélection et rédaction.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-ART-004/02-decision-presentation.html",
+        "content/courses/engineering/VOCE-ART-004/references.html",
         "docs/education/rewrite-progress.json",
         "docs/education/course-selection-20000.json"
       ]
