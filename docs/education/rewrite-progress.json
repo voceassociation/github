@@ -3,7 +3,7 @@
   "updated_on": "2026-11-12",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "a5eb34bc867688a86aad18afafc578b4ac63e9ac",
+  "base_head_read": "e5c387e3ac73d5af38122f11d70ab9a052df1b83",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 51,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 50,
     "preserved_by_selection": 69,
     "eligible_under_20000": 51
   },
@@ -77,51 +77,51 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-ART-008",
-    "title": "Un pigment ne signe pas une œuvre",
-    "status": "preserved_incomplete_no_further_rewrite",
-    "lesson_characters": 32067,
-    "batch_new_lesson_characters": 14925,
-    "measurement": "Somme des textes lesson normalisés des deux chapitres; espaces compris, références et ancienne édition exclues.",
+    "id": "VOCE-ART-009",
+    "title": "Le nettoyage change ce que le public peut voir",
+    "status": "draft_in_progress_not_published",
+    "lesson_characters": 15380,
+    "batch_new_lesson_characters": 15380,
+    "measurement": "Texte du bloc lesson normalisé, espaces compris; références et ancienne édition exclues.",
     "selection_before_write": {
-      "main": 7679,
-      "branch": 7679,
-      "baseline_main": 567,
-      "baseline_branch": 567,
-      "saved_chapters": 17142,
+      "main": 7772,
+      "branch": 7772,
+      "baseline_main": 578,
+      "baseline_branch": 578,
+      "saved_chapters": 0,
       "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
-      "branch_commit": "a5eb34bc867688a86aad18afafc578b4ac63e9ac"
+      "branch_commit": "e5c387e3ac73d5af38122f11d70ab9a052df1b83"
     },
     "chapters_written": [
-      "01-pigment-couche-attribution.html",
-      "02-repartition-et-retouches.html"
+      "01-evaluer-nettoyage.html"
     ],
     "chapters_remaining": [
-      "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
+      "02 — Comparer les options de présentation et documenter une décision de nettoyage partiel",
+      "03 — Exercices et corrigés"
     ],
     "sources_consulted": [
       {
-        "url": "https://cameo.mfa.org/wiki/More_on_the_data",
-        "date": "2026-11-12",
-        "scope": "Introduction et section XRF"
+        "url": "https://mci.si.edu/Does-my-painting-need-be-cleaned",
+        "scope": "Extrait de recherche; ouverture échouée par délai d'accès",
+        "date": "2026-11-12"
       },
       {
-        "url": "https://www.getty.edu/publications/getty-research-journal/21/the-getty-peacock-fresco/",
-        "date": "2026-11-12",
-        "scope": "Résumé et introduction; extrait de recherche Painted Surface"
+        "url": "https://www.nationalgallery.org.uk/technical-bulletin/dunkerton_white2000",
+        "scope": "Résumé de Dunkerton et White 2000, pas le PDF",
+        "date": "2026-11-12"
       },
       {
-        "url": "https://www.getty.edu/publications/getty-research-journal/21/the-getty-peacock-fresco/",
-        "date": "2026-11-12",
-        "scope": "Section The Painted Surface, discussion du zinc et des couches rouges"
+        "url": "https://community.culturalheritage.org/conservation-at-work/uphold-professional-standards/code",
+        "scope": "Principes sur page; non-intervention et documentation dans extrait de recherche",
+        "date": "2026-11-12"
       }
     ],
     "checks_executed": [
-      "Arbres main/branche: mêmes blobs page et baseline, un seul chapitre développé avant rédaction",
-      "Page remesurée 7679; chapitre 01 remesuré 17142; chapitre 02 14925; total 32067",
+      "Arbres main/branche: mêmes blobs page et baseline; aucun chapitre ART-009 sauvegardé",
+      "Page remesurée 7772, baseline 578; nouveau chapitre 15380",
       "Deux rendus identiques octet par octet; identifiants uniques",
-      "Calculs vérifiés: 2/6 soit 33,3 %; (4+36)/100 soit 40 %, périmètres explicitement distincts",
-      "Contrôle rédactionnel: régions et archives fictives, distinction identification/signal/indétermination, relations locales entre couches"
+      "Calculs vérifiés: surface 4800 cm², essai 0,0208 %; variations 35 %/20 % et rapports 0,80/0,90",
+      "Contrôle rédactionnel: cas fictif, aucune recette, portée locale des essais et critères de réexamen explicites"
     ],
     "states": {
       "saved": "This branch commit",
@@ -131,12 +131,13 @@
     "limits": [
       "Cours incomplet non publié",
       "Relecture indépendante en conservation et contrôle visuel ouverts",
-      "Aucun échantillon ou fichier analytique réel examiné"
+      "Aucune œuvre réelle examinée; consultation documentaire partielle explicitée"
     ],
-    "next_action": "Préserver ART-008 sans allongement. Mesurer VOCE-ART-009 sur main et sources sauvegardées avant sélection et rédaction.",
+    "next_action": "Remesurer ART-009 sur main et sources sauvegardées. Si toujours sous 20000, rédiger chapitre 02 — Comparer les options de présentation et documenter une décision de nettoyage partiel; sinon préserver sans allongement.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-008/02-repartition-et-retouches.html",
-      "content/courses/engineering/VOCE-ART-008/references.html",
+      "content/courses/engineering/VOCE-ART-009/01-evaluer-nettoyage.html",
+      "content/courses/engineering/VOCE-ART-009/references.html",
+      "content/courses/engineering/VOCE-ART-009/render.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
