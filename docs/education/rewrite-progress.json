@@ -3,7 +3,7 @@
   "updated_on": "2026-11-18",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "da320727fdeb942ac6a0534d3d6a5ff3244c297f",
+  "base_head_read": "bb253505e8d59bfeb98c205e6b0ae7237dda7d6d",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 47,
-    "preserved_by_selection": 72,
-    "eligible_under_20000": 48
+    "preserved_by_selection": 73,
+    "eligible_under_20000": 47
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,24 +79,24 @@
   "current_course": {
     "id": "VOCE-ART-012",
     "title": "L'état d'une œuvre doit survivre à son transport",
-    "status": "in_progress",
-    "lesson_characters": 19258,
-    "batch_new_lesson_characters": 19258,
+    "status": "preserved_incomplete_no_further_rewrite",
+    "lesson_characters": 35169,
+    "batch_new_lesson_characters": 15911,
     "measurement": "Corps lesson normalisé espaces compris; bibliographie et administration exclues; anciennes éditions non additionnées.",
     "selection_before_write": {
       "main": 7594,
       "branch": 7594,
-      "saved_chapters": 0,
-      "main_commit": "41e9472ced0cd724e490671d44faf6b7c5eb1f43",
-      "branch_commit": "da320727fdeb942ac6a0534d3d6a5ff3244c297f",
-      "baseline": "Même blob main/branche, 586 octets; aucune source développée existante"
+      "saved_chapters": 19258,
+      "main_commit": "98c1c43f76fee43b6e24a6979e746d7f10917e77",
+      "branch_commit": "bb253505e8d59bfeb98c205e6b0ae7237dda7d6d",
+      "baseline": "Même blob main/branche; non additionné à la page"
     },
     "chapters_written": [
-      "01-construire-constat-comparatif.html"
+      "01-construire-constat-comparatif.html",
+      "02-constats-et-evenements-transport.html"
     ],
     "chapters_remaining": [
-      "02 — Relier constats et événements de transport sans confondre choc enregistré et dommage",
-      "03 — Exercices contradictoires, corrigés et revue de l'édition"
+      "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
     ],
     "sources_consulted": [
       {
@@ -113,18 +113,28 @@
         "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/paintings-considerations-travel.html",
         "date": "2026-11-18",
         "scope": "Lecture ciblée; portée détaillée dans references.html"
+      },
+      {
+        "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/technical-bulletins/effective-packaging-transport-artwork.html",
+        "date": "2026-11-18",
+        "scope": "Lecture ciblée; sections et portée dans references.html; calculs et chronologie fictifs originaux"
+      },
+      {
+        "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/physical-forces.html",
+        "date": "2026-11-18",
+        "scope": "Lecture ciblée; sections et portée dans references.html; calculs et chronologie fictifs originaux"
       }
     ],
     "checks_executed": [
-      "Arbres main/branche: page et baseline identiques; aucune source développée",
-      "Page mesurée 7594; chapitre lesson 19258 caractères",
+      "Arbres main/branche comparés; page et baseline identiques; seul chapitre 01 existant avant rédaction",
+      "Page remesurée 7594; chapitre 01 19258; chapitre 02 15911; total 35169",
       "Deux rendus identiques octet par octet; identifiants uniques",
-      "Quatre assertions arithmétiques réussies sur les échelles et largeurs en pixels",
-      "Revue rédactionnelle: cas fictif, antériorité et décision présente distinctes"
+      "Neuf assertions réussies: accélération, force, variations de vitesse, échantillonnage et correction temporelle",
+      "Revue rédactionnelle: cas fictif, mesure sur caisse distincte du dommage, causalité non attribuée"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Volume, déterminisme, identifiants, calculs et revue rédactionnelle",
+      "controlled": "Volume, calculs, déterminisme, identifiants et revue rédactionnelle",
       "published": false
     },
     "limits": [
@@ -132,10 +142,9 @@
       "Relecture indépendante en conservation et contrôle visuel ouverts",
       "Aucune œuvre réelle examinée"
     ],
-    "next_action": "Remesurer main et sources ART-012 avant sélection. Si toujours sous 20000, rédiger 02 — Relier constats et événements de transport sans confondre choc enregistré et dommage. Conserver le chapitre 01.",
+    "next_action": "Préserver ART-012 sans allongement. Mesurer VOCE-ART-013 sur main et sources sauvegardées avant sélection et rédaction.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-012/01-construire-constat-comparatif.html",
-      "content/courses/engineering/VOCE-ART-012/render.py",
+      "content/courses/engineering/VOCE-ART-012/02-constats-et-evenements-transport.html",
       "content/courses/engineering/VOCE-ART-012/references.html",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
@@ -3402,6 +3411,80 @@
         "docs/education/rewrite-progress.json",
         "docs/education/course-selection-20000.json"
       ]
+    },
+    "VOCE-ART-012": {
+      "id": "VOCE-ART-012",
+      "title": "L'état d'une œuvre doit survivre à son transport",
+      "status": "preserved_incomplete_no_further_rewrite",
+      "lesson_characters": 35169,
+      "batch_new_lesson_characters": 15911,
+      "measurement": "Corps lesson normalisé espaces compris; bibliographie et administration exclues; anciennes éditions non additionnées.",
+      "selection_before_write": {
+        "main": 7594,
+        "branch": 7594,
+        "saved_chapters": 19258,
+        "main_commit": "98c1c43f76fee43b6e24a6979e746d7f10917e77",
+        "branch_commit": "bb253505e8d59bfeb98c205e6b0ae7237dda7d6d",
+        "baseline": "Même blob main/branche; non additionné à la page"
+      },
+      "chapters_written": [
+        "01-construire-constat-comparatif.html",
+        "02-constats-et-evenements-transport.html"
+      ],
+      "chapters_remaining": [
+        "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/condition-reporting-paintings-introduction.html",
+          "date": "2026-11-18",
+          "scope": "Lecture ciblée; portée détaillée dans references.html"
+        },
+        {
+          "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/condition-reporting-paintings-examination-techniques.html",
+          "date": "2026-11-18",
+          "scope": "Lecture ciblée; portée détaillée dans references.html"
+        },
+        {
+          "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/paintings-considerations-travel.html",
+          "date": "2026-11-18",
+          "scope": "Lecture ciblée; portée détaillée dans references.html"
+        },
+        {
+          "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/technical-bulletins/effective-packaging-transport-artwork.html",
+          "date": "2026-11-18",
+          "scope": "Lecture ciblée; sections et portée dans references.html; calculs et chronologie fictifs originaux"
+        },
+        {
+          "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/physical-forces.html",
+          "date": "2026-11-18",
+          "scope": "Lecture ciblée; sections et portée dans references.html; calculs et chronologie fictifs originaux"
+        }
+      ],
+      "checks_executed": [
+        "Arbres main/branche comparés; page et baseline identiques; seul chapitre 01 existant avant rédaction",
+        "Page remesurée 7594; chapitre 01 19258; chapitre 02 15911; total 35169",
+        "Deux rendus identiques octet par octet; identifiants uniques",
+        "Neuf assertions réussies: accélération, force, variations de vitesse, échantillonnage et correction temporelle",
+        "Revue rédactionnelle: cas fictif, mesure sur caisse distincte du dommage, causalité non attribuée"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Volume, calculs, déterminisme, identifiants et revue rédactionnelle",
+        "published": false
+      },
+      "limits": [
+        "Cours incomplet non publié",
+        "Relecture indépendante en conservation et contrôle visuel ouverts",
+        "Aucune œuvre réelle examinée"
+      ],
+      "next_action": "Préserver ART-012 sans allongement. Mesurer VOCE-ART-013 sur main et sources sauvegardées avant sélection et rédaction.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-ART-012/02-constats-et-evenements-transport.html",
+        "content/courses/engineering/VOCE-ART-012/references.html",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ]
     }
   },
   "selection_policy": {
@@ -3480,9 +3563,10 @@
       "VOCE-ART-009",
       "VOCE-ART-010",
       "VOCE-ART-011",
-      "VOCE-COG-012"
+      "VOCE-COG-012",
+      "VOCE-ART-012"
     ],
-    "eligible_count": 48,
+    "eligible_count": 47,
     "main_read": "42234611fa98b8b4642c4e882dee2db61a7bafab",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }

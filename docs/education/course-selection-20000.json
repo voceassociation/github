@@ -979,11 +979,11 @@
       "counts": {
         "main": 7594,
         "branch": 7594,
-        "saved_chapters": 19258
+        "saved_chapters": 35169
       },
-      "selection": "eligible",
-      "main_commit_checked": "41e9472ced0cd724e490671d44faf6b7c5eb1f43",
-      "branch_commit_checked": "da320727fdeb942ac6a0534d3d6a5ff3244c297f",
+      "selection": "preserved",
+      "main_commit_checked": "98c1c43f76fee43b6e24a6979e746d7f10917e77",
+      "branch_commit_checked": "bb253505e8d59bfeb98c205e6b0ae7237dda7d6d",
       "checked_on": "2026-11-18"
     },
     {
