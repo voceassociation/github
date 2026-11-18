@@ -3,7 +3,7 @@
   "updated_on": "2026-11-18",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "d3218a85a79971a06bfe115cadfa6fc1c46a448b",
+  "base_head_read": "09a9fa5a9b593286b14a6814a76ef70433debd46",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 48,
-    "preserved_by_selection": 71,
-    "eligible_under_20000": 49
+    "preserved_by_selection": 72,
+    "eligible_under_20000": 48
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,38 +79,43 @@
   "current_course": {
     "id": "VOCE-ART-011",
     "title": "Le climat d'une vitrine doit être mesuré dans le temps",
-    "status": "draft_in_progress_not_published",
-    "lesson_characters": 13673,
-    "batch_new_lesson_characters": 13673,
+    "status": "preserved_incomplete_no_further_rewrite",
+    "lesson_characters": 28170,
+    "batch_new_lesson_characters": 14497,
     "measurement": "Corps lesson normalisé, espaces compris; références et anciennes éditions exclues.",
     "selection_before_write": {
       "main": 7653,
       "branch": 7653,
-      "saved_chapters": 0,
+      "saved_chapters": 13673,
       "main_commit": "41e9472ced0cd724e490671d44faf6b7c5eb1f43",
-      "branch_commit": "d3218a85a79971a06bfe115cadfa6fc1c46a448b",
+      "branch_commit": "09a9fa5a9b593286b14a6814a76ef70433debd46",
       "baseline": "Même blob sur main et branche; non additionné à la page"
     },
     "chapters_written": [
-      "01-lire-serie-humidite.html"
+      "01-lire-serie-humidite.html",
+      "02-salle-et-vitrine.html"
     ],
     "chapters_remaining": [
-      "02 — Comparer les séries synchronisées de la salle et de la vitrine, les ouvertures et les réponses thermiques",
-      "03 — Exercices et corrigés"
+      "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
     ],
     "sources_consulted": [
       {
         "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/humidity.html",
         "date": "2026-11-18",
         "scope": "Definition et relation entre humidité relative et température; lecture ciblée"
+      },
+      {
+        "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/humidity.html",
+        "date": "2026-11-18",
+        "scope": "Sections Block et Respond; rôle de l'étanchéité, échanges et suivi. Modèle exponentiel pédagogique original"
       }
     ],
     "checks_executed": [
-      "Main/branche: mêmes blobs page et baseline; aucun chapitre ART-011 sauvegardé",
-      "Page remesurée 7653; nouveau chapitre 13673",
+      "Arbres main/branche: page et baseline identiques; un seul chapitre développé avant rédaction",
+      "Page remesurée 7653; chapitre 01 remesuré 13673; chapitre 02 14497; total 28170",
       "Deux rendus identiques octet par octet; identifiants uniques",
-      "Cinq groupes d'assertions arithmétiques réussis: moyennes, pondération, rapport de pressions, vitesse moyenne et lacunes",
-      "Contrôle rédactionnel: cas fictif, bande analytique non prescriptive, données et hypothèses distinguées"
+      "Sept assertions arithmétiques réussies: correction temporelle, réduction d'écart, réponse exponentielle, demi-temps, tolérance et rapports descriptifs",
+      "Contrôle rédactionnel: cas fictifs; paramètres du modèle non assimilés à un taux de fuite; comparaison avant/après contextualisée"
     ],
     "states": {
       "saved": "This branch commit",
@@ -122,11 +127,10 @@
       "Relecture indépendante en conservation et contrôle visuel ouverts",
       "Aucune série instrumentale réelle ni œuvre examinée"
     ],
-    "next_action": "Remesurer ART-011 sur main et sources sauvegardées. Si toujours sous 20000, rédiger chapitre 02 — Comparer les séries synchronisées de la salle et de la vitrine, les ouvertures et les réponses thermiques; sinon préserver sans allongement.",
+    "next_action": "Préserver ART-011 sans allongement. Mesurer VOCE-ART-012 sur main et sources sauvegardées avant sélection et rédaction.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-011/01-lire-serie-humidite.html",
+      "content/courses/engineering/VOCE-ART-011/02-salle-et-vitrine.html",
       "content/courses/engineering/VOCE-ART-011/references.html",
-      "content/courses/engineering/VOCE-ART-011/render.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
@@ -3333,6 +3337,65 @@
         "docs/education/rewrite-progress.json",
         "docs/education/course-selection-20000.json"
       ]
+    },
+    "VOCE-ART-011": {
+      "id": "VOCE-ART-011",
+      "title": "Le climat d'une vitrine doit être mesuré dans le temps",
+      "status": "preserved_incomplete_no_further_rewrite",
+      "lesson_characters": 28170,
+      "batch_new_lesson_characters": 14497,
+      "measurement": "Corps lesson normalisé, espaces compris; références et anciennes éditions exclues.",
+      "selection_before_write": {
+        "main": 7653,
+        "branch": 7653,
+        "saved_chapters": 13673,
+        "main_commit": "41e9472ced0cd724e490671d44faf6b7c5eb1f43",
+        "branch_commit": "09a9fa5a9b593286b14a6814a76ef70433debd46",
+        "baseline": "Même blob sur main et branche; non additionné à la page"
+      },
+      "chapters_written": [
+        "01-lire-serie-humidite.html",
+        "02-salle-et-vitrine.html"
+      ],
+      "chapters_remaining": [
+        "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/humidity.html",
+          "date": "2026-11-18",
+          "scope": "Definition et relation entre humidité relative et température; lecture ciblée"
+        },
+        {
+          "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/humidity.html",
+          "date": "2026-11-18",
+          "scope": "Sections Block et Respond; rôle de l'étanchéité, échanges et suivi. Modèle exponentiel pédagogique original"
+        }
+      ],
+      "checks_executed": [
+        "Arbres main/branche: page et baseline identiques; un seul chapitre développé avant rédaction",
+        "Page remesurée 7653; chapitre 01 remesuré 13673; chapitre 02 14497; total 28170",
+        "Deux rendus identiques octet par octet; identifiants uniques",
+        "Sept assertions arithmétiques réussies: correction temporelle, réduction d'écart, réponse exponentielle, demi-temps, tolérance et rapports descriptifs",
+        "Contrôle rédactionnel: cas fictifs; paramètres du modèle non assimilés à un taux de fuite; comparaison avant/après contextualisée"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Volume, calculs, déterminisme et identifiants; contrôle rédactionnel",
+        "published": false
+      },
+      "limits": [
+        "Cours incomplet non publié",
+        "Relecture indépendante en conservation et contrôle visuel ouverts",
+        "Aucune série instrumentale réelle ni œuvre examinée"
+      ],
+      "next_action": "Préserver ART-011 sans allongement. Mesurer VOCE-ART-012 sur main et sources sauvegardées avant sélection et rédaction.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-ART-011/02-salle-et-vitrine.html",
+        "content/courses/engineering/VOCE-ART-011/references.html",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ]
     }
   },
   "selection_policy": {
@@ -3410,9 +3473,10 @@
       "VOCE-ART-008",
       "VOCE-ART-009",
       "VOCE-ART-010",
+      "VOCE-ART-011",
       "VOCE-COG-012"
     ],
-    "eligible_count": 49,
+    "eligible_count": 48,
     "main_read": "42234611fa98b8b4642c4e882dee2db61a7bafab",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }
