@@ -3,7 +3,7 @@
   "updated_on": "2026-11-18",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "09a9fa5a9b593286b14a6814a76ef70433debd46",
+  "base_head_read": "da320727fdeb942ac6a0534d3d6a5ff3244c297f",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 48,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 47,
     "preserved_by_selection": 72,
     "eligible_under_20000": 48
   },
@@ -77,60 +77,66 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-ART-011",
-    "title": "Le climat d'une vitrine doit être mesuré dans le temps",
-    "status": "preserved_incomplete_no_further_rewrite",
-    "lesson_characters": 28170,
-    "batch_new_lesson_characters": 14497,
-    "measurement": "Corps lesson normalisé, espaces compris; références et anciennes éditions exclues.",
+    "id": "VOCE-ART-012",
+    "title": "L'état d'une œuvre doit survivre à son transport",
+    "status": "in_progress",
+    "lesson_characters": 19258,
+    "batch_new_lesson_characters": 19258,
+    "measurement": "Corps lesson normalisé espaces compris; bibliographie et administration exclues; anciennes éditions non additionnées.",
     "selection_before_write": {
-      "main": 7653,
-      "branch": 7653,
-      "saved_chapters": 13673,
+      "main": 7594,
+      "branch": 7594,
+      "saved_chapters": 0,
       "main_commit": "41e9472ced0cd724e490671d44faf6b7c5eb1f43",
-      "branch_commit": "09a9fa5a9b593286b14a6814a76ef70433debd46",
-      "baseline": "Même blob sur main et branche; non additionné à la page"
+      "branch_commit": "da320727fdeb942ac6a0534d3d6a5ff3244c297f",
+      "baseline": "Même blob main/branche, 586 octets; aucune source développée existante"
     },
     "chapters_written": [
-      "01-lire-serie-humidite.html",
-      "02-salle-et-vitrine.html"
+      "01-construire-constat-comparatif.html"
     ],
     "chapters_remaining": [
-      "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
+      "02 — Relier constats et événements de transport sans confondre choc enregistré et dommage",
+      "03 — Exercices contradictoires, corrigés et revue de l'édition"
     ],
     "sources_consulted": [
       {
-        "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/humidity.html",
+        "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/condition-reporting-paintings-introduction.html",
         "date": "2026-11-18",
-        "scope": "Definition et relation entre humidité relative et température; lecture ciblée"
+        "scope": "Lecture ciblée; portée détaillée dans references.html"
       },
       {
-        "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/humidity.html",
+        "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/condition-reporting-paintings-examination-techniques.html",
         "date": "2026-11-18",
-        "scope": "Sections Block et Respond; rôle de l'étanchéité, échanges et suivi. Modèle exponentiel pédagogique original"
+        "scope": "Lecture ciblée; portée détaillée dans references.html"
+      },
+      {
+        "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/paintings-considerations-travel.html",
+        "date": "2026-11-18",
+        "scope": "Lecture ciblée; portée détaillée dans references.html"
       }
     ],
     "checks_executed": [
-      "Arbres main/branche: page et baseline identiques; un seul chapitre développé avant rédaction",
-      "Page remesurée 7653; chapitre 01 remesuré 13673; chapitre 02 14497; total 28170",
+      "Arbres main/branche: page et baseline identiques; aucune source développée",
+      "Page mesurée 7594; chapitre lesson 19258 caractères",
       "Deux rendus identiques octet par octet; identifiants uniques",
-      "Sept assertions arithmétiques réussies: correction temporelle, réduction d'écart, réponse exponentielle, demi-temps, tolérance et rapports descriptifs",
-      "Contrôle rédactionnel: cas fictifs; paramètres du modèle non assimilés à un taux de fuite; comparaison avant/après contextualisée"
+      "Quatre assertions arithmétiques réussies sur les échelles et largeurs en pixels",
+      "Revue rédactionnelle: cas fictif, antériorité et décision présente distinctes"
     ],
     "states": {
       "saved": "This branch commit",
-      "controlled": "Volume, calculs, déterminisme et identifiants; contrôle rédactionnel",
+      "controlled": "Volume, déterminisme, identifiants, calculs et revue rédactionnelle",
       "published": false
     },
     "limits": [
       "Cours incomplet non publié",
       "Relecture indépendante en conservation et contrôle visuel ouverts",
-      "Aucune série instrumentale réelle ni œuvre examinée"
+      "Aucune œuvre réelle examinée"
     ],
-    "next_action": "Préserver ART-011 sans allongement. Mesurer VOCE-ART-012 sur main et sources sauvegardées avant sélection et rédaction.",
+    "next_action": "Remesurer main et sources ART-012 avant sélection. Si toujours sous 20000, rédiger 02 — Relier constats et événements de transport sans confondre choc enregistré et dommage. Conserver le chapitre 01.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-011/02-salle-et-vitrine.html",
-      "content/courses/engineering/VOCE-ART-011/references.html",
+      "content/courses/engineering/VOCE-ART-012/01-construire-constat-comparatif.html",
+      "content/courses/engineering/VOCE-ART-012/render.py",
+      "content/courses/engineering/VOCE-ART-012/references.html",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
