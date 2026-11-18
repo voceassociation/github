@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-11-12",
+  "updated_on": "2026-11-18",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "785f22eeda181d8f0672873c8f5938abd5c7cf34",
+  "base_head_read": "83ec701f07b14ac3dcec4d7d476f90b10d739e6e",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,10 +62,10 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "not_started_in_this_rewrite": 49,
-    "preserved_by_selection": 70,
-    "eligible_under_20000": 50
+    "preserved_by_selection": 71,
+    "eligible_under_20000": 49
   },
   "prior_course": {
     "id": "VOCE-AI-001",
@@ -79,39 +79,44 @@
   "current_course": {
     "id": "VOCE-ART-010",
     "title": "Une exposition est un budget d'exposition à la lumière",
-    "status": "draft_in_progress_not_published",
-    "lesson_characters": 12860,
-    "batch_new_lesson_characters": 12860,
+    "status": "preserved_incomplete_no_further_rewrite",
+    "lesson_characters": 27091,
+    "batch_new_lesson_characters": 14231,
     "measurement": "Texte du bloc lesson normalisé, espaces compris; références, métadonnées et anciennes éditions exclues.",
     "selection_before_write": {
       "main": 7571,
       "branch": 7571,
       "baseline_main": 553,
       "baseline_branch": 553,
-      "saved_chapters": 0,
-      "main_commit": "42234611fa98b8b4642c4e882dee2db61a7bafab",
-      "branch_commit": "785f22eeda181d8f0672873c8f5938abd5c7cf34"
+      "saved_chapters": 12860,
+      "main_commit": "41e9472ced0cd724e490671d44faf6b7c5eb1f43",
+      "branch_commit": "83ec701f07b14ac3dcec4d7d476f90b10d739e6e"
     },
     "chapters_written": [
-      "01-bilan-lumineux.html"
+      "01-bilan-lumineux.html",
+      "02-rotation-et-suivi.html"
     ],
     "chapters_remaining": [
-      "02 — Comparer les calendriers de rotation et organiser le suivi des écarts au budget lumineux",
-      "03 — Exercices et corrigés"
+      "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
     ],
     "sources_consulted": [
       {
         "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/light.html",
         "date": "2026-11-12",
         "scope": "Quantifying Light, UV and IR; Measuring Light and its Exposure; lecture ciblée"
+      },
+      {
+        "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/light.html",
+        "date": "2026-11-12",
+        "scope": "Section A risk-management strategy: Accept and manage fading and visibility; calculateur non utilisé"
       }
     ],
     "checks_executed": [
-      "Arbres main et branche: mêmes blobs page et baseline; aucun chapitre développé ART-010",
-      "Page remesurée 7571, baseline 553; chapitre 12860",
-      "Deux rendus identiques octet par octet; identifiants uniques",
-      "Sept assertions arithmétiques réussies: moyenne pondérée, programme complet, incident, bornes de lacune et cumuls locaux",
-      "Contrôle rédactionnel: cas fictif, absence de seuil universel, distinction cumul photométrique et effet matériel"
+      "Main du 18 novembre: page et baseline ART-010 inchangées, aucun chapitre développé concurrent",
+      "Chapitre 01 remesuré 12860; chapitre 02 remesuré 14231; total 27091 hors références et anciennes éditions",
+      "Rendu déterministe revérifié le 18 novembre",
+      "Huit groupes d'assertions arithmétiques et identifiants uniques vérifiés lors de la rédaction du 12 novembre",
+      "Budgets fictifs, suivi par œuvre et distinction seuil de vigilance/dommage explicités"
     ],
     "states": {
       "saved": "This branch commit",
@@ -123,11 +128,10 @@
       "Relecture indépendante en conservation et contrôle visuel ouverts",
       "Aucune œuvre réelle ni série de capteur examinée"
     ],
-    "next_action": "Remesurer ART-010 sur main et sources sauvegardées. Si toujours sous 20000, rédiger chapitre 02 — Comparer les calendriers de rotation et organiser le suivi des écarts au budget lumineux; sinon préserver sans allongement.",
+    "next_action": "Préserver ART-010 sans allongement. Mesurer VOCE-ART-011 sur main et sources sauvegardées avant sélection et rédaction.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-010/01-bilan-lumineux.html",
+      "content/courses/engineering/VOCE-ART-010/02-rotation-et-suivi.html",
       "content/courses/engineering/VOCE-ART-010/references.html",
-      "content/courses/engineering/VOCE-ART-010/render.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
@@ -3274,6 +3278,66 @@
         "docs/education/rewrite-progress.json",
         "docs/education/course-selection-20000.json"
       ]
+    },
+    "VOCE-ART-010": {
+      "id": "VOCE-ART-010",
+      "title": "Une exposition est un budget d'exposition à la lumière",
+      "status": "preserved_incomplete_no_further_rewrite",
+      "lesson_characters": 27091,
+      "batch_new_lesson_characters": 14231,
+      "measurement": "Texte du bloc lesson normalisé, espaces compris; références, métadonnées et anciennes éditions exclues.",
+      "selection_before_write": {
+        "main": 7571,
+        "branch": 7571,
+        "baseline_main": 553,
+        "baseline_branch": 553,
+        "saved_chapters": 12860,
+        "main_commit": "41e9472ced0cd724e490671d44faf6b7c5eb1f43",
+        "branch_commit": "83ec701f07b14ac3dcec4d7d476f90b10d739e6e"
+      },
+      "chapters_written": [
+        "01-bilan-lumineux.html",
+        "02-rotation-et-suivi.html"
+      ],
+      "chapters_remaining": [
+        "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
+      ],
+      "sources_consulted": [
+        {
+          "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/light.html",
+          "date": "2026-11-12",
+          "scope": "Quantifying Light, UV and IR; Measuring Light and its Exposure; lecture ciblée"
+        },
+        {
+          "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/light.html",
+          "date": "2026-11-12",
+          "scope": "Section A risk-management strategy: Accept and manage fading and visibility; calculateur non utilisé"
+        }
+      ],
+      "checks_executed": [
+        "Main du 18 novembre: page et baseline ART-010 inchangées, aucun chapitre développé concurrent",
+        "Chapitre 01 remesuré 12860; chapitre 02 remesuré 14231; total 27091 hors références et anciennes éditions",
+        "Rendu déterministe revérifié le 18 novembre",
+        "Huit groupes d'assertions arithmétiques et identifiants uniques vérifiés lors de la rédaction du 12 novembre",
+        "Budgets fictifs, suivi par œuvre et distinction seuil de vigilance/dommage explicités"
+      ],
+      "states": {
+        "saved": "This branch commit",
+        "controlled": "Volume, calculs, déterminisme et identifiants; contrôle rédactionnel",
+        "published": false
+      },
+      "limits": [
+        "Cours incomplet non publié",
+        "Relecture indépendante en conservation et contrôle visuel ouverts",
+        "Aucune œuvre réelle ni série de capteur examinée"
+      ],
+      "next_action": "Préserver ART-010 sans allongement. Mesurer VOCE-ART-011 sur main et sources sauvegardées avant sélection et rédaction.",
+      "files_recorded_in_this_batch": [
+        "content/courses/engineering/VOCE-ART-010/02-rotation-et-suivi.html",
+        "content/courses/engineering/VOCE-ART-010/references.html",
+        "docs/education/rewrite-progress.json",
+        "docs/education/course-selection-20000.json"
+      ]
     }
   },
   "selection_policy": {
@@ -3350,9 +3414,10 @@
       "VOCE-ART-007",
       "VOCE-ART-008",
       "VOCE-ART-009",
+      "VOCE-ART-010",
       "VOCE-COG-012"
     ],
-    "eligible_count": 50,
+    "eligible_count": 49,
     "main_read": "42234611fa98b8b4642c4e882dee2db61a7bafab",
     "note": "Selection count, not number of scientifically validated courses. Review of public deployment not repeated."
   }
