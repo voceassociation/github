@@ -3,7 +3,7 @@
   "updated_on": "2026-11-18",
   "branch": "fix/course-acceptance-75000",
   "pull_request": 39,
-  "base_head_read": "83ec701f07b14ac3dcec4d7d476f90b10d739e6e",
+  "base_head_read": "d3218a85a79971a06bfe115cadfa6fc1c46a448b",
   "publication": {
     "allowed_now": true,
     "condition": "Publication progressive de chaque cours achevé et contrôlé ; chapitres incomplets exclus",
@@ -62,8 +62,8 @@
     "total": 120,
     "rewritten_editions": 2,
     "fully_reviewed": 0,
-    "in_progress": 0,
-    "not_started_in_this_rewrite": 49,
+    "in_progress": 1,
+    "not_started_in_this_rewrite": 48,
     "preserved_by_selection": 71,
     "eligible_under_20000": 49
   },
@@ -77,46 +77,40 @@
     ]
   },
   "current_course": {
-    "id": "VOCE-ART-010",
-    "title": "Une exposition est un budget d'exposition à la lumière",
-    "status": "preserved_incomplete_no_further_rewrite",
-    "lesson_characters": 27091,
-    "batch_new_lesson_characters": 14231,
-    "measurement": "Texte du bloc lesson normalisé, espaces compris; références, métadonnées et anciennes éditions exclues.",
+    "id": "VOCE-ART-011",
+    "title": "Le climat d'une vitrine doit être mesuré dans le temps",
+    "status": "draft_in_progress_not_published",
+    "lesson_characters": 13673,
+    "batch_new_lesson_characters": 13673,
+    "measurement": "Corps lesson normalisé, espaces compris; références et anciennes éditions exclues.",
     "selection_before_write": {
-      "main": 7571,
-      "branch": 7571,
-      "baseline_main": 553,
-      "baseline_branch": 553,
-      "saved_chapters": 12860,
+      "main": 7653,
+      "branch": 7653,
+      "saved_chapters": 0,
       "main_commit": "41e9472ced0cd724e490671d44faf6b7c5eb1f43",
-      "branch_commit": "83ec701f07b14ac3dcec4d7d476f90b10d739e6e"
+      "branch_commit": "d3218a85a79971a06bfe115cadfa6fc1c46a448b",
+      "baseline": "Même blob sur main et branche; non additionné à la page"
     },
     "chapters_written": [
-      "01-bilan-lumineux.html",
-      "02-rotation-et-suivi.html"
+      "01-lire-serie-humidite.html"
     ],
     "chapters_remaining": [
-      "03 — Exercices et corrigés non rédigés; allongement suspendu car seuil de préservation atteint"
+      "02 — Comparer les séries synchronisées de la salle et de la vitrine, les ouvertures et les réponses thermiques",
+      "03 — Exercices et corrigés"
     ],
     "sources_consulted": [
       {
-        "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/light.html",
-        "date": "2026-11-12",
-        "scope": "Quantifying Light, UV and IR; Measuring Light and its Exposure; lecture ciblée"
-      },
-      {
-        "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/light.html",
-        "date": "2026-11-12",
-        "scope": "Section A risk-management strategy: Accept and manage fading and visibility; calculateur non utilisé"
+        "url": "https://www.canada.ca/en/conservation-institute/services/agents-deterioration/humidity.html",
+        "date": "2026-11-18",
+        "scope": "Definition et relation entre humidité relative et température; lecture ciblée"
       }
     ],
     "checks_executed": [
-      "Main du 18 novembre: page et baseline ART-010 inchangées, aucun chapitre développé concurrent",
-      "Chapitre 01 remesuré 12860; chapitre 02 remesuré 14231; total 27091 hors références et anciennes éditions",
-      "Rendu déterministe revérifié le 18 novembre",
-      "Huit groupes d'assertions arithmétiques et identifiants uniques vérifiés lors de la rédaction du 12 novembre",
-      "Budgets fictifs, suivi par œuvre et distinction seuil de vigilance/dommage explicités"
+      "Main/branche: mêmes blobs page et baseline; aucun chapitre ART-011 sauvegardé",
+      "Page remesurée 7653; nouveau chapitre 13673",
+      "Deux rendus identiques octet par octet; identifiants uniques",
+      "Cinq groupes d'assertions arithmétiques réussis: moyennes, pondération, rapport de pressions, vitesse moyenne et lacunes",
+      "Contrôle rédactionnel: cas fictif, bande analytique non prescriptive, données et hypothèses distinguées"
     ],
     "states": {
       "saved": "This branch commit",
@@ -126,12 +120,13 @@
     "limits": [
       "Cours incomplet non publié",
       "Relecture indépendante en conservation et contrôle visuel ouverts",
-      "Aucune œuvre réelle ni série de capteur examinée"
+      "Aucune série instrumentale réelle ni œuvre examinée"
     ],
-    "next_action": "Préserver ART-010 sans allongement. Mesurer VOCE-ART-011 sur main et sources sauvegardées avant sélection et rédaction.",
+    "next_action": "Remesurer ART-011 sur main et sources sauvegardées. Si toujours sous 20000, rédiger chapitre 02 — Comparer les séries synchronisées de la salle et de la vitrine, les ouvertures et les réponses thermiques; sinon préserver sans allongement.",
     "files_recorded_in_this_batch": [
-      "content/courses/engineering/VOCE-ART-010/02-rotation-et-suivi.html",
-      "content/courses/engineering/VOCE-ART-010/references.html",
+      "content/courses/engineering/VOCE-ART-011/01-lire-serie-humidite.html",
+      "content/courses/engineering/VOCE-ART-011/references.html",
+      "content/courses/engineering/VOCE-ART-011/render.py",
       "docs/education/rewrite-progress.json",
       "docs/education/course-selection-20000.json"
     ]
